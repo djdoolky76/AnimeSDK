@@ -7,6 +7,7 @@
 #include "unitysdk/JDNEAIDOOAN_JEHPNMNHPLJ.h"
 #include "unitysdk/JDNEAIDOOAN_LMKDFFLDGDN.h"
 #include "unitysdk/NJOOOHDMEJC.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -29,10 +30,10 @@ namespace RPGTools::LDWhiteBox { class WhiteBoxConnector; }
 namespace RPGTools::LDWhiteBox { class WhiteBoxPath; }
 namespace RPGTools::LDWhiteBox { class WhiteBoxRegion; }
 namespace RPGTools::LDWhiteBox { class WhiteBoxRouteNode; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -362,9 +363,9 @@ inline static constexpr unsigned int JDNEAIDOOAN_TypeDefinitionIndex = 48937;
 			return ((::System::Void(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Int32, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_EJOAEKAHLMH_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void MNHHFIHLJLH(::KJLLEKDIBHE* a1, ::System::String* a2, ::System::Int32 a3, ::System::String* a4, ::Il2CppArray<::System::Single>* a5, ::System::Action* a6, ::HGGENLBDAPM* a7)
+		static ::System::Void MNHHFIHLJLH(::KJLLEKDIBHE* a1, ::System::String* a2, ::System::Int32 a3, ::System::String* a4, ::Il2CppArray<::System::Single>* a5, ::System::Action_1<::Il2CppArray<::System::Single>*>* a6, ::HGGENLBDAPM* a7)
 		{
-			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::String*, ::System::Int32, ::System::String*, ::Il2CppArray<::System::Single>*, ::System::Action*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MNHHFIHLJLH_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::KJLLEKDIBHE*, ::System::String*, ::System::Int32, ::System::String*, ::Il2CppArray<::System::Single>*, ::System::Action_1<::Il2CppArray<::System::Single>*>*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_MNHHFIHLJLH_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Void EBMKLIFKNDI(::KJLLEKDIBHE* a1, ::KJLLEKDIBHE* a2, ::HGGENLBDAPM* a3)
@@ -797,9 +798,9 @@ inline static constexpr unsigned int JDNEAIDOOAN_TypeDefinitionIndex = 48937;
 			return ((::System::Boolean(*)(::KJLLEKDIBHE*, ::IJMLKBLCLGH*, ::System::Collections::Generic::IReadOnlyList_1<::KJLLEKDIBHE*>*, ::System::Object*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_LHCBLOHBKIO_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::NJOOOHDMEJC OMBGCDBOIJM(::GGCJNDECBLC* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a2, ::System::Int32 a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		static ::NJOOOHDMEJC OMBGCDBOIJM(::GGCJNDECBLC* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a2, ::System::Int32 a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5)
 		{
-			return ((::NJOOOHDMEJC(*)(::GGCJNDECBLC*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Int32, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OMBGCDBOIJM_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::NJOOOHDMEJC(*)(::GGCJNDECBLC*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Int32, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OMBGCDBOIJM_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::UnityEngine::Vector3 CHKFJJGOAFP(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3)
@@ -1267,19 +1268,19 @@ inline static constexpr unsigned int JDNEAIDOOAN_TypeDefinitionIndex = 48937;
 			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_PBEEPJFHLJG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void FOBLNNDFPAG(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4, ::System::Action* a5)
+		static ::System::Void FOBLNNDFPAG(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>* a5)
 		{
-			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::System::String*, ::HGGENLBDAPM*, ::System::Action*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FOBLNNDFPAG_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::System::String*, ::HGGENLBDAPM*, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_FOBLNNDFPAG_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void OICAEIOLKIF(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4, ::System::Action* a5)
+		static ::System::Void OICAEIOLKIF(::Newtonsoft::Json::Linq::JObject* a1, ::System::String* a2, ::System::String* a3, ::HGGENLBDAPM* a4, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>* a5)
 		{
-			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::System::String*, ::HGGENLBDAPM*, ::System::Action*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OICAEIOLKIF_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JObject*, ::System::String*, ::System::String*, ::HGGENLBDAPM*, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_OICAEIOLKIF_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void CGBNBKPECFI(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3, ::System::Action* a4)
+		static ::System::Void CGBNBKPECFI(::Newtonsoft::Json::Linq::JToken* a1, ::System::String* a2, ::HGGENLBDAPM* a3, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>* a4)
 		{
-			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*, ::System::Action*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CGBNBKPECFI_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*, ::System::Action_3<::Newtonsoft::Json::Linq::JToken*, ::System::String*, ::HGGENLBDAPM*>*))((::PBYTE)hIl2Cpp + JDNEAIDOOAN_CGBNBKPECFI_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void EFIEPIODKOG(::Newtonsoft::Json::Linq::JObject* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2, ::System::String* a3, ::HGGENLBDAPM* a4)

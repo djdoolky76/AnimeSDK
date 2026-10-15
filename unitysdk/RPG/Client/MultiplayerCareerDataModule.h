@@ -5,9 +5,9 @@
 namespace RPG::Client { class FriendRankingInfo; }
 namespace RPG::Client { class MatchPlayRecord; }
 namespace RPG::Client { class MultiplayerCareerData; }
-namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -41,14 +41,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERCAREERDATAMODULE__ADDPACKETHANDLERS_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* FriendRankingInfoPromised(::FJPMJPEKLJL a1)
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::FriendRankingInfo*>*>* FriendRankingInfoPromised(::FJPMJPEKLJL a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::FJPMJPEKLJL))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERCAREERDATAMODULE_FRIENDRANKINGINFOPROMISED_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::FriendRankingInfo*>*>*(*)(::PVOID, ::FJPMJPEKLJL))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERCAREERDATAMODULE_FRIENDRANKINGINFOPROMISED_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* MatchPlayDataRefreshed(::FJPMJPEKLJL a1)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::MatchPlayRecord*>* MatchPlayDataRefreshed(::FJPMJPEKLJL a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::FJPMJPEKLJL))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERCAREERDATAMODULE_MATCHPLAYDATAREFRESHED_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::MatchPlayRecord*>*(*)(::PVOID, ::FJPMJPEKLJL))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERCAREERDATAMODULE_MATCHPLAYDATAREFRESHED_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MultiplayerCareerData* GetCareerData(::FJPMJPEKLJL a1)
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MultiplayerCareerData*(*)(::PVOID, ::FJPMJPEKLJL))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERCAREERDATAMODULE_GETCAREERDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterMatchPlayDataUpdatedListener(::FJPMJPEKLJL a1, ::System::Action* a2)
+		::System::Void RegisterMatchPlayDataUpdatedListener(::FJPMJPEKLJL a1, ::System::Action_1<::RPG::Client::MatchPlayRecord*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::FJPMJPEKLJL, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERCAREERDATAMODULE_REGISTERMATCHPLAYDATAUPDATEDLISTENER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::FJPMJPEKLJL, ::System::Action_1<::RPG::Client::MatchPlayRecord*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERCAREERDATAMODULE_REGISTERMATCHPLAYDATAUPDATEDLISTENER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnSelfRankChangeNtf(::System::UInt16 a1, ::System::Object* a2)

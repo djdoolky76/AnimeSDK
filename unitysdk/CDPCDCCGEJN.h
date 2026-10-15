@@ -7,9 +7,9 @@ class ELDOKLOMKNL;
 class HGCEOEHGPPE;
 class HIAMBDKHMIJ;
 class KGPCBBIOGLB;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CDPCDCCGEJN_AFIKIOFOFJM_OFFSET UNITYSDK_OFFSET(0xC777780)
@@ -38,7 +38,7 @@ inline static constexpr unsigned int CDPCDCCGEJN_TypeDefinitionIndex = 59572;
 	class CDPCDCCGEJN : public ::IHFGILEEIGA
 	{
 	public:
-		::System::Action* FMEEHKGMCLC; // 0x30
+		::System::Action_2<::KGPCBBIOGLB*, ::System::Object*>* FMEEHKGMCLC; // 0x30
 		::System::Collections::Generic::List_1<::System::Object*>* PJHMGKIGDCD; // 0x38
 		::ELDOKLOMKNL* BMFABNKOJOH; // 0x40
 		::HGCEOEHGPPE* LKBKDNAMNEG; // 0x48

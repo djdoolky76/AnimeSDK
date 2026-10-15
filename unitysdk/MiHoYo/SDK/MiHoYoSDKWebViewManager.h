@@ -4,6 +4,7 @@
 #include "unitysdk/MiHoYo/SDK/MiHoYoSDKWebViewManager_RenderMethod.h"
 #include "unitysdk/MiHoYo/SDK/WebFeature.h"
 #include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/Browser_NewWindowAction.h"
 #include "unitysdk/MiHoYo/SDK/BrowserWin32Helper_RECT.h"
@@ -17,9 +18,9 @@ namespace MiHoYo::SDK { class PressedTextButton; }
 namespace MiHoYo::SDK { class Web; }
 namespace System { class Action; }
 namespace System { class Exception; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -288,7 +289,7 @@ namespace MiHoYo::SDK
 		::System::Boolean offScreen; // 0x94
 		::System::Boolean forceOffScreen; // 0x95
 		::System::Byte _padding4[0x2];
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* jsPostMessageDic; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::JSONNode*>*>* jsPostMessageDic; // 0x98
 		::UnityEngine::GameObject* content; // 0xA0
 		::UnityEngine::GameObject* bg; // 0xA8
 		::UnityEngine::GameObject* loadingImage; // 0xB0
@@ -322,7 +323,7 @@ namespace MiHoYo::SDK
 		::System::Boolean loadFinished; // 0x189
 		::System::Byte _padding5[0x2];
 		::System::Single showWebAnimationBeginTime; // 0x18C
-		::System::Nullable* forceHideNaviBar; // 0x190
+		::System::Nullable_1<::System::Boolean> forceHideNaviBar; // 0x190
 		::System::Boolean webLoadFinishedAnimationPlayed; // 0x192
 		::System::Boolean isClosing; // 0x193
 		::System::Boolean changingVisible; // 0x194
@@ -433,19 +434,19 @@ namespace MiHoYo::SDK
 			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C7B);
 		}
 
-		static ::System::Nullable** StaticGet_audioEffectVolume()
+		static ::System::Nullable_1<::System::Int32>* StaticGet_audioEffectVolume()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C7C);
+			return (::System::Nullable_1<::System::Int32>*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C7C);
 		}
 
-		static ::System::Nullable** StaticGet_originalHostGameFps()
+		static ::System::Nullable_1<::System::Int32>* StaticGet_originalHostGameFps()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C84);
+			return (::System::Nullable_1<::System::Int32>*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C84);
 		}
 
-		static ::System::Nullable** StaticGet_bgmVolume()
+		static ::System::Nullable_1<::System::Int32>* StaticGet_bgmVolume()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C8C);
+			return (::System::Nullable_1<::System::Int32>*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C8C);
 		}
 
 		static ::MiHoYo::SDK::MiHoYoSDKWebViewManager_PreloadStatus* StaticGet_CurPreloadStatus()
@@ -453,9 +454,9 @@ namespace MiHoYo::SDK
 			return (::MiHoYo::SDK::MiHoYoSDKWebViewManager_PreloadStatus*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C94);
 		}
 
-		static ::System::Nullable** StaticGet_voiceVolume()
+		static ::System::Nullable_1<::System::Int32>* StaticGet_voiceVolume()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C98);
+			return (::System::Nullable_1<::System::Int32>*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7C98);
 		}
 
 		static ::System::Single* StaticGet_NavPaddingRatio()
@@ -463,9 +464,9 @@ namespace MiHoYo::SDK
 			return (::System::Single*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7CA0);
 		}
 
-		static ::System::Nullable** StaticGet_serverConfigRenderMethod()
+		static ::System::Nullable_1<::System::Object*>* StaticGet_serverConfigRenderMethod()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7CA4);
+			return (::System::Nullable_1<::System::Object*>*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7CA4);
 		}
 
 		static ::System::Boolean* StaticGet_firstLoaded()
@@ -488,9 +489,9 @@ namespace MiHoYo::SDK
 			return (::System::Single*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7CB0);
 		}
 
-		static ::System::Nullable** StaticGet_volume()
+		static ::System::Nullable_1<::System::Int32>* StaticGet_volume()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7CB4);
+			return (::System::Nullable_1<::System::Int32>*)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKWebViewManager")->GetStaticField(0x7CB4);
 		}
 
 		// static const ::System::String* WebViewPerfabPath; // 0x0
@@ -1240,9 +1241,9 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_ISNEEDFULLSCREEN_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* EscWaitingTime(::System::String* a1)
+		::System::Nullable_1<::System::Int32> EscWaitingTime(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_ESCWAITINGTIME_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_ESCWAITINGTIME_OFFSET))(this, a1);
 		}
 
 		::System::Void OnAnyBrowserDestroyed(::ZenFulcrum::EmbeddedBrowser::Browser* a1)
@@ -1285,9 +1286,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_CALLJSFUNCTION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void RegisterJSPostMessage(::System::String* a1, ::System::Action* a2)
+		::System::Void RegisterJSPostMessage(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::JSONNode*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_REGISTERJSPOSTMESSAGE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::JSONNode*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_REGISTERJSPOSTMESSAGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void TryInvokeJSSDKPublish()
@@ -1300,9 +1301,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_REGISTERMIHOYOSDKINVOKEOBJECT_OFFSET))(this);
 		}
 
-		static ::System::Int32 GetVolumeValue(::System::Nullable* a1, ::System::Nullable* a2)
+		static ::System::Int32 GetVolumeValue(::System::Nullable_1<::System::Int32> a1, ::System::Nullable_1<::System::Int32> a2)
 		{
-			return ((::System::Int32(*)(::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_GETVOLUMEVALUE_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_GETVOLUMEVALUE_OFFSET))(a1, a2);
 		}
 
 		::System::Void ReviceInvokePostMessage(::MiHoYo::SDK::JSONNode* a1)
@@ -1530,9 +1531,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_SETCURRENTWEBVIEWANIMATIONENABLE_OFFSET))(this, a1);
 		}
 
-		static ::System::Nullable* StringToRenderMethod(::System::String* a1)
+		static ::System::Nullable_1<::System::Object*> StringToRenderMethod(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_STRINGTORENDERMETHOD_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::Object*>(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_STRINGTORENDERMETHOD_OFFSET))(a1);
 		}
 
 		static ::System::Void UpdateJoypadControl()

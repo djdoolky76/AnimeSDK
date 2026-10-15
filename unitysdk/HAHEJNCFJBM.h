@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class ODCELNBAEIB;
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace RPG::GameCore { class TeamTowersMobileInputConfig; }
-namespace System { class Nullable; }
 
 #define HAHEJNCFJBM_AHLNOJKJCAN_OFFSET UNITYSDK_OFFSET(0x15B77190)
 #define HAHEJNCFJBM_CDIMJJKNDFP_OFFSET UNITYSDK_OFFSET(0x15B77060)
@@ -39,7 +39,7 @@ inline static constexpr unsigned int HAHEJNCFJBM_TypeDefinitionIndex = 79110;
 		::System::Boolean LCIMLKOHBDJ; // 0x2A
 		::System::Boolean HPBENKGOMKA; // 0x2B
 		::System::Single JMKACDADNGI; // 0x2C
-		::System::Nullable* NPHFNMFEGMH; // 0x30
+		::System::Nullable_1<::UnityEngine::Vector2> NPHFNMFEGMH; // 0x30
 		::System::Byte _padding0[0x4];
 		::System::Boolean FGEOFGJENIA; // 0x3C
 		::System::Byte _padding1[0x3];

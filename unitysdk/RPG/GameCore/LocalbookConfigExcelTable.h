@@ -5,8 +5,8 @@
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LocalbookConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LocalbookConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "LocalbookConfigExcelTable")->GetStaticField(0x32228);
 		}
 
-		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "LocalbookConfigExcelTable")->GetStaticField(0x32230);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "LocalbookConfigExcelTable")->GetStaticField(0x32230);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()

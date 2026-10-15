@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class MMNMMKNDPGN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MMNMMKNDPGN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9DE4C0)
 #define MMNMMKNDPGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB9DE500)
@@ -15,14 +15,14 @@ inline static constexpr unsigned int MMNMMKNDPGN___c_TypeDefinitionIndex = 76927
 	class MMNMMKNDPGN___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__38_0()
+		static ::System::Action_1<::MMNMMKNDPGN*>** StaticGet___9__38_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFCA0);
+			return (::System::Action_1<::MMNMMKNDPGN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFCA0);
 		}
 
-		static ::System::Action** StaticGet___9__40_0()
+		static ::System::Action_1<::MMNMMKNDPGN*>** StaticGet___9__40_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFCA8);
+			return (::System::Action_1<::MMNMMKNDPGN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFCA8);
 		}
 
 		static ::System::Object** StaticGet___9()

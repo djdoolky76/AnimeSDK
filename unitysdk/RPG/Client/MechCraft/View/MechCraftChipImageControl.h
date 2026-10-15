@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftRotationType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class PIIOAKOEACN;
 namespace RPG::Client::MechCraft::View { class MechCraftChipImageControlBinder; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class SmoothMask; }
@@ -33,7 +33,7 @@ namespace RPG::Client::MechCraft::View
 		::RPG::Client::MechCraft::View::MechCraftChipImageControlBinder* _Binder; // 0x18
 		::UnityEngine::Vector2 _CellSize; // 0x20
 		::PIIOAKOEACN* GIEPEGOALHN; // 0x28
-		::System::Nullable* HGJMGGFMKPD; // 0x30
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> HGJMGGFMKPD; // 0x30
 		::RPG::Client::MechCraft::MechCraftRotationType NCMEPPHLGEG; // 0x38
 		::System::Void _ctor()
 		{
@@ -60,14 +60,14 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::PIIOAKOEACN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPIMAGECONTROL_SET_CHIP_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_AttributeType()
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> get_AttributeType()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPIMAGECONTROL_GET_ATTRIBUTETYPE_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPIMAGECONTROL_GET_ATTRIBUTETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_AttributeType(::System::Nullable* a1)
+		::System::Void set_AttributeType(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPIMAGECONTROL_SET_ATTRIBUTETYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCHIPIMAGECONTROL_SET_ATTRIBUTETYPE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MechCraft::MechCraftRotationType get_Rotation()

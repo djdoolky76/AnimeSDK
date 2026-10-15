@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/IDMGKNGKLDH.h"
 class BJMFOPNJPHE;
@@ -21,7 +22,6 @@ namespace RPG::GameCore { class MonsterRow; }
 namespace RPG::GameCore { class MonsterSkillRow; }
 namespace RPG::GameCore { class MonsterTemplateRow; }
 namespace RPG::GameCore { class StageRow; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -116,9 +116,9 @@ namespace RPG::GameCore
 		::CDBPIOPBHID* _AllPhaseSkills; // 0xE8
 		::RPG::GameCore::CharacterConfig* _Json; // 0xF0
 		::RPG::GameCore::FixPoint _MaxHP; // 0xF8
-		::System::Nullable* _MaxStance; // 0x100
+		::System::Nullable_1<::RPG::GameCore::FixPoint> _MaxStance; // 0x100
 		::System::Byte _padding0[0x8];
-		::System::Nullable* _InitStance; // 0x110
+		::System::Nullable_1<::RPG::GameCore::FixPoint> _InitStance; // 0x110
 		::System::Byte _padding1[0x8];
 		::RPG::GameCore::FixPoint _InitHP; // 0x120
 		static ::System::Collections::Generic::List_1<::RPG::GameCore::MonsterSkillRow*>** StaticGet__TmpSkillRowList()

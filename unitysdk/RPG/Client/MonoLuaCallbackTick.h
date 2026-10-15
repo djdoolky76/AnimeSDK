@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class MonoLuaCallbackTick; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
 
@@ -22,7 +22,7 @@ namespace RPG::Client
 	class MonoLuaCallbackTick : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* _LuaCallback; // 0x18
+		::System::Action_1<::System::Object*>* _LuaCallback; // 0x18
 		::XLua::LuaTable* _LuaCallbackParam; // 0x20
 		::System::Void _ctor()
 		{
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MonoLuaCallbackTick*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK_GET_OFFSET))(a1);
 		}
 
-		::System::Void SetLuaCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void SetLuaCallback(::System::Action_1<::System::Object*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK_SETLUACALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK_SETLUACALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LateUpdate()

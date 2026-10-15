@@ -4,7 +4,7 @@
 class BABNOKHOBCF;
 class INMMPMDELKE;
 class MNCOPNHONHO;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define PDOPIEJIBCF_BCMMIDOLGOP_OFFSET UNITYSDK_OFFSET(0xC0228F0)
 #define PDOPIEJIBCF_CTOR_OFFSET UNITYSDK_OFFSET(0xC022820)
@@ -17,7 +17,7 @@ inline static constexpr unsigned int PDOPIEJIBCF_TypeDefinitionIndex = 76714;
 	class PDOPIEJIBCF : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* MIGADKPEGEF; // 0x10
+		::Entitas::IGroup_1<::INMMPMDELKE*>* MIGADKPEGEF; // 0x10
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x18
 		::BABNOKHOBCF* FKINCGODJEP; // 0x20
 		::System::Void _ctor(::MNCOPNHONHO* a1, ::BABNOKHOBCF* a2)

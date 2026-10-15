@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatCampaignConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGEXCELTABLE_ASZLINQENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1D605E40)
 #define RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D606D50)
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DiceCombatCampaignConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "DiceCombatCampaignConfigExcelTable")->GetStaticField(0x1A620);
 		}
 
-		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "DiceCombatCampaignConfigExcelTable")->GetStaticField(0x1A628);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "DiceCombatCampaignConfigExcelTable")->GetStaticField(0x1A628);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
@@ -78,9 +78,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DiceCombatCampaignConfigRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGEXCELTABLE_GETENUMERATOR_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* AsZLinqEnumerable()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DiceCombatCampaignConfigRow*>, ::RPG::GameCore::DiceCombatCampaignConfigRow*> AsZLinqEnumerable()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGEXCELTABLE_ASZLINQENUMERABLE_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DiceCombatCampaignConfigRow*>, ::RPG::GameCore::DiceCombatCampaignConfigRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGEXCELTABLE_ASZLINQENUMERABLE_OFFSET))();
 		}
 
 		static ::RPG::GameCore::DiceCombatCampaignConfigRow* GetData(::System::UInt32 a1)

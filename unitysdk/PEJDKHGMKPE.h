@@ -8,8 +8,8 @@ class KAILJFHGCFF;
 class OEIKFPLBOMH;
 class OMLLJLMOFNK;
 namespace R3 { class CompositeDisposable; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 inline static constexpr unsigned int PEJDKHGMKPE_TypeDefinitionIndex = 50017;
@@ -26,9 +26,9 @@ inline static constexpr unsigned int PEJDKHGMKPE_TypeDefinitionIndex = 50017;
 		::GKMHPIPOKLE* _ButtonClickGuard_k__BackingField; // 0x0
 		::FPBBBGGNCIF _Environment_k__BackingField; // 0x0
 		::System::Object* _Subscriber_k__BackingField; // 0x0
-		static ::System::Action** StaticGet_KJBEKBAIEBH()
+		static ::System::Action_2<::CABAELAPPDA, ::OMLLJLMOFNK*>** StaticGet_KJBEKBAIEBH()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "PEJDKHGMKPE")->GetStaticField(0x0);
+			return (::System::Action_2<::CABAELAPPDA, ::OMLLJLMOFNK*>**)UnitySDK::FromName("", "PEJDKHGMKPE")->GetStaticField(0x0);
 		}
 
 	};

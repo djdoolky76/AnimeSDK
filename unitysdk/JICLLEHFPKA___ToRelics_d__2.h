@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class KGHMBCLFFLG;
 class MHCKKNGNKHK;
 class NPCCFNJPBNL;
@@ -28,7 +28,7 @@ inline static constexpr unsigned int JICLLEHFPKA___ToRelics_d__2_TypeDefinitionI
 	public:
 		::NPCCFNJPBNL* uniqueData; // 0x10
 		::System::Collections::Generic::IEnumerator_1<::MHCKKNGNKHK*>* __7__wrap1; // 0x18
-		::System::ValueTuple __2__current; // 0x20
+		::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*> __2__current; // 0x20
 		::System::Byte _padding0[0x8];
 		::NPCCFNJPBNL* __3__uniqueData; // 0x30
 		::System::Int32 __l__initialThreadId; // 0x38
@@ -53,9 +53,9 @@ inline static constexpr unsigned int JICLLEHFPKA___ToRelics_d__2_TypeDefinitionI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JICLLEHFPKA___TORELICS_D__2___M__FINALLY1_OFFSET))(this);
 		}
 
-		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_RPG_GameCore_RelicType_RPG_AvatarSystem_IRelicProxy___get_Current()
+		::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*> System_Collections_Generic_IEnumerator_System_ValueTuple_RPG_GameCore_RelicType_RPG_AvatarSystem_IRelicProxy___get_Current()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + JICLLEHFPKA___TORELICS_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_RPG_GAMECORE_RELICTYPE_RPG_AVATARSYSTEM_IRELICPROXY___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>(*)(::PVOID))((::PBYTE)hIl2Cpp + JICLLEHFPKA___TORELICS_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_RPG_GAMECORE_RELICTYPE_RPG_AVATARSYSTEM_IRELICPROXY___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -68,9 +68,9 @@ inline static constexpr unsigned int JICLLEHFPKA___ToRelics_d__2_TypeDefinitionI
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + JICLLEHFPKA___TORELICS_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>* System_Collections_Generic_IEnumerable_System_ValueTuple_RPG_GameCore_RelicType_RPG_AvatarSystem_IRelicProxy___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>* System_Collections_Generic_IEnumerable_System_ValueTuple_RPG_GameCore_RelicType_RPG_AvatarSystem_IRelicProxy___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JICLLEHFPKA___TORELICS_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_RPG_GAMECORE_RELICTYPE_RPG_AVATARSYSTEM_IRELICPROXY___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JICLLEHFPKA___TORELICS_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_RPG_GAMECORE_RELICTYPE_RPG_AVATARSYSTEM_IRELICPROXY___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

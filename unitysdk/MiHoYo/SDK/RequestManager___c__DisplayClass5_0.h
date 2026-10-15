@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC6490)
 #define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS5_0__GETMAILVERIFYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1BFD0400)
@@ -16,7 +16,7 @@ namespace MiHoYo::SDK
 	{
 	public:
 		::System::String* actionTicket; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
 		::System::String* actionType; // 0x20
 		::System::String* url; // 0x28
 		::System::Void _ctor()

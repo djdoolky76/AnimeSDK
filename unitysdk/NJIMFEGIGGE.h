@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/APCGKBOPGJL.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DNIAIFGHFLM;
 class DPHIFKIPMLI;
 class HPJEECIEDAB;
@@ -19,7 +19,7 @@ inline static constexpr unsigned int NJIMFEGIGGE_TypeDefinitionIndex = 62635;
 	class NJIMFEGIGGE : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::GameCore::AvatarSkillRowData*>* PFBKNEFKOLB; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::AvatarSkillRowData*>* PFBKNEFKOLB; // 0x10
 		::DNIAIFGHFLM* GOHMGCHLKLM; // 0x18
 		::DPHIFKIPMLI* NOFADOEHCCJ; // 0x20
 		::HPJEECIEDAB* IHFNBHEIIAI; // 0x28

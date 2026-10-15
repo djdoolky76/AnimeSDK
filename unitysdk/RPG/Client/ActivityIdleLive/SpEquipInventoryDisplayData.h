@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/BaseSpEquipInventoryDisplayData.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotInfo; }
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
@@ -36,9 +36,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA_WEARSTRONGESTEQUIPS_OFFSET))(this);
 		}
 
-		::System::Void _UpdateQuickStrategySelectedEquips(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Void _UpdateQuickStrategySelectedEquips(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA__UPDATEQUICKSTRATEGYSELECTEDEQUIPS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA__UPDATEQUICKSTRATEGYSELECTEDEQUIPS_OFFSET))(this, a1);
 		}
 
 		::System::Void WearEquip(::RPG::Client::ActivityIdleLive::SpecialEquip* a1)

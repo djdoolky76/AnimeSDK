@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EAPGFKLGCDH.h"
 #include "unitysdk/RPG/Client/ETravelShipState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -17,7 +18,6 @@ namespace RPG::Client { class TravelShipPuzzleBoard; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterInputData; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -85,7 +85,7 @@ inline static constexpr unsigned int MGJOAOHPFBO_TypeDefinitionIndex = 68790;
 		::IIMKPMNCFFI* IEPCIODGJJD; // 0x50
 		::RPG::Client::TravelShipPuzzleBoard* CCAHGFIABKE; // 0x58
 		::GPGDJDKKHNE* EHOAMKDICDN; // 0x60
-		::System::Nullable* _NavigationPoint_k__BackingField; // 0x68
+		::System::Nullable_1<::UnityEngine::Vector3> _NavigationPoint_k__BackingField; // 0x68
 		::System::Byte _padding0[0x8];
 		::System::Boolean NEJFFBMGICC; // 0x78
 		::System::Boolean _NavigateShowToast_k__BackingField; // 0x79
@@ -304,14 +304,14 @@ inline static constexpr unsigned int MGJOAOHPFBO_TypeDefinitionIndex = 68790;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MGJOAOHPFBO_SET_NAVIGATEFLAG_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_NavigationPoint()
+		::System::Nullable_1<::UnityEngine::Vector3> get_NavigationPoint()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MGJOAOHPFBO_GET_NAVIGATIONPOINT_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + MGJOAOHPFBO_GET_NAVIGATIONPOINT_OFFSET))(this);
 		}
 
-		::System::Void set_NavigationPoint(::System::Nullable* a1)
+		::System::Void set_NavigationPoint(::System::Nullable_1<::UnityEngine::Vector3> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + MGJOAOHPFBO_SET_NAVIGATIONPOINT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + MGJOAOHPFBO_SET_NAVIGATIONPOINT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean LCIIIBKDPBK()

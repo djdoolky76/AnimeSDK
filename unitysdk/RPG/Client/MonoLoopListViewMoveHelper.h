@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace SuperScrollView { class LoopListView2; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
 
@@ -20,7 +20,7 @@ namespace RPG::Client
 	class MonoLoopListViewMoveHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* _OnPerformFinished; // 0x18
+		::System::Action_1<::XLua::LuaTable*>* _OnPerformFinished; // 0x18
 		::XLua::LuaTable* _CallbackOwner; // 0x20
 		::System::Single _CurTime; // 0x28
 		::System::Boolean _PauseTick; // 0x2C
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVEPANELTOITEMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void MoveToBottom(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void MoveToBottom(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET))(this, a1, a2);
 		}
 
 	};

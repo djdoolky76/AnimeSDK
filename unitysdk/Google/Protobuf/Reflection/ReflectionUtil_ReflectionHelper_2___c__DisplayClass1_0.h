@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Google::Protobuf::Reflection
 {
@@ -11,6 +11,6 @@ namespace Google::Protobuf::Reflection
 	class ReflectionUtil_ReflectionHelper_2___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Action* del; // 0x0
+		::System::Action_1<T1>* del; // 0x0
 	};
 }

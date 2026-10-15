@@ -4,14 +4,14 @@
 #include "unitysdk/BFOGLEGJOLK.h"
 #include "unitysdk/CAAFCOGHNMC_DGGCFEEBNMH.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator_2.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 class OFLIAAOJPJC;
 namespace RPG::GameCore { class PerformanceSkipDRow; }
 namespace RPG::GameCore { template <typename T1, typename T2> class TableLRUCache_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -52,9 +52,9 @@ inline static constexpr unsigned int CAAFCOGHNMC_TypeDefinitionIndex = 14375;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CAAFCOGHNMC")->GetStaticField(0x3A1D0);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "CAAFCOGHNMC")->GetStaticField(0x3A1D8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CAAFCOGHNMC")->GetStaticField(0x3A1D8);
 		}
 
 		static ::System::String** StaticGet_PCJBKGCDGPO()
@@ -132,9 +132,9 @@ inline static constexpr unsigned int CAAFCOGHNMC_TypeDefinitionIndex = 14375;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CAAFCOGHNMC_KACCGMCPAFN_OFFSET))();
 		}
 
-		static ::System::Void MDDEBCEINEJ(::System::ValueTuple a1, ::RPG::GameCore::PerformanceSkipDRow* a2)
+		static ::System::Void MDDEBCEINEJ(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1, ::RPG::GameCore::PerformanceSkipDRow* a2)
 		{
-			return ((::System::Void(*)(::System::ValueTuple, ::RPG::GameCore::PerformanceSkipDRow*))((::PBYTE)hIl2Cpp + CAAFCOGHNMC_MDDEBCEINEJ_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>, ::RPG::GameCore::PerformanceSkipDRow*))((::PBYTE)hIl2Cpp + CAAFCOGHNMC_MDDEBCEINEJ_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean OKONOOJEJMJ(::CAAFCOGHNMC_DGGCFEEBNMH a1, ::RPG::GameCore::PerformanceSkipDRow* a2)

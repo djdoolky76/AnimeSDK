@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
 #include "unitysdk/UnityEngine/Animations/AnimatorControllerPlayable.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
-namespace System { class Nullable; }
 namespace UnityEngine { class Animator; }
 
 #define RPG_CLIENT_STATEENTERTRIGGERBLOCKBEHAVIOUR_CHJGMFGLJCK_OFFSET UNITYSDK_OFFSET(0xE12CA60)
@@ -19,7 +19,7 @@ namespace RPG::Client
 	class StateEnterTriggerBlockBehaviour : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:
-		::System::Nullable* _BlockID; // 0x18
+		::System::Nullable_1<::System::UInt32> _BlockID; // 0x18
 		// static const ::System::Object _ExtraProtectSeconds; // 0x0
 		::System::Void _ctor()
 		{

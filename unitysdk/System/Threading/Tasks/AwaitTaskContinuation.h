@@ -5,6 +5,7 @@
 namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class ThreadAbortException; }
@@ -50,9 +51,9 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::Tasks::Task* CreateTask(::System::Action* a1, ::System::Object* a2, ::System::Threading::Tasks::TaskScheduler* a3)
+		::System::Threading::Tasks::Task* CreateTask(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Threading::Tasks::TaskScheduler* a3)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CREATETASK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CREATETASK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Run(::System::Threading::Tasks::Task* a1, ::System::Boolean a2)

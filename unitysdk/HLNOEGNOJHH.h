@@ -4,6 +4,7 @@
 #include "unitysdk/HLNOEGNOJHH_PlaceValidateResult.h"
 #include "unitysdk/RPG/Client/PropSelectionState.h"
 #include "unitysdk/RPG/MVector2.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -13,7 +14,6 @@ class PGIEBMKMECE;
 namespace RPG::Client::LittleGame::ChenLingFes { class ChenLingFesPreviewCellView; }
 namespace RPG::GameCore { class ChenLingFesItemConfig; }
 namespace RPG::GameCore { class ChenLingFesRegionItemConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -135,7 +135,7 @@ inline static constexpr unsigned int HLNOEGNOJHH_TypeDefinitionIndex = 77756;
 		::System::Boolean HLPJADFGMAG; // 0x89
 		::System::Boolean IHDMFDBECLF; // 0x8A
 		::System::Boolean PABPMFAHLLO; // 0x8B
-		::System::Nullable* NJEFKAGBOIB; // 0x8C
+		::System::Nullable_1<::System::Single> NJEFKAGBOIB; // 0x8C
 		::RPG::MVector2 NIECDKAALBB; // 0x94
 		::HLNOEGNOJHH_PlaceInteractState DLNIGFGLPLJ; // 0x9C
 		static ::System::String** StaticGet_OAENANLDKOL()

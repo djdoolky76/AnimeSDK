@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI::CoroutineTween { class FloatTween_FloatTweenCallback; }
 
 #define UNITYENGINE_UI_COROUTINETWEEN_FLOATTWEEN_ADDONCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x3C89F40)
@@ -73,9 +73,9 @@ namespace UnityEngine::UI::CoroutineTween
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_FLOATTWEEN_TWEENVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddOnChangedCallback(::UnityEngine::Events::UnityAction* a1)
+		::System::Void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_FLOATTWEEN_ADDONCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_COROUTINETWEEN_FLOATTWEEN_ADDONCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean GetIgnoreTimescale()

@@ -17,9 +17,9 @@ class PFKBJGECBDE;
 namespace RPG::Client { template <typename T1, typename T2, typename T3, typename T4> class ActionEvent_4; }
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class ActionEvent_3; }
 namespace RPG::Client { template <typename T> class ActionEvent_1; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -69,7 +69,7 @@ inline static constexpr unsigned int NMJLMAOJEHN_TypeDefinitionIndex = 59548;
 	public:
 		::RPG::Client::ActionEvent_1<::HIAMBDKHMIJ*>* _OnFailed_k__BackingField; // 0x10
 		::RPG::Client::ActionEvent_1<::HIAMBDKHMIJ*>* _OnItemFailed_k__BackingField; // 0x18
-		::System::Action* MIBHJHBOPNM; // 0x20
+		::System::Action_1<::System::String*>* MIBHJHBOPNM; // 0x20
 		::System::String* HLINKIGMFMH; // 0x28
 		::RPG::Client::ActionEvent_3<::HGCEOEHGPPE*, ::KGPCBBIOGLB*, ::System::Object*>* _OnItemSucceed_k__BackingField; // 0x30
 		::System::Collections::Generic::List_1<::System::String*>* GCIKKMGIPIO; // 0x38
@@ -245,9 +245,9 @@ inline static constexpr unsigned int NMJLMAOJEHN_TypeDefinitionIndex = 59548;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::IList_1<::System::String*>*))((::PBYTE)hIl2Cpp + NMJLMAOJEHN_OPALKEIMPFB_OFFSET))(this, a1, a2, a3);
 		}
 
-		::NMJLMAOJEHN* MBJMFAKNPAI(::System::Action* a1)
+		::NMJLMAOJEHN* MBJMFAKNPAI(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::NMJLMAOJEHN*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + NMJLMAOJEHN_MBJMFAKNPAI_OFFSET))(this, a1);
+			return ((::NMJLMAOJEHN*(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + NMJLMAOJEHN_MBJMFAKNPAI_OFFSET))(this, a1);
 		}
 
 		::System::Void Execute()

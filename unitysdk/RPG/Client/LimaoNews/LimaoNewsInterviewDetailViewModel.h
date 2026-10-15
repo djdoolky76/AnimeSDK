@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 #include "unitysdk/System/Guid.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class OBJANKHLNGO;
 class PEKFHPMIPDD;
 namespace RPG::Client::LimaoNews { class LimaoNewsCommentListViewModel; }
@@ -110,9 +110,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDETAILVIEWMODEL_GETTOTALCOUNT_OFFSET))(this);
 		}
 
-		::System::ValueTuple GetPrefabIndexAndData(::System::Int32 a1)
+		::System::ValueTuple_2<::System::Int32, ::System::Object*> GetPrefabIndexAndData(::System::Int32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDETAILVIEWMODEL_GETPREFABINDEXANDDATA_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Object*>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWDETAILVIEWMODEL_GETPREFABINDEXANDDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsCommentPrefabIndex(::System::Int32 a1)

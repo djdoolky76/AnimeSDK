@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::Prop { class AdjustContainer; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -52,7 +52,7 @@ namespace RPG::Client::Prop
 		::System::Int32 CurrentPosIndex; // 0x58
 		::UnityEngine::Vector3 _UnitOffset; // 0x5C
 		::UnityEngine::Vector3 _OriginPosition; // 0x68
-		::System::Nullable* _NextPosition; // 0x74
+		::System::Nullable_1<::UnityEngine::Vector3> _NextPosition; // 0x74
 		::System::Byte _padding2[0x8];
 		::System::Single _CurSpeed; // 0x84
 		::System::Single _SpeedUpStep; // 0x88

@@ -4,7 +4,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Dynamic { class ExpandoObject; }
 
 #define MESSAGEPACK_FORMATTERS_EXPANDOOBJECTFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB74380)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class ExpandoObjectFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Dynamic::ExpandoObject*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "ExpandoObjectFormatter")->GetStaticField(0x24FE0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Dynamic::ExpandoObject*>**)UnitySDK::FromName("MessagePack.Formatters", "ExpandoObjectFormatter")->GetStaticField(0x24FE0);
 		}
 
 		::System::Void _ctor()

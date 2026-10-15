@@ -5,8 +5,8 @@
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirRecommendConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -33,9 +33,9 @@ inline static constexpr unsigned int PAHFKELEBIK_TypeDefinitionIndex = 12138;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PAHFKELEBIK")->GetStaticField(0x3DB50);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "PAHFKELEBIK")->GetStaticField(0x3DB58);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PAHFKELEBIK")->GetStaticField(0x3DB58);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PixAirRecommendConfigRow*>** StaticGet_EHNHPCGDOIO()

@@ -2,10 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 #define OOHFBGJHCMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF83F40)
@@ -24,34 +25,34 @@ inline static constexpr unsigned int OOHFBGJHCMB___c_TypeDefinitionIndex = 63163
 	class OOHFBGJHCMB___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__32_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__32_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E540);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E540);
 		}
 
-		static ::System::Action** StaticGet___9__22_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__22_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E548);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E548);
 		}
 
-		static ::System::Action** StaticGet___9__18_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__18_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E550);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E550);
 		}
 
-		static ::System::Action** StaticGet___9__31_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__31_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E558);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E558);
 		}
 
-		static ::System::Action** StaticGet___9__23_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__23_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E560);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E560);
 		}
 
-		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__46_0()
+		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>** StaticGet___9__46_0()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E568);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E568);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -59,9 +60,9 @@ inline static constexpr unsigned int OOHFBGJHCMB___c_TypeDefinitionIndex = 63163
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E570);
 		}
 
-		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__47_0()
+		static ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>** StaticGet___9__47_0()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E578);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E578);
 		}
 
 		static ::System::Func_2<::System::Boolean, ::RPG::Client::Promises::IPromise*>** StaticGet___9__41_1()
@@ -109,14 +110,14 @@ inline static constexpr unsigned int OOHFBGJHCMB___c_TypeDefinitionIndex = 63163
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OOHFBGJHCMB___C___HANDLESHOWENTRANCE_B__41_1_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __TryShowQuickPassHint_b__46_0()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __TryShowQuickPassHint_b__46_0()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB___C___TRYSHOWQUICKPASSHINT_B__46_0_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB___C___TRYSHOWQUICKPASSHINT_B__46_0_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* __TryShowSettleConfirm_b__47_0()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __TryShowSettleConfirm_b__47_0()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB___C___TRYSHOWSETTLECONFIRM_B__47_0_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB___C___TRYSHOWSETTLECONFIRM_B__47_0_OFFSET))(this);
 		}
 
 	};

@@ -3,6 +3,7 @@
 #include "unitysdk/GPGDJDKKHNE.h"
 #include "unitysdk/LONPBELAPJO_ENavigationState.h"
 #include "unitysdk/RPG/Client/ETravelShipState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BLCMFPJDHCC;
 class GPFEOAGPKIE;
@@ -10,7 +11,6 @@ class MGJOAOHPFBO;
 class NGLFOJKOKBH;
 namespace RPG::GameCore { class CharacterInputData; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 
 #define LONPBELAPJO_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xB8114B0)
 #define LONPBELAPJO_CHAHBFGGIDL_OFFSET UNITYSDK_OFFSET(0xB80FCC0)
@@ -37,7 +37,7 @@ inline static constexpr unsigned int LONPBELAPJO_TypeDefinitionIndex = 68798;
 		::BLCMFPJDHCC* LFLNILJKBGM; // 0x58
 		::LONPBELAPJO_ENavigationState FPIHDGPCHPK; // 0x60
 		::UnityEngine::Vector3 GOAKJGJDALN; // 0x64
-		::System::Nullable* _LastValidDestination_k__BackingField; // 0x70
+		::System::Nullable_1<::UnityEngine::Vector3> _LastValidDestination_k__BackingField; // 0x70
 		::System::Byte _padding0[0x8];
 		::System::Single CEBNDGNFDKP; // 0x80
 		::System::Single GIPJINEJCAN; // 0x84
@@ -54,14 +54,14 @@ inline static constexpr unsigned int LONPBELAPJO_TypeDefinitionIndex = 68798;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LONPBELAPJO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void KIGBILLGNOH(::System::Nullable* a1)
+		::System::Void KIGBILLGNOH(::System::Nullable_1<::RPG::Client::ETravelShipState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + LONPBELAPJO_KIGBILLGNOH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + LONPBELAPJO_KIGBILLGNOH_OFFSET))(this, a1);
 		}
 
-		::System::Void CHAHBFGGIDL(::System::Nullable* a1)
+		::System::Void CHAHBFGGIDL(::System::Nullable_1<::RPG::Client::ETravelShipState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + LONPBELAPJO_CHAHBFGGIDL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + LONPBELAPJO_CHAHBFGGIDL_OFFSET))(this, a1);
 		}
 
 		::System::Void JLANKNHFKCN(::System::Single a1)
@@ -104,14 +104,14 @@ inline static constexpr unsigned int LONPBELAPJO_TypeDefinitionIndex = 68798;
 			return ((::RPG::Client::ETravelShipState(*)(::PVOID))((::PBYTE)hIl2Cpp + LONPBELAPJO_BGDKFHEBDFJ_OFFSET))(this);
 		}
 
-		::System::Nullable* get_LastValidDestination()
+		::System::Nullable_1<::UnityEngine::Vector3> get_LastValidDestination()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LONPBELAPJO_GET_LASTVALIDDESTINATION_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + LONPBELAPJO_GET_LASTVALIDDESTINATION_OFFSET))(this);
 		}
 
-		::System::Void set_LastValidDestination(::System::Nullable* a1)
+		::System::Void set_LastValidDestination(::System::Nullable_1<::UnityEngine::Vector3> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + LONPBELAPJO_SET_LASTVALIDDESTINATION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + LONPBELAPJO_SET_LASTVALIDDESTINATION_OFFSET))(this, a1);
 		}
 
 	};

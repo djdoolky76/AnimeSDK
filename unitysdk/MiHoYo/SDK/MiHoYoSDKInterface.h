@@ -4,8 +4,8 @@
 #include "unitysdk/MiHoYo/SDK/WebFeature.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class JSONNode; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 #define MIHOYO_SDK_MIHOYOSDKINTERFACE_APPENDGLOBALUSERAGENT_OFFSET UNITYSDK_OFFSET(0xAFCDA60)
@@ -236,9 +236,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKINTERFACE_CALLJSPUBLISHFUNCTION_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void RegisterJSPostMessage(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		static ::System::Void RegisterJSPostMessage(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::JSONNode*>* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKINTERFACE_REGISTERJSPOSTMESSAGE_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::JSONNode*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKINTERFACE_REGISTERJSPOSTMESSAGE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void DisableUrlJump(::System::String* a1, ::System::Boolean a2)

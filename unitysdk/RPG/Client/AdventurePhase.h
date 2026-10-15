@@ -12,6 +12,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/PropInteractMode.h"
 #include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/DGOAKJNHIFJ.h"
@@ -90,7 +91,6 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TrackNpcModule; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -524,7 +524,7 @@ namespace RPG::Client
 		::System::Boolean _IsShowMobilePhone; // 0x282
 		::System::Boolean _IsStep2Finished; // 0x283
 		::System::UInt32 _ForbidEntityMoveTeleportCount; // 0x284
-		::System::Nullable* _CurrentInteractPropMode; // 0x288
+		::System::Nullable_1<::RPG::GameCore::PropInteractMode> _CurrentInteractPropMode; // 0x288
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_UpdateAdventurePhaseMarker()
 		{
 			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "AdventurePhase")->GetStaticField(0xB860);
@@ -2132,9 +2132,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREPHASE_GET_CURRENTINTERACTPROP_OFFSET))(this);
 		}
 
-		::System::Nullable* get_CurrentInteractPropMode()
+		::System::Nullable_1<::RPG::GameCore::PropInteractMode> get_CurrentInteractPropMode()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREPHASE_GET_CURRENTINTERACTPROPMODE_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::PropInteractMode>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREPHASE_GET_CURRENTINTERACTPROPMODE_OFFSET))(this);
 		}
 
 		::RPG::GameCore::TaskConfig* get_CurrentInteractPropOverrideData()
@@ -2282,9 +2282,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREPHASE_SET_CAMERAINITED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetCurrentInteractProp(::RPG::GameCore::GameEntity* a1, ::System::Nullable* a2, ::RPG::GameCore::TaskConfig* a3)
+		::System::Void SetCurrentInteractProp(::RPG::GameCore::GameEntity* a1, ::System::Nullable_1<::RPG::GameCore::PropInteractMode> a2, ::RPG::GameCore::TaskConfig* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Nullable*, ::RPG::GameCore::TaskConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREPHASE_SETCURRENTINTERACTPROP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Nullable_1<::RPG::GameCore::PropInteractMode>, ::RPG::GameCore::TaskConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREPHASE_SETCURRENTINTERACTPROP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::SpecialVisionSystem* GetSpecialVisionSystem()

@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class ACNNMGIJMFK;
 class AHCEFHABPDI;
 class CEEGMMCFCBG;
@@ -19,7 +20,6 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceResultBadgeNotic
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceResultBadgeNoticeViewModel_Factory; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTargetsViewModel; }
 namespace Sofa::Core { class SimpleCommand; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define PIMCPBPFGMB_ACDNHGLFMLH_OFFSET UNITYSDK_OFFSET(0xC26F0D0)
@@ -101,9 +101,9 @@ inline static constexpr unsigned int PIMCPBPFGMB_TypeDefinitionIndex = 81611;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMCPBPFGMB_DJAKNKLNGLE_OFFSET))(this);
 		}
 
-		::System::Nullable* MLNMJJMCFGP()
+		::System::Nullable_1<::System::Int32> MLNMJJMCFGP()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMCPBPFGMB_MLNMJJMCFGP_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMCPBPFGMB_MLNMJJMCFGP_OFFSET))(this);
 		}
 
 		::System::Boolean EDFGNJLICKE()

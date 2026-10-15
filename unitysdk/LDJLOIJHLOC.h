@@ -38,9 +38,9 @@ namespace RPG::GameCore { class SummonUnitSkillConfig; }
 namespace RPG::GameCore { class SummonUnitTriggerConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -219,7 +219,7 @@ inline static constexpr unsigned int LDJLOIJHLOC_TypeDefinitionIndex = 57453;
 		::RPG::GameCore::GameEntity* _SummonerEntity_k__BackingField; // 0x70
 		::System::Collections::Generic::List_1<::LDMKDJJLOIL*>* KMLIICIOPAC; // 0x78
 		::RPG::GameCore::GameEntity* OCHJAHNPODC; // 0x80
-		::System::Action* GDECIELGDGG; // 0x88
+		::System::Action_3<::EDLDHDMLJDH*, ::RPG::GameCore::GameEntity*, ::System::Boolean>* GDECIELGDGG; // 0x88
 		::RPG::Client::Stage* CDOEIINFGHM; // 0x90
 		::System::Collections::Generic::List_1<::System::Single>* GCCMJODFOEL; // 0x98
 		::Il2CppArray<::HCHGAEGOFBO*>* BJLAHBDAACO; // 0xA0

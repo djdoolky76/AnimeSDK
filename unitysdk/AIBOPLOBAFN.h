@@ -19,8 +19,8 @@ namespace RPG { template <typename T> class RingBuffer_1; }
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client { class RPGProfilerMarker; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -341,14 +341,14 @@ inline static constexpr unsigned int AIBOPLOBAFN_TypeDefinitionIndex = 59384;
 			return ((::System::Void(*)(::PVOID, ::LEKNHIPIKCF*))((::PBYTE)hIl2Cpp + AIBOPLOBAFN_JCJGMDAOIPN_OFFSET))(this, a1);
 		}
 
-		::System::Void FMOPFGKPAFB_1(::System::Action* a1, ::UnityEngine::Transform* a2, ::System::Boolean a3)
+		::System::Void FMOPFGKPAFB_1(::System::Action_1<::UnityEngine::GameObject*>* a1, ::UnityEngine::Transform* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + AIBOPLOBAFN_FMOPFGKPAFB_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + AIBOPLOBAFN_FMOPFGKPAFB_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void JCJGMDAOIPN_1(::System::Action* a1)
+		::System::Void JCJGMDAOIPN_1(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AIBOPLOBAFN_JCJGMDAOIPN_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + AIBOPLOBAFN_JCJGMDAOIPN_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean OAPAALELLDB()

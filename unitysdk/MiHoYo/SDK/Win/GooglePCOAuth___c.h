@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class GooglePCOAuth; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_GOOGLEPCOAUTH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD41CF0)
 #define MIHOYO_SDK_WIN_GOOGLEPCOAUTH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD41D30)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::Win
 	class GooglePCOAuth___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__27_0()
+		static ::System::Action_1<::MiHoYo::SDK::Win::GooglePCOAuth*>** StaticGet___9__27_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x20110);
+			return (::System::Action_1<::MiHoYo::SDK::Win::GooglePCOAuth*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x20110);
 		}
 
 		static ::System::Object** StaticGet___9()

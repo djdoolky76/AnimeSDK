@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class ALAOCJKOBCN_JGBAFEEMGCI;
 class CBCJHEDMHOK;
 class CDEHGGILJOM;
@@ -31,7 +32,6 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftOrderItemViewModel;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftOrderRequirementViewModel; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftOrderSelectTipsViewModel; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentTreeEntranceViewModel_Factory; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -133,9 +133,9 @@ inline static constexpr unsigned int IFGHNHEJCLF_TypeDefinitionIndex = 79670;
 			return ((::RPG::Client::MechCraft::ViewModel::MechCraftOrderItemViewModel*(*)(::PVOID, ::IGIEOGBNLAC*))((::PBYTE)hIl2Cpp + IFGHNHEJCLF___CREATEORDERITEMS_B__21_1_OFFSET))(this, a1);
 		}
 
-		::CELAKJDDDOH* __CreateRequireInfos_b__26_1(::System::Collections::Generic::KeyValuePair* a1)
+		::CELAKJDDDOH* __CreateRequireInfos_b__26_1(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::CELAKJDDDOH*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFGHNHEJCLF___CREATEREQUIREINFOS_B__26_1_OFFSET))(this, a1);
+			return ((::CELAKJDDDOH*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFGHNHEJCLF___CREATEREQUIREINFOS_B__26_1_OFFSET))(this, a1);
 		}
 
 	};

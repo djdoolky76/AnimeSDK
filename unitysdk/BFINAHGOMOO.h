@@ -4,6 +4,7 @@
 #include "unitysdk/InControl/InputDeviceClass.h"
 #include "unitysdk/RPG/Client/ActionBarItemUIStyle.h"
 #include "unitysdk/RPG/Client/ActionBarUpdateTiming.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/BAHMMEEMJOB.h"
 #include "unitysdk/IGKFNIEJGLM.h"
 class ADLGBJAOFPD;
@@ -28,7 +29,6 @@ namespace RPG::GameCore { class EventManager; }
 namespace RPG::GameCore { class LevelEntityActionDelayChanged; }
 namespace RPG::GameCore { class LevelGameModeStateChanged; }
 namespace RPG::GameCore { class LevelUIComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -167,7 +167,7 @@ inline static constexpr unsigned int BFINAHGOMOO_TypeDefinitionIndex = 71215;
 		::System::Boolean GPPGDLCIAEK; // 0x19E
 		::System::Boolean OAFBNBIDBNE; // 0x19F
 		::System::Single INIHPCIHDDJ; // 0x1A0
-		::System::Nullable* EAMHLPNNBOH; // 0x1A4
+		::System::Nullable_1<::System::Boolean> EAMHLPNNBOH; // 0x1A4
 		::System::Boolean ABOPMLDEKEM; // 0x1A6
 		::System::Boolean IBNFMECKMEK; // 0x1A7
 		::System::Boolean GBHHHINHLMK; // 0x1A8

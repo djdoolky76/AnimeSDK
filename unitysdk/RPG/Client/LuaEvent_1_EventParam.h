@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client
 {
@@ -12,7 +12,7 @@ namespace RPG::Client
 	class LuaEvent_1_EventParam : public ::System::Object
 	{
 	public:
-		::System::Action* Callback; // 0x0
+		::System::Action_2<::System::Object*, T>* Callback; // 0x0
 		::System::Object* Listener; // 0x0
 	};
 }

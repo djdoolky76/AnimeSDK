@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LogType.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class SendOrPostCallback; }
 
 #define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_ADD_UNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F155BD0)
@@ -20,9 +20,9 @@ namespace Cysharp::Threading::Tasks
 	class UniTaskScheduler : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_UnobservedTaskException()
+		static ::System::Action_1<::System::Exception*>** StaticGet_UnobservedTaskException()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskScheduler")->GetStaticField(0x48EB0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskScheduler")->GetStaticField(0x48EB0);
 		}
 
 		static ::System::Threading::SendOrPostCallback** StaticGet_handleExceptionInvoke()
@@ -50,14 +50,14 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_CCTOR_OFFSET))();
 		}
 
-		static ::System::Void add_UnobservedTaskException(::System::Action* a1)
+		static ::System::Void add_UnobservedTaskException(::System::Action_1<::System::Exception*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_ADD_UNOBSERVEDTASKEXCEPTION_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_ADD_UNOBSERVEDTASKEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_UnobservedTaskException(::System::Action* a1)
+		static ::System::Void remove_UnobservedTaskException(::System::Action_1<::System::Exception*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_REMOVE_UNOBSERVEDTASKEXCEPTION_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_REMOVE_UNOBSERVEDTASKEXCEPTION_OFFSET))(a1);
 		}
 
 		static ::System::Void InvokeUnobservedTaskException(::System::Object* a1)

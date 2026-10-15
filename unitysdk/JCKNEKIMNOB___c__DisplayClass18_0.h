@@ -8,7 +8,7 @@ class JCKNEKIMNOB;
 class KIEGLMIFDHD;
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelStructGameView; }
 namespace RPG::GameCore { class PropButtonConfig; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -23,7 +23,7 @@ inline static constexpr unsigned int JCKNEKIMNOB___c__DisplayClass18_0_TypeDefin
 	{
 	public:
 		::KIEGLMIFDHD* scene; // 0x10
-		::System::Tuple* data; // 0x18
+		::System::Tuple_2<::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::DNFFEFPKDPC*>*>* data; // 0x18
 		::RPG::GameCore::PropButtonConfig* buttonConfig; // 0x20
 		::INMMPMDELKE* triggerEntity; // 0x28
 		::JCKNEKIMNOB* __4__this; // 0x30

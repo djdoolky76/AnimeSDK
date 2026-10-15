@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/CompilerServices/AsyncVoidMethodBuilder.h"
-#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
+#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter_1.h"
 namespace RPG::Client { class NetworkManager; }
 namespace System { class String; }
 namespace System::Net { class IPHostEntry; }
@@ -20,7 +20,7 @@ namespace RPG::Client
 		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10
 		::System::String* url; // 0x30
 		::RPG::Client::NetworkManager* __4__this; // 0x38
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x40
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::IPHostEntry*> __u__1; // 0x40
 		::System::Int32 __1__state; // 0x48
 		::System::Void MoveNext()
 		{

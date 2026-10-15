@@ -18,6 +18,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class EGOBMOAGCFL;
 class EPAJKAFCJME;
 class FBDDCJDENFP;
@@ -48,7 +49,6 @@ namespace RPG::GameCore { class LevelNPCPossessionInfo; }
 namespace RPG::GameCore { class LevelNpcLookAtTargetInfo; }
 namespace RPG::GameCore { class NPCDataRow; }
 namespace RPG::GameCore { class SOConfigInfo; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -570,9 +570,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPNPCDEF_SET_CONDITIONID_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_CustomWorldLevel()
+		::System::Nullable_1<::System::UInt32> get_CustomWorldLevel()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPNPCDEF_GET_CUSTOMWORLDLEVEL_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPNPCDEF_GET_CUSTOMWORLDLEVEL_OFFSET))(this);
 		}
 
 		::System::UInt32 get_SubMapID()

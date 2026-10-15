@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::WellKnownTypes { class Field; }
@@ -52,24 +52,24 @@ namespace Google::Protobuf::WellKnownTypes
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
 		::Google::Protobuf::WellKnownTypes::SourceContext* sourceContext_; // 0x38
 		::Google::Protobuf::WellKnownTypes::Syntax syntax_; // 0x40
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_options_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>** StaticGet__repeated_options_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Type")->GetStaticField(0x1B150);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Type")->GetStaticField(0x1B150);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_fields_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Field*>** StaticGet__repeated_fields_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Type")->GetStaticField(0x1B158);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Field*>**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Type")->GetStaticField(0x1B158);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_oneofs_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet__repeated_oneofs_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Type")->GetStaticField(0x1B160);
+			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Type")->GetStaticField(0x1B160);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Type*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Type")->GetStaticField(0x1B168);
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Type*>**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Type")->GetStaticField(0x1B168);
 		}
 
 		::System::Void _ctor()
@@ -87,9 +87,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Type*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Type*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

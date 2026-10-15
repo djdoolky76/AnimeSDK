@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::DiceCombat { class DiceCombatForceRefreshEvent; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC189D0)
@@ -16,7 +16,7 @@ namespace RPG::Client::DiceCombat
 	{
 	public:
 		::XLua::LuaTable* target; // 0x10
-		::System::Action* eventHandler; // 0x18
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent*>* eventHandler; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT___C__DISPLAYCLASS35_0_CTOR_OFFSET))(this);

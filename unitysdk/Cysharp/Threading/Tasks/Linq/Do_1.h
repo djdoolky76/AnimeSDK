@@ -4,6 +4,7 @@
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
@@ -14,8 +15,8 @@ namespace Cysharp::Threading::Tasks::Linq
 	{
 	public:
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T>* source; // 0x0
-		::System::Action* onNext; // 0x0
-		::System::Action* onError; // 0x0
+		::System::Action_1<T>* onNext; // 0x0
+		::System::Action_1<::System::Exception*>* onError; // 0x0
 		::System::Action* onCompleted; // 0x0
 	};
 }

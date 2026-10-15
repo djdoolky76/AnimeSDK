@@ -4,9 +4,10 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class SuperDropDown; }
 namespace RPG::Client { class SuperDropDown_VoidDelegate; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -64,8 +65,8 @@ namespace RPG::Client
 		::System::Int32 _NormalHash; // 0x194
 		::RPG::Client::SuperDropDown_VoidDelegate* onSelectTrigger; // 0x198
 		::RPG::Client::SuperDropDown_VoidDelegate* onDeselectTrigger; // 0x1A0
-		::System::Action* mOnSetShowItemOption; // 0x1A8
-		::System::Action* mOnSetSelectOption; // 0x1B0
+		::System::Action_4<::XLua::LuaTable*, ::RPG::Client::SuperDropDown*, ::System::Object*, ::System::Int32>* mOnSetShowItemOption; // 0x1A8
+		::System::Action_3<::XLua::LuaTable*, ::RPG::Client::SuperDropDown*, ::System::Int32>* mOnSetSelectOption; // 0x1B0
 		::System::Func_3<::XLua::LuaTable*, ::System::Int32, ::System::Boolean>* mOnToggleClick; // 0x1B8
 		::XLua::LuaTable* bindingPanel; // 0x1C0
 		::System::Void _ctor()
@@ -203,9 +204,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN__INITNAVIGATIONMODE_OFFSET))(this);
 		}
 
-		::System::Void SetLuaBindingCallback(::XLua::LuaTable* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void SetLuaBindingCallback(::XLua::LuaTable* a1, ::System::Action_4<::XLua::LuaTable*, ::RPG::Client::SuperDropDown*, ::System::Object*, ::System::Int32>* a2, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::SuperDropDown*, ::System::Int32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_SETLUABINDINGCALLBACK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_4<::XLua::LuaTable*, ::RPG::Client::SuperDropDown*, ::System::Object*, ::System::Int32>*, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::SuperDropDown*, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUPERDROPDOWN_SETLUABINDINGCALLBACK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void BindToggleChangedFunction(::System::Func_3<::XLua::LuaTable*, ::System::Int32, ::System::Boolean>* a1)

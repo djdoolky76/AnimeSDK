@@ -3,15 +3,15 @@
 #include "unitysdk/IMBPFFMCJDF.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/PayProductResult.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/TimeSpan.h"
 namespace HoudiniEngineUnity { class JSONArray; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class Product; }
 namespace RPG::Client { class RechargeItem; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -207,9 +207,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE__ONQUERYPRODUCTINFOSCRSP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _RequestProductsDetailData(::System::Action* a1)
+		::System::Void _RequestProductsDetailData(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE__REQUESTPRODUCTSDETAILDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE__REQUESTPRODUCTSDETAILDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateProducts(::HoudiniEngineUnity::JSONArray* a1)
@@ -267,14 +267,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_ISRECHARGEFORBIDDEN_OFFSET))(this);
 		}
 
-		::System::Void Pay(::RPG::Client::Product* a1, ::System::Action* a2)
+		::System::Void Pay(::RPG::Client::Product* a1, ::System::Action_1<::RPG::Client::PayProductResult>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Product*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_PAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Product*, ::System::Action_1<::RPG::Client::PayProductResult>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_PAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Pay_1(::System::String* a1, ::System::Action* a2)
+		::System::Void Pay_1(::System::String* a1, ::System::Action_1<::RPG::Client::PayProductResult>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_PAY_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::RPG::Client::PayProductResult>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_PAY_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Product*>* get_AllProducts()
@@ -282,9 +282,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Product*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_GET_ALLPRODUCTS_OFFSET))(this);
 		}
 
-		::System::Void _DoPay(::RPG::Client::Product* a1, ::System::Action* a2)
+		::System::Void _DoPay(::RPG::Client::Product* a1, ::System::Action_1<::RPG::Client::PayProductResult>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Product*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE__DOPAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Product*, ::System::Action_1<::RPG::Client::PayProductResult>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE__DOPAY_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::RPG::Client::Product*>* get_AllHcoinProducts()
@@ -317,9 +317,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_SET_ISPRODUCTREQUEST_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_MonthCardRemainTime()
+		::System::Nullable_1<::System::TimeSpan> get_MonthCardRemainTime()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_GET_MONTHCARDREMAINTIME_OFFSET))(this);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_GET_MONTHCARDREMAINTIME_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsMonthCardLimitPurchase()
@@ -342,9 +342,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE_SET_GIFTCOINCURVERSION_OFFSET))(this, a1);
 		}
 
-		::System::Void _DoPayProduct(::RPG::Client::Product* a1, ::System::Action* a2)
+		::System::Void _DoPayProduct(::RPG::Client::Product* a1, ::System::Action_1<::RPG::Client::PayProductResult>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Product*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE__DOPAYPRODUCT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Product*, ::System::Action_1<::RPG::Client::PayProductResult>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PAYMODULE__DOPAYPRODUCT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _EventTrackingPayWithConfirm(::RPG::Client::RechargeItem* a1)

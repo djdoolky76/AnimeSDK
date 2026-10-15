@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class ILOOAAOHIIG;
 class KFGGDNIGKGG;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftChipMoldControlBinder; }
 namespace System { class Action; }
 namespace System { class IDisposable; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
@@ -157,9 +157,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDCONTROL_AMKGFLIJGPJ_OFFSET))(this, a1);
 		}
 
-		::System::Void LDIIAEODBBI(::System::Nullable* a1)
+		::System::Void LDIIAEODBBI(::System::Nullable_1<::RPG::Client::TextID> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDCONTROL_LDIIAEODBBI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::TextID>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDCONTROL_LDIIAEODBBI_OFFSET))(this, a1);
 		}
 
 		::System::Void IMEEOCBAJEJ(::System::Boolean a1)

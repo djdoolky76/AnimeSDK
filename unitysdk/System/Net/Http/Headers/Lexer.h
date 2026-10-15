@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Net/Http/Headers/Token.h"
 #include "unitysdk/System/DateTimeOffset.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define SYSTEM_NET_HTTP_HEADERS_LEXER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE559C0)
@@ -108,9 +108,9 @@ namespace System::Net::Http::Headers
 			return ((::System::Boolean(*)(::PVOID, ::System::Net::Http::Headers::Token, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_LEXER_TRYGETNUMERICVALUE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* TryGetTimeSpanValue(::System::Net::Http::Headers::Token a1)
+		::System::Nullable_1<::System::TimeSpan> TryGetTimeSpanValue(::System::Net::Http::Headers::Token a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Net::Http::Headers::Token))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_LEXER_TRYGETTIMESPANVALUE_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID, ::System::Net::Http::Headers::Token))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_LEXER_TRYGETTIMESPANVALUE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean TryGetDateValue(::System::Net::Http::Headers::Token a1, ::System::DateTimeOffset a2)

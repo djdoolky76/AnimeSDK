@@ -7,6 +7,7 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Windows::OS { class AgeGateManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER_BUILDURL_OFFSET UNITYSDK_OFFSET(0x1BE08570)
@@ -58,7 +59,7 @@ namespace MiHoYo::SDK::Windows::OS
 	{
 	public:
 		::System::Action* failCallback; // 0x10
-		::System::Action* accountSuccessCallback; // 0x18
+		::System::Action_1<::System::String*>* accountSuccessCallback; // 0x18
 		::System::String* _ticket; // 0x20
 		::System::String* _payload; // 0x28
 		::System::Action* successCallback; // 0x30
@@ -225,9 +226,9 @@ namespace MiHoYo::SDK::Windows::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER_STARTTHIRDPARTREGISTERFLOW_OFFSET))(this);
 		}
 
-		::System::Void SetAccountSuccessCallback(::System::Action* a1)
+		::System::Void SetAccountSuccessCallback(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER_SETACCOUNTSUCCESSCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER_SETACCOUNTSUCCESSCALLBACK_OFFSET))(this, a1);
 		}
 
 		::MiHoYo::SDK::JSONObject* GetReportBody()

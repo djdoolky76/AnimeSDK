@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftChipTraitType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 class FKLECLLJCEH;
 class KGBHKDBKNLG;
 namespace RPG::Client { class UIStateCtrl; }
 namespace RPG::Client::MechCraft::View { class MechCraftProductTraitControlBinder; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -100,9 +100,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPRODUCTTRAITCONTROL_MEPBAAJJLMA_OFFSET))(this, a1);
 		}
 
-		::System::Void LEEEAMMHPFM(::System::Nullable* a1, ::System::Int32 a2)
+		::System::Void LEEEAMMHPFM(::System::Nullable_1<::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPRODUCTTRAITCONTROL_LEEEAMMHPFM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTPRODUCTTRAITCONTROL_LEEEAMMHPFM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OPMAODLLJNG(::System::Boolean a1)

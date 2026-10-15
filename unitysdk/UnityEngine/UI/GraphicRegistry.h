@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -67,14 +67,14 @@ namespace UnityEngine::UI
 			return ((::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>*(*)(::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICREGISTRY_GETGRAPHICSFORCANVAS_OFFSET))(a1);
 		}
 
-		static ::System::Void RegisterCanvasGraphicsChangeCallback(::UnityEngine::Canvas* a1, ::System::Action* a2)
+		static ::System::Void RegisterCanvasGraphicsChangeCallback(::UnityEngine::Canvas* a1, ::System::Action_2<::UnityEngine::UI::Graphic*, ::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Canvas*, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICREGISTRY_REGISTERCANVASGRAPHICSCHANGECALLBACK_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Canvas*, ::System::Action_2<::UnityEngine::UI::Graphic*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICREGISTRY_REGISTERCANVASGRAPHICSCHANGECALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void UnregisterCanvasGraphicsChangeCallback(::UnityEngine::Canvas* a1, ::System::Action* a2)
+		static ::System::Void UnregisterCanvasGraphicsChangeCallback(::UnityEngine::Canvas* a1, ::System::Action_2<::UnityEngine::UI::Graphic*, ::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Canvas*, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICREGISTRY_UNREGISTERCANVASGRAPHICSCHANGECALLBACK_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Canvas*, ::System::Action_2<::UnityEngine::UI::Graphic*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICREGISTRY_UNREGISTERCANVASGRAPHICSCHANGECALLBACK_OFFSET))(a1, a2);
 		}
 
 	};

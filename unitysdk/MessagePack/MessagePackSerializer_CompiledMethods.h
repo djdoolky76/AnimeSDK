@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 #include "unitysdk/System/Threading/Tasks/ValueTask_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
@@ -7,13 +8,12 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack { class MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize; }
 namespace MessagePack { class MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
-namespace System::Buffers { class ReadOnlySequence; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 namespace System::IO { class Stream; }
 namespace System::Reflection { class MethodInfo; }
@@ -36,10 +36,10 @@ namespace MessagePack
 		::System::Func_4<::System::ReadOnlyMemory_1<::System::Byte>, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken, ::System::Object*>* Deserialize_ReadOnlyMemory_Options; // 0x20
 		::System::Func_5<::System::IO::Stream*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* SerializeAsync_Stream_T_Options_CancellationToken; // 0x28
 		::System::Func_4<::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken, ::Il2CppArray<::System::Byte>*>* Serialize_T_Options; // 0x30
-		::System::Action* Serialize_Stream_T_Options_CancellationToken; // 0x38
+		::System::Action_4<::System::IO::Stream*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken>* Serialize_Stream_T_Options_CancellationToken; // 0x38
 		::System::Func_4<::System::IO::Stream*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken, ::System::Object*>* Deserialize_Stream_Options_CancellationToken; // 0x40
-		::System::Func_4<::System::Buffers::ReadOnlySequence*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken, ::System::Object*>* Deserialize_ReadOnlySequence_Options_CancellationToken; // 0x48
-		::System::Action* Serialize_IBufferWriter_T_Options_CancellationToken; // 0x50
+		::System::Func_4<::System::Buffers::ReadOnlySequence_1<::System::Byte>, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken, ::System::Object*>* Deserialize_ReadOnlySequence_Options_CancellationToken; // 0x48
+		::System::Action_4<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken>* Serialize_IBufferWriter_T_Options_CancellationToken; // 0x50
 		::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize* Deserialize_MessagePackReader_Options; // 0x58
 		::System::Void _ctor(::System::Type* a1)
 		{

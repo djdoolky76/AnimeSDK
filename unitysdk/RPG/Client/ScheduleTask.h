@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_SCHEDULETASK_CANCEL_OFFSET UNITYSDK_OFFSET(0xE0A3410)
 #define RPG_CLIENT_SCHEDULETASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE0A44B0)
@@ -31,8 +31,8 @@ namespace RPG::Client
 	class ScheduleTask : public ::System::Object
 	{
 	public:
-		::System::Action* _FinishAction; // 0x10
-		::System::Action* OnTaskFinish; // 0x18
+		::System::Action_1<::RPG::Client::ScheduleData*>* _FinishAction; // 0x10
+		::System::Action_1<::RPG::Client::ScheduleTask*>* OnTaskFinish; // 0x18
 		::RPG::Client::ScheduleData* _ScheduleData; // 0x20
 		::System::UInt32 _DelayMs; // 0x28
 		::System::Byte _padding0[0x4];
@@ -86,14 +86,14 @@ namespace RPG::Client
 			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_GET_FINISHMSTIMESTAMP_OFFSET))(this);
 		}
 
-		::System::Action* get_FinishAction()
+		::System::Action_1<::RPG::Client::ScheduleData*>* get_FinishAction()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_GET_FINISHACTION_OFFSET))(this);
+			return ((::System::Action_1<::RPG::Client::ScheduleData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_GET_FINISHACTION_OFFSET))(this);
 		}
 
-		::System::Void set_FinishAction(::System::Action* a1)
+		::System::Void set_FinishAction(::System::Action_1<::RPG::Client::ScheduleData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_FINISHACTION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ScheduleData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCHEDULETASK_SET_FINISHACTION_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ScheduleData* get_ScheduleData()

@@ -9,6 +9,7 @@ namespace RPG::Client { class ConfirmDialogContext; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CONFIRMDIALOGUTIL_ONDIALOGEXIT_OFFSET UNITYSDK_OFFSET(0xCBC1730)
 #define RPG_CLIENT_CONFIRMDIALOGUTIL_ONFOCUSCHANGE_OFFSET UNITYSDK_OFFSET(0xCBC2330)
@@ -45,9 +46,9 @@ namespace RPG::Client
 	class ConfirmDialogUtil : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ConfirmDialogContext* ShowConfirmDialog(::RPG::Client::UILayer a1, ::RPG::Client::TextID a2, ::RPG::Client::TextID a3, ::RPG::Client::ConfirmDialogContext_DialogBtnMode a4, ::System::Action* a5)
+		static ::RPG::Client::ConfirmDialogContext* ShowConfirmDialog(::RPG::Client::UILayer a1, ::RPG::Client::TextID a2, ::RPG::Client::TextID a3, ::RPG::Client::ConfirmDialogContext_DialogBtnMode a4, ::System::Action_1<::System::Boolean>* a5)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::UILayer, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::ConfirmDialogContext_DialogBtnMode, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCONFIRMDIALOG_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::UILayer, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::ConfirmDialogContext_DialogBtnMode, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCONFIRMDIALOG_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void OnDialogExit()
@@ -55,44 +56,44 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_ONDIALOGEXIT_OFFSET))();
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowConfirmDialog_1(::System::Action* a1)
+		static ::RPG::Client::ConfirmDialogContext* ShowConfirmDialog_1(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCONFIRMDIALOG_1_OFFSET))(a1);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCONFIRMDIALOG_1_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowAboveConfirmDialog(::System::Action* a1)
+		static ::RPG::Client::ConfirmDialogContext* ShowAboveConfirmDialog(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWABOVECONFIRMDIALOG_OFFSET))(a1);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWABOVECONFIRMDIALOG_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowOkHint(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::System::Action* a3)
+		static ::RPG::Client::ConfirmDialogContext* ShowOkHint(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWOKHINT_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWOKHINT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowOkHintWithoutRspEsc(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::System::Action* a3, ::RPG::Client::ConfirmDialogContext_DialogBtnMode a4)
+		static ::RPG::Client::ConfirmDialogContext* ShowOkHintWithoutRspEsc(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::System::Action_1<::System::Boolean>* a3, ::RPG::Client::ConfirmDialogContext_DialogBtnMode a4)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action*, ::RPG::Client::ConfirmDialogContext_DialogBtnMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWOKHINTWITHOUTRSPESC_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action_1<::System::Boolean>*, ::RPG::Client::ConfirmDialogContext_DialogBtnMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWOKHINTWITHOUTRSPESC_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowRestartHint(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::System::Action* a3)
+		static ::RPG::Client::ConfirmDialogContext* ShowRestartHint(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWRESTARTHINT_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWRESTARTHINT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowOkCancelHint(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::System::Action* a3)
+		static ::RPG::Client::ConfirmDialogContext* ShowOkCancelHint(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWOKCANCELHINT_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWOKCANCELHINT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowOkCancelHintWithStringContent(::System::String* a1, ::RPG::Client::TextID a2, ::System::Action* a3)
+		static ::RPG::Client::ConfirmDialogContext* ShowOkCancelHintWithStringContent(::System::String* a1, ::RPG::Client::TextID a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::String*, ::RPG::Client::TextID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWOKCANCELHINTWITHSTRINGCONTENT_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::String*, ::RPG::Client::TextID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWOKCANCELHINTWITHSTRINGCONTENT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowCustomOkCancelHint(::System::String* a1, ::System::Action* a2, ::RPG::Client::ConfirmDialogContext_DialogBtnMode a3)
+		static ::RPG::Client::ConfirmDialogContext* ShowCustomOkCancelHint(::System::String* a1, ::System::Action_1<::System::Boolean>* a2, ::RPG::Client::ConfirmDialogContext_DialogBtnMode a3)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::String*, ::System::Action*, ::RPG::Client::ConfirmDialogContext_DialogBtnMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCUSTOMOKCANCELHINT_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::String*, ::System::Action_1<::System::Boolean>*, ::RPG::Client::ConfirmDialogContext_DialogBtnMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCUSTOMOKCANCELHINT_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void ShowForceUpdateHint(::System::String* a1, ::System::String* a2)
@@ -105,9 +106,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_ONFOCUSCHANGE_OFFSET))(a1);
 		}
 
-		static ::System::Void ShowNetMsgHint(::System::UInt32 a1, ::System::Action* a2)
+		static ::System::Void ShowNetMsgHint(::System::UInt32 a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWNETMSGHINT_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::UInt32, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWNETMSGHINT_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void ShowReloginHint()
@@ -160,19 +161,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWANTIADDICTIONHINT_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowCustomTextConfirmDialog(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::RPG::Client::TextID a3, ::RPG::Client::TextID a4, ::System::Action* a5, ::System::Boolean a6, ::RPG::Client::UILayer a7, ::RPG::Client::ConfirmDialogContext_DialogBtnMode a8)
+		static ::RPG::Client::ConfirmDialogContext* ShowCustomTextConfirmDialog(::RPG::Client::TextID a1, ::RPG::Client::TextID a2, ::RPG::Client::TextID a3, ::RPG::Client::TextID a4, ::System::Action_1<::System::Boolean>* a5, ::System::Boolean a6, ::RPG::Client::UILayer a7, ::RPG::Client::ConfirmDialogContext_DialogBtnMode a8)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action*, ::System::Boolean, ::RPG::Client::UILayer, ::RPG::Client::ConfirmDialogContext_DialogBtnMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCUSTOMTEXTCONFIRMDIALOG_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Action_1<::System::Boolean>*, ::System::Boolean, ::RPG::Client::UILayer, ::RPG::Client::ConfirmDialogContext_DialogBtnMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCUSTOMTEXTCONFIRMDIALOG_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowCustomOkCancelFuncConfirmDialog(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		static ::RPG::Client::ConfirmDialogContext* ShowCustomOkCancelFuncConfirmDialog(::System::Action_1<::System::Boolean>* a1, ::System::Action* a2, ::System::Action* a3)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCUSTOMOKCANCELFUNCCONFIRMDIALOG_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Action_1<::System::Boolean>*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWCUSTOMOKCANCELFUNCCONFIRMDIALOG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::ConfirmDialogContext* ShowPlayGoConfirmDialog(::System::Boolean a1, ::System::Single a2, ::System::Action* a3)
+		static ::RPG::Client::ConfirmDialogContext* ShowPlayGoConfirmDialog(::System::Boolean a1, ::System::Single a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Boolean, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWPLAYGOCONFIRMDIALOG_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::ConfirmDialogContext*(*)(::System::Boolean, ::System::Single, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGUTIL_SHOWPLAYGOCONFIRMDIALOG_OFFSET))(a1, a2, a3);
 		}
 
 		static ::RPG::Client::ConfirmDialogContext* ShowVideoNotExitConfirmDialog()

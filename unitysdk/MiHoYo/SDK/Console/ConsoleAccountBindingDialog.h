@@ -8,6 +8,7 @@ namespace MiHoYo::SDK::Console { class ConsoleAccountBindingDialog; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
@@ -56,8 +57,8 @@ namespace MiHoYo::SDK::Console
 		::System::Action* OnUserAgreementClicked; // 0xE0
 		::System::Action* OnPrivacyPolicyClicked; // 0xE8
 		::System::Action* OnRefreshQRCodeClicked; // 0xF0
-		::System::Action* OnGetCaptchaClicked; // 0xF8
-		::System::Action* OnBindButtonClicked; // 0x100
+		::System::Action_1<::System::String*>* OnGetCaptchaClicked; // 0xF8
+		::System::Action_1<::System::String*>* OnBindButtonClicked; // 0x100
 		::System::Action* OnBindingCanceled; // 0x108
 		::UnityEngine::GameObject* MailInputObj; // 0x110
 		::UnityEngine::GameObject* PhoneInputObj; // 0x118

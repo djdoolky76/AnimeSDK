@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class CKCJOCJGHKC;
 class CLAKIACAACO;
 class FHJBODEGFNP;
@@ -15,7 +16,6 @@ class PHKPDMEAMBP;
 class PMMOFOBCINL;
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -82,9 +82,9 @@ inline static constexpr unsigned int ILDNJGBJGPF_TypeDefinitionIndex = 81449;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ILDNJGBJGPF_SET_STAGEINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MLNMJJMCFGP()
+		::System::Nullable_1<::System::Int32> MLNMJJMCFGP()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILDNJGBJGPF_MLNMJJMCFGP_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + ILDNJGBJGPF_MLNMJJMCFGP_OFFSET))(this);
 		}
 
 		::FHJBODEGFNP* get_CachedSettle()
@@ -177,9 +177,9 @@ inline static constexpr unsigned int ILDNJGBJGPF_TypeDefinitionIndex = 81449;
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + ILDNJGBJGPF_AIGDAOCGPMF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* GCOODGGOHKE()
+		::System::Nullable_1<::System::Int32> GCOODGGOHKE()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILDNJGBJGPF_GCOODGGOHKE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + ILDNJGBJGPF_GCOODGGOHKE_OFFSET))(this);
 		}
 
 		::System::Void _ContinueWithNextStage_b__29_0(::LHAKNKHBLBI* a1)

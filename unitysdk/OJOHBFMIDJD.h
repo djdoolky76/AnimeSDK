@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftChipTraitType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class CEEGMMCFCBG;
 class DBPFECFIKOM;
 class FCNLPLHOACB;
@@ -16,7 +17,6 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 namespace System { class Action; }
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define OJOHBFMIDJD_ADD_HANDLEHINTEMPTY_OFFSET UNITYSDK_OFFSET(0xBECC400)
@@ -131,14 +131,14 @@ inline static constexpr unsigned int OJOHBFMIDJD_TypeDefinitionIndex = 79557;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJOHBFMIDJD__GET_HIDEDETAILCOMMAND_B__11_0_OFFSET))(this);
 		}
 
-		::System::Boolean __LoadAttributeTypes_b__31_0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __LoadAttributeTypes_b__31_0(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + OJOHBFMIDJD___LOADATTRIBUTETYPES_B__31_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + OJOHBFMIDJD___LOADATTRIBUTETYPES_B__31_0_OFFSET))(this, a1);
 		}
 
-		::OJOHBFMIDJD_GFLKBJPGIKK* __LoadAttributeTypes_b__31_2(::System::Collections::Generic::KeyValuePair* a1)
+		::OJOHBFMIDJD_GFLKBJPGIKK* __LoadAttributeTypes_b__31_2(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::OJOHBFMIDJD_GFLKBJPGIKK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + OJOHBFMIDJD___LOADATTRIBUTETYPES_B__31_2_OFFSET))(this, a1);
+			return ((::OJOHBFMIDJD_GFLKBJPGIKK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + OJOHBFMIDJD___LOADATTRIBUTETYPES_B__31_2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __LoadTraits_b__32_1(::RPG::Client::MechCraft::MechCraftChipTraitType a1)

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
+#include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
-namespace Cysharp::Threading::Tasks { class TaskPool; }
 namespace Cysharp::Threading::Tasks { class UniTask_WaitUntilCanceledPromise; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F14AD20)
 #define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F143870)
@@ -36,9 +36,9 @@ namespace Cysharp::Threading::Tasks
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x40
 		::Cysharp::Threading::Tasks::UniTask_WaitUntilCanceledPromise* nextNode; // 0x58
 		::System::Boolean cancelImmediately; // 0x60
-		static ::Cysharp::Threading::Tasks::TaskPool** StaticGet_pool()
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool**)UnitySDK::FromName("Cysharp.Threading.Tasks", "WaitUntilCanceledPromise")->GetStaticField(0x47140);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "WaitUntilCanceledPromise")->GetStaticField(0x47140);
 		}
 
 		static ::System::Void _cctor()
@@ -76,9 +76,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_UNSAFEGETSTATUS_OFFSET))(this);
 		}
 
-		::System::Void OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILCANCELEDPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean MoveNext()

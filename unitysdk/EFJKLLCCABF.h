@@ -9,8 +9,8 @@ class MBDOBECHOJA;
 class PLHAEBMKIFA;
 namespace RPG::Client::PetMarble { class PetMarblePlayer; }
 namespace RPG::Client::PetMarble { class PetMarbleTeamEditController; }
-namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define EFJKLLCCABF_ADD_CHOOSEPETSTARTED_OFFSET UNITYSDK_OFFSET(0x13A51510)
 #define EFJKLLCCABF_AHGMMMAKLOK_OFFSET UNITYSDK_OFFSET(0x13A4FA60)
@@ -40,7 +40,7 @@ inline static constexpr unsigned int EFJKLLCCABF_TypeDefinitionIndex = 60407;
 	class EFJKLLCCABF : public ::System::Object
 	{
 	public:
-		::System::Action* ChoosePetStarted; // 0x10
+		::System::Action_1<::RPG::Client::PetMarble::PetMarbleTeamEditController*>* ChoosePetStarted; // 0x10
 		::RPG::Client::PetMarble::PetMarbleTeamEditController* MOBILOKIAJP; // 0x18
 		::PLHAEBMKIFA* LDEIAPECBPM; // 0x20
 		::DCHFGBPMKDI* OFMKMFOJKFC; // 0x28
@@ -152,14 +152,14 @@ inline static constexpr unsigned int EFJKLLCCABF_TypeDefinitionIndex = 60407;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFJKLLCCABF_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void add_ChoosePetStarted(::System::Action* a1)
+		::System::Void add_ChoosePetStarted(::System::Action_1<::RPG::Client::PetMarble::PetMarbleTeamEditController*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + EFJKLLCCABF_ADD_CHOOSEPETSTARTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::PetMarble::PetMarbleTeamEditController*>*))((::PBYTE)hIl2Cpp + EFJKLLCCABF_ADD_CHOOSEPETSTARTED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ChoosePetStarted(::System::Action* a1)
+		::System::Void remove_ChoosePetStarted(::System::Action_1<::RPG::Client::PetMarble::PetMarbleTeamEditController*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + EFJKLLCCABF_REMOVE_CHOOSEPETSTARTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::PetMarble::PetMarbleTeamEditController*>*))((::PBYTE)hIl2Cpp + EFJKLLCCABF_REMOVE_CHOOSEPETSTARTED_OFFSET))(this, a1);
 		}
 
 	};

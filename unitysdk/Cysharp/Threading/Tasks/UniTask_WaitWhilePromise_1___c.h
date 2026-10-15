@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -17,9 +17,9 @@ namespace Cysharp::Threading::Tasks
 			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__12_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__12_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
 	};

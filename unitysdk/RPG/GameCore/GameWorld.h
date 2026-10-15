@@ -26,9 +26,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class LevelAreaManager; }
 namespace RPG::GameCore { class TimeScaleStack; }
-namespace System { class Action; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -131,18 +133,18 @@ namespace RPG::GameCore
 		::RPG::GameCore::LevelAreaManager* _LevelAreaManager; // 0x10
 		::RPG::Client::AdventurePhase* BindAdventurePhase; // 0x18
 		::AELMAJAHPCP* _ParamRegister_k__BackingField; // 0x20
-		::System::Action* EntityDiedCallback; // 0x28
+		::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::AliveState>* EntityDiedCallback; // 0x28
 		::RPG::Client::MonoEffectManager* MonoEffectManagerRef; // 0x30
 		::RPG::GameCore::TimeScaleStack* _TimeScaleStack_k__BackingField; // 0x38
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _DeferDeleteEntityList; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::KLKMCNOECAL*>* _PrefabGameObjectMap; // 0x48
 		::RPG::GameCore::EntityManager* _EntityManager; // 0x50
-		::System::Action* EntityWillDestroyCallback; // 0x58
-		::System::Action* EntityReviveCallback; // 0x60
+		::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::AliveState>* EntityWillDestroyCallback; // 0x58
+		::System::Action_3<::RPG::GameCore::GameEntity*, ::RPG::GameCore::AliveState, ::NMNGHKMHDOK*>* EntityReviveCallback; // 0x60
 		::System::Collections::Generic::List_1<::JHFCIOJIONP*>* _DyingEntityList; // 0x68
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _TickedEntityListPerFrame; // 0x70
 		::System::Collections::Generic::List_1<::HBCMHADMLOP*>* _NeedLateUpdateModules; // 0x78
-		::System::Action* EntityBeforeDyingCallback; // 0x80
+		::System::Action_3<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AliveState>* EntityBeforeDyingCallback; // 0x80
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _EntityList; // 0x88
 		::DEEJKBIMHAA* LogicRandom; // 0x90
 		::System::Collections::Generic::Stack_1<::NCJILFFNINI*>* _DamageDataStack_k__BackingField; // 0x98
@@ -150,7 +152,7 @@ namespace RPG::GameCore
 		::LDPOAPIPHIE* _GPTimelineHierarchyManager; // 0xA8
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _EnterDyingEntityList; // 0xB0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MDBKAFBKOGM*>* _EntityTickList; // 0xB8
-		::System::Action* NewEntityCallback; // 0xC0
+		::System::Action_1<::RPG::GameCore::GameEntity*>* NewEntityCallback; // 0xC0
 		::RPG::GameCore::EventManager* _EventManager; // 0xC8
 		::System::Collections::Generic::List_1<::HBCMHADMLOP*>* _NeedTickModules; // 0xD0
 		::RPG::GameCore::BattleInstance* _BattleInstanceRef_k__BackingField; // 0xD8

@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/EnumStatusTag.h"
 #include "unitysdk/RPG/GameCore/EnumStatusType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StatusRow; }
 namespace System { class String; }
@@ -50,9 +50,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple a1)
+		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_FROMTABLEOFFSET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATUSROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()

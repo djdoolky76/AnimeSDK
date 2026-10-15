@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class RectTransform; }
@@ -84,9 +84,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON_START_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* DelayedAction(::System::Action* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
+		::System::Collections::IEnumerator* DelayedAction(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON_DELAYEDACTION_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON_DELAYEDACTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PointerEnter(::UnityEngine::EventSystems::PointerEventData* a1)

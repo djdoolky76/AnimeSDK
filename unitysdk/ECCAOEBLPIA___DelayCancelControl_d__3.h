@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class ECCAOEBLPIA;
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define ECCAOEBLPIA___DELAYCANCELCONTROL_D__3_CTOR_OFFSET UNITYSDK_OFFSET(0x12D08080)
@@ -22,9 +22,9 @@ inline static constexpr unsigned int ECCAOEBLPIA___DelayCancelControl_d__3_TypeD
 	public:
 		::System::Object* __2__current; // 0x10
 		::ECCAOEBLPIA* __4__this; // 0x18
-		::System::Nullable* rotation; // 0x20
+		::System::Nullable_1<::UnityEngine::Quaternion> rotation; // 0x20
 		::System::Byte _padding0[0xC];
-		::System::Nullable* position; // 0x34
+		::System::Nullable_1<::UnityEngine::Vector3> position; // 0x34
 		::System::Byte _padding1[0x8];
 		::System::Int32 __1__state; // 0x44
 		::System::Void _ctor(::System::Int32 a1)

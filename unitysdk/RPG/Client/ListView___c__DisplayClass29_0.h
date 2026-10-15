@@ -11,8 +11,8 @@ namespace SuperScrollView { class LoopListView2; }
 namespace SuperScrollView { class LoopListViewItem2; }
 namespace SuperScrollView { class LoopStaggeredGridView; }
 namespace SuperScrollView { class LoopStaggeredGridViewItem; }
-namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
 
@@ -34,7 +34,7 @@ namespace RPG::Client
 	class ListView___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onItemRecycle; // 0x10
+		::System::Action_1<::UnityEngine::GameObject*>* onItemRecycle; // 0x10
 		::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>* onGetItemByIndex; // 0x18
 		::System::Void _ctor()
 		{

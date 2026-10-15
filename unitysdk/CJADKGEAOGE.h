@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class ILDNJGBJGPF;
 class NHCHDKJLNBJ;
 class OBJANKHLNGO;
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define CJADKGEAOGE_BNHHPLNNOBO_OFFSET UNITYSDK_OFFSET(0xCF911F0)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int CJADKGEAOGE_TypeDefinitionIndex = 81494;
 		::NHCHDKJLNBJ* LBNAGLIGKIO; // 0x10
 		::ILDNJGBJGPF* PFJGDJPMAMM; // 0x18
 		::OBJANKHLNGO* GJALMBBNNOF; // 0x20
-		::System::Nullable* IJGBJLOLMOE; // 0x28
+		::System::Nullable_1<::System::Int32> IJGBJLOLMOE; // 0x28
 		::System::Boolean GFAMGLFOMGI; // 0x30
 		::System::Void _ctor(::NHCHDKJLNBJ* a1, ::OBJANKHLNGO* a2)
 		{

@@ -3,8 +3,8 @@
 #include "unitysdk/System/Reflection/BindingFlags.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/FormatterAssemblyStyle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Attribute; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -231,9 +231,9 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS_SPLITFULLYQUALIFIEDTYPENAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Nullable* GetAssemblyDelimiterIndex(::System::String* a1)
+		static ::System::Nullable_1<::System::Int32> GetAssemblyDelimiterIndex(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS_GETASSEMBLYDELIMITERINDEX_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS_GETASSEMBLYDELIMITERINDEX_OFFSET))(a1);
 		}
 
 		static ::System::Reflection::MemberInfo* GetMemberInfoFromType(::System::Type* a1, ::System::Reflection::MemberInfo* a2)

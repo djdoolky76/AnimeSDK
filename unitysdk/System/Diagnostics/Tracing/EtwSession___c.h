@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
-namespace System { class WeakReference; }
 namespace System { template <typename T> class Predicate_1; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Diagnostics::Tracing { class EtwSession; }
 
 #define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1DAE70)
@@ -17,9 +17,9 @@ namespace System::Diagnostics::Tracing
 	class EtwSession___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::System::WeakReference*>** StaticGet___9__2_0()
+		static ::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet___9__2_0()
 		{
-			return (::System::Predicate_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "<>c")->GetStaticField(0x12160);
+			return (::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "<>c")->GetStaticField(0x12160);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -37,9 +37,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _TrimGlobalList_b__2_0(::System::WeakReference* a1)
+		::System::Boolean _TrimGlobalList_b__2_0(::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::WeakReference*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET))(this, a1);
 		}
 
 	};

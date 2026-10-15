@@ -4,8 +4,8 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSound; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define HFKELLCNMMF_BBPDBBMOBHK_OFFSET UNITYSDK_OFFSET(0x15C879A0)
 #define HFKELLCNMMF_BPLJKICILOP_OFFSET UNITYSDK_OFFSET(0x15C87ED0)
@@ -45,9 +45,9 @@ inline static constexpr unsigned int HFKELLCNMMF_TypeDefinitionIndex = 56472;
 			return ((::System::Void(*)(::LOKABAGIKFG, ::System::String*, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + HFKELLCNMMF_KALGMIMLDBA_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean BPLJKICILOP(::RPG::GameCore::TriggerSound* a1, ::System::String* a2, ::RPG::GameCore::GameEntity* a3, ::System::Action* a4)
+		static ::System::Boolean BPLJKICILOP(::RPG::GameCore::TriggerSound* a1, ::System::String* a2, ::RPG::GameCore::GameEntity* a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::TriggerSound*, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Action*))((::PBYTE)hIl2Cpp + HFKELLCNMMF_BPLJKICILOP_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::RPG::GameCore::TriggerSound*, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + HFKELLCNMMF_BPLJKICILOP_OFFSET))(a1, a2, a3, a4);
 		}
 
 	};

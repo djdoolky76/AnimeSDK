@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JJBAAGFMEKM.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class DJPBNHAADAF;
 namespace RPG::Client { class AirlineCarWay; }
 namespace RPG::Client { class AirshipCarEmitter; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -45,7 +45,7 @@ inline static constexpr unsigned int CLCHEDJKBLL_TypeDefinitionIndex = 59818;
 		::System::Collections::Generic::List_1<::DJPBNHAADAF*>* IFCAPLOMACM; // 0x30
 		::System::Collections::Generic::List_1<::JJBAAGFMEKM>* JLCLNDAEMML; // 0x38
 		::System::UInt32 MJPPOIHKCCB; // 0x40
-		::System::Nullable* ENDAGGFGENB; // 0x44
+		::System::Nullable_1<::System::Object*> ENDAGGFGENB; // 0x44
 		::System::Byte _padding0[0x4];
 		::System::Single KIKIMCMLLKN; // 0x50
 		::System::Void _ctor(::System::UInt32 a1, ::System::String* a2, ::UnityEngine::GameObject* a3)

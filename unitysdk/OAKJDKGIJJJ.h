@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPEBLEKDAGI.h"
 #include "unitysdk/RPG/Client/WorldShiftingReason.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KDFFHMDFALG;
@@ -30,7 +30,7 @@ inline static constexpr unsigned int OAKJDKGIJJJ_TypeDefinitionIndex = 60596;
 	public:
 		::KDFFHMDFALG* KGCNPIEDOCA; // 0x10
 		::RPG::Client::MapDef* KKKADHHBMLD; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* DMLKMOJLCCI; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Object*>* DMLKMOJLCCI; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>* INKJCAABJDF; // 0x28
 		::RPG::Client::MapRotationInfo* OCDIENNPEDA; // 0x30
 		::System::Void _ctor()

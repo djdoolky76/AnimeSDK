@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
-namespace System::Collections::Immutable { class ImmutableDictionary; }
+namespace System::Collections::Immutable { template <typename T1, typename T2> class ImmutableDictionary_2; }
 
 namespace System::Collections::Immutable
 {
@@ -15,7 +15,7 @@ namespace System::Collections::Immutable
 		::System::Int32 __1__state; // 0x0
 		T1 __2__current; // 0x0
 		::System::Int32 __l__initialThreadId; // 0x0
-		::System::Collections::Immutable::ImmutableDictionary* __4__this; // 0x0
+		::System::Collections::Immutable::ImmutableDictionary_2<T2, T3>* __4__this; // 0x0
 		::System::Object* __7__wrap1; // 0x0
 		::System::Object* __7__wrap2; // 0x0
 	};

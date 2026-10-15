@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -26,9 +26,9 @@ inline static constexpr unsigned int NMLADOGHHGL_TypeDefinitionIndex = 57811;
 	class NMLADOGHHGL : public ::System::Object
 	{
 	public:
-		::System::Action* MJBFIAAOMEM; // 0x10
+		::System::Action_1<::RPG::GameCore::GameEntity*>* MJBFIAAOMEM; // 0x10
 		::RPG::GameCore::GameWorld* JEOADHBDKMO; // 0x18
-		::System::Action* ECNKLKGHOEE; // 0x20
+		::System::Action_1<::RPG::GameCore::GameEntity*>* ECNKLKGHOEE; // 0x20
 		::System::String* JMAMNFPCOJH; // 0x28
 		::System::Predicate_1<::RPG::GameCore::GameWorld*>* _ValidChecker_k__BackingField; // 0x30
 		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* OFPPCHFNLGH; // 0x38

@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class DMJOFOOPKJP;
 class FCOEMCEDLNL;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define JMDKIGJJEAI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D049920)
 #define JMDKIGJJEAI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D049EA0)
@@ -41,9 +41,9 @@ inline static constexpr unsigned int JMDKIGJJEAI_TypeDefinitionIndex = 15054;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JMDKIGJJEAI")->GetStaticField(0x2F7B8);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "JMDKIGJJEAI")->GetStaticField(0x2F7C0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JMDKIGJJEAI")->GetStaticField(0x2F7C0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int JMDKIGJJEAI_TypeDefinitionIndex = 15054;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::DMJOFOOPKJP*>(*)())((::PBYTE)hIl2Cpp + JMDKIGJJEAI_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::DMJOFOOPKJP*>, ::DMJOFOOPKJP*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + JMDKIGJJEAI_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::DMJOFOOPKJP*>, ::DMJOFOOPKJP*>(*)())((::PBYTE)hIl2Cpp + JMDKIGJJEAI_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::DMJOFOOPKJP* LMBKNCAIDLC(::System::UInt32 a1)

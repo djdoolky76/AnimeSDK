@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityBenefitV2RoundListViewModel_Round_StateType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/TimeSpan.h"
 class JNBAPNPIADL;
 namespace RPG::Client { class ActivityBenefitV2Round; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
@@ -102,9 +102,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDLISTVIEWMODEL_ROUND__CHECKSHOULDSHOWUNLOCKING_OFFSET))(this);
 		}
 
-		::System::Nullable* GetRemainingTimeBeforeUnlock()
+		::System::Nullable_1<::System::TimeSpan> GetRemainingTimeBeforeUnlock()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDLISTVIEWMODEL_ROUND_GETREMAININGTIMEBEFOREUNLOCK_OFFSET))(this);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2ROUNDLISTVIEWMODEL_ROUND_GETREMAININGTIMEBEFOREUNLOCK_OFFSET))(this);
 		}
 
 		::System::Void SetUnlockingSeen()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
@@ -20,9 +20,9 @@ inline static constexpr unsigned int PJJKDGFODDL___c_TypeDefinitionIndex = 75638
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FA80);
 		}
 
-		static ::System::Comparison_1<::System::ValueTuple>** StaticGet___9__28_0()
+		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>** StaticGet___9__28_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FA88);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FA88);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ inline static constexpr unsigned int PJJKDGFODDL___c_TypeDefinitionIndex = 75638
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PJJKDGFODDL___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __ReconcileSelfParty_b__28_0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __ReconcileSelfParty_b__28_0(::System::ValueTuple_2<::System::UInt32, ::System::String*> a1, ::System::ValueTuple_2<::System::UInt32, ::System::String*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + PJJKDGFODDL___C___RECONCILESELFPARTY_B__28_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::ValueTuple_2<::System::UInt32, ::System::String*>))((::PBYTE)hIl2Cpp + PJJKDGFODDL___C___RECONCILESELFPARTY_B__28_0_OFFSET))(this, a1, a2);
 		}
 
 	};

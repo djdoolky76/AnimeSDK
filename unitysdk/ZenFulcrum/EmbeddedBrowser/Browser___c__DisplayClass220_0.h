@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
-namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
+namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class Promise_1; }
 
 #define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS220_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F642AA0)
 #define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS220_0__EVALJSCSP_B__0_OFFSET UNITYSDK_OFFSET(0x1F647820)
@@ -18,7 +18,7 @@ namespace ZenFulcrum::EmbeddedBrowser
 	{
 	public:
 		::System::String* scriptURL; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::Promise* promise; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::Promise_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>* promise; // 0x18
 		::System::String* resultJS; // 0x20
 		::ZenFulcrum::EmbeddedBrowser::Browser* __4__this; // 0x28
 		::System::Int32 id; // 0x30

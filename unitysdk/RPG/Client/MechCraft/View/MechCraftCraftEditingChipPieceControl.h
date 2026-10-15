@@ -3,6 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftCraftEditingChipPieceControl___c__DisplayClass23_0.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class AKPHPMPKCHB;
@@ -11,7 +12,6 @@ class IALBJEGDCFI_HCBKBKPNDKB;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftEditingChipPieceControlBinder; }
 namespace System { class Action; }
 namespace System { class IDisposable; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 
@@ -152,9 +152,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPPIECECONTROL_LIMEKLNEPGI_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* GetTargetCell()
+		::System::Nullable_1<::UnityEngine::Vector2Int> GetTargetCell()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPPIECECONTROL_GETTARGETCELL_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector2Int>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPPIECECONTROL_GETTARGETCELL_OFFSET))(this);
 		}
 
 		::System::Void OCOOGEGLDBC()

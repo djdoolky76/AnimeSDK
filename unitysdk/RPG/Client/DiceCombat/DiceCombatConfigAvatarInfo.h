@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatAvailableDice.h"
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatAvatarInfoType.h"
 #include "unitysdk/RPG/GameCore/GenderType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class EPOFOGGGMEH;
 namespace RPG::Client::DiceCombat { class DiceCombatBattleAvatarInfo; }
 namespace RPG::Client::DiceCombat { class DiceCombatConfigAvatarInfo; }
 namespace RPG::GameCore { class ActivityDiceCombatAvatarRow; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -59,7 +59,7 @@ namespace RPG::Client::DiceCombat
 		::System::Collections::Generic::List_1<::System::UInt32>* _DiceIDPerRare_k__BackingField; // 0x28
 		::System::Collections::Generic::List_1<::System::UInt32>* _DiceCountPerRare_k__BackingField; // 0x30
 		::System::String* _OverrideAvatarName; // 0x38
-		::System::Nullable* _OverrideGenderType; // 0x40
+		::System::Nullable_1<::RPG::GameCore::GenderType> _OverrideGenderType; // 0x40
 		::System::UInt32 _AvatarLevel; // 0x48
 		::System::Void _ctor()
 		{

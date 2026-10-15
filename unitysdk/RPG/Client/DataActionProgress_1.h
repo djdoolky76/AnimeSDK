@@ -16,9 +16,9 @@ namespace RPG::Client { template <typename T1, typename T2, typename T3, typenam
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class ActionEvent_3; }
 namespace RPG::Client { template <typename T1, typename T2> class ActionEvent_2; }
 namespace RPG::Client { template <typename T> class ActionEvent_1; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
@@ -42,7 +42,7 @@ namespace RPG::Client
 		::RPG::Client::NotifyType EndNotifyType; // 0x0
 		::RPG::Client::FailedType FailedType; // 0x0
 		::DHAFGMHPMHG* _ActionSystem; // 0x0
-		::System::Action* _ActionThread; // 0x0
+		::System::Action_2<::KGPCBBIOGLB*, T>* _ActionThread; // 0x0
 		::System::Int32 _TotalCount_k__BackingField; // 0x0
 		::System::Int32 _SuccessCount_k__BackingField; // 0x0
 		::System::Int32 _FailureCount_k__BackingField; // 0x0

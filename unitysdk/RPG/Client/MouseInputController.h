@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/CursorLockMode.h"
 #include "unitysdk/RPG/Client/MouseInputController__POINT.h"
 namespace RPG::Client { class MouseInputController; }
 namespace RPG::GameCore { template <typename T> class SharedAsset_1; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
@@ -39,7 +39,7 @@ namespace RPG::Client
 		::System::Boolean _UseCursorMode; // 0x18
 		::System::Boolean _ForceShowCursor; // 0x19
 		::System::Byte _padding0[0x2];
-		::System::Nullable* _OverrideCursorLockMode; // 0x1C
+		::System::Nullable_1<::UnityEngine::CursorLockMode> _OverrideCursorLockMode; // 0x1C
 		static ::RPG::GameCore::SharedAsset_1<::UnityEngine::Texture2D*>** StaticGet__MouseIconSharedAsset()
 		{
 			return (::RPG::GameCore::SharedAsset_1<::UnityEngine::Texture2D*>**)UnitySDK::FromName("RPG.Client", "MouseInputController")->GetStaticField(0x6DB80);

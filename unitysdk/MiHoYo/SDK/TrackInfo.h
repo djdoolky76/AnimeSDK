@@ -7,7 +7,7 @@ namespace MiHoYo::SDK { class PageInfo; }
 namespace MiHoYo::SDK { class TrackInfo; }
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace MiHoYo::SDK::Protobuf { class MessageParser; }
+namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -44,9 +44,9 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::EventInfo* eventInfo_; // 0x10
 		::MiHoYo::SDK::CommonInfo* commonInfo_; // 0x18
 		::MiHoYo::SDK::PageInfo* pageInfo_; // 0x20
-		static ::MiHoYo::SDK::Protobuf::MessageParser** StaticGet__parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::TrackInfo*>** StaticGet__parser()
 		{
-			return (::MiHoYo::SDK::Protobuf::MessageParser**)UnitySDK::FromName("MiHoYo.SDK", "TrackInfo")->GetStaticField(0x318F0);
+			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::TrackInfo*>**)UnitySDK::FromName("MiHoYo.SDK", "TrackInfo")->GetStaticField(0x318F0);
 		}
 
 		// static const ::System::Object PageInfoFieldNumber; // 0x0
@@ -67,9 +67,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::Protobuf::MessageParser* get_Parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::TrackInfo*>* get_Parser()
 		{
-			return ((::MiHoYo::SDK::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_GET_PARSER_OFFSET))();
+			return ((::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::TrackInfo*>*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_GET_PARSER_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

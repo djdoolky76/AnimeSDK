@@ -7,6 +7,7 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_IO_STREAM_NULLSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1C269B60)
 #define SYSTEM_IO_STREAM_NULLSTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1C269BF0)
@@ -37,9 +38,9 @@ namespace System::IO
 	class Stream_NullStream : public ::System::IO::Stream
 	{
 	public:
-		static ::System::Threading::Tasks::Task** StaticGet_s_nullReadTask()
+		static ::System::Threading::Tasks::Task_1<::System::Int32>** StaticGet_s_nullReadTask()
 		{
-			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.IO", "NullStream")->GetStaticField(0x15750);
+			return (::System::Threading::Tasks::Task_1<::System::Int32>**)UnitySDK::FromName("System.IO", "NullStream")->GetStaticField(0x15750);
 		}
 
 		::System::Void _ctor()
@@ -112,9 +113,9 @@ namespace System::IO
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_READ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
+		::System::Threading::Tasks::Task_1<::System::Int32>* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_NULLSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 ReadByte()

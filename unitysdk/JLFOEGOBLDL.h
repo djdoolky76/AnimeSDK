@@ -4,7 +4,7 @@
 class AFEPOFEOCDI;
 class OCPOIDCNJDA;
 class OMPCEECHGJK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class PingPongEnemyGroupEvent_ModifyEnemyRotate; }
@@ -50,7 +50,7 @@ inline static constexpr unsigned int JLFOEGOBLDL_TypeDefinitionIndex = 76663;
 		::OMPCEECHGJK* PDENFEFCAGN; // 0x18
 		::RPG::PoolHashSet_1<::System::UInt32>* LCPOLDIGHPC; // 0x20
 		::RPG::PoolList_1<::OCPOIDCNJDA*>* EPALMAMNOPG; // 0x28
-		::Entitas::IGroup* LLIMLCCEBAH; // 0x30
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* LLIMLCCEBAH; // 0x30
 		::RPG::PoolHashSet_1<::System::UInt32>* DMIPKFAGDJB; // 0x38
 		::RPG::PoolList_1<::OCPOIDCNJDA*>* EKBKIAFFCEL; // 0x40
 		::System::Void _ctor(::AFEPOFEOCDI* a1, ::OMPCEECHGJK* a2)

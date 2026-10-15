@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class LJFHKAJPFNE_PBJCGMLECGD;
 class NFJIADFIJKO;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define LJFHKAJPFNE_DMPFJOFLMEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB700800)
@@ -30,14 +30,14 @@ inline static constexpr unsigned int LJFHKAJPFNE_DMPFJOFLMEM_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_DMPFJOFLMEM_HADOHLNHHGB_OFFSET))(this);
 		}
 
-		::LJFHKAJPFNE_PBJCGMLECGD* GLBCDNOBCNO(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4, ::System::Action* a5, ::System::Boolean a6)
+		::LJFHKAJPFNE_PBJCGMLECGD* GLBCDNOBCNO(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4, ::System::Action_1<::System::Object*>* a5, ::System::Boolean a6)
 		{
-			return ((::LJFHKAJPFNE_PBJCGMLECGD*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_DMPFJOFLMEM_GLBCDNOBCNO_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::LJFHKAJPFNE_PBJCGMLECGD*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Action_1<::System::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_DMPFJOFLMEM_GLBCDNOBCNO_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::LJFHKAJPFNE_PBJCGMLECGD* GMFJJOJADGK(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::LJFHKAJPFNE_PBJCGMLECGD* GMFJJOJADGK(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::Object*>* a3)
 		{
-			return ((::LJFHKAJPFNE_PBJCGMLECGD*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_DMPFJOFLMEM_GMFJJOJADGK_OFFSET))(this, a1, a2, a3);
+			return ((::LJFHKAJPFNE_PBJCGMLECGD*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_DMPFJOFLMEM_GMFJJOJADGK_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

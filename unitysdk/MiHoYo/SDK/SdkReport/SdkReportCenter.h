@@ -5,6 +5,7 @@
 #include "unitysdk/MiHoYo/SDK/SdkReport/StageType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class MiHoYoSDKWebViewManager; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterDataItem; }
@@ -12,7 +13,6 @@ namespace MiHoYo::SDK::ReporterUtil { class ReporterDataSequence; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterEvent; }
 namespace MiHoYo::SDK::ReporterUtil { template <typename T> class AnalyzerResult_1; }
 namespace MiHoYo::SDK::SdkReport { class SdkReportCenter; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -138,14 +138,14 @@ namespace MiHoYo::SDK::SdkReport
 			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETSTAGENAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Begin(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable* a4)
+		::System::Void Begin(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable_1<::System::DateTime> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void End(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable* a4)
+		::System::Void End(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable_1<::System::DateTime> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Item(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3)

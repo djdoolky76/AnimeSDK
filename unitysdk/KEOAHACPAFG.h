@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class KAKADGHNMFK;
 namespace RPG::GameCore { class ChimeraDuelChimeraPresetRow; }
-namespace System { class Nullable; }
 
 #define KEOAHACPAFG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CBB7D50)
 #define KEOAHACPAFG_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CBB7E40)
@@ -17,11 +17,11 @@ inline static constexpr unsigned int KEOAHACPAFG_TypeDefinitionIndex = 41976;
 	{
 	public:
 		::System::UInt32 BPHEJFJENJK; // 0x10
-		::System::Nullable* NJBJDEBPCLN; // 0x14
+		::System::Nullable_1<::System::Int32> NJBJDEBPCLN; // 0x14
 		::RPG::GameCore::ChimeraDuelTeamType JCDIEKGKCPP; // 0x1C
 		::System::Int32 NJNLHLCLOJA; // 0x20
 		::System::UInt32 PHFMCACHFIJ; // 0x24
-		::System::Nullable* FNIAIOLFNPC; // 0x28
+		::System::Nullable_1<::System::Int32> FNIAIOLFNPC; // 0x28
 		::System::Int32 KEINOBNBHDO; // 0x30
 		::System::UInt32 PJNNPOKJEFD; // 0x34
 		::System::Int32 MGHNBDDCEKK; // 0x38

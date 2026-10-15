@@ -8,9 +8,9 @@ class LCCJKNEADPL;
 namespace Google::Protobuf { class ByteString; }
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
@@ -81,9 +81,9 @@ inline static constexpr unsigned int CHIIPPKECEF_TypeDefinitionIndex = 26507;
 		::System::Boolean JLLKJDEPCCD; // 0x5C
 		::System::Boolean OOBJNKHPEKM; // 0x5D
 		::System::Boolean BEBEFHIBKAE; // 0x5E
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::CHIIPPKECEF*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "CHIIPPKECEF")->GetStaticField(0x167B0);
+			return (::Google::Protobuf::MessageParser_1<::CHIIPPKECEF*>**)UnitySDK::FromName("", "CHIIPPKECEF")->GetStaticField(0x167B0);
 		}
 
 		static ::System::Object** StaticGet_AIMNPIGNLCL()
@@ -91,9 +91,9 @@ inline static constexpr unsigned int CHIIPPKECEF_TypeDefinitionIndex = 26507;
 			return (::System::Object**)UnitySDK::FromName("", "CHIIPPKECEF")->GetStaticField(0x167B8);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_NGAKLPPJLMH()
+		static ::Google::Protobuf::FieldCodec_1<::EEFMAMCHOMN*>** StaticGet_NGAKLPPJLMH()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "CHIIPPKECEF")->GetStaticField(0x167C0);
+			return (::Google::Protobuf::FieldCodec_1<::EEFMAMCHOMN*>**)UnitySDK::FromName("", "CHIIPPKECEF")->GetStaticField(0x167C0);
 		}
 
 		// static const ::System::Object DCPHPJKBJBN; // 0x0
@@ -126,9 +126,9 @@ inline static constexpr unsigned int CHIIPPKECEF_TypeDefinitionIndex = 26507;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CHIIPPKECEF_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::CHIIPPKECEF*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + CHIIPPKECEF_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::CHIIPPKECEF*>*(*)())((::PBYTE)hIl2Cpp + CHIIPPKECEF_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

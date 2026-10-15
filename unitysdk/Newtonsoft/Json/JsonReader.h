@@ -7,12 +7,12 @@
 #include "unitysdk/Newtonsoft/Json/JsonPosition.h"
 #include "unitysdk/Newtonsoft/Json/JsonReader_State.h"
 #include "unitysdk/Newtonsoft/Json/JsonToken.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/DateTimeOffset.h"
 #include "unitysdk/System/Decimal.h"
 namespace Newtonsoft::Json { class JsonReaderException; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -97,7 +97,7 @@ namespace Newtonsoft::Json
 		::Newtonsoft::Json::FloatParseHandling _floatParseHandling; // 0x48
 		::Newtonsoft::Json::JsonReader_State _currentState; // 0x4C
 		::Newtonsoft::Json::DateTimeZoneHandling _dateTimeZoneHandling; // 0x50
-		::System::Nullable* _maxDepth; // 0x54
+		::System::Nullable_1<::System::Int32> _maxDepth; // 0x54
 		::Newtonsoft::Json::DateParseHandling _dateParseHandling; // 0x5C
 		::Newtonsoft::Json::JsonToken _tokenType; // 0x60
 		::System::Boolean _hasExceededMaxDepth; // 0x64
@@ -174,14 +174,14 @@ namespace Newtonsoft::Json
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_SET_DATEFORMATSTRING_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_MaxDepth()
+		::System::Nullable_1<::System::Int32> get_MaxDepth()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_GET_MAXDEPTH_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_GET_MAXDEPTH_OFFSET))(this);
 		}
 
-		::System::Void set_MaxDepth(::System::Nullable* a1)
+		::System::Void set_MaxDepth(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_SET_MAXDEPTH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_SET_MAXDEPTH_OFFSET))(this, a1);
 		}
 
 		::Newtonsoft::Json::JsonToken get_TokenType()
@@ -239,14 +239,14 @@ namespace Newtonsoft::Json
 			return ((::Newtonsoft::Json::JsonContainerType(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_PEEK_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadAsInt32()
+		::System::Nullable_1<::System::Int32> ReadAsInt32()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASINT32_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASINT32_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadInt32String(::System::String* a1)
+		::System::Nullable_1<::System::Int32> ReadInt32String(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READINT32STRING_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READINT32STRING_OFFSET))(this, a1);
 		}
 
 		::System::String* ReadAsString()
@@ -264,54 +264,54 @@ namespace Newtonsoft::Json
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READARRAYINTOBYTEARRAY_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadAsDouble()
+		::System::Nullable_1<::System::Double> ReadAsDouble()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASDOUBLE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Double>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASDOUBLE_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadDoubleString(::System::String* a1)
+		::System::Nullable_1<::System::Double> ReadDoubleString(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READDOUBLESTRING_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Double>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READDOUBLESTRING_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* ReadAsBoolean()
+		::System::Nullable_1<::System::Boolean> ReadAsBoolean()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASBOOLEAN_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASBOOLEAN_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadBooleanString(::System::String* a1)
+		::System::Nullable_1<::System::Boolean> ReadBooleanString(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READBOOLEANSTRING_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READBOOLEANSTRING_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* ReadAsDecimal()
+		::System::Nullable_1<::System::Decimal> ReadAsDecimal()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASDECIMAL_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Decimal>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASDECIMAL_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadDecimalString(::System::String* a1)
+		::System::Nullable_1<::System::Decimal> ReadDecimalString(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READDECIMALSTRING_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Decimal>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READDECIMALSTRING_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* ReadAsDateTime()
+		::System::Nullable_1<::System::DateTime> ReadAsDateTime()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASDATETIME_OFFSET))(this);
+			return ((::System::Nullable_1<::System::DateTime>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASDATETIME_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadDateTimeString(::System::String* a1)
+		::System::Nullable_1<::System::DateTime> ReadDateTimeString(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READDATETIMESTRING_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::DateTime>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READDATETIMESTRING_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* ReadAsDateTimeOffset()
+		::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASDATETIMEOFFSET_OFFSET))(this);
+			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READASDATETIMEOFFSET_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadDateTimeOffsetString(::System::String* a1)
+		::System::Nullable_1<::System::DateTimeOffset> ReadDateTimeOffsetString(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READDATETIMEOFFSETSTRING_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADER_READDATETIMEOFFSETSTRING_OFFSET))(this, a1);
 		}
 
 		::System::Void ReaderReadAndAssert()

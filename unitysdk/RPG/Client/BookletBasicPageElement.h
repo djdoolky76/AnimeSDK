@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BookletFadeInState.h"
+#include "unitysdk/System/Nullable_1.h"
 class DMDPOFBLBIE;
 class OJCKBDEEOCI;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class AnimationClip; }
@@ -39,7 +39,7 @@ namespace RPG::Client
 		::UnityEngine::AnimationClip* EnableClip; // 0x60
 		::UnityEngine::AnimationClip* DisableClip; // 0x68
 		::UnityEngine::Transform* Content; // 0x70
-		::System::Nullable* NIFELEEFFIJ; // 0x78
+		::System::Nullable_1<::System::Boolean> NIFELEEFFIJ; // 0x78
 		::OJCKBDEEOCI* BIGJHPJGDNH; // 0x80
 		::System::Collections::Generic::List_1<::DMDPOFBLBIE*>* IOEFEFMMKFP; // 0x88
 		::System::Void _ctor()

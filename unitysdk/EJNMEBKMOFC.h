@@ -4,7 +4,7 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
+namespace Entitas { template <typename T> class ICollector_1; }
 namespace System { class String; }
 
 #define EJNMEBKMOFC_BFPGGONNCAP_OFFSET UNITYSDK_OFFSET(0x154F0610)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int EJNMEBKMOFC_TypeDefinitionIndex = 77170;
 	{
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
-		::Entitas::ICollector* NPNPNIAIMLO; // 0x18
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* NPNPNIAIMLO; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

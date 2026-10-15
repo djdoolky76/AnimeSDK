@@ -4,9 +4,9 @@
 namespace RPG::Client { class HeliobusSkillData; }
 namespace RPG::Client { class MainMissionData; }
 namespace RPG::GameCore { class DynamicValue; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -38,9 +38,9 @@ namespace RPG::Client
 			return (::System::Comparison_1<::RPG::Client::HeliobusSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13B00);
 		}
 
-		static ::System::Action** StaticGet___9__97_0()
+		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>** StaticGet___9__97_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13B08);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13B08);
 		}
 
 		static ::System::Void _cctor()

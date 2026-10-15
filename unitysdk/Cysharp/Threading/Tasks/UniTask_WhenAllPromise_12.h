@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_5.h"
+#include "unitysdk/System/ValueTuple_8.h"
 
 namespace Cysharp::Threading::Tasks
 {
@@ -25,6 +26,6 @@ namespace Cysharp::Threading::Tasks
 		T11 t11; // 0x0
 		T12 t12; // 0x0
 		::System::Int32 completedCount; // 0x0
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::ValueTuple> core; // 0x0
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::ValueTuple_8<T12, T12, T12, T12, T12, T12, T12, ::System::ValueTuple_5<T12, T12, T12, T12, T12>>> core; // 0x0
 	};
 }

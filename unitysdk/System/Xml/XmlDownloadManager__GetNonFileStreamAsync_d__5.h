@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 namespace System { class Object; }
 namespace System { class Uri; }
 namespace System::IO { class Stream; }
@@ -21,7 +21,7 @@ namespace System::Xml
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	struct alignas(8) XmlDownloadManager__GetNonFileStreamAsync_d__5
 	{
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x10
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder; // 0x10
 		::System::Byte _padding0[0x10];
 		::System::Net::WebRequest* _req_5__1; // 0x28
 		::System::Xml::XmlDownloadManager* __4__this; // 0x30

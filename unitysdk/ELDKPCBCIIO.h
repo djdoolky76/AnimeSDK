@@ -6,7 +6,7 @@ class MDBOGJINCFP;
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -34,19 +34,19 @@ inline static constexpr unsigned int ELDKPCBCIIO_TypeDefinitionIndex = 80617;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::Logging::ILoggerFactory*, ::MDBOGJINCFP*))((::PBYTE)hIl2Cpp + ELDKPCBCIIO_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* GDJLAOPOAIA(::RPG::GameCore::GameEntity* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>* GDJLAOPOAIA(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + ELDKPCBCIIO_GDJLAOPOAIA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + ELDKPCBCIIO_GDJLAOPOAIA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GHAFDPHHOLG()
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>* GHAFDPHHOLG()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + ELDKPCBCIIO_GHAFDPHHOLG_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ELDKPCBCIIO_GHAFDPHHOLG_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* IOADDIIOBLF(::System::String* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>* IOADDIIOBLF(::System::String* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ELDKPCBCIIO_IOADDIIOBLF_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ELDKPCBCIIO_IOADDIIOBLF_OFFSET))(this, a1);
 		}
 
 		::System::Action* NHMJAJMFDEE(::System::Action* a1)

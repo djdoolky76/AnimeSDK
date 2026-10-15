@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GMBPBAHKLDB.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
@@ -11,6 +11,6 @@ namespace RPG::Client
 	class AutoBindNotifyHandler_1 : public ::GMBPBAHKLDB
 	{
 	public:
-		::System::Action* Delegate; // 0x0
+		::System::Action_1<T>* Delegate; // 0x0
 	};
 }

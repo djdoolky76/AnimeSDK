@@ -5,7 +5,7 @@
 namespace RPG::Client { class BaseGameFlow; }
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameFlow; }
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameSession; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::UnityEngine::Transform*, ::RPG::Client::ChenLingBattle::ChenLingBattleGameSession*, ::RPG::Client::ChenLingBattle::ChenLingBattleGameFlow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_STARTCHENLINGGAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::Promises::IPromise* EnterGameFlow(::RPG::GameCore::GameFlowType a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a2, ::System::Boolean a3)
+		static ::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseGameFlow*>* EnterGameFlow(::RPG::GameCore::GameFlowType a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::RPG::GameCore::GameFlowType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_ENTERGAMEFLOW_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseGameFlow*>*(*)(::RPG::GameCore::GameFlowType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLESTATIC_ENTERGAMEFLOW_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void CloseSoldierCollider(::UnityEngine::GameObject* a1)

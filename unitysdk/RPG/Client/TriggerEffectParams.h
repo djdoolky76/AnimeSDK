@@ -8,6 +8,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/MonoEffectFlag.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -19,9 +20,9 @@ namespace RPG::Client { class TriggerEffectParams; }
 namespace RPG::GameCore { class EffectModifyData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class OverrideMonoEffectConfig; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_TRIGGEREFFECTPARAMS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE331440)
@@ -91,10 +92,10 @@ namespace RPG::Client
 	class TriggerEffectParams : public ::System::Object
 	{
 	public:
-		::System::Action* _ReleaseCallback_k__BackingField; // 0x10
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* _ReleaseCallback_k__BackingField; // 0x10
 		::System::String* EffectName; // 0x18
 		::PKGNIOAKKKA* AdvEffectExtraParams; // 0x20
-		::System::Action* _EffectAsyncLoadedCallback_k__BackingField; // 0x28
+		::System::Action_1<::RPG::Client::MonoEffect*>* _EffectAsyncLoadedCallback_k__BackingField; // 0x28
 		::System::String* AudioSwitchName; // 0x30
 		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flags; // 0x38
 		::System::String* UniqueEffectName; // 0x40
@@ -107,32 +108,32 @@ namespace RPG::Client
 		::Il2CppArray<::RPG::GameCore::EffectModifyData*>* SubObjectModifyDataList; // 0xA0
 		::UnityEngine::Transform* _AttachTransform_k__BackingField; // 0xA8
 		::RPG::GameCore::OverrideMonoEffectConfig* OverrideConfig; // 0xB0
-		::System::Action* CompleteCallback; // 0xB8
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* CompleteCallback; // 0xB8
 		::System::String* TowardAttachPoint; // 0xC0
 		::RPG::GameCore::GameEntity* ParamEntity; // 0xC8
 		::System::String* _AttachPointName_k__BackingField; // 0xD0
 		::RPG::Client::MockAnimator* _RecordAnimator_k__BackingField; // 0xD8
-		::System::Action* LodUnloadCallback; // 0xE0
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* LodUnloadCallback; // 0xE0
 		::System::String* InitEffectState; // 0xE8
-		::System::Action* LodLoadedCallback; // 0xF0
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* LodLoadedCallback; // 0xF0
 		::System::String* AudioSwitchGroup; // 0xF8
 		::RPG::GameCore::GameEntity* TargetEntity; // 0x100
-		::System::Action* BeforeResetCompleteCallback; // 0x108
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* BeforeResetCompleteCallback; // 0x108
 		::JHHCKJHDGGN* LittleGameEntity; // 0x110
 		::System::Boolean ForceSimulateImmediately; // 0x118
 		::System::Boolean _IsCulled_k__BackingField; // 0x119
 		::System::Boolean IsForbidInitRenderCache; // 0x11A
 		::System::Byte _padding0[0x1];
 		::System::Single _TargetEntityAnimNormalziedTime_k__BackingField; // 0x11C
-		::System::Nullable* AnchorPosition; // 0x120
+		::System::Nullable_1<::UnityEngine::Vector3> AnchorPosition; // 0x120
 		::System::Byte _padding1[0x8];
 		::RPG::Client::MonoEffectAliveState _AliveState_k__BackingField; // 0x130
-		::System::Nullable* RotationOffset; // 0x134
+		::System::Nullable_1<::UnityEngine::Vector3> RotationOffset; // 0x134
 		::System::Byte _padding2[0x8];
 		::System::Single TowardMaxPitchAngle; // 0x144
-		::System::Nullable* InitPosition; // 0x148
+		::System::Nullable_1<::UnityEngine::Vector3> InitPosition; // 0x148
 		::System::Byte _padding3[0x8];
-		::System::Nullable* PositionOffset; // 0x158
+		::System::Nullable_1<::UnityEngine::Vector3> PositionOffset; // 0x158
 		::System::Byte _padding4[0x8];
 		::RPG::GameCore::EffectParamEntityUsage ParamEntityUsage; // 0x168
 		::System::Boolean IsCRPEffect; // 0x16C
@@ -140,11 +141,11 @@ namespace RPG::Client
 		::System::Boolean _DelayFirstLoad; // 0x16E
 		::System::Boolean FollowFirstFrameOnLateTick; // 0x16F
 		::System::UInt32 _UniqueParamID_k__BackingField; // 0x170
-		::System::Nullable* InitRotation; // 0x174
+		::System::Nullable_1<::UnityEngine::Quaternion> InitRotation; // 0x174
 		::System::Byte _padding5[0xC];
-		::System::Nullable* CustomScale; // 0x188
+		::System::Nullable_1<::UnityEngine::Vector3> CustomScale; // 0x188
 		::System::Byte _padding6[0x8];
-		::System::Nullable* TaskTimeScale; // 0x198
+		::System::Nullable_1<::RPG::GameCore::FixPoint> TaskTimeScale; // 0x198
 		::System::Byte _padding7[0x8];
 		::System::Boolean _IsManualLOD_k__BackingField; // 0x1A8
 		::System::Boolean _IsReleased_k__BackingField; // 0x1A9
@@ -268,14 +269,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETTARGETENTITYANIMNORMALZIEDTIME_OFFSET))(this, a1);
 		}
 
-		::System::Void InnerSetEffectAsyncLoadedCallback(::System::Action* a1)
+		::System::Void InnerSetEffectAsyncLoadedCallback(::System::Action_1<::RPG::Client::MonoEffect*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETEFFECTASYNCLOADEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MonoEffect*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETEFFECTASYNCLOADEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void InnerSetReleaseCallback(::System::Action* a1)
+		::System::Void InnerSetReleaseCallback(::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETRELEASECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_INNERSETRELEASECALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void InnerSetAttachPointName(::System::String* a1)
@@ -423,24 +424,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_TARGETENTITYANIMNORMALZIEDTIME_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_EffectAsyncLoadedCallback()
+		::System::Action_1<::RPG::Client::MonoEffect*>* get_EffectAsyncLoadedCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_EFFECTASYNCLOADEDCALLBACK_OFFSET))(this);
+			return ((::System::Action_1<::RPG::Client::MonoEffect*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_EFFECTASYNCLOADEDCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_EffectAsyncLoadedCallback(::System::Action* a1)
+		::System::Void set_EffectAsyncLoadedCallback(::System::Action_1<::RPG::Client::MonoEffect*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_EFFECTASYNCLOADEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MonoEffect*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_EFFECTASYNCLOADEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_ReleaseCallback()
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* get_ReleaseCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_RELEASECALLBACK_OFFSET))(this);
+			return ((::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_GET_RELEASECALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_ReleaseCallback(::System::Action* a1)
+		::System::Void set_ReleaseCallback(::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_RELEASECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRIGGEREFFECTPARAMS_SET_RELEASECALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::String* get_AttachPointName()

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class HoYoSDKHttpDnsService; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -20,10 +20,10 @@ namespace MiHoYo::SDK
 	{
 	public:
 		::MiHoYo::SDK::HoYoSDKHttpDnsService* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>*>* callback; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* dicExpiredCache; // 0x20
 		::System::Collections::Generic::List_1<::System::String*>* lstHosts; // 0x28
-		::System::Action* externalCallback; // 0x30
+		::System::Action_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>*>* externalCallback; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* dicInCache; // 0x38
 		::System::Collections::Generic::List_1<::System::String*>* lstRefreshHosts; // 0x40
 		::System::String* strUrl; // 0x48

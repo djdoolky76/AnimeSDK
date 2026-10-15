@@ -7,9 +7,9 @@ class DFIBJKPIEOP;
 class IIAJFCNCMEB;
 class JKPKAAIDGKB;
 class OBJANKHLNGO;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTURNDAMAGEVIEWMODEL_ADDMESSAGEHANDLER_OFFSET UNITYSDK_OFFSET(0xCED6890)
@@ -35,7 +35,7 @@ namespace RPG::Client::FateRin::Battle
 		::XLua::LuaTable* _LuaTable; // 0x20
 		::IIAJFCNCMEB* _Model; // 0x28
 		::OBJANKHLNGO* _Messenger; // 0x30
-		::System::Action* _MessageHandler; // 0x38
+		::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* _MessageHandler; // 0x38
 		::System::Void _ctor(::IIAJFCNCMEB* a1, ::OBJANKHLNGO* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::IIAJFCNCMEB*, ::OBJANKHLNGO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTURNDAMAGEVIEWMODEL_CTOR_OFFSET))(this, a1, a2);
@@ -61,9 +61,9 @@ namespace RPG::Client::FateRin::Battle
 			return ((::System::Void(*)(::PVOID, ::DFIBJKPIEOP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTURNDAMAGEVIEWMODEL__ONBATTLEDAMAGESTATISTICSTOTALDAMAGEFINISHMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddMessageHandler(::XLua::LuaTable* a1, ::System::Action* a2)
+		::System::Void AddMessageHandler(::XLua::LuaTable* a1, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTURNDAMAGEVIEWMODEL_ADDMESSAGEHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTURNDAMAGEVIEWMODEL_ADDMESSAGEHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _SendMessage(::System::Int32 a1, ::System::Object* a2)

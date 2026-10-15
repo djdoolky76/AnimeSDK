@@ -4,8 +4,8 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class GooglePCManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD3C220)
@@ -19,11 +19,11 @@ namespace MiHoYo::SDK::Win
 	class GooglePCManager___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::Action* OnGetGoogleQueryGoods; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnGetGoogleQueryGoods; // 0x10
 		::System::String* payGoodsId; // 0x18
 		::System::String* token; // 0x20
 		::MiHoYo::SDK::JSONNode* payInfo; // 0x28
-		::System::Action* callback; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x30
 		::System::Collections::Generic::List_1<::System::String*>* goodsIdList; // 0x38
 		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x40
 		::System::String* accountId; // 0x48

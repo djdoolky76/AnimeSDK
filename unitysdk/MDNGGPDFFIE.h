@@ -8,8 +8,8 @@ class HFFHEPEBJFE;
 class OOIBNCGLMML;
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define MDNGGPDFFIE_ADAFGCAKADI_OFFSET UNITYSDK_OFFSET(0xB8B35D0)
@@ -49,8 +49,8 @@ inline static constexpr unsigned int MDNGGPDFFIE_TypeDefinitionIndex = 60203;
 		::AJACKPCNNDM* GFLJHCJEJBG; // 0x28
 		::FGDGPEABLMN* CKOCJELELGK; // 0x30
 		::OOIBNCGLMML* FHBNIHNMAJF; // 0x38
-		::System::Action* SlotEntityReleased; // 0x40
-		::System::Action* SlotEntityReady; // 0x48
+		::System::Action_1<::FKIODIMJPNA*>* SlotEntityReleased; // 0x40
+		::System::Action_1<::FKIODIMJPNA*>* SlotEntityReady; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_CTOR_OFFSET))(this);
@@ -166,24 +166,24 @@ inline static constexpr unsigned int MDNGGPDFFIE_TypeDefinitionIndex = 60203;
 			return ((::AJACKPCNNDM*(*)(::PVOID))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_OBKONAALFJF_OFFSET))(this);
 		}
 
-		::System::Void add_SlotEntityReady(::System::Action* a1)
+		::System::Void add_SlotEntityReady(::System::Action_1<::FKIODIMJPNA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_ADD_SLOTENTITYREADY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FKIODIMJPNA*>*))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_ADD_SLOTENTITYREADY_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SlotEntityReady(::System::Action* a1)
+		::System::Void remove_SlotEntityReady(::System::Action_1<::FKIODIMJPNA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_REMOVE_SLOTENTITYREADY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FKIODIMJPNA*>*))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_REMOVE_SLOTENTITYREADY_OFFSET))(this, a1);
 		}
 
-		::System::Void add_SlotEntityReleased(::System::Action* a1)
+		::System::Void add_SlotEntityReleased(::System::Action_1<::FKIODIMJPNA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_ADD_SLOTENTITYRELEASED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FKIODIMJPNA*>*))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_ADD_SLOTENTITYRELEASED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SlotEntityReleased(::System::Action* a1)
+		::System::Void remove_SlotEntityReleased(::System::Action_1<::FKIODIMJPNA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_REMOVE_SLOTENTITYRELEASED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FKIODIMJPNA*>*))((::PBYTE)hIl2Cpp + MDNGGPDFFIE_REMOVE_SLOTENTITYRELEASED_OFFSET))(this, a1);
 		}
 
 	};

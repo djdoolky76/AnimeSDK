@@ -4,9 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace InControl { class BindingSource; }
 namespace InControl { class PlayerAction; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define FLELKICOANA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1582FC90)
 #define FLELKICOANA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1582FCC0)
@@ -24,9 +25,9 @@ inline static constexpr unsigned int FLELKICOANA___c_TypeDefinitionIndex = 61339
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53EA0);
 		}
 
-		static ::System::Action** StaticGet___9__1_1()
+		static ::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>** StaticGet___9__1_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53EA8);
+			return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53EA8);
 		}
 
 		static ::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>** StaticGet___9__1_0()
@@ -34,9 +35,9 @@ inline static constexpr unsigned int FLELKICOANA___c_TypeDefinitionIndex = 61339
 			return (::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53EB0);
 		}
 
-		static ::System::Action** StaticGet___9__1_2()
+		static ::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>** StaticGet___9__1_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53EB8);
+			return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53EB8);
 		}
 
 		static ::System::Void _cctor()

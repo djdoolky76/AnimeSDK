@@ -5,8 +5,8 @@
 class BMPCGKAFEAO;
 class EJJAGEEGEKA;
 class FMPCODLIOLG;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define DGKOJPFODLC_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xE850700)
@@ -31,7 +31,7 @@ inline static constexpr unsigned int DGKOJPFODLC_TypeDefinitionIndex = 72123;
 	class DGKOJPFODLC : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Action* BJENMMLEOEC; // 0x60
+		::System::Action_1<::FMPCODLIOLG*>* BJENMMLEOEC; // 0x60
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DamageCounterStyle, ::BMPCGKAFEAO*>* ONCPILAHHFG; // 0x68
 		::BMPCGKAFEAO* DNDMIIGJCKO; // 0x70
 		::EJJAGEEGEKA* GIEOINBJPBL; // 0x78
@@ -57,9 +57,9 @@ inline static constexpr unsigned int DGKOJPFODLC_TypeDefinitionIndex = 72123;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGKOJPFODLC__ONDISPOSE_OFFSET))(this);
 		}
 
-		::System::Void PLLAAIFHBLG(::System::Action* a1)
+		::System::Void PLLAAIFHBLG(::System::Action_1<::FMPCODLIOLG*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + DGKOJPFODLC_PLLAAIFHBLG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FMPCODLIOLG*>*))((::PBYTE)hIl2Cpp + DGKOJPFODLC_PLLAAIFHBLG_OFFSET))(this, a1);
 		}
 
 		::System::Void HKBMNBNGAMD(::RPG::GameCore::DamageCounterStyle a1)

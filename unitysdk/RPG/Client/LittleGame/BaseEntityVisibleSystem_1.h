@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ILCMKHBNPPH;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::Client::LittleGame { template <typename T> class IEntityVisibleService_1; }
@@ -26,11 +26,11 @@ namespace RPG::Client::LittleGame
 		::RPG::Client::LittleGame::FiveDim::IEntityVarServices_1<T>* _EntityVarService; // 0x0
 		::RPG::Client::LittleGame::ILevelVariableService_1<T>* _LevelVarService; // 0x0
 		::ILCMKHBNPPH* _LogService; // 0x0
-		::Entitas::IGroup* _VisibilityGroup; // 0x0
-		::Entitas::IGroup* _DitherChangeGroup; // 0x0
+		::Entitas::IGroup_1<T>* _VisibilityGroup; // 0x0
+		::Entitas::IGroup_1<T>* _DitherChangeGroup; // 0x0
 		::RPG::PoolDictionary_2<::System::String*, ::RPG::PoolList_1<::System::Int32>*>* _LevelVarToEntities; // 0x0
 		::RPG::PoolDictionary_2<::System::Int32, ::System::Object*>* _LevelVarCallbackCaches; // 0x0
 		::RPG::PoolDictionary_2<::System::Int32, ::System::Object*>* _VisibleCallbackCaches; // 0x0
-		::RPG::PoolList_1<::System::ValueTuple>* _PendingInvisibleEntities; // 0x0
+		::RPG::PoolList_1<::System::ValueTuple_2<::System::Int32, ::System::Single>>* _PendingInvisibleEntities; // 0x0
 	};
 }

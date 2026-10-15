@@ -4,8 +4,8 @@
 namespace Google::Protobuf { class ByteString; }
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::WellKnownTypes { class Any; }
 namespace System { class Object; }
@@ -42,9 +42,9 @@ namespace Google::Protobuf::WellKnownTypes
 		::System::String* typeUrl_; // 0x10
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 		::Google::Protobuf::ByteString* value_; // 0x20
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Any*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Any")->GetStaticField(0x195F0);
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Any*>**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Any")->GetStaticField(0x195F0);
 		}
 
 		::System::Void _ctor()
@@ -62,9 +62,9 @@ namespace Google::Protobuf::WellKnownTypes
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Any*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Any*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_ANY_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

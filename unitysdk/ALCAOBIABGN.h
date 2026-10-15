@@ -4,8 +4,8 @@
 class ALCAOBIABGN;
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
 #define ALCAOBIABGN_AALFLKDNJHK_OFFSET UNITYSDK_OFFSET(0x15561390)
@@ -28,7 +28,7 @@ inline static constexpr unsigned int ALCAOBIABGN_TypeDefinitionIndex = 57185;
 		::RPG::Client::OnAssetOperationDelegate* EPEKNJLONJA; // 0x28
 		::UnityEngine::Object* IFCMOPKIFGD; // 0x30
 		::System::String* CDGELMPLLPG; // 0x38
-		::System::Action* GICMMIMFLIM; // 0x40
+		::System::Action_1<::ALCAOBIABGN*>* GICMMIMFLIM; // 0x40
 		::RPG::Client::IAssetOperation* CNPEOFLMHEC; // 0x48
 		::RPG::Client::IAssetOperation* CABJOOIBDPM; // 0x50
 		::System::Int32 MNIPENLIKPH; // 0x58

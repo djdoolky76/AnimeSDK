@@ -6,6 +6,7 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class LittleGameLevelVariable; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define FONMDGEEEGO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA71CB0)
 #define FONMDGEEEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71F10)
@@ -21,7 +22,7 @@ inline static constexpr unsigned int FONMDGEEEGO_TypeDefinitionIndex = 42064;
 	class FONMDGEEEGO : public ::System::Object
 	{
 	public:
-		::System::Action* LJBPMCGDANF; // 0x10
+		::System::Action_1<::System::String*>* LJBPMCGDANF; // 0x10
 		::RPG::GameCore::LittleGameLevelVariable* IGHAHBNLIJA; // 0x18
 		::RPG::PoolList_1<::System::Action*>* PENAEDMJLPO; // 0x20
 		::System::Void _ctor()

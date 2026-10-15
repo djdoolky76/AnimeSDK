@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client { class ElfFarmProductData; }
@@ -16,7 +17,6 @@ namespace RPG::Client { class ElfRestaurantRecipeData; }
 namespace RPG::Client { class ElfRuntimeCell; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::Client::LittleGame::ElfRestaurant { class ElfRestaurantView; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
@@ -369,14 +369,14 @@ namespace RPG::Client
 			return ((::UnityEngine::Ray(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTSTATIC__GETRAYFROMSCREENPOINT_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ElfRuntimeCell* TryGetRaycastTargetElfRuntimeCell(::System::Single a1, ::System::Nullable* a2)
+		static ::RPG::Client::ElfRuntimeCell* TryGetRaycastTargetElfRuntimeCell(::System::Single a1, ::System::Nullable_1<::UnityEngine::Vector2> a2)
 		{
-			return ((::RPG::Client::ElfRuntimeCell*(*)(::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTSTATIC_TRYGETRAYCASTTARGETELFRUNTIMECELL_OFFSET))(a1, a2);
+			return ((::RPG::Client::ElfRuntimeCell*(*)(::System::Single, ::System::Nullable_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTSTATIC_TRYGETRAYCASTTARGETELFRUNTIMECELL_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView* TryGetRaycastTargetElfRestaurantView(::System::Single a1, ::System::Nullable* a2)
+		static ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView* TryGetRaycastTargetElfRestaurantView(::System::Single a1, ::System::Nullable_1<::UnityEngine::Vector2> a2)
 		{
-			return ((::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView*(*)(::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTSTATIC_TRYGETRAYCASTTARGETELFRESTAURANTVIEW_OFFSET))(a1, a2);
+			return ((::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView*(*)(::System::Single, ::System::Nullable_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTSTATIC_TRYGETRAYCASTTARGETELFRESTAURANTVIEW_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void ClearRaycastCache()

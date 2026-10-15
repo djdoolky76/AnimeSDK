@@ -10,8 +10,8 @@ class LDMBNFAMCOI;
 class OBJANKHLNGO;
 namespace RPG::Client::FateRin::Battle { class FateRinBattleEnemyHudSingleViewModel; }
 namespace RPG::GameCore { class EventManager; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
 
@@ -40,7 +40,7 @@ namespace RPG::Client::FateRin::Battle
 		::OBJANKHLNGO* _Messenger; // 0x30
 		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudSingleViewModel*>* HudViewModelList; // 0x38
 		::ELDKPCBCIIO* _UIPresentService; // 0x40
-		::System::Action* _MessageHandler; // 0x48
+		::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* _MessageHandler; // 0x48
 		::XLua::LuaTable* _LuaTable; // 0x50
 		::System::Boolean _IsFirstWaitTurn; // 0x58
 		::System::Void _ctor(::LDMBNFAMCOI* a1, ::EAHCLJPMCIG* a2, ::OBJANKHLNGO* a3, ::ELDKPCBCIIO* a4)
@@ -53,9 +53,9 @@ namespace RPG::Client::FateRin::Battle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void AddMessageHandler(::XLua::LuaTable* a1, ::System::Action* a2)
+		::System::Void AddMessageHandler(::XLua::LuaTable* a1, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL_ADDMESSAGEHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL_ADDMESSAGEHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _SendMessage(::System::Int32 a1, ::System::Object* a2)

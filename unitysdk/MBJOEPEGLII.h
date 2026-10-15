@@ -5,8 +5,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define MBJOEPEGLII_ACIHMCOHBMN_OFFSET UNITYSDK_OFFSET(0xB85E600)
 #define MBJOEPEGLII_ADD_ONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xB85EE80)
@@ -48,7 +49,7 @@ inline static constexpr unsigned int MBJOEPEGLII_TypeDefinitionIndex = 80262;
 	class MBJOEPEGLII : public ::System::Object
 	{
 	public:
-		::System::Action* OnStateChanged; // 0x10
+		::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>* OnStateChanged; // 0x10
 		::RPG::Client::BaseLobby* _CurrentLobby_k__BackingField; // 0x18
 		::FJPMJPEKLJL _GameMode_k__BackingField; // 0x20
 		::RPG::Client::Multiplayer::MPSessionState JJBOPOPCOCH; // 0x24
@@ -58,9 +59,9 @@ inline static constexpr unsigned int MBJOEPEGLII_TypeDefinitionIndex = 80262;
 			return ((::System::Void(*)(::PVOID, ::FJPMJPEKLJL))((::PBYTE)hIl2Cpp + MBJOEPEGLII_CTOR_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* HOPFJHOHBCA(::RPG::Client::BaseLobby* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* HOPFJHOHBCA(::RPG::Client::BaseLobby* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BaseLobby*))((::PBYTE)hIl2Cpp + MBJOEPEGLII_HOPFJHOHBCA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::RPG::Client::BaseLobby*))((::PBYTE)hIl2Cpp + MBJOEPEGLII_HOPFJHOHBCA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* NCLFFNCHPIO()
@@ -213,14 +214,14 @@ inline static constexpr unsigned int MBJOEPEGLII_TypeDefinitionIndex = 80262;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MBJOEPEGLII_SET_HASPENDINGSERVERFIGHT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnStateChanged(::System::Action* a1)
+		::System::Void add_OnStateChanged(::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MBJOEPEGLII_ADD_ONSTATECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>*))((::PBYTE)hIl2Cpp + MBJOEPEGLII_ADD_ONSTATECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnStateChanged(::System::Action* a1)
+		::System::Void remove_OnStateChanged(::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MBJOEPEGLII_REMOVE_ONSTATECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>*))((::PBYTE)hIl2Cpp + MBJOEPEGLII_REMOVE_ONSTATECHANGED_OFFSET))(this, a1);
 		}
 
 	};

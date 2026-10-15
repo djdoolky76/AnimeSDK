@@ -4,8 +4,8 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class String; }
 
 #define HJNLBBOOEGB_ABGHEODMDOK_OFFSET UNITYSDK_OFFSET(0x15D30B90)
@@ -32,9 +32,9 @@ inline static constexpr unsigned int HJNLBBOOEGB_TypeDefinitionIndex = 77114;
 	class HJNLBBOOEGB : public ::System::Object
 	{
 	public:
-		::Entitas::ICollector* JMJPLJKEHNP; // 0x10
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* JMJPLJKEHNP; // 0x10
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
-		::Entitas::IGroup* PIALGKPMJIJ; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* PIALGKPMJIJ; // 0x20
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x28
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
@@ -29,7 +29,7 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::RectTransform*, ::UnityEngine::Camera*>* _IgnoreRectTransforms; // 0x18
 		::System::Object* _Listener; // 0x20
-		::System::Action* _OnClickedOutside; // 0x28
+		::System::Action_1<::System::Object*>* _OnClickedOutside; // 0x28
 		::System::Boolean _IgnoreSelf; // 0x30
 		::System::Byte _padding0[0x7];
 		::UnityEngine::Camera* _DefaultCamera; // 0x38
@@ -38,9 +38,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddClickedOutsideHandler(::System::Action* a1, ::System::Object* a2)
+		::System::Void AddClickedOutsideHandler(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDCLICKEDOUTSIDEHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCLICKOUTSIDEDETECT_ADDCLICKEDOUTSIDEHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetIgnoreSelf(::System::Boolean a1)

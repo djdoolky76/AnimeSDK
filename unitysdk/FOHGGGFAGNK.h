@@ -19,6 +19,7 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewMode
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -75,7 +76,7 @@ inline static constexpr unsigned int FOHGGGFAGNK_TypeDefinitionIndex = 79759;
 	class FOHGGGFAGNK : public ::System::Object
 	{
 	public:
-		::System::Action* FDMGILPMHDK; // 0x10
+		::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*>* FDMGILPMHDK; // 0x10
 		::JBBAMLKCDKG* _DetailPresenter_k__BackingField; // 0x18
 		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>* MGNHPBBIDIN; // 0x20
 		::System::Action* MHDDNJLMBFI; // 0x28

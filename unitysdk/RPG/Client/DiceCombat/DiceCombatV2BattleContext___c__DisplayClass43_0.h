@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::DiceCombat { class DiceCombatPerformanceBattleEvent; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC44D60)
@@ -15,7 +15,7 @@ namespace RPG::Client::DiceCombat
 	class DiceCombatV2BattleContext___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
-		::System::Action* eventHandler; // 0x10
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent*>* eventHandler; // 0x10
 		::XLua::LuaTable* target; // 0x18
 		::System::Void _ctor()
 		{

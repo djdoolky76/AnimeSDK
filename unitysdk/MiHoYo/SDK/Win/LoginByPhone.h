@@ -5,6 +5,8 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class LoginByPhone; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -73,15 +75,15 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Button* privacyButton; // 0xF8
 		::System::Action* OnClose; // 0x100
 		::System::Action* OnQRCodeLogin; // 0x108
-		::System::Action* OnLogin; // 0x110
-		::System::Action* OnGetCode; // 0x118
+		::System::Action_2<::System::String*, ::System::String*>* OnLogin; // 0x110
+		::System::Action_1<::System::String*>* OnGetCode; // 0x118
 		::System::Action* OnGuest; // 0x120
 		::System::Action* OnAccountLogin; // 0x128
 		::System::Action* OnTapTapLogin; // 0x130
 		::System::Action* OnUserAgreement; // 0x138
 		::System::Action* OnUserPrivacy; // 0x140
-		::System::Action* OnToggleClicked; // 0x148
-		::System::Action* OnSaveRecordToggleClicked; // 0x150
+		::System::Action_1<::System::Boolean>* OnToggleClicked; // 0x148
+		::System::Action_1<::System::Boolean>* OnSaveRecordToggleClicked; // 0x150
 		::System::Action* OnNotifyClose; // 0x158
 		::System::Boolean isRequestVerifyCode; // 0x160
 		::System::Byte _padding0[0x3];

@@ -3,7 +3,8 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class UIContextAssetLoader; }
 namespace RPG::GameCore { class BoxingClubStageGroupConfigRow; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
@@ -44,8 +45,8 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* _ImageList; // 0x28
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _HintsList; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _FinishNodeList; // 0x38
-		::System::Action* _OnEnemyChanged; // 0x40
-		::System::Action* _OnRandomFinished; // 0x48
+		::System::Action_2<::XLua::LuaTable*, ::System::UInt32>* _OnEnemyChanged; // 0x40
+		::System::Action_1<::XLua::LuaTable*>* _OnRandomFinished; // 0x48
 		::XLua::LuaTable* _Panel; // 0x50
 		::System::Collections::Generic::List_1<::System::UInt32>* _AllRandomTargets; // 0x58
 		::System::Int32 _FinalTarget; // 0x60
@@ -74,9 +75,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOXINGCLUBRANDOMCOMPONENT_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void InitRandomComponent(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::XLua::LuaTable* a4, ::System::Action* a5, ::System::Action* a6)
+		::System::Void InitRandomComponent(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::XLua::LuaTable* a4, ::System::Action_2<::XLua::LuaTable*, ::System::UInt32>* a5, ::System::Action_1<::XLua::LuaTable*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::XLua::LuaTable*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOXINGCLUBRANDOMCOMPONENT_INITRANDOMCOMPONENT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::XLua::LuaTable*, ::System::Action_2<::XLua::LuaTable*, ::System::UInt32>*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOXINGCLUBRANDOMCOMPONENT_INITRANDOMCOMPONENT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void Play(::System::Int32 a1)

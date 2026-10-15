@@ -10,7 +10,7 @@
 #include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_SpaceConflictRefreshState.h"
 #include "unitysdk/RPG/GameCore/LevelGroupLoadSide.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BFCILFAFLGA;
 class BIDDFDEAEGB;
 namespace RPG::Client { class MapDef; }
@@ -91,7 +91,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* _ConflictIDs; // 0x28
 		::RPG::GameCore::GameEntity* _GroupEntity_k__BackingField; // 0x30
 		::System::Action* OnUnload; // 0x38
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* _StateTransitionSet; // 0x40
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* _StateTransitionSet; // 0x40
 		::RPG::Client::ReasonBool_1<::RPG::Client::LockHoyoGroupReason> _VisionRangeLockReason; // 0x48
 		::System::UInt32 OwnerMainMissionTemp; // 0x50
 		::RPG::Client::RuntimeGroupManager_HoYoGroupUnit_NpcConflictRefreshState _NpcConflictRefreshState; // 0x54

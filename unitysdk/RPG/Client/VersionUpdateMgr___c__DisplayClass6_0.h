@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class EJLIOMPMHHI;
 class JIAFOPELMJJ;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE4446F0)
@@ -17,7 +17,7 @@ namespace RPG::Client
 	{
 	public:
 		::JIAFOPELMJJ* board; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_2<::System::Int64, ::System::Int64>* callback; // 0x18
 		::System::Collections::Generic::IEnumerable_1<::System::UInt32>* taskIds; // 0x20
 		::EJLIOMPMHHI* queue; // 0x28
 		::System::Void _ctor()

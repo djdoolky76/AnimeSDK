@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSETTINGOPTIONVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE2022C0)
 #define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSETTINGOPTIONVIEWMODEL_GET_DESCTEXT_OFFSET UNITYSDK_OFFSET(0xE202260)
@@ -21,7 +21,7 @@ namespace RPG::Client::TeamTowers
 	class TeamTowersSettingOptionViewModel : public ::System::Object
 	{
 	public:
-		::System::Action* _OnClick; // 0x10
+		::System::Action_1<::System::UInt32>* _OnClick; // 0x10
 		::System::Boolean _IsSelected_k__BackingField; // 0x18
 		::System::Byte _padding0[0x3];
 		::System::UInt32 _OptionValue_k__BackingField; // 0x1C
@@ -36,9 +36,9 @@ namespace RPG::Client::TeamTowers
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSETTINGOPTIONVIEWMODEL_SELECT_OFFSET))(this);
 		}
 
-		::System::Void RegisterClickCallBack(::System::Action* a1)
+		::System::Void RegisterClickCallBack(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSETTINGOPTIONVIEWMODEL_REGISTERCLICKCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSETTINGOPTIONVIEWMODEL_REGISTERCLICKCALLBACK_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_DescText()

@@ -7,7 +7,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net { class IPAddress; }
 namespace System::Net { class IPHostEntry; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_NET_DNS_BEGINGETHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x1F035AE0)
 #define SYSTEM_NET_DNS_ENDGETHOSTENTRY_OFFSET UNITYSDK_OFFSET(0x1F035C80)
@@ -96,9 +96,9 @@ namespace System::Net
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTNAME_OFFSET))();
 		}
 
-		static ::System::Threading::Tasks::Task* GetHostEntryAsync(::System::String* a1)
+		static ::System::Threading::Tasks::Task_1<::System::Net::IPHostEntry*>* GetHostEntryAsync(::System::String* a1)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYASYNC_OFFSET))(a1);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::IPHostEntry*>*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYASYNC_OFFSET))(a1);
 		}
 
 	};

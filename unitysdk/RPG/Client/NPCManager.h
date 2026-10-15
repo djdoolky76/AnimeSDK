@@ -17,10 +17,10 @@ namespace RPG::GameCore { class HoyoTag; }
 namespace RPG::GameCore { class MapRotationEntityEffectConfig; }
 namespace RPG::GameCore { class NPCComponent; }
 namespace RPG::GameCore { class NPCDataRow; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -110,19 +110,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::GameCore::GameEntity* CreateNPC(::RPG::Client::MapNpcDef* a1, ::System::Action* a2)
+		::RPG::GameCore::GameEntity* CreateNPC(::RPG::Client::MapNpcDef* a1, ::System::Action_1<::RPG::GameCore::GameEntity*>* a2)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MapNpcDef*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER_CREATENPC_OFFSET))(this, a1, a2);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MapNpcDef*, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER_CREATENPC_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* _CreateStillNPC(::RPG::Client::MapNpcDef* a1, ::RPG::GameCore::NPCDataRow* a2, ::System::Action* a3)
+		::RPG::GameCore::GameEntity* _CreateStillNPC(::RPG::Client::MapNpcDef* a1, ::RPG::GameCore::NPCDataRow* a2, ::System::Action_1<::RPG::GameCore::GameEntity*>* a3)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCDataRow*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER__CREATESTILLNPC_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCDataRow*, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER__CREATESTILLNPC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::GameCore::GameEntity* CreateNPCMonster(::RPG::Client::MapNpcDef* a1, ::System::Action* a2)
+		::RPG::GameCore::GameEntity* CreateNPCMonster(::RPG::Client::MapNpcDef* a1, ::System::Action_1<::RPG::GameCore::GameEntity*>* a2)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MapNpcDef*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER_CREATENPCMONSTER_OFFSET))(this, a1, a2);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MapNpcDef*, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER_CREATENPCMONSTER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DestroyNPC(::System::UInt32 a1)
@@ -170,9 +170,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER_HIDEALLNPCONLYVISIBLE_OFFSET))(this, a1);
 		}
 
-		::System::Void HideAllNpc(::RPG::GameCore::CharacterVisibleReason a1, ::System::Int32 a2, ::RPG::GameCore::EntityTypeMask a3, ::RPG::GameCore::HoyoTag* a4, ::System::Collections::Generic::List_1<::System::Tuple*>* a5, ::System::Boolean a6, ::RPG::GameCore::ColliderEnableReason a7, ::System::Boolean a8, ::System::Boolean a9)
+		::System::Void HideAllNpc(::RPG::GameCore::CharacterVisibleReason a1, ::System::Int32 a2, ::RPG::GameCore::EntityTypeMask a3, ::RPG::GameCore::HoyoTag* a4, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* a5, ::System::Boolean a6, ::RPG::GameCore::ColliderEnableReason a7, ::System::Boolean a8, ::System::Boolean a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CharacterVisibleReason, ::System::Int32, ::RPG::GameCore::EntityTypeMask, ::RPG::GameCore::HoyoTag*, ::System::Collections::Generic::List_1<::System::Tuple*>*, ::System::Boolean, ::RPG::GameCore::ColliderEnableReason, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER_HIDEALLNPC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CharacterVisibleReason, ::System::Int32, ::RPG::GameCore::EntityTypeMask, ::RPG::GameCore::HoyoTag*, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*, ::System::Boolean, ::RPG::GameCore::ColliderEnableReason, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCMANAGER_HIDEALLNPC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void ShowAllNpc(::RPG::GameCore::CharacterVisibleReason a1, ::System::Int32 a2, ::System::Boolean a3, ::RPG::GameCore::ColliderEnableReason a4)

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class LELCKJPOPAO;
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::GameCore
 {
@@ -18,6 +18,6 @@ namespace RPG::GameCore
 		::System::Int32 _Capacity; // 0x0
 		::System::Int32 _CurrentIndex; // 0x0
 		::System::Int32 _FoundCount; // 0x0
-		::System::Collections::Generic::KeyValuePair* _Current_k__BackingField; // 0x0
+		::System::Collections::Generic::KeyValuePair_2<T1, T2> _Current_k__BackingField; // 0x0
 	};
 }

@@ -8,6 +8,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class BinaryReader; }
@@ -39,9 +40,9 @@ namespace IFix::Core
 	class PatchManager : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_DLog()
+		static ::System::Action_1<::System::String*>** StaticGet_DLog()
 		{
-			return (::System::Action**)UnitySDK::FromName("IFix.Core", "PatchManager")->GetStaticField(0x530);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("IFix.Core", "PatchManager")->GetStaticField(0x530);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_PatchedMethodIDs()
@@ -104,14 +105,14 @@ namespace IFix::Core
 			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_CORE_PATCHMANAGER_VALIDATEANONYMOUSSTOREYCTORINFO_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::IFix::Core::VirtualMachine* Load(::System::IO::Stream* a1, ::System::Boolean a2, ::System::Action* a3)
+		static ::IFix::Core::VirtualMachine* Load(::System::IO::Stream* a1, ::System::Boolean a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::IFix::Core::VirtualMachine*(*)(::System::IO::Stream*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + IFIX_CORE_PATCHMANAGER_LOAD_OFFSET))(a1, a2, a3);
+			return ((::IFix::Core::VirtualMachine*(*)(::System::IO::Stream*, ::System::Boolean, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_PATCHMANAGER_LOAD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::IFix::Core::VirtualMachine* LoadManifest(::System::IO::Stream* a1, ::System::Object* a2, ::System::Object* a3, ::System::Action* a4)
+		static ::IFix::Core::VirtualMachine* LoadManifest(::System::IO::Stream* a1, ::System::Object* a2, ::System::Object* a3, ::System::Action_1<::System::String*>* a4)
 		{
-			return ((::IFix::Core::VirtualMachine*(*)(::System::IO::Stream*, ::System::Object*, ::System::Object*, ::System::Action*))((::PBYTE)hIl2Cpp + IFIX_CORE_PATCHMANAGER_LOADMANIFEST_OFFSET))(a1, a2, a3, a4);
+			return ((::IFix::Core::VirtualMachine*(*)(::System::IO::Stream*, ::System::Object*, ::System::Object*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + IFIX_CORE_PATCHMANAGER_LOADMANIFEST_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void AppendPatch(::IFix::Core::VirtualMachine* a1, ::System::IO::Stream* a2, ::System::Collections::Generic::List_1<::System::Reflection::MethodBase*>* a3, ::System::Collections::Generic::List_1<::System::Int32>* a4, ::System::String* a5)

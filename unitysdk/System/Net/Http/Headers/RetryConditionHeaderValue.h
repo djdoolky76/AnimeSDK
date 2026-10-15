@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTimeOffset.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net::Http::Headers { class RetryConditionHeaderValue; }
@@ -27,9 +27,9 @@ namespace System::Net::Http::Headers
 	class RetryConditionHeaderValue : public ::System::Object
 	{
 	public:
-		::System::Nullable* _Delta_k__BackingField; // 0x10
+		::System::Nullable_1<::System::TimeSpan> _Delta_k__BackingField; // 0x10
 		::System::Byte _padding0[0x8];
-		::System::Nullable* _Date_k__BackingField; // 0x20
+		::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField; // 0x20
 		::System::Void _ctor(::System::DateTimeOffset a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::DateTimeOffset))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_CTOR_OFFSET))(this, a1);
@@ -40,24 +40,24 @@ namespace System::Net::Http::Headers
 			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_Date()
+		::System::Nullable_1<::System::DateTimeOffset> get_Date()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DATE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DATE_OFFSET))(this);
 		}
 
-		::System::Void set_Date(::System::Nullable* a1)
+		::System::Void set_Date(::System::Nullable_1<::System::DateTimeOffset> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DATE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_Delta()
+		::System::Nullable_1<::System::TimeSpan> get_Delta()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DELTA_OFFSET))(this);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DELTA_OFFSET))(this);
 		}
 
-		::System::Void set_Delta(::System::Nullable* a1)
+		::System::Void set_Delta(::System::Nullable_1<::System::TimeSpan> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DELTA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::TimeSpan>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DELTA_OFFSET))(this, a1);
 		}
 
 		::System::Object* System_ICloneable_Clone()

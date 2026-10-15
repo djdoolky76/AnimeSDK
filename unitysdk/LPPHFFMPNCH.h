@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/Client/CachedAssetLogicType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/IPKGHGJPNKB.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class BOCEFFDMFPM;
 class BOPECJBFFNJ;
 class HPCHMNEMDIF;
@@ -134,14 +135,14 @@ inline static constexpr unsigned int LPPHFFMPNCH_TypeDefinitionIndex = 41580;
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + LPPHFFMPNCH_PAGMKMMFDIP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean AEDMFLGDNNH(::System::UInt64 a1, ::System::Collections::Generic::List_1<::System::ValueTuple>* a2)
+		::System::Boolean AEDMFLGDNNH(::System::UInt64 a1, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt64, ::System::UInt32, ::RPG::Client::CachedAssetLogicType>>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt64, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + LPPHFFMPNCH_AEDMFLGDNNH_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt64, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt64, ::System::UInt32, ::RPG::Client::CachedAssetLogicType>>*))((::PBYTE)hIl2Cpp + LPPHFFMPNCH_AEDMFLGDNNH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean AEDMFLGDNNH_1(::System::UInt64 a1, ::System::Collections::Generic::List_1<::System::ValueTuple>* a2)
+		::System::Boolean AEDMFLGDNNH_1(::System::UInt64 a1, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt64, ::System::UInt32>>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt64, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + LPPHFFMPNCH_AEDMFLGDNNH_1_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt64, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt64, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + LPPHFFMPNCH_AEDMFLGDNNH_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean AEDMFLGDNNH_2(::System::UInt64 a1, ::System::Collections::Generic::List_1<::System::UInt64>* a2)

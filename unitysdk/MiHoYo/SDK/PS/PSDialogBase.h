@@ -5,6 +5,7 @@ namespace MiHoYo::SDK::PS { class SDKUIController; }
 namespace MiHoYo::SDK::PS { class SDKUIDialog; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
 #define MIHOYO_SDK_PS_PSDIALOGBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF64D10)
@@ -29,7 +30,7 @@ namespace MiHoYo::SDK::PS
 	public:
 		::System::Action* OnDialogConfirmed; // 0x58
 		::System::Action* OnDialogCanceled; // 0x60
-		::System::Action* OnDialogHighlightedChanged; // 0x68
+		::System::Action_1<::UnityEngine::GameObject*>* OnDialogHighlightedChanged; // 0x68
 		::UnityEngine::GameObject* ConfirmButtonObject; // 0x70
 		::UnityEngine::GameObject* CancelButtonObject; // 0x78
 		::MiHoYo::SDK::PS::SDKUIController* controller; // 0x80

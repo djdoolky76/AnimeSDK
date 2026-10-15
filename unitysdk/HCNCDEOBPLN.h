@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
 #include "unitysdk/HCNCDEOBPLN_BBOPDPAMDIA.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/HCNCDEOBPLN_ABIJOIBOLEN.h"
 #include "unitysdk/MIKENGEIPMG.h"
@@ -10,7 +11,6 @@ class OAHMMNKIOFD;
 class PLAJKHAEJMA;
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -73,7 +73,7 @@ inline static constexpr unsigned int HCNCDEOBPLN_TypeDefinitionIndex = 43855;
 	class HCNCDEOBPLN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Queue_1<::System::Collections::Generic::KeyValuePair*>* FGKGMBCFFOE; // 0x10
+		::System::Collections::Generic::Queue_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>* FGKGMBCFFOE; // 0x10
 		::System::Collections::Generic::SortedDictionary_2<::System::Int32, ::System::Object*>* DFNBDMKJHBM; // 0x18
 		::HCNCDEOBPLN_BBOPDPAMDIA OIFCADEFDMI; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Int32>* HCMHOBAKKOP; // 0x38

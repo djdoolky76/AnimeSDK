@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class NFJIADFIJKO;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
@@ -47,7 +47,7 @@ inline static constexpr unsigned int LJFHKAJPFNE_PBJCGMLECGD_TypeDefinitionIndex
 		::UnityEngine::GameObject* MAIOFEIAKEK; // 0x18
 		::System::String* GNLLJKLAMKN; // 0x20
 		::UnityEngine::Material* BLLINICNOJF; // 0x28
-		::System::Action* KHDGBFPLJGK; // 0x30
+		::System::Action_1<::System::Object*>* KHDGBFPLJGK; // 0x30
 		::System::String* HMJEPBGJMMO; // 0x38
 		::NFJIADFIJKO* PFOBDINCJDI; // 0x40
 		::Il2CppArray<::UnityEngine::Mesh*>* BCHHLPKOMCK; // 0x48
@@ -100,14 +100,14 @@ inline static constexpr unsigned int LJFHKAJPFNE_PBJCGMLECGD_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_PBJCGMLECGD_MIEIHCMBACJ_OFFSET))(this, a1);
 		}
 
-		::System::Void MDEFBCLCHHC(::System::Action* a1, ::System::Boolean a2, ::System::Int32 a3)
+		::System::Void MDEFBCLCHHC(::System::Action_1<::System::Object*>* a1, ::System::Boolean a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_PBJCGMLECGD_MDEFBCLCHHC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_PBJCGMLECGD_MDEFBCLCHHC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void JJNIFBMIENA(::System::Action* a1)
+		::System::Void JJNIFBMIENA(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_PBJCGMLECGD_JJNIFBMIENA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + LJFHKAJPFNE_PBJCGMLECGD_JJNIFBMIENA_OFFSET))(this, a1);
 		}
 
 		::System::Void PMNJBBOBMMK(::System::Boolean a1)

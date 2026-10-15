@@ -3,6 +3,7 @@
 #include "unitysdk/HJIAHMMPICB_NpcShowState.h"
 #include "unitysdk/HJIAHMMPICB_NpcStateControlSource.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EONKJJEBGLN;
@@ -10,7 +11,6 @@ namespace RPG::Client { class EraFlipperCommonConfig; }
 namespace RPG::Client { class EraFlipperManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NPCComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -42,9 +42,9 @@ inline static constexpr unsigned int HJIAHMMPICB_TypeDefinitionIndex = 73309;
 		::System::String* POPAAAFPELI; // 0x38
 		::System::UInt32 NHOPHPGJGME; // 0x40
 		::System::Int32 HAKEBJOFIGO; // 0x44
-		::System::Nullable* KBDLFAAGIAA; // 0x48
+		::System::Nullable_1<::System::Object*> KBDLFAAGIAA; // 0x48
 		::System::Single OJGJKNMNBDH; // 0x50
-		::System::Nullable* OBDPBBAABGK; // 0x54
+		::System::Nullable_1<::System::Object*> OBDPBBAABGK; // 0x54
 		::HJIAHMMPICB_NpcShowState CFKDCNLOMNN; // 0x5C
 		::System::Single LDGHLNKPJON; // 0x60
 		::System::Boolean OPJDFDIKDIN; // 0x64

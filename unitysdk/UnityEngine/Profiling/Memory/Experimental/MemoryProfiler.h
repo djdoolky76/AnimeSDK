@@ -3,8 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Profiling/Experimental/DebugScreenCapture.h"
 #include "unitysdk/UnityEngine/TextureFormat.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Profiling::Memory::Experimental { class MetaData; }
 
 #define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_MEMORYPROFILER_FINALIZESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1F40EE90)
@@ -20,19 +22,19 @@ namespace UnityEngine::Profiling::Memory::Experimental
 	class MemoryProfiler : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_m_SaveScreenshotToDisk()
+		static ::System::Action_3<::System::String*, ::System::Boolean, ::UnityEngine::Profiling::Experimental::DebugScreenCapture>** StaticGet_m_SaveScreenshotToDisk()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler")->GetStaticField(0x12D40);
+			return (::System::Action_3<::System::String*, ::System::Boolean, ::UnityEngine::Profiling::Experimental::DebugScreenCapture>**)UnitySDK::FromName("UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler")->GetStaticField(0x12D40);
 		}
 
-		static ::System::Action** StaticGet_createMetaData()
+		static ::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>** StaticGet_createMetaData()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler")->GetStaticField(0x12D48);
+			return (::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>**)UnitySDK::FromName("UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler")->GetStaticField(0x12D48);
 		}
 
-		static ::System::Action** StaticGet_m_SnapshotFinished()
+		static ::System::Action_2<::System::String*, ::System::Boolean>** StaticGet_m_SnapshotFinished()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler")->GetStaticField(0x12D50);
+			return (::System::Action_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler")->GetStaticField(0x12D50);
 		}
 
 		static ::Il2CppArray<::System::Byte>* PrepareMetadata()

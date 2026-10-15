@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
@@ -62,18 +62,18 @@ namespace System::Net::Http::Headers
 		::System::Boolean _ProxyRevalidate_k__BackingField; // 0x2B
 		::System::Boolean _NoStore_k__BackingField; // 0x2C
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _MaxStaleLimit_k__BackingField; // 0x30
+		::System::Nullable_1<::System::TimeSpan> _MaxStaleLimit_k__BackingField; // 0x30
 		::System::Byte _padding1[0x8];
-		::System::Nullable* _SharedMaxAge_k__BackingField; // 0x40
+		::System::Nullable_1<::System::TimeSpan> _SharedMaxAge_k__BackingField; // 0x40
 		::System::Byte _padding2[0x8];
-		::System::Nullable* _MinFresh_k__BackingField; // 0x50
+		::System::Nullable_1<::System::TimeSpan> _MinFresh_k__BackingField; // 0x50
 		::System::Byte _padding3[0x8];
 		::System::Boolean _OnlyIfCached_k__BackingField; // 0x60
 		::System::Boolean _MustRevalidate_k__BackingField; // 0x61
 		::System::Boolean _Private_k__BackingField; // 0x62
 		::System::Boolean _NoCache_k__BackingField; // 0x63
 		::System::Byte _padding4[0x4];
-		::System::Nullable* _MaxAge_k__BackingField; // 0x68
+		::System::Nullable_1<::System::TimeSpan> _MaxAge_k__BackingField; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_CTOR_OFFSET))(this);
@@ -84,14 +84,14 @@ namespace System::Net::Http::Headers
 			return ((::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_EXTENSIONS_OFFSET))(this);
 		}
 
-		::System::Nullable* get_MaxAge()
+		::System::Nullable_1<::System::TimeSpan> get_MaxAge()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_MAXAGE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_MAXAGE_OFFSET))(this);
 		}
 
-		::System::Void set_MaxAge(::System::Nullable* a1)
+		::System::Void set_MaxAge(::System::Nullable_1<::System::TimeSpan> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_MAXAGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::TimeSpan>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_MAXAGE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_MaxStale()
@@ -104,24 +104,24 @@ namespace System::Net::Http::Headers
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_MAXSTALE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_MaxStaleLimit()
+		::System::Nullable_1<::System::TimeSpan> get_MaxStaleLimit()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_MAXSTALELIMIT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_MAXSTALELIMIT_OFFSET))(this);
 		}
 
-		::System::Void set_MaxStaleLimit(::System::Nullable* a1)
+		::System::Void set_MaxStaleLimit(::System::Nullable_1<::System::TimeSpan> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_MAXSTALELIMIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::TimeSpan>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_MAXSTALELIMIT_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_MinFresh()
+		::System::Nullable_1<::System::TimeSpan> get_MinFresh()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_MINFRESH_OFFSET))(this);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_MINFRESH_OFFSET))(this);
 		}
 
-		::System::Void set_MinFresh(::System::Nullable* a1)
+		::System::Void set_MinFresh(::System::Nullable_1<::System::TimeSpan> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_MINFRESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::TimeSpan>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_MINFRESH_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_MustRevalidate()
@@ -214,14 +214,14 @@ namespace System::Net::Http::Headers
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_PUBLIC_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_SharedMaxAge()
+		::System::Nullable_1<::System::TimeSpan> get_SharedMaxAge()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_SHAREDMAXAGE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_GET_SHAREDMAXAGE_OFFSET))(this);
 		}
 
-		::System::Void set_SharedMaxAge(::System::Nullable* a1)
+		::System::Void set_SharedMaxAge(::System::Nullable_1<::System::TimeSpan> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_SHAREDMAXAGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::TimeSpan>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CACHECONTROLHEADERVALUE_SET_SHAREDMAXAGE_OFFSET))(this, a1);
 		}
 
 		::System::Object* System_ICloneable_Clone()

@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/Nullable_1.h"
 class IPABEFHCBLD;
 class NJEBDKOJNGA;
 class NPIJFFFFKBK;
@@ -31,7 +32,6 @@ namespace RPG::Client::DiceCombat { class IDiceCombatStage; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -172,7 +172,7 @@ namespace RPG::Client
 		::RPG::Client::Promises::Promise* _WaitBuyShopGoodRspPromise; // 0x30
 		::System::Collections::Generic::List_1<::System::UInt32>* _LeftGetItemIDList; // 0x38
 		::RPG::Client::DiceCombat::DiceCombatRedDot* _DiceCombatRedDot_k__BackingField; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* _CurFloorEntityConfigKeyToStageID; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* _CurFloorEntityConfigKeyToStageID; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::DiceCombat::DiceCombatV2OpponentData*>* _V2OpponentDatas; // 0x50
 		::RPG::Client::Promises::Promise* _WaitGetItemNotifyPromise; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*>* _PlayerAvatarInfos; // 0x60
@@ -214,9 +214,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATMODULE__ONADDITEMRSP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _OnAddItemRspForMultiBuyShopGoods(::System::Nullable* a1)
+		::System::Void _OnAddItemRspForMultiBuyShopGoods(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATMODULE__ONADDITEMRSPFORMULTIBUYSHOPGOODS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATMODULE__ONADDITEMRSPFORMULTIBUYSHOPGOODS_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnModifyAvatarDiceRsp(::System::UInt16 a1, ::System::Object* a2)

@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class COMGNGLLCFN;
 namespace RPG::GameCore { class LineUpCharacter; }
 namespace RPG::GameCore { class PVECharacterStt; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define RPG_GAMECORE_STATISTICSCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE77AB00)
 #define RPG_GAMECORE_STATISTICSCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE77AB30)
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return (::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DA80);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>** StaticGet___9__2_8()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_8()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DA88);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DA88);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>** StaticGet___9__2_6()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_6()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DA90);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DA90);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::PVECharacterStt*, ::System::Int32>** StaticGet___9__2_0()
@@ -48,24 +48,24 @@ namespace RPG::GameCore
 			return (::System::Func_2<::RPG::GameCore::PVECharacterStt*, ::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DA98);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>** StaticGet___9__2_4()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_4()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DAA0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DAA0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>** StaticGet___9__2_3()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::COMGNGLLCFN*>** StaticGet___9__2_3()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DAA8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DAA8);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>** StaticGet___9__2_7()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_7()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DAB0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DAB0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>** StaticGet___9__2_5()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>** StaticGet___9__2_5()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DAB8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>, ::COMGNGLLCFN*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6DAB8);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::LineUpCharacter*, ::System::UInt32>** StaticGet___9__2_2()
@@ -103,34 +103,34 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::LineUpCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_2_OFFSET))(this, a1);
 		}
 
-		::COMGNGLLCFN* _BuildPVEStatistics_b__2_3(::System::Collections::Generic::KeyValuePair* a1)
+		::COMGNGLLCFN* _BuildPVEStatistics_b__2_3(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*> a1)
 		{
-			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_3_OFFSET))(this, a1);
+			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_3_OFFSET))(this, a1);
 		}
 
-		::COMGNGLLCFN* _BuildPVEStatistics_b__2_4(::System::Collections::Generic::KeyValuePair* a1)
+		::COMGNGLLCFN* _BuildPVEStatistics_b__2_4(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint> a1)
 		{
-			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_4_OFFSET))(this, a1);
+			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_4_OFFSET))(this, a1);
 		}
 
-		::COMGNGLLCFN* _BuildPVEStatistics_b__2_5(::System::Collections::Generic::KeyValuePair* a1)
+		::COMGNGLLCFN* _BuildPVEStatistics_b__2_5(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint> a1)
 		{
-			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_5_OFFSET))(this, a1);
+			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_5_OFFSET))(this, a1);
 		}
 
-		::COMGNGLLCFN* _BuildPVEStatistics_b__2_6(::System::Collections::Generic::KeyValuePair* a1)
+		::COMGNGLLCFN* _BuildPVEStatistics_b__2_6(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint> a1)
 		{
-			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_6_OFFSET))(this, a1);
+			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_6_OFFSET))(this, a1);
 		}
 
-		::COMGNGLLCFN* _BuildPVEStatistics_b__2_7(::System::Collections::Generic::KeyValuePair* a1)
+		::COMGNGLLCFN* _BuildPVEStatistics_b__2_7(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint> a1)
 		{
-			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_7_OFFSET))(this, a1);
+			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_7_OFFSET))(this, a1);
 		}
 
-		::COMGNGLLCFN* _BuildPVEStatistics_b__2_8(::System::Collections::Generic::KeyValuePair* a1)
+		::COMGNGLLCFN* _BuildPVEStatistics_b__2_8(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint> a1)
 		{
-			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_8_OFFSET))(this, a1);
+			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSCOMPONENT___C__BUILDPVESTATISTICS_B__2_8_OFFSET))(this, a1);
 		}
 
 	};

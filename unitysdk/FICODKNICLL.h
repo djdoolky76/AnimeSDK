@@ -5,6 +5,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define FICODKNICLL_AENPHDMACPG_OFFSET UNITYSDK_OFFSET(0x1F850)
@@ -35,9 +36,9 @@ inline static constexpr unsigned int FICODKNICLL_TypeDefinitionIndex = 73962;
 		::System::Boolean OGFGJAFDMIM; // 0xC9
 		::System::Byte _padding0[0x2];
 		::System::Single NMDPAOPJHFO; // 0xCC
-		::System::Void _ctor(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Action* a4, ::System::Action* a5)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Action_1<::System::Int32>* a4, ::System::Action* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::UnityEngine::Vector3, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + FICODKNICLL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::UnityEngine::Vector3, ::System::Action_1<::System::Int32>*, ::System::Action*))((::PBYTE)hIl2Cpp + FICODKNICLL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::MLFEHGAFNBE EMKKJFGMHFJ()

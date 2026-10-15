@@ -3,9 +3,9 @@
 #include "unitysdk/SRDebugger/Services/MihoyoOptionControlType.h"
 #include "unitysdk/SRDebugger/DefaultTabs.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace SRDebugger::UI::Other { class SRTab; }
 namespace SRDebugger::UI::Other { class SRTabController; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define SRDEBUGGER_SCRIPTS_DEBUGGERTABCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3FB30)
@@ -29,7 +29,7 @@ namespace SRDebugger::Scripts
 	{
 	public:
 		::SRDebugger::UI::Other::SRTab* _aboutTabInstance; // 0x48
-		::System::Nullable* _activeTab; // 0x50
+		::System::Nullable_1<::SRDebugger::DefaultTabs> _activeTab; // 0x50
 		::System::Boolean _hasStarted; // 0x58
 		::System::Byte _padding0[0x7];
 		::SRDebugger::UI::Other::SRTab* AboutTab; // 0x60
@@ -40,9 +40,9 @@ namespace SRDebugger::Scripts
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SCRIPTS_DEBUGGERTABCONTROLLER_CTOR_OFFSET))(this);
 		}
 
-		::System::Nullable* get_ActiveTab()
+		::System::Nullable_1<::SRDebugger::DefaultTabs> get_ActiveTab()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SCRIPTS_DEBUGGERTABCONTROLLER_GET_ACTIVETAB_OFFSET))(this);
+			return ((::System::Nullable_1<::SRDebugger::DefaultTabs>(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SCRIPTS_DEBUGGERTABCONTROLLER_GET_ACTIVETAB_OFFSET))(this);
 		}
 
 		::System::Void Start()

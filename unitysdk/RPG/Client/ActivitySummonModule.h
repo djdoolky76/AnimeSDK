@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/ActivitySummonDifficulty.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DKMEDMFIDEA;
 class NAHLFIBEBHJ;
 class OOAJJMEGIFO;
 namespace RPG::Client { class ActivitySummonBattleResult; }
 namespace RPG::Client { class ActivitySummonStage; }
 namespace RPG::Client { class LuaUIController; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -66,13 +66,13 @@ namespace RPG::Client
 	class ActivitySummonModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* _UnlockFlags; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::RPG::GameCore::ActivitySummonDifficulty>>* _UnlockFlags; // 0x10
 		::System::String* _DifficultyLevelTutorialUnlockKey_k__BackingField; // 0x18
 		::RPG::Client::ActivitySummonBattleResult* _BattleResult; // 0x20
 		::DKMEDMFIDEA* _BattleInfo; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* _StarsCache; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* _StarsCache; // 0x30
 		::System::Collections::Generic::List_1<::RPG::Client::ActivitySummonStage*>* _Stages; // 0x38
-		::System::Nullable* _AutoShowStageID; // 0x40
+		::System::Nullable_1<::System::UInt32> _AutoShowStageID; // 0x40
 		::System::UInt32 _GuideMissionID_k__BackingField; // 0x48
 		::System::UInt32 _ActivityRewardID_k__BackingField; // 0x4C
 		::System::Void _ctor()

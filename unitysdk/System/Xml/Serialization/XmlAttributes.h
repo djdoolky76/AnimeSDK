@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Object; }
 namespace System::Reflection { class ICustomAttributeProvider; }
 namespace System::Xml::Serialization { class XmlAnyAttributeAttribute; }
@@ -130,9 +130,9 @@ namespace System::Xml::Serialization
 			return ((::System::Xml::Serialization::XmlTypeAttribute*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_XMLTYPE_OFFSET))(this);
 		}
 
-		::System::Nullable* get_Order()
+		::System::Nullable_1<::System::Int32> get_Order()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_ORDER_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTES_GET_ORDER_OFFSET))(this);
 		}
 
 		::System::Int32 get_SortableOrder()

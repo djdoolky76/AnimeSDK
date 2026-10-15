@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class PBDHandle;
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class Transform; }
 
@@ -33,9 +33,9 @@ inline static constexpr unsigned int SealPoolTriggerCrash_TypeDefinitionIndex = 
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + SEALPOOLTRIGGERCRASH_ONCOLLISIONENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void GHIFMGPKFPF(::System::String* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::UnityEngine::Transform* a5, ::System::Action* a6, ::System::String* a7)
+		::System::Void GHIFMGPKFPF(::System::String* a1, ::System::Nullable_1<::UnityEngine::Vector3> a2, ::System::Nullable_1<::UnityEngine::Quaternion> a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::UnityEngine::Transform* a5, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a6, ::System::String* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::UnityEngine::Transform*, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + SEALPOOLTRIGGERCRASH_GHIFMGPKFPF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Nullable_1<::UnityEngine::Vector3>, ::UnityEngine::Transform*, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::String*))((::PBYTE)hIl2Cpp + SEALPOOLTRIGGERCRASH_GHIFMGPKFPF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 	};

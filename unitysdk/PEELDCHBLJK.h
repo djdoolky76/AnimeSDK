@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/EPedestrianV2InitialFillMode.h"
 #include "unitysdk/RPG/Client/EPedestrianV2MotionState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/INBCAKDBHHE.h"
 #include "unitysdk/JOGBIBJLPJB.h"
@@ -16,9 +17,8 @@ class MNIADKMONBH;
 class NEJLIGKNHCC;
 namespace RPG::GameCore { class LevelPedestrianV2Info; }
 namespace RPG::GameCore { class LevelPedestrianV2MemberInfo; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -88,20 +88,20 @@ inline static constexpr unsigned int PEELDCHBLJK_TypeDefinitionIndex = 69281;
 		::System::Boolean MPECKIIKDGD; // 0x68
 		::System::Byte _padding0[0x3];
 		::System::Int32 LKOHNNNKNIK; // 0x6C
-		::System::Nullable* _OVERRIDE_DISAPPEAR_MAX_DISTANCE_k__BackingField; // 0x70
+		::System::Nullable_1<::System::Single> _OVERRIDE_DISAPPEAR_MAX_DISTANCE_k__BackingField; // 0x70
 		::System::Void _ctor(::BFJAILBMPCJ* a1, ::RPG::GameCore::LevelPedestrianV2Info* a2, ::INBCAKDBHHE a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::BFJAILBMPCJ*, ::RPG::GameCore::LevelPedestrianV2Info*, ::INBCAKDBHHE))((::PBYTE)hIl2Cpp + PEELDCHBLJK_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* get_OVERRIDE_DISAPPEAR_MAX_DISTANCE()
+		::System::Nullable_1<::System::Single> get_OVERRIDE_DISAPPEAR_MAX_DISTANCE()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + PEELDCHBLJK_GET_OVERRIDE_DISAPPEAR_MAX_DISTANCE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + PEELDCHBLJK_GET_OVERRIDE_DISAPPEAR_MAX_DISTANCE_OFFSET))(this);
 		}
 
-		::System::Void set_OVERRIDE_DISAPPEAR_MAX_DISTANCE(::System::Nullable* a1)
+		::System::Void set_OVERRIDE_DISAPPEAR_MAX_DISTANCE(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + PEELDCHBLJK_SET_OVERRIDE_DISAPPEAR_MAX_DISTANCE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + PEELDCHBLJK_SET_OVERRIDE_DISAPPEAR_MAX_DISTANCE_OFFSET))(this, a1);
 		}
 
 		::System::Single GMPFKIFCECG()
@@ -199,9 +199,9 @@ inline static constexpr unsigned int PEELDCHBLJK_TypeDefinitionIndex = 69281;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PEELDCHBLJK_NIFKMBKIDHF_OFFSET))(this, a1);
 		}
 
-		::LAJCPEFEOPN* NDJAKCFEELG(::JOGBIBJLPJB a1, ::RPG::Client::EPedestrianV2MotionState a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Action* a5, ::System::String* a6)
+		::LAJCPEFEOPN* NDJAKCFEELG(::JOGBIBJLPJB a1, ::RPG::Client::EPedestrianV2MotionState a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Action_1<::LAJCPEFEOPN*>* a5, ::System::String* a6)
 		{
-			return ((::LAJCPEFEOPN*(*)(::PVOID, ::JOGBIBJLPJB, ::RPG::Client::EPedestrianV2MotionState, ::System::Int32, ::System::Boolean, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + PEELDCHBLJK_NDJAKCFEELG_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::LAJCPEFEOPN*(*)(::PVOID, ::JOGBIBJLPJB, ::RPG::Client::EPedestrianV2MotionState, ::System::Int32, ::System::Boolean, ::System::Action_1<::LAJCPEFEOPN*>*, ::System::String*))((::PBYTE)hIl2Cpp + PEELDCHBLJK_NDJAKCFEELG_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Int32 GCJOKIMJFJK(::System::Single a1)

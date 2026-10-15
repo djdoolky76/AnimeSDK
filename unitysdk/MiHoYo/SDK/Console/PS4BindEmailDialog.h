@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::Console { class PS4BindEmailDialog; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
@@ -48,8 +50,8 @@ namespace MiHoYo::SDK::Console
 		::UnityEngine::Color ENABLED_COLOR; // 0xC0
 		::UnityEngine::Color DISABLED_COLOR; // 0xD0
 		::System::Action* OnRefreshQRCodeClicked; // 0xE0
-		::System::Action* OnGetCaptchaClicked; // 0xE8
-		::System::Action* OnBindButtonClicked; // 0xF0
+		::System::Action_1<::System::String*>* OnGetCaptchaClicked; // 0xE8
+		::System::Action_2<::System::String*, ::System::String*>* OnBindButtonClicked; // 0xF0
 		::System::Action* OnBindingSkip; // 0xF8
 		::UnityEngine::GameObject* MailInputObj; // 0x100
 		::UnityEngine::GameObject* CaptchaInputObj; // 0x108

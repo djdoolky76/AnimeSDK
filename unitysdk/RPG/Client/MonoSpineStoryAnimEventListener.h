@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0xD864C00)
 #define RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_SETSWITCHBACKGROUNDCALLBACK_OFFSET UNITYSDK_OFFSET(0xD864B80)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class MonoSpineStoryAnimEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* OnSwitchBackgroundCallback; // 0x18
+		::System::Action_3<::System::String*, ::System::String*, ::System::Boolean>* OnSwitchBackgroundCallback; // 0x18
 		::System::String* HPNACMLPFEO; // 0x20
 		::System::String* IJCJCNKIMKI; // 0x28
 		::System::Boolean GDIGAMFJEFD; // 0x30
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_SWITCHBACKGROUND_OFFSET))(this);
 		}
 
-		::System::Void SetSwitchBackgroundCallback(::System::Action* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4)
+		::System::Void SetSwitchBackgroundCallback(::System::Action_3<::System::String*, ::System::String*, ::System::Boolean>* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_SETSWITCHBACKGROUNDCALLBACK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::String*, ::System::String*, ::System::Boolean>*, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSPINESTORYANIMEVENTLISTENER_SETSWITCHBACKGROUNDCALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 	};

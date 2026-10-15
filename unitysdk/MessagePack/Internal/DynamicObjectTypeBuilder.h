@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/Internal/ArgumentField.h"
 #include "unitysdk/System/Reflection/Emit/Label.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace MessagePack::Internal { class DynamicAssembly; }
 namespace MessagePack::Internal { class DynamicObjectTypeBuilder_DeserializeInfo; }
 namespace MessagePack::Internal { class ObjectSerializationInfo; }
 namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMember; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
@@ -223,9 +223,9 @@ namespace MessagePack::Internal
 			return ((::Il2CppArray<::System::Object*>*(*)(::MessagePack::Internal::ObjectSerializationInfo*, ::System::Reflection::Emit::ILGenerator*, ::System::Boolean, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYINTKEY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void BuildDeserializeInternalDeserializeLoopIntKey(::System::Reflection::Emit::TypeBuilder* a1, ::System::Reflection::Emit::ILGenerator* a2, ::System::Func_3<::System::Int32, ::System::Object*, ::System::Action*>* a3, ::MessagePack::Internal::ArgumentField a4, ::MessagePack::Internal::ArgumentField a5, ::Il2CppArray<::System::Object*>* a6, ::System::Reflection::Emit::LocalBuilder* a7, ::System::Reflection::Emit::LocalBuilder* a8, ::System::Reflection::Emit::LocalBuilder* a9, ::System::Boolean a10, ::System::Nullable* a11)
+		static ::System::Void BuildDeserializeInternalDeserializeLoopIntKey(::System::Reflection::Emit::TypeBuilder* a1, ::System::Reflection::Emit::ILGenerator* a2, ::System::Func_3<::System::Int32, ::System::Object*, ::System::Action*>* a3, ::MessagePack::Internal::ArgumentField a4, ::MessagePack::Internal::ArgumentField a5, ::Il2CppArray<::System::Object*>* a6, ::System::Reflection::Emit::LocalBuilder* a7, ::System::Reflection::Emit::LocalBuilder* a8, ::System::Reflection::Emit::LocalBuilder* a9, ::System::Boolean a10, ::System::Nullable_1<::System::Reflection::Emit::Label> a11)
 		{
-			return ((::System::Void(*)(::System::Reflection::Emit::TypeBuilder*, ::System::Reflection::Emit::ILGenerator*, ::System::Func_3<::System::Int32, ::System::Object*, ::System::Action*>*, ::MessagePack::Internal::ArgumentField, ::MessagePack::Internal::ArgumentField, ::Il2CppArray<::System::Object*>*, ::System::Reflection::Emit::LocalBuilder*, ::System::Reflection::Emit::LocalBuilder*, ::System::Reflection::Emit::LocalBuilder*, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPINTKEY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Void(*)(::System::Reflection::Emit::TypeBuilder*, ::System::Reflection::Emit::ILGenerator*, ::System::Func_3<::System::Int32, ::System::Object*, ::System::Action*>*, ::MessagePack::Internal::ArgumentField, ::MessagePack::Internal::ArgumentField, ::Il2CppArray<::System::Object*>*, ::System::Reflection::Emit::LocalBuilder*, ::System::Reflection::Emit::LocalBuilder*, ::System::Reflection::Emit::LocalBuilder*, ::System::Boolean, ::System::Nullable_1<::System::Reflection::Emit::Label>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPINTKEY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		static ::System::Void BuildDeserializeInternalDeserializeLoopStringKey(::System::Reflection::Emit::TypeBuilder* a1, ::System::Reflection::Emit::ILGenerator* a2, ::System::Func_3<::System::Int32, ::System::Object*, ::System::Action*>* a3, ::MessagePack::Internal::ArgumentField a4, ::MessagePack::Internal::ArgumentField a5, ::Il2CppArray<::System::Object*>* a6, ::System::Reflection::Emit::LocalBuilder* a7, ::System::Reflection::Emit::LocalBuilder* a8, ::System::Reflection::Emit::LocalBuilder* a9, ::System::Boolean a10, ::MessagePack::Internal::ObjectSerializationInfo* a11)

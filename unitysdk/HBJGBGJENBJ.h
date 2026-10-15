@@ -23,8 +23,8 @@ namespace RPG::GameCore { class LevelUIComponent; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define HBJGBGJENBJ_ACEJKHOPEEH_OFFSET UNITYSDK_OFFSET(0x15C0B9B0)
 #define HBJGBGJENBJ_ANJIFDBMBKF_OFFSET UNITYSDK_OFFSET(0x15C0D700)
@@ -100,7 +100,7 @@ inline static constexpr unsigned int HBJGBGJENBJ_TypeDefinitionIndex = 71631;
 		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x78
 		::RPG::GameCore::SkillData* IMAOAAEJOIE; // 0x80
 		::RPG::GameCore::BattleInstance* CKPCDFOHJIE; // 0x88
-		::System::Action* KEJPOONHNNJ; // 0x90
+		::System::Action_2<::System::Object*, ::System::Object*>* KEJPOONHNNJ; // 0x90
 		::RPG::Client::LongPressEvent* BDGDKFKOBIM; // 0x98
 		::RPG::GameCore::TurnBasedAbilityComponent* HFFKONIDMGL; // 0xA0
 		::System::Boolean JNABFHBJLBI; // 0xA8
@@ -159,9 +159,9 @@ inline static constexpr unsigned int HBJGBGJENBJ_TypeDefinitionIndex = 71631;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + HBJGBGJENBJ_PNFAHABNEMH_OFFSET))(this, a1);
 		}
 
-		::System::Void HPPFKEJFFKD(::System::Action* a1)
+		::System::Void HPPFKEJFFKD(::System::Action_2<::System::Object*, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HBJGBGJENBJ_HPPFKEJFFKD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + HBJGBGJENBJ_HPPFKEJFFKD_OFFSET))(this, a1);
 		}
 
 		::System::Void ACEJKHOPEEH(::RPG::GameCore::SkillData* a1, ::System::Int32 a2)

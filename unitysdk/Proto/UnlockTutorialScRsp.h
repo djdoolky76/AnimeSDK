@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class Tutorial; }
 namespace Proto { class UnlockTutorialScRsp; }
@@ -40,9 +40,9 @@ namespace Proto
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::Proto::Tutorial* tutorial_; // 0x18
 		::System::UInt32 retcode_; // 0x20
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::UnlockTutorialScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "UnlockTutorialScRsp")->GetStaticField(0x473C0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::UnlockTutorialScRsp*>**)UnitySDK::FromName("Proto", "UnlockTutorialScRsp")->GetStaticField(0x473C0);
 		}
 
 		// static const ::System::Object RetcodeFieldNumber; // 0x0
@@ -62,9 +62,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::UnlockTutorialScRsp*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::UnlockTutorialScRsp*>*(*)())((::PBYTE)hIl2Cpp + PROTO_UNLOCKTUTORIALSCRSP_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

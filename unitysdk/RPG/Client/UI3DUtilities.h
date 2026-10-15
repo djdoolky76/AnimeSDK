@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
@@ -28,9 +28,9 @@ namespace RPG::Client
 	class UI3DUtilities : public ::System::Object
 	{
 	public:
-		static ::System::Nullable** StaticGet__EnableHiZOCBefore()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet__EnableHiZOCBefore()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("RPG.Client", "UI3DUtilities")->GetStaticField(0xA970);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("RPG.Client", "UI3DUtilities")->GetStaticField(0xA970);
 		}
 
 		::System::Void _ctor()

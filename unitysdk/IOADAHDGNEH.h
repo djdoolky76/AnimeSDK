@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CLNGKOPAMBJ;
 class JHJIFOPDDMK;
 class KBDDPBPABDD;
@@ -23,7 +23,7 @@ inline static constexpr unsigned int IOADAHDGNEH_TypeDefinitionIndex = 80125;
 	{
 	public:
 		::OBJHILPGKDF* CEFLLELKFOP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::JHJIFOPDDMK*>* IIGHALBPJBM; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::JHJIFOPDDMK*>* IIGHALBPJBM; // 0x18
 		::System::Void _ctor(::OBJHILPGKDF* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::OBJHILPGKDF*))((::PBYTE)hIl2Cpp + IOADAHDGNEH_CTOR_OFFSET))(this, a1);

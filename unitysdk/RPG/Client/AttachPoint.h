@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
@@ -25,7 +25,7 @@ namespace RPG::Client
 		::UnityEngine::Transform* PointTransform; // 0x18
 		::System::String* BindPath; // 0x20
 		::UnityEngine::Transform* DynamicBindTransform; // 0x28
-		::System::Nullable* PersistentLocalScale; // 0x30
+		::System::Nullable_1<::UnityEngine::Vector3> PersistentLocalScale; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINT_CTOR_OFFSET))(this);

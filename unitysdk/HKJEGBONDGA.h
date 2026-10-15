@@ -5,6 +5,7 @@ class CKCJOCJGHKC;
 namespace RPG::Client { template <typename T> class PrefList_1; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define HKJEGBONDGA_CFPJJAEONNP_1_OFFSET UNITYSDK_OFFSET(0x15D493D0)
 #define HKJEGBONDGA_CFPJJAEONNP_OFFSET UNITYSDK_OFFSET(0x15D48BC0)
@@ -25,7 +26,7 @@ inline static constexpr unsigned int HKJEGBONDGA_TypeDefinitionIndex = 81507;
 	class HKJEGBONDGA : public ::System::Object
 	{
 	public:
-		::System::Action* NEELGDFPFIN; // 0x10
+		::System::Action_1<::System::UInt32>* NEELGDFPFIN; // 0x10
 		// static const ::System::Object HJCFMCJMHHN; // 0x0
 		// static const ::System::Object NODCFPAANFI; // 0x0
 		::System::Void _ctor()

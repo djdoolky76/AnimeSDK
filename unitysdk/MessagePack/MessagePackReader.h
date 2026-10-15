@@ -7,14 +7,14 @@
 #include "unitysdk/MessagePack/ExtensionHeader.h"
 #include "unitysdk/MessagePack/ExtensionResult.h"
 #include "unitysdk/MessagePack/Nil.h"
+#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 #include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ReadOnlyMemory_1.h"
 #include "unitysdk/System/SequencePosition.h"
 namespace System { class Exception; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Buffers { class ReadOnlySequence; }
 namespace System::IO { class EndOfStreamException; }
 
 #define MESSAGEPACK_MESSAGEPACKREADER_CLONE_OFFSET UNITYSDK_OFFSET(0x3C0DEB0)
@@ -132,9 +132,9 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_SET_DEPTH_OFFSET))(this, a1);
 		}
 
-		::System::Buffers::ReadOnlySequence* get_Sequence()
+		::System::Buffers::ReadOnlySequence_1<::System::Byte> get_Sequence()
 		{
-			return ((::System::Buffers::ReadOnlySequence*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_GET_SEQUENCE_OFFSET))(this);
+			return ((::System::Buffers::ReadOnlySequence_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_GET_SEQUENCE_OFFSET))(this);
 		}
 
 		::System::SequencePosition get_Position()
@@ -201,9 +201,9 @@ namespace MessagePack
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_TRYREADNIL_OFFSET))(this);
 		}
 
-		::System::Buffers::ReadOnlySequence* ReadRaw(::System::Int64 a1)
+		::System::Buffers::ReadOnlySequence_1<::System::Byte> ReadRaw(::System::Int64 a1)
 		{
-			return ((::System::Buffers::ReadOnlySequence*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READRAW_OFFSET))(this, a1);
+			return ((::System::Buffers::ReadOnlySequence_1<::System::Byte>(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READRAW_OFFSET))(this, a1);
 		}
 
 		::System::Int32 ReadArrayHeader()
@@ -256,14 +256,14 @@ namespace MessagePack
 			return ((::System::DateTime(*)(::PVOID, ::MessagePack::ExtensionHeader))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READDATETIME_1_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* ReadBytes()
+		::System::Nullable_1<::System::Buffers::ReadOnlySequence_1<::System::Byte>> ReadBytes()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READBYTES_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Buffers::ReadOnlySequence_1<::System::Byte>>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READBYTES_OFFSET))(this);
 		}
 
-		::System::Nullable* ReadStringSequence()
+		::System::Nullable_1<::System::Buffers::ReadOnlySequence_1<::System::Byte>> ReadStringSequence()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READSTRINGSEQUENCE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Buffers::ReadOnlySequence_1<::System::Byte>>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKREADER_READSTRINGSEQUENCE_OFFSET))(this);
 		}
 
 		::System::String* ReadString()

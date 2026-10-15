@@ -7,8 +7,8 @@ namespace RPG::Client { class AttachPoint; }
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace RPG::Client::Prop { class ChimeraDuelChimeraModelView; }
 namespace RPG::Client::Prop { class ChimeraDuelModelVfxPlayer; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
@@ -57,7 +57,7 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* EffectUniqueNameToID; // 0x20
 		::System::String* _HPText; // 0x28
 		::System::String* _LevelText; // 0x30
-		::System::Action* _ViewDestroyer; // 0x38
+		::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>* _ViewDestroyer; // 0x38
 		::UnityEngine::GameObject* GameObject; // 0x40
 		::System::String* Name; // 0x48
 		::System::UInt32 _Level; // 0x50
@@ -71,9 +71,9 @@ namespace RPG::Client::Prop
 		::RPG::GameCore::ChimeraDuelTeamType TeamType; // 0x70
 		::System::Int32 _TeamPosition; // 0x74
 		::System::UInt32 InitialEffectUniqueID; // 0x78
-		::System::Void _ctor(::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* a1, ::RPG::Client::Prop::ChimeraDuelChimeraModelView* a2, ::System::Action* a3)
+		::System::Void _ctor(::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* a1, ::RPG::Client::Prop::ChimeraDuelChimeraModelView* a2, ::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::RPG::Client::Prop::ChimeraDuelChimeraModelView*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DUELCHIMERAPROXY_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*, ::RPG::Client::Prop::ChimeraDuelChimeraModelView*, ::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DUELCHIMERAPROXY_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::RPG::Client::Prop::ChimeraDuelChimeraModelView* a1)

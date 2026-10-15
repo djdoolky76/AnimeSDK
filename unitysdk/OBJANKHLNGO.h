@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -18,7 +18,7 @@ inline static constexpr unsigned int OBJANKHLNGO_TypeDefinitionIndex = 44264;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::System::Object*>*>* LKPPOEGEPIG; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* FNBNFCIKKEA; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, ::System::Type*>, ::System::Object*>* FNBNFCIKKEA; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJANKHLNGO_CTOR_OFFSET))(this);

@@ -3,8 +3,8 @@
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/OJOIPAOONEB_DiffState.h"
 namespace RPG::Client { class ActivityElationAvatarData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
@@ -31,7 +31,7 @@ inline static constexpr unsigned int OJOIPAOONEB_TypeDefinitionIndex = 71370;
 	{
 	public:
 		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x60
-		::System::Action* APCDJBLBEAF; // 0x68
+		::System::Action_1<::System::UInt32>* APCDJBLBEAF; // 0x68
 		::UnityEngine::Animation* JPHOOFFIAAH; // 0x70
 		::UnityEngine::UI::Text* CPCCPIKCBAP; // 0x78
 		::System::UInt32 DFOMMCJLMMO; // 0x80
@@ -53,9 +53,9 @@ inline static constexpr unsigned int OJOIPAOONEB_TypeDefinitionIndex = 71370;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJOIPAOONEB__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void NKPPGDENJAE(::RPG::Client::ActivityElationAvatarData* a1, ::System::UInt32 a2, ::System::Action* a3)
+		::System::Void NKPPGDENJAE(::RPG::Client::ActivityElationAvatarData* a1, ::System::UInt32 a2, ::System::Action_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityElationAvatarData*, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + OJOIPAOONEB_NKPPGDENJAE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityElationAvatarData*, ::System::UInt32, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + OJOIPAOONEB_NKPPGDENJAE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void HGLBOMOJOEA(::System::UInt32 a1)

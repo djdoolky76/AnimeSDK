@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
 #include "unitysdk/PIFGICNAFMF_FailReason.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitUINodeOpen; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Transform; }
 
 #define PIFGICNAFMF_AEOHPNEOCLN_OFFSET UNITYSDK_OFFSET(0xC25FB90)
@@ -33,7 +33,7 @@ inline static constexpr unsigned int PIFGICNAFMF_TypeDefinitionIndex = 58943;
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::UnityEngine::Transform* OPBCKGLLCBO; // 0x28
 		::System::Single GCCJKFJCHCH; // 0x30
-		::System::Nullable* MLHMMDJIAOL; // 0x34
+		::System::Nullable_1<::UnityEngine::Vector3> MLHMMDJIAOL; // 0x34
 		::System::Byte _padding0[0x8];
 		::PIFGICNAFMF_FailReason HBOPBCMODIE; // 0x44
 		::System::Boolean IFPEHIFDMON; // 0x48

@@ -34,6 +34,7 @@ namespace RPG::CustomRP { class ShadowSettings; }
 namespace RPG::CustomRP { class TransparentSetting; }
 namespace RPG::CustomRP { class WaterSettingsData; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC02F40)
 #define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_ENABLEVSM_OFFSET UNITYSDK_OFFSET(0x1CC02D80)
@@ -127,7 +128,7 @@ namespace RPG::CustomRP
 		::System::Single MinPosmLightPitchDegree; // 0xDC
 		::RPG::CustomRP::ShadowSettings* ShadowSettings; // 0xE0
 		::UnityEngine::Rendering::VsmSettings VsmSettings; // 0xE8
-		::System::Action* OnVSMEnableChanged; // 0x148
+		::System::Action_1<::System::Boolean>* OnVSMEnableChanged; // 0x148
 		::System::Boolean EnableCloudShadow; // 0x150
 		::System::Boolean EnablePOSMOverlay; // 0x151
 		::System::Boolean EnablePCSSInUI; // 0x152

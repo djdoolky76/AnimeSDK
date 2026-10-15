@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class Goods; }
 namespace System { class Object; }
@@ -49,9 +49,9 @@ namespace Proto
 		::System::UInt32 itemId_; // 0x28
 		::System::UInt32 goodsId_; // 0x2C
 		::System::Int64 endTime_; // 0x30
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::Goods*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "Goods")->GetStaticField(0x43C90);
+			return (::Google::Protobuf::MessageParser_1<::Proto::Goods*>**)UnitySDK::FromName("Proto", "Goods")->GetStaticField(0x43C90);
 		}
 
 		// static const ::System::Object BuyTimesFieldNumber; // 0x0
@@ -74,9 +74,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GOODS_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::Goods*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::Goods*>*(*)())((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

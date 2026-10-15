@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IAssetOperation; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -38,14 +38,14 @@ inline static constexpr unsigned int FAAIANKBNBE_AKINEMIHIEP_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_AKINEMIHIEP_ABKBOGIGAEH_OFFSET))(this, a1);
 		}
 
-		::System::Void KAOLPGACCID(::System::Action* a1)
+		::System::Void KAOLPGACCID(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_AKINEMIHIEP_KAOLPGACCID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_AKINEMIHIEP_KAOLPGACCID_OFFSET))(this, a1);
 		}
 
-		::System::Void NKDLNMPNOJC(::System::Action* a1)
+		::System::Void NKDLNMPNOJC(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_AKINEMIHIEP_NKDLNMPNOJC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_AKINEMIHIEP_NKDLNMPNOJC_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _AsyncGet_b__8_0(::RPG::Client::IAssetOperation* a1)

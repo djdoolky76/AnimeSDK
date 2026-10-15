@@ -34,6 +34,7 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -252,7 +253,7 @@ namespace RPG::Client
 	{
 	public:
 		::LPBGLLGGGDN* _DialogStack; // 0x10
-		::System::Collections::Generic::List_1<::System::Action*>* _UI3DTicks; // 0x18
+		::System::Collections::Generic::List_1<::System::Action_1<::System::Single>*>* _UI3DTicks; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::UIController*>* _TickList; // 0x20
 		::RPG::Client::LuaUIController* _ScreenTransferDialog; // 0x28
 		::RPG::Client::AboveSwitchDialog* _AboveTransfer; // 0x30
@@ -742,14 +743,14 @@ namespace RPG::Client
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMANAGER_GETSOFAUI3DROOT_OFFSET))(this);
 		}
 
-		::System::Void AddUI3DTick(::System::Action* a1)
+		::System::Void AddUI3DTick(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMANAGER_ADDUI3DTICK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMANAGER_ADDUI3DTICK_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveUI3DTick(::System::Action* a1)
+		::System::Void RemoveUI3DTick(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMANAGER_REMOVEUI3DTICK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMANAGER_REMOVEUI3DTICK_OFFSET))(this, a1);
 		}
 
 		::System::Void _TickUI3D(::System::Single a1)

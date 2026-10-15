@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
 namespace RPG::Client::ActivityIdleLive { class StoryLine; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -45,7 +47,7 @@ inline static constexpr unsigned int NJMFABHNAIG_TypeDefinitionIndex = 75151;
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::IdleLiveNodeType, ::NJKFNPIMGKD*>* OJDGHMDJJDG; // 0x18
 		::RPG::Client::Promises::Promise* MOEMENBDMIJ; // 0x20
 		::RPG::Client::ActivityIdleLive::StoryLine* GIOECPALNAC; // 0x28
-		::RPG::Client::Promises::Promise* JNDMODCLOPP; // 0x30
+		::RPG::Client::Promises::Promise_1<::JLCNOGIJGMH*>* JNDMODCLOPP; // 0x30
 		::RPG::Client::Promises::Promise* PFPPONIIGMJ; // 0x38
 		::System::Boolean IAGIPLEIAEB; // 0x40
 		::System::Byte _padding0[0x3];
@@ -67,14 +69,14 @@ inline static constexpr unsigned int NJMFABHNAIG_TypeDefinitionIndex = 75151;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMFABHNAIG_LJFGHHDODNE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* JJPNOFFPIBO()
+		::RPG::Client::Promises::IPromise_1<::JLCNOGIJGMH*>* JJPNOFFPIBO()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMFABHNAIG_JJPNOFFPIBO_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::JLCNOGIJGMH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMFABHNAIG_JJPNOFFPIBO_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* FEHNPACGLAL()
+		::RPG::Client::Promises::IPromise_1<::JLCNOGIJGMH*>* FEHNPACGLAL()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMFABHNAIG_FEHNPACGLAL_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::JLCNOGIJGMH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMFABHNAIG_FEHNPACGLAL_OFFSET))(this);
 		}
 
 		::System::Void HNIKHFLJAEK()
@@ -82,9 +84,9 @@ inline static constexpr unsigned int NJMFABHNAIG_TypeDefinitionIndex = 75151;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMFABHNAIG_HNIKHFLJAEK_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* BHODBDOBGHG(::JDGNMIDMACL a1)
+		::RPG::Client::Promises::IPromise_1<::JLCNOGIJGMH*>* BHODBDOBGHG(::JDGNMIDMACL a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::JDGNMIDMACL))((::PBYTE)hIl2Cpp + NJMFABHNAIG_BHODBDOBGHG_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::JLCNOGIJGMH*>*(*)(::PVOID, ::JDGNMIDMACL))((::PBYTE)hIl2Cpp + NJMFABHNAIG_BHODBDOBGHG_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* PHMKKLABNGF(::RPG::Client::ActivityIdleLive::StoryLine* a1)

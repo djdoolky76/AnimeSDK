@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
@@ -111,7 +111,7 @@ namespace RPG::Client
 		::System::Int32 PJHJKHCJPGC; // 0xC4
 		::System::Int32 HCIFKIKMBAA; // 0xC8
 		::System::UInt32 NCJAJNLIIIB; // 0xCC
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* CGPBKIPMJPL; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::UnityEngine::Color, ::UnityEngine::Color>>* CGPBKIPMJPL; // 0xD0
 		// static const ::System::Object BBJNBAHIDPK; // 0x0
 		// static const ::System::String* LPLOCNEGJKG; // 0x0
 		// static const ::System::String* LGJNOMEGOHG; // 0x0

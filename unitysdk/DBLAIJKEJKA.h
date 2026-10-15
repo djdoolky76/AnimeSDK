@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
 #include "unitysdk/RPG/GameCore/Match3/StyleGenerateType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BOMFGKDLHIB;
 class FDPALAEIHPB;
 namespace RPG::GameCore::Match3 { class BirdStyleWeightConfig; }
@@ -233,19 +233,19 @@ inline static constexpr unsigned int DBLAIJKEJKA_TypeDefinitionIndex = 42307;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::Match3::RandomChangeFruitToBlackFogAction*))((::PBYTE)hIl2Cpp + DBLAIJKEJKA_CLKNFAHOAEF_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __ApplyRandomChangeBombToMultiStyle_b__31_0(::System::ValueTuple a1)
+		::System::Boolean __ApplyRandomChangeBombToMultiStyle_b__31_0(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + DBLAIJKEJKA___APPLYRANDOMCHANGEBOMBTOMULTISTYLE_B__31_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + DBLAIJKEJKA___APPLYRANDOMCHANGEBOMBTOMULTISTYLE_B__31_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __ApplyRandomChangeFruitToLineBomb_b__32_0(::System::ValueTuple a1)
+		::System::Boolean __ApplyRandomChangeFruitToLineBomb_b__32_0(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + DBLAIJKEJKA___APPLYRANDOMCHANGEFRUITTOLINEBOMB_B__32_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + DBLAIJKEJKA___APPLYRANDOMCHANGEFRUITTOLINEBOMB_B__32_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __ApplyRandomChangeFruitToBlackFog_b__33_0(::System::ValueTuple a1)
+		::System::Boolean __ApplyRandomChangeFruitToBlackFog_b__33_0(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + DBLAIJKEJKA___APPLYRANDOMCHANGEFRUITTOBLACKFOG_B__33_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + DBLAIJKEJKA___APPLYRANDOMCHANGEFRUITTOBLACKFOG_B__33_0_OFFSET))(this, a1);
 		}
 
 	};

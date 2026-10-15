@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class CFGFAHEKNPD;
 class FIBKHDABPHD;
 class GJBMIABGPFP;
@@ -11,7 +12,6 @@ class NKIJFPHFJCO;
 class OFMDPNPMFCE_CIGNMHOJIPG;
 class POKOKCAFLLD;
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
 
@@ -48,9 +48,9 @@ inline static constexpr unsigned int PAHNGJAHJKI_TypeDefinitionIndex = 41829;
 		::KPEKOKMONMJ* _IntegrationAggregator_k__BackingField; // 0x28
 		::POKOKCAFLLD* FDAJMFJLNBN; // 0x30
 		::System::Action* OnAnyEditOperationFinished; // 0x38
-		::System::Void _ctor(::FIBKHDABPHD* a1, ::System::Nullable* a2)
+		::System::Void _ctor(::FIBKHDABPHD* a1, ::System::Nullable_1<::System::Int32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::FIBKHDABPHD*, ::System::Nullable*))((::PBYTE)hIl2Cpp + PAHNGJAHJKI_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::FIBKHDABPHD*, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + PAHNGJAHJKI_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::HEKHCLACHJE* CBOBCNNFMFP()

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class LuaUIController; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9074F0)
 #define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS3_0__SHOWMUSEUMENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xD9077C0)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class MuseumUtils___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::RPG::Client::LuaUIController*>* callback; // 0x10
 		::Il2CppArray<::System::Object*>* args; // 0x18
 		::System::Void _ctor()
 		{

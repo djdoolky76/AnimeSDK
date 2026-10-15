@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class PIOIHOACNIF;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define PIOIHOACNIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC275F90)
 #define PIOIHOACNIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC275FD0)
@@ -20,14 +20,14 @@ inline static constexpr unsigned int PIOIHOACNIF___c_TypeDefinitionIndex = 52836
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8A0);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_1<::PIOIHOACNIF*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8A8);
+			return (::System::Action_1<::PIOIHOACNIF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8A8);
 		}
 
-		static ::System::Action** StaticGet___9__11_0()
+		static ::System::Action_1<::PIOIHOACNIF*>** StaticGet___9__11_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8B0);
+			return (::System::Action_1<::PIOIHOACNIF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8B0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,7 +4,7 @@
 class NFAHODNHEKK;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionBase; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define ONJKKFIPKHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E35E0)
@@ -18,7 +18,7 @@ inline static constexpr unsigned int ONJKKFIPKHF_TypeDefinitionIndex = 37346;
 	class ONJKKFIPKHF : public ::HOCBJOJNLLC
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Tuple*>* MEBHIJOEDHP; // 0x28
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::GameCore::CakeRaceActionBase*, ::System::UInt64>*>* MEBHIJOEDHP; // 0x28
 		::System::UInt64 ACEPCNAKOEH; // 0x30
 		::System::Int32 PPENONBJDFO; // 0x38
 		::System::Void _ctor()

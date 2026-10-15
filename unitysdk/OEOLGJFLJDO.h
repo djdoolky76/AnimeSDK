@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/GameCore/ModifierAddReason.h"
 #include "unitysdk/RPG/GameCore/ModifierStackingFlag.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class MBBEBLGELAP;
 class MNBNFBAMKKI;
 class OEOLGJFLJDO;
 class PGJINBJDAHN;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define OEOLGJFLJDO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE38D20)
@@ -29,15 +29,15 @@ inline static constexpr unsigned int OEOLGJFLJDO_TypeDefinitionIndex = 53790;
 		::System::String* MKFEAAIKJNA; // 0x38
 		::MNBNFBAMKKI* AMLKIGFLNHI; // 0x40
 		::System::Single OCAGLPIKAKC; // 0x48
-		::System::Nullable* DIIGMKEAKCD; // 0x4C
-		::System::Nullable* OEODJDBGBIF; // 0x54
+		::System::Nullable_1<::System::Int32> DIIGMKEAKCD; // 0x4C
+		::System::Nullable_1<::System::Int32> OEODJDBGBIF; // 0x54
 		::System::Boolean LDGDOCAGNEE; // 0x5C
 		::System::Boolean BPEKOACCGHK; // 0x5D
 		::System::Byte _padding0[0x2];
-		::System::Nullable* BNJBNIIDHJN; // 0x60
-		::System::Nullable* MJPNFNMGANM; // 0x68
+		::System::Nullable_1<::System::Int32> BNJBNIIDHJN; // 0x60
+		::System::Nullable_1<::RPG::GameCore::FixPoint> MJPNFNMGANM; // 0x68
 		::System::Byte _padding1[0x8];
-		::System::Nullable* AAIKGIBKHBH; // 0x78
+		::System::Nullable_1<::System::Int32> AAIKGIBKHBH; // 0x78
 		::System::Single LDFKGILGIOA; // 0x80
 		::RPG::GameCore::ModifierAddReason HBGNJPJNLIJ; // 0x84
 		::RPG::MVector3 HNNPEMAPANP; // 0x88
@@ -47,7 +47,7 @@ inline static constexpr unsigned int OEOLGJFLJDO_TypeDefinitionIndex = 53790;
 		::System::Boolean APFPPJAKNBF; // 0x9A
 		::System::Boolean CPFEDPAGDFF; // 0x9B
 		::System::Byte _padding2[0x4];
-		::System::Nullable* HJKAEDGCBAC; // 0xA0
+		::System::Nullable_1<::RPG::GameCore::FixPoint> HJKAEDGCBAC; // 0xA0
 		static ::OEOLGJFLJDO** StaticGet_JNKBIGPJDNK()
 		{
 			return (::OEOLGJFLJDO**)UnitySDK::FromName("", "OEOLGJFLJDO")->GetStaticField(0x64600);

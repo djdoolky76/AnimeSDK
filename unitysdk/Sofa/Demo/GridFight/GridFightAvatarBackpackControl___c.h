@@ -4,11 +4,11 @@
 #include "unitysdk/LFKBKMDMAEM.h"
 #include "unitysdk/System/Object.h"
 class PPAGOKHODLP;
-namespace R3 { class Observable; }
-namespace System { class Action; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class Transform; }
 
@@ -47,9 +47,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Func_2<::LFKBKMDMAEM, ::UnityEngine::Transform*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xC9D0);
 		}
 
-		static ::System::Func_2<::PPAGOKHODLP*, ::R3::Observable*>** StaticGet___9__0_1()
+		static ::System::Func_2<::PPAGOKHODLP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::PPAGOKHODLP*, ::R3::Observable*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xC9D8);
+			return (::System::Func_2<::PPAGOKHODLP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xC9D8);
 		}
 
 		static ::System::Func_2<::LFKBKMDMAEM, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>** StaticGet___9__1_3()
@@ -62,9 +62,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Object**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xC9E8);
 		}
 
-		static ::System::Func_2<::PPAGOKHODLP*, ::R3::Observable*>** StaticGet___9__0_0()
+		static ::System::Func_2<::PPAGOKHODLP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::PPAGOKHODLP*, ::R3::Observable*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xC9F0);
+			return (::System::Func_2<::PPAGOKHODLP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xC9F0);
 		}
 
 		static ::System::Func_2<::FOMFNEIKBAO, ::FOMFNEIKBAO>** StaticGet___9__1_6()
@@ -72,9 +72,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Func_2<::FOMFNEIKBAO, ::FOMFNEIKBAO>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xC9F8);
 		}
 
-		static ::System::Action** StaticGet___9__1_0()
+		static ::System::Action_1<::LFKBKMDMAEM>** StaticGet___9__1_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCA00);
+			return (::System::Action_1<::LFKBKMDMAEM>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCA00);
 		}
 
 		static ::System::Func_2<::LFKBKMDMAEM, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>** StaticGet___9__1_4()
@@ -87,9 +87,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Func_2<::LFKBKMDMAEM, ::System::Object*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCA10);
 		}
 
-		static ::System::Action** StaticGet___9__1_2()
+		static ::System::Action_1<::LFKBKMDMAEM>** StaticGet___9__1_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCA18);
+			return (::System::Action_1<::LFKBKMDMAEM>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCA18);
 		}
 
 		static ::System::Func_2<::LFKBKMDMAEM, ::System::Single>** StaticGet___9__3_4()
@@ -117,9 +117,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Func_2<::FOMFNEIKBAO, ::FOMFNEIKBAO>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCA40);
 		}
 
-		static ::System::Action** StaticGet___9__1_5()
+		static ::System::Action_1<::LFKBKMDMAEM>** StaticGet___9__1_5()
 		{
-			return (::System::Action**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCA48);
+			return (::System::Action_1<::LFKBKMDMAEM>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCA48);
 		}
 
 		static ::System::Func_2<::LFKBKMDMAEM, ::System::String*>** StaticGet___9__1_11()
@@ -157,14 +157,14 @@ namespace Sofa::Demo::GridFight
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable* __Binding_b__0_0(::PPAGOKHODLP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__0_0(::PPAGOKHODLP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::PPAGOKHODLP*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKCONTROL___C___BINDING_B__0_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::PPAGOKHODLP*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKCONTROL___C___BINDING_B__0_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__0_1(::PPAGOKHODLP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__0_1(::PPAGOKHODLP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::PPAGOKHODLP*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKCONTROL___C___BINDING_B__0_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::PPAGOKHODLP*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTAVATARBACKPACKCONTROL___C___BINDING_B__0_1_OFFSET))(this, a1);
 		}
 
 		::System::Void __Populating_b__1_0(::LFKBKMDMAEM a1)

@@ -12,8 +12,8 @@ namespace RPG::Client { class ClockParkSlotInfo; }
 namespace RPG::GameCore { class ClockParkCardActionRow; }
 namespace RPG::GameCore { class ClockParkCardRow; }
 namespace RPG::GameCore { class ClockParkEffectRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -61,9 +61,9 @@ namespace RPG::Client
 		::System::UInt32 _CardValue_k__BackingField; // 0x48
 		::System::UInt32 CardID; // 0x4C
 		::RPG::Client::ClockParkCardRarity Rarity; // 0x50
-		static ::System::Action** StaticGet_OnDiceChangedActionCallback()
+		static ::System::Action_1<::RPG::Client::ClockParkCardItem*>** StaticGet_OnDiceChangedActionCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "ClockParkCardItem")->GetStaticField(0x17200);
+			return (::System::Action_1<::RPG::Client::ClockParkCardItem*>**)UnitySDK::FromName("RPG.Client", "ClockParkCardItem")->GetStaticField(0x17200);
 		}
 
 		static ::RPG::Client::ClockParkEffectResult** StaticGet__EffectHelper()

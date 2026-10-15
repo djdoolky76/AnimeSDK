@@ -11,6 +11,7 @@ class MBDOBECHOJA;
 class PLHAEBMKIFA;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_ADD_CHOOSEPETSYNCRECEIVED_OFFSET UNITYSDK_OFFSET(0xC53B5D0)
 #define RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_ADD_INITINFORECEIVED_OFFSET UNITYSDK_OFFSET(0xC53B690)
@@ -59,10 +60,10 @@ namespace RPG::Client::ActivityMarble
 		::System::Func_2<::MBDOBECHOJA*, ::System::Boolean>* SnapShotReceived; // 0x38
 		::System::Action* SessionExited; // 0x40
 		::DOIPOJANKGI* _PendingChoosePetSync; // 0x48
-		::System::Action* ChoosePetSyncReceived; // 0x50
+		::System::Action_1<::DOIPOJANKGI*>* ChoosePetSyncReceived; // 0x50
 		::MBDOBECHOJA* _PendingSnapShot; // 0x58
 		::GFHCKBHCNDF* _PendingInitInfo; // 0x60
-		::System::Action* InitInfoReceived; // 0x68
+		::System::Action_1<::GFHCKBHCNDF*>* InitInfoReceived; // 0x68
 		::PLHAEBMKIFA* _ClientApi; // 0x70
 		::System::Int32 _ClientFlowVersion; // 0x78
 		::RPG::GameCore::PetMarbleLevelMode _BattleLevelMode; // 0x7C
@@ -133,24 +134,24 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_REMOVE_SESSIONEXITED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_ChoosePetSyncReceived(::System::Action* a1)
+		::System::Void add_ChoosePetSyncReceived(::System::Action_1<::DOIPOJANKGI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_ADD_CHOOSEPETSYNCRECEIVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DOIPOJANKGI*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_ADD_CHOOSEPETSYNCRECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ChoosePetSyncReceived(::System::Action* a1)
+		::System::Void remove_ChoosePetSyncReceived(::System::Action_1<::DOIPOJANKGI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_REMOVE_CHOOSEPETSYNCRECEIVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DOIPOJANKGI*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_REMOVE_CHOOSEPETSYNCRECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_InitInfoReceived(::System::Action* a1)
+		::System::Void add_InitInfoReceived(::System::Action_1<::GFHCKBHCNDF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_ADD_INITINFORECEIVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GFHCKBHCNDF*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_ADD_INITINFORECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_InitInfoReceived(::System::Action* a1)
+		::System::Void remove_InitInfoReceived(::System::Action_1<::GFHCKBHCNDF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_REMOVE_INITINFORECEIVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GFHCKBHCNDF*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER_REMOVE_INITINFORECEIVED_OFFSET))(this, a1);
 		}
 
 		::System::Void add_SnapShotReceived(::System::Func_2<::MBDOBECHOJA*, ::System::Boolean>* a1)

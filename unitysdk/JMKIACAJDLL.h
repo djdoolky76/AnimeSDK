@@ -3,7 +3,8 @@
 #include "unitysdk/System/Object.h"
 class IFEABBJBIGK;
 class JMKIACAJDLL;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define JMKIACAJDLL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB269BB0)
 #define JMKIACAJDLL_CLEAR_OFFSET UNITYSDK_OFFSET(0xB269F20)
@@ -17,7 +18,7 @@ inline static constexpr unsigned int JMKIACAJDLL_TypeDefinitionIndex = 71113;
 	class JMKIACAJDLL : public ::System::Object
 	{
 	public:
-		::System::Action* BEKGCBCIODA; // 0x10
+		::System::Action_1<::System::Boolean>* BEKGCBCIODA; // 0x10
 		::IFEABBJBIGK* CJNMHGAHGGH; // 0x18
 		::System::Void _ctor()
 		{
@@ -29,9 +30,9 @@ inline static constexpr unsigned int JMKIACAJDLL_TypeDefinitionIndex = 71113;
 			return ((::JMKIACAJDLL*(*)(::IFEABBJBIGK*))((::PBYTE)hIl2Cpp + JMKIACAJDLL_BPLPBPMEODA_OFFSET))(a1);
 		}
 
-		::System::Void HKKFFCBJOKM(::System::Action* a1)
+		::System::Void HKKFFCBJOKM(::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JMKIACAJDLL_HKKFFCBJOKM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + JMKIACAJDLL_HKKFFCBJOKM_OFFSET))(this, a1);
 		}
 
 		::System::Void KAOLPGACCID()

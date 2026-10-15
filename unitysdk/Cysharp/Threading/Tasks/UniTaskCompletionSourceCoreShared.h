@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCECORESHARED_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F14DC50)
 #define CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCECORESHARED_COMPLETIONSENTINEL_OFFSET UNITYSDK_OFFSET(0x1F14DC00)
@@ -14,9 +14,9 @@ namespace Cysharp::Threading::Tasks
 	class UniTaskCompletionSourceCoreShared : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_s_sentinel()
+		static ::System::Action_1<::System::Object*>** StaticGet_s_sentinel()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskCompletionSourceCoreShared")->GetStaticField(0x41E20);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskCompletionSourceCoreShared")->GetStaticField(0x41E20);
 		}
 
 		static ::System::Void _cctor()

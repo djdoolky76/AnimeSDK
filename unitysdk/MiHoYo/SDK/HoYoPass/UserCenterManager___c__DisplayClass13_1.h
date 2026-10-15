@@ -3,9 +3,9 @@
 #include "unitysdk/MiHoYo/SDK/HoYoPass/HoYoPassSDK_ErrorCode.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class Web; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7A3D0)
 #define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_1__OPEN_B__1_OFFSET UNITYSDK_OFFSET(0x1BE7A450)
@@ -20,7 +20,7 @@ namespace MiHoYo::SDK::HoYoPass
 	{
 	public:
 		::System::String* cookieToken; // 0x10
-		::System::Action* __9__2; // 0x18
+		::System::Action_1<::MiHoYo::SDK::Web*>* __9__2; // 0x18
 		::System::Object* CS___8__locals1; // 0x20
 		::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ret; // 0x28
 		::System::Void _ctor()

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class JLHEBEDKIPC;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_RELICPRESETMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE7F910)
 #define RPG_CLIENT_RELICPRESETMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE7F950)
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59700);
 		}
 
-		static ::System::Action** StaticGet___9__10_0()
+		static ::System::Action_1<::JLHEBEDKIPC*>** StaticGet___9__10_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59708);
+			return (::System::Action_1<::JLHEBEDKIPC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59708);
 		}
 
 		static ::System::Void _cctor()

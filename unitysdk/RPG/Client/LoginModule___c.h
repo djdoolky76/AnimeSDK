@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_LOGINMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD4A8180)
 #define RPG_CLIENT_LOGINMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD4A81C0)
@@ -15,9 +15,9 @@ namespace RPG::Client
 	class LoginModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__15_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3A540);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3A540);
 		}
 
 		static ::System::Object** StaticGet___9()

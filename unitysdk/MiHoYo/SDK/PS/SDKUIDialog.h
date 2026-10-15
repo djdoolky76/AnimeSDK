@@ -4,6 +4,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Slider; }
@@ -37,7 +38,7 @@ namespace MiHoYo::SDK::PS
 		::System::Byte _padding0[0x7];
 		::System::Action* OnCancel; // 0x20
 		::System::Action* OnFire; // 0x28
-		::System::Action* OnHighlightedChanged; // 0x30
+		::System::Action_1<::UnityEngine::GameObject*>* OnHighlightedChanged; // 0x30
 		::UnityEngine::GameObject* highlightedObject; // 0x38
 		::UnityEngine::UI::InputField* focusedInputField; // 0x40
 		::UnityEngine::UI::Slider* focusedSlider; // 0x48

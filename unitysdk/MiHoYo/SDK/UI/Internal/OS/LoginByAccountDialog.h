@@ -4,6 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C00B870)
@@ -42,10 +44,10 @@ namespace MiHoYo::SDK::UI::Internal::OS
 	class LoginByAccountDialog : public ::System::Object
 	{
 	public:
-		::System::Action* _OnLoginBtnClicked_k__BackingField; // 0x10
+		::System::Action_2<::System::String*, ::System::String*>* _OnLoginBtnClicked_k__BackingField; // 0x10
 		::System::Action* _OnTwitterLoginBtnClicked_k__BackingField; // 0x18
 		::System::Action* _OnBackBtnClicked_k__BackingField; // 0x20
-		::System::Action* _OnForgotPasswordBtnClicked_k__BackingField; // 0x28
+		::System::Action_1<::System::String*>* _OnForgotPasswordBtnClicked_k__BackingField; // 0x28
 		::System::Action* _OnGuestLoginBtnClicked_k__BackingField; // 0x30
 		::System::Action* _OnGoogleLoginBtnClicked_k__BackingField; // 0x38
 		::System::Action* _OnRegisterBtnClicked_k__BackingField; // 0x40
@@ -57,14 +59,14 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnLoginBtnClicked()
+		::System::Action_2<::System::String*, ::System::String*>* get_OnLoginBtnClicked()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONLOGINBTNCLICKED_OFFSET))(this);
+			return ((::System::Action_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONLOGINBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnLoginBtnClicked(::System::Action* a1)
+		::System::Void set_OnLoginBtnClicked(::System::Action_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONLOGINBTNCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONLOGINBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnRegisterBtnClicked()
@@ -77,14 +79,14 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONREGISTERBTNCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnForgotPasswordBtnClicked()
+		::System::Action_1<::System::String*>* get_OnForgotPasswordBtnClicked()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONFORGOTPASSWORDBTNCLICKED_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_GET_ONFORGOTPASSWORDBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnForgotPasswordBtnClicked(::System::Action* a1)
+		::System::Void set_OnForgotPasswordBtnClicked(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFORGOTPASSWORDBTNCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNTDIALOG_SET_ONFORGOTPASSWORDBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnAppleLoginBtnClicked()

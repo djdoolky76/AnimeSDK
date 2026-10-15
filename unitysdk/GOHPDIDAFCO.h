@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class CakeRaceWaitDragPropByCatRank; }
 namespace RPG::GameCore { class TaskContext; }
 
@@ -45,9 +45,9 @@ inline static constexpr unsigned int GOHPDIDAFCO_TypeDefinitionIndex = 52625;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GOHPDIDAFCO_TICK_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple MDFPDKPIEEK(::System::Int32 a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> MDFPDKPIEEK(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + GOHPDIDAFCO_MDFPDKPIEEK_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + GOHPDIDAFCO_MDFPDKPIEEK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnTaskBegin_b__4_0()

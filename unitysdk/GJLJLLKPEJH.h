@@ -5,9 +5,9 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class Object; }
@@ -44,8 +44,8 @@ inline static constexpr unsigned int GJLJLLKPEJH_TypeDefinitionIndex = 77155;
 	public:
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
 		::RPG::PoolDictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x18
-		::Entitas::ICollector* JOPKGDIAGPP; // 0x20
-		::Entitas::IGroup* BANPMJMECAI; // 0x28
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* JOPKGDIAGPP; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* BANPMJMECAI; // 0x28
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x30
 		// static const ::System::String* CCICHKBCHLC; // 0x0
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
@@ -118,9 +118,9 @@ inline static constexpr unsigned int GJLJLLKPEJH_TypeDefinitionIndex = 77155;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + GJLJLLKPEJH_MHPLGOAHLPJ_OFFSET))(this, a1);
 		}
 
-		::System::Void DNOOEMIHJIG(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void DNOOEMIHJIG(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GJLJLLKPEJH_DNOOEMIHJIG_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GJLJLLKPEJH_DNOOEMIHJIG_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* AFBFBENLMFB(::HIOEAKHGILF* a1, ::RPG::GameCore::LittleGameDynamicVar* a2)

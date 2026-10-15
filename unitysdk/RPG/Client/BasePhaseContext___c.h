@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class KDLEIHJGDAP;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_BASEPHASECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7F0DA0)
 #define RPG_CLIENT_BASEPHASECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F0DD0)
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57870);
 		}
 
-		static ::System::Action** StaticGet___9__2_0()
+		static ::System::Action_1<::KDLEIHJGDAP*>** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57878);
+			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57878);
 		}
 
-		static ::System::Action** StaticGet___9__10_0()
+		static ::System::Action_1<::KDLEIHJGDAP*>** StaticGet___9__10_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57880);
+			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57880);
 		}
 
 		static ::System::Void _cctor()

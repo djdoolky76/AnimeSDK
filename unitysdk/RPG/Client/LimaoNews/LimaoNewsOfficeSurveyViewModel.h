@@ -8,7 +8,7 @@ namespace RPG::Client::LimaoNews { class LimaoNewsLocationData; }
 namespace RPG::Client::LimaoNews { class LimaoNewsModule; }
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyItem; }
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyTypeData; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3CBE30)
@@ -80,9 +80,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsLocationData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERLOCATIONDATAS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::Tuple*>* GetFilterStates()
+		::System::Collections::Generic::List_1<::System::Tuple_2<::NMCBKMBDILL, ::RPG::Client::TextID>*>* GetFilterStates()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERSTATES_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Tuple_2<::NMCBKMBDILL, ::RPG::Client::TextID>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERSTATES_OFFSET))(this);
 		}
 
 		::System::Void FixCompleteOfficeSurveyList()

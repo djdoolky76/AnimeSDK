@@ -2,12 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class SemaphoreSlim_TaskNode; }
 namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_THREADING_SEMAPHORESLIM_CANCELLATIONTOKENCANCELEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1C14C230)
 #define SYSTEM_THREADING_SEMAPHORESLIM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C14C320)
@@ -45,14 +46,14 @@ namespace System::Threading
 		::System::Int32 m_currentCount; // 0x30
 		::System::Int32 m_waitCount; // 0x34
 		::System::Int32 m_maxCount; // 0x38
-		static ::System::Threading::Tasks::Task** StaticGet_s_trueTask()
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_s_trueTask()
 		{
-			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Threading", "SemaphoreSlim")->GetStaticField(0x1FD90);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Threading", "SemaphoreSlim")->GetStaticField(0x1FD90);
 		}
 
-		static ::System::Action** StaticGet_s_cancellationTokenCanceledEventHandler()
+		static ::System::Action_1<::System::Object*>** StaticGet_s_cancellationTokenCanceledEventHandler()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Threading", "SemaphoreSlim")->GetStaticField(0x1FD98);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading", "SemaphoreSlim")->GetStaticField(0x1FD98);
 		}
 
 		::System::Void _ctor(::System::Int32 a1)
@@ -100,9 +101,9 @@ namespace System::Threading
 			return ((::System::Threading::Tasks::Task*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_SEMAPHORESLIM_WAITASYNC_OFFSET))(this);
 		}
 
-		::System::Threading::Tasks::Task* WaitAsync_1(::System::Int32 a1, ::System::Threading::CancellationToken a2)
+		::System::Threading::Tasks::Task_1<::System::Boolean>* WaitAsync_1(::System::Int32 a1, ::System::Threading::CancellationToken a2)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_SEMAPHORESLIM_WAITASYNC_1_OFFSET))(this, a1, a2);
+			return ((::System::Threading::Tasks::Task_1<::System::Boolean>*(*)(::PVOID, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_SEMAPHORESLIM_WAITASYNC_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Threading::SemaphoreSlim_TaskNode* CreateAndAddAsyncWaiter()
@@ -115,9 +116,9 @@ namespace System::Threading
 			return ((::System::Boolean(*)(::PVOID, ::System::Threading::SemaphoreSlim_TaskNode*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_SEMAPHORESLIM_REMOVEASYNCWAITER_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task* WaitUntilCountOrTimeoutAsync(::System::Threading::SemaphoreSlim_TaskNode* a1, ::System::Int32 a2, ::System::Threading::CancellationToken a3)
+		::System::Threading::Tasks::Task_1<::System::Boolean>* WaitUntilCountOrTimeoutAsync(::System::Threading::SemaphoreSlim_TaskNode* a1, ::System::Int32 a2, ::System::Threading::CancellationToken a3)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Threading::SemaphoreSlim_TaskNode*, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_SEMAPHORESLIM_WAITUNTILCOUNTORTIMEOUTASYNC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task_1<::System::Boolean>*(*)(::PVOID, ::System::Threading::SemaphoreSlim_TaskNode*, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_SEMAPHORESLIM_WAITUNTILCOUNTORTIMEOUTASYNC_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 Release()

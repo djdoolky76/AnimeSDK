@@ -6,7 +6,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class HGPOFIGCPAM;
 class IONFMLHCJFJ;
 namespace RPG::Client { class AssemNPCRandomCombinationCollection; }
@@ -120,9 +120,9 @@ inline static constexpr unsigned int FLIGGMCNCHM_TypeDefinitionIndex = 69136;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FLIGGMCNCHM_IBNOJCBGJGD_OFFSET))(this, a1);
 		}
 
-		static ::System::ValueTuple FMIBDPLKCAJ(::System::String* a1, ::RPG::Client::AssemNPCRandomCombinationCollection* a2, ::RPG::GameCore::AdventureCharacterConfig* a3)
+		static ::System::ValueTuple_2<::Il2CppArray<::System::String*>*, ::RPG::GameCore::CharacterAtlasFaceSet*> FMIBDPLKCAJ(::System::String* a1, ::RPG::Client::AssemNPCRandomCombinationCollection* a2, ::RPG::GameCore::AdventureCharacterConfig* a3)
 		{
-			return ((::System::ValueTuple(*)(::System::String*, ::RPG::Client::AssemNPCRandomCombinationCollection*, ::RPG::GameCore::AdventureCharacterConfig*))((::PBYTE)hIl2Cpp + FLIGGMCNCHM_FMIBDPLKCAJ_OFFSET))(a1, a2, a3);
+			return ((::System::ValueTuple_2<::Il2CppArray<::System::String*>*, ::RPG::GameCore::CharacterAtlasFaceSet*>(*)(::System::String*, ::RPG::Client::AssemNPCRandomCombinationCollection*, ::RPG::GameCore::AdventureCharacterConfig*))((::PBYTE)hIl2Cpp + FLIGGMCNCHM_FMIBDPLKCAJ_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::String* NAMPKPKNMHG(::Il2CppArray<::System::String*>* a1)

@@ -4,8 +4,8 @@
 #include "unitysdk/System/Xml/ConformanceLevel.h"
 #include "unitysdk/System/Xml/DtdProcessing.h"
 #include "unitysdk/System/Xml/ValidationType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml { class XmlResolver; }
@@ -61,9 +61,9 @@ namespace System::Xml
 		::System::Boolean ignorePIs; // 0x4F
 		::System::Int32 linePositionOffset; // 0x50
 		::System::Xml::ConformanceLevel conformanceLevel; // 0x54
-		static ::System::Nullable** StaticGet_s_enableLegacyXmlSettings()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet_s_enableLegacyXmlSettings()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("System.Xml", "XmlReaderSettings")->GetStaticField(0xA370);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("System.Xml", "XmlReaderSettings")->GetStaticField(0xA370);
 		}
 
 		::System::Void _ctor()

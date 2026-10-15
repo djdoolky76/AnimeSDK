@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class EraFlipperManager; }
 namespace RPG::GameCore { class GameEntity; }
@@ -90,9 +91,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState(*)(::RPG::GameCore::EraStateType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_CURRENTERASTATETOTSCSTATE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::ValueTuple>* RuntimePartialDevicePointAtMappingProps(::System::UInt32 a1, ::System::UInt32 a2)
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* RuntimePartialDevicePointAtMappingProps(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_RUNTIMEPARTIALDEVICEPOINTATMAPPINGPROPS_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_RUNTIMEPARTIALDEVICEPOINTATMAPPINGPROPS_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void FillPartialDevicePointAtInfo(::System::UInt32 a1, ::System::UInt32 a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
@@ -110,9 +111,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_HASFOLLOWPLAYERDEVICE_OFFSET))();
 		}
 
-		static ::System::ValueTuple FillFollowingPlayerLightConeInfo()
+		static ::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single> FillFollowingPlayerLightConeInfo()
 		{
-			return ((::System::ValueTuple(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_FILLFOLLOWINGPLAYERLIGHTCONEINFO_OFFSET))();
+			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_FILLFOLLOWINGPLAYERLIGHTCONEINFO_OFFSET))();
 		}
 
 		static ::System::Boolean IsPartialDeviceActive(::System::UInt32 a1, ::System::UInt32 a2)

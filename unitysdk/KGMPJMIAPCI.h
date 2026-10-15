@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/IGKFNIEJGLM.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
@@ -42,7 +42,7 @@ inline static constexpr unsigned int KGMPJMIAPCI_TypeDefinitionIndex = 71612;
 		::UnityEngine::Transform* NNAKHMJLJPH; // 0xA0
 		::UnityEngine::Animation* KCOAILOHDND; // 0xA8
 		::UnityEngine::Transform* FHJAAANBBAB; // 0xB0
-		::System::Nullable* _ImageColor_k__BackingField; // 0xB8
+		::System::Nullable_1<::UnityEngine::Color> _ImageColor_k__BackingField; // 0xB8
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KGMPJMIAPCI_CTOR_OFFSET))(this);
@@ -103,14 +103,14 @@ inline static constexpr unsigned int KGMPJMIAPCI_TypeDefinitionIndex = 71612;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + KGMPJMIAPCI_FPHFPOHDAPB_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* get_ImageColor()
+		::System::Nullable_1<::UnityEngine::Color> get_ImageColor()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KGMPJMIAPCI_GET_IMAGECOLOR_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Color>(*)(::PVOID))((::PBYTE)hIl2Cpp + KGMPJMIAPCI_GET_IMAGECOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_ImageColor(::System::Nullable* a1)
+		::System::Void set_ImageColor(::System::Nullable_1<::UnityEngine::Color> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + KGMPJMIAPCI_SET_IMAGECOLOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Color>))((::PBYTE)hIl2Cpp + KGMPJMIAPCI_SET_IMAGECOLOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PrefabPath()

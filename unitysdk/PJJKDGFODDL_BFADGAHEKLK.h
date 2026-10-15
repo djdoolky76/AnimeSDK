@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 class IFEEMEAJMEJ;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define PJJKDGFODDL_BFADGAHEKLK_CTOR_OFFSET UNITYSDK_OFFSET(0xC290120)
@@ -15,7 +15,7 @@ inline static constexpr unsigned int PJJKDGFODDL_BFADGAHEKLK_TypeDefinitionIndex
 	class PJJKDGFODDL_BFADGAHEKLK : public ::System::Object
 	{
 	public:
-		::System::Action* LDEDOFNOIPK; // 0x10
+		::System::Action_1<::RPG::GameCore::GameEntity*>* LDEDOFNOIPK; // 0x10
 		::IFEEMEAJMEJ* DCFKJCMODKJ; // 0x18
 		::System::Collections::Generic::List_1<::System::Object*>* JJJNPLOLJGE; // 0x20
 		::RPG::GameCore::GameEntity* OFHDAHHPNPJ; // 0x28

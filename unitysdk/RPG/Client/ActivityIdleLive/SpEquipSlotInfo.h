@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class IGHJBLHCOOI;
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
@@ -138,9 +138,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO__CANTAKEOFFEQUIP_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* TryGetSpEquipStatusIfTakeOffEquip(::RPG::Client::ActivityIdleLive::SpecialEquip* a1)
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* TryGetSpEquipStatusIfTakeOffEquip(::RPG::Client::ActivityIdleLive::SpecialEquip* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO_TRYGETSPEQUIPSTATUSIFTAKEOFFEQUIP_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO_TRYGETSPEQUIPSTATUSIFTAKEOFFEQUIP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _CanWearNewEquip(::RPG::Client::ActivityIdleLive::SpecialEquip* a1)
@@ -148,9 +148,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO__CANWEARNEWEQUIP_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* TryGetSpEquipStatusIfWearEquip(::RPG::Client::ActivityIdleLive::SpecialEquip* a1)
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* TryGetSpEquipStatusIfWearEquip(::RPG::Client::ActivityIdleLive::SpecialEquip* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO_TRYGETSPEQUIPSTATUSIFWEAREQUIP_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpecialEquip*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO_TRYGETSPEQUIPSTATUSIFWEAREQUIP_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 TryGetEmptySlotId()

@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DEEOAMEMOFD_OnlyUseCameraPosToTickLodReason.h"
 #include "unitysdk/JLEFPBCCAGJ.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -14,7 +15,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropConfig; }
 namespace RPG::GameCore { class TickLodConfig; }
 namespace RPG::GameCore { class TickLodDetail; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -59,7 +59,7 @@ inline static constexpr unsigned int DEEOAMEMOFD_TypeDefinitionIndex = 57789;
 		::BKOIMIBEGIE* HKPLKLDIFCM; // 0x38
 		::RPG::GameCore::TickLodConfig* KNFFAILGFIF; // 0x40
 		::JLEFPBCCAGJ LHANPGLMHMD; // 0x48
-		::System::Nullable* CDBGDBNJOPF; // 0x58
+		::System::Nullable_1<::Unity::Jobs::JobHandle> CDBGDBNJOPF; // 0x58
 		::System::Byte _padding0[0x10];
 		::System::Boolean DKDLKJHNHNC; // 0x70
 		::System::Boolean CPKCLCNMGHP; // 0x71

@@ -4,6 +4,7 @@
 class AAKFAEEILGA;
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define AEGMKCGMPKA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB150C70)
 #define AEGMKCGMPKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB150CB0)
@@ -25,9 +26,9 @@ inline static constexpr unsigned int AEGMKCGMPKA___c_TypeDefinitionIndex = 63938
 			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C4C8);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_1<::AAKFAEEILGA*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C4D0);
+			return (::System::Action_1<::AAKFAEEILGA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C4D0);
 		}
 
 		static ::System::Void _cctor()

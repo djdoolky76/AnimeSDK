@@ -17,6 +17,7 @@ namespace RPG::GameCore { class TransformComponent; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
@@ -135,7 +136,7 @@ namespace RPG::GameCore
 		::LDKGOJKHAGK* _SmoothFollowAgent; // 0x78
 		::GDBHCNLLPAG _PausedAttachPointEntry; // 0x80
 		::System::Action* OnPositionChange; // 0xB0
-		::System::Action* OnScaleChanged; // 0xB8
+		::System::Action_1<::RPG::MVector3>* OnScaleChanged; // 0xB8
 		::UnityEngine::Transform* _SelfAttachPoint; // 0xC0
 		::System::Boolean _IndenpendentTransformMode; // 0xC8
 		::System::Boolean _LockRotation; // 0xC9

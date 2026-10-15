@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
 #include "unitysdk/RPG/Client/QingQueEnergyBarIconType.h"
+#include "unitysdk/System/Nullable_1.h"
 class KJEDLCJFCOJ;
 namespace RPG::Client { class Effect_MahJongAutoLayout; }
 namespace RPG::Client { class MonoEffectPluginMahJongItem; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Animator; }
@@ -34,7 +34,7 @@ namespace RPG::Client
 		::System::Byte _padding1[0x4];
 		::RPG::Client::Effect_MahJongAutoLayout* OwnerLayoutRef; // 0x40
 		::System::Int32 MahjongTypeCount; // 0x48
-		::System::Nullable* IsForceHide; // 0x4C
+		::System::Nullable_1<::System::Boolean> IsForceHide; // 0x4C
 		::System::Boolean IsZoombie; // 0x4E
 		::System::Byte _padding2[0x1];
 		::System::Int32 FollowLayoutIndex; // 0x50

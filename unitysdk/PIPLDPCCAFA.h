@@ -7,9 +7,9 @@ class FMPCODLIOLG;
 class HGCPKGBMMPH;
 class HLFEDPHBLBE;
 namespace RPG::GameCore { class LevelUIComponent; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define PIPLDPCCAFA_AMMHPHJEMLL_OFFSET UNITYSDK_OFFSET(0xC276A00)
@@ -30,7 +30,7 @@ inline static constexpr unsigned int PIPLDPCCAFA_TypeDefinitionIndex = 71708;
 	public:
 		::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0x60
 		::HGCPKGBMMPH* GOGLDOBLLAI; // 0x68
-		::System::Action* BJENMMLEOEC; // 0x70
+		::System::Action_1<::FMPCODLIOLG*>* BJENMMLEOEC; // 0x70
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleItemProgressPrefabType, ::System::String*>* LGCHDBFCJLN; // 0x78
 		::System::Void _ctor()
 		{
@@ -47,9 +47,9 @@ inline static constexpr unsigned int PIPLDPCCAFA_TypeDefinitionIndex = 71708;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPLDPCCAFA_EKGCGIDIFJJ_OFFSET))(this);
 		}
 
-		::System::Void PLLAAIFHBLG(::System::Action* a1)
+		::System::Void PLLAAIFHBLG(::System::Action_1<::FMPCODLIOLG*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PIPLDPCCAFA_PLLAAIFHBLG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FMPCODLIOLG*>*))((::PBYTE)hIl2Cpp + PIPLDPCCAFA_PLLAAIFHBLG_OFFSET))(this, a1);
 		}
 
 		::System::Void LODEJBKIFLJ(::FJHCAKDCLEF* a1)

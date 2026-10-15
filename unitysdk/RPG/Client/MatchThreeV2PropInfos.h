@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class IMatchThreePropData; }
 namespace RPG::Client { class MatchThreeV2PropInfos; }
 namespace RPG::Client { class MatchThreeV2ReputationInfos; }
@@ -32,7 +32,7 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _MaxLevelOfProp; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* _AllPropIDs_k__BackingField; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::IMatchThreePropData*>* _AllPropDatas; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::IMatchThreePropData*>* _AllPropDatas; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _MaxPropLevelOfReputation; // 0x28
 		::System::Void _ctor()
 		{

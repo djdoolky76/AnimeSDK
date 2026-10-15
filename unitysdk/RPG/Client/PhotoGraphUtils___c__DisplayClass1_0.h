@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace UnityEngine { class Texture; }
 
 #define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB22F20)
@@ -14,7 +14,7 @@ namespace RPG::Client
 	class PhotoGraphUtils___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>* promise; // 0x10
 		::UnityEngine::Texture* texture; // 0x18
 		::System::Void _ctor()
 		{

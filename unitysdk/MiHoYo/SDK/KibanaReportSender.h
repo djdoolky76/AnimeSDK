@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class KibanaReportSender; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -82,14 +83,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_ENCODEREPORTANDSEND_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PostRequest(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void PostRequest(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_POSTREQUEST_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_POSTREQUEST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::IEnumerator* PerformPostTask(::System::String* a1, ::System::String* a2, ::System::Action* a3, ::System::Action* a4, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a5, ::System::Single a6)
+		::System::Collections::IEnumerator* PerformPostTask(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3, ::System::Action* a4, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a5, ::System::Single a6)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_PERFORMPOSTTASK_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORTSENDER_PERFORMPOSTTASK_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void _EncodeReportAndSend_b__17_0(::MiHoYo::SDK::NetworkResponseModel* a1)

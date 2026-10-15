@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkObstructionOcclusion.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class AkAudioListener;
 class AkRoomPortal;
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define AKROOMPORTALOBSTRUCTION_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F5BF450)
 #define AKROOMPORTALOBSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BF870)
@@ -32,9 +32,9 @@ inline static constexpr unsigned int AkRoomPortalObstruction_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOMPORTALOBSTRUCTION_UPDATECURRENTLISTENERLIST_OFFSET))(this);
 		}
 
-		::System::Void SetObstructionOcclusion(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Void SetObstructionOcclusion(::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + AKROOMPORTALOBSTRUCTION_SETOBSTRUCTIONOCCLUSION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::System::Object*>))((::PBYTE)hIl2Cpp + AKROOMPORTALOBSTRUCTION_SETOBSTRUCTIONOCCLUSION_OFFSET))(this, a1);
 		}
 
 	};

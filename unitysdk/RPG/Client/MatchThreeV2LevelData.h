@@ -9,7 +9,7 @@ namespace RPG::Client { class MatchThreeV2ChallengerData; }
 namespace RPG::Client { class MatchThreeV2LevelData; }
 namespace RPG::Client { class MatchThreeV2SpecialRuleData; }
 namespace RPG::GameCore { class MatchThreeV2LevelRow; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -173,9 +173,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MatchThreeOpponentData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2LEVELDATA_GET_OPPONENTDATA_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::Tuple*>* get_TalkList()
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::TextID, ::RPG::Client::TextID>*>* get_TalkList()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2LEVELDATA_GET_TALKLIST_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::TextID, ::RPG::Client::TextID>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2LEVELDATA_GET_TALKLIST_OFFSET))(this);
 		}
 
 		static ::RPG::Client::MatchThreeV2LevelData* Create(::System::UInt32 a1)

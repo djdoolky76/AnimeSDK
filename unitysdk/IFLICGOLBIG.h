@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/GameCore/DiceCombatDiceType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class ANIOGPJFCKF;
 class FDPCDGOJKNK;
@@ -178,9 +178,9 @@ inline static constexpr unsigned int IFLICGOLBIG_TypeDefinitionIndex = 60315;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFLICGOLBIG_MILOKMAEDOD_OFFSET))(this);
 		}
 
-		::System::ValueTuple GOFNOEHHHPD()
+		::System::ValueTuple_3<::System::Int32, ::FDPCDGOJKNK*, ::System::UInt32> GOFNOEHHHPD()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + IFLICGOLBIG_GOFNOEHHHPD_OFFSET))(this);
+			return ((::System::ValueTuple_3<::System::Int32, ::FDPCDGOJKNK*, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFLICGOLBIG_GOFNOEHHHPD_OFFSET))(this);
 		}
 
 		::System::UInt32 ANACKKHJOLE(::System::Int32 a1)

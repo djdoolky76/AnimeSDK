@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NewsTickerItem; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_NEWSTICKER___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D3770)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class NewsTicker___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onSetupItem; // 0x10
+		::System::Action_3<::XLua::LuaTable*, ::RPG::Client::NewsTickerItem*, ::System::UInt32>* onSetupItem; // 0x10
 		::XLua::LuaTable* luaSelf; // 0x18
 		::System::Void _ctor()
 		{

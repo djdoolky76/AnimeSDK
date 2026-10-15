@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriMonoBehaviour.h"
 namespace CriWare { class CriAtomServer; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define CRIWARE_CRIATOMSERVER_AWAKE_OFFSET UNITYSDK_OFFSET(0x16708E20)
 #define CRIWARE_CRIATOMSERVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x16709380)
@@ -25,8 +25,8 @@ namespace CriWare
 	class CriAtomServer : public ::CriWare::CriMonoBehaviour
 	{
 	public:
-		::System::Action* onApplicationPausePreProcess; // 0x28
-		::System::Action* onApplicationPausePostProcess; // 0x30
+		::System::Action_1<::System::Boolean>* onApplicationPausePreProcess; // 0x28
+		::System::Action_1<::System::Boolean>* onApplicationPausePostProcess; // 0x30
 		static ::CriWare::CriAtomServer** StaticGet__instance()
 		{
 			return (::CriWare::CriAtomServer**)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x56F30);

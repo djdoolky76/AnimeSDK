@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/InsertActionType.h"
 #include "unitysdk/RPG/GameCore/TurnState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EAHCLJPMCIG;
 class EKFMIDBJDIA;
 class EOKOEJKEFMN;
@@ -178,9 +178,9 @@ inline static constexpr unsigned int BJMHJJIELLH_TypeDefinitionIndex = 80830;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BJMHJJIELLH_KJNKCEILOAI_OFFSET))(this);
 		}
 
-		::System::ValueTuple PODPCBFDNNI()
+		::System::ValueTuple_2<::RPG::GameCore::TurnState, ::RPG::GameCore::InsertActionType> PODPCBFDNNI()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + BJMHJJIELLH_PODPCBFDNNI_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::GameCore::TurnState, ::RPG::GameCore::InsertActionType>(*)(::PVOID))((::PBYTE)hIl2Cpp + BJMHJJIELLH_PODPCBFDNNI_OFFSET))(this);
 		}
 
 		::System::Void OENOGHJCOBM(::System::Object* a1)

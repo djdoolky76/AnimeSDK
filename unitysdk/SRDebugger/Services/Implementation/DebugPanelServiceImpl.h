@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/Services/MihoyoOptionControlType.h"
 #include "unitysdk/SRDebugger/DefaultTabs.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/CursorLockMode.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace SRDebugger::Services { class IDebugPanelService; }
 namespace SRDebugger::UI { class DebugPanelRoot; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_ADD_VISIBILITYCHANGED_OFFSET UNITYSDK_OFFSET(0x1ED41C60)
 #define SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED42680)
@@ -38,24 +38,24 @@ namespace SRDebugger::Services::Implementation
 	{
 	public:
 		::SRDebugger::UI::DebugPanelRoot* _debugPanelRootObject; // 0x18
-		::System::Action* VisibilityChanged; // 0x20
+		::System::Action_2<::SRDebugger::Services::IDebugPanelService*, ::System::Boolean>* VisibilityChanged; // 0x20
 		::System::Boolean _isVisible; // 0x28
-		::System::Nullable* _cursorWasVisible; // 0x29
-		::System::Nullable* _cursorLockMode; // 0x2C
+		::System::Nullable_1<::System::Boolean> _cursorWasVisible; // 0x29
+		::System::Nullable_1<::UnityEngine::CursorLockMode> _cursorLockMode; // 0x2C
 		::System::Boolean _IsInControlMode_k__BackingField; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_VisibilityChanged(::System::Action* a1)
+		::System::Void add_VisibilityChanged(::System::Action_2<::SRDebugger::Services::IDebugPanelService*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_ADD_VISIBILITYCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::Services::IDebugPanelService*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_ADD_VISIBILITYCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_VisibilityChanged(::System::Action* a1)
+		::System::Void remove_VisibilityChanged(::System::Action_2<::SRDebugger::Services::IDebugPanelService*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_REMOVE_VISIBILITYCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::Services::IDebugPanelService*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_REMOVE_VISIBILITYCHANGED_OFFSET))(this, a1);
 		}
 
 		::SRDebugger::UI::DebugPanelRoot* get_RootObject()
@@ -78,9 +78,9 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_SET_ISVISIBLE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_ActiveTab()
+		::System::Nullable_1<::SRDebugger::DefaultTabs> get_ActiveTab()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_GET_ACTIVETAB_OFFSET))(this);
+			return ((::System::Nullable_1<::SRDebugger::DefaultTabs>(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_DEBUGPANELSERVICEIMPL_GET_ACTIVETAB_OFFSET))(this);
 		}
 
 		::System::Void OpenTab(::SRDebugger::DefaultTabs a1)

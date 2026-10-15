@@ -9,6 +9,7 @@ namespace R3 { class CompositeDisposable; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 inline static constexpr unsigned int CABAELAPPDA_TypeDefinitionIndex = 44251;
 
@@ -18,7 +19,7 @@ inline static constexpr unsigned int CABAELAPPDA_TypeDefinitionIndex = 44251;
 		::System::Func_2<::System::Int32, ::System::Boolean>* _IsBindingActiveCallback_k__BackingField; // 0x0
 		::System::Func_2<::System::Int32, ::CABAELAPPDA>* _CreateExecutionContextFactory_k__BackingField; // 0x0
 		::System::Action* _EnsureMessengerCleanupRegistered_k__BackingField; // 0x0
-		::System::Action* _ReleaseStateCallback_k__BackingField; // 0x0
+		::System::Action_1<::KAILJFHGCFF*>* _ReleaseStateCallback_k__BackingField; // 0x0
 		::R3::CompositeDisposable* _Disposables_k__BackingField; // 0x0
 		::OEIKFPLBOMH* _Logger_k__BackingField; // 0x0
 		::GKMHPIPOKLE* _ButtonClickGuard_k__BackingField; // 0x0

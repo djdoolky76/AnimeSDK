@@ -3,7 +3,7 @@
 #include "unitysdk/EADIJOHAPHK.h"
 class HGDELEAHIJO;
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define HPLHOPDDJCM_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD21D0)
@@ -38,9 +38,9 @@ inline static constexpr unsigned int HPLHOPDDJCM_TypeDefinitionIndex = 59489;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPLHOPDDJCM_ONALLSUCCEED_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* FLHAEFKDIHO(::System::Boolean a1)
+		::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* FLHAEFKDIHO(::System::Boolean a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HPLHOPDDJCM_FLHAEFKDIHO_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HPLHOPDDJCM_FLHAEFKDIHO_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::HGDELEAHIJO*>* __n__0()

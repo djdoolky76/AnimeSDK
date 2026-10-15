@@ -3,11 +3,11 @@
 #include "unitysdk/Newtonsoft/Json/Serialization/JsonContainerContract.h"
 #include "unitysdk/Newtonsoft/Json/MemberSerialization.h"
 #include "unitysdk/Newtonsoft/Json/Required.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace Newtonsoft::Json::Serialization { class ExtensionDataGetter; }
 namespace Newtonsoft::Json::Serialization { class ExtensionDataSetter; }
 namespace Newtonsoft::Json::Serialization { class JsonPropertyCollection; }
 namespace Newtonsoft::Json::Serialization { template <typename T> class ObjectConstructor_1; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Reflection { class ConstructorInfo; }
@@ -48,8 +48,8 @@ namespace Newtonsoft::Json::Serialization
 		::System::Type* _extensionDataValueType; // 0xE0
 		::Newtonsoft::Json::Serialization::ExtensionDataSetter* _ExtensionDataSetter_k__BackingField; // 0xE8
 		::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator; // 0xF0
-		::System::Nullable* _ItemRequired_k__BackingField; // 0xF8
-		::System::Nullable* _hasRequiredOrDefaultValueProperties; // 0x100
+		::System::Nullable_1<::Newtonsoft::Json::Required> _ItemRequired_k__BackingField; // 0xF8
+		::System::Nullable_1<::System::Boolean> _hasRequiredOrDefaultValueProperties; // 0x100
 		::System::Boolean ExtensionDataIsJToken; // 0x102
 		::System::Byte _padding0[0x1];
 		::Newtonsoft::Json::MemberSerialization _MemberSerialization_k__BackingField; // 0x104
@@ -68,14 +68,14 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::MemberSerialization))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONOBJECTCONTRACT_SET_MEMBERSERIALIZATION_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_ItemRequired()
+		::System::Nullable_1<::Newtonsoft::Json::Required> get_ItemRequired()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONOBJECTCONTRACT_GET_ITEMREQUIRED_OFFSET))(this);
+			return ((::System::Nullable_1<::Newtonsoft::Json::Required>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONOBJECTCONTRACT_GET_ITEMREQUIRED_OFFSET))(this);
 		}
 
-		::System::Void set_ItemRequired(::System::Nullable* a1)
+		::System::Void set_ItemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONOBJECTCONTRACT_SET_ITEMREQUIRED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::Newtonsoft::Json::Required>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONOBJECTCONTRACT_SET_ITEMREQUIRED_OFFSET))(this, a1);
 		}
 
 		::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties()

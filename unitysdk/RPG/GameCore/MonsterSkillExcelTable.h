@@ -4,14 +4,14 @@
 #include "unitysdk/BFOGLEGJOLK.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator_2.h"
 #include "unitysdk/RPG/GameCore/MonsterSkillExcelTable_IndexKey.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 class OFLIAAOJPJC;
 namespace RPG::GameCore { class MonsterSkillRow; }
 namespace RPG::GameCore { template <typename T1, typename T2> class TableLRUCache_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -54,9 +54,9 @@ namespace RPG::GameCore
 			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "MonsterSkillExcelTable")->GetStaticField(0x427C0);
 		}
 
-		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "MonsterSkillExcelTable")->GetStaticField(0x427C8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "MonsterSkillExcelTable")->GetStaticField(0x427C8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
@@ -134,9 +134,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLEXCELTABLE_UNLOADDATA_OFFSET))();
 		}
 
-		static ::System::Void LoadToRow(::System::ValueTuple a1, ::RPG::GameCore::MonsterSkillRow* a2)
+		static ::System::Void LoadToRow(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1, ::RPG::GameCore::MonsterSkillRow* a2)
 		{
-			return ((::System::Void(*)(::System::ValueTuple, ::RPG::GameCore::MonsterSkillRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLEXCELTABLE_LOADTOROW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>, ::RPG::GameCore::MonsterSkillRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLEXCELTABLE_LOADTOROW_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean TryLoadRow(::RPG::GameCore::MonsterSkillExcelTable_IndexKey a1, ::RPG::GameCore::MonsterSkillRow* a2)

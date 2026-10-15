@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/MechCraft/ViewModel/CraftProgressAttrPipeline/MechCraftPerfUnitType.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class CBJILMHOMGP;
 class DBIAFBMMBBA_JJJAFCAJPNC;
 class DCAJGFPPCDM;
@@ -17,7 +18,6 @@ class MBPKHMAJLGK;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftCraftProgressAttrRadarViewModel; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define DBIAFBMMBBA_ADD_HANDLEGETTARGETREACHEDDURATION_OFFSET UNITYSDK_OFFSET(0xDFE2560)
 #define DBIAFBMMBBA_ADD_HANDLEGETTARGETREACHINGDURATION_OFFSET UNITYSDK_OFFSET(0xDFE24A0)
@@ -191,9 +191,9 @@ inline static constexpr unsigned int DBIAFBMMBBA_TypeDefinitionIndex = 79552;
 			return ((::System::Action*(*)(::PVOID, ::MBPKHMAJLGK*, ::GPJENJKHNCN*))((::PBYTE)hIl2Cpp + DBIAFBMMBBA_MACIPFCFDNE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __CreateSnapshot_b__31_0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __CreateSnapshot_b__31_0(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + DBIAFBMMBBA___CREATESNAPSHOT_B__31_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + DBIAFBMMBBA___CREATESNAPSHOT_B__31_0_OFFSET))(this, a1);
 		}
 
 	};

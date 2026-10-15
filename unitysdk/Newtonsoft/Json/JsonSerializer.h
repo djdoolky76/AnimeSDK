@@ -18,6 +18,7 @@
 #include "unitysdk/Newtonsoft/Json/TypeNameHandling.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/FormatterAssemblyStyle.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace Newtonsoft::Json { class JsonConverter; }
 namespace Newtonsoft::Json { class JsonConverterCollection; }
@@ -29,11 +30,10 @@ namespace Newtonsoft::Json::Serialization { class ErrorEventArgs; }
 namespace Newtonsoft::Json::Serialization { class IContractResolver; }
 namespace Newtonsoft::Json::Serialization { class IReferenceResolver; }
 namespace Newtonsoft::Json::Serialization { class ITraceWriter; }
-namespace System { class EventHandler; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections { class IEqualityComparer; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Globalization { class CultureInfo; }
@@ -101,26 +101,26 @@ namespace Newtonsoft::Json
 		::System::Runtime::Serialization::SerializationBinder* _binder; // 0x28
 		::Newtonsoft::Json::Serialization::IContractResolver* _contractResolver; // 0x30
 		::Newtonsoft::Json::JsonConverterCollection* _converters; // 0x38
-		::System::EventHandler* Error; // 0x40
+		::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* Error; // 0x40
 		::System::String* _dateFormatString; // 0x48
 		::System::Globalization::CultureInfo* _culture; // 0x50
 		::System::Runtime::Serialization::StreamingContext _context; // 0x58
-		::System::Nullable* _dateParseHandling; // 0x68
-		::System::Nullable* _maxDepth; // 0x70
+		::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> _dateParseHandling; // 0x68
+		::System::Nullable_1<::System::Int32> _maxDepth; // 0x70
 		::Newtonsoft::Json::TypeNameHandling _typeNameHandling; // 0x78
 		::Newtonsoft::Json::PreserveReferencesHandling _preserveReferencesHandling; // 0x7C
-		::System::Nullable* _floatFormatHandling; // 0x80
+		::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> _floatFormatHandling; // 0x80
 		::Newtonsoft::Json::MissingMemberHandling _missingMemberHandling; // 0x88
-		::System::Nullable* _dateTimeZoneHandling; // 0x8C
+		::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> _dateTimeZoneHandling; // 0x8C
 		::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle _typeNameAssemblyFormat; // 0x94
-		::System::Nullable* _floatParseHandling; // 0x98
-		::System::Nullable* _formatting; // 0xA0
+		::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> _floatParseHandling; // 0x98
+		::System::Nullable_1<::Newtonsoft::Json::Formatting> _formatting; // 0xA0
 		::Newtonsoft::Json::ObjectCreationHandling _objectCreationHandling; // 0xA8
-		::System::Nullable* _stringEscapeHandling; // 0xAC
+		::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> _stringEscapeHandling; // 0xAC
 		::Newtonsoft::Json::DefaultValueHandling _defaultValueHandling; // 0xB4
-		::System::Nullable* _dateFormatHandling; // 0xB8
+		::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> _dateFormatHandling; // 0xB8
 		::Newtonsoft::Json::ConstructorHandling _constructorHandling; // 0xC0
-		::System::Nullable* _checkAdditionalContent; // 0xC4
+		::System::Nullable_1<::System::Boolean> _checkAdditionalContent; // 0xC4
 		::System::Boolean _dateFormatStringSet; // 0xC6
 		::System::Boolean _maxDepthSet; // 0xC7
 		::Newtonsoft::Json::ReferenceLoopHandling _referenceLoopHandling; // 0xC8
@@ -131,14 +131,14 @@ namespace Newtonsoft::Json
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_Error(::System::EventHandler* a1)
+		::System::Void add_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZER_ADD_ERROR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZER_ADD_ERROR_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Error(::System::EventHandler* a1)
+		::System::Void remove_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZER_REMOVE_ERROR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZER_REMOVE_ERROR_OFFSET))(this, a1);
 		}
 
 		::System::Void set_ReferenceResolver(::Newtonsoft::Json::Serialization::IReferenceResolver* a1)
@@ -326,9 +326,9 @@ namespace Newtonsoft::Json
 			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZER_SETUPREADER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void ResetReader(::Newtonsoft::Json::JsonReader* a1, ::System::Globalization::CultureInfo* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Nullable* a6, ::System::String* a7)
+		::System::Void ResetReader(::Newtonsoft::Json::JsonReader* a1, ::System::Globalization::CultureInfo* a2, ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> a3, ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> a4, ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> a5, ::System::Nullable_1<::System::Int32> a6, ::System::String* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Globalization::CultureInfo*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZER_RESETREADER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonReader*, ::System::Globalization::CultureInfo*, ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling>, ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling>, ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling>, ::System::Nullable_1<::System::Int32>, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONSERIALIZER_RESETREADER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void Serialize(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::System::Type* a3)

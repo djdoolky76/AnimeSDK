@@ -4,6 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class CEEBPDHINLB;
 class CKCJOCJGHKC;
 class DHCNDENHLGO;
@@ -13,7 +14,6 @@ namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordBase; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTargetsViewModel; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECHALLENGEVIEWMODEL_ADD_ONPREVIEWBESTRECORDCHANGED_OFFSET UNITYSDK_OFFSET(0xC9443E0)
@@ -147,14 +147,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECHALLENGEVIEWMODEL_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Nullable* TryGetMemoryConfigTotalRoundCount()
+		::System::Nullable_1<::System::Int32> TryGetMemoryConfigTotalRoundCount()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECHALLENGEVIEWMODEL_TRYGETMEMORYCONFIGTOTALROUNDCOUNT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECHALLENGEVIEWMODEL_TRYGETMEMORYCONFIGTOTALROUNDCOUNT_OFFSET))(this);
 		}
 
-		::System::Nullable* TryGetStoryConfigClearScore()
+		::System::Nullable_1<::System::Int32> TryGetStoryConfigClearScore()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECHALLENGEVIEWMODEL_TRYGETSTORYCONFIGCLEARSCORE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECHALLENGEVIEWMODEL_TRYGETSTORYCONFIGCLEARSCORE_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::UInt32>* TryGetStoryConfigFeverBuffIDs()

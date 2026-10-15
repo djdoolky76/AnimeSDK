@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture2D; }
 
 #define MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC7130)
@@ -14,7 +14,7 @@ namespace MiHoYo::SDK
 	class MiHoYoSDK___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_2<::System::Int32, ::Il2CppArray<::System::Byte>*>* callback; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDK___C__DISPLAYCLASS25_0_CTOR_OFFSET))(this);

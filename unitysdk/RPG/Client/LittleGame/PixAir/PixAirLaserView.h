@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/PixAir/BasePixAirView.h"
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW_CBELJEOKIEF_OFFSET UNITYSDK_OFFSET(0xD4836B0)
@@ -53,9 +53,9 @@ namespace RPG::Client::LittleGame::PixAir
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW_FIRE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::UInt32 IJEPAJIMDPA(::UnityEngine::Transform* a1, ::System::String* a2, ::System::Action* a3, ::System::Boolean a4)
+		::System::UInt32 IJEPAJIMDPA(::UnityEngine::Transform* a1, ::System::String* a2, ::System::Action_1<::RPG::Client::MonoEffect*>* a3, ::System::Boolean a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW_IJEPAJIMDPA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::UInt32(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*, ::System::Action_1<::RPG::Client::MonoEffect*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW_IJEPAJIMDPA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void OnDestroy()

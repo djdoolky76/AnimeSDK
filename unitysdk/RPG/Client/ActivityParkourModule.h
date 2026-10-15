@@ -11,7 +11,8 @@ namespace RPG::Client { class ParkourRank; }
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
@@ -67,7 +68,7 @@ namespace RPG::Client
 	class ActivityParkourModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::RPG::Client::Promises::Promise* _GetRankingPromise; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _GetRankingPromise; // 0x10
 		::RPG::Client::ScheduleTask* _WaitOpenScheduleTask; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourLevel*>* _Levels; // 0x20
 		::EHFGOPCDBHP* _ServerAgent; // 0x28
@@ -192,9 +193,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::MFMOKFNLNNB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPARKOURMODULE_ENDLEVEL_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* AsyncGetRankingWithPromise()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* AsyncGetRankingWithPromise()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPARKOURMODULE_ASYNCGETRANKINGWITHPROMISE_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPARKOURMODULE_ASYNCGETRANKINGWITHPROMISE_OFFSET))(this);
 		}
 
 		::System::Boolean CheckIsParkourFloor(::System::UInt32 a1)

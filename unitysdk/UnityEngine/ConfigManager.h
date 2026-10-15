@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define UNITYENGINE_CONFIGMANAGER_ADD_ONAFTERRELOADCONFIG_OFFSET UNITYSDK_OFFSET(0x1F3DB9E0)
 #define UNITYENGINE_CONFIGMANAGER_AFTERRELOADCONFIG_OFFSET UNITYSDK_OFFSET(0x1F3DB9B0)
@@ -19,9 +19,9 @@ namespace UnityEngine
 	class ConfigManager : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_OnAfterReloadConfig()
+		static ::System::Action_1<::System::String*>** StaticGet_OnAfterReloadConfig()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine", "ConfigManager")->GetStaticField(0xF9E0);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("UnityEngine", "ConfigManager")->GetStaticField(0xF9E0);
 		}
 
 		static ::System::Void ReloadByManagedReader()
@@ -49,14 +49,14 @@ namespace UnityEngine
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONFIGMANAGER_AFTERRELOADCONFIG_OFFSET))(a1);
 		}
 
-		static ::System::Void add_OnAfterReloadConfig(::System::Action* a1)
+		static ::System::Void add_OnAfterReloadConfig(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONFIGMANAGER_ADD_ONAFTERRELOADCONFIG_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONFIGMANAGER_ADD_ONAFTERRELOADCONFIG_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnAfterReloadConfig(::System::Action* a1)
+		static ::System::Void remove_OnAfterReloadConfig(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONFIGMANAGER_REMOVE_ONAFTERRELOADCONFIG_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_CONFIGMANAGER_REMOVE_ONAFTERRELOADCONFIG_OFFSET))(a1);
 		}
 
 	};

@@ -4,6 +4,7 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C003A60)
@@ -33,33 +34,33 @@ namespace MiHoYo::SDK::UI::Internal::OS
 	{
 	public:
 		::System::Action* _OnLoginByAnotherAccountBtnClicked_k__BackingField; // 0x10
-		::System::Action* _OnDeleteAccountBtnClicked_k__BackingField; // 0x18
+		::System::Action_1<::System::String*>* _OnDeleteAccountBtnClicked_k__BackingField; // 0x18
 		::System::Action* _OnCloseBtnClicked_k__BackingField; // 0x20
-		::System::Action* _OnAccountSelected_k__BackingField; // 0x28
-		::System::Action* _OnLoginBtnClicked_k__BackingField; // 0x30
+		::System::Action_1<::System::String*>* _OnAccountSelected_k__BackingField; // 0x28
+		::System::Action_1<::System::String*>* _OnLoginBtnClicked_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnLoginBtnClicked()
+		::System::Action_1<::System::String*>* get_OnLoginBtnClicked()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_GET_ONLOGINBTNCLICKED_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_GET_ONLOGINBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnLoginBtnClicked(::System::Action* a1)
+		::System::Void set_OnLoginBtnClicked(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_SET_ONLOGINBTNCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_SET_ONLOGINBTNCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnDeleteAccountBtnClicked()
+		::System::Action_1<::System::String*>* get_OnDeleteAccountBtnClicked()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_GET_ONDELETEACCOUNTBTNCLICKED_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_GET_ONDELETEACCOUNTBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnDeleteAccountBtnClicked(::System::Action* a1)
+		::System::Void set_OnDeleteAccountBtnClicked(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_SET_ONDELETEACCOUNTBTNCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_SET_ONDELETEACCOUNTBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnLoginByAnotherAccountBtnClicked()
@@ -82,14 +83,14 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnAccountSelected()
+		::System::Action_1<::System::String*>* get_OnAccountSelected()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_GET_ONACCOUNTSELECTED_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_GET_ONACCOUNTSELECTED_OFFSET))(this);
 		}
 
-		::System::Void set_OnAccountSelected(::System::Action* a1)
+		::System::Void set_OnAccountSelected(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_SET_ONACCOUNTSELECTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTDIALOG_SET_ONACCOUNTSELECTED_OFFSET))(this, a1);
 		}
 
 		::System::Void Show(::System::Collections::Generic::List_1<::MiHoYo::SDK::AccountModel*>* a1)

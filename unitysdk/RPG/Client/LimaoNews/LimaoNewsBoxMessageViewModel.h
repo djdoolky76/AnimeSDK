@@ -7,6 +7,7 @@ namespace RPG::Client::LimaoNews { class LimaoNewsMessageItemViewModel; }
 namespace RPG::Client::LimaoNews { class LimaoNewsMessageSequence; }
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -47,7 +48,7 @@ namespace RPG::Client::LimaoNews
 	class LimaoNewsBoxMessageViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::System::Action* OptionClicked; // 0x20
+		::System::Action_1<::System::Int32>* OptionClicked; // 0x20
 		::System::Action* AllItemsPlayed; // 0x28
 		::Sofa::Core::SimpleCommand* _OnAllItemsPlayed_k__BackingField; // 0x30
 		::PEKFHPMIPDD* _OnOptionClick_k__BackingField; // 0x38
@@ -55,7 +56,7 @@ namespace RPG::Client::LimaoNews
 		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsMessageItemViewModel*>* _OptionViewModels; // 0x48
 		::RPG::Client::LimaoNews::LimaoNewsMessageSequence* _CurrentSequence; // 0x50
 		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsMessageItemViewModel*>* _MessageItemViewModels; // 0x58
-		::System::Action* ItemPlayFinished; // 0x60
+		::System::Action_1<::System::Int32>* ItemPlayFinished; // 0x60
 		::System::Int32 _HistoryMessageCount_k__BackingField; // 0x68
 		::System::Void _ctor()
 		{
@@ -122,24 +123,24 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL__ONALLITEMSPLAYED_OFFSET))(this);
 		}
 
-		::System::Void add_ItemPlayFinished(::System::Action* a1)
+		::System::Void add_ItemPlayFinished(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL_ADD_ITEMPLAYFINISHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL_ADD_ITEMPLAYFINISHED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ItemPlayFinished(::System::Action* a1)
+		::System::Void remove_ItemPlayFinished(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL_REMOVE_ITEMPLAYFINISHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL_REMOVE_ITEMPLAYFINISHED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OptionClicked(::System::Action* a1)
+		::System::Void add_OptionClicked(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL_ADD_OPTIONCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL_ADD_OPTIONCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OptionClicked(::System::Action* a1)
+		::System::Void remove_OptionClicked(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL_REMOVE_OPTIONCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSBOXMESSAGEVIEWMODEL_REMOVE_OPTIONCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Void add_AllItemsPlayed(::System::Action* a1)

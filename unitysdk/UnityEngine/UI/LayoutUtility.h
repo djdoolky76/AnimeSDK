@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/UI/LayoutUtility___c__DisplayClass14_0.h"
 #include "unitysdk/UnityEngine/UI/LayoutUtility___c__DisplayClass16_0.h"
 #include "unitysdk/UnityEngine/UI/LayoutUtility___c__DisplayClass17_0.h"
@@ -50,9 +50,9 @@ namespace UnityEngine::UI
 			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>**)UnitySDK::FromName("UnityEngine.UI", "LayoutUtility")->GetStaticField(0x34660);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple>** StaticGet_m_LayoutGroupInfoDict()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Int32, ::System::Boolean>>** StaticGet_m_LayoutGroupInfoDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple>**)UnitySDK::FromName("UnityEngine.UI", "LayoutUtility")->GetStaticField(0x34668);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Int32, ::System::Boolean>>**)UnitySDK::FromName("UnityEngine.UI", "LayoutUtility")->GetStaticField(0x34668);
 		}
 
 		static ::System::Type** StaticGet_LayoutGroupType()
@@ -115,9 +115,9 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::Pooled::PooledList_1<::UnityEngine::Component*>*(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_LAYOUTUTILITY_GETACTIVEENDENABLEDLAYOUTBEHAVIOURS_OFFSET))(a1);
 		}
 
-		static ::System::ValueTuple GetLayoutGroup(::UnityEngine::RectTransform* a1)
+		static ::System::ValueTuple_2<::System::Int32, ::System::Boolean> GetLayoutGroup(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::ValueTuple(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_LAYOUTUTILITY_GETLAYOUTGROUP_OFFSET))(a1);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Boolean>(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_LAYOUTUTILITY_GETLAYOUTGROUP_OFFSET))(a1);
 		}
 
 		static ::System::Void GetLayoutControllers(::UnityEngine::RectTransform* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::Component*>* a2)
@@ -190,9 +190,9 @@ namespace UnityEngine::UI
 			return ((::System::Single(*)(::UnityEngine::RectTransform*, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>*, ::System::Single, ::UnityEngine::UI::ILayoutElement*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_LAYOUTUTILITY_GETLAYOUTPROPERTY_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::ValueTuple _GetLayoutGroup_g__GetLayoutGroupImpl_14_0(::UnityEngine::UI::LayoutUtility___c__DisplayClass14_0 a1)
+		static ::System::ValueTuple_2<::System::Int32, ::System::Boolean> _GetLayoutGroup_g__GetLayoutGroupImpl_14_0(::UnityEngine::UI::LayoutUtility___c__DisplayClass14_0 a1)
 		{
-			return ((::System::ValueTuple(*)(::UnityEngine::UI::LayoutUtility___c__DisplayClass14_0))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_LAYOUTUTILITY__GETLAYOUTGROUP_G__GETLAYOUTGROUPIMPL_14_0_OFFSET))(a1);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Boolean>(*)(::UnityEngine::UI::LayoutUtility___c__DisplayClass14_0))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_LAYOUTUTILITY__GETLAYOUTGROUP_G__GETLAYOUTGROUPIMPL_14_0_OFFSET))(a1);
 		}
 
 		static ::System::Void _GetActiveEndEnabledLayoutControllers_g__GetActiveAndEnabledLayoutControllers_16_0(::UnityEngine::Pooled::PooledList_1<::UnityEngine::Component*>* a1, ::UnityEngine::UI::LayoutUtility___c__DisplayClass16_0 a2)

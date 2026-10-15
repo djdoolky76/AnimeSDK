@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
@@ -32,9 +32,9 @@ namespace RPG::Client
 		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::EntityType>* desiredEntityTypes; // 0x28
 		::RPG::GameCore::AdventureHitConfig* hitConfig; // 0x30
-		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_IgnoreCollisionEntities()
+		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::RPG::GameCore::GameEntity*>*>** StaticGet_IgnoreCollisionEntities()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("RPG.Client", "AirshipCarCollision")->GetStaticField(0x51DB0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::RPG::GameCore::GameEntity*>*>**)UnitySDK::FromName("RPG.Client", "AirshipCarCollision")->GetStaticField(0x51DB0);
 		}
 
 		static ::Il2CppArray<::System::UInt32>** StaticGet_AdvertBoardNPC()

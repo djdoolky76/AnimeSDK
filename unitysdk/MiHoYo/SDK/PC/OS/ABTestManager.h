@@ -5,9 +5,9 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Base::ABTestPlatform::Const { class ABTestRequestParam; }
 namespace MiHoYo::SDK::PC::OS { class ABTestManager; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIHOYO_SDK_PC_OS_ABTESTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEC1F40)
@@ -79,9 +79,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::MiHoYo::SDK::Base::ABTestPlatform::Const::ABTestRequestParam*(*)(::PVOID, ::MiHoYo::SDK::PC::OS::ABTestManager_ABTestKind))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER_GETABTESTREQUESTPARAM_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestAllAccountABTest(::System::Collections::Generic::List_1<::System::Object*>* a1, ::System::Action* a2)
+		::System::Void RequestAllAccountABTest(::System::Collections::Generic::List_1<::System::Object*>* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER_REQUESTALLACCOUNTABTEST_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER_REQUESTALLACCOUNTABTEST_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RequestComplianceABTest()
@@ -94,14 +94,14 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER_LOADCOMPLIANCEABTESTRESULT_OFFSET))(this);
 		}
 
-		::System::Void OnComboInitSuccess(::System::Action* a1, ::System::String* a2)
+		::System::Void OnComboInitSuccess(::System::Action_1<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER_ONCOMBOINITSUCCESS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER_ONCOMBOINITSUCCESS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnComboInitFailed(::System::Action* a1)
+		::System::Void OnComboInitFailed(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER_ONCOMBOINITFAILED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTMANAGER_ONCOMBOINITFAILED_OFFSET))(this, a1);
 		}
 
 		::System::Void RequestWebViewRenderMethodABTestConfig()

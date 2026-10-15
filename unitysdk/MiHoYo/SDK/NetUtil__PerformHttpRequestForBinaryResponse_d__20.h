@@ -5,6 +5,7 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
@@ -33,7 +34,7 @@ namespace MiHoYo::SDK
 		::System::Action* timeoutCallback; // 0x48
 		::System::String* _errorMsg_5__8; // 0x50
 		::System::String* _value_5__6; // 0x58
-		::System::Action* completeCallback; // 0x60
+		::System::Action_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*>* completeCallback; // 0x60
 		::System::Object* __2__current; // 0x68
 		::System::String* _key_5__5; // 0x70
 		::System::Int64 _responseCode_5__7; // 0x78

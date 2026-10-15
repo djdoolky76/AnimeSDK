@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class EGKKDIOKFDA;
 namespace Sofa { class BaseSofaControl; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -22,10 +22,10 @@ inline static constexpr unsigned int EIAPGPIHHKO_TypeDefinitionIndex = 49691;
 	public:
 		::EGKKDIOKFDA* CFKHNPGEAJA; // 0x10
 		::System::Collections::Generic::List_1<::Sofa::BaseSofaControl*>* GFFAGJOELCH; // 0x18
-		::System::Action* DLLGEJMHAPN; // 0x20
-		::System::Void _ctor(::EGKKDIOKFDA* a1, ::System::Action* a2)
+		::System::Action_1<::Sofa::BaseSofaControl*>* DLLGEJMHAPN; // 0x20
+		::System::Void _ctor(::EGKKDIOKFDA* a1, ::System::Action_1<::Sofa::BaseSofaControl*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::EGKKDIOKFDA*, ::System::Action*))((::PBYTE)hIl2Cpp + EIAPGPIHHKO_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::EGKKDIOKFDA*, ::System::Action_1<::Sofa::BaseSofaControl*>*))((::PBYTE)hIl2Cpp + EIAPGPIHHKO_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::Sofa::BaseSofaControl*>* POJDCEKAMHH()

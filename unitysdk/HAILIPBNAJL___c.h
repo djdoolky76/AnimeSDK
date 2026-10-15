@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class PHEHGMEOKMB;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -40,9 +40,9 @@ inline static constexpr unsigned int HAILIPBNAJL___c_TypeDefinitionIndex = 36409
 			return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D0F8);
 		}
 
-		static ::System::Comparison_1<::System::ValueTuple>** StaticGet___9__37_0()
+		static ::System::Comparison_1<::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64>>** StaticGet___9__37_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D100);
+			return (::System::Comparison_1<::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D100);
 		}
 
 		static ::System::Void _cctor()
@@ -55,9 +55,9 @@ inline static constexpr unsigned int HAILIPBNAJL___c_TypeDefinitionIndex = 36409
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HAILIPBNAJL___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __calcDiceScoreByAILevel_b__37_0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __calcDiceScoreByAILevel_b__37_0(::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64> a1, ::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + HAILIPBNAJL___C___CALCDICESCOREBYAILEVEL_B__37_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64>, ::System::ValueTuple_2<::PHEHGMEOKMB*, ::System::UInt64>))((::PBYTE)hIl2Cpp + HAILIPBNAJL___C___CALCDICESCOREBYAILEVEL_B__37_0_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::FixPoint __calcSelectedDiceScore_b__38_0(::System::Single a1)

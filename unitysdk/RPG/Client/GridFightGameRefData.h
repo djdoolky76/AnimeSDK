@@ -25,8 +25,8 @@ namespace RPG::Client { class GridFightPortalData; }
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightSeasonRole; }
 namespace RPG::GameCore { class DynamicValue; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -182,9 +182,9 @@ namespace RPG::Client
 		::System::Int32 _Level_k__BackingField; // 0xB0
 		::System::Single _Weight_k__BackingField; // 0xB4
 		::System::UInt32 _LikeCnt_k__BackingField; // 0xB8
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet__NecessaryAttributeMap()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_3<::RPG::Client::GridFightGameRefData*, ::Newtonsoft::Json::JsonSerializer*, ::Newtonsoft::Json::JsonReader*>*>** StaticGet__NecessaryAttributeMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("RPG.Client", "GridFightGameRefData")->GetStaticField(0x6CDF0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_3<::RPG::Client::GridFightGameRefData*, ::Newtonsoft::Json::JsonSerializer*, ::Newtonsoft::Json::JsonReader*>*>**)UnitySDK::FromName("RPG.Client", "GridFightGameRefData")->GetStaticField(0x6CDF0);
 		}
 
 		::System::Void _ctor(::KKJMAOMDCAE_ELIIEJCNHLN* a1)

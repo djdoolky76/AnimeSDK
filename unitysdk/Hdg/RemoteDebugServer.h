@@ -14,6 +14,7 @@ namespace System { class Action; }
 namespace System { class IAsyncResult; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Sockets { class TcpClient; }
@@ -69,7 +70,7 @@ namespace Hdg
 		::Hdg::WriteMessageThread* m_writeThread; // 0x48
 		::Hdg::ReadMessageThread* m_readThread; // 0x50
 		::Hdg::rdtDispatcher* m_dispatcher; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action*>* m_messageCallbacks; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_1<::Hdg::rdtTcpMessage*>*>* m_messageCallbacks; // 0x60
 		::Hdg::rdtSerializerRegistry* m_serializerRegistry; // 0x68
 		::System::Collections::Generic::List_1<::Hdg::rdtTcpMessage*>* m_messagesToProcess; // 0x70
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* m_dontDestroyOnLoadObjects; // 0x78
@@ -119,9 +120,9 @@ namespace Hdg
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_GET_CLIENTIP_OFFSET))(this);
 		}
 
-		::System::Void AddCallback(::System::Type* a1, ::System::Action* a2)
+		::System::Void AddCallback(::System::Type* a1, ::System::Action_1<::Hdg::rdtTcpMessage*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Action*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ADDCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Action_1<::Hdg::rdtTcpMessage*>*))((::PBYTE)hIl2Cpp + HDG_REMOTEDEBUGSERVER_ADDCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void AddDontDestroyOnLoadObject(::UnityEngine::GameObject* a1)

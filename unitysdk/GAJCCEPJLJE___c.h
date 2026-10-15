@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class KFELGAIGHAP;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define GAJCCEPJLJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1593D320)
 #define GAJCCEPJLJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1593D350)
@@ -19,9 +19,9 @@ inline static constexpr unsigned int GAJCCEPJLJE___c_TypeDefinitionIndex = 52879
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EBD0);
 		}
 
-		static ::System::Action** StaticGet___9__2_0()
+		static ::System::Action_1<::KFELGAIGHAP*>** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EBD8);
+			return (::System::Action_1<::KFELGAIGHAP*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EBD8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class EMILHGPLJHC;
 class HGCEOEHGPPE;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client
 {
@@ -14,7 +14,7 @@ namespace RPG::Client
 	class ActionEvent_2 : public ::System::Object
 	{
 	public:
-		::System::Action* _Action; // 0x0
+		::System::Action_2<T1, T2>* _Action; // 0x0
 		::System::String* _Name; // 0x0
 		::HGCEOEHGPPE* _Progress; // 0x0
 		::EMILHGPLJHC* _RootProgress; // 0x0

@@ -5,8 +5,8 @@ class JGAMELLGLGE;
 class JOLAHHGIFHA;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -35,9 +35,9 @@ inline static constexpr unsigned int JGAMELLGLGE_TypeDefinitionIndex = 34190;
 	public:
 		::JOLAHHGIFHA* JPDMBNKJOHP; // 0x10
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::JGAMELLGLGE*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "JGAMELLGLGE")->GetStaticField(0x60430);
+			return (::Google::Protobuf::MessageParser_1<::JGAMELLGLGE*>**)UnitySDK::FromName("", "JGAMELLGLGE")->GetStaticField(0x60430);
 		}
 
 		// static const ::System::Object ELADMBPBJKL; // 0x0
@@ -56,9 +56,9 @@ inline static constexpr unsigned int JGAMELLGLGE_TypeDefinitionIndex = 34190;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + JGAMELLGLGE_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::JGAMELLGLGE*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + JGAMELLGLGE_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::JGAMELLGLGE*>*(*)())((::PBYTE)hIl2Cpp + JGAMELLGLGE_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

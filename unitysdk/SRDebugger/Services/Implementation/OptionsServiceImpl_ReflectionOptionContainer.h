@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace SRDebugger { class OptionDefinition; }
 namespace SRDebugger::Services::Implementation { class OptionsServiceImpl_ReflectionOptionContainer; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -34,24 +34,24 @@ namespace SRDebugger::Services::Implementation
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OptionAdded(::System::Action* a1)
+		::System::Void add_OptionAdded(::System::Action_1<::SRDebugger::OptionDefinition*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_ADD_OPTIONADDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRDebugger::OptionDefinition*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_ADD_OPTIONADDED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OptionAdded(::System::Action* a1)
+		::System::Void remove_OptionAdded(::System::Action_1<::SRDebugger::OptionDefinition*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_REMOVE_OPTIONADDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRDebugger::OptionDefinition*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_REMOVE_OPTIONADDED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OptionRemoved(::System::Action* a1)
+		::System::Void add_OptionRemoved(::System::Action_1<::SRDebugger::OptionDefinition*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_ADD_OPTIONREMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRDebugger::OptionDefinition*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_ADD_OPTIONREMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OptionRemoved(::System::Action* a1)
+		::System::Void remove_OptionRemoved(::System::Action_1<::SRDebugger::OptionDefinition*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_REMOVE_OPTIONREMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRDebugger::OptionDefinition*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_OPTIONSSERVICEIMPL_REFLECTIONOPTIONCONTAINER_REMOVE_OPTIONREMOVED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsDynamic()

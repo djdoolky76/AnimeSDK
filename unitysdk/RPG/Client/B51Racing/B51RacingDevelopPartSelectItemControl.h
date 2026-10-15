@@ -5,7 +5,7 @@ namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client::B51Racing { class B51RacingCarTargetPartIconControl; }
 namespace RPG::Client::B51Racing { class LuaControllerHandle; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_B51RACING_B51RACINGDEVELOPPARTSELECTITEMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC792B90)
 #define RPG_CLIENT_B51RACING_B51RACINGDEVELOPPARTSELECTITEMCONTROL_GET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0xC7924E0)
@@ -27,7 +27,7 @@ namespace RPG::Client::B51Racing
 	public:
 		::System::Int32 _ItemIndex_k__BackingField; // 0x40
 		::System::Byte _padding0[0x4];
-		::System::Action* _OnSelectCallback_k__BackingField; // 0x48
+		::System::Action_1<::System::Int32>* _OnSelectCallback_k__BackingField; // 0x48
 		::RPG::Client::B51Racing::B51RacingCarTargetPartIconControl* _PartIconControl; // 0x50
 		::RPG::Client::LocalizedText* _NameText; // 0x58
 		::RPG::Client::AnimatorButton* _RootBtn; // 0x60
@@ -46,14 +46,14 @@ namespace RPG::Client::B51Racing
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDEVELOPPARTSELECTITEMCONTROL_SET_ITEMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnSelectCallback()
+		::System::Action_1<::System::Int32>* get_OnSelectCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDEVELOPPARTSELECTITEMCONTROL_GET_ONSELECTCALLBACK_OFFSET))(this);
+			return ((::System::Action_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDEVELOPPARTSELECTITEMCONTROL_GET_ONSELECTCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_OnSelectCallback(::System::Action* a1)
+		::System::Void set_OnSelectCallback(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDEVELOPPARTSELECTITEMCONTROL_SET_ONSELECTCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDEVELOPPARTSELECTITEMCONTROL_SET_ONSELECTCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnInitializeComponent()

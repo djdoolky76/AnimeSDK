@@ -4,8 +4,8 @@
 namespace RPG::CustomRP { class IMsgFactory; }
 namespace RPG::CustomRP { class IRPMessage; }
 namespace RPG::CustomRP { class ReadMessageThread_MsgDispatcher; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class MemoryStream; }
 namespace System::IO { class Stream; }
@@ -29,12 +29,12 @@ namespace RPG::CustomRP
 		::System::IO::MemoryStream* _readMS; // 0x40
 		::RPG::CustomRP::ReadMessageThread_MsgDispatcher* _dispatcher; // 0x48
 		::Il2CppArray<::System::Byte>* _bufferTmp; // 0x50
-		::System::Action* _callback; // 0x58
+		::System::Action_1<::RPG::CustomRP::IRPMessage*>* _callback; // 0x58
 		::System::IO::BinaryReader* _reader; // 0x60
 		::System::IO::BinaryReader* _br; // 0x68
-		::System::Void _ctor(::System::IO::Stream* a1, ::System::Action* a2, ::System::String* a3, ::RPG::CustomRP::IMsgFactory* a4)
+		::System::Void _ctor(::System::IO::Stream* a1, ::System::Action_1<::RPG::CustomRP::IRPMessage*>* a2, ::System::String* a3, ::RPG::CustomRP::IMsgFactory* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Action*, ::System::String*, ::RPG::CustomRP::IMsgFactory*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_READMESSAGETHREAD_CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Action_1<::RPG::CustomRP::IRPMessage*>*, ::System::String*, ::RPG::CustomRP::IMsgFactory*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_READMESSAGETHREAD_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Update()

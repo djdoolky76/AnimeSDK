@@ -5,7 +5,7 @@ namespace MiHoYo::SDK::Console { class PopImageManager; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 #define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADLOCALTEXTURE_D__33_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1EF30)
 #define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADLOCALTEXTURE_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BE1F130)
@@ -22,7 +22,7 @@ namespace MiHoYo::SDK::Console
 	class PopImageManager__LoadLocalTexture_d__33 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Events::UnityAction* callback; // 0x10
+		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x10
 		::System::String* url; // 0x18
 		::MiHoYo::SDK::Console::PopImageManager* __4__this; // 0x20
 		::System::Object* __2__current; // 0x28

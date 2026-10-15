@@ -4,9 +4,10 @@
 #include "unitysdk/RPG/Client/LoginPhase.h"
 class CFNBLNHMHGO;
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
 #define RPG_CLIENT_CLIENTSTARTUPPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0xCB77120)
@@ -113,9 +114,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__CHECKGLOBALDISPATCHSTATE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _FetchGlobalDispatchInfo()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _FetchGlobalDispatchInfo()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__FETCHGLOBALDISPATCHINFO_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__FETCHGLOBALDISPATCHINFO_OFFSET))(this);
 		}
 
 		::System::Void _HandleSplashExceptions(::System::Exception* a1)
@@ -123,9 +124,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__HANDLESPLASHEXCEPTIONS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _GetServerPings(::System::Boolean a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _GetServerPings(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__GETSERVERPINGS_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__GETSERVERPINGS_OFFSET))(this, a1);
 		}
 
 		::System::Void _GlobalFinished()
@@ -133,9 +134,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE__GLOBALFINISHED_OFFSET))(this);
 		}
 
-		::System::Void __FetchGlobalDispatchInfo_b__15_0(::System::Action* a1, ::System::Action* a2)
+		::System::Void __FetchGlobalDispatchInfo_b__15_0(::System::Action_1<::System::Boolean>* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE___FETCHGLOBALDISPATCHINFO_B__15_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTSTARTUPPHASE___FETCHGLOBALDISPATCHINFO_B__15_0_OFFSET))(this, a1, a2);
 		}
 
 	};

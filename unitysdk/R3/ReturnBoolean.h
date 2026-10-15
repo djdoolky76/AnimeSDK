@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class Observer_1; }
 namespace System { class IDisposable; }
 
@@ -16,14 +16,14 @@ namespace R3
 	{
 	public:
 		::System::Boolean value; // 0x10
-		static ::R3::Observable** StaticGet_False()
+		static ::R3::Observable_1<::System::Boolean>** StaticGet_False()
 		{
-			return (::R3::Observable**)UnitySDK::FromName("R3", "ReturnBoolean")->GetStaticField(0xA30);
+			return (::R3::Observable_1<::System::Boolean>**)UnitySDK::FromName("R3", "ReturnBoolean")->GetStaticField(0xA30);
 		}
 
-		static ::R3::Observable** StaticGet_True()
+		static ::R3::Observable_1<::System::Boolean>** StaticGet_True()
 		{
-			return (::R3::Observable**)UnitySDK::FromName("R3", "ReturnBoolean")->GetStaticField(0xA38);
+			return (::R3::Observable_1<::System::Boolean>**)UnitySDK::FromName("R3", "ReturnBoolean")->GetStaticField(0xA38);
 		}
 
 		::System::Void _ctor(::System::Boolean a1)

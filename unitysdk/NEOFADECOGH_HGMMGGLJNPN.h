@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define NEOFADECOGH_HGMMGGLJNPN_CTOR_OFFSET UNITYSDK_OFFSET(0xBB74E00)
 
@@ -10,7 +10,7 @@ inline static constexpr unsigned int NEOFADECOGH_HGMMGGLJNPN_TypeDefinitionIndex
 	class NEOFADECOGH_HGMMGGLJNPN : public ::System::Object
 	{
 	public:
-		::System::Action* IMDLGFPMPEK; // 0x10
+		::System::Action_1<::System::Int32>* IMDLGFPMPEK; // 0x10
 		::System::Single HAOCLKBECLH; // 0x18
 		::System::Void _ctor()
 		{

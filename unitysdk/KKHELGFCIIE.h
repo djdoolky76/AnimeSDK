@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 class NGFHCJIAOLH;
 class OAIPJANPCEK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define KKHELGFCIIE_CTOR_OFFSET UNITYSDK_OFFSET(0xB4BC450)
 #define KKHELGFCIIE_DOMJCLFPNCO_OFFSET UNITYSDK_OFFSET(0xB4BCCB0)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int KKHELGFCIIE_TypeDefinitionIndex = 77781;
 	public:
 		::OAIPJANPCEK* PDENFEFCAGN; // 0x10
 		::BKGNKFKLIJK ELPOGGBGOJD; // 0x18
-		::Entitas::IGroup* OIOBDKBLIID; // 0x30
+		::Entitas::IGroup_1<::NGFHCJIAOLH*>* OIOBDKBLIID; // 0x30
 		::System::Boolean IDAMFLICEAM; // 0x38
 		::System::Byte _padding0[0x3];
 		::System::Single KBCOHKPEELA; // 0x3C

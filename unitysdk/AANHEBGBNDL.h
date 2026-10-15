@@ -6,7 +6,7 @@ class HIOEAKHGILF;
 class LOCGLAAGEFC;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class FiveDimDanmuTrack; }
@@ -35,8 +35,8 @@ inline static constexpr unsigned int AANHEBGBNDL_TypeDefinitionIndex = 76951;
 	public:
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
-		::Entitas::IGroup* GGFCGEGCMAL; // 0x20
-		::Entitas::IGroup* OLHLLNBNHHO; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GGFCGEGCMAL; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* OLHLLNBNHHO; // 0x28
 		::RPG::PoolDictionary_2<::System::String*, ::RPG::PoolList_1<::HIOEAKHGILF*>*>* KMECAKMIIPL; // 0x30
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

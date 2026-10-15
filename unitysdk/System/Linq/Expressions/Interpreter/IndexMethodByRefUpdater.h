@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/ByRefUpdater.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/LocalDefinition.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Object; }
 namespace System::Linq::Expressions::Interpreter { class InstructionList; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
@@ -22,10 +22,10 @@ namespace System::Linq::Expressions::Interpreter
 	public:
 		::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* _args; // 0x18
 		::System::Reflection::MethodInfo* _indexer; // 0x20
-		::System::Nullable* _obj; // 0x28
-		::System::Void _ctor(::System::Nullable* a1, ::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* a2, ::System::Reflection::MethodInfo* a3, ::System::Int32 a4)
+		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _obj; // 0x28
+		::System::Void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> a1, ::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* a2, ::System::Reflection::MethodInfo* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>*, ::System::Reflection::MethodInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>, ::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>*, ::System::Reflection::MethodInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1, ::System::Object* a2)

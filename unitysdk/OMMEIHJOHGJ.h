@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/HeartDialEmoType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class JMCHDIEPEJP;
 namespace RPG::Client { class HeartDialScriptInfo; }
 namespace RPG::Client { class MapNpcDef; }
@@ -51,7 +51,7 @@ inline static constexpr unsigned int OMMEIHJOHGJ_TypeDefinitionIndex = 65658;
 		::System::Collections::Generic::List_1<::RPG::GameCore::HeartDialEmoType>* _EmoBlackList_k__BackingField; // 0x28
 		::RPG::GameCore::GameEntity* AFIMBNIENJM; // 0x30
 		::RPG::Client::MapNpcDef* IIFECJIKIKN; // 0x38
-		::System::ValueTuple KBPOHLKBJFJ; // 0x40
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> KBPOHLKBJFJ; // 0x40
 		::System::UInt32 _NpcServerID_k__BackingField; // 0x48
 		::System::Boolean GEEIKIACBBE; // 0x4C
 		::System::Void _ctor(::RPG::GameCore::GameLevelHeartDialNPCConfig* a1)
@@ -174,9 +174,9 @@ inline static constexpr unsigned int OMMEIHJOHGJ_TypeDefinitionIndex = 65658;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameLevelHeartDialNPCConfig*))((::PBYTE)hIl2Cpp + OMMEIHJOHGJ_ABHHCHEOMDJ_OFFSET))(this, a1);
 		}
 
-		::System::Void POHKIAKJNJC(::System::ValueTuple a1)
+		::System::Void POHKIAKJNJC(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + OMMEIHJOHGJ_POHKIAKJNJC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + OMMEIHJOHGJ_POHKIAKJNJC_OFFSET))(this, a1);
 		}
 
 		::System::Void IMPHBBFJKDD()

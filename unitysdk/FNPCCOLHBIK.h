@@ -9,7 +9,7 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -66,7 +66,7 @@ inline static constexpr unsigned int FNPCCOLHBIK_TypeDefinitionIndex = 60264;
 		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x60
 		::System::String* EIHIPODEJNH; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DKKBEIFJOJA; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::Tuple*, ::System::Object*>* NEPCFGIMOAK; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::Tuple_2<::System::UInt32, ::System::UInt32>*, ::System::Object*>* NEPCFGIMOAK; // 0x78
 		::KFELGAIGHAP* IHIKAHLOABK; // 0x80
 		::System::Collections::Generic::List_1<::System::Object*>* NCIADIANLFG; // 0x88
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* CJFCODKGGAC; // 0x90

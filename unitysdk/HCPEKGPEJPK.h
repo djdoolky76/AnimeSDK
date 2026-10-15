@@ -4,14 +4,14 @@
 #include "unitysdk/BFOGLEGJOLK.h"
 #include "unitysdk/HCPEKGPEJPK_MBCBPPIHPAO.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator_2.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 class OFLIAAOJPJC;
 namespace RPG::GameCore { class PerformanceSkipPackRow; }
 namespace RPG::GameCore { template <typename T1, typename T2> class TableLRUCache_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -47,9 +47,9 @@ inline static constexpr unsigned int HCPEKGPEJPK_TypeDefinitionIndex = 14369;
 			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceSkipPackRow*>**)UnitySDK::FromName("", "HCPEKGPEJPK")->GetStaticField(0x1BF38);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "HCPEKGPEJPK")->GetStaticField(0x1BF40);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HCPEKGPEJPK")->GetStaticField(0x1BF40);
 		}
 
 		static ::System::String** StaticGet_PCJBKGCDGPO()
@@ -132,9 +132,9 @@ inline static constexpr unsigned int HCPEKGPEJPK_TypeDefinitionIndex = 14369;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HCPEKGPEJPK_KACCGMCPAFN_OFFSET))();
 		}
 
-		static ::System::Void MDDEBCEINEJ(::System::ValueTuple a1, ::RPG::GameCore::PerformanceSkipPackRow* a2)
+		static ::System::Void MDDEBCEINEJ(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1, ::RPG::GameCore::PerformanceSkipPackRow* a2)
 		{
-			return ((::System::Void(*)(::System::ValueTuple, ::RPG::GameCore::PerformanceSkipPackRow*))((::PBYTE)hIl2Cpp + HCPEKGPEJPK_MDDEBCEINEJ_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>, ::RPG::GameCore::PerformanceSkipPackRow*))((::PBYTE)hIl2Cpp + HCPEKGPEJPK_MDDEBCEINEJ_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean OKONOOJEJMJ(::HCPEKGPEJPK_MBCBPPIHPAO a1, ::RPG::GameCore::PerformanceSkipPackRow* a2)

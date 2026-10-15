@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class ReactivateAccountManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDDC3E0)
 #define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDC3D0)
@@ -32,9 +33,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_CCTOR_OFFSET))();
 		}
 
-		::System::Void Show(::System::Action* a1, ::System::Action* a2)
+		::System::Void Show(::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* a1, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_SHOW_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_SHOW_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void HIde()

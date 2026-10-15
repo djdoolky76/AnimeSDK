@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 class BCFAKEGJPKN;
 class INKNLLODDHF;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class Action; }
 namespace System { class IDisposable; }
@@ -42,9 +42,9 @@ inline static constexpr unsigned int PDMBLCALNPD_TypeDefinitionIndex = 79574;
 		::System::Boolean BKNBBJPLPHO; // 0x38
 		::System::Byte _padding0[0x7];
 		::RPG::Client::TextID _HintCanSubmit_k__BackingField; // 0x40
-		::System::Void _ctor(::R3::Observable* a1)
+		::System::Void _ctor(::R3::Observable_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::R3::Observable*))((::PBYTE)hIl2Cpp + PDMBLCALNPD_CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::R3::Observable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + PDMBLCALNPD_CTOR_OFFSET))(this, a1);
 		}
 
 		::BCFAKEGJPKN* get_CustomerActor()
@@ -92,9 +92,9 @@ inline static constexpr unsigned int PDMBLCALNPD_TypeDefinitionIndex = 79574;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PDMBLCALNPD_REMOVE_HANDLEHINTCANSUBMIT_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* OAJFEAHMMOK()
+		::R3::Observable_1<::System::Collections::Immutable::IImmutableSet_1<::System::UInt32>*>* OAJFEAHMMOK()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + PDMBLCALNPD_OAJFEAHMMOK_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Collections::Immutable::IImmutableSet_1<::System::UInt32>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PDMBLCALNPD_OAJFEAHMMOK_OFFSET))(this);
 		}
 
 		::System::Void DIOEAJEHHND()

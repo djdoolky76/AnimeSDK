@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector2.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
@@ -11,7 +12,6 @@ namespace RPG::Client { class MarbleBattleInputHandler_MarbleForceLaunchConfig; 
 namespace RPG::Client { class MarbleBattleSealData; }
 namespace RPG::Client { class MarbleModule; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Animator; }
@@ -132,9 +132,9 @@ namespace RPG::Client
 		::UnityEngine::GameObject* SealEntityPanelPrefab; // 0xF0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::GameObject*>* _SealEntityPanels; // 0xF8
 		::System::Single _NextSyncTime; // 0x100
-		::System::Nullable* _ChargeCirleMinY; // 0x104
-		::System::Nullable* _PredictionLineMinY; // 0x10C
-		::System::Nullable* _SealEntityPanelMinY; // 0x114
+		::System::Nullable_1<::System::Single> _ChargeCirleMinY; // 0x104
+		::System::Nullable_1<::System::Single> _PredictionLineMinY; // 0x10C
+		::System::Nullable_1<::System::Single> _SealEntityPanelMinY; // 0x114
 		::RPG::MVector2 _EnemyFactorVector; // 0x11C
 		::System::Boolean _ShowingRemoteOperation; // 0x124
 		::System::Boolean _UsingHintColor; // 0x125

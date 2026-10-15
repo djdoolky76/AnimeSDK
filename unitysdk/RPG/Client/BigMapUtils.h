@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/PropState.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/MVector2.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -22,7 +23,6 @@ namespace RPG::GameCore { class MapEntryRow; }
 namespace RPG::GameCore { class MappingInfoRow; }
 namespace RPG::GameCore { class MazeFloorConnectivityRow; }
 namespace RPG::GameCore { class SubMissionRow; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -452,9 +452,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS__GETREGIONID_OFFSET))(a1);
 		}
 
-		static ::System::Nullable* GetPlayerPosition()
+		static ::System::Nullable_1<::UnityEngine::Vector3> GetPlayerPosition()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLAYERPOSITION_OFFSET))();
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPUTILS_GETPLAYERPOSITION_OFFSET))();
 		}
 
 	};

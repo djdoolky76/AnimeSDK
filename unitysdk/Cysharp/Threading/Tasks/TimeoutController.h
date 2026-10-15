@@ -6,8 +6,8 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/TimeSpan.h"
 namespace Cysharp::Threading::Tasks { class PlayerLoopTimer; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationTokenSource; }
 
 #define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CANCELCANCELLATIONTOKENSOURCESTATE_OFFSET UNITYSDK_OFFSET(0x1F1260E0)
@@ -34,9 +34,9 @@ namespace Cysharp::Threading::Tasks
 		::Cysharp::Threading::Tasks::PlayerLoopTiming delayTiming; // 0x30
 		::Cysharp::Threading::Tasks::DelayType delayType; // 0x34
 		::System::Boolean isDisposed; // 0x38
-		static ::System::Action** StaticGet_CancelCancellationTokenSourceStateDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_CancelCancellationTokenSourceStateDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TimeoutController")->GetStaticField(0x40840);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TimeoutController")->GetStaticField(0x40840);
 		}
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::DelayType a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2)

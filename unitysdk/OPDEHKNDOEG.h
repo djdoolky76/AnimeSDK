@@ -5,9 +5,9 @@ class HIOEAKHGILF;
 class NAKCDHDLNEI;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace UnityEngine { class Collider; }
 
 #define OPDEHKNDOEG_AEIBOMEBHIP_OFFSET UNITYSDK_OFFSET(0xBFA6850)
@@ -30,9 +30,9 @@ inline static constexpr unsigned int OPDEHKNDOEG_TypeDefinitionIndex = 77065;
 	class OPDEHKNDOEG : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* NOKMKIGKHEK; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* NOKMKIGKHEK; // 0x10
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x18
-		::Entitas::ICollector* KAEEODHJBOG; // 0x20
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* KAEEODHJBOG; // 0x20
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x28
 		::System::Boolean ABKMPGNDAHO; // 0x30
 		// static const ::System::String* OGHOILEJMIM; // 0x0
@@ -76,9 +76,9 @@ inline static constexpr unsigned int OPDEHKNDOEG_TypeDefinitionIndex = 77065;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + OPDEHKNDOEG_LAENGGLFBMD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void IPENLBMIPJL(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void IPENLBMIPJL(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + OPDEHKNDOEG_IPENLBMIPJL_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + OPDEHKNDOEG_IPENLBMIPJL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void CFDLOJLBKFG()

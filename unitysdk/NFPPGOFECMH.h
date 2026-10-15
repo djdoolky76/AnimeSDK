@@ -6,6 +6,7 @@
 #include "unitysdk/RPG/Client/LittleGame/MovieGameMode.h"
 #include "unitysdk/RPG/Client/LittleGame/MovieLevelState.h"
 #include "unitysdk/RPG/Client/LittleGame/PlayerHitReason.h"
+#include "unitysdk/System/Nullable_1.h"
 class APJJLMCOLFM;
 class APOCIBEFCEJ;
 class BJHEOCMKDPE;
@@ -20,7 +21,6 @@ class OOBKHOJLDPN;
 class OOMEABJAGJE;
 namespace RPG::Client::LittleGame { class MovieGameModeComponent; }
 namespace RPG::Client::LittleGame { class MovieGameStatisticComponent; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define NFPPGOFECMH_AAIOPLGFFGD_OFFSET UNITYSDK_OFFSET(0x1C959220)
@@ -132,9 +132,9 @@ inline static constexpr unsigned int NFPPGOFECMH_TypeDefinitionIndex = 42379;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NFPPGOFECMH_CCTOR_OFFSET))();
 		}
 
-		::System::Void KCAJMOLOPGJ(::System::Nullable* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Nullable* a6, ::System::Nullable* a7, ::System::Nullable* a8, ::System::Nullable* a9, ::System::Nullable* a10)
+		::System::Void KCAJMOLOPGJ(::System::Nullable_1<::System::Single> a1, ::System::Nullable_1<::System::Int32> a2, ::System::Nullable_1<::System::Int32> a3, ::System::Nullable_1<::System::Int32> a4, ::System::Nullable_1<::System::Single> a5, ::System::Nullable_1<::System::Int32> a6, ::System::Nullable_1<::System::Int32> a7, ::System::Nullable_1<::System::Int32> a8, ::System::Nullable_1<::System::Int32> a9, ::System::Nullable_1<::System::Int32> a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + NFPPGOFECMH_KCAJMOLOPGJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + NFPPGOFECMH_KCAJMOLOPGJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
 		::HHGHOEPAFCD* OBKFNIINLNF()

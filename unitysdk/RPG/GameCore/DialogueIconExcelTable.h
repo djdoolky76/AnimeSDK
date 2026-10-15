@@ -6,8 +6,8 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DialogueIconRow; }
 namespace RPG::GameCore { class JsonEnum; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "DialogueIconExcelTable")->GetStaticField(0x20010);
 		}
 
-		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "DialogueIconExcelTable")->GetStaticField(0x20018);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "DialogueIconExcelTable")->GetStaticField(0x20018);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DialogueIconRow*>** StaticGet_dataDict_()

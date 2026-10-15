@@ -4,6 +4,7 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCAA6B0)
 #define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS24_0__REQUESTCROSSLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1BCAA8C0)
@@ -19,7 +20,7 @@ namespace MiHoYo::SDK::Console
 	public:
 		::System::Action* webCloseCallback; // 0x10
 		::System::String* dest; // 0x18
-		::System::Action* openWeb; // 0x20
+		::System::Action_1<::System::String*>* openWeb; // 0x20
 		::System::Action* __9__2; // 0x28
 		::System::Void _ctor()
 		{

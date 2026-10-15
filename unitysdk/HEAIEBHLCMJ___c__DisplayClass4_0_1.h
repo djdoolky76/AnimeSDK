@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class HEAIEBHLCMJ;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 inline static constexpr unsigned int HEAIEBHLCMJ___c__DisplayClass4_0_1_TypeDefinitionIndex = 59919;
 
@@ -13,6 +13,6 @@ inline static constexpr unsigned int HEAIEBHLCMJ___c__DisplayClass4_0_1_TypeDefi
 	public:
 		::System::Int32 callbackID; // 0x0
 		::HEAIEBHLCMJ* __4__this; // 0x0
-		::System::Action* callback; // 0x0
+		::System::Action_2<T, ::System::Object*>* callback; // 0x0
 		::System::Object* userData; // 0x0
 	};

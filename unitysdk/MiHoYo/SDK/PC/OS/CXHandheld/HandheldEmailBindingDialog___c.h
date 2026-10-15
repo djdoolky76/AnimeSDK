@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldEmailBindingDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEF0DC0)
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF0E00)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 	class HandheldEmailBindingDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__71_0()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>** StaticGet___9__71_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x12760);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x12760);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/ChronicleStatus.h"
 #include "unitysdk/RPG/Client/MainChronicleConnectionWay.h"
 #include "unitysdk/RPG/Client/MissionChronicleBasePathData.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class MainMissionData; }
 namespace RPG::Client { class MissionChronicleMainPathData; }
 namespace RPG::Client { class MissionChronicleSubPathData; }
@@ -118,9 +118,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA_ISCANSTEPNEXTPATH_OFFSET))(this);
 		}
 
-		::System::ValueTuple GetAllSubGraphMissionID()
+		::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*> GetAllSubGraphMissionID()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA_GETALLSUBGRAPHMISSIONID_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEMAINPATHDATA_GETALLSUBGRAPHMISSIONID_OFFSET))(this);
 		}
 
 		::System::Boolean IsConnectMissionFinish()

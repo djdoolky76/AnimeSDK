@@ -8,6 +8,8 @@ class PLLPNJOEDHF;
 namespace RPG::Client::ActivityIdleLive { class PendingEquipData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 
 #define FLKGLAHINMI_AHMDGKINKML_OFFSET UNITYSDK_OFFSET(0x15837660)
@@ -42,7 +44,7 @@ inline static constexpr unsigned int FLKGLAHINMI_TypeDefinitionIndex = 75316;
 		::JEHJILAJKAC* COOFMBLDBHM; // 0x30
 		::RPG::Client::ActivityIdleLive::PendingEquipData* MOOMGCPHJNJ; // 0x38
 		::CBNNMKNBLDI* CAAKPOLLAHI; // 0x40
-		::RPG::Client::Promises::Promise* KLGMDEBCFIL; // 0x48
+		::RPG::Client::Promises::Promise_1<::RPG::Client::ActivityIdleLive::PendingEquipData*>* KLGMDEBCFIL; // 0x48
 		::JEHJILAJKAC* JLEFHBGCHCE; // 0x50
 		::RPG::Client::ActivityIdleLive::PendingEquipData* BCOOHEGFGJA; // 0x58
 		::JEHJILAJKAC* DLDIPJMHJJJ; // 0x60
@@ -126,9 +128,9 @@ inline static constexpr unsigned int FLKGLAHINMI_TypeDefinitionIndex = 75316;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::PendingEquipData*))((::PBYTE)hIl2Cpp + FLKGLAHINMI_NPNGECDNMML_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* PCBILOLFONI(::System::Boolean a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::PendingEquipData*>* PCBILOLFONI(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + FLKGLAHINMI_PCBILOLFONI_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::PendingEquipData*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + FLKGLAHINMI_PCBILOLFONI_OFFSET))(this, a1);
 		}
 
 		::System::Void FNAJAPKANDN(::System::UInt16 a1, ::System::Object* a2)

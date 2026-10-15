@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { template <typename T> class Action_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
 
 #define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F66C1C0)
@@ -18,7 +19,7 @@ namespace ZenFulcrum::EmbeddedBrowser
 	public:
 		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x10
 		::System::Action* onResolved; // 0x18
-		::System::Action* onRejected; // 0x20
+		::System::Action_1<::System::Exception*>* onRejected; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS46_0_CTOR_OFFSET))(this);

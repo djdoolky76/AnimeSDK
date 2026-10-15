@@ -12,6 +12,7 @@
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/HitboxEnableReason.h"
 #include "unitysdk/RPG/GameCore/TurnState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class ACHPKKLGLNI;
 class EKFMIDBJDIA;
@@ -25,7 +26,6 @@ namespace RPG::GameCore { class CharacterVisibleComponent; }
 namespace RPG::GameCore { class ColliderGroup; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GroupedColliderConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -261,16 +261,16 @@ namespace RPG::GameCore
 		::RPG::Client::DitherSourcePriority _DitherHideReason_k__BackingField; // 0x168
 		::System::Int32 _EffectLoadingHideCount_k__BackingField; // 0x16C
 		::System::Boolean _IsForbidCameraDither_k__BackingField; // 0x170
-		::System::Nullable* _EnableUpdateOffScreen; // 0x171
+		::System::Nullable_1<::System::Boolean> _EnableUpdateOffScreen; // 0x171
 		::System::Boolean _LockStencilIndex; // 0x173
 		::System::Boolean _MainColliderDefaultEnable; // 0x174
-		::System::Nullable* _EnableSkinning; // 0x175
+		::System::Nullable_1<::System::Boolean> _EnableSkinning; // 0x175
 		::System::Boolean _DitherAlphaVisible_k__BackingField; // 0x177
 		::System::Boolean _DefaultHitboxEnable; // 0x178
-		::System::Nullable* _ShadowCastingModeVisible; // 0x179
+		::System::Nullable_1<::System::Boolean> _ShadowCastingModeVisible; // 0x179
 		::RPG::Client::ReasonBool_1<::RPG::GameCore::ColliderEnableReason> _MainColliderEnableAfterModified_GroupedCollider; // 0x180
 		::System::Int32 _CustomInvisibleCounter; // 0x188
-		::System::Nullable* _RendererLayerMask; // 0x18C
+		::System::Nullable_1<::System::UInt32> _RendererLayerMask; // 0x18C
 		::UnityEngine::Vector3 _DefaultHitboxPosition; // 0x194
 		::System::Int32 _boundUpdateGapFrame; // 0x1A0
 		::System::Boolean _IsMute; // 0x1A4
@@ -280,7 +280,7 @@ namespace RPG::GameCore
 		::System::Int32 _boundUpdateFrameIndex; // 0x1A8
 		::System::Byte _padding1[0x4];
 		::System::UInt64 _ReasonMainColliderDisableIndex; // 0x1B0
-		::System::Nullable* _AllColliderEnableAfterModified_Legacy; // 0x1B8
+		::System::Nullable_1<::RPG::Client::ReasonBool_1<::RPG::GameCore::ColliderEnableReason>> _AllColliderEnableAfterModified_Legacy; // 0x1B8
 		::System::Byte _padding2[0x8];
 		::RPG::Client::ReasonBool_1<::RPG::GameCore::ColliderEnableReason> _ArtCollidersEnable_Grouped; // 0x1C8
 		::System::UInt64 _ReasonRenderForceVisibleIndex; // 0x1D0
@@ -290,7 +290,7 @@ namespace RPG::GameCore
 		::System::Int32 _RendererVisibilityFlipRemainedDelay; // 0x1DC
 		::RPG::GameCore::CharacterVisibilityFollowState _TransmitVisibilityState; // 0x1E0
 		::RPG::GameCore::CharacterVisibilityFollowState _FollowVisibilityState; // 0x1E4
-		::System::Nullable* _MainColliderEnableAfterModified_Legacy; // 0x1E8
+		::System::Nullable_1<::RPG::Client::ReasonBool_1<::RPG::GameCore::ColliderEnableReason>> _MainColliderEnableAfterModified_Legacy; // 0x1E8
 		::System::Byte _padding3[0x8];
 		::System::UInt64 _ReasonRenderVisibleIndex; // 0x1F8
 		::System::Boolean _IsAutoVisibleListenerRegistered; // 0x200

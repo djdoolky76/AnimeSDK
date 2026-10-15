@@ -3,9 +3,10 @@
 #include "unitysdk/System/Object.h"
 class CANDJPJDHMO;
 class HIOEAKHGILF;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 
 #define CANDJPJDHMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC492FE0)
@@ -22,34 +23,34 @@ inline static constexpr unsigned int CANDJPJDHMO___c_TypeDefinitionIndex = 77120
 	class CANDJPJDHMO___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__13_0()
+		static ::System::Action_3<::CANDJPJDHMO*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__13_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C50);
+			return (::System::Action_3<::CANDJPJDHMO*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C50);
 		}
 
-		static ::System::Action** StaticGet___9__3_0()
+		static ::System::Action_1<::CANDJPJDHMO*>** StaticGet___9__3_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C58);
+			return (::System::Action_1<::CANDJPJDHMO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C58);
 		}
 
-		static ::System::Action** StaticGet___9__12_1()
+		static ::System::Action_3<::CANDJPJDHMO*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__12_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C60);
+			return (::System::Action_3<::CANDJPJDHMO*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C60);
 		}
 
-		static ::System::Action** StaticGet___9__12_0()
+		static ::System::Action_3<::CANDJPJDHMO*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__12_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C68);
+			return (::System::Action_3<::CANDJPJDHMO*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C68);
 		}
 
-		static ::System::Action** StaticGet___9__13_1()
+		static ::System::Action_3<::CANDJPJDHMO*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__13_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C70);
+			return (::System::Action_3<::CANDJPJDHMO*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C70);
 		}
 
-		static ::System::Action** StaticGet___9__29_0()
+		static ::System::Action_3<::CANDJPJDHMO*, ::System::Int32, ::System::String*>** StaticGet___9__29_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C78);
+			return (::System::Action_3<::CANDJPJDHMO*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10C78);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -6,6 +6,7 @@
 #include "unitysdk/RPG/GameCore/EMazeLockTargetState.h"
 #include "unitysdk/RPG/GameCore/EMazeLockTargetUIState.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class CCKKOKJIIDO;
@@ -15,7 +16,6 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PlayerLockTargetWeightOverrideConfig; }
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -125,10 +125,10 @@ namespace RPG::GameCore
 		::UnityEngine::Vector3 _playerInputDirection; // 0x140
 		::UnityEngine::Vector2 _SelfPosXZ; // 0x14C
 		::UnityEngine::Vector3 _mainOriginForward; // 0x154
-		::System::Nullable* _OverrideNotPropAdditiveScore; // 0x160
+		::System::Nullable_1<::System::Single> _OverrideNotPropAdditiveScore; // 0x160
 		::UnityEngine::Vector3 _selfPos; // 0x168
 		::System::Single LockUIDistanceOffset; // 0x174
-		::System::Nullable* _OverrideMaxCheckDistanceXZ; // 0x178
+		::System::Nullable_1<::System::Single> _OverrideMaxCheckDistanceXZ; // 0x178
 		::System::Single _unlockScoreRatio; // 0x180
 		::System::Single _lockTime; // 0x184
 		::System::Single _monsterWeight; // 0x188

@@ -8,6 +8,7 @@ namespace MiHoYo::SDK { class NetworkManager; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_NETWORKMANAGER__GET_D__34_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAE550)
@@ -29,7 +30,7 @@ namespace MiHoYo::SDK
 		::System::Action* timeoutCallback; // 0x18
 		::MiHoYo::SDK::NetworkManager* __4__this; // 0x20
 		::System::Object* __2__current; // 0x28
-		::System::Action* callback; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _newHeaders_5__1; // 0x38
 		::System::String* _key_5__5; // 0x40
 		::MiHoYo::SDK::JSONNode_KeyEnumerator __s__4; // 0x48

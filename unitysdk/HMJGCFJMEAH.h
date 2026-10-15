@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/MonsterEnergyBarNumColor.h"
 #include "unitysdk/RPG/GameCore/MonsterEnergyBarType.h"
+#include "unitysdk/System/Nullable_1.h"
 class MDDJNELCOMK;
 namespace RPG::GameCore { class MonsterEnergyBarBaseClickConfig; }
 namespace RPG::GameCore { class MonsterEnergyBarCustomColor; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -15,22 +15,22 @@ inline static constexpr unsigned int HMJGCFJMEAH_TypeDefinitionIndex = 55539;
 
 	struct alignas(8) HMJGCFJMEAH
 	{
-		::System::Nullable* CAGCHKJHMPD; // 0x10
-		::System::Nullable* OMKOELNJMGO; // 0x12
+		::System::Nullable_1<::System::Boolean> CAGCHKJHMPD; // 0x10
+		::System::Nullable_1<::System::Boolean> OMKOELNJMGO; // 0x12
 		::RPG::GameCore::EnergyBarState MEPFOEEGBEA; // 0x14
-		::System::Nullable* IMPAJLCMHFP; // 0x18
-		::System::Nullable* EOIHOACNHDH; // 0x20
-		::System::Nullable* EIADCADKKDN; // 0x28
+		::System::Nullable_1<::System::Int32> IMPAJLCMHFP; // 0x18
+		::System::Nullable_1<::System::Int32> EOIHOACNHDH; // 0x20
+		::System::Nullable_1<::System::Int32> EIADCADKKDN; // 0x28
 		::System::String* OLOIFNNLKJP; // 0x30
 		::System::String* FCAHMLGMDMN; // 0x38
 		::System::String* JKMABBEGEAH; // 0x40
 		::System::String* ECLCEDOLOBG; // 0x48
 		::System::String* KOOOKCNNPFE; // 0x50
-		::System::Nullable* HOCMHABKLGJ; // 0x58
+		::System::Nullable_1<::RPG::GameCore::FixPoint> HOCMHABKLGJ; // 0x58
 		::System::Byte _padding0[0x8];
-		::System::Nullable* APHMDCIGKEK; // 0x68
+		::System::Nullable_1<::RPG::GameCore::FixPoint> APHMDCIGKEK; // 0x68
 		::System::Byte _padding1[0x8];
-		::System::Nullable* JADMAPDKLKL; // 0x78
+		::System::Nullable_1<::RPG::GameCore::FixPoint> JADMAPDKLKL; // 0x78
 		::System::Byte _padding2[0x8];
 		::RPG::GameCore::MonsterEnergyBarType OPFMFGGBAKC; // 0x88
 		::System::Byte _padding3[0x4];

@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/MuseumTalkTriggerType.h"
 #include "unitysdk/RPG/GameCore/MuseumTalkType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class BDDMKOIHCPK;
 class DEEJKBIMHAA;
@@ -23,7 +24,6 @@ namespace RPG::GameCore { class MuseumActivityQuestConfigRow; }
 namespace RPG::GameCore { class MuseumCommentsRow; }
 namespace RPG::GameCore { class MuseumDeskTalkConfigRow; }
 namespace RPG::GameCore { class MuseumTutorialTalkRow; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -242,7 +242,7 @@ namespace RPG::Client
 		::RPG::Client::MainMissionData* _CurForceMissionData; // 0x130
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MainMissionData*>* _AllMissionData; // 0x138
 		::System::UInt32 _MuseumMissionChapterID; // 0x140
-		::System::Nullable* _PhaseUpgradeNotify; // 0x144
+		::System::Nullable_1<::System::UInt32> _PhaseUpgradeNotify; // 0x144
 		::System::Boolean _IsInPerfomance; // 0x14C
 		::System::Boolean _IsAllAreaGotFullRenewPoint_k__BackingField; // 0x14D
 		::System::Boolean _IsAlreadyFinish; // 0x14E

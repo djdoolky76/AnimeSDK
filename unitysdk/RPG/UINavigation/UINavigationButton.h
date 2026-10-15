@@ -4,8 +4,8 @@
 #include "unitysdk/EJOHEMFHNAH.h"
 class FHENBGFPCCB;
 namespace RPG::UINavigation { class UINavigationInControlAction; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class AxisEventData; }
@@ -63,7 +63,7 @@ namespace RPG::UINavigation
 		::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigationInControlAction*>* _ControlActions; // 0xE0
 		::System::Boolean _IsSelected; // 0xE8
 		::System::Byte _padding2[0x7];
-		::System::Action* _OnSelectionChanged; // 0xF0
+		::System::Action_1<::System::Boolean>* _OnSelectionChanged; // 0xF0
 		// static const ::System::String* _DefaultActionHintName; // 0x0
 		::System::Void _ctor()
 		{
@@ -80,14 +80,14 @@ namespace RPG::UINavigation
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_GET_ISSELECTED_OFFSET))(this);
 		}
 
-		::System::Void add__OnSelectionChanged(::System::Action* a1)
+		::System::Void add__OnSelectionChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_ADD__ONSELECTIONCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_ADD__ONSELECTIONCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove__OnSelectionChanged(::System::Action* a1)
+		::System::Void remove__OnSelectionChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_REMOVE__ONSELECTIONCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_REMOVE__ONSELECTIONCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -160,14 +160,14 @@ namespace RPG::UINavigation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_CLEARCUSTOMINCONTROLACTIONS_OFFSET))(this);
 		}
 
-		::System::Void AddSelectionChangedCallback(::System::Action* a1)
+		::System::Void AddSelectionChangedCallback(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_ADDSELECTIONCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_ADDSELECTIONCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveSelectionChangedCallback(::System::Action* a1)
+		::System::Void RemoveSelectionChangedCallback(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_REMOVESELECTIONCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONBUTTON_REMOVESELECTIONCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void AddInControlAction(::RPG::UINavigation::UINavigationInControlAction* a1)

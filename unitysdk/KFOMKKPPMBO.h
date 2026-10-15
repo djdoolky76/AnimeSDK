@@ -10,7 +10,7 @@ namespace RPG::Client { class FlipDevicePoint; }
 namespace RPG::Client { class PartialFlipDeviceComponent; }
 namespace RPG::Client { class RangeLimitCollider; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
@@ -43,7 +43,7 @@ inline static constexpr unsigned int KFOMKKPPMBO_TypeDefinitionIndex = 60519;
 		::RPG::Client::RangeLimitCollider* DIJHGLNHBEN; // 0x18
 		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* NICPGBKGLPL; // 0x20
 		::UnityEngine::Transform* MEMMLNBHMHA; // 0x28
-		::System::Action* MECKBKLEHAN; // 0x30
+		::System::Action_1<::RPG::Client::PartialFlipDeviceComponent*>* MECKBKLEHAN; // 0x30
 		::RPG::Client::ConeSphereTrigger* NIMOCLGFFLE; // 0x38
 		::RPG::Client::PartialFlipDeviceComponent* HDDOOONCFPA; // 0x40
 		::RPG::Client::ConeSphereTrigger* LANKKDMNGHG; // 0x48
@@ -70,9 +70,9 @@ inline static constexpr unsigned int KFOMKKPPMBO_TypeDefinitionIndex = 60519;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KFOMKKPPMBO_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void IMMJPJEACGB(::RPG::Client::FlipDevicePoint* a1, ::RPG::Client::FlipDevicePoint* a2, ::System::Action* a3)
+		::System::Void IMMJPJEACGB(::RPG::Client::FlipDevicePoint* a1, ::RPG::Client::FlipDevicePoint* a2, ::System::Action_1<::RPG::Client::PartialFlipDeviceComponent*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FlipDevicePoint*, ::RPG::Client::FlipDevicePoint*, ::System::Action*))((::PBYTE)hIl2Cpp + KFOMKKPPMBO_IMMJPJEACGB_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FlipDevicePoint*, ::RPG::Client::FlipDevicePoint*, ::System::Action_1<::RPG::Client::PartialFlipDeviceComponent*>*))((::PBYTE)hIl2Cpp + KFOMKKPPMBO_IMMJPJEACGB_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void FJOPMPOMAJH()

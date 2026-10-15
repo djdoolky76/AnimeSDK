@@ -5,9 +5,9 @@
 #include "unitysdk/RPG/GameCore/PropDayOfWeekAction.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
 #include "unitysdk/RPG/GameCore/PropType.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class CocoonRow; }
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -36,7 +36,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::PropComponent* _parentCmptRef; // 0x18
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PropDayOfWeekAction, ::BIIDCBCCAHE>* _AnimActionParamDict; // 0x20
 		::RPG::GameCore::PropType _PropType; // 0x28
-		::System::Nullable* _IsActive; // 0x2C
+		::System::Nullable_1<::System::Boolean> _IsActive; // 0x2C
 		static ::System::String** StaticGet_IS_DORMANT_PARAM()
 		{
 			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "PropDayOfWeekComponent")->GetStaticField(0x6C780);

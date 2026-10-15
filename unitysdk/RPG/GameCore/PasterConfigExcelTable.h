@@ -5,9 +5,9 @@
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PasterConfigRow; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -48,9 +48,9 @@ namespace RPG::GameCore
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "PasterConfigExcelTable")->GetStaticField(0x44488);
 		}
 
-		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "PasterConfigExcelTable")->GetStaticField(0x44490);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "PasterConfigExcelTable")->GetStaticField(0x44490);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet__CommonPasterIDs()

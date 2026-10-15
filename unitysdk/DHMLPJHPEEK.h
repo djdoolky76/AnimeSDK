@@ -4,14 +4,14 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 class IMFPIFAMEHE;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define DHMLPJHPEEK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD22F30)
 #define DHMLPJHPEEK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD234B0)
@@ -33,9 +33,9 @@ inline static constexpr unsigned int DHMLPJHPEEK_TypeDefinitionIndex = 14392;
 	class DHMLPJHPEEK : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x4CA20);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x4CA20);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
@@ -78,9 +78,9 @@ inline static constexpr unsigned int DHMLPJHPEEK_TypeDefinitionIndex = 14392;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::IMFPIFAMEHE*>(*)())((::PBYTE)hIl2Cpp + DHMLPJHPEEK_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::IMFPIFAMEHE*>, ::IMFPIFAMEHE*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + DHMLPJHPEEK_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::IMFPIFAMEHE*>, ::IMFPIFAMEHE*>(*)())((::PBYTE)hIl2Cpp + DHMLPJHPEEK_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::IMFPIFAMEHE* LMBKNCAIDLC(::System::UInt32 a1)

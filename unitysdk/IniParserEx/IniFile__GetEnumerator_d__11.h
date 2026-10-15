@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace IniParserEx { class IniFile; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define INIPARSEREX_INIFILE__GETENUMERATOR_D__11_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C6B70)
 #define INIPARSEREX_INIFILE__GETENUMERATOR_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F3C7630)
@@ -24,12 +24,12 @@ namespace IniParserEx
 	public:
 		::System::Int32 __1__state; // 0x10
 		::System::Byte _padding0[0x4];
-		::System::Collections::Generic::KeyValuePair* __2__current; // 0x18
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> __2__current; // 0x18
 		::System::Byte _padding1[0x8];
 		::IniParserEx::IniFile* __4__this; // 0x28
 		::System::Object* __s__1; // 0x30
 		::System::Byte _padding2[0x20];
-		::System::Collections::Generic::KeyValuePair* _keyValuePair_5__2; // 0x58
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> _keyValuePair_5__2; // 0x58
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE__GETENUMERATOR_D__11_CTOR_OFFSET))(this, a1);
@@ -50,9 +50,9 @@ namespace IniParserEx
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE__GETENUMERATOR_D__11___M__FINALLY1_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::KeyValuePair* System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_IniParserEx_IniFile_Section___get_Current()
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_IniParserEx_IniFile_Section___get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE__GETENUMERATOR_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_INIPARSEREX_INIFILE_SECTION___GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE__GETENUMERATOR_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_INIPARSEREX_INIFILE_SECTION___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()

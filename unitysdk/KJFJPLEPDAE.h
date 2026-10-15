@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EAdventureAppearMode.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterModelComponent; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 
 #define KJFJPLEPDAE_APAJMCAAPEJ_OFFSET UNITYSDK_OFFSET(0xB449A10)
 #define KJFJPLEPDAE_BCLNCJPAKAH_OFFSET UNITYSDK_OFFSET(0xB449A80)
@@ -30,7 +30,7 @@ inline static constexpr unsigned int KJFJPLEPDAE_TypeDefinitionIndex = 56999;
 		::System::Boolean MCPGGJGKLGK; // 0x30
 		::System::Boolean KPEGOFGDPEA; // 0x31
 		::System::Byte _padding0[0x2];
-		::System::Nullable* JDMMAAEKFIL; // 0x34
+		::System::Nullable_1<::RPG::GameCore::EAdventureAppearMode> JDMMAAEKFIL; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJFJPLEPDAE_CTOR_OFFSET))(this);

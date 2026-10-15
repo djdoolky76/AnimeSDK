@@ -3,8 +3,8 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/MonoChenLingGameBoyInputBtn_InputInfo.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOCHENLINGGAMEBOYINPUTBTN_ADDINPUTHANDLER_OFFSET UNITYSDK_OFFSET(0xD456380)
@@ -26,15 +26,15 @@ namespace RPG::Client::LittleGame::FiveDim
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* _InputIdList; // 0x18
 		::System::String* _LastInputKey; // 0x20
-		::System::Action* _InputHandler; // 0x28
+		::System::Action_1<::System::String*>* _InputHandler; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOCHENLINGGAMEBOYINPUTBTN_CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddInputHandler(::System::Action* a1)
+		::System::Void AddInputHandler(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOCHENLINGGAMEBOYINPUTBTN_ADDINPUTHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOCHENLINGGAMEBOYINPUTBTN_ADDINPUTHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

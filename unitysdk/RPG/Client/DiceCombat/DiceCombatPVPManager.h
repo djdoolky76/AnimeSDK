@@ -3,7 +3,7 @@
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatPVPMode.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class COMJKPOMILA;
 class FMHEHLIFNGJ;
 namespace Google::Protobuf { class ByteString; }
@@ -14,6 +14,8 @@ namespace RPG::Client::DiceCombat { class OnOnGeneralRspDelegate; }
 namespace RPG::Client::DiceCombat { class OnServerConnectedDelegate; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC268B0)
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_CREATEPVPEXTINFO_OFFSET UNITYSDK_OFFSET(0xCC2ABE0)
@@ -69,7 +71,7 @@ namespace RPG::Client::DiceCombat
 	public:
 		::RPG::Client::DiceCombat::OnGeneralNotifyDelegate* _OnGeneralNotify; // 0x10
 		::RPG::Client::Promises::Promise* _StartReconnectGameplayPromise; // 0x18
-		::RPG::Client::Promises::Promise* _GetReconnectInfoPromise; // 0x20
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _GetReconnectInfoPromise; // 0x20
 		::RPG::Client::DiceCombat::OnServerConnectedDelegate* _OnServerConnected; // 0x28
 		::RPG::Client::Promises::Promise* _WaitServerConnectedPromise; // 0x30
 		::RPG::Client::DiceCombat::OnOnGeneralRspDelegate* _OnOnGeneralRsp; // 0x38
@@ -114,14 +116,14 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_STARTMATCHTHENCONNECTSERVER_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* EnterPVPLobby(::RPG::Client::DiceCombat::DiceCombatPVPMode a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* EnterPVPLobby(::RPG::Client::DiceCombat::DiceCombatPVPMode a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPVPMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_ENTERPVPLOBBY_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPVPMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_ENTERPVPLOBBY_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _DoCreateLobby(::RPG::Client::DiceCombat::DiceCombatPVPMode a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* _DoCreateLobby(::RPG::Client::DiceCombat::DiceCombatPVPMode a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPVPMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER__DOCREATELOBBY_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatPVPMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER__DOCREATELOBBY_OFFSET))(this, a1);
 		}
 
 		::System::Void InviteFriend(::System::UInt32 a1)
@@ -149,9 +151,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_SYNCRANKSCORE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* TryGetReconnectInfo()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* TryGetReconnectInfo()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_TRYGETRECONNECTINFO_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_TRYGETRECONNECTINFO_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::Promise* _WaitMatchResult()
@@ -269,9 +271,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatPVPLobby*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER_GET__CURRENTLOBBY_OFFSET))(this);
 		}
 
-		::System::Void _TryGetReconnectInfo_b__15_0(::System::ValueTuple a1)
+		::System::Void _TryGetReconnectInfo_b__15_0(::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER__TRYGETRECONNECTINFO_B__15_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER__TRYGETRECONNECTINFO_B__15_0_OFFSET))(this, a1);
 		}
 
 		::System::Void _TryGetReconnectInfo_b__15_1()

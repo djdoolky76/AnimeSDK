@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class FMOEFNOMPOG;
 class JBACCAGFHON;
@@ -134,9 +134,9 @@ inline static constexpr unsigned int FMOEFNOMPOG_TypeDefinitionIndex = 78032;
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::RPG::Client::TriggerEffectParams*))((::PBYTE)hIl2Cpp + FMOEFNOMPOG_HKHIAMPNPJK_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple MAPDACHABPC(::System::String* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
+		::System::ValueTuple_2<::System::Int32, ::UnityEngine::GameObject*> MAPDACHABPC(::System::String* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + FMOEFNOMPOG_MAPDACHABPC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::Int32, ::UnityEngine::GameObject*>(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + FMOEFNOMPOG_MAPDACHABPC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void BOIBNJNDIJP(::System::Int32 a1)

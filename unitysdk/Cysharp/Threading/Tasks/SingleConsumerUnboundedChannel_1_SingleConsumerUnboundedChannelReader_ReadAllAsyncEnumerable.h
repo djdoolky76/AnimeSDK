@@ -3,8 +3,8 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -14,8 +14,8 @@ namespace Cysharp::Threading::Tasks
 	class SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader_ReadAllAsyncEnumerable : public ::System::Object
 	{
 	public:
-		::System::Action* CancellationCallback1Delegate; // 0x0
-		::System::Action* CancellationCallback2Delegate; // 0x0
+		::System::Action_1<::System::Object*>* CancellationCallback1Delegate; // 0x0
+		::System::Action_1<::System::Object*>* CancellationCallback2Delegate; // 0x0
 		::System::Object* parent; // 0x0
 		::System::Threading::CancellationToken cancellationToken1; // 0x0
 		::System::Threading::CancellationToken cancellationToken2; // 0x0

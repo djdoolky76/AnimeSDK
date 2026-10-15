@@ -4,9 +4,9 @@
 class CBBPDLPAIPL;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class AlleyPlacingShip; }
@@ -41,14 +41,14 @@ namespace Proto
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::CBBPDLPAIPL*>* goodsList_; // 0x18
 		::System::UInt32 shipId_; // 0x20
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::AlleyPlacingShip*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "AlleyPlacingShip")->GetStaticField(0x43940);
+			return (::Google::Protobuf::MessageParser_1<::Proto::AlleyPlacingShip*>**)UnitySDK::FromName("Proto", "AlleyPlacingShip")->GetStaticField(0x43940);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_goodsList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::CBBPDLPAIPL*>** StaticGet__repeated_goodsList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "AlleyPlacingShip")->GetStaticField(0x43948);
+			return (::Google::Protobuf::FieldCodec_1<::CBBPDLPAIPL*>**)UnitySDK::FromName("Proto", "AlleyPlacingShip")->GetStaticField(0x43948);
 		}
 
 		// static const ::System::Object GoodsListFieldNumber; // 0x0
@@ -68,9 +68,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ALLEYPLACINGSHIP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::AlleyPlacingShip*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_ALLEYPLACINGSHIP_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::AlleyPlacingShip*>*(*)())((::PBYTE)hIl2Cpp + PROTO_ALLEYPLACINGSHIP_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

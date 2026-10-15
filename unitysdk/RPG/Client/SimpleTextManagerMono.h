@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/SimpleTextManagerMono_BatchState.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/Unity/Profiling/ProfilerMarker.h"
 #include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
@@ -78,7 +78,7 @@ namespace RPG::Client
 		::UnityEngine::Material* DDONFNGMNOI; // 0x20
 		::UnityEngine::Material* CGHKHJEBJNP; // 0x28
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::UnityEngine::Material*>* MMAIKIMKCJF; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* ENILFCNHPAN; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::Font*, ::System::Int32>, ::System::Object*>* ENILFCNHPAN; // 0x38
 		::RPG::Client::SimpleTextManagerMono_PFEPEAGNFNN* BCLKFHBHBEM; // 0x40
 		::UnityEngine::Canvas* HEDBJGFDNBN; // 0x48
 		::RPG::Client::SimpleTextTextureConfig* FMHLDDIPMHI; // 0x50
@@ -92,7 +92,7 @@ namespace RPG::Client
 		::Il2CppArray<::System::Int32>* MBJCFDJCLNM; // 0x90
 		::System::Int32 KGKLENNICOL; // 0x98
 		::System::Byte _padding0[0x4];
-		::Il2CppArray<::System::ValueTuple>* ELFCMCHGFPG; // 0xA0
+		::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* ELFCMCHGFPG; // 0xA0
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::Collections::Pooled::PooledList_1<::RPG::Client::SimpleText*>*>* MALFNOKKIGG; // 0xA8
 		::System::Func_3<::RPG::Client::SimpleText*, ::RPG::Client::SimpleText*, ::System::Int32>* OPLAGNIIBEC; // 0xB0
 		::System::Boolean HENBOOJOPFO; // 0xB8
@@ -251,9 +251,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::SimpleText*, ::UnityEngine::Matrix4x4, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMPLETEXTMANAGERMONO_DBHHDMLNNDC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NKMCDHLFAOI(::UnityEngine::Font* a1, ::UnityEngine::Font* a2, ::Il2CppArray<::System::ValueTuple>* a3, ::UnityEngine::Vector4 a4)
+		::System::Void NKMCDHLFAOI(::UnityEngine::Font* a1, ::UnityEngine::Font* a2, ::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* a3, ::UnityEngine::Vector4 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Font*, ::UnityEngine::Font*, ::Il2CppArray<::System::ValueTuple>*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMPLETEXTMANAGERMONO_NKMCDHLFAOI_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Font*, ::UnityEngine::Font*, ::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMPLETEXTMANAGERMONO_NKMCDHLFAOI_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void IPICLPBNJNF(::System::Int32 a1)

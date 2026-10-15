@@ -16,6 +16,7 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
@@ -138,7 +139,7 @@ namespace SuperScrollView
 		::System::Action* mOnBeginDragAction; // 0xE0
 		::System::Action* mOnDragingAction; // 0xE8
 		::System::Action* mOnEndDragAction; // 0xF0
-		::System::Action* OnRecycleItem; // 0xF8
+		::System::Action_1<::SuperScrollView::LoopStaggeredGridViewItem*>* OnRecycleItem; // 0xF8
 		::UnityEngine::Vector3 mLastFrameContainerPos; // 0x100
 		::System::Boolean mListViewInited; // 0x10C
 		::System::Byte _padding6[0x3];

@@ -9,6 +9,7 @@ namespace MiHoYo::SDK { class AccountPlatformPlugin_Notification; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -57,8 +58,8 @@ namespace MiHoYo::SDK
 	public:
 		::System::Collections::Generic::List_1<::System::Object*>* m_lstPluginUITask; // 0x10
 		::MiHoYo::SDK::AccountPlatformPlugin_Notification* m_internalNotification; // 0x18
-		::System::Action* m_notification; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* m_dicInvokeCallbacks; // 0x28
+		::System::Action_1<::System::String*>* m_notification; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::System::String*>*>* m_dicInvokeCallbacks; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* m_mapUIName2ActionIndexSet; // 0x30
 		::System::Int32 m_callbackIndex; // 0x38
 		static ::MiHoYo::SDK::AccountPlatNative** StaticGet_sm_instance()
@@ -103,9 +104,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_ENABLENATIVEHANDLE_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterNotification(::System::Action* a1)
+		::System::Void RegisterNotification(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_REGISTERNOTIFICATION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_REGISTERNOTIFICATION_OFFSET))(this, a1);
 		}
 
 		static ::System::Void Stop()
@@ -128,9 +129,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_CONFIGSYNCWITHNATIVE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AccountPlatInvoke(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void AccountPlatInvoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_ACCOUNTPLATINVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_ACCOUNTPLATINVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* AccountPlatInvokeReturn(::System::String* a1, ::System::String* a2)
@@ -168,9 +169,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_INVOKERETURN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_INVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void InitNativeEnv()

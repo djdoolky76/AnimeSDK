@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Slider; }
 
@@ -26,7 +27,7 @@ namespace RPG::Client
 		::System::Single WaitTime; // 0x1C
 		::System::Single FillMin; // 0x20
 		::System::Single FillMax; // 0x24
-		::System::Action* TickCallback; // 0x28
+		::System::Action_1<::System::Single>* TickCallback; // 0x28
 		::System::Action* FillEndCallback; // 0x30
 		::System::Action* WaitEndCallback; // 0x38
 		::UnityEngine::UI::Slider* _Slider; // 0x40

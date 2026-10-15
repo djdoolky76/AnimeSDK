@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
+#include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
-namespace Cysharp::Threading::Tasks { class TaskPool; }
 namespace Cysharp::Threading::Tasks { class UnityAsyncExtensions_AsyncOperationConfiguredSource; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class IProgress_1; }
 namespace UnityEngine { class AsyncOperation; }
 
@@ -38,15 +38,15 @@ namespace Cysharp::Threading::Tasks
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x18
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x30
 		::System::Byte _padding0[0x18];
-		::System::Action* continuationAction; // 0x50
+		::System::Action_1<::UnityEngine::AsyncOperation*>* continuationAction; // 0x50
 		::System::IProgress_1<::System::Single>* progress; // 0x58
 		::Cysharp::Threading::Tasks::UnityAsyncExtensions_AsyncOperationConfiguredSource* nextNode; // 0x60
 		::System::Threading::CancellationToken cancellationToken; // 0x68
 		::System::Boolean cancelImmediately; // 0x70
 		::System::Boolean completed; // 0x71
-		static ::Cysharp::Threading::Tasks::TaskPool** StaticGet_pool()
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncOperationConfiguredSource")->GetStaticField(0x494A0);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncOperationConfiguredSource")->GetStaticField(0x494A0);
 		}
 
 		static ::System::Void _cctor()
@@ -84,9 +84,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_UNSAFEGETSTATUS_OFFSET))(this);
 		}
 
-		::System::Void OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONCONFIGUREDSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean MoveNext()

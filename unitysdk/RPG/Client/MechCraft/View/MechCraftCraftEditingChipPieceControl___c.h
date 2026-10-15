@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class IALBJEGDCFI_HCBKBKPNDKB;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -28,9 +28,9 @@ namespace RPG::Client::MechCraft::View
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x58F08);
 		}
 
-		static ::System::Func_2<::System::Object*, ::R3::Observable*>** StaticGet___9__24_1()
+		static ::System::Func_2<::System::Object*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__24_1()
 		{
-			return (::System::Func_2<::System::Object*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x58F10);
+			return (::System::Func_2<::System::Object*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x58F10);
 		}
 
 		static ::System::Void _cctor()
@@ -48,9 +48,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Boolean(*)(::PVOID, ::IALBJEGDCFI_HCBKBKPNDKB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPPIECECONTROL___C___BIND_B__24_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Bind_b__24_1(::IALBJEGDCFI_HCBKBKPNDKB* a1)
+		::R3::Observable_1<::System::Boolean>* __Bind_b__24_1(::IALBJEGDCFI_HCBKBKPNDKB* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::IALBJEGDCFI_HCBKBKPNDKB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPPIECECONTROL___C___BIND_B__24_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::IALBJEGDCFI_HCBKBKPNDKB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPPIECECONTROL___C___BIND_B__24_1_OFFSET))(this, a1);
 		}
 
 	};

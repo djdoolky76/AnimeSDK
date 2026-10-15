@@ -3,7 +3,7 @@
 #include "unitysdk/LECGPPJIBBM.h"
 #include "unitysdk/NBEKNJDCLEI.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/JJEABHDCGLE.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 class HIOEAKHGILF;
@@ -44,7 +44,7 @@ inline static constexpr unsigned int LBKJOGEFFOK_TypeDefinitionIndex = 60531;
 	public:
 		::System::Collections::Generic::List_1<::NBEKNJDCLEI>* IAJGIEJLKBL; // 0x10
 		::System::Collections::Generic::List_1<::LECGPPJIBBM>* HFBCDHKLFGN; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>* IALOMHHHMJK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Int32>, ::System::Int32>* IALOMHHHMJK; // 0x20
 		::RPG::Client::FiveDimManager* EEOHCCOCEDI; // 0x28
 		::Il2CppArray<::System::Collections::Generic::List_1<::NBEKNJDCLEI>*>* ODKMIPIKMNE; // 0x30
 		::JIAJFGCHLJE* _BoundsOccluderForJob_k__BackingField; // 0x38
@@ -139,9 +139,9 @@ inline static constexpr unsigned int LBKJOGEFFOK_TypeDefinitionIndex = 60531;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBKJOGEFFOK_GHEDADIDPFO_OFFSET))(this);
 		}
 
-		::System::Void CDNAEKBGHAI(::System::ValueTuple a1)
+		::System::Void CDNAEKBGHAI(::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + LBKJOGEFFOK_CDNAEKBGHAI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Int32>))((::PBYTE)hIl2Cpp + LBKJOGEFFOK_CDNAEKBGHAI_OFFSET))(this, a1);
 		}
 
 		::System::Void HOHHLBALJCO(::NBEKNJDCLEI a1)

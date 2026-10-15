@@ -24,9 +24,9 @@ namespace Newtonsoft::Json::Serialization { class ITraceWriter; }
 namespace Newtonsoft::Json::Serialization { class JsonSerializerInternalBase; }
 namespace Newtonsoft::Json::Serialization { class JsonSerializerInternalReader; }
 namespace Newtonsoft::Json::Serialization { class JsonSerializerInternalWriter; }
-namespace System { class EventHandler; }
 namespace System { class Object; }
 namespace System { class Type; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections { class IEqualityComparer; }
 namespace System::Runtime::Serialization { class SerializationBinder; }
 
@@ -85,14 +85,14 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERPROXY_CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Error(::System::EventHandler* a1)
+		::System::Void add_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERPROXY_ADD_ERROR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERPROXY_ADD_ERROR_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Error(::System::EventHandler* a1)
+		::System::Void remove_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERPROXY_REMOVE_ERROR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERPROXY_REMOVE_ERROR_OFFSET))(this, a1);
 		}
 
 		::System::Void set_ReferenceResolver(::Newtonsoft::Json::Serialization::IReferenceResolver* a1)

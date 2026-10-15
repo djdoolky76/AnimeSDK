@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class ICameraSystemServices_1; }
 namespace RPG::GameCore { class FiveDimCameraDOFConfig; }
 namespace RPG::GameCore { class FiveDimCameraFollowConfig; }
@@ -30,9 +30,9 @@ namespace RPG::Client::LittleGame::FiveDim
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* _CameraStack; // 0x0
 		::System::Int32 _ActiveCameraView; // 0x0
 		::System::Collections::Generic::List_1<::System::Int32>* _PendingReleaseCameraViews; // 0x0
-		::Entitas::IGroup* _CameraTriggerGroup; // 0x0
-		::Entitas::ICollector* _CameraTriggerCollector; // 0x0
-		::Entitas::IGroup* _CameraGroup; // 0x0
+		::Entitas::IGroup_1<T>* _CameraTriggerGroup; // 0x0
+		::Entitas::ICollector_1<T>* _CameraTriggerCollector; // 0x0
+		::Entitas::IGroup_1<T>* _CameraGroup; // 0x0
 		::System::Collections::Generic::List_1<::System::Int32>* _ActiveFollowCameras; // 0x0
 		::System::Single _NormalJumpHeight; // 0x0
 		::System::Single _DoubleJumpHeight; // 0x0

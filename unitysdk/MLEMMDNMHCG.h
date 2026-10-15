@@ -2,7 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftEffectType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class GMDIBFIGIEG;
 class HOBCIDMKOFM;
@@ -10,8 +12,6 @@ class JJEHILJOIEK;
 class MHGMGKGDLOC;
 class PHCMIJEDENP;
 class PMOMFDCLALP;
-namespace System { class Nullable; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -54,14 +54,14 @@ inline static constexpr unsigned int MLEMMDNMHCG_TypeDefinitionIndex = 41878;
 			return ((::GMDIBFIGIEG*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_KEAENOMHGIA_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* NJAFNONOAKL(::System::UInt32 a1)
+		::System::Nullable_1<::System::Collections::Generic::KeyValuePair_2<::PHCMIJEDENP*, ::GMDIBFIGIEG*>> NJAFNONOAKL(::System::UInt32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_NJAFNONOAKL_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Collections::Generic::KeyValuePair_2<::PHCMIJEDENP*, ::GMDIBFIGIEG*>>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_NJAFNONOAKL_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* LDIMFKDFHCL()
+		::System::Nullable_1<::UnityEngine::Vector2Int> LDIMFKDFHCL()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_LDIMFKDFHCL_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector2Int>(*)(::PVOID))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_LDIMFKDFHCL_OFFSET))(this);
 		}
 
 		::HOBCIDMKOFM* IAPBOJAHMFB()
@@ -69,9 +69,9 @@ inline static constexpr unsigned int MLEMMDNMHCG_TypeDefinitionIndex = 41878;
 			return ((::HOBCIDMKOFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_IAPBOJAHMFB_OFFSET))(this);
 		}
 
-		::System::Nullable* MAFFBABEDPI()
+		::System::Nullable_1<::System::Int32> MAFFBABEDPI()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_MAFFBABEDPI_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_MAFFBABEDPI_OFFSET))(this);
 		}
 
 		::PMOMFDCLALP* JEPMMICCBII()
@@ -84,9 +84,9 @@ inline static constexpr unsigned int MLEMMDNMHCG_TypeDefinitionIndex = 41878;
 			return ((::MHGMGKGDLOC*(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftEffectType))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_HEFHOPKDNMH_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* AGCJJFEDKPG(::RPG::Client::MechCraft::MechCraftEffectType a1)
+		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<::PHCMIJEDENP*, ::GMDIBFIGIEG*, ::MHGMGKGDLOC*>>* AGCJJFEDKPG(::RPG::Client::MechCraft::MechCraftEffectType a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftEffectType))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_AGCJJFEDKPG_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<::PHCMIJEDENP*, ::GMDIBFIGIEG*, ::MHGMGKGDLOC*>>*(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftEffectType))((::PBYTE)hIl2Cpp + MLEMMDNMHCG_AGCJJFEDKPG_OFFSET))(this, a1);
 		}
 
 	};

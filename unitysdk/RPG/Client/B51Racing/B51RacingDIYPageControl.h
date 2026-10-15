@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/B51Racing/CarSlotType.h"
 #include "unitysdk/RPG/GameCore/B51RacingPartType.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
+#include "unitysdk/System/Nullable_1.h"
 class BDHINPLKOPK;
 class BDPODLBIFOH;
 class CIFKCGJNFHF;
@@ -24,7 +25,6 @@ namespace RPG::Client::B51Racing { class B51RacingDIYNumPanelControl; }
 namespace RPG::Client::B51Racing { class B51RacingDIYPageViewModel; }
 namespace RPG::Client::B51Racing { class B51RacingDIYSubSkillPanelControl; }
 namespace RPG::Client::B51Racing { class LuaControllerHandle; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -376,9 +376,9 @@ namespace RPG::Client::B51Racing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL__INITSELECTEDPARTIDBYTYPE_OFFSET))(this);
 		}
 
-		::System::Nullable* _PartTypeToCarSlotType(::RPG::GameCore::B51RacingPartType a1)
+		::System::Nullable_1<::RPG::Client::B51Racing::CarSlotType> _PartTypeToCarSlotType(::RPG::GameCore::B51RacingPartType a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::B51RacingPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL__PARTTYPETOCARSLOTTYPE_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::B51Racing::CarSlotType>(*)(::PVOID, ::RPG::GameCore::B51RacingPartType))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDIYPAGECONTROL__PARTTYPETOCARSLOTTYPE_OFFSET))(this, a1);
 		}
 
 		::System::String* _PartTypeToCameraSlot(::RPG::GameCore::B51RacingPartType a1)

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class FCCKDJABHCN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define FCCKDJABHCN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x156B4010)
 #define FCCKDJABHCN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156B4040)
@@ -15,9 +15,9 @@ inline static constexpr unsigned int FCCKDJABHCN___c_TypeDefinitionIndex = 77149
 	class FCCKDJABHCN___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__21_0()
+		static ::System::Action_1<::FCCKDJABHCN*>** StaticGet___9__21_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EBF0);
+			return (::System::Action_1<::FCCKDJABHCN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EBF0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -25,9 +25,9 @@ inline static constexpr unsigned int FCCKDJABHCN___c_TypeDefinitionIndex = 77149
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EBF8);
 		}
 
-		static ::System::Action** StaticGet___9__23_0()
+		static ::System::Action_1<::FCCKDJABHCN*>** StaticGet___9__23_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC00);
+			return (::System::Action_1<::FCCKDJABHCN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC00);
 		}
 
 		static ::System::Void _cctor()

@@ -16,7 +16,7 @@ namespace RPGTools::Timeline { class CameraShakeConfig; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
@@ -237,14 +237,14 @@ inline static constexpr unsigned int KCOAIPGGMGJ_TypeDefinitionIndex = 60682;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + KCOAIPGGMGJ_GMPDOFHCHHO_OFFSET))(this, a1);
 		}
 
-		::System::Tuple* IHGKDCBOPJM()
+		::System::Tuple_2<::RPG::Client::TextID, ::RPG::Client::TextID>* IHGKDCBOPJM()
 		{
-			return ((::System::Tuple*(*)(::PVOID))((::PBYTE)hIl2Cpp + KCOAIPGGMGJ_IHGKDCBOPJM_OFFSET))(this);
+			return ((::System::Tuple_2<::RPG::Client::TextID, ::RPG::Client::TextID>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KCOAIPGGMGJ_IHGKDCBOPJM_OFFSET))(this);
 		}
 
-		::System::Tuple* AEHABEMALLH()
+		::System::Tuple_2<::System::Int32, ::System::Int32>* AEHABEMALLH()
 		{
-			return ((::System::Tuple*(*)(::PVOID))((::PBYTE)hIl2Cpp + KCOAIPGGMGJ_AEHABEMALLH_OFFSET))(this);
+			return ((::System::Tuple_2<::System::Int32, ::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KCOAIPGGMGJ_AEHABEMALLH_OFFSET))(this);
 		}
 
 		::System::Void HIPIOAPPCOB(::System::Int32 a1)

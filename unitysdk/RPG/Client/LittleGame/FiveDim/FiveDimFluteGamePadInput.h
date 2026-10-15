@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimFluteGamePadInput_InputInfo.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
@@ -25,7 +25,7 @@ namespace RPG::Client::LittleGame::FiveDim
 	class FiveDimFluteGamePadInput : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* _InputHandler; // 0x18
+		::System::Action_1<::System::UInt32>* _InputHandler; // 0x18
 		::UnityEngine::RectTransform* _WheelMark; // 0x20
 		::System::Collections::Generic::List_1<::System::UInt32>* _InputIdList; // 0x28
 		::System::UInt32 _LastInputId; // 0x30
@@ -34,9 +34,9 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEGAMEPADINPUT_CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddInputHandler(::System::Action* a1)
+		::System::Void AddInputHandler(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEGAMEPADINPUT_ADDINPUTHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEGAMEPADINPUT_ADDINPUTHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

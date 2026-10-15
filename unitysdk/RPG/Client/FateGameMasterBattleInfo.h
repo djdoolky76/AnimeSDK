@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ANNFOAGBJBP;
 class CLNABFMHFFH;
 class GKJEMHKOMJC;
@@ -44,7 +44,7 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::IFateGameMasterInfoRealItem*>* _MasterItems; // 0x10
 		::OMGHALDIJHL* _ParamProxyFactory; // 0x18
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _BattleMasterPairs; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>* _BattleMasterPairs; // 0x20
 		::RPG::Client::FateGameData* _OwnerRef; // 0x28
 		// static const ::System::Object _ServerSyncPlayerMasterAvatarID; // 0x0
 		::System::Void _ctor(::RPG::Client::FateGameData* a1, ::OMGHALDIJHL* a2)
@@ -132,9 +132,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERBATTLEINFO__CLEARBATTLEMASTERPAIRS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* get_BattleMasterPairs()
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>* get_BattleMasterPairs()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERBATTLEINFO_GET_BATTLEMASTERPAIRS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEMASTERBATTLEINFO_GET_BATTLEMASTERPAIRS_OFFSET))(this);
 		}
 
 		static ::System::UInt32 get_PlayerMasterAvatarRealID()

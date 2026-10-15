@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EKFMIDBJDIA;
 namespace RPG::Client { class MapDef; }
 namespace RPG::Client { class MapPropDef; }
@@ -32,7 +32,7 @@ inline static constexpr unsigned int CCJCIOPFLKM_TypeDefinitionIndex = 53488;
 		::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* IHPLGIBHEPE; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::RPG::GameCore::MazePuzzleOrigamiColonyRow* OPEGEBLMMII; // 0x28
-		::System::Collections::Generic::List_1<::System::ValueTuple>* FDMFNICLDEO; // 0x30
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::MapPropDef*, ::System::Int32>>* FDMFNICLDEO; // 0x30
 		::RPG::GameCore::WaitPropStateChangeByCollectionMirrorTakenDiff* OFKGLJOAMLD; // 0x38
 		::System::Boolean MMNOIOHPBGC; // 0x40
 		::System::Byte _padding0[0x3];

@@ -3,6 +3,7 @@
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationTokenSource; }
 
 #define SYSTEM_THREADING_CANCELLATIONTOKEN_ACTIONTOACTIONOBJSHUNT_OFFSET UNITYSDK_OFFSET(0x1C1411D0)
@@ -33,9 +34,9 @@ namespace System::Threading
 	struct alignas(8) CancellationToken
 	{
 		::System::Threading::CancellationTokenSource* m_source; // 0x10
-		static ::System::Action** StaticGet_s_ActionToActionObjShunt()
+		static ::System::Action_1<::System::Object*>** StaticGet_s_ActionToActionObjShunt()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Threading", "CancellationToken")->GetStaticField(0x1F5E0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading", "CancellationToken")->GetStaticField(0x1F5E0);
 		}
 
 		::System::Void _ctor(::System::Threading::CancellationTokenSource* a1)
@@ -75,24 +76,24 @@ namespace System::Threading
 			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_REGISTER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::CancellationTokenRegistration Register_1(::System::Action* a1, ::System::Object* a2)
+		::System::Threading::CancellationTokenRegistration Register_1(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_REGISTER_1_OFFSET))(this, a1, a2);
+			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_REGISTER_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::CancellationTokenRegistration Register_2(::System::Action* a1, ::System::Object* a2, ::System::Boolean a3)
+		::System::Threading::CancellationTokenRegistration Register_2(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_REGISTER_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_REGISTER_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(::System::Action* a1, ::System::Object* a2)
+		::System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_INTERNALREGISTERWITHOUTEC_OFFSET))(this, a1, a2);
+			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_INTERNALREGISTERWITHOUTEC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::CancellationTokenRegistration Register_3(::System::Action* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Boolean a4)
+		::System::Threading::CancellationTokenRegistration Register_3(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_REGISTER_3_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKEN_REGISTER_3_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		/*

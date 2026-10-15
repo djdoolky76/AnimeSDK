@@ -12,7 +12,7 @@ class HGCEOEHGPPE;
 class JIAFOPELMJJ;
 class NBNLIDCJLHK;
 class OFLJCMOBHIH;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define JIAFOPELMJJ___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E8120)
 #define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__0_OFFSET UNITYSDK_OFFSET(0xB1E8130)
@@ -32,7 +32,7 @@ inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass6_0_TypeDefini
 		::EMGAGCLHCNL* nativeData; // 0x38
 		::DJLGNEMNIKI* designData; // 0x40
 		::JIAFOPELMJJ* __4__this; // 0x48
-		::System::Action* __9__1; // 0x50
+		::System::Action_1<::HGCEOEHGPPE*>* __9__1; // 0x50
 		::EADIJOHAPHK* blockData; // 0x58
 		::RPG::Client::TextID progressDescText; // 0x60
 		::System::Void _ctor()

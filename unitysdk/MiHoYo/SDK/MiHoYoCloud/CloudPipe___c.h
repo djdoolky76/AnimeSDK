@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE9B4B0)
 #define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE9B4F0)
@@ -20,9 +20,9 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x10B00);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x10B08);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x10B08);
 		}
 
 		static ::System::Void _cctor()

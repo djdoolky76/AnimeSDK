@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class ChallengeData; }
-namespace System { class Nullable; }
 
 #define LNOJJNADOPF_ADDBNLEMIPH_OFFSET UNITYSDK_OFFSET(0xB7EA9A0)
 #define LNOJJNADOPF_ELEPHGGHMGE_OFFSET UNITYSDK_OFFSET(0xB7EA910)
@@ -18,9 +18,9 @@ inline static constexpr unsigned int LNOJJNADOPF_TypeDefinitionIndex = 63122;
 	class LNOJJNADOPF : public ::System::Object
 	{
 	public:
-		static ::System::Nullable* KFDIKLPJKBJ()
+		static ::System::Nullable_1<::RPG::GameCore::ChallengeGroupType> KFDIKLPJKBJ()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + LNOJJNADOPF_KFDIKLPJKBJ_OFFSET))();
+			return ((::System::Nullable_1<::RPG::GameCore::ChallengeGroupType>(*)())((::PBYTE)hIl2Cpp + LNOJJNADOPF_KFDIKLPJKBJ_OFFSET))();
 		}
 
 		static ::RPG::Client::ChallengeData* IPNNBGEDMLA()

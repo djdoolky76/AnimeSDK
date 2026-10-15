@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG
 {
@@ -11,7 +11,7 @@ namespace RPG
 	class PriorityLinkableNodeList_1 : public ::System::Object
 	{
 	public:
-		::System::Action* PreRemoveCallback; // 0x0
+		::System::Action_1<T>* PreRemoveCallback; // 0x0
 		T _first; // 0x0
 		T _last; // 0x0
 	};

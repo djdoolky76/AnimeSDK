@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimGridPropView; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimGridPropView_IGANPFHBLJL; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD445AE0)
 #define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD445B10)
@@ -30,9 +30,9 @@ namespace RPG::Client::LittleGame::FiveDim
 			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x31598);
 		}
 
-		static ::System::Action** StaticGet___9__26_0()
+		static ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>** StaticGet___9__26_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x315A0);
+			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView*>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x315A0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__4_0()

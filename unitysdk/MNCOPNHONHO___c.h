@@ -4,9 +4,9 @@
 class INMMPMDELKE;
 class MNCOPNHONHO;
 namespace RPG::GameCore { class LittleGameEntityConfig; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 #define MNCOPNHONHO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA036F0)
@@ -29,9 +29,9 @@ inline static constexpr unsigned int MNCOPNHONHO___c_TypeDefinitionIndex = 76689
 			return (::System::Func_2<::RPG::GameCore::LittleGameEntityConfig*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x109E8);
 		}
 
-		static ::System::Action** StaticGet___9__126_0()
+		static ::System::Action_2<::MNCOPNHONHO*, ::INMMPMDELKE*>** StaticGet___9__126_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x109F0);
+			return (::System::Action_2<::MNCOPNHONHO*, ::INMMPMDELKE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x109F0);
 		}
 
 		static ::System::Void _cctor()

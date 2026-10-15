@@ -3,7 +3,7 @@
 #include "unitysdk/DCHHELPJHJJ.h"
 #include "unitysdk/RPG/LittleGameShare/DiceCombatCore/DiceCombatGameState.h"
 #include "unitysdk/NHHNOOPNDEA.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ACNFDMLHPCL;
 class AIMNKMEFBKE;
 class GLPPDCIBMIH;
@@ -13,7 +13,7 @@ class IEIEAAJCDNP;
 class IJFIHJJPHNA;
 class KKPNEOIKLJG;
 class PLAJONHLDJN;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -141,7 +141,7 @@ inline static constexpr unsigned int LCHDCIDBJAG_TypeDefinitionIndex = 36479;
 	public:
 		::PLAJONHLDJN* IBGLIGGOIEK; // 0x28
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* MHHKICCJFPF; // 0x30
-		::System::Collections::Generic::Dictionary_2<::RPG::LittleGameShare::DiceCombatCore::DiceCombatGameState, ::System::Action*>* KDCEPGEIBOG; // 0x38
+		::System::Collections::Generic::Dictionary_2<::RPG::LittleGameShare::DiceCombatCore::DiceCombatGameState, ::System::Action_1<::System::Single>*>* KDCEPGEIBOG; // 0x38
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* COPLDAFEMCK; // 0x40
 		::System::Single JCDFOKPJAIA; // 0x48
 		::System::Boolean NFJHNNPNLGP; // 0x4C
@@ -151,9 +151,9 @@ inline static constexpr unsigned int LCHDCIDBJAG_TypeDefinitionIndex = 36479;
 			return ((::System::Void(*)(::PVOID, ::PLAJONHLDJN*, ::AIMNKMEFBKE*))((::PBYTE)hIl2Cpp + LCHDCIDBJAG_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple BCBJBGJBEPN()
+		::System::ValueTuple_2<::System::Boolean, ::System::Single> BCBJBGJBEPN()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + LCHDCIDBJAG_BCBJBGJBEPN_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + LCHDCIDBJAG_BCBJBGJBEPN_OFFSET))(this);
 		}
 
 		::System::Void FAJPBOPDGHD()

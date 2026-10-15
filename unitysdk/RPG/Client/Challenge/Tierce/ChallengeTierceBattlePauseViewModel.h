@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class DHCNDENHLGO;
 namespace RPG::Client { class ChallengeData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultBase; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTargetsViewModel; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC943950)
@@ -42,7 +42,7 @@ namespace RPG::Client::Challenge::Tierce
 		::RPG::Client::ChallengeData* _ChallengeDataRef_k__BackingField; // 0x28
 		::System::Boolean _IsPassed_k__BackingField; // 0x30
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _CurrentStageBuffID_k__BackingField; // 0x34
+		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x34
 		::System::Int32 _CurrentStageIndex_k__BackingField; // 0x3C
 		::System::Void _ctor()
 		{
@@ -99,14 +99,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CURRENTSTAGEINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_CurrentStageBuffID()
+		::System::Nullable_1<::System::UInt32> get_CurrentStageBuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentStageBuffID(::System::Nullable* a1)
+		::System::Void set_CurrentStageBuffID(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CURRENTSTAGEBUFFID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_SET_CURRENTSTAGEBUFFID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*>* get_Stages()
@@ -129,14 +129,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_GETSTAGERESULT_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* TryGetMemoryConfigTotalRoundCount()
+		::System::Nullable_1<::System::Int32> TryGetMemoryConfigTotalRoundCount()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETMEMORYCONFIGTOTALROUNDCOUNT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETMEMORYCONFIGTOTALROUNDCOUNT_OFFSET))(this);
 		}
 
-		::System::Nullable* TryGetStoryConfigClearScore()
+		::System::Nullable_1<::System::Int32> TryGetStoryConfigClearScore()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETSTORYCONFIGCLEARSCORE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBATTLEPAUSEVIEWMODEL_TRYGETSTORYCONFIGCLEARSCORE_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::UInt32>* TryGetStoryConfigFeverBuffIDs()

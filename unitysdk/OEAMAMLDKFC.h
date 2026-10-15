@@ -13,6 +13,7 @@
 #include "unitysdk/FIHMGKLCINA.h"
 #include "unitysdk/HGBCMFANCOE.h"
 #include "unitysdk/KLNKLOMDIIC.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class FMBPAEBCDLE;
@@ -26,7 +27,6 @@ namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
 namespace RPG::GameCore { class FiveDimMoveConfig; }
 namespace RPG::GameCore { class FiveDimScrollConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CapsuleCollider; }
 namespace UnityEngine { class Collision; }
@@ -976,9 +976,9 @@ inline static constexpr unsigned int OEAMAMLDKFC_TypeDefinitionIndex = 76960;
 			return ((::System::Void(*)(::PVOID, ::HGBCMFANCOE))((::PBYTE)hIl2Cpp + OEAMAMLDKFC_GBCHFFLMIIC_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Vector3 BPOLDDMJGCO(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Nullable* a9)
+		static ::UnityEngine::Vector3 BPOLDDMJGCO(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Nullable_1<::System::Single> a9)
 		{
-			return ((::UnityEngine::Vector3(*)(::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + OEAMAMLDKFC_BPOLDDMJGCO_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::UnityEngine::Vector3(*)(::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + OEAMAMLDKFC_BPOLDDMJGCO_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		static ::UnityEngine::Vector3 NGDCOLPIOEI(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)

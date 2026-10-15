@@ -6,9 +6,9 @@ class GACKCPEPDAF;
 class LDNFIICMCHA;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -55,19 +55,19 @@ inline static constexpr unsigned int LDNFIICMCHA_TypeDefinitionIndex = 27046;
 		::System::UInt64 FGEKJMADECN; // 0x38
 		::System::UInt32 DNKADAFBILN; // 0x40
 		::System::UInt32 DIHAPDNPDHC; // 0x44
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::LDNFIICMCHA*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "LDNFIICMCHA")->GetStaticField(0x35350);
+			return (::Google::Protobuf::MessageParser_1<::LDNFIICMCHA*>**)UnitySDK::FromName("", "LDNFIICMCHA")->GetStaticField(0x35350);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_PEFCBLJFKND()
+		static ::Google::Protobuf::FieldCodec_1<::AKHEOAIPAPA*>** StaticGet_PEFCBLJFKND()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "LDNFIICMCHA")->GetStaticField(0x35358);
+			return (::Google::Protobuf::FieldCodec_1<::AKHEOAIPAPA*>**)UnitySDK::FromName("", "LDNFIICMCHA")->GetStaticField(0x35358);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_FPDPHALNFCM()
+		static ::Google::Protobuf::FieldCodec_1<::GACKCPEPDAF*>** StaticGet_FPDPHALNFCM()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "LDNFIICMCHA")->GetStaticField(0x35360);
+			return (::Google::Protobuf::FieldCodec_1<::GACKCPEPDAF*>**)UnitySDK::FromName("", "LDNFIICMCHA")->GetStaticField(0x35360);
 		}
 
 		// static const ::System::Object DNDOBKCBHMK; // 0x0
@@ -92,9 +92,9 @@ inline static constexpr unsigned int LDNFIICMCHA_TypeDefinitionIndex = 27046;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LDNFIICMCHA_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::LDNFIICMCHA*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + LDNFIICMCHA_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::LDNFIICMCHA*>*(*)())((::PBYTE)hIl2Cpp + LDNFIICMCHA_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

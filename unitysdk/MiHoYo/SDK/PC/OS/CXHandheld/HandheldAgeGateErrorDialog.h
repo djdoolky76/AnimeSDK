@@ -3,8 +3,8 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateErrorDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateErrorDialog; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Text; }
 
@@ -36,7 +36,7 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		::System::String* titleTextStr; // 0xD8
 		::System::String* descTextStr; // 0xE0
 		::System::String* subDescTextStr; // 0xE8
-		::System::Action* _OnClose_k__BackingField; // 0xF0
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog*>* _OnClose_k__BackingField; // 0xF0
 		::System::Boolean _Interactable_k__BackingField; // 0xF8
 		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldAgeGateErrorDialog** StaticGet_Instance()
 		{
@@ -52,14 +52,14 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnClose()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog*>* get_OnClose()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG_GET_ONCLOSE_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG_GET_ONCLOSE_OFFSET))(this);
 		}
 
-		::System::Void set_OnClose(::System::Action* a1)
+		::System::Void set_OnClose(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG_SET_ONCLOSE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateErrorDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEERRORDIALOG_SET_ONCLOSE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Interactable()

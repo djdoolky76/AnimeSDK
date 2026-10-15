@@ -19,6 +19,7 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -87,9 +88,9 @@ inline static constexpr unsigned int HHCKNGMIAKL_TypeDefinitionIndex = 60774;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HHCKNGMIAKL_JLANKNHFKCN_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* BNFFMCPFFBC(::System::UInt32 a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3, ::System::String* a4, ::RPG::MVector3 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::RPG::MVector3 a9, ::LLADGGNOJPG* a10, ::System::Action* a11, ::RPG::GameCore::EntityClassifyType a12, ::System::Boolean a13, ::ENEIHJJPNPI* a14)
+		::RPG::GameCore::GameEntity* BNFFMCPFFBC(::System::UInt32 a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3, ::System::String* a4, ::RPG::MVector3 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::RPG::MVector3 a9, ::LLADGGNOJPG* a10, ::System::Action_1<::RPG::GameCore::GameEntity*>* a11, ::RPG::GameCore::EntityClassifyType a12, ::System::Boolean a13, ::ENEIHJJPNPI* a14)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::String*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::LLADGGNOJPG*, ::System::Action*, ::RPG::GameCore::EntityClassifyType, ::System::Boolean, ::ENEIHJJPNPI*))((::PBYTE)hIl2Cpp + HHCKNGMIAKL_BNFFMCPFFBC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::String*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::LLADGGNOJPG*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::EntityClassifyType, ::System::Boolean, ::ENEIHJJPNPI*))((::PBYTE)hIl2Cpp + HHCKNGMIAKL_BNFFMCPFFBC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
 		}
 
 		::System::Boolean IMIKCDFLEBO(::LLADGGNOJPG* a1, ::RPG::GameCore::GameEntity* a2)

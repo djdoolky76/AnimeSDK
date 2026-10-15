@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class JSONArray; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC39410)
@@ -58,29 +58,29 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_GETTHIRDPARTYSTORENAME_OFFSET))();
 		}
 
-		static ::System::Void ExchangeStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action* a2)
+		static ::System::Void ExchangeStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGESTOREITEMINFO_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGESTOREITEMINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ExchangeSonyStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action* a2)
+		static ::System::Void ExchangeSonyStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGESONYSTOREITEMINFO_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGESONYSTOREITEMINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ExchangeCXStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action* a2)
+		static ::System::Void ExchangeCXStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGECXSTOREITEMINFO_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGECXSTOREITEMINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ExchangeEpicStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action* a2)
+		static ::System::Void ExchangeEpicStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGEEPICSTOREITEMINFO_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGEEPICSTOREITEMINFO_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ExchangeCloudGameStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action* a2)
+		static ::System::Void ExchangeCloudGameStoreItemInfo(::MiHoYo::SDK::JSONArray* a1, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGECLOUDGAMESTOREITEMINFO_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::JSONArray*, ::System::Action_4<::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE_EXCHANGECLOUDGAMESTOREITEMINFO_OFFSET))(a1, a2);
 		}
 
 		static ::Il2CppArray<::System::String*>* GetGoodsIdList(::MiHoYo::SDK::JSONArray* a1)

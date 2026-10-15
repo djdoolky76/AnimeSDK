@@ -4,7 +4,7 @@
 class GMIFBFGDGJK;
 class IFBFJDCECML;
 class PBGNKMMDBGD;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define MGNNFKOGPPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74C4C0)
 #define MGNNFKOGPPC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C74C580)
@@ -15,7 +15,7 @@ inline static constexpr unsigned int MGNNFKOGPPC_TypeDefinitionIndex = 37448;
 	{
 	public:
 		::PBGNKMMDBGD* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* JPKEBGGDFPL; // 0x18
+		::Entitas::IGroup_1<::IFBFJDCECML*>* JPKEBGGDFPL; // 0x18
 		::GMIFBFGDGJK* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::GMIFBFGDGJK* a1, ::PBGNKMMDBGD* a2)
 		{

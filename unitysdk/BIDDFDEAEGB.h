@@ -3,7 +3,7 @@
 #include "unitysdk/BIDDFDEAEGB_EntitySideType.h"
 #include "unitysdk/FDKKDPIHFKL.h"
 #include "unitysdk/RPG/GameCore/LevelGroupLoadSide.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BFAGAEJHEJH;
 class BOJKDLCIJCN;
 class CPFGNNGMPDJ;
@@ -24,8 +24,8 @@ namespace RPG::Client { class MapNpcDef; }
 namespace RPG::Client { class MapPropDef; }
 namespace RPG::GameCore { class GroupPropertyConfig; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
@@ -107,8 +107,8 @@ inline static constexpr unsigned int BIDDFDEAEGB_TypeDefinitionIndex = 62109;
 	public:
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* BJJFEEBDPEH; // 0x28
 		::CPFGNNGMPDJ* MJMNDHGGJOI; // 0x30
-		::System::Action* NDEGKDCJBNL; // 0x38
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* PJDABJBGIHH; // 0x40
+		::System::Action_2<::System::UInt32, ::System::UInt32>* NDEGKDCJBNL; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>* PJDABJBGIHH; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MKNOAOJPALD*>* GHHEHDGJLGH; // 0x48
 		::JOKACBOADHJ* DNOBPAFNGFM; // 0x50
 		::System::UInt32 _RawGroupState_k__BackingField; // 0x58

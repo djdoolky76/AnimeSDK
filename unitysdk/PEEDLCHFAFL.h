@@ -24,7 +24,7 @@
 #include "unitysdk/RPG/GameCore/LittleGameLevelVarConditionLogic.h"
 #include "unitysdk/RPG/GameCore/SetJumpEnergyType.h"
 #include "unitysdk/RPG/GameCore/SubMissionState.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -45,6 +45,7 @@
 #include "unitysdk/RPG/GCFreeClosure/FuncClosureR_1.h"
 #include "unitysdk/RPG/GCFreeClosure/FuncClosureR_2.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
@@ -74,7 +75,7 @@ class NDDFLGNNMDK;
 class PDPIHJEBAEC;
 class PEEDLCHFAFL;
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameAsset; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IEntityVarServices_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventActionService_1; }
@@ -114,9 +115,10 @@ namespace RPG::GameCore { class LittleGameLevelVarCondition; }
 namespace RPG::GameCore { class LittleGameSubMissionCondition; }
 namespace RPG::GameCore { class MeshBound; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -624,7 +626,7 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 		::HIOEAKHGILF* OCNFHAHDJJB; // 0xC8
 		::Il2CppArray<::UnityEngine::Vector3>* JBIHKOEFABD; // 0xD0
 		::HIOEAKHGILF* KKJIHGOGNIH; // 0xD8
-		::Entitas::IGroup* _EntryEntities_k__BackingField; // 0xE0
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* _EntryEntities_k__BackingField; // 0xE0
 		::JENADNFDALH* _WindowStageService_k__BackingField; // 0xE8
 		::DGKPMGKKCJM* ECFBPBGNDOD; // 0xF0
 		::GLBIECHGBHE* _MusicStageService_k__BackingField; // 0xF8
@@ -636,9 +638,9 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 		::GHHJJCHMOBC* _StatisticsService_k__BackingField; // 0x128
 		::HIOEAKHGILF* MEEGILBDEAB; // 0x130
 		::System::Boolean _PendingDestroyFlag_k__BackingField; // 0x138
-		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::String*>** StaticGet_NIFNCCPMJPO()
+		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::String*>** StaticGet_NIFNCCPMJPO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::String*>**)UnitySDK::FromName("", "PEEDLCHFAFL")->GetStaticField(0x5C0C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "PEEDLCHFAFL")->GetStaticField(0x5C0C0);
 		}
 
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_KDDCBHBPJMF()
@@ -748,9 +750,9 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 			return ((::System::Boolean(*)(::PVOID, ::HIOEAKHGILF*, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_HMKEOEBPBLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EJFILJPBJPH(::HIOEAKHGILF* a1, ::System::Collections::Generic::List_1<::System::ValueTuple>* a2)
+		::System::Void EJFILJPBJPH(::HIOEAKHGILF* a1, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_EJFILJPBJPH_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_EJFILJPBJPH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void BBLCNOPDKMD(::HIOEAKHGILF* a1, ::RPG::Client::LittleGame::FiveDim::ComponentInvisibleReason a2, ::System::Boolean a3)
@@ -1308,9 +1310,9 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_LFGJIOLPIME_OFFSET))(this, a1);
 		}
 
-		::System::Void GNDIGGMHCOD(::HIOEAKHGILF* a1, ::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* a2, ::System::String* a3, ::System::Action* a4)
+		::System::Void GNDIGGMHCOD(::HIOEAKHGILF* a1, ::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* a2, ::System::String* a3, ::System::Action_2<::Entitas::IEntity*, ::UnityEngine::GameObject*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_GNDIGGMHCOD_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>*, ::System::String*, ::System::Action_2<::Entitas::IEntity*, ::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_GNDIGGMHCOD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void KPCMMHFBILI(::HIOEAKHGILF* a1, ::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* a2, ::System::String* a3)
@@ -2068,9 +2070,9 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*, ::RPG::GCFreeClosure::ActionClosure_1<::UnityEngine::Collider*>, ::RPG::GCFreeClosure::ActionClosure_1<::UnityEngine::Collider*>, ::System::Boolean))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_POHEIGDPBBO_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void POHEIGDPBBO_2(::HIOEAKHGILF* a1, ::RPG::GameCore::LevelTriggerInfo* a2, ::System::String* a3, ::HPKDNHLINPC a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Nullable* a7)
+		::System::Void POHEIGDPBBO_2(::HIOEAKHGILF* a1, ::RPG::GameCore::LevelTriggerInfo* a2, ::System::String* a3, ::HPKDNHLINPC a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Nullable_1<::RPG::GCFreeClosure::FuncClosureR_2<::UnityEngine::Collider*, ::System::Boolean>> a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::RPG::GameCore::LevelTriggerInfo*, ::System::String*, ::HPKDNHLINPC, ::System::Boolean, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_POHEIGDPBBO_2_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::RPG::GameCore::LevelTriggerInfo*, ::System::String*, ::HPKDNHLINPC, ::System::Boolean, ::System::Boolean, ::System::Nullable_1<::RPG::GCFreeClosure::FuncClosureR_2<::UnityEngine::Collider*, ::System::Boolean>>))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_POHEIGDPBBO_2_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void FIJHJAGDPIE(::HIOEAKHGILF* a1, ::HPKDNHLINPC a2)
@@ -2283,14 +2285,14 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_PBPCGNLALGG_OFFSET))(this, a1);
 		}
 
-		::System::Void AddEntityVisibleListener(::HIOEAKHGILF* a1, ::System::Action* a2)
+		::System::Void AddEntityVisibleListener(::HIOEAKHGILF* a1, ::System::Action_1<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Action*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_ADDENTITYVISIBLELISTENER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_ADDENTITYVISIBLELISTENER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveEntityVisibleListener(::HIOEAKHGILF* a1, ::System::Action* a2)
+		::System::Void RemoveEntityVisibleListener(::HIOEAKHGILF* a1, ::System::Action_1<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Action*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_REMOVEENTITYVISIBLELISTENER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_REMOVEENTITYVISIBLELISTENER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetEntityVisible_1(::HIOEAKHGILF* a1, ::RPG::Client::LittleGame::FiveDim::EntityInvisibleReason a2, ::System::Boolean a3, ::System::Single a4)
@@ -2348,9 +2350,9 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 			return ((::HIOEAKHGILF*(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_BCCFOFIMPAF_OFFSET))(this, a1);
 		}
 
-		::System::Void MGJHDANNDPC(::HIOEAKHGILF* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable* a4)
+		::System::Void MGJHDANNDPC(::HIOEAKHGILF* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable_1<::UnityEngine::Vector3> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_MGJHDANNDPC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_MGJHDANNDPC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void MGJHDANNDPC_1(::HIOEAKHGILF* a1, ::KLNKLOMDIIC a2)
@@ -2358,9 +2360,9 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::KLNKLOMDIIC))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_MGJHDANNDPC_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ELKDHHONJCB(::HIOEAKHGILF* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable* a4)
+		::System::Void ELKDHHONJCB(::HIOEAKHGILF* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable_1<::UnityEngine::Vector3> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_ELKDHHONJCB_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_ELKDHHONJCB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ELKDHHONJCB_1(::HIOEAKHGILF* a1, ::KLNKLOMDIIC a2)
@@ -3053,9 +3055,9 @@ inline static constexpr unsigned int PEEDLCHFAFL_TypeDefinitionIndex = 43593;
 			return ((::GLAKFODMCPH*(*)(::PVOID))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_POKIPAEFGDC_OFFSET))(this);
 		}
 
-		::Entitas::IGroup* get_EntryEntities()
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* get_EntryEntities()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_GET_ENTRYENTITIES_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::HIOEAKHGILF*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PEEDLCHFAFL_GET_ENTRYENTITIES_OFFSET))(this);
 		}
 
 		::System::Boolean get_PendingDestroyFlag()

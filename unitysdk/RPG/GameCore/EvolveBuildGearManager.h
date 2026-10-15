@@ -11,8 +11,9 @@
 #include "unitysdk/RPG/GameCore/EvolveGearType.h"
 #include "unitysdk/RPG/GameCore/EvolvePeriodType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/RPG/GameCore/EvolveBuildGearManager_EvolveBuildPauseConfig.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CBJLKMFPGAC;
 class CEFLOOJMCOO;
 class DEEJKBIMHAA;
@@ -39,7 +40,6 @@ namespace RPG::GameCore { class LevelWaveMonster; }
 namespace RPG::GameCore { class LevelWaveMonsterBegin; }
 namespace RPG::GameCore { class PVEGameStatistics; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -249,7 +249,7 @@ namespace RPG::GameCore
 		::System::Boolean _IsUnlockCardReRoll; // 0x1B9
 		::System::Boolean _AutoSkipSelect_k__BackingField; // 0x1BA
 		::System::Boolean IsQuitAndGiveUp; // 0x1BB
-		::System::Nullable* _PreAddGearID; // 0x1BC
+		::System::Nullable_1<::System::UInt32> _PreAddGearID; // 0x1BC
 		::System::UInt32 _ScoreMaxWeightOfCurWaveByKill; // 0x1C4
 		::System::UInt32 _StoryStep; // 0x1C8
 		::System::Byte _padding2[0x4];
@@ -626,9 +626,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDGEARMANAGER_GENGEARFORTREASURE_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple GetGearSelectProgress()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> GetGearSelectProgress()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDGEARMANAGER_GETGEARSELECTPROGRESS_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDGEARMANAGER_GETGEARSELECTPROGRESS_OFFSET))(this);
 		}
 
 		::RPG::PoolList_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>* GetAllEquippedGear(::RPG::GameCore::EvolveGearType a1)
@@ -671,14 +671,14 @@ namespace RPG::GameCore
 			return ((::System::Collections::Generic::List_1<::RPG::GameCore::EvolveBuildGearEquipInfo*>*(*)(::PVOID, ::RPG::GameCore::EvolveGearType))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDGEARMANAGER_GETALLEXCEPTEQUIPPEDGEAR_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_PreAddGearID()
+		::System::Nullable_1<::System::UInt32> get_PreAddGearID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDGEARMANAGER_GET_PREADDGEARID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDGEARMANAGER_GET_PREADDGEARID_OFFSET))(this);
 		}
 
-		::System::Void set_PreAddGearID(::System::Nullable* a1)
+		::System::Void set_PreAddGearID(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDGEARMANAGER_SET_PREADDGEARID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDGEARMANAGER_SET_PREADDGEARID_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnEquipGearOrPreAddGearChanged()

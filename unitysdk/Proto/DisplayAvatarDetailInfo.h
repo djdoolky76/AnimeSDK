@@ -6,9 +6,9 @@ class JIEOLMHJJGF;
 class MLCPGAGPBDL;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class DisplayAvatarDetailInfo; }
@@ -72,19 +72,19 @@ namespace Proto
 		::System::UInt32 pos_; // 0x48
 		::System::UInt32 exp_; // 0x4C
 		::System::UInt32 enhancedId_; // 0x50
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::DisplayAvatarDetailInfo*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "DisplayAvatarDetailInfo")->GetStaticField(0x24F80);
+			return (::Google::Protobuf::MessageParser_1<::Proto::DisplayAvatarDetailInfo*>**)UnitySDK::FromName("Proto", "DisplayAvatarDetailInfo")->GetStaticField(0x24F80);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_skilltreeList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::DIFAPHOCGKL*>** StaticGet__repeated_skilltreeList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "DisplayAvatarDetailInfo")->GetStaticField(0x24F88);
+			return (::Google::Protobuf::FieldCodec_1<::DIFAPHOCGKL*>**)UnitySDK::FromName("Proto", "DisplayAvatarDetailInfo")->GetStaticField(0x24F88);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_relicList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::JIEOLMHJJGF*>** StaticGet__repeated_relicList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "DisplayAvatarDetailInfo")->GetStaticField(0x24F90);
+			return (::Google::Protobuf::FieldCodec_1<::JIEOLMHJJGF*>**)UnitySDK::FromName("Proto", "DisplayAvatarDetailInfo")->GetStaticField(0x24F90);
 		}
 
 		// static const ::System::Object AvatarIdFieldNumber; // 0x0
@@ -114,9 +114,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_DISPLAYAVATARDETAILINFO_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::DisplayAvatarDetailInfo*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_DISPLAYAVATARDETAILINFO_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::DisplayAvatarDetailInfo*>*(*)())((::PBYTE)hIl2Cpp + PROTO_DISPLAYAVATARDETAILINFO_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

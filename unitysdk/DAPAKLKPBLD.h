@@ -6,8 +6,8 @@
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class DHAPPCLCHEJ;
 class FCOEMCEDLNL;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -29,9 +29,9 @@ inline static constexpr unsigned int DAPAKLKPBLD_TypeDefinitionIndex = 12943;
 	class DAPAKLKPBLD : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "DAPAKLKPBLD")->GetStaticField(0x46DF0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DAPAKLKPBLD")->GetStaticField(0x46DF0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()

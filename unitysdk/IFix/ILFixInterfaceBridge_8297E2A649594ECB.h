@@ -12,7 +12,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/Sirenix/OdinInspector/ValueDropdownItem_1.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class EAODNLIPMEO;
@@ -20,9 +22,7 @@ class GAJCAOBJJNO;
 class KGHMBCLFFLG;
 namespace IFix::Core { class VirtualMachine; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class Component; }
 
@@ -384,9 +384,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPGTOOLS_OCTREE_GENERATION_OCTREENODEPTR__GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::Nullable* System_Collections_Generic_IEnumerator_System_Boolean___get_Current()
+		::System::Nullable_1<::System::Boolean> System_Collections_Generic_IEnumerator_System_Boolean___get_Current()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_Generic_IEnumerator_RPGTools_LDWhiteBox_WhiteBoxRegion__get_Current()
@@ -449,9 +449,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_IGRIDFIGHTTRAITEFFECT__GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_System_UInt32_System_UInt32___get_Current()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> System_Collections_Generic_IEnumerator_System_ValueTuple_System_UInt32_System_UInt32___get_Current()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_UINT32_SYSTEM_UINT32___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_UINT32_SYSTEM_UINT32___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_Generic_IEnumerable_System_ValueTuple_System_UInt32_System_UInt32___GetEnumerator()
@@ -499,9 +499,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_GAMECORE_CHARACTERVISIBLECOMPONENT__GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::KeyValuePair* System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_RPG_GameCore_StringHash_RPG_GameCore_FixPoint___get_Current()
+		::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::StringHash, ::RPG::GameCore::FixPoint> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_RPG_GameCore_StringHash_RPG_GameCore_FixPoint___get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_RPG_GAMECORE_STRINGHASH_RPG_GAMECORE_FIXPOINT___GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::StringHash, ::RPG::GameCore::FixPoint>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_RPG_GAMECORE_STRINGHASH_RPG_GAMECORE_FIXPOINT___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_RPG_GameCore_StringHash_RPG_GameCore_FixPoint___GetEnumerator()
@@ -584,9 +584,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_UINT32__GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::KeyValuePair* System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_UInt32_RPG_GameCore_GameEntity___get_Current()
+		::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_UInt32_RPG_GameCore_GameEntity___get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_UINT32_RPG_GAMECORE_GAMEENTITY___GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_UINT32_RPG_GAMECORE_GAMEENTITY___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_UInt32_RPG_GameCore_GameEntity___GetEnumerator()
@@ -609,9 +609,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_UINT32___GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_RPG_GameCore_RelicType_RPG_AvatarSystem_IRelicProxy___get_Current()
+		::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*> System_Collections_Generic_IEnumerator_System_ValueTuple_RPG_GameCore_RelicType_RPG_AvatarSystem_IRelicProxy___get_Current()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_RPG_GAMECORE_RELICTYPE_RPG_AVATARSYSTEM_IRELICPROXY___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_RPG_GAMECORE_RELICTYPE_RPG_AVATARSYSTEM_IRELICPROXY___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_Generic_IEnumerable_System_ValueTuple_RPG_GameCore_RelicType_RPG_AvatarSystem_IRelicProxy___GetEnumerator()
@@ -719,9 +719,9 @@ namespace IFix
 			return ((::RPG::Client::WolfBroGunPlayRoadMapConfig_PlayTarget(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_WOLFBROGUNPLAYROADMAPCONFIG_PLAYTARGET__GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_UnityEngine_Vector2_RPG_Client_AudienceStanceConfig_EPositionPoseType___get_Current()
+		::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*> System_Collections_Generic_IEnumerator_System_ValueTuple_UnityEngine_Vector2_RPG_Client_AudienceStanceConfig_EPositionPoseType___get_Current()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_UNITYENGINE_VECTOR2_RPG_CLIENT_AUDIENCESTANCECONFIG_EPOSITIONPOSETYPE___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_UNITYENGINE_VECTOR2_RPG_CLIENT_AUDIENCESTANCECONFIG_EPOSITIONPOSETYPE___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_Generic_IEnumerable_System_ValueTuple_UnityEngine_Vector2_RPG_Client_AudienceStanceConfig_EPositionPoseType___GetEnumerator()
@@ -869,9 +869,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_MECHCRAFT_IMECHCRAFTWORKSHOPLEVELCONFIG__GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_System_UInt32_RPG_Client_Challenge_Tierce_ChallengeTierceConfig___get_Current()
+		::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*> System_Collections_Generic_IEnumerator_System_ValueTuple_System_UInt32_RPG_Client_Challenge_Tierce_ChallengeTierceConfig___get_Current()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_UINT32_RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECONFIG___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXINTERFACEBRIDGE_8297E2A649594ECB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_UINT32_RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECONFIG___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_Generic_IEnumerable_System_ValueTuple_System_UInt32_RPG_Client_Challenge_Tierce_ChallengeTierceConfig___GetEnumerator()

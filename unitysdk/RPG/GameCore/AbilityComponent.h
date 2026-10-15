@@ -19,9 +19,9 @@ namespace RPG::Client { class RPGProfilerMarker; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class JsonEnum; }
-namespace System { class Action; }
 namespace System { class Array; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
@@ -241,14 +241,14 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID, ::HIOAMIPNLIN*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCOMPONENT_GETINDEXBYMODIFIER_OFFSET))(this, a1);
 		}
 
-		::System::Void ForeachModifier(::System::Action* a1)
+		::System::Void ForeachModifier(::System::Action_1<::HIOAMIPNLIN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCOMPONENT_FOREACHMODIFIER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::HIOAMIPNLIN*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCOMPONENT_FOREACHMODIFIER_OFFSET))(this, a1);
 		}
 
-		::System::Void ForeachModifier_1(::System::String* a1, ::System::Action* a2)
+		::System::Void ForeachModifier_1(::System::String* a1, ::System::Action_1<::HIOAMIPNLIN*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCOMPONENT_FOREACHMODIFIER_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::HIOAMIPNLIN*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYCOMPONENT_FOREACHMODIFIER_1_OFFSET))(this, a1, a2);
 		}
 
 		::HIOAMIPNLIN* FindModifierInstance(::System::String* a1, ::System::UInt32 a2, ::RPG::GameCore::ModifierStateFilter a3, ::RPG::GameCore::ModifierStackingFlag a4, ::MBBEBLGELAP* a5)

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventTags.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Diagnostics::Tracing { class NameInfo; }
 
 #define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1FEE60)
@@ -48,9 +48,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Int32(*)(::PVOID, ::System::Diagnostics::Tracing::NameInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Compare_1(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 Compare_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Diagnostics::Tracing::EventTags> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Diagnostics::Tracing::EventTags>))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Compare_2(::System::String* a1, ::System::Diagnostics::Tracing::EventTags a2)

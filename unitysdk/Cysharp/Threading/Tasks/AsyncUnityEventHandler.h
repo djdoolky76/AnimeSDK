@@ -7,8 +7,8 @@
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { class UnityEvent; }
 
@@ -39,9 +39,9 @@ namespace Cysharp::Threading::Tasks
 		::System::Threading::CancellationTokenRegistration registration; // 0x48
 		::System::Boolean callOnce; // 0x60
 		::System::Boolean isDisposed; // 0x61
-		static ::System::Action** StaticGet_cancellationCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_cancellationCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncUnityEventHandler")->GetStaticField(0x3EA30);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncUnityEventHandler")->GetStaticField(0x3EA30);
 		}
 
 		::System::Void _ctor(::UnityEngine::Events::UnityEvent* a1, ::System::Threading::CancellationToken a2, ::System::Boolean a3)
@@ -94,9 +94,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_UNSAFEGETSTATUS_OFFSET))(this);
 		}
 
-		::System::Void Cysharp_Threading_Tasks_IUniTaskSource_OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void Cysharp_Threading_Tasks_IUniTaskSource_OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNITYEVENTHANDLER_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

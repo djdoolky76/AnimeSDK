@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class EKFMIDBJDIA;
 class GELIALJDFBL;
 namespace RPG::GameCore { class AdvSetupTrainCollectionSystem; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OBFOPOMJDKN_CTOR_OFFSET UNITYSDK_OFFSET(0xBD3D650)
@@ -24,10 +24,10 @@ inline static constexpr unsigned int OBFOPOMJDKN_TypeDefinitionIndex = 52508;
 	class OBFOPOMJDKN : public ::GELIALJDFBL
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* FNIKPKBOCJF; // 0x18
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* FNIKPKBOCJF; // 0x18
 		::GELIALJDFBL* KJNAMCMFCPF; // 0x20
 		::RPG::GameCore::AdvSetupTrainCollectionSystem* IGHAHBNLIJA; // 0x28
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* KNOHBIGNCEL; // 0x30
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* KNOHBIGNCEL; // 0x30
 		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x38
 		::GELIALJDFBL* FCFAFKDNHCJ; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvSetupTrainCollectionSystem* a2)

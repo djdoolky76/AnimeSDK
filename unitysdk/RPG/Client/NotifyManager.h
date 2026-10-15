@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/NotifyGroup.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/Unity/Profiling/ProfilerMarkerWithIntData.h"
 namespace RPG::Client { class NetPacket; }
 namespace RPG::Client { class NotifyHandler; }
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return (::System::Collections::Generic::HashSet_1<::System::UInt16>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x17C0);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>** StaticGet__LuaPacketListenCounter()
+		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::System::UInt16>, ::System::Int32>** StaticGet__LuaPacketListenCounter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x17C8);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::System::UInt16>, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x17C8);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet__ShouldBlockErrorRspMarker()
@@ -71,9 +71,9 @@ namespace RPG::Client
 			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x17D8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>** StaticGet__LuaNotifyListenCounter()
+		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::RPG::Client::NotifyType>, ::System::Int32>** StaticGet__LuaNotifyListenCounter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x17E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::NotifyGroup, ::RPG::Client::NotifyType>, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "NotifyManager")->GetStaticField(0x17E0);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__PendingRspHandlers()

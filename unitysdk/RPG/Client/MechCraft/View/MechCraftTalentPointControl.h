@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/ViewModel/MechCraftTalentPointState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client::MechCraft::View { class MechCraftTalentPointControlBinder; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewModel; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
@@ -42,7 +42,7 @@ namespace RPG::Client::MechCraft::View
 		::System::Single _SfxStartTime; // 0x48
 		::System::Byte _padding0[0x4];
 		::System::String* _SfxEventName; // 0x50
-		::System::Nullable* HGMADJOAKFF; // 0x58
+		::System::Nullable_1<::System::Boolean> HGMADJOAKFF; // 0x58
 		static ::System::Int32* StaticGet_OGEHBDKMGFE()
 		{
 			return (::System::Int32*)UnitySDK::FromName("RPG.Client.MechCraft.View", "MechCraftTalentPointControl")->GetStaticField(0x130E0);

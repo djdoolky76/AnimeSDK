@@ -18,6 +18,7 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentTreeEntranceV
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 #define HBDIGCKCAEB_AAAKIGLHFFF_OFFSET UNITYSDK_OFFSET(0x15BE84D0)
@@ -78,7 +79,7 @@ inline static constexpr unsigned int HBDIGCKCAEB_TypeDefinitionIndex = 79669;
 		::KCJNGDLDKFG* FFILMBCHEIM; // 0x40
 		::OBJANKHLNGO* _Messenger_k__BackingField; // 0x48
 		::RPG::Client::MechCraft::ViewModel::MechCraftOrderSelectTipsViewModel* _Tips_k__BackingField; // 0x50
-		::System::Action* HandleSetExitAfterTransition; // 0x58
+		::System::Action_1<::System::Boolean>* HandleSetExitAfterTransition; // 0x58
 		::Sofa::Core::SimpleCommand* LCGBLFOHNFA; // 0x60
 		::Sofa::Core::SimpleCommand* FGHLGECDPMB; // 0x68
 		::MCHECHNKADP* _AudioService_k__BackingField; // 0x70
@@ -201,14 +202,14 @@ inline static constexpr unsigned int HBDIGCKCAEB_TypeDefinitionIndex = 79669;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + HBDIGCKCAEB_SET_ISINTUTORIALLEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Void add_HandleSetExitAfterTransition(::System::Action* a1)
+		::System::Void add_HandleSetExitAfterTransition(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HBDIGCKCAEB_ADD_HANDLESETEXITAFTERTRANSITION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + HBDIGCKCAEB_ADD_HANDLESETEXITAFTERTRANSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleSetExitAfterTransition(::System::Action* a1)
+		::System::Void remove_HandleSetExitAfterTransition(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HBDIGCKCAEB_REMOVE_HANDLESETEXITAFTERTRANSITION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + HBDIGCKCAEB_REMOVE_HANDLESETEXITAFTERTRANSITION_OFFSET))(this, a1);
 		}
 
 		::System::Void OINBDMGFFJL()

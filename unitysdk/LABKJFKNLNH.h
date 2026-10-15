@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 class KKFMLPEPGKM;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define LABKJFKNLNH_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0D0000)
 #define LABKJFKNLNH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0D0580)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int LABKJFKNLNH_TypeDefinitionIndex = 11556;
 	class LABKJFKNLNH : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "LABKJFKNLNH")->GetStaticField(0x3A850);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LABKJFKNLNH")->GetStaticField(0x3A850);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::KKFMLPEPGKM*>** StaticGet_EHNHPCGDOIO()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int LABKJFKNLNH_TypeDefinitionIndex = 11556;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::KKFMLPEPGKM*>(*)())((::PBYTE)hIl2Cpp + LABKJFKNLNH_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::KKFMLPEPGKM*>, ::KKFMLPEPGKM*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + LABKJFKNLNH_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::KKFMLPEPGKM*>, ::KKFMLPEPGKM*>(*)())((::PBYTE)hIl2Cpp + LABKJFKNLNH_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::KKFMLPEPGKM* LMBKNCAIDLC(::System::UInt32 a1)

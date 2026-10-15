@@ -3,6 +3,7 @@
 #include "unitysdk/MiHoYo/SDK/UI/OS/AccountListLogoutOption.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTLOGOUTCONFIRMDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C003CE0)
 #define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTLOGOUTCONFIRMDIALOG_GET_ONACCOUNTLISTLOGOUTCANCEL_OFFSET UNITYSDK_OFFSET(0x1C003B50)
@@ -21,21 +22,21 @@ namespace MiHoYo::SDK::UI::Internal::OS
 	class AccountListLogoutConfirmDialog : public ::System::Object
 	{
 	public:
-		::System::Action* _OnAccountListLogoutConfirm_k__BackingField; // 0x10
+		::System::Action_1<::MiHoYo::SDK::UI::OS::AccountListLogoutOption>* _OnAccountListLogoutConfirm_k__BackingField; // 0x10
 		::System::Action* _OnAccountListLogoutCancel_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTLOGOUTCONFIRMDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnAccountListLogoutConfirm()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::AccountListLogoutOption>* get_OnAccountListLogoutConfirm()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTLOGOUTCONFIRMDIALOG_GET_ONACCOUNTLISTLOGOUTCONFIRM_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::AccountListLogoutOption>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTLOGOUTCONFIRMDIALOG_GET_ONACCOUNTLISTLOGOUTCONFIRM_OFFSET))(this);
 		}
 
-		::System::Void set_OnAccountListLogoutConfirm(::System::Action* a1)
+		::System::Void set_OnAccountListLogoutConfirm(::System::Action_1<::MiHoYo::SDK::UI::OS::AccountListLogoutOption>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTLOGOUTCONFIRMDIALOG_SET_ONACCOUNTLISTLOGOUTCONFIRM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::AccountListLogoutOption>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTLOGOUTCONFIRMDIALOG_SET_ONACCOUNTLISTLOGOUTCONFIRM_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnAccountListLogoutCancel()

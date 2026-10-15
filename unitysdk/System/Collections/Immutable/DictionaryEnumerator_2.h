@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace System::Collections::Immutable
@@ -12,6 +12,6 @@ namespace System::Collections::Immutable
 	class DictionaryEnumerator_2 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* _inner; // 0x0
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<T1, T2>>* _inner; // 0x0
 	};
 }

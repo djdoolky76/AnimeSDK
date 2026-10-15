@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/MovementStoppedRootMotionBakedData.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class RootMotionHandler; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
@@ -24,7 +24,7 @@ namespace RPG::Client
 		::UnityEngine::Animator* animator; // 0x28
 		::RPG::Client::RootMotionHandler* handler; // 0x30
 		::Il2CppArray<::RPG::Client::MovementStoppedRootMotionBakedData>* movementStoppedBakedArray; // 0x38
-		::System::Action* LDKDMEIAGJG; // 0x40
+		::System::Action_2<::System::Int32, ::System::Single>* LDKDMEIAGJG; // 0x40
 		::System::Collections::Generic::List_1<::System::Int32>* OINCGJJMAEF; // 0x48
 		::System::Collections::Generic::List_1<::System::Object*>* FNABCHMGJBF; // 0x50
 		::System::Void _ctor()

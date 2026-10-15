@@ -6,6 +6,7 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::PS { class BindManagerPS; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
 #define MIHOYO_SDK_PS_BINDMANAGERPS_CANCELBINDING_OFFSET UNITYSDK_OFFSET(0x1BF43140)
@@ -107,9 +108,9 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDMANAGERPS_EXTRACTSNOYACCOUNTNAME_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateAccessToken(::System::Action* a1)
+		::System::Void UpdateAccessToken(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDMANAGERPS_UPDATEACCESSTOKEN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDMANAGERPS_UPDATEACCESSTOKEN_OFFSET))(this, a1);
 		}
 
 		::System::Void LogReport(::System::String* a1, ::System::Int32 a2)

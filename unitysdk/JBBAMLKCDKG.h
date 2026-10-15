@@ -11,7 +11,7 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentActorViewMode
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentDetailViewModel; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentDetailViewModel_Factory; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewModel; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -38,9 +38,9 @@ inline static constexpr unsigned int JBBAMLKCDKG_TypeDefinitionIndex = 79767;
 			return ((::System::Void(*)(::PVOID, ::FJFNJCPHFDM*, ::AHDANEIIJML_BBEEKLGNJLL*, ::FBECENEMLNO_ILIKDIHMNDH*, ::RPG::Client::MechCraft::ViewModel::MechCraftTalentDetailViewModel_Factory*))((::PBYTE)hIl2Cpp + JBBAMLKCDKG_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PKADDEPKJFN(::System::Func_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentDetailViewModel*>* a1, ::System::Action* a2, ::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel* a3, ::System::Collections::Generic::IReadOnlyList_1<::FOACJPEHDKO*>* a4, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentActorViewModel*>* a5)
+		::System::Void PKADDEPKJFN(::System::Func_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentDetailViewModel*>* a1, ::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentDetailViewModel*>* a2, ::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel* a3, ::System::Collections::Generic::IReadOnlyList_1<::FOACJPEHDKO*>* a4, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentActorViewModel*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentDetailViewModel*>*, ::System::Action*, ::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*, ::System::Collections::Generic::IReadOnlyList_1<::FOACJPEHDKO*>*, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentActorViewModel*>*))((::PBYTE)hIl2Cpp + JBBAMLKCDKG_PKADDEPKJFN_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentDetailViewModel*>*, ::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentDetailViewModel*>*, ::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*, ::System::Collections::Generic::IReadOnlyList_1<::FOACJPEHDKO*>*, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentActorViewModel*>*))((::PBYTE)hIl2Cpp + JBBAMLKCDKG_PKADDEPKJFN_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Collections::Generic::List_1<::AHDANEIIJML*>* GPBOBBJFNKG(::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel* a1, ::FOACJPEHDKO* a2, ::System::UInt32 a3)

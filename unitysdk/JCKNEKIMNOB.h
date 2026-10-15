@@ -16,7 +16,7 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelRuntim
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelStructGameView; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -52,7 +52,7 @@ inline static constexpr unsigned int JCKNEKIMNOB_TypeDefinitionIndex = 76818;
 	class JCKNEKIMNOB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::System::Tuple*>* BEFGJHIKIAG; // 0x10
+		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::System::Tuple_2<::UnityEngine::GameObject*, ::BansheeGz::BGSpline::Curve::BGCurve*>*>* BEFGJHIKIAG; // 0x10
 		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::DNFFEFPKDPC*>* PKLCDNJJJLA; // 0x18
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>*>* JJLEMINNGHC; // 0x20
 		::BABNOKHOBCF* FKINCGODJEP; // 0x28
@@ -160,9 +160,9 @@ inline static constexpr unsigned int JCKNEKIMNOB_TypeDefinitionIndex = 76818;
 			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::DNFFEFPKDPC*))((::PBYTE)hIl2Cpp + JCKNEKIMNOB_CABMDGEGMBJ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void KLPFNEIKPLF(::System::Tuple* a1, ::INMMPMDELKE* a2, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* a3, ::DNFFEFPKDPC* a4)
+		::System::Void KLPFNEIKPLF(::System::Tuple_2<::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::DNFFEFPKDPC*>*>* a1, ::INMMPMDELKE* a2, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* a3, ::DNFFEFPKDPC* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Tuple*, ::INMMPMDELKE*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::DNFFEFPKDPC*))((::PBYTE)hIl2Cpp + JCKNEKIMNOB_KLPFNEIKPLF_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::DNFFEFPKDPC*>*>*, ::INMMPMDELKE*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::DNFFEFPKDPC*))((::PBYTE)hIl2Cpp + JCKNEKIMNOB_KLPFNEIKPLF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void JCFFHKHIENK()

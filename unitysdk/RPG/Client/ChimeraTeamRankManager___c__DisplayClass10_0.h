@@ -4,7 +4,7 @@
 namespace RPG::Client { class ChimeraTeamRankManager; }
 namespace RPG::Client { class ChimeraTeamTalkRowWrapper; }
 namespace RPG::Client { class ChimeraWorkRoundData; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB66C90)
 #define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS10_0__GETCURRENTROUNDTEAMTALKROWDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCB67590)
@@ -17,7 +17,7 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::ChimeraTeamRankManager* __4__this; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
+		::RPG::Client::Promises::Promise_1<::RPG::Client::ChimeraTeamTalkRowWrapper*>* promise; // 0x18
 		::System::UInt32 teamID; // 0x20
 		::System::Void _ctor()
 		{

@@ -7,7 +7,7 @@
 #include "unitysdk/Newtonsoft/Json/Required.h"
 #include "unitysdk/Newtonsoft/Json/TypeNameHandling.h"
 #include "unitysdk/System/Attribute.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -31,17 +31,17 @@ namespace Newtonsoft::Json
 		::System::Type* _ItemConverterType_k__BackingField; // 0x10
 		::System::String* _PropertyName_k__BackingField; // 0x18
 		::Il2CppArray<::System::Object*>* _ItemConverterParameters_k__BackingField; // 0x20
-		::System::Nullable* _typeNameHandling; // 0x28
-		::System::Nullable* _objectCreationHandling; // 0x30
-		::System::Nullable* _required; // 0x38
-		::System::Nullable* _nullValueHandling; // 0x40
-		::System::Nullable* _itemReferenceLoopHandling; // 0x48
-		::System::Nullable* _referenceLoopHandling; // 0x50
-		::System::Nullable* _itemTypeNameHandling; // 0x58
-		::System::Nullable* _itemIsReference; // 0x60
-		::System::Nullable* _isReference; // 0x62
-		::System::Nullable* _defaultValueHandling; // 0x64
-		::System::Nullable* _order; // 0x6C
+		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _typeNameHandling; // 0x28
+		::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _objectCreationHandling; // 0x30
+		::System::Nullable_1<::Newtonsoft::Json::Required> _required; // 0x38
+		::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _nullValueHandling; // 0x40
+		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _itemReferenceLoopHandling; // 0x48
+		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _referenceLoopHandling; // 0x50
+		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _itemTypeNameHandling; // 0x58
+		::System::Nullable_1<::System::Boolean> _itemIsReference; // 0x60
+		::System::Nullable_1<::System::Boolean> _isReference; // 0x62
+		::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _defaultValueHandling; // 0x64
+		::System::Nullable_1<::System::Int32> _order; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPROPERTYATTRIBUTE_CTOR_OFFSET))(this);

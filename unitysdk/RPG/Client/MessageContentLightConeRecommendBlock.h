@@ -4,8 +4,8 @@
 #include "unitysdk/RPG/Client/MessageContentFunctionCallBlock.h"
 namespace RPG::Client { class LightConeGrowthGuide; }
 namespace RPG::Client { class MessageContentBlock; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD6A0BF0)
 #define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD6A0DC0)
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void RequestLightConeRecommendData(::System::Action* a1)
+		::System::Void RequestLightConeRecommendData(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_REQUESTLIGHTCONERECOMMENDDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_REQUESTLIGHTCONERECOMMENDDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)

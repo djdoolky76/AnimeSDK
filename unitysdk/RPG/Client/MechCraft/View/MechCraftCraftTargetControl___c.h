@@ -4,7 +4,7 @@
 class ACHNEAMCCEC;
 class BJDBKICFGAM;
 class CEEGMMCFCBG;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -42,29 +42,29 @@ namespace RPG::Client::MechCraft::View
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599C0);
 		}
 
-		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>** StaticGet___9__9_1()
+		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__9_1()
 		{
-			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599C8);
+			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599C8);
 		}
 
-		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>** StaticGet___9__8_3()
+		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__8_3()
 		{
-			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599D0);
+			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599D0);
 		}
 
-		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>** StaticGet___9__8_0()
+		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599D8);
+			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599D8);
 		}
 
-		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>** StaticGet___9__8_1()
+		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599E0);
+			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599E0);
 		}
 
-		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>** StaticGet___9__9_0()
+		static ::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599E8);
+			return (::System::Func_2<::BJDBKICFGAM*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x599E8);
 		}
 
 		static ::System::Func_2<::BJDBKICFGAM*, ::CEEGMMCFCBG*>** StaticGet___9__7_0()
@@ -87,14 +87,14 @@ namespace RPG::Client::MechCraft::View
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDCOMMANDS_B__7_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindAttributes_b__8_0(::BJDBKICFGAM* a1)
+		::R3::Observable_1<::System::Boolean>* __BindAttributes_b__8_0(::BJDBKICFGAM* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDATTRIBUTES_B__8_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDATTRIBUTES_B__8_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindAttributes_b__8_1(::BJDBKICFGAM* a1)
+		::R3::Observable_1<::System::Boolean>* __BindAttributes_b__8_1(::BJDBKICFGAM* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDATTRIBUTES_B__8_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDATTRIBUTES_B__8_1_OFFSET))(this, a1);
 		}
 
 		::ACHNEAMCCEC* __BindAttributes_b__8_2(::BJDBKICFGAM* a1)
@@ -102,9 +102,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::ACHNEAMCCEC*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDATTRIBUTES_B__8_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindAttributes_b__8_3(::BJDBKICFGAM* a1)
+		::R3::Observable_1<::System::Boolean>* __BindAttributes_b__8_3(::BJDBKICFGAM* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDATTRIBUTES_B__8_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDATTRIBUTES_B__8_3_OFFSET))(this, a1);
 		}
 
 		::ACHNEAMCCEC* __BindAttributes_b__8_4(::BJDBKICFGAM* a1)
@@ -112,14 +112,14 @@ namespace RPG::Client::MechCraft::View
 			return ((::ACHNEAMCCEC*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDATTRIBUTES_B__8_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindTraits_b__9_0(::BJDBKICFGAM* a1)
+		::R3::Observable_1<::System::Boolean>* __BindTraits_b__9_0(::BJDBKICFGAM* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDTRAITS_B__9_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDTRAITS_B__9_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindTraits_b__9_1(::BJDBKICFGAM* a1)
+		::R3::Observable_1<::System::String*>* __BindTraits_b__9_1(::BJDBKICFGAM* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDTRAITS_B__9_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTTARGETCONTROL___C___BINDTRAITS_B__9_1_OFFSET))(this, a1);
 		}
 
 	};

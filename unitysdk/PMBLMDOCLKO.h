@@ -5,8 +5,8 @@
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class CKHENKIDNKP;
 class FCOEMCEDLNL;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -33,9 +33,9 @@ inline static constexpr unsigned int PMBLMDOCLKO_TypeDefinitionIndex = 11562;
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::CKHENKIDNKP*>**)UnitySDK::FromName("", "PMBLMDOCLKO")->GetStaticField(0x45960);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "PMBLMDOCLKO")->GetStaticField(0x45968);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PMBLMDOCLKO")->GetStaticField(0x45968);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()

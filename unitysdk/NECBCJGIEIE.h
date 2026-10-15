@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class NECBCJGIEIE_ILKLIMGPMMP;
 class PBGNKMMDBGD;
 namespace System { class Object; }
@@ -24,15 +25,15 @@ inline static constexpr unsigned int NECBCJGIEIE_TypeDefinitionIndex = 37301;
 	public:
 		::System::Collections::Generic::SortedDictionary_2<::System::UInt32, ::System::Object*>* HJCOANHJMMO; // 0x10
 		::PBGNKMMDBGD* PDENFEFCAGN; // 0x18
-		::System::Collections::Generic::SortedDictionary_2<::System::UInt64, ::System::Collections::Generic::List_1<::System::ValueTuple>*>* FEGAFKJJHCO; // 0x20
+		::System::Collections::Generic::SortedDictionary_2<::System::UInt64, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>>*>* FEGAFKJJHCO; // 0x20
 		::System::Void _ctor(::PBGNKMMDBGD* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::PBGNKMMDBGD*))((::PBYTE)hIl2Cpp + NECBCJGIEIE_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void OIPHGBIAPMI(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::HashSet_1<::System::ValueTuple>* a3)
+		::System::Void OIPHGBIAPMI(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + NECBCJGIEIE_OIPHGBIAPMI_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + NECBCJGIEIE_OIPHGBIAPMI_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean GAPIKLPFMLD(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)

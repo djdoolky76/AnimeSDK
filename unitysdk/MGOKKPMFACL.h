@@ -7,7 +7,7 @@ class IBNAFGFFJLJ;
 class KHOJFFEPLEO;
 class MGOKKPMFACL_FNNMONCNBAB;
 namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2, typename T3> class Tuple_3; }
 namespace UnityEngine { class Transform; }
 
 #define MGOKKPMFACL_AHGLOBMOBCP_OFFSET UNITYSDK_OFFSET(0xB92A8A0)
@@ -66,9 +66,9 @@ inline static constexpr unsigned int MGOKKPMFACL_TypeDefinitionIndex = 74116;
 			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3A54);
 		}
 
-		static ::System::Tuple* CJNDHGJBMHI(::UnityEngine::Vector3 a1)
+		static ::System::Tuple_3<::System::Int32, ::System::Int32, ::System::Int32>* CJNDHGJBMHI(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Tuple*(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MGOKKPMFACL_CJNDHGJBMHI_OFFSET))(a1);
+			return ((::System::Tuple_3<::System::Int32, ::System::Int32, ::System::Int32>*(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MGOKKPMFACL_CJNDHGJBMHI_OFFSET))(a1);
 		}
 
 		static ::System::Void KPJGDHLENIP(::KHOJFFEPLEO* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)

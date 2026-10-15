@@ -13,8 +13,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Cubemap; }
 namespace UnityEngine { class ReflectionProbe; }
@@ -108,14 +109,14 @@ namespace UnityEngine
 	class ReflectionProbe : public ::UnityEngine::Behaviour
 	{
 	public:
-		static ::System::Action** StaticGet_defaultReflectionSet()
+		static ::System::Action_1<::UnityEngine::Cubemap*>** StaticGet_defaultReflectionSet()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine", "ReflectionProbe")->GetStaticField(0x13BF0);
+			return (::System::Action_1<::UnityEngine::Cubemap*>**)UnitySDK::FromName("UnityEngine", "ReflectionProbe")->GetStaticField(0x13BF0);
 		}
 
-		static ::System::Action** StaticGet_reflectionProbeChanged()
+		static ::System::Action_2<::UnityEngine::ReflectionProbe*, ::System::Object*>** StaticGet_reflectionProbeChanged()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine", "ReflectionProbe")->GetStaticField(0x13BF8);
+			return (::System::Action_2<::UnityEngine::ReflectionProbe*, ::System::Object*>**)UnitySDK::FromName("UnityEngine", "ReflectionProbe")->GetStaticField(0x13BF8);
 		}
 
 		::System::Void _ctor()
@@ -398,24 +399,24 @@ namespace UnityEngine
 			return ((::UnityEngine::Texture*(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_GET_DEFAULTTEXTURE_OFFSET))();
 		}
 
-		static ::System::Void add_reflectionProbeChanged(::System::Action* a1)
+		static ::System::Void add_reflectionProbeChanged(::System::Action_2<::UnityEngine::ReflectionProbe*, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_ADD_REFLECTIONPROBECHANGED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::UnityEngine::ReflectionProbe*, ::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_ADD_REFLECTIONPROBECHANGED_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_reflectionProbeChanged(::System::Action* a1)
+		static ::System::Void remove_reflectionProbeChanged(::System::Action_2<::UnityEngine::ReflectionProbe*, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_REMOVE_REFLECTIONPROBECHANGED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::UnityEngine::ReflectionProbe*, ::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_REMOVE_REFLECTIONPROBECHANGED_OFFSET))(a1);
 		}
 
-		static ::System::Void add_defaultReflectionSet(::System::Action* a1)
+		static ::System::Void add_defaultReflectionSet(::System::Action_1<::UnityEngine::Cubemap*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_ADD_DEFAULTREFLECTIONSET_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::UnityEngine::Cubemap*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_ADD_DEFAULTREFLECTIONSET_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_defaultReflectionSet(::System::Action* a1)
+		static ::System::Void remove_defaultReflectionSet(::System::Action_1<::UnityEngine::Cubemap*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_REMOVE_DEFAULTREFLECTIONSET_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::UnityEngine::Cubemap*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_REFLECTIONPROBE_REMOVE_DEFAULTREFLECTIONSET_OFFSET))(a1);
 		}
 
 		static ::System::Void CallReflectionProbeEvent(::UnityEngine::ReflectionProbe* a1, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent a2)

@@ -6,6 +6,7 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class GrantBindPhone; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
@@ -43,8 +44,8 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Button* submitButton; // 0x88
 		::UnityEngine::UI::Button* questionButton; // 0x90
 		::System::Action* OnBack; // 0x98
-		::System::Action* OnGetCode; // 0xA0
-		::System::Action* OnSubmit; // 0xA8
+		::System::Action_1<::MiHoYo::SDK::GrantType>* OnGetCode; // 0xA0
+		::System::Action_1<::System::String*>* OnSubmit; // 0xA8
 		::System::Boolean isRequestVerifyCode; // 0xB0
 		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xB4

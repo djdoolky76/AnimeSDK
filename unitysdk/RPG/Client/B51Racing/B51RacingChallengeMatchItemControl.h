@@ -4,7 +4,7 @@
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client::B51Racing { class LuaControllerHandle; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 
@@ -28,7 +28,7 @@ namespace RPG::Client::B51Racing
 	public:
 		::System::Int32 _ItemIndex_k__BackingField; // 0x40
 		::System::Byte _padding0[0x4];
-		::System::Action* _OnSelectCallback_k__BackingField; // 0x48
+		::System::Action_1<::System::Int32>* _OnSelectCallback_k__BackingField; // 0x48
 		::UnityEngine::UI::Image* _MapImage; // 0x50
 		::RPG::Client::LocalizedText* _NameText; // 0x58
 		::RPG::Client::LocalizedText* _TimeText; // 0x60
@@ -53,14 +53,14 @@ namespace RPG::Client::B51Racing
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ITEMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnSelectCallback()
+		::System::Action_1<::System::Int32>* get_OnSelectCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_GET_ONSELECTCALLBACK_OFFSET))(this);
+			return ((::System::Action_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_GET_ONSELECTCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_OnSelectCallback(::System::Action* a1)
+		::System::Void set_OnSelectCallback(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ONSELECTCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ONSELECTCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnInitializeComponent()

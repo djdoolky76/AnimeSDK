@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FKDIDBGBGMF.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class AGJHAIDADBA;
 class OFBJPFPNFBP;
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define AGJHAIDADBA__MAINASYNC_D__3_CTOR_OFFSET UNITYSDK_OFFSET(0xCF35430)
@@ -28,7 +28,7 @@ inline static constexpr unsigned int AGJHAIDADBA__MainAsync_d__3_TypeDefinitionI
 		::System::Single H; // 0x48
 		::System::Single G; // 0x4C
 		::System::Int32 __1__state; // 0x50
-		::System::Nullable* __2__current; // 0x54
+		::System::Nullable_1<::System::Boolean> __2__current; // 0x54
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AGJHAIDADBA__MAINASYNC_D__3_CTOR_OFFSET))(this, a1);
@@ -44,9 +44,9 @@ inline static constexpr unsigned int AGJHAIDADBA__MainAsync_d__3_TypeDefinitionI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJHAIDADBA__MAINASYNC_D__3_MOVENEXT_OFFSET))(this);
 		}
 
-		::System::Nullable* System_Collections_Generic_IEnumerator_System_Boolean___get_Current()
+		::System::Nullable_1<::System::Boolean> System_Collections_Generic_IEnumerator_System_Boolean___get_Current()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJHAIDADBA__MAINASYNC_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJHAIDADBA__MAINASYNC_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AJHHFMBOCEN.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class AGCPAMNLCGN;
 class GHLMCHNDPHI;
@@ -52,9 +52,9 @@ inline static constexpr unsigned int GHLMCHNDPHI_TypeDefinitionIndex = 78175;
 			return ((::GHLMCHNDPHI*(*)(::JBACCAGFHON*, ::System::UInt32))((::PBYTE)hIl2Cpp + GHLMCHNDPHI_BPLPBPMEODA_OFFSET))(a1, a2);
 		}
 
-		static ::System::ValueTuple CKBINNGEHAI(::System::UInt32 a1)
+		static ::System::ValueTuple_2<::System::String*, ::Entitas::IMatcher_1<::AGCPAMNLCGN*>*> CKBINNGEHAI(::System::UInt32 a1)
 		{
-			return ((::System::ValueTuple(*)(::System::UInt32))((::PBYTE)hIl2Cpp + GHLMCHNDPHI_CKBINNGEHAI_OFFSET))(a1);
+			return ((::System::ValueTuple_2<::System::String*, ::Entitas::IMatcher_1<::AGCPAMNLCGN*>*>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + GHLMCHNDPHI_CKBINNGEHAI_OFFSET))(a1);
 		}
 
 		::System::Void OnExecute()

@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/ClockParkEffectType.h"
 #include "unitysdk/RPG/GameCore/PuzzleCustomEvent.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/DOHPJBMHKKM.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class MovieGameController; }
@@ -65,7 +65,7 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::UInt32>* _MovieRacingBestScoreDict; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _ActivityStartBuffList; // 0x18
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::GameCore::ClockParkEffectType, ::System::Int32>>* _ActivityStartBuffList; // 0x18
 		::RPG::Client::MovieGameController* _GameController; // 0x20
 		::System::UInt32 _StartReportSerialNumber; // 0x28
 		::System::Boolean _IsCanRestartGame; // 0x2C
@@ -89,9 +89,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MovieGameController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOVIERACINGMODULE_REGISTERGAMECONTROLLER_OFFSET))(this, a1);
 		}
 
-		::System::Void ActivitySetGameStartBuffList(::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* a1)
+		::System::Void ActivitySetGameStartBuffList(::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::ClockParkEffectType, ::System::Int32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOVIERACINGMODULE_ACTIVITYSETGAMESTARTBUFFLIST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::ClockParkEffectType, ::System::Int32>>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOVIERACINGMODULE_ACTIVITYSETGAMESTARTBUFFLIST_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetGameStartEffectValue(::RPG::GameCore::ClockParkEffectType a1)

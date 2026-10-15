@@ -5,8 +5,8 @@
 #include "unitysdk/System/Object.h"
 class FDNCLPGAKOA;
 class HBFNLNPLILA;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define ADGFFEDNPPO_BIHHPNJGMEC_OFFSET UNITYSDK_OFFSET(0xB1389C0)
 #define ADGFFEDNPPO_CKDHEJALCFC_OFFSET UNITYSDK_OFFSET(0xB137CA0)
@@ -43,7 +43,7 @@ inline static constexpr unsigned int ADGFFEDNPPO_TypeDefinitionIndex = 53708;
 	{
 	public:
 		::FDNCLPGAKOA* GLGOKPCDEEA; // 0x10
-		::System::Action* NPGDAPBIDCG; // 0x18
+		::System::Action_2<::RPG::GameCore::BattleModeState, ::RPG::GameCore::BattleModeState>* NPGDAPBIDCG; // 0x18
 		::HBFNLNPLILA* _View_k__BackingField; // 0x20
 		::System::Object* MMHPIKHEFCI; // 0x28
 		::RPG::GameCore::BattleModeState CBFKJIDIGKG; // 0x30
@@ -93,14 +93,14 @@ inline static constexpr unsigned int ADGFFEDNPPO_TypeDefinitionIndex = 53708;
 			return ((::System::Void(*)(::PVOID, ::FDNCLPGAKOA*))((::PBYTE)hIl2Cpp + ADGFFEDNPPO_JIJCKKPGMPO_OFFSET))(this, a1);
 		}
 
-		::System::Void DDKKJAPNADK(::System::Action* a1)
+		::System::Void DDKKJAPNADK(::System::Action_2<::RPG::GameCore::BattleModeState, ::RPG::GameCore::BattleModeState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ADGFFEDNPPO_DDKKJAPNADK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::GameCore::BattleModeState, ::RPG::GameCore::BattleModeState>*))((::PBYTE)hIl2Cpp + ADGFFEDNPPO_DDKKJAPNADK_OFFSET))(this, a1);
 		}
 
-		::System::Void MKHHAPKJGMA(::System::Action* a1)
+		::System::Void MKHHAPKJGMA(::System::Action_2<::RPG::GameCore::BattleModeState, ::RPG::GameCore::BattleModeState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ADGFFEDNPPO_MKHHAPKJGMA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::GameCore::BattleModeState, ::RPG::GameCore::BattleModeState>*))((::PBYTE)hIl2Cpp + ADGFFEDNPPO_MKHHAPKJGMA_OFFSET))(this, a1);
 		}
 
 		::System::Void OnPreInit()

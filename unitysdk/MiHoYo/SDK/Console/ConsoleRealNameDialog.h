@@ -4,6 +4,7 @@
 namespace MiHoYo::SDK::Console { class ConsoleRealNameDialog; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class InputField; }
 
@@ -29,7 +30,7 @@ namespace MiHoYo::SDK::Console
 	class ConsoleRealNameDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		::System::Action* OnRealName; // 0xC0
+		::System::Action_2<::System::String*, ::System::String*>* OnRealName; // 0xC0
 		::System::Action* OnBack; // 0xC8
 		::UnityEngine::UI::InputField* nameInput; // 0xD0
 		::UnityEngine::UI::InputField* idInput; // 0xD8

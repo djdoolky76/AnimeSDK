@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AudienceStanceConfig_CellConfig.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
@@ -32,7 +32,7 @@ namespace RPG::Client
 		::System::Int32 __1__state; // 0x38
 		::UnityEngine::Vector2 size; // 0x3C
 		::UnityEngine::Vector2 __3__size; // 0x44
-		::System::ValueTuple __2__current; // 0x4C
+		::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*> __2__current; // 0x4C
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE__GENERATECELL_D__16_CTOR_OFFSET))(this, a1);
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE__GENERATECELL_D__16_MOVENEXT_OFFSET))(this);
 		}
 
-		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_UnityEngine_Vector2_RPG_Client_AudienceStanceConfig_EPositionPoseType___get_Current()
+		::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*> System_Collections_Generic_IEnumerator_System_ValueTuple_UnityEngine_Vector2_RPG_Client_AudienceStanceConfig_EPositionPoseType___get_Current()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE__GENERATECELL_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_UNITYENGINE_VECTOR2_RPG_CLIENT_AUDIENCESTANCECONFIG_EPOSITIONPOSETYPE___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE__GENERATECELL_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_UNITYENGINE_VECTOR2_RPG_CLIENT_AUDIENCESTANCECONFIG_EPOSITIONPOSETYPE___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -63,9 +63,9 @@ namespace RPG::Client
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE__GENERATECELL_D__16_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>* System_Collections_Generic_IEnumerable_System_ValueTuple_UnityEngine_Vector2_RPG_Client_AudienceStanceConfig_EPositionPoseType___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*>>* System_Collections_Generic_IEnumerable_System_ValueTuple_UnityEngine_Vector2_RPG_Client_AudienceStanceConfig_EPositionPoseType___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE__GENERATECELL_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_UNITYENGINE_VECTOR2_RPG_CLIENT_AUDIENCESTANCECONFIG_EPOSITIONPOSETYPE___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE__GENERATECELL_D__16_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_UNITYENGINE_VECTOR2_RPG_CLIENT_AUDIENCESTANCECONFIG_EPOSITIONPOSETYPE___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

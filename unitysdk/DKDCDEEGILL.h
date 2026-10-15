@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KIBHANONAPI;
 class NAKCADNKBCK;
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -43,9 +43,9 @@ inline static constexpr unsigned int DKDCDEEGILL_TypeDefinitionIndex = 52098;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DKDCDEEGILL_LJKLOKHHIEC_OFFSET))(this, a1);
 		}
 
-		::System::Void KMJFDCJIHOC(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::System::Nullable* a4, ::Il2CppArray<::System::UInt32>* a5, ::System::Single a6)
+		::System::Void KMJFDCJIHOC(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::System::UInt32> a3, ::System::Nullable_1<::System::UInt32> a4, ::Il2CppArray<::System::UInt32>* a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Nullable*, ::Il2CppArray<::System::UInt32>*, ::System::Single))((::PBYTE)hIl2Cpp + DKDCDEEGILL_KMJFDCJIHOC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::System::Nullable_1<::System::UInt32>, ::System::Nullable_1<::System::UInt32>, ::Il2CppArray<::System::UInt32>*, ::System::Single))((::PBYTE)hIl2Cpp + DKDCDEEGILL_KMJFDCJIHOC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void JLANKNHFKCN(::System::Single a1)

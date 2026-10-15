@@ -4,9 +4,9 @@
 class GMIIFDNHLFN;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
@@ -50,9 +50,9 @@ inline static constexpr unsigned int GMIIFDNHLFN_TypeDefinitionIndex = 25411;
 		::System::UInt32 AKOEJEDDDFG; // 0x2C
 		::System::UInt32 DNKADAFBILN; // 0x30
 		::System::UInt32 NIEBBONGCEO; // 0x34
-		static ::Google::Protobuf::FieldCodec** StaticGet_HLHDMBALJGC()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_HLHDMBALJGC()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "GMIIFDNHLFN")->GetStaticField(0xDD10);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "GMIIFDNHLFN")->GetStaticField(0xDD10);
 		}
 
 		static ::System::Object** StaticGet_AGBKGNPMDEM()
@@ -60,9 +60,9 @@ inline static constexpr unsigned int GMIIFDNHLFN_TypeDefinitionIndex = 25411;
 			return (::System::Object**)UnitySDK::FromName("", "GMIIFDNHLFN")->GetStaticField(0xDD18);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::GMIIFDNHLFN*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "GMIIFDNHLFN")->GetStaticField(0xDD20);
+			return (::Google::Protobuf::MessageParser_1<::GMIIFDNHLFN*>**)UnitySDK::FromName("", "GMIIFDNHLFN")->GetStaticField(0xDD20);
 		}
 
 		// static const ::System::Object AKFFJEHMCCB; // 0x0
@@ -86,9 +86,9 @@ inline static constexpr unsigned int GMIIFDNHLFN_TypeDefinitionIndex = 25411;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GMIIFDNHLFN_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::GMIIFDNHLFN*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GMIIFDNHLFN_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::GMIIFDNHLFN*>*(*)())((::PBYTE)hIl2Cpp + GMIIFDNHLFN_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

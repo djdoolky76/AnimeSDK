@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayTarget.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class FICJADOJGMF;
 class JNKPPLPLFOM;
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 namespace RPG::Client { class WolfBroGunPlayTarget_Group; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_WOLFBROGUNPLAYTARGET_BOSS_CTOR_OFFSET UNITYSDK_OFFSET(0xE476EB0)
@@ -74,9 +74,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_BOSS_ISBOOMABLE_OFFSET))(this);
 		}
 
-		::System::Boolean OnHit(::UnityEngine::Vector3 a1, ::System::Nullable* a2)
+		::System::Boolean OnHit(::UnityEngine::Vector3 a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_BOSS_ONHIT_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_BOSS_ONHIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IJCCAJDIDGO(::System::Boolean a1)

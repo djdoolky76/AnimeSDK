@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
@@ -24,7 +24,7 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Byte _padding0[0x8];
 		::System::Object* __7__wrap3; // 0x38
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Int64>* _e_5__3; // 0x40
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x48
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Int64> __t__builder; // 0x48
 		::System::Byte _padding1[0x10];
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Int64>* source; // 0x60
 		::System::Int32 __1__state; // 0x68

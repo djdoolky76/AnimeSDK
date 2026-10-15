@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
@@ -20,10 +20,10 @@ namespace Cysharp::Threading::Tasks::Linq
 	struct alignas(8) ToLookup__ToLookupAwaitWithCancellationAsync_d__4_2
 	{
 		::System::Int32 __1__state; // 0x0
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x0
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Linq::ILookup_2<T1, T2>*> __t__builder; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T2>* source; // 0x0
 		::System::Threading::CancellationToken cancellationToken; // 0x0
-		::System::Func_3<T2, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>* keySelector; // 0x0
+		::System::Func_3<T2, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask_1<T1>>* keySelector; // 0x0
 		::System::Collections::Generic::IEqualityComparer_1<T1>* comparer; // 0x0
 		::Cysharp::Threading::Tasks::Internal::ArrayPool_1<T2>* _pool_5__2; // 0x0
 		::Il2CppArray<T2>* _array_5__3; // 0x0

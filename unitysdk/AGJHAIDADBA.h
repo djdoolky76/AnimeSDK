@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FKDIDBGBGMF.h"
 #include "unitysdk/OMCOBKDLALA.h"
+#include "unitysdk/System/Nullable_1.h"
 class MOAAMGJICCD;
 class OFBJPFPNFBP;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
@@ -55,9 +55,9 @@ inline static constexpr unsigned int AGJHAIDADBA_TypeDefinitionIndex = 48910;
 			return ((::System::Boolean(*)(::PVOID, ::FKDIDBGBGMF, ::FKDIDBGBGMF, ::System::Single, ::System::Single, ::OFBJPFPNFBP*))((::PBYTE)hIl2Cpp + AGJHAIDADBA_IBAADNINFCG_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Nullable*>* CFCIDJOPDCM(::FKDIDBGBGMF a1, ::FKDIDBGBGMF a2, ::System::Single a3, ::System::Single a4, ::OFBJPFPNFBP* a5)
+		::System::Collections::Generic::IEnumerator_1<::System::Nullable_1<::System::Boolean>>* CFCIDJOPDCM(::FKDIDBGBGMF a1, ::FKDIDBGBGMF a2, ::System::Single a3, ::System::Single a4, ::OFBJPFPNFBP* a5)
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Nullable*>*(*)(::PVOID, ::FKDIDBGBGMF, ::FKDIDBGBGMF, ::System::Single, ::System::Single, ::OFBJPFPNFBP*))((::PBYTE)hIl2Cpp + AGJHAIDADBA_CFCIDJOPDCM_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Nullable_1<::System::Boolean>>*(*)(::PVOID, ::FKDIDBGBGMF, ::FKDIDBGBGMF, ::System::Single, ::System::Single, ::OFBJPFPNFBP*))((::PBYTE)hIl2Cpp + AGJHAIDADBA_CFCIDJOPDCM_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean KHDLNDMMKLD(::FKDIDBGBGMF a1, ::FKDIDBGBGMF a2, ::System::Single a3, ::System::Single a4, ::OFBJPFPNFBP* a5)

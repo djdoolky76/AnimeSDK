@@ -5,7 +5,7 @@ class BMKLCCOJMOF;
 class CAHLPKGIABH;
 class HNLKNLJBHDD;
 class PLMODIOCPAF;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CJDOMOMGACM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D57D0)
@@ -17,7 +17,7 @@ inline static constexpr unsigned int CJDOMOMGACM_TypeDefinitionIndex = 37146;
 	class CJDOMOMGACM : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* PGJOLIFOBJE; // 0x10
+		::Entitas::IGroup_1<::HNLKNLJBHDD*>* PGJOLIFOBJE; // 0x10
 		::PLMODIOCPAF* PDENFEFCAGN; // 0x18
 		::System::Collections::Generic::List_1<::CAHLPKGIABH*>* IDLGPCJKGEP; // 0x20
 		::System::Void _ctor(::PLMODIOCPAF* a1)

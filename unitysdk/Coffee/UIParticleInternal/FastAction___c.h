@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define COFFEE_UIPARTICLEINTERNAL_FASTACTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x166C4DF0)
 #define COFFEE_UIPARTICLEINTERNAL_FASTACTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x166C4E20)
@@ -15,9 +16,9 @@ namespace Coffee::UIParticleInternal
 	class FastAction___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__0_0()
+		static ::System::Action_1<::System::Action*>** StaticGet___9__0_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>c")->GetStaticField(0x1090);
+			return (::System::Action_1<::System::Action*>**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>c")->GetStaticField(0x1090);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -11,7 +11,7 @@
 #include "unitysdk/RPG/Client/ResidentActivityPanelIndexKey.h"
 #include "unitysdk/RPG/Client/RogueTournBuildRefUnionIndex.h"
 #include "unitysdk/System/Guid.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class IDKCGDNCCGC;
 class IJDMNPNMMPI;
 namespace RPG::Client { class ExpeditionBattleAvatarSaveData; }
@@ -20,7 +20,7 @@ namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 namespace RPG::Client { template <typename T> class PrefList_1; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -1923,9 +1923,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_SETWEBTOOLSEEN_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple*>*>* GetEvolveBuildTeamSave()
+		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Boolean>*>*>* GetEvolveBuildTeamSave()
 		{
-			return ((::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETEVOLVEBUILDTEAMSAVE_OFFSET))(this);
+			return ((::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Boolean>*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETEVOLVEBUILDTEAMSAVE_OFFSET))(this);
 		}
 
 		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::UInt32>* GetEvolveBuildWeaponSave()
@@ -2613,9 +2613,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChallengeGroupType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_ISCHALLENGECOLLECTIONACTIVITYSEEN_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::PrefHashSet_1<::System::ValueTuple>* get_ChallengeBossShowedMonsterGuide()
+		::RPG::Client::PrefHashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* get_ChallengeBossShowedMonsterGuide()
 		{
-			return ((::RPG::Client::PrefHashSet_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GET_CHALLENGEBOSSSHOWEDMONSTERGUIDE_OFFSET))(this);
+			return ((::RPG::Client::PrefHashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GET_CHALLENGEBOSSSHOWEDMONSTERGUIDE_OFFSET))(this);
 		}
 
 		::System::UInt32 GetChallengeBossLastSelectedID()
@@ -4813,14 +4813,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_SETACTIVITYELATIONREWARDHASSEEN_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple*>*>* GetActivityElationTeamSave()
+		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Boolean>*>*>* GetActivityElationTeamSave()
 		{
-			return ((::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETACTIVITYELATIONTEAMSAVE_OFFSET))(this);
+			return ((::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Boolean>*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETACTIVITYELATIONTEAMSAVE_OFFSET))(this);
 		}
 
-		::RPG::Client::PrefDictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Tuple*>*>* GetActivityLocalLegendTeamSave()
+		::RPG::Client::PrefDictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Boolean>*>*>* GetActivityLocalLegendTeamSave()
 		{
-			return ((::RPG::Client::PrefDictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Tuple*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETACTIVITYLOCALLEGENDTEAMSAVE_OFFSET))(this);
+			return ((::RPG::Client::PrefDictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Boolean>*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETACTIVITYLOCALLEGENDTEAMSAVE_OFFSET))(this);
 		}
 
 		::RPG::Client::PrefHashSet_1<::System::UInt32>* GetForceHardBossHasConfirmedChallengePeakGroupIDs()
@@ -5263,9 +5263,9 @@ namespace RPG::Client
 			return ((::RPG::Client::PrefHashSet_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETITEMCOMPOSELIMITHINTTOSEE_OFFSET))(this);
 		}
 
-		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::ValueTuple>*>* GetIdleLiveDungeonSavedSpEquip()
+		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*>* GetIdleLiveDungeonSavedSpEquip()
 		{
-			return ((::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::ValueTuple>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETIDLELIVEDUNGEONSAVEDSPEQUIP_OFFSET))(this);
+			return ((::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETIDLELIVEDUNGEONSAVEDSPEQUIP_OFFSET))(this);
 		}
 
 		::System::Boolean GetIsBadgeAutoFillClosed()
@@ -6018,9 +6018,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_SETACTIVITYFINALITYBATTLELASTOPENENTRANCETIMESTAMP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple*>*>* GetActivityFinalityBattleSavedEditResultOfLevelGroup()
+		::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Boolean>*>*>* GetActivityFinalityBattleSavedEditResultOfLevelGroup()
 		{
-			return ((::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETACTIVITYFINALITYBATTLESAVEDEDITRESULTOFLEVELGROUP_OFFSET))(this);
+			return ((::RPG::Client::PrefDictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Boolean>*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_USERPREFS_GETACTIVITYFINALITYBATTLESAVEDEDITRESULTOFLEVELGROUP_OFFSET))(this);
 		}
 
 		::RPG::Client::PrefHashSet_1<::System::UInt32>* GetActivityFinalityBattleSeenLevelGroupIDs()

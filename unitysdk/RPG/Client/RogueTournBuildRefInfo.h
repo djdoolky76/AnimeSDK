@@ -13,7 +13,7 @@ namespace RPG::Client { class IAvatarComparer; }
 namespace RPG::Client { class RogueTournBuildRefHttpDataItem; }
 namespace RPG::Client { class RogueTournBuildRefShareCodeDataItem; }
 namespace RPG::Client { class RogueTournModule; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class RogueTournBuildRefFallbackLangConfig; }
 namespace RPG::GameCore { class RogueTournBuildRefMatchConfig; }
 namespace RPG::GameCore { class RogueTournBuildRefSortConfig; }
@@ -127,9 +127,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::RogueTournBuildRefHttpDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO_GETFAVORITEBUILDREFS_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* PrepareFavoriteBuildRef()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* PrepareFavoriteBuildRef()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO_PREPAREFAVORITEBUILDREF_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO_PREPAREFAVORITEBUILDREF_OFFSET))(this);
 		}
 
 		::System::Void _ClearHttpDataDict()
@@ -142,9 +142,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO__TRYPRUNEFAVORITEBUILDREFS_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _AdjustFavoriteBuildRefs()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _AdjustFavoriteBuildRefs()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO__ADJUSTFAVORITEBUILDREFS_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFINFO__ADJUSTFAVORITEBUILDREFS_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsHttpDataPrepared()

@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
 #include "unitysdk/RPG/GameCore/AdvNPCRunAwayPlayerStatus.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class FOOIINCDBFA;
 class KDJNAAOFMMJ;
@@ -11,7 +12,6 @@ namespace RPG::GameCore { class CharacterVisibleComponent; }
 namespace RPG::GameCore { class NPCComponent; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Nullable; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
@@ -60,7 +60,7 @@ inline static constexpr unsigned int DLCDKACJFKA_TypeDefinitionIndex = 52438;
 		::UnityEngine::Vector3 MPEPJMMDDOJ; // 0x84
 		::RPG::GameCore::AdvNPCRunAwayPlayerStatus CPPNFCBEJLK; // 0x90
 		::System::Single BFNCIKMDMDG; // 0x94
-		::System::Nullable* LFIELBMBEFM; // 0x98
+		::System::Nullable_1<::UnityEngine::Vector3> LFIELBMBEFM; // 0x98
 		::System::Byte _padding1[0x8];
 		::UnityEngine::Vector3 DNNLBGCHGEI; // 0xA8
 		::System::Int32 JFLHNFPPDFF; // 0xB4
@@ -119,9 +119,9 @@ inline static constexpr unsigned int DLCDKACJFKA_TypeDefinitionIndex = 52438;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLCDKACJFKA_ILBGLLCIIFN_OFFSET))(this);
 		}
 
-		::System::Nullable* IPIIKGMKMCA(::RPG::GameCore::TransformComponent* a1)
+		::System::Nullable_1<::System::Single> IPIIKGMKMCA(::RPG::GameCore::TransformComponent* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::TransformComponent*))((::PBYTE)hIl2Cpp + DLCDKACJFKA_IPIIKGMKMCA_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::RPG::GameCore::TransformComponent*))((::PBYTE)hIl2Cpp + DLCDKACJFKA_IPIIKGMKMCA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean CKLFKCDIKNO()

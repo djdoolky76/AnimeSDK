@@ -6,11 +6,11 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class Object; }
@@ -61,8 +61,8 @@ inline static constexpr unsigned int KHOHCMDMFBL_TypeDefinitionIndex = 77115;
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x18
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x20
 		::KJFIKOKBCCA BPCIMAIENFL; // 0x28
-		::Entitas::IGroup* OANIBMFFEMD; // 0xB8
-		::Entitas::ICollector* BFIIJDABOHP; // 0xC0
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* OANIBMFFEMD; // 0xB8
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* BFIIJDABOHP; // 0xC0
 		::System::Boolean KCJFJMNCKIC; // 0xC8
 		::System::Boolean ABKMPGNDAHO; // 0xC9
 		// static const ::System::String* COCDCEBNBML; // 0x0
@@ -161,9 +161,9 @@ inline static constexpr unsigned int KHOHCMDMFBL_TypeDefinitionIndex = 77115;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::HIOEAKHGILF*, ::System::Boolean))((::PBYTE)hIl2Cpp + KHOHCMDMFBL_FJNBLENNBCJ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OHIODDFOAHG(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void OHIODDFOAHG(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + KHOHCMDMFBL_OHIODDFOAHG_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + KHOHCMDMFBL_OHIODDFOAHG_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void AAJNAFJEDHB(::Entitas::IContext* a1, ::Entitas::IEntity* a2)

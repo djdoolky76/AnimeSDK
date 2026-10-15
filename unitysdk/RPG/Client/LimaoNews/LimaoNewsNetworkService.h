@@ -16,7 +16,7 @@ class OCEAHPDAPFC;
 class OFDMHDODALP;
 class PNALNDONMCK;
 namespace RPG::Client::LimaoNews { class LimaoNewsModule; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0xD3C4E40)
@@ -121,9 +121,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSFINISHCLIENTMESSAGECSREQ_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* SendLimaoNewsFinishEmployeeCheckCsReq(::System::UInt32 a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::Promise_1<::ICCEJJFNNBD*>* SendLimaoNewsFinishEmployeeCheckCsReq(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSFINISHEMPLOYEECHECKCSREQ_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::Promise_1<::ICCEJJFNNBD*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSFINISHEMPLOYEECHECKCSREQ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SendLimaoNewsReportEmployeeCheckRefreshCsReq()
@@ -131,9 +131,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSREPORTEMPLOYEECHECKREFRESHCSREQ_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* SendLimaoNewsStartWorkCsReq(::System::UInt32 a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::Promise_1<::EMOPGLBEHPA*>* SendLimaoNewsStartWorkCsReq(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSSTARTWORKCSREQ_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::Promise_1<::EMOPGLBEHPA*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSSTARTWORKCSREQ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SendLimaoNewsFinishClientMessageCsReq_1(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
@@ -141,9 +141,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSFINISHCLIENTMESSAGECSREQ_1_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::Promise* SendLimaoNewsFinishPlanPhaseCsReq(::System::UInt32 a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::Promise_1<::GNPIEPGLNPC*>* SendLimaoNewsFinishPlanPhaseCsReq(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSFINISHPLANPHASECSREQ_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::Promise_1<::GNPIEPGLNPC*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE_SENDLIMAONEWSFINISHPLANPHASECSREQ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnLimaoNewsDataChangeScNotify(::System::UInt16 a1, ::PNALNDONMCK* a2)

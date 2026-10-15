@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 class JHOCADLMHCA;
 namespace System { class Object; }
 namespace System { class String; }
@@ -20,7 +20,7 @@ inline static constexpr unsigned int JHOCADLMHCA___GetAccessToken_d__12_TypeDefi
 		::System::Object* __u__1; // 0x20
 		::System::Byte _padding1[0x8];
 		::JHOCADLMHCA* __4__this; // 0x30
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x38
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x38
 		::System::Byte _padding2[0x10];
 		::System::Net::Http::HttpClient* _client_5__2; // 0x50
 		::System::Int32 __1__state; // 0x58

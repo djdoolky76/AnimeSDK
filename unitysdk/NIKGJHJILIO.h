@@ -8,8 +8,8 @@ class BOLOIOMPBHO;
 class GGJFAFONDHN;
 namespace EnviromentSystemV2Space { class EnvDynamicPropLayoutProfile; }
 namespace EnviromentSystemV2Space { class PropertyDataBase; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
@@ -98,24 +98,24 @@ inline static constexpr unsigned int NIKGJHJILIO_TypeDefinitionIndex = 49296;
 			return ((::System::Collections::Generic::List_1<::AEKEIBNBMDJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NIKGJHJILIO_CAMJIKALEHO_OFFSET))(this);
 		}
 
-		::System::Void PEOOCEPDJLL(::System::Int32 a1, ::System::Action* a2)
+		::System::Void PEOOCEPDJLL(::System::Int32 a1, ::System::Action_1<::GGJFAFONDHN*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + NIKGJHJILIO_PEOOCEPDJLL_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + NIKGJHJILIO_PEOOCEPDJLL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LAFPBMMPLAG(::System::Int32 a1, ::System::Action* a2)
+		::System::Void LAFPBMMPLAG(::System::Int32 a1, ::System::Action_1<::GGJFAFONDHN*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + NIKGJHJILIO_LAFPBMMPLAG_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + NIKGJHJILIO_LAFPBMMPLAG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PEOOCEPDJLL_1(::System::String* a1, ::System::Action* a2)
+		::System::Void PEOOCEPDJLL_1(::System::String* a1, ::System::Action_1<::GGJFAFONDHN*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + NIKGJHJILIO_PEOOCEPDJLL_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + NIKGJHJILIO_PEOOCEPDJLL_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LAFPBMMPLAG_1(::System::String* a1, ::System::Action* a2)
+		::System::Void LAFPBMMPLAG_1(::System::String* a1, ::System::Action_1<::GGJFAFONDHN*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + NIKGJHJILIO_LAFPBMMPLAG_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + NIKGJHJILIO_LAFPBMMPLAG_1_OFFSET))(this, a1, a2);
 		}
 
 		::AEKEIBNBMDJ* HIHEFMEAGBL(::System::Int32 a1)

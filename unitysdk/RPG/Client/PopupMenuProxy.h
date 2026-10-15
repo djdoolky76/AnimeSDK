@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
 
@@ -21,10 +22,10 @@ namespace RPG::Client
 	class PopupMenuProxy : public ::System::Object
 	{
 	public:
-		::System::Action* _SetPositionDelegate; // 0x10
-		::System::Action* _HideDelegate; // 0x18
-		::System::Action* _ShowDelegate; // 0x20
-		::System::Action* _SetOptionsDelegate; // 0x28
+		::System::Action_2<::XLua::LuaTable*, ::UnityEngine::Vector2>* _SetPositionDelegate; // 0x10
+		::System::Action_1<::XLua::LuaTable*>* _HideDelegate; // 0x18
+		::System::Action_1<::XLua::LuaTable*>* _ShowDelegate; // 0x20
+		::System::Action_2<::XLua::LuaTable*, ::System::Collections::Generic::List_1<::System::Object*>*>* _SetOptionsDelegate; // 0x28
 		::XLua::LuaTable* _LuaPopupMenuPanel; // 0x30
 		::System::Void _ctor(::XLua::LuaTable* a1)
 		{
@@ -51,9 +52,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POPUPMENUPROXY_HIDE_OFFSET))(this);
 		}
 
-		::System::Void InitDelegate(::System::Action* a1, ::System::Action* a2, ::System::Action* a3, ::System::Action* a4)
+		::System::Void InitDelegate(::System::Action_2<::XLua::LuaTable*, ::UnityEngine::Vector2>* a1, ::System::Action_2<::XLua::LuaTable*, ::System::Collections::Generic::List_1<::System::Object*>*>* a2, ::System::Action_1<::XLua::LuaTable*>* a3, ::System::Action_1<::XLua::LuaTable*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POPUPMENUPROXY_INITDELEGATE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::UnityEngine::Vector2>*, ::System::Action_2<::XLua::LuaTable*, ::System::Collections::Generic::List_1<::System::Object*>*>*, ::System::Action_1<::XLua::LuaTable*>*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POPUPMENUPROXY_INITDELEGATE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 	};

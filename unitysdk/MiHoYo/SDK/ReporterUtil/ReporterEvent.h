@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace MiHoYo::SDK::ReporterUtil { class AutoReportHandler; }
 namespace MiHoYo::SDK::ReporterUtil { class DataFulledHandler; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterDataItem; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterDataSequence; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterEvent_ReporterEventSettings; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterTimer; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -94,9 +94,9 @@ namespace MiHoYo::SDK::ReporterUtil
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterEvent_ReporterEventSettings*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTEREVENT_SET_SETTINGS_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Begin(::System::String* a1, ::System::Nullable* a2)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Begin(::System::String* a1, ::System::Nullable_1<::System::DateTime> a2)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::String*, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTEREVENT_BEGIN_OFFSET))(this, a1, a2);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::String*, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTEREVENT_BEGIN_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::ReporterUtil::ReporterDataSequence* Stage(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Int32 a4)

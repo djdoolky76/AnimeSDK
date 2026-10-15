@@ -4,7 +4,7 @@
 class AFEPOFEOCDI;
 class OCPOIDCNJDA;
 class OMPCEECHGJK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DLFEICHFIOA_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0xF89C890)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int DLFEICHFIOA_TypeDefinitionIndex = 76660;
 	{
 	public:
 		::AFEPOFEOCDI* FKINCGODJEP; // 0x10
-		::Entitas::IGroup* LPDMBHGIAPJ; // 0x18
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* LPDMBHGIAPJ; // 0x18
 		::OMPCEECHGJK* PDENFEFCAGN; // 0x20
 		::System::Void _ctor(::AFEPOFEOCDI* a1, ::OMPCEECHGJK* a2)
 		{

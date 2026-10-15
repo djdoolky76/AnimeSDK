@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightGameRef; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS97_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1631A0)
 #define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS97_0__FAVOUR_B__0_OFFSET UNITYSDK_OFFSET(0xD1663A0)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class GridFightGameRef___c__DisplayClass97_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::Boolean>* callback; // 0x10
 		::RPG::Client::GridFightGameRef* __4__this; // 0x18
 		::System::String* id; // 0x20
 		::System::Void _ctor()

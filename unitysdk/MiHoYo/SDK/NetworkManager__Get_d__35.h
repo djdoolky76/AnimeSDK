@@ -6,6 +6,7 @@ namespace MiHoYo::SDK { class NetworkManager; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_NETWORKMANAGER__GET_D__35_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAE610)
@@ -34,7 +35,7 @@ namespace MiHoYo::SDK
 		::System::String* _queryString_5__2; // 0x50
 		::System::Object* __s__3; // 0x58
 		::System::Byte _padding0[0x10];
-		::System::Action* callback; // 0x70
+		::System::Action_1<::System::String*>* callback; // 0x70
 		::System::Int32 __1__state; // 0x78
 		::System::Int32 retryTime; // 0x7C
 		::System::Single timeoutSecond; // 0x80

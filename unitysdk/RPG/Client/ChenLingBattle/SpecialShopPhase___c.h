@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA6A7A0)
 #define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA6A7E0)
@@ -22,14 +22,14 @@ namespace RPG::Client::ChenLingBattle
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E7A0);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E7A8);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E7A8);
 		}
 
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E7B0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E7B0);
 		}
 
 		static ::System::Void _cctor()

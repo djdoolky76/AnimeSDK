@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
@@ -12,7 +12,7 @@ namespace Cysharp::Threading::Tasks::Linq
 	class ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::Task* source; // 0x0
+		::System::Threading::Tasks::Task_1<T>* source; // 0x0
 		::System::Threading::CancellationToken cancellationToken; // 0x0
 		T current; // 0x0
 		::System::Boolean called; // 0x0

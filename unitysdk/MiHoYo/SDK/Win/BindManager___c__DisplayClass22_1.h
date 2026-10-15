@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS22_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF5220)
 #define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS22_1__SHOWBINDMAILPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x1BCF5670)
@@ -17,7 +17,7 @@ namespace MiHoYo::SDK::Win
 	class BindManager___c__DisplayClass22_1 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::System::Object* CS___8__locals1; // 0x18
 		::System::Void _ctor()
 		{

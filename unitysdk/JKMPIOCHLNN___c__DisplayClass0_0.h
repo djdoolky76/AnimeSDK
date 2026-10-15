@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 
 #define JKMPIOCHLNN___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2245A0)
@@ -13,7 +13,7 @@ inline static constexpr unsigned int JKMPIOCHLNN___c__DisplayClass0_0_TypeDefini
 	class JKMPIOCHLNN___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Action* cb; // 0x10
+		::System::Action_1<::System::Object*>* cb; // 0x10
 		::UnityEngine::UI::Button* button; // 0x18
 		::System::Object* cbp; // 0x20
 		::System::Void _ctor()

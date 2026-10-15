@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/EntityTag.h"
 #include "unitysdk/RPG/GameCore/FiveDimCameraPriority.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EFHNDMENDHI;
 class HIOEAKHGILF;
 class INMMPMDELKE;
@@ -92,9 +92,9 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32A60);
 		}
 
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__2_5()
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__2_5()
 		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32A68);
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32A68);
 		}
 
 		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__1_1()
@@ -127,9 +127,9 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32A98);
 		}
 
-		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__0_7()
+		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__0_7()
 		{
-			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AA0);
+			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AA0);
 		}
 
 		static ::System::Func_3<::NGFHCJIAOLH*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__3_0()
@@ -162,9 +162,9 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AD0);
 		}
 
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__5_5()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_5()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AD8);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AD8);
 		}
 
 		static ::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>** StaticGet___9__1_0()
@@ -172,9 +172,9 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return (::System::Func_3<::INMMPMDELKE*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AE0);
 		}
 
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__5_6()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_6()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AE8);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AE8);
 		}
 
 		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__5_2()
@@ -187,9 +187,9 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return (::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::UInt16>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AF8);
 		}
 
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__5_3()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_3()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B00);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B00);
 		}
 
 		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::Client::LittleGame::FiveDim::EntityTag>** StaticGet___9__0_4()
@@ -207,9 +207,9 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B18);
 		}
 
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__5_4()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_4()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B20);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B20);
 		}
 
 		static ::System::Func_3<::KHPOKIKCOFO*, ::Entitas::IComponent*, ::System::String*>** StaticGet___9__4_2()
@@ -227,14 +227,14 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B38);
 		}
 
-		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__2_6()
+		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__2_6()
 		{
-			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B40);
+			return (::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B40);
 		}
 
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__5_0()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_0()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B48);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B48);
 		}
 
 		static ::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::RPG::GameCore::FiveDimCameraPriority>** StaticGet___9__0_1()
@@ -262,14 +262,14 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return (::System::Func_3<::HIOEAKHGILF*, ::Entitas::IComponent*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B70);
 		}
 
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__5_8()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_8()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B78);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B78);
 		}
 
-		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>** StaticGet___9__5_9()
+		static ::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__5_9()
 		{
-			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B80);
+			return (::System::Func_3<::EFHNDMENDHI*, ::Entitas::IComponent*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32B80);
 		}
 
 		static ::System::Func_3<::OCPOIDCNJDA*, ::Entitas::IComponent*, ::System::UInt32>** StaticGet___9__2_3()
@@ -332,9 +332,9 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return ((::System::UInt32(*)(::PVOID, ::HIOEAKHGILF*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_6_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__0_7(::HIOEAKHGILF* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__0_7(::HIOEAKHGILF* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::HIOEAKHGILF*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_7_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::HIOEAKHGILF*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__0_7_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 _AddEntityIndices_b__0_8(::HIOEAKHGILF* a1, ::Entitas::IComponent* a2)
@@ -427,14 +427,14 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return ((::System::UInt32(*)(::PVOID, ::OCPOIDCNJDA*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__2_5(::OCPOIDCNJDA* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__2_5(::OCPOIDCNJDA* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::OCPOIDCNJDA*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_5_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::OCPOIDCNJDA*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_5_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__2_6(::OCPOIDCNJDA* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__2_6(::OCPOIDCNJDA* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::OCPOIDCNJDA*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_6_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::OCPOIDCNJDA*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__2_6_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 _AddEntityIndices_b__2_7(::OCPOIDCNJDA* a1, ::Entitas::IComponent* a2)
@@ -462,9 +462,9 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return ((::System::String*(*)(::PVOID, ::KHPOKIKCOFO*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__4_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__5_0(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__5_0(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_0_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 _AddEntityIndices_b__5_1(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
@@ -477,24 +477,24 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return ((::System::UInt32(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__5_3(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__5_3(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_3_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__5_4(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__5_4(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_4_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__5_5(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__5_5(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_5_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_5_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__5_6(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__5_6(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_6_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_6_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 _AddEntityIndices_b__5_7(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
@@ -502,14 +502,14 @@ inline static constexpr unsigned int GCHHPCDKEKE___c_TypeDefinitionIndex = 42831
 			return ((::System::UInt32(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_7_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__5_8(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__5_8(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_8_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_8_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _AddEntityIndices_b__5_9(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _AddEntityIndices_b__5_9(::EFHNDMENDHI* a1, ::Entitas::IComponent* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_9_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::EFHNDMENDHI*, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + GCHHPCDKEKE___C__ADDENTITYINDICES_B__5_9_OFFSET))(this, a1, a2);
 		}
 
 	};

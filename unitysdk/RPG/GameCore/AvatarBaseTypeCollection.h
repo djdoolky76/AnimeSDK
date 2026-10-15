@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseTypeKind.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseTypeMask.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_GAMECORE_AVATARBASETYPECOLLECTION_APPLYDYNAMICAVATARBASETYPE_OFFSET UNITYSDK_OFFSET(0xE5A0E10)
@@ -31,7 +31,7 @@ namespace RPG::GameCore
 	class AvatarBaseTypeCollection : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _DynamicAvatarBaseTypeList; // 0x10
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::RPG::GameCore::AvatarBaseTypeMask>>* _DynamicAvatarBaseTypeList; // 0x10
 		::RPG::GameCore::AvatarBaseTypeMask _RowSubTypeMask; // 0x18
 		::RPG::GameCore::AvatarBaseTypeMask _DynamicAvatarBaseTypeMask; // 0x1C
 		::RPG::GameCore::AvatarBaseType _OverrideMainType; // 0x20
@@ -52,9 +52,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPECOLLECTION__ONDYNAMICAVATARBASETYPECHANGED_OFFSET))(this);
 		}
 
-		static ::System::Int32 _IndexOfKey(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* a1, ::System::String* a2)
+		static ::System::Int32 _IndexOfKey(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::RPG::GameCore::AvatarBaseTypeMask>>* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPECOLLECTION__INDEXOFKEY_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::RPG::GameCore::AvatarBaseTypeMask>>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPECOLLECTION__INDEXOFKEY_OFFSET))(a1, a2);
 		}
 
 		::System::Void ApplyDynamicAvatarBaseType(::System::String* a1, ::RPG::GameCore::AvatarBaseTypeMask a2, ::System::Boolean a3)
@@ -92,9 +92,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::AvatarBaseTypeMask(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPECOLLECTION_GET_SUBTYPEMASK_OFFSET))(this);
 		}
 
-		::System::Void OverrideAvatarBaseType(::System::Nullable* a1, ::Il2CppArray<::RPG::GameCore::AvatarBaseType>* a2)
+		::System::Void OverrideAvatarBaseType(::System::Nullable_1<::RPG::GameCore::AvatarBaseType> a1, ::Il2CppArray<::RPG::GameCore::AvatarBaseType>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::Il2CppArray<::RPG::GameCore::AvatarBaseType>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPECOLLECTION_OVERRIDEAVATARBASETYPE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::AvatarBaseType>, ::Il2CppArray<::RPG::GameCore::AvatarBaseType>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPECOLLECTION_OVERRIDEAVATARBASETYPE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ResetAvatarBaseType()

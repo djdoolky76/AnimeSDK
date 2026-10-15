@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/System/Object.h"
-namespace Cysharp::Threading::Tasks { class TaskPool; }
 namespace Cysharp::Threading::Tasks::CompilerServices { template <typename T> class AsyncUniTaskVoid_1; }
 namespace System { class Action; }
 
@@ -17,9 +17,9 @@ namespace Cysharp::Threading::Tasks::CompilerServices
 		T stateMachine; // 0x0
 		::System::Action* _MoveNext_k__BackingField; // 0x0
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoid_1<T>* nextNode; // 0x0
-		static ::Cysharp::Threading::Tasks::TaskPool** StaticGet_pool()
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoid_1<T>*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "AsyncUniTaskVoid`1")->GetStaticField(0x0);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoid_1<T>*>*)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "AsyncUniTaskVoid`1")->GetStaticField(0x0);
 		}
 
 	};

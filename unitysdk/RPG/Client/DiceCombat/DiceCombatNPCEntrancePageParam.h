@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client::DiceCombat { class DiceCombatNPCEntrancePageParam; }
 namespace RPG::Client::DiceCombat { class DiceCombatStageInfo; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATNPCENTRANCEPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCC28620)
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATNPCENTRANCEPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC285D0)
@@ -47,9 +47,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATNPCENTRANCEPAGEPARAM_SET_NPCNAME_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::DiceCombat::DiceCombatNPCEntrancePageParam* Create(::System::UInt32 a1, ::System::Nullable* a2)
+		static ::RPG::Client::DiceCombat::DiceCombatNPCEntrancePageParam* Create(::System::UInt32 a1, ::System::Nullable_1<::RPG::Client::TextID> a2)
 		{
-			return ((::RPG::Client::DiceCombat::DiceCombatNPCEntrancePageParam*(*)(::System::UInt32, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATNPCENTRANCEPAGEPARAM_CREATE_OFFSET))(a1, a2);
+			return ((::RPG::Client::DiceCombat::DiceCombatNPCEntrancePageParam*(*)(::System::UInt32, ::System::Nullable_1<::RPG::Client::TextID>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATNPCENTRANCEPAGEPARAM_CREATE_OFFSET))(a1, a2);
 		}
 
 	};

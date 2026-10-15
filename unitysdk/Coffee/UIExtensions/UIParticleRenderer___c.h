@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Material; }
@@ -23,9 +23,9 @@ namespace Coffee::UIExtensions
 			return (::System::Object**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0x1030);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::UnityEngine::Material*>** StaticGet___9__34_0()
+		static ::System::Func_2<::System::ValueTuple_2<::UnityEngine::Material*, ::UnityEngine::Texture*>, ::UnityEngine::Material*>** StaticGet___9__34_0()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::UnityEngine::Material*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0x1038);
+			return (::System::Func_2<::System::ValueTuple_2<::UnityEngine::Material*, ::UnityEngine::Texture*>, ::UnityEngine::Material*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0x1038);
 		}
 
 		static ::System::Void _cctor()
@@ -38,9 +38,9 @@ namespace Coffee::UIExtensions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLERENDERER___C_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Material* _GetModifiedMaterial_b__34_0(::System::ValueTuple a1)
+		::UnityEngine::Material* _GetModifiedMaterial_b__34_0(::System::ValueTuple_2<::UnityEngine::Material*, ::UnityEngine::Texture*> a1)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLERENDERER___C__GETMODIFIEDMATERIAL_B__34_0_OFFSET))(this, a1);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::System::ValueTuple_2<::UnityEngine::Material*, ::UnityEngine::Texture*>))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLERENDERER___C__GETMODIFIEDMATERIAL_B__34_0_OFFSET))(this, a1);
 		}
 
 	};

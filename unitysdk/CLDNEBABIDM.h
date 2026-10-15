@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
 #include "unitysdk/RPG/GameCore/BoolEx.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class SetEnergyBarState; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 
 #define CLDNEBABIDM_CTOR_OFFSET UNITYSDK_OFFSET(0xD77AC10)
 #define CLDNEBABIDM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD77AC20)
@@ -46,14 +46,14 @@ inline static constexpr unsigned int CLDNEBABIDM_TypeDefinitionIndex = 55498;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLDNEBABIDM_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MDLNPMMHOJI(::System::Int32 a1)
+		::System::Nullable_1<::System::Int32> MDLNPMMHOJI(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLDNEBABIDM_MDLNPMMHOJI_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLDNEBABIDM_MDLNPMMHOJI_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MDLNPMMHOJI_1(::RPG::GameCore::BoolEx a1)
+		::System::Nullable_1<::System::Boolean> MDLNPMMHOJI_1(::RPG::GameCore::BoolEx a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + CLDNEBABIDM_MDLNPMMHOJI_1_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + CLDNEBABIDM_MDLNPMMHOJI_1_OFFSET))(this, a1);
 		}
 
 	};

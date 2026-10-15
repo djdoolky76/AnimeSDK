@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class NNAGJHEBNJD;
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -20,7 +20,7 @@ inline static constexpr unsigned int NOBFCPPBLFD_TypeDefinitionIndex = 66743;
 	class NOBFCPPBLFD : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* NMCIKIHPGOP; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* NMCIKIHPGOP; // 0x10
 		::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* LCNIPJJDKGA; // 0x18
 		::System::Collections::Generic::Queue_1<::System::Object*>* FPKPLHACIBF; // 0x20
 		::System::Int32 JIGBBMPCPFH; // 0x28
@@ -31,14 +31,14 @@ inline static constexpr unsigned int NOBFCPPBLFD_TypeDefinitionIndex = 66743;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NOBFCPPBLFD_CTOR_OFFSET))(this);
 		}
 
-		::System::Void EAGHCCIDDKI(::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* a1, ::RPG::Client::Promises::Promise* a2)
+		::System::Void EAGHCCIDDKI(::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* a1, ::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*, ::RPG::Client::Promises::Promise*))((::PBYTE)hIl2Cpp + NOBFCPPBLFD_EAGHCCIDDKI_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*, ::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>*))((::PBYTE)hIl2Cpp + NOBFCPPBLFD_EAGHCCIDDKI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FCDIHABIHMF(::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* a1, ::RPG::Client::Promises::Promise* a2)
+		::System::Void FCDIHABIHMF(::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* a1, ::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*, ::RPG::Client::Promises::Promise*))((::PBYTE)hIl2Cpp + NOBFCPPBLFD_FCDIHABIHMF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*, ::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>*))((::PBYTE)hIl2Cpp + NOBFCPPBLFD_FCDIHABIHMF_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AOKNJCILDCE()

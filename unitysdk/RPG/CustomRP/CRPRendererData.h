@@ -13,6 +13,7 @@ namespace RPG::CustomRP { class CRPRendererData_CRPShaderResources; }
 namespace RPG::CustomRP { class CRPRendererData_CRPTextureResources; }
 namespace RPG::CustomRP { class DebugRTName; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
@@ -37,7 +38,7 @@ namespace RPG::CustomRP
 	class CRPRendererData : public ::RPG::CustomRP::CRPRendererDataBase
 	{
 	public:
-		::System::Action* _onDeferLightingMaterialOverride; // 0x28
+		::System::Action_1<::UnityEngine::Material*>* _onDeferLightingMaterialOverride; // 0x28
 		::System::Action* _onDeferLightingMaterialRestore; // 0x30
 		::RPG::CustomRP::CRPRendererData_CRPShaderResources* shaders; // 0x38
 		::RPG::CustomRP::CRPRendererData_CRPComputeResources* computes; // 0x40

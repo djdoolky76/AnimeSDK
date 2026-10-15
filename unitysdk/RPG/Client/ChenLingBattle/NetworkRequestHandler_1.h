@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 namespace RPG::Client::ChenLingBattle
 {
@@ -11,6 +11,6 @@ namespace RPG::Client::ChenLingBattle
 	class NetworkRequestHandler_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* _Promise; // 0x0
+		::RPG::Client::Promises::Promise_1<T>* _Promise; // 0x0
 	};
 }

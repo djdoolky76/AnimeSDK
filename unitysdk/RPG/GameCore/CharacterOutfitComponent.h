@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/CharacterOutfitComponent_ESlot.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/GenderType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FJEOAPBLMKG;
 namespace Collections::Pooled { template <typename T> class PooledList_1; }
 namespace RPG::AvatarSystem { class IAvatar; }
@@ -206,14 +206,14 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_CONTAINS_1_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple GetOutfitType()
+		::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType> GetOutfitType()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_GETOUTFITTYPE_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_GETOUTFITTYPE_OFFSET))(this);
 		}
 
-		::System::ValueTuple GetAvatarOutfitType()
+		::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType> GetAvatarOutfitType()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_GETAVATAROUTFITTYPE_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_GETAVATAROUTFITTYPE_OFFSET))(this);
 		}
 
 		::System::Void FindModelRenderers(::System::Collections::Generic::IList_1<::FJEOAPBLMKG*>* a1, ::System::Collections::Generic::IList_1<::FJEOAPBLMKG*>* a2, ::System::Collections::Generic::IList_1<::System::String*>* a3)
@@ -251,19 +251,19 @@ namespace RPG::GameCore
 			return ((::System::Collections::Generic::List_1<::FJEOAPBLMKG*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_LOADSOURCEOUTFITMODELS_OFFSET))(this);
 		}
 
-		::System::ValueTuple EvaluateAvatarBaseType(::RPG::GameCore::CharacterDataComponent* a1)
+		::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType> EvaluateAvatarBaseType(::RPG::GameCore::CharacterDataComponent* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::GameCore::CharacterDataComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_EVALUATEAVATARBASETYPE_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType>(*)(::PVOID, ::RPG::GameCore::CharacterDataComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_EVALUATEAVATARBASETYPE_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple EvaluateAvatarBaseType_1(::RPG::GameCore::AdventureCharacterDataComponent* a1)
+		::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType> EvaluateAvatarBaseType_1(::RPG::GameCore::AdventureCharacterDataComponent* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::GameCore::AdventureCharacterDataComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_EVALUATEAVATARBASETYPE_1_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType>(*)(::PVOID, ::RPG::GameCore::AdventureCharacterDataComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_EVALUATEAVATARBASETYPE_1_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple EvaluateAvatarBaseType_2(::System::UInt32 a1)
+		::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType> EvaluateAvatarBaseType_2(::System::UInt32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_EVALUATEAVATARBASETYPE_2_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROUTFITCOMPONENT_EVALUATEAVATARBASETYPE_2_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::FJEOAPBLMKG*>* LoadOutfitModelsImpl(::RPG::GameCore::GenderType a1, ::RPG::GameCore::AvatarBaseType a2, ::System::Boolean a3)

@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/IGCLGKCKACE.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace CriWare::CriMana { class MovieInfo; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
@@ -52,7 +52,7 @@ namespace RPG::Client::Timeline
 		::System::Boolean m_fadeAudio; // 0x70
 		::System::Byte _padding4[0x7];
 		::UnityEngine::Timeline::TimelineClip* m_clip; // 0x78
-		::System::Nullable* m_movieInfoStruct; // 0x80
+		::System::Nullable_1<::System::Object*> m_movieInfoStruct; // 0x80
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CTOR_OFFSET))(this);
@@ -108,9 +108,9 @@ namespace RPG::Client::Timeline
 			return ((::System::Int32(*)(::PVOID, ::System::Double, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_AAGOLMDGEBN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* CALPFMELCJI(::CriWare::CriMana::MovieInfo* a1)
+		::System::Nullable_1<::System::Object*> CALPFMELCJI(::CriWare::CriMana::MovieInfo* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::CriWare::CriMana::MovieInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CALPFMELCJI_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::CriWare::CriMana::MovieInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOCLIP_CALPFMELCJI_OFFSET))(this, a1);
 		}
 
 		::System::Void AOFMBOMAPIM()

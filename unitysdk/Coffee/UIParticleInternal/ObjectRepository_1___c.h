@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Coffee::UIParticleInternal
 {
@@ -17,9 +17,9 @@ namespace Coffee::UIParticleInternal
 			return (::System::Object**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__5_0()
+		static ::System::Action_1<T>** StaticGet___9__5_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<T>**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>c")->GetStaticField(0x0);
 		}
 
 	};

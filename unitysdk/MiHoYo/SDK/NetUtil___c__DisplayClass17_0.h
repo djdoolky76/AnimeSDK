@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA7C70)
@@ -15,7 +15,7 @@ namespace MiHoYo::SDK
 	class NetUtil___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::System::Action* completeCallback; // 0x10
+		::System::Action_1<::System::String*>* completeCallback; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS17_0_CTOR_OFFSET))(this);

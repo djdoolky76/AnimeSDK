@@ -4,6 +4,7 @@
 #include "unitysdk/OELKAFALAFH_EWindowType.h"
 #include "unitysdk/RPG/Client/EInflatableFighterSide.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class DDIAHGAMCCG;
 class EKJPBODJDFG;
 class EMKMGGFFECN;
@@ -13,7 +14,6 @@ class OCGOBFOOIAB;
 class OELKAFALAFH;
 namespace RPG::Client { class MonoInflatableFighter; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 
 #define ACGKMEPLIBJ_BINNHFKCJHN_OFFSET UNITYSDK_OFFSET(0xB11FEF0)
 #define ACGKMEPLIBJ_CBJDNCLCJPI_OFFSET UNITYSDK_OFFSET(0xB11FF10)
@@ -92,9 +92,9 @@ inline static constexpr unsigned int ACGKMEPLIBJ_TypeDefinitionIndex = 68675;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ACGKMEPLIBJ_EFHEJBGHFML_OFFSET))(this, a1);
 		}
 
-		::System::Void PBDAMGFOOMK(::System::Nullable* a1)
+		::System::Void PBDAMGFOOMK(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + ACGKMEPLIBJ_PBDAMGFOOMK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + ACGKMEPLIBJ_PBDAMGFOOMK_OFFSET))(this, a1);
 		}
 
 		::System::Void IFKHOCJCCDA(::System::Single a1)

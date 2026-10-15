@@ -4,8 +4,8 @@
 class BOBCDAJAKGC;
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client::ActivityIdleLive { class CaptainData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
 #define RPG_CLIENT_ACTIVITYIDLELIVEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC52C4A0)
@@ -21,9 +21,9 @@ namespace RPG::Client
 	class ActivityIdleLiveModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__229_0()
+		static ::System::Action_1<::RPG::Client::ScheduleData*>** StaticGet___9__229_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2F860);
+			return (::System::Action_1<::RPG::Client::ScheduleData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2F860);
 		}
 
 		static ::System::Comparison_1<::BOBCDAJAKGC*>** StaticGet___9__215_1()

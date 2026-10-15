@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/ETravelShipState.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class IIMKPMNCFFI;
 class JPHCGLNOHHL;
 class MGJOAOHPFBO;
@@ -12,7 +13,6 @@ namespace RPG::Client { class TravelShipPuzzleBoard; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterInputData; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Transform; }
 
 #define GPGDJDKKHNE_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0x15B58B00)
@@ -66,14 +66,14 @@ inline static constexpr unsigned int GPGDJDKKHNE_TypeDefinitionIndex = 68793;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GPGDJDKKHNE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void KIGBILLGNOH(::System::Nullable* a1)
+		::System::Void KIGBILLGNOH(::System::Nullable_1<::RPG::Client::ETravelShipState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + GPGDJDKKHNE_KIGBILLGNOH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + GPGDJDKKHNE_KIGBILLGNOH_OFFSET))(this, a1);
 		}
 
-		::System::Void CHAHBFGGIDL(::System::Nullable* a1)
+		::System::Void CHAHBFGGIDL(::System::Nullable_1<::RPG::Client::ETravelShipState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + GPGDJDKKHNE_CHAHBFGGIDL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + GPGDJDKKHNE_CHAHBFGGIDL_OFFSET))(this, a1);
 		}
 
 		::System::Void JLANKNHFKCN(::System::Single a1)

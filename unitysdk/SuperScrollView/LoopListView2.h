@@ -22,7 +22,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -265,8 +267,8 @@ namespace SuperScrollView
 		::System::Boolean mIsVertList; // 0x70
 		::System::Byte _padding2[0x7];
 		::System::Func_4<::XLua::LuaTable*, ::SuperScrollView::LoopListView2*, ::System::Int32, ::SuperScrollView::LoopListViewItem2*>* mOnGetItemByIndex; // 0x78
-		::System::Action* OnRecyeleItem; // 0x80
-		::System::Action* _OnDragLuaCallback; // 0x88
+		::System::Action_1<::SuperScrollView::LoopListViewItem2*>* OnRecyeleItem; // 0x80
+		::System::Action_1<::XLua::LuaTable*>* _OnDragLuaCallback; // 0x88
 		::XLua::LuaTable* mLuaTable; // 0x90
 		::Il2CppArray<::UnityEngine::Vector3>* mItemWorldCorners; // 0x98
 		::Il2CppArray<::UnityEngine::Vector3>* mViewPortRectLocalCorners; // 0xA0
@@ -284,7 +286,7 @@ namespace SuperScrollView
 		::System::Boolean mIsDraging; // 0xD1
 		::System::Byte _padding4[0x6];
 		::UnityEngine::EventSystems::PointerEventData* mPointerEventData; // 0xD8
-		::System::Action* mOnBeginDragAction; // 0xE0
+		::System::Action_1<::UnityEngine::Vector2>* mOnBeginDragAction; // 0xE0
 		::System::Action* mOnDragingAction; // 0xE8
 		::System::Action* mOnEndDragAction; // 0xF0
 		::System::Int32 mLastItemIndex; // 0xF8
@@ -307,8 +309,8 @@ namespace SuperScrollView
 		::System::Byte _padding6[0x3];
 		::UnityEngine::Vector3 mLastFrameContainerPos; // 0x138
 		::System::Byte _padding7[0x4];
-		::System::Action* mOnSnapItemFinished; // 0x148
-		::System::Action* mOnSnapNearestChanged; // 0x150
+		::System::Action_2<::SuperScrollView::LoopListView2*, ::SuperScrollView::LoopListViewItem2*>* mOnSnapItemFinished; // 0x148
+		::System::Action_2<::SuperScrollView::LoopListView2*, ::SuperScrollView::LoopListViewItem2*>* mOnSnapNearestChanged; // 0x150
 		::System::Int32 mCurSnapNearestItemIndex; // 0x158
 		::UnityEngine::Vector2 mAdjustedVec; // 0x15C
 		::System::Boolean mNeedAdjustVec; // 0x164
@@ -369,10 +371,10 @@ namespace SuperScrollView
 		::SuperScrollView::LoopListViewItem2* ActionItem; // 0x240
 		::System::Int32 ActionIndex; // 0x248
 		::System::Single foldPadding; // 0x24C
-		::System::Action* FoldCallback; // 0x250
+		::System::Action_1<::System::Boolean>* FoldCallback; // 0x250
 		::System::Boolean inAsyncSetItemCount; // 0x258
 		::System::Byte _padding17[0x7];
-		::System::Action* onSetCountFinish; // 0x260
+		::System::Action_1<::XLua::LuaTable*>* onSetCountFinish; // 0x260
 		::UnityEngine::Coroutine* setCountCoroutine; // 0x268
 		::System::Boolean isNeedFadeIn; // 0x270
 		::System::Byte _padding18[0x7];
@@ -382,11 +384,11 @@ namespace SuperScrollView
 		::System::Collections::Generic::List_1<::System::Int32>* trackingIndex; // 0x290
 		::System::Boolean mTrackMin; // 0x298
 		::System::Byte _padding19[0x7];
-		::System::Action* _TrackMinCallback; // 0x2A0
+		::System::Action_2<::System::Object*, ::System::Boolean>* _TrackMinCallback; // 0x2A0
 		::System::Object* _TrackMinCallbackParam; // 0x2A8
 		::System::Boolean mTrackMax; // 0x2B0
 		::System::Byte _padding20[0x7];
-		::System::Action* _TrackMaxCallback; // 0x2B8
+		::System::Action_2<::System::Object*, ::System::Boolean>* _TrackMaxCallback; // 0x2B8
 		::System::Object* _TrackMaxCallbackParam; // 0x2C0
 		::System::Boolean mMarkRefresh; // 0x2C8
 		::System::Boolean isPCPlatformSize; // 0x2C9
@@ -637,9 +639,9 @@ namespace SuperScrollView
 			return ((::System::Int32(*)(::PVOID, ::SuperScrollView::LoopListViewItem2*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_GETINDEXINSHOWNITEMLIST_OFFSET))(this, a1);
 		}
 
-		::System::Void DoActionForEachShownItem(::System::Action* a1, ::System::Object* a2)
+		::System::Void DoActionForEachShownItem(::System::Action_2<::SuperScrollView::LoopListViewItem2*, ::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_DOACTIONFOREACHSHOWNITEM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SuperScrollView::LoopListViewItem2*, ::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_DOACTIONFOREACHSHOWNITEM_OFFSET))(this, a1, a2);
 		}
 
 		::SuperScrollView::LoopListViewItem2* NewListViewItem(::System::String* a1)
@@ -702,9 +704,9 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_REFRESHALLSHOWNITEMWITHFIRSTINDEXANDPOS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterOnDragLuaCallback(::System::Action* a1)
+		::System::Void RegisterOnDragLuaCallback(::System::Action_1<::XLua::LuaTable*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_REGISTERONDRAGLUACALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_REGISTERONDRAGLUACALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void RecycleItemTmp(::SuperScrollView::LoopListViewItem2* a1)
@@ -1177,9 +1179,9 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_CLEARFOLDITEM_OFFSET))(this);
 		}
 
-		::System::Void SetFoldCallback(::System::Action* a1)
+		::System::Void SetFoldCallback(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_SETFOLDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_SETFOLDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void FoldActionUpdate()
@@ -1232,9 +1234,9 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void AsyncSetListItemCount(::System::Int32 a1, ::System::Boolean a2, ::System::Action* a3)
+		::System::Void AsyncSetListItemCount(::System::Int32 a1, ::System::Boolean a2, ::System::Action_1<::XLua::LuaTable*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_ASYNCSETLISTITEMCOUNT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_ASYNCSETLISTITEMCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::IEnumerator* AsyncUpdateListView(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Action* a5)
@@ -1302,14 +1304,14 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_PUSHTRACKINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTrackMaxCallback(::System::Action* a1, ::System::Object* a2)
+		::System::Void SetTrackMaxCallback(::System::Action_2<::System::Object*, ::System::Boolean>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_SETTRACKMAXCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Object*, ::System::Boolean>*, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_SETTRACKMAXCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetTrackMinCallback(::System::Action* a1, ::System::Object* a2)
+		::System::Void SetTrackMinCallback(::System::Action_2<::System::Object*, ::System::Boolean>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_SETTRACKMINCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Object*, ::System::Boolean>*, ::System::Object*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPLISTVIEW2_SETTRACKMINCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearTrackIndex()

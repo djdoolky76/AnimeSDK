@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/JSONNode_Enumerator_Type.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace HoudiniEngineUnity { class JSONNode; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define HOUDINIENGINEUNITY_JSONNODE_ENUMERATOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1120)
 #define HOUDINIENGINEUNITY_JSONNODE_ENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x10D0)
@@ -38,9 +38,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_ENUMERATOR_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::KeyValuePair* get_Current()
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::HoudiniEngineUnity::JSONNode*> get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::HoudiniEngineUnity::JSONNode*>(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Boolean MoveNext()

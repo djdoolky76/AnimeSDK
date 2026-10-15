@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Octree/Agent/AgentCurveNavigationParams.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -10,7 +11,6 @@ class MOAAMGJICCD;
 class NGLFOJKOKBH;
 namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -49,7 +49,7 @@ inline static constexpr unsigned int GPFEOAGPKIE_TypeDefinitionIndex = 48904;
 	public:
 		::BansheeGz::BGSpline::Curve::BGCurve* PNOHBBMHGLB; // 0x10
 		::System::Collections::Generic::List_1<::MOAAMGJICCD*>* OINCGJJMAEF; // 0x18
-		::System::Collections::Generic::IEnumerator_1<::System::Nullable*>* OEAFOKMCOGH; // 0x20
+		::System::Collections::Generic::IEnumerator_1<::System::Nullable_1<::System::Boolean>>* OEAFOKMCOGH; // 0x20
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* IMDMBCFBKKE; // 0x28
 		::AGJHAIDADBA* DHOBMFLDLAN; // 0x30
 		::BansheeGz::BGSpline::Components::BGCcMath* JPEGGCCPIEG; // 0x38

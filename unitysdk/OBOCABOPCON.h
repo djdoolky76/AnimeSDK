@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class OBOCABOPCON_FGIHJGKPONO;
 namespace RPG::Client { class UIDraggableManager; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
@@ -37,12 +37,12 @@ inline static constexpr unsigned int OBOCABOPCON_TypeDefinitionIndex = 81257;
 	{
 	public:
 		::RPG::Client::UIDraggableManager* KLEMKIPNDHM; // 0x10
-		::System::Action* DragEnded; // 0x18
-		::System::Action* DragEnterPanel; // 0x20
-		::System::Action* DragStarted; // 0x28
-		::System::Action* DragExitPanel; // 0x30
+		::System::Action_1<::System::Object*>* DragEnded; // 0x18
+		::System::Action_1<::System::Object*>* DragEnterPanel; // 0x20
+		::System::Action_1<::System::Object*>* DragStarted; // 0x28
+		::System::Action_1<::System::Object*>* DragExitPanel; // 0x30
 		::System::Object* DIBIACGMNIA; // 0x38
-		::System::Action* DragExceeded; // 0x40
+		::System::Action_1<::System::Object*>* DragExceeded; // 0x40
 		::OBOCABOPCON_FGIHJGKPONO* OGDJGLDLICK; // 0x48
 		::System::Boolean HPBDPJBADHL; // 0x50
 		::System::Void _ctor(::RPG::Client::UIDraggableManager* a1)
@@ -50,54 +50,54 @@ inline static constexpr unsigned int OBOCABOPCON_TypeDefinitionIndex = 81257;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIDraggableManager*))((::PBYTE)hIl2Cpp + OBOCABOPCON_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void add_DragStarted(::System::Action* a1)
+		::System::Void add_DragStarted(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGSTARTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGSTARTED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_DragStarted(::System::Action* a1)
+		::System::Void remove_DragStarted(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGSTARTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGSTARTED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_DragEnded(::System::Action* a1)
+		::System::Void add_DragEnded(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGENDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGENDED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_DragEnded(::System::Action* a1)
+		::System::Void remove_DragEnded(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGENDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGENDED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_DragExceeded(::System::Action* a1)
+		::System::Void add_DragExceeded(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGEXCEEDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGEXCEEDED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_DragExceeded(::System::Action* a1)
+		::System::Void remove_DragExceeded(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGEXCEEDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGEXCEEDED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_DragExitPanel(::System::Action* a1)
+		::System::Void add_DragExitPanel(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGEXITPANEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGEXITPANEL_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_DragExitPanel(::System::Action* a1)
+		::System::Void remove_DragExitPanel(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGEXITPANEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGEXITPANEL_OFFSET))(this, a1);
 		}
 
-		::System::Void add_DragEnterPanel(::System::Action* a1)
+		::System::Void add_DragEnterPanel(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGENTERPANEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_ADD_DRAGENTERPANEL_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_DragEnterPanel(::System::Action* a1)
+		::System::Void remove_DragEnterPanel(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGENTERPANEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OBOCABOPCON_REMOVE_DRAGENTERPANEL_OFFSET))(this, a1);
 		}
 
 		::System::Void DJJNMHGABFL(::UnityEngine::GameObject* a1, ::System::Object* a2)

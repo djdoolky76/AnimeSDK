@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/EWolfBroGunPlayTargetActionFlag.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class FICJADOJGMF;
 class JNKPPLPLFOM;
@@ -12,7 +13,6 @@ namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig_TriggerEffect; }
 namespace RPG::Client { class WolfBroGunPlayTarget_Group; }
 namespace RPG::Client { class WolfBroGunTargetProjectile; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -289,9 +289,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_GETWAITMISSTIME_OFFSET))(this);
 		}
 
-		::System::Boolean OnHit(::UnityEngine::Vector3 a1, ::System::Nullable* a2)
+		::System::Boolean OnHit(::UnityEngine::Vector3 a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ONHIT_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGET_ONHIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Die(::System::Boolean a1, ::System::String* a2, ::Il2CppArray<::RPG::Client::WolfBroGunPlayTargetActionConfig*>* a3)

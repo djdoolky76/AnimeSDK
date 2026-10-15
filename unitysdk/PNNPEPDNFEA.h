@@ -3,7 +3,7 @@
 #include "unitysdk/BEMKNPIFMBI.h"
 #include "unitysdk/OONGDLIDJJJ_KGFBJAABGAN.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AGOFDNJAOMA;
 class FOEAEFCBCOM;
 class OONGDLIDJJJ;
@@ -129,9 +129,9 @@ inline static constexpr unsigned int PNNPEPDNFEA_TypeDefinitionIndex = 54379;
 			return ((::System::Void(*)(::PVOID, ::OONGDLIDJJJ*, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + PNNPEPDNFEA_NHJNDJKIKIJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple JNNLNGPHPPC(::OONGDLIDJJJ* a1, ::AGOFDNJAOMA* a2, ::RPG::GameCore::SkillData* a3)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::GameCore::FixPoint> JNNLNGPHPPC(::OONGDLIDJJJ* a1, ::AGOFDNJAOMA* a2, ::RPG::GameCore::SkillData* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::OONGDLIDJJJ*, ::AGOFDNJAOMA*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + PNNPEPDNFEA_JNNLNGPHPPC_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::OONGDLIDJJJ*, ::AGOFDNJAOMA*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + PNNPEPDNFEA_JNNLNGPHPPC_OFFSET))(this, a1, a2, a3);
 		}
 
 		::FOEAEFCBCOM* AENPAHFGAMG(::RPG::GameCore::GameEntity* a1)

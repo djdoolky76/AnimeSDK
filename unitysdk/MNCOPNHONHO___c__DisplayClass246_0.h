@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class INMMPMDELKE;
 class MNCOPNHONHO;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MNCOPNHONHO___C__DISPLAYCLASS246_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9FB930)
 #define MNCOPNHONHO___C__DISPLAYCLASS246_0__CREATEPROPENTITYCOMPONENTCONTEXT_B__0_OFFSET UNITYSDK_OFFSET(0xBA048C0)
@@ -15,8 +15,8 @@ inline static constexpr unsigned int MNCOPNHONHO___c__DisplayClass246_0_TypeDefi
 	{
 	public:
 		::INMMPMDELKE* propEntity; // 0x10
-		::System::Action* __9__0; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action_1<::INMMPMDELKE*>* __9__0; // 0x18
+		::System::Action_1<::INMMPMDELKE*>* __9__1; // 0x20
 		::MNCOPNHONHO* __4__this; // 0x28
 		::System::Void _ctor()
 		{

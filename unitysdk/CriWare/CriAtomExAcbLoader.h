@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomExAcbLoader_Status.h"
 #include "unitysdk/CriWare/CriDisposable.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/CriWare/CriAtomExAcbLoader_LoaderConfig.h"
 namespace CriWare { class CriAtomExAcb; }
 namespace CriWare { class CriAtomExAcbLoader; }
 namespace CriWare { class CriFsBinder; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define CRIWARE_CRIATOMEXACBLOADER_CRIATOMEXACBLOADER_CREATE_OFFSET UNITYSDK_OFFSET(0x166DBA10)
@@ -34,11 +34,11 @@ namespace CriWare
 	class CriAtomExAcbLoader : public ::CriWare::CriDisposable
 	{
 	public:
-		::System::Nullable* gch; // 0x20
+		::System::Nullable_1<::System::Runtime::InteropServices::GCHandle> gch; // 0x20
 		::System::IntPtr handle; // 0x28
-		::System::Void _ctor(::System::IntPtr a1, ::System::Nullable* a2)
+		::System::Void _ctor(::System::IntPtr a1, ::System::Nullable_1<::System::Runtime::InteropServices::GCHandle> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Nullable*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Nullable_1<::System::Runtime::InteropServices::GCHandle>))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACBLOADER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::CriWare::CriAtomExAcbLoader* LoadAcbFileAsync(::CriWare::CriFsBinder* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4)

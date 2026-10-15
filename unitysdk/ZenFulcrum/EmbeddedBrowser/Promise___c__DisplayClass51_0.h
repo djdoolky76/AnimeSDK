@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { template <typename T> class Action_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
 
@@ -20,7 +21,7 @@ namespace ZenFulcrum::EmbeddedBrowser
 	public:
 		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x10
 		::System::Action* __9__2; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action_1<::System::Exception*>* __9__1; // 0x20
 		::System::Int32 remainingCount; // 0x28
 		::System::Void _ctor()
 		{

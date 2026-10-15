@@ -5,8 +5,9 @@
 #include "unitysdk/RPG/Client/TSCRenderStatePositive.h"
 #include "unitysdk/RPG/Client/TSCRendererType.h"
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Plane.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Bounds.h"
@@ -18,7 +19,6 @@ class OIFLCPEKGBC_GDPIMLBKDKE;
 namespace RPG::Client { class TimeSpaceCrisscrossAdditionsBehavior; }
 namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -115,7 +115,7 @@ inline static constexpr unsigned int OIFLCPEKGBC_TypeDefinitionIndex = 70220;
 	public:
 		::System::Collections::Generic::List_1<::IDEFMHBFDKL*>* PECIDMCNMFB; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::TimeSpaceCrisscrossLightsBehavior*>* PHGEHEAPIIG; // 0x18
-		::System::Collections::Generic::List_1<::System::ValueTuple>* HMAHGBIPPFP; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Renderer*, ::System::Object*>>* HMAHGBIPPFP; // 0x20
 		::Il2CppArray<::UnityEngine::Plane>* OICHPCDBBED; // 0x28
 		::Il2CppArray<::UnityEngine::Plane>* GBCDMIMDFGL; // 0x30
 		::Il2CppArray<::UnityEngine::Plane>* PJEEFHBPODN; // 0x38
@@ -139,7 +139,7 @@ inline static constexpr unsigned int OIFLCPEKGBC_TypeDefinitionIndex = 70220;
 		::UnityEngine::Vector3 GCECKEIJMIB; // 0xC8
 		::System::Single CACJJCPBFGK; // 0xD4
 		::System::Boolean GDNCKELOLMM; // 0xD8
-		::System::Nullable* PGEDJOOPPJA; // 0xD9
+		::System::Nullable_1<::System::Boolean> PGEDJOOPPJA; // 0xD9
 		::System::Boolean JJIAMHINBFH; // 0xDB
 		::System::Boolean MAJKPNJEDFG; // 0xDC
 		::System::Byte _padding0[0x3];
@@ -434,9 +434,9 @@ inline static constexpr unsigned int OIFLCPEKGBC_TypeDefinitionIndex = 70220;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OIFLCPEKGBC_ONPCHPCJNML_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>* DJOALBMNGNH()
+		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::UnityEngine::Renderer*, ::System::Object*>>* DJOALBMNGNH()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OIFLCPEKGBC_DJOALBMNGNH_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::UnityEngine::Renderer*, ::System::Object*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OIFLCPEKGBC_DJOALBMNGNH_OFFSET))(this);
 		}
 
 		::System::Void ECCGCBEADNH()

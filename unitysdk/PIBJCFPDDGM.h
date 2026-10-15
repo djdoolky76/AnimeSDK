@@ -7,6 +7,7 @@
 class BKLPIMMNFOC;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -39,10 +40,10 @@ inline static constexpr unsigned int PIBJCFPDDGM_TypeDefinitionIndex = 74723;
 	public:
 		::System::Func_2<::System::Collections::Generic::IList_1<::DCHICFMEANN>*, ::System::Boolean>* AFIBMAJKJDP; // 0x10
 		::DMCPMMBEDOL LIOMDOHHNFH; // 0x18
-		::System::Action* BLNMMCJECEL; // 0x28
+		::System::Action_1<::DMCPMMBEDOL>* BLNMMCJECEL; // 0x28
 		::System::Action* DGGJICFFMNL; // 0x30
 		::System::Collections::Generic::List_1<::DCHICFMEANN>* LENPPEDOIBG; // 0x38
-		::System::Action* NOKLEJHAHPG; // 0x40
+		::System::Action_1<::DMCPMMBEDOL>* NOKLEJHAHPG; // 0x40
 		::System::Action* NIFGALHNMLK; // 0x48
 		::DMCPMMBEDOL FABDNOAPLGL; // 0x50
 		::System::Collections::Generic::List_1<::BKLPIMMNFOC*>* JGBIIJMHNLC; // 0x60
@@ -115,14 +116,14 @@ inline static constexpr unsigned int PIBJCFPDDGM_TypeDefinitionIndex = 74723;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIBJCFPDDGM_INHBJHGKPGP_OFFSET))(this);
 		}
 
-		::System::Void ACIDOJGEJIA(::System::Action* a1)
+		::System::Void ACIDOJGEJIA(::System::Action_1<::DMCPMMBEDOL>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PIBJCFPDDGM_ACIDOJGEJIA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DMCPMMBEDOL>*))((::PBYTE)hIl2Cpp + PIBJCFPDDGM_ACIDOJGEJIA_OFFSET))(this, a1);
 		}
 
-		::System::Void EHEPCGHLPBC(::System::Action* a1)
+		::System::Void EHEPCGHLPBC(::System::Action_1<::DMCPMMBEDOL>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PIBJCFPDDGM_EHEPCGHLPBC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DMCPMMBEDOL>*))((::PBYTE)hIl2Cpp + PIBJCFPDDGM_EHEPCGHLPBC_OFFSET))(this, a1);
 		}
 
 		::System::Void HDPOMBMJIKG(::System::Action* a1)

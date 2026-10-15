@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD483410)
 #define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW___C__DISPLAYCLASS1_0___FIREEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD483F60)
@@ -15,7 +15,7 @@ namespace RPG::Client::LittleGame::PixAir
 	class PixAirLaserView___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onLoaded; // 0x10
+		::System::Action_1<::RPG::Client::MonoEffect*>* onLoaded; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

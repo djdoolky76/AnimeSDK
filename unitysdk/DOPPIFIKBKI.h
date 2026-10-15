@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPEBLEKDAGI.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KDFFHMDFALG;
@@ -48,8 +49,8 @@ inline static constexpr unsigned int DOPPIFIKBKI_TypeDefinitionIndex = 60618;
 		::RPG::Client::AdventurePhase* DEIEJIOELMO; // 0x18
 		::RPG::Client::MapDef* KKKADHHBMLD; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::String*>* DMIJDAKHLOI; // 0x28
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::ValueTuple>* DLJEDFLGCNL; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::ValueTuple>* KIFCEDBCHBN; // 0x38
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::ValueTuple_3<::System::UInt32, ::System::String*, ::System::String*>>* DLJEDFLGCNL; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::String*, ::System::String*>>* KIFCEDBCHBN; // 0x38
 		::KDFFHMDFALG* KGCNPIEDOCA; // 0x40
 		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* MONOAGGOGCL; // 0x48
 		::System::Void _ctor()

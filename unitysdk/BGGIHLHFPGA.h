@@ -9,8 +9,8 @@ class HCIIHNAFNAB;
 class LAABPKPBJEG;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -59,9 +59,9 @@ inline static constexpr unsigned int BGGIHLHFPGA_TypeDefinitionIndex = 32470;
 		::System::Boolean GICHHEEBJLG; // 0x2C
 		::System::Byte _padding0[0x3];
 		::System::UInt32 ACHPJOICHIK; // 0x30
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::BGGIHLHFPGA*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "BGGIHLHFPGA")->GetStaticField(0x42CE0);
+			return (::Google::Protobuf::MessageParser_1<::BGGIHLHFPGA*>**)UnitySDK::FromName("", "BGGIHLHFPGA")->GetStaticField(0x42CE0);
 		}
 
 		// static const ::System::Object FPNAGNCJBME; // 0x0
@@ -86,9 +86,9 @@ inline static constexpr unsigned int BGGIHLHFPGA_TypeDefinitionIndex = 32470;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BGGIHLHFPGA_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::BGGIHLHFPGA*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + BGGIHLHFPGA_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::BGGIHLHFPGA*>*(*)())((::PBYTE)hIl2Cpp + BGGIHLHFPGA_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

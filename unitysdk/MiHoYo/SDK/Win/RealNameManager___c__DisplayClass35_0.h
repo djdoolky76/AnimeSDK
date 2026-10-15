@@ -6,6 +6,7 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class RealNameManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDE1730)
 #define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS35_0__SHOWGRANTPHONE_B__0_OFFSET UNITYSDK_OFFSET(0x1BDE44F0)
@@ -23,12 +24,12 @@ namespace MiHoYo::SDK::Win
 	class RealNameManager___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__7; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__7; // 0x10
 		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x18
 		::MiHoYo::SDK::AccountModel* account; // 0x20
 		::System::Action* getCaptchaAction; // 0x28
-		::System::Action* __9__6; // 0x30
-		::System::Action* verifyAction; // 0x38
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__6; // 0x30
+		::System::Action_1<::System::String*>* verifyAction; // 0x38
 		::System::Boolean isShowOtherVerify; // 0x40
 		::System::Boolean isShowRedirect; // 0x41
 		::System::Void _ctor()

@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/EntityType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/MVector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 class NKOFFFBEBFG;
 class ONLEDCCMHBL;
@@ -103,9 +103,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::ONLEDCCMHBL*, ::RPG::MVector3, ::RPG::MVector3, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCYRENEMIRRORCONTROL_PMJLLIKLBCA_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::ValueTuple GFCOBDBPABM()
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> GFCOBDBPABM()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCYRENEMIRRORCONTROL_GFCOBDBPABM_OFFSET))(this);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCYRENEMIRRORCONTROL_GFCOBDBPABM_OFFSET))(this);
 		}
 
 		::System::Void LIFPANEHFKI()

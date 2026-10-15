@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/BPFKOIIMKBG.h"
 #include "unitysdk/LKLOMEEPIEM.h"
+#include "unitysdk/System/Nullable_1.h"
 class IMPNPPMLNPH;
 class PAADPKGPFMJ;
 namespace RPG::GameCore { class FreeStyleComponent; }
 namespace RPG::GameCore { class FreeStyleMotionInfoConfig; }
-namespace System { class Nullable; }
 
 #define RPG_GAMECORE_FREESTYLECONTROLLER_AGPHBLGBODG_1_OFFSET UNITYSDK_OFFSET(0xE69D870)
 #define RPG_GAMECORE_FREESTYLECONTROLLER_AGPHBLGBODG_OFFSET UNITYSDK_OFFSET(0xE69F420)
@@ -67,14 +67,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECONTROLLER_NHJEMDBODLO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3)
+		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECONTROLLER_AGPHBLGBODG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECONTROLLER_AGPHBLGBODG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AGPHBLGBODG_1(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3, ::System::Boolean a4)
+		::System::Void AGPHBLGBODG_1(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECONTROLLER_AGPHBLGBODG_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECONTROLLER_AGPHBLGBODG_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void MAHCHECNLEP(::System::Boolean a1, ::BPFKOIIMKBG a2)

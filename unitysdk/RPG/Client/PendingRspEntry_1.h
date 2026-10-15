@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/PacketSendResult_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 class PGNFCEBLDHJ;
-namespace Cysharp::Threading::Tasks { class AutoResetUniTaskCompletionSource; }
+namespace Cysharp::Threading::Tasks { template <typename T> class AutoResetUniTaskCompletionSource_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
@@ -19,7 +19,7 @@ namespace RPG::Client
 		::PGNFCEBLDHJ* _Owner; // 0x0
 		::System::UInt32 _PacketId; // 0x0
 		::System::UInt16 _ReqCmdID; // 0x0
-		::Cysharp::Threading::Tasks::AutoResetUniTaskCompletionSource* _Source; // 0x0
+		::Cysharp::Threading::Tasks::AutoResetUniTaskCompletionSource_1<::RPG::Client::PacketSendResult_1<T>>* _Source; // 0x0
 		::System::Collections::Generic::Queue_1<::System::Object*>* _NotifyBuffer; // 0x0
 		::System::Threading::CancellationToken _AwaitCt; // 0x0
 		static ::System::UInt16* StaticGet_s_RspCmdID()

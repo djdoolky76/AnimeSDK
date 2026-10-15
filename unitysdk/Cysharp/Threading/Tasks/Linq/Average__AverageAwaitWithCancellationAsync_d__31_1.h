@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
@@ -18,12 +18,12 @@ namespace Cysharp::Threading::Tasks::Linq
 	struct alignas(8) Average__AverageAwaitWithCancellationAsync_d__31_1
 	{
 		::System::Int32 __1__state; // 0x0
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x0
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Nullable_1<::System::Single>> __t__builder; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T>* source; // 0x0
 		::System::Threading::CancellationToken cancellationToken; // 0x0
-		::System::Func_3<T, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>* selector; // 0x0
+		::System::Func_3<T, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask_1<::System::Nullable_1<::System::Single>>>* selector; // 0x0
 		::System::Int64 _count_5__2; // 0x0
-		::System::Nullable* _sum_5__3; // 0x0
+		::System::Nullable_1<::System::Single> _sum_5__3; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<T>* _e_5__4; // 0x0
 		::System::Object* __7__wrap4; // 0x0
 		::System::Int32 __7__wrap5; // 0x0

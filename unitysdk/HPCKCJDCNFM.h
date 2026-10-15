@@ -13,6 +13,7 @@
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelCellSaver.h"
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelCellTrigger.h"
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelGroup.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
@@ -32,7 +33,6 @@ class OFNKOEAHEIP;
 namespace RPG::Client::LittleGame { class TimelineControlGameCharacterMovementPath; }
 namespace RPG::Client::LittleGame { class TimelineControlGameWorldLevelGrid; }
 namespace RPG::Client::LittleGame { class TimelineControlGameWorld_LevelGroupAction; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -136,14 +136,14 @@ inline static constexpr unsigned int HPCKCJDCNFM_TypeDefinitionIndex = 42626;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HPCKCJDCNFM_IHDAOMGELDE_OFFSET))(this);
 		}
 
-		::System::Void KHAPJAEPLNP(::UnityEngine::Vector3Int a1, ::HPCKCJDCNFM* a2, ::UnityEngine::Transform* a3, ::System::Nullable* a4)
+		::System::Void KHAPJAEPLNP(::UnityEngine::Vector3Int a1, ::HPCKCJDCNFM* a2, ::UnityEngine::Transform* a3, ::System::Nullable_1<::EJLKOFIFOBG> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::HPCKCJDCNFM*, ::UnityEngine::Transform*, ::System::Nullable*))((::PBYTE)hIl2Cpp + HPCKCJDCNFM_KHAPJAEPLNP_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::HPCKCJDCNFM*, ::UnityEngine::Transform*, ::System::Nullable_1<::EJLKOFIFOBG>))((::PBYTE)hIl2Cpp + HPCKCJDCNFM_KHAPJAEPLNP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void BHOBBEBMNJB(::UnityEngine::Vector3Int a1, ::HPCKCJDCNFM* a2, ::UnityEngine::Transform* a3, ::System::Nullable* a4)
+		::System::Void BHOBBEBMNJB(::UnityEngine::Vector3Int a1, ::HPCKCJDCNFM* a2, ::UnityEngine::Transform* a3, ::System::Nullable_1<::EJLKOFIFOBG> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::HPCKCJDCNFM*, ::UnityEngine::Transform*, ::System::Nullable*))((::PBYTE)hIl2Cpp + HPCKCJDCNFM_BHOBBEBMNJB_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3Int, ::HPCKCJDCNFM*, ::UnityEngine::Transform*, ::System::Nullable_1<::EJLKOFIFOBG>))((::PBYTE)hIl2Cpp + HPCKCJDCNFM_BHOBBEBMNJB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void NDOGDDANMIE()

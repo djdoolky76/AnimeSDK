@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 
 #define RPG_CLIENT_UI3DCAMERACOPYUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3531F0)
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2FD80);
 		}
 
-		static ::System::Action** StaticGet___9__1_1()
+		static ::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>** StaticGet___9__1_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2FD88);
+			return (::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2FD88);
 		}
 
-		static ::System::Action** StaticGet___9__1_0()
+		static ::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>** StaticGet___9__1_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2FD90);
+			return (::System::Action_1<::UnityEngine::Rendering::VolumeComponent*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2FD90);
 		}
 
 		static ::System::Void _cctor()

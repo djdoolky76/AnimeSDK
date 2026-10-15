@@ -45,9 +45,10 @@ namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -240,7 +241,7 @@ namespace RPG::GameCore
 		::System::Collections::Generic::HashSet_1<::ENGPHAKDGCI*>* _SkillTypeDisableSlots; // 0x20
 		::OBPNAKBOHDP* _BattleSkillToastManager; // 0x28
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _CurrentSkillSubTargetList_k__BackingField; // 0x30
-		::System::Collections::Generic::List_1<::System::Action*>* OnSkillSetup; // 0x38
+		::System::Collections::Generic::List_1<::System::Action_1<::RPG::GameCore::SkillData*>*>* OnSkillSetup; // 0x38
 		::System::Collections::Generic::List_1<::GDNBDAMHILN*>* _AutoUseUltraBindSkillList; // 0x40
 		::System::Collections::Generic::List_1<::System::String*>* _LoadedCommonSkillPoolNames; // 0x48
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* CurrentAimAtSubTargetList; // 0x50
@@ -891,9 +892,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_HASSKILLTAG_OFFSET))(this, a1);
 		}
 
-		::System::Void StackSkillTargetRedirect(::RPG::GameCore::TurnBasedModifierInstance* a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::RedirectSkillTargetAffectTeam a3, ::RPG::GameCore::GameEntity* a4, ::System::Int32 a5, ::System::Action* a6)
+		::System::Void StackSkillTargetRedirect(::RPG::GameCore::TurnBasedModifierInstance* a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::RedirectSkillTargetAffectTeam a3, ::RPG::GameCore::GameEntity* a4, ::System::Int32 a5, ::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::RedirectSkillTargetAffectTeam, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_STACKSKILLTARGETREDIRECT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::RedirectSkillTargetAffectTeam, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCHARACTERCOMPONENT_STACKSKILLTARGETREDIRECT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void UnstackSkillTargetRedirect(::RPG::GameCore::TurnBasedModifierInstance* a1)

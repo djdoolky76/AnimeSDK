@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -16,9 +16,9 @@ inline static constexpr unsigned int KHJDFMFGNPB_TypeDefinitionIndex = 59012;
 	class KHJDFMFGNPB : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::ValueTuple>** StaticGet_DIJANMNBKGF()
+		static ::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Single>>** StaticGet_DIJANMNBKGF()
 		{
-			return (::Il2CppArray<::System::ValueTuple>**)UnitySDK::FromName("", "KHJDFMFGNPB")->GetStaticField(0x2680);
+			return (::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Single>>**)UnitySDK::FromName("", "KHJDFMFGNPB")->GetStaticField(0x2680);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_DEAPEICDGLF()

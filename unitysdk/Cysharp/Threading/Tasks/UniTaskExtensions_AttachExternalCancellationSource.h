@@ -8,8 +8,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_CANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F155110)
 #define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1552A0)
@@ -31,9 +31,9 @@ namespace Cysharp::Threading::Tasks
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x28
 		::System::Byte _padding0[0x18];
 		::System::Threading::CancellationToken cancellationToken; // 0x48
-		static ::System::Action** StaticGet_cancellationCallbackDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_cancellationCallbackDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AttachExternalCancellationSource")->GetStaticField(0x48D20);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AttachExternalCancellationSource")->GetStaticField(0x48D20);
 		}
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::UniTask a1, ::System::Threading::CancellationToken a2)
@@ -66,9 +66,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_GETSTATUS_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Cysharp::Threading::Tasks::UniTaskStatus UnsafeGetStatus()

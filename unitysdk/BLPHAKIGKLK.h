@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace UnityEngine { class Animator; }
 
 #define BLPHAKIGKLK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA838A0)
@@ -16,7 +16,7 @@ inline static constexpr unsigned int BLPHAKIGKLK_TypeDefinitionIndex = 71604;
 		::UnityEngine::Animator* CFNGLMDMENE; // 0x60
 		::System::Int32 LGCHPLAJBKL; // 0x68
 		::System::Int32 LANBHBALFOA; // 0x6C
-		::System::Nullable* OGAGNOPLEIH; // 0x70
+		::System::Nullable_1<::System::Boolean> OGAGNOPLEIH; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLPHAKIGKLK_CTOR_OFFSET))(this);

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class CEEGMMCFCBG;
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 
 #define KPMLCCHLLKG_ADD_ONCLICK_OFFSET UNITYSDK_OFFSET(0xB5C1C10)
 #define KPMLCCHLLKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C1D90)
@@ -29,20 +29,20 @@ inline static constexpr unsigned int KPMLCCHLLKG_TypeDefinitionIndex = 79469;
 		::R3::ReactiveProperty_1<::System::Boolean>* _IsSelected_k__BackingField; // 0x20
 		::System::Boolean _IsAvailable_k__BackingField; // 0x28
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _Rarity_k__BackingField; // 0x2C
+		::System::Nullable_1<::System::Int32> _Rarity_k__BackingField; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPMLCCHLLKG_CTOR_OFFSET))(this);
 		}
 
-		::System::Nullable* get_Rarity()
+		::System::Nullable_1<::System::Int32> get_Rarity()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KPMLCCHLLKG_GET_RARITY_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + KPMLCCHLLKG_GET_RARITY_OFFSET))(this);
 		}
 
-		::System::Void set_Rarity(::System::Nullable* a1)
+		::System::Void set_Rarity(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + KPMLCCHLLKG_SET_RARITY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + KPMLCCHLLKG_SET_RARITY_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsAvailable()

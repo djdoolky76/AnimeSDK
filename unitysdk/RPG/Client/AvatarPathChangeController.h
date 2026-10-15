@@ -5,7 +5,7 @@ namespace RPG::Client { class AvatarPathChangeCameraController; }
 namespace RPG::GameCore { class AvatarPathChangeConfig; }
 namespace RPG::GameCore { class AvatarPathChangeToTargetConfig; }
 namespace RPG::GameCore { class FreeStyleComponent; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_ADDTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC707680)
@@ -26,16 +26,16 @@ namespace RPG::Client
 		::System::Single StartAnimTime; // 0x24
 		::RPG::GameCore::AvatarPathChangeConfig* _AvatarPathChangeConfig; // 0x28
 		::RPG::GameCore::AvatarPathChangeToTargetConfig* _SwitchConfig; // 0x30
-		::System::Action* _TickCallback; // 0x38
+		::System::Action_2<::XLua::LuaTable*, ::System::Single>* _TickCallback; // 0x38
 		::XLua::LuaTable* _LuaSelf; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECONTROLLER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddTickCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void AddTickCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECONTROLLER_ADDTICKCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECONTROLLER_ADDTICKCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean CheckFreeStyleAnimFinish(::RPG::GameCore::FreeStyleComponent* a1)

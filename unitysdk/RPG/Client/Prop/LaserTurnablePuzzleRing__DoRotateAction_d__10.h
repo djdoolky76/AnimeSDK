@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class LaserTurnablePuzzleRing; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define RPG_CLIENT_PROP_LASERTURNABLEPUZZLERING__DOROTATEACTION_D__10_CTOR_OFFSET UNITYSDK_OFFSET(0xDD1D2B0)
@@ -33,7 +33,7 @@ namespace RPG::Client::Prop
 		::System::Boolean _childRotate_5__5; // 0x40
 		::System::Byte _padding0[0x3];
 		::System::Int32 __1__state; // 0x44
-		::System::Nullable* forceTime; // 0x48
+		::System::Nullable_1<::System::Single> forceTime; // 0x48
 		::System::Single _totalTime_5__4; // 0x50
 		::System::Int32 _rotDeg_5__3; // 0x54
 		::System::Void _ctor(::System::Int32 a1)

@@ -17,6 +17,7 @@ namespace InControl { class PlayerActionSet; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::IO { class BinaryReader; }
@@ -95,7 +96,7 @@ namespace InControl
 		::System::Collections::Generic::List_1<::InControl::BindingSource*>* regularBindings; // 0x98
 		::System::Collections::Generic::List_1<::InControl::BindingSource*>* defaultBindings; // 0xA0
 		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::BindingSource*>* unfilteredBindings; // 0xA8
-		::System::Action* OnLastInputTypeChanged; // 0xB0
+		::System::Action_1<::InControl::BindingSourceType>* OnLastInputTypeChanged; // 0xB0
 		::Il2CppArray<::InControl::BindingSourceListener*>* bindingSourceListeners; // 0xB8
 		::System::Object* _UserData_k__BackingField; // 0xC0
 		::InControl::BindingListenOptions* ListenOptions; // 0xC8
@@ -134,14 +135,14 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID, ::InControl::PlayerActionSet*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_SET_OWNER_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnLastInputTypeChanged(::System::Action* a1)
+		::System::Void add_OnLastInputTypeChanged(::System::Action_1<::InControl::BindingSourceType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::BindingSourceType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnLastInputTypeChanged(::System::Action* a1)
+		::System::Void remove_OnLastInputTypeChanged(::System::Action_1<::InControl::BindingSourceType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVE_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::BindingSourceType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERACTION_REMOVE_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnBindingsChanged(::System::Action* a1)

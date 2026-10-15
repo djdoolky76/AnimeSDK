@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
 #define RPG_CLIENT_AVATARPATHCHANGEEVENTLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0xC707930)
@@ -15,8 +15,8 @@ namespace RPG::Client
 	class AvatarPathChangeEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* OnScrollTrigger; // 0x18
-		::System::Action* OnBeginDragTrigger; // 0x20
+		::System::Action_1<::System::Single>* OnScrollTrigger; // 0x18
+		::System::Action_1<::System::Single>* OnBeginDragTrigger; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGEEVENTLISTENER_CTOR_OFFSET))(this);

@@ -5,12 +5,12 @@
 #include "unitysdk/BMDDCGIDIBB_KJFCKEIACEO_EPlayState.h"
 #include "unitysdk/JOGBIBJLPJB.h"
 #include "unitysdk/RPG/Client/EPedestrianV2MotionState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 class BMDDCGIDIBB_DIMAABDMJBL;
 class KFGKNDNJKMI;
-namespace System { class Nullable; }
 
 #define BMDDCGIDIBB_KJFCKEIACEO_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xBD9E8E0)
 #define BMDDCGIDIBB_KJFCKEIACEO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD9E900)
@@ -34,7 +34,7 @@ inline static constexpr unsigned int BMDDCGIDIBB_KJFCKEIACEO_TypeDefinitionIndex
 		::JOGBIBJLPJB AGBACLADKJH; // 0x18
 		::BMDDCGIDIBB_KJFCKEIACEO_ELeaveState ANOPHKFLFFA; // 0x20
 		::BMDDCGIDIBB_KJFCKEIACEO_EPlayState CNAPOOPIAAI; // 0x24
-		::System::Nullable* HAKCOKEJIGJ; // 0x28
+		::System::Nullable_1<::UnityEngine::Vector3> HAKCOKEJIGJ; // 0x28
 		::System::Byte _padding0[0x8];
 		::System::Boolean OFEPHLEKKCD; // 0x38
 		::System::Boolean CKAKDPAIHMA; // 0x39

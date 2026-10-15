@@ -9,9 +9,9 @@ class FJBGKODCONC;
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace UnityEngine { class Collider; }
 
@@ -53,11 +53,11 @@ inline static constexpr unsigned int FJBGKODCONC_TypeDefinitionIndex = 77076;
 	class FJBGKODCONC : public ::System::Object
 	{
 	public:
-		::Entitas::ICollector* OOKNMCLNMEH; // 0x10
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* OOKNMCLNMEH; // 0x10
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
-		::Entitas::IGroup* BLOLGDECJEC; // 0x28
-		::Entitas::IGroup* LGPADDBGBMB; // 0x30
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* BLOLGDECJEC; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* LGPADDBGBMB; // 0x30
 		::System::Boolean JIMEMNGNMIH; // 0x38
 		static ::System::Single* StaticGet_HPHPNOKEOND()
 		{
@@ -189,9 +189,9 @@ inline static constexpr unsigned int FJBGKODCONC_TypeDefinitionIndex = 77076;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + FJBGKODCONC_MHPLGOAHLPJ_OFFSET))(this, a1);
 		}
 
-		::System::Void LOLMKBFJKEF(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void LOLMKBFJKEF(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + FJBGKODCONC_LOLMKBFJKEF_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + FJBGKODCONC_LOLMKBFJKEF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void CKLKBJDCIFF(::HIOEAKHGILF* a1, ::System::Boolean a2)

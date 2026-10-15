@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LFKBKMDMAEM.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 inline static constexpr unsigned int JJLLMEENHJC___c__DisplayClass8_0_1_TypeDefinitionIndex = 44158;
 
@@ -10,5 +10,5 @@ inline static constexpr unsigned int JJLLMEENHJC___c__DisplayClass8_0_1_TypeDefi
 	class JJLLMEENHJC___c__DisplayClass8_0_1 : public ::System::Object
 	{
 	public:
-		::System::Action* initializer; // 0x0
+		::System::Action_1<::LFKBKMDMAEM>* initializer; // 0x0
 	};

@@ -9,9 +9,9 @@ namespace MiHoYo::SDK { class ComboUserModel; }
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class LoginDataModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIHOYO_SDK_ACCOUNTMANAGER_ACCOUNTLISTMARKDELETE_1_OFFSET UNITYSDK_OFFSET(0x1BC22550)
@@ -221,14 +221,14 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)(::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTMANAGER_ISREALNAMEACCOUNT_OFFSET))(a1);
 		}
 
-		::System::Void ReactivateAccount(::System::String* a1, ::MiHoYo::SDK::AccountModel* a2, ::System::Action* a3)
+		::System::Void ReactivateAccount(::System::String* a1, ::MiHoYo::SDK::AccountModel* a2, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::LoginDataModel*>*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::AccountModel*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTMANAGER_REACTIVATEACCOUNT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::AccountModel*, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::LoginDataModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTMANAGER_REACTIVATEACCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void OnReactivateCallback(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::LoginDataModel* a3, ::System::Action* a4)
+		::System::Void OnReactivateCallback(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::LoginDataModel* a3, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::LoginDataModel*>*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::LoginDataModel*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTMANAGER_ONREACTIVATECALLBACK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::LoginDataModel*, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::LoginDataModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTMANAGER_ONREACTIVATECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean CheckLogoutStatus(::MiHoYo::SDK::JSONNode* a1)

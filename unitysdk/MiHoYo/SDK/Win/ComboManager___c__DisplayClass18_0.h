@@ -10,6 +10,7 @@ namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class ComboManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD18A40)
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__ONMDKORAUTHTICKETLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1BD280D0)
@@ -24,9 +25,9 @@ namespace MiHoYo::SDK::Win
 	class ComboManager___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::System::Action* __9__3; // 0x18
-		::System::Action* __9__4; // 0x20
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* __9__4; // 0x20
 		::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* callbackModel; // 0x28
 		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x30
 		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x38

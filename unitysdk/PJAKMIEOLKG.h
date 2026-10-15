@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/EFreeStyleControlMode.h"
 #include "unitysdk/RPG/GameCore/FreeStyleController.h"
 #include "unitysdk/BPFKOIIMKBG.h"
+#include "unitysdk/System/Nullable_1.h"
 class AINLAHLFEII;
 class IMPNPPMLNPH;
 namespace RPG::GameCore { class FreeStyleComponent; }
@@ -12,7 +13,6 @@ namespace RPG::GameCore { class FreeStyleTriggerGraphInfo; }
 namespace RPG::GameCore { class FreeStyleTriggerNodeInfo; }
 namespace RPG::GameCore { class FreeStyleTriggerSimpleNodeInfo; }
 namespace RPG::GameCore { class FreeStyleTriggerTransitionInfo; }
-namespace System { class Nullable; }
 namespace System { class Random; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -87,9 +87,9 @@ inline static constexpr unsigned int PJAKMIEOLKG_TypeDefinitionIndex = 57282;
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + PJAKMIEOLKG_NHJEMDBODLO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3)
+		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*))((::PBYTE)hIl2Cpp + PJAKMIEOLKG_AGPHBLGBODG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>))((::PBYTE)hIl2Cpp + PJAKMIEOLKG_AGPHBLGBODG_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MAHCHECNLEP(::System::Boolean a1, ::BPFKOIIMKBG a2)

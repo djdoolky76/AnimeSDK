@@ -15,6 +15,8 @@ namespace System { class AggregateException; }
 namespace System { class Delegate; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -33,6 +35,7 @@ namespace System::Threading::Tasks { class TaskContinuation; }
 namespace System::Threading::Tasks { class TaskFactory; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { class Task_ContingentProperties; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_THREADING_TASKS_TASK_ADDCOMPLETIONACTION_1_OFFSET UNITYSDK_OFFSET(0x1C1565C0)
 #define SYSTEM_THREADING_TASKS_TASK_ADDCOMPLETIONACTION_OFFSET UNITYSDK_OFFSET(0x1C157210)
@@ -227,9 +230,9 @@ namespace System::Threading::Tasks
 			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "Task")->GetStaticField(0x158E0);
 		}
 
-		static ::System::Action** StaticGet_s_taskCancelCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_s_taskCancelCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Threading.Tasks", "Task")->GetStaticField(0x158E8);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "Task")->GetStaticField(0x158E8);
 		}
 
 		static ::System::Int32* StaticGet_s_taskIdCounter()
@@ -637,9 +640,9 @@ namespace System::Threading::Tasks
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_SHOULDREPLICATE_OFFSET))(this);
 		}
 
-		::System::Threading::Tasks::Task* CreateReplicaTask(::System::Action* a1, ::System::Object* a2, ::System::Threading::Tasks::Task* a3, ::System::Threading::Tasks::TaskScheduler* a4, ::System::Threading::Tasks::TaskCreationOptions a5, ::System::Threading::Tasks::InternalTaskOptions a6)
+		::System::Threading::Tasks::Task* CreateReplicaTask(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Threading::Tasks::Task* a3, ::System::Threading::Tasks::TaskScheduler* a4, ::System::Threading::Tasks::TaskCreationOptions a5, ::System::Threading::Tasks::InternalTaskOptions a6)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Threading::Tasks::Task*, ::System::Threading::Tasks::TaskScheduler*, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::InternalTaskOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CREATEREPLICATASK_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::Tasks::Task*, ::System::Threading::Tasks::TaskScheduler*, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::InternalTaskOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CREATEREPLICATASK_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Object* get_SavedStateForNextReplica()
@@ -797,29 +800,29 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_LOGFINISHCOMPLETIONNOTIFICATION_OFFSET))(this);
 		}
 
-		::System::Threading::Tasks::Task* ContinueWith(::System::Action* a1)
+		::System::Threading::Tasks::Task* ContinueWith(::System::Action_1<::System::Threading::Tasks::Task*>* a1)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_OFFSET))(this, a1);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_1<::System::Threading::Tasks::Task*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task* ContinueWith_1(::System::Action* a1, ::System::Threading::Tasks::TaskScheduler* a2, ::System::Threading::CancellationToken a3, ::System::Threading::Tasks::TaskContinuationOptions a4, ::System::Threading::StackCrawlMark a5)
+		::System::Threading::Tasks::Task* ContinueWith_1(::System::Action_1<::System::Threading::Tasks::Task*>* a1, ::System::Threading::Tasks::TaskScheduler* a2, ::System::Threading::CancellationToken a3, ::System::Threading::Tasks::TaskContinuationOptions a4, ::System::Threading::StackCrawlMark a5)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*, ::System::Threading::Tasks::TaskScheduler*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskContinuationOptions, ::System::Threading::StackCrawlMark))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::TaskScheduler*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskContinuationOptions, ::System::Threading::StackCrawlMark))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Threading::Tasks::Task* ContinueWith_2(::System::Action* a1, ::System::Object* a2, ::System::Threading::Tasks::TaskScheduler* a3)
+		::System::Threading::Tasks::Task* ContinueWith_2(::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* a1, ::System::Object* a2, ::System::Threading::Tasks::TaskScheduler* a3)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task* ContinueWith_3(::System::Action* a1, ::System::Object* a2, ::System::Threading::CancellationToken a3, ::System::Threading::Tasks::TaskContinuationOptions a4, ::System::Threading::Tasks::TaskScheduler* a5)
+		::System::Threading::Tasks::Task* ContinueWith_3(::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* a1, ::System::Object* a2, ::System::Threading::CancellationToken a3, ::System::Threading::Tasks::TaskContinuationOptions a4, ::System::Threading::Tasks::TaskScheduler* a5)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskContinuationOptions, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_3_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>*, ::System::Object*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskContinuationOptions, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_3_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Threading::Tasks::Task* ContinueWith_4(::System::Action* a1, ::System::Object* a2, ::System::Threading::Tasks::TaskScheduler* a3, ::System::Threading::CancellationToken a4, ::System::Threading::Tasks::TaskContinuationOptions a5, ::System::Threading::StackCrawlMark a6)
+		::System::Threading::Tasks::Task* ContinueWith_4(::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* a1, ::System::Object* a2, ::System::Threading::Tasks::TaskScheduler* a3, ::System::Threading::CancellationToken a4, ::System::Threading::Tasks::TaskContinuationOptions a5, ::System::Threading::StackCrawlMark a6)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskContinuationOptions, ::System::Threading::StackCrawlMark))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_4_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskContinuationOptions, ::System::Threading::StackCrawlMark))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINUEWITH_4_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Void CreationOptionsFromContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions a1, ::System::Threading::Tasks::TaskCreationOptions a2, ::System::Threading::Tasks::InternalTaskOptions a3)
@@ -907,9 +910,9 @@ namespace System::Threading::Tasks
 			return ((::System::Threading::Tasks::Task*(*)(::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_DELAY_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Threading::Tasks::Task* WhenAny(::Il2CppArray<::System::Threading::Tasks::Task*>* a1)
+		static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* WhenAny(::Il2CppArray<::System::Threading::Tasks::Task*>* a1)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::Il2CppArray<::System::Threading::Tasks::Task*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_WHENANY_OFFSET))(a1);
+			return ((::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*(*)(::Il2CppArray<::System::Threading::Tasks::Task*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_WHENANY_OFFSET))(a1);
 		}
 
 	};

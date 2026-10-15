@@ -18,7 +18,7 @@ class NDDFLGNNMDK;
 class PEEDLCHFAFL;
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -161,14 +161,14 @@ inline static constexpr unsigned int DIMDJPECCEM_TypeDefinitionIndex = 76899;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DIMDJPECCEM_CNHKBHKIDLC_OFFSET))(this, a1);
 		}
 
-		::System::Void LOAEKEGCJGH(::System::UInt32 a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* a6)
+		::System::Void LOAEKEGCJGH(::System::UInt32 a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Int16>*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*))((::PBYTE)hIl2Cpp + DIMDJPECCEM_LOAEKEGCJGH_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Int16>*>*))((::PBYTE)hIl2Cpp + DIMDJPECCEM_LOAEKEGCJGH_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::String* HKEODMEEDJM(::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* a1)
+		::System::String* HKEODMEEDJM(::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Int16>*>* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*))((::PBYTE)hIl2Cpp + DIMDJPECCEM_HKEODMEEDJM_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Int16>*>*))((::PBYTE)hIl2Cpp + DIMDJPECCEM_HKEODMEEDJM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean COBKCFCNJDI(::RPG::GameCore::FiveDimGameplayMode a1, ::System::String* a2)

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/System/Nullable_1.h"
 class HEKHCLACHJE;
 class JKNBKEHFJJC;
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define JKNBKEHFJJC_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1C54FFB0)
@@ -47,9 +47,9 @@ inline static constexpr unsigned int JKNBKEHFJJC_TypeDefinitionIndex = 41730;
 			return ((::System::Void(*)(::PVOID, ::HEKHCLACHJE*))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_2(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>* a1)
+		::System::Void _ctor_2(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>*))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>*))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Int32 ACMKLFOMPFC(::RPG::Client::MechCraft::MechCraftAttributeType a1)
@@ -57,14 +57,14 @@ inline static constexpr unsigned int JKNBKEHFJJC_TypeDefinitionIndex = 41730;
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftAttributeType))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_ACMKLFOMPFC_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* IAONPECOKLB(::System::Nullable* a1)
+		::System::Nullable_1<::System::Int32> IAONPECOKLB(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_IAONPECOKLB_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_IAONPECOKLB_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>* BIKCBLEJEGP()
+		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>* BIKCBLEJEGP()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_BIKCBLEJEGP_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_BIKCBLEJEGP_OFFSET))(this);
 		}
 
 		::System::Int32 IOLJKPIJPMN()
@@ -82,9 +82,9 @@ inline static constexpr unsigned int JKNBKEHFJJC_TypeDefinitionIndex = 41730;
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_CFHBJPHHCPO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>* HJJJMLPEIOA()
+		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>* HJJJMLPEIOA()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_HJJJMLPEIOA_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JKNBKEHFJJC_HJJJMLPEIOA_OFFSET))(this);
 		}
 
 		::System::Int32 PDKFNECNHNM()

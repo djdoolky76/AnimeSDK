@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define PNEEENBFFIB_CTOR_OFFSET UNITYSDK_OFFSET(0xC3356A0)
@@ -23,14 +23,14 @@ inline static constexpr unsigned int PNEEENBFFIB_TypeDefinitionIndex = 62409;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNEEENBFFIB_CTOR_OFFSET))(this);
 		}
 
-		::System::Void NHBPDCJIAPI(::RPG::Client::ScheduleData* a1, ::System::Action* a2)
+		::System::Void NHBPDCJIAPI(::RPG::Client::ScheduleData* a1, ::System::Action_1<::RPG::Client::ScheduleData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*, ::System::Action*))((::PBYTE)hIl2Cpp + PNEEENBFFIB_NHBPDCJIAPI_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*, ::System::Action_1<::RPG::Client::ScheduleData*>*))((::PBYTE)hIl2Cpp + PNEEENBFFIB_NHBPDCJIAPI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void MEPAOJIBLED(::RPG::Client::ScheduleData* a1, ::System::Action* a2)
+		::System::Void MEPAOJIBLED(::RPG::Client::ScheduleData* a1, ::System::Action_1<::RPG::Client::ScheduleData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*, ::System::Action*))((::PBYTE)hIl2Cpp + PNEEENBFFIB_MEPAOJIBLED_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*, ::System::Action_1<::RPG::Client::ScheduleData*>*))((::PBYTE)hIl2Cpp + PNEEENBFFIB_MEPAOJIBLED_OFFSET))(this, a1, a2);
 		}
 
 	};

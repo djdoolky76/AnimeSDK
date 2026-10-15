@@ -8,7 +8,7 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class BaseScrollGameBlockConfig; }
 
 #define MMNMMKNDPGN_ABJJBLHEPMA_OFFSET UNITYSDK_OFFSET(0xB9DE300)
@@ -53,8 +53,8 @@ inline static constexpr unsigned int MMNMMKNDPGN_TypeDefinitionIndex = 76926;
 	class MMNMMKNDPGN : public ::BBGNOBLIAGL
 	{
 	public:
-		::Entitas::IGroup* GHPEBGJJDMC; // 0x20
-		::Entitas::IGroup* HMMMHIDEFCA; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GHPEBGJJDMC; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* HMMMHIDEFCA; // 0x28
 		::System::Boolean ABKMPGNDAHO; // 0x30
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

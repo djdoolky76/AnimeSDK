@@ -4,7 +4,7 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class String; }
 
 #define ALHIEAKIBKI_BEDPONKKHNC_OFFSET UNITYSDK_OFFSET(0x1556B390)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int ALHIEAKIBKI_TypeDefinitionIndex = 76942;
 	class ALHIEAKIBKI : public ::BBGNOBLIAGL
 	{
 	public:
-		::Entitas::IGroup* FLOILGDKLJO; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* FLOILGDKLJO; // 0x20
 		::System::Boolean LBILNHLMOEH; // 0x28
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

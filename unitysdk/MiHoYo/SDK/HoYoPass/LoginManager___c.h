@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK { class Web_OnWebViewPageClose; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE6CD60)
 #define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6CDA0)
@@ -29,9 +29,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xDF18);
 		}
 
-		static ::System::Action** StaticGet___9__58_4()
+		static ::System::Action_1<::System::String*>** StaticGet___9__58_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xDF20);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xDF20);
 		}
 
 		static ::System::Void _cctor()

@@ -8,8 +8,10 @@ namespace RPG::Client::MechCraft::ViewModel { class IMechCraftDiyMechatronItemVi
 namespace RPG::Client::MechCraft::ViewModel { class IMechCraftDiyMechatronTabViewModel; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftDiySignal; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftDiyViewEvent; }
+namespace RPG::Client::MechCraft::ViewModel { template <typename T> class MechCraftDiySignal_1; }
 namespace System { class Action; }
 namespace System { class IDisposable; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -53,7 +55,7 @@ namespace RPG::Client::MechCraft::ViewModel
 		::EJCLAFODBMD* _QueryUserPrefsService; // 0x30
 		::System::Collections::Generic::List_1<::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronItemViewModel*>* _DisplayItems; // 0x38
 		::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronItemViewModel* _SelectedItem_k__BackingField; // 0x40
-		::RPG::Client::MechCraft::ViewModel::MechCraftDiySignal* _ViewEvent; // 0x48
+		::RPG::Client::MechCraft::ViewModel::MechCraftDiySignal_1<::RPG::Client::MechCraft::ViewModel::MechCraftDiyViewEvent*>* _ViewEvent; // 0x48
 		::RPG::Client::MechCraft::ViewModel::MechCraftDiySignal* _Changed; // 0x50
 		::CEEGMMCFCBG* _SelectNextCommand_k__BackingField; // 0x58
 		::CEEGMMCFCBG* _SelectPrevCommand_k__BackingField; // 0x60
@@ -125,9 +127,9 @@ namespace RPG::Client::MechCraft::ViewModel
 			return ((::System::IDisposable*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONLISTVIEWMODEL_SUBSCRIBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::IDisposable* SubscribeViewEvent(::System::Action* a1)
+		::System::IDisposable* SubscribeViewEvent(::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftDiyViewEvent*>* a1)
 		{
-			return ((::System::IDisposable*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONLISTVIEWMODEL_SUBSCRIBEVIEWEVENT_OFFSET))(this, a1);
+			return ((::System::IDisposable*(*)(::PVOID, ::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftDiyViewEvent*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONLISTVIEWMODEL_SUBSCRIBEVIEWEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void RequestLeftListFadeIn()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HBCMHADMLOP.h"
 #include "unitysdk/RPG/GameCore/SwitchMascotSection.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EKFMIDBJDIA;
@@ -104,7 +104,7 @@ inline static constexpr unsigned int JCDNNAFPNPL_TypeDefinitionIndex = 60305;
 	{
 	public:
 		::KNKPLOGICFO* IAHFCNHAAGA; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* MOHJMJACDCJ; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Object*>* MOHJMJACDCJ; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffect*>* MHPLNGIFNNB; // 0x30
 		::RPG::GameCore::AdventureCharacterController* CPIIOIPAAKK; // 0x38
 		::RPG::Client::MonoDroneAirwallControl* JACOMHFDIHJ; // 0x40
@@ -470,9 +470,9 @@ inline static constexpr unsigned int JCDNNAFPNPL_TypeDefinitionIndex = 60305;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + JCDNNAFPNPL_BBCLLDKDDON_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple CIKFNMLFKLP(::RPG::GameCore::GameEntity* a1)
+		::System::ValueTuple_2<::UnityEngine::Transform*, ::System::String*> CIKFNMLFKLP(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + JCDNNAFPNPL_CIKFNMLFKLP_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Transform*, ::System::String*>(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + JCDNNAFPNPL_CIKFNMLFKLP_OFFSET))(this, a1);
 		}
 
 		::System::Void KNJNPJINDMC(::System::Single a1)

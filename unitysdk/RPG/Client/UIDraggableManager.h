@@ -10,6 +10,8 @@ class BJPFFPLFMKB;
 namespace RPG::Client { class UIDraggableManager_AreaInfo; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -82,14 +84,14 @@ namespace RPG::Client
 		::UnityEngine::Transform* _DragTarget; // 0x48
 		::UnityEngine::Vector2 _Offset; // 0x50
 		::UnityEngine::Rect _RootRect; // 0x58
-		::System::Action* _OnDragStart; // 0x68
+		::System::Action_1<::System::Object*>* _OnDragStart; // 0x68
 		::System::Action* _OnDragExceed; // 0x70
 		::System::Action* _OnDragEnd; // 0x78
-		::System::Action* _OnDragEnter; // 0x80
-		::System::Action* _OnDragExit; // 0x88
+		::System::Action_1<::System::Object*>* _OnDragEnter; // 0x80
+		::System::Action_1<::System::Object*>* _OnDragExit; // 0x88
 		::System::Boolean _ConfinedCursorWhenDrag; // 0x90
 		::System::Byte _padding2[0x7];
-		::System::Action* _CustomPositionSetter; // 0x98
+		::System::Action_2<::UnityEngine::Transform*, ::UnityEngine::Vector2>* _CustomPositionSetter; // 0x98
 		::AKEEIFKMLNM* _DragInput; // 0xA0
 		::System::Collections::Generic::List_1<::BJPFFPLFMKB*>* _DragEventListeners; // 0xA8
 		::System::Void _ctor()
@@ -187,9 +189,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_CLEARDRAGTARGET_OFFSET))(this);
 		}
 
-		::System::Void BindDragStartCallback(::System::Action* a1)
+		::System::Void BindDragStartCallback(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_BINDDRAGSTARTCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_BINDDRAGSTARTCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void BindDragEndCallback(::System::Action* a1)
@@ -202,39 +204,39 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_BINDDRAGEXCEEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void BindDragEnterCallback(::System::Action* a1)
+		::System::Void BindDragEnterCallback(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_BINDDRAGENTERCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_BINDDRAGENTERCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void BindDragExitCallback(::System::Action* a1)
+		::System::Void BindDragExitCallback(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_BINDDRAGEXITCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_BINDDRAGEXITCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void LuaBindDragStartCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void LuaBindDragStartCallback(::System::Action_2<::XLua::LuaTable*, ::System::Object*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGSTARTCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGSTARTCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LuaBindDragEndCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void LuaBindDragEndCallback(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGENDCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGENDCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LuaBindDragExceedCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void LuaBindDragExceedCallback(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGEXCEEDCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGEXCEEDCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LuaBindDragEnterCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void LuaBindDragEnterCallback(::System::Action_2<::XLua::LuaTable*, ::System::Object*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGENTERCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGENTERCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LuaBindDragExitCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void LuaBindDragExitCallback(::System::Action_2<::XLua::LuaTable*, ::System::Object*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGEXITCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_LUABINDDRAGEXITCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetConfinedCursorWhenDrag(::System::Boolean a1)
@@ -247,9 +249,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_GETDRAGTARGETSCREENPOSITION_OFFSET))(this);
 		}
 
-		::System::Void SetCustomPositionSetter(::System::Action* a1)
+		::System::Void SetCustomPositionSetter(::System::Action_2<::UnityEngine::Transform*, ::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_SETCUSTOMPOSITIONSETTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::UnityEngine::Transform*, ::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLEMANAGER_SETCUSTOMPOSITIONSETTER_OFFSET))(this, a1);
 		}
 
 		::System::Void _AddAreaInfo(::UnityEngine::GameObject* a1, ::System::Object* a2, ::RPG::Client::UIDraggableManager_AreaFlag a3)

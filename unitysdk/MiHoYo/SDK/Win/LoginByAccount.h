@@ -5,6 +5,8 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class LoginByAccount; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
@@ -66,11 +68,11 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnClose; // 0xF8
 		::System::Action* OnRegister; // 0x100
 		::System::Action* OnForgetPwd; // 0x108
-		::System::Action* OnLogin; // 0x110
+		::System::Action_2<::System::String*, ::System::String*>* OnLogin; // 0x110
 		::System::Action* OnUserAgreement; // 0x118
 		::System::Action* OnUserPrivacy; // 0x120
-		::System::Action* OnToggleClicked; // 0x128
-		::System::Action* OnSaveRecordToggleClicked; // 0x130
+		::System::Action_1<::System::Boolean>* OnToggleClicked; // 0x128
+		::System::Action_1<::System::Boolean>* OnSaveRecordToggleClicked; // 0x130
 		::System::Action* OnNotifyClose; // 0x138
 		::MiHoYo::SDK::AccountModel* account; // 0x140
 		::System::Boolean isPasswordShow; // 0x148

@@ -4,7 +4,7 @@
 class HPKACEPPPCA;
 namespace RPG::Client { class RuntimeGroupManager; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_RUNTIMEGROUPMANAGER_HOYOGROUPSTREAMINGINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0xE0843D0)
 #define RPG_CLIENT_RUNTIMEGROUPMANAGER_HOYOGROUPSTREAMINGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE084330)
@@ -29,9 +29,9 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::OpenWorld::StreamingItemData* _StreamingData_k__BackingField; // 0x10
-		::System::Action* _OnLoadCallback_k__BackingField; // 0x18
+		::System::Action_1<::HPKACEPPPCA*>* _OnLoadCallback_k__BackingField; // 0x18
 		::RPG::Client::RuntimeGroupManager* _Manager_k__BackingField; // 0x20
-		::System::Action* _OnUnloadCallback_k__BackingField; // 0x28
+		::System::Action_1<::HPKACEPPPCA*>* _OnUnloadCallback_k__BackingField; // 0x28
 		::System::UInt32 _GroupID_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{
@@ -93,14 +93,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::RuntimeGroupManager*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_HOYOGROUPSTREAMINGINFO_SET_MANAGER_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnLoadCallback()
+		::System::Action_1<::HPKACEPPPCA*>* get_OnLoadCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_HOYOGROUPSTREAMINGINFO_GET_ONLOADCALLBACK_OFFSET))(this);
+			return ((::System::Action_1<::HPKACEPPPCA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_HOYOGROUPSTREAMINGINFO_GET_ONLOADCALLBACK_OFFSET))(this);
 		}
 
-		::System::Action* get_OnUnloadCallback()
+		::System::Action_1<::HPKACEPPPCA*>* get_OnUnloadCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_HOYOGROUPSTREAMINGINFO_GET_ONUNLOADCALLBACK_OFFSET))(this);
+			return ((::System::Action_1<::HPKACEPPPCA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_HOYOGROUPSTREAMINGINFO_GET_ONUNLOADCALLBACK_OFFSET))(this);
 		}
 
 	};

@@ -8,8 +8,8 @@ namespace RPG::Client { class NotifyHandler; }
 namespace RPG::Client { class UIFollow3DTarget; }
 namespace RPG::Client { class UIFollow3DTarget_PostProcessDelegate; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
@@ -70,7 +70,7 @@ namespace RPG::Client
 		::System::Byte _padding2[0x2];
 		::RPG::Client::NotifyHandler* _NotifyHandler; // 0xA0
 		::RPG::Client::UIFollow3DTarget_PostProcessDelegate* _PostProcessHandler; // 0xA8
-		::System::Action* _PreTickHandler; // 0xB0
+		::System::Action_1<::RPG::Client::UIFollow3DTarget*>* _PreTickHandler; // 0xB0
 		static ::System::Boolean* StaticGet__CAMERA_DIS_INIT()
 		{
 			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "UIFollow3DTarget")->GetStaticField(0xBD60);
@@ -141,9 +141,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFollow3DTarget_PostProcessDelegate*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPOSTPROCESSHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPreTickHandler(::System::Action* a1)
+		::System::Void SetPreTickHandler(::System::Action_1<::RPG::Client::UIFollow3DTarget*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::UIFollow3DTarget*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Void SetFollowTargetPosition(::UnityEngine::Vector3 a1)

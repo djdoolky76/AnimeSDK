@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BHHPHPGCODJ;
 
 #define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD62C2E0)
@@ -21,9 +21,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetTargetAnchorPos_b__1(::System::ValueTuple a1)
+		::System::Boolean _GetTargetAnchorPos_b__1(::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__DISPLAYCLASS5_0__GETTARGETANCHORPOS_B__1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__DISPLAYCLASS5_0__GETTARGETANCHORPOS_B__1_OFFSET))(this, a1);
 		}
 
 	};

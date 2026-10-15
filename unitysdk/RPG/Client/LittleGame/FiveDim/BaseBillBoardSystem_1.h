@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame { template <typename T> class IEntityScaledTimeService_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
@@ -13,6 +13,6 @@ namespace RPG::Client::LittleGame::FiveDim
 	{
 	public:
 		::RPG::Client::LittleGame::IEntityScaledTimeService_1<T>* _EntityScaledTimeService; // 0x0
-		::Entitas::IGroup* _BillBoardGroup; // 0x0
+		::Entitas::IGroup_1<T>* _BillBoardGroup; // 0x0
 	};
 }

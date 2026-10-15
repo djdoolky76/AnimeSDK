@@ -6,7 +6,7 @@
 class CEEGMMCFCBG;
 class JAMLOIADIDB;
 class LABEGKEFBPJ;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
@@ -61,9 +61,9 @@ namespace RPG::Client::RewardItem
 	class RewardItemControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__31_0()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__31_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C220);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C220);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__30_5()
@@ -71,14 +71,14 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C228);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_5()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_5()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C230);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C230);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__24_2()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__24_2()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C238);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C238);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -86,9 +86,9 @@ namespace RPG::Client::RewardItem
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C240);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__30_0()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C248);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C248);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__30_3()
@@ -96,9 +96,9 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C250);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_3()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_3()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C258);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C258);
 		}
 
 		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_14()
@@ -111,34 +111,34 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C268);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_1()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C270);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C270);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__30_1()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__30_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C278);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C278);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__25_1()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C280);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C280);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__27_0()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__27_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C288);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C288);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__26_2()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__26_2()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C290);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C290);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__25_4()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_4()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C298);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C298);
 		}
 
 		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_12()
@@ -146,19 +146,19 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2A0);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_0()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2A8);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2A8);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__25_0()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2B0);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2B0);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__30_2()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__30_2()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2B8);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2B8);
 		}
 
 		static ::System::Func_2<::JAMLOIADIDB*, ::System::Boolean>** StaticGet___9__25_5()
@@ -166,9 +166,9 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::JAMLOIADIDB*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2C0);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__27_1()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__27_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2C8);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2C8);
 		}
 
 		static ::System::Func_2<::LABEGKEFBPJ*, ::CEEGMMCFCBG*>** StaticGet___9__24_0()
@@ -176,14 +176,14 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::LABEGKEFBPJ*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2D0);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_6()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_6()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2D8);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2D8);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__25_2()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__25_2()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2E0);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2E0);
 		}
 
 		static ::System::Func_4<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean, ::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>** StaticGet___9__29_0()
@@ -191,24 +191,24 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_4<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean, ::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2E8);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__31_1()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__31_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2F0);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2F0);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__26_1()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__26_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2F8);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C2F8);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__24_1()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__24_1()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C300);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C300);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__26_0()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C308);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C308);
 		}
 
 		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_11()
@@ -221,9 +221,9 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::RPG::GameCore::ItemRecycleShowType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C318);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__25_3()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__25_3()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C320);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C320);
 		}
 
 		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_9()
@@ -231,9 +231,9 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C328);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_4()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_4()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C330);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C330);
 		}
 
 		static ::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>** StaticGet___9__28_13()
@@ -241,24 +241,24 @@ namespace RPG::Client::RewardItem
 			return (::System::Func_2<::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C338);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_8()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_8()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C340);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C340);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_2()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__28_2()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C348);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C348);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__32_0()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__32_0()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C350);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C350);
 		}
 
-		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>** StaticGet___9__28_7()
+		static ::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__28_7()
 		{
-			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C358);
+			return (::System::Func_2<::LABEGKEFBPJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.RewardItem", "<>c")->GetStaticField(0x5C358);
 		}
 
 		static ::System::Void _cctor()
@@ -276,39 +276,39 @@ namespace RPG::Client::RewardItem
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindButton_b__24_1(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindButton_b__24_1(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindButton_b__24_2(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindButton_b__24_2(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDBUTTON_B__24_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindIcon_b__25_0(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __BindIcon_b__25_0(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindIcon_b__25_1(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindIcon_b__25_1(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindIcon_b__25_2(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindIcon_b__25_2(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindIcon_b__25_3(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __BindIcon_b__25_3(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindIcon_b__25_4(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindIcon_b__25_4(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_4_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindIcon_b__25_5(::JAMLOIADIDB* a1)
@@ -316,39 +316,39 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::JAMLOIADIDB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDICON_B__25_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRarity_b__26_0(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __BindRarity_b__26_0(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRarity_b__26_1(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __BindRarity_b__26_1(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRarity_b__26_2(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindRarity_b__26_2(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRARITY_B__26_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindCount_b__27_0(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindCount_b__27_0(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDCOUNT_B__27_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDCOUNT_B__27_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindCount_b__27_1(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __BindCount_b__27_1(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDCOUNT_B__27_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDCOUNT_B__27_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_0(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindStatusMarks_b__28_0(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_1(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindStatusMarks_b__28_1(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindStatusMarks_b__28_9(::RPG::Client::RewardItem::RewardItemMarkFlags a1)
@@ -356,9 +356,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RewardItem::RewardItemMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_9_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_2(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindStatusMarks_b__28_2(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindStatusMarks_b__28_10(::RPG::Client::RewardItem::RewardItemMarkFlags a1)
@@ -366,9 +366,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RewardItem::RewardItemMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_10_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_3(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindStatusMarks_b__28_3(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_3_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindStatusMarks_b__28_11(::RPG::Client::RewardItem::RewardItemMarkFlags a1)
@@ -376,9 +376,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RewardItem::RewardItemMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_11_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_4(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindStatusMarks_b__28_4(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_4_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindStatusMarks_b__28_12(::RPG::Client::RewardItem::RewardItemMarkFlags a1)
@@ -386,9 +386,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RewardItem::RewardItemMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_12_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_5(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindStatusMarks_b__28_5(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_5_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_5_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindStatusMarks_b__28_13(::RPG::Client::RewardItem::RewardItemMarkFlags a1)
@@ -396,9 +396,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RewardItem::RewardItemMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_13_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_6(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindStatusMarks_b__28_6(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_6_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_6_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindStatusMarks_b__28_14(::RPG::Client::RewardItem::RewardItemMarkFlags a1)
@@ -406,14 +406,14 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RewardItem::RewardItemMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_14_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_7(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __BindStatusMarks_b__28_7(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_7_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_7_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindStatusMarks_b__28_8(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindStatusMarks_b__28_8(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_8_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDSTATUSMARKS_B__28_8_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __StatusPanelVisible_b__29_0(::RPG::Client::RewardItem::RewardItemMarkFlags a1, ::System::Boolean a2, ::RPG::GameCore::ItemRecycleShowType a3)
@@ -421,9 +421,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RewardItem::RewardItemMarkFlags, ::System::Boolean, ::RPG::GameCore::ItemRecycleShowType))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___STATUSPANELVISIBLE_B__29_0_OFFSET))(this, a1, a2, a3);
 		}
 
-		::R3::Observable* __BindRecycleLabels_b__30_0(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindRecycleLabels_b__30_0(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindRecycleLabels_b__30_3(::RPG::GameCore::ItemRecycleShowType a1)
@@ -431,9 +431,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ItemRecycleShowType))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRecycleLabels_b__30_1(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindRecycleLabels_b__30_1(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindRecycleLabels_b__30_4(::RPG::GameCore::ItemRecycleShowType a1)
@@ -441,9 +441,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ItemRecycleShowType))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRecycleLabels_b__30_2(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindRecycleLabels_b__30_2(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindRecycleLabels_b__30_5(::RPG::GameCore::ItemRecycleShowType a1)
@@ -451,19 +451,19 @@ namespace RPG::Client::RewardItem
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ItemRecycleShowType))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDRECYCLELABELS_B__30_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindNamePanel_b__31_0(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __BindNamePanel_b__31_0(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDNAMEPANEL_B__31_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDNAMEPANEL_B__31_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindNamePanel_b__31_1(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __BindNamePanel_b__31_1(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDNAMEPANEL_B__31_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDNAMEPANEL_B__31_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRedDot_b__32_0(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __BindRedDot_b__32_0(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDREDDOT_B__32_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL___C___BINDREDDOT_B__32_0_OFFSET))(this, a1);
 		}
 
 	};

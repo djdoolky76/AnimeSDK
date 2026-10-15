@@ -6,9 +6,9 @@ class GHHJNCOAIJF_KKHGKLOBDFN;
 class IHGIENOHBMJ;
 class JHFDPHILOOP;
 namespace RPG::Client { class GridFightGameRef; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD15B8D0)
 #define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD165640)
@@ -24,7 +24,7 @@ namespace RPG::Client
 	public:
 		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x10
 		::RPG::Client::GridFightGameRef* __4__this; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action_1<::System::Boolean>* callback; // 0x20
 		::GHHJNCOAIJF* req; // 0x28
 		::Il2CppArray<::System::String*>* ids; // 0x30
 		::System::Void _ctor()
@@ -37,9 +37,9 @@ namespace RPG::Client
 			return ((::JHFDPHILOOP*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendGridFightGameRefApplyReq_b__1()
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* _SendGridFightGameRefApplyReq_b__1()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__1_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS3_0__SENDGRIDFIGHTGAMEREFAPPLYREQ_B__1_OFFSET))(this);
 		}
 
 		::System::Void _SendGridFightGameRefApplyReq_b__2(::IHGIENOHBMJ* a1)

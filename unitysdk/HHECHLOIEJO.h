@@ -28,9 +28,9 @@ namespace RPG::GameCore { class LogicAnimEventEntry; }
 namespace RPG::GameCore { class SingleAnimBehaviourEvent; }
 namespace RPG::GameCore { class SingleAnimEventConfig; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -228,9 +228,9 @@ inline static constexpr unsigned int HHECHLOIEJO_TypeDefinitionIndex = 57139;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single, ::Il2CppArray<::RPG::GameCore::EffectDurationConfig*>*))((::PBYTE)hIl2Cpp + HHECHLOIEJO_FCJGFMEIFLB_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void HLLKCLLPIKH(::System::String* a1, ::System::Single a2, ::System::Single a3, ::System::Action* a4, ::System::Object* a5)
+		::System::Void HLLKCLLPIKH(::System::String* a1, ::System::Single a2, ::System::Single a3, ::System::Action_2<::GELIALJDFBL*, ::System::Object*>* a4, ::System::Object* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Single, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + HHECHLOIEJO_HLLKCLLPIKH_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Single, ::System::Action_2<::GELIALJDFBL*, ::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + HHECHLOIEJO_HLLKCLLPIKH_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void CJODJODMDND()
@@ -328,9 +328,9 @@ inline static constexpr unsigned int HHECHLOIEJO_TypeDefinitionIndex = 57139;
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HHECHLOIEJO_ALOGBJMOMOD_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NKCHMMGDBMA(::BNBOAMEBAOE* a1, ::System::Action* a2, ::System::Object* a3)
+		::System::Void NKCHMMGDBMA(::BNBOAMEBAOE* a1, ::System::Action_2<::GELIALJDFBL*, ::System::Object*>* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::BNBOAMEBAOE*, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + HHECHLOIEJO_NKCHMMGDBMA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::BNBOAMEBAOE*, ::System::Action_2<::GELIALJDFBL*, ::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + HHECHLOIEJO_NKCHMMGDBMA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::LFFEFADCAMA* GMCDKGFNBEI()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class GetShopListScRsp; }
@@ -44,14 +44,14 @@ namespace Proto
 		::Google::Protobuf::Collections::RepeatedField_1<::Proto::Shop*>* shopList_; // 0x18
 		::System::UInt32 retcode_; // 0x20
 		::System::UInt32 shopType_; // 0x24
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_shopList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::Shop*>** StaticGet__repeated_shopList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GetShopListScRsp")->GetStaticField(0x24350);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::Shop*>**)UnitySDK::FromName("Proto", "GetShopListScRsp")->GetStaticField(0x24350);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetShopListScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "GetShopListScRsp")->GetStaticField(0x24358);
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetShopListScRsp*>**)UnitySDK::FromName("Proto", "GetShopListScRsp")->GetStaticField(0x24358);
 		}
 
 		// static const ::System::Object ShopListFieldNumber; // 0x0
@@ -72,9 +72,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GETSHOPLISTSCRSP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetShopListScRsp*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_GETSHOPLISTSCRSP_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::GetShopListScRsp*>*(*)())((::PBYTE)hIl2Cpp + PROTO_GETSHOPLISTSCRSP_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

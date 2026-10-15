@@ -25,7 +25,8 @@ namespace RPG::Client { class TalkModule_MissionTalkCache; }
 namespace RPG::Client { class TalkOptionData; }
 namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class MissionItemConfig; }
 namespace RPG::GameCore { class MissionItemConfigList; }
@@ -187,7 +188,7 @@ namespace RPG::Client
 		::RPG::GameCore::TaskContext* _OptionContext; // 0x68
 		::System::Collections::Generic::List_1<::RPG::Client::TalkHistoryData*>* _HistoryDatas_k__BackingField; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* TalkProgress; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise*>* _SeriesTalkCountPromises; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise_1<::System::UInt32>*>* _SeriesTalkCountPromises; // 0x80
 		::RPG::Client::UIController* _TopUIControllerHasMissionTalk; // 0x88
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _WaitingNPCIDs; // 0x90
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* _DialogueEventsBeenTriggered1D3Legacy; // 0x98
@@ -635,9 +636,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKMODULE_IFSERIESTRIGGERED_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GetNPCTalkCountPromise(::RPG::Client::MapNpcDef* a1)
+		::RPG::Client::Promises::IPromise_1<::System::UInt32>* GetNPCTalkCountPromise(::RPG::Client::MapNpcDef* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKMODULE_GETNPCTALKCOUNTPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::UInt32>*(*)(::PVOID, ::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TALKMODULE_GETNPCTALKCOUNTPROMISE_OFFSET))(this, a1);
 		}
 
 		::System::Void FinishTalk(::System::UInt32 a1)

@@ -53,7 +53,7 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Object; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 #define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_ADDATTRIBUTESTORE_OFFSET UNITYSDK_OFFSET(0x1B924EB0)
 #define HOUDINIENGINEUNITY_HEU_HOUDINIASSET_ADDCURVEDRAWCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1B90A940)
@@ -1452,14 +1452,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_HoudiniAsset*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_DISCONNECTFROMUPSTREAM_OFFSET))(this, a1);
 		}
 
-		::System::Void AddDownstreamConnection(::UnityEngine::Events::UnityAction* a1)
+		::System::Void AddDownstreamConnection(::UnityEngine::Events::UnityAction_1<::HoudiniEngineUnity::HEU_CookedEventData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_ADDDOWNSTREAMCONNECTION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::HoudiniEngineUnity::HEU_CookedEventData*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_ADDDOWNSTREAMCONNECTION_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveDownstreamConnection(::UnityEngine::Events::UnityAction* a1)
+		::System::Void RemoveDownstreamConnection(::UnityEngine::Events::UnityAction_1<::HoudiniEngineUnity::HEU_CookedEventData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_REMOVEDOWNSTREAMCONNECTION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::HoudiniEngineUnity::HEU_CookedEventData*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HOUDINIASSET_REMOVEDOWNSTREAMCONNECTION_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearAllUpstreamConnections()

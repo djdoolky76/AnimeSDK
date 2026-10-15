@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelSocialUpdateResult; }
-namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERSOCIALUPDATECALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF23B80)
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERSOCIALUPDATECALLBACKDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF23B10)
@@ -24,14 +24,14 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERSOCIALUPDATECALLBACKDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Action* a1)
+		::System::Void Invoke(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelSocialUpdateResult*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERSOCIALUPDATECALLBACKDELEGATE_INVOKE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelSocialUpdateResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERSOCIALUPDATECALLBACKDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Action* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		::System::IAsyncResult* BeginInvoke(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelSocialUpdateResult*>* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERSOCIALUPDATECALLBACKDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelSocialUpdateResult*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_REGISTERSOCIALUPDATECALLBACKDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* a1)

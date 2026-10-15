@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/AutoReleaseReferenceState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -21,10 +21,10 @@ namespace RPG::Client
 	class AdventureModule_GroupMissionSyncInfo : public ::System::Object
 	{
 	public:
-		::System::Nullable* DeactiveMissionCustomValueKey; // 0x10
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> DeactiveMissionCustomValueKey; // 0x10
 		::System::Byte _padding0[0x10];
 		::System::Collections::Generic::List_1<::System::UInt32>* ActivatedMissions; // 0x28
-		::System::Nullable* ActiveMissionCustomValueKey; // 0x30
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> ActiveMissionCustomValueKey; // 0x30
 		::System::Byte _padding1[0x10];
 		::System::Collections::Generic::List_1<::System::UInt32>* DeactivatedMissions; // 0x48
 		::RPG::AutoReleaseReferenceState _ReferenceState_k__BackingField; // 0x50

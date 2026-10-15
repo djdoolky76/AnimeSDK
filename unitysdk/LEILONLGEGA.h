@@ -5,8 +5,9 @@ class LEILONLGEGA_KOMDKENHMPE;
 namespace RPG::GameCore { class BattlePerformCaptureActor; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -70,19 +71,19 @@ inline static constexpr unsigned int LEILONLGEGA_TypeDefinitionIndex = 57351;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattlePerformCaptureActor*, ::LEILONLGEGA_KOMDKENHMPE*, ::System::Boolean))((::PBYTE)hIl2Cpp + LEILONLGEGA_FMHOFHNDOBN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void KEBDKGNMBDL(::RPG::GameCore::BattlePerformCaptureActor* a1, ::System::Action* a2, ::System::Boolean a3)
+		::System::Void KEBDKGNMBDL(::RPG::GameCore::BattlePerformCaptureActor* a1, ::System::Action_2<::RPG::GameCore::BattlePerformCaptureActor*, ::RPG::GameCore::GameEntity*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattlePerformCaptureActor*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + LEILONLGEGA_KEBDKGNMBDL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattlePerformCaptureActor*, ::System::Action_2<::RPG::GameCore::BattlePerformCaptureActor*, ::RPG::GameCore::GameEntity*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + LEILONLGEGA_KEBDKGNMBDL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DEMIKBNMHJG(::System::Action* a1)
+		::System::Void DEMIKBNMHJG(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LEILONLGEGA_DEMIKBNMHJG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + LEILONLGEGA_DEMIKBNMHJG_OFFSET))(this, a1);
 		}
 
-		::System::Void HDIFOIOHCLK(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void HDIFOIOHCLK(::System::Action_2<::RPG::GameCore::BattlePerformCaptureActor*, ::RPG::GameCore::GameEntity*>* a1, ::System::Action_1<::RPG::GameCore::GameEntity*>* a2, ::System::Action_1<::RPG::GameCore::GameEntity*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + LEILONLGEGA_HDIFOIOHCLK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::GameCore::BattlePerformCaptureActor*, ::RPG::GameCore::GameEntity*>*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + LEILONLGEGA_HDIFOIOHCLK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Clear()

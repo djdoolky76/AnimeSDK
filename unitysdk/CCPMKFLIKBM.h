@@ -4,7 +4,7 @@
 class DEMPJKLAAPG;
 class NGFHCJIAOLH;
 class OAIPJANPCEK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define CCPMKFLIKBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC75D7D0)
 #define CCPMKFLIKBM_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC75D9D0)
@@ -17,7 +17,7 @@ inline static constexpr unsigned int CCPMKFLIKBM_TypeDefinitionIndex = 77777;
 	{
 	public:
 		::DEMPJKLAAPG* FBHBOJMPCIM; // 0x10
-		::Entitas::IGroup* MGPDGDNOGJA; // 0x18
+		::Entitas::IGroup_1<::NGFHCJIAOLH*>* MGPDGDNOGJA; // 0x18
 		::OAIPJANPCEK* PDENFEFCAGN; // 0x20
 		::System::Void _ctor(::OAIPJANPCEK* a1)
 		{

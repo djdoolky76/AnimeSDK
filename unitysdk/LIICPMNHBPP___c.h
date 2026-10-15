@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class RelicItemData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
@@ -15,9 +15,9 @@ inline static constexpr unsigned int LIICPMNHBPP___c_TypeDefinitionIndex = 66899
 	class LIICPMNHBPP___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::ValueTuple>** StaticGet___9__13_0()
+		static ::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>** StaticGet___9__13_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F790);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F790);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -35,9 +35,9 @@ inline static constexpr unsigned int LIICPMNHBPP___c_TypeDefinitionIndex = 66899
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LIICPMNHBPP___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __GetOrCreateHighScoreRelicDatasByRelicType_b__13_0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __GetOrCreateHighScoreRelicDatasByRelicType_b__13_0(::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*> a1, ::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + LIICPMNHBPP___C___GETORCREATEHIGHSCORERELICDATASBYRELICTYPE_B__13_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>, ::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>))((::PBYTE)hIl2Cpp + LIICPMNHBPP___C___GETORCREATEHIGHSCORERELICDATASBYRELICTYPE_B__13_0_OFFSET))(this, a1, a2);
 		}
 
 	};

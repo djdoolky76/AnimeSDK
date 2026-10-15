@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_4.h"
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
 namespace Cysharp::Threading::Tasks::Internal { template <typename T1, typename T2> class WeakDictionary_2; }
-namespace System { class Action; }
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
@@ -27,14 +27,14 @@ namespace Cysharp::Threading::Tasks
 	class TaskTracker : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>** StaticGet_listPool()
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>>** StaticGet_listPool()
 		{
-			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TaskTracker")->GetStaticField(0x405C0);
+			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TaskTracker")->GetStaticField(0x405C0);
 		}
 
-		static ::Cysharp::Threading::Tasks::Internal::WeakDictionary_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple>** StaticGet_tracking()
+		static ::Cysharp::Threading::Tasks::Internal::WeakDictionary_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>** StaticGet_tracking()
 		{
-			return (::Cysharp::Threading::Tasks::Internal::WeakDictionary_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TaskTracker")->GetStaticField(0x405C8);
+			return (::Cysharp::Threading::Tasks::Internal::WeakDictionary_2<::Cysharp::Threading::Tasks::IUniTaskSource*, ::System::ValueTuple_4<::System::String*, ::System::Int32, ::System::DateTime, ::System::String*>>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TaskTracker")->GetStaticField(0x405C8);
 		}
 
 		static ::System::Boolean* StaticGet_dirty()
@@ -62,9 +62,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKTRACKER_CHECKANDRESETDIRTY_OFFSET))();
 		}
 
-		static ::System::Void ForEachActiveTask(::System::Action* a1)
+		static ::System::Void ForEachActiveTask(::System::Action_5<::System::Int32, ::System::String*, ::Cysharp::Threading::Tasks::UniTaskStatus, ::System::DateTime, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKTRACKER_FOREACHACTIVETASK_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_5<::System::Int32, ::System::String*, ::Cysharp::Threading::Tasks::UniTaskStatus, ::System::DateTime, ::System::String*>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKTRACKER_FOREACHACTIVETASK_OFFSET))(a1);
 		}
 
 		static ::System::Void TypeBeautify(::System::Type* a1, ::System::Text::StringBuilder* a2)

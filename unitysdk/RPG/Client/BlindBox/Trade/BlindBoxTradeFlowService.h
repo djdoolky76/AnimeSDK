@@ -12,7 +12,7 @@ namespace RPG::Client::BlindBox::Trade { class BlindBoxTradePublishOrderFriendSe
 namespace RPG::Client::BlindBox::Trade { class IBlindBoxTradeOrder; }
 namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 namespace RPG::Client::Pet::BlindBox { class IBlindBoxPetInstance; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
 
 #define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CANCELPRIVATEORDERANDCHECK_OFFSET UNITYSDK_OFFSET(0xC8953A0)
@@ -82,84 +82,84 @@ namespace RPG::Client::BlindBox::Trade
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE__REMOVECONFIRMORDERALWAYSRSPHANDLERS_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* PublishPublicOrder(::RPG::Client::Pet::BlindBox::IBlindBoxPet* a1, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance* a2, ::System::UInt32 a3)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* PublishPublicOrder(::RPG::Client::Pet::BlindBox::IBlindBoxPet* a1, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance* a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_PUBLISHPUBLICORDER_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_PUBLISHPUBLICORDER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* ConfirmChangePublicOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>* ConfirmChangePublicOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMCHANGEPUBLICORDER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMCHANGEPUBLICORDER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* ConfirmPublicOrder(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::CHNMJPLALEC*>* ConfirmPublicOrder(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMPUBLICORDER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::CHNMJPLALEC*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMPUBLICORDER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* CancelPublicOrder(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::IAKKHBENIOL*>* CancelPublicOrder(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CANCELPUBLICORDER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IAKKHBENIOL*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CANCELPUBLICORDER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* WithdrawOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* WithdrawOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_WITHDRAWORDER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_WITHDRAWORDER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* CancelPublicOrderAndCheck(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* CancelPublicOrderAndCheck(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CANCELPUBLICORDERANDCHECK_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CANCELPUBLICORDERANDCHECK_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* CancelPrivateOrderAndCheck(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* CancelPrivateOrderAndCheck(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CANCELPRIVATEORDERANDCHECK_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CANCELPRIVATEORDERANDCHECK_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GrantCompletedOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>* GrantCompletedOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_GRANTCOMPLETEDORDER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_GRANTCOMPLETEDORDER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* PublishPrivateOrder(::RPG::Client::Pet::BlindBox::IBlindBoxPet* a1, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance* a2, ::System::UInt32 a3)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* PublishPrivateOrder(::RPG::Client::Pet::BlindBox::IBlindBoxPet* a1, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance* a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_PUBLISHPRIVATEORDER_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_PUBLISHPRIVATEORDER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* PublishPrivateHiddenOrder(::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance* a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* PublishPrivateHiddenOrder(::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_PUBLISHPRIVATEHIDDENORDER_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_PUBLISHPRIVATEHIDDENORDER_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* ConfirmChangePrivateOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>* ConfirmChangePrivateOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMCHANGEPRIVATEORDER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMCHANGEPRIVATEORDER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* ConfirmChangePrivateHiddenOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance* a2)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>* ConfirmChangePrivateHiddenOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMCHANGEPRIVATEHIDDENORDER_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*, ::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMCHANGEPRIVATEHIDDENORDER_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* _ConfirmChangePrivateOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1, ::System::UInt64 a2)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>* _ConfirmChangePrivateOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1, ::System::UInt64 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE__CONFIRMCHANGEPRIVATEORDER_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE__CONFIRMCHANGEPRIVATEORDER_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* ConfirmChangePrivateOrderAsSeller(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>* ConfirmChangePrivateOrderAsSeller(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMCHANGEPRIVATEORDERASSELLER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_CONFIRMCHANGEPRIVATEORDERASSELLER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* RejectPrivateOrderAsSeller(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* RejectPrivateOrderAsSeller(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_REJECTPRIVATEORDERASSELLER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_REJECTPRIVATEORDERASSELLER_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* RejectPrivateOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* RejectPrivateOrder(::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_REJECTPRIVATEORDER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::BlindBox::Trade::IBlindBoxTradeOrder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE_REJECTPRIVATEORDER_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::ItemDisplayData* _CreateRewardDisplayData(::RPG::Client::Pet::BlindBox::IBlindBoxPet* a1, ::System::UInt64 a2)
@@ -187,14 +187,14 @@ namespace RPG::Client::BlindBox::Trade
 			return ((::System::Boolean(*)(::RPG::Client::Pet::BlindBox::IBlindBoxPet*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE__ISVALIDNORMALORDERPET_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::Promises::IPromise* _CreateFailedPromise()
+		static ::RPG::Client::Promises::IPromise_1<::System::Boolean>* _CreateFailedPromise()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE__CREATEFAILEDPROMISE_OFFSET))();
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE__CREATEFAILEDPROMISE_OFFSET))();
 		}
 
-		static ::RPG::Client::Promises::IPromise* _CreateNullItemDisplayPromise()
+		static ::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>* _CreateNullItemDisplayPromise()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE__CREATENULLITEMDISPLAYPROMISE_OFFSET))();
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ItemDisplayData*>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE__CREATENULLITEMDISPLAYPROMISE_OFFSET))();
 		}
 
 		::System::Void _OnPublishPrivateOrderRsp(::System::UInt16 a1, ::System::Object* a2)

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Rendering/CullingResults.h"
 #include "unitysdk/UnityEngine/Rendering/PerObjectData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderQueueRange.h"
 #include "unitysdk/UnityEngine/Rendering/RenderStateBlock.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 #include "unitysdk/UnityEngine/Rendering/SortingCriteria.h"
-namespace System { class Nullable; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
 
@@ -31,7 +31,7 @@ namespace UnityEngine::Experimental::Rendering
 		::UnityEngine::Rendering::SortingCriteria sortingCriteria; // 0x10
 		::UnityEngine::Rendering::PerObjectData rendererConfiguration; // 0x14
 		::UnityEngine::Rendering::RenderQueueRange renderQueueRange; // 0x18
-		::System::Nullable* stateBlock; // 0x20
+		::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock> stateBlock; // 0x20
 		::System::Byte _padding0[0x68];
 		::UnityEngine::Material* overrideMaterial; // 0x90
 		::System::Boolean excludeObjectMotionVectors; // 0x98

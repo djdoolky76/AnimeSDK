@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Codable/JSONNode_KeyEnumerator.h"
 #include "unitysdk/Codable/JSONNode_ValueEnumerator.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace Codable { class JSONArray; }
 namespace Codable { class JSONNode; }
 namespace Codable { class JSONObject; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Text { class StringBuilder; }
 
@@ -212,9 +212,9 @@ namespace Codable
 			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_TOSTRING_1_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>* get_Linq()
+		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*>>* get_Linq()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_LINQ_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_GET_LINQ_OFFSET))(this);
 		}
 
 		::Codable::JSONNode_KeyEnumerator get_Keys()
@@ -327,9 +327,9 @@ namespace Codable
 			return ((::System::Boolean(*)(::Codable::JSONNode*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_9_OFFSET))(a1);
 		}
 
-		static ::Codable::JSONNode* op_Implicit_10(::System::Collections::Generic::KeyValuePair* a1)
+		static ::Codable::JSONNode* op_Implicit_10(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*> a1)
 		{
-			return ((::Codable::JSONNode*(*)(::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_10_OFFSET))(a1);
+			return ((::Codable::JSONNode*(*)(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*>))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_OP_IMPLICIT_10_OFFSET))(a1);
 		}
 
 		static ::System::Boolean op_Equality(::Codable::JSONNode* a1, ::System::Object* a2)

@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define MKANBGPNGOH___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB986710)
 #define MKANBGPNGOH___C__DISPLAYCLASS12_0___PLAYDAMAGEHITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB9868E0)
@@ -14,7 +14,7 @@ inline static constexpr unsigned int MKANBGPNGOH___c__DisplayClass12_0_TypeDefin
 	class MKANBGPNGOH___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__0; // 0x10
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__0; // 0x10
 		::RPG::MVector3 vHitSourcePos; // 0x18
 		::System::Single fConfigEffectHeight; // 0x24
 		::RPG::MVector3 vHitPos; // 0x28

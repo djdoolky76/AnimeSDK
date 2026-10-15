@@ -9,9 +9,9 @@ class LALKBPJANIH;
 namespace RPG::Client { class GridFightConsumableInfo_GridFightConsumableItemUseParam; }
 namespace RPG::Client { class GridFightConsumableItemData; }
 namespace Sofa::Core { template <typename T1, typename T2> class ObservableDictionary_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -50,7 +50,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GridFightConsumeType, ::System::Collections::Generic::List_1<::DEIPIMGMGPO*>*>* _ConstraitsToRoleLUT; // 0x18
 		::Sofa::Core::ObservableDictionary_2<::System::UInt32, ::RPG::Client::GridFightConsumableItemData*>* ConsumableItemDataDict; // 0x20
 		::FBFODNFGMKG* _gridFightDataChangeCollector; // 0x28
-		::System::Action* OnBeforeUseConsumable; // 0x30
+		::System::Action_2<::RPG::Client::GridFightConsumableItemData*, ::System::Object*>* OnBeforeUseConsumable; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCONSUMABLEINFO_CTOR_OFFSET))(this);

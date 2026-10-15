@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace Newtonsoft::Json::Serialization { class JsonProperty; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -21,7 +21,7 @@ namespace Newtonsoft::Json::Serialization
 		::Newtonsoft::Json::Serialization::JsonProperty* ConstructorProperty; // 0x28
 		::System::Boolean Used; // 0x30
 		::System::Byte _padding0[0x3];
-		::System::Nullable* Presence; // 0x34
+		::System::Nullable_1<::System::Object*> Presence; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER_CREATORPROPERTYCONTEXT_CTOR_OFFSET))(this);

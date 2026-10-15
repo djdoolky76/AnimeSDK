@@ -8,7 +8,6 @@
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace Mono::Security::Interface { class MonoTlsProvider; }
 namespace Mono::Security::Interface { class MonoTlsSettings; }
-namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class EventHandler; }
 namespace System { class Exception; }
@@ -17,6 +16,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System { class Version; }
+namespace System { template <typename T> class Action_1; }
 namespace System::IO { class Stream; }
 namespace System::Net { class CookieContainer; }
 namespace System::Net { class HttpContinueDelegate; }
@@ -152,7 +152,7 @@ namespace System::Net
 		::System::Version* version; // 0x58
 		::System::Object* locker; // 0x60
 		::System::String* mediaType; // 0x68
-		::System::Action* ResendContentFactory; // 0x70
+		::System::Action_1<::System::IO::Stream*>* ResendContentFactory; // 0x70
 		::Il2CppArray<::System::Byte>* bodyBuffer; // 0x78
 		::System::Net::WebHeaderCollection* webHeaders; // 0x80
 		::System::Net::HttpWebResponse* webResponse; // 0x88

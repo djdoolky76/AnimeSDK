@@ -5,6 +5,7 @@ class CLFIGBPHLHI;
 class HOKEANMCFFM;
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define HOKEANMCFFM_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x15DB9350)
@@ -26,8 +27,8 @@ inline static constexpr unsigned int HOKEANMCFFM_TypeDefinitionIndex = 73498;
 	public:
 		::System::Action* PLPNNBHIFOI; // 0x38
 		::System::Object* EOMKEOMNLAO; // 0x40
-		::System::Action* GGFMCKDBDLJ; // 0x48
-		::System::Action* DIKDIDJBNIC; // 0x50
+		::System::Action_1<::UnityEngine::Transform*>* GGFMCKDBDLJ; // 0x48
+		::System::Action_1<::System::Object*>* DIKDIDJBNIC; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOKEANMCFFM_CTOR_OFFSET))(this);
@@ -38,14 +39,14 @@ inline static constexpr unsigned int HOKEANMCFFM_TypeDefinitionIndex = 73498;
 			return ((::HOKEANMCFFM*(*)(::System::Action*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_BPLPBPMEODA_OFFSET))(a1);
 		}
 
-		static ::HOKEANMCFFM* BPLPBPMEODA_1(::System::Action* a1, ::System::Object* a2)
+		static ::HOKEANMCFFM* BPLPBPMEODA_1(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::HOKEANMCFFM*(*)(::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_BPLPBPMEODA_1_OFFSET))(a1, a2);
+			return ((::HOKEANMCFFM*(*)(::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_BPLPBPMEODA_1_OFFSET))(a1, a2);
 		}
 
-		static ::HOKEANMCFFM* BPLPBPMEODA_2(::System::Action* a1)
+		static ::HOKEANMCFFM* BPLPBPMEODA_2(::System::Action_1<::UnityEngine::Transform*>* a1)
 		{
-			return ((::HOKEANMCFFM*(*)(::System::Action*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_BPLPBPMEODA_2_OFFSET))(a1);
+			return ((::HOKEANMCFFM*(*)(::System::Action_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_BPLPBPMEODA_2_OFFSET))(a1);
 		}
 
 		::System::Boolean NGACOHFLPNM(::System::Action* a1)
@@ -53,14 +54,14 @@ inline static constexpr unsigned int HOKEANMCFFM_TypeDefinitionIndex = 73498;
 			return ((::System::Boolean(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_NGACOHFLPNM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean NGACOHFLPNM_1(::System::Action* a1, ::System::Object* a2)
+		::System::Boolean NGACOHFLPNM_1(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_NGACOHFLPNM_1_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_NGACOHFLPNM_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean NGACOHFLPNM_2(::System::Action* a1)
+		::System::Boolean NGACOHFLPNM_2(::System::Action_1<::UnityEngine::Transform*>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_NGACOHFLPNM_2_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Action_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + HOKEANMCFFM_NGACOHFLPNM_2_OFFSET))(this, a1);
 		}
 
 		::System::Void HKKFFCBJOKM()

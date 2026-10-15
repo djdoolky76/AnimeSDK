@@ -13,8 +13,8 @@ class HIOEAKHGILF;
 class KFJGDFIDKOI;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimGlobalCameraConfig; }
 namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
 namespace RPG::GameCore { class FiveDimMoveConfig; }
@@ -111,19 +111,19 @@ inline static constexpr unsigned int FJKLPJPAHBM_DLKDFDJHHAH_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_SETLOCALTRANSFORM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Entitas::IGroup* GetCameraGroup()
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GetCameraGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERAGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::HIOEAKHGILF*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERAGROUP_OFFSET))(this);
 		}
 
-		::Entitas::IGroup* GetCameraTriggerGroup()
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GetCameraTriggerGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERATRIGGERGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::HIOEAKHGILF*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_GETCAMERATRIGGERGROUP_OFFSET))(this);
 		}
 
-		::Entitas::ICollector* CreateCameraTriggerCollector()
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* CreateCameraTriggerCollector()
 		{
-			return ((::Entitas::ICollector*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_CREATECAMERATRIGGERCOLLECTOR_OFFSET))(this);
+			return ((::Entitas::ICollector_1<::HIOEAKHGILF*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJKLPJPAHBM_DLKDFDJHHAH_CREATECAMERATRIGGERCOLLECTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::ICollection_1<::HIOEAKHGILF*>* GetEntitiesWithCameraPriority(::RPG::GameCore::FiveDimCameraPriority a1)

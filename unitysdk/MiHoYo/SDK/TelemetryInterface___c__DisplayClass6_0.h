@@ -4,6 +4,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_TELEMETRYINTERFACE___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB04F080)
 #define MIHOYO_SDK_TELEMETRYINTERFACE___C__DISPLAYCLASS6_0__DESTORY_B__0_OFFSET UNITYSDK_OFFSET(0xB050A30)
@@ -16,7 +17,7 @@ namespace MiHoYo::SDK
 	class TelemetryInterface___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::System::Action* __9__1; // 0x18
 		::System::Void _ctor()
 		{

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class GEDMHFPPBHN;
 class ICCCNAJCCLE;
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define ICCCNAJCCLE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15E4C4D0)
@@ -57,9 +57,9 @@ inline static constexpr unsigned int ICCCNAJCCLE_TypeDefinitionIndex = 72164;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ICCCNAJCCLE_JMCDPBLNMLO_OFFSET))(this);
 		}
 
-		::System::Nullable* get_DummyInversedIndex()
+		::System::Nullable_1<::System::Int32> get_DummyInversedIndex()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ICCCNAJCCLE_GET_DUMMYINVERSEDINDEX_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + ICCCNAJCCLE_GET_DUMMYINVERSEDINDEX_OFFSET))(this);
 		}
 
 	};

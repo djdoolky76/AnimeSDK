@@ -11,9 +11,10 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Color32.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace TMPro { class TMP_SubMeshUI; }
 namespace TMPro { class TMP_TextInfo; }
@@ -132,8 +133,8 @@ namespace TMPro
 		::UnityEngine::Rect m_ClipRect; // 0x798
 		::System::Boolean m_ValidRect; // 0x7A8
 		::System::Byte _padding6[0x7];
-		::System::Action* OnPreRenderText; // 0x7B0
-		::System::Action* ModifyMeshBeforeUpload; // 0x7B8
+		::System::Action_1<::TMPro::TMP_TextInfo*>* OnPreRenderText; // 0x7B0
+		::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>* ModifyMeshBeforeUpload; // 0x7B8
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_ComputeTextMetricsMarker()
 		{
 			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TextMeshProUGUI")->GetStaticField(0x12C70);
@@ -569,24 +570,24 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_CLEARMESH_OFFSET))(this);
 		}
 
-		::System::Void add_OnPreRenderText(::System::Action* a1)
+		::System::Void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_ADD_ONPRERENDERTEXT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::TMPro::TMP_TextInfo*>*))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_ADD_ONPRERENDERTEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPreRenderText(::System::Action* a1)
+		::System::Void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_REMOVE_ONPRERENDERTEXT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::TMPro::TMP_TextInfo*>*))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_REMOVE_ONPRERENDERTEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_ModifyMeshBeforeUpload(::System::Action* a1)
+		::System::Void add_ModifyMeshBeforeUpload(::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_ADD_MODIFYMESHBEFOREUPLOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_ADD_MODIFYMESHBEFOREUPLOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ModifyMeshBeforeUpload(::System::Action* a1)
+		::System::Void remove_ModifyMeshBeforeUpload(::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_REMOVE_MODIFYMESHBEFOREUPLOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_TEXTMESHPROUGUI_REMOVE_MODIFYMESHBEFOREUPLOAD_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateGeometry(::UnityEngine::Mesh* a1, ::System::Int32 a2)

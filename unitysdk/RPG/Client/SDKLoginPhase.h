@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/LoginPhase.h"
 class CFNBLNHMHGO;
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Exception; }
 
 #define RPG_CLIENT_SDKLOGINPHASE_AFTERINITSDK_OFFSET UNITYSDK_OFFSET(0xE08AAF0)
@@ -102,9 +103,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDKLOGINPHASE__ONUSERAGREEMENTRESULT_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _TryGetUserAgreementInfo()
+		::RPG::Client::Promises::IPromise_1<::System::Int32>* _TryGetUserAgreementInfo()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDKLOGINPHASE__TRYGETUSERAGREEMENTINFO_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SDKLOGINPHASE__TRYGETUSERAGREEMENTINFO_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::IPromise* _CheckAgreement(::System::Int32 a1)

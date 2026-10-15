@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD86FA50)
@@ -19,15 +19,15 @@ namespace RPG::Client
 	{
 	public:
 		::XLua::LuaTable* _LuaTable; // 0x18
-		::System::Action* _ActiveChangeCallBack; // 0x20
+		::System::Action_2<::XLua::LuaTable*, ::System::Boolean>* _ActiveChangeCallBack; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetupChangeCallBack(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void SetupChangeCallBack(::System::Action_2<::XLua::LuaTable*, ::System::Boolean>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_SETUPCHANGECALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Boolean>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRANSFORMACTIVECHANGE_SETUPCHANGECALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnEnable()

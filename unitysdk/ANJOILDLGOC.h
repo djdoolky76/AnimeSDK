@@ -12,6 +12,7 @@
 #include "unitysdk/IGKFNIEJGLM.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BODMMAAAOCE;
 class DAMLDJLGFHB;
@@ -25,10 +26,9 @@ namespace RPG::Client { class SimpleText; }
 namespace RPG::Client { class UIFollow3DTarget; }
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -139,7 +139,7 @@ inline static constexpr unsigned int ANJOILDLGOC_TypeDefinitionIndex = 72369;
 		::RPG::Client::UIFollow3DTarget* MCMALLKMDNC; // 0x90
 		::PAFPMNHFBME* EOAPKKDMOGN; // 0x98
 		::System::Collections::Generic::List_1<::HDLBCFBLGKN*>* BBBAHLJAIGL; // 0xA0
-		::System::Collections::Generic::List_1<::System::Tuple*>* DHFGJOEDJEK; // 0xA8
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::System::String*>*>* DHFGJOEDJEK; // 0xA8
 		::UnityEngine::UI::Image* EPNEIHOANLA; // 0xB0
 		::System::Collections::Generic::HashSet_1<::System::String*>* GIPEKGCEBKE; // 0xB8
 		::HDLBCFBLGKN* GHJINFGDKGA; // 0xC0
@@ -151,10 +151,10 @@ inline static constexpr unsigned int ANJOILDLGOC_TypeDefinitionIndex = 72369;
 		::UnityEngine::Transform* BDGOLLLFLMC; // 0xF0
 		::HDLBCFBLGKN* OMBGONFDNKD; // 0xF8
 		::UnityEngine::Transform* DDIBIHFEBNN; // 0x100
-		::System::Collections::Generic::List_1<::System::Tuple*>* KLKONCAMEMD; // 0x108
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::System::String*>*>* KLKONCAMEMD; // 0x108
 		::UnityEngine::CanvasGroup* LDECKNEDNPI; // 0x110
 		::Il2CppArray<::PAFPMNHFBME*>* PCIIKFOIAJA; // 0x118
-		::System::Collections::Generic::List_1<::System::Tuple*>* HAGGCOIDLBJ; // 0x120
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::System::String*>*>* HAGGCOIDLBJ; // 0x120
 		::UnityEngine::UI::ContentSizeFitter* PFIOEBPHDFI; // 0x128
 		::System::String* AMMFAOBBPCN; // 0x130
 		::DAMLDJLGFHB* OEDKHBAHFLG; // 0x138
@@ -322,9 +322,9 @@ inline static constexpr unsigned int ANJOILDLGOC_TypeDefinitionIndex = 72369;
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ANJOILDLGOC_KGPADEBHHCF_OFFSET))(this, a1);
 		}
 
-		::System::Void ILCIFBBJMHN(::RPG::GameCore::AttackDamageType a1, ::DamageTextStyle* a2, ::System::Nullable* a3, ::System::Single a4, ::RPG::Client::UIFloatingTextType a5)
+		::System::Void ILCIFBBJMHN(::RPG::GameCore::AttackDamageType a1, ::DamageTextStyle* a2, ::System::Nullable_1<::RPG::GameCore::ElementDamageType> a3, ::System::Single a4, ::RPG::Client::UIFloatingTextType a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackDamageType, ::DamageTextStyle*, ::System::Nullable*, ::System::Single, ::RPG::Client::UIFloatingTextType))((::PBYTE)hIl2Cpp + ANJOILDLGOC_ILCIFBBJMHN_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackDamageType, ::DamageTextStyle*, ::System::Nullable_1<::RPG::GameCore::ElementDamageType>, ::System::Single, ::RPG::Client::UIFloatingTextType))((::PBYTE)hIl2Cpp + ANJOILDLGOC_ILCIFBBJMHN_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void NGNHIBHOMEH()
@@ -447,9 +447,9 @@ inline static constexpr unsigned int ANJOILDLGOC_TypeDefinitionIndex = 72369;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ANJOILDLGOC_BDBCEHOCCCP_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::Tuple*>* FGKPPNIDDEA()
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::System::String*>*>* FGKPPNIDDEA()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ANJOILDLGOC_FGKPPNIDDEA_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::System::String*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ANJOILDLGOC_FGKPPNIDDEA_OFFSET))(this);
 		}
 
 		::System::Void DOGAJHCKDGN(::System::Int64 a1, ::DamageTextStyle* a2, ::System::Single a3, ::System::Single a4)

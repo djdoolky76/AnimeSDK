@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ICABANFEIHJ;
 class LGFLGGDMAGD;
 class MOOGIHHBHFG;
@@ -10,7 +11,6 @@ namespace RPG::Client { class ElfRestaurantDayData; }
 namespace RPG::Client { class ElfShopItemData; }
 namespace RPG::Client { class ElfTradeOrderData; }
 namespace RPG::GameCore { class RestaurantTradeOrderRow; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_ELFSHOPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCDD36F0)
@@ -138,9 +138,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ElfRestaurantDayData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFSHOPINFO_GETDAYOFNEXTORDERREFRESH_OFFSET))(this);
 		}
 
-		static ::System::Nullable* _ExtractUnlockProgressDay(::RPG::GameCore::RestaurantTradeOrderRow* a1)
+		static ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> _ExtractUnlockProgressDay(::RPG::GameCore::RestaurantTradeOrderRow* a1)
 		{
-			return ((::System::Nullable*(*)(::RPG::GameCore::RestaurantTradeOrderRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFSHOPINFO__EXTRACTUNLOCKPROGRESSDAY_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>(*)(::RPG::GameCore::RestaurantTradeOrderRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFSHOPINFO__EXTRACTUNLOCKPROGRESSDAY_OFFSET))(a1);
 		}
 
 	};

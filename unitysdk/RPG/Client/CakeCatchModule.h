@@ -18,7 +18,7 @@ namespace RPG::Client { class CakeCatchCatData; }
 namespace RPG::Client { class CakeCatchCatGodData; }
 namespace RPG::Client { class CakeCatchDIYHistory; }
 namespace RPG::Client { class CakeCatchPerformanceData; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { class Object; }
@@ -128,10 +128,10 @@ namespace RPG::Client
 		::RPG::Client::CakeCatchDIYHistory* _LocalArrangeLayoutHistory; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::CakeCatchCatData*>* _OpenBoxRspCakeList; // 0x28
 		::RPG::Client::CakeCatchDIYHistory* _ArrangeLayoutHistory; // 0x30
-		::RPG::Client::Promises::Promise* _TrySearchSlotPromise; // 0x38
+		::RPG::Client::Promises::Promise_1<::System::UInt32>* _TrySearchSlotPromise; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::GOONIFMOOEH*>* _SlotInfos; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NHGEOKPFDBE*>* _CakeCatchWeekRecord; // 0x48
-		::RPG::Client::Promises::Promise* _TryOpenCakeBoxPromise; // 0x50
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::CakeCatchCatData*>*>* _TryOpenCakeBoxPromise; // 0x50
 		::IFEKHDCLFAA* _CakeDialogueManager; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _CakeCatchCountHistory; // 0x60
 		::System::Collections::Generic::List_1<::IKAHKMNCFDN*>* _LocalCakeHideList; // 0x68
@@ -303,9 +303,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE_FAKEALLCATPOINTS_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* TryOpenCakeBox()
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::CakeCatchCatData*>*>* TryOpenCakeBox()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE_TRYOPENCAKEBOX_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::CakeCatchCatData*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE_TRYOPENCAKEBOX_OFFSET))(this);
 		}
 
 		::System::Boolean CanSearchCakeSlot(::System::UInt32 a1)
@@ -318,9 +318,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE_ISALLPOSSIBLECAKECAUGHT_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* TrySearchSlot(::System::UInt32 a1)
+		::RPG::Client::Promises::Promise_1<::System::UInt32>* TrySearchSlot(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE_TRYSEARCHSLOT_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHMODULE_TRYSEARCHSLOT_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::CakeCatchCatData*>* GetAllCakeData()

@@ -4,7 +4,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System { class Version; }
 
 #define MESSAGEPACK_FORMATTERS_VERSIONFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB81C70)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class VersionFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Version*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "VersionFormatter")->GetStaticField(0x25690);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Version*>**)UnitySDK::FromName("MessagePack.Formatters", "VersionFormatter")->GetStaticField(0x25690);
 		}
 
 		::System::Void _ctor()

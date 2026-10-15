@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/Internal/ArgumentField.h"
 #include "unitysdk/System/Reflection/Emit/Label.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Reflection::Emit { class ILGenerator; }
@@ -31,7 +31,7 @@ namespace MessagePack::Internal
 		::System::Reflection::Emit::LocalBuilder* localResolver; // 0x50
 		::MessagePack::Internal::ArgumentField options; // 0x58
 		::System::Reflection::Emit::Label switchDefault; // 0x68
-		::System::Nullable* gotoDefault; // 0x6C
+		::System::Nullable_1<::System::Reflection::Emit::Label> gotoDefault; // 0x6C
 		::System::Boolean canOverwrite; // 0x74
 		::System::Void _ctor()
 		{

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GDMONJOAKHD.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class APLEMBNFLAA;
 class HPKACEPPPCA;
@@ -9,7 +10,6 @@ class LJFHKAJPFNE;
 class OIDDJJLHGKO;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class StreamingLayerDetail; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace UnityEngine { class GameObject; }
 
 #define ONPGIFOLIDF_CHECKSTREAMINGLOD_OFFSET UNITYSDK_OFFSET(0xBF605C0)
@@ -45,9 +45,9 @@ inline static constexpr unsigned int ONPGIFOLIDF_TypeDefinitionIndex = 73831;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ONPGIFOLIDF_CHECKSTREAMINGLOD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void FONPNGPBJON(::OIDDJJLHGKO* a1, ::APLEMBNFLAA* a2, ::System::Boolean a3, ::HPKACEPPPCA* a4, ::RPG::Client::OpenWorld::StreamingItemData* a5, ::System::Collections::Generic::KeyValuePair* a6)
+		::System::Void FONPNGPBJON(::OIDDJJLHGKO* a1, ::APLEMBNFLAA* a2, ::System::Boolean a3, ::HPKACEPPPCA* a4, ::RPG::Client::OpenWorld::StreamingItemData* a5, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::OIDDJJLHGKO*, ::APLEMBNFLAA*, ::System::Boolean, ::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + ONPGIFOLIDF_FONPNGPBJON_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::OIDDJJLHGKO*, ::APLEMBNFLAA*, ::System::Boolean, ::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>))((::PBYTE)hIl2Cpp + ONPGIFOLIDF_FONPNGPBJON_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void _RegisterInstanceToCullingSystem(::HPKACEPPPCA* a1)

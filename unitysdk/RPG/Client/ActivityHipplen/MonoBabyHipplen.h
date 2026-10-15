@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::Client { class CCDIK; }
 namespace RPG::Client { class LookAtIK; }
 namespace RPG::Client::ActivityHipplen { class MonoBabyHipplen_AGKKJOBCKJO; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
@@ -43,7 +43,7 @@ namespace RPG::Client::ActivityHipplen
 		::System::Int32 JKNBIDKHDLK; // 0x30
 		::System::Single LFKMOIDKOEL; // 0x34
 		::System::Single IPMECJCKIGM; // 0x38
-		::System::Nullable* EFDDOIEEKLF; // 0x3C
+		::System::Nullable_1<::UnityEngine::Vector3> EFDDOIEEKLF; // 0x3C
 		::System::Byte _padding0[0xC];
 		::RPG::Client::ActivityHipplen::MonoBabyHipplen_AGKKJOBCKJO* OCNOHFNJFCF; // 0x50
 		::Il2CppArray<::UnityEngine::Collider*>* _InteractColliders; // 0x58

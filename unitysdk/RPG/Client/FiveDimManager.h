@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimCustomScreenTransferReason.h"
 #include "unitysdk/RPG/Client/FiveDimManager_DOFContext.h"
 #include "unitysdk/RPG/GameCore/FiveDimCustomScreenTransferStyle.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ANMMOFEEPEP.h"
 #include "unitysdk/BINEKJFCLMP.h"
@@ -35,7 +36,6 @@ namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelEntityRef; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -164,7 +164,7 @@ namespace RPG::Client
 		::System::Int32 _LastSyncTransformFrameCount; // 0x88
 		::System::Boolean _IsBeginExternalObjectHidden; // 0x8C
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _IsolatedGameInstance_k__BackingField; // 0x90
+		::System::Nullable_1<::System::Object*> _IsolatedGameInstance_k__BackingField; // 0x90
 		::System::Byte _padding1[0x8];
 		::RPG::GameCore::FiveDimCustomScreenTransferStyle _CurrentCustomScreenTransferStyle; // 0xA0
 		::RPG::GameCore::FiveDimCustomScreenTransferStyle _LastCustomScreenTransferStyle; // 0xA4
@@ -635,14 +635,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMANAGER_GET_ISLEAVINGINSTANCE_OFFSET))(this);
 		}
 
-		::System::Nullable* get_IsolatedGameInstance()
+		::System::Nullable_1<::System::Object*> get_IsolatedGameInstance()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMANAGER_GET_ISOLATEDGAMEINSTANCE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMANAGER_GET_ISOLATEDGAMEINSTANCE_OFFSET))(this);
 		}
 
-		::System::Void set_IsolatedGameInstance(::System::Nullable* a1)
+		::System::Void set_IsolatedGameInstance(::System::Nullable_1<::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMANAGER_SET_ISOLATEDGAMEINSTANCE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMANAGER_SET_ISOLATEDGAMEINSTANCE_OFFSET))(this, a1);
 		}
 
 		::MBLCCFAFPFD* get_FiveDimAudioManager()

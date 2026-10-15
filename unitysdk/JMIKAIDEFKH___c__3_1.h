@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class UIDropTarget; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 inline static constexpr unsigned int JMIKAIDEFKH___c__3_1_TypeDefinitionIndex = 49863;
 
@@ -16,9 +16,9 @@ inline static constexpr unsigned int JMIKAIDEFKH___c__3_1_TypeDefinitionIndex = 
 			return (::System::Object**)UnitySDK::FromName("", "<>c__3`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__3_0()
+		static ::System::Action_2<::RPG::Client::UIDropTarget*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c__3`1")->GetStaticField(0x0);
+			return (::System::Action_2<::RPG::Client::UIDropTarget*, ::System::Boolean>**)UnitySDK::FromName("", "<>c__3`1")->GetStaticField(0x0);
 		}
 
 	};

@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::GameCore
 {
@@ -15,9 +16,9 @@ namespace RPG::GameCore
 			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x5F6D0);
 		}
 
-		static ::System::Action** StaticGet__0____OnConfigLoadingProgressChanged()
+		static ::System::Action_1<::System::Single>** StaticGet__0____OnConfigLoadingProgressChanged()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x5F6D8);
+			return (::System::Action_1<::System::Single>**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x5F6D8);
 		}
 
 	};

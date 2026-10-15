@@ -4,8 +4,8 @@
 #include "unitysdk/Cysharp/Threading/Tasks/SwitchToThreadPoolAwaitable_Awaiter.h"
 #include "unitysdk/Cysharp/Threading/Tasks/YieldAwaitable_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 #define CYSHARP_THREADING_TASKS_UNITASK__RUNONTHREADPOOL_D__84_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5EEC0)
@@ -22,7 +22,7 @@ namespace Cysharp::Threading::Tasks
 		::System::Threading::CancellationToken cancellationToken; // 0x18
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
 		::System::Object* state; // 0x30
-		::System::Action* action; // 0x38
+		::System::Action_1<::System::Object*>* action; // 0x38
 		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__2; // 0x40
 		::System::Boolean configureAwait; // 0x44
 		::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable_Awaiter __u__1; // 0x45

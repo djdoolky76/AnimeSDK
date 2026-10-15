@@ -4,7 +4,8 @@
 class AGKHOGNMPMO;
 class ODGPPIHLOFF;
 class OFLBAIOGIMO;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define ALEAFADNBPL_ADLHNKOLGHL_OFFSET UNITYSDK_OFFSET(0x155643C0)
@@ -20,9 +21,9 @@ inline static constexpr unsigned int ALEAFADNBPL_TypeDefinitionIndex = 49207;
 	class ALEAFADNBPL : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_JFPJIMPMPAG()
+		static ::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>** StaticGet_JFPJIMPMPAG()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1A0);
+			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1A0);
 		}
 
 		static ::ODGPPIHLOFF** StaticGet_OEPKPNECODG()
@@ -30,9 +31,9 @@ inline static constexpr unsigned int ALEAFADNBPL_TypeDefinitionIndex = 49207;
 			return (::ODGPPIHLOFF**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1A8);
 		}
 
-		static ::System::Action** StaticGet_PPCAPJJKHNE()
+		static ::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>** StaticGet_PPCAPJJKHNE()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1B0);
+			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1B0);
 		}
 
 		static ::ODGPPIHLOFF** StaticGet_DOJJOAFMGFM()
@@ -65,9 +66,9 @@ inline static constexpr unsigned int ALEAFADNBPL_TypeDefinitionIndex = 49207;
 			return ((::System::Void(*)(::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*))((::PBYTE)hIl2Cpp + ALEAFADNBPL_ADLHNKOLGHL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::ODGPPIHLOFF* DMBBMCMNECL(::System::Collections::Generic::List_1<::ODGPPIHLOFF*>* a1, ::System::Action* a2, ::System::Int32 a3)
+		static ::ODGPPIHLOFF* DMBBMCMNECL(::System::Collections::Generic::List_1<::ODGPPIHLOFF*>* a1, ::System::Action_1<::System::Boolean>* a2, ::System::Int32 a3)
 		{
-			return ((::ODGPPIHLOFF*(*)(::System::Collections::Generic::List_1<::ODGPPIHLOFF*>*, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + ALEAFADNBPL_DMBBMCMNECL_OFFSET))(a1, a2, a3);
+			return ((::ODGPPIHLOFF*(*)(::System::Collections::Generic::List_1<::ODGPPIHLOFF*>*, ::System::Action_1<::System::Boolean>*, ::System::Int32))((::PBYTE)hIl2Cpp + ALEAFADNBPL_DMBBMCMNECL_OFFSET))(a1, a2, a3);
 		}
 
 		static ::ODGPPIHLOFF* ELJIAJLMJIO(::System::Collections::Generic::List_1<::ODGPPIHLOFF*>* a1, ::OFLBAIOGIMO* a2, ::System::Int32 a3)

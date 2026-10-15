@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FJEOAPBLMKG;
 namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::Client { class BaseShaderPropertyTransition; }
@@ -54,7 +54,7 @@ namespace RPG::GameCore
 	{
 	public:
 		::RPG::GameCore::CharacterOutfitComponent* _Component; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>* _ReplaceRendererMaterialDatas; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>* _ReplaceRendererMaterialDatas; // 0x18
 		::System::Collections::Generic::List_1<::System::String*>* _ReplaceMaterialKeys; // 0x20
 		::RPG::Client::AttachPointMapping* _AttachPointMapping; // 0x28
 		::System::Collections::Generic::List_1<::System::Object*>* _CurrentOutfitParts; // 0x30

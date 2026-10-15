@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MessageContentAvatarGrowthBlock; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD69DD40)
 #define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__REQUESTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD69DE70)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::MessageContentAvatarGrowthBlock* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::System::UInt32>* callback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

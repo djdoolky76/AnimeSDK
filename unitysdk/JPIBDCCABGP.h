@@ -10,6 +10,8 @@ class IAJLHKIHBFB;
 class NNIKOAIKFMO;
 namespace Google::Protobuf { class ByteString; }
 namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JPIBDCCABGP_CPOCICCPHNM_OFFSET UNITYSDK_OFFSET(0xB2C1C30)
@@ -49,9 +51,9 @@ inline static constexpr unsigned int JPIBDCCABGP_TypeDefinitionIndex = 60569;
 		::AEKIOONKCIB* EOJJACAGMJM; // 0x78
 		::System::Collections::Generic::List_1<::System::Int32>* FCNFCPMOOBD; // 0x80
 		::System::Action* MHEBKIOKMCG; // 0x88
-		::System::Action* MGMLPPCOONF; // 0x90
+		::System::Action_1<::COMJKPOMILA*>* MGMLPPCOONF; // 0x90
 		::HNNHKPKCMJD* HICCPCEDFLA; // 0x98
-		::System::Action* FNPNAEJCMNB; // 0xA0
+		::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* FNPNAEJCMNB; // 0xA0
 		::NNIKOAIKFMO* HKCEFPHJGNC; // 0xA8
 		::System::UInt64 _ClientPredicateTimeStampMs_k__BackingField; // 0xB0
 		::RPG::Client::LittleGameShare::LittleGameClientNetMode GBEPMICDFJO; // 0xB8
@@ -128,14 +130,14 @@ inline static constexpr unsigned int JPIBDCCABGP_TypeDefinitionIndex = 60569;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JPIBDCCABGP__ONCLEAR_OFFSET))(this);
 		}
 
-		::System::Void KBPPLONEOOA(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void KBPPLONEOOA(::System::Action* a1, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a2, ::System::Action_1<::COMJKPOMILA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + JPIBDCCABGP_KBPPLONEOOA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*, ::System::Action_1<::COMJKPOMILA*>*))((::PBYTE)hIl2Cpp + JPIBDCCABGP_KBPPLONEOOA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DDPJHDKJEFG(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void DDPJHDKJEFG(::System::Action* a1, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a2, ::System::Action_1<::COMJKPOMILA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + JPIBDCCABGP_DDPJHDKJEFG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*, ::System::Action_1<::COMJKPOMILA*>*))((::PBYTE)hIl2Cpp + JPIBDCCABGP_DDPJHDKJEFG_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void PCJPPFPIEMC()

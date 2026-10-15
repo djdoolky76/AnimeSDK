@@ -5,6 +5,7 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define NLHACPDMPIC___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC6A1A0)
 #define NLHACPDMPIC___C__DISPLAYCLASS37_0__HANDLESTARTPVPMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xBC6B7C0)
@@ -18,7 +19,7 @@ inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass37_0_TypeDefin
 	{
 	public:
 		::System::Action* __9__2; // 0x10
-		::System::Action* __9__3; // 0x18
+		::System::Action_1<::System::Exception*>* __9__3; // 0x18
 		::RPG::Client::Promises::Promise* promise; // 0x20
 		::System::Void _ctor()
 		{

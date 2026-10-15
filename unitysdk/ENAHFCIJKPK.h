@@ -8,7 +8,7 @@ class OKPGJGFMICC;
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 namespace RPG::GameCore { class TeamTowersPassiveSkillConfig; }
 namespace RPG::GameCore { class TeamTowersSkillConfig; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define ENAHFCIJKPK_BBFNJHGAMPP_OFFSET UNITYSDK_OFFSET(0x1C6044B0)
@@ -64,9 +64,9 @@ inline static constexpr unsigned int ENAHFCIJKPK_TypeDefinitionIndex = 37122;
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TeamTowersSkillConfig*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + ENAHFCIJKPK_BBFNJHGAMPP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void EDEFNHAIPJM(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::RPG::GameCore::TeamTowersSkillConfig* a3, ::System::Action* a4)
+		::System::Void EDEFNHAIPJM(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::RPG::GameCore::TeamTowersSkillConfig* a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::RPG::GameCore::TeamTowersSkillConfig*, ::System::Action*))((::PBYTE)hIl2Cpp + ENAHFCIJKPK_EDEFNHAIPJM_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::RPG::GameCore::TeamTowersSkillConfig*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + ENAHFCIJKPK_EDEFNHAIPJM_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void EGJIIGKCIJF(::System::UInt32 a1, ::RPG::GameCore::TeamTowersPassiveSkillConfig* a2)
@@ -84,9 +84,9 @@ inline static constexpr unsigned int ENAHFCIJKPK_TypeDefinitionIndex = 37122;
 			return ((::RPG::GameCore::FixPoint(*)(::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig*, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + ENAHFCIJKPK_GDLHBJKEEMG_OFFSET))(a1, a2);
 		}
 
-		::System::Void IMNJOEIFMBG(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::TeamTowersSkillConfig* a3, ::System::Action* a4)
+		::System::Void IMNJOEIFMBG(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::TeamTowersSkillConfig* a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::TeamTowersSkillConfig*, ::System::Action*))((::PBYTE)hIl2Cpp + ENAHFCIJKPK_IMNJOEIFMBG_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::TeamTowersSkillConfig*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + ENAHFCIJKPK_IMNJOEIFMBG_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void NPAPIJLMJHM(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::GameCore::TeamTowersSkillConfig* a4)

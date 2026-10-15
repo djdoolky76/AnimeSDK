@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OPBFAJKONAD_AKBNIJLDNNJ_OFFSET UNITYSDK_OFFSET(0xBF9F910)
@@ -23,7 +23,7 @@ inline static constexpr unsigned int OPBFAJKONAD_TypeDefinitionIndex = 54043;
 	class OPBFAJKONAD : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::System::Action* EFHCOOOBIPF; // 0x18
+		::System::Action_1<::RPG::GameCore::GameEntity*>* EFHCOOOBIPF; // 0x18
 		::RPG::GameCore::GameEntity* ALOHKAILHIG; // 0x20
 		::System::Void _ctor()
 		{

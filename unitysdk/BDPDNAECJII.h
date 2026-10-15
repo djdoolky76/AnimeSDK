@@ -10,6 +10,7 @@
 #include "unitysdk/RPG/GameCore/TeamTowersStatisticType.h"
 #include "unitysdk/OEOFKECAJEB.h"
 #include "unitysdk/RPG/MVector2.h"
+#include "unitysdk/System/Nullable_1.h"
 class AHELAPHJAHJ;
 class ALFCGCNDMIA;
 class BGGGFKNDEMJ;
@@ -31,8 +32,8 @@ class PCCLCFGOFEE;
 namespace RPG::GameCore { class TeamTowersBossConfig; }
 namespace RPG::GameCore { class TeamTowersSkillConfig; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -183,26 +184,26 @@ inline static constexpr unsigned int BDPDNAECJII_TypeDefinitionIndex = 37159;
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* KIHCNABFGKL; // 0xE8
 		::BGIMDEOHDHK* MGELILGOGFH; // 0xF0
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* AJDBLAEFBKK; // 0xF8
-		::System::Action* OnPlayerBrickModifierTriggered; // 0x100
+		::System::Action_1<::System::UInt32>* OnPlayerBrickModifierTriggered; // 0x100
 		::RPG::GameCore::TeamTowersBossConfig* DCOOJLFHONK; // 0x108
 		::AHELAPHJAHJ* GICHGNGMBGD; // 0x110
 		::HNLKNLJBHDD* NKIKPPOODKK; // 0x118
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* GIMKNOBOPJK; // 0x120
-		::System::Action* OnPlayerReachHeightLine; // 0x128
+		::System::Action_1<::System::UInt32>* OnPlayerReachHeightLine; // 0x128
 		::KIPOJIOCDKF* KDKDEGIECIF; // 0x130
 		::System::Collections::Generic::List_1<::System::UInt32>* HHIBFCCBLGB; // 0x138
 		::ENAHFCIJKPK* DNEJHIDCEAH; // 0x140
 		::JFAIGANLDBK* KEPDPIDPEHL; // 0x148
-		::System::Action* OnPlayerPlacedBrick; // 0x150
+		::System::Action_1<::System::UInt32>* OnPlayerPlacedBrick; // 0x150
 		::MOGEAODEJOD* BKIFMPHBIAK; // 0x158
 		::ALFCGCNDMIA* JBMDOCDAKMH; // 0x160
 		::GKJPOPDBJCG* EPBBJGMOMGI; // 0x168
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::IAANKDNLKHL*>* IGIDDDJEOFB; // 0x170
-		::System::Action* OnPlayerRevive; // 0x178
+		::System::Action_1<::System::UInt32>* OnPlayerRevive; // 0x178
 		::PCCLCFGOFEE* KOIDLDFAKEP; // 0x180
-		::System::Action* OnBrickSpawned; // 0x188
+		::System::Action_1<::HNLKNLJBHDD*>* OnBrickSpawned; // 0x188
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::HNLKNLJBHDD*>* LHKFJMJONMN; // 0x190
-		::System::Action* OnPlayerSwitchBossPerformanceFinished; // 0x198
+		::System::Action_1<::System::UInt32>* OnPlayerSwitchBossPerformanceFinished; // 0x198
 		::HNLKNLJBHDD* CPFJKLOMIKF; // 0x1A0
 		::System::UInt32 EFDMEFMJMGG; // 0x1A8
 		::System::UInt32 ONJLDCPDKFD; // 0x1AC
@@ -221,64 +222,64 @@ inline static constexpr unsigned int BDPDNAECJII_TypeDefinitionIndex = 37159;
 			return ((::System::Void(*)(::PVOID, ::KIPOJIOCDKF*))((::PBYTE)hIl2Cpp + BDPDNAECJII_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPlayerPlacedBrick(::System::Action* a1)
+		::System::Void add_OnPlayerPlacedBrick(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERPLACEDBRICK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERPLACEDBRICK_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPlayerPlacedBrick(::System::Action* a1)
+		::System::Void remove_OnPlayerPlacedBrick(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERPLACEDBRICK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERPLACEDBRICK_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnBrickSpawned(::System::Action* a1)
+		::System::Void add_OnBrickSpawned(::System::Action_1<::HNLKNLJBHDD*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONBRICKSPAWNED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::HNLKNLJBHDD*>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONBRICKSPAWNED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBrickSpawned(::System::Action* a1)
+		::System::Void remove_OnBrickSpawned(::System::Action_1<::HNLKNLJBHDD*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONBRICKSPAWNED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::HNLKNLJBHDD*>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONBRICKSPAWNED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPlayerReachHeightLine(::System::Action* a1)
+		::System::Void add_OnPlayerReachHeightLine(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERREACHHEIGHTLINE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERREACHHEIGHTLINE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPlayerReachHeightLine(::System::Action* a1)
+		::System::Void remove_OnPlayerReachHeightLine(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERREACHHEIGHTLINE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERREACHHEIGHTLINE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPlayerRevive(::System::Action* a1)
+		::System::Void add_OnPlayerRevive(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERREVIVE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERREVIVE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPlayerRevive(::System::Action* a1)
+		::System::Void remove_OnPlayerRevive(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERREVIVE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERREVIVE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPlayerSwitchBossPerformanceFinished(::System::Action* a1)
+		::System::Void add_OnPlayerSwitchBossPerformanceFinished(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERSWITCHBOSSPERFORMANCEFINISHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERSWITCHBOSSPERFORMANCEFINISHED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPlayerSwitchBossPerformanceFinished(::System::Action* a1)
+		::System::Void remove_OnPlayerSwitchBossPerformanceFinished(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERSWITCHBOSSPERFORMANCEFINISHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERSWITCHBOSSPERFORMANCEFINISHED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPlayerBrickModifierTriggered(::System::Action* a1)
+		::System::Void add_OnPlayerBrickModifierTriggered(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERBRICKMODIFIERTRIGGERED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_ADD_ONPLAYERBRICKMODIFIERTRIGGERED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPlayerBrickModifierTriggered(::System::Action* a1)
+		::System::Void remove_OnPlayerBrickModifierTriggered(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERBRICKMODIFIERTRIGGERED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BDPDNAECJII_REMOVE_ONPLAYERBRICKMODIFIERTRIGGERED_OFFSET))(this, a1);
 		}
 
 		::System::Void ECLJLADGIEN(::System::UInt32 a1, ::System::Boolean a2)
@@ -711,9 +712,9 @@ inline static constexpr unsigned int BDPDNAECJII_TypeDefinitionIndex = 37159;
 			return ((::System::UInt32(*)(::PVOID, ::HNLKNLJBHDD*))((::PBYTE)hIl2Cpp + BDPDNAECJII_GLLBIEJDPFG_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* HMLLFDKMLPM(::System::UInt32 a1, ::System::Int32 a2)
+		::System::Nullable_1<::OEOFKECAJEB> HMLLFDKMLPM(::System::UInt32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + BDPDNAECJII_HMLLFDKMLPM_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::OEOFKECAJEB>(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + BDPDNAECJII_HMLLFDKMLPM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LPHPBIJDAAC(::System::UInt32 a1)

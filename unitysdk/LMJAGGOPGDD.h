@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NetPacket; }
 namespace RPG::Client::Dev { class VirtualServerLaunchConfig; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define LMJAGGOPGDD_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CA5F0)
@@ -19,7 +19,7 @@ inline static constexpr unsigned int LMJAGGOPGDD_TypeDefinitionIndex = 82119;
 	class LMJAGGOPGDD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action*>* PJDABCMHGNK; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action_1<::RPG::Client::NetPacket*>*>* PJDABCMHGNK; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMJAGGOPGDD_CTOR_OFFSET))(this);

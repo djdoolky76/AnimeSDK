@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/KFBOFAILIBG.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class GIDHOABFFFP;
 class GJABEBPIGDN;
 class KGHMBCLFFLG;
@@ -38,9 +38,9 @@ inline static constexpr unsigned int JICLLEHFPKA_TypeDefinitionIndex = 62702;
 			return ((::GIDHOABFFFP*(*)(::PVOID, ::GIDHOABFFFP*, ::LHCAJBPIHMC*))((::PBYTE)hIl2Cpp + JICLLEHFPKA_PKADDEPKJFN_1_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* LAABNIGOJKJ(::NPCCFNJPBNL* a1)
+		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>* LAABNIGOJKJ(::NPCCFNJPBNL* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::NPCCFNJPBNL*))((::PBYTE)hIl2Cpp + JICLLEHFPKA_LAABNIGOJKJ_OFFSET))(a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>*(*)(::NPCCFNJPBNL*))((::PBYTE)hIl2Cpp + JICLLEHFPKA_LAABNIGOJKJ_OFFSET))(a1);
 		}
 
 		static ::GJABEBPIGDN* ODFIFAAGBCO(::NPCCFNJPBNL* a1)

@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 class PKLHDDGKKOC;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_PROP_PROBEPUZZLEITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD84B80)
@@ -36,7 +36,7 @@ namespace RPG::Client::Prop
 		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* AIALICECJOJ; // 0x20
 		::PKLHDDGKKOC* NAHOHKAHBPK; // 0x28
-		::System::Action* LNBDGMFCHAP; // 0x30
+		::System::Action_1<::System::Single>* LNBDGMFCHAP; // 0x30
 		::UnityEngine::Quaternion KICIGEMOJKB; // 0x38
 		::UnityEngine::Quaternion LEEFKBFPEHL; // 0x48
 		::System::Single DCNOGDMDJGF; // 0x58
@@ -111,9 +111,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATETARGETATCONSTANTSPEED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetScanCallBack(::System::Action* a1)
+		::System::Void SetScanCallBack(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETSCANCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETSCANCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()

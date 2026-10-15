@@ -16,7 +16,7 @@ namespace RPG::Client::NavMap { class SubTabData; }
 namespace RPG::Client::NavMap { class WorldData; }
 namespace RPG::Client::NavMap::FiveDim { class CartographyFiveDim; }
 namespace RPG::Client::NavMap::FiveDim { class SubNavMapDataFiveDim; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class LevelEntityRef; }
 namespace RPG::GameCore { class SubNavMapNameRow; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -133,9 +133,9 @@ namespace RPG::Client::NavMap::FiveDim
 			return ((::RPG::Client::NavMap::ICartography*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SUBNAVMAPDATAFIVEDIM_GETCARTOGRAPHYDATA_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* GetSyncedCartographyData(::System::Boolean a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartography*>* GetSyncedCartographyData(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SUBNAVMAPDATAFIVEDIM_GETSYNCEDCARTOGRAPHYDATA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartography*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SUBNAVMAPDATAFIVEDIM_GETSYNCEDCARTOGRAPHYDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void _PrepareMapData()

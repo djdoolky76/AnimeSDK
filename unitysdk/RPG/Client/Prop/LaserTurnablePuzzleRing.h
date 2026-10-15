@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client::Prop { class LaserTurnablePuzzleBoard; }
 namespace RPG::Client::Prop { class LaserTurnablePuzzleFragment; }
 namespace RPG::Client::Prop { class LaserTurnablePuzzleRing; }
 namespace RPG::Client::Prop { class RotatePillarPuzzleSwitch; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -117,9 +117,9 @@ namespace RPG::Client::Prop
 			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LASERTURNABLEPUZZLERING_JFKCECJKHNB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::IEnumerator* BGJENOCGHFF(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable* a4)
+		::System::Collections::IEnumerator* BGJENOCGHFF(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable_1<::System::Single> a4)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LASERTURNABLEPUZZLERING_BGJENOCGHFF_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LASERTURNABLEPUZZLERING_BGJENOCGHFF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void MEJPCDCODCM()

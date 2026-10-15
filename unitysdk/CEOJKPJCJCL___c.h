@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class BGLCGNCLHLJ;
 class BJGJBNJDLIK;
@@ -11,7 +12,6 @@ class PKDNDNABKII;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define CEOJKPJCJCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9F6050)
 #define CEOJKPJCJCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F6090)
@@ -32,9 +32,9 @@ inline static constexpr unsigned int CEOJKPJCJCL___c_TypeDefinitionIndex = 57613
 	class CEOJKPJCJCL___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet___9__34_3()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>, ::System::String*>** StaticGet___9__34_3()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2A0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2A0);
 		}
 
 		static ::System::Func_2<::PKDNDNABKII*, ::System::String*>** StaticGet___9__33_0()
@@ -47,9 +47,9 @@ inline static constexpr unsigned int CEOJKPJCJCL___c_TypeDefinitionIndex = 57613
 			return (::System::Func_2<::KHFHMJEMBOF*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2B0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet___9__34_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>, ::System::String*>** StaticGet___9__34_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2B8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2B8);
 		}
 
 		static ::System::Func_2<::BGLCGNCLHLJ*, ::System::String*>** StaticGet___9__42_0()
@@ -62,14 +62,14 @@ inline static constexpr unsigned int CEOJKPJCJCL___c_TypeDefinitionIndex = 57613
 			return (::System::Func_2<::MLCLJKDKCDG*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2C8);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet___9__34_2()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>, ::System::String*>** StaticGet___9__34_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2D0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2D0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet___9__34_1()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>, ::System::String*>** StaticGet___9__34_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2D8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C2D8);
 		}
 
 		static ::System::Func_2<::BJGJBNJDLIK*, ::System::String*>** StaticGet___9__38_0()
@@ -107,24 +107,24 @@ inline static constexpr unsigned int CEOJKPJCJCL___c_TypeDefinitionIndex = 57613
 			return ((::System::String*(*)(::PVOID, ::PKDNDNABKII*))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREREPEATEDGRIDFIGHTNPCINFO_B__33_0_OFFSET))(this, a1);
 		}
 
-		::System::String* __CompareGlobalSavedValueMap_b__34_0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* __CompareGlobalSavedValueMap_b__34_0(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREGLOBALSAVEDVALUEMAP_B__34_0_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREGLOBALSAVEDVALUEMAP_B__34_0_OFFSET))(this, a1);
 		}
 
-		::System::String* __CompareGlobalSavedValueMap_b__34_1(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* __CompareGlobalSavedValueMap_b__34_1(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREGLOBALSAVEDVALUEMAP_B__34_1_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREGLOBALSAVEDVALUEMAP_B__34_1_OFFSET))(this, a1);
 		}
 
-		::System::String* __CompareGlobalSavedValueMap_b__34_2(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* __CompareGlobalSavedValueMap_b__34_2(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREGLOBALSAVEDVALUEMAP_B__34_2_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREGLOBALSAVEDVALUEMAP_B__34_2_OFFSET))(this, a1);
 		}
 
-		::System::String* __CompareGlobalSavedValueMap_b__34_3(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* __CompareGlobalSavedValueMap_b__34_3(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREGLOBALSAVEDVALUEMAP_B__34_3_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>))((::PBYTE)hIl2Cpp + CEOJKPJCJCL___C___COMPAREGLOBALSAVEDVALUEMAP_B__34_3_OFFSET))(this, a1);
 		}
 
 		::System::String* __CompareRepeatedBattleAvatar_b__35_0(::PIOGCEBHNBF* a1)

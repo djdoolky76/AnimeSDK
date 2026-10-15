@@ -5,8 +5,9 @@
 namespace MiHoYo::SDK { class ILinkImageText; }
 namespace MiHoYo::SDK { class IMaxHeightLayoutController; }
 namespace MiHoYo::SDK { class ProtocolWithJoypad; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -48,9 +49,9 @@ namespace MiHoYo::SDK
 		::UnityEngine::UI::Button* acceptButton; // 0x90
 		::UnityEngine::GameObject* refuseButtonJoypadIcon; // 0x98
 		::UnityEngine::GameObject* acceptButtonJoypadIcon; // 0xA0
-		::System::Action* OnAccept; // 0xA8
-		::System::Action* OnRefuse; // 0xB0
-		::System::Action* OnHrefButtonClicked; // 0xB8
+		::System::Action_1<::System::Boolean>* OnAccept; // 0xA8
+		::System::Action_1<::System::Boolean>* OnRefuse; // 0xB0
+		::System::Action_2<::System::String*, ::System::Boolean>* OnHrefButtonClicked; // 0xB8
 		::System::String* highlightColor; // 0xC0
 		::System::String* m_joypadType; // 0xC8
 		::System::Boolean m_bJoypadExchange; // 0xD0

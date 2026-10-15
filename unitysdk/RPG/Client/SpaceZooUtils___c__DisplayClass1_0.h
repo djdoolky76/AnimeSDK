@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class LuaUIController; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_SPACEZOOUTILS___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0FBF50)
 #define RPG_CLIENT_SPACEZOOUTILS___C__DISPLAYCLASS1_0__SHOWSPACEZOOCATTERYPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE0FFF60)
@@ -14,7 +14,7 @@ namespace RPG::Client
 	class SpaceZooUtils___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::RPG::Client::LuaUIController*>* callback; // 0x10
 		::System::Int32 index; // 0x18
 		::System::Void _ctor()
 		{

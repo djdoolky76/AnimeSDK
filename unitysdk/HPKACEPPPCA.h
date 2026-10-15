@@ -10,8 +10,9 @@ class HPKACEPPPCA;
 class KLEFGGIHGMI;
 class LJFHKAJPFNE;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Diagnostics { class StackFrame; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
@@ -98,9 +99,9 @@ inline static constexpr unsigned int HPKACEPPPCA_TypeDefinitionIndex = 73935;
 	public:
 		::KLEFGGIHGMI* KGPIGCAPOCP; // 0x10
 		::RPG::Client::OpenWorld::StreamingItemData* IOBOHKDLFMP; // 0x18
-		::System::Action* DJHECFAIOHJ; // 0x20
+		::System::Action_1<::HPKACEPPPCA*>* DJHECFAIOHJ; // 0x20
 		::RPG::Client::OpenWorld::StreamingItemData* ICFMADGMEPC; // 0x28
-		::System::Action* PIBCMNAFAME; // 0x30
+		::System::Action_2<::HPKACEPPPCA*, ::System::Boolean>* PIBCMNAFAME; // 0x30
 		::LJFHKAJPFNE* NFPCBMCGFDD; // 0x38
 		::Il2CppArray<::System::Diagnostics::StackFrame*>* JNAAFLNPBHA; // 0x40
 		::BGNDPIPJFCI* LAONDDLKDFI; // 0x48
@@ -128,9 +129,9 @@ inline static constexpr unsigned int HPKACEPPPCA_TypeDefinitionIndex = 73935;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPKACEPPPCA_CTOR_OFFSET))(this);
 		}
 
-		::System::Void FAKMBKCFMAE(::LJFHKAJPFNE* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void FAKMBKCFMAE(::LJFHKAJPFNE* a1, ::System::Action_1<::HPKACEPPPCA*>* a2, ::System::Action_2<::HPKACEPPPCA*, ::System::Boolean>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::LJFHKAJPFNE*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + HPKACEPPPCA_FAKMBKCFMAE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::LJFHKAJPFNE*, ::System::Action_1<::HPKACEPPPCA*>*, ::System::Action_2<::HPKACEPPPCA*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + HPKACEPPPCA_FAKMBKCFMAE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void KHGIKBFDLFB()

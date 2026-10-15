@@ -4,9 +4,9 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::HoYoPass { class UserCenterManager; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CANOPENUSERCENTER_OFFSET UNITYSDK_OFFSET(0x1BE78580)
@@ -33,7 +33,7 @@ namespace MiHoYo::SDK::HoYoPass
 	class UserCenterManager : public ::System::Object
 	{
 	public:
-		::System::Action* userCenterCallback; // 0x10
+		::System::Action_1<::System::String*>* userCenterCallback; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* resultHandlerMap; // 0x18
 		::System::Int32 NOTICE_ERROR_CODE; // 0x20
 		::System::Int32 TOKEN_INVALID; // 0x24
@@ -73,9 +73,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CANOPENUSERCENTER_OFFSET))(this);
 		}
 
-		::System::Void Open(::System::Action* a1)
+		::System::Void Open(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_OPEN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_OPEN_OFFSET))(this, a1);
 		}
 
 		::System::Void ManuallyClose()

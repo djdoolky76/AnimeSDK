@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActionItemType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class DEKDEPEBHNC;
 class EBBJGCKIBAA;
@@ -8,7 +9,6 @@ class GEDMHFPPBHN;
 class LODCPPPMJJG;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -66,7 +66,7 @@ inline static constexpr unsigned int LODCPPPMJJG_TypeDefinitionIndex = 71309;
 		::System::Collections::Generic::List_1<::GEDMHFPPBHN*>* _CurrentTurnList_k__BackingField; // 0x40
 		::EBBJGCKIBAA* AEBBPNCLBDD; // 0x48
 		::System::Int32 NHCNGMOCABD; // 0x50
-		::System::Nullable* GOJLBBNPHKM; // 0x54
+		::System::Nullable_1<::System::Int32> GOJLBBNPHKM; // 0x54
 		::System::Boolean DCEPPGFKEIN; // 0x5C
 		// static const ::System::Object AACIHBHMFCE; // 0x0
 		// static const ::System::String* FJAPAADCDHC; // 0x0

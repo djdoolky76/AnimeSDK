@@ -3,6 +3,7 @@
 #include "unitysdk/OCHDFAMDPDM.h"
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EKFMIDBJDIA;
@@ -19,9 +20,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -325,9 +326,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__ISENTITYFORBIDOFFSTAGE_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* _CreateMemberEntity_1(::RPG::Client::MemberData* a1, ::System::Boolean a2, ::System::Action* a3)
+		::RPG::GameCore::GameEntity* _CreateMemberEntity_1(::RPG::Client::MemberData* a1, ::System::Boolean a2, ::System::Action_1<::RPG::GameCore::GameEntity*>* a3)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MemberData*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_1_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::MemberData*, ::System::Boolean, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER__CREATEMEMBERENTITY_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::GameCore::GameEntity* _CreateFakeAvatarEntity(::KNDOCIJHHFA* a1, ::RPG::GameCore::GameEntity* a2)
@@ -420,9 +421,9 @@ namespace RPG::Client
 			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_GETAVATARBYENTITY_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* CtrlOtherEntity(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::UInt32 a4, ::System::Boolean a5, ::System::Nullable* a6, ::System::Nullable* a7, ::System::String* a8, ::System::Nullable* a9, ::System::Nullable* a10)
+		::RPG::GameCore::GameEntity* CtrlOtherEntity(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::UInt32 a4, ::System::Boolean a5, ::System::Nullable_1<::UnityEngine::Vector3> a6, ::System::Nullable_1<::UnityEngine::Quaternion> a7, ::System::String* a8, ::System::Nullable_1<::UnityEngine::Vector3> a9, ::System::Nullable_1<::UnityEngine::Quaternion> a10)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Nullable*, ::System::Nullable*, ::System::String*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CTRLOTHERENTITY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::String*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER_CTRLOTHERENTITY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
 		::System::Boolean _DoSwitchTeamLeader(::System::Boolean a1)

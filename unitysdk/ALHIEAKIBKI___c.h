@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class ALHIEAKIBKI;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define ALHIEAKIBKI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1556CC20)
 #define ALHIEAKIBKI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1556CC60)
@@ -20,9 +20,9 @@ inline static constexpr unsigned int ALHIEAKIBKI___c_TypeDefinitionIndex = 76944
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E670);
 		}
 
-		static ::System::Action** StaticGet___9__11_0()
+		static ::System::Action_3<::ALHIEAKIBKI*, ::System::Int32, ::System::String*>** StaticGet___9__11_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E678);
+			return (::System::Action_3<::ALHIEAKIBKI*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E678);
 		}
 
 		static ::System::Void _cctor()

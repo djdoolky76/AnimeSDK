@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/EPedestrianV2MotionState.h"
 #include "unitysdk/RPG/Client/PedestrianV2State.h"
 #include "unitysdk/RPG/GameCore/NPCBodySize.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Pose.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -16,9 +17,8 @@ class KFGKNDNJKMI;
 class LAJCPEFEOPN;
 class MHHBDDMJOII;
 class PEELDCHBLJK;
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
@@ -89,11 +89,11 @@ inline static constexpr unsigned int LAJCPEFEOPN_TypeDefinitionIndex = 69252;
 		::UnityEngine::Transform* PDJGEDNLBKJ; // 0x18
 		::BMDDCGIDIBB* PCOHLAAKEMN; // 0x20
 		::System::String* EOFPCPIHGJA; // 0x28
-		::System::Action* OnPostLateUpdateCallback; // 0x30
+		::System::Action_1<::LAJCPEFEOPN*>* OnPostLateUpdateCallback; // 0x30
 		::GNHANKEMGLG* _SpawnGroup_k__BackingField; // 0x38
 		::System::String* PLGOIHMNDLO; // 0x40
-		::System::Action* PNELGAPKCLO; // 0x48
-		::System::Action* OnDisposeCallback; // 0x50
+		::System::Action_1<::LAJCPEFEOPN*>* PNELGAPKCLO; // 0x48
+		::System::Action_1<::LAJCPEFEOPN*>* OnDisposeCallback; // 0x50
 		::RPG::Client::PedestrianV2State DLNIGFGLPLJ; // 0x58
 		::RPG::Client::EPedestrianV2MotionState HCCHHGLDGGL; // 0x5C
 		::System::Single EKHJIFJBBCJ; // 0x60
@@ -101,7 +101,7 @@ inline static constexpr unsigned int LAJCPEFEOPN_TypeDefinitionIndex = 69252;
 		::System::UInt32 FMAGLGKDEAJ; // 0x68
 		::System::Int32 DJKPDGNOKHB; // 0x6C
 		::System::Single DCKKAHPGIFI; // 0x70
-		::System::Nullable* _InitialPose_k__BackingField; // 0x74
+		::System::Nullable_1<::UnityEngine::Pose> _InitialPose_k__BackingField; // 0x74
 		::System::Byte _padding0[0x18];
 		::System::Boolean MPECKIIKDGD; // 0x94
 		::System::Boolean ODCBFIJPEKJ; // 0x95
@@ -163,9 +163,9 @@ inline static constexpr unsigned int LAJCPEFEOPN_TypeDefinitionIndex = 69252;
 			return ((::System::Void(*)(::PVOID, ::PEELDCHBLJK*, ::System::UInt32, ::MHHBDDMJOII*, ::NEJLIGKNHCC_KKGCNNMCFAP))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_KPJGDHLENIP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void MGDHGAMGCIO(::System::Action* a1)
+		::System::Void MGDHGAMGCIO(::System::Action_1<::LAJCPEFEOPN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_MGDHGAMGCIO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::LAJCPEFEOPN*>*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_MGDHGAMGCIO_OFFSET))(this, a1);
 		}
 
 		::System::Void DFFCHNLKELO(::System::Single a1)
@@ -273,14 +273,14 @@ inline static constexpr unsigned int LAJCPEFEOPN_TypeDefinitionIndex = 69252;
 			return ((::System::Void(*)(::PVOID, ::GNHANKEMGLG*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_SET_SPAWNGROUP_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_InitialPose()
+		::System::Nullable_1<::UnityEngine::Pose> get_InitialPose()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_GET_INITIALPOSE_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Pose>(*)(::PVOID))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_GET_INITIALPOSE_OFFSET))(this);
 		}
 
-		::System::Void set_InitialPose(::System::Nullable* a1)
+		::System::Void set_InitialPose(::System::Nullable_1<::UnityEngine::Pose> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_SET_INITIALPOSE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Pose>))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_SET_INITIALPOSE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_SuppressMotionAgentOnStart()
@@ -303,24 +303,24 @@ inline static constexpr unsigned int LAJCPEFEOPN_TypeDefinitionIndex = 69252;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_SET_SUPPRESSDISTANCELIFECYCLE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnDisposeCallback(::System::Action* a1)
+		::System::Void add_OnDisposeCallback(::System::Action_1<::LAJCPEFEOPN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_ADD_ONDISPOSECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::LAJCPEFEOPN*>*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_ADD_ONDISPOSECALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnDisposeCallback(::System::Action* a1)
+		::System::Void remove_OnDisposeCallback(::System::Action_1<::LAJCPEFEOPN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_REMOVE_ONDISPOSECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::LAJCPEFEOPN*>*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_REMOVE_ONDISPOSECALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPostLateUpdateCallback(::System::Action* a1)
+		::System::Void add_OnPostLateUpdateCallback(::System::Action_1<::LAJCPEFEOPN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_ADD_ONPOSTLATEUPDATECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::LAJCPEFEOPN*>*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_ADD_ONPOSTLATEUPDATECALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPostLateUpdateCallback(::System::Action* a1)
+		::System::Void remove_OnPostLateUpdateCallback(::System::Action_1<::LAJCPEFEOPN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_REMOVE_ONPOSTLATEUPDATECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::LAJCPEFEOPN*>*))((::PBYTE)hIl2Cpp + LAJCPEFEOPN_REMOVE_ONPOSTLATEUPDATECALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void HKMPCHKMGMN()

@@ -8,7 +8,7 @@ class MDFIHKILAPL;
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::Client { class RPGAnimationEvent; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
@@ -34,7 +34,7 @@ inline static constexpr unsigned int FDIJNCADAHJ_TypeDefinitionIndex = 72243;
 	{
 	public:
 		::RPG::Client::RPGAnimationEvent* DDCODMNKPIP; // 0x60
-		::System::Action* CIFOILLJFNF; // 0x68
+		::System::Action_1<::KNHJKDBPNOI*>* CIFOILLJFNF; // 0x68
 		::UnityEngine::UI::Image* AFJIGEDHIPO; // 0x70
 		::UnityEngine::UI::Text* GOGNOECLBFD; // 0x78
 		::UnityEngine::GameObject* NENPNKMPAAC; // 0x80
@@ -68,9 +68,9 @@ inline static constexpr unsigned int FDIJNCADAHJ_TypeDefinitionIndex = 72243;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDIJNCADAHJ_HABFIFCKMKG_OFFSET))(this);
 		}
 
-		::System::Void EEDOOMCMFIN(::System::Action* a1)
+		::System::Void EEDOOMCMFIN(::System::Action_1<::KNHJKDBPNOI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FDIJNCADAHJ_EEDOOMCMFIN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KNHJKDBPNOI*>*))((::PBYTE)hIl2Cpp + FDIJNCADAHJ_EEDOOMCMFIN_OFFSET))(this, a1);
 		}
 
 		::System::Void NKPPGDENJAE(::MDFIHKILAPL* a1, ::RPG::GameCore::GameEntity* a2)

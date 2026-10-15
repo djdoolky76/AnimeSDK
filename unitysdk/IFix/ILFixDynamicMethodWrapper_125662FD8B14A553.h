@@ -10,6 +10,8 @@
 #include "unitysdk/ONPKMMDCDAN.h"
 #include "unitysdk/PLHLAIJKMOD.h"
 #include "unitysdk/R3/Unit.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class AGDBDNGEKFP;
 class AGFFMOLFPEF;
@@ -30,10 +32,8 @@ class POIONNNNCMJ;
 namespace IFix { class ILFixDynamicMethodWrapper; }
 namespace IFix::Core { class VirtualMachine; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C561160)
@@ -226,14 +226,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_4_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* __Gen_Wrap_5(::System::Int32 a1)
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftConstraintConditionStatType> __Gen_Wrap_5(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_5_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftConstraintConditionStatType>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_5_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_6(::System::Int32 a1)
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftConstraintConditionPredicateType> __Gen_Wrap_6(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_6_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftConstraintConditionPredicateType>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_6_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_7()
@@ -296,9 +296,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_18_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_19(::System::Object* a1, ::System::Nullable* a2)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_19(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_19_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_19_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_20(::System::Object* a1)
@@ -321,9 +321,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_23_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_24(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_24(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_24_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_24_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_25(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -356,19 +356,19 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_30_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* __Gen_Wrap_31(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* __Gen_Wrap_31(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_31_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_31_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_32(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_32(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_32_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_32_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MechCraft::MechCraftChipTraitType __Gen_Wrap_33(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::MechCraft::MechCraftChipTraitType __Gen_Wrap_33(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_33_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_33_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_34(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
@@ -576,9 +576,9 @@ namespace IFix
 			return ((::System::Collections::Generic::IEnumerable_1<::System::Object*>*(*)(::PVOID, ::NKIJFPHFJCO*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_74_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_75(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector2Int a3, ::System::Nullable* a4)
+		::System::Boolean __Gen_Wrap_75(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector2Int a3, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType> a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector2Int, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_75_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector2Int, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_75_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_76(::System::Object* a1, ::System::Object* a2, ::PLHLAIJKMOD a3)
@@ -586,9 +586,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::PLHLAIJKMOD))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_76_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_77(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector2Int a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_77(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector2Int a3, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector2Int, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_77_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector2Int, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_77_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::Vector2Int __Gen_Wrap_78(::System::Object* a1, ::System::Int32 a2)
@@ -641,9 +641,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_87_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* __Gen_Wrap_88(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_88(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_88_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_88_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 __Gen_Wrap_89(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
@@ -661,9 +661,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_91_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* __Gen_Wrap_92(::System::Object* a1, ::System::Int32 a2, ::System::Nullable* a3, ::System::Nullable* a4)
+		::System::Object* __Gen_Wrap_92(::System::Object* a1, ::System::Int32 a2, ::System::Nullable_1<::UnityEngine::Vector2Int> a3, ::System::Nullable_1<::System::Int32> a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_92_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable_1<::UnityEngine::Vector2Int>, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_92_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 __Gen_Wrap_93(::JEPGAKKOHLE* a1)
@@ -701,9 +701,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_99_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* __Gen_Wrap_100(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Object* __Gen_Wrap_100(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::System::Int32> a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_100_OFFSET))(this, a1, a2, a3);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_100_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_101(::CHGHIALKMFM* a1)
@@ -711,9 +711,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::CHGHIALKMFM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_101_OFFSET))(this, a1);
 		}
 
-		::System::Object* __Gen_Wrap_102(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Nullable* a6, ::System::Object* a7)
+		::System::Object* __Gen_Wrap_102(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable_1<::System::Int32> a4, ::System::Nullable_1<::UnityEngine::Vector2Int> a5, ::System::Nullable_1<::System::Int32> a6, ::System::Object* a7)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_102_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::UnityEngine::Vector2Int>, ::System::Nullable_1<::System::Int32>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_102_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Boolean __Gen_Wrap_103(::ONPKMMDCDAN a1)
@@ -756,9 +756,9 @@ namespace IFix
 			return ((::PLHLAIJKMOD(*)(::PVOID, ::PLHLAIJKMOD, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_110_OFFSET))(this, a1, a2);
 		}
 
-		::PLHLAIJKMOD __Gen_Wrap_111(::PLHLAIJKMOD a1, ::System::Nullable* a2, ::System::Nullable* a3)
+		::PLHLAIJKMOD __Gen_Wrap_111(::PLHLAIJKMOD a1, ::System::Nullable_1<::UnityEngine::Vector2Int> a2, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType> a3)
 		{
-			return ((::PLHLAIJKMOD(*)(::PVOID, ::PLHLAIJKMOD, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_111_OFFSET))(this, a1, a2, a3);
+			return ((::PLHLAIJKMOD(*)(::PVOID, ::PLHLAIJKMOD, ::System::Nullable_1<::UnityEngine::Vector2Int>, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_111_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 __Gen_Wrap_112(::R3::Unit a1)
@@ -786,29 +786,29 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::PHCMIJEDENP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_116_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_117(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::System::Collections::Generic::KeyValuePair_2<::PHCMIJEDENP*, ::GMDIBFIGIEG*>> __Gen_Wrap_117(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_117_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Collections::Generic::KeyValuePair_2<::PHCMIJEDENP*, ::GMDIBFIGIEG*>>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_117_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_118(::System::Object* a1)
+		::System::Nullable_1<::UnityEngine::Vector2Int> __Gen_Wrap_118(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_118_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::UnityEngine::Vector2Int>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_118_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_119(::System::Object* a1)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_119(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_119_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_119_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_120(::System::Object* a1, ::System::Nullable* a2, ::System::Nullable* a3)
+		::System::Int32 __Gen_Wrap_120(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a2, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_120_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_120_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 __Gen_Wrap_121(::System::Object* a1, ::System::Collections::Generic::KeyValuePair* a2, ::System::Collections::Generic::KeyValuePair* a3)
+		::System::Int32 __Gen_Wrap_121(::System::Object* a1, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a2, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_121_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_121_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 __Gen_Wrap_122(::RPG::Client::MechCraft::MechCraftAttributeType a1, ::RPG::Client::MechCraft::MechCraftAttributeType a2)
@@ -821,29 +821,29 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_123_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_124(::System::Object* a1)
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> __Gen_Wrap_124(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_124_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_124_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_125(::System::Nullable* a1, ::System::Nullable* a2, ::System::Object* a3)
+		::System::Boolean __Gen_Wrap_125(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType> a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_125_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_125_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_126(::System::Nullable* a1, ::System::Object* a2)
+		::System::Boolean __Gen_Wrap_126(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_126_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_126_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_127(::System::Nullable* a1, ::System::Object* a2)
+		::System::Boolean __Gen_Wrap_127(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType> a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_127_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_127_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_128(::System::Object* a1, ::System::Nullable* a2, ::System::Object* a3)
+		::System::Boolean __Gen_Wrap_128(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_128_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_128_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 __Gen_Wrap_129(::EGBIFFCBKEH* a1)
@@ -856,24 +856,24 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::EGBIFFCBKEH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_130_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_131(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> __Gen_Wrap_131(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_131_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_131_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_132(::System::Object* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::System::Object* a4)
+		::System::Boolean __Gen_Wrap_132(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a2, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType> a3, ::System::Object* a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_132_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_132_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean __Gen_Wrap_133(::System::Object* a1, ::System::Nullable* a2, ::System::Object* a3)
+		::System::Boolean __Gen_Wrap_133(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType> a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_133_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_133_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_134(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::System::Object* a4)
+		::System::Boolean __Gen_Wrap_134(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a3, ::System::Object* a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_134_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_125662FD8B14A553___GEN_WRAP_134_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Object* __Gen_Wrap_135(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)

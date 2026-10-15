@@ -4,9 +4,9 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class NewDeviceInfoModel; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD380D0)
 #define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD38110)
@@ -30,9 +30,9 @@ namespace MiHoYo::SDK::Win
 			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::NewDeviceInfoModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E9C8);
 		}
 
-		static ::System::Action** StaticGet___9__19_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__19_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E9D0);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E9D0);
 		}
 
 		static ::System::Void _cctor()

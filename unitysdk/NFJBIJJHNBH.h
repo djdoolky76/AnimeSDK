@@ -3,9 +3,9 @@
 #include "unitysdk/GELIALJDFBL.h"
 #include "unitysdk/RPG/GameCore/BoolEx.h"
 #include "unitysdk/RPG/GameCore/SummonerEnergyBarType.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class SetSummonerEnergyBarState; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 
 #define NFJBIJJHNBH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB97150)
 #define NFJBIJJHNBH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB97160)
@@ -48,19 +48,19 @@ inline static constexpr unsigned int NFJBIJJHNBH_TypeDefinitionIndex = 55573;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NFJBIJJHNBH_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MDLNPMMHOJI(::System::Int32 a1)
+		::System::Nullable_1<::System::Int32> MDLNPMMHOJI(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NFJBIJJHNBH_MDLNPMMHOJI_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NFJBIJJHNBH_MDLNPMMHOJI_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MDLNPMMHOJI_1(::RPG::GameCore::BoolEx a1)
+		::System::Nullable_1<::System::Boolean> MDLNPMMHOJI_1(::RPG::GameCore::BoolEx a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + NFJBIJJHNBH_MDLNPMMHOJI_1_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + NFJBIJJHNBH_MDLNPMMHOJI_1_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MDLNPMMHOJI_2(::RPG::GameCore::SummonerEnergyBarType a1)
+		::System::Nullable_1<::RPG::GameCore::SummonerEnergyBarType> MDLNPMMHOJI_2(::RPG::GameCore::SummonerEnergyBarType a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::SummonerEnergyBarType))((::PBYTE)hIl2Cpp + NFJBIJJHNBH_MDLNPMMHOJI_2_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::GameCore::SummonerEnergyBarType>(*)(::PVOID, ::RPG::GameCore::SummonerEnergyBarType))((::PBYTE)hIl2Cpp + NFJBIJJHNBH_MDLNPMMHOJI_2_OFFSET))(this, a1);
 		}
 
 	};

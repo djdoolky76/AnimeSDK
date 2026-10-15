@@ -4,7 +4,7 @@
 namespace System::IO { class Stream; }
 namespace System::Net { class WebRequest; }
 namespace System::Security::Principal { class WindowsIdentity; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0A31D0)
 #define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__GETREQUESTSTREAMASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1F0A45D0)
@@ -23,9 +23,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Threading::Tasks::Task* _GetRequestStreamAsync_b__1()
+		::System::Threading::Tasks::Task_1<::System::IO::Stream*>* _GetRequestStreamAsync_b__1()
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__GETREQUESTSTREAMASYNC_B__1_OFFSET))(this);
+			return ((::System::Threading::Tasks::Task_1<::System::IO::Stream*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__GETREQUESTSTREAMASYNC_B__1_OFFSET))(this);
 		}
 
 	};

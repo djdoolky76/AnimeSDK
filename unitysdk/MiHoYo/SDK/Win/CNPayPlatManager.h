@@ -9,8 +9,8 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::Win { class CNPayPlatManager; }
 namespace MiHoYo::SDK::Win { class PayPlatInfoModel; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
@@ -83,7 +83,7 @@ namespace MiHoYo::SDK::Win
 		::System::String* orderNumber; // 0x68
 		::System::String* payCashierId; // 0x70
 		::System::String* qrCodeUrl; // 0x78
-		::System::Action* payCallback; // 0x80
+		::System::Action_1<::System::String*>* payCallback; // 0x80
 		::System::String* payJwtToken; // 0x88
 		::System::String* reportH5CBodyString; // 0x90
 		::System::String* payLifecycleId; // 0x98
@@ -121,9 +121,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATMANAGER_CCTOR_OFFSET))();
 		}
 
-		::System::Void Pay(::System::String* a1, ::System::Action* a2)
+		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATMANAGER_PAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATMANAGER_PAY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()

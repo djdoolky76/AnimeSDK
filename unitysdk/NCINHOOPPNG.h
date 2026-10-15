@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/GameCore/AvatarSkillTreePointType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/KFBOFAILIBG.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
@@ -318,9 +318,9 @@ inline static constexpr unsigned int NCINHOOPPNG_TypeDefinitionIndex = 51978;
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NCINHOOPPNG_KILEPBKMIHE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* ANAHFGMKJMB()
+		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* ANAHFGMKJMB()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NCINHOOPPNG_ANAHFGMKJMB_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NCINHOOPPNG_ANAHFGMKJMB_OFFSET))(this);
 		}
 
 	};

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class TransformVersionTracker;
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -21,9 +21,9 @@ inline static constexpr unsigned int TransformVersionTrackerExtension_TypeDefini
 			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0x11CC0);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>** StaticGet__TrackerDict()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::System::Object*>*>** StaticGet__TrackerDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>**)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0x11CC8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference_1<::System::Object*>*>**)UnitySDK::FromName("", "TransformVersionTrackerExtension")->GetStaticField(0x11CC8);
 		}
 
 		static ::System::Int32* StaticGet__AllocTrackerCounter()

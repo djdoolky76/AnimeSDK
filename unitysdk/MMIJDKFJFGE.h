@@ -8,8 +8,8 @@ namespace RPG::Client { class DefaultForceKillMarkData; }
 namespace RPG::Client { class ForceKillMarkDataProvider; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define MMIJDKFJFGE_AKNKDHFLKCD_OFFSET UNITYSDK_OFFSET(0xB9D2030)
@@ -33,7 +33,7 @@ inline static constexpr unsigned int MMIJDKFJFGE_TypeDefinitionIndex = 71659;
 	class MMIJDKFJFGE : public ::PEALGIFBLDO
 	{
 	public:
-		::System::Action* DBFINCLPBKP; // 0x18
+		::System::Action_1<::RPG::Client::ForceKillMarkDataProvider*>* DBFINCLPBKP; // 0x18
 		::RPG::Client::ForceKillMarkDataProvider* DILADJDFMFG; // 0x20
 		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x28
 		::System::Void _ctor()
@@ -56,9 +56,9 @@ inline static constexpr unsigned int MMIJDKFJFGE_TypeDefinitionIndex = 71659;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MMIJDKFJFGE_GNCHAPKEAKF_OFFSET))(this, a1);
 		}
 
-		::System::Void OLAMBABOCMI(::System::Action* a1)
+		::System::Void OLAMBABOCMI(::System::Action_1<::RPG::Client::ForceKillMarkDataProvider*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MMIJDKFJFGE_OLAMBABOCMI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ForceKillMarkDataProvider*>*))((::PBYTE)hIl2Cpp + MMIJDKFJFGE_OLAMBABOCMI_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

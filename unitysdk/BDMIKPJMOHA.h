@@ -3,8 +3,8 @@
 #include "unitysdk/MLKDDLHNNHH.h"
 class BDMIKPJMOHA;
 namespace RPG::Client { class MonoAnimationTrigger; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
 #define BDMIKPJMOHA_AGPEAOPALBI_OFFSET UNITYSDK_OFFSET(0x16303A40)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int BDMIKPJMOHA_TypeDefinitionIndex = 80856;
 	public:
 		::System::String* FGMKCOANOOK; // 0x20
 		::UnityEngine::Coroutine* NAEJCNNMAKA; // 0x28
-		::System::Action* MBOEDFCNCJF; // 0x30
+		::System::Action_1<::System::String*>* MBOEDFCNCJF; // 0x30
 		::RPG::Client::MonoAnimationTrigger* GALAHGAJODG; // 0x38
 		::System::Single FILPDDOEEPD; // 0x40
 		::System::Boolean BEMMCKLJICI; // 0x44

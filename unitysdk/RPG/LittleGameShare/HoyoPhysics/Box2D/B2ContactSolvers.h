@@ -5,10 +5,10 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2FloatW.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2RotW.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2W.h"
+#include "unitysdk/System/Numerics/Vector_1.h"
 #include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2BodyState; }
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2StepContext; }
-namespace System::Numerics { class Vector; }
 
 #define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2ADDW_1_OFFSET UNITYSDK_OFFSET(0x1C810AE0)
 #define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2ADDW_OFFSET UNITYSDK_OFFSET(0x1C80F6D0)
@@ -87,69 +87,69 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2StepContext*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2STOREOVERFLOWIMPULSES_OFFSET))(a1);
 		}
 
-		static ::System::Numerics::Vector* b2AddW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2AddW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2ADDW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2ADDW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2SubW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2SubW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2SUBW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2SUBW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2MulW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2MulW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MULW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MULW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2MulAddW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2, ::System::Numerics::Vector* a3)
+		static ::System::Numerics::Vector_1<::System::Single> b2MulAddW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2, ::System::Numerics::Vector_1<::System::Single> a3)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MULADDW_OFFSET))(a1, a2, a3);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MULADDW_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Numerics::Vector* b2MulSubW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2, ::System::Numerics::Vector* a3)
+		static ::System::Numerics::Vector_1<::System::Single> b2MulSubW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2, ::System::Numerics::Vector_1<::System::Single> a3)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MULSUBW_OFFSET))(a1, a2, a3);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MULSUBW_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Numerics::Vector* b2MinW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2MinW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MINW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MINW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2MaxW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2MaxW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MAXW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2MAXW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2SymClampW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2SymClampW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2SYMCLAMPW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2SYMCLAMPW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2OrW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2OrW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2ORW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2ORW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2GreaterThanW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2GreaterThanW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2GREATERTHANW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2GREATERTHANW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2EqualsW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2)
+		static ::System::Numerics::Vector_1<::System::Single> b2EqualsW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2EQUALSW_OFFSET))(a1, a2);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2EQUALSW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Numerics::Vector* b2BlendW(::System::Numerics::Vector* a1, ::System::Numerics::Vector* a2, ::System::Numerics::Vector* a3)
+		static ::System::Numerics::Vector_1<::System::Single> b2BlendW(::System::Numerics::Vector_1<::System::Single> a1, ::System::Numerics::Vector_1<::System::Single> a2, ::System::Numerics::Vector_1<::System::Single> a3)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Numerics::Vector*, ::System::Numerics::Vector*, ::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2BLENDW_OFFSET))(a1, a2, a3);
+			return ((::System::Numerics::Vector_1<::System::Single>(*)(::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>, ::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2BLENDW_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean b2AllZeroW(::System::Numerics::Vector* a1)
+		static ::System::Boolean b2AllZeroW(::System::Numerics::Vector_1<::System::Single> a1)
 		{
-			return ((::System::Boolean(*)(::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2ALLZEROW_OFFSET))(a1);
+			return ((::System::Boolean(*)(::System::Numerics::Vector_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONTACTSOLVERS_B2ALLZEROW_OFFSET))(a1);
 		}
 
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FloatW b2ZeroW()

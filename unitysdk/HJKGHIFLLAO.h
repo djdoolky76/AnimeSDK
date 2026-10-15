@@ -3,7 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2, typename T3> class Tuple_3; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HJKGHIFLLAO_BDHGHGHKLBJ_OFFSET UNITYSDK_OFFSET(0x15D29130)
@@ -27,7 +28,7 @@ inline static constexpr unsigned int HJKGHIFLLAO_TypeDefinitionIndex = 78576;
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* HHNFCMJENJI; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* HHFINENIGFL; // 0x18
-		::System::Collections::Generic::List_1<::System::Tuple*>* DONIAOJDKJM; // 0x20
+		::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::Single>*>* DONIAOJDKJM; // 0x20
 		::System::Int32 MPCPDFDGDMB; // 0x28
 		::System::UInt32 DFHHJKLFEJE; // 0x2C
 		::System::UInt32 FIMNPJLNLEE; // 0x30
@@ -44,9 +45,9 @@ inline static constexpr unsigned int HJKGHIFLLAO_TypeDefinitionIndex = 78576;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + HJKGHIFLLAO_DANDPNJAPGA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Tuple* BDHGHGHKLBJ(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
+		::System::Tuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>* BDHGHGHKLBJ(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::System::Tuple*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + HJKGHIFLLAO_BDHGHGHKLBJ_OFFSET))(this, a1, a2);
+			return ((::System::Tuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + HJKGHIFLLAO_BDHGHGHKLBJ_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 KMBEOLNCACF(::RPG::GameCore::GameEntity* a1)

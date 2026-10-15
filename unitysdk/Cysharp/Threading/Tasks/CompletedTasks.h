@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Object.h"
 
 #define CYSHARP_THREADING_TASKS_COMPLETEDTASKS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F117020)
@@ -13,34 +13,34 @@ namespace Cysharp::Threading::Tasks
 	class CompletedTasks : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_MinusOne()
+		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>* StaticGet_MinusOne()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1130);
+			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1130);
 		}
 
-		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_Zero()
+		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>* StaticGet_Zero()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1140);
+			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1140);
 		}
 
-		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_False()
+		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>* StaticGet_False()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1150);
+			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1150);
 		}
 
-		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_One()
+		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>* StaticGet_One()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1160);
+			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1160);
 		}
 
-		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_True()
+		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>* StaticGet_True()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1170);
+			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1170);
 		}
 
-		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_AsyncUnit()
+		static ::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::AsyncUnit>* StaticGet_AsyncUnit()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1180);
+			return (::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::AsyncUnit>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1180);
 		}
 
 		static ::System::Void _cctor()

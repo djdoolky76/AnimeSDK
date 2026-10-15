@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class PLJNLHLGILF;
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 
 #define EGFMHEDPFOC___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14517980)
 #define EGFMHEDPFOC___C__DISPLAYCLASS10_0___ONUIBATTLESETDAMAGETEXTSTYLE_B__0_OFFSET UNITYSDK_OFFSET(0x14517E70)
@@ -20,9 +20,9 @@ inline static constexpr unsigned int EGFMHEDPFOC___c__DisplayClass10_0_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGFMHEDPFOC___C__DISPLAYCLASS10_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __OnUIBattleSetDamageTextStyle_b__0(::System::Tuple* a1)
+		::System::Boolean __OnUIBattleSetDamageTextStyle_b__0(::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::RPG::Client::TextID>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Tuple*))((::PBYTE)hIl2Cpp + EGFMHEDPFOC___C__DISPLAYCLASS10_0___ONUIBATTLESETDAMAGETEXTSTYLE_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::RPG::Client::TextID>*))((::PBYTE)hIl2Cpp + EGFMHEDPFOC___C__DISPLAYCLASS10_0___ONUIBATTLESETDAMAGETEXTSTYLE_B__0_OFFSET))(this, a1);
 		}
 
 	};

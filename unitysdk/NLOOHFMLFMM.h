@@ -5,7 +5,7 @@
 class NLOOHFMLFMM;
 class NNCKBIHOFIP;
 namespace RPG::Client { class GridFightOrbData; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define NLOOHFMLFMM_CMIEMCPGBID_OFFSET UNITYSDK_OFFSET(0xBC78330)
 #define NLOOHFMLFMM_COPGACEDIEI_OFFSET UNITYSDK_OFFSET(0xBC780E0)
@@ -27,7 +27,7 @@ inline static constexpr unsigned int NLOOHFMLFMM_TypeDefinitionIndex = 72290;
 	public:
 		::NNCKBIHOFIP* PFKCKIOAOFO; // 0x60
 		::RPG::Client::GridFightOrbData* OOEGMABOPEB; // 0x68
-		::System::Action* HJLKNPIFNGI; // 0x70
+		::System::Action_1<::NLOOHFMLFMM*>* HJLKNPIFNGI; // 0x70
 		::System::UInt32 GFKPFMOAKCF; // 0x78
 		::System::Boolean DCGIOALPDGL; // 0x7C
 		// static const ::System::Object BLPIGNCHLJJ; // 0x0
@@ -61,9 +61,9 @@ inline static constexpr unsigned int NLOOHFMLFMM_TypeDefinitionIndex = 72290;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NLOOHFMLFMM_FNFBPFAOELN_OFFSET))(this, a1);
 		}
 
-		::System::Void HPKAAIMCAPC(::System::Action* a1)
+		::System::Void HPKAAIMCAPC(::System::Action_1<::NLOOHFMLFMM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + NLOOHFMLFMM_HPKAAIMCAPC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::NLOOHFMLFMM*>*))((::PBYTE)hIl2Cpp + NLOOHFMLFMM_HPKAAIMCAPC_OFFSET))(this, a1);
 		}
 
 		::System::Void NFFAGDNMDBJ(::System::UInt32 a1)

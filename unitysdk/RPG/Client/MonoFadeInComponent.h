@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CanvasGroup; }
 namespace XLua { class LuaTable; }
@@ -23,7 +23,7 @@ namespace RPG::Client
 	{
 	public:
 		::XLua::LuaTable* _CbkOwner; // 0x18
-		::System::Action* _OnFadeInFinish; // 0x20
+		::System::Action_1<::XLua::LuaTable*>* _OnFadeInFinish; // 0x20
 		::System::Boolean _ShouldTick; // 0x28
 		::System::Byte _padding0[0x3];
 		::System::Single _TickedTime; // 0x2C
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void TryStartPerform(::XLua::LuaTable* a1, ::System::Action* a2)
+		::System::Void TryStartPerform(::XLua::LuaTable* a1, ::System::Action_1<::XLua::LuaTable*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_TRYSTARTPERFORM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFADEINCOMPONENT_TRYSTARTPERFORM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetPlayedStatus()

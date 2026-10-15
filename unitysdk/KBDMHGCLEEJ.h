@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KNFCEJEJINK.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DLECIKAMKEG;
 class LJEBKOIENMG;
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
@@ -19,7 +19,7 @@ inline static constexpr unsigned int KBDMHGCLEEJ_TypeDefinitionIndex = 78268;
 	{
 	public:
 		::DLECIKAMKEG* EEFMDEHLLFI; // 0x18
-		::System::Collections::Generic::List_1<::System::ValueTuple>* GBINLLKJFPJ; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::Prop::DuelChimeraProxy*, ::System::UInt32>>* GBINLLKJFPJ; // 0x20
 		::LJEBKOIENMG* MKKLHFCCCNF; // 0x28
 		::System::Single LLNIGIGFCEA; // 0x30
 		::System::Void _ctor(::LJEBKOIENMG* a1, ::DLECIKAMKEG* a2)

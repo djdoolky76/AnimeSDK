@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Threading::Tasks
 {
@@ -11,6 +11,6 @@ namespace System::Threading::Tasks
 	class TaskCompletionSource_1 : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::Task* m_task; // 0x0
+		::System::Threading::Tasks::Task_1<T>* m_task; // 0x0
 	};
 }

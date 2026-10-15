@@ -5,6 +5,8 @@ namespace RPG::Client { class StaticListView; }
 namespace RPG::Client { class StaticListViewItem; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_MONONUMSCROLLCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xD854A20)
@@ -51,8 +53,8 @@ namespace RPG::Client
 		::System::Single _LastProgress; // 0x60
 		::System::Byte _padding3[0x4];
 		::System::Action* _OnPlayEnd; // 0x68
-		::System::Action* _OnProgressChanged; // 0x70
-		::System::Action* _OnProgressChangedLuaCallback; // 0x78
+		::System::Action_1<::System::Single>* _OnProgressChanged; // 0x70
+		::System::Action_2<::XLua::LuaTable*, ::System::Single>* _OnProgressChangedLuaCallback; // 0x78
 		::XLua::LuaTable* _LuaSelf; // 0x80
 		::System::Void _ctor()
 		{
@@ -89,14 +91,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONONUMSCROLLCONTROLLER_FORCEFINISH_OFFSET))(this);
 		}
 
-		::System::Void RegisterLuaProgressCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void RegisterLuaProgressCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONONUMSCROLLCONTROLLER_REGISTERLUAPROGRESSCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONONUMSCROLLCONTROLLER_REGISTERLUAPROGRESSCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterProgressCallback(::System::Action* a1)
+		::System::Void RegisterProgressCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONONUMSCROLLCONTROLLER_REGISTERPROGRESSCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONONUMSCROLLCONTROLLER_REGISTERPROGRESSCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDestroy()

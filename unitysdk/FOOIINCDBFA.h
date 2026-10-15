@@ -12,6 +12,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/AI/NavMeshHit.h"
 #include "unitysdk/UnityEngine/AI/NavMeshLinkData.h"
 class DGMBJNAPLOE;
@@ -23,9 +24,8 @@ class PEDAPLLONJD;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterInputData; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AsyncOperation; }
@@ -137,7 +137,7 @@ inline static constexpr unsigned int FOOIINCDBFA_TypeDefinitionIndex = 57121;
 		::NLMEGJGJBNN* FBCJIDGPCIL; // 0x18
 		::UnityEngine::AI::NavMesh_OnNavMeshChanged* KGJKGLMOANO; // 0x20
 		::RPG::GameCore::TransformComponent* LMCMCFHLJEJ; // 0x28
-		::System::Action* JBJPANPDJMF; // 0x30
+		::System::Action_1<::UnityEngine::AsyncOperation*>* JBJPANPDJMF; // 0x30
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::AsyncOperation*, ::UnityEngine::AI::NavMeshPath*>* FBNNEBOGJPO; // 0x38
 		::NJFHGODIBPN* HNHCPOJKNCC; // 0x40
 		::UnityEngine::AsyncOperation* FFKAGEFOIIP; // 0x48
@@ -487,9 +487,9 @@ inline static constexpr unsigned int FOOIINCDBFA_TypeDefinitionIndex = 57121;
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + FOOIINCDBFA_IMOIECOGHHO_OFFSET))(this, a1);
 		}
 
-		::System::Boolean IMOIECOGHHO_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3)
+		::System::Boolean IMOIECOGHHO_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::System::Single> a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + FOOIINCDBFA_IMOIECOGHHO_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + FOOIINCDBFA_IMOIECOGHHO_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean PHDJOPANEKC(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)

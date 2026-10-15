@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class AAFIACIMMHE;
 namespace RPG::Client::MechCraft::View { class MechCraftIntegrationBarControlBinder; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -34,7 +34,7 @@ namespace RPG::Client::MechCraft::View
 		::System::Int32 _MaxPercent_k__BackingField; // 0x38
 		::System::Byte _padding0[0x4];
 		::AAFIACIMMHE* _DivisionLevelUpRule_k__BackingField; // 0x40
-		::System::Nullable* ACOBAMHHFMI; // 0x48
+		::System::Nullable_1<::System::Int32> ACOBAMHHFMI; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_CTOR_OFFSET))(this);
@@ -70,29 +70,29 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_SET_CURRENTPERCENT_OFFSET))(this, a1);
 		}
 
-		::System::Void KANMCJHEFJJ(::System::Nullable* a1, ::System::Int32 a2)
+		::System::Void KANMCJHEFJJ(::System::Nullable_1<::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_KANMCJHEFJJ_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_KANMCJHEFJJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JEJLPHKIHLB(::System::Nullable* a1, ::System::Int32 a2)
+		::System::Void JEJLPHKIHLB(::System::Nullable_1<::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_JEJLPHKIHLB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_JEJLPHKIHLB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LOBBADGMBOL(::System::Nullable* a1, ::System::Int32 a2)
+		::System::Void LOBBADGMBOL(::System::Nullable_1<::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_LOBBADGMBOL_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_LOBBADGMBOL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void HLKJLDBCMAE(::System::Nullable* a1, ::System::Int32 a2)
+		::System::Void HLKJLDBCMAE(::System::Nullable_1<::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_HLKJLDBCMAE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_HLKJLDBCMAE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GNOJMLKKHJP(::System::Nullable* a1, ::System::Int32 a2)
+		::System::Void GNOJMLKKHJP(::System::Nullable_1<::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_GNOJMLKKHJP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL_GNOJMLKKHJP_OFFSET))(this, a1, a2);
 		}
 
 	};

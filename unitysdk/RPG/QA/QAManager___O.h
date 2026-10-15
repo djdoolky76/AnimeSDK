@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RspHandler; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Application_LogCallback; }
 
 namespace RPG::QA
@@ -18,14 +19,14 @@ namespace RPG::QA
 			return (::UnityEngine::Application_LogCallback**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5D0);
 		}
 
-		static ::System::Action** StaticGet__2____IsSendLastErrorMessageSuccess()
+		static ::System::Action_1<::System::Boolean>** StaticGet__2____IsSendLastErrorMessageSuccess()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5D8);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5D8);
 		}
 
-		static ::System::Action** StaticGet__0___SendMessage()
+		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet__0___SendMessage()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5E0);
+			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5E0);
 		}
 
 		static ::RPG::Client::RspHandler** StaticGet__3____OnCmdGmTalkScNotify()

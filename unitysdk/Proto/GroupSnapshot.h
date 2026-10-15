@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
@@ -52,14 +52,14 @@ namespace Proto
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
 		::System::UInt32 groupState_; // 0x38
 		::System::UInt32 groupId_; // 0x3C
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GroupSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CB0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::GroupSnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CB0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_entityList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::EntitySnapshot*>** StaticGet__repeated_entityList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CB8);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::EntitySnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CB8);
 		}
 
 		static ::System::Object** StaticGet__map_propertyMap_codec()
@@ -67,14 +67,14 @@ namespace Proto
 			return (::System::Object**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CC0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_activeMcvKeyList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::ActiveMCVKeySnapshot*>** StaticGet__repeated_activeMcvKeyList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CC8);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::ActiveMCVKeySnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CC8);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_activeSubmissionList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_activeSubmissionList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CD0);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CD0);
 		}
 
 		// static const ::System::Object GroupIdFieldNumber; // 0x0
@@ -98,9 +98,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GROUPSNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GroupSnapshot*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_GROUPSNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::GroupSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_GROUPSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

@@ -4,6 +4,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_UGCINTERFACE__POSTBINARY_D__49_CTOR_OFFSET UNITYSDK_OFFSET(0xB060900)
@@ -22,7 +23,7 @@ namespace MiHoYo::SDK
 	{
 	public:
 		::System::String* strUrl; // 0x10
-		::System::Action* completeCallback; // 0x18
+		::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* completeCallback; // 0x18
 		::Il2CppArray<::System::Byte>* body; // 0x20
 		::System::Action* timeoutCallback; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x30

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MKHNMHOHEAK.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class FiveDimRenderingPanelRuntime;
 class HNLKNLJBHDD;
@@ -8,7 +9,6 @@ class JEHEMLENCIE;
 class KPCDEJGJHBK;
 namespace RPG::GameCore { class TeamTowersBossBrickPatchConfig; }
 namespace RPG::GameCore { class TeamTowersBossConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -92,14 +92,14 @@ inline static constexpr unsigned int BDMGLFNMFBD_TypeDefinitionIndex = 79116;
 			return ((::System::Void(*)(::PVOID, ::KPCDEJGJHBK*))((::PBYTE)hIl2Cpp + BDMGLFNMFBD_CGNOBOOCGNB_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* KGHIMLBMPOL()
+		::System::Nullable_1<::UnityEngine::Vector3> KGHIMLBMPOL()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + BDMGLFNMFBD_KGHIMLBMPOL_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + BDMGLFNMFBD_KGHIMLBMPOL_OFFSET))(this);
 		}
 
-		::System::Nullable* CIAFBMPJDIP()
+		::System::Nullable_1<::UnityEngine::Vector3> CIAFBMPJDIP()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + BDMGLFNMFBD_CIAFBMPJDIP_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + BDMGLFNMFBD_CIAFBMPJDIP_OFFSET))(this);
 		}
 
 		::System::Void KGDIPFNECJH()

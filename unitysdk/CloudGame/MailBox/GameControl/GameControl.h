@@ -6,7 +6,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 namespace CloudGame::MailBox { class Mailbox; }
 namespace CloudGame::MailBox { class Mailbox_ReceiveCallbackHandler; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC1EBD0)
 #define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_CONNECT_OFFSET UNITYSDK_OFFSET(0x1BC1E2A0)
@@ -33,9 +33,9 @@ namespace CloudGame::MailBox::GameControl
 			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)UnitySDK::FromName("CloudGame.MailBox.GameControl", "GameControl")->GetStaticField(0x2E9D0);
 		}
 
-		static ::System::Action** StaticGet_OnReceiveData()
+		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet_OnReceiveData()
 		{
-			return (::System::Action**)UnitySDK::FromName("CloudGame.MailBox.GameControl", "GameControl")->GetStaticField(0x2E9D8);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("CloudGame.MailBox.GameControl", "GameControl")->GetStaticField(0x2E9D8);
 		}
 
 		static ::CloudGame::MailBox::Mailbox** StaticGet_mailbox()

@@ -5,7 +5,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 #define MESSAGEPACK_FORMATTERS_NILFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB77ED0)
 #define MESSAGEPACK_FORMATTERS_NILFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB77EA0)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class NilFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::MessagePack::Nil>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "NilFormatter")->GetStaticField(0x251C0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::MessagePack::Nil>**)UnitySDK::FromName("MessagePack.Formatters", "NilFormatter")->GetStaticField(0x251C0);
 		}
 
 		::System::Void _ctor()

@@ -4,6 +4,7 @@
 namespace R3 { template <typename T> class Observer_1; }
 namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { template <typename T> class Action_1; }
 
 namespace R3
 {
@@ -14,9 +15,9 @@ namespace R3
 	{
 	public:
 		::R3::Observer_1<T>* _observer_P; // 0x0
-		::System::Action* _onNext_P; // 0x0
-		::System::Action* _onErrorResume_P; // 0x0
-		::System::Action* _onCompleted_P; // 0x0
+		::System::Action_1<T>* _onNext_P; // 0x0
+		::System::Action_1<::System::Exception*>* _onErrorResume_P; // 0x0
+		::System::Action_1<::R3::Result>* _onCompleted_P; // 0x0
 		::System::Action* _onDispose_P; // 0x0
 	};
 }

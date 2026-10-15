@@ -15,8 +15,8 @@ namespace RPG::GameCore { class LevelNPCPossessionInfo; }
 namespace RPG::GameCore { class NpcPossessionEffectConfig; }
 namespace RPG::GameCore { class PossessionConfigRow; }
 namespace RPG::GameCore { class TriggerEffect; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
@@ -53,7 +53,7 @@ inline static constexpr unsigned int GNHOCJLBCEB_BJFFMGPIPJK_TypeDefinitionIndex
 	class GNHOCJLBCEB_BJFFMGPIPJK : public ::System::Object
 	{
 	public:
-		::System::Action* LMONILAPCFA; // 0x10
+		::System::Action_1<::UnityEngine::GameObject*>* LMONILAPCFA; // 0x10
 		::GNHOCJLBCEB_IJEOCDIFFME DHNLFNGPPHE; // 0x18
 		::System::String* _Category_k__BackingField; // 0x28
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x30

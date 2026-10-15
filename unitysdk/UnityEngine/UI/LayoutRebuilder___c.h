@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Component; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI { class LayoutRebuilder; }
 
 #define UNITYENGINE_UI_LAYOUTREBUILDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F524E60)
@@ -23,14 +23,14 @@ namespace UnityEngine::UI
 	class LayoutRebuilder___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__13_1()
+		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_1()
 		{
-			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36AE0);
+			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36AE0);
 		}
 
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__13_3()
+		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_3()
 		{
-			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36AE8);
+			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36AE8);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -38,14 +38,14 @@ namespace UnityEngine::UI
 			return (::System::Object**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36AF0);
 		}
 
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__13_2()
+		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_2()
 		{
-			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36AF8);
+			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36AF8);
 		}
 
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__13_0()
+		static ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>** StaticGet___9__13_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36B00);
+			return (::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>**)UnitySDK::FromName("UnityEngine.UI", "<>c")->GetStaticField(0x36B00);
 		}
 
 		static ::System::Predicate_1<::UnityEngine::Component*>** StaticGet___9__11_0()

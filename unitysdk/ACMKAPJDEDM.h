@@ -5,7 +5,7 @@ namespace RPG::GameCore { class AttachAvatarChange; }
 namespace RPG::GameCore { class AvatarChangeTemplate; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define ACMKAPJDEDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB124A30)
 #define ACMKAPJDEDM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB124E90)
@@ -21,8 +21,8 @@ inline static constexpr unsigned int ACMKAPJDEDM_TypeDefinitionIndex = 54838;
 		::RPG::GameCore::AvatarChangeTemplate* JILGFHGMAAC; // 0x28
 		::KFELGAIGHAP* FEINADIKCAB; // 0x30
 		::KFELGAIGHAP* IOIINLJHFHH; // 0x38
-		::System::Action* LLHCINBIBMJ; // 0x40
-		::System::Action* CLOMEGLHGOE; // 0x48
+		::System::Action_1<::RPG::GameCore::GameEntity*>* LLHCINBIBMJ; // 0x40
+		::System::Action_1<::RPG::GameCore::GameEntity*>* CLOMEGLHGOE; // 0x48
 		::KFELGAIGHAP* FGKOGMMBNFG; // 0x50
 		::KFELGAIGHAP* OMBIIGIJFIA; // 0x58
 		::KFELGAIGHAP* KBLLLKLEIOD; // 0x60

@@ -5,6 +5,7 @@
 namespace MiHoYo::SDK { class Web; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCEAB10)
 #define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS14_0__BINDIDENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x1BCF3470)
@@ -17,7 +18,7 @@ namespace MiHoYo::SDK::Win
 	class BindManager___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::System::Action* __9__1; // 0x18
 		::System::Void _ctor()
 		{

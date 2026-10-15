@@ -12,7 +12,7 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Net::Http::Headers { class HttpRequestHeaders; }
 namespace System::Threading { class CancellationTokenSource; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_NET_HTTP_HTTPCLIENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE5E0D0)
 #define SYSTEM_NET_HTTP_HTTPCLIENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE5D5E0)
@@ -70,34 +70,34 @@ namespace System::Net::Http
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_DISPOSE_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task* PostAsync(::System::String* a1, ::System::Net::Http::HttpContent* a2)
+		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* PostAsync(::System::String* a1, ::System::Net::Http::HttpContent* a2)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::String*, ::System::Net::Http::HttpContent*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_POSTASYNC_OFFSET))(this, a1, a2);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::String*, ::System::Net::Http::HttpContent*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_POSTASYNC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::Tasks::Task* SendAsync(::System::Net::Http::HttpRequestMessage* a1)
+		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* a1)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_OFFSET))(this, a1);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task* SendAsync_1(::System::Net::Http::HttpRequestMessage* a1, ::System::Threading::CancellationToken a2)
+		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync_1(::System::Net::Http::HttpRequestMessage* a1, ::System::Threading::CancellationToken a2)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_1_OFFSET))(this, a1, a2);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::Tasks::Task* SendAsync_2(::System::Net::Http::HttpRequestMessage* a1, ::System::Net::Http::HttpCompletionOption a2, ::System::Threading::CancellationToken a3)
+		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync_2(::System::Net::Http::HttpRequestMessage* a1, ::System::Net::Http::HttpCompletionOption a2, ::System::Threading::CancellationToken a3)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Net::Http::HttpCompletionOption, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Net::Http::HttpCompletionOption, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task* SendAsyncWorker(::System::Net::Http::HttpRequestMessage* a1, ::System::Net::Http::HttpCompletionOption a2, ::System::Threading::CancellationToken a3)
+		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsyncWorker(::System::Net::Http::HttpRequestMessage* a1, ::System::Net::Http::HttpCompletionOption a2, ::System::Threading::CancellationToken a3)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Net::Http::HttpCompletionOption, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNCWORKER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Net::Http::HttpCompletionOption, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNCWORKER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task* __n__0(::System::Net::Http::HttpRequestMessage* a1, ::System::Threading::CancellationToken a2)
+		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* __n__0(::System::Net::Http::HttpRequestMessage* a1, ::System::Threading::CancellationToken a2)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT___N__0_OFFSET))(this, a1, a2);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCLIENT___N__0_OFFSET))(this, a1, a2);
 		}
 
 	};

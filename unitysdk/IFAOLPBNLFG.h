@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class Effect_Transform; }
 namespace RPG::GameCore { class TimelineOverrideEffectTransformOffsetParams; }
 namespace RPG::GameCore { class TimelineOverrideEffectTransformRotateParams; }
-namespace System { class Nullable; }
 
 #define IFAOLPBNLFG_BEKFLCJHBGH_OFFSET UNITYSDK_OFFSET(0x15F08D50)
 #define IFAOLPBNLFG_CTOR_OFFSET UNITYSDK_OFFSET(0x15F09050)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int IFAOLPBNLFG_TypeDefinitionIndex = 57360;
 		::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* NDJHBLBHAPM; // 0x38
 		::System::Boolean JHEHFCGCDDG; // 0x40
 		::System::Boolean FGCNCDGJOAL; // 0x41
-		::System::Nullable* CMADHKDPFMM; // 0x42
+		::System::Nullable_1<::System::Boolean> CMADHKDPFMM; // 0x42
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFAOLPBNLFG_CTOR_OFFSET))(this);

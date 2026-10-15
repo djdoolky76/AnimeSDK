@@ -5,9 +5,9 @@
 class BGMGOKBDCDK;
 class FCOEMCEDLNL;
 namespace Google::Protobuf { class ByteString; }
-namespace System { class Action; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 
 #define BGMGOKBDCDK_CIHFGJDCHIA_OFFSET UNITYSDK_OFFSET(0xB18CC50)
 #define BGMGOKBDCDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB18C950)
@@ -34,9 +34,9 @@ inline static constexpr unsigned int BGMGOKBDCDK_TypeDefinitionIndex = 67912;
 		::System::Boolean _IsDirty_k__BackingField; // 0x30
 		::System::Byte _padding0[0x3];
 		::RPG::GameCore::ServerPrefsType OEOFJBLFMJP; // 0x34
-		static ::System::Action** StaticGet_OFPDBJCHGIM()
+		static ::System::Action_1<::BGMGOKBDCDK*>** StaticGet_OFPDBJCHGIM()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "BGMGOKBDCDK")->GetStaticField(0x6E9E0);
+			return (::System::Action_1<::BGMGOKBDCDK*>**)UnitySDK::FromName("", "BGMGOKBDCDK")->GetStaticField(0x6E9E0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::ServerPrefsType a1, ::System::Type* a2, ::System::UInt32 a3)
@@ -89,9 +89,9 @@ inline static constexpr unsigned int BGMGOKBDCDK_TypeDefinitionIndex = 67912;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGMGOKBDCDK_EKFEBJHOMAB_OFFSET))(this);
 		}
 
-		static ::System::Void OBMHAOFAMJL(::System::Action* a1)
+		static ::System::Void OBMHAOFAMJL(::System::Action_1<::BGMGOKBDCDK*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + BGMGOKBDCDK_OBMHAOFAMJL_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::BGMGOKBDCDK*>*))((::PBYTE)hIl2Cpp + BGMGOKBDCDK_OBMHAOFAMJL_OFFSET))(a1);
 		}
 
 	};

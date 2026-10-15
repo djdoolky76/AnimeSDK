@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -17,69 +17,69 @@ namespace Cysharp::Threading::Tasks
 			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_1()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_2()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_3()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_4()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_5()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_5()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_6()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_6()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_7()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_7()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_8()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_8()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_9()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_9()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_10()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_10()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_11()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_11()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__15_12()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__15_12()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x0);
 		}
 
 	};

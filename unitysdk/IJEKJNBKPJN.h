@@ -28,6 +28,7 @@ namespace RPG::GameCore { class LodTemplate; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -146,7 +147,7 @@ inline static constexpr unsigned int IJEKJNBKPJN_TypeDefinitionIndex = 57144;
 		::System::String* OMIGKGPDBEB; // 0x30
 		::UnityEngine::Transform* BCHMBHEMFAK; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* MCJPJBHPMLN; // 0x40
-		::System::Action* DEOAJCAJNAG; // 0x48
+		::System::Action_1<::System::Boolean>* DEOAJCAJNAG; // 0x48
 		::RPG::Client::Promises::Promise* LPOMLIBIIFG; // 0x50
 		::System::Collections::Generic::List_1<::UnityEngine::ObjectInstantiateRequest*>* AJGGGLMIAGP; // 0x58
 		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* HJDBFDAMKGA; // 0x60
@@ -155,7 +156,7 @@ inline static constexpr unsigned int IJEKJNBKPJN_TypeDefinitionIndex = 57144;
 		::RPG::Client::Promises::Promise* OGCGOLDDMJF; // 0x78
 		::Il2CppArray<::System::Object*>* DEAGOMKCHBA; // 0x80
 		::System::Action* FBMAMCJJNGD; // 0x88
-		::System::Action* ADIEANHBNCH; // 0x90
+		::System::Action_1<::UnityEngine::GameObject*>* ADIEANHBNCH; // 0x90
 		::RPG::Client::Promises::Promise* PDDAMDMEKLL; // 0x98
 		::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>* PCBOGEDJPDC; // 0xA0
 		::RPG::Client::MockAnimator* CBPLANOPAPP; // 0xA8
@@ -168,7 +169,7 @@ inline static constexpr unsigned int IJEKJNBKPJN_TypeDefinitionIndex = 57144;
 		::System::Action* OHALDCMLCGD; // 0xE0
 		::RPG::Client::RootMotionHandler* ALKMPEBIMHH; // 0xE8
 		::System::Action* OOILHGPFKFI; // 0xF0
-		::System::Action* LEEEFJLOCBA; // 0xF8
+		::System::Action_1<::IJEKJNBKPJN*>* LEEEFJLOCBA; // 0xF8
 		::RPG::Client::CharacterShaderPropertyTransition* GMKNPOLBNDL; // 0x100
 		::UnityEngine::CapsuleCollider* PLDHIKGPHKG; // 0x108
 		::IJEKJNBKPJN_NGDMBOHNGIA* AJNGECOMNCP; // 0x110
@@ -277,9 +278,9 @@ inline static constexpr unsigned int IJEKJNBKPJN_TypeDefinitionIndex = 57144;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJEKJNBKPJN__ONINITOWNERREF_OFFSET))(this);
 		}
 
-		::System::Void LMCEDCHJKFF(::RPG::Client::AssemNPC* a1, ::RPG::GameCore::LevelNPCPossessionInfo* a2, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>* a3, ::RPG::Client::EAssemblyNPC a4, ::System::String* a5, ::UnityEngine::Vector3 a6, ::System::UInt32 a7, ::System::Action* a8)
+		::System::Void LMCEDCHJKFF(::RPG::Client::AssemNPC* a1, ::RPG::GameCore::LevelNPCPossessionInfo* a2, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>* a3, ::RPG::Client::EAssemblyNPC a4, ::System::String* a5, ::UnityEngine::Vector3 a6, ::System::UInt32 a7, ::System::Action_1<::IJEKJNBKPJN*>* a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AssemNPC*, ::RPG::GameCore::LevelNPCPossessionInfo*, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>*, ::RPG::Client::EAssemblyNPC, ::System::String*, ::UnityEngine::Vector3, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_LMCEDCHJKFF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AssemNPC*, ::RPG::GameCore::LevelNPCPossessionInfo*, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>*, ::RPG::Client::EAssemblyNPC, ::System::String*, ::UnityEngine::Vector3, ::System::UInt32, ::System::Action_1<::IJEKJNBKPJN*>*))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_LMCEDCHJKFF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void AFLBCNKMKDG(::System::String* a1, ::System::UInt32 a2)
@@ -557,9 +558,9 @@ inline static constexpr unsigned int IJEKJNBKPJN_TypeDefinitionIndex = 57144;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_DEHIOKLHFPP_OFFSET))(this);
 		}
 
-		::System::Void NGBACMKLIKD(::System::String* a1, ::System::Action* a2)
+		::System::Void NGBACMKLIKD(::System::String* a1, ::System::Action_1<::KLKMCNOECAL*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_NGBACMKLIKD_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::KLKMCNOECAL*>*))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_NGBACMKLIKD_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::EntityLoadState get_LoadState()
@@ -632,9 +633,9 @@ inline static constexpr unsigned int IJEKJNBKPJN_TypeDefinitionIndex = 57144;
 			return ((::RPG::Client::RootMotionHandler*(*)(::PVOID))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_LKLKCMHOCKD_OFFSET))(this);
 		}
 
-		::System::Void CBAGHIMPPJP(::System::Action* a1)
+		::System::Void CBAGHIMPPJP(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_CBAGHIMPPJP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + IJEKJNBKPJN_CBAGHIMPPJP_OFFSET))(this, a1);
 		}
 
 		::System::Void KOMIKOGFAMD()

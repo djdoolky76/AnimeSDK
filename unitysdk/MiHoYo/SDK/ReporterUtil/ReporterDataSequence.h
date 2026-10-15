@@ -3,11 +3,11 @@
 #include "unitysdk/MiHoYo/SDK/ReporterUtil/ReporterDataItem_ItemField.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace MiHoYo::SDK::ReporterUtil { class FulledHandler; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterDataItem; }
 namespace MiHoYo::SDK::ReporterUtil { template <typename T> class AnalyzerResult_1; }
 namespace MiHoYo::SDK::ReporterUtil { template <typename T> class Analyzer_1; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADDITEM_OFFSET UNITYSDK_OFFSET(0xB031480)
@@ -102,14 +102,14 @@ namespace MiHoYo::SDK::ReporterUtil
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_ADDITEM_OFFSET))(this, a1);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Begin(::System::Boolean a1, ::System::Boolean a2, ::System::Nullable* a3)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Begin(::System::Boolean a1, ::System::Boolean a2, ::System::Nullable_1<::System::DateTime> a3)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_BEGIN_OFFSET))(this, a1, a2, a3);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_BEGIN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* End(::System::Nullable* a1)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* End(::System::Nullable_1<::System::DateTime> a1)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_END_OFFSET))(this, a1);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATASEQUENCE_END_OFFSET))(this, a1);
 		}
 
 		static ::System::Int32 CalculateAverageValue(::Il2CppArray<::MiHoYo::SDK::ReporterUtil::ReporterDataItem*>* a1, ::System::Int32 a2, ::System::Int32 a3)

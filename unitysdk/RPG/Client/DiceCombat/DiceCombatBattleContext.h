@@ -22,9 +22,9 @@ namespace RPG::Client::DiceCombat { class DiceCombatBattlePlayerInfo; }
 namespace RPG::Client::DiceCombat { class DiceCombatForceRefreshEvent; }
 namespace RPG::Client::DiceCombat { class DiceCombatPerformanceBattleEvent; }
 namespace RPG::LittleGameShare::DiceCombatCore { class DiceCombatPreviewInfo; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -281,14 +281,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT_ROLLPLAYERLIMITDICE_OFFSET))(this);
 		}
 
-		::System::Void AppendPerformanceEventHandler(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void AppendPerformanceEventHandler(::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT_APPENDPERFORMANCEEVENTHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT_APPENDPERFORMANCEEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AppendForceRefreshEventHandler(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void AppendForceRefreshEventHandler(::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT_APPENDFORCEREFRESHEVENTHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLECONTEXT_APPENDFORCEREFRESHEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FireEvent(::CNDKPCNOEJB* a1)

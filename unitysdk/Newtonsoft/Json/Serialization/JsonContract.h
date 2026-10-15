@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Serialization/JsonContractType.h"
 #include "unitysdk/Newtonsoft/Json/ReadType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace Newtonsoft::Json { class JsonConverter; }
 namespace Newtonsoft::Json::Serialization { class ErrorContext; }
 namespace Newtonsoft::Json::Serialization { class SerializationCallback; }
 namespace Newtonsoft::Json::Serialization { class SerializationErrorCallback; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
@@ -70,7 +70,7 @@ namespace Newtonsoft::Json::Serialization
 		::Newtonsoft::Json::Serialization::JsonContractType ContractType; // 0x70
 		::System::Boolean IsReadOnlyOrFixedSize; // 0x74
 		::System::Boolean IsEnum; // 0x75
-		::System::Nullable* _IsReference_k__BackingField; // 0x76
+		::System::Nullable_1<::System::Boolean> _IsReference_k__BackingField; // 0x76
 		::System::Boolean IsSealed; // 0x78
 		::System::Void _ctor(::System::Type* a1)
 		{
@@ -97,14 +97,14 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT_SET_CREATEDTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_IsReference()
+		::System::Nullable_1<::System::Boolean> get_IsReference()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT_GET_ISREFERENCE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT_GET_ISREFERENCE_OFFSET))(this);
 		}
 
-		::System::Void set_IsReference(::System::Nullable* a1)
+		::System::Void set_IsReference(::System::Nullable_1<::System::Boolean> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT_SET_ISREFERENCE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT_SET_ISREFERENCE_OFFSET))(this, a1);
 		}
 
 		::Newtonsoft::Json::JsonConverter* get_Converter()

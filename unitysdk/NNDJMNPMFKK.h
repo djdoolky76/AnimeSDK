@@ -3,8 +3,8 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
 class NNDJMNPMFKK_EBNKHLELOOP;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define NNDJMNPMFKK_ACBJDIHIEJO_OFFSET UNITYSDK_OFFSET(0x1DDB0240)
@@ -60,7 +60,7 @@ inline static constexpr unsigned int NNDJMNPMFKK_TypeDefinitionIndex = 43917;
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Object*>* HJJPEFLOBPN; // 0x10
-		::System::Action* EBNPCMJECGG; // 0x18
+		::System::Action_2<::Il2CppArray<::System::Byte>*, ::System::Int32>* EBNPCMJECGG; // 0x18
 		::System::Collections::Generic::List_1<::System::Object*>* KOGBOMLKGJA; // 0x20
 		::System::Collections::Generic::List_1<::System::Object*>* LLEHGCFOJJO; // 0x28
 		::System::Collections::Generic::List_1<::System::Object*>* IHKNCBKKMPP; // 0x30
@@ -130,9 +130,9 @@ inline static constexpr unsigned int NNDJMNPMFKK_TypeDefinitionIndex = 43917;
 		// static const ::System::Object PAAJFKOLBOA; // 0x0
 		// static const ::System::Object NFPMMKKBHIP; // 0x0
 		// static const ::System::Object GNGODFCENDP; // 0x0
-		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Action* a3)
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Action_2<::Il2CppArray<::System::Byte>*, ::System::Int32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + NNDJMNPMFKK_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Action_2<::Il2CppArray<::System::Byte>*, ::System::Int32>*))((::PBYTE)hIl2Cpp + NNDJMNPMFKK_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()

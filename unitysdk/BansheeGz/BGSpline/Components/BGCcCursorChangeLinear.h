@@ -6,8 +6,8 @@ namespace BansheeGz::BGSpline::Components { class BGCcCursor; }
 namespace BansheeGz::BGSpline::Components { class BGCcCursorChangeLinear_PointReachedEvent; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointField; }
-namespace System { class EventHandler; }
 namespace System { class Object; }
+namespace System { template <typename T> class EventHandler_1; }
 
 #define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_ADD_POINTREACHED_OFFSET UNITYSDK_OFFSET(0x1C4E5BC0)
 #define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_CHECKDELAYATPOINT_OFFSET UNITYSDK_OFFSET(0x1C4E8BE0)
@@ -52,7 +52,7 @@ namespace BansheeGz::BGSpline::Components
 	class BGCcCursorChangeLinear : public ::BansheeGz::BGSpline::Components::BGCcWithCursor
 	{
 	public:
-		::System::EventHandler* PointReached; // 0x58
+		::System::EventHandler_1<::System::Object*>* PointReached; // 0x58
 		::System::Boolean useFixedUpdate; // 0x60
 		::System::Byte _padding0[0x3];
 		::System::Single speed; // 0x64
@@ -78,14 +78,14 @@ namespace BansheeGz::BGSpline::Components
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_PointReached(::System::EventHandler* a1)
+		::System::Void add_PointReached(::System::EventHandler_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_ADD_POINTREACHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Object*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_ADD_POINTREACHED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_PointReached(::System::EventHandler* a1)
+		::System::Void remove_PointReached(::System::EventHandler_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_REMOVE_POINTREACHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Object*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_REMOVE_POINTREACHED_OFFSET))(this, a1);
 		}
 
 		::BansheeGz::BGSpline::Components::BGCcCursorChangeLinear_OverflowControlEnum get_OverflowControl()

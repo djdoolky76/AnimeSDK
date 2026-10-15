@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class HIAMBDKHMIJ;
 class JIAFOPELMJJ;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JEJFGFKAKFI_BJLJAHMLKIO_OFFSET UNITYSDK_OFFSET(0x1662D0A0)
@@ -25,7 +25,7 @@ inline static constexpr unsigned int JEJFGFKAKFI_TypeDefinitionIndex = 68300;
 	{
 	public:
 		::JIAFOPELMJJ* MIPPNCGOJNM; // 0x10
-		::System::Action* OJENMOELNLN; // 0x18
+		::System::Action_1<::System::Collections::Generic::List_1<::System::String*>*>* OJENMOELNLN; // 0x18
 		::System::Int64 _downloadSize_k__BackingField; // 0x20
 		::System::Boolean _InUpdate_k__BackingField; // 0x28
 		::System::Void _ctor()

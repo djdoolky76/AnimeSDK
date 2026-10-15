@@ -7,7 +7,7 @@ class DFGLKHAAGJB;
 class LGGELBFHJIM;
 namespace RPG::Client::TeamTowers { class TeamTowersPlayerSkillGroupViewModel; }
 namespace RPG::Client::TeamTowers { class TeamTowersPlayerSkillViewModel; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -28,7 +28,7 @@ namespace RPG::Client::TeamTowers
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*>* _PlayerSkillGroups; // 0x10
-		::System::Action* _RefreshOverviewCallBack; // 0x18
+		::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>* _RefreshOverviewCallBack; // 0x18
 		::LGGELBFHJIM* _Repository; // 0x20
 		::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel* _SelectedSkill; // 0x28
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TeamTowersPlayerSkillType, ::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*>* _PlayerSkillGroupDict; // 0x30
@@ -38,9 +38,9 @@ namespace RPG::Client::TeamTowers
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL_CTOR_OFFSET))(this);
 		}
 
-		::System::Void RegisterOverviewRefreshCallBack(::System::Action* a1)
+		::System::Void RegisterOverviewRefreshCallBack(::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL_REGISTEROVERVIEWREFRESHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL_REGISTEROVERVIEWREFRESHCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitPlayerSkillGroups()

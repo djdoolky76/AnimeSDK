@@ -5,8 +5,8 @@
 class AJEKOLJDHAK;
 class IKMOKCKMNMC;
 namespace RPG::Client { class UIPrefabLoader_LoadResult; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
 #define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3E9030)
@@ -22,7 +22,7 @@ namespace RPG::Client
 	public:
 		::IKMOKCKMNMC* cacheEntry; // 0x10
 		::AJEKOLJDHAK* viewCache; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action_1<::UnityEngine::GameObject*>* callback; // 0x20
 		::System::String* path; // 0x28
 		::RPG::Client::ViewCacheType cacheType; // 0x30
 		::System::Void _ctor()

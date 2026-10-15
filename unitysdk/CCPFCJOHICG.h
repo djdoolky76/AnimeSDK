@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JHPHMGHKGEN.h"
 class AGKHOGNMPMO;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 
 #define CCPFCJOHICG_CCTOR_OFFSET UNITYSDK_OFFSET(0xC754080)
 #define CCPFCJOHICG_CTOR_OFFSET UNITYSDK_OFFSET(0xC754070)
@@ -13,10 +14,10 @@ inline static constexpr unsigned int CCPFCJOHICG_TypeDefinitionIndex = 49259;
 	class CCPFCJOHICG : public ::JHPHMGHKGEN
 	{
 	public:
-		::System::Action* EOPEGKLDLLK; // 0x18
-		static ::System::Action** StaticGet_PNAMDCHGGEH()
+		::System::Action_1<::System::Boolean>* EOPEGKLDLLK; // 0x18
+		static ::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>** StaticGet_PNAMDCHGGEH()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "CCPFCJOHICG")->GetStaticField(0x15680);
+			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "CCPFCJOHICG")->GetStaticField(0x15680);
 		}
 
 		::System::Void _ctor()

@@ -6,7 +6,7 @@
 class AFEPOFEOCDI;
 class OCPOIDCNJDA;
 class OMPCEECHGJK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define AMOHLGIOFCH_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0x15589310)
 #define AMOHLGIOFCH_CDEBBIONEDG_OFFSET UNITYSDK_OFFSET(0x15589E30)
@@ -29,7 +29,7 @@ inline static constexpr unsigned int AMOHLGIOFCH_TypeDefinitionIndex = 76658;
 		::Il2CppArray<::UnityEngine::RaycastHit>* HIHPCNKNPNE; // 0x10
 		::AFEPOFEOCDI* FKINCGODJEP; // 0x18
 		::OMPCEECHGJK* PDENFEFCAGN; // 0x20
-		::Entitas::IGroup* BBMGNAHAKGP; // 0x28
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* BBMGNAHAKGP; // 0x28
 		::System::Int32 KHCOAACBFEB; // 0x30
 		::System::Void _ctor(::AFEPOFEOCDI* a1, ::OMPCEECHGJK* a2)
 		{

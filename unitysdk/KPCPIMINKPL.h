@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -16,15 +16,15 @@ inline static constexpr unsigned int KPCPIMINKPL_TypeDefinitionIndex = 43006;
 	class KPCPIMINKPL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple>* OCBIAPBAFOK; // 0x10
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* OCBIAPBAFOK; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPCPIMINKPL_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* a1)
+		::System::Void _ctor_1(::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + KPCPIMINKPL_CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + KPCPIMINKPL_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -32,9 +32,9 @@ inline static constexpr unsigned int KPCPIMINKPL_TypeDefinitionIndex = 43006;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPCPIMINKPL_CLEAR_OFFSET))(this);
 		}
 
-		::System::Boolean LCJMKJPECAP(::System::Nullable* a1)
+		::System::Boolean LCJMKJPECAP(::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + KPCPIMINKPL_LCJMKJPECAP_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>))((::PBYTE)hIl2Cpp + KPCPIMINKPL_LCJMKJPECAP_OFFSET))(this, a1);
 		}
 
 	};

@@ -11,7 +11,7 @@ class JBACCAGFHON;
 class LGHPKEAODPH;
 class MBIAPCBLHCN;
 class PCBNCBNOAAE;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client { class CakeRaceCatDataItem; }
 namespace RPG::Client::CakeRace { class CakeRaceCatRankGameData; }
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
@@ -112,9 +112,9 @@ inline static constexpr unsigned int CPMPDLEPIKP_TypeDefinitionIndex = 78085;
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::ENFDMFGIJDC*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CPMPDLEPIKP_GDFHBFGAPIK_OFFSET))(this, a1, a2);
 		}
 
-		::Entitas::IGroup* OLIPOHKGJDA()
+		::Entitas::IGroup_1<::AGCPAMNLCGN*>* OLIPOHKGJDA()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + CPMPDLEPIKP_OLIPOHKGJDA_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::AGCPAMNLCGN*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CPMPDLEPIKP_OLIPOHKGJDA_OFFSET))(this);
 		}
 
 		::AGCPAMNLCGN* OPKNAACFHPP()

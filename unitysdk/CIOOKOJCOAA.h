@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/B51Racing/UIShowPhase.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
 #define CIOOKOJCOAA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF90440)
 #define CIOOKOJCOAA_GET_PHASE_OFFSET UNITYSDK_OFFSET(0xCF90420)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int CIOOKOJCOAA_TypeDefinitionIndex = 81917;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIOOKOJCOAA_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple LKFJFGPFEJJ(::System::Boolean a1)
+		::System::ValueTuple_2<::System::Boolean, ::System::Boolean> LKFJFGPFEJJ(::System::Boolean a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CIOOKOJCOAA_LKFJFGPFEJJ_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CIOOKOJCOAA_LKFJFGPFEJJ_OFFSET))(this, a1);
 		}
 
 		::System::Void KMOLJNJGEPA(::System::Boolean a1)

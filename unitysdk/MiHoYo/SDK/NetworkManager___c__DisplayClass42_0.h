@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkManager; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAEBE0)
 #define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1BEB1BA0)
@@ -17,7 +17,7 @@ namespace MiHoYo::SDK
 	class NetworkManager___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
 		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{

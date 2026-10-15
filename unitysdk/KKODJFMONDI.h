@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -120,14 +120,14 @@ inline static constexpr unsigned int KKODJFMONDI_TypeDefinitionIndex = 10742;
 			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + KKODJFMONDI_FKKMIGDCFJF_OFFSET))(a1);
 		}
 
-		static ::System::ValueTuple INHJLACGEHD(::System::Type* a1)
+		static ::System::ValueTuple_3<::System::Int32, ::System::Boolean, ::System::Int32> INHJLACGEHD(::System::Type* a1)
 		{
-			return ((::System::ValueTuple(*)(::System::Type*))((::PBYTE)hIl2Cpp + KKODJFMONDI_INHJLACGEHD_OFFSET))(a1);
+			return ((::System::ValueTuple_3<::System::Int32, ::System::Boolean, ::System::Int32>(*)(::System::Type*))((::PBYTE)hIl2Cpp + KKODJFMONDI_INHJLACGEHD_OFFSET))(a1);
 		}
 
-		static ::System::ValueTuple CEMCFEKHPGC(::System::Type* a1)
+		static ::System::ValueTuple_3<::System::Int32, ::System::Boolean, ::System::Int32> CEMCFEKHPGC(::System::Type* a1)
 		{
-			return ((::System::ValueTuple(*)(::System::Type*))((::PBYTE)hIl2Cpp + KKODJFMONDI_CEMCFEKHPGC_OFFSET))(a1);
+			return ((::System::ValueTuple_3<::System::Int32, ::System::Boolean, ::System::Int32>(*)(::System::Type*))((::PBYTE)hIl2Cpp + KKODJFMONDI_CEMCFEKHPGC_OFFSET))(a1);
 		}
 
 		static ::System::String* LLFMFPLDOCA(::System::Type* a1)

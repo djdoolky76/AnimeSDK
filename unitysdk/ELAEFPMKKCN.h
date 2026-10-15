@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/AnimatorClipInfo.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -8,7 +9,6 @@
 class ALMFLCJCHKP;
 class BAMPJJAPJJG;
 namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
@@ -72,9 +72,9 @@ inline static constexpr unsigned int ELAEFPMKKCN_TypeDefinitionIndex = 77796;
 			return ((::Il2CppArray<::UnityEngine::AnimatorClipInfo>*(*)(::ALMFLCJCHKP*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ELAEFPMKKCN_IDMDGMCIGKO_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Nullable* NPFNPABANNL(::ALMFLCJCHKP* a1, ::System::Int32 a2, ::System::Boolean a3)
+		static ::System::Nullable_1<::UnityEngine::AnimatorStateInfo> NPFNPABANNL(::ALMFLCJCHKP* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Nullable*(*)(::ALMFLCJCHKP*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ELAEFPMKKCN_NPFNPABANNL_OFFSET))(a1, a2, a3);
+			return ((::System::Nullable_1<::UnityEngine::AnimatorStateInfo>(*)(::ALMFLCJCHKP*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ELAEFPMKKCN_NPFNPABANNL_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Boolean EILIFDEBPAA(::ALMFLCJCHKP* a1)

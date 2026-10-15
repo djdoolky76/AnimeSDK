@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
 #define MIHOYO_SDK_CONSOLE_COMBOMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC7DC30)
@@ -29,9 +29,9 @@ namespace MiHoYo::SDK::Console
 			return (::System::Comparison_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x34C28);
 		}
 
-		static ::System::Action** StaticGet___9__21_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__21_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x34C30);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x34C30);
 		}
 
 		static ::System::Void _cctor()

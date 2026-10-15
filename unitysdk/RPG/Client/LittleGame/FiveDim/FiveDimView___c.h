@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimView; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD456190)
 #define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD4561C0)
@@ -21,9 +21,9 @@ namespace RPG::Client::LittleGame::FiveDim
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x32BC0);
 		}
 
-		static ::System::Action** StaticGet___9__98_0()
+		static ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimView*>** StaticGet___9__98_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x32BC8);
+			return (::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimView*>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x32BC8);
 		}
 
 		static ::System::Void _cctor()

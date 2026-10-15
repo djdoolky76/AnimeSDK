@@ -5,10 +5,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
@@ -104,9 +104,9 @@ inline static constexpr unsigned int GJMJIENPDDF_TypeDefinitionIndex = 71109;
 			return ((::System::Boolean(*)(::UnityEngine::Collider*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::PDHLJJCMEDJ>*, ::System::Boolean, ::UnityEngine::RaycastHit))((::PBYTE)hIl2Cpp + GJMJIENPDDF_FGGKKPHOPDK_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Nullable* CPJCNKFEEGP(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::RPG::Client::CircleDetectDirection a5, ::UnityEngine::LayerMask a6)
+		static ::System::Nullable_1<::PDHLJJCMEDJ> CPJCNKFEEGP(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::RPG::Client::CircleDetectDirection a5, ::UnityEngine::LayerMask a6)
 		{
-			return ((::System::Nullable*(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::RPG::Client::CircleDetectDirection, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + GJMJIENPDDF_CPJCNKFEEGP_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Nullable_1<::PDHLJJCMEDJ>(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::RPG::Client::CircleDetectDirection, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + GJMJIENPDDF_CPJCNKFEEGP_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Collections::Generic::List_1<::PDHLJJCMEDJ>* LHHDACLJONJ(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::UnityEngine::LayerMask a6, ::System::Boolean a7)
@@ -144,9 +144,9 @@ inline static constexpr unsigned int GJMJIENPDDF_TypeDefinitionIndex = 71109;
 			return ((::System::Collections::Generic::List_1<::PDHLJJCMEDJ>*(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + GJMJIENPDDF_BHPKINNCGIP_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Nullable* MHIIHCEGNAB(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::LayerMask a3)
+		static ::System::Nullable_1<::PDHLJJCMEDJ> MHIIHCEGNAB(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::LayerMask a3)
 		{
-			return ((::System::Nullable*(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + GJMJIENPDDF_MHIIHCEGNAB_OFFSET))(a1, a2, a3);
+			return ((::System::Nullable_1<::PDHLJJCMEDJ>(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + GJMJIENPDDF_MHIIHCEGNAB_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Collections::Generic::List_1<::PDHLJJCMEDJ>* MPFCIJBANME(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::UnityEngine::LayerMask a4, ::System::Boolean a5, ::System::Boolean a6)
@@ -154,9 +154,9 @@ inline static constexpr unsigned int GJMJIENPDDF_TypeDefinitionIndex = 71109;
 			return ((::System::Collections::Generic::List_1<::PDHLJJCMEDJ>*(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::LayerMask, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + GJMJIENPDDF_MPFCIJBANME_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Nullable* IHKDPLHACJN(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::UnityEngine::LayerMask a4, ::System::Boolean a5)
+		static ::System::Nullable_1<::PDHLJJCMEDJ> IHKDPLHACJN(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::UnityEngine::LayerMask a4, ::System::Boolean a5)
 		{
-			return ((::System::Nullable*(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask, ::System::Boolean))((::PBYTE)hIl2Cpp + GJMJIENPDDF_IHKDPLHACJN_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Nullable_1<::PDHLJJCMEDJ>(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask, ::System::Boolean))((::PBYTE)hIl2Cpp + GJMJIENPDDF_IHKDPLHACJN_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::Il2CppArray<::System::Int32>* EEHEGLDGEAO(::System::Int32 a1)

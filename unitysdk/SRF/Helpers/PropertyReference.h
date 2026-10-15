@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace SRF::Helpers { class PropertyValueChangedHandler; }
-namespace System { class Action; }
 namespace System { class Attribute; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
@@ -40,15 +40,15 @@ namespace SRF::Helpers
 		::System::Func_1<::System::Object*>* _getter; // 0x28
 		::System::Object* _target; // 0x30
 		::System::Reflection::PropertyInfo* _property; // 0x38
-		::System::Action* _setter; // 0x40
+		::System::Action_1<::System::Object*>* _setter; // 0x40
 		::System::Void _ctor(::System::Object* a1, ::System::Reflection::PropertyInfo* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::Type* a1, ::System::Func_1<::System::Object*>* a2, ::System::Action* a3, ::Il2CppArray<::System::Attribute*>* a4)
+		::System::Void _ctor_1(::System::Type* a1, ::System::Func_1<::System::Object*>* a2, ::System::Action_1<::System::Object*>* a3, ::Il2CppArray<::System::Attribute*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Func_1<::System::Object*>*, ::System::Action*, ::Il2CppArray<::System::Attribute*>*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Func_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::Il2CppArray<::System::Attribute*>*))((::PBYTE)hIl2Cpp + SRF_HELPERS_PROPERTYREFERENCE_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Object* get_Target()

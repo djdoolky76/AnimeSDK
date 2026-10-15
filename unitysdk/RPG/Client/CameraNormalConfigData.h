@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/VCameraAttackType.h"
 #include "unitysdk/RPG/GameCore/VCameraState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class CameraNormalConfigData; }
@@ -9,7 +10,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class VCameraNormalConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define RPG_CLIENT_CAMERANORMALCONFIGDATA_ADDFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xC931680)
@@ -44,7 +44,7 @@ namespace RPG::Client
 		::System::Single AnchorToAimAngle; // 0x48
 		::System::Single FollowDamp; // 0x4C
 		::System::Single AimDamp; // 0x50
-		::System::Nullable* AimDampY; // 0x54
+		::System::Nullable_1<::System::Single> AimDampY; // 0x54
 		::System::Single Dutch; // 0x5C
 		::System::Single FOV; // 0x60
 		::System::Single NearClipping; // 0x64
@@ -66,11 +66,11 @@ namespace RPG::Client
 		::System::Byte _padding3[0x3];
 		::RPG::GameCore::GameEntity* AnchorTargetEntity; // 0x90
 		::RPG::GameCore::GameEntityList* AnchorTargetEntityList; // 0x98
-		::System::Nullable* AnchorTargetPos; // 0xA0
+		::System::Nullable_1<::UnityEngine::Vector3> AnchorTargetPos; // 0xA0
 		::System::Byte _padding4[0x8];
 		::RPG::GameCore::GameEntity* AimTargetEntity; // 0xB0
 		::RPG::GameCore::GameEntityList* AimTargetEntityList; // 0xB8
-		::System::Nullable* AimTargetPos; // 0xC0
+		::System::Nullable_1<::UnityEngine::Vector3> AimTargetPos; // 0xC0
 		::System::Byte _padding5[0x8];
 		::UnityEngine::Vector3 AnchorPos; // 0xD0
 		::UnityEngine::Vector3 FollowSpericalPos; // 0xDC

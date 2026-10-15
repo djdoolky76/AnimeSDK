@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-namespace System { class EventHandler; }
 namespace System { class Object; }
 namespace System { class RuntimeType; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Runtime::Serialization { class SafeSerializationEventArgs; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
@@ -30,7 +30,7 @@ namespace System::Runtime::Serialization
 		::System::RuntimeType* m_realType; // 0x10
 		::System::Collections::Generic::IList_1<::System::Object*>* m_serializedStates; // 0x18
 		::System::Object* m_realObject; // 0x20
-		::System::EventHandler* SerializeObjectState; // 0x28
+		::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* SerializeObjectState; // 0x28
 		::System::Runtime::Serialization::SerializationInfo* m_savedSerializationInfo; // 0x30
 		::System::Void _ctor()
 		{
@@ -42,14 +42,14 @@ namespace System::Runtime::Serialization
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONMANAGER_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_SerializeObjectState(::System::EventHandler* a1)
+		::System::Void add_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONMANAGER_ADD_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONMANAGER_ADD_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SerializeObjectState(::System::EventHandler* a1)
+		::System::Void remove_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONMANAGER_REMOVE_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONMANAGER_REMOVE_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsActive()

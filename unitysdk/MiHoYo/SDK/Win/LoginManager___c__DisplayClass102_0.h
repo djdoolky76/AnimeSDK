@@ -4,8 +4,8 @@
 #include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class Web; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD74D30)
 #define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0__FORGETPASSWORD_B__0_OFFSET UNITYSDK_OFFSET(0x1BD7A060)
@@ -21,7 +21,7 @@ namespace MiHoYo::SDK::Win
 	{
 	public:
 		::MiHoYo::SDK::Web* web; // 0x10
-		::System::Action* customCallback; // 0x18
+		::System::Action_1<::System::String*>* customCallback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS102_0_CTOR_OFFSET))(this);

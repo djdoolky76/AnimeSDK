@@ -6,7 +6,7 @@ namespace RPG::Client::NavMap { class IMapDataSource; }
 namespace RPG::Client::NavMap { class NavMapModule; }
 namespace RPG::Client::NavMap { class SubTabData; }
 namespace RPG::Client::NavMap { class UniverseData; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD964700)
@@ -30,9 +30,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _GetCartographerMappingInfoIDIn_b__0(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* _GetCartographerMappingInfoIDIn_b__0(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE___C__DISPLAYCLASS20_0__GETCARTOGRAPHERMAPPINGINFOIDIN_B__0_OFFSET))(this, a1);
 		}
 
 	};

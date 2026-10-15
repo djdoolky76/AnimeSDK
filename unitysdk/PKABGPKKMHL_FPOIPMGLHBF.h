@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Rect.h"
 class LPHOEFFEOBD;
 class PKABGPKKMHL;
 class PKABGPKKMHL_FPOIPMGLHBF;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -50,9 +50,9 @@ inline static constexpr unsigned int PKABGPKKMHL_FPOIPMGLHBF_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PKABGPKKMHL_FPOIPMGLHBF_PJPFIHFAHGO_OFFSET))(this);
 		}
 
-		::System::Boolean NAGADEEMABM(::LPHOEFFEOBD* a1, ::System::Int32 a2, ::System::Nullable* a3)
+		::System::Boolean NAGADEEMABM(::LPHOEFFEOBD* a1, ::System::Int32 a2, ::System::Nullable_1<::UnityEngine::Rect> a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::LPHOEFFEOBD*, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + PKABGPKKMHL_FPOIPMGLHBF_NAGADEEMABM_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::LPHOEFFEOBD*, ::System::Int32, ::System::Nullable_1<::UnityEngine::Rect>))((::PBYTE)hIl2Cpp + PKABGPKKMHL_FPOIPMGLHBF_NAGADEEMABM_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

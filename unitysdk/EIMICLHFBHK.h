@@ -5,8 +5,8 @@
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesGameRewardRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -38,9 +38,9 @@ inline static constexpr unsigned int EIMICLHFBHK_TypeDefinitionIndex = 12251;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EIMICLHFBHK")->GetStaticField(0x54238);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "EIMICLHFBHK")->GetStaticField(0x54240);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EIMICLHFBHK")->GetStaticField(0x54240);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()

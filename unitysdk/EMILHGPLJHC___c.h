@@ -4,8 +4,9 @@
 class HGCEOEHGPPE;
 class HIAMBDKHMIJ;
 class KGPCBBIOGLB;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define EMILHGPLJHC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15543C20)
 #define EMILHGPLJHC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15543C60)
@@ -17,9 +18,9 @@ inline static constexpr unsigned int EMILHGPLJHC___c_TypeDefinitionIndex = 59552
 	class EMILHGPLJHC___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__90_5()
+		static ::System::Action_2<::HGCEOEHGPPE*, ::KGPCBBIOGLB*>** StaticGet___9__90_5()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4ACB0);
+			return (::System::Action_2<::HGCEOEHGPPE*, ::KGPCBBIOGLB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4ACB0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -27,9 +28,9 @@ inline static constexpr unsigned int EMILHGPLJHC___c_TypeDefinitionIndex = 59552
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4ACB8);
 		}
 
-		static ::System::Action** StaticGet___9__90_6()
+		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__90_6()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4ACC0);
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4ACC0);
 		}
 
 		static ::System::Void _cctor()

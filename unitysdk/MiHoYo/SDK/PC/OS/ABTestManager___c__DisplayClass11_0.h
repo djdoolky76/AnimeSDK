@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PC::OS { class ABTestManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC0F00)
 #define MIHOYO_SDK_PC_OS_ABTESTMANAGER___C__DISPLAYCLASS11_0__REQUESTALLACCOUNTABTEST_B__0_OFFSET UNITYSDK_OFFSET(0x1BEC3030)
@@ -16,7 +16,7 @@ namespace MiHoYo::SDK::PC::OS
 	class ABTestManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::MiHoYo::SDK::PC::OS::ABTestManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{

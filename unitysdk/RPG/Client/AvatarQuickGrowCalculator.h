@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/AvatarQuickGrowCalculator_GrowSimState.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class NAIEKONLHAL;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class AvatarGrowPlanResult; }
@@ -122,9 +123,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__ENSUREAVATAREXPROWS_OFFSET))(this);
 		}
 
-		::System::ValueTuple _GetEffectiveRuleContext()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _GetEffectiveRuleContext()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETEFFECTIVERULECONTEXT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__GETEFFECTIVERULECONTEXT_OFFSET))(this);
 		}
 
 		::System::UInt32 _GetTargetPromotionLevel(::RPG::AvatarSystem::IAvatar* a1, ::System::UInt32 a2, ::System::UInt32 a3)
@@ -142,9 +143,9 @@ namespace RPG::Client
 			return ((::RPG::Client::AvatarQuickGrowCalculator_GrowSimState(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::NAIEKONLHAL*, ::NAIEKONLHAL*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__SIMULATEGROW_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::ValueTuple _DetermineLevelTarget(::NAIEKONLHAL* a1, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> _DetermineLevelTarget(::NAIEKONLHAL* a1, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::NAIEKONLHAL*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__DETERMINELEVELTARGET_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>(*)(::PVOID, ::NAIEKONLHAL*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARQUICKGROWCALCULATOR__DETERMINELEVELTARGET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 _GetExpCostForLevels(::System::UInt32 a1, ::System::UInt32 a2)

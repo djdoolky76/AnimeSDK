@@ -9,8 +9,9 @@ namespace MiHoYo::SDK { class MiHoYoBaseSDK_CustomAutoTestUniqueInfo; }
 namespace MiHoYo::SDK { class MiHoYoBaseSDK_LoadAsbDelegate; }
 namespace MiHoYo::SDK { class MiHoYoSDK; }
 namespace MiHoYo::SDK { class SDKDelegate_LoadAssetDelegate; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class InputField; }
 
@@ -57,16 +58,16 @@ namespace MiHoYo::SDK
 	class MiHoYoBaseSDK : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* MiHoYoSDKNotification; // 0x18
-		::System::Action* MiHoYoSDKDownloadNotification; // 0x20
-		::System::Action* MiHoYoSDKAddInputField; // 0x28
+		::System::Action_1<::System::String*>* MiHoYoSDKNotification; // 0x18
+		::System::Action_1<::System::String*>* MiHoYoSDKDownloadNotification; // 0x20
+		::System::Action_1<::UnityEngine::UI::InputField*>* MiHoYoSDKAddInputField; // 0x28
 		::System::Boolean m_bEnableRuntimeFont; // 0x30
 		::System::Boolean m_bEnableUITracking; // 0x31
 		::System::Byte _padding0[0x6];
 		::MiHoYo::SDK::MiHoYoBaseSDK_CustomAutoTestUniqueInfo* m_customeAutoTestInfo; // 0x38
-		static ::System::Action** StaticGet_OnGyroEvent()
+		static ::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>** StaticGet_OnGyroEvent()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DDD0);
+			return (::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DDD0);
 		}
 
 		static ::MiHoYo::SDK::MiHoYoBaseSDK_LoadAsbDelegate** StaticGet_LoadAsb()
@@ -74,14 +75,14 @@ namespace MiHoYo::SDK
 			return (::MiHoYo::SDK::MiHoYoBaseSDK_LoadAsbDelegate**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DDD8);
 		}
 
-		static ::System::Action** StaticGet_OnGameControlReceive()
+		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet_OnGameControlReceive()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DDE0);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DDE0);
 		}
 
-		static ::System::Action** StaticGet_OnGyroscope()
+		static ::System::Action_1<::CloudGame::MailBox::GameControl::Gyroscope>** StaticGet_OnGyroscope()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DDE8);
+			return (::System::Action_1<::CloudGame::MailBox::GameControl::Gyroscope>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DDE8);
 		}
 
 		static ::System::String** StaticGet_resourcePath()
@@ -99,14 +100,14 @@ namespace MiHoYo::SDK
 			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DE00);
 		}
 
-		static ::System::Action** StaticGet_OnInvokeReturnEnd()
+		static ::System::Action_1<::System::String*>** StaticGet_OnInvokeReturnEnd()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DE08);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DE08);
 		}
 
-		static ::System::Action** StaticGet_OnInvokeReturnStart()
+		static ::System::Action_1<::System::String*>** StaticGet_OnInvokeReturnStart()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DE10);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoBaseSDK")->GetStaticField(0x1DE10);
 		}
 
 		static ::MiHoYo::SDK::MiHoYoSDK** StaticGet__baseInstance()
@@ -195,14 +196,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_SET_UITRACKING_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::System::Action* a1, ::System::Boolean a2)
+		::System::Void Init(::System::Action_1<::System::String*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_INIT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_INIT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Destory(::System::Action* a1)
+		::System::Void Destory(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_DESTORY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_DESTORY_OFFSET))(this, a1);
 		}
 
 		::System::Void DestroyAllUI()
@@ -215,9 +216,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_INVOKERETURN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_INVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnInvoke(::System::String* a1, ::System::String* a2)
@@ -235,24 +236,24 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_REPORTACTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void RequestWatermark(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action* a4)
+		::System::Void RequestWatermark(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_REQUESTWATERMARK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_REQUESTWATERMARK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void RequestWatermarkData(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action* a4)
+		::System::Void RequestWatermarkData(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action_2<::System::Int32, ::Il2CppArray<::System::Byte>*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_REQUESTWATERMARKDATA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action_2<::System::Int32, ::Il2CppArray<::System::Byte>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_REQUESTWATERMARKDATA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void FetchDirectWatermarkImage(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action* a4)
+		::System::Void FetchDirectWatermarkImage(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_FETCHDIRECTWATERMARKIMAGE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_FETCHDIRECTWATERMARKIMAGE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void FetchDirectWatermarkImageBytes(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action* a4)
+		::System::Void FetchDirectWatermarkImageBytes(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action_2<::System::Int32, ::Il2CppArray<::System::Byte>*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_FETCHDIRECTWATERMARKIMAGEBYTES_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action_2<::System::Int32, ::Il2CppArray<::System::Byte>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_FETCHDIRECTWATERMARKIMAGEBYTES_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::String* OnGetResourcePath()

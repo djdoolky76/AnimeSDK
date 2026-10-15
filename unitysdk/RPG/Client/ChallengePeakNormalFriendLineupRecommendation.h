@@ -15,6 +15,7 @@ namespace RPG::Client { class ChallengePeakGroup; }
 namespace RPG::Client { class ChallengePeakNormalFriendLineupRecommendation; }
 namespace RPG::Client { class PlayerBriefDisplayData; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -153,9 +154,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKNORMALFRIENDLINEUPRECOMMENDATION_GETLINEUPAVATARSKINIDS_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* GetLineupDetailInfo(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>* GetLineupDetailInfo(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKNORMALFRIENDLINEUPRECOMMENDATION_GETLINEUPDETAILINFO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKNORMALFRIENDLINEUPRECOMMENDATION_GETLINEUPDETAILINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void ReportAction(::RPG::Client::LineupRecommendationReportActionType a1, ::System::Boolean a2)
@@ -168,9 +169,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::BKALMLMEEPL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKNORMALFRIENDLINEUPRECOMMENDATION__ONGETFRIENDRECOMMENDLINEUPSCRSP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _GetFriendRecommendLineupDetailScRsp(::OLLGFBLPHOH* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>* _GetFriendRecommendLineupDetailScRsp(::OLLGFBLPHOH* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::OLLGFBLPHOH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKNORMALFRIENDLINEUPRECOMMENDATION__GETFRIENDRECOMMENDLINEUPDETAILSCRSP_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>*(*)(::PVOID, ::OLLGFBLPHOH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKNORMALFRIENDLINEUPRECOMMENDATION__GETFRIENDRECOMMENDLINEUPDETAILSCRSP_OFFSET))(this, a1);
 		}
 
 		::FPDCINMDJCE* _GetRecommendInfo(::System::Int32 a1)

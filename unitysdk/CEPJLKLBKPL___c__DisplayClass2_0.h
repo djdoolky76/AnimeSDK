@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Pet/PetIdentifier.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define CEPJLKLBKPL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F8580)
 #define CEPJLKLBKPL___C__DISPLAYCLASS2_0__FOREACHPETIDENTIFIER_B__0_OFFSET UNITYSDK_OFFSET(0xC9F8750)
@@ -13,7 +13,7 @@ inline static constexpr unsigned int CEPJLKLBKPL___c__DisplayClass2_0_TypeDefini
 	class CEPJLKLBKPL___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Action* action; // 0x10
+		::System::Action_1<::RPG::Client::Pet::PetIdentifier>* action; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEPJLKLBKPL___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

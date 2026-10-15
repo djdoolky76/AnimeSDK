@@ -6,7 +6,9 @@
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/SubMissionState.h"
 #include "unitysdk/RPG/GameCore/TransitionLoadingType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class APHKOFKECCK;
@@ -53,7 +55,6 @@ namespace RPG::GameCore { class SubMissionInfoConfig; }
 namespace RPG::GameCore { class SubMissionRow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -390,7 +391,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* _SubMissionID2AtmosGroupIDs; // 0x58
 		::KPBKGEKGNCD* LastBattleInfo; // 0x60
 		::RPG::Client::MapDef* _LocalPlayerCurrentMapDef; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* _MissionCustomValue2MissionGroupIDs; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::String*, ::System::UInt32>, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* _MissionCustomValue2MissionGroupIDs; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* SaveValue2GroupIDs; // 0x78
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::AdventureBlockShowAreaNameType, ::System::Int32>* _BlockShowAreaNameCnt; // 0x80
 		::RPG::Client::RewardDisplayData* _CurrentRewardData; // 0x88
@@ -412,11 +413,11 @@ namespace RPG::Client
 		::RPG::Client::SpecialVisionUseStateManager* SpecialVisionUseStateManager; // 0x108
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* _MainMission2GroupIDs; // 0x110
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* _FSV2AtmosGroupIDs; // 0x118
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* _MissionCustomValue2AtmosGroupIDs; // 0x120
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* _MissionCustomValue2AtmosGroupIDs; // 0x120
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* _DesignerUserPrefs; // 0x128
 		::System::Collections::Generic::Stack_1<::PFLOHFIKPPD*>* SkillResultRecordsCache; // 0x130
 		::System::Collections::Generic::Queue_1<::RPG::Client::RewardDisplayData*>* _CacheRewardDisplayDataQueue; // 0x138
-		::System::Nullable* LastCameraAxis; // 0x140
+		::System::Nullable_1<::UnityEngine::Vector2> LastCameraAxis; // 0x140
 		::System::Byte _padding0[0x4];
 		::System::Single _DelayShowQuiteLatencyTimer; // 0x14C
 		::System::UInt32 _LastFloorID_k__BackingField; // 0x150
@@ -424,7 +425,7 @@ namespace RPG::Client
 		::System::UInt32 _CurrentBattleEventID_k__BackingField; // 0x158
 		::System::UInt32 _CurrPlayerWorldID; // 0x15C
 		::System::UInt32 _StaminaOnPhantomActive; // 0x160
-		::System::ValueTuple _ReplayDialogEntityInfo_k__BackingField; // 0x164
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _ReplayDialogEntityInfo_k__BackingField; // 0x164
 		::System::Boolean _IsMissionSyncing; // 0x16C
 		::System::Boolean _RewardLockByInstantKill; // 0x16D
 		::System::Boolean _IsServerSceneChanging_k__BackingField; // 0x16E
@@ -443,7 +444,7 @@ namespace RPG::Client
 		::System::Boolean _IsExitingPerformanceStandalonePlay; // 0x187
 		::System::UInt32 _CurrPerformanceReplayWorldID; // 0x188
 		::System::Int32 _DelayTimerId; // 0x18C
-		::System::Nullable* Last3rdCameraForward; // 0x190
+		::System::Nullable_1<::UnityEngine::Vector3> Last3rdCameraForward; // 0x190
 		::System::Byte _padding2[0x8];
 		::System::UInt32 _CurrPerformanceStandalonePlayWorldID; // 0x1A0
 		::System::Boolean _IsInDelayTime; // 0x1A4
@@ -453,7 +454,7 @@ namespace RPG::Client
 		::System::Single _LookAtThreatProbility_k__BackingField; // 0x1A8
 		::RPG::Client::AdventureBattleResult _LastBattleResult_k__BackingField; // 0x1AC
 		::System::Int32 _storyModeIndex; // 0x1B0
-		::System::Nullable* BeforeBattlePosition; // 0x1B4
+		::System::Nullable_1<::UnityEngine::Vector3> BeforeBattlePosition; // 0x1B4
 		static ::System::UInt32* StaticGet_MAIN_DIMENSION_ID()
 		{
 			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "AdventureModule")->GetStaticField(0xA1C0);
@@ -1562,14 +1563,14 @@ namespace RPG::Client
 			return ((::RPG::Client::MainMissionData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREMODULE_GET_REPLAYTRACKINGMAINMISSIONDATA_OFFSET))(this);
 		}
 
-		::System::Void set_ReplayDialogEntityInfo(::System::ValueTuple a1)
+		::System::Void set_ReplayDialogEntityInfo(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREMODULE_SET_REPLAYDIALOGENTITYINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREMODULE_SET_REPLAYDIALOGENTITYINFO_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple get_ReplayDialogEntityInfo()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> get_ReplayDialogEntityInfo()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREMODULE_GET_REPLAYDIALOGENTITYINFO_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREMODULE_GET_REPLAYDIALOGENTITYINFO_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsPerformanceReplaying()

@@ -20,7 +20,8 @@ class OKEDFNJJGHB;
 class PEOKJEOOOJD;
 namespace Google::Protobuf { class IMessage; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System { template <typename T> class Action_1; }
 
 #define OMOEFAHFJFL_ADD_ONBIGSETTLE_OFFSET UNITYSDK_OFFSET(0xBF46BC0)
 #define OMOEFAHFJFL_ADD_ONMEDAL_OFFSET UNITYSDK_OFFSET(0xBF46D80)
@@ -66,11 +67,11 @@ inline static constexpr unsigned int OMOEFAHFJFL_TypeDefinitionIndex = 81505;
 	class OMOEFAHFJFL : public ::BHPMNMMGLHI
 	{
 	public:
-		::System::Action* OnStageSettle; // 0x20
-		::System::Action* OnMedal; // 0x28
-		::System::Action* OnStageClear; // 0x30
-		::System::Action* OnPendingStageSettle; // 0x38
-		::System::Action* OnBigSettle; // 0x40
+		::System::Action_1<::JCKGBFJJFFC*>* OnStageSettle; // 0x20
+		::System::Action_1<::FLIPNFHAMPO*>* OnMedal; // 0x28
+		::System::Action_1<::FBAMAFLOBGA*>* OnStageClear; // 0x30
+		::System::Action_1<::PEOKJEOOOJD*>* OnPendingStageSettle; // 0x38
+		::System::Action_1<::GEKNAKDAMJF*>* OnBigSettle; // 0x40
 		::System::UInt16 FDHCHGLJHLE; // 0x48
 		// static const ::System::Object BGGOJCPKBHI; // 0x0
 		// static const ::System::Object KGLBFFPIJLA; // 0x0
@@ -90,9 +91,9 @@ inline static constexpr unsigned int OMOEFAHFJFL_TypeDefinitionIndex = 81505;
 			return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_KPDNCAFNIMN_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* KEPOFJBOHPJ()
+		::RPG::Client::Promises::IPromise_1<::LPIHJBELIBN*>* KEPOFJBOHPJ()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_KEPOFJBOHPJ_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::LPIHJBELIBN*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_KEPOFJBOHPJ_OFFSET))(this);
 		}
 
 		::System::UInt16 IMFHIHGEDKP()
@@ -100,9 +101,9 @@ inline static constexpr unsigned int OMOEFAHFJFL_TypeDefinitionIndex = 81505;
 			return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_IMFHIHGEDKP_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* LMBKNCAIDLC()
+		::RPG::Client::Promises::IPromise_1<::HFGMOFBDAON*>* LMBKNCAIDLC()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_LMBKNCAIDLC_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::HFGMOFBDAON*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_LMBKNCAIDLC_OFFSET))(this);
 		}
 
 		::System::UInt16 DACOLEKAPNN()
@@ -110,9 +111,9 @@ inline static constexpr unsigned int OMOEFAHFJFL_TypeDefinitionIndex = 81505;
 			return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_DACOLEKAPNN_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* NPAFMEBNFOB(::System::UInt32 a1, ::System::Int32 a2, ::FOMDMAGLLNI* a3)
+		::RPG::Client::Promises::IPromise_1<::KLECENLPBJL*>* NPAFMEBNFOB(::System::UInt32 a1, ::System::Int32 a2, ::FOMDMAGLLNI* a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::Int32, ::FOMDMAGLLNI*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_NPAFMEBNFOB_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::KLECENLPBJL*>*(*)(::PVOID, ::System::UInt32, ::System::Int32, ::FOMDMAGLLNI*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_NPAFMEBNFOB_OFFSET))(this, a1, a2, a3);
 		}
 
 		::HNBJHMCGEDK* OJAGPADIOJJ(::KHPENGJFKBB* a1)
@@ -135,9 +136,9 @@ inline static constexpr unsigned int OMOEFAHFJFL_TypeDefinitionIndex = 81505;
 			return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_FKDCDABBCOC_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* EMMGHDLIPOH()
+		::RPG::Client::Promises::IPromise_1<::JMPJCAPKNGI*>* EMMGHDLIPOH()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_EMMGHDLIPOH_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::JMPJCAPKNGI*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_EMMGHDLIPOH_OFFSET))(this);
 		}
 
 		::System::UInt16 FPHNKELHIMJ()
@@ -145,9 +146,9 @@ inline static constexpr unsigned int OMOEFAHFJFL_TypeDefinitionIndex = 81505;
 			return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_FPHNKELHIMJ_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* HGCPGIFPGEF()
+		::RPG::Client::Promises::IPromise_1<::LHAKNKHBLBI*>* HGCPGIFPGEF()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_HGCPGIFPGEF_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::LHAKNKHBLBI*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_HGCPGIFPGEF_OFFSET))(this);
 		}
 
 		::System::UInt16 KIFNHCNIGMN()
@@ -170,54 +171,54 @@ inline static constexpr unsigned int OMOEFAHFJFL_TypeDefinitionIndex = 81505;
 			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::DOPHNDHILPA*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_EOFEHHHGKNG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_OnPendingStageSettle(::System::Action* a1)
+		::System::Void add_OnPendingStageSettle(::System::Action_1<::PEOKJEOOOJD*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONPENDINGSTAGESETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::PEOKJEOOOJD*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONPENDINGSTAGESETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPendingStageSettle(::System::Action* a1)
+		::System::Void remove_OnPendingStageSettle(::System::Action_1<::PEOKJEOOOJD*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONPENDINGSTAGESETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::PEOKJEOOOJD*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONPENDINGSTAGESETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnStageSettle(::System::Action* a1)
+		::System::Void add_OnStageSettle(::System::Action_1<::JCKGBFJJFFC*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONSTAGESETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::JCKGBFJJFFC*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONSTAGESETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnStageSettle(::System::Action* a1)
+		::System::Void remove_OnStageSettle(::System::Action_1<::JCKGBFJJFFC*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONSTAGESETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::JCKGBFJJFFC*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONSTAGESETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnBigSettle(::System::Action* a1)
+		::System::Void add_OnBigSettle(::System::Action_1<::GEKNAKDAMJF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONBIGSETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GEKNAKDAMJF*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONBIGSETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBigSettle(::System::Action* a1)
+		::System::Void remove_OnBigSettle(::System::Action_1<::GEKNAKDAMJF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONBIGSETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GEKNAKDAMJF*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONBIGSETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnStageClear(::System::Action* a1)
+		::System::Void add_OnStageClear(::System::Action_1<::FBAMAFLOBGA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONSTAGECLEAR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FBAMAFLOBGA*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONSTAGECLEAR_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnStageClear(::System::Action* a1)
+		::System::Void remove_OnStageClear(::System::Action_1<::FBAMAFLOBGA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONSTAGECLEAR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FBAMAFLOBGA*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONSTAGECLEAR_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnMedal(::System::Action* a1)
+		::System::Void add_OnMedal(::System::Action_1<::FLIPNFHAMPO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONMEDAL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FLIPNFHAMPO*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_ADD_ONMEDAL_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnMedal(::System::Action* a1)
+		::System::Void remove_OnMedal(::System::Action_1<::FLIPNFHAMPO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONMEDAL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FLIPNFHAMPO*>*))((::PBYTE)hIl2Cpp + OMOEFAHFJFL_REMOVE_ONMEDAL_OFFSET))(this, a1);
 		}
 
 		::System::Void HEFNCCIJPFE(::Google::Protobuf::IMessage* a1)

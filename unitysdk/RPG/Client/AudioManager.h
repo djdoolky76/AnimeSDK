@@ -15,6 +15,7 @@
 #include "unitysdk/RPG/GameCore/VoicePlayType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class AkCallbackInfo;
 class AkCallbackManager_EventCallback;
@@ -41,9 +42,10 @@ namespace RPG::GameCore { class JukeBoxMusicTimesConfig; }
 namespace RPG::GameCore { class PropSoundConfigOverrideConfig; }
 namespace RPG::GameCore { class PropSoundOverrideConfig; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class CacheLinkedList_1; }
@@ -438,19 +440,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_UNLOADINITGAMEPCKS_OFFSET))(this);
 		}
 
-		::System::UInt32 PostEventWithBeginCallback(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::System::Action* a4, ::AkCallbackType a5)
+		::System::UInt32 PostEventWithBeginCallback(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a3, ::System::Action_1<::System::UInt32>* a4, ::AkCallbackType a5)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action*, ::System::Action*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTEVENTWITHBEGINCALLBACK_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*, ::System::Action_1<::System::UInt32>*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTEVENTWITHBEGINCALLBACK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::UInt32 PostEvent(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::AkCallbackType a4)
+		::System::UInt32 PostEvent(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a3, ::AkCallbackType a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTEVENT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTEVENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::UInt32 PostExternalSource(::System::String* a1, ::AkExternalSourceInfoArray* a2, ::UnityEngine::GameObject* a3, ::System::Action* a4)
+		::System::UInt32 PostExternalSource(::System::String* a1, ::AkExternalSourceInfoArray* a2, ::UnityEngine::GameObject* a3, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::AkExternalSourceInfoArray*, ::UnityEngine::GameObject*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTEXTERNALSOURCE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::AkExternalSourceInfoArray*, ::UnityEngine::GameObject*, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTEXTERNALSOURCE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::AkExternalSourceInfoArray* GetExternalSourceInfo(::System::String* a1, ::System::Boolean a2, ::System::String* a3)
@@ -458,14 +460,14 @@ namespace RPG::Client
 			return ((::AkExternalSourceInfoArray*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_GETEXTERNALSOURCEINFO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 PostAtOnce(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::AkCallbackType a4)
+		::System::UInt32 PostAtOnce(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a3, ::AkCallbackType a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTATONCE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTATONCE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::UInt32 PostVoice(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::System::Action* a4, ::AkCallbackType a5, ::System::String* a6)
+		::System::UInt32 PostVoice(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a3, ::System::Action_1<::System::UInt32>* a4, ::AkCallbackType a5, ::System::String* a6)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Action*, ::System::Action*, ::AkCallbackType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTVOICE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*, ::System::Action_1<::System::UInt32>*, ::AkCallbackType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTVOICE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void AddVoiceTarget(::System::UInt32 a1, ::UnityEngine::GameObject* a2)
@@ -478,9 +480,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_REMOVEVOICETARGET_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 PostSFX(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::System::Action* a4)
+		::System::UInt32 PostSFX(::System::UInt32 a1, ::UnityEngine::GameObject* a2, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTSFX_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::UnityEngine::GameObject*, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_POSTSFX_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 PostLoopSFX(::System::UInt32 a1)
@@ -558,9 +560,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_TICKDYNAMICLISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetUIListnerMode(::RPG::Client::AudioListenerMode a1, ::UnityEngine::Transform* a2, ::System::Single a3, ::System::Nullable* a4)
+		::System::Void SetUIListnerMode(::RPG::Client::AudioListenerMode a1, ::UnityEngine::Transform* a2, ::System::Single a3, ::System::Nullable_1<::UnityEngine::Vector3> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AudioListenerMode, ::UnityEngine::Transform*, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_SETUILISTNERMODE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AudioListenerMode, ::UnityEngine::Transform*, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_SETUILISTNERMODE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ResetUIListnerMode()
@@ -573,9 +575,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_RESETLISTNERMODE_OFFSET))(this);
 		}
 
-		::System::Void SetListnerMode(::RPG::Client::AudioListenerMode a1, ::UnityEngine::Transform* a2, ::System::Single a3, ::System::Nullable* a4, ::RPG::Client::AudioListenerType a5)
+		::System::Void SetListnerMode(::RPG::Client::AudioListenerMode a1, ::UnityEngine::Transform* a2, ::System::Single a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::RPG::Client::AudioListenerType a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::AudioListenerMode, ::UnityEngine::Transform*, ::System::Single, ::System::Nullable*, ::RPG::Client::AudioListenerType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_SETLISTNERMODE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AudioListenerMode, ::UnityEngine::Transform*, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::RPG::Client::AudioListenerType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_SETLISTNERMODE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean IsEventPlaying(::System::String* a1)
@@ -843,14 +845,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER__INITLISTENER_OFFSET))(this);
 		}
 
-		::System::UInt32 _PostAtOnce(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::System::Action* a4, ::AkExternalSourceInfoArray* a5, ::AkCallbackType a6)
+		::System::UInt32 _PostAtOnce(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a3, ::System::Action_1<::System::UInt32>* a4, ::AkExternalSourceInfoArray* a5, ::AkCallbackType a6)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action*, ::System::Action*, ::AkExternalSourceInfoArray*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER__POSTATONCE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*, ::System::Action_1<::System::UInt32>*, ::AkExternalSourceInfoArray*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER__POSTATONCE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::UInt32 _PostAfterBankPrepared(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::AkExternalSourceInfoArray* a4, ::System::Action* a5, ::AkCallbackType a6)
+		::System::UInt32 _PostAfterBankPrepared(::System::String* a1, ::UnityEngine::GameObject* a2, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a3, ::AkExternalSourceInfoArray* a4, ::System::Action_1<::System::UInt32>* a5, ::AkCallbackType a6)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action*, ::AkExternalSourceInfoArray*, ::System::Action*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER__POSTAFTERBANKPREPARED_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*, ::AkExternalSourceInfoArray*, ::System::Action_1<::System::UInt32>*, ::AkCallbackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER__POSTAFTERBANKPREPARED_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void _TickPendingEvents()

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class BindTapTap; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_BINDTAPTAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCFADF0)
 #define MIHOYO_SDK_WIN_BINDTAPTAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCFAE30)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::Win
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1A910);
 		}
 
-		static ::System::Action** StaticGet___9__14_0()
+		static ::System::Action_1<::MiHoYo::SDK::Win::BindTapTap*>** StaticGet___9__14_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1A918);
+			return (::System::Action_1<::MiHoYo::SDK::Win::BindTapTap*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1A918);
 		}
 
 		static ::System::Void _cctor()

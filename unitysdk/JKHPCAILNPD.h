@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CFGFAHEKNPD.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
+#include "unitysdk/System/Nullable_1.h"
 class ADGABMKBBNF;
 class AGDBDNGEKFP;
 class AGFFMOLFPEF;
@@ -11,7 +12,6 @@ class FIBKHDABPHD;
 class HEKHCLACHJE;
 class JKNBKEHFJJC;
 class NKIJFPHFJCO;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -48,9 +48,9 @@ inline static constexpr unsigned int JKHPCAILNPD_TypeDefinitionIndex = 41753;
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector2Int, ::System::Collections::Generic::HashSet_1<::NKIJFPHFJCO*>*>* PFIGNPMNGHG; // 0x28
 		::System::Collections::Generic::HashSet_1<::NKIJFPHFJCO*>* HELOEMNGBHF; // 0x30
 		::JKNBKEHFJJC* EPNCEHLCJOI; // 0x38
-		::System::Void _ctor(::FIBKHDABPHD* a1, ::System::Nullable* a2)
+		::System::Void _ctor(::FIBKHDABPHD* a1, ::System::Nullable_1<::System::Int32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::FIBKHDABPHD*, ::System::Nullable*))((::PBYTE)hIl2Cpp + JKHPCAILNPD_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::FIBKHDABPHD*, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + JKHPCAILNPD_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::HEKHCLACHJE* MCOKHKCDGPO()

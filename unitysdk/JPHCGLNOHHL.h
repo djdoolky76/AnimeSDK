@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NOBBAHKMNDK.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterInputData; }
-namespace System { class Nullable; }
 namespace UnityEngine { class CapsuleCollider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody; }
@@ -32,7 +32,7 @@ inline static constexpr unsigned int JPHCGLNOHHL_TypeDefinitionIndex = 57104;
 	class JPHCGLNOHHL : public ::NOBBAHKMNDK
 	{
 	public:
-		::System::Nullable* _OverrideMoveDeltaVector_k__BackingField; // 0x188
+		::System::Nullable_1<::UnityEngine::Vector3> _OverrideMoveDeltaVector_k__BackingField; // 0x188
 		::System::Byte _padding0[0x8];
 		::System::Single _KinematicSpeed_k__BackingField; // 0x198
 		::UnityEngine::Vector3 _KinematicVelocity_k__BackingField; // 0x19C
@@ -113,14 +113,14 @@ inline static constexpr unsigned int JPHCGLNOHHL_TypeDefinitionIndex = 57104;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + JPHCGLNOHHL_SET_KINEMATICVELOCITY_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_OverrideMoveDeltaVector()
+		::System::Nullable_1<::UnityEngine::Vector3> get_OverrideMoveDeltaVector()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + JPHCGLNOHHL_GET_OVERRIDEMOVEDELTAVECTOR_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + JPHCGLNOHHL_GET_OVERRIDEMOVEDELTAVECTOR_OFFSET))(this);
 		}
 
-		::System::Void set_OverrideMoveDeltaVector(::System::Nullable* a1)
+		::System::Void set_OverrideMoveDeltaVector(::System::Nullable_1<::UnityEngine::Vector3> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + JPHCGLNOHHL_SET_OVERRIDEMOVEDELTAVECTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + JPHCGLNOHHL_SET_OVERRIDEMOVEDELTAVECTOR_OFFSET))(this, a1);
 		}
 
 	};

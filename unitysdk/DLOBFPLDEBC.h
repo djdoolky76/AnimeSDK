@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace EnviromentSystem { class EnviromentProfile; }
 namespace RPG::Client { class IAssetOperation; }
-namespace System { class Action; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -26,7 +26,7 @@ inline static constexpr unsigned int DLOBFPLDEBC_TypeDefinitionIndex = 48497;
 	public:
 		::RPG::Client::IAssetOperation* BBOFBHCDHBO; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::String*>* GBEECFJEDCO; // 0x18
-		::System::Action* GICMMIMFLIM; // 0x20
+		::System::Action_1<::System::String*>* GICMMIMFLIM; // 0x20
 		::System::String* DOEIHCMGBDL; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::IAssetOperation*>* GFAOOMGHJDN; // 0x30
 		::System::Void _ctor()

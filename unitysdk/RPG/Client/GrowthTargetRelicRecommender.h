@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OIPMNNAHIFP.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RelicItemData; }
@@ -8,7 +9,6 @@ namespace RPG::Client { class RelicRecommendData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculator; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER_CHECKAVATAREQUIPPEDRELICMAINPROPERTYMISMATCH_OFFSET UNITYSDK_OFFSET(0xD2E3A20)
@@ -30,7 +30,7 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculator* _RelicSmartSuitCalculator; // 0x10
-		::System::Nullable* _RecommendRelicMinMatchedSubAffixCount; // 0x18
+		::System::Nullable_1<::System::UInt32> _RecommendRelicMinMatchedSubAffixCount; // 0x18
 		::OIPMNNAHIFP _SpecificPathIdentifier; // 0x20
 		::System::Void _ctor(::OIPMNNAHIFP a1)
 		{

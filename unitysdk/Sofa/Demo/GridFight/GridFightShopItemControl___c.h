@@ -7,7 +7,7 @@ class CEEGMMCFCBG;
 class EHBJBLKFBEA;
 class FGLELNGFMGN;
 class GPKMKOEJPNE;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -32,14 +32,14 @@ namespace Sofa::Demo::GridFight
 	class GridFightShopItemControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>** StaticGet___9__0_1()
+		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE50);
+			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE50);
 		}
 
-		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>** StaticGet___9__0_3()
+		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__0_3()
 		{
-			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE58);
+			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE58);
 		}
 
 		static ::FGLELNGFMGN** StaticGet___9__1_0()
@@ -52,9 +52,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Func_2<::EHBJBLKFBEA*, ::System::Object*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE68);
 		}
 
-		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>** StaticGet___9__0_0()
+		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE70);
+			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE70);
 		}
 
 		static ::System::Func_2<::LFKBKMDMAEM, ::System::UInt32>** StaticGet___9__1_1()
@@ -62,9 +62,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Func_2<::LFKBKMDMAEM, ::System::UInt32>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE78);
 		}
 
-		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>** StaticGet___9__0_5()
+		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::GPKMKOEJPNE*>*>** StaticGet___9__0_5()
 		{
-			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE80);
+			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::GPKMKOEJPNE*>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE80);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -77,9 +77,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Func_2<::LFKBKMDMAEM, ::CEEGMMCFCBG*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE90);
 		}
 
-		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>** StaticGet___9__0_2()
+		static ::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__0_2()
 		{
-			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE98);
+			return (::System::Func_2<::EHBJBLKFBEA*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCE98);
 		}
 
 		static ::System::Func_2<::EHBJBLKFBEA*, ::CEEGMMCFCBG*>** StaticGet___9__0_4()
@@ -97,24 +97,24 @@ namespace Sofa::Demo::GridFight
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable* __Binding_b__0_0(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__0_0(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__0_1(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__0_1(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__0_2(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__0_2(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__0_3(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __Binding_b__0_3(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_3_OFFSET))(this, a1);
 		}
 
 		::CEEGMMCFCBG* __Binding_b__0_4(::EHBJBLKFBEA* a1)
@@ -122,9 +122,9 @@ namespace Sofa::Demo::GridFight
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__0_5(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::GPKMKOEJPNE*>* __Binding_b__0_5(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_5_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::GPKMKOEJPNE*>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPITEMCONTROL___C___BINDING_B__0_5_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Binding_b__0_6(::EHBJBLKFBEA* a1)

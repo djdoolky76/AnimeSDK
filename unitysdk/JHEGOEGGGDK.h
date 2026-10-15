@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GGLKJLLMHBN.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class APGJODNAGHB;
 class KGHMBCLFFLG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -30,7 +30,7 @@ inline static constexpr unsigned int JHEGOEGGGDK_TypeDefinitionIndex = 62720;
 		::APGJODNAGHB* PEEAFBINELO; // 0x30
 		::System::Collections::Generic::Dictionary_2<::KGHMBCLFFLG*, ::System::UInt32>* PEELEAMPBPP; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FixPoint>* LOPPLJEGLFO; // 0x40
-		::System::ValueTuple FFFFJCOACPK; // 0x48
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> FFFFJCOACPK; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JHEGOEGGGDK_CTOR_OFFSET))(this);

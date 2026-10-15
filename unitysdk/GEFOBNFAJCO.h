@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class EDNECKFHLEM;
 namespace RPG::Client { class TabView; }
-namespace System { class Action; }
 namespace System { class IDisposable; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define GEFOBNFAJCO_CTOR_OFFSET UNITYSDK_OFFSET(0x159D3D20)
@@ -17,9 +17,9 @@ inline static constexpr unsigned int GEFOBNFAJCO_TypeDefinitionIndex = 49821;
 	class GEFOBNFAJCO : public ::System::Object
 	{
 	public:
-		::System::Action* DFHDMFHHAOH; // 0x10
+		::System::Action_1<::EDNECKFHLEM*>* DFHDMFHHAOH; // 0x10
 		::RPG::Client::TabView* PEOHNLJEFLJ; // 0x18
-		::System::Action* OHLCAJMAAKH; // 0x20
+		::System::Action_1<::EDNECKFHLEM*>* OHLCAJMAAKH; // 0x20
 		::System::Collections::Generic::Dictionary_2<::EDNECKFHLEM*, ::System::IDisposable*>* LLOGGOIPHBC; // 0x28
 		::System::Void _ctor(::RPG::Client::TabView* a1)
 		{

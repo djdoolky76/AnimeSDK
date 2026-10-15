@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class Book; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define RPG_CLIENT_BOOKSERIES___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8AFCB0)
 #define RPG_CLIENT_BOOKSERIES___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8AFCF0)
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return (::System::Comparison_1<::RPG::Client::Book*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EE70);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Boolean>** StaticGet___9__53_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>, ::System::Boolean>** StaticGet___9__53_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EE78);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EE78);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -49,9 +49,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::Book*, ::RPG::Client::Book*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKSERIES___C__GETBOOKS_B__5_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _get_HasAudioContent_b__53_0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean _get_HasAudioContent_b__53_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKSERIES___C__GET_HASAUDIOCONTENT_B__53_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKSERIES___C__GET_HASAUDIOCONTENT_B__53_0_OFFSET))(this, a1);
 		}
 
 	};

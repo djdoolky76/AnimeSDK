@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class MonoLuaCallbackEnable; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
 
@@ -24,9 +24,9 @@ namespace RPG::Client
 	class MonoLuaCallbackEnable : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* _LuaEnableCallback; // 0x18
+		::System::Action_1<::System::Object*>* _LuaEnableCallback; // 0x18
 		::XLua::LuaTable* _LuaEnableCallbackParam; // 0x20
-		::System::Action* _LuaDisableCallback; // 0x28
+		::System::Action_1<::System::Object*>* _LuaDisableCallback; // 0x28
 		::XLua::LuaTable* _LuaDisableCallbackParam; // 0x30
 		::System::Void _ctor()
 		{
@@ -38,14 +38,14 @@ namespace RPG::Client
 			return ((::RPG::Client::MonoLuaCallbackEnable*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_GET_OFFSET))(a1);
 		}
 
-		::System::Void SetLuaCallbackEnable(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void SetLuaCallbackEnable(::System::Action_1<::System::Object*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKENABLE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKENABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetLuaCallbackDisable(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void SetLuaCallbackDisable(::System::Action_1<::System::Object*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKDISABLE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKENABLE_SETLUACALLBACKDISABLE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnEnable()

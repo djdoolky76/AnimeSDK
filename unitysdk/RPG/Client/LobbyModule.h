@@ -3,12 +3,13 @@
 #include "unitysdk/CJHHGHKGAIL.h"
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FMHEHLIFNGJ;
 class PJMGBLIFDFP;
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client { class LobbyModule; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 
 #define RPG_CLIENT_LOBBYMODULE_CREATELOBBYPROMISE_OFFSET UNITYSDK_OFFSET(0xD494650)
@@ -56,13 +57,13 @@ namespace RPG::Client
 	class LobbyModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::RPG::Client::Promises::Promise* _ReconnectPromise; // 0x10
-		::RPG::Client::Promises::Promise* _CreateLobbyPromise; // 0x18
-		::RPG::Client::Promises::Promise* _InitPromise; // 0x20
+		::RPG::Client::Promises::Promise_1<::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>>* _ReconnectPromise; // 0x10
+		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>* _CreateLobbyPromise; // 0x18
+		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>* _InitPromise; // 0x20
 		::RPG::Client::BaseLobby* _CurrentLobby_k__BackingField; // 0x28
 		::RPG::Client::Promises::Promise* _QuitLobbyPromise; // 0x30
 		::RPG::Client::Promises::Promise* _ModifyPromise; // 0x38
-		::RPG::Client::Promises::Promise* _JoinLobbyPromise; // 0x40
+		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>* _JoinLobbyPromise; // 0x40
 		::System::Boolean _DataDirty; // 0x48
 		::System::Void _ctor()
 		{
@@ -154,14 +155,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_SENDMODULEINITREQUEST_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* CreateLobbyPromise(::FJPMJPEKLJL a1, ::FMHEHLIFNGJ* a2, ::System::UInt32 a3, ::PJMGBLIFDFP* a4)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>* CreateLobbyPromise(::FJPMJPEKLJL a1, ::FMHEHLIFNGJ* a2, ::System::UInt32 a3, ::PJMGBLIFDFP* a4)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::FJPMJPEKLJL, ::FMHEHLIFNGJ*, ::System::UInt32, ::PJMGBLIFDFP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_CREATELOBBYPROMISE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::FJPMJPEKLJL, ::FMHEHLIFNGJ*, ::System::UInt32, ::PJMGBLIFDFP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_CREATELOBBYPROMISE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::Promises::Promise* JoinLobbyPromise(::System::UInt64 a1, ::FMHEHLIFNGJ* a2)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>* JoinLobbyPromise(::System::UInt64 a1, ::FMHEHLIFNGJ* a2)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt64, ::FMHEHLIFNGJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_JOINLOBBYPROMISE_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::UInt64, ::FMHEHLIFNGJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_JOINLOBBYPROMISE_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::Promises::Promise* QuitLobbyPromise()
@@ -169,14 +170,14 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_QUITLOBBYPROMISE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* InitLobbyPromise()
+		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>* InitLobbyPromise()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_INITLOBBYPROMISE_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_INITLOBBYPROMISE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* ReconnectPromise()
+		::RPG::Client::Promises::Promise_1<::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>>* ReconnectPromise()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_RECONNECTPROMISE_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOBBYMODULE_RECONNECTPROMISE_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::Promise* ModifySelfInfoPromise(::CJHHGHKGAIL a1, ::FMHEHLIFNGJ* a2)

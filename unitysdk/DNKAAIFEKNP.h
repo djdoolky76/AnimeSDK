@@ -36,6 +36,7 @@
 #include "unitysdk/RPG/Client/PixAir/PixAirGameSession_PixAirStageReportInfo.h"
 #include "unitysdk/RPG/Client/MongoObjectId.h"
 #include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/ThreadLocalStringBuilder.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class ACNNPBJEOFJ;
@@ -95,7 +96,6 @@ namespace RPG::Client::LittleGame::PixAir { class PixAirEquipStatistics; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace RPG::GameCore { class OptionTalkInfo; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -1110,9 +1110,9 @@ inline static constexpr unsigned int DNKAAIFEKNP_TypeDefinitionIndex = 59977;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + DNKAAIFEKNP_MHGODOPMHOC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NJENCMAJOCJ(::System::String* a1, ::System::Int32 a2, ::System::Nullable* a3, ::System::Int64 a4, ::System::Int64 a5, ::System::Int32 a6)
+		::System::Void NJENCMAJOCJ(::System::String* a1, ::System::Int32 a2, ::System::Nullable_1<::System::Boolean> a3, ::System::Int64 a4, ::System::Int64 a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Nullable*, ::System::Int64, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP_NJENCMAJOCJ_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Nullable_1<::System::Boolean>, ::System::Int64, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP_NJENCMAJOCJ_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void MLAJOIJPDPB(::RPG::Client::GamePhaseType a1)
@@ -1755,9 +1755,9 @@ inline static constexpr unsigned int DNKAAIFEKNP_TypeDefinitionIndex = 59977;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + DNKAAIFEKNP_CFKIKEGKFKF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void GEGPFJNONPJ(::System::UInt32 a1, ::System::Boolean a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::Nullable* a6, ::System::Nullable* a7, ::System::Nullable* a8)
+		::System::Void GEGPFJNONPJ(::System::UInt32 a1, ::System::Boolean a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::Nullable_1<::System::UInt32> a6, ::System::Nullable_1<::System::UInt32> a7, ::System::Nullable_1<::System::UInt32> a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + DNKAAIFEKNP_GEGPFJNONPJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Nullable_1<::System::UInt32>, ::System::Nullable_1<::System::UInt32>, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + DNKAAIFEKNP_GEGPFJNONPJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void MJEJCJMMHKH(::System::String* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::System::Collections::Generic::List_1<::System::UInt32>* a4, ::System::Collections::Generic::List_1<::System::UInt32>* a5, ::System::Guid a6)

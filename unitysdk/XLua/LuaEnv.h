@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/XLua/LuaEnv_GCAction.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -77,9 +77,9 @@ namespace XLua
 			return (::XLua::LuaEnv_DtorFunction**)UnitySDK::FromName("XLua", "LuaEnv")->GetStaticField(0x47AD0);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_initers()
+		static ::System::Collections::Generic::List_1<::System::Action_2<::XLua::LuaEnv*, ::XLua::ObjectTranslator*>*>** StaticGet_initers()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("XLua", "LuaEnv")->GetStaticField(0x47AD8);
+			return (::System::Collections::Generic::List_1<::System::Action_2<::XLua::LuaEnv*, ::XLua::ObjectTranslator*>*>**)UnitySDK::FromName("XLua", "LuaEnv")->GetStaticField(0x47AD8);
 		}
 
 		// static const ::System::String* CSHARP_NAMESPACE; // 0x0
@@ -125,9 +125,9 @@ namespace XLua
 			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUAENV_DTORFUNCTIONMETAFUNCTION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AddIniter(::System::Action* a1)
+		static ::System::Void AddIniter(::System::Action_2<::XLua::LuaEnv*, ::XLua::ObjectTranslator*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + XLUA_LUAENV_ADDINITER_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::XLua::LuaEnv*, ::XLua::ObjectTranslator*>*))((::PBYTE)hIl2Cpp + XLUA_LUAENV_ADDINITER_OFFSET))(a1);
 		}
 
 		::XLua::LuaTable* get_Global()

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MCHECHNKADP_Category.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AdventureAudioManager; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -31,7 +31,7 @@ inline static constexpr unsigned int MCHECHNKADP_TypeDefinitionIndex = 80214;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* GBELPMCGMBG; // 0x10
-		::System::Nullable* PFJPHIPKCDJ; // 0x18
+		::System::Nullable_1<::System::Object*> PFJPHIPKCDJ; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MCHECHNKADP_CTOR_OFFSET))(this);

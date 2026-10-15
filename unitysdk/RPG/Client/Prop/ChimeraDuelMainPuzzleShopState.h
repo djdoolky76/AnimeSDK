@@ -14,6 +14,7 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -127,9 +128,9 @@ namespace RPG::Client::Prop
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE_GETKEYMAPANCHOR_OFFSET))(this);
 		}
 
-		::System::Action* PlayPerformanceAndGetCancelHandler(::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>* a1, ::System::Action* a2)
+		::System::Action* PlayPerformanceAndGetCancelHandler(::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>* a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Action*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE_PLAYPERFORMANCEANDGETCANCELHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Action*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>*, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE_PLAYPERFORMANCEANDGETCANCELHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::RPG::Client::Prop::DuelChimeraProxy*>* RPG_Client_Prop_IDuelChimeraProxyContainer_GetProxies()

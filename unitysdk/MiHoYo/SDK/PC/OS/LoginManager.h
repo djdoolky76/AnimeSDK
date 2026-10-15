@@ -7,6 +7,7 @@ namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::PC::OS { class LoginManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_LOGINMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF40530)
 #define MIHOYO_SDK_PC_OS_LOGINMANAGER_CHECKANDSHOWCHANNELPRECOMBOLOGINPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1BF3FFA0)
@@ -28,7 +29,7 @@ namespace MiHoYo::SDK::PC::OS
 	class LoginManager : public ::System::Object
 	{
 	public:
-		::System::Action* loginCallback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* loginCallback; // 0x10
 		static ::MiHoYo::SDK::PC::OS::LoginManager** StaticGet_Instance()
 		{
 			return (::MiHoYo::SDK::PC::OS::LoginManager**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "LoginManager")->GetStaticField(0x17CD0);
@@ -44,29 +45,29 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_CCTOR_OFFSET))();
 		}
 
-		::System::Void Login(::System::Action* a1)
+		::System::Void Login(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGIN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void Logout(::System::Action* a1)
+		::System::Void Logout(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGOUT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGOUT_OFFSET))(this, a1);
 		}
 
-		::System::Void LogoutWithoutConfirm(::System::Action* a1)
+		::System::Void LogoutWithoutConfirm(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGOUTWITHOUTCONFIRM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGOUTWITHOUTCONFIRM_OFFSET))(this, a1);
 		}
 
-		::System::Void SwitchRole(::System::Action* a1)
+		::System::Void SwitchRole(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_SWITCHROLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_SWITCHROLE_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestLoginByAuthTicket(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void RequestLoginByAuthTicket(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_REQUESTLOGINBYAUTHTICKET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_REQUESTLOGINBYAUTHTICKET_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ShowLoginStateInvalid(::System::String* a1, ::MiHoYo::SDK::ReportType a2, ::System::Action* a3)

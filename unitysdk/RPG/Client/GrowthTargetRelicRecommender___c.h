@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2E3EC0)
 #define RPG_CLIENT_GROWTHTARGETRELICRECOMMENDER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2E3F00)
@@ -16,9 +16,9 @@ namespace RPG::Client
 	class GrowthTargetRelicRecommender___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__7_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__7_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE670);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE670);
 		}
 
 		static ::System::Object** StaticGet___9()

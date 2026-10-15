@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define JNMPLKMLMBI_CCTOR_OFFSET UNITYSDK_OFFSET(0xB28DFE0)
 #define JNMPLKMLMBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB28E0C0)
@@ -13,9 +13,9 @@ inline static constexpr unsigned int JNMPLKMLMBI_TypeDefinitionIndex = 49770;
 	class JNMPLKMLMBI : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_BEJJCPGEMIG()
+		static ::System::Action_1<::LBJLBMOOJGM*>** StaticGet_BEJJCPGEMIG()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "JNMPLKMLMBI")->GetStaticField(0x23200);
+			return (::System::Action_1<::LBJLBMOOJGM*>**)UnitySDK::FromName("", "JNMPLKMLMBI")->GetStaticField(0x23200);
 		}
 
 		static ::System::Void _cctor()

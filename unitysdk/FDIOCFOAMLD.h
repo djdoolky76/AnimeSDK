@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FDIOCFOAMLD;
 class FHNIMGBMPLN;
 class HEACNLOGGPH;
@@ -64,7 +64,7 @@ inline static constexpr unsigned int FDIOCFOAMLD_TypeDefinitionIndex = 74616;
 	class FDIOCFOAMLD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::MapAnchorDef*>* AFMLPKBINBC; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapAnchorDef*>* AFMLPKBINBC; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDIOCFOAMLD_CTOR_OFFSET))(this);
@@ -155,9 +155,9 @@ inline static constexpr unsigned int FDIOCFOAMLD_TypeDefinitionIndex = 74616;
 			return ((::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + FDIOCFOAMLD_JGHGGOINFDM_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapAnchorDef*>* OPGJGJCNPPN()
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapAnchorDef*>* OPGJGJCNPPN()
 		{
-			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapAnchorDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FDIOCFOAMLD_OPGJGJCNPPN_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapAnchorDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FDIOCFOAMLD_OPGJGJCNPPN_OFFSET))(this);
 		}
 
 		::RPG::GameCore::RuntimeGroupInfo* FKNJAMCOFPO(::System::UInt32 a1)

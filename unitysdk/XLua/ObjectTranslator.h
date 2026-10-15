@@ -1499,7 +1499,6 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-namespace System { class Action; }
 namespace System { class Array; }
 namespace System { class Delegate; }
 namespace System { class Object; }
@@ -1508,6 +1507,7 @@ namespace System { class Type; }
 namespace System { class WeakReference; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -5963,7 +5963,7 @@ namespace XLua
 		::XLua::LuaDLL::lua_CSFunction* castFunction; // 0xD0
 		::XLua::ObjectCasters* objectCasters; // 0xD8
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Type*>* typeMap; // 0xE0
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action*>* delayWrap; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_1<::System::IntPtr>*>* delayWrap; // 0xE8
 		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>* enumMap; // 0xF0
 		::XLua::MethodWrapsCache* methodWrapsCache; // 0xF8
 		::System::Int32 RPGGameCoreMuseumTargetRewardType_EnumRef; // 0x100
@@ -30408,9 +30408,9 @@ namespace XLua
 			return ((::XLua::ObjectCasters*(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_GET_OBJECTCASTERS_OFFSET))(this);
 		}
 
-		::System::Void DelayWrapLoader(::System::Type* a1, ::System::Action* a2)
+		::System::Void DelayWrapLoader(::System::Type* a1, ::System::Action_1<::System::IntPtr>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Action*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_DELAYWRAPLOADER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Action_1<::System::IntPtr>*))((::PBYTE)hIl2Cpp + XLUA_OBJECTTRANSLATOR_DELAYWRAPLOADER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean HaveDelayLoader(::System::Type* a1)

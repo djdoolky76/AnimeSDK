@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -8,8 +9,7 @@ namespace RPG::Client::Prop { class ChimeraDuelShopChimeraInstance; }
 namespace RPG::Client::Prop { class ChimeraDuelShopDraggedChimeraSlotView; }
 namespace RPG::Client::Prop { class ChimeraDuelShopTeamDragAreas; }
 namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlot; }
-namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
@@ -34,10 +34,10 @@ namespace RPG::Client::Prop
 	public:
 		::RPG::Client::EventTriggerListener* _BoundEventTrigger; // 0x10
 		::RPG::Client::Prop::ChimeraDuelShopDraggedChimeraSlotView* _View; // 0x18
-		::System::Action* _InStallDragAreaListener; // 0x20
+		::System::Action_1<::System::Boolean>* _InStallDragAreaListener; // 0x20
 		::RPG::Client::Prop::ChimeraDuelShopChimeraInstance* Instance; // 0x28
 		::RPG::Client::Prop::ChimeraDuelShopTeamDragAreas* _DragAreas; // 0x30
-		::System::Nullable* _WasInStallDragArea; // 0x38
+		::System::Nullable_1<::System::Boolean> _WasInStallDragArea; // 0x38
 		::System::Void _ctor(::RPG::Client::Prop::ChimeraDuelShopDraggedChimeraSlotView* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelShopDraggedChimeraSlotView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_CTOR_OFFSET))(this, a1);
@@ -68,9 +68,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_UNBINDDRAGEVENTTRIGGER_OFFSET))(this);
 		}
 
-		::System::Void SetCrossStallDragAreaListener(::System::Action* a1)
+		::System::Void SetCrossStallDragAreaListener(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETCROSSSTALLDRAGAREALISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETCROSSSTALLDRAGAREALISTENER_OFFSET))(this, a1);
 		}
 
 		::System::Void SimulateDragOverSlot(::RPG::Client::Prop::ChimeraDuelTeamMemberSlot* a1)

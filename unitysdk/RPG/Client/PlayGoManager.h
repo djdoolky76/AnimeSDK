@@ -9,7 +9,7 @@ class FKEPGDPBEHH;
 class HPIFMHPHMGB;
 namespace RPG::Client { class VersionUpdateProgressInfo; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_PLAYGOMANAGER_ADDEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xDBDC990)
 #define RPG_CLIENT_PLAYGOMANAGER_CHECKALLCHUNKDOWNLOADCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDBDCDE0)
@@ -97,14 +97,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_ONTICK_OFFSET))(this);
 		}
 
-		::System::Void CheckAllChunkDownloadComplete(::System::Action* a1)
+		::System::Void CheckAllChunkDownloadComplete(::System::Action_1<::BOFJHGFAJBN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_CHECKALLCHUNKDOWNLOADCOMPLETE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::BOFJHGFAJBN*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_CHECKALLCHUNKDOWNLOADCOMPLETE_OFFSET))(this, a1);
 		}
 
-		::System::Void GetEstimatedTime(::System::Action* a1)
+		::System::Void GetEstimatedTime(::System::Action_1<::FKEPGDPBEHH*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_GETESTIMATEDTIME_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FKEPGDPBEHH*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_GETESTIMATEDTIME_OFFSET))(this, a1);
 		}
 
 		::System::UInt64 GetUsedTime()
@@ -112,14 +112,14 @@ namespace RPG::Client
 			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_GETUSEDTIME_OFFSET))(this);
 		}
 
-		::System::Void AddEventListener(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void AddEventListener(::System::Action_1<::DODJIGDAJFE*>* a1, ::System::Action_1<::HPIFMHPHMGB*>* a2, ::System::Action_1<::ENHCOHMNNOD*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_ADDEVENTLISTENER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DODJIGDAJFE*>*, ::System::Action_1<::HPIFMHPHMGB*>*, ::System::Action_1<::ENHCOHMNNOD*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_ADDEVENTLISTENER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RemoveEventListener(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void RemoveEventListener(::System::Action_1<::DODJIGDAJFE*>* a1, ::System::Action_1<::HPIFMHPHMGB*>* a2, ::System::Action_1<::ENHCOHMNNOD*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_REMOVEEVENTLISTENER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DODJIGDAJFE*>*, ::System::Action_1<::HPIFMHPHMGB*>*, ::System::Action_1<::ENHCOHMNNOD*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYGOMANAGER_REMOVEEVENTLISTENER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnStart(::DODJIGDAJFE* a1)

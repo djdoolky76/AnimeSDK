@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
+#include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { class EnumeratorAsyncExtensions_EnumeratorPromise; }
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
-namespace Cysharp::Threading::Tasks { class TaskPool; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Reflection { class FieldInfo; }
 namespace UnityEngine { class AsyncOperation; }
@@ -45,9 +45,9 @@ namespace Cysharp::Threading::Tasks
 		::System::Boolean loopRunning; // 0x51
 		::System::Byte _padding1[0x2];
 		::System::Int32 initialFrame; // 0x54
-		static ::Cysharp::Threading::Tasks::TaskPool** StaticGet_pool()
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool**)UnitySDK::FromName("Cysharp.Threading.Tasks", "EnumeratorPromise")->GetStaticField(0x3F120);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "EnumeratorPromise")->GetStaticField(0x3F120);
 		}
 
 		static ::System::Reflection::FieldInfo** StaticGet_waitForSeconds_Seconds()
@@ -90,9 +90,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ENUMERATORASYNCEXTENSIONS_ENUMERATORPROMISE_UNSAFEGETSTATUS_OFFSET))(this);
 		}
 
-		::System::Void OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ENUMERATORASYNCEXTENSIONS_ENUMERATORPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ENUMERATORASYNCEXTENSIONS_ENUMERATORPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean MoveNext()

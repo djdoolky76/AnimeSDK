@@ -5,9 +5,9 @@ class CHKKOLCPBOH;
 class KBONOPFLPDJ;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class GetRaidInfoScRsp; }
@@ -46,24 +46,24 @@ namespace Proto
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* challengeTakenRewardIdList_; // 0x20
 		::Google::Protobuf::Collections::RepeatedField_1<::CHKKOLCPBOH*>* finishedRaidInfoList_; // 0x28
 		::System::UInt32 retcode_; // 0x30
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetRaidInfoScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "GetRaidInfoScRsp")->GetStaticField(0x43C10);
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetRaidInfoScRsp*>**)UnitySDK::FromName("Proto", "GetRaidInfoScRsp")->GetStaticField(0x43C10);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_finishedRaidInfoList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::CHKKOLCPBOH*>** StaticGet__repeated_finishedRaidInfoList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GetRaidInfoScRsp")->GetStaticField(0x43C18);
+			return (::Google::Protobuf::FieldCodec_1<::CHKKOLCPBOH*>**)UnitySDK::FromName("Proto", "GetRaidInfoScRsp")->GetStaticField(0x43C18);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_challengeRaidList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::KBONOPFLPDJ*>** StaticGet__repeated_challengeRaidList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GetRaidInfoScRsp")->GetStaticField(0x43C20);
+			return (::Google::Protobuf::FieldCodec_1<::KBONOPFLPDJ*>**)UnitySDK::FromName("Proto", "GetRaidInfoScRsp")->GetStaticField(0x43C20);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_challengeTakenRewardIdList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_challengeTakenRewardIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GetRaidInfoScRsp")->GetStaticField(0x43C28);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GetRaidInfoScRsp")->GetStaticField(0x43C28);
 		}
 
 		// static const ::System::Object FinishedRaidInfoListFieldNumber; // 0x0
@@ -85,9 +85,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GETRAIDINFOSCRSP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetRaidInfoScRsp*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_GETRAIDINFOSCRSP_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::GetRaidInfoScRsp*>*(*)())((::PBYTE)hIl2Cpp + PROTO_GETRAIDINFOSCRSP_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

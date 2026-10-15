@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -24,7 +24,7 @@ namespace RPG::Client::Pet::BlindBox
 	class BlindBoxPetRepository : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::Pet::BlindBox::IBlindBoxPet*>* _PetCache; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::Pet::BlindBox::IBlindBoxPet*>* _PetCache; // 0x10
 		::System::Boolean _IsFull; // 0x18
 		::System::Void _ctor()
 		{

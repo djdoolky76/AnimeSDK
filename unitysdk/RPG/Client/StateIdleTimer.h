@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace RPG::Client { class EntityGameObjectConnection; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class Animator; }
 
 #define RPG_CLIENT_STATEIDLETIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xE12E2F0)
@@ -26,7 +26,7 @@ namespace RPG::Client
 		::System::Boolean ResetTimeOnStoryMode; // 0x40
 		::System::Byte _padding0[0x7];
 		::RPG::Client::EntityGameObjectConnection* Connection; // 0x48
-		::System::WeakReference* EntityRef; // 0x50
+		::System::WeakReference_1<::RPG::GameCore::GameEntity*>* EntityRef; // 0x50
 		// static const ::System::Object CommonIdleValue; // 0x0
 		::System::Void _ctor()
 		{

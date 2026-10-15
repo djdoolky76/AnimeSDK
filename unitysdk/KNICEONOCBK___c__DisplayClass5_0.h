@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class BOGCBDLBHFK;
 class KNICEONOCBK;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
 #define KNICEONOCBK___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB585EE0)
@@ -14,7 +14,7 @@ inline static constexpr unsigned int KNICEONOCBK___c__DisplayClass5_0_TypeDefini
 	class KNICEONOCBK___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::BOGCBDLBHFK*>* callback; // 0x10
 		::BOGCBDLBHFK* entity; // 0x18
 		::KNICEONOCBK* __4__this; // 0x20
 		::System::Void _ctor()

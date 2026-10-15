@@ -3,6 +3,7 @@
 #include "unitysdk/EMGBGGMLFED.h"
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/KHLDHMFKOCP.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/RPG/MVector2.h"
 class GFHCKBHCNDF;
 class IFFJIHFGOBO;
@@ -10,7 +11,6 @@ class KHLDHMFKOCP;
 class NBIBOKEFKIH;
 namespace RPG::GameCore { class MarbleLaunchAIConfig; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define AOKDLPNDMMO_BMNGDNNOMGK_OFFSET UNITYSDK_OFFSET(0x1C89F0F0)
@@ -29,7 +29,7 @@ inline static constexpr unsigned int AOKDLPNDMMO_TypeDefinitionIndex = 43077;
 	class AOKDLPNDMMO : public ::KHLDHMFKOCP
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* ELBNJLHBEJD; // 0x200
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::System::Int32>>* ELBNJLHBEJD; // 0x200
 		::KHLDHMFKOCP* BHHAMGJHDON; // 0x208
 		::System::Collections::Generic::List_1<::EMGBGGMLFED>* NFCHLOABNAB; // 0x210
 		::EMGBGGMLFED JCHFCNFHCMM; // 0x218

@@ -13,9 +13,9 @@ namespace MiHoYo::SDK { class Web_OnWebViewPageClose; }
 namespace MiHoYo::SDK { class Web_OnWebViewPageError; }
 namespace MiHoYo::SDK { class Web_OnWebViewPageFinish; }
 namespace MiHoYo::SDK { class Web_OnWebViewPopupBrowserCreate; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -361,9 +361,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_CALLJSFUNCTION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RegisterJSPostMessage(::System::String* a1, ::System::Action* a2)
+		::System::Void RegisterJSPostMessage(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::JSONNode*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_REGISTERJSPOSTMESSAGE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::JSONNode*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_REGISTERJSPOSTMESSAGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetForwardButtonEnabled(::System::Boolean a1)

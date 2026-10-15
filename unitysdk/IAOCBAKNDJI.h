@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BehaviorBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client { class CRPVCBackground; }
 namespace RPG::Client { class SmallWindowVCControl; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
@@ -34,16 +34,16 @@ inline static constexpr unsigned int IAOCBAKNDJI_TypeDefinitionIndex = 69713;
 		::Il2CppArray<::UnityEngine::Vector2>* CMGDDDMAHJN; // 0x28
 		::System::Single MIJAKIMPCGJ; // 0x30
 		::System::Single AOLGEMLDKAE; // 0x34
-		::System::Nullable* NFAOFJMMFIA; // 0x38
+		::System::Nullable_1<::UnityEngine::Color> NFAOFJMMFIA; // 0x38
 		::System::Byte _padding0[0xC];
 		::System::Single CMBLMGDPAFN; // 0x4C
-		::System::Nullable* CFJAJIHFMIH; // 0x50
+		::System::Nullable_1<::UnityEngine::Vector2> CFJAJIHFMIH; // 0x50
 		::System::Byte _padding1[0x4];
-		::System::Nullable* BFHMKJJCKKG; // 0x5C
-		::System::Nullable* CMKEKJKNIKE; // 0x64
+		::System::Nullable_1<::System::Single> BFHMKJJCKKG; // 0x5C
+		::System::Nullable_1<::UnityEngine::Vector2> CMKEKJKNIKE; // 0x64
 		::System::Byte _padding2[0x4];
 		::System::Single CNACJMMOFNL; // 0x70
-		::System::Nullable* JGMGCPNCLPC; // 0x74
+		::System::Nullable_1<::System::Boolean> JGMGCPNCLPC; // 0x74
 		::System::Boolean FJMFKJEIOIO; // 0x76
 		::System::Void _ctor()
 		{

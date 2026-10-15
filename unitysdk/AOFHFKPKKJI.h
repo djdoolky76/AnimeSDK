@@ -7,7 +7,7 @@ class MALMDHMLGDE;
 namespace RPG::GameCore { class StatusRow; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define AOFHFKPKKJI_AKPAGENDBPC_OFFSET UNITYSDK_OFFSET(0x158A9870)
@@ -42,7 +42,7 @@ inline static constexpr unsigned int AOFHFKPKKJI_TypeDefinitionIndex = 80826;
 	public:
 		::System::String* _IconPath_k__BackingField; // 0x10
 		::System::Collections::Generic::List_1<::MALMDHMLGDE*>* _ModifierHintList_k__BackingField; // 0x18
-		::System::WeakReference* CLDNCBHCAKI; // 0x20
+		::System::WeakReference_1<::RPG::GameCore::TurnBasedModifierInstance*>* CLDNCBHCAKI; // 0x20
 		::System::Int32 _ModifierConfigUIPriority_k__BackingField; // 0x28
 		::System::Int32 _ModifierInstanceUIIndex_k__BackingField; // 0x2C
 		::RPG::Client::TextID _Name_k__BackingField; // 0x30

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C15DBE0)
 #define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C15DC20)
@@ -15,9 +15,9 @@ namespace System::Threading::Tasks
 	class TaskSchedulerAwaitTaskContinuation___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__2_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x212C0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x212C0);
 		}
 
 		static ::System::Object** StaticGet___9()

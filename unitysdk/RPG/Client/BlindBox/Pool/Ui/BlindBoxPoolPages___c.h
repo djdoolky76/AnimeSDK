@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC88F050)
 #define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXPOOLPAGES___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC88F090)
@@ -21,9 +21,9 @@ namespace RPG::Client::BlindBox::Pool::Ui
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Pool.Ui", "<>c")->GetStaticField(0x5E190);
 		}
 
-		static ::System::Action** StaticGet___9__1_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__1_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.BlindBox.Pool.Ui", "<>c")->GetStaticField(0x5E198);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool.Ui", "<>c")->GetStaticField(0x5E198);
 		}
 
 		static ::System::Void _cctor()

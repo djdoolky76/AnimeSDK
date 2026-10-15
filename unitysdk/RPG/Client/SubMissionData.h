@@ -8,12 +8,12 @@
 #include "unitysdk/RPG/GameCore/SubMissionState.h"
 #include "unitysdk/RPG/GameCore/SubmissionLogicType.h"
 #include "unitysdk/RPG/GameCore/SubmissionOptionalTrackMode.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class DGDHPPIHNMA;
 namespace RPG::GameCore { class SubMissionInfoConfig; }
 namespace RPG::GameCore { class SubMissionRow; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define RPG_CLIENT_SUBMISSIONDATA_CHECKISFLOORCONNECTED_OFFSET UNITYSDK_OFFSET(0xE148160)
@@ -87,7 +87,7 @@ namespace RPG::Client
 		::System::UInt32 _LevelPlaneID; // 0x28
 		::RPG::GameCore::MissionActivePlaneType _MissionActivePlaneType; // 0x2C
 		::RPG::GameCore::SubMissionState _Status; // 0x30
-		::System::Nullable* _IsControlHintByDistance; // 0x34
+		::System::Nullable_1<::System::Boolean> _IsControlHintByDistance; // 0x34
 		::System::Boolean _IsMuteNav; // 0x36
 		::System::Byte _padding0[0x1];
 		::RPG::Client::ReasonBool_1<::RPG::GameCore::PlaneType> _MissionActivePlane; // 0x38

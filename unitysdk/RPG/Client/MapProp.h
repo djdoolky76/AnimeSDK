@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/EntityClassifyType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BPIEHCCAMIA;
 class EOABGMGNKGA;
@@ -17,6 +17,7 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StageObjectCapture; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -75,7 +76,7 @@ namespace RPG::Client
 		::RPG::Client::MapPropDef* _mapPropDef; // 0x20
 		::System::Action* _DeferLoadCallback_withoutParam; // 0x28
 		::RPG::GameCore::GameEntity* _PropEntity; // 0x30
-		::System::Action* _DeferLoadCallback; // 0x38
+		::System::Action_1<::RPG::Client::MapProp*>* _DeferLoadCallback; // 0x38
 		::RPG::Client::MapObjectState _State_k__BackingField; // 0x40
 		::UnityEngine::Quaternion _RotationFromConfig_k__BackingField; // 0x44
 		::System::Void _ctor(::RPG::Client::MapPropDef* a1)
@@ -208,9 +209,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Boolean SetDeferLoadCallback(::System::Action* a1, ::System::Boolean a2)
+		::System::Boolean SetDeferLoadCallback(::System::Action_1<::RPG::Client::MapProp*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP_SETDEFERLOADCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Action_1<::RPG::Client::MapProp*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP_SETDEFERLOADCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean SetDeferLoadCallbackWithoutParam(::System::Action* a1, ::System::Boolean a2)
@@ -238,9 +239,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP__BUILDPROPFRIENDLYNAMEBYMAPPROPDEF_OFFSET))(a1);
 		}
 
-		::System::ValueTuple _CalcPositionAndRotation(::RPG::Client::OpenWorld::StreamingItemData* a1)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> _CalcPositionAndRotation(::RPG::Client::OpenWorld::StreamingItemData* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP__CALCPOSITIONANDROTATION_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP__CALCPOSITIONANDROTATION_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::OpenWorld::StreamingItemData* _GetStageObjectCaptureHandler()
@@ -268,9 +269,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP_STARTLEVELGRAPH_OFFSET))(this);
 		}
 
-		::System::Void BeginFadeOut(::System::Action* a1)
+		::System::Void BeginFadeOut(::System::Action_1<::EOABGMGNKGA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP_BEGINFADEOUT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EOABGMGNKGA*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROP_BEGINFADEOUT_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

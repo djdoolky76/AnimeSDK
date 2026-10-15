@@ -5,9 +5,9 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -32,10 +32,10 @@ inline static constexpr unsigned int DPOGHBMIPFF_TypeDefinitionIndex = 77165;
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x18
 		::KJFIKOKBCCA MHLLDAMIPJB; // 0x20
-		::Entitas::ICollector* AEAGCNMOLFD; // 0xB0
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* AEAGCNMOLFD; // 0xB0
 		::KJFIKOKBCCA PBBFPDDIMGA; // 0xB8
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x148
-		::Entitas::IGroup* KNBDGCCIFOO; // 0x150
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* KNBDGCCIFOO; // 0x150
 		::System::Boolean FAFIKPCPBOF; // 0x158
 		::System::Boolean ABKMPGNDAHO; // 0x159
 		::System::Boolean POKNFELPLJD; // 0x15A
@@ -71,9 +71,9 @@ inline static constexpr unsigned int DPOGHBMIPFF_TypeDefinitionIndex = 77165;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_IJDPFNBAFEM_OFFSET))(this, a1);
 		}
 
-		::System::Void BPMHFOOGBAC(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void BPMHFOOGBAC(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_BPMHFOOGBAC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_BPMHFOOGBAC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void MANGDBHPHIJ()

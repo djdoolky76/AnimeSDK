@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class KNGDGMPKJIF;
 namespace System { class Object; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define GNLAIADPCFM_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B16200)
@@ -15,9 +15,9 @@ inline static constexpr unsigned int GNLAIADPCFM_TypeDefinitionIndex = 80535;
 	class GNLAIADPCFM : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_NPIPNPBCKGF()
+		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Object*>*>** StaticGet_NPIPNPBCKGF()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("", "GNLAIADPCFM")->GetStaticField(0x6C8F0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Object*>*>**)UnitySDK::FromName("", "GNLAIADPCFM")->GetStaticField(0x6C8F0);
 		}
 
 		static ::System::Void _cctor()

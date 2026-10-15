@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/AIStatus.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/GroupStateType.h"
+#include "unitysdk/System/Nullable_1.h"
 class BBOFEHOPCEC;
 class EFHJJIGLPDL;
 class EJFAHBINDIN;
@@ -27,7 +28,6 @@ namespace RPG::GameCore { class NPCComponent; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -376,9 +376,9 @@ inline static constexpr unsigned int BACCOPOCMPC_TypeDefinitionIndex = 56857;
 			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BACCOPOCMPC_DKLAHCEKOOD_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* GIDGIAMIIFP()
+		::System::Nullable_1<::RPG::GameCore::GroupStateType> GIDGIAMIIFP()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + BACCOPOCMPC_GIDGIAMIIFP_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::GroupStateType>(*)(::PVOID))((::PBYTE)hIl2Cpp + BACCOPOCMPC_GIDGIAMIIFP_OFFSET))(this);
 		}
 
 		::RPG::GameCore::GameEntity* KBHIONPNEKN()

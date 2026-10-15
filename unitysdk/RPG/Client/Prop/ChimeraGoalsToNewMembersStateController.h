@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraPreparationState.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraPreparationStateControllerBase.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
@@ -25,7 +25,7 @@ namespace RPG::Client::Prop
 		::System::UInt32 _PerfGroupPropID; // 0x44
 		::System::String* _PerfEntityEvent; // 0x48
 		::System::String* _PerfConfigSsrKey; // 0x50
-		::System::Nullable* MGLEPKGFODH; // 0x58
+		::System::Nullable_1<::System::UInt32> MGLEPKGFODH; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAGOALSTONEWMEMBERSSTATECONTROLLER_CTOR_OFFSET))(this);

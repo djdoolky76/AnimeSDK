@@ -6,6 +6,7 @@ namespace MiHoYo::SDK::Win { class BubbleTooltipHost; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
@@ -86,10 +87,10 @@ namespace MiHoYo::SDK::UI
 		::System::Byte _padding1[0x7];
 		::System::Action* OnBackBtnClicked; // 0x170
 		::System::Action* OnCloseBtnClicked; // 0x178
-		::System::Action* OnGetCaptchaBtnClicked; // 0x180
+		::System::Action_1<::System::String*>* OnGetCaptchaBtnClicked; // 0x180
 		::System::Action* OnShowUserAgreementClicked; // 0x188
 		::System::Action* OnShowPrivacyProtocolClicked; // 0x190
-		::System::Action* OnBindBtnClicked; // 0x198
+		::System::Action_1<::System::String*>* OnBindBtnClicked; // 0x198
 		::System::Action* OnQRRefreshBtnClicked; // 0x1A0
 		static ::MiHoYo::SDK::UI::AccountBinding** StaticGet_Instance()
 		{

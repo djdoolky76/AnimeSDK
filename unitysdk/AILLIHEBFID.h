@@ -13,6 +13,9 @@ class MBDOBECHOJA;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::GameCore { class PetMarbleGameConfig; }
 namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -63,17 +66,17 @@ inline static constexpr unsigned int AILLIHEBFID_TypeDefinitionIndex = 74726;
 	{
 	public:
 		::DMCPMMBEDOL LIOMDOHHNFH; // 0x10
-		::System::Action* SelectedMarbleAppearanceRequested; // 0x20
-		::System::Action* BLNMMCJECEL; // 0x28
+		::System::Action_2<::System::UInt32, ::System::UInt32>* SelectedMarbleAppearanceRequested; // 0x20
+		::System::Action_1<::DMCPMMBEDOL>* BLNMMCJECEL; // 0x28
 		::System::Func_1<::System::Boolean>* AFIBMAJKJDP; // 0x30
-		::System::Action* SelfMarbleSelectedRequested; // 0x38
+		::System::Action_3<::System::UInt32, ::System::Boolean, ::System::UInt32>* SelfMarbleSelectedRequested; // 0x38
 		::System::Collections::Generic::List_1<::DCHICFMEANN>* LENPPEDOIBG; // 0x40
-		::System::Action* SelfReadyRequested; // 0x48
+		::System::Action_1<::System::Boolean>* SelfReadyRequested; // 0x48
 		::System::Collections::Generic::List_1<::BKLPIMMNFOC*>* JGBIIJMHNLC; // 0x50
 		::DMCPMMBEDOL FABDNOAPLGL; // 0x58
 		::System::Collections::Generic::List_1<::HNBOHDBLMBE*>* CMIAPIMBCJI; // 0x68
 		::DCHFGBPMKDI* OFMKMFOJKFC; // 0x70
-		::System::Action* NOKLEJHAHPG; // 0x78
+		::System::Action_1<::DMCPMMBEDOL>* NOKLEJHAHPG; // 0x78
 		::System::Action* DGGJICFFMNL; // 0x80
 		::System::UInt32 EICIJEBDFBF; // 0x88
 		::System::UInt32 IKKHNIPGMGK; // 0x8C
@@ -137,14 +140,14 @@ inline static constexpr unsigned int AILLIHEBFID_TypeDefinitionIndex = 74726;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AILLIHEBFID_CDPAHCKAPOE_OFFSET))(this);
 		}
 
-		::System::Void ACIDOJGEJIA(::System::Action* a1)
+		::System::Void ACIDOJGEJIA(::System::Action_1<::DMCPMMBEDOL>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AILLIHEBFID_ACIDOJGEJIA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DMCPMMBEDOL>*))((::PBYTE)hIl2Cpp + AILLIHEBFID_ACIDOJGEJIA_OFFSET))(this, a1);
 		}
 
-		::System::Void EHEPCGHLPBC(::System::Action* a1)
+		::System::Void EHEPCGHLPBC(::System::Action_1<::DMCPMMBEDOL>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AILLIHEBFID_EHEPCGHLPBC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DMCPMMBEDOL>*))((::PBYTE)hIl2Cpp + AILLIHEBFID_EHEPCGHLPBC_OFFSET))(this, a1);
 		}
 
 		::System::Void HDPOMBMJIKG(::System::Action* a1)
@@ -232,34 +235,34 @@ inline static constexpr unsigned int AILLIHEBFID_TypeDefinitionIndex = 74726;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AILLIHEBFID_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void add_SelfReadyRequested(::System::Action* a1)
+		::System::Void add_SelfReadyRequested(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AILLIHEBFID_ADD_SELFREADYREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + AILLIHEBFID_ADD_SELFREADYREQUESTED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SelfReadyRequested(::System::Action* a1)
+		::System::Void remove_SelfReadyRequested(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AILLIHEBFID_REMOVE_SELFREADYREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + AILLIHEBFID_REMOVE_SELFREADYREQUESTED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_SelfMarbleSelectedRequested(::System::Action* a1)
+		::System::Void add_SelfMarbleSelectedRequested(::System::Action_3<::System::UInt32, ::System::Boolean, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AILLIHEBFID_ADD_SELFMARBLESELECTEDREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::UInt32, ::System::Boolean, ::System::UInt32>*))((::PBYTE)hIl2Cpp + AILLIHEBFID_ADD_SELFMARBLESELECTEDREQUESTED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SelfMarbleSelectedRequested(::System::Action* a1)
+		::System::Void remove_SelfMarbleSelectedRequested(::System::Action_3<::System::UInt32, ::System::Boolean, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AILLIHEBFID_REMOVE_SELFMARBLESELECTEDREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::UInt32, ::System::Boolean, ::System::UInt32>*))((::PBYTE)hIl2Cpp + AILLIHEBFID_REMOVE_SELFMARBLESELECTEDREQUESTED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_SelectedMarbleAppearanceRequested(::System::Action* a1)
+		::System::Void add_SelectedMarbleAppearanceRequested(::System::Action_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AILLIHEBFID_ADD_SELECTEDMARBLEAPPEARANCEREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + AILLIHEBFID_ADD_SELECTEDMARBLEAPPEARANCEREQUESTED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SelectedMarbleAppearanceRequested(::System::Action* a1)
+		::System::Void remove_SelectedMarbleAppearanceRequested(::System::Action_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AILLIHEBFID_REMOVE_SELECTEDMARBLEAPPEARANCEREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + AILLIHEBFID_REMOVE_SELECTEDMARBLEAPPEARANCEREQUESTED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean AHFLLENALPP()

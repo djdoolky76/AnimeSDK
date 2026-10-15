@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayRankItemViewModel; }
 namespace System { class String; }
 
@@ -33,14 +33,14 @@ namespace RPG::Client::ChenLingFes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayRankItemViewModel* Create(::System::ValueTuple a1, ::System::Int32 a2)
+		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayRankItemViewModel* Create(::System::ValueTuple_2<::System::UInt32, ::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::RPG::Client::ChenLingFes::ChenLingFesGameplayRankItemViewModel*(*)(::System::ValueTuple, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_CREATE_OFFSET))(a1, a2);
+			return ((::RPG::Client::ChenLingFes::ChenLingFesGameplayRankItemViewModel*(*)(::System::ValueTuple_2<::System::UInt32, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_CREATE_OFFSET))(a1, a2);
 		}
 
-		::System::Void SetData(::System::ValueTuple a1, ::System::Int32 a2)
+		::System::Void SetData(::System::ValueTuple_2<::System::UInt32, ::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SETDATA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYRANKITEMVIEWMODEL_SETDATA_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_IconPath()

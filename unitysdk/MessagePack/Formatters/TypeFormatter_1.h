@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 namespace MessagePack::Formatters
 {
@@ -11,9 +11,9 @@ namespace MessagePack::Formatters
 	class TypeFormatter_1 : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<T>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "TypeFormatter`1")->GetStaticField(0x0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<T>**)UnitySDK::FromName("MessagePack.Formatters", "TypeFormatter`1")->GetStaticField(0x0);
 		}
 
 	};

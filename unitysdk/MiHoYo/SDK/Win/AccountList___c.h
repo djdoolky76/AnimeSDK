@@ -2,9 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class AccountList; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
 #define MIHOYO_SDK_WIN_ACCOUNTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCDB910)
@@ -19,14 +20,14 @@ namespace MiHoYo::SDK::Win
 	class AccountList___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__45_0()
+		static ::System::Action_1<::MiHoYo::SDK::Win::AccountList*>** StaticGet___9__45_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x185F0);
+			return (::System::Action_1<::MiHoYo::SDK::Win::AccountList*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x185F0);
 		}
 
-		static ::System::Action** StaticGet___9__60_0()
+		static ::System::Action_2<::UnityEngine::GameObject*, ::System::String*>** StaticGet___9__60_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x185F8);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x185F8);
 		}
 
 		static ::System::Object** StaticGet___9()

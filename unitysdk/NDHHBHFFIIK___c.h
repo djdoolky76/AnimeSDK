@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class HIOEAKHGILF;
 class NDHHBHFFIIK;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
 #define NDHHBHFFIIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB29C70)
@@ -22,14 +22,14 @@ inline static constexpr unsigned int NDHHBHFFIIK___c_TypeDefinitionIndex = 77080
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26730);
 		}
 
-		static ::System::Action** StaticGet___9__9_1()
+		static ::System::Action_3<::NDHHBHFFIIK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__9_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26738);
+			return (::System::Action_3<::NDHHBHFFIIK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26738);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_3<::NDHHBHFFIIK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26740);
+			return (::System::Action_3<::NDHHBHFFIIK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26740);
 		}
 
 		static ::System::Void _cctor()

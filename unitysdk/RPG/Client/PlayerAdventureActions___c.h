@@ -4,9 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace InControl { class BindingSource; }
 namespace InControl { class PlayerAction; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define RPG_CLIENT_PLAYERADVENTUREACTIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDBE2A10)
 #define RPG_CLIENT_PLAYERADVENTUREACTIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDBE2A40)
@@ -26,14 +27,14 @@ namespace RPG::Client
 			return (::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37530);
 		}
 
-		static ::System::Action** StaticGet___9__1_2()
+		static ::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>** StaticGet___9__1_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37538);
+			return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37538);
 		}
 
-		static ::System::Action** StaticGet___9__1_1()
+		static ::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>** StaticGet___9__1_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37540);
+			return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x37540);
 		}
 
 		static ::System::Object** StaticGet___9()

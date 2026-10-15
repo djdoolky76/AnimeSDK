@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
@@ -18,7 +19,7 @@ namespace Cysharp::Threading::Tasks
 	{
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
-		::Cysharp::Threading::Tasks::UniTask task; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::UniTask> task; // 0x30
 		::System::Byte _padding0[0x18];
 		::System::Object* __u__1; // 0x50
 		::System::Byte _padding1[0x18];

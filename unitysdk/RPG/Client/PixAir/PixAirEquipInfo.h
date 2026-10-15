@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::PixAir { class PixAirEquipData; }
 namespace RPG::Client::PixAir { class PixAirEquipLevelData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -27,7 +27,7 @@ namespace RPG::Client::PixAir
 	class PixAirEquipInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::PixAir::PixAirEquipLevelData*>* _equipLevelDataMap; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::PixAir::PixAirEquipLevelData*>* _equipLevelDataMap; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PixAir::PixAirEquipData*>* _equipDataMap; // 0x18
 		::System::Void _ctor()
 		{

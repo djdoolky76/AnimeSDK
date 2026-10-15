@@ -13,7 +13,7 @@ class DBGGPBEKFNL;
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimAnimatorStateListenerConfig; }
 namespace RPG::GameCore { class FiveDimBaseCameraConfig; }
 namespace RPG::GameCore { class FiveDimChestConfig; }
@@ -145,9 +145,9 @@ inline static constexpr unsigned int NFFPKHMKOBJ_TypeDefinitionIndex = 76888;
 	{
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* OIDNKJOBODE; // 0x18
-		::Entitas::IGroup* MCIKCILKNON; // 0x20
-		::Entitas::IGroup* BOPPBBDNCND; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* OIDNKJOBODE; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* MCIKCILKNON; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* BOPPBBDNCND; // 0x28
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FiveDimViewBakedInfo*>* JGKNJKKKNDO; // 0x38
 		// static const ::System::String* IMBHLNMGJEO; // 0x0

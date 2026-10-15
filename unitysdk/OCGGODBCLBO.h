@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -9,7 +10,6 @@ class JBLCKECLODH;
 namespace RPG::Client::FullBody { class FBIKChain; }
 namespace RPG::Client::FullBody { class IKEffector; }
 namespace RPG::Client::FullBody { class IKMappingLimb; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Transform; }
 
 #define OCGGODBCLBO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD60A50)
@@ -49,9 +49,9 @@ inline static constexpr unsigned int OCGGODBCLBO_TypeDefinitionIndex = 68595;
 		::System::Single NCHIPMCELLL; // 0x94
 		::System::Single OHBAAMMACAE; // 0x98
 		::System::Single JKFCLDLBJNG; // 0x9C
-		::System::Nullable* MJFMMNMIKCF; // 0xA0
+		::System::Nullable_1<::UnityEngine::Quaternion> MJFMMNMIKCF; // 0xA0
 		::System::Byte _padding1[0xC];
-		::System::Nullable* IMJPIMGLOHI; // 0xB4
+		::System::Nullable_1<::UnityEngine::Vector3> IMJPIMGLOHI; // 0xB4
 		::System::Byte _padding2[0x8];
 		::System::Single MKJJIHELDOF; // 0xC4
 		::UnityEngine::Quaternion MDKPKLOEEMB; // 0xC8

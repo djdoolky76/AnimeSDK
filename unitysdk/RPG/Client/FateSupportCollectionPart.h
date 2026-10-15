@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class FateActivityPanelData; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_CTOR_OFFSET UNITYSDK_OFFSET(0xCFD9CA0)
 #define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GETGAMEPLAYACTIVITYPANELDATA_OFFSET UNITYSDK_OFFSET(0xCFD9770)
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_MISSIONCONTENTID_OFFSET))();
 		}
 
-		static ::System::Nullable* get__GachaRewardQuestID()
+		static ::System::Nullable_1<::System::UInt32> get__GachaRewardQuestID()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET__GACHAREWARDQUESTID_OFFSET))();
+			return ((::System::Nullable_1<::System::UInt32>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET__GACHAREWARDQUESTID_OFFSET))();
 		}
 
 		static ::System::UInt32 get_MissionChronicleMainPathID()

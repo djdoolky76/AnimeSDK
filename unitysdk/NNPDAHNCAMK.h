@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define NNPDAHNCAMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBCDF1D0)
@@ -21,9 +21,9 @@ inline static constexpr unsigned int NNPDAHNCAMK_TypeDefinitionIndex = 59415;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNPDAHNCAMK_CTOR_OFFSET))(this);
 		}
 
-		::System::Void HPBCOLDFMNI(::System::Action* a1, ::System::Object* a2)
+		::System::Void HPBCOLDFMNI(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + NNPDAHNCAMK_HPBCOLDFMNI_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + NNPDAHNCAMK_HPBCOLDFMNI_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void EFIAJANIJLD()

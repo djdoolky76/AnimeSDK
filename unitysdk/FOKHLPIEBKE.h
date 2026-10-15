@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class ChallengeGroupData; }
-namespace System { class Nullable; }
 
 #define FOKHLPIEBKE_CELIPHHBDII_OFFSET UNITYSDK_OFFSET(0x158F6B60)
 #define FOKHLPIEBKE_EKJNEAEEGHO_OFFSET UNITYSDK_OFFSET(0x158F6A30)
@@ -21,9 +21,9 @@ inline static constexpr unsigned int FOKHLPIEBKE_TypeDefinitionIndex = 81521;
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + FOKHLPIEBKE_KJNNMNGFKLF_OFFSET))();
 		}
 
-		static ::System::Nullable* GCKKKFFCGBH()
+		static ::System::Nullable_1<::RPG::GameCore::ChallengeGroupType> GCKKKFFCGBH()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + FOKHLPIEBKE_GCKKKFFCGBH_OFFSET))();
+			return ((::System::Nullable_1<::RPG::GameCore::ChallengeGroupType>(*)())((::PBYTE)hIl2Cpp + FOKHLPIEBKE_GCKKKFFCGBH_OFFSET))();
 		}
 
 		static ::System::Void EKJNEAEEGHO(::RPG::Client::ChallengeGroupData* a1, ::System::Int32 a2)

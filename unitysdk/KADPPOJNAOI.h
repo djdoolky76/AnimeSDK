@@ -5,7 +5,7 @@ class GAGKMDGBGFL;
 class GHGAFIIFPEC;
 class GPLMLPKBGGE;
 class PMBMFHMKBNC;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define KADPPOJNAOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D3BD0)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int KADPPOJNAOI_TypeDefinitionIndex = 80243;
 			return ((::System::Void(*)(::PVOID, ::GAGKMDGBGFL*, ::GHGAFIIFPEC*))((::PBYTE)hIl2Cpp + KADPPOJNAOI_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* OHCJOIANPFG(::GPLMLPKBGGE* a1, ::System::Collections::Generic::IEnumerable_1<::GPLMLPKBGGE*>* a2)
+		::RPG::Client::Promises::IPromise_1<::PMBMFHMKBNC*>* OHCJOIANPFG(::GPLMLPKBGGE* a1, ::System::Collections::Generic::IEnumerable_1<::GPLMLPKBGGE*>* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GPLMLPKBGGE*, ::System::Collections::Generic::IEnumerable_1<::GPLMLPKBGGE*>*))((::PBYTE)hIl2Cpp + KADPPOJNAOI_OHCJOIANPFG_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::PMBMFHMKBNC*>*(*)(::PVOID, ::GPLMLPKBGGE*, ::System::Collections::Generic::IEnumerable_1<::GPLMLPKBGGE*>*))((::PBYTE)hIl2Cpp + KADPPOJNAOI_OHCJOIANPFG_OFFSET))(this, a1, a2);
 		}
 
 	};

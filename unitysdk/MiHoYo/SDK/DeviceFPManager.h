@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class DeviceFPManager; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class Random; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIHOYO_SDK_DEVICEFPMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF76520)
@@ -67,19 +67,19 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEFPMANAGER_GETDEVICEFP_OFFSET))(this);
 		}
 
-		::System::Void Refresh(::System::Action* a1)
+		::System::Void Refresh(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEFPMANAGER_REFRESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEFPMANAGER_REFRESH_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestExtList(::System::Action* a1)
+		::System::Void RequestExtList(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEFPMANAGER_REQUESTEXTLIST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEFPMANAGER_REQUESTEXTLIST_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestDeviceFP(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Action* a2)
+		::System::Void RequestDeviceFP(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEFPMANAGER_REQUESTDEVICEFP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DEVICEFPMANAGER_REQUESTDEVICEFP_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetRandomHexNumber(::System::Int32 a1)

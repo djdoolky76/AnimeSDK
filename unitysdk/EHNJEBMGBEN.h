@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/PingPongProjectileType.h"
 #include "unitysdk/RPG/GameCore/PingPongSPSkillType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EHOFEPBAHNK;
 class OMPCEECHGJK;
 namespace RPG::GameCore { class PingPongDropItemInfo; }
@@ -37,7 +37,7 @@ inline static constexpr unsigned int EHNJEBMGBEN_TypeDefinitionIndex = 76654;
 	public:
 		::OMPCEECHGJK* OKOEHJDMLFM; // 0x10
 		::RPG::GameCore::PingPongGameConfig* _GameConfig_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::System::ValueTuple>* MDMNDKJIPDH; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::RPG::GameCore::PingPongDropItemInfo*>>* MDMNDKJIPDH; // 0x20
 		::System::Random* OLEEIPHBJKB; // 0x28
 		::EHOFEPBAHNK* NHIKLMODJJB; // 0x30
 		::System::Int32 AGMPPDAOBLG; // 0x38

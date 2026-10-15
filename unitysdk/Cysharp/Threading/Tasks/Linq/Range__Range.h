@@ -3,6 +3,7 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 
 #define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F10AE60)
 #define CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F10AF80)
@@ -30,9 +31,9 @@ namespace Cysharp::Threading::Tasks::Linq
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_GET_CURRENT_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask MoveNextAsync()
+		::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean> MoveNextAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_MOVENEXTASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_RANGE__RANGE_MOVENEXTASYNC_OFFSET))(this);
 		}
 
 		::Cysharp::Threading::Tasks::UniTask DisposeAsync()

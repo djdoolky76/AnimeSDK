@@ -4,6 +4,7 @@
 #include "unitysdk/Newtonsoft/Json/DefaultValueHandling.h"
 #include "unitysdk/Newtonsoft/Json/PreserveReferencesHandling.h"
 #include "unitysdk/Newtonsoft/Json/TypeNameHandling.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace Newtonsoft::Json { class JsonConverter; }
 namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
@@ -18,7 +19,6 @@ namespace Newtonsoft::Json::Serialization { class JsonProperty; }
 namespace Newtonsoft::Json::Serialization { class JsonSerializerProxy; }
 namespace Newtonsoft::Json::Serialization { class JsonStringContract; }
 namespace System { class Array; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -104,9 +104,9 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_SERIALIZEVALUE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Nullable* ResolveIsReference(::Newtonsoft::Json::Serialization::JsonContract* a1, ::Newtonsoft::Json::Serialization::JsonProperty* a2, ::Newtonsoft::Json::Serialization::JsonContainerContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4)
+		::System::Nullable_1<::System::Boolean> ResolveIsReference(::Newtonsoft::Json::Serialization::JsonContract* a1, ::Newtonsoft::Json::Serialization::JsonProperty* a2, ::Newtonsoft::Json::Serialization::JsonContainerContract* a3, ::Newtonsoft::Json::Serialization::JsonProperty* a4)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_RESOLVEISREFERENCE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::Newtonsoft::Json::Serialization::JsonContract*, ::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonContainerContract*, ::Newtonsoft::Json::Serialization::JsonProperty*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALWRITER_RESOLVEISREFERENCE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean ShouldWriteReference(::System::Object* a1, ::Newtonsoft::Json::Serialization::JsonProperty* a2, ::Newtonsoft::Json::Serialization::JsonContract* a3, ::Newtonsoft::Json::Serialization::JsonContainerContract* a4, ::Newtonsoft::Json::Serialization::JsonProperty* a5)

@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class CBJILMHOMGP;
@@ -18,11 +19,11 @@ class IALBJEGDCFI_CCLFIJNFBEL;
 class ILOOAAOHIIG;
 class LDNHGIFGBFM;
 class NFICHOKOCMH_CLPCNFNDFOM;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -130,7 +131,7 @@ inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
 	{
 	public:
 		::CCEIJBFAOAI* JOKBAPFCJFM; // 0x10
-		::System::Action* OnErroneousOverlappedCellsMaybeChanged; // 0x18
+		::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* OnErroneousOverlappedCellsMaybeChanged; // 0x18
 		::CEEGMMCFCBG* KDPFANODGAM; // 0x20
 		::System::Action* HandleDragCanceled; // 0x28
 		::System::Action* OnCanRotateChanged; // 0x30
@@ -146,8 +147,8 @@ inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
 		::System::Action* OnEditingChipChanged; // 0x80
 		::System::Action* OnCanRemoveChanged; // 0x88
 		::System::Action* OnCanClearChanged; // 0x90
-		::System::Action* OnCoveredBannedCellsMaybeChanged; // 0x98
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* HandleConfirmClear; // 0xA0
+		::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* OnCoveredBannedCellsMaybeChanged; // 0x98
+		::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>* HandleConfirmClear; // 0xA0
 		::DJMLOBGBDOC* KPBJEFLBCEI; // 0xA8
 		::System::Action* HandleDragStarted; // 0xB0
 		::CEEGMMCFCBG* CCBPLLFEGOE; // 0xB8
@@ -299,24 +300,24 @@ inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_JODBMFOHBNN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_OnErroneousOverlappedCellsMaybeChanged(::System::Action* a1)
+		::System::Void add_OnErroneousOverlappedCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_ADD_ONERRONEOUSOVERLAPPEDCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_ADD_ONERRONEOUSOVERLAPPEDCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnErroneousOverlappedCellsMaybeChanged(::System::Action* a1)
+		::System::Void remove_OnErroneousOverlappedCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_REMOVE_ONERRONEOUSOVERLAPPEDCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_REMOVE_ONERRONEOUSOVERLAPPEDCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnCoveredBannedCellsMaybeChanged(::System::Action* a1)
+		::System::Void add_OnCoveredBannedCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_ADD_ONCOVEREDBANNEDCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_ADD_ONCOVEREDBANNEDCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnCoveredBannedCellsMaybeChanged(::System::Action* a1)
+		::System::Void remove_OnCoveredBannedCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_REMOVE_ONCOVEREDBANNEDCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_REMOVE_ONCOVEREDBANNEDCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
 		::FAILCGLDICF* get_PreviewChip()
@@ -339,14 +340,14 @@ inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MCKHEFFODHO_IDFLNINPGFJ_OFFSET))(this);
 		}
 
-		::R3::Observable* GJNOGFNFIAC()
+		::R3::Observable_1<::DGHDHELLBBC*>* GJNOGFNFIAC()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MCKHEFFODHO_GJNOGFNFIAC_OFFSET))(this);
+			return ((::R3::Observable_1<::DGHDHELLBBC*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MCKHEFFODHO_GJNOGFNFIAC_OFFSET))(this);
 		}
 
-		::R3::Observable* BNEHBAFHGPM()
+		::R3::Observable_1<::System::Boolean>* BNEHBAFHGPM()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MCKHEFFODHO_BNEHBAFHGPM_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MCKHEFFODHO_BNEHBAFHGPM_OFFSET))(this);
 		}
 
 		::System::Void HJEMKDLJFHM()
@@ -544,14 +545,14 @@ inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_REMOVE_ONCLEARING_OFFSET))(this, a1);
 		}
 
-		::System::Void add_HandleConfirmClear(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1)
+		::System::Void add_HandleConfirmClear(::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_ADD_HANDLECONFIRMCLEAR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_ADD_HANDLECONFIRMCLEAR_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleConfirmClear(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1)
+		::System::Void remove_HandleConfirmClear(::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_REMOVE_HANDLECONFIRMCLEAR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_REMOVE_HANDLECONFIRMCLEAR_OFFSET))(this, a1);
 		}
 
 		::System::Void KPJGDHLENIP(::System::Collections::Generic::IEnumerable_1<::ILOOAAOHIIG*>* a1, ::System::Collections::Generic::IEnumerable_1<::IAJGGEMFOMB*>* a2)
@@ -574,9 +575,9 @@ inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::ILOOAAOHIIG*>*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_FNANGOLMMOA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* HAJFBKHHNEJ(::ILOOAAOHIIG* a1, ::System::Nullable* a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* HAJFBKHHNEJ(::ILOOAAOHIIG* a1, ::System::Nullable_1<::UnityEngine::Vector2Int> a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::ILOOAAOHIIG*, ::System::Nullable*))((::PBYTE)hIl2Cpp + MCKHEFFODHO_HAJFBKHHNEJ_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::ILOOAAOHIIG*, ::System::Nullable_1<::UnityEngine::Vector2Int>))((::PBYTE)hIl2Cpp + MCKHEFFODHO_HAJFBKHHNEJ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DCGPFFDAIAE()
@@ -584,9 +585,9 @@ inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MCKHEFFODHO_DCGPFFDAIAE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* CIDMGHLONGD(::IAJGGEMFOMB* a1, ::UnityEngine::Vector2Int a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* CIDMGHLONGD(::IAJGGEMFOMB* a1, ::UnityEngine::Vector2Int a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::IAJGGEMFOMB*, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + MCKHEFFODHO_CIDMGHLONGD_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::IAJGGEMFOMB*, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + MCKHEFFODHO_CIDMGHLONGD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void BHHOIIOGAJK()
@@ -604,9 +605,9 @@ inline static constexpr unsigned int MCKHEFFODHO_TypeDefinitionIndex = 79501;
 			return ((::System::Void(*)(::PVOID, ::HFCHPMGNMOM*))((::PBYTE)hIl2Cpp + MCKHEFFODHO__GET_DRAGSTARTCOMMAND_B__76_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _get_SyncDragTargetCellCommand_b__90_0(::System::Nullable* a1)
+		::System::Void _get_SyncDragTargetCellCommand_b__90_0(::System::Nullable_1<::UnityEngine::Vector2Int> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + MCKHEFFODHO__GET_SYNCDRAGTARGETCELLCOMMAND_B__90_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector2Int>))((::PBYTE)hIl2Cpp + MCKHEFFODHO__GET_SYNCDRAGTARGETCELLCOMMAND_B__90_0_OFFSET))(this, a1);
 		}
 
 		::System::Void _get_SafeDragEndCommand_b__95_0()

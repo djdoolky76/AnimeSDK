@@ -5,8 +5,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace AstraFX::Fireworks { class AstraFX_FireworksEmitter; }
 namespace AstraFX::Fireworks { class FireworkType; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
@@ -52,8 +52,8 @@ namespace AstraFX::Fireworks
 		::System::Int32 maxRocketTrails; // 0x70
 		::System::Byte _padding2[0x4];
 		::UnityEngine::Texture2D* bakedGradientTexture; // 0x78
-		::System::Action* OnFireworkLaunched; // 0x80
-		::System::Action* OnFireworkExploded; // 0x88
+		::System::Action_1<::KFNPNPHCGJA>* OnFireworkLaunched; // 0x80
+		::System::Action_1<::BLEEAOLJPNA>* OnFireworkExploded; // 0x88
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_CTOR_OFFSET))(this);
@@ -74,24 +74,24 @@ namespace AstraFX::Fireworks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_INVALIDATEEMITTERCACHE_OFFSET))(this);
 		}
 
-		::System::Void add_OnFireworkLaunched(::System::Action* a1)
+		::System::Void add_OnFireworkLaunched(::System::Action_1<::KFNPNPHCGJA>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_ADD_ONFIREWORKLAUNCHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KFNPNPHCGJA>*))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_ADD_ONFIREWORKLAUNCHED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnFireworkLaunched(::System::Action* a1)
+		::System::Void remove_OnFireworkLaunched(::System::Action_1<::KFNPNPHCGJA>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_REMOVE_ONFIREWORKLAUNCHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KFNPNPHCGJA>*))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_REMOVE_ONFIREWORKLAUNCHED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnFireworkExploded(::System::Action* a1)
+		::System::Void add_OnFireworkExploded(::System::Action_1<::BLEEAOLJPNA>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_ADD_ONFIREWORKEXPLODED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::BLEEAOLJPNA>*))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_ADD_ONFIREWORKEXPLODED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnFireworkExploded(::System::Action* a1)
+		::System::Void remove_OnFireworkExploded(::System::Action_1<::BLEEAOLJPNA>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_REMOVE_ONFIREWORKEXPLODED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::BLEEAOLJPNA>*))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_ASTRAFX_FIREWORKSMONOPLUGIN_REMOVE_ONFIREWORKEXPLODED_OFFSET))(this, a1);
 		}
 
 		::System::Void Launch(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3)

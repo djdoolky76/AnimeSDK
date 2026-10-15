@@ -18,8 +18,8 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class RtBattleCharacterCameraConfig; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define GIKLPPDFENE_ADOAAIFKKGN_OFFSET UNITYSDK_OFFSET(0x15A44ED0)
@@ -60,11 +60,11 @@ inline static constexpr unsigned int GIKLPPDFENE_TypeDefinitionIndex = 54323;
 	class GIKLPPDFENE : public ::System::Object
 	{
 	public:
-		::System::Action* HJHGFOMDEKE; // 0x10
+		::System::Action_1<::FGMHNMKDFMA*>* HJHGFOMDEKE; // 0x10
 		::KFELGAIGHAP* GOMBEAEIBPB; // 0x18
 		::RPG::GameCore::GameEntity* HCMDJCNAKCJ; // 0x20
 		::FGMHNMKDFMA* HDAKGJMIJID; // 0x28
-		::System::Action* NEGPAMDGAFO; // 0x30
+		::System::Action_1<::RPG::GameCore::GameEntity*>* NEGPAMDGAFO; // 0x30
 		::RPG::GameCore::GameEntity* OPCJKDEAIFK; // 0x38
 		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x40
 		::BLNEGBNJACL* KCNEJGDHIMM; // 0x48

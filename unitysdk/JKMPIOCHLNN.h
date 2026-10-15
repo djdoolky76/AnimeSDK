@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Events { class UnityEvent; }
 namespace UnityEngine::UI { class Button; }
@@ -33,14 +33,14 @@ inline static constexpr unsigned int JKMPIOCHLNN_TypeDefinitionIndex = 73027;
 			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17628);
 		}
 
-		static ::System::Action** StaticGet_LGLFKGDOMCK()
+		static ::System::Action_1<::System::Object*>** StaticGet_LGLFKGDOMCK()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17630);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17630);
 		}
 
-		static ::System::Action** StaticGet_GHACEDJLKFF()
+		static ::System::Action_1<::System::Object*>** StaticGet_GHACEDJLKFF()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17638);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17638);
 		}
 
 		static ::System::Boolean* StaticGet_MACBJGNIKGE()
@@ -68,14 +68,14 @@ inline static constexpr unsigned int JKMPIOCHLNN_TypeDefinitionIndex = 73027;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + JKMPIOCHLNN_CCTOR_OFFSET))();
 		}
 
-		static ::UnityEngine::Events::UnityEvent* JDEKJLHMPLG(::UnityEngine::UI::Button* a1, ::System::Action* a2, ::System::Object* a3)
+		static ::UnityEngine::Events::UnityEvent* JDEKJLHMPLG(::UnityEngine::UI::Button* a1, ::System::Action_1<::System::Object*>* a2, ::System::Object* a3)
 		{
-			return ((::UnityEngine::Events::UnityEvent*(*)(::UnityEngine::UI::Button*, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + JKMPIOCHLNN_JDEKJLHMPLG_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Events::UnityEvent*(*)(::UnityEngine::UI::Button*, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + JKMPIOCHLNN_JDEKJLHMPLG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void BBCLHMBBDDA(::UnityEngine::UI::Button* a1, ::System::Action* a2, ::System::Action* a3, ::System::Action* a4, ::System::Action* a5, ::System::Object* a6)
+		static ::System::Void BBCLHMBBDDA(::UnityEngine::UI::Button* a1, ::System::Action_1<::System::Object*>* a2, ::System::Action_1<::System::Object*>* a3, ::System::Action_1<::System::Object*>* a4, ::System::Action_1<::System::Object*>* a5, ::System::Object* a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::Button*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + JKMPIOCHLNN_BBCLHMBBDDA_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::UI::Button*, ::System::Action_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + JKMPIOCHLNN_BBCLHMBBDDA_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Void JLANKNHFKCN()

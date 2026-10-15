@@ -3,8 +3,9 @@
 #include "unitysdk/JBFFCBPMKEF_ReferenceType.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ENEIHJJPNPI;
 namespace RPG::GameCore { class DynamicJsonConfig; }
 namespace RPG::GameCore { class GameEntityList; }
@@ -41,7 +42,7 @@ inline static constexpr unsigned int JBFFCBPMKEF_TypeDefinitionIndex = 57765;
 		::System::Collections::Generic::HashSet_1<::RPG::GameCore::StringHash>* BGPKCANNLNI; // 0x38
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::Action*>* NDCCNDMFBCN; // 0x40
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::GameEntityList*>* NNIIECLHCAB; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::ValueTuple>* OFDNPGKHAJB; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::ValueTuple_3<::RPG::GameCore::StringHash, ::System::Object*, ::System::Object*>>* OFDNPGKHAJB; // 0x50
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::Il2CppArray<::System::String*>*>* PCFMEJCFCHH; // 0x58
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::UInt32>* ABEGDIGDKJB; // 0x60
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* KINCCPGLBEC; // 0x68
@@ -95,9 +96,9 @@ inline static constexpr unsigned int JBFFCBPMKEF_TypeDefinitionIndex = 57765;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::String*))((::PBYTE)hIl2Cpp + JBFFCBPMKEF_MGNIGKDHOAN_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::ValueTuple BFIBDBNJJDE(::System::String* a1)
+		static ::System::ValueTuple_2<::System::Object*, ::System::String*> BFIBDBNJJDE(::System::String* a1)
 		{
-			return ((::System::ValueTuple(*)(::System::String*))((::PBYTE)hIl2Cpp + JBFFCBPMKEF_BFIBDBNJJDE_OFFSET))(a1);
+			return ((::System::ValueTuple_2<::System::Object*, ::System::String*>(*)(::System::String*))((::PBYTE)hIl2Cpp + JBFFCBPMKEF_BFIBDBNJJDE_OFFSET))(a1);
 		}
 
 		::System::Void EJBKIKIALOK(::System::String* a1)

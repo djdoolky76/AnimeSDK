@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OKLBEPJCBJG.h"
 #include "unitysdk/RPG/GameCore/AutoGenCellType.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class EGFIGBODMHI;
 class LPBNBKGHOGA;
 class MDLBOFGMBKH;
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define LPBNBKGHOGA__GETSTAGEPREFABINFOLIST_D__97_CTOR_OFFSET UNITYSDK_OFFSET(0x1D128690)
@@ -32,7 +32,7 @@ inline static constexpr unsigned int LPBNBKGHOGA__GetStagePrefabInfoList_d__97_T
 		::EGFIGBODMHI* _cell_5__5; // 0x28
 		::System::Object* _pairIter_5__3; // 0x30
 		::System::Byte _padding0[0x20];
-		::System::Collections::Generic::KeyValuePair* _pair_5__4; // 0x58
+		::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AutoGenCellType, ::MDLBOFGMBKH*> _pair_5__4; // 0x58
 		::System::Byte _padding1[0x8];
 		::System::Int32 __1__state; // 0x68
 		::System::Int32 filter; // 0x6C

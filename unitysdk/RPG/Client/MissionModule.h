@@ -10,6 +10,7 @@
 #include "unitysdk/RPG/GameCore/ScreenTransferType.h"
 #include "unitysdk/RPG/GameCore/SubMissionState.h"
 #include "unitysdk/RPG/Client/VerseParam.h"
+#include "unitysdk/System/Nullable_1.h"
 class ABCKINEAAKC;
 class DGDHPPIHNMA;
 class EKCPPGBIPHP;
@@ -41,6 +42,8 @@ namespace RPG::Client { template <typename T1, typename T2, typename T3> class T
 namespace RPG::Client { template <typename T1, typename T2> class LRUCache_2; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class FinishActionConfig; }
 namespace RPG::GameCore { class LevelGroupMissionConditionSet; }
@@ -60,9 +63,10 @@ namespace RPG::GameCore { class SetMissionWayPoint; }
 namespace RPG::GameCore { class SubMissionInfoConfig; }
 namespace RPG::GameCore { class SubMissionRow; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -462,7 +466,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* _requestMainMissionIDList; // 0xC0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>* CustomValueInClient; // 0xC8
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::FEBFJNFNBAP*>*>* CustomValue; // 0xD0
-		::System::Action* OnMissionCustomValueChange; // 0xD8
+		::System::Action_2<::System::UInt32, ::System::String*>* OnMissionCustomValueChange; // 0xD8
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::MainMissionInfoConfig*>* _MainMissionInfoConfigs; // 0xE0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>* _FloorIDToUnFinishSubMissions; // 0xE8
 		::System::Collections::Generic::List_1<::System::UInt32>* _requestMainMissionIDListForMCV; // 0xF0
@@ -472,7 +476,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* _CurFloorGraphSubMissionIDList; // 0x110
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _PhaseIndex; // 0x118
 		::ABCKINEAAKC* _VerseParamChangeTrackingStrategy; // 0x120
-		::System::Action* OnSubMissionStatusChange; // 0x128
+		::System::Action_3<::System::UInt32, ::RPG::GameCore::SubMissionState, ::System::Boolean>* OnSubMissionStatusChange; // 0x128
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _PreviousMainMissionIDs; // 0x130
 		::OBJANKHLNGO* _Messenger; // 0x138
 		::RPG::Client::MainMissionData* _TrackingMission; // 0x140
@@ -891,14 +895,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETWAYPOINTSEARCHSUBMISSIONIDLIST_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* CheckMissionTakeConditionWithPromise(::RPG::Client::MainMissionData* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*>* CheckMissionTakeConditionWithPromise(::RPG::Client::MainMissionData* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CHECKMISSIONTAKECONDITIONWITHPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*>*(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CHECKMISSIONTAKECONDITIONWITHPROMISE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* CheckMissionBeginConditionWithPromise(::RPG::Client::MainMissionData* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::GameCore::MissionCondition*>* CheckMissionBeginConditionWithPromise(::RPG::Client::MainMissionData* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CHECKMISSIONBEGINCONDITIONWITHPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::GameCore::MissionCondition*>*(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_CHECKMISSIONBEGINCONDITIONWITHPROMISE_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::UInt32>* GetMainMissionPack(::System::UInt32 a1)
@@ -1111,14 +1115,14 @@ namespace RPG::Client
 			return ((::RPG::Client::ConditionChecker*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE__BUILDCONDITIONCHECKERWITHCONDITION_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _GetFailureMissionConditionWithPromise(::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*>* _GetFailureMissionConditionWithPromise(::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE__GETFAILUREMISSIONCONDITIONWITHPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE__GETFAILUREMISSIONCONDITIONWITHPROMISE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _GetFirstFailureMissionConditionWithPromise(::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::GameCore::MissionCondition*>* _GetFirstFailureMissionConditionWithPromise(::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE__GETFIRSTFAILUREMISSIONCONDITIONWITHPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::GameCore::MissionCondition*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE__GETFIRSTFAILUREMISSIONCONDITIONWITHPROMISE_OFFSET))(this, a1);
 		}
 
 		::System::Void _AddUnfinishedSubMission(::RPG::Client::SubMissionData* a1)
@@ -1336,9 +1340,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE__ONSTORYLINECHANGEFINISH_OFFSET))(this, a1);
 		}
 
-		::System::Void _RefreshAllSubMissionMultiWayPoint(::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>* a1, ::System::Nullable* a2)
+		::System::Void _RefreshAllSubMissionMultiWayPoint(::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE__REFRESHALLSUBMISSIONMULTIWAYPOINT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE__REFRESHALLSUBMISSIONMULTIWAYPOINT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _RefreshSingleSubMissionMultiWayPoint(::RPG::Client::SubMissionData* a1)
@@ -1871,14 +1875,14 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MAINMISSIONDATAPROMISED_2_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* GetMainMissionDataWithPromise(::System::UInt32 a1)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::MainMissionData*>* GetMainMissionDataWithPromise(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETMAINMISSIONDATAWITHPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::MainMissionData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETMAINMISSIONDATAWITHPROMISE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* GetMainMissionDataWithPromise_1(::System::Collections::Generic::List_1<::System::UInt32>* a1)
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>* GetMainMissionDataWithPromise_1(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETMAINMISSIONDATAWITHPROMISE_1_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETMAINMISSIONDATAWITHPROMISE_1_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* SubMissionDataPromised(::System::Collections::Generic::List_1<::System::UInt32>* a1)
@@ -1896,14 +1900,14 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_SUBMISSIONDATAPROMISED_2_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* GetSubMissionDataWithPromise(::System::UInt32 a1)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::SubMissionData*>* GetSubMissionDataWithPromise(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETSUBMISSIONDATAWITHPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::SubMissionData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETSUBMISSIONDATAWITHPROMISE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* GetSubMissionDataWithPromise_1(::System::Collections::Generic::List_1<::System::UInt32>* a1)
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>* GetSubMissionDataWithPromise_1(::System::Collections::Generic::List_1<::System::UInt32>* a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETSUBMISSIONDATAWITHPROMISE_1_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_GETSUBMISSIONDATAWITHPROMISE_1_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* MissionDataPromised(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Boolean a3)

@@ -5,7 +5,7 @@ class DIBPAJHLFIF;
 class FAHGGJLFFJO;
 class OJMONJELOAF;
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define NCBMJMBFKCI_BDPMCLOCAPN_OFFSET UNITYSDK_OFFSET(0xBAF76D0)
 #define NCBMJMBFKCI_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF7260)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int NCBMJMBFKCI_TypeDefinitionIndex = 53717;
 	class NCBMJMBFKCI
 	{
 	public:
-		::System::Action* AGGBMLBJFLK; // 0x28
+		::System::Action_1<::DIBPAJHLFIF*>* AGGBMLBJFLK; // 0x28
 		::OJMONJELOAF* KADDKEGNCHE; // 0x30
 		::BDOGIDPIEGG* NILDKJKBHHG; // 0x38
 		::System::Boolean PCFNEKEPDIE; // 0x40

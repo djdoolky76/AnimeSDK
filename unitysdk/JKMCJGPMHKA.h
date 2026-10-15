@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/KBNONEGEOMC_ADBGGJHAFDL.h"
 class LLGDCBBPCOK;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -89,19 +89,19 @@ inline static constexpr unsigned int JKMCJGPMHKA_TypeDefinitionIndex = 51808;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JKMCJGPMHKA_KHGIKBFDLFB_OFFSET))(this);
 		}
 
-		::System::Void EAGMMKCFBKF(::System::Action* a1)
+		::System::Void EAGMMKCFBKF(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JKMCJGPMHKA_EAGMMKCFBKF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + JKMCJGPMHKA_EAGMMKCFBKF_OFFSET))(this, a1);
 		}
 
-		::System::Void GOGGJHPFDAA(::System::Action* a1)
+		::System::Void GOGGJHPFDAA(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JKMCJGPMHKA_GOGGJHPFDAA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + JKMCJGPMHKA_GOGGJHPFDAA_OFFSET))(this, a1);
 		}
 
-		::System::Void KFCJBEIOMHO(::System::Int32 a1, ::System::Action* a2)
+		::System::Void KFCJBEIOMHO(::System::Int32 a1, ::System::Action_1<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + JKMCJGPMHKA_KFCJBEIOMHO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + JKMCJGPMHKA_KFCJBEIOMHO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 LBAMNHFMAIE(::System::Int32 a1)

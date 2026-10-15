@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ServerPlayerSettingItem.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
@@ -11,6 +11,6 @@ namespace RPG::Client
 	class ServerPlayerSettingEnumItem_1 : public ::RPG::Client::ServerPlayerSettingItem
 	{
 	public:
-		::System::Action* _ClientPrefSetter_k__BackingField; // 0x0
+		::System::Action_1<T>* _ClientPrefSetter_k__BackingField; // 0x0
 	};
 }

@@ -7,9 +7,9 @@ class GHHJNCOAIJF_KKHGKLOBDFN;
 class IHGIENOHBMJ;
 class IIMDGCBKGLF;
 namespace RPG::Client { class GridFightGameRef; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD15C440)
@@ -27,7 +27,7 @@ namespace RPG::Client
 		::GHHJNCOAIJF* req; // 0x10
 		::RPG::Client::GridFightGameRef* __4__this; // 0x18
 		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x20
-		::System::Action* callback; // 0x28
+		::System::Action_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::CCGFCHPPIDH*>*>* callback; // 0x28
 		::Il2CppArray<::System::String*>* ids; // 0x30
 		::System::Void _ctor()
 		{
@@ -39,9 +39,9 @@ namespace RPG::Client
 			return ((::IIMDGCBKGLF*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendGridFightGetGameRefInterectDataReq_b__1()
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* _SendGridFightGetGameRefInterectDataReq_b__1()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__1_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__1_OFFSET))(this);
 		}
 
 		::System::Void _SendGridFightGetGameRefInterectDataReq_b__2(::IHGIENOHBMJ* a1)

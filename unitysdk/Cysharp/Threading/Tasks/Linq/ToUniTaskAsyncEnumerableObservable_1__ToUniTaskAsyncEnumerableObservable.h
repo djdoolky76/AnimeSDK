@@ -3,10 +3,10 @@
 #include "unitysdk/Cysharp/Threading/Tasks/MoveNextSource.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class IDisposable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class IObservable_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
@@ -27,9 +27,9 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Exception* error; // 0x0
 		::System::IDisposable* subscription; // 0x0
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x0
-		static ::System::Action** StaticGet_OnCanceledDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_OnCanceledDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_ToUniTaskAsyncEnumerableObservable")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_ToUniTaskAsyncEnumerableObservable")->GetStaticField(0x0);
 		}
 
 	};

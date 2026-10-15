@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Nullable; }
 
 #define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1F110410)
 #define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F110430)
@@ -18,12 +18,12 @@ namespace Cysharp::Threading::Tasks::Linq
 	{
 	public:
 		::System::Int32 dueTimeFrameCount; // 0x10
-		::System::Nullable* periodFrameCount; // 0x14
+		::System::Nullable_1<::System::Int32> periodFrameCount; // 0x14
 		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x1C
 		::System::Boolean cancelImmediately; // 0x20
-		::System::Void _ctor(::System::Int32 a1, ::System::Nullable* a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Boolean a4)
+		::System::Void _ctor(::System::Int32 a1, ::System::Nullable_1<::System::Int32> a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Nullable*, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME_CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Nullable_1<::System::Int32>, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::Cysharp::Threading::Tasks::AsyncUnit>* GetAsyncEnumerator(::System::Threading::CancellationToken a1)

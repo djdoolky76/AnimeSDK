@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
@@ -17,7 +17,7 @@ namespace Cysharp::Threading::Tasks::Linq
 	struct alignas(8) ToHashSet__ToHashSetAsync_d__0_1
 	{
 		::System::Int32 __1__state; // 0x0
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x0
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Collections::Generic::HashSet_1<T>*> __t__builder; // 0x0
 		::System::Collections::Generic::IEqualityComparer_1<T>* comparer; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T>* source; // 0x0
 		::System::Threading::CancellationToken cancellationToken; // 0x0

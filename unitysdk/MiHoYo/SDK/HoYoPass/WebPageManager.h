@@ -5,8 +5,10 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::HoYoPass { class WebPageManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE7CAF0)
@@ -29,8 +31,8 @@ namespace MiHoYo::SDK::HoYoPass
 	class WebPageManager : public ::System::Object
 	{
 	public:
-		::System::Action* OnWebpageFinish; // 0x10
-		::System::Action* onGetResultCallback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::Web*>* OnWebpageFinish; // 0x10
+		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* onGetResultCallback; // 0x18
 		::MiHoYo::SDK::Web* webview; // 0x20
 		static ::MiHoYo::SDK::HoYoPass::WebPageManager** StaticGet_Instance()
 		{
@@ -48,9 +50,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER_CCTOR_OFFSET))();
 		}
 
-		::System::Void OpenWebPage(::MiHoYo::SDK::HoYoPass::WebPageManager_WebPageType a1, ::System::Action* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* a3, ::System::Boolean a4, ::System::Boolean a5)
+		::System::Void OpenWebPage(::MiHoYo::SDK::HoYoPass::WebPageManager_WebPageType a1, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::MiHoYo::SDK::Web*, ::MiHoYo::SDK::JSONNode*>*>* a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::WebPageManager_WebPageType, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER_OPENWEBPAGE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::WebPageManager_WebPageType, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::MiHoYo::SDK::Web*, ::MiHoYo::SDK::JSONNode*>*>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER_OPENWEBPAGE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void CloseWebPage()

@@ -4,8 +4,8 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
@@ -22,14 +22,14 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Object* resultAwaiter; // 0x0
 		T2 _SourceCurrent_k__BackingField; // 0x0
 		T3 _Current_k__BackingField; // 0x0
-		static ::System::Action** StaticGet_moveNextCallbackDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_moveNextCallbackDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "AsyncEnumeratorAwaitSelectorBase`3")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "AsyncEnumeratorAwaitSelectorBase`3")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet_setCurrentCallbackDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_setCurrentCallbackDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "AsyncEnumeratorAwaitSelectorBase`3")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "AsyncEnumeratorAwaitSelectorBase`3")->GetStaticField(0x0);
 		}
 
 	};

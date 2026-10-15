@@ -15,6 +15,8 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define HGJGNMPOIKN_ADD_ONFIGHTHEARTBEATSCRSP_OFFSET UNITYSDK_OFFSET(0x15CA45B0)
 #define HGJGNMPOIKN_ADD_ONGENERALNOTIFY_OFFSET UNITYSDK_OFFSET(0x15CA44F0)
@@ -86,10 +88,10 @@ inline static constexpr unsigned int HGJGNMPOIKN_TypeDefinitionIndex = 69364;
 		::BAFPKHMAKID* NDDBMKJFPII; // 0x28
 		::KNKPLOGICFO* OPEHBLBCHPM; // 0x30
 		::System::Action* OnServerDisconnected; // 0x38
-		::System::Action* OnGeneralNotify; // 0x40
-		::System::Action* OnGeneralRsp; // 0x48
+		::System::Action_1<::COMJKPOMILA*>* OnGeneralNotify; // 0x40
+		::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* OnGeneralRsp; // 0x48
 		::KNKPLOGICFO* JMDEEEEALHA; // 0x50
-		::System::Action* OnFightHeartBeatScRsp; // 0x58
+		::System::Action_2<::System::UInt64, ::System::Single>* OnFightHeartBeatScRsp; // 0x58
 		::BIKNABKBFDH* LHHBICOOGBK; // 0x60
 		::System::Action* OnServerConnectFail; // 0x68
 		::DBINPFBDKFL* ODGOEMBEIJE; // 0x70
@@ -185,34 +187,34 @@ inline static constexpr unsigned int HGJGNMPOIKN_TypeDefinitionIndex = 69364;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_REMOVE_ONSERVERSTOPPED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnGeneralRsp(::System::Action* a1)
+		::System::Void add_OnGeneralRsp(::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_ADD_ONGENERALRSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_ADD_ONGENERALRSP_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnGeneralRsp(::System::Action* a1)
+		::System::Void remove_OnGeneralRsp(::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_REMOVE_ONGENERALRSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_REMOVE_ONGENERALRSP_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnGeneralNotify(::System::Action* a1)
+		::System::Void add_OnGeneralNotify(::System::Action_1<::COMJKPOMILA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_ADD_ONGENERALNOTIFY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::COMJKPOMILA*>*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_ADD_ONGENERALNOTIFY_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnGeneralNotify(::System::Action* a1)
+		::System::Void remove_OnGeneralNotify(::System::Action_1<::COMJKPOMILA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_REMOVE_ONGENERALNOTIFY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::COMJKPOMILA*>*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_REMOVE_ONGENERALNOTIFY_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnFightHeartBeatScRsp(::System::Action* a1)
+		::System::Void add_OnFightHeartBeatScRsp(::System::Action_2<::System::UInt64, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_ADD_ONFIGHTHEARTBEATSCRSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt64, ::System::Single>*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_ADD_ONFIGHTHEARTBEATSCRSP_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnFightHeartBeatScRsp(::System::Action* a1)
+		::System::Void remove_OnFightHeartBeatScRsp(::System::Action_2<::System::UInt64, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_REMOVE_ONFIGHTHEARTBEATSCRSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt64, ::System::Single>*))((::PBYTE)hIl2Cpp + HGJGNMPOIKN_REMOVE_ONFIGHTHEARTBEATSCRSP_OFFSET))(this, a1);
 		}
 
 		::System::Void KPJGDHLENIP()

@@ -3,7 +3,7 @@
 #include "unitysdk/TMPro/ColorTween_ColorTweenMode.h"
 #include "unitysdk/UnityEngine/Color.h"
 namespace TMPro { class ColorTween_ColorTweenCallback; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 #define TMPRO_COLORTWEEN_ADDONCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x3C67050)
 #define TMPRO_COLORTWEEN_GETDURATION_OFFSET UNITYSDK_OFFSET(0x3C31400)
@@ -88,9 +88,9 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_COLORTWEEN_TWEENVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddOnChangedCallback(::UnityEngine::Events::UnityAction* a1)
+		::System::Void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + TMPRO_COLORTWEEN_ADDONCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + TMPRO_COLORTWEEN_ADDONCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean GetIgnoreTimescale()

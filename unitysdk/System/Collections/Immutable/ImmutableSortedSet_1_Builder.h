@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
-namespace System::Collections::Immutable { class ImmutableSortedSet; }
+namespace System::Collections::Immutable { template <typename T> class ImmutableSortedSet_1; }
 
 namespace System::Collections::Immutable
 {
@@ -15,7 +15,7 @@ namespace System::Collections::Immutable
 	public:
 		::System::Object* _root; // 0x0
 		::System::Collections::Generic::IComparer_1<T>* _comparer; // 0x0
-		::System::Collections::Immutable::ImmutableSortedSet* _immutable; // 0x0
+		::System::Collections::Immutable::ImmutableSortedSet_1<T>* _immutable; // 0x0
 		::System::Int32 _version; // 0x0
 		::System::Object* _syncRoot; // 0x0
 	};

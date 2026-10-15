@@ -26,6 +26,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { class UnityEvent; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
 #define RPG_CLIENT_VIRTUALCURSOR_ACTIVE_OFFSET UNITYSDK_OFFSET(0xE454AE0)
 #define RPG_CLIENT_VIRTUALCURSOR_ADDMOVELISTENER_OFFSET UNITYSDK_OFFSET(0xE454450)
@@ -107,7 +109,7 @@ namespace RPG::Client
 		::System::Boolean SimulateTouch; // 0x3E
 		::System::Byte _padding1[0x1];
 		::System::String* SimulateTouchActionName; // 0x40
-		::UnityEngine::Events::UnityEvent* _OnMove_k__BackingField; // 0x48
+		::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>* _OnMove_k__BackingField; // 0x48
 		::UnityEngine::Events::UnityEvent* _OnStop_k__BackingField; // 0x50
 		::InControl::PlayerAction* _UpAction; // 0x58
 		::InControl::PlayerAction* _DownAction; // 0x60
@@ -171,9 +173,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_SET_POSITION_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Events::UnityEvent* get_OnMove()
+		::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>* get_OnMove()
 		{
-			return ((::UnityEngine::Events::UnityEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_GET_ONMOVE_OFFSET))(this);
+			return ((::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_GET_ONMOVE_OFFSET))(this);
 		}
 
 		::UnityEngine::Events::UnityEvent* get_OnStop()
@@ -181,14 +183,14 @@ namespace RPG::Client
 			return ((::UnityEngine::Events::UnityEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_GET_ONSTOP_OFFSET))(this);
 		}
 
-		::System::Void AddMoveListener(::UnityEngine::Events::UnityAction* a1)
+		::System::Void AddMoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ADDMOVELISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_ADDMOVELISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveMoveListener(::UnityEngine::Events::UnityAction* a1)
+		::System::Void RemoveMoveListener(::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_REMOVEMOVELISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSOR_REMOVEMOVELISTENER_OFFSET))(this, a1);
 		}
 
 		::System::Void AddStopListener(::UnityEngine::Events::UnityAction* a1)

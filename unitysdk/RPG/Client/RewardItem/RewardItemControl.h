@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class HIKAAGHELPH;
 class LABEGKEFBPJ;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine { class RectTransform; }
@@ -86,9 +86,9 @@ namespace RPG::Client::RewardItem
 			return ((::System::Void(*)(::PVOID, ::HIKAAGHELPH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL__BINDSTATUSMARKS_OFFSET))(this, a1);
 		}
 
-		static ::R3::Observable* _StatusPanelVisible(::LABEGKEFBPJ* a1)
+		static ::R3::Observable_1<::System::Boolean>* _StatusPanelVisible(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL__STATUSPANELVISIBLE_OFFSET))(a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REWARDITEM_REWARDITEMCONTROL__STATUSPANELVISIBLE_OFFSET))(a1);
 		}
 
 		::System::Void _BindRecycleLabels(::HIKAAGHELPH* a1)

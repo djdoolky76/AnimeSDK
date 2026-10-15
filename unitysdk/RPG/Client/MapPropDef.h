@@ -7,6 +7,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class FDKKDPIHFKL;
 class GFDENAMMEHM;
@@ -33,7 +34,6 @@ namespace RPG::GameCore { class PropStateIcon; }
 namespace RPG::GameCore { class PropTagComponentCollection; }
 namespace RPG::GameCore { class StageObjectCapture; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -574,9 +574,9 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROPDEF_GET_LOOKATPLAYERTRIGGERRADIUS_OFFSET))(this);
 		}
 
-		::System::Nullable* get_OverrideLockRaycastOffset()
+		::System::Nullable_1<::System::Single> get_OverrideLockRaycastOffset()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROPDEF_GET_OVERRIDELOCKRAYCASTOFFSET_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPPROPDEF_GET_OVERRIDELOCKRAYCASTOFFSET_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelEntityHoyoTagContainerOverrideConfig* get_HoyoTagContainerOverrideConfig()

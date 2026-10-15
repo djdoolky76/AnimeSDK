@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/Pet/BlindBox/BlindBoxPetType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BEGLIKEGPOC;
 class IFNGPCPEKCB;
 namespace RPG::Client::BlindBox::Pool { class IPoolContentEntry460; }
@@ -69,9 +69,9 @@ inline static constexpr unsigned int AMHNPEPMKAI_TypeDefinitionIndex = 74933;
 			return ((::IFNGPCPEKCB*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + AMHNPEPMKAI_GBNDBFJAFLE_OFFSET))(a1, a2);
 		}
 
-		::RPG::Client::Pet::BlindBox::IBlindBoxPet* _Create_b__1_3(::System::ValueTuple a1)
+		::RPG::Client::Pet::BlindBox::IBlindBoxPet* _Create_b__1_3(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::RPG::Client::Pet::BlindBox::IBlindBoxPet*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + AMHNPEPMKAI__CREATE_B__1_3_OFFSET))(this, a1);
+			return ((::RPG::Client::Pet::BlindBox::IBlindBoxPet*(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + AMHNPEPMKAI__CREATE_B__1_3_OFFSET))(this, a1);
 		}
 
 	};

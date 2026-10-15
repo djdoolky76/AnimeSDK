@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/DateTimePro.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Nullable; }
 
 #define HJKBCBHNDEN_CBFHPAJNFBD_OFFSET UNITYSDK_OFFSET(0x15D288A0)
 #define HJKBCBHNDEN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D289F0)
@@ -21,9 +21,9 @@ inline static constexpr unsigned int HJKBCBHNDEN_TypeDefinitionIndex = 64354;
 	{
 	public:
 		::System::TimeSpan DENAAJEEDFI; // 0x10
-		::System::Nullable* PAKFNDDHAHD; // 0x18
+		::System::Nullable_1<::RPG::Client::DateTimePro> PAKFNDDHAHD; // 0x18
 		::System::Byte _padding0[0x8];
-		::System::Nullable* NKONKFGEOPJ; // 0x28
+		::System::Nullable_1<::System::Boolean> NKONKFGEOPJ; // 0x28
 		::System::Boolean HJKMFAIKAHN; // 0x2A
 		::System::Boolean JNKPCLNBEEC; // 0x2B
 		::System::Void _ctor()

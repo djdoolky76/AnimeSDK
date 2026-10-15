@@ -5,6 +5,8 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SafeMobileBind; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
@@ -39,8 +41,8 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Button* requestCodeButton; // 0x78
 		::UnityEngine::UI::Text* requestCodeText; // 0x80
 		::System::Action* OnClose; // 0x88
-		::System::Action* OnGetCode; // 0x90
-		::System::Action* OnBind; // 0x98
+		::System::Action_1<::System::String*>* OnGetCode; // 0x90
+		::System::Action_2<::System::String*, ::System::String*>* OnBind; // 0x98
 		::System::Boolean isRequestVerifyCode; // 0xA0
 		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xA4

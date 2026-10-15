@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 #define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C412EB0)
@@ -20,7 +20,7 @@ namespace Newtonsoft::Json::Utilities
 	class ReflectionMember : public ::System::Object
 	{
 	public:
-		::System::Action* _Setter_k__BackingField; // 0x10
+		::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField; // 0x10
 		::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField; // 0x18
 		::System::Type* _MemberType_k__BackingField; // 0x20
 		::System::Void _ctor()
@@ -48,9 +48,9 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Void(*)(::PVOID, ::System::Func_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Setter(::System::Action* a1)
+		::System::Void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET))(this, a1);
 		}
 
 	};

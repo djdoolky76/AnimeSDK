@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BOMFGKDLHIB;
 class EFHNDMENDHI;
 class FDPALAEIHPB;
@@ -80,34 +80,34 @@ inline static constexpr unsigned int PMKDJDLKLFN_TypeDefinitionIndex = 42305;
 			return ((::System::Void(*)(::PVOID, ::EFHNDMENDHI*, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_HBJEKIHOHKK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void KFPLDGHECKA(::System::ValueTuple a1, ::RPG::GameCore::Match3::BombType a2)
+		::System::Void KFPLDGHECKA(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::RPG::GameCore::Match3::BombType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_KFPLDGHECKA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_KFPLDGHECKA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HEFMPHKHHPC(::System::ValueTuple a1, ::System::Boolean a2, ::RPG::GameCore::Match3::BombType a3)
+		::System::Boolean HEFMPHKHHPC(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::Boolean a2, ::RPG::GameCore::Match3::BombType a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::Boolean, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_HEFMPHKHHPC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Boolean, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_HEFMPHKHHPC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ANIPMGDBBLP(::System::ValueTuple a1, ::System::UInt32 a2, ::System::Boolean a3)
+		::System::Void ANIPMGDBBLP(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_ANIPMGDBBLP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_ANIPMGDBBLP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NKLIDFDMIDJ(::System::ValueTuple a1)
+		::System::Void NKLIDFDMIDJ(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_NKLIDFDMIDJ_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_NKLIDFDMIDJ_OFFSET))(this, a1);
 		}
 
-		::System::Boolean KINJMINKEEI(::System::ValueTuple a1, ::System::UInt32 a2)
+		::System::Boolean KINJMINKEEI(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::UInt32))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_KINJMINKEEI_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_KINJMINKEEI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean MEBHAOBOBBD(::System::ValueTuple a1)
+		::System::Boolean MEBHAOBOBBD(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_MEBHAOBOBBD_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + PMKDJDLKLFN_MEBHAOBOBBD_OFFSET))(this, a1);
 		}
 
 	};

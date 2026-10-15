@@ -5,9 +5,10 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class IDisposable; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define IABKDGPJEFI_AGPHBLGBODG_OFFSET UNITYSDK_OFFSET(0x15DFD1A0)
 #define IABKDGPJEFI_BIMHJBMOOAA_OFFSET UNITYSDK_OFFSET(0x15DFC940)
@@ -47,14 +48,14 @@ inline static constexpr unsigned int IABKDGPJEFI_TypeDefinitionIndex = 80164;
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_OCFKCJMKJII_OFFSET))(this, a1);
 		}
 
-		::System::IDisposable* JNMEGHCLKGL(::RPG::GameCore::GameEntity* a1, ::System::Action* a2)
+		::System::IDisposable* JNMEGHCLKGL(::RPG::GameCore::GameEntity* a1, ::System::Action_2<::RPG::GameCore::GameEntity*, ::System::Boolean>* a2)
 		{
-			return ((::System::IDisposable*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_JNMEGHCLKGL_OFFSET))(this, a1, a2);
+			return ((::System::IDisposable*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action_2<::RPG::GameCore::GameEntity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_JNMEGHCLKGL_OFFSET))(this, a1, a2);
 		}
 
-		::System::IDisposable* BIMHJBMOOAA(::RPG::GameCore::GameEntity* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::IDisposable* BIMHJBMOOAA(::RPG::GameCore::GameEntity* a1, ::System::Action_1<::RPG::GameCore::GameEntity*>* a2, ::System::Action_1<::RPG::GameCore::GameEntity*>* a3)
 		{
-			return ((::System::IDisposable*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_BIMHJBMOOAA_OFFSET))(this, a1, a2, a3);
+			return ((::System::IDisposable*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_BIMHJBMOOAA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void HCFPNOLMHKK(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)

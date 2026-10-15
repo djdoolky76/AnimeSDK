@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/TarotBookVersion.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class HPONPMMKCNF;
 namespace RPG::Client { class QuestData; }
@@ -18,7 +19,6 @@ namespace RPG::Client { class TarotBookReadReward; }
 namespace RPG::Client { class TarotBookStory; }
 namespace RPG::Client { class TarotBookWikiManager; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -181,11 +181,11 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* _StarPanelLockedImgMap; // 0x78
 		::System::Collections::Generic::List_1<::System::UInt32>* _CollectQuestIDs; // 0x80
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _StoryToPoolMap; // 0x88
-		::System::Nullable* _FinalPackID; // 0x90
-		::System::Nullable* _NousReplaceCharacter; // 0x98
-		::System::Nullable* _FinalStoryID; // 0x9C
-		::System::Nullable* _EpilogueUnlockID; // 0xA4
-		::System::Nullable* _NousTalkPerformanceID; // 0xAC
+		::System::Nullable_1<::System::UInt32> _FinalPackID; // 0x90
+		::System::Nullable_1<::System::Char> _NousReplaceCharacter; // 0x98
+		::System::Nullable_1<::System::UInt32> _FinalStoryID; // 0x9C
+		::System::Nullable_1<::System::UInt32> _EpilogueUnlockID; // 0xA4
+		::System::Nullable_1<::System::UInt32> _NousTalkPerformanceID; // 0xAC
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKMODULE_CTOR_OFFSET))(this);

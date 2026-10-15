@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Transform; }
@@ -28,9 +28,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::MonoEffect* EPHFABNKFGJ(::UnityEngine::Transform* a1, ::System::String* a2, ::System::Boolean a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::String* a6, ::System::Nullable* a7)
+		::RPG::Client::MonoEffect* EPHFABNKFGJ(::UnityEngine::Transform* a1, ::System::String* a2, ::System::Boolean a3, ::System::Nullable_1<::System::Single> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::String* a6, ::System::Nullable_1<::System::Single> a7)
 		{
-			return ((::RPG::Client::MonoEffect*(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*, ::System::Boolean, ::System::Nullable*, ::System::Nullable*, ::System::String*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_EPHFABNKFGJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::RPG::Client::MonoEffect*(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::String*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_EPHFABNKFGJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void AJNHJBNLKAJ(::System::UInt32 a1)

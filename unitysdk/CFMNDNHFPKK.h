@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
+#include "unitysdk/System/Nullable_1.h"
 class JBFFCBPMKEF;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitGraphDynamicValueChange; }
-namespace System { class Nullable; }
 
 #define CFMNDNHFPKK_CTOR_OFFSET UNITYSDK_OFFSET(0xCC54730)
 #define CFMNDNHFPKK_HBFCDJDFNIP_OFFSET UNITYSDK_OFFSET(0xCC54DC0)
@@ -46,9 +46,9 @@ inline static constexpr unsigned int CFMNDNHFPKK_TypeDefinitionIndex = 53473;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CFMNDNHFPKK__PREPAREDATA_OFFSET))(this);
 		}
 
-		::System::Void HBFCDJDFNIP(::RPG::GameCore::StringHash a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void HBFCDJDFNIP(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CFMNDNHFPKK_HBFCDJDFNIP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CFMNDNHFPKK_HBFCDJDFNIP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void KAMLPCLKGOJ()

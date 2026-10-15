@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/RuntimeLabel.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TypeCode.h"
@@ -7,7 +8,6 @@
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq::Expressions::Interpreter { class BranchLabel; }
@@ -145,7 +145,7 @@ namespace System::Linq::Expressions::Interpreter
 	public:
 		::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::BranchLabel*>* _labels; // 0x10
 		::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::Instruction*>* _instructions; // 0x18
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _debugCookies; // 0x20
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>* _debugCookies; // 0x20
 		::System::Collections::Generic::List_1<::System::Object*>* _objects; // 0x28
 		::System::Int32 _currentStackDepth; // 0x30
 		::System::Int32 _maxContinuationDepth; // 0x34

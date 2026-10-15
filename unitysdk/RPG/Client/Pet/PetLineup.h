@@ -6,7 +6,7 @@
 namespace RPG::Client::Pet { class IMutablePetLineup; }
 namespace RPG::Client::Pet { class IPetInstance; }
 namespace RPG::Client::Pet { class IPetInstanceRepository; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
@@ -29,16 +29,16 @@ namespace RPG::Client::Pet
 	{
 	public:
 		::Il2CppArray<::RPG::Client::Pet::PetInstanceIdentifier>* _Slots; // 0x10
-		::System::WeakReference* _RepositoryRef; // 0x18
+		::System::WeakReference_1<::RPG::Client::Pet::IPetInstanceRepository*>* _RepositoryRef; // 0x18
 		::RPG::Client::Pet::PetLineupShape _Shape_k__BackingField; // 0x20
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::Pet::IPetInstanceRepository* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::Pet::IPetInstanceRepository*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PET_PETLINEUP_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::System::UInt32 a1, ::System::WeakReference* a2)
+		::System::Void _ctor_1(::System::UInt32 a1, ::System::WeakReference_1<::RPG::Client::Pet::IPetInstanceRepository*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::WeakReference*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PET_PETLINEUP_CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::WeakReference_1<::RPG::Client::Pet::IPetInstanceRepository*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PET_PETLINEUP_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Set(::System::UInt32 a1, ::RPG::Client::Pet::PetInstanceIdentifier a2)

@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class WWWForm; }
@@ -16,9 +17,9 @@ inline static constexpr unsigned int MCMJPGLJEAD_TypeDefinitionIndex = 49667;
 	class MCMJPGLJEAD : public ::System::Object
 	{
 	public:
-		static ::System::Collections::IEnumerator* HAHPHBCDJDL(::System::String* a1, ::System::Action* a2, ::System::Action* a3, ::System::String* a4, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a5, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a6, ::System::Single a7, ::System::Int32 a8, ::System::Boolean a9)
+		static ::System::Collections::IEnumerator* HAHPHBCDJDL(::System::String* a1, ::System::Action_1<::System::String*>* a2, ::System::Action* a3, ::System::String* a4, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a5, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a6, ::System::Single a7, ::System::Int32 a8, ::System::Boolean a9)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::String*, ::System::Action*, ::System::Action*, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MCMJPGLJEAD_HAHPHBCDJDL_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Collections::IEnumerator*(*)(::System::String*, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MCMJPGLJEAD_HAHPHBCDJDL_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		static ::UnityEngine::WWWForm* JMBFEFDBFNK(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)

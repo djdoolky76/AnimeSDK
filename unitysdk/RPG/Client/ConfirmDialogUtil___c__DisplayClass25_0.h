@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC4A80)
 #define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS25_0__SHOWPLAYGOCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xCBC5390)
@@ -13,7 +13,7 @@ namespace RPG::Client
 	class ConfirmDialogUtil___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::Action* dispatchOkCancel; // 0x10
+		::System::Action_1<::System::Boolean>* dispatchOkCancel; // 0x10
 		::System::Boolean isFinished; // 0x18
 		::System::Void _ctor()
 		{

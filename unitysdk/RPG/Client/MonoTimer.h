@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_MONOTIMER_CLEANTIMER_OFFSET UNITYSDK_OFFSET(0xD86E550)
@@ -24,7 +24,7 @@ namespace RPG::Client
 	public:
 		::System::Boolean _IsPause_k__BackingField; // 0x18
 		::System::Byte _padding0[0x7];
-		::System::Action* _TimerCallback; // 0x20
+		::System::Action_2<::XLua::LuaTable*, ::System::Int32>* _TimerCallback; // 0x20
 		::XLua::LuaTable* _LuaSelf; // 0x28
 		::System::Single _Interval; // 0x30
 		::System::Single _CurrentTime; // 0x34
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetTimer(::System::Action* a1, ::XLua::LuaTable* a2, ::System::Single a3)
+		::System::Void SetTimer(::System::Action_2<::XLua::LuaTable*, ::System::Int32>* a1, ::XLua::LuaTable* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMER_SETTIMER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Int32>*, ::XLua::LuaTable*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMER_SETTIMER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CleanTimer()

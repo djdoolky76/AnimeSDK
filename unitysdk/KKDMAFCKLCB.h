@@ -7,8 +7,8 @@ class JCBMNCANHAP;
 class NOBBAHKMNDK;
 namespace RPG::Client { class MonoControllableHand; }
 namespace RPG::GameCore { class CharacterInputData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define KKDMAFCKLCB_AAJABKJOJOJ_OFFSET UNITYSDK_OFFSET(0xB4B9550)
 #define KKDMAFCKLCB_ACIFAANPLKF_OFFSET UNITYSDK_OFFSET(0xB4B96E0)
@@ -52,9 +52,9 @@ inline static constexpr unsigned int KKDMAFCKLCB_TypeDefinitionIndex = 60304;
 		::System::Byte _padding0[0x2];
 		::System::Single HHFHJEBIOLH; // 0x48
 		::System::Single KPEGMDAJKKB; // 0x4C
-		static ::System::Action** StaticGet_ILBKCMPABML()
+		static ::System::Action_1<::System::Boolean>** StaticGet_ILBKCMPABML()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "KKDMAFCKLCB")->GetStaticField(0x59BF0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "KKDMAFCKLCB")->GetStaticField(0x59BF0);
 		}
 
 		// static const ::System::Object EFKHJFJLLOG; // 0x0

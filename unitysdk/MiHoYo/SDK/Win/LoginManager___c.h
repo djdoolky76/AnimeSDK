@@ -6,6 +6,8 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_LOGINMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD78C40)
 #define MIHOYO_SDK_WIN_LOGINMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD78C80)
@@ -61,9 +63,9 @@ namespace MiHoYo::SDK::Win
 			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x223D0);
 		}
 
-		static ::System::Action** StaticGet___9__32_4()
+		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__32_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x223D8);
+			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x223D8);
 		}
 
 		static ::System::Action** StaticGet___9__81_0()
@@ -76,14 +78,14 @@ namespace MiHoYo::SDK::Win
 			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x223E8);
 		}
 
-		static ::System::Action** StaticGet___9__66_4()
+		static ::System::Action_1<::MiHoYo::SDK::AccountModel*>** StaticGet___9__66_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x223F0);
+			return (::System::Action_1<::MiHoYo::SDK::AccountModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x223F0);
 		}
 
-		static ::System::Action** StaticGet___9__66_3()
+		static ::System::Action_1<::MiHoYo::SDK::AccountModel*>** StaticGet___9__66_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x223F8);
+			return (::System::Action_1<::MiHoYo::SDK::AccountModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x223F8);
 		}
 
 		static ::System::Action** StaticGet___9__62_17()
@@ -91,14 +93,14 @@ namespace MiHoYo::SDK::Win
 			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22400);
 		}
 
-		static ::System::Action** StaticGet___9__32_5()
+		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__32_5()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22408);
+			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22408);
 		}
 
-		static ::System::Action** StaticGet___9__60_4()
+		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__60_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22410);
+			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22410);
 		}
 
 		static ::System::Action** StaticGet___9__80_0()
@@ -106,14 +108,14 @@ namespace MiHoYo::SDK::Win
 			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22418);
 		}
 
-		static ::System::Action** StaticGet___9__96_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__96_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22420);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22420);
 		}
 
-		static ::System::Action** StaticGet___9__60_5()
+		static ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>** StaticGet___9__60_5()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22428);
+			return (::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22428);
 		}
 
 		static ::System::Action** StaticGet___9__62_11()
@@ -121,9 +123,9 @@ namespace MiHoYo::SDK::Win
 			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22430);
 		}
 
-		static ::System::Action** StaticGet___9__26_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__26_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22438);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22438);
 		}
 
 		static ::System::Action** StaticGet___9__62_16()
@@ -151,14 +153,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__ONLOGOUT_B__26_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _ShowPhoneMessagePluginUI_b__32_4(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowPhoneMessagePluginUI_b__32_4(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWPHONEMESSAGEPLUGINUI_B__32_4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWPHONEMESSAGEPLUGINUI_B__32_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowPhoneMessagePluginUI_b__32_5(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowPhoneMessagePluginUI_b__32_5(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWPHONEMESSAGEPLUGINUI_B__32_5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWPHONEMESSAGEPLUGINUI_B__32_5_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ShowPhoneMessageView_b__33_3()
@@ -171,14 +173,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWPHONEMESSAGEVIEW_B__33_4_OFFSET))(this);
 		}
 
-		::System::Void _ShowAccountLoginPluginUI_b__60_4(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowAccountLoginPluginUI_b__60_4(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWACCOUNTLOGINPLUGINUI_B__60_4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWACCOUNTLOGINPLUGINUI_B__60_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowAccountLoginPluginUI_b__60_5(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowAccountLoginPluginUI_b__60_5(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWACCOUNTLOGINPLUGINUI_B__60_5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__SHOWACCOUNTLOGINPLUGINUI_B__60_5_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ShowAccountLoginView_b__62_11()

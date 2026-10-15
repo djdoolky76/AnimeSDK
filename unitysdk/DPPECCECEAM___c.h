@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class DPPECCECEAM;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define DPPECCECEAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12665B70)
 #define DPPECCECEAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12665BA0)
@@ -15,14 +15,14 @@ inline static constexpr unsigned int DPPECCECEAM___c_TypeDefinitionIndex = 77011
 	class DPPECCECEAM___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__30_0()
+		static ::System::Action_1<::DPPECCECEAM*>** StaticGet___9__30_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD00);
+			return (::System::Action_1<::DPPECCECEAM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD00);
 		}
 
-		static ::System::Action** StaticGet___9__32_0()
+		static ::System::Action_1<::DPPECCECEAM*>** StaticGet___9__32_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD08);
+			return (::System::Action_1<::DPPECCECEAM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD08);
 		}
 
 		static ::System::Object** StaticGet___9()

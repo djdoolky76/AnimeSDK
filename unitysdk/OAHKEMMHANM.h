@@ -6,7 +6,7 @@ class CDKEBLNOEPH;
 class HGDELEAHIJO;
 class OAPFEGCKDNG;
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
@@ -141,9 +141,9 @@ inline static constexpr unsigned int OAHKEMMHANM_TypeDefinitionIndex = 59478;
 			return ((::System::Collections::Generic::HashSet_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OAHKEMMHANM_DBPNHDJILOO_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* LHIBMOJONAE(::System::Boolean a1)
+		::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* LHIBMOJONAE(::System::Boolean a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OAHKEMMHANM_LHIBMOJONAE_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OAHKEMMHANM_LHIBMOJONAE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IKDDBODBGGN(::System::String* a1, ::System::String* a2)

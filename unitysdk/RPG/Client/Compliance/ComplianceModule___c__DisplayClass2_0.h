@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/PayProductResult.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Compliance { class ComplianceModule; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBAC7A0)
 #define RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE___C__DISPLAYCLASS2_0__DOFTCDIRECTPURCHASE_B__0_OFFSET UNITYSDK_OFFSET(0xCBACF50)
@@ -16,7 +16,7 @@ namespace RPG::Client::Compliance
 	{
 	public:
 		::RPG::Client::Compliance::ComplianceModule* __4__this; // 0x10
-		::System::Action* onResult; // 0x18
+		::System::Action_1<::RPG::Client::PayProductResult>* onResult; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class IFEABBJBIGK;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define MLKDDLHNNHH_CLEAR_OFFSET UNITYSDK_OFFSET(0xB9B3F50)
 #define MLKDDLHNNHH_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B4360)
@@ -18,7 +18,7 @@ inline static constexpr unsigned int MLKDDLHNNHH_TypeDefinitionIndex = 71112;
 	class MLKDDLHNNHH : public ::System::Object
 	{
 	public:
-		::System::Action* LGAOOKPFIMF; // 0x10
+		::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>* LGAOOKPFIMF; // 0x10
 		::System::Boolean APHAAOCDAGN; // 0x18
 		::System::Boolean MEIOBBAOACJ; // 0x19
 		::System::Void _ctor()
@@ -31,9 +31,9 @@ inline static constexpr unsigned int MLKDDLHNNHH_TypeDefinitionIndex = 71112;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLKDDLHNNHH_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void HKKFFCBJOKM(::System::Action* a1)
+		::System::Void HKKFFCBJOKM(::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MLKDDLHNNHH_HKKFFCBJOKM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MLKDDLHNNHH_HKKFFCBJOKM_OFFSET))(this, a1);
 		}
 
 		::System::Void DDKJIMBJBMH(::System::Boolean a1)

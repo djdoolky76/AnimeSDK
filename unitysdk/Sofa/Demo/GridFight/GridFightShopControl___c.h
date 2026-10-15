@@ -8,7 +8,7 @@ class EHBJBLKFBEA;
 class EMHMHPFOBKI;
 class FILMPEEMJED;
 namespace ObservableCollections { template <typename T> class ObservableList_1; }
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -46,9 +46,9 @@ namespace Sofa::Demo::GridFight
 			return (::System::Func_2<::EMHMHPFOBKI*, ::ObservableCollections::ObservableList_1<::EHBJBLKFBEA*>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCD68);
 		}
 
-		static ::System::Func_2<::EMHMHPFOBKI*, ::R3::Observable*>** StaticGet___9__3_0()
+		static ::System::Func_2<::EMHMHPFOBKI*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::EMHMHPFOBKI*, ::R3::Observable*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCD70);
+			return (::System::Func_2<::EMHMHPFOBKI*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Demo.GridFight", "<>c")->GetStaticField(0xCD70);
 		}
 
 		static ::System::Void _cctor()
@@ -61,9 +61,9 @@ namespace Sofa::Demo::GridFight
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable* __Binding_b__3_0(::EMHMHPFOBKI* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__3_0(::EMHMHPFOBKI* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EMHMHPFOBKI*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPCONTROL___C___BINDING_B__3_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::EMHMHPFOBKI*))((::PBYTE)hIl2Cpp + SOFA_DEMO_GRIDFIGHT_GRIDFIGHTSHOPCONTROL___C___BINDING_B__3_0_OFFSET))(this, a1);
 		}
 
 		::ObservableCollections::ObservableList_1<::EHBJBLKFBEA*>* __Binding_b__3_1(::EMHMHPFOBKI* a1)

@@ -3,6 +3,7 @@
 #include "unitysdk/Cysharp/Threading/Tasks/Internal/ValueStopwatch.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
+#include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
@@ -10,10 +11,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
-namespace Cysharp::Threading::Tasks { class TaskPool; }
 namespace Cysharp::Threading::Tasks { class UniTask_DelayRealtimePromise; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F148580)
 #define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F1419D0)
@@ -42,9 +42,9 @@ namespace Cysharp::Threading::Tasks
 		::System::Byte _padding1[0x7];
 		::Cysharp::Threading::Tasks::Internal::ValueStopwatch stopwatch; // 0x60
 		::System::Int64 delayTimeSpanTicks; // 0x68
-		static ::Cysharp::Threading::Tasks::TaskPool** StaticGet_pool()
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool**)UnitySDK::FromName("Cysharp.Threading.Tasks", "DelayRealtimePromise")->GetStaticField(0x46C80);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "DelayRealtimePromise")->GetStaticField(0x46C80);
 		}
 
 		static ::System::Void _cctor()
@@ -82,9 +82,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_UNSAFEGETSTATUS_OFFSET))(this);
 		}
 
-		::System::Void OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean MoveNext()

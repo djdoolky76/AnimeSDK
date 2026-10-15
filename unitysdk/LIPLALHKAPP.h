@@ -6,7 +6,7 @@ class CEEGMMCFCBG;
 class FIEDGBPNHMN;
 class PEKFHPMIPDD;
 namespace ObservableCollections { template <typename T> class ObservableList_1; }
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace R3 { template <typename T> class Subject_1; }
 namespace RPG::Client::Ui::Samples { class FriendChatContactVM; }
@@ -60,8 +60,8 @@ inline static constexpr unsigned int LIPLALHKAPP_TypeDefinitionIndex = 73450;
 		::R3::Subject_1<::System::Int32>* DKKGMPPEGNI; // 0x10
 		::R3::ReactiveProperty_1<::System::String*>* _UiStateName_k__BackingField; // 0x18
 		::Sofa::Core::SimpleCommand* BJLGNMENHAA; // 0x20
-		::R3::Observable* _SubTitleTextID_k__BackingField; // 0x28
-		::R3::Observable* _IsSendPanelVisible_k__BackingField; // 0x30
+		::R3::Observable_1<::System::String*>* _SubTitleTextID_k__BackingField; // 0x28
+		::R3::Observable_1<::System::Boolean>* _IsSendPanelVisible_k__BackingField; // 0x30
 		::R3::ReactiveProperty_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>* _SelectedContact_k__BackingField; // 0x38
 		::ObservableCollections::ObservableList_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>* _Contacts_k__BackingField; // 0x40
 		::System::Collections::Generic::List_1<::System::String*>* CJMFBDCOJGK; // 0x48
@@ -71,9 +71,9 @@ inline static constexpr unsigned int LIPLALHKAPP_TypeDefinitionIndex = 73450;
 		::R3::ReactiveProperty_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>* _SelectedTab_k__BackingField; // 0x68
 		::R3::ReactiveProperty_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>* _FirstOnlineContact_k__BackingField; // 0x70
 		::Sofa::Core::SimpleCommand* LINLNGALPHK; // 0x78
-		::R3::Observable* _IsPamSelected_k__BackingField; // 0x80
+		::R3::Observable_1<::System::Boolean>* _IsPamSelected_k__BackingField; // 0x80
 		::ObservableCollections::ObservableList_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>* _Tabs_k__BackingField; // 0x88
-		::R3::Observable* _TitleText_k__BackingField; // 0x90
+		::R3::Observable_1<::System::String*>* _TitleText_k__BackingField; // 0x90
 		::PEKFHPMIPDD* LPEGKFBPJOI; // 0x98
 		::System::Action* ExitRequested; // 0xA0
 		::R3::ReactiveProperty_1<::System::Int32>* _SelectedTabIndex_k__BackingField; // 0xA8
@@ -92,9 +92,9 @@ inline static constexpr unsigned int LIPLALHKAPP_TypeDefinitionIndex = 73450;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_BBFBBPNENAC_OFFSET))(this);
 		}
 
-		::R3::Observable* KBIMIGPFKFE()
+		::R3::Observable_1<::System::Int32>* KBIMIGPFKFE()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_KBIMIGPFKFE_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_KBIMIGPFKFE_OFFSET))(this);
 		}
 
 		::System::Void LKFFDJHELBL()
@@ -152,24 +152,24 @@ inline static constexpr unsigned int LIPLALHKAPP_TypeDefinitionIndex = 73450;
 			return ((::R3::ReactiveProperty_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_SELECTEDTAB_OFFSET))(this);
 		}
 
-		::R3::Observable* get_IsPamSelected()
+		::R3::Observable_1<::System::Boolean>* get_IsPamSelected()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_ISPAMSELECTED_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_ISPAMSELECTED_OFFSET))(this);
 		}
 
-		::R3::Observable* get_SubTitleTextID()
+		::R3::Observable_1<::System::String*>* get_SubTitleTextID()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_SUBTITLETEXTID_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_SUBTITLETEXTID_OFFSET))(this);
 		}
 
-		::R3::Observable* get_TitleText()
+		::R3::Observable_1<::System::String*>* get_TitleText()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_TITLETEXT_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_TITLETEXT_OFFSET))(this);
 		}
 
-		::R3::Observable* get_IsSendPanelVisible()
+		::R3::Observable_1<::System::Boolean>* get_IsSendPanelVisible()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_ISSENDPANELVISIBLE_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LIPLALHKAPP_GET_ISSENDPANELVISIBLE_OFFSET))(this);
 		}
 
 		::R3::ReactiveProperty_1<::System::String*>* get_UiStateName()

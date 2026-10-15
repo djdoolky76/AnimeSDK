@@ -5,7 +5,7 @@ class EFODGECFLLC;
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define BBMABKBNOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15E930D0)
 #define BBMABKBNOGJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15E93170)
@@ -16,7 +16,7 @@ inline static constexpr unsigned int BBMABKBNOGJ_TypeDefinitionIndex = 76948;
 	{
 	public:
 		::EFODGECFLLC* EEFMDEHLLFI; // 0x10
-		::Entitas::IGroup* GJMDKJKKCKE; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GJMDKJKKCKE; // 0x18
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x20
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class PayManagerCXHandheld; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0B6D0)
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BF0DCD0)
@@ -18,7 +18,7 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 	public:
 		::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld* __4__this; // 0x10
 		::System::String* gameToken; // 0x18
-		::System::Action* __9__2; // 0x20
+		::System::Action_1<::System::String*>* __9__2; // 0x20
 		::System::String* game; // 0x28
 		::System::String* device; // 0x30
 		::System::String* aid; // 0x38

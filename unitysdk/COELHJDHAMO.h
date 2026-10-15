@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class BNFHFJMLEMO;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -32,9 +32,9 @@ inline static constexpr unsigned int COELHJDHAMO_TypeDefinitionIndex = 49292;
 			return (::System::Collections::Generic::Queue_1<::System::Int32>**)UnitySDK::FromName("", "COELHJDHAMO")->GetStaticField(0x565F0);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action*>*>*>** StaticGet_FOAEINPDJEI()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>*>*>** StaticGet_FOAEINPDJEI()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action*>*>*>**)UnitySDK::FromName("", "COELHJDHAMO")->GetStaticField(0x565F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>*>*>**)UnitySDK::FromName("", "COELHJDHAMO")->GetStaticField(0x565F8);
 		}
 
 		static ::BNFHFJMLEMO** StaticGet_LCHBBIKLPOK()
@@ -77,9 +77,9 @@ inline static constexpr unsigned int COELHJDHAMO_TypeDefinitionIndex = 49292;
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + COELHJDHAMO_CJEHEGCIPEI_OFFSET))();
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action*>*>*>* DBLGGMAKPAN()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>*>*>* DBLGGMAKPAN()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action*>*>*>*(*)())((::PBYTE)hIl2Cpp + COELHJDHAMO_DBLGGMAKPAN_OFFSET))();
+			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>*>*>*(*)())((::PBYTE)hIl2Cpp + COELHJDHAMO_DBLGGMAKPAN_OFFSET))();
 		}
 
 		static ::System::Void LFNIOIMDGEN(::System::String* a1)
@@ -97,9 +97,9 @@ inline static constexpr unsigned int COELHJDHAMO_TypeDefinitionIndex = 49292;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COELHJDHAMO_FKNKIJFFCOM_OFFSET))();
 		}
 
-		static ::System::Void KJMDJMBNCPE(::System::Int32 a1, ::System::String* a2, ::System::Action* a3)
+		static ::System::Void KJMDJMBNCPE(::System::Int32 a1, ::System::String* a2, ::System::Action_1<::UnityEngine::Object*>* a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + COELHJDHAMO_KJMDJMBNCPE_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::Action_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + COELHJDHAMO_KJMDJMBNCPE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void EKDEBAFLFLB(::System::Int32 a1, ::System::Boolean a2)

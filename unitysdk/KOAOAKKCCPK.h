@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class BKPEADLKFGJ;
 class KOAOAKKCCPK_AHOLCAKHGMC;
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define KOAOAKKCCPK_ABACKOIPNJO_OFFSET UNITYSDK_OFFSET(0xB58FAE0)
@@ -22,9 +22,9 @@ inline static constexpr unsigned int KOAOAKKCCPK_TypeDefinitionIndex = 72344;
 			return ((::System::Void(*)(::PVOID, ::KOAOAKKCCPK_AHOLCAKHGMC*))((::PBYTE)hIl2Cpp + KOAOAKKCCPK_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void NDHJKKDPGMO(::System::Nullable* a1)
+		::System::Void NDHJKKDPGMO(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + KOAOAKKCCPK_NDHJKKDPGMO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + KOAOAKKCCPK_NDHJKKDPGMO_OFFSET))(this, a1);
 		}
 
 		::System::Void NDHJKKDPGMO_1(::Il2CppArray<::System::String*>* a1)

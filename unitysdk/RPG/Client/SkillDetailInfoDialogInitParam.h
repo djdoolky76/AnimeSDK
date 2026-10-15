@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AvatarSpecialUltraType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class SkillSimpleExtraEffectData; }
 namespace RPG::GameCore { class ICharacterSkillRowData; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -28,12 +28,12 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::TextID>* SpecialTipsList; // 0x10
 		::RPG::GameCore::ICharacterSkillRowData* _SkillRowData_k__BackingField; // 0x18
 		::System::Collections::Generic::List_1<::System::Object*>* RelatedSkillDetailList; // 0x20
-		::System::Nullable* CurSP; // 0x28
+		::System::Nullable_1<::System::Int32> CurSP; // 0x28
 		::System::Boolean ShowLevel; // 0x30
 		::System::Byte _padding0[0x3];
-		::System::Nullable* Offset; // 0x34
+		::System::Nullable_1<::UnityEngine::Vector3> Offset; // 0x34
 		::System::Byte _padding1[0x8];
-		::System::Nullable* Position; // 0x44
+		::System::Nullable_1<::UnityEngine::Vector3> Position; // 0x44
 		::System::Byte _padding2[0x8];
 		::RPG::GameCore::AvatarSpecialUltraType _UltraSkillType_k__BackingField; // 0x54
 		::System::Void _ctor()

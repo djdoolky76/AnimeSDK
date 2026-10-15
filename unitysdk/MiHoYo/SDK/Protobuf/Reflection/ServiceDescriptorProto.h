@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace MiHoYo::SDK::Protobuf { class FieldCodec; }
-namespace MiHoYo::SDK::Protobuf { class MessageParser; }
+namespace MiHoYo::SDK::Protobuf { template <typename T> class FieldCodec_1; }
+namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
 namespace MiHoYo::SDK::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MethodDescriptorProto; }
@@ -43,14 +43,14 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 		::MiHoYo::SDK::Protobuf::Collections::RepeatedField_1<::MiHoYo::SDK::Protobuf::Reflection::MethodDescriptorProto*>* method_; // 0x10
 		::MiHoYo::SDK::Protobuf::Reflection::ServiceOptions* options_; // 0x18
 		::System::String* name_; // 0x20
-		static ::MiHoYo::SDK::Protobuf::MessageParser** StaticGet__parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto*>** StaticGet__parser()
 		{
-			return (::MiHoYo::SDK::Protobuf::MessageParser**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "ServiceDescriptorProto")->GetStaticField(0x51BA0);
+			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "ServiceDescriptorProto")->GetStaticField(0x51BA0);
 		}
 
-		static ::MiHoYo::SDK::Protobuf::FieldCodec** StaticGet__repeated_method_codec()
+		static ::MiHoYo::SDK::Protobuf::FieldCodec_1<::MiHoYo::SDK::Protobuf::Reflection::MethodDescriptorProto*>** StaticGet__repeated_method_codec()
 		{
-			return (::MiHoYo::SDK::Protobuf::FieldCodec**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "ServiceDescriptorProto")->GetStaticField(0x51BA8);
+			return (::MiHoYo::SDK::Protobuf::FieldCodec_1<::MiHoYo::SDK::Protobuf::Reflection::MethodDescriptorProto*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "ServiceDescriptorProto")->GetStaticField(0x51BA8);
 		}
 
 		::System::Void _ctor()
@@ -68,9 +68,9 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTORPROTO_CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::Protobuf::MessageParser* get_Parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto*>* get_Parser()
 		{
-			return ((::MiHoYo::SDK::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTORPROTO_GET_PARSER_OFFSET))();
+			return ((::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto*>*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTORPROTO_GET_PARSER_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

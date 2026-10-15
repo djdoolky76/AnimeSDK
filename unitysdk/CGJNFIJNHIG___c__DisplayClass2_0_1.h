@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 inline static constexpr unsigned int CGJNFIJNHIG___c__DisplayClass2_0_1_TypeDefinitionIndex = 76065;
 
@@ -9,5 +9,5 @@ inline static constexpr unsigned int CGJNFIJNHIG___c__DisplayClass2_0_1_TypeDefi
 	class CGJNFIJNHIG___c__DisplayClass2_0_1 : public ::System::Object
 	{
 	public:
-		::System::Action* handler; // 0x0
+		::System::Action_1<T>* handler; // 0x0
 	};

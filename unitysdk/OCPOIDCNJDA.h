@@ -7,7 +7,7 @@
 #include "unitysdk/RPG/GameCore/PingPongPatrolType.h"
 #include "unitysdk/RPG/GameCore/PingPongSPSkillType.h"
 #include "unitysdk/OEEKHELGHKF.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -1062,14 +1062,14 @@ inline static constexpr unsigned int OCPOIDCNJDA_TypeDefinitionIndex = 42610;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_FBJMFDJHPDL_OFFSET))(this);
 		}
 
-		::System::Void EDHJMNPBILH(::System::ValueTuple a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::Void EDHJMNPBILH(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_EDHJMNPBILH_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_EDHJMNPBILH_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void MLGGKICCLJA(::System::ValueTuple a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::Void MLGGKICCLJA(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_MLGGKICCLJA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_MLGGKICCLJA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void PHMJIPDNONC()
@@ -1087,14 +1087,14 @@ inline static constexpr unsigned int OCPOIDCNJDA_TypeDefinitionIndex = 42610;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_BGALFCJLAPO_OFFSET))(this);
 		}
 
-		::System::Void NIHKCBKKIOC(::System::ValueTuple a1)
+		::System::Void NIHKCBKKIOC(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_NIHKCBKKIOC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_NIHKCBKKIOC_OFFSET))(this, a1);
 		}
 
-		::System::Void CPOIBJJNKNA(::System::ValueTuple a1)
+		::System::Void CPOIBJJNKNA(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_CPOIBJJNKNA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + OCPOIDCNJDA_CPOIBJJNKNA_OFFSET))(this, a1);
 		}
 
 		::System::Void HIGOOODJJDI()

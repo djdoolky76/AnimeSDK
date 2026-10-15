@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/RogueTournMode.h"
 #include "unitysdk/RPG/Client/MongoObjectId.h"
 #include "unitysdk/RPG/Client/RogueTournBuildRefUnionIndex.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Guid.h"
 class AFFHHHEJEFH;
 class BICALEAAKEL;
@@ -49,11 +50,12 @@ namespace RPG::Client { template <typename T> class PrefList_1; }
 namespace RPG::Client { template <typename T> class RPGHttpPlatformActResponse_1; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
@@ -374,9 +376,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__GETBUILDREFAPIDOMAIN_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::KeyValuePair* _GetBuildRefAPIReqColorHeader()
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*> _GetBuildRefAPIReqColorHeader()
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__GETBUILDREFAPIREQCOLORHEADER_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__GETBUILDREFAPIREQCOLORHEADER_OFFSET))(this);
 		}
 
 		::System::String* GetBuildRefH5URL()
@@ -394,9 +396,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_GET_ISBUILDREFH5ENABLED_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _PrepareAuthorizedRequest(::GHHJNCOAIJF* a1)
+		::RPG::Client::Promises::IPromise_1<::GHHJNCOAIJF*>* _PrepareAuthorizedRequest(::GHHJNCOAIJF* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__PREPAREAUTHORIZEDREQUEST_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::GHHJNCOAIJF*>*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__PREPAREAUTHORIZEDREQUEST_OFFSET))(this, a1);
 		}
 
 		::System::Void _PrepareRequestColorHeader(::GHHJNCOAIJF* a1)
@@ -409,14 +411,14 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SENDGETROGUETOURNBUILDREFSTATICDATAHTTPREQ_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendGetRogueTournBuildRefStaticDataCdnHttpReq(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::GKLHNHFCDBL*>* _SendGetRogueTournBuildRefStaticDataCdnHttpReq(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__SENDGETROGUETOURNBUILDREFSTATICDATACDNHTTPREQ_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::GKLHNHFCDBL*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__SENDGETROGUETOURNBUILDREFSTATICDATACDNHTTPREQ_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendGetRogueTournBuildRefStaticDataApiHttpReq()
+		::RPG::Client::Promises::IPromise_1<::GKLHNHFCDBL*>* _SendGetRogueTournBuildRefStaticDataApiHttpReq()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::GKLHNHFCDBL*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE__SENDGETROGUETOURNBUILDREFSTATICDATAAPIHTTPREQ_OFFSET))(this);
 		}
 
 		::System::Void AbortSentGetRogueTournBuildRefStaticDataHttpReq(::System::Exception* a1)
@@ -454,9 +456,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::MongoObjectId, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SENDSETROGUETOURNBUILDREFFAVORITEHTTPREQ_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* SendGetRogueTournBuildRefHistoryHttpReq(::System::UInt32 a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::GetRogueTournBuildRefHistoryHttpRsp*>* SendGetRogueTournBuildRefHistoryHttpReq(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SENDGETROGUETOURNBUILDREFHISTORYHTTPREQ_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::GetRogueTournBuildRefHistoryHttpRsp*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SENDGETROGUETOURNBUILDREFHISTORYHTTPREQ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnGetRogueTournBuildRefStaticDataHttpRsp(::GKLHNHFCDBL* a1)
@@ -624,19 +626,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_CLEARBUILDREFAVAILABLEAVATARSCACHE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* ShowCollectionExhibitionPageFromEntrancePromised()
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>* ShowCollectionExhibitionPageFromEntrancePromised()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWCOLLECTIONEXHIBITIONPAGEFROMENTRANCEPROMISED_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWCOLLECTIONEXHIBITIONPAGEFROMENTRANCEPROMISED_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* ShowCollectionExhibitionPageFromCollectionBoothPropPromised(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>* ShowCollectionExhibitionPageFromCollectionBoothPropPromised(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWCOLLECTIONEXHIBITIONPAGEFROMCOLLECTIONBOOTHPROPPROMISED_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWCOLLECTIONEXHIBITIONPAGEFROMCOLLECTIONBOOTHPROPPROMISED_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* ShowCollectionExhibitionPageFromExhibitionBoothPropPromised(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>* ShowCollectionExhibitionPageFromExhibitionBoothPropPromised(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWCOLLECTIONEXHIBITIONPAGEFROMEXHIBITIONBOOTHPROPPROMISED_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWCOLLECTIONEXHIBITIONPAGEFROMEXHIBITIONBOOTHPROPPROMISED_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::Promise* _RequestCollectionExhibitionDataPromised()
@@ -789,14 +791,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SETAUTOSHOWENTRANCEPAGE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* ShowEntrancePagePromised(::System::Boolean a1)
+		::RPG::Client::Promises::Promise_1<::XLua::LuaTable*>* ShowEntrancePagePromised(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWENTRANCEPAGEPROMISED_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::XLua::LuaTable*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWENTRANCEPAGEPROMISED_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* ShowModeSelectPagePromised()
+		::RPG::Client::Promises::Promise_1<::XLua::LuaTable*>* ShowModeSelectPagePromised()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWMODESELECTPAGEPROMISED_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::XLua::LuaTable*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_SHOWMODESELECTPAGEPROMISED_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* GetAvailableBuffTypeList()
@@ -994,9 +996,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_GET_ISGODMODEAVAILABLE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* get_IsAutoShowEntrancePageAfterGotoPromised()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* get_IsAutoShowEntrancePageAfterGotoPromised()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_GET_ISAUTOSHOWENTRANCEPAGEAFTERGOTOPROMISED_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNMODULE_GET_ISAUTOSHOWENTRANCEPAGEAFTERGOTOPROMISED_OFFSET))(this);
 		}
 
 		::System::String* get_WebH5URL()

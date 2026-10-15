@@ -11,7 +11,8 @@ class PEKFHPMIPDD;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class Action; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -71,9 +72,9 @@ namespace RPG::Client::ActivityFinalityBattle::Level
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>* _ObtainedRoleIDToAvatar; // 0x58
 		::CPKHHHPKFBN* _LevelGroupModel; // 0x60
 		::System::Action* OnRefresh; // 0x68
-		::System::Action* OnClickSupporter; // 0x70
+		::System::Action_1<::System::UInt32>* OnClickSupporter; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>* _EasySpecialAvatarIDToAvatar; // 0x78
-		::System::Action* OnSelectSupporterBackToLua; // 0x80
+		::System::Action_1<::RPG::AvatarSystem::IAvatar*>* OnSelectSupporterBackToLua; // 0x80
 		::System::UInt32 _LeadingRoleID_k__BackingField; // 0x88
 		::System::Boolean _IsFixedSupporters_k__BackingField; // 0x8C
 		::System::Boolean _OverrideClickSupporterEvents; // 0x8D
@@ -147,14 +148,14 @@ namespace RPG::Client::ActivityFinalityBattle::Level
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL__ONUPDATESUPPORTERSTOSOURCE_OFFSET))(this, a1);
 		}
 
-		::System::Tuple* _ConvertAvatarToTuple(::RPG::AvatarSystem::IAvatar* a1)
+		::System::Tuple_2<::System::UInt32, ::ACINIALAFDE>* _ConvertAvatarToTuple(::RPG::AvatarSystem::IAvatar* a1)
 		{
-			return ((::System::Tuple*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL__CONVERTAVATARTOTUPLE_OFFSET))(this, a1);
+			return ((::System::Tuple_2<::System::UInt32, ::ACINIALAFDE>*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL__CONVERTAVATARTOTUPLE_OFFSET))(this, a1);
 		}
 
-		::MNBCPGLOMIE* _GetEditObjectFromSupporterList(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple*>* a1)
+		::MNBCPGLOMIE* _GetEditObjectFromSupporterList(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::System::UInt32, ::ACINIALAFDE>*>* a1)
 		{
-			return ((::MNBCPGLOMIE*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL__GETEDITOBJECTFROMSUPPORTERLIST_OFFSET))(this, a1);
+			return ((::MNBCPGLOMIE*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::System::UInt32, ::ACINIALAFDE>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL__GETEDITOBJECTFROMSUPPORTERLIST_OFFSET))(this, a1);
 		}
 
 		::Sofa::Core::SimpleCommand* get_ClickLeader()
@@ -187,14 +188,14 @@ namespace RPG::Client::ActivityFinalityBattle::Level
 			return ((::System::Void(*)(::PVOID, ::PEKFHPMIPDD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_SET_UPDATESUPPORTERSTOSOURCE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnClickSupporter(::System::Action* a1)
+		::System::Void add_OnClickSupporter(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_ADD_ONCLICKSUPPORTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_ADD_ONCLICKSUPPORTER_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnClickSupporter(::System::Action* a1)
+		::System::Void remove_OnClickSupporter(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_REMOVE_ONCLICKSUPPORTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_REMOVE_ONCLICKSUPPORTER_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnRefresh(::System::Action* a1)
@@ -207,14 +208,14 @@ namespace RPG::Client::ActivityFinalityBattle::Level
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_REMOVE_ONREFRESH_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnSelectSupporterBackToLua(::System::Action* a1)
+		::System::Void add_OnSelectSupporterBackToLua(::System::Action_1<::RPG::AvatarSystem::IAvatar*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_ADD_ONSELECTSUPPORTERBACKTOLUA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_ADD_ONSELECTSUPPORTERBACKTOLUA_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnSelectSupporterBackToLua(::System::Action* a1)
+		::System::Void remove_OnSelectSupporterBackToLua(::System::Action_1<::RPG::AvatarSystem::IAvatar*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_REMOVE_ONSELECTSUPPORTERBACKTOLUA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYFINALITYBATTLE_LEVEL_FINALITYBATTLETEAMEDITOPERATEPANELVIEWMODEL_REMOVE_ONSELECTSUPPORTERBACKTOLUA_OFFSET))(this, a1);
 		}
 
 		::RPG::AvatarSystem::IAvatar* get_LeaderAvatar()

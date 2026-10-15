@@ -4,6 +4,8 @@
 namespace MiHoYo::SDK::Win { class BindByMail; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -46,8 +48,8 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Text* submitButtonText; // 0xA0
 		::System::Action* OnBack; // 0xA8
 		::System::Action* OnClose; // 0xB0
-		::System::Action* OnGetCode; // 0xB8
-		::System::Action* OnSubmit; // 0xC0
+		::System::Action_1<::System::String*>* OnGetCode; // 0xB8
+		::System::Action_2<::System::String*, ::System::String*>* OnSubmit; // 0xC0
 		::System::Boolean isRequestVerifyCode; // 0xC8
 		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xCC

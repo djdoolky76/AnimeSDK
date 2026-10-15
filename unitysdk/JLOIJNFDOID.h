@@ -14,8 +14,8 @@ namespace RPG::Client { class NpcMonoLod; }
 namespace RPG::GameCore { class EntityLodLoadingData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelNPCStillConfigData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class AnimatorOverrideController; }
 namespace UnityEngine { class Collider; }
@@ -92,14 +92,14 @@ inline static constexpr unsigned int JLOIJNFDOID_TypeDefinitionIndex = 57444;
 		::UnityEngine::Collider* GBDKBLPAHEL; // 0x20
 		::LHLEGLKEECE* MAKLDCENIDG; // 0x28
 		::RPG::Client::MockAnimator* CBPLANOPAPP; // 0x30
-		::System::Action* ENFFCLICPHI; // 0x38
+		::System::Action_1<::RPG::GameCore::GameEntity*>* ENFFCLICPHI; // 0x38
 		::UnityEngine::RuntimeAnimatorController* NBECDBIDDOP; // 0x40
-		::System::Action* AKOBGLFNHCM; // 0x48
+		::System::Action_1<::RPG::GameCore::GameEntity*>* AKOBGLFNHCM; // 0x48
 		::System::String* CLHPAEEALJB; // 0x50
 		::UnityEngine::AnimatorOverrideController* KENAPFGJKOM; // 0x58
 		::RPG::Client::CharacterShaderPropertyTransition* KNBIKJLEHMH; // 0x60
 		::System::String* DOECJPAELJD; // 0x68
-		::System::Action* BCLEMMLJIEJ; // 0x70
+		::System::Action_1<::UnityEngine::GameObject*>* BCLEMMLJIEJ; // 0x70
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x78
 		::RPG::Client::NpcMonoLod* HJJPDFDGNIK; // 0x80
 		::RPG::GameCore::EntityLodLoadingData* FKLLFNKCFKD; // 0x88
@@ -187,24 +187,24 @@ inline static constexpr unsigned int JLOIJNFDOID_TypeDefinitionIndex = 57444;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + JLOIJNFDOID_PEMLPLGBPCL_OFFSET))(this, a1);
 		}
 
-		::System::Void BBLAKMOAHAP(::System::Action* a1)
+		::System::Void BBLAKMOAHAP(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JLOIJNFDOID_BBLAKMOAHAP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + JLOIJNFDOID_BBLAKMOAHAP_OFFSET))(this, a1);
 		}
 
-		::System::Void BLNNLLLCMHF(::System::Action* a1)
+		::System::Void BLNNLLLCMHF(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JLOIJNFDOID_BLNNLLLCMHF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + JLOIJNFDOID_BLNNLLLCMHF_OFFSET))(this, a1);
 		}
 
-		::System::Void JBFAGHGLCCK(::System::Action* a1)
+		::System::Void JBFAGHGLCCK(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JLOIJNFDOID_JBFAGHGLCCK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + JLOIJNFDOID_JBFAGHGLCCK_OFFSET))(this, a1);
 		}
 
-		::System::Void GMMMPHOGBDF(::System::Action* a1)
+		::System::Void GMMMPHOGBDF(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JLOIJNFDOID_GMMMPHOGBDF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + JLOIJNFDOID_GMMMPHOGBDF_OFFSET))(this, a1);
 		}
 
 		::System::Void BeforeDispose()

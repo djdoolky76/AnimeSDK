@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class FPEICPLLKIP;
 class NGFHCJIAOLH;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Transform; }
 
@@ -28,9 +28,9 @@ inline static constexpr unsigned int FPEICPLLKIP___c_TypeDefinitionIndex = 77765
 			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB00);
 		}
 
-		static ::System::Action** StaticGet___9__28_0()
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__28_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB08);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB08);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -38,29 +38,29 @@ inline static constexpr unsigned int FPEICPLLKIP___c_TypeDefinitionIndex = 77765
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB10);
 		}
 
-		static ::System::Action** StaticGet___9__18_1()
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__18_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB18);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB18);
 		}
 
-		static ::System::Action** StaticGet___9__26_0()
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__26_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB20);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB20);
 		}
 
-		static ::System::Action** StaticGet___9__27_0()
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__27_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB28);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB28);
 		}
 
-		static ::System::Action** StaticGet___9__22_0()
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__22_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB30);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB30);
 		}
 
-		static ::System::Action** StaticGet___9__21_0()
+		static ::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>** StaticGet___9__21_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB38);
+			return (::System::Action_3<::FPEICPLLKIP*, ::NGFHCJIAOLH*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB38);
 		}
 
 		static ::System::Void _cctor()

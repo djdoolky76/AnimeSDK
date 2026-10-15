@@ -3,7 +3,7 @@
 #include "unitysdk/KILOJFMKNAI.h"
 #include "unitysdk/RPG/Client/LittleGameShare/TeamTowersCore/TeamTowersBrickModifierType.h"
 #include "unitysdk/RPG/GameCore/TeamTowersBrickModifierTypeConfig.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/RPG/MVector2.h"
 class BDELHFKGEEI;
 class BKMGMFCJMFP;
@@ -100,7 +100,7 @@ inline static constexpr unsigned int KIPOJIOCDKF_TypeDefinitionIndex = 37165;
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MKDNHOFBGPA*>* CGMFOCIDLLF; // 0x18
 		::RPG::GameCore::TeamTowersLevelSettings* LHBPBEADJLE; // 0x20
 		::RPG::GameCore::LittleGameLevelConfig* CLKEPOJFDPD; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::NKPKLBAACHC*>* ACACMJGKDGO; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::NKPKLBAACHC*>* ACACMJGKDGO; // 0x30
 		::RPG::GameCore::LittleGameLevelConfig* OHFEMPMNFJJ; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::BKMGMFCJMFP*>* LGBONKBIIJG; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::BDELHFKGEEI*>* MIGJIGBHIKA; // 0x48

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FAFFMDBPCGJ_ShadowJobRunResult.h"
 #include "unitysdk/RPG/GameCore/FiveDimCameraPriority.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FourRotateVoxelGameViewCoord.h"
@@ -98,7 +98,7 @@ inline static constexpr unsigned int FAFFMDBPCGJ_TypeDefinitionIndex = 76723;
 		::GAFMLDLBCEB* JAJOGJKHAJP; // 0x40
 		::System::Collections::Generic::HashSet_1<::INMMPMDELKE*>* LLPCMIOGDJF; // 0x48
 		::MNCOPNHONHO* CPDGCCILALB; // 0x50
-		::System::Collections::Generic::Dictionary_2<::FiveDimRenderingPanelRuntime*, ::System::ValueTuple>* BDABLFEIJJJ; // 0x58
+		::System::Collections::Generic::Dictionary_2<::FiveDimRenderingPanelRuntime*, ::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>>* BDABLFEIJJJ; // 0x58
 		::FAFFMDBPCGJ_HJGHKIDDBHB* MAALOPPHIGC; // 0x60
 		::BABNOKHOBCF* FKINCGODJEP; // 0x68
 		::System::Collections::Generic::HashSet_1<::FiveDimRenderingPanelRuntime*>* PPAEODALOGI; // 0x70
@@ -141,9 +141,9 @@ inline static constexpr unsigned int FAFFMDBPCGJ_TypeDefinitionIndex = 76723;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FAFFMDBPCGJ_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::FiveDimRenderingPanelRuntime*, ::System::ValueTuple>* FECNKKBHGDJ()
+		::System::Collections::Generic::Dictionary_2<::FiveDimRenderingPanelRuntime*, ::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>>* FECNKKBHGDJ()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::FiveDimRenderingPanelRuntime*, ::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FAFFMDBPCGJ_FECNKKBHGDJ_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::FiveDimRenderingPanelRuntime*, ::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FAFFMDBPCGJ_FECNKKBHGDJ_OFFSET))(this);
 		}
 
 		::System::Void OFFIBKLOKMF()

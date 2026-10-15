@@ -4,8 +4,8 @@
 namespace MiHoYo::SDK::Protobuf { class ByteString; }
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace MiHoYo::SDK::Protobuf { class FieldCodec; }
-namespace MiHoYo::SDK::Protobuf { class MessageParser; }
+namespace MiHoYo::SDK::Protobuf { template <typename T> class FieldCodec_1; }
+namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
 namespace MiHoYo::SDK::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class UninterpretedOption; }
@@ -53,14 +53,14 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 		::System::UInt64 positiveIntValue_; // 0x30
 		::System::Int64 negativeIntValue_; // 0x38
 		::System::Double doubleValue_; // 0x40
-		static ::MiHoYo::SDK::Protobuf::FieldCodec** StaticGet__repeated_name_codec()
+		static ::MiHoYo::SDK::Protobuf::FieldCodec_1<::System::Object*>** StaticGet__repeated_name_codec()
 		{
-			return (::MiHoYo::SDK::Protobuf::FieldCodec**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "UninterpretedOption")->GetStaticField(0x52030);
+			return (::MiHoYo::SDK::Protobuf::FieldCodec_1<::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "UninterpretedOption")->GetStaticField(0x52030);
 		}
 
-		static ::MiHoYo::SDK::Protobuf::MessageParser** StaticGet__parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::UninterpretedOption*>** StaticGet__parser()
 		{
-			return (::MiHoYo::SDK::Protobuf::MessageParser**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "UninterpretedOption")->GetStaticField(0x52038);
+			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::UninterpretedOption*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "UninterpretedOption")->GetStaticField(0x52038);
 		}
 
 		::System::Void _ctor()
@@ -78,9 +78,9 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::Protobuf::MessageParser* get_Parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::UninterpretedOption*>* get_Parser()
 		{
-			return ((::MiHoYo::SDK::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_GET_PARSER_OFFSET))();
+			return ((::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::UninterpretedOption*>*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_GET_PARSER_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

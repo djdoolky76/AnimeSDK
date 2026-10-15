@@ -3,6 +3,7 @@
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
 #include "unitysdk/RPG/Client/CameraDataAndFlags_LockFovReason.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/Cinemachine/CameraState.h"
 class NEOCEOCDEAF;
@@ -12,7 +13,6 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class Freelook3rdModuleConfig; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class ZoomModuleConfig; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_RPGCINEMACHINEZOOM_AAFMKHALBJE_OFFSET UNITYSDK_OFFSET(0xDE1C030)
 #define RPG_CLIENT_RPGCINEMACHINEZOOM_ANMGNCEDAMD_OFFSET UNITYSDK_OFFSET(0xDE1BF10)
@@ -60,18 +60,18 @@ namespace RPG::Client
 	public:
 		::System::Single m_ZoomSensitive; // 0x28
 		::System::Single m_Damping; // 0x2C
-		::System::Nullable* KGABOELBDFI; // 0x30
+		::System::Nullable_1<::System::Single> KGABOELBDFI; // 0x30
 		::System::Single ACHCADLBGHB; // 0x38
 		::System::Single GFFODDDOJCL; // 0x3C
 		::System::Boolean AGLOGGODABF; // 0x40
 		::System::Byte _padding0[0x3];
 		::System::Single JJJMDDBOJGA; // 0x44
-		::System::Nullable* BCCHKOFHHIG; // 0x48
+		::System::Nullable_1<::System::Single> BCCHKOFHHIG; // 0x48
 		::System::Single EGIIBCLDKBA; // 0x50
 		::System::Single IAALGINAHEI; // 0x54
 		::System::Single IHJCLMFJCFI; // 0x58
-		::System::Nullable* BEBNHKJCBLL; // 0x5C
-		::System::Nullable* BAJDACPIKJI; // 0x64
+		::System::Nullable_1<::System::Single> BEBNHKJCBLL; // 0x5C
+		::System::Nullable_1<::System::Single> BAJDACPIKJI; // 0x64
 		::System::Byte _padding1[0x4];
 		::NEOCEOCDEAF* MGMKAEJAEOE; // 0x70
 		::RPG::Client::PipelineCameraEngine* EGBDJHPFMCD; // 0x78
@@ -98,9 +98,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINEZOOM_CTOR_OFFSET))(this);
 		}
 
-		::System::Void ResetZoomDistanceImmediately(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraDataAndFlags* a2, ::System::Nullable* a3)
+		::System::Void ResetZoomDistanceImmediately(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraDataAndFlags* a2, ::System::Nullable_1<::System::Single> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraDataAndFlags*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINEZOOM_RESETZOOMDISTANCEIMMEDIATELY_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraDataAndFlags*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINEZOOM_RESETZOOMDISTANCEIMMEDIATELY_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnDestroy()

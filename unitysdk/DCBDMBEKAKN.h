@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/ETimelineControlGameLevelRotation.h"
 #include "unitysdk/CPCIFLHOOMC.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class AEBAPGAGNAK;
 class CCCBENCKELF;
-namespace System { class Nullable; }
 namespace UnityEngine { class Transform; }
 
 #define DCBDMBEKAKN_APALIMEKLMD_OFFSET UNITYSDK_OFFSET(0x1CA1A740)
@@ -41,14 +41,14 @@ inline static constexpr unsigned int DCBDMBEKAKN_TypeDefinitionIndex = 42628;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DCBDMBEKAKN_LLMMJPDOPIB_OFFSET))(this);
 		}
 
-		::AEBAPGAGNAK* JOKDPLDPMDO(::UnityEngine::Transform* a1, ::RPG::Client::LittleGame::ETimelineControlGameLevelRotation a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::System::Nullable* a8)
+		::AEBAPGAGNAK* JOKDPLDPMDO(::UnityEngine::Transform* a1, ::RPG::Client::LittleGame::ETimelineControlGameLevelRotation a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::System::Nullable_1<::CPCIFLHOOMC> a8)
 		{
-			return ((::AEBAPGAGNAK*(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::LittleGame::ETimelineControlGameLevelRotation, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + DCBDMBEKAKN_JOKDPLDPMDO_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::AEBAPGAGNAK*(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::LittleGame::ETimelineControlGameLevelRotation, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::CPCIFLHOOMC>))((::PBYTE)hIl2Cpp + DCBDMBEKAKN_JOKDPLDPMDO_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void JLGNLIHJMEJ(::UnityEngine::Transform* a1, ::RPG::Client::LittleGame::ETimelineControlGameLevelRotation a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::System::Nullable* a8)
+		::System::Void JLGNLIHJMEJ(::UnityEngine::Transform* a1, ::RPG::Client::LittleGame::ETimelineControlGameLevelRotation a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::UnityEngine::Vector3 a7, ::System::Nullable_1<::CPCIFLHOOMC> a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::LittleGame::ETimelineControlGameLevelRotation, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + DCBDMBEKAKN_JLGNLIHJMEJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::Client::LittleGame::ETimelineControlGameLevelRotation, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::CPCIFLHOOMC>))((::PBYTE)hIl2Cpp + DCBDMBEKAKN_JLGNLIHJMEJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void LBEIBLANIKB()

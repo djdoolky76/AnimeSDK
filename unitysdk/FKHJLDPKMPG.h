@@ -7,9 +7,9 @@ namespace RPG::Client { class MissionModule_ClientFinishMissionInfo; }
 namespace RPG::GameCore { class MissionItemConfig; }
 namespace RPG::GameCore { class MissionItemConfigList; }
 namespace RPG::GameCore { class SelectMissionItemConfig; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define FKHJLDPKMPG_APDGPOALAPG_OFFSET UNITYSDK_OFFSET(0x157F9FF0)
@@ -59,10 +59,10 @@ inline static constexpr unsigned int FKHJLDPKMPG_TypeDefinitionIndex = 66133;
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::FEBFJNFNBAP*>* GAFIGJAGCJP; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::FEBFJNFNBAP*>* JBGICBANKII; // 0x18
-		::System::Action* DAOLMDLBGOD; // 0x20
+		::System::Action_1<::System::UInt32>* DAOLMDLBGOD; // 0x20
 		::RPG::Client::MissionModule_ClientFinishMissionInfo* CGEJDABNKGI; // 0x28
 		::System::String* DADKGKLGMIA; // 0x30
-		::System::Action* LGAOOKPFIMF; // 0x38
+		::System::Action_1<::System::UInt32>* LGAOOKPFIMF; // 0x38
 		::CICNAOMJPGD* BLDCFMJOMMK; // 0x40
 		::System::UInt32 DJNJFAJBFCF; // 0x48
 		::System::UInt32 JBDCEAKBJMP; // 0x4C
@@ -82,9 +82,9 @@ inline static constexpr unsigned int FKHJLDPKMPG_TypeDefinitionIndex = 66133;
 
 		// static const ::System::Object CIGIMIPDILE; // 0x0
 		// static const ::System::Object IGHKKECNLGO; // 0x0
-		::System::Void _ctor(::System::UInt32 a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Action_1<::System::UInt32>* a2, ::System::Action_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + FKHJLDPKMPG_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action_1<::System::UInt32>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + FKHJLDPKMPG_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 inline static constexpr unsigned int AOLHNHEPKNO___O_TypeDefinitionIndex = 56096;
 
 	class AOLHNHEPKNO___O : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__0___SampleError()
+		static ::System::Action_1<::System::String*>** StaticGet__0___SampleError()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>O")->GetStaticField(0x64270);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x64270);
 		}
 
 	};

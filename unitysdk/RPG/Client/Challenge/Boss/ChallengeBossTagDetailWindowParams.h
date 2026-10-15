@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonsterGuideData; }
 namespace RPG::GameCore { class MonsterGuideTagConfigRow; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 
 #define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSTAGDETAILWINDOWPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xC93D620)
@@ -31,7 +31,7 @@ namespace RPG::Client::Challenge::Boss
 	public:
 		::UnityEngine::RectTransform* _NodePopup_k__BackingField; // 0x10
 		::RPG::GameCore::MonsterGuideTagConfigRow* _SelectedTag_k__BackingField; // 0x18
-		::System::Action* _ExitCallback_k__BackingField; // 0x20
+		::System::Action_1<::RPG::GameCore::MonsterGuideTagConfigRow*>* _ExitCallback_k__BackingField; // 0x20
 		::RPG::Client::MonsterGuideData* _GuideData_k__BackingField; // 0x28
 		::UnityEngine::RectTransform* _NodeTagList_k__BackingField; // 0x30
 		::System::Boolean _ShowFirstTagLine_k__BackingField; // 0x38
@@ -101,14 +101,14 @@ namespace RPG::Client::Challenge::Boss
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSTAGDETAILWINDOWPARAMS_SET_SHOWFIRSTTAGLINE_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_ExitCallback()
+		::System::Action_1<::RPG::GameCore::MonsterGuideTagConfigRow*>* get_ExitCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSTAGDETAILWINDOWPARAMS_GET_EXITCALLBACK_OFFSET))(this);
+			return ((::System::Action_1<::RPG::GameCore::MonsterGuideTagConfigRow*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSTAGDETAILWINDOWPARAMS_GET_EXITCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_ExitCallback(::System::Action* a1)
+		::System::Void set_ExitCallback(::System::Action_1<::RPG::GameCore::MonsterGuideTagConfigRow*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSTAGDETAILWINDOWPARAMS_SET_EXITCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::MonsterGuideTagConfigRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSTAGDETAILWINDOWPARAMS_SET_EXITCALLBACK_OFFSET))(this, a1);
 		}
 
 	};

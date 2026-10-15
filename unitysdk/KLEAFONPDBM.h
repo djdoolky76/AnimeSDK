@@ -3,11 +3,11 @@
 #include "unitysdk/KLEAFONPDBM_ChangeSource.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 class KLEAFONPDBM;
 namespace RPG::Client { class AchievementData; }
 namespace RPG::Client { class EraFlipperCommonConfig; }
 namespace RPG::Client { class EraFlipperManager; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -43,7 +43,7 @@ inline static constexpr unsigned int KLEAFONPDBM_TypeDefinitionIndex = 73312;
 		::System::Boolean BIKIJLMGCMJ; // 0x31
 		::System::Boolean EIOFOEKBIHO; // 0x32
 		::System::Boolean MPLOONMNECE; // 0x33
-		::System::Nullable* BGDKFBODOEO; // 0x34
+		::System::Nullable_1<::RPG::GameCore::EraStateType> BGDKFBODOEO; // 0x34
 		// static const ::System::Object KOKMKAGEEKG; // 0x0
 		::System::Void _ctor()
 		{

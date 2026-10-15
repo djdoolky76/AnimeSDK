@@ -5,13 +5,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class CMDKPJLGEOB;
 class FCOEMCEDLNL;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define CDKEGMOBGEK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DA110F0)
 #define CDKEGMOBGEK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA116C0)
@@ -42,9 +42,9 @@ inline static constexpr unsigned int CDKEGMOBGEK_TypeDefinitionIndex = 11579;
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::CMDKPJLGEOB*>**)UnitySDK::FromName("", "CDKEGMOBGEK")->GetStaticField(0x3BEE8);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "CDKEGMOBGEK")->GetStaticField(0x3BEF0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CDKEGMOBGEK")->GetStaticField(0x3BEF0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
@@ -77,9 +77,9 @@ inline static constexpr unsigned int CDKEGMOBGEK_TypeDefinitionIndex = 11579;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::CMDKPJLGEOB*>(*)())((::PBYTE)hIl2Cpp + CDKEGMOBGEK_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::CMDKPJLGEOB*>, ::CMDKPJLGEOB*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + CDKEGMOBGEK_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::CMDKPJLGEOB*>, ::CMDKPJLGEOB*>(*)())((::PBYTE)hIl2Cpp + CDKEGMOBGEK_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::CMDKPJLGEOB* LMBKNCAIDLC(::RPG::GameCore::FateRinCaseBoardAvatarType a1)

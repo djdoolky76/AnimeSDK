@@ -4,14 +4,14 @@
 #include "unitysdk/BFOGLEGJOLK.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator_2.h"
 #include "unitysdk/RPG/GameCore/SubMissionExcelTable_IndexKey.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 class OFLIAAOJPJC;
 namespace RPG::GameCore { class SubMissionRow; }
 namespace RPG::GameCore { template <typename T1, typename T2> class TableLRUCache_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -49,9 +49,9 @@ namespace RPG::GameCore
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1F858);
 		}
 
-		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1F860);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "SubMissionExcelTable")->GetStaticField(0x1F860);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::SubMissionRow*>** StaticGet_dataDict_()
@@ -134,9 +134,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONEXCELTABLE_UNLOADDATA_OFFSET))();
 		}
 
-		static ::System::Void LoadToRow(::System::ValueTuple a1, ::RPG::GameCore::SubMissionRow* a2)
+		static ::System::Void LoadToRow(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1, ::RPG::GameCore::SubMissionRow* a2)
 		{
-			return ((::System::Void(*)(::System::ValueTuple, ::RPG::GameCore::SubMissionRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONEXCELTABLE_LOADTOROW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>, ::RPG::GameCore::SubMissionRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONEXCELTABLE_LOADTOROW_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean TryLoadRow(::RPG::GameCore::SubMissionExcelTable_IndexKey a1, ::RPG::GameCore::SubMissionRow* a2)

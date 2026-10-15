@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class BKIOIPNACGF;
 class IGACELAIJCM;
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define JMGJOIMJEBF_AALCFBOGFKP_OFFSET UNITYSDK_OFFSET(0xB2644F0)
@@ -48,9 +48,9 @@ inline static constexpr unsigned int JMGJOIMJEBF_TypeDefinitionIndex = 67186;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMGJOIMJEBF_FGJFCJPJEEA_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Double>>* GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JMGJOIMJEBF_GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Double>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JMGJOIMJEBF_GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

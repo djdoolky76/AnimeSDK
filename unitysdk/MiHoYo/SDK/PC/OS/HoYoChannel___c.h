@@ -4,8 +4,8 @@
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelAchievementsResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelRecentPlayersResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelStatisticsResult; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF1E3F0)
 #define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1E430)
@@ -20,19 +20,19 @@ namespace MiHoYo::SDK::PC::OS
 	class HoYoChannel___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__48_0()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>** StaticGet___9__48_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x14BE0);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelRecentPlayersResult*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x14BE0);
 		}
 
-		static ::System::Action** StaticGet___9__29_0()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>** StaticGet___9__29_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x14BE8);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAchievementsResult*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x14BE8);
 		}
 
-		static ::System::Action** StaticGet___9__31_0()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>** StaticGet___9__31_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x14BF0);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x14BF0);
 		}
 
 		static ::System::Object** StaticGet___9()

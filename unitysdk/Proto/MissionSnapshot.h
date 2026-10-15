@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class MainMissionMcvSnapshot; }
@@ -53,19 +53,19 @@ namespace Proto
 		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MainMissionMcvSnapshot*>* clientMcvList_; // 0x30
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x38
 		::System::Boolean hasMissionAudioSnapshot_; // 0x40
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::MissionSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43DF0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::MissionSnapshot*>**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43DF0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_clientMcvList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::MainMissionMcvSnapshot*>** StaticGet__repeated_clientMcvList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43DF8);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::MainMissionMcvSnapshot*>**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43DF8);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_serverMcvList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::MainMissionMcvSnapshot*>** StaticGet__repeated_serverMcvList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43E00);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::MainMissionMcvSnapshot*>**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43E00);
 		}
 
 		// static const ::System::Object ServerMcvListFieldNumber; // 0x0
@@ -89,9 +89,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::MissionSnapshot*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::MissionSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

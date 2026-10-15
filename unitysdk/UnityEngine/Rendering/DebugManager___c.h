@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class DebugManager; }
 
 #define UNITYENGINE_RENDERING_DEBUGMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2B9E40)
@@ -28,9 +29,9 @@ namespace UnityEngine::Rendering
 			return (::System::Action**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x47778);
 		}
 
-		static ::System::Action** StaticGet___9__51_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__51_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x47780);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x47780);
 		}
 
 		static ::System::Void _cctor()

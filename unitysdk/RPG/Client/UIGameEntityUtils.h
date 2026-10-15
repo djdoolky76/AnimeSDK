@@ -11,12 +11,12 @@
 #include "unitysdk/RPG/GameCore/WeaknessState.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class DEKDEPEBHNC;
 namespace RPG::GameCore { class CharacterDataComponent; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class SkillData; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -255,9 +255,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIGAMEENTITYUTILS_ISBOSSENTITY_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* GetEntityStanceWeakInfo(::RPG::GameCore::GameEntity* a1)
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AttackDamageType, ::RPG::GameCore::WeaknessState>>* GetEntityStanceWeakInfo(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIGAMEENTITYUTILS_GETENTITYSTANCEWEAKINFO_OFFSET))(a1);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AttackDamageType, ::RPG::GameCore::WeaknessState>>*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIGAMEENTITYUTILS_GETENTITYSTANCEWEAKINFO_OFFSET))(a1);
 		}
 
 		static ::System::UInt32 GetCurrentViewModePhase(::RPG::GameCore::CharacterDataComponent* a1)

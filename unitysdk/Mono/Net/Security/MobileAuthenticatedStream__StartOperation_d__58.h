@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/Security/MobileAuthenticatedStream_OperationType.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Mono::Net::Security { class AsyncProtocolRequest; }
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
@@ -22,7 +22,7 @@ namespace Mono::Net::Security
 		::System::Byte _padding0[0x8];
 		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x20
 		::Mono::Net::Security::AsyncProtocolRequest* asyncRequest; // 0x28
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x30
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x30
 		::System::Byte _padding1[0x10];
 		::System::Threading::CancellationToken cancellationToken; // 0x48
 		::Mono::Net::Security::MobileAuthenticatedStream_OperationType type; // 0x50

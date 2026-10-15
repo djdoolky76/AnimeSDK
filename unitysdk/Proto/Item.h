@@ -5,8 +5,8 @@
 class LHCBKDNHGCG;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class Item; }
 namespace System { class Object; }
@@ -62,9 +62,9 @@ namespace Proto
 		::Proto::Item_ExtraInfoOneofCase extraInfoCase_; // 0x34
 		::System::UInt32 itemId_; // 0x38
 		::System::UInt32 mainAffixId_; // 0x3C
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::Item*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "Item")->GetStaticField(0x43D10);
+			return (::Google::Protobuf::MessageParser_1<::Proto::Item*>**)UnitySDK::FromName("Proto", "Item")->GetStaticField(0x43D10);
 		}
 
 		// static const ::System::Object LevelFieldNumber; // 0x0
@@ -90,9 +90,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ITEM_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::Item*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::Item*>*(*)())((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

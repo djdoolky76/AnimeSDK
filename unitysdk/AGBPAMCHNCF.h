@@ -3,8 +3,8 @@
 class FDPALAEIHPB;
 class KHPOKIKCOFO;
 class NKNLHELEAMN;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IContext; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define AGBPAMCHNCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8818A0)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int AGBPAMCHNCF_TypeDefinitionIndex = 42872;
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*))((::PBYTE)hIl2Cpp + AGBPAMCHNCF_CTOR_OFFSET))(this, a1);
 		}
 
-		::Entitas::ICollector* GetTrigger(::Entitas::IContext* a1)
+		::Entitas::ICollector_1<::KHPOKIKCOFO*>* GetTrigger(::Entitas::IContext_1<::KHPOKIKCOFO*>* a1)
 		{
-			return ((::Entitas::ICollector*(*)(::PVOID, ::Entitas::IContext*))((::PBYTE)hIl2Cpp + AGBPAMCHNCF_GETTRIGGER_OFFSET))(this, a1);
+			return ((::Entitas::ICollector_1<::KHPOKIKCOFO*>*(*)(::PVOID, ::Entitas::IContext_1<::KHPOKIKCOFO*>*))((::PBYTE)hIl2Cpp + AGBPAMCHNCF_GETTRIGGER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Filter(::KHPOKIKCOFO* a1)

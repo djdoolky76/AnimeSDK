@@ -4,8 +4,8 @@ class DFGDEHAHLHC;
 class FDPALAEIHPB;
 class HJNDPHEDAGM;
 class KGOFMBPFCFD;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IContext; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LGDNAFHDLPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90DE10)
@@ -25,9 +25,9 @@ inline static constexpr unsigned int LGDNAFHDLPE_TypeDefinitionIndex = 42212;
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*, ::HJNDPHEDAGM*))((::PBYTE)hIl2Cpp + LGDNAFHDLPE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Entitas::ICollector* GetTrigger(::Entitas::IContext* a1)
+		::Entitas::ICollector_1<::DFGDEHAHLHC*>* GetTrigger(::Entitas::IContext_1<::DFGDEHAHLHC*>* a1)
 		{
-			return ((::Entitas::ICollector*(*)(::PVOID, ::Entitas::IContext*))((::PBYTE)hIl2Cpp + LGDNAFHDLPE_GETTRIGGER_OFFSET))(this, a1);
+			return ((::Entitas::ICollector_1<::DFGDEHAHLHC*>*(*)(::PVOID, ::Entitas::IContext_1<::DFGDEHAHLHC*>*))((::PBYTE)hIl2Cpp + LGDNAFHDLPE_GETTRIGGER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Filter(::DFGDEHAHLHC* a1)

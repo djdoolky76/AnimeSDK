@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UI/SpriteElement.h"
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class Texture; }
 
 #define UNITYENGINE_UI_RUNTIMEATLASMANAGER_PACKEDATLAS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1F53DA70)
@@ -18,7 +18,7 @@ namespace UnityEngine::UI
 	class RuntimeAtlasManager_PackedAtlas : public ::System::Object
 	{
 	public:
-		::System::WeakReference* textureRef; // 0x10
+		::System::WeakReference_1<::UnityEngine::Texture*>* textureRef; // 0x10
 		::System::Int32 instanceID; // 0x18
 		::System::Int32 refCount; // 0x1C
 		::System::Void _ctor(::UnityEngine::Texture* a1)

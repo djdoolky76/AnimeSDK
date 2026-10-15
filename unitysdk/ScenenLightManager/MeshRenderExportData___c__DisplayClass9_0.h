@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
@@ -16,7 +16,7 @@ namespace ScenenLightManager
 	class MeshRenderExportData___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__0; // 0x10
+		::System::Action_1<::UnityEngine::Material*>* __9__0; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Material*>* mats; // 0x18
 		::UnityEngine::MeshRenderer* mr; // 0x20
 		::System::Int32 counter; // 0x28

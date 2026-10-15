@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define AOMCJAJOEIC_CTOR_OFFSET UNITYSDK_OFFSET(0x158C3D00)
@@ -60,9 +60,9 @@ inline static constexpr unsigned int AOMCJAJOEIC_TypeDefinitionIndex = 71169;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + AOMCJAJOEIC_HKCJPOIFBPO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void HKCJPOIFBPO_1(::System::String* a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* a2)
+		::System::Void HKCJPOIFBPO_1(::System::String* a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*))((::PBYTE)hIl2Cpp + AOMCJAJOEIC_HKCJPOIFBPO_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>>*))((::PBYTE)hIl2Cpp + AOMCJAJOEIC_HKCJPOIFBPO_1_OFFSET))(this, a1, a2);
 		}
 
 	};

@@ -3,7 +3,7 @@
 #include "unitysdk/PipelineCmdSlot.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
 #define RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GRASSPREVIEWER_CLEAR_OFFSET UNITYSDK_OFFSET(0xE887D50)
@@ -23,7 +23,7 @@ namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 	public:
 		::PipelineCmdSlot EDOEKNHEGBI; // 0x18
 		::System::Byte _padding0[0x4];
-		::System::Action* PCAPFFBHHGC; // 0x20
+		::System::Action_1<::UnityEngine::Rendering::CommandBuffer*>* PCAPFFBHHGC; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GRASSPREVIEWER_CTOR_OFFSET))(this);
@@ -39,9 +39,9 @@ namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GRASSPREVIEWER_EXECUTE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Register(::System::Action* a1)
+		::System::Void Register(::System::Action_1<::UnityEngine::Rendering::CommandBuffer*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GRASSPREVIEWER_REGISTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Rendering::CommandBuffer*>*))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GRASSPREVIEWER_REGISTER_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class CharacterAtlasFace; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define EOOAMCPDPCE_LDAFJHHLMNP_CTOR_OFFSET UNITYSDK_OFFSET(0x155CB8E0)
@@ -14,7 +14,7 @@ inline static constexpr unsigned int EOOAMCPDPCE_LDAFJHHLMNP_TypeDefinitionIndex
 	public:
 		::RPG::Client::CharacterAtlasFace* KCKBEDBOFPN; // 0x10
 		::System::String* NAJMIHJAHIM; // 0x18
-		::System::Nullable* LIOLHKEJBMA; // 0x20
+		::System::Nullable_1<::System::Int32> LIOLHKEJBMA; // 0x20
 		::System::Int32 CPHCMPEPGFF; // 0x28
 		::System::Void _ctor()
 		{

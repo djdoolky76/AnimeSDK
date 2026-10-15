@@ -6,6 +6,7 @@
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/NPCStatus.h"
 #include "unitysdk/RPG/GameCore/PauseAlertValueDecreaseReason.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/Client/TextID.h"
@@ -21,7 +22,6 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class NPCDataRow; }
 namespace RPG::GameCore { class NPCMonsterDataRow; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -168,7 +168,7 @@ namespace RPG::GameCore
 		::System::Single _UseMazeSkillTimer_k__BackingField; // 0x8C
 		::System::Single _AttackCDTimer_k__BackingField; // 0x90
 		::System::Single _CurrentTeamCombatPower; // 0x94
-		::System::Nullable* CustomWorldLevel; // 0x98
+		::System::Nullable_1<::System::UInt32> CustomWorldLevel; // 0x98
 		::System::UInt32 _StageID_k__BackingField; // 0xA0
 		::System::Byte _padding1[0x4];
 		::System::UInt64 _LastGuardMaxTime_k__BackingField; // 0xA8

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::PetDiy
 {
@@ -11,9 +11,9 @@ namespace RPG::Client::PetDiy
 	class ParkPetDiyController___O : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__0___ForceSampleFirstFrame()
+		static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet__0___ForceSampleFirstFrame()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.PetDiy", "<>O")->GetStaticField(0x161F0);
+			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>O")->GetStaticField(0x161F0);
 		}
 
 	};

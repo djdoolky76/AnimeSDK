@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class NAOPMDAAGHL;
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Transform; }
 
 #define NAOPMDAAGHL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAB77B0)
@@ -22,39 +22,39 @@ inline static constexpr unsigned int NAOPMDAAGHL___c_TypeDefinitionIndex = 77262
 	class NAOPMDAAGHL___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__32_0()
+		static ::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>** StaticGet___9__32_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C470);
+			return (::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C470);
 		}
 
-		static ::System::Action** StaticGet___9__12_0()
+		static ::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>** StaticGet___9__12_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C478);
+			return (::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C478);
 		}
 
-		static ::System::Action** StaticGet___9__24_0()
+		static ::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>** StaticGet___9__24_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C480);
+			return (::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C480);
 		}
 
-		static ::System::Action** StaticGet___9__11_0()
+		static ::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>** StaticGet___9__11_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C488);
+			return (::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C488);
 		}
 
-		static ::System::Action** StaticGet___9__18_0()
+		static ::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>** StaticGet___9__18_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C490);
+			return (::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C490);
 		}
 
-		static ::System::Action** StaticGet___9__17_0()
+		static ::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>** StaticGet___9__17_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C498);
+			return (::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C498);
 		}
 
-		static ::System::Action** StaticGet___9__34_0()
+		static ::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>** StaticGet___9__34_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C4A0);
+			return (::System::Action_3<::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C4A0);
 		}
 
 		static ::System::Object** StaticGet___9()

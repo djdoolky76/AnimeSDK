@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -11,6 +11,6 @@ namespace Cysharp::Threading::Tasks
 	class Progress_AnonymousProgress_1 : public ::System::Object
 	{
 	public:
-		::System::Action* action; // 0x0
+		::System::Action_1<T>* action; // 0x0
 	};
 }

@@ -4,9 +4,9 @@
 class HEPHIKELLEA;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class OptionalReward; }
@@ -36,14 +36,14 @@ inline static constexpr unsigned int HEPHIKELLEA_TypeDefinitionIndex = 26555;
 	public:
 		::Google::Protobuf::Collections::RepeatedField_1<::Proto::OptionalReward*>* BKOMHPBNKPD; // 0x10
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::HEPHIKELLEA*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "HEPHIKELLEA")->GetStaticField(0x336B0);
+			return (::Google::Protobuf::MessageParser_1<::HEPHIKELLEA*>**)UnitySDK::FromName("", "HEPHIKELLEA")->GetStaticField(0x336B0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_CIBEFBPGOCA()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::OptionalReward*>** StaticGet_CIBEFBPGOCA()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "HEPHIKELLEA")->GetStaticField(0x336B8);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::OptionalReward*>**)UnitySDK::FromName("", "HEPHIKELLEA")->GetStaticField(0x336B8);
 		}
 
 		// static const ::System::Object AGGCHJFEBPC; // 0x0
@@ -62,9 +62,9 @@ inline static constexpr unsigned int HEPHIKELLEA_TypeDefinitionIndex = 26555;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HEPHIKELLEA_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::HEPHIKELLEA*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + HEPHIKELLEA_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::HEPHIKELLEA*>*(*)())((::PBYTE)hIl2Cpp + HEPHIKELLEA_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

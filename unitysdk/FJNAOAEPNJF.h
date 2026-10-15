@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/CHMCAGBDPJH.h"
+#include "unitysdk/System/Nullable_1.h"
 class FJNAOAEPNJF;
 class FJNAOAEPNJF_JCKKNDFIFLM;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
@@ -128,9 +128,9 @@ inline static constexpr unsigned int FJNAOAEPNJF_TypeDefinitionIndex = 57719;
 			return ((::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_OADCDMLGLJM_OFFSET))(this, a1);
 		}
 
-		::System::Void KGBHJFAEHII(::CHMCAGBDPJH a1, ::RPG::GameCore::GameEntity* a2, ::System::Nullable* a3)
+		::System::Void KGBHJFAEHII(::CHMCAGBDPJH a1, ::RPG::GameCore::GameEntity* a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::CHMCAGBDPJH, ::RPG::GameCore::GameEntity*, ::System::Nullable*))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_KGBHJFAEHII_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::CHMCAGBDPJH, ::RPG::GameCore::GameEntity*, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_KGBHJFAEHII_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean NJGOCAKHFDA(::RPG::GameCore::GameEntity* a1)

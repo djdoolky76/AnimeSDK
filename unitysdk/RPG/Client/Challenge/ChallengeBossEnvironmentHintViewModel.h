@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Challenge/ChallengeEnvironmentHintViewModelBase.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class ChallengeBossInstance; }
 namespace RPG::Client { class MonsterData; }
 namespace RPG::Client { class MonsterGuideData; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC93E4F0)
 #define RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_BOSSMONSTERDATA_OFFSET UNITYSDK_OFFSET(0xC93E4D0)
@@ -22,7 +22,7 @@ namespace RPG::Client::Challenge
 		::RPG::Client::MonsterGuideData* _BossMonsterGuideData_k__BackingField; // 0x18
 		::RPG::Client::MonsterData* _BossMonsterData_k__BackingField; // 0x20
 		::System::Int32 _CurrentStageNumber_k__BackingField; // 0x28
-		::System::Nullable* _CurrentStageBuffID_k__BackingField; // 0x2C
+		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x2C
 		::System::Void _ctor(::RPG::Client::ChallengeBossInstance* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeBossInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_CTOR_OFFSET))(this, a1);
@@ -33,9 +33,9 @@ namespace RPG::Client::Challenge
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGENUMBER_OFFSET))(this);
 		}
 
-		::System::Nullable* get_CurrentStageBuffID()
+		::System::Nullable_1<::System::UInt32> get_CurrentStageBuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
 		}
 
 		::RPG::Client::MonsterData* get_BossMonsterData()

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class GCMNECJNLBL_EDOKBCEFKNO;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -43,9 +43,9 @@ inline static constexpr unsigned int GCMNECJNLBL_JPIJLDPPJBF_TypeDefinitionIndex
 			return ((::GCMNECJNLBL_EDOKBCEFKNO*(*)())((::PBYTE)hIl2Cpp + GCMNECJNLBL_JPIJLDPPJBF_HKEPJLDBGIG_OFFSET))();
 		}
 
-		static ::System::Int32 EGKNKHEANAN(::System::Action* a1)
+		static ::System::Int32 EGKNKHEANAN(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Int32(*)(::System::Action*))((::PBYTE)hIl2Cpp + GCMNECJNLBL_JPIJLDPPJBF_EGKNKHEANAN_OFFSET))(a1);
+			return ((::System::Int32(*)(::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + GCMNECJNLBL_JPIJLDPPJBF_EGKNKHEANAN_OFFSET))(a1);
 		}
 
 		static ::System::Void KAOLPGACCID(::System::Int32 a1)

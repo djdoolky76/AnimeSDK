@@ -4,9 +4,9 @@
 namespace MiHoYo::SDK { class AccountPlatformPlugin; }
 namespace MiHoYo::SDK { class AccountPlatformPlugin_MessageHandler; }
 namespace MiHoYo::SDK { class AccountPlatformPlugin_Notification; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC29B50)
@@ -70,9 +70,9 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ISPLUGINREGISTERED_OFFSET))();
 		}
 
-		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_INVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ConfigSyncWithNative(::System::String* a1, ::System::String* a2)

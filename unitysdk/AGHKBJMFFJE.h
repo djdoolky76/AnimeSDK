@@ -12,8 +12,8 @@ class GAHPNAEGACM;
 class GEDMHFPPBHN;
 class MADHNHEMBOJ;
 namespace RPG::Client { class UIDynamicEffect; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
@@ -50,7 +50,7 @@ inline static constexpr unsigned int AGHKBJMFFJE_TypeDefinitionIndex = 71276;
 		::UnityEngine::Animation* EGLLKGDOIEP; // 0x98
 		::BNCEIPFBBGM* CGLMAOHLOJD; // 0xA0
 		::UnityEngine::Transform* FKDLOPMDHLO; // 0xA8
-		::System::Action* ONHFOPOHPAP; // 0xB0
+		::System::Action_1<::System::String*>* ONHFOPOHPAP; // 0xB0
 		::System::Boolean IDBHEIBEGBA; // 0xB8
 		::System::Byte _padding0[0x3];
 		::RPG::Client::ActionBarItemUIStyle IACCEDNBPJL; // 0xBC

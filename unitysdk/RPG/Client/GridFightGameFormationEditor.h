@@ -14,9 +14,9 @@ namespace RPG::Client { class GridFightGameFormationEditor_EquipDressRule; }
 namespace RPG::Client { class GridFightGameFormationEditor_Filter; }
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightRoleConfig; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ADDBASICRECOMMENDEQUIP_OFFSET UNITYSDK_OFFSET(0xD14F4D0)
@@ -85,7 +85,7 @@ namespace RPG::Client
 		::RPG::Client::GridFightFormationTeam* _EarlyTeam_k__BackingField; // 0x10
 		::RPG::Client::GridFightFormationTeam* _MidTeam_k__BackingField; // 0x18
 		::RPG::Client::GridFightFormationTeam* _FinalTeam_k__BackingField; // 0x20
-		::System::Action* OnEdit; // 0x28
+		::System::Action_1<::System::Object*>* OnEdit; // 0x28
 		::RPG::Client::GridFightGameFormation* _Formation; // 0x30
 		::RPG::Client::GridFightGameFormationEditor_EditorType CurEditorType; // 0x38
 		static ::RPG::Client::GridFightGameFormationEditor_EditEvent** StaticGet__EditEvent()
@@ -153,9 +153,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFormationTeam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_SET_EARLYTEAM_OFFSET))(this, a1);
 		}
 
-		::System::Void AddEditCallback(::System::Action* a1)
+		::System::Void AddEditCallback(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ADDEDITCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_ADDEDITCALLBACK_OFFSET))(this, a1);
 		}
 
 		::BLOHPFEHNPK* get__CurEditFormation()

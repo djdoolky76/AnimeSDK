@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class RogueAreaData; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class Action; }
@@ -50,9 +50,9 @@ namespace RPG::Client
 	class RogueUtils : public ::System::Object
 	{
 	public:
-		static ::System::ValueTuple GetRogueHallEntranceID()
+		static ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> GetRogueHallEntranceID()
 		{
-			return ((::System::ValueTuple(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEUTILS_GETROGUEHALLENTRANCEID_OFFSET))();
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEUTILS_GETROGUEHALLENTRANCEID_OFFSET))();
 		}
 
 		static ::System::UInt32 GetRogueEntranceFloorID()

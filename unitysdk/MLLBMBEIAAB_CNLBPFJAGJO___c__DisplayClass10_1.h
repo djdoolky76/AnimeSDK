@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
@@ -18,7 +18,7 @@ inline static constexpr unsigned int MLLBMBEIAAB_CNLBPFJAGJO___c__DisplayClass10
 	{
 	public:
 		::System::Object* CS___8__locals1; // 0x10
-		::System::Collections::Generic::KeyValuePair* item; // 0x18
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>*> item; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLLBMBEIAAB_CNLBPFJAGJO___C__DISPLAYCLASS10_1_CTOR_OFFSET))(this);

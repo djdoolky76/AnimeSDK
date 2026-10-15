@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class ReactivateAccount; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_REACTIVATEACCOUNT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDDBDD0)
 #define MIHOYO_SDK_WIN_REACTIVATEACCOUNT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDBE10)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::Win
 	class ReactivateAccount___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__12_0()
+		static ::System::Action_1<::MiHoYo::SDK::Win::ReactivateAccount*>** StaticGet___9__12_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23930);
+			return (::System::Action_1<::MiHoYo::SDK::Win::ReactivateAccount*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23930);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -14,6 +14,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class Application_AdvertisingIdentifierCallback; }
 namespace UnityEngine { class Application_LogCallback; }
@@ -165,9 +166,9 @@ namespace UnityEngine
 	class Application : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_deepLinkActivated()
+		static ::System::Action_1<::System::String*>** StaticGet_deepLinkActivated()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine", "Application")->GetStaticField(0xE6E0);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("UnityEngine", "Application")->GetStaticField(0xE6E0);
 		}
 
 		static ::UnityEngine::Application_LogCallback** StaticGet_s_RegisterLogCallbackDeprecated()
@@ -205,9 +206,9 @@ namespace UnityEngine
 			return (::UnityEngine::Application_LogCallback**)UnitySDK::FromName("UnityEngine", "Application")->GetStaticField(0xE718);
 		}
 
-		static ::System::Action** StaticGet_focusChanged()
+		static ::System::Action_1<::System::Boolean>** StaticGet_focusChanged()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine", "Application")->GetStaticField(0xE720);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("UnityEngine", "Application")->GetStaticField(0xE720);
 		}
 
 		::System::Void _ctor()
@@ -715,24 +716,24 @@ namespace UnityEngine
 			return ((::System::Void(*)(::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_REMOVE_ONBEFORERENDER_OFFSET))(a1);
 		}
 
-		static ::System::Void add_focusChanged(::System::Action* a1)
+		static ::System::Void add_focusChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_ADD_FOCUSCHANGED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_ADD_FOCUSCHANGED_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_focusChanged(::System::Action* a1)
+		static ::System::Void remove_focusChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_REMOVE_FOCUSCHANGED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_REMOVE_FOCUSCHANGED_OFFSET))(a1);
 		}
 
-		static ::System::Void add_deepLinkActivated(::System::Action* a1)
+		static ::System::Void add_deepLinkActivated(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_ADD_DEEPLINKACTIVATED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_ADD_DEEPLINKACTIVATED_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_deepLinkActivated(::System::Action* a1)
+		static ::System::Void remove_deepLinkActivated(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_REMOVE_DEEPLINKACTIVATED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_REMOVE_DEEPLINKACTIVATED_OFFSET))(a1);
 		}
 
 		static ::System::Void add_wantsToQuit(::System::Func_1<::System::Boolean>* a1)

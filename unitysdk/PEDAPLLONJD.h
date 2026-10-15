@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 #include "unitysdk/RPG/GameCore/EAdventureNavigationAccuratelyMode.h"
 #include "unitysdk/RPG/GameCore/ECharacterNavSteerMode.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -11,7 +12,6 @@ class HGGEFBBMHCK;
 class NFGIHNCHEDO;
 class PCFGFOGMLNN;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
@@ -41,7 +41,7 @@ inline static constexpr unsigned int PEDAPLLONJD_TypeDefinitionIndex = 57117;
 		::System::Single HEPLJFJLFKJ; // 0x54
 		::System::Single MPIFJNFLAKC; // 0x58
 		::System::Int32 NDBBGADNKLC; // 0x5C
-		::System::Nullable* EHCJEIINCOO; // 0x60
+		::System::Nullable_1<::RPG::GameCore::ECharacterNavSteerMode> EHCJEIINCOO; // 0x60
 		::System::Boolean LPGNBEECDJJ; // 0x68
 		::System::Boolean DMPMPFFHDJE; // 0x69
 		::System::Boolean NEPIENADMBM; // 0x6A

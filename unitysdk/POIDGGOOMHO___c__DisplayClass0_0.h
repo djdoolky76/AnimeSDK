@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 class POIDGGOOMHO;
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define POIDGGOOMHO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC3686B0)
 #define POIDGGOOMHO___C__DISPLAYCLASS0_0___APPLYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC36B6C0)
@@ -15,7 +15,7 @@ inline static constexpr unsigned int POIDGGOOMHO___c__DisplayClass0_0_TypeDefini
 	{
 	public:
 		::POIDGGOOMHO* __4__this; // 0x10
-		::System::Action* __9__0; // 0x18
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__0; // 0x18
 		::System::Int32 generation; // 0x20
 		::System::Void _ctor()
 		{

@@ -13,8 +13,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatBattleAvatarInfo; }
 namespace RPG::Client::DiceCombat { class DiceCombatBattleDiceDisplayInfo; }
 namespace RPG::Client::DiceCombat { class DiceCombatBattlePlayerInfo; }
 namespace RPG::Client::DiceCombat { class DiceCombatUpgradeLoadModelRequest; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -122,9 +122,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_GETDICELIST_OFFSET))(this);
 		}
 
-		::System::Void SetDiceSelectedChangedCallback(::System::Action* a1)
+		::System::Void SetDiceSelectedChangedCallback(::System::Action_3<::System::Int32, ::System::Int32, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SETDICESELECTEDCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::Int32, ::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO_SETDICESELECTEDCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetSelectedDiceCount()

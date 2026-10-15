@@ -64,8 +64,9 @@ class OHBJDOAIHCJ;
 class OOPHNEEDOII;
 class PCGMFMENNKG;
 class PMMIGNNAIJB;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define GGDIMKDOIGA_CEEIMKNFBOM_OFFSET UNITYSDK_OFFSET(0x1C63CBC0)
 #define GGDIMKDOIGA_CLNOMPEGNOI_OFFSET UNITYSDK_OFFSET(0x1C63C780)
@@ -100,7 +101,7 @@ inline static constexpr unsigned int GGDIMKDOIGA_TypeDefinitionIndex = 36263;
 		::OCCPALAMBCE* ADPOECBGOPA; // 0x1B8
 		::EOJPHAFGCJH* EGMLHPGCCDC; // 0x1C0
 		::CHEDCMLOABO* NFPIMFCCFJN; // 0x1C8
-		::System::Action* BCIBALGPDKD; // 0x1D0
+		::System::Action_1<::System::UInt32>* BCIBALGPDKD; // 0x1D0
 		::HENHIIJNLCK* IOFJGKGFJNG; // 0x1D8
 		::NEBEDFNOACB* KJPPMIJBBND; // 0x1E0
 		::OHBJDOAIHCJ* GILGJIMBAKI; // 0x1E8
@@ -122,7 +123,7 @@ inline static constexpr unsigned int GGDIMKDOIGA_TypeDefinitionIndex = 36263;
 		::LIENBCAHFMA* KKCLEHMNIEL; // 0x268
 		::PCGMFMENNKG* ACMKMDJFMCA; // 0x270
 		::GIEIJAFAGED* KAHOAJOJHPF; // 0x278
-		::System::Action* DGFOPLJGLCB; // 0x280
+		::System::Action_1<::System::Boolean>* DGFOPLJGLCB; // 0x280
 		::HGHLFMKMOGO* BAMPHJBNNJB; // 0x288
 		::AHPFGCEGBEA* IFMIPHPNJEF; // 0x290
 		::NPHBGGCPGFP* LDAIHPGHJJK; // 0x298
@@ -134,10 +135,10 @@ inline static constexpr unsigned int GGDIMKDOIGA_TypeDefinitionIndex = 36263;
 		::NMFEEPCABMD* FOEBGNJJJIJ; // 0x2C8
 		::FFBJIOJPKIL* HMIIONHBMMH; // 0x2D0
 		::IFDOEIJDOLE* IKFAHJJBDMJ; // 0x2D8
-		::System::Action* KKJIJMICFIC; // 0x2E0
+		::System::Action_2<::System::UInt32, ::System::UInt32>* KKJIJMICFIC; // 0x2E0
 		::AIMNKMEFBKE* BKIFMPHBIAK; // 0x2E8
 		::GALGFJINLCK* JIDIFEMPAHF; // 0x2F0
-		::System::Action* MDMIBKOILAB; // 0x2F8
+		::System::Action_1<::RPG::Client::TextID>* MDMIBKOILAB; // 0x2F8
 		::MFHHMDEBAGJ* KPENPBOOGIJ; // 0x300
 		::HCOEAHMLMEK* JCELJCKBJPO; // 0x308
 		::OCNOKDDAMMM* HOFKFKFFKHH; // 0x310

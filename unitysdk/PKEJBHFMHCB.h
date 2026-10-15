@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MHALMEEDBAO.h"
+#include "unitysdk/System/Nullable_1.h"
 class HBLDGJCDJPF;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -20,20 +20,20 @@ inline static constexpr unsigned int PKEJBHFMHCB_TypeDefinitionIndex = 77618;
 	public:
 		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* JKLAOBHMFHN; // 0x10
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::HBLDGJCDJPF*>*>* PEDAMHCDJGF; // 0x18
-		::System::Nullable* _RepeatCount_k__BackingField; // 0x20
+		::System::Nullable_1<::System::Int32> _RepeatCount_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PKEJBHFMHCB_CTOR_OFFSET))(this);
 		}
 
-		::System::Nullable* get_RepeatCount()
+		::System::Nullable_1<::System::Int32> get_RepeatCount()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + PKEJBHFMHCB_GET_REPEATCOUNT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + PKEJBHFMHCB_GET_REPEATCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_RepeatCount(::System::Nullable* a1)
+		::System::Void set_RepeatCount(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + PKEJBHFMHCB_SET_REPEATCOUNT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + PKEJBHFMHCB_SET_REPEATCOUNT_OFFSET))(this, a1);
 		}
 
 		::System::Void DLPJABADHDE(::HBLDGJCDJPF* a1)

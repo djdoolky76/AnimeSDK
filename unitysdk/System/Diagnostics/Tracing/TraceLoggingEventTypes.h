@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Diagnostics/Tracing/ConcurrentSet_2.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventKeywords.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventTags.h"
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Diagnostics::Tracing { class NameInfo; }
 namespace System::Diagnostics::Tracing { class TraceLoggingTypeInfo; }
 namespace System::Reflection { class ParameterInfo; }
@@ -27,7 +27,7 @@ namespace System::Diagnostics::Tracing
 	class TraceLoggingEventTypes : public ::System::Object
 	{
 	public:
-		::System::Diagnostics::Tracing::ConcurrentSet_2<::System::Collections::Generic::KeyValuePair*, ::System::Diagnostics::Tracing::NameInfo*> nameInfos; // 0x10
+		::System::Diagnostics::Tracing::ConcurrentSet_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Diagnostics::Tracing::EventTags>, ::System::Diagnostics::Tracing::NameInfo*> nameInfos; // 0x10
 		::System::String* name; // 0x18
 		::Il2CppArray<::System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* typeInfos; // 0x20
 		::Il2CppArray<::System::Byte>* typeMetadata; // 0x28

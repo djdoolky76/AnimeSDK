@@ -5,8 +5,8 @@ class FMPCODLIOLG;
 class HOEAOFLACCM;
 class KPGLFOJHJAD;
 class LHHCPMMADKG;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define DPFJHBECPGA_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x11FFC470)
 #define DPFJHBECPGA_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x11FFC590)
@@ -23,15 +23,15 @@ inline static constexpr unsigned int DPFJHBECPGA_TypeDefinitionIndex = 71842;
 	{
 	public:
 		::KPGLFOJHJAD* GOGLDOBLLAI; // 0x60
-		::System::Action* BJENMMLEOEC; // 0x68
+		::System::Action_1<::FMPCODLIOLG*>* BJENMMLEOEC; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DPFJHBECPGA_CTOR_OFFSET))(this);
 		}
 
-		::System::Void PLLAAIFHBLG(::System::Action* a1)
+		::System::Void PLLAAIFHBLG(::System::Action_1<::FMPCODLIOLG*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + DPFJHBECPGA_PLLAAIFHBLG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FMPCODLIOLG*>*))((::PBYTE)hIl2Cpp + DPFJHBECPGA_PLLAAIFHBLG_OFFSET))(this, a1);
 		}
 
 		::System::Void DEJBMGIHBLD(::HOEAOFLACCM* a1)

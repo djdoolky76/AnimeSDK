@@ -7,10 +7,10 @@ class OPPEGLOCAGH;
 namespace RPG::Client::MechCraft::ViewModel { class IMechCraftDiyMechatronColorItemViewModel; }
 namespace RPG::Client::MechCraft::ViewModel { class IMechCraftDiyMechatronEffectItemViewModel; }
 namespace RPG::Client::MechCraft::ViewModel { class IMechCraftDiyMechatronPoseItemViewModel; }
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD67CCE0)
 #define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEDITVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD67CD20)
@@ -26,9 +26,9 @@ namespace RPG::Client::MechCraft::ViewModel
 	class MechCraftDiyMechatronEditViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__84_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__84_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x56850);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.MechCraft.ViewModel", "<>c")->GetStaticField(0x56850);
 		}
 
 		static ::System::Object** StaticGet___9()

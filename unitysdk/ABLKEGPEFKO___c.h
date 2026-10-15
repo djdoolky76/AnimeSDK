@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class SubMissionData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define ABLKEGPEFKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB107920)
 #define ABLKEGPEFKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB107960)
@@ -14,9 +14,9 @@ inline static constexpr unsigned int ABLKEGPEFKO___c_TypeDefinitionIndex = 80177
 	class ABLKEGPEFKO___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__4_0()
+		static ::System::Action_1<::RPG::Client::SubMissionData*>** StaticGet___9__4_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43260);
+			return (::System::Action_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43260);
 		}
 
 		static ::System::Object** StaticGet___9()

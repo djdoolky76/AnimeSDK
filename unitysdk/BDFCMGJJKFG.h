@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class KMMMFMMGLAN;
 class LMFOOOLDECA;
 class OMNJCDDMLHI;
@@ -52,9 +52,9 @@ inline static constexpr unsigned int BDFCMGJJKFG_TypeDefinitionIndex = 77956;
 			return ((::KMMMFMMGLAN*(*)(::PVOID, ::OMNJCDDMLHI*))((::PBYTE)hIl2Cpp + BDFCMGJJKFG_PBDNAIDEIPK_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple GAOEIPBONJA(::OMNJCDDMLHI* a1)
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> GAOEIPBONJA(::OMNJCDDMLHI* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::OMNJCDDMLHI*))((::PBYTE)hIl2Cpp + BDFCMGJJKFG_GAOEIPBONJA_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::OMNJCDDMLHI*))((::PBYTE)hIl2Cpp + BDFCMGJJKFG_GAOEIPBONJA_OFFSET))(this, a1);
 		}
 
 		::System::Void EHBKEOLJINK(::OMNJCDDMLHI* a1, ::LMFOOOLDECA* a2)

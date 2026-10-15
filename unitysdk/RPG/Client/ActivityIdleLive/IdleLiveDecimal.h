@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Numerics/BigInteger.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -347,9 +348,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDECIMAL_TOSTRINGWITHSIGN_OFFSET))(this);
 		}
 
-		::System::ValueTuple ToDisplayData()
+		::System::ValueTuple_2<::System::String*, ::System::String*> ToDisplayData()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDECIMAL_TODISPLAYDATA_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDECIMAL_TODISPLAYDATA_OFFSET))(this);
 		}
 
 		::System::String* FormatWithDecimal(::System::String* a1, ::System::String* a2)
@@ -357,9 +358,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDECIMAL_FORMATWITHDECIMAL_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple _ToDisplayDataRaw(::System::Int32 a1, ::System::Nullable* a2)
+		::System::ValueTuple_3<::System::String*, ::System::String*, ::System::String*> _ToDisplayDataRaw(::System::Int32 a1, ::System::Nullable_1<::System::Numerics::BigInteger> a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDECIMAL__TODISPLAYDATARAW_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_3<::System::String*, ::System::String*, ::System::String*>(*)(::PVOID, ::System::Int32, ::System::Nullable_1<::System::Numerics::BigInteger>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDECIMAL__TODISPLAYDATARAW_OFFSET))(this, a1, a2);
 		}
 
 	};

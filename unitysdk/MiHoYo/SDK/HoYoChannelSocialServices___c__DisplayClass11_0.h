@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelBlockListResult; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF9D6B0)
 #define MIHOYO_SDK_HOYOCHANNELSOCIALSERVICES___C__DISPLAYCLASS11_0__ONBLOCKLISTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xAF9E3C0)
@@ -15,7 +15,7 @@ namespace MiHoYo::SDK
 	class HoYoChannelSocialServices___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelBlockListResult*>* callback; // 0x10
 		::System::String* jsonResponse; // 0x18
 		::System::Int32 resultCode; // 0x20
 		::System::Void _ctor()

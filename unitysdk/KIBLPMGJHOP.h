@@ -5,7 +5,7 @@
 class AFEPOFEOCDI;
 class OCPOIDCNJDA;
 class OMPCEECHGJK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class PingPongProjectileGroup; }
 
 #define KIBLPMGJHOP_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0xB4188D0)
@@ -21,7 +21,7 @@ inline static constexpr unsigned int KIBLPMGJHOP_TypeDefinitionIndex = 76669;
 	{
 	public:
 		::OMPCEECHGJK* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* DBENPOFGKOE; // 0x18
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* DBENPOFGKOE; // 0x18
 		::AFEPOFEOCDI* FKINCGODJEP; // 0x20
 		::System::Void _ctor(::AFEPOFEOCDI* a1, ::OMPCEECHGJK* a2)
 		{

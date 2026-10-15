@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 class DLGOFLDEIOF;
 class GGJFAFONDHN;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define AEKEIBNBMDJ_ALMCANHDPNJ_OFFSET UNITYSDK_OFFSET(0xCEFFF10)
@@ -43,13 +43,13 @@ inline static constexpr unsigned int AEKEIBNBMDJ_TypeDefinitionIndex = 49461;
 	class AEKEIBNBMDJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Action*>* EMEOLBBNHEP; // 0x10
+		::System::Collections::Generic::List_1<::System::Action_1<::GGJFAFONDHN*>*>* EMEOLBBNHEP; // 0x10
 		::GGJFAFONDHN* FHCGLKEADNI; // 0x18
 		::DLGOFLDEIOF* MOAKHOBMJIB; // 0x20
 		::System::String* _InternalName_k__BackingField; // 0x28
 		::System::String* JPLOJOOKFCL; // 0x30
-		::System::Collections::Generic::List_1<::System::Action*>* BMCNGMBECOK; // 0x38
-		::System::Collections::Generic::List_1<::System::Action*>* FDIFOBIAFJG; // 0x40
+		::System::Collections::Generic::List_1<::System::Action_1<::GGJFAFONDHN*>*>* BMCNGMBECOK; // 0x38
+		::System::Collections::Generic::List_1<::System::Action_1<::GGJFAFONDHN*>*>* FDIFOBIAFJG; // 0x40
 		::System::Int32 LFDIFAAKEBC; // 0x48
 		::System::Int32 IPLHHCFFPKJ; // 0x4C
 		::System::Int32 AOGPFJLBDIN; // 0x50
@@ -153,39 +153,39 @@ inline static constexpr unsigned int AEKEIBNBMDJ_TypeDefinitionIndex = 49461;
 			return ((::System::Void(*)(::PVOID, ::GGJFAFONDHN*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_CJEHHCHNIIB_OFFSET))(this, a1);
 		}
 
-		::System::Void BEEDJONJPLJ(::System::Action* a1)
+		::System::Void BEEDJONJPLJ(::System::Action_1<::GGJFAFONDHN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_BEEDJONJPLJ_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_BEEDJONJPLJ_OFFSET))(this, a1);
 		}
 
-		::System::Void BELEEHPDLDM(::System::Action* a1)
+		::System::Void BELEEHPDLDM(::System::Action_1<::GGJFAFONDHN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_BELEEHPDLDM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_BELEEHPDLDM_OFFSET))(this, a1);
 		}
 
-		::System::Void PCJELFEDKON(::System::Action* a1)
+		::System::Void PCJELFEDKON(::System::Action_1<::GGJFAFONDHN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_PCJELFEDKON_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_PCJELFEDKON_OFFSET))(this, a1);
 		}
 
-		::System::Void CCPINOPDJPB(::System::Action* a1)
+		::System::Void CCPINOPDJPB(::System::Action_1<::GGJFAFONDHN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_CCPINOPDJPB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_CCPINOPDJPB_OFFSET))(this, a1);
 		}
 
-		::System::Void PMDBFHMCPMA(::System::Action* a1)
+		::System::Void PMDBFHMCPMA(::System::Action_1<::GGJFAFONDHN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_PMDBFHMCPMA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_PMDBFHMCPMA_OFFSET))(this, a1);
 		}
 
-		::System::Void PHAFFAFLCHP(::System::Action* a1)
+		::System::Void PHAFFAFLCHP(::System::Action_1<::GGJFAFONDHN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_PHAFFAFLCHP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_PHAFFAFLCHP_OFFSET))(this, a1);
 		}
 
-		::System::Void BEDDHHNHKNG(::System::Action* a1, ::System::Action* a2)
+		::System::Void BEDDHHNHKNG(::System::Action_1<::GGJFAFONDHN*>* a1, ::System::Action_1<::GGJFAFONDHN*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_BEDDHHNHKNG_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GGJFAFONDHN*>*, ::System::Action_1<::GGJFAFONDHN*>*))((::PBYTE)hIl2Cpp + AEKEIBNBMDJ_BEDDHHNHKNG_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LCHKIGDDLKL(::GGJFAFONDHN* a1)

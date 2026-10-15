@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BOMFGKDLHIB;
 class FDPALAEIHPB;
 
@@ -33,9 +33,9 @@ inline static constexpr unsigned int CAMJEEDLLJP_TypeDefinitionIndex = 42309;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAMJEEDLLJP_CPPKCJJBLIB_OFFSET))(this);
 		}
 
-		::System::Boolean KINJMINKEEI(::System::ValueTuple a1, ::System::UInt32 a2)
+		::System::Boolean KINJMINKEEI(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::UInt32))((::PBYTE)hIl2Cpp + CAMJEEDLLJP_KINJMINKEEI_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32))((::PBYTE)hIl2Cpp + CAMJEEDLLJP_KINJMINKEEI_OFFSET))(this, a1, a2);
 		}
 
 	};

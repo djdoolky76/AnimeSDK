@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class GJLJLLKPEJH;
 class HIOEAKHGILF;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
 #define GJLJLLKPEJH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A6F250)
@@ -19,9 +19,9 @@ inline static constexpr unsigned int GJLJLLKPEJH___c_TypeDefinitionIndex = 77157
 	class GJLJLLKPEJH___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__20_0()
+		static ::System::Action_3<::GJLJLLKPEJH*, ::System::Int32, ::System::String*>** StaticGet___9__20_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x603F0);
+			return (::System::Action_3<::GJLJLLKPEJH*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x603F0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -29,14 +29,14 @@ inline static constexpr unsigned int GJLJLLKPEJH___c_TypeDefinitionIndex = 77157
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x603F8);
 		}
 
-		static ::System::Action** StaticGet___9__8_1()
+		static ::System::Action_3<::GJLJLLKPEJH*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__8_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60400);
+			return (::System::Action_3<::GJLJLLKPEJH*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60400);
 		}
 
-		static ::System::Action** StaticGet___9__8_0()
+		static ::System::Action_3<::GJLJLLKPEJH*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__8_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60408);
+			return (::System::Action_3<::GJLJLLKPEJH*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60408);
 		}
 
 		static ::System::Void _cctor()

@@ -21,6 +21,7 @@
 #include "unitysdk/PDHLJJCMEDJ.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -84,7 +85,6 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -758,9 +758,9 @@ namespace RPG::GameCore
 			return ((::KFELGAIGHAP*(*)(::RPG::Client::TransitionMode, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC_GETONENTERBATTLESEQ_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::UInt32 GetStageIDByEventID(::System::UInt32 a1, ::System::Nullable* a2)
+		static ::System::UInt32 GetStageIDByEventID(::System::UInt32 a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC_GETSTAGEIDBYEVENTID_OFFSET))(a1, a2);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESTATIC_GETSTAGEIDBYEVENTID_OFFSET))(a1, a2);
 		}
 
 		static ::System::UInt32 GetStageIDFromNPC(::RPG::GameCore::GameEntity* a1)

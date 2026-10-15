@@ -5,7 +5,7 @@
 namespace Mono::Security::Interface { class MonoTlsProvider; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MONO_NET_SECURITY_MONOTLSPROVIDERFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFCCB10)
@@ -23,9 +23,9 @@ namespace Mono::Net::Security
 	class MonoTlsProviderFactory : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple*>** StaticGet_providerRegistration()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Guid, ::System::String*>*>** StaticGet_providerRegistration()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple*>**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x376C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Guid, ::System::String*>*>**)UnitySDK::FromName("Mono.Net.Security", "MonoTlsProviderFactory")->GetStaticField(0x376C0);
 		}
 
 		static ::System::Object** StaticGet_locker()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/IDKNGJGGMOI.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client { class UIStateCtrl; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
@@ -38,7 +38,7 @@ inline static constexpr unsigned int GOCCCPDKAHN_TypeDefinitionIndex = 71727;
 	class GOCCCPDKAHN : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Nullable* DFFADPOICGE; // 0x60
+		::System::Nullable_1<::IDKNGJGGMOI> DFFADPOICGE; // 0x60
 		::System::Byte _padding0[0x20];
 		::UnityEngine::Animation* JPHOOFFIAAH; // 0x88
 		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x90
@@ -58,9 +58,9 @@ inline static constexpr unsigned int GOCCCPDKAHN_TypeDefinitionIndex = 71727;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOCCCPDKAHN_CTOR_OFFSET))(this);
 		}
 
-		::System::Nullable* LOAGOEGHNNK()
+		::System::Nullable_1<::IDKNGJGGMOI> LOAGOEGHNNK()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOCCCPDKAHN_LOAGOEGHNNK_OFFSET))(this);
+			return ((::System::Nullable_1<::IDKNGJGGMOI>(*)(::PVOID))((::PBYTE)hIl2Cpp + GOCCCPDKAHN_LOAGOEGHNNK_OFFSET))(this);
 		}
 
 		::System::Void JDFHKNNINKJ(::IDKNGJGGMOI a1)

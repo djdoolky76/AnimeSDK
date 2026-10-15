@@ -19,6 +19,7 @@ namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -77,7 +78,7 @@ inline static constexpr unsigned int FHIFNHALHPI_TypeDefinitionIndex = 37151;
 		::HNLIFKMNIKD* BJNJGBJCBFM; // 0x60
 		::System::Action* PICNHDPLOIK; // 0x68
 		::Il2CppArray<::IOJGBIAJBIC*>* IPJIJEIMJJP; // 0x70
-		::System::Action* DCLLANJEKJM; // 0x78
+		::System::Action_1<::System::Object*>* DCLLANJEKJM; // 0x78
 		::CJJJEKBLKDK* INIAICOMKHB; // 0x80
 		::System::Single _SpeedUp_k__BackingField; // 0x88
 		::System::Single _NormalYDownStep_k__BackingField; // 0x8C
@@ -141,9 +142,9 @@ inline static constexpr unsigned int FHIFNHALHPI_TypeDefinitionIndex = 37151;
 			return ((::System::Void(*)(::PVOID, ::HNLIFKMNIKD*))((::PBYTE)hIl2Cpp + FHIFNHALHPI_EGDPIDBELPD_OFFSET))(this, a1);
 		}
 
-		::System::Void FHNPJOMNHJO(::System::Action* a1)
+		::System::Void FHNPJOMNHJO(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FHIFNHALHPI_FHNPJOMNHJO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + FHIFNHALHPI_FHNPJOMNHJO_OFFSET))(this, a1);
 		}
 
 		::System::Void FAOPKIKOBPL(::System::Action* a1)

@@ -6,7 +6,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ICHIALIFCIJ.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ABCBPKFCILL;
 class AJHPHMDACGG;
 class AKAPOCMFCHC;
@@ -517,9 +517,9 @@ inline static constexpr unsigned int EMOPIJNJODH_TypeDefinitionIndex = 80828;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EMOPIJNJODH_BNLPKDGPNGJ_OFFSET))(this);
 		}
 
-		::System::ValueTuple PODPCBFDNNI()
+		::System::ValueTuple_2<::RPG::GameCore::TurnState, ::RPG::GameCore::InsertActionType> PODPCBFDNNI()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + EMOPIJNJODH_PODPCBFDNNI_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::GameCore::TurnState, ::RPG::GameCore::InsertActionType>(*)(::PVOID))((::PBYTE)hIl2Cpp + EMOPIJNJODH_PODPCBFDNNI_OFFSET))(this);
 		}
 
 		::System::Void MNLMOBLIJPI(::RPG::GameCore::TurnState a1, ::RPG::GameCore::InsertActionType a2)

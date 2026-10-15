@@ -5,9 +5,9 @@ class AAFBNNALHDK;
 class OOLJJHMLHBH;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -50,34 +50,34 @@ inline static constexpr unsigned int OOLJJHMLHBH_TypeDefinitionIndex = 33748;
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* JEEFPEFHHAL; // 0x38
 		::System::UInt32 NPLEPKBGGFO; // 0x40
 		::System::UInt32 AHFOBLNJJJP; // 0x44
-		static ::Google::Protobuf::FieldCodec** StaticGet_EOHNCKLJEJC()
+		static ::Google::Protobuf::FieldCodec_1<::AAFBNNALHDK*>** StaticGet_EOHNCKLJEJC()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F2F0);
+			return (::Google::Protobuf::FieldCodec_1<::AAFBNNALHDK*>**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F2F0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_PMBMGOFBBKE()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_PMBMGOFBBKE()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F2F8);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F2F8);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::OOLJJHMLHBH*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F300);
+			return (::Google::Protobuf::MessageParser_1<::OOLJJHMLHBH*>**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F300);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_IJPJBPPOKPM()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_IJPJBPPOKPM()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F308);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F308);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_CMHDPHCDKMF()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_CMHDPHCDKMF()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F310);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F310);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_AHHKCBGEMNC()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_AHHKCBGEMNC()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F318);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "OOLJJHMLHBH")->GetStaticField(0x2F318);
 		}
 
 		// static const ::System::Object HAFKBHIOBBO; // 0x0
@@ -102,9 +102,9 @@ inline static constexpr unsigned int OOLJJHMLHBH_TypeDefinitionIndex = 33748;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OOLJJHMLHBH_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::OOLJJHMLHBH*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + OOLJJHMLHBH_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::OOLJJHMLHBH*>*(*)())((::PBYTE)hIl2Cpp + OOLJJHMLHBH_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

@@ -4,7 +4,7 @@
 class NDKGIMLKJHA;
 namespace RPG::Client { class ActivityHotData; }
 namespace RPG::Client { class ActivityHotModule; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC449130)
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _GetActivityHotDatas_b__0(::NDKGIMLKJHA* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*>* _GetActivityHotDatas_b__0(::NDKGIMLKJHA* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::NDKGIMLKJHA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__GETACTIVITYHOTDATAS_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*>*(*)(::PVOID, ::NDKGIMLKJHA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE___C__DISPLAYCLASS4_0__GETACTIVITYHOTDATAS_B__0_OFFSET))(this, a1);
 		}
 
 	};

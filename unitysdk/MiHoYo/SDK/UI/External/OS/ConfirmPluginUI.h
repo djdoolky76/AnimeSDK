@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UI_EXTERNAL_OS_CONFIRMPLUGINUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFFB2B0)
 #define MIHOYO_SDK_UI_EXTERNAL_OS_CONFIRMPLUGINUI_GET_ONCANCELBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BFFACE0)
@@ -70,14 +71,14 @@ namespace MiHoYo::SDK::UI::External::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_CONFIRMPLUGINUI_HIDE_OFFSET))(this);
 		}
 
-		::System::Void _ShowPluginUI_b__8_0(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowPluginUI_b__8_0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_CONFIRMPLUGINUI__SHOWPLUGINUI_B__8_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_CONFIRMPLUGINUI__SHOWPLUGINUI_B__8_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowPluginUI_b__8_1(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowPluginUI_b__8_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_CONFIRMPLUGINUI__SHOWPLUGINUI_B__8_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_CONFIRMPLUGINUI__SHOWPLUGINUI_B__8_1_OFFSET))(this, a1, a2);
 		}
 
 	};

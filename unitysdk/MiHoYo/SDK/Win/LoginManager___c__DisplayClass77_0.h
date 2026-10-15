@@ -6,8 +6,8 @@ namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class LoginManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6FFA0)
 #define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__REQUESTLOGINBYAUTHTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x1BD81E00)
@@ -24,7 +24,7 @@ namespace MiHoYo::SDK::Win
 		::System::String* authTicket; // 0x18
 		::MiHoYo::SDK::JSONObject* reportBody; // 0x20
 		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x28
-		::System::Action* callback; // 0x30
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* callback; // 0x30
 		::System::String* traceId; // 0x38
 		::System::Void _ctor()
 		{

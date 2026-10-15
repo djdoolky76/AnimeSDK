@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
@@ -33,7 +33,7 @@ namespace RPG::Client
 		::System::Single _CurTime; // 0x4C
 		::System::Single _TotalTime; // 0x50
 		::System::Byte _padding2[0x4];
-		::System::Action* _OnPerformFinished; // 0x58
+		::System::Action_1<::XLua::LuaTable*>* _OnPerformFinished; // 0x58
 		::XLua::LuaTable* _Table; // 0x60
 		::System::Void _ctor()
 		{
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIFOCUSHELPER_MOVE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RegisterFinishCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void RegisterFinishCallback(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIFOCUSHELPER_REGISTERFINISHCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIFOCUSHELPER_REGISTERFINISHCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _DoMove()

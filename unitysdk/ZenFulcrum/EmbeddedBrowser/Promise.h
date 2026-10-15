@@ -5,10 +5,12 @@
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/RejectHandler.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/Promise_ResolveHandler.h"
 namespace System { class Action; }
-namespace System { class EventHandler; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -88,9 +90,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return (::System::Collections::Generic::HashSet_1<::ZenFulcrum::EmbeddedBrowser::IPromiseInfo*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "Promise")->GetStaticField(0x471E0);
 		}
 
-		static ::System::EventHandler** StaticGet_unhandlerException()
+		static ::System::EventHandler_1<::ZenFulcrum::EmbeddedBrowser::ExceptionEventArgs*>** StaticGet_unhandlerException()
 		{
-			return (::System::EventHandler**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "Promise")->GetStaticField(0x471E8);
+			return (::System::EventHandler_1<::ZenFulcrum::EmbeddedBrowser::ExceptionEventArgs*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "Promise")->GetStaticField(0x471E8);
 		}
 
 		static ::System::Boolean* StaticGet_EnablePromiseTracking()
@@ -113,19 +115,19 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Action* a1)
+		::System::Void _ctor_1(::System::Action_2<::System::Action*, ::System::Action_1<::System::Exception*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Action*, ::System::Action_1<::System::Exception*>*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_CTOR_1_OFFSET))(this, a1);
 		}
 
-		static ::System::Void add_UnhandledException(::System::EventHandler* a1)
+		static ::System::Void add_UnhandledException(::System::EventHandler_1<::ZenFulcrum::EmbeddedBrowser::ExceptionEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::System::EventHandler*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_ADD_UNHANDLEDEXCEPTION_OFFSET))(a1);
+			return ((::System::Void(*)(::System::EventHandler_1<::ZenFulcrum::EmbeddedBrowser::ExceptionEventArgs*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_ADD_UNHANDLEDEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_UnhandledException(::System::EventHandler* a1)
+		static ::System::Void remove_UnhandledException(::System::EventHandler_1<::ZenFulcrum::EmbeddedBrowser::ExceptionEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::System::EventHandler*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_REMOVE_UNHANDLEDEXCEPTION_OFFSET))(a1);
+			return ((::System::Void(*)(::System::EventHandler_1<::ZenFulcrum::EmbeddedBrowser::ExceptionEventArgs*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_REMOVE_UNHANDLEDEXCEPTION_OFFSET))(a1);
 		}
 
 		static ::System::Collections::Generic::IEnumerable_1<::ZenFulcrum::EmbeddedBrowser::IPromiseInfo*>* GetPendingPromises()
@@ -163,9 +165,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::PromiseState))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_SET_CURSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddRejectHandler(::System::Action* a1, ::ZenFulcrum::EmbeddedBrowser::IRejectable* a2)
+		::System::Void AddRejectHandler(::System::Action_1<::System::Exception*>* a1, ::ZenFulcrum::EmbeddedBrowser::IRejectable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::ZenFulcrum::EmbeddedBrowser::IRejectable*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_ADDREJECTHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Exception*>*, ::ZenFulcrum::EmbeddedBrowser::IRejectable*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_ADDREJECTHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AddResolveHandler(::System::Action* a1, ::ZenFulcrum::EmbeddedBrowser::IRejectable* a2)
@@ -173,9 +175,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID, ::System::Action*, ::ZenFulcrum::EmbeddedBrowser::IRejectable*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_ADDRESOLVEHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InvokeRejectHandler(::System::Action* a1, ::ZenFulcrum::EmbeddedBrowser::IRejectable* a2, ::System::Exception* a3)
+		::System::Void InvokeRejectHandler(::System::Action_1<::System::Exception*>* a1, ::ZenFulcrum::EmbeddedBrowser::IRejectable* a2, ::System::Exception* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::ZenFulcrum::EmbeddedBrowser::IRejectable*, ::System::Exception*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_INVOKEREJECTHANDLER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Exception*>*, ::ZenFulcrum::EmbeddedBrowser::IRejectable*, ::System::Exception*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_INVOKEREJECTHANDLER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void InvokeResolveHandler(::System::Action* a1, ::ZenFulcrum::EmbeddedBrowser::IRejectable* a2)
@@ -208,9 +210,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_RESOLVE_OFFSET))(this);
 		}
 
-		::System::Void Done(::System::Action* a1, ::System::Action* a2)
+		::System::Void Done(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_DONE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_DONE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Done_1(::System::Action* a1)
@@ -228,9 +230,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_WITHNAME_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::IPromise* Catch(::System::Action* a1)
+		::ZenFulcrum::EmbeddedBrowser::IPromise* Catch(::System::Action_1<::System::Exception*>* a1)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_CATCH_OFFSET))(this, a1);
+			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_CATCH_OFFSET))(this, a1);
 		}
 
 		::ZenFulcrum::EmbeddedBrowser::IPromise* Then_1(::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>* a1)
@@ -243,19 +245,19 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_THEN_2_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::IPromise* Then_4(::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>* a1, ::System::Action* a2)
+		::ZenFulcrum::EmbeddedBrowser::IPromise* Then_4(::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>*, ::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_THEN_4_OFFSET))(this, a1, a2);
+			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Func_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_THEN_4_OFFSET))(this, a1, a2);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::IPromise* Then_5(::System::Action* a1, ::System::Action* a2)
+		::ZenFulcrum::EmbeddedBrowser::IPromise* Then_5(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_THEN_5_OFFSET))(this, a1, a2);
+			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_THEN_5_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ActionHandlers(::ZenFulcrum::EmbeddedBrowser::IRejectable* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void ActionHandlers(::ZenFulcrum::EmbeddedBrowser::IRejectable* a1, ::System::Action* a2, ::System::Action_1<::System::Exception*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::IRejectable*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_ACTIONHANDLERS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::IRejectable*, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_PROMISE_ACTIONHANDLERS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::ZenFulcrum::EmbeddedBrowser::IPromise* ThenAll(::System::Func_1<::System::Collections::Generic::IEnumerable_1<::ZenFulcrum::EmbeddedBrowser::IPromise*>*>* a1)

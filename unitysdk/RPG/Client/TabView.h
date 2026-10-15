@@ -4,7 +4,8 @@
 class EDNECKFHLEM;
 class NJOJGMKFPFA;
 namespace RPG::Client { class DynamicPrefabLoader; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -73,11 +74,11 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _ContentRoots; // 0x28
 		::RPG::Client::DynamicPrefabLoader* _DynamicContentPrefabs; // 0x30
 		::UnityEngine::GameObject* _EmptyStateNode; // 0x38
-		::System::Action* SelectedTabPreChanging; // 0x40
-		::System::Action* SelectedTabChanged; // 0x48
-		::System::Action* LockedTabClicked; // 0x50
-		::System::Action* TabAdded; // 0x58
-		::System::Action* TabRemoved; // 0x60
+		::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>* SelectedTabPreChanging; // 0x40
+		::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>* SelectedTabChanged; // 0x48
+		::System::Action_1<::EDNECKFHLEM*>* LockedTabClicked; // 0x50
+		::System::Action_1<::EDNECKFHLEM*>* TabAdded; // 0x58
+		::System::Action_1<::EDNECKFHLEM*>* TabRemoved; // 0x60
 		::System::Collections::Generic::List_1<::EDNECKFHLEM*>* HEFOLKEGHEM; // 0x68
 		::System::Int32 LAKBMOEGNGD; // 0x70
 		::System::Int32 CLNHCPBMEEA; // 0x74
@@ -147,54 +148,54 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_GET_PREVIOUSSELECTEDTABINDEX_OFFSET))(this);
 		}
 
-		::System::Void add_SelectedTabPreChanging(::System::Action* a1)
+		::System::Void add_SelectedTabPreChanging(::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_SELECTEDTABPRECHANGING_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_SELECTEDTABPRECHANGING_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SelectedTabPreChanging(::System::Action* a1)
+		::System::Void remove_SelectedTabPreChanging(::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_SELECTEDTABPRECHANGING_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_SELECTEDTABPRECHANGING_OFFSET))(this, a1);
 		}
 
-		::System::Void add_SelectedTabChanged(::System::Action* a1)
+		::System::Void add_SelectedTabChanged(::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_SELECTEDTABCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_SELECTEDTABCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SelectedTabChanged(::System::Action* a1)
+		::System::Void remove_SelectedTabChanged(::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_SELECTEDTABCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_SELECTEDTABCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_LockedTabClicked(::System::Action* a1)
+		::System::Void add_LockedTabClicked(::System::Action_1<::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_LOCKEDTABCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_LOCKEDTABCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_LockedTabClicked(::System::Action* a1)
+		::System::Void remove_LockedTabClicked(::System::Action_1<::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_LOCKEDTABCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_LOCKEDTABCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_TabAdded(::System::Action* a1)
+		::System::Void add_TabAdded(::System::Action_1<::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_TABADDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_TABADDED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_TabAdded(::System::Action* a1)
+		::System::Void remove_TabAdded(::System::Action_1<::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_TABADDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_TABADDED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_TabRemoved(::System::Action* a1)
+		::System::Void add_TabRemoved(::System::Action_1<::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_TABREMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_ADD_TABREMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_TabRemoved(::System::Action* a1)
+		::System::Void remove_TabRemoved(::System::Action_1<::EDNECKFHLEM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_TABREMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EDNECKFHLEM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TABVIEW_REMOVE_TABREMOVED_OFFSET))(this, a1);
 		}
 
 		::System::Void Add(::EDNECKFHLEM* a1)

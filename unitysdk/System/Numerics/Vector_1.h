@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Numerics/Register.h"
-namespace System::Numerics { class Vector; }
 
 namespace System::Numerics
 {
@@ -16,19 +15,19 @@ namespace System::Numerics
 			return (::System::Int32*)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Numerics::Vector** StaticGet_s_zero()
+		static ::System::Numerics::Vector_1<T>* StaticGet_s_zero()
 		{
-			return (::System::Numerics::Vector**)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
+			return (::System::Numerics::Vector_1<T>*)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Numerics::Vector** StaticGet_s_one()
+		static ::System::Numerics::Vector_1<T>* StaticGet_s_one()
 		{
-			return (::System::Numerics::Vector**)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
+			return (::System::Numerics::Vector_1<T>*)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Numerics::Vector** StaticGet_s_allOnes()
+		static ::System::Numerics::Vector_1<T>* StaticGet_s_allOnes()
 		{
-			return (::System::Numerics::Vector**)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
+			return (::System::Numerics::Vector_1<T>*)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
 		}
 
 	};

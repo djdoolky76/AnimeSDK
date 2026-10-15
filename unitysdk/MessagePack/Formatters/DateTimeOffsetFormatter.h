@@ -5,7 +5,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 #define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB70F00)
 #define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB70C30)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class DateTimeOffsetFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::DateTimeOffset>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "DateTimeOffsetFormatter")->GetStaticField(0x24DB0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::DateTimeOffset>**)UnitySDK::FromName("MessagePack.Formatters", "DateTimeOffsetFormatter")->GetStaticField(0x24DB0);
 		}
 
 		::System::Void _ctor()

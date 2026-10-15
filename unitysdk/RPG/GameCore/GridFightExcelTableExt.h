@@ -6,6 +6,7 @@
 #include "unitysdk/RPG/GameCore/GridFightTraitEffectType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class OLDDHFANEDA;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class DynamicValue; }
@@ -14,8 +15,7 @@ namespace RPG::GameCore { class GridFightRoleConfigRow; }
 namespace RPG::GameCore { class GridFightRoleStarConfigRow; }
 namespace RPG::GameCore { class GridFightTraitLayerConfigRow; }
 namespace System { class String; }
-namespace System { class Tuple; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T1, typename T2, typename T3> class Tuple_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
@@ -86,9 +86,9 @@ namespace RPG::GameCore
 			return ((::Il2CppArray<::System::UInt32>*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEXCELTABLEEXT__GETCONSTUINTARRAY_OFFSET))(a1);
 		}
 
-		static ::System::Void _ConstMapToAbilityData(::System::String* a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* a2)
+		static ::System::Void _ConstMapToAbilityData(::System::String* a1, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEXCELTABLEEXT__CONSTMAPTOABILITYDATA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEXCELTABLEEXT__CONSTMAPTOABILITYDATA_OFFSET))(a1, a2);
 		}
 
 		static ::System::UInt32 GetEquipMergeId(::System::Collections::Generic::List_1<::System::UInt32>* a1)
@@ -96,9 +96,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEXCELTABLEEXT_GETEQUIPMERGEID_OFFSET))(a1);
 		}
 
-		static ::System::Tuple* BuildEffectiveLevelAbilityParam(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
+		static ::System::Tuple_3<::System::String*, ::Il2CppArray<::RPG::GameCore::FixPoint>*, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* BuildEffectiveLevelAbilityParam(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Tuple*(*)(::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEXCELTABLEEXT_BUILDEFFECTIVELEVELABILITYPARAM_OFFSET))(a1, a2, a3);
+			return ((::System::Tuple_3<::System::String*, ::Il2CppArray<::RPG::GameCore::FixPoint>*, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*(*)(::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEXCELTABLEEXT_BUILDEFFECTIVELEVELABILITYPARAM_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Boolean HasTraitBinding(::RPG::GameCore::GridFightRoleConfigRow* a1)

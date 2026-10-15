@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_CANRANKUP_OFFSET UNITYSDK_OFFSET(0xC470260)
@@ -39,7 +39,7 @@ namespace RPG::Client::ActivityIdleLive
 	class IdleLiveChestData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _EquipProbabilities; // 0x10
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>* _EquipProbabilities; // 0x10
 		::System::UInt32 _LevelToRankup; // 0x18
 		::System::UInt32 _MaxRank_k__BackingField; // 0x1C
 		::System::UInt32 _Level_k__BackingField; // 0x20
@@ -136,9 +136,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EXPLIMIT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* get_EquipProbabilities()
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>* get_EquipProbabilities()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EQUIPPROBABILITIES_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA_GET_EQUIPPROBABILITIES_OFFSET))(this);
 		}
 
 		::System::Void Init()

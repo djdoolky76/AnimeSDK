@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
@@ -21,7 +21,7 @@ namespace Cysharp::Threading::Tasks
 		::System::Byte _padding0[0x10];
 		::System::Runtime::CompilerServices::TaskAwaiter __u__2; // 0x28
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
-		::Cysharp::Threading::Tasks::UniTask task; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_1<::System::Threading::Tasks::Task*> task; // 0x40
 		::System::Byte _padding1[0x10];
 		::System::Int32 __1__state; // 0x58
 		::System::Void MoveNext()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FOHNAAPLNHN_NHPDEONPBOL;
 namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG::Client { class MapDef; }
@@ -45,8 +45,8 @@ inline static constexpr unsigned int FOHNAAPLNHN_TypeDefinitionIndex = 60570;
 	class FOHNAAPLNHN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::PoolHashSet_1<::System::ValueTuple>*>* POOJBCGCNBF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelLittleGameInfo*>*>* FPPBMIBEODH; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::PoolHashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*>* POOJBCGCNBF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelLittleGameInfo*>*>* FPPBMIBEODH; // 0x18
 		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Object*>* HCJHBODIKLF; // 0x20
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* NCMBOLBCPGP; // 0x28
 		::System::Collections::Generic::List_1<::System::String*>* PPODONICOHF; // 0x30

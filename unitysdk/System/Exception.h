@@ -3,12 +3,12 @@
 #include "unitysdk/System/Exception_ExceptionMessageKind.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-namespace System { class EventHandler; }
 namespace System { class Exception; }
 namespace System { class IRuntimeMethodInfo; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections { class IDictionary; }
 namespace System::Diagnostics { class StackTrace; }
 namespace System::Reflection { class MethodBase; }
@@ -206,14 +206,14 @@ namespace System
 			return ((::System::String*(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_TOSTRING_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_SerializeObjectState(::System::EventHandler* a1)
+		::System::Void add_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_ADD_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_ADD_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_SerializeObjectState(::System::EventHandler* a1)
+		::System::Void remove_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_REMOVE_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_EXCEPTION_REMOVE_SERIALIZEOBJECTSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)

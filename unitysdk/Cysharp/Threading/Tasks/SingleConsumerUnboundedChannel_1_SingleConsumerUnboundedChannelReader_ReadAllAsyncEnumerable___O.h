@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -12,14 +12,14 @@ namespace Cysharp::Threading::Tasks
 	class SingleConsumerUnboundedChannel_1_SingleConsumerUnboundedChannelReader_ReadAllAsyncEnumerable___O : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__0___CancellationCallback1()
+		static ::System::Action_1<::System::Object*>** StaticGet__0___CancellationCallback1()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>O")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>O")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet__1___CancellationCallback2()
+		static ::System::Action_1<::System::Object*>** StaticGet__1___CancellationCallback2()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>O")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>O")->GetStaticField(0x0);
 		}
 
 	};

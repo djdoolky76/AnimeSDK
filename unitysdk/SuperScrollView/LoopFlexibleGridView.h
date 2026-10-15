@@ -9,10 +9,10 @@ namespace SuperScrollView { class LoopFlexibleGridView; }
 namespace SuperScrollView { class LoopFlexibleGridViewItem; }
 namespace SuperScrollView { class LoopListView2; }
 namespace SuperScrollView { class LoopListViewItem2; }
-namespace System { class Action; }
 namespace System { class String; }
-namespace System { class Tuple; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -75,7 +75,7 @@ namespace SuperScrollView
 		::SuperScrollView::GridPosMgr* _GridPosMgr; // 0x60
 		::System::Collections::Generic::List_1<::SuperScrollView::FlexibleGridItemPool*>* _ItemPools; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::SuperScrollView::FlexibleGridItemPool*>* _ItemPoolsByName; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::Tuple*, ::SuperScrollView::LoopFlexibleGridViewItem*>* _RowColNaviMap; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::Tuple_2<::System::Int32, ::System::Int32>*, ::SuperScrollView::LoopFlexibleGridViewItem*>* _RowColNaviMap; // 0x78
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* _ItemIndexByItemType; // 0x80
 		::System::Collections::Generic::List_1<::System::Int32>* _TypeList; // 0x88
 		::System::Boolean cachedFocused; // 0x90
@@ -89,7 +89,7 @@ namespace SuperScrollView
 		::UnityEngine::GameObject* _RowPrefabGo; // 0xB0
 		::System::Int32 _pendingGridItemIndex; // 0xB8
 		::System::Byte _padding2[0x4];
-		::System::Action* OnRecycleItem; // 0xC0
+		::System::Action_1<::SuperScrollView::LoopFlexibleGridViewItem*>* OnRecycleItem; // 0xC0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW_CTOR_OFFSET))(this);

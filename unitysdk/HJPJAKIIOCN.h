@@ -4,7 +4,7 @@
 #include "unitysdk/NNKGNMJOELO_OperateMode.h"
 #include "unitysdk/RPG/Client/LittleGame/ChenLingFes/ChenLingFesJoyStickState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class AJOPMLKHAGC;
 class GLOCAENEKMK;
@@ -291,9 +291,9 @@ inline static constexpr unsigned int HJPJAKIIOCN_TypeDefinitionIndex = 81255;
 			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HJPJAKIIOCN_BJBAOFEAIMN_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* GHBPENNEKAI()
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>* GHBPENNEKAI()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HJPJAKIIOCN_GHBPENNEKAI_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HJPJAKIIOCN_GHBPENNEKAI_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::System::Int32>* JHAIFCNIDFL()

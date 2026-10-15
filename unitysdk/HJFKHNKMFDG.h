@@ -8,7 +8,7 @@
 namespace RPG::Client::Pet { class IPet; }
 namespace RPG::Client::Pet { class IPetAppearance; }
 namespace RPG::Client::Pet { class IPetRepository; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 
 #define HJFKHNKMFDG_ADOCMODJCNP_OFFSET UNITYSDK_OFFSET(0x15D1FBA0)
 #define HJFKHNKMFDG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D1F9E0)
@@ -27,7 +27,7 @@ inline static constexpr unsigned int HJFKHNKMFDG_TypeDefinitionIndex = 75716;
 	class HJFKHNKMFDG : public ::System::Object
 	{
 	public:
-		::System::WeakReference* NMPIJGKPFIK; // 0x10
+		::System::WeakReference_1<::RPG::Client::Pet::IPetRepository*>* NMPIJGKPFIK; // 0x10
 		::RPG::Client::Pet::PetIdentifier _Identifier_k__BackingField; // 0x18
 		::System::Void _ctor(::RPG::Client::Pet::PetIdentifier a1, ::RPG::Client::Pet::IPetRepository* a2)
 		{

@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 namespace RPG::Client { class PlanetFesAvatarTalkBubbleComponent; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace XLua { class LuaTable; }
 
@@ -24,8 +25,8 @@ namespace RPG::Client
 	{
 	public:
 		::XLua::LuaTable* _TalkBubblePanel; // 0x18
-		::System::Action* _ShowTalkCallLua; // 0x20
-		::System::Action* _HideTalkCallLua; // 0x28
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>* _ShowTalkCallLua; // 0x20
+		::System::Action_1<::XLua::LuaTable*>* _HideTalkCallLua; // 0x28
 		::System::Single _TalkDuration; // 0x30
 		static ::System::Collections::Generic::HashSet_1<::RPG::Client::PlanetFesAvatarTalkBubbleComponent*>** StaticGet__InDoingTalkBubble()
 		{
@@ -47,9 +48,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Init(::XLua::LuaTable* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void Init(::XLua::LuaTable* a1, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>* a2, ::System::Action_1<::XLua::LuaTable*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_INIT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARTALKBUBBLECOMPONENT_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ShowTalkBubble(::RPG::Client::TextID a1)

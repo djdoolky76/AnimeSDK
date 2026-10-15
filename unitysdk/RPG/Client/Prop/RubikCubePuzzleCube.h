@@ -12,9 +12,9 @@ namespace RPG::Client::Prop { class RubikCubePuzzleCubeData; }
 namespace RPG::Client::Prop { class RubikCubePuzzleFrame; }
 namespace RPG::Client::Prop { class RubikCubePuzzleSwitch; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -100,8 +100,8 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleFrame*>* AEJHPPJIHEB; // 0xE0
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleConditionGroup*>* NJFNAAKDOPO; // 0xE8
 		::RPG::Client::Prop::RubikCubePuzzleCubeData* APHGPNEIDKI; // 0xF0
-		::System::Action* CIFOILLJFNF; // 0xF8
-		::System::Action* JCGFOCCPHEH; // 0x100
+		::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* CIFOILLJFNF; // 0xF8
+		::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* JCGFOCCPHEH; // 0x100
 		::System::Int32 MIBBMAGFDPG; // 0x108
 		::System::UInt32 MFMEMHINIPK; // 0x10C
 		::System::Int32 GDEPAEEGPCA; // 0x110
@@ -131,9 +131,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void InitCube(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::RubikCubePuzzleCubeData* a2, ::System::Action* a3, ::RPG::Client::Prop::RubikCubePuzzleBoard* a4)
+		::System::Void InitCube(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::RubikCubePuzzleCubeData* a2, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* a3, ::RPG::Client::Prop::RubikCubePuzzleBoard* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::Prop::RubikCubePuzzleCubeData*, ::System::Action*, ::RPG::Client::Prop::RubikCubePuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_INITCUBE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::Prop::RubikCubePuzzleCubeData*, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>*, ::RPG::Client::Prop::RubikCubePuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_INITCUBE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void RegisterSwitch(::RPG::Client::Prop::RubikCubePuzzleSwitch* a1)
@@ -196,14 +196,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RubikCubeGroup, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SELECTGROUPTEST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterRotateFinishCallback(::System::Action* a1)
+		::System::Void RegisterRotateFinishCallback(::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void UnRegisterRotateFinishCallback(::System::Action* a1)
+		::System::Void UnRegisterRotateFinishCallback(::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_UNREGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_UNREGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::BDEIDAMFDBN*>* GetGroup(::RPG::Client::Prop::RubikCubeGroup a1)

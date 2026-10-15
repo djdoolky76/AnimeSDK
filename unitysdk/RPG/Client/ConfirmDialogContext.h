@@ -9,6 +9,7 @@ class IAINCJNENGI;
 namespace RPG::Client { class LocalizedText; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CONFIRMDIALOGCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xCBBED70)
 #define RPG_CLIENT_CONFIRMDIALOGCONTEXT_CUSTOMEXIT_OFFSET UNITYSDK_OFFSET(0xCBBFFD0)
@@ -57,9 +58,9 @@ namespace RPG::Client
 	class ConfirmDialogContext : public ::RPG::Client::UIController
 	{
 	public:
-		::System::Action* _ToggleDispatch; // 0x190
+		::System::Action_1<::System::Boolean>* _ToggleDispatch; // 0x190
 		::System::Action* _BgDispatch; // 0x198
-		::System::Action* OkOrCancelDispatch; // 0x1A0
+		::System::Action_1<::System::Boolean>* OkOrCancelDispatch; // 0x1A0
 		::System::Action* NoneDispatch; // 0x1A8
 		::System::Action* ExitAction; // 0x1B0
 		::System::Action* _CloseDispatch; // 0x1B8
@@ -187,9 +188,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGCONTEXT_SETCONTENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EnableToggle(::System::Boolean a1, ::System::Action* a2, ::RPG::Client::TextID a3, ::Il2CppArray<::System::Object*>* a4)
+		::System::Void EnableToggle(::System::Boolean a1, ::System::Action_1<::System::Boolean>* a2, ::RPG::Client::TextID a3, ::Il2CppArray<::System::Object*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGCONTEXT_ENABLETOGGLE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action_1<::System::Boolean>*, ::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONFIRMDIALOGCONTEXT_ENABLETOGGLE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void DisableToggle()

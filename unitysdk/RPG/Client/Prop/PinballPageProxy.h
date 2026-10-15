@@ -10,6 +10,7 @@ namespace RPG::Client::Prop { class PinballPuzzleBoard; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -129,9 +130,9 @@ namespace RPG::Client::Prop
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PINBALLPAGEPROXY_GETOPERATECOUNT_OFFSET))(this);
 		}
 
-		::System::Void BindAction(::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType a1, ::System::Action* a2)
+		::System::Void BindAction(::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType a1, ::System::Action_1<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PINBALLPAGEPROXY_BINDACTION_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PINBALLPAGEPROXY_BINDACTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetPlayerCursorPos(::UnityEngine::Transform* a1)

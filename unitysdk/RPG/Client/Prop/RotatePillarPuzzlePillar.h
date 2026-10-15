@@ -7,8 +7,8 @@ namespace RPG::Client::Prop { class RotatePillarPuzzleFragmentData; }
 namespace RPG::Client::Prop { class RotatePillarPuzzlePillar; }
 namespace RPG::Client::Prop { class RotatePillarPuzzleSwitch; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD9AA30)
@@ -50,7 +50,7 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::RotatePillarPuzzleBoard* OwnerBoard; // 0x40
 		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x48
 		::System::String* BGFOCCJAOOO; // 0x50
-		::System::Action* CIFOILLJFNF; // 0x58
+		::System::Action_1<::RPG::Client::Prop::RotatePillarPuzzlePillar*>* CIFOILLJFNF; // 0x58
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RotatePillarPuzzleSwitch*>* EDHKLKKFAOM; // 0x60
 		::System::Boolean POIOPDDKGKB; // 0x68
 		::System::Boolean EJBCMAOPDCL; // 0x69
@@ -79,9 +79,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_CCTOR_OFFSET))();
 		}
 
-		::System::Void InitPuzzleItem(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::RotatePillarPuzzleBoard* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::RotatePillarPuzzleFragmentData*>* a3, ::System::String* a4, ::System::Action* a5)
+		::System::Void InitPuzzleItem(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::RotatePillarPuzzleBoard* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::RotatePillarPuzzleFragmentData*>* a3, ::System::String* a4, ::System::Action_1<::RPG::Client::Prop::RotatePillarPuzzlePillar*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::Prop::RotatePillarPuzzleBoard*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::RotatePillarPuzzleFragmentData*>*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_INITPUZZLEITEM_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::Prop::RotatePillarPuzzleBoard*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::RotatePillarPuzzleFragmentData*>*, ::System::String*, ::System::Action_1<::RPG::Client::Prop::RotatePillarPuzzlePillar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEPILLAR_INITPUZZLEITEM_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Dispose()

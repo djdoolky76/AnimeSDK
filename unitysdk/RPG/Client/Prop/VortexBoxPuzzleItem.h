@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/Client/Prop/BoxmanDir.h"
 #include "unitysdk/RPG/Client/Prop/ScenePuzzleItemBase.h"
 #include "unitysdk/RPG/Client/Prop/VortexBoxItemType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::Prop { class VortexBoxPuzzleBoard; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class AnimationCurve; }
@@ -42,7 +42,7 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::BoxmanCoord ResetCoord; // 0x40
 		::System::Int32 BoxIndex; // 0x48
 		::UnityEngine::Vector3 OODFLGPMAKO; // 0x4C
-		::System::Nullable* PDAAPKHANNJ; // 0x58
+		::System::Nullable_1<::System::Boolean> PDAAPKHANNJ; // 0x58
 		::System::Single Speed; // 0x5C
 		::UnityEngine::AnimationCurve* MoveCurve; // 0x60
 		static ::System::Int32* StaticGet_EPLIAANMJLL()

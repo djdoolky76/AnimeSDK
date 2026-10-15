@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class AMMDOPEDNJF_KODGMKBBLGB;
 namespace RPG::Client { class TeamBuild; }
 namespace RPG::Client { class TeamBuildRecipe; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
@@ -33,7 +33,7 @@ inline static constexpr unsigned int AMMDOPEDNJF_TypeDefinitionIndex = 68084;
 		::RPG::Client::TeamBuildRecipe* _TeamBuildRecipe_k__BackingField; // 0x10
 		::System::Func_2<::System::UInt32, ::System::Boolean>* _HasAvatarChecker_k__BackingField; // 0x18
 		::System::Collections::Generic::List_1<::System::Object*>* JCNCCBIKFJA; // 0x20
-		::System::Nullable* FALBKBBEAHG; // 0x28
+		::System::Nullable_1<::System::Int32> FALBKBBEAHG; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMMDOPEDNJF_CTOR_OFFSET))(this);

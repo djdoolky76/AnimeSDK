@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CDBKODALCAO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC760AF0)
 #define CDBKODALCAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC760B30)
@@ -14,9 +14,9 @@ inline static constexpr unsigned int CDBKODALCAO___c_TypeDefinitionIndex = 56241
 	class CDBKODALCAO___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15D50);
+			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15D50);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
 
 namespace RPG::Client
@@ -12,6 +12,6 @@ namespace RPG::Client
 	class WorkNode_PromiseParam_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::IPromise* Promise; // 0x0
+		::RPG::Client::Promises::IPromise_1<::System::Object*>* Promise; // 0x0
 	};
 }

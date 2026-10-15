@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelLoginResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelXbox; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF38230)
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS26_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1BF3C8A0)
@@ -17,7 +17,7 @@ namespace MiHoYo::SDK::PC::OS
 	{
 	public:
 		::MiHoYo::SDK::PC::OS::HoYoChannelXbox* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x18
 		::System::Boolean forceRefresh; // 0x20
 		::System::Void _ctor()
 		{

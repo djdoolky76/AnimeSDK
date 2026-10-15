@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AnimatorButton; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 inline static constexpr unsigned int JHGEIEHKPNG___c__22_1_TypeDefinitionIndex = 49893;
 
@@ -16,14 +16,14 @@ inline static constexpr unsigned int JHGEIEHKPNG___c__22_1_TypeDefinitionIndex =
 			return (::System::Object**)UnitySDK::FromName("", "<>c__22`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__22_0()
+		static ::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>** StaticGet___9__22_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c__22`1")->GetStaticField(0x0);
+			return (::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>**)UnitySDK::FromName("", "<>c__22`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__22_1()
+		static ::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>** StaticGet___9__22_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c__22`1")->GetStaticField(0x0);
+			return (::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>**)UnitySDK::FromName("", "<>c__22`1")->GetStaticField(0x0);
 		}
 
 	};

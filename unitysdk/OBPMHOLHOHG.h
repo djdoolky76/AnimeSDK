@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class JBFFCBPMKEF;
 namespace Entitas { class IEntity; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
@@ -12,7 +13,6 @@ namespace RPG::GameCore { class LevelGraphConfig; }
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define OBPMHOLHOHG_CLEAR_OFFSET UNITYSDK_OFFSET(0xBD51A30)
@@ -113,9 +113,9 @@ inline static constexpr unsigned int OBPMHOLHOHG_TypeDefinitionIndex = 76497;
 			return ((::System::Void(*)(::RPG::GameCore::TaskContext*, ::System::String*))((::PBYTE)hIl2Cpp + OBPMHOLHOHG_DCADIANHPFD_OFFSET))(a1, a2);
 		}
 
-		::System::Void HBFCDJDFNIP(::RPG::GameCore::StringHash a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void HBFCDJDFNIP(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + OBPMHOLHOHG_HBFCDJDFNIP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + OBPMHOLHOHG_HBFCDJDFNIP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean JCKDNNGALEO()

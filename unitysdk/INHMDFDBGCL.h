@@ -4,8 +4,8 @@
 class INHMDFDBGCL;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -47,9 +47,9 @@ inline static constexpr unsigned int INHMDFDBGCL_TypeDefinitionIndex = 25108;
 		::System::UInt32 GOHOKFAPDCI; // 0x28
 		::System::Byte _padding0[0x4];
 		::System::UInt64 DEJFOEHNFJA; // 0x30
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::INHMDFDBGCL*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "INHMDFDBGCL")->GetStaticField(0x58590);
+			return (::Google::Protobuf::MessageParser_1<::INHMDFDBGCL*>**)UnitySDK::FromName("", "INHMDFDBGCL")->GetStaticField(0x58590);
 		}
 
 		// static const ::System::Object EIDJNEEOOCF; // 0x0
@@ -72,9 +72,9 @@ inline static constexpr unsigned int INHMDFDBGCL_TypeDefinitionIndex = 25108;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INHMDFDBGCL_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::INHMDFDBGCL*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + INHMDFDBGCL_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::INHMDFDBGCL*>*(*)())((::PBYTE)hIl2Cpp + INHMDFDBGCL_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

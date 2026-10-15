@@ -6,6 +6,7 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_ADDREALNAME_OFFSET UNITYSDK_OFFSET(0x1BF05500)
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF00270)
@@ -125,9 +126,9 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REQUESTACCOUNTPLATFORMLOGINBYCONSOLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ReactivateAccountByActionTicket(::System::String* a1, ::System::Action* a2)
+		::System::Void ReactivateAccountByActionTicket(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REACTIVATEACCOUNTBYACTIONTICKET_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERHANDHELD_REACTIVATEACCOUNTBYACTIONTICKET_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OpenUserCenter()

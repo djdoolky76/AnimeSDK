@@ -8,6 +8,7 @@
 #include "unitysdk/RPG/GameCore/CharacterVisibleReason.h"
 #include "unitysdk/RPG/GameCore/RhythmType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class AkCallbackInfo;
 class AkMusicSyncCallbackInfo;
@@ -24,7 +25,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class MazeFloorRow; }
 namespace RPG::GameCore { class MazePlaneRow; }
 namespace RPG::GameCore { class PropSoundAttenuation; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -538,9 +538,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropSoundAttenuation*, ::HAPKJCJOJLF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREAUDIOMANAGER_RELEASESOUNDATTENUATION_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OverrideAtmosphereCenterAudio(::System::Nullable* a1, ::System::String* a2)
+		::System::Void OverrideAtmosphereCenterAudio(::System::Nullable_1<::UnityEngine::Vector3> a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREAUDIOMANAGER_OVERRIDEATMOSPHERECENTERAUDIO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREAUDIOMANAGER_OVERRIDEATMOSPHERECENTERAUDIO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _InitFloorSettings()

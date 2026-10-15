@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/System/Object.h"
-namespace Cysharp::Threading::Tasks { class TaskPool; }
 namespace Cysharp::Threading::Tasks::Internal { template <typename T> class PooledDelegate_1; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
@@ -14,11 +15,11 @@ namespace Cysharp::Threading::Tasks::Internal
 	{
 	public:
 		::Cysharp::Threading::Tasks::Internal::PooledDelegate_1<T>* nextNode; // 0x0
-		::System::Action* runDelegate; // 0x0
+		::System::Action_1<T>* runDelegate; // 0x0
 		::System::Action* continuation; // 0x0
-		static ::Cysharp::Threading::Tasks::TaskPool** StaticGet_pool()
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::Internal::PooledDelegate_1<T>*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "PooledDelegate`1")->GetStaticField(0x0);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::Internal::PooledDelegate_1<T>*>*)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "PooledDelegate`1")->GetStaticField(0x0);
 		}
 
 	};

@@ -13,8 +13,8 @@ namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class IRIRuntimeState; }
 namespace RPG::Client { class RPGProfilerMarker; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
@@ -90,7 +90,7 @@ inline static constexpr unsigned int CHLIAIJFBJF_TypeDefinitionIndex = 73893;
 	class CHLIAIJFBJF : public ::HPKACEPPPCA
 	{
 	public:
-		::System::Action* JBFCACALCJB; // 0x80
+		::System::Action_1<::System::Boolean>* JBFCACALCJB; // 0x80
 		::BPBFCHPINDD* LIPCDIMCNAI; // 0x88
 		::RPG::Client::IRIRuntimeState* FHBIGNJBHCF; // 0x90
 		::UnityEngine::Transform* GLFPOCCLGGL; // 0x98

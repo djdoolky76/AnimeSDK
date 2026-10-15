@@ -3,6 +3,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define MEEFEIADCOE_DLDBLNNPHKE_OFFSET UNITYSDK_OFFSET(0x1C925110)
 #define MEEFEIADCOE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C2FCE0)
@@ -22,7 +23,7 @@ inline static constexpr unsigned int MEEFEIADCOE_TypeDefinitionIndex = 42018;
 		::System::UInt32 DFEJABODPGM; // 0x20
 		::System::Byte _padding1[0x4];
 		::System::Action* IMDLGFPMPEK; // 0x28
-		::System::Action* LMOBGIANDOO; // 0x30
+		::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* LMOBGIANDOO; // 0x30
 		/*
 		::System::Boolean Equals(::MEEFEIADCOE a1)
 		{

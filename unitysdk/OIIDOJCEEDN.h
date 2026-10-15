@@ -7,9 +7,9 @@ class HFBJNFJHKPO;
 class OIIDOJCEEDN;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -52,19 +52,19 @@ inline static constexpr unsigned int OIIDOJCEEDN_TypeDefinitionIndex = 27536;
 		::HFBJNFJHKPO* MOPOGJGJICC; // 0x30
 		::System::UInt32 DOEEOIADCEE; // 0x38
 		::System::Boolean LBMBOGOMEBP; // 0x3C
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::OIIDOJCEEDN*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "OIIDOJCEEDN")->GetStaticField(0x1C560);
+			return (::Google::Protobuf::MessageParser_1<::OIIDOJCEEDN*>**)UnitySDK::FromName("", "OIIDOJCEEDN")->GetStaticField(0x1C560);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_BMJANCHOCHF()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_BMJANCHOCHF()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "OIIDOJCEEDN")->GetStaticField(0x1C568);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "OIIDOJCEEDN")->GetStaticField(0x1C568);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_IPOECNIBMOK()
+		static ::Google::Protobuf::FieldCodec_1<::DEJGMBKPHEC*>** StaticGet_IPOECNIBMOK()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "OIIDOJCEEDN")->GetStaticField(0x1C570);
+			return (::Google::Protobuf::FieldCodec_1<::DEJGMBKPHEC*>**)UnitySDK::FromName("", "OIIDOJCEEDN")->GetStaticField(0x1C570);
 		}
 
 		// static const ::System::Object EDKMCLPFFOE; // 0x0
@@ -88,9 +88,9 @@ inline static constexpr unsigned int OIIDOJCEEDN_TypeDefinitionIndex = 27536;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OIIDOJCEEDN_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::OIIDOJCEEDN*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + OIIDOJCEEDN_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::OIIDOJCEEDN*>*(*)())((::PBYTE)hIl2Cpp + OIIDOJCEEDN_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

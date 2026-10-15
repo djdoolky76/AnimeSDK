@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/OECNOHOLGPP___c__DisplayClass41_0.h"
@@ -9,7 +10,6 @@ class NKIJFPHFJCO;
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -69,7 +69,7 @@ inline static constexpr unsigned int OECNOHOLGPP_TypeDefinitionIndex = 41792;
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector2Int, ::System::Int32>* AGBJNEOCBGJ; // 0x50
 		::System::Boolean DCCNLPONFKL; // 0x58
 		::System::Byte _padding0[0x3];
-		::System::Nullable* FLGPGFEJFKH; // 0x5C
+		::System::Nullable_1<::System::Int32> FLGPGFEJFKH; // 0x5C
 		::UnityEngine::Vector2Int _Size_k__BackingField; // 0x64
 		::System::Int32 _MaxOverlapCount_k__BackingField; // 0x6C
 		// static const ::System::Object KEMMJCEEPNE; // 0x0

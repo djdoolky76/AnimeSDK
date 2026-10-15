@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class ChallengeBossData; }
 namespace RPG::Client { class ChallengeBossSingleNodeInfo; }
 namespace RPG::Client { class IChallengeBossEntranceLevelTeamViewModel; }
 namespace RPG::GameCore { class MonsterRow; }
 namespace RPG::GameCore { class MonsterTemplateRow; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -68,9 +68,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChallengeBossSingleNodeInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSENTRANCENORMALLEVELTEAMVIEWMODEL_GET__NODEINFO_OFFSET))(this);
 		}
 
-		::System::Nullable* get_Score()
+		::System::Nullable_1<::System::Int32> get_Score()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSENTRANCENORMALLEVELTEAMVIEWMODEL_GET_SCORE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSENTRANCENORMALLEVELTEAMVIEWMODEL_GET_SCORE_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsPassed()

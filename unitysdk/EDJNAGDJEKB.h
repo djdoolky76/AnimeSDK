@@ -11,6 +11,8 @@ class NNBFOHOLBLK;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
@@ -64,9 +66,9 @@ inline static constexpr unsigned int EDJNAGDJEKB_TypeDefinitionIndex = 57075;
 		::RPG::GameCore::TransformComponent* PLJPNMPJMJH; // 0x40
 		::System::Action* IBJMGFCCEFK; // 0x48
 		::NEIGAHPHPDO* GMNBNHFCMMN; // 0x50
-		::System::Action* KBNBHMMIOIP; // 0x58
+		::System::Action_1<::RPG::GameCore::GameEntity*>* KBNBHMMIOIP; // 0x58
 		::KJJMGKAEOED* MDOBEIPOEON; // 0x60
-		::System::Action* EHCFMGLAIFF; // 0x68
+		::System::Action_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>* EHCFMGLAIFF; // 0x68
 		::NNBFOHOLBLK* ICBMFGHKKLI; // 0x70
 		::UnityEngine::Vector3 LPNNBBFOIAD; // 0x78
 		::System::Boolean PMMIMFDJJMC; // 0x84

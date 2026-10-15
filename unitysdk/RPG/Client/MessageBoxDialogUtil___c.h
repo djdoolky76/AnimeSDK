@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MESSAGEBOXDIALOGUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD69CE40)
 #define RPG_CLIENT_MESSAGEBOXDIALOGUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD69CE80)
@@ -20,9 +20,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58310);
 		}
 
-		static ::System::Action** StaticGet___9__4_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58318);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58318);
 		}
 
 		static ::System::Void _cctor()

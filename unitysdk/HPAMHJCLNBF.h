@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class CADDDIKDHBJ;
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define HPAMHJCLNBF_CHANNELNAME_OFFSET UNITYSDK_OFFSET(0x15DC0400)
 #define HPAMHJCLNBF_CLEAR_OFFSET UNITYSDK_OFFSET(0x15DC03B0)
@@ -23,7 +23,7 @@ inline static constexpr unsigned int HPAMHJCLNBF_TypeDefinitionIndex = 60896;
 		::CADDDIKDHBJ* _OwnerFMSystem_k__BackingField; // 0x10
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::System::String* ILHIPLMGPLH; // 0x20
-		::System::Action* ODIOOEOBLJF; // 0x28
+		::System::Action_1<::System::Single>* ODIOOEOBLJF; // 0x28
 		::System::String* BPJCCKBGJOG; // 0x30
 		::System::Void _ctor()
 		{

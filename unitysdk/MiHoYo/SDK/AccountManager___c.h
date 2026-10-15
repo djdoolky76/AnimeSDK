@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_ACCOUNTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC28AA0)
 #define MIHOYO_SDK_ACCOUNTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC28AE0)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2F670);
 		}
 
-		static ::System::Action** StaticGet___9__61_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__61_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2F678);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2F678);
 		}
 
 		static ::System::Void _cctor()

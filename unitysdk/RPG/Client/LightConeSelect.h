@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class AnimationCurve; }
@@ -95,7 +95,7 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::Transform*>* lightCones; // 0xE0
 		::Il2CppArray<::UnityEngine::Transform*>* AnimeLightCones; // 0xE8
 		::UnityEngine::Transform* AdaptAnchor; // 0xF0
-		::System::Action* OnHighlightedIndexChanged; // 0xF8
+		::System::Action_2<::System::Int32, ::System::Int32>* OnHighlightedIndexChanged; // 0xF8
 		::UnityEngine::Camera* camera3D; // 0x100
 		::UnityEngine::Animation* anim; // 0x108
 		::System::String* gradualHighLightClip; // 0x110
@@ -130,14 +130,14 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_CCTOR_OFFSET))();
 		}
 
-		::System::Void add_OnHighlightedIndexChanged(::System::Action* a1)
+		::System::Void add_OnHighlightedIndexChanged(::System::Action_2<::System::Int32, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_ADD_ONHIGHLIGHTEDINDEXCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_ADD_ONHIGHLIGHTEDINDEXCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnHighlightedIndexChanged(::System::Action* a1)
+		::System::Void remove_OnHighlightedIndexChanged(::System::Action_2<::System::Int32, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_REMOVE_ONHIGHLIGHTEDINDEXCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONESELECT_REMOVE_ONHIGHLIGHTEDINDEXCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()

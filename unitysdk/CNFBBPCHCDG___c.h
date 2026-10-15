@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class GEKMCGJPEEF;
 class MLPHCNIKCJK;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CNFBBPCHCDG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA4C0A0)
 #define CNFBBPCHCDG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA4C0E0)
@@ -21,14 +21,14 @@ inline static constexpr unsigned int CNFBBPCHCDG___c_TypeDefinitionIndex = 62754
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x535A0);
 		}
 
-		static ::System::Action** StaticGet___9__1_0()
+		static ::System::Action_1<::MLPHCNIKCJK*>** StaticGet___9__1_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x535A8);
+			return (::System::Action_1<::MLPHCNIKCJK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x535A8);
 		}
 
-		static ::System::Action** StaticGet___9__0_0()
+		static ::System::Action_1<::GEKMCGJPEEF*>** StaticGet___9__0_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x535B0);
+			return (::System::Action_1<::GEKMCGJPEEF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x535B0);
 		}
 
 		static ::System::Void _cctor()

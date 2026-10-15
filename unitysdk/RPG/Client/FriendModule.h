@@ -4,7 +4,8 @@
 #include "unitysdk/PIDAHABFLBL.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/FriendModule_FetchDataState.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class BBNFMNHGIPN;
 class BHCMCLJHEGJ;
 class BKALMLMEEPL;
@@ -33,6 +34,8 @@ namespace RPG::Client { class PlayerGridFightRecordData; }
 namespace RPG::Client { class PlayerRogueRecordDataGroup; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -248,13 +251,13 @@ namespace RPG::Client
 		::RPG::Client::Promises::Promise* _GetFriendAssistList; // 0x40
 		::RPG::Client::Promises::Promise* _GetPSPlayerInfoPromise; // 0x48
 		::RPG::Client::Promises::Promise* _WaitOpenApplicationDialogPromise; // 0x50
-		::RPG::Client::Promises::Promise* _WaitPlayerDetailInfoPromise; // 0x58
+		::RPG::Client::Promises::Promise_1<::RPG::Client::PlayerBoardInfo*>* _WaitPlayerDetailInfoPromise; // 0x58
 		::RPG::Client::AssistData* _CurAssistData_k__BackingField; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::EPBMGIOIHEI*>* _PSPlayerInfoDict; // 0x68
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _BlackUIDList; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::Promises::Promise*>* _FriendRecommendLineupDetailPromises; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::JFNJKAPPNOF, ::System::UInt32, ::System::UInt32>, ::RPG::Client::Promises::Promise_1<::OLLGFBLPHOH*>*>* _FriendRecommendLineupDetailPromises; // 0x78
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlayerGridFightRecordData*>* _GridFightRecordDatas; // 0x80
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Promises::Promise*>*>* _WaitPlayerDisplayDataPromises; // 0x88
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Promises::Promise_1<::RPG::Client::PlayerBriefDisplayData*>*>*>* _WaitPlayerDisplayDataPromises; // 0x88
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlayerBriefDisplayData*>* _CachePlayerDisplayDataDict; // 0x90
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _FriendUIDList; // 0x98
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlayerRogueRecordDataGroup*>* _RogueRecordDatas; // 0xA0
@@ -265,7 +268,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::LDCFLPGNOJE*>* _ReceiveApplyInfoDict; // 0xC8
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlayerChallengePeakRecordData*>* _ChallengePeakRecordDataDict; // 0xD0
 		::RPG::Client::Promises::Promise* _GetAssistHistory; // 0xD8
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::Promises::Promise*>* _FriendRecommendLineupPromises; // 0xE0
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::JFNJKAPPNOF, ::System::UInt32>, ::RPG::Client::Promises::Promise_1<::BKALMLMEEPL*>*>* _FriendRecommendLineupPromises; // 0xE0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::EPBMGIOIHEI*>* _BlackList; // 0xE8
 		::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* _PSBlackInfoList; // 0xF0
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _AlreadySendApplyPlayerSet; // 0xF8
@@ -814,14 +817,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::LJOLNGEEKFE*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE__SYNCRECOMMENDLIST_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* GetFriendRecommendLineup(::JFNJKAPPNOF a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::Promise_1<::BKALMLMEEPL*>* GetFriendRecommendLineup(::JFNJKAPPNOF a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::JFNJKAPPNOF, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_GETFRIENDRECOMMENDLINEUP_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::Promise_1<::BKALMLMEEPL*>*(*)(::PVOID, ::JFNJKAPPNOF, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_GETFRIENDRECOMMENDLINEUP_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::Promise* GetFriendRecommendLineupDetail(::JFNJKAPPNOF a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		::RPG::Client::Promises::Promise_1<::OLLGFBLPHOH*>* GetFriendRecommendLineupDetail(::JFNJKAPPNOF a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::JFNJKAPPNOF, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_GETFRIENDRECOMMENDLINEUPDETAIL_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::Promise_1<::OLLGFBLPHOH*>*(*)(::PVOID, ::JFNJKAPPNOF, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_GETFRIENDRECOMMENDLINEUPDETAIL_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _OnGetFriendRecommendLineupScRsp(::System::UInt16 a1, ::System::Object* a2)
@@ -969,14 +972,14 @@ namespace RPG::Client
 			return ((::RPG::Client::PlayerBoardInfo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_TRYGETPLAYERDETAILINFO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GetPlayerDetailInfoPromise(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::PlayerBoardInfo*>* GetPlayerDetailInfoPromise(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_GETPLAYERDETAILINFOPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::PlayerBoardInfo*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_GETPLAYERDETAILINFOPROMISE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GetPlayerBriefDisplayDataPromise(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::PlayerBriefDisplayData*>* GetPlayerBriefDisplayDataPromise(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_GETPLAYERBRIEFDISPLAYDATAPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::PlayerBriefDisplayData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDMODULE_GETPLAYERBRIEFDISPLAYDATAPROMISE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsFriend(::System::UInt32 a1)

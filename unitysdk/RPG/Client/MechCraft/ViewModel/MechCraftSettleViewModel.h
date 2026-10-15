@@ -13,6 +13,7 @@ class PMPMEPHJKLM;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftProductUI3DViewModel; }
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTSETTLEVIEWMODEL_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD6855A0)
@@ -56,7 +57,7 @@ namespace RPG::Client::MechCraft::ViewModel
 		::System::Action* SetExitAfterTransitionHandler; // 0x18
 		::PMPMEPHJKLM* _ProductStats_k__BackingField; // 0x20
 		::KCJNGDLDKFG* _FlowCoordinator_k__BackingField; // 0x28
-		::System::Action* AddExitCallbackHandler; // 0x30
+		::System::Action_1<::System::Action*>* AddExitCallbackHandler; // 0x30
 		::System::Collections::Generic::List_1<::System::UInt32>* _NewMechatronIDs_k__BackingField; // 0x38
 		::MCHECHNKADP* _AudioService_k__BackingField; // 0x40
 		::Sofa::Core::SimpleCommand* _ContinueCommand; // 0x48

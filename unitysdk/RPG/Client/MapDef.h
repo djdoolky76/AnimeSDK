@@ -14,7 +14,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AFMFOKIJCFE;
 class BFAGAEJHEJH;
 class BIDDFDEAEGB;
@@ -67,10 +68,10 @@ namespace RPG::GameCore { class RtLevelDimensionInfo; }
 namespace RPG::GameCore { class RtLevelFloorInfo; }
 namespace RPG::GameCore { class RtLevelGroupInstanceCommonInfo; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -337,7 +338,7 @@ namespace RPG::Client
 		::KFEIOIDJBOG* _FloorCustomValues_k__BackingField; // 0x10
 		::RPG::GameCore::MazeFloorRow* _FloorCfg; // 0x18
 		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::RPG::Client::MapEntityDef*>* _EntityDefMap; // 0x20
-		::System::Action* OnMapDefRemove; // 0x28
+		::System::Action_1<::RPG::Client::MapEntityDef*>* OnMapDefRemove; // 0x28
 		::RPG::Client::MapRotationInfo* _MapRotationInfo_k__BackingField; // 0x30
 		::CPFGNNGMPDJ* _MapEntityDefs; // 0x38
 		::RPG::GameCore::LevelDimensionBakedInfo _DimensionBakedInfo_k__BackingField; // 0x40
@@ -354,14 +355,14 @@ namespace RPG::Client
 		::RPG::GameCore::LevelRegionInfos* _RegionConfig; // 0xA0
 		::FHNIMGBMPLN* _FloorBakedInfoConfig; // 0xA8
 		::RPG::Client::FloorSavedData* _FloorSavedValues_k__BackingField; // 0xB0
-		::System::Action* OnMapDefAdd; // 0xB8
+		::System::Action_1<::RPG::Client::MapEntityDef*>* OnMapDefAdd; // 0xB8
 		::System::Text::StringBuilder* _GroupSaveDataBuilder; // 0xC0
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _MazeCrossFloorConditions; // 0xC8
 		::System::Collections::Generic::List_1<::Proto::SceneEntityInfo*>* _PlayerMemberInfoList_k__BackingField; // 0xD0
 		::System::Collections::Generic::SortedList_2<::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*>* _RuntimeGroupInfos; // 0xD8
 		::HBCLPBGJHDJ* _PerformanceStandalonePlaySnapshot_k__BackingField; // 0xE0
 		::DKBDECKEION* _CurrentWaitRspSaveDataReq; // 0xE8
-		::System::Action* OnMapGroupDefUnload; // 0xF0
+		::System::Action_1<::BIDDFDEAEGB*>* OnMapGroupDefUnload; // 0xF0
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _LightenSectionList_k__BackingField; // 0xF8
 		::System::Collections::Generic::Stack_1<::DKBDECKEION*>* _CacheSaveDataReqPool; // 0x100
 		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::String*>* _GroupPropSaveData; // 0x108
@@ -380,7 +381,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::BIDDFDEAEGB*>* _ServerGroupDefs_k__BackingField; // 0x180
 		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::MEPPNFLLMEN*>* _Pathways; // 0x188
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::BIDDFDEAEGB*>* _ClientGroupDefs_k__BackingField; // 0x190
-		::System::Action* OnMapGroupDefLoad; // 0x198
+		::System::Action_2<::BIDDFDEAEGB*, ::System::UInt32>* OnMapGroupDefLoad; // 0x198
 		::JEHPCNCCGFE* _FloorConstValues_k__BackingField; // 0x1A0
 		::AFMFOKIJCFE* _TeamBuffDef; // 0x1A8
 		::Proto::PerformanceStartSnapshot* _PerformanceSnapshot_k__BackingField; // 0x1B0
@@ -997,14 +998,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF_INITACTIVATEHOYOGROUPBYCUSTOMGROUP_OFFSET))(this);
 		}
 
-		::System::Void RefreshHoyoGroupActiveDeactiveByMission(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		::System::Void RefreshHoyoGroupActiveDeactiveByMission(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> a4, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF_REFRESHHOYOGROUPACTIVEDEACTIVEBYMISSION_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF_REFRESHHOYOGROUPACTIVEDEACTIVEBYMISSION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void RefreshHoyoGroupActiveDeactiveByMissionCustomValue(::System::Collections::Generic::HashSet_1<::System::UInt32>* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2, ::System::ValueTuple a3)
+		::System::Void RefreshHoyoGroupActiveDeactiveByMissionCustomValue(::System::Collections::Generic::HashSet_1<::System::UInt32>* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2, ::System::ValueTuple_2<::System::UInt32, ::System::String*> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF_REFRESHHOYOGROUPACTIVEDEACTIVEBYMISSIONCUSTOMVALUE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::ValueTuple_2<::System::UInt32, ::System::String*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEF_REFRESHHOYOGROUPACTIVEDEACTIVEBYMISSIONCUSTOMVALUE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void RefreshHoyoGroupActiveDeactiveByAtmosphere(::System::Collections::Generic::HashSet_1<::System::UInt32>* a1)

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/INGNCPPMOFG.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class APAMFCKFHLL;
 class EEFMAMCHOMN;
@@ -9,7 +10,6 @@ namespace RPG::Client { class GlobalDispatchData_ServerData; }
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define RPG_CLIENT_NETWORKMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9D0080)
 #define RPG_CLIENT_NETWORKMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D00B0)
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return (::System::Func_2<::INGNCPPMOFG, ::EEFMAMCHOMN*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F2D0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::APAMFCKFHLL*>** StaticGet___9__183_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::APAMFCKFHLL*>** StaticGet___9__183_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::APAMFCKFHLL*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F2D8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::APAMFCKFHLL*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F2D8);
 		}
 
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::SpEquipSlotData*, ::APAMFCKFHLL*>** StaticGet___9__183_1()
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F2E8);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::APAMFCKFHLL*>** StaticGet___9__170_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::APAMFCKFHLL*>** StaticGet___9__170_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::APAMFCKFHLL*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F2F0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::APAMFCKFHLL*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F2F0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Int64>** StaticGet___9__66_0()
@@ -88,14 +88,14 @@ namespace RPG::Client
 			return ((::System::Int64(*)(::PVOID, ::RPG::Client::GlobalDispatchData_ServerData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__SETRECOMMANDSERVERBYPINGANDREGION_B__66_0_OFFSET))(this, a1);
 		}
 
-		::APAMFCKFHLL* _SendIdleLiveReplaceTeamCsReq_b__170_0(::System::Collections::Generic::KeyValuePair* a1)
+		::APAMFCKFHLL* _SendIdleLiveReplaceTeamCsReq_b__170_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::APAMFCKFHLL*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__SENDIDLELIVEREPLACETEAMCSREQ_B__170_0_OFFSET))(this, a1);
+			return ((::APAMFCKFHLL*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__SENDIDLELIVEREPLACETEAMCSREQ_B__170_0_OFFSET))(this, a1);
 		}
 
-		::APAMFCKFHLL* _SendIdleLiveStartDungeonCsReq_b__183_0(::System::Collections::Generic::KeyValuePair* a1)
+		::APAMFCKFHLL* _SendIdleLiveStartDungeonCsReq_b__183_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::APAMFCKFHLL*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__SENDIDLELIVESTARTDUNGEONCSREQ_B__183_0_OFFSET))(this, a1);
+			return ((::APAMFCKFHLL*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__SENDIDLELIVESTARTDUNGEONCSREQ_B__183_0_OFFSET))(this, a1);
 		}
 
 		::APAMFCKFHLL* _SendIdleLiveStartDungeonCsReq_b__183_1(::RPG::Client::ActivityIdleLive::SpEquipSlotData* a1)

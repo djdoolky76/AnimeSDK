@@ -6,8 +6,8 @@ class DILNLDDKOCN;
 class KNNDMDMHDHO;
 class MKJBLEPELNC;
 class PKHKEEKIODC;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define INFJLCMCAAF_AKPONJDPFDO_OFFSET UNITYSDK_OFFSET(0x164EE0E0)
 #define INFJLCMCAAF_APKBBBIPAGI_OFFSET UNITYSDK_OFFSET(0x164EDF50)
@@ -30,9 +30,9 @@ inline static constexpr unsigned int INFJLCMCAAF_TypeDefinitionIndex = 67072;
 	class INFJLCMCAAF : public ::System::Object
 	{
 	public:
-		static ::System::Void CFBMGMEJIOJ(::System::Action* a1)
+		static ::System::Void CFBMGMEJIOJ(::System::Action_2<::System::Object*, ::KNNDMDMHDHO*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_CFBMGMEJIOJ_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::Object*, ::KNNDMDMHDHO*>*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_CFBMGMEJIOJ_OFFSET))(a1);
 		}
 
 		static ::DILNLDDKOCN* LAMPGIGAJEM(::MKJBLEPELNC* a1, ::NHHMEPILLHL a2, ::PKHKEEKIODC* a3)
@@ -45,9 +45,9 @@ inline static constexpr unsigned int INFJLCMCAAF_TypeDefinitionIndex = 67072;
 			return ((::DILNLDDKOCN*(*)(::MKJBLEPELNC*, ::NHHMEPILLHL, ::PKHKEEKIODC*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_OLDCMEBDLAC_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void DIHLJFHEBPN(::System::Action* a1)
+		static ::System::Void DIHLJFHEBPN(::System::Action_2<::System::Object*, ::KNNDMDMHDHO*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_DIHLJFHEBPN_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::Object*, ::KNNDMDMHDHO*>*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_DIHLJFHEBPN_OFFSET))(a1);
 		}
 
 		static ::DILNLDDKOCN* NCOIPMGJGND(::MKJBLEPELNC* a1, ::NHHMEPILLHL a2, ::PKHKEEKIODC* a3)
@@ -80,9 +80,9 @@ inline static constexpr unsigned int INFJLCMCAAF_TypeDefinitionIndex = 67072;
 			return ((::DILNLDDKOCN*(*)(::MKJBLEPELNC*, ::NHHMEPILLHL, ::PKHKEEKIODC*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_OGDCCBONKEG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void APKBBBIPAGI(::System::Action* a1)
+		static ::System::Void APKBBBIPAGI(::System::Action_2<::System::Object*, ::KNNDMDMHDHO*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_APKBBBIPAGI_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::Object*, ::KNNDMDMHDHO*>*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_APKBBBIPAGI_OFFSET))(a1);
 		}
 
 		static ::DILNLDDKOCN* CCGFCIFAJLI(::MKJBLEPELNC* a1, ::NHHMEPILLHL a2, ::PKHKEEKIODC* a3)
@@ -90,9 +90,9 @@ inline static constexpr unsigned int INFJLCMCAAF_TypeDefinitionIndex = 67072;
 			return ((::DILNLDDKOCN*(*)(::MKJBLEPELNC*, ::NHHMEPILLHL, ::PKHKEEKIODC*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_CCGFCIFAJLI_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void AKPONJDPFDO(::System::Action* a1)
+		static ::System::Void AKPONJDPFDO(::System::Action_2<::System::Object*, ::KNNDMDMHDHO*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_AKPONJDPFDO_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::Object*, ::KNNDMDMHDHO*>*))((::PBYTE)hIl2Cpp + INFJLCMCAAF_AKPONJDPFDO_OFFSET))(a1);
 		}
 
 		static ::DILNLDDKOCN* MOHHNAODNKI(::MKJBLEPELNC* a1, ::NHHMEPILLHL a2, ::PKHKEEKIODC* a3)

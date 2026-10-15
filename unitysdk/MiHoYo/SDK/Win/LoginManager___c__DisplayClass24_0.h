@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class LoginManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD65030)
 #define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS24_0__LOGOUTWITHCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1BD7C570)
@@ -18,9 +18,9 @@ namespace MiHoYo::SDK::Win
 	class LoginManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::Action* wrapperCallback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* wrapperCallback; // 0x10
 		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* callback; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS24_0_CTOR_OFFSET))(this);

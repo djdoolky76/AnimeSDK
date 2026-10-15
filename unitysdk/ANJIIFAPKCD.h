@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/IGKFNIEJGLM.h"
 class KJLPEOPGAMA;
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::GameCore { class AbilityElationEchoPointChange; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
@@ -54,9 +54,9 @@ inline static constexpr unsigned int ANJIIFAPKCD_TypeDefinitionIndex = 71472;
 		::System::Int32 OOFHFDPECOC; // 0x90
 		::System::Int32 NGCFNPJDCEM; // 0x94
 		::System::Int32 NHIPFHBLNEF; // 0x98
-		::System::Nullable* KLLBBLOKMEH; // 0x9C
+		::System::Nullable_1<::System::Int32> KLLBBLOKMEH; // 0x9C
 		::System::Int32 FJFIKJOEHMO; // 0xA4
-		::System::Nullable* HOGMAFEHCGD; // 0xA8
+		::System::Nullable_1<::System::Boolean> HOGMAFEHCGD; // 0xA8
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ANJIIFAPKCD_CTOR_OFFSET))(this);

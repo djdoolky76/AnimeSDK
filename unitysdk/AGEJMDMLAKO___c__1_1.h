@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 inline static constexpr unsigned int AGEJMDMLAKO___c__1_1_TypeDefinitionIndex = 49985;
 
@@ -17,9 +17,9 @@ inline static constexpr unsigned int AGEJMDMLAKO___c__1_1_TypeDefinitionIndex = 
 			return (::System::Object**)UnitySDK::FromName("", "<>c__1`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Func_2<::System::Action*, ::UnityEngine::Events::UnityAction*>** StaticGet___9__1_0()
+		static ::System::Func_2<::System::Action_1<T>*, ::UnityEngine::Events::UnityAction_1<T>*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Action*, ::UnityEngine::Events::UnityAction*>**)UnitySDK::FromName("", "<>c__1`1")->GetStaticField(0x0);
+			return (::System::Func_2<::System::Action_1<T>*, ::UnityEngine::Events::UnityAction_1<T>*>**)UnitySDK::FromName("", "<>c__1`1")->GetStaticField(0x0);
 		}
 
 	};

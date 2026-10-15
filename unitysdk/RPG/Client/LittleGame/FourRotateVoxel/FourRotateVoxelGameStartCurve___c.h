@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD466BD0)
 #define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD466C10)
@@ -17,9 +17,9 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 	class FourRotateVoxelGameStartCurve___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__39_0()
+		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__39_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame.FourRotateVoxel", "<>c")->GetStaticField(0x33510);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("RPG.Client.LittleGame.FourRotateVoxel", "<>c")->GetStaticField(0x33510);
 		}
 
 		static ::System::Object** StaticGet___9()

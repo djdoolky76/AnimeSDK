@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class GKMKOMHLGDC;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
@@ -48,8 +48,8 @@ namespace RPG::GameCore
 	public:
 		::GKMKOMHLGDC* _TimeScaleStack; // 0x10
 		::System::Collections::Generic::List_1<::PIDCMKAIGME>* _TimeSlowEntries; // 0x18
-		::System::Action* SlowEntryRemoveCallback; // 0x20
-		::System::Action* ValueUpdateCallback; // 0x28
+		::System::Action_1<::System::Int32>* SlowEntryRemoveCallback; // 0x20
+		::System::Action_1<::System::Single>* ValueUpdateCallback; // 0x28
 		::System::Single _CurrentValue; // 0x30
 		::System::Single _MaxValue; // 0x34
 		::System::Boolean _HasTimeSlowEntry; // 0x38

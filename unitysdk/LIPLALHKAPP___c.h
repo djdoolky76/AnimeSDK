@@ -8,6 +8,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define LIPLALHKAPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6DED70)
 #define LIPLALHKAPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DEDB0)
@@ -53,9 +54,9 @@ inline static constexpr unsigned int LIPLALHKAPP___c_TypeDefinitionIndex = 73451
 			return (::System::Func_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FEB8);
 		}
 
-		static ::System::Action** StaticGet___9__61_0()
+		static ::System::Action_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>** StaticGet___9__61_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FEC0);
+			return (::System::Action_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FEC0);
 		}
 
 		static ::System::Void _cctor()

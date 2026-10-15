@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PreReleaseScheduleState.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define KMKJDMKKAFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB55D460)
@@ -44,14 +44,14 @@ inline static constexpr unsigned int KMKJDMKKAFA_TypeDefinitionIndex = 66709;
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMKJDMKKAFA_KNNALFDCDDL_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* IMGKINDBMBJ(::System::UInt32 a1)
+		::System::Nullable_1<::System::UInt32> IMGKINDBMBJ(::System::UInt32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMKJDMKKAFA_IMGKINDBMBJ_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMKJDMKKAFA_IMGKINDBMBJ_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* JFMENNFLJIE(::System::UInt32 a1)
+		::System::Nullable_1<::System::UInt32> JFMENNFLJIE(::System::UInt32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMKJDMKKAFA_JFMENNFLJIE_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMKJDMKKAFA_JFMENNFLJIE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* IHBNDMPMFGD()

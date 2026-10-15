@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightPreset.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class AGKODPKMDMA;
 class HIKAAGHELPH;
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class MonoUIColorSwitcher; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD1E0DE0)
@@ -48,9 +48,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::HIKAAGHELPH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL__BINDCOLORSTATE_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::TextID _GetTextID(::System::Nullable* a1)
+		static ::RPG::Client::TextID _GetTextID(::System::Nullable_1<::RPG::GameCore::GridFightPreset> a1)
 		{
-			return ((::RPG::Client::TextID(*)(::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL__GETTEXTID_OFFSET))(a1);
+			return ((::RPG::Client::TextID(*)(::System::Nullable_1<::RPG::GameCore::GridFightPreset>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL__GETTEXTID_OFFSET))(a1);
 		}
 
 	};

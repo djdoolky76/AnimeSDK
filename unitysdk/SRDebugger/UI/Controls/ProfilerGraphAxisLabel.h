@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace UnityEngine::UI { class Text; }
 
 #define SRDEBUGGER_UI_CONTROLS_PROFILERGRAPHAXISLABEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5B830)
@@ -17,7 +17,7 @@ namespace SRDebugger::UI::Controls
 	{
 	public:
 		::System::Single _prevFrameTime; // 0x48
-		::System::Nullable* _queuedFrameTime; // 0x4C
+		::System::Nullable_1<::System::Single> _queuedFrameTime; // 0x4C
 		::System::Single _yPosition; // 0x54
 		::UnityEngine::UI::Text* Text; // 0x58
 		::System::Void _ctor()

@@ -14,9 +14,10 @@ class JJGKFBDCPFB;
 namespace Entitas { class IComponent; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -72,14 +73,14 @@ inline static constexpr unsigned int NNGOGBHIAFI_TypeDefinitionIndex = 36870;
 		::System::Single MAOMGPCHMDH; // 0x58
 		::System::Byte _padding0[0x4];
 		::System::UInt64 IKNHCAGCLPI; // 0x60
-		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>** StaticGet_FGOEPGEFIBN()
+		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::Il2CppArray<::System::Object*>*>*>** StaticGet_FGOEPGEFIBN()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3480);
+			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::Il2CppArray<::System::Object*>*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3480);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>** StaticGet_NHBJGKNKPLF()
+		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_3<::System::UInt32, ::ECAOILCPKLA, ::IDBBMOMLPOJ*>*>** StaticGet_NHBJGKNKPLF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3488);
+			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_3<::System::UInt32, ::ECAOILCPKLA, ::IDBBMOMLPOJ*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3488);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::IDBBMOMLPOJ*>** StaticGet_JDMKICMLHDI()
@@ -87,9 +88,9 @@ inline static constexpr unsigned int NNGOGBHIAFI_TypeDefinitionIndex = 36870;
 			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::IDBBMOMLPOJ*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3490);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>** StaticGet_OJIGIHIMCBG()
+		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::IDBBMOMLPOJ*, ::Il2CppArray<::System::Object*>*>*>** StaticGet_OJIGIHIMCBG()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3498);
+			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::IDBBMOMLPOJ*, ::Il2CppArray<::System::Object*>*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3498);
 		}
 
 		// static const ::System::Object LKGICPPPOBC; // 0x0
@@ -123,19 +124,19 @@ inline static constexpr unsigned int NNGOGBHIAFI_TypeDefinitionIndex = 36870;
 			return ((::BIHHJPHJELO*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGOGBHIAFI_HAKFAECLAII_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>* EPNDAOIGIOM()
+		::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::Il2CppArray<::System::Object*>*>*>* EPNDAOIGIOM()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGOGBHIAFI_EPNDAOIGIOM_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::Il2CppArray<::System::Object*>*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGOGBHIAFI_EPNDAOIGIOM_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>* HCIJFDEJABF()
+		::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_3<::System::UInt32, ::ECAOILCPKLA, ::IDBBMOMLPOJ*>*>* HCIJFDEJABF()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGOGBHIAFI_HCIJFDEJABF_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_3<::System::UInt32, ::ECAOILCPKLA, ::IDBBMOMLPOJ*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGOGBHIAFI_HCIJFDEJABF_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>* FHMPLBNGBJB()
+		::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::IDBBMOMLPOJ*, ::Il2CppArray<::System::Object*>*>*>* FHMPLBNGBJB()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGOGBHIAFI_FHMPLBNGBJB_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::IDBBMOMLPOJ*, ::Il2CppArray<::System::Object*>*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGOGBHIAFI_FHMPLBNGBJB_OFFSET))(this);
 		}
 
 		::System::Void HFBLGAJEFIL(::IDBBMOMLPOJ* a1)

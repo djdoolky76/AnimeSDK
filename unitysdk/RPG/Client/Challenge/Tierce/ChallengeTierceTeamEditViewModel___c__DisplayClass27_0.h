@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class FOMDMAGLLNI;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditViewModel; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC96FD60)
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0__TRYSTARTCHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0xC970110)
@@ -22,9 +22,9 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _TryStartChallenge_b__0(::System::Boolean a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _TryStartChallenge_b__0(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0__TRYSTARTCHALLENGE_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS27_0__TRYSTARTCHALLENGE_B__0_OFFSET))(this, a1);
 		}
 
 	};

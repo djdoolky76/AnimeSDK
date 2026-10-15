@@ -10,7 +10,7 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Object; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -76,7 +76,7 @@ inline static constexpr unsigned int EHBKEOKCMOF_TypeDefinitionIndex = 61110;
 		::CHBCJGDEBNA* EFEFDMFKMMK; // 0x58
 		::RPG::Client::LuaUIController* IPJJAECPMIL; // 0x60
 		::RPG::Client::LuaUIController* BBFFPPPHKLF; // 0x68
-		::System::Collections::Generic::List_1<::System::Tuple*>* FBOBOLNKNKK; // 0x70
+		::System::Collections::Generic::List_1<::System::Tuple_2<::System::Int32, ::System::Action*>*>* FBOBOLNKNKK; // 0x70
 		::System::Int32 _LoginFailedCount_k__BackingField; // 0x78
 		::System::Boolean FCBAOGNEOKK; // 0x7C
 		::System::Boolean _NeedReinitSDK_k__BackingField; // 0x7D

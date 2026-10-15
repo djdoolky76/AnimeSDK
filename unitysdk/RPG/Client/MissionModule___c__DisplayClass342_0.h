@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MainMissionData; }
 namespace RPG::Client { class MissionModule; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS342_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6F8D10)
@@ -18,7 +18,7 @@ namespace RPG::Client
 	public:
 		::RPG::Client::MissionModule* __4__this; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* mainMissionIDs; // 0x18
-		::RPG::Client::Promises::Promise* promise; // 0x20
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>* promise; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS342_0_CTOR_OFFSET))(this);

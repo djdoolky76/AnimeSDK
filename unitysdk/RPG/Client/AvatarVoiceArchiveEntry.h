@@ -8,8 +8,8 @@ namespace RPG::Client { class AvatarVoiceArchiveEntry; }
 namespace RPG::Client { class BaseArchiveEntry; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class VoiceAtlasRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define RPG_CLIENT_AVATARVOICEARCHIVEENTRY_CANUNLOCKED_OFFSET UNITYSDK_OFFSET(0xC7175E0)
 #define RPG_CLIENT_AVATARVOICEARCHIVEENTRY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xC717CD0)
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARVOICEARCHIVEENTRY_GETVOICECONTENT_OFFSET))(this);
 		}
 
-		::System::UInt32 PostVoice(::System::Action* a1, ::RPG::GameCore::GameEntity* a2)
+		::System::UInt32 PostVoice(::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* a1, ::RPG::GameCore::GameEntity* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Action*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARVOICEARCHIVEENTRY_POSTVOICE_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARVOICEARCHIVEENTRY_POSTVOICE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void StopPlayingVoice(::System::UInt32 a1, ::RPG::GameCore::GameEntity* a2)

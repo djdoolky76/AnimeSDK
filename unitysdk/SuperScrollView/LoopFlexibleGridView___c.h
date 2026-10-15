@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9A5D00)
@@ -16,9 +16,9 @@ namespace SuperScrollView
 	class LoopFlexibleGridView___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__35_0()
+		static ::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>** StaticGet___9__35_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("SuperScrollView", "<>c")->GetStaticField(0xFAB0);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>**)UnitySDK::FromName("SuperScrollView", "<>c")->GetStaticField(0xFAB0);
 		}
 
 		static ::System::Object** StaticGet___9()

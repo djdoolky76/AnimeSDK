@@ -3,7 +3,7 @@
 #include "unitysdk/BEGMOOECOJP_HIEABJPILLF.h"
 #include "unitysdk/RPG/Client/LittleGame/Match3/ChessBoardState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BHMEPBAGOFF;
 class BOMFGKDLHIB;
 class FDPALAEIHPB;
@@ -74,7 +74,7 @@ inline static constexpr unsigned int BEGMOOECOJP_TypeDefinitionIndex = 76598;
 		::System::Byte _padding0[0x3];
 		::System::Single JJOLOEIBHEJ; // 0x60
 		::System::Single IDPGGDOHHBP; // 0x64
-		::System::ValueTuple OGDDILKKOGB; // 0x68
+		::System::ValueTuple_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> OGDDILKKOGB; // 0x68
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::BOMFGKDLHIB* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*, ::BOMFGKDLHIB*))((::PBYTE)hIl2Cpp + BEGMOOECOJP_CTOR_OFFSET))(this, a1, a2);
@@ -250,9 +250,9 @@ inline static constexpr unsigned int BEGMOOECOJP_TypeDefinitionIndex = 76598;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEGMOOECOJP_BOGPCCIMMMP_OFFSET))(this);
 		}
 
-		::System::Boolean AKONDIMDIFB(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Boolean AKONDIMDIFB(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + BEGMOOECOJP_AKONDIMDIFB_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + BEGMOOECOJP_AKONDIMDIFB_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DPNDADDJHCO()

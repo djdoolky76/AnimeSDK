@@ -4,7 +4,8 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
 namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateVerificationDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateVerificationDialog; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -41,8 +42,8 @@ namespace MiHoYo::SDK::Console::UI::OS
 	class ConsoleAgeGateVerificationDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		::System::Action* _OnNextButtonPressed_k__BackingField; // 0xC0
-		::System::Action* _OnClosed_k__BackingField; // 0xC8
+		::System::Action_3<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*, ::System::Int32, ::System::Int32>* _OnNextButtonPressed_k__BackingField; // 0xC0
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*>* _OnClosed_k__BackingField; // 0xC8
 		::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateVerificationDialog_DropDownInteraction dropDownMonth; // 0xD0
 		::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateVerificationDialog_DropDownInteraction dropDownYear; // 0xE8
 		::UnityEngine::UI::Button* confirmBirthdayButton; // 0x100
@@ -74,24 +75,24 @@ namespace MiHoYo::SDK::Console::UI::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnNextButtonPressed()
+		::System::Action_3<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*, ::System::Int32, ::System::Int32>* get_OnNextButtonPressed()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_GET_ONNEXTBUTTONPRESSED_OFFSET))(this);
+			return ((::System::Action_3<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*, ::System::Int32, ::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_GET_ONNEXTBUTTONPRESSED_OFFSET))(this);
 		}
 
-		::System::Void set_OnNextButtonPressed(::System::Action* a1)
+		::System::Void set_OnNextButtonPressed(::System::Action_3<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*, ::System::Int32, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_SET_ONNEXTBUTTONPRESSED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*, ::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_SET_ONNEXTBUTTONPRESSED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnClosed()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*>* get_OnClosed()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_GET_ONCLOSED_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_GET_ONCLOSED_OFFSET))(this);
 		}
 
-		::System::Void set_OnClosed(::System::Action* a1)
+		::System::Void set_OnClosed(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_SET_ONCLOSED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateVerificationDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_SET_ONCLOSED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Interactable()

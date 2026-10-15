@@ -4,9 +4,9 @@
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Action; }
 namespace System { class IDisposable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationTokenSource; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
@@ -25,9 +25,9 @@ namespace Cysharp::Threading::Tasks
 	class CancellationTokenSourceExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_CancelCancellationTokenSourceStateDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_CancelCancellationTokenSourceStateDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenSourceExtensions")->GetStaticField(0x3ECD0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenSourceExtensions")->GetStaticField(0x3ECD0);
 		}
 
 		static ::System::Void _cctor()

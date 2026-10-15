@@ -9,9 +9,11 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftDiyMechatronEditVie
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftDiyMechatronListViewModel; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftDiySignal; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftDiyViewEvent; }
+namespace RPG::Client::MechCraft::ViewModel { template <typename T> class MechCraftDiySignal_1; }
 namespace System { class Action; }
 namespace System { class IDisposable; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD67E640)
 #define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD67F200)
@@ -47,7 +49,7 @@ namespace RPG::Client::MechCraft::ViewModel
 		::CEEGMMCFCBG* _ExitPreviewCommand_k__BackingField; // 0x20
 		::CEEGMMCFCBG* _PreviewCommand_k__BackingField; // 0x28
 		::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronEditViewModel* _MechatronEdit_k__BackingField; // 0x30
-		::RPG::Client::MechCraft::ViewModel::MechCraftDiySignal* _ViewEvent; // 0x38
+		::RPG::Client::MechCraft::ViewModel::MechCraftDiySignal_1<::RPG::Client::MechCraft::ViewModel::MechCraftDiyViewEvent*>* _ViewEvent; // 0x38
 		::EABFLAJLMHM* _GameSessionService; // 0x40
 		::RPG::Client::MechCraft::ViewModel::MechCraftDiyMechatronEditViewModel* _MechatronEdit; // 0x48
 		::CEEGMMCFCBG* _ConfirmExitCommand_k__BackingField; // 0x50
@@ -119,9 +121,9 @@ namespace RPG::Client::MechCraft::ViewModel
 			return ((::System::IDisposable*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYVIEWMODEL_SUBSCRIBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::IDisposable* SubscribeViewEvent(::System::Action* a1)
+		::System::IDisposable* SubscribeViewEvent(::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftDiyViewEvent*>* a1)
 		{
-			return ((::System::IDisposable*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYVIEWMODEL_SUBSCRIBEVIEWEVENT_OFFSET))(this, a1);
+			return ((::System::IDisposable*(*)(::PVOID, ::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftDiyViewEvent*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYVIEWMODEL_SUBSCRIBEVIEWEVENT_OFFSET))(this, a1);
 		}
 
 		::System::Void _UpdateMechatronItem()

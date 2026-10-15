@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
-namespace Cysharp::Threading::Tasks { class Channel; }
+namespace Cysharp::Threading::Tasks { template <typename T> class Channel_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
 
@@ -16,7 +16,7 @@ namespace Cysharp::Threading::Tasks::Linq
 	public:
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T>* source; // 0x0
 		::System::Threading::CancellationToken cancellationToken; // 0x0
-		::Cysharp::Threading::Tasks::Channel* channel; // 0x0
+		::Cysharp::Threading::Tasks::Channel_1<T>* channel; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<T>* channelEnumerator; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<T>* sourceEnumerator; // 0x0
 		::System::Boolean channelClosed; // 0x0

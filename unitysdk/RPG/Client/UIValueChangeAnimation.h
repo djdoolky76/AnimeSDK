@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/UIValueChangeMode.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class AnimationCurve; }
 
@@ -43,7 +44,7 @@ namespace RPG::Client
 		::System::Single _TimeRatioStep; // 0x44
 		::System::Single _ValueChangeMultiper; // 0x48
 		::System::Single _CurValue; // 0x4C
-		::System::Action* _OnValueChangeCallback; // 0x50
+		::System::Action_1<::System::Single>* _OnValueChangeCallback; // 0x50
 		::System::Action* _OnFnishCallback; // 0x58
 		::System::Collections::Generic::Queue_1<::System::Action*>* _AnimSequence; // 0x60
 		::System::Collections::Generic::Queue_1<::System::Single>* _EndValueQueue; // 0x68
@@ -93,9 +94,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVALUECHANGEANIMATION_SETSHIFTRATIO_OFFSET))(this, a1);
 		}
 
-		::System::Void SetValueChangeCallback(::System::Action* a1)
+		::System::Void SetValueChangeCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVALUECHANGEANIMATION_SETVALUECHANGECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIVALUECHANGEANIMATION_SETVALUECHANGECALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void SetFinishCallback(::System::Action* a1)

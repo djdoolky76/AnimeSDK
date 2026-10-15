@@ -6,7 +6,7 @@ class NDDFLGNNMDK;
 class PEEDLCHFAFL;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define BPPHFLLDFGA_CTOR_OFFSET UNITYSDK_OFFSET(0xC1AF610)
 #define BPPHFLLDFGA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC1AFA10)
@@ -25,8 +25,8 @@ inline static constexpr unsigned int BPPHFLLDFGA_TypeDefinitionIndex = 76950;
 	public:
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
-		::Entitas::IGroup* ENDGPFOHHDF; // 0x20
-		::Entitas::IGroup* PCLEPNJNFOB; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* ENDGPFOHHDF; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* PCLEPNJNFOB; // 0x28
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::NDDFLGNNMDK*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + BPPHFLLDFGA_CTOR_OFFSET))(this, a1, a2);

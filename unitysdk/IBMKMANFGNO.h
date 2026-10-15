@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueMagicMountType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DNLKMHLAPHC;
 class LDKMOFFMGEL;
 class OKCCLEEPELM;
@@ -32,7 +32,7 @@ inline static constexpr unsigned int IBMKMANFGNO_TypeDefinitionIndex = 67419;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* BKADBEIPNJC; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* LMKAMANCJOD; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>, ::System::UInt32>* LMKAMANCJOD; // 0x18
 		::RPG::Client::RogueMagicScepterDataItem* PAKNADCNPMB; // 0x20
 		::RPG::Client::RogueMagicScepterInfo* OLOCIGECHBG; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* MHCEPJECNGO; // 0x30
@@ -66,9 +66,9 @@ inline static constexpr unsigned int IBMKMANFGNO_TypeDefinitionIndex = 67419;
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::LDKMOFFMGEL*>*))((::PBYTE)hIl2Cpp + IBMKMANFGNO_LNJBKOHLEDO_OFFSET))(this, a1);
 		}
 
-		::System::Void PHCNFKPFCOM(::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* a1, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* a2, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* a3)
+		::System::Void PHCNFKPFCOM(::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* a1, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* a2, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>, ::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>*, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>*))((::PBYTE)hIl2Cpp + IBMKMANFGNO_PHCNFKPFCOM_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>*, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>, ::System::UInt32>*))((::PBYTE)hIl2Cpp + IBMKMANFGNO_PHCNFKPFCOM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* GetLockedUnits()

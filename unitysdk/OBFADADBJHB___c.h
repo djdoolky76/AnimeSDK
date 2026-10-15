@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class HIOEAKHGILF;
 class OBFADADBJHB;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define OBFADADBJHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD3D020)
 #define OBFADADBJHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD3D050)
@@ -16,9 +16,9 @@ inline static constexpr unsigned int OBFADADBJHB___c_TypeDefinitionIndex = 76886
 	class OBFADADBJHB___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C470);
+			return (::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C470);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -26,9 +26,9 @@ inline static constexpr unsigned int OBFADADBJHB___c_TypeDefinitionIndex = 76886
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C478);
 		}
 
-		static ::System::Action** StaticGet___9__6_1()
+		static ::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>** StaticGet___9__6_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C480);
+			return (::System::Action_2<::OBFADADBJHB*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C480);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 class BABNOKHOBCF;
 class INMMPMDELKE;
 class MNCOPNHONHO;
-namespace Entitas { class ICollector; }
+namespace Entitas { template <typename T> class ICollector_1; }
 
 #define FLEKJOODOBH_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0x1582EE20)
 #define FLEKJOODOBH_CILFPIOIIEH_OFFSET UNITYSDK_OFFSET(0x1582F5E0)
@@ -23,7 +23,7 @@ inline static constexpr unsigned int FLEKJOODOBH_TypeDefinitionIndex = 76756;
 	public:
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x50
 		::BABNOKHOBCF* FKINCGODJEP; // 0x58
-		::Entitas::ICollector* BEIOPDMNDIN; // 0x60
+		::Entitas::ICollector_1<::INMMPMDELKE*>* BEIOPDMNDIN; // 0x60
 		::System::Void _ctor(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::BABNOKHOBCF*, ::MNCOPNHONHO*))((::PBYTE)hIl2Cpp + FLEKJOODOBH_CTOR_OFFSET))(this, a1, a2);

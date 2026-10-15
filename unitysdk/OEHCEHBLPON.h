@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AGJHAIDADBA.h"
 #include "unitysdk/FKDIDBGBGMF.h"
+#include "unitysdk/System/Nullable_1.h"
 class MOAAMGJICCD;
 class OFBJPFPNFBP;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define OEHCEHBLPON_CFCIDJOPDCM_OFFSET UNITYSDK_OFFSET(0xBE2CE50)
@@ -22,9 +22,9 @@ inline static constexpr unsigned int OEHCEHBLPON_TypeDefinitionIndex = 48913;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OEHCEHBLPON_CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Nullable*>* CFCIDJOPDCM(::FKDIDBGBGMF a1, ::FKDIDBGBGMF a2, ::System::Single a3, ::System::Single a4, ::OFBJPFPNFBP* a5)
+		::System::Collections::Generic::IEnumerator_1<::System::Nullable_1<::System::Boolean>>* CFCIDJOPDCM(::FKDIDBGBGMF a1, ::FKDIDBGBGMF a2, ::System::Single a3, ::System::Single a4, ::OFBJPFPNFBP* a5)
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Nullable*>*(*)(::PVOID, ::FKDIDBGBGMF, ::FKDIDBGBGMF, ::System::Single, ::System::Single, ::OFBJPFPNFBP*))((::PBYTE)hIl2Cpp + OEHCEHBLPON_CFCIDJOPDCM_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Nullable_1<::System::Boolean>>*(*)(::PVOID, ::FKDIDBGBGMF, ::FKDIDBGBGMF, ::System::Single, ::System::Single, ::OFBJPFPNFBP*))((::PBYTE)hIl2Cpp + OEHCEHBLPON_CFCIDJOPDCM_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void KIHMEBLNKBI(::MOAAMGJICCD* a1, ::OFBJPFPNFBP* a2)

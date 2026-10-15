@@ -4,7 +4,7 @@
 class GHHJNCOAIJF;
 class GHHJNCOAIJF_KKHGKLOBDFN;
 class IHGIENOHBMJ;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -88,14 +88,14 @@ inline static constexpr unsigned int GHHJNCOAIJF_TypeDefinitionIndex = 69349;
 			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF_NFPOGGJPJCJ_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* IDOCGNIBDFE(::GHHJNCOAIJF_KKHGKLOBDFN* a1)
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* IDOCGNIBDFE(::GHHJNCOAIJF_KKHGKLOBDFN* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GHHJNCOAIJF_KKHGKLOBDFN*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF_IDOCGNIBDFE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID, ::GHHJNCOAIJF_KKHGKLOBDFN*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF_IDOCGNIBDFE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* JHMOBDBNAEO(::System::UInt32 a1, ::GHHJNCOAIJF_KKHGKLOBDFN* a2)
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* JHMOBDBNAEO(::System::UInt32 a1, ::GHHJNCOAIJF_KKHGKLOBDFN* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::GHHJNCOAIJF_KKHGKLOBDFN*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF_JHMOBDBNAEO_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID, ::System::UInt32, ::GHHJNCOAIJF_KKHGKLOBDFN*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF_JHMOBDBNAEO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void BHEGPAJAJPB(::System::Object* a1)

@@ -4,7 +4,7 @@
 class AFEPOFEOCDI;
 class OCPOIDCNJDA;
 class OMPCEECHGJK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class Object; }
 
 #define KMEICGJMIFP_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0xB545020)
@@ -25,7 +25,7 @@ inline static constexpr unsigned int KMEICGJMIFP_TypeDefinitionIndex = 76664;
 	{
 	public:
 		::OMPCEECHGJK* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* LLIMLCCEBAH; // 0x18
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* LLIMLCCEBAH; // 0x18
 		::AFEPOFEOCDI* FKINCGODJEP; // 0x20
 		::System::Boolean JBDHLNBBAAJ; // 0x28
 		::System::Boolean BFEBAPJBGHE; // 0x29

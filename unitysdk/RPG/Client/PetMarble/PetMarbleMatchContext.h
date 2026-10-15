@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityMarble/MarblePVPMatchContext.h"
 #include "unitysdk/RPG/Client/ActivityMarble/MarblePVPMode.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class GFHCKBHCNDF;
 class LMLNNHKJEIP;
 class PJMGBLIFDFP;
@@ -49,7 +49,7 @@ namespace RPG::Client::PetMarble
 	{
 	public:
 		::RPG::Client::PetMarble::Level::IPetMarbleLevelMode* _LevelMode; // 0x88
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::MarbleBall*>* _BallInfoDict; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MarbleBall*>* _BallInfoDict; // 0x90
 		::RPG::Client::Promises::Promise* _InitReadyPromise; // 0x98
 		::RPG::Client::ActivityMarble::IMarblePlayer* _CoopPlayer_k__BackingField; // 0xA0
 		::System::Void _ctor(::RPG::Client::ActivityMarble::MarblePVPMode a1)

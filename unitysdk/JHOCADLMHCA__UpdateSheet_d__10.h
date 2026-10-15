@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
-#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
+#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter_1.h"
 class JHOCADLMHCA;
 namespace System { class Object; }
 namespace System { class String; }
@@ -21,7 +21,7 @@ inline static constexpr unsigned int JHOCADLMHCA__UpdateSheet_d__10_TypeDefiniti
 		::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x18
 		::System::String* docID; // 0x20
 		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x28
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x40
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x40
 		::System::String* resource; // 0x48
 		::System::String* sheetID; // 0x50
 		::System::Object* __u__3; // 0x58

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class FOOIINCDBFA;
 namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class ST_Main_Escape; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Nullable; }
 
 #define EHMJNMOEENI_BAHPLEGJEGK_OFFSET UNITYSDK_OFFSET(0x154B4D00)
 #define EHMJNMOEENI_BEPBDGBNNBC_OFFSET UNITYSDK_OFFSET(0x154B4840)
@@ -36,7 +36,7 @@ inline static constexpr unsigned int EHMJNMOEENI_TypeDefinitionIndex = 52204;
 		::System::Boolean MFLJDCOCICI; // 0x44
 		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 DNNLBGCHGEI; // 0x48
-		::System::Nullable* LFIELBMBEFM; // 0x54
+		::System::Nullable_1<::UnityEngine::Vector3> LFIELBMBEFM; // 0x54
 		::System::Byte _padding1[0x8];
 		::UnityEngine::Vector3 CNIOPJHPIIJ; // 0x64
 		::System::Single LGPDOMJLANJ; // 0x70
@@ -86,9 +86,9 @@ inline static constexpr unsigned int EHMJNMOEENI_TypeDefinitionIndex = 52204;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EHMJNMOEENI_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* IPIIKGMKMCA(::RPG::GameCore::TransformComponent* a1)
+		::System::Nullable_1<::System::Single> IPIIKGMKMCA(::RPG::GameCore::TransformComponent* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::TransformComponent*))((::PBYTE)hIl2Cpp + EHMJNMOEENI_IPIIKGMKMCA_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::RPG::GameCore::TransformComponent*))((::PBYTE)hIl2Cpp + EHMJNMOEENI_IPIIKGMKMCA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean FEKFKEPEKHC()

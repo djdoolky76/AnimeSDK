@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class AKPHPMPKCHB;
 class IAJGGEMFOMB;
@@ -9,7 +10,6 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftChipMoldControl; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftEditGamepadControlBinder; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftPlacedChipPieceControl; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -92,7 +92,7 @@ namespace RPG::Client::MechCraft::View
 		::System::Boolean LPLAJFFEFJC; // 0x61
 		::System::Byte _padding0[0x6];
 		::System::Collections::Generic::HashSet_1<::System::Int32>* LOAMBGJEDHJ; // 0x68
-		::System::Nullable* KIDAHCLLOFB; // 0x70
+		::System::Nullable_1<::System::Object*> KIDAHCLLOFB; // 0x70
 		::System::Boolean PHKHNDELLMK; // 0x78
 		::System::Boolean MFKODCOJDJD; // 0x79
 		::System::Void _ctor()
@@ -160,14 +160,14 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITGAMEPADCONTROL_GINKOGAHBBL_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* ICMHDKOICNL()
+		::System::Nullable_1<::System::Object*> ICMHDKOICNL()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITGAMEPADCONTROL_ICMHDKOICNL_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITGAMEPADCONTROL_ICMHDKOICNL_OFFSET))(this);
 		}
 
-		::System::Void LEMNFLHCMFE(::System::Nullable* a1)
+		::System::Void LEMNFLHCMFE(::System::Nullable_1<::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITGAMEPADCONTROL_LEMNFLHCMFE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITGAMEPADCONTROL_LEMNFLHCMFE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean JNBLCOFFGCH()

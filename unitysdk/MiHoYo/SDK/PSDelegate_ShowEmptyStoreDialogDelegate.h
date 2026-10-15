@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PSDELEGATE_SHOWEMPTYSTOREDIALOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF80D00)
 #define MIHOYO_SDK_PSDELEGATE_SHOWEMPTYSTOREDIALOGDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF80C80)
@@ -24,14 +24,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_SHOWEMPTYSTOREDIALOGDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Action* a1)
+		::System::Void Invoke(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_SHOWEMPTYSTOREDIALOGDELEGATE_INVOKE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_SHOWEMPTYSTOREDIALOGDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Action* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		::System::IAsyncResult* BeginInvoke(::System::Action_1<::System::String*>* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_SHOWEMPTYSTOREDIALOGDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_SHOWEMPTYSTOREDIALOGDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* a1)

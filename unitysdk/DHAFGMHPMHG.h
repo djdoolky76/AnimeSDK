@@ -7,9 +7,9 @@ class ELDOKLOMKNL;
 class HIAMBDKHMIJ;
 class KGPCBBIOGLB;
 class MOPLONAJDAE;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections { class IList; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -46,7 +46,7 @@ inline static constexpr unsigned int DHAFGMHPMHG_TypeDefinitionIndex = 59580;
 	public:
 		::ELDOKLOMKNL* BMFABNKOJOH; // 0x30
 		::ELDOKLOMKNL* BBPEKIMGMPB; // 0x38
-		::System::Action* FMEEHKGMCLC; // 0x40
+		::System::Action_2<::KGPCBBIOGLB*, ::System::Object*>* FMEEHKGMCLC; // 0x40
 		::ELDOKLOMKNL* DAOALNEFLLF; // 0x48
 		::MOPLONAJDAE* LKBKDNAMNEG; // 0x50
 		::System::Collections::Generic::List_1<::System::Object*>* MGKGJHOGBOF; // 0x58

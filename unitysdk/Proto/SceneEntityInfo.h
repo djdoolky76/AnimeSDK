@@ -10,8 +10,8 @@ class KBDOJBJDMOI;
 class NPEHFAHLDNM;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class SceneEntityInfo; }
 namespace System { class Object; }
@@ -66,9 +66,9 @@ namespace Proto
 		::System::UInt32 groupId_; // 0x2C
 		::Proto::SceneEntityInfo_EntityOneofCase entityCase_; // 0x30
 		::System::UInt32 entityId_; // 0x34
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::SceneEntityInfo*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "SceneEntityInfo")->GetStaticField(0x18140);
+			return (::Google::Protobuf::MessageParser_1<::Proto::SceneEntityInfo*>**)UnitySDK::FromName("Proto", "SceneEntityInfo")->GetStaticField(0x18140);
 		}
 
 		// static const ::System::Object InstIdFieldNumber; // 0x0
@@ -95,9 +95,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::SceneEntityInfo*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::SceneEntityInfo*>*(*)())((::PBYTE)hIl2Cpp + PROTO_SCENEENTITYINFO_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

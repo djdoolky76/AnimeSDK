@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OMNEDLJOPNM.h"
 #include "unitysdk/RPG/GameCore/CakeRaceTargetLockStatus.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class ENDBKLKOBFP;
 class IFBFJDCECML;
 class NKGAIPKINJE;
@@ -29,12 +29,12 @@ inline static constexpr unsigned int OOCLABBPIGD_TypeDefinitionIndex = 37240;
 	class OOCLABBPIGD : public ::OMNEDLJOPNM
 	{
 	public:
-		::System::ValueTuple IFMMJDPGEKL; // 0x20
+		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> IFMMJDPGEKL; // 0x20
 		::System::Byte _padding0[0x4];
-		::System::ValueTuple FHOPKHBANGA; // 0x2C
-		static ::System::ValueTuple* StaticGet_ACDAPIGIJNL()
+		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> FHOPKHBANGA; // 0x2C
+		static ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>* StaticGet_ACDAPIGIJNL()
 		{
-			return (::System::ValueTuple*)UnitySDK::FromName("", "OOCLABBPIGD")->GetStaticField(0x6290);
+			return (::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>*)UnitySDK::FromName("", "OOCLABBPIGD")->GetStaticField(0x6290);
 		}
 
 		::System::Void _ctor()
@@ -77,9 +77,9 @@ inline static constexpr unsigned int OOCLABBPIGD_TypeDefinitionIndex = 37240;
 			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceTargetLockStatus, ::System::Int32>*(*)(::PVOID, ::PBGNKMMDBGD*))((::PBYTE)hIl2Cpp + OOCLABBPIGD_GBMJLLGNCHM_OFFSET))(this, a1);
 		}
 
-		::NKGAIPKINJE* CABDHIDNJOA(::System::ValueTuple a1)
+		::NKGAIPKINJE* CABDHIDNJOA(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> a1)
 		{
-			return ((::NKGAIPKINJE*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + OOCLABBPIGD_CABDHIDNJOA_OFFSET))(this, a1);
+			return ((::NKGAIPKINJE*(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + OOCLABBPIGD_CABDHIDNJOA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean PBJLLKIPLIB(::PBGNKMMDBGD* a1, ::IFBFJDCECML* a2)

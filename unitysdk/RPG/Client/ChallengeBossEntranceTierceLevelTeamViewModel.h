@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client { class IChallengeBossEntranceLevelTeamViewModel; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSENTRANCETIERCELEVELTEAMVIEWMODEL_GET_ISPASSED_OFFSET))(this);
 		}
 
-		::System::Nullable* get_Score()
+		::System::Nullable_1<::System::Int32> get_Score()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSENTRANCETIERCELEVELTEAMVIEWMODEL_GET_SCORE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSENTRANCETIERCELEVELTEAMVIEWMODEL_GET_SCORE_OFFSET))(this);
 		}
 
 		static ::RPG::Client::IChallengeBossEntranceLevelTeamViewModel* Create(::RPG::Client::ChallengeGroupData* a1, ::System::Int32 a2)

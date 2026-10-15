@@ -11,8 +11,8 @@ class MJNGFEGNCOA;
 class OAEMFJJJMBM;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KAOOFGPIBGF_ACAGCCEGDKF_OFFSET UNITYSDK_OFFSET(0xB2E5EF0)
@@ -70,8 +70,8 @@ inline static constexpr unsigned int KAOOFGPIBGF_TypeDefinitionIndex = 54048;
 	class KAOOFGPIBGF : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::System::Action* COIGHDDPKPB; // 0x18
-		::System::Action* HPNACLGCGPB; // 0x20
+		::System::Action_2<::RPG::GameCore::FixVec3, ::RPG::GameCore::FixVec3>* COIGHDDPKPB; // 0x18
+		::System::Action_2<::RPG::GameCore::FixVec3, ::RPG::GameCore::FixVec3>* HPNACLGCGPB; // 0x20
 		::RPG::GameCore::TransformComponent* PLJPNMPJMJH; // 0x28
 		::KAOOFGPIBGF* AFAEENOBHAI; // 0x30
 		::MFIIIBCBPPK* AKMELOFGCKM; // 0x38

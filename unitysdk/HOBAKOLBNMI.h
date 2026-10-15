@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -70,11 +70,11 @@ inline static constexpr unsigned int HOBAKOLBNMI_TypeDefinitionIndex = 78086;
 	public:
 		::JBACCAGFHON* PDENFEFCAGN; // 0x10
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector3Int, ::System::Int32>* GKNKDAOLLLP; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>* FDLICLPJHLM; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* FDLICLPJHLM; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* DLFMEJEHBEJ; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* AEHAFHBNEOI; // 0x30
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector3Int, ::System::Int32>* MDFLGELCBIF; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>* CIEDHCKINBH; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* CIEDHCKINBH; // 0x40
 		::System::Void _ctor(::JBACCAGFHON* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::JBACCAGFHON*))((::PBYTE)hIl2Cpp + HOBAKOLBNMI_CTOR_OFFSET))(this, a1);

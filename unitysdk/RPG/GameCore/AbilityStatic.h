@@ -47,6 +47,7 @@
 #include "unitysdk/RPG/GameCore/UseAbilityOption.h"
 #include "unitysdk/RPG/GameCore/WaveMonsterTiming.h"
 #include "unitysdk/RPG/GameCore/WeaknessFilterType.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/BGMFAGEMHOM.h"
 #include "unitysdk/CHMCAGBDPJH.h"
@@ -64,6 +65,7 @@
 #include "unitysdk/RPG/GameCore/AvatarIndex.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class CHHGFHIPHAE;
 class CKAGOCDOLOM;
 class CLHNNJKABAO;
@@ -129,12 +131,10 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace RPG::GameCore { class VCameraConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -474,9 +474,9 @@ namespace RPG::GameCore
 			return (::System::Text::StringBuilder**)UnitySDK::FromName("RPG.GameCore", "AbilityStatic")->GetStaticField(0x255C8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AbilityProperty, ::System::Collections::Generic::KeyValuePair*>** StaticGet_S_ExtraPropertiesValueScopeDefine()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AbilityProperty, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>>** StaticGet_S_ExtraPropertiesValueScopeDefine()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AbilityProperty, ::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("RPG.GameCore", "AbilityStatic")->GetStaticField(0x255D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AbilityProperty, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>>**)UnitySDK::FromName("RPG.GameCore", "AbilityStatic")->GetStaticField(0x255D0);
 		}
 
 		static ::System::Comparison_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet__ComparisonModifierPhase1Priority()
@@ -656,9 +656,9 @@ namespace RPG::GameCore
 			return ((::RPG::MVector3(*)(::RPG::GameCore::GameEntityList*, ::RPG::GameCore::EntityManager*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC_CALCTARGETLISTCENTERPOS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Nullable* CalcTaskTargetCameraPos(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TargetEvaluator* a2, ::System::Boolean a3, ::System::Boolean a4)
+		static ::System::Nullable_1<::RPG::MVector3> CalcTaskTargetCameraPos(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TargetEvaluator* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Nullable*(*)(::RPG::GameCore::TaskContext*, ::RPG::GameCore::TargetEvaluator*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC_CALCTASKTARGETCAMERAPOS_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Nullable_1<::RPG::MVector3>(*)(::RPG::GameCore::TaskContext*, ::RPG::GameCore::TargetEvaluator*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC_CALCTASKTARGETCAMERAPOS_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::RPG::MVector3 GetTargetTeamFormationCenterWorldPos(::RPG::GameCore::GameEntity* a1)
@@ -1936,9 +1936,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC_ISEXTRAPROPERTYENABLE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::KeyValuePair* GetExtraPropertiesValueScopeDefine(::RPG::GameCore::AbilityProperty a1)
+		static ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> GetExtraPropertiesValueScopeDefine(::RPG::GameCore::AbilityProperty a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::RPG::GameCore::AbilityProperty))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC_GETEXTRAPROPERTIESVALUESCOPEDEFINE_OFFSET))(a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::RPG::GameCore::AbilityProperty))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC_GETEXTRAPROPERTIESVALUESCOPEDEFINE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean HasExtraPropertiesKey(::RPG::GameCore::AbilityProperty a1)

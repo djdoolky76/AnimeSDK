@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/APLNKIAIFEA_MOODJBCCCPC.h"
+#include "unitysdk/System/Nullable_1.h"
 class AJPBKMBIGNC;
 class BDHINPLKOPK;
 class BFGMJKEJPNA;
@@ -18,8 +19,7 @@ class MONJFDPKFBA;
 class PJAPDCPOBGC;
 namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 
 #define APLNKIAIFEA_ADD_AGENDACOMPLETED_OFFSET UNITYSDK_OFFSET(0x15BB4230)
 #define APLNKIAIFEA_ANELIPPLCFA_OFFSET UNITYSDK_OFFSET(0x15BB1F60)
@@ -60,7 +60,7 @@ inline static constexpr unsigned int APLNKIAIFEA_TypeDefinitionIndex = 81807;
 		::KBKFLNHFHPF* APIINPIAPFI; // 0x30
 		::KMKEFPAJIPI* CEAAMGFCOLP; // 0x38
 		::RPG::Client::UIController* MMFEAJNJNCH; // 0x40
-		::System::Action* AgendaCompleted; // 0x48
+		::System::Action_1<::BFGMJKEJPNA*>* AgendaCompleted; // 0x48
 		::RPG::Client::UIController* OBDLCANHEGH; // 0x50
 		::BDHINPLKOPK* GKLKOIJJEKJ; // 0x58
 		::System::Boolean JGLJAMJKECE; // 0x60
@@ -109,9 +109,9 @@ inline static constexpr unsigned int APLNKIAIFEA_TypeDefinitionIndex = 81807;
 			return ((::System::UInt32(*)(::PVOID, ::MONJFDPKFBA*, ::System::UInt32))((::PBYTE)hIl2Cpp + APLNKIAIFEA_MKEAJNMAELO_OFFSET))(this, a1, a2);
 		}
 
-		::APLNKIAIFEA_MOODJBCCCPC KFKLGPALDGO(::JEFCEGFBOAF* a1, ::System::Nullable* a2)
+		::APLNKIAIFEA_MOODJBCCCPC KFKLGPALDGO(::JEFCEGFBOAF* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::APLNKIAIFEA_MOODJBCCCPC(*)(::PVOID, ::JEFCEGFBOAF*, ::System::Nullable*))((::PBYTE)hIl2Cpp + APLNKIAIFEA_KFKLGPALDGO_OFFSET))(this, a1, a2);
+			return ((::APLNKIAIFEA_MOODJBCCCPC(*)(::PVOID, ::JEFCEGFBOAF*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + APLNKIAIFEA_KFKLGPALDGO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void JADHFDFCEBD(::APLNKIAIFEA_MOODJBCCCPC a1)
@@ -159,14 +159,14 @@ inline static constexpr unsigned int APLNKIAIFEA_TypeDefinitionIndex = 81807;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + APLNKIAIFEA_LNIIGMDKJBC_OFFSET))(this, a1);
 		}
 
-		::System::Void add_AgendaCompleted(::System::Action* a1)
+		::System::Void add_AgendaCompleted(::System::Action_1<::BFGMJKEJPNA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + APLNKIAIFEA_ADD_AGENDACOMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::BFGMJKEJPNA*>*))((::PBYTE)hIl2Cpp + APLNKIAIFEA_ADD_AGENDACOMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_AgendaCompleted(::System::Action* a1)
+		::System::Void remove_AgendaCompleted(::System::Action_1<::BFGMJKEJPNA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + APLNKIAIFEA_REMOVE_AGENDACOMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::BFGMJKEJPNA*>*))((::PBYTE)hIl2Cpp + APLNKIAIFEA_REMOVE_AGENDACOMPLETED_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* _SelectDevelopPartAsync_b__4_0(::GIDPDEJAAED* a1)

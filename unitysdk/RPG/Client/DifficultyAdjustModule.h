@@ -3,10 +3,10 @@
 #include "unitysdk/CGOGDJKALMH.h"
 #include "unitysdk/JNECPMMFEKP.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 class AMKBFMCOIHK;
 class GCMJOOKAKGJ;
 namespace RPG::GameCore { class NPCComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -61,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIFFICULTYADJUSTMODULE_ISSTAGEDIFFICULTYADJUSTEASY_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GetEasyWorldLevel(::System::Nullable* a1)
+		::System::UInt32 GetEasyWorldLevel(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIFFICULTYADJUSTMODULE_GETEASYWORLDLEVEL_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIFFICULTYADJUSTMODULE_GETEASYWORLDLEVEL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean CanRaidAdjustDifficulty(::System::UInt32 a1, ::System::UInt32 a2)

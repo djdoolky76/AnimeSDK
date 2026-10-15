@@ -3,6 +3,7 @@
 #include "unitysdk/GBAEPOLFFMG.h"
 #include "unitysdk/GOPHGIHIDPP.h"
 #include "unitysdk/RPG/GameCore/StuffStats.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class BAEFMEJJIBI;
@@ -14,7 +15,6 @@ namespace RPG::Client { class MuseumExhibitItemData; }
 namespace RPG::Client { class MuseumPropertyData; }
 namespace RPG::Client { class MuseumStaffData; }
 namespace RPG::GameCore { class MuseumAreaConfigRow; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -76,16 +76,16 @@ namespace RPG::Client
 		::RPG::Client::MuseumData* _OwnerMuseum; // 0x18
 		::RPG::Client::MuseumPropertyData* _AreaRenewPoint_k__BackingField; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::MuseumExhibitItemData*>* _ExhibitStuffs_k__BackingField; // 0x28
-		::Il2CppArray<::System::Nullable*>* _PrePropertyDatasMaxCache; // 0x30
-		::Il2CppArray<::System::Nullable*>* _PrePropertyCurCache; // 0x38
+		::Il2CppArray<::System::Nullable_1<::System::Boolean>>* _PrePropertyDatasMaxCache; // 0x30
+		::Il2CppArray<::System::Nullable_1<::System::UInt32>>* _PrePropertyCurCache; // 0x38
 		::Il2CppArray<::RPG::Client::MuseumStaffData*>* _MuseumStaffDatas_k__BackingField; // 0x40
 		::Il2CppArray<::RPG::Client::MuseumPropertyData*>* _PropertyDatas_k__BackingField; // 0x48
 		::System::UInt32 _ID_k__BackingField; // 0x50
-		::System::Nullable* _PreRenewPointMaxCache; // 0x54
+		::System::Nullable_1<::System::Boolean> _PreRenewPointMaxCache; // 0x54
 		::System::Boolean _IsLock_k__BackingField; // 0x56
 		::System::Byte _padding0[0x1];
 		::System::Int32 _ExhibitStuffsMaxCount_k__BackingField; // 0x58
-		::System::Nullable* _PreRenewPointCurCache; // 0x5C
+		::System::Nullable_1<::System::UInt32> _PreRenewPointCurCache; // 0x5C
 		// static const ::System::Object _AREA_MAX_STAFF_COUNT; // 0x0
 		// static const ::System::Object _PROPERTY_NUM; // 0x0
 		::System::Void _ctor()

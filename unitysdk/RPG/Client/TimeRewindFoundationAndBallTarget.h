@@ -6,10 +6,10 @@
 #include "unitysdk/RPG/GameCore/TimeRewindState.h"
 #include "unitysdk/RPG/GameCore/TimeRewindView.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class DHAEANMEFLE;
 namespace RPG::Client { class EntityTimelineControlNode; }
 namespace RPG::GameCore { class FoundationAndBallBind; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_TIMEREWINDFOUNDATIONANDBALLTARGET_CANINTERACTWHENPAUSE_OFFSET UNITYSDK_OFFSET(0xE283680)
 #define RPG_CLIENT_TIMEREWINDFOUNDATIONANDBALLTARGET_CANTRIGGERPAUSE_OFFSET UNITYSDK_OFFSET(0xE2836C0)
@@ -260,9 +260,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::DHAEANMEFLE*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDFOUNDATIONANDBALLTARGET__INITSINGLEPROXYSTATE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _RefreshTrackInitState(::System::Nullable* a1)
+		::System::Void _RefreshTrackInitState(::System::Nullable_1<::RPG::GameCore::TimeRewindState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDFOUNDATIONANDBALLTARGET__REFRESHTRACKINITSTATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::TimeRewindState>))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDFOUNDATIONANDBALLTARGET__REFRESHTRACKINITSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void _TickRefreshCurrentRatio()

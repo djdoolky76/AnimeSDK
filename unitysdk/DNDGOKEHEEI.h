@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/LevelDimensionBakedInfo.h"
 #include "unitysdk/RPG/GameCore/LevelFeatureType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ADCHBAMFFON;
 class DNDGOKEHEEI;
 class FHNIMGBMPLN;
@@ -95,17 +95,17 @@ inline static constexpr unsigned int DNDGOKEHEEI_TypeDefinitionIndex = 74613;
 	{
 	public:
 		::ADCHBAMFFON* KCFLGALPFOC; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::MapEntityDef*>* IMFCHFJFAMA; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapEntityDef*>* IMFCHFJFAMA; // 0x18
 		::RPG::Client::MapRotationInfo* _MapRotationInfo_k__BackingField; // 0x20
 		::RPG::GameCore::LevelDimensionBakedInfo _DimensionBakedInfo_k__BackingField; // 0x28
 		::System::Collections::Generic::SortedList_2<::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*>* OFPPBAAEEFK; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::MapAnchorDef*>* AFMLPKBINBC; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapAnchorDef*>* AFMLPKBINBC; // 0x40
 		::DLKOJNFHEGG _MapFiveDimInfo_k__BackingField; // 0x48
 		::RPG::Client::FloorSavedData* _FloorSavedValues_k__BackingField; // 0x60
 		::RPG::GameCore::EraFlipperConfig* _EraFlipConfig_k__BackingField; // 0x68
 		::JEHPCNCCGFE* _FloorConstValues_k__BackingField; // 0x70
 		::FHNIMGBMPLN* _FloorBakedInfoConfig_k__BackingField; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int16>* HLDNJHMALDF; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::Int16>* HLDNJHMALDF; // 0x80
 		::RPG::GameCore::LevelFloorCrossMapBriefInfo* MBGFIIKDDOG; // 0x88
 		::System::String* _EnvironmentProfilePath_k__BackingField; // 0x90
 		::RPG::GameCore::LevelNavmapConfig* _NavmapConfig_k__BackingField; // 0x98
@@ -347,14 +347,14 @@ inline static constexpr unsigned int DNDGOKEHEEI_TypeDefinitionIndex = 74613;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + DNDGOKEHEEI_SET_HASLEVELLITTLEGAME_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapEntityDef*>* MCHHJJLGKIK()
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapEntityDef*>* MCHHJJLGKIK()
 		{
-			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapEntityDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DNDGOKEHEEI_MCHHJJLGKIK_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapEntityDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DNDGOKEHEEI_MCHHJJLGKIK_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapAnchorDef*>* OPGJGJCNPPN()
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapAnchorDef*>* OPGJGJCNPPN()
 		{
-			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapAnchorDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DNDGOKEHEEI_OPGJGJCNPPN_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapAnchorDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DNDGOKEHEEI_OPGJGJCNPPN_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::Int32>* CNHCHIBEMMA()

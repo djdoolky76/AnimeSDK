@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IMJAFIDKDKK.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 class DECMMBGLMFD;
@@ -10,7 +11,6 @@ class OJMPCBPFHHK;
 class OLMLKNCEDKN;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropButtonConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -70,15 +70,15 @@ inline static constexpr unsigned int HJCOLAEIJFM_TypeDefinitionIndex = 57340;
 		::DECMMBGLMFD* BGBFGGCLOEB; // 0x30
 		::OLMLKNCEDKN* OGAJCLDJHDN; // 0x38
 		::RPG::GameCore::GameEntity* ENOKJCEBDPK; // 0x40
-		::System::Nullable* APCLFILNMBD; // 0x48
+		::System::Nullable_1<::IMJAFIDKDKK> APCLFILNMBD; // 0x48
 		::System::Byte _padding0[0x3C];
 		::UnityEngine::Vector3 KMLEKAEAICC; // 0x8C
 		::System::Boolean BAOAALCLEAD; // 0x98
 		::System::Boolean EJAFNFCGALO; // 0x99
 		::System::Byte _padding1[0x2];
-		::System::Nullable* JLOAPLPHIMO; // 0x9C
+		::System::Nullable_1<::IMJAFIDKDKK> JLOAPLPHIMO; // 0x9C
 		::System::Byte _padding2[0x3C];
-		::System::Nullable* BPGNHCONBCA; // 0xE0
+		::System::Nullable_1<::IMJAFIDKDKK> BPGNHCONBCA; // 0xE0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJCOLAEIJFM_CTOR_OFFSET))(this);

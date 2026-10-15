@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/GameCore/RogueMagicScepterFuncType.h"
 #include "unitysdk/RPG/GameCore/RogueMagicStyleType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::Client { class RogueMagicScepterDataItem; }
 namespace RPG::Client { class RogueMagicUnitDataItem; }
@@ -34,7 +34,7 @@ inline static constexpr unsigned int FODFMFJGOKH_TypeDefinitionIndex = 67427;
 	class FODFMFJGOKH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::RogueMagicUnitDataItem*>* PCDLLMCECHI; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>, ::RPG::Client::RogueMagicUnitDataItem*>* PCDLLMCECHI; // 0x10
 		::RPG::Client::RogueMagicScepterDataItem* FEDGNIEMJNP; // 0x18
 		::System::Void _ctor()
 		{

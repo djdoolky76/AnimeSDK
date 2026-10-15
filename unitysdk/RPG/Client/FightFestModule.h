@@ -6,8 +6,9 @@
 #include "unitysdk/RPG/Client/FightFestChallengeResultInfo.h"
 #include "unitysdk/RPG/GameCore/ActivityRank.h"
 #include "unitysdk/RPG/GameCore/FightFestCoachType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/RPG/Client/FightFestProgress.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EPCNGNEEMBI;
 class LCGFKNIAMBE;
 class LPJOINCGBBP;
@@ -23,7 +24,6 @@ namespace RPG::Client { class FightFestRaceData; }
 namespace RPG::Client { class FightFestScoreRace; }
 namespace RPG::Client { class FightFestStageInfoData; }
 namespace RPG::Client { class SubMissionData; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -195,7 +195,7 @@ namespace RPG::Client
 		::System::UInt32 _UnlockChallengeQuestID; // 0xEC
 		::OGOJLBNJKCN _InBattleFightFestType_k__BackingField; // 0xF0
 		::System::UInt32 _InBattleFightFestEventID_k__BackingField; // 0xF4
-		::System::Nullable* _AutoShowChallengeLevelID; // 0xF8
+		::System::Nullable_1<::System::UInt32> _AutoShowChallengeLevelID; // 0xF8
 		::System::Boolean _IsFightFestDataReady; // 0x100
 		::System::Boolean _IsMissionDataReady; // 0x101
 		::System::Byte _padding0[0x2];
@@ -467,9 +467,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FightFestLineupSnapShot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTMODULE__RECORDLINEUPSAVEDATA_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _GetEventIDByRaceID(::System::UInt32 a1, ::System::UInt32 a2)
+		::System::ValueTuple_2<::System::Boolean, ::System::UInt32> _GetEventIDByRaceID(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTMODULE__GETEVENTIDBYRACEID_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::UInt32>(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTMODULE__GETEVENTIDBYRACEID_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _RecordLineupSaveData_1(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3)

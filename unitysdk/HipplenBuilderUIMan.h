@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class HipplenBuilderActivityAsset_Activity;
 class HipplenBuilderGameMan;
 class HipplenBuilderTestLineController;
 class HipplenBuilderTestModule;
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -113,9 +113,9 @@ inline static constexpr unsigned int HipplenBuilderUIMan_TypeDefinitionIndex = 4
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERUIMAN_CLOSEENDDAYPANEL_OFFSET))(this);
 		}
 
-		::System::Void OpenTakeTestPanel(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* a1)
+		::System::Void OpenTakeTestPanel(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Boolean>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERUIMAN_OPENTAKETESTPANEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Boolean>>*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERUIMAN_OPENTAKETESTPANEL_OFFSET))(this, a1);
 		}
 
 		::System::Void CloseTakeTestPanel()
@@ -123,9 +123,9 @@ inline static constexpr unsigned int HipplenBuilderUIMan_TypeDefinitionIndex = 4
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERUIMAN_CLOSETAKETESTPANEL_OFFSET))(this);
 		}
 
-		::System::Void AEPNNBDPFCA(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* a1)
+		::System::Void AEPNNBDPFCA(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Boolean>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERUIMAN_AEPNNBDPFCA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Boolean>>*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERUIMAN_AEPNNBDPFCA_OFFSET))(this, a1);
 		}
 
 		::System::Void OpenBuffSelectionPanel(::System::Collections::Generic::List_1<::System::Object*>* a1)

@@ -5,9 +5,9 @@
 namespace RPG::Client { class CameraDecalRaycast; }
 namespace RPG::Client { class FreeDecal; }
 namespace RPG::Client { class PhotoGraphDecalContainer_PhotoGraphDecalContainerInitParam; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -90,8 +90,8 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::FreeDecal*>* _DecalList; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Texture*>* _DecalTexsDict; // 0x60
 		::RPG::Client::FreeDecal* _PreviewDecal; // 0x68
-		::System::Action* _PreviewStateChangeHandler; // 0x70
-		::System::Action* _DecalCountChangeHandler; // 0x78
+		::System::Action_1<::System::Boolean>* _PreviewStateChangeHandler; // 0x70
+		::System::Action_1<::System::Int32>* _DecalCountChangeHandler; // 0x78
 		// static const ::System::Object _DefaultRenderQueueIndex; // 0x0
 		::System::Void _ctor()
 		{
@@ -128,14 +128,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHDECALCONTAINER_SHOWPREVIEWDECAL_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterPreviewStateHandler(::System::Action* a1)
+		::System::Void RegisterPreviewStateHandler(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHDECALCONTAINER_REGISTERPREVIEWSTATEHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHDECALCONTAINER_REGISTERPREVIEWSTATEHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterDecalCountChangeHandler(::System::Action* a1)
+		::System::Void RegisterDecalCountChangeHandler(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHDECALCONTAINER_REGISTERDECALCOUNTCHANGEHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHDECALCONTAINER_REGISTERDECALCOUNTCHANGEHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetDecalCount()

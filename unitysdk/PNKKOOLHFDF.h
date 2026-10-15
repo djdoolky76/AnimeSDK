@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MDILEMALGNC.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -24,7 +25,6 @@ namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace RPG::GameCore { class CameraLookAtScreenRange; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Transform; }
@@ -109,25 +109,25 @@ inline static constexpr unsigned int PNKKOOLHFDF_TypeDefinitionIndex = 69624;
 		::System::Boolean JFPBBHGKGCE; // 0xA2
 		::System::Boolean MNKCNHKKFNF; // 0xA3
 		::System::Single HKJAMEOACDH; // 0xA4
-		::System::Nullable* FFCMIHDOPMG; // 0xA8
+		::System::Nullable_1<::UnityEngine::Vector3> FFCMIHDOPMG; // 0xA8
 		::System::Byte _padding0[0x8];
 		::UnityEngine::Vector3 HLIPOOBEBPF; // 0xB8
 		::System::Single COPDHEOMBCJ; // 0xC4
 		::System::Single KGDNDAABJCB; // 0xC8
 		::UnityEngine::Vector2 BAFBMONEKFK; // 0xCC
 		::UnityEngine::Vector2 OCAACIPNMPG; // 0xD4
-		::System::Nullable* JENNOFNOJKP; // 0xDC
+		::System::Nullable_1<::UnityEngine::Vector3> JENNOFNOJKP; // 0xDC
 		::System::Byte _padding1[0x8];
 		::UnityEngine::Vector3 FPJBNBPODIM; // 0xEC
 		::System::Single KJBHJKNKNIJ; // 0xF8
 		::System::Single NLPLGIIJOAH; // 0xFC
 		::System::Single ANNDLHEEEPN; // 0x100
-		::System::Nullable* KJGLNGABFDD; // 0x104
+		::System::Nullable_1<::UnityEngine::Vector3> KJGLNGABFDD; // 0x104
 		::System::Byte _padding2[0x8];
-		::System::Nullable* ICLEIANBBDB; // 0x114
+		::System::Nullable_1<::UnityEngine::Vector3> ICLEIANBBDB; // 0x114
 		::System::Byte _padding3[0x8];
-		::System::Nullable* HBKLMHBGDED; // 0x124
-		::System::Nullable* HKHNIHJLCKL; // 0x12C
+		::System::Nullable_1<::System::Single> HBKLMHBGDED; // 0x124
+		::System::Nullable_1<::System::Single> HKHNIHJLCKL; // 0x12C
 		::UnityEngine::Vector3 IFCIKDIAEJI; // 0x134
 		::System::Single AIKGBIGEAHA; // 0x140
 		::System::Boolean HHLNFCDJCNN; // 0x144
@@ -138,14 +138,14 @@ inline static constexpr unsigned int PNKKOOLHFDF_TypeDefinitionIndex = 69624;
 		::System::Boolean HDJOGGDMCIO; // 0x149
 		::System::Byte _padding4[0x2];
 		::System::Single BBPBALFKOHJ; // 0x14C
-		::System::Nullable* LENOGLFFFEH; // 0x150
+		::System::Nullable_1<::UnityEngine::Vector3> LENOGLFFFEH; // 0x150
 		::System::Byte _padding5[0x8];
-		::System::Nullable* AMOLNHCPMPM; // 0x160
+		::System::Nullable_1<::UnityEngine::Vector3> AMOLNHCPMPM; // 0x160
 		::System::Byte _padding6[0x8];
-		::System::Nullable* MPELHKKHEKK; // 0x170
+		::System::Nullable_1<::UnityEngine::Vector3> MPELHKKHEKK; // 0x170
 		::System::Byte _padding7[0x8];
-		::System::Nullable* OHIBIHBOLCD; // 0x180
-		::System::Nullable* IDCDAFOGKOM; // 0x188
+		::System::Nullable_1<::System::Single> OHIBIHBOLCD; // 0x180
+		::System::Nullable_1<::UnityEngine::Vector3> IDCDAFOGKOM; // 0x188
 		// static const ::System::Object CMJFBNNPGJM; // 0x0
 		// static const ::System::Object MFLFAEKOJIH; // 0x0
 		// static const ::System::Object MFKPKJILHOJ; // 0x0
@@ -385,9 +385,9 @@ inline static constexpr unsigned int PNKKOOLHFDF_TypeDefinitionIndex = 69624;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNKKOOLHFDF_NBJDLAELNIG_OFFSET))(this);
 		}
 
-		::System::Nullable* JAGCGLBKAAG(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::UnityEngine::LayerMask a5)
+		::System::Nullable_1<::System::Single> JAGCGLBKAAG(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::UnityEngine::LayerMask a5)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + PNKKOOLHFDF_JAGCGLBKAAG_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + PNKKOOLHFDF_JAGCGLBKAAG_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Single FELCIEINEAI(::System::Single a1)

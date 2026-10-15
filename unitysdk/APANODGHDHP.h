@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class CameraBlendCurve; }
 namespace RPG::GameCore { class VCameraVector3ChangeParam; }
-namespace System { class Nullable; }
 
 #define APANODGHDHP_BEMELOPJLIK_OFFSET UNITYSDK_OFFSET(0x158C9DA0)
 #define APANODGHDHP_CTOR_OFFSET UNITYSDK_OFFSET(0x158C9500)
@@ -67,9 +67,9 @@ inline static constexpr unsigned int APANODGHDHP_TypeDefinitionIndex = 69545;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + APANODGHDHP_HADOHLNHHGB_OFFSET))(this);
 		}
 
-		::System::Void JKHOBGMGIHJ(::RPG::MVector3 a1, ::System::Nullable* a2)
+		::System::Void JKHOBGMGIHJ(::RPG::MVector3 a1, ::System::Nullable_1<::RPG::MVector3> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::MVector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + APANODGHDHP_JKHOBGMGIHJ_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::MVector3, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + APANODGHDHP_JKHOBGMGIHJ_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::MVector3 KFGJEKJHIMB(::System::Single a1)

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KPNFBIOLIMA;
 namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::Client { class MonoBodyControlIK_JAOHHHGCDLJ; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
@@ -49,9 +49,9 @@ namespace RPG::Client
 		::System::Boolean MBIJMKPPLIO; // 0x70
 		::System::Byte _padding2[0x7];
 		::KPNFBIOLIMA* MOFKDLANDGM; // 0x78
-		::System::Nullable* AIICNHGGDAF; // 0x80
+		::System::Nullable_1<::UnityEngine::Vector3> AIICNHGGDAF; // 0x80
 		::System::Byte _padding3[0x8];
-		::System::Nullable* DLPMLCCNGHM; // 0x90
+		::System::Nullable_1<::UnityEngine::Quaternion> DLPMLCCNGHM; // 0x90
 		::System::Byte _padding4[0x10];
 		::UnityEngine::Transform* PAJFNAGPJKL; // 0xA8
 		::RPG::Client::MonoBodyControlIK_JAOHHHGCDLJ* JFJBCDCILJP; // 0xB0

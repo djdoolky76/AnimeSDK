@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveEventSentenceRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define OGOHLGMBEED_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D2745F0)
 #define OGOHLGMBEED_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D274BF0)
@@ -36,9 +36,9 @@ inline static constexpr unsigned int OGOHLGMBEED_TypeDefinitionIndex = 11708;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OGOHLGMBEED")->GetStaticField(0x35580);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "OGOHLGMBEED")->GetStaticField(0x35588);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OGOHLGMBEED")->GetStaticField(0x35588);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveEventSentenceRow*>** StaticGet_EHNHPCGDOIO()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int OGOHLGMBEED_TypeDefinitionIndex = 11708;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveEventSentenceRow*>(*)())((::PBYTE)hIl2Cpp + OGOHLGMBEED_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveEventSentenceRow*>, ::RPG::GameCore::IdleLiveEventSentenceRow*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + OGOHLGMBEED_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveEventSentenceRow*>, ::RPG::GameCore::IdleLiveEventSentenceRow*>(*)())((::PBYTE)hIl2Cpp + OGOHLGMBEED_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::RPG::GameCore::IdleLiveEventSentenceRow* LMBKNCAIDLC(::System::UInt32 a1, ::System::UInt32 a2)

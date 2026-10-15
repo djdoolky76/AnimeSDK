@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveBaseTeamInfo.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/InGameTeamSlotUiData.h"
 class EPOFJMLCFPI;
 class GDLPHFCCCFL;
@@ -54,7 +54,7 @@ namespace RPG::Client::ActivityIdleLive
 	class IdleLiveDungeonTeamInfo : public ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::ValueTuple>*>* _SavedTeam; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*>* _SavedTeam; // 0x40
 		::RPG::Client::ActivityIdleLive::IdleLiveDecimal _CurPower; // 0x48
 		::System::UInt32 _DungeonId; // 0x60
 		::System::Void _ctor()

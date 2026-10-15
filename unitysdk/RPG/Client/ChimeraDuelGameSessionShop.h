@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class CPMDNMMDCCM;
 class EOOALDCHMBP;
@@ -17,7 +18,6 @@ namespace RPG::Client { class ChimeraDuelGameSessionShopItem; }
 namespace RPG::Client { class ChimeraDuelGameShopStallData; }
 namespace RPG::Client::Prop { class ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -68,8 +68,8 @@ namespace RPG::Client
 		::System::Action* OnBuyFinished; // 0x20
 		::RPG::Client::Prop::ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder* _PendingUpgradeEffect; // 0x28
 		::EOOALDCHMBP* _Dependencies; // 0x30
-		::System::Nullable* _PendingBuyingChimeraUniqueID; // 0x38
-		::System::Nullable* _PendingBuyingItemUniqueID; // 0x40
+		::System::Nullable_1<::System::UInt32> _PendingBuyingChimeraUniqueID; // 0x38
+		::System::Nullable_1<::System::UInt32> _PendingBuyingItemUniqueID; // 0x40
 		::System::Boolean _IsBuildingPerformance; // 0x48
 		::System::Void _ctor(::EOOALDCHMBP* a1)
 		{

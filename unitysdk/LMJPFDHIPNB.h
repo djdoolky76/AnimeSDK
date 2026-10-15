@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/DoorState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -42,11 +42,11 @@ inline static constexpr unsigned int LMJPFDHIPNB_TypeDefinitionIndex = 77084;
 	class LMJPFDHIPNB : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* MIGADKPEGEF; // 0x10
-		::Entitas::ICollector* PKPFFENLCON; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* MIGADKPEGEF; // 0x10
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* PKPFFENLCON; // 0x18
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x20
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* GFIPFGJPHHI; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Object*>* GFIPFGJPHHI; // 0x30
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::NDDFLGNNMDK*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + LMJPFDHIPNB_CTOR_OFFSET))(this, a1, a2);
@@ -122,9 +122,9 @@ inline static constexpr unsigned int LMJPFDHIPNB_TypeDefinitionIndex = 77084;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + LMJPFDHIPNB_MHPLGOAHLPJ_OFFSET))(this, a1);
 		}
 
-		::System::Void OCCPLHLNMDH(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void OCCPLHLNMDH(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + LMJPFDHIPNB_OCCPLHLNMDH_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + LMJPFDHIPNB_OCCPLHLNMDH_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void JCONBLBJFJJ(::HIOEAKHGILF* a1)

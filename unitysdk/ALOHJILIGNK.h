@@ -6,7 +6,7 @@ class MANIJAAODMF;
 namespace RPG::Client { class IBigMapIcon; }
 namespace RPG::Client { class SubMissionData; }
 namespace RPG::Client::NavMap { class ICartography; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class SubMissionInfoConfig; }
 
 #define ALOHJILIGNK_AGPFGMAFPHK_OFFSET UNITYSDK_OFFSET(0x15571D60)
@@ -50,9 +50,9 @@ inline static constexpr unsigned int ALOHJILIGNK_TypeDefinitionIndex = 80297;
 			return ((::RPG::Client::IBigMapIcon*(*)(::PVOID))((::PBYTE)hIl2Cpp + ALOHJILIGNK_PHHCIAAPABK_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* KDJDJHLPINB()
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartography*>* KDJDJHLPINB()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + ALOHJILIGNK_KDJDJHLPINB_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartography*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ALOHJILIGNK_KDJDJHLPINB_OFFSET))(this);
 		}
 
 		::System::UInt32 get_InteractEntityID()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ELDNAILNPNL.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class CCKKOKJIIDO;
@@ -29,7 +29,7 @@ inline static constexpr unsigned int GGIBGDHBAMN_TypeDefinitionIndex = 60809;
 	{
 	public:
 		::CCKKOKJIIDO* FCIENMANDEG; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple>* PPLFJBHKPDG; // 0x18
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* PPLFJBHKPDG; // 0x18
 		::UnityEngine::Transform* IFFOHHFHPDO; // 0x20
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BHAKAOEDEII; // 0x28
 		::Il2CppArray<::UnityEngine::RaycastHit>* CIECEBIKPMP; // 0x30

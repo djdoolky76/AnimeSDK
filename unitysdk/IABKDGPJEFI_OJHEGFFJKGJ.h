@@ -4,8 +4,8 @@
 class IABKDGPJEFI;
 namespace RPG::GameCore { class CharacterModelComponent; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class IDisposable; }
+namespace System { template <typename T> class Action_1; }
 
 #define IABKDGPJEFI_OJHEGFFJKGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15DFCA50)
 #define IABKDGPJEFI_OJHEGFFJKGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DFDD70)
@@ -22,12 +22,12 @@ inline static constexpr unsigned int IABKDGPJEFI_OJHEGFFJKGJ_TypeDefinitionIndex
 		::System::IDisposable* BOCCOCLAMAK; // 0x10
 		::RPG::GameCore::CharacterModelComponent* KELCJDKACJF; // 0x18
 		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x20
-		::System::Action* GIOPCBHBLJD; // 0x28
+		::System::Action_1<::RPG::GameCore::GameEntity*>* GIOPCBHBLJD; // 0x28
 		::IABKDGPJEFI* ADJNOFMEIKM; // 0x30
-		::System::Action* ANPIJLKMNMB; // 0x38
-		::System::Void _ctor(::IABKDGPJEFI* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::CharacterModelComponent* a3, ::System::Action* a4, ::System::Action* a5)
+		::System::Action_1<::RPG::GameCore::GameEntity*>* ANPIJLKMNMB; // 0x38
+		::System::Void _ctor(::IABKDGPJEFI* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::CharacterModelComponent* a3, ::System::Action_1<::RPG::GameCore::GameEntity*>* a4, ::System::Action_1<::RPG::GameCore::GameEntity*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::IABKDGPJEFI*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::CharacterModelComponent*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_OJHEGFFJKGJ_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::IABKDGPJEFI*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::CharacterModelComponent*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_OJHEGFFJKGJ_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void OnBeforeModelArtUnload(::RPG::GameCore::GameEntity* a1)

@@ -5,6 +5,7 @@
 #include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
 #define RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GPUPASSSUBMITTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE887C10)
@@ -22,7 +23,7 @@ namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 	{
 	public:
 		::System::String* Name; // 0x18
-		::System::Action* APAMCGJLKLN; // 0x20
+		::System::Action_1<::UnityEngine::Rendering::CommandBuffer*>* APAMCGJLKLN; // 0x20
 		::System::Action* PPHHKOADEDH; // 0x28
 		::PipelineCmdSlot EPDBELNLNPL; // 0x30
 		::System::Int32 InterFrame; // 0x34
@@ -39,9 +40,9 @@ namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GPUPASSSUBMITTER_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void Register(::System::Action* a1, ::System::Action* a2, ::PipelineCmdSlot a3)
+		::System::Void Register(::System::Action_1<::UnityEngine::Rendering::CommandBuffer*>* a1, ::System::Action* a2, ::PipelineCmdSlot a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::PipelineCmdSlot))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GPUPASSSUBMITTER_REGISTER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Rendering::CommandBuffer*>*, ::System::Action*, ::PipelineCmdSlot))((::PBYTE)hIl2Cpp + RPG_SCENEOPTIMIZER_PVSSCENEBUDGETSTATTOOL_GPUPASSSUBMITTER_REGISTER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc a2)

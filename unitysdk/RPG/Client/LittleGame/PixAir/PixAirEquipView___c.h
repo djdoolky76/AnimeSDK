@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD47EA40)
 #define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD47EA80)
@@ -17,9 +17,9 @@ namespace RPG::Client::LittleGame::PixAir
 	class PixAirEquipView___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__10_0()
+		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__10_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x36510);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x36510);
 		}
 
 		static ::System::Object** StaticGet___9()

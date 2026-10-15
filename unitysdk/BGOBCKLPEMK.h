@@ -5,6 +5,7 @@
 #include "unitysdk/LNMFOJCBPLC.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class AKDDNBHNGON;
 class BCNMLILBENC;
 class BGOBCKLPEMK_CPEEBAFNFNC;
@@ -19,7 +20,6 @@ namespace RPG::GameCore { class CharacterModelComponent; }
 namespace RPG::GameCore { class EntityHitMotion; }
 namespace RPG::GameCore { class HitMotionParams; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Animator; }
@@ -126,7 +126,7 @@ inline static constexpr unsigned int BGOBCKLPEMK_TypeDefinitionIndex = 56956;
 		::RPG::MVector3 AEOMKCMKEEK; // 0xA0
 		::RPG::MVector3 _AttachEffectMotionTotal_k__BackingField; // 0xAC
 		::System::Int32 FLAOJLGAGDM; // 0xB8
-		::System::Nullable* MOLKECAPILL; // 0xBC
+		::System::Nullable_1<::System::Single> MOLKECAPILL; // 0xBC
 		::BGOBCKLPEMK_NNCOONLKENF LGAHOGLLCDA; // 0xC4
 		::RPG::MVector3 IMKHGKNECJH; // 0xF4
 		::System::Single DCBECNCGCLO; // 0x100

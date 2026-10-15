@@ -14,9 +14,9 @@ namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class MapDef; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace RPG::GameCore { class TimeScaleStack; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -68,14 +68,14 @@ inline static constexpr unsigned int OJACCBLPEPG_TypeDefinitionIndex = 59820;
 		::System::Collections::Generic::List_1<::CBABAAOHGHH*>* CHFCKNCJEGG; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::CBABAAOHGHH*>* DFIAHFHGIHK; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::IAssetOperation*>*>* AMJKFPKEBKB; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action*>*>* NJNMJNEENGO; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>*>* NJNMJNEENGO; // 0x28
 		::FNHHJAIOHGB* DELAMMACIIF; // 0x30
 		::RPG::GameCore::TimeScaleStack* DDIALPLNALD; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* KEGMMPOKEMM; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::System::Boolean>*>* KEGMMPOKEMM; // 0x40
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* GEHLPFCKAAH; // 0x48
 		::DIAGOMCGNPM* MGPGNIONBAF; // 0x50
 		::NNJOIHFDHML* HPGMEABEAPL; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* JHKKBCNHJJB; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::System::Boolean>*>* JHKKBCNHJJB; // 0x60
 		::RPG::Client::MapDef* KKKADHHBMLD; // 0x68
 		::System::Boolean BIDEGKNNLCE; // 0x70
 		::System::Boolean MHEAIOMEGCA; // 0x71
@@ -108,9 +108,9 @@ inline static constexpr unsigned int OJACCBLPEPG_TypeDefinitionIndex = 59820;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJACCBLPEPG_DCEPOBADPGE_OFFSET))(this);
 		}
 
-		::System::Void IGAJNAICMKH(::System::String* a1, ::System::Action* a2)
+		::System::Void IGAJNAICMKH(::System::String* a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + OJACCBLPEPG_IGAJNAICMKH_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + OJACCBLPEPG_IGAJNAICMKH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void NEIOCBBLIJD(::System::String* a1)
@@ -123,14 +123,14 @@ inline static constexpr unsigned int OJACCBLPEPG_TypeDefinitionIndex = 59820;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + OJACCBLPEPG_GGBFNFHNKKM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FGFEIEMJDAB(::System::String* a1, ::System::Action* a2)
+		::System::Void FGFEIEMJDAB(::System::String* a1, ::System::Action_1<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + OJACCBLPEPG_FGFEIEMJDAB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OJACCBLPEPG_FGFEIEMJDAB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AKMIIIEFBML(::System::String* a1, ::System::Action* a2)
+		::System::Void AKMIIIEFBML(::System::String* a1, ::System::Action_1<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + OJACCBLPEPG_AKMIIIEFBML_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OJACCBLPEPG_AKMIIIEFBML_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void IPEDJFJFAOM(::System::String* a1, ::OJACCBLPEPG_EStationOpenState a2)
@@ -138,9 +138,9 @@ inline static constexpr unsigned int OJACCBLPEPG_TypeDefinitionIndex = 59820;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::OJACCBLPEPG_EStationOpenState))((::PBYTE)hIl2Cpp + OJACCBLPEPG_IPEDJFJFAOM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AHMHBLEFKLB(::System::String* a1, ::System::Action* a2)
+		::System::Void AHMHBLEFKLB(::System::String* a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + OJACCBLPEPG_AHMHBLEFKLB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + OJACCBLPEPG_AHMHBLEFKLB_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CBALBELCFBH(::System::String* a1)

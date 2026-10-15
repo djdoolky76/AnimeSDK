@@ -6,8 +6,8 @@
 namespace InControl { class PlayerAction; }
 namespace RPG::Client { class UIMonoJoyStick; }
 namespace RPG::Client::LittleGame::FiveDim { class IFiveDimJoyStickBridge; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMMOVEINPUT_ADDINPUTHANDLER_OFFSET UNITYSDK_OFFSET(0xD45C0F0)
 #define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMMOVEINPUT_CLEARJOYSTICK_OFFSET UNITYSDK_OFFSET(0xD45A8F0)
@@ -45,8 +45,8 @@ namespace RPG::Client::LittleGame::FiveDim
 	public:
 		::System::Single MoveInputHorizontalAngle; // 0x18
 		::System::Single MoveInputDeadZone; // 0x1C
-		::System::Action* _InputHandler; // 0x20
-		::System::Action* _RawInputHandler; // 0x28
+		::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimMoveInputData>* _InputHandler; // 0x20
+		::System::Action_1<::UnityEngine::Vector2>* _RawInputHandler; // 0x28
 		::RPG::Client::LittleGame::FiveDim::IFiveDimJoyStickBridge* _JoyStick; // 0x30
 		::System::Boolean _HasJoyStickInput; // 0x38
 		::System::Byte _padding0[0x7];
@@ -159,14 +159,14 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMMOVEINPUT__ONINPUTDEVICECLASSSWITCHED_OFFSET))(this, a1);
 		}
 
-		::System::Void AddInputHandler(::System::Action* a1)
+		::System::Void AddInputHandler(::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimMoveInputData>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMMOVEINPUT_ADDINPUTHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::LittleGame::FiveDim::FiveDimMoveInputData>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMMOVEINPUT_ADDINPUTHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetRawInputHandler(::System::Action* a1)
+		::System::Void SetRawInputHandler(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMMOVEINPUT_SETRAWINPUTHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMMOVEINPUT_SETRAWINPUTHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Void SetupJoyStick(::RPG::Client::UIMonoJoyStick* a1)

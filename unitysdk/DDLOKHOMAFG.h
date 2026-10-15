@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LJKHPOHKIIF.h"
 #include "unitysdk/PFACHJFCILN_PreloadType.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class EKFMIDBJDIA;
 class HAJPGJKPLFP;
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define DDLOKHOMAFG_ACPPOPBHAMC_OFFSET UNITYSDK_OFFSET(0xE4E7EA0)
 #define DDLOKHOMAFG_AEJNMMILMBL_OFFSET UNITYSDK_OFFSET(0xE4E8090)
@@ -27,9 +27,9 @@ inline static constexpr unsigned int DDLOKHOMAFG_TypeDefinitionIndex = 59712;
 	public:
 		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x20
 		::HAJPGJKPLFP* ANNALDMFGPL; // 0x28
-		static ::Il2CppArray<::System::Collections::Generic::KeyValuePair*>** StaticGet_CFDLDPJIGBJ()
+		static ::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::System::Object*>>** StaticGet_CFDLDPJIGBJ()
 		{
-			return (::Il2CppArray<::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("", "DDLOKHOMAFG")->GetStaticField(0x60B80);
+			return (::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::System::Object*>>**)UnitySDK::FromName("", "DDLOKHOMAFG")->GetStaticField(0x60B80);
 		}
 
 		static ::System::Int32* StaticGet_IEELKHJLLCA()

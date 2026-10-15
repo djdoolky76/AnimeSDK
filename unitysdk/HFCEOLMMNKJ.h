@@ -9,6 +9,7 @@
 #include "unitysdk/KBFDDPLFFLK.h"
 #include "unitysdk/NAKLLNKNLLD.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class DGKBJOHFPBK;
 class FABMDCOFHCG;
 class HIOAMIPNLIN;
@@ -27,7 +28,6 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedAbilityConfig; }
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -284,9 +284,9 @@ inline static constexpr unsigned int HFCEOLMMNKJ_TypeDefinitionIndex = 54447;
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + HFCEOLMMNKJ_KCGIFJBFOFI_OFFSET))(a1, a2);
 		}
 
-		static ::System::Nullable* MIAJCDAFBAK(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::System::String* a2)
+		static ::System::Nullable_1<::System::Int32> MIAJCDAFBAK(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::System::String* a2)
 		{
-			return ((::System::Nullable*(*)(::RPG::GameCore::TurnBasedAbilityComponent*, ::System::String*))((::PBYTE)hIl2Cpp + HFCEOLMMNKJ_MIAJCDAFBAK_OFFSET))(a1, a2);
+			return ((::System::Nullable_1<::System::Int32>(*)(::RPG::GameCore::TurnBasedAbilityComponent*, ::System::String*))((::PBYTE)hIl2Cpp + HFCEOLMMNKJ_MIAJCDAFBAK_OFFSET))(a1, a2);
 		}
 
 	};

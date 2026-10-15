@@ -4,8 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace InControl { class BindingSource; }
 namespace InControl { class PlayerAction; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGADDED_OFFSET UNITYSDK_OFFSET(0x1B9E6140)
 #define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGENDED_OFFSET UNITYSDK_OFFSET(0x1B9E6190)
@@ -20,10 +22,10 @@ namespace InControl
 	class BindingListenOptions : public ::System::Object
 	{
 	public:
-		::System::Action* OnBindingAdded; // 0x10
+		::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>* OnBindingAdded; // 0x10
 		::InControl::BindingSource* ReplaceBinding; // 0x18
-		::System::Action* OnBindingRejected; // 0x20
-		::System::Action* OnBindingEnded; // 0x28
+		::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>* OnBindingRejected; // 0x20
+		::System::Action_1<::InControl::PlayerAction*>* OnBindingEnded; // 0x28
 		::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>* OnBindingFound; // 0x30
 		::System::Boolean IncludeKeys; // 0x38
 		::System::Boolean UnsetDuplicateBindingsOnSet; // 0x39

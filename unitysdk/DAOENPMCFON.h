@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LEJFDHMDDKO.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class DAOENPMCFON;
 class KGKEHEBHAJN;
 namespace RPG::Client::ParkourGame { class ParkourSkillConfig; }
-namespace System { class Nullable; }
 
 #define DAOENPMCFON_AAGKECODOMM_OFFSET UNITYSDK_OFFSET(0xDFC7010)
 #define DAOENPMCFON_ABCLMBKDLFA_OFFSET UNITYSDK_OFFSET(0xDFC79B0)
@@ -184,9 +184,9 @@ inline static constexpr unsigned int DAOENPMCFON_TypeDefinitionIndex = 74179;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DAOENPMCFON_BFHFBAHOMEB_OFFSET))(this);
 		}
 
-		::System::Nullable* IPAMHBBNLAF()
+		::System::Nullable_1<::UnityEngine::Vector3> IPAMHBBNLAF()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + DAOENPMCFON_IPAMHBBNLAF_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + DAOENPMCFON_IPAMHBBNLAF_OFFSET))(this);
 		}
 
 		::KGKEHEBHAJN* ABDOMDJCNNL()

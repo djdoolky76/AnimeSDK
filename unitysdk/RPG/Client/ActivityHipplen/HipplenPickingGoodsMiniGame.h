@@ -15,8 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class HipplenPickingGoodsMiniGameConfig; }
 namespace RPG::GameCore { class HipplenPickingGoodsNPCConfig; }
 namespace RPG::GameCore { class TaskConfig; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
@@ -85,9 +85,9 @@ namespace RPG::Client::ActivityHipplen
 		::RPG::Client::ActivityHipplen::ActivityHipplenRequireGoodsBubbleInfo* _RequireGoodsBubbleInfo; // 0x90
 		::RPG::GameCore::HipplenPickingGoodsMiniGameConfig* _ConfigRef; // 0x98
 		::RPG::GameCore::GameEntity* _CurNpcRef; // 0xA0
-		::System::Action* _OnTimeChanged; // 0xA8
+		::System::Action_1<::System::Single>* _OnTimeChanged; // 0xA8
 		::RPG::Client::ActivityHipplen::HipplenPickingGoodsUIHintDelegate* _HintDelegate; // 0xB0
-		::System::Action* _CountDownVisibilityHandler; // 0xB8
+		::System::Action_1<::System::Boolean>* _CountDownVisibilityHandler; // 0xB8
 		::System::Int32 _SuccessNpcCount_k__BackingField; // 0xC0
 		::RPG::Client::ActivityHipplen::HipplenPickingGoodsMiniGame_InnerState _State; // 0xC4
 		::System::Single _RemainTime; // 0xC8
@@ -115,19 +115,19 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENPICKINGGOODSMINIGAME_ONINPUTDEVICECHANGED_OFFSET))(this);
 		}
 
-		::System::Void SetCountDownHandler(::System::Action* a1)
+		::System::Void SetCountDownHandler(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENPICKINGGOODSMINIGAME_SETCOUNTDOWNHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENPICKINGGOODSMINIGAME_SETCOUNTDOWNHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterTimeChangedCallback(::System::Action* a1)
+		::System::Void RegisterTimeChangedCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENPICKINGGOODSMINIGAME_REGISTERTIMECHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENPICKINGGOODSMINIGAME_REGISTERTIMECHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterShowHintUIHandler(::System::Action* a1)
+		::System::Void RegisterShowHintUIHandler(::System::Action_1<::UnityEngine::Transform*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENPICKINGGOODSMINIGAME_REGISTERSHOWHINTUIHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENPICKINGGOODSMINIGAME_REGISTERSHOWHINTUIHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Void SetHintDelegate(::RPG::Client::ActivityHipplen::HipplenPickingGoodsUIHintDelegate* a1)

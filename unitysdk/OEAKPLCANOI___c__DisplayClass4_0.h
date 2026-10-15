@@ -5,7 +5,7 @@
 class BCFLJPCHOEB;
 class DNFFEFPKDPC;
 class OEAKPLCANOI;
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -18,7 +18,7 @@ inline static constexpr unsigned int OEAKPLCANOI___c__DisplayClass4_0_TypeDefini
 	{
 	public:
 		::BCFLJPCHOEB* snapshot; // 0x10
-		::System::Tuple* data; // 0x18
+		::System::Tuple_2<::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::DNFFEFPKDPC*>*>* data; // 0x18
 		::OEAKPLCANOI* __4__this; // 0x20
 		::System::Void _ctor()
 		{

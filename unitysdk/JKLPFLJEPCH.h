@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameEntityPosAdaptionResultFlag.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
 #define JKLPFLJEPCH_BBNJCKPKPDN_1_OFFSET UNITYSDK_OFFSET(0xB2204D0)
 #define JKLPFLJEPCH_BBNJCKPKPDN_OFFSET UNITYSDK_OFFSET(0xB218950)
@@ -24,9 +24,9 @@ inline static constexpr unsigned int JKLPFLJEPCH_TypeDefinitionIndex = 57804;
 		*/
 
 		/*
-		static ::JKLPFLJEPCH BBNJCKPKPDN_1(::System::ValueTuple a1)
+		static ::JKLPFLJEPCH BBNJCKPKPDN_1(::System::ValueTuple_2<::UnityEngine::Vector3, ::RPG::GameCore::GameEntityPosAdaptionResultFlag> a1)
 		{
-			return ((::JKLPFLJEPCH(*)(::System::ValueTuple))((::PBYTE)hIl2Cpp + JKLPFLJEPCH_BBNJCKPKPDN_1_OFFSET))(a1);
+			return ((::JKLPFLJEPCH(*)(::System::ValueTuple_2<::UnityEngine::Vector3, ::RPG::GameCore::GameEntityPosAdaptionResultFlag>))((::PBYTE)hIl2Cpp + JKLPFLJEPCH_BBNJCKPKPDN_1_OFFSET))(a1);
 		}
 		*/
 

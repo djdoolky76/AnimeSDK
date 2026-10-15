@@ -7,6 +7,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/NNKDKMBKFHC_ALMGLLHJOBD.h"
+#include "unitysdk/System/Nullable_1.h"
 class AAGOHNBBHNP;
 class BAFJOHPAGFI;
 class EDJNAGDJEKB;
@@ -16,7 +17,6 @@ class NNKDKMBKFHC_CKLDEKJJGKA;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -414,9 +414,9 @@ inline static constexpr unsigned int NNKDKMBKFHC_TypeDefinitionIndex = 53509;
 			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_GJJOFFJKCAM_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Quaternion LEPFENKFGHG(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Nullable* a3)
+		static ::UnityEngine::Quaternion LEPFENKFGHG(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_LEPFENKFGHG_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_LEPFENKFGHG_OFFSET))(a1, a2, a3);
 		}
 
 		static ::UnityEngine::Vector3 KDFAPPMHPHO(::UnityEngine::Vector3 a1)
@@ -439,9 +439,9 @@ inline static constexpr unsigned int NNKDKMBKFHC_TypeDefinitionIndex = 53509;
 			return ((::System::Void(*)(::PVOID, ::BAFJOHPAGFI*, ::RPG::GameCore::GameEntity*, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_KDFIAIJEMHM_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean HLIPCODPNJA(::BAFJOHPAGFI* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4)
+		::System::Boolean HLIPCODPNJA(::BAFJOHPAGFI* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::UnityEngine::Vector3> a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::BAFJOHPAGFI*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_HLIPCODPNJA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::BAFJOHPAGFI*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_HLIPCODPNJA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void DAHNMLNLDFH()
@@ -519,9 +519,9 @@ inline static constexpr unsigned int NNKDKMBKFHC_TypeDefinitionIndex = 53509;
 			return ((::System::Boolean(*)(::PVOID, ::BAFJOHPAGFI*))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_DOEJAKGOAPG_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* AFNDIGEDLPK(::BAFJOHPAGFI* a1)
+		::System::Nullable_1<::UnityEngine::Vector3> AFNDIGEDLPK(::BAFJOHPAGFI* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::BAFJOHPAGFI*))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_AFNDIGEDLPK_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID, ::BAFJOHPAGFI*))((::PBYTE)hIl2Cpp + NNKDKMBKFHC_AFNDIGEDLPK_OFFSET))(this, a1);
 		}
 
 		static ::System::Boolean APEDEKNCENG(::UnityEngine::Quaternion a1)

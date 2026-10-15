@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::ChenLingFes { class ChenLingFesItemData; }
 namespace Sofa::Core { template <typename T> class ObservableList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -22,9 +22,9 @@ inline static constexpr unsigned int CPDKPMMIJNN_TypeDefinitionIndex = 81289;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CPDKPMMIJNN_CTOR_OFFSET))(this);
 		}
 
-		::System::Void ALJIOCDBMKO(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Void ALJIOCDBMKO(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + CPDKPMMIJNN_ALJIOCDBMKO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + CPDKPMMIJNN_ALJIOCDBMKO_OFFSET))(this, a1);
 		}
 
 		::Sofa::Core::ObservableList_1<::RPG::Client::ChenLingFes::ChenLingFesItemData*>* get_Items()

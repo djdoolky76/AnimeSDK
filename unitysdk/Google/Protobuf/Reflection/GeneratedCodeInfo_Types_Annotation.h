@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class GeneratedCodeInfo_Types_Annotation; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
@@ -50,14 +50,14 @@ namespace Google::Protobuf::Reflection
 		::System::Int32 begin_; // 0x28
 		::System::Int32 _hasBits0; // 0x2C
 		::System::Int32 end_; // 0x30
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_path_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::Int32>** StaticGet__repeated_path_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "Annotation")->GetStaticField(0x1E180);
+			return (::Google::Protobuf::FieldCodec_1<::System::Int32>**)UnitySDK::FromName("Google.Protobuf.Reflection", "Annotation")->GetStaticField(0x1E180);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::System::Object*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.Reflection", "Annotation")->GetStaticField(0x1E188);
+			return (::Google::Protobuf::MessageParser_1<::System::Object*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "Annotation")->GetStaticField(0x1E188);
 		}
 
 		static ::System::String** StaticGet_SourceFileDefaultValue()
@@ -90,9 +90,9 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO_TYPES_ANNOTATION_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::System::Object*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO_TYPES_ANNOTATION_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::System::Object*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_GENERATEDCODEINFO_TYPES_ANNOTATION_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

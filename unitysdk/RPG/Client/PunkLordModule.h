@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/ClientPunkLordShareType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CDCCPHILOCC;
 namespace RPG::Client { class PunkLordData; }
 namespace RPG::Client { class PunkLordInstance; }
 namespace RPG::Client { class SettledPunkLordData; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -69,16 +69,16 @@ namespace RPG::Client
 	class PunkLordModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::RPG::Client::Promises::Promise* _GetBattleRecordPromise; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _GetBattleRecordPromise; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* _ShowRedDotQuestIDList; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* PunkLordRewardTakenList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::PunkLordData*>* _PunkLordDatas; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::PunkLordData*>* _PunkLordDatas; // 0x28
 		::CDCCPHILOCC* _TempPunkLordMonsterKey; // 0x30
 		::System::Collections::Generic::List_1<::System::UInt32>* DailyQuestList; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::SettledPunkLordData*>* _SettledPunkLordDatas; // 0x40
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* DeadMonsterRecord; // 0x48
-		::RPG::Client::Promises::Promise* _GetSettledDataPromise; // 0x50
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* AppearedMonsterRecord; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::SettledPunkLordData*>* _SettledPunkLordDatas; // 0x40
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* DeadMonsterRecord; // 0x48
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _GetSettledDataPromise; // 0x50
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* AppearedMonsterRecord; // 0x58
 		::RPG::Client::PunkLordInstance* _CurPunkLordInstance; // 0x60
 		::System::UInt32 OverBonusRewardTakenTime; // 0x68
 		::System::UInt32 RaidTimeLimit; // 0x6C
@@ -232,14 +232,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_TAKEREWARD_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* AsyncRefreshSettledPunkLordDataWithPromise()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* AsyncRefreshSettledPunkLordDataWithPromise()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHSETTLEDPUNKLORDDATAWITHPROMISE_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHSETTLEDPUNKLORDDATAWITHPROMISE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* AsyncRefreshRecordWithPromise(::RPG::Client::PunkLordData* a1)
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* AsyncRefreshRecordWithPromise(::RPG::Client::PunkLordData* a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::RPG::Client::PunkLordData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHRECORDWITHPROMISE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::PunkLordData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDMODULE_ASYNCREFRESHRECORDWITHPROMISE_OFFSET))(this, a1);
 		}
 
 		::System::Void AsyncRefreshRecord(::RPG::Client::PunkLordData* a1)

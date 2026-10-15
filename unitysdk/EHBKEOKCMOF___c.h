@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define EHBKEOKCMOF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x154A2190)
 #define EHBKEOKCMOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154A21D0)
@@ -19,14 +19,14 @@ inline static constexpr unsigned int EHBKEOKCMOF___c_TypeDefinitionIndex = 61111
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34130);
 		}
 
-		static ::System::Action** StaticGet___9__25_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34138);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34138);
 		}
 
-		static ::System::Action** StaticGet___9__23_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__23_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34140);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34140);
 		}
 
 		static ::System::Void _cctor()

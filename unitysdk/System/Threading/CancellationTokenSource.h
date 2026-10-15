@@ -5,8 +5,8 @@
 #include "unitysdk/System/Threading/CancellationCallbackCoreWorkArguments.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationCallbackInfo; }
 namespace System::Threading { class CancellationTokenSource; }
 namespace System::Threading { class ExecutionContext; }
@@ -72,9 +72,9 @@ namespace System::Threading
 			return (::System::Threading::CancellationTokenSource**)UnitySDK::FromName("System.Threading", "CancellationTokenSource")->GetStaticField(0x1F828);
 		}
 
-		static ::System::Action** StaticGet_s_LinkedTokenCancelDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_s_LinkedTokenCancelDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Threading", "CancellationTokenSource")->GetStaticField(0x1F830);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading", "CancellationTokenSource")->GetStaticField(0x1F830);
 		}
 
 		static ::System::Threading::TimerCallback** StaticGet_s_timerCallback()
@@ -197,9 +197,9 @@ namespace System::Threading
 			return ((::System::Threading::CancellationTokenSource*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENSOURCE_INTERNALGETSTATICSOURCE_OFFSET))(a1);
 		}
 
-		::System::Threading::CancellationTokenRegistration InternalRegister(::System::Action* a1, ::System::Object* a2, ::System::Threading::SynchronizationContext* a3, ::System::Threading::ExecutionContext* a4)
+		::System::Threading::CancellationTokenRegistration InternalRegister(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Threading::SynchronizationContext* a3, ::System::Threading::ExecutionContext* a4)
 		{
-			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Threading::SynchronizationContext*, ::System::Threading::ExecutionContext*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENSOURCE_INTERNALREGISTER_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::CancellationTokenRegistration(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::SynchronizationContext*, ::System::Threading::ExecutionContext*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CANCELLATIONTOKENSOURCE_INTERNALREGISTER_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void NotifyCancellation(::System::Boolean a1)

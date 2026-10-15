@@ -3,7 +3,7 @@
 #include "unitysdk/MiHoYo/SDK/PC/OS/CXHandheld/HandheldProduct.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class PayManagerBase; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERBASE___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF07D60)
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERBASE___C__DISPLAYCLASS26_0__GETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BF09D50)
@@ -16,7 +16,7 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 	{
 	public:
 		::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerBase* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_2<::Il2CppArray<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldProduct>*, ::System::Int32>* callback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERBASE___C__DISPLAYCLASS26_0_CTOR_OFFSET))(this);

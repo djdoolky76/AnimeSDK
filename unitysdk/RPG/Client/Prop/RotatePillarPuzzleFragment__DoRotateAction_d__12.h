@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class RotatePillarPuzzleFragment; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT__DOROTATEACTION_D__12_CTOR_OFFSET UNITYSDK_OFFSET(0xDD98940)
@@ -29,7 +29,7 @@ namespace RPG::Client::Prop
 		::System::Int32 __1__state; // 0x28
 		::System::Single _st_5__6; // 0x2C
 		::System::Int32 nowDegree; // 0x30
-		::System::Nullable* forceTime; // 0x34
+		::System::Nullable_1<::System::Single> forceTime; // 0x34
 		::System::Single _fElapsedTimeInSec_5__9; // 0x3C
 		::System::Single _closeWait_5__8; // 0x40
 		::System::Int32 cnt; // 0x44

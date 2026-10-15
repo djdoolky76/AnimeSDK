@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UIController.h"
 class APINNJNJFAN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
 #define BMBAMHBIEEA_BBFCKPCKBMN_OFFSET UNITYSDK_OFFSET(0xBA869B0)
@@ -29,7 +29,7 @@ inline static constexpr unsigned int BMBAMHBIEEA_TypeDefinitionIndex = 72928;
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* HMLIPMFHDGK; // 0x190
-		::System::Action* MCLELAFIEBJ; // 0x198
+		::System::Action_1<::System::Boolean>* MCLELAFIEBJ; // 0x198
 		::System::Boolean DFIAMJNMEAP; // 0x1A0
 		::System::Boolean KLCFJOLMICI; // 0x1A1
 		::System::Boolean MNJOPAEEGLD; // 0x1A2
@@ -37,9 +37,9 @@ inline static constexpr unsigned int BMBAMHBIEEA_TypeDefinitionIndex = 72928;
 		::System::Int64 LDPEGLBLALO; // 0x1A8
 		::System::Int64 ILBLJFLGAJD; // 0x1B0
 		// static const ::System::Object APHOECLDJKJ; // 0x0
-		::System::Void _ctor(::System::Action* a1, ::System::Boolean a2, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a3)
+		::System::Void _ctor(::System::Action_1<::System::Boolean>* a1, ::System::Boolean a2, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BMBAMHBIEEA_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*, ::System::Boolean, ::System::Collections::Generic::HashSet_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + BMBAMHBIEEA_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _CustomBindView()

@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightTutorialStageNodeConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define AKAPAHAHLHD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CCD2E20)
 #define AKAPAHAHLHD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCD3480)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int AKAPAHAHLHD_TypeDefinitionIndex = 13648;
 	class AKAPAHAHLHD : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "AKAPAHAHLHD")->GetStaticField(0x39D40);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "AKAPAHAHLHD")->GetStaticField(0x39D40);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int AKAPAHAHLHD_TypeDefinitionIndex = 13648;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTutorialStageNodeConfigRow*>(*)())((::PBYTE)hIl2Cpp + AKAPAHAHLHD_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTutorialStageNodeConfigRow*>, ::RPG::GameCore::GridFightTutorialStageNodeConfigRow*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + AKAPAHAHLHD_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTutorialStageNodeConfigRow*>, ::RPG::GameCore::GridFightTutorialStageNodeConfigRow*>(*)())((::PBYTE)hIl2Cpp + AKAPAHAHLHD_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::RPG::GameCore::GridFightTutorialStageNodeConfigRow* LMBKNCAIDLC(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)

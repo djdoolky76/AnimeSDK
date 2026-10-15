@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYoSDKJSON/JSONNode_Enumerator.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace MiHoYoSDKJSON { class JSONNode; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define MIHOYOSDKJSON_JSONNODE_LINQENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xB06D580)
@@ -32,9 +32,9 @@ namespace MiHoYoSDKJSON
 			return ((::System::Void(*)(::PVOID, ::MiHoYoSDKJSON::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_LINQENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* get_Current()
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYoSDKJSON::JSONNode*> get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_LINQENUMERATOR_GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYoSDKJSON::JSONNode*>(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_LINQENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_IEnumerator_get_Current()
@@ -52,9 +52,9 @@ namespace MiHoYoSDKJSON
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_LINQENUMERATOR_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYoSDKJSON::JSONNode*>>* GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_LINQENUMERATOR_GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYoSDKJSON::JSONNode*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_LINQENUMERATOR_GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()

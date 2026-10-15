@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ArgumentException.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
@@ -25,7 +25,7 @@ namespace System::Globalization
 	{
 	public:
 		::System::String* m_invalidCultureName; // 0x90
-		::System::Nullable* m_invalidCultureId; // 0x98
+		::System::Nullable_1<::System::Int32> m_invalidCultureId; // 0x98
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_CTOR_OFFSET))(this);
@@ -51,9 +51,9 @@ namespace System::Globalization
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* get_InvalidCultureId()
+		::System::Nullable_1<::System::Int32> get_InvalidCultureId()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_INVALIDCULTUREID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_CULTURENOTFOUNDEXCEPTION_GET_INVALIDCULTUREID_OFFSET))(this);
 		}
 
 		::System::String* get_InvalidCultureName()

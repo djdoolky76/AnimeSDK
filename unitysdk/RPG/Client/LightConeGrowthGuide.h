@@ -6,7 +6,7 @@ class NHPAANINLPK;
 class PIHNNIFOPOC;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class LightConeGrowthGuide; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_LIGHTCONEGROWTHGUIDE_CREATE_OFFSET UNITYSDK_OFFSET(0xD3952F0)
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::PIHNNIFOPOC*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEGROWTHGUIDE_GETRECOMMENDITEMS_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestRecommendData(::System::Action* a1)
+		::System::Void RequestRecommendData(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEGROWTHGUIDE_REQUESTRECOMMENDDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEGROWTHGUIDE_REQUESTRECOMMENDDATA_OFFSET))(this, a1);
 		}
 
 	};

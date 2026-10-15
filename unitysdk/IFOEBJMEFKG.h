@@ -3,7 +3,9 @@
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftChipTraitType.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class BCFAKEGJPKN;
 class BOJOBHMEEIH;
 class CBJILMHOMGP;
@@ -22,11 +24,9 @@ class IFOEBJMEFKG_LBLPGFHMIIF;
 class JBGMFIFOMMG;
 class NKIJFPHFJCO;
 class OFIILELJGIE;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
-namespace System { class Nullable; }
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define IFOEBJMEFKG_ACONALOBHNG_OFFSET UNITYSDK_OFFSET(0x15F2D140)
@@ -67,7 +67,7 @@ inline static constexpr unsigned int IFOEBJMEFKG_TypeDefinitionIndex = 79439;
 	class IFOEBJMEFKG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::System::Collections::Generic::KeyValuePair*>* LANEOMICKHB; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>>* LANEOMICKHB; // 0x10
 		::CCEIJBFAOAI* JOKBAPFCJFM; // 0x18
 		::R3::ReactiveProperty_1<::System::Object*>* LKAABAFJAHA; // 0x20
 		::BOJOBHMEEIH* GJALMBBNNOF; // 0x28
@@ -84,14 +84,14 @@ inline static constexpr unsigned int IFOEBJMEFKG_TypeDefinitionIndex = 79439;
 		::System::Single IFHJAMGMILD; // 0x64
 		::RPG::Client::TextID DONDMFKDBNJ; // 0x68
 		::RPG::Client::TextID AFABAFFOLGO; // 0x78
-		::System::Void _ctor(::BOJOBHMEEIH* a1, ::GGBEEJNPPOP* a2, ::JBGMFIFOMMG* a3, ::CCEIJBFAOAI* a4, ::System::Single a5, ::System::Single a6, ::RPG::Client::TextID a7, ::RPG::Client::TextID a8, ::System::Collections::Generic::IReadOnlyList_1<::System::Collections::Generic::KeyValuePair*>* a9)
+		::System::Void _ctor(::BOJOBHMEEIH* a1, ::GGBEEJNPPOP* a2, ::JBGMFIFOMMG* a3, ::CCEIJBFAOAI* a4, ::System::Single a5, ::System::Single a6, ::RPG::Client::TextID a7, ::RPG::Client::TextID a8, ::System::Collections::Generic::IReadOnlyList_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>>* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::BOJOBHMEEIH*, ::GGBEEJNPPOP*, ::JBGMFIFOMMG*, ::CCEIJBFAOAI*, ::System::Single, ::System::Single, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Collections::Generic::IReadOnlyList_1<::System::Collections::Generic::KeyValuePair*>*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::BOJOBHMEEIH*, ::GGBEEJNPPOP*, ::JBGMFIFOMMG*, ::CCEIJBFAOAI*, ::System::Single, ::System::Single, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Collections::Generic::IReadOnlyList_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>>*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::R3::Observable* PHHGLFPKKLH()
+		::R3::Observable_1<::CHGHIALKMFM*>* PHHGLFPKKLH()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_PHHGLFPKKLH_OFFSET))(this);
+			return ((::R3::Observable_1<::CHGHIALKMFM*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_PHHGLFPKKLH_OFFSET))(this);
 		}
 
 		::System::Boolean INALDCMJBCB()
@@ -109,14 +109,14 @@ inline static constexpr unsigned int IFOEBJMEFKG_TypeDefinitionIndex = 79439;
 			return ((::System::Void(*)(::PVOID, ::BCFAKEGJPKN*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_SET_ACTOR_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* OAHEHDPDKFG()
+		::R3::Observable_1<::RPG::Client::TextID>* OAHEHDPDKFG()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_OAHEHDPDKFG_OFFSET))(this);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_OAHEHDPDKFG_OFFSET))(this);
 		}
 
-		::R3::Observable* DLBDHMGBCDO()
+		::R3::Observable_1<::System::Boolean>* DLBDHMGBCDO()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_DLBDHMGBCDO_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_DLBDHMGBCDO_OFFSET))(this);
 		}
 
 		::CBJILMHOMGP* CKKLPAMJFIC()
@@ -124,9 +124,9 @@ inline static constexpr unsigned int IFOEBJMEFKG_TypeDefinitionIndex = 79439;
 			return ((::CBJILMHOMGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_CKKLPAMJFIC_OFFSET))(this);
 		}
 
-		::R3::Observable* INICHOMCMHI()
+		::R3::Observable_1<::System::Boolean>* INICHOMCMHI()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_INICHOMCMHI_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_INICHOMCMHI_OFFSET))(this);
 		}
 
 		::CEEGMMCFCBG* LCJNBFLNDOI()
@@ -209,14 +209,14 @@ inline static constexpr unsigned int IFOEBJMEFKG_TypeDefinitionIndex = 79439;
 			return ((::IFOEBJMEFKG_LBLPGFHMIIF*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_NFCKFHHHNLP_OFFSET))(this);
 		}
 
-		::System::Boolean LGJPJKJFGPH(::System::Nullable* a1, ::FCNLPLHOACB* a2)
+		::System::Boolean LGJPJKJFGPH(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a1, ::FCNLPLHOACB* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*, ::FCNLPLHOACB*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_LGJPJKJFGPH_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>, ::FCNLPLHOACB*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_LGJPJKJFGPH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean JFNHGANENLO(::System::Nullable* a1, ::DBPFECFIKOM* a2)
+		::System::Boolean JFNHGANENLO(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType> a1, ::DBPFECFIKOM* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*, ::DBPFECFIKOM*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_JFNHGANENLO_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>, ::DBPFECFIKOM*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG_JFNHGANENLO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void IAAFJCGELAM(::System::Object* a1, ::IFOEBJMEFKG_GGECKMOOEAJ* a2)

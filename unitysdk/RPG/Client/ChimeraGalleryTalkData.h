@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class ChimeraGalleryGroupedTalkData; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_CHIMERAGALLERYTALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4C040)
 #define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xCB4C600)
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLE_OFFSET))(this);
 		}
 
-		::System::Nullable* get_TitleParam()
+		::System::Nullable_1<::System::Int32> get_TitleParam()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET))(this);
 		}
 
 		::RPG::Client::TextID get_Content()

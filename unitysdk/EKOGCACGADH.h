@@ -6,6 +6,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
@@ -60,14 +62,14 @@ inline static constexpr unsigned int EKOGCACGADH_TypeDefinitionIndex = 71350;
 	class EKOGCACGADH : public ::System::Object
 	{
 	public:
-		::System::Action* NPMBGEMJKIC; // 0x10
+		::System::Action_1<::AHIJMGKPIMF*>* NPMBGEMJKIC; // 0x10
 		::System::Action* EPGDLEFHBJJ; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Object*, ::AHIJMGKPIMF*>* DKDHELDAMCO; // 0x20
-		::System::Action* AICDCAPHCJH; // 0x28
-		::System::Action* GPLJJOFDEGO; // 0x30
+		::System::Action_3<::AHIJMGKPIMF*, ::UnityEngine::UI::Image*, ::System::Object*>* AICDCAPHCJH; // 0x28
+		::System::Action_3<::AHIJMGKPIMF*, ::UnityEngine::UI::RawImage*, ::System::Object*>* GPLJJOFDEGO; // 0x30
 		::System::Collections::Generic::List_1<::AHIJMGKPIMF*>* FBFAAAABPPM; // 0x38
 		::System::Collections::Generic::List_1<::AHIJMGKPIMF*>* GPKCJNAGLDH; // 0x40
-		::System::Action* MBCNEFPHNJN; // 0x48
+		::System::Action_3<::AHIJMGKPIMF*, ::UnityEngine::UI::SmoothMask*, ::System::Object*>* MBCNEFPHNJN; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKOGCACGADH_CTOR_OFFSET))(this);

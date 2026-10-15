@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE7E4010)
 #define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE7E4050)
@@ -17,14 +17,14 @@ namespace RPG::GameCore
 	class TurnBasedAbilityComponent___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__165_0()
+		static ::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__165_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E8A0);
+			return (::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E8A0);
 		}
 
-		static ::System::Action** StaticGet___9__164_0()
+		static ::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__164_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E8A8);
+			return (::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E8A8);
 		}
 
 		static ::System::Object** StaticGet___9()

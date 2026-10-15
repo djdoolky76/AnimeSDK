@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class IPGIJFNAFLC;
 class OJLHCIDDFDF;
 class OKIPFIENKIF;
@@ -57,14 +57,14 @@ inline static constexpr unsigned int BEGMOOECOJP_HIEABJPILLF_TypeDefinitionIndex
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BEGMOOECOJP_HIEABJPILLF_NHIMCEIOFCP_OFFSET))(this);
 		}
 
-		::System::ValueTuple IADKPEMDPEG()
+		::System::ValueTuple_2<::System::UInt32, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*> IADKPEMDPEG()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + BEGMOOECOJP_HIEABJPILLF_IADKPEMDPEG_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*>(*)(::PVOID))((::PBYTE)hIl2Cpp + BEGMOOECOJP_HIEABJPILLF_IADKPEMDPEG_OFFSET))(this);
 		}
 
-		::System::ValueTuple MLDAHFLDMMN()
+		::System::ValueTuple_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> MLDAHFLDMMN()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + BEGMOOECOJP_HIEABJPILLF_MLDAHFLDMMN_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>(*)(::PVOID))((::PBYTE)hIl2Cpp + BEGMOOECOJP_HIEABJPILLF_MLDAHFLDMMN_OFFSET))(this);
 		}
 
 		::System::Boolean EFALOFMBDKA()

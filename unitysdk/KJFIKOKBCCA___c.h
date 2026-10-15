@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ICFEIEJDMIB.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define KJFIKOKBCCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD6C4F0)
 #define KJFIKOKBCCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6C520)
@@ -14,9 +14,9 @@ inline static constexpr unsigned int KJFIKOKBCCA___c_TypeDefinitionIndex = 6440;
 	class KJFIKOKBCCA___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_1<::ICFEIEJDMIB>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C600);
+			return (::System::Action_1<::ICFEIEJDMIB>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C600);
 		}
 
 		static ::System::Object** StaticGet___9()

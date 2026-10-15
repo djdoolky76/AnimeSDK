@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define ACNNMGIJMFK___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB128C80)
 #define ACNNMGIJMFK___C__DISPLAYCLASS8_0___CONFIRMEQUIPMENTCONFLICTCLEAR_B__1_OFFSET UNITYSDK_OFFSET(0xB12A210)
@@ -11,7 +11,7 @@ inline static constexpr unsigned int ACNNMGIJMFK___c__DisplayClass8_0_TypeDefini
 	class ACNNMGIJMFK___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* result; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* result; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACNNMGIJMFK___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);

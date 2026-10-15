@@ -29,6 +29,7 @@
 #include "unitysdk/RPG/GameCore/TurnBasedGameMode_SkillExecutionEventState.h"
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
 #include "unitysdk/RPG/GameCore/TurnState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/FNALLJBLNEI.h"
 #include "unitysdk/HILEDNNCGMF.h"
@@ -105,9 +106,9 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -769,11 +770,11 @@ namespace RPG::GameCore
 		::System::Boolean _AutoBattle; // 0x355
 		::System::Boolean WinFlag; // 0x356
 		::System::Boolean _SkipEnterBattleInsertAbility_k__BackingField; // 0x357
-		::System::Nullable* _PendingInsertAbilityPriority; // 0x358
+		::System::Nullable_1<::System::Int32> _PendingInsertAbilityPriority; // 0x358
 		::RPG::GameCore::FixPoint _ElapsedActionDelay_k__BackingField; // 0x360
 		::RPG::GameCore::FixPoint _HPLimitMaxValue_k__BackingField; // 0x368
 		::System::Boolean _SkipTurnOwnerActionFlag_k__BackingField; // 0x370
-		::System::Nullable* _LocalWinFlag_k__BackingField; // 0x371
+		::System::Nullable_1<::System::Boolean> _LocalWinFlag_k__BackingField; // 0x371
 		::System::Boolean _ClearUltraSkillQueue_k__BackingField; // 0x373
 		::System::Boolean _IsUseLinkSkill; // 0x374
 		::System::Boolean _TurnOwnerActionPhaseEnd_k__BackingField; // 0x375
@@ -781,7 +782,7 @@ namespace RPG::GameCore
 		::System::Boolean _HoldFrameForCaptureFlag; // 0x377
 		::System::Boolean InsertUltraAIInAdvance; // 0x378
 		::System::Byte _padding3[0x3];
-		::System::Nullable* _BattleResultState_k__BackingField; // 0x37C
+		::System::Nullable_1<::RPG::GameCore::BattleResultState> _BattleResultState_k__BackingField; // 0x37C
 		::System::Single _ModifierPerformTimeTotal; // 0x384
 		::System::UInt32 _ChallengeTurnAcc; // 0x388
 		::System::UInt32 _DamageCounter; // 0x38C
@@ -1236,9 +1237,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::InsertAbilityFinishSource, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_ABORTUNUSEDINSERTABILITY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void ForeachInsertAbility(::System::Action* a1, ::RPG::GameCore::InsertAbilityState a2)
+		::System::Void ForeachInsertAbility(::System::Action_1<::ENGBNDIPDJL*>* a1, ::RPG::GameCore::InsertAbilityState a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::RPG::GameCore::InsertAbilityState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_FOREACHINSERTABILITY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::ENGBNDIPDJL*>*, ::RPG::GameCore::InsertAbilityState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_FOREACHINSERTABILITY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean CheckAddBuffPerformFinish(::System::Single a1)
@@ -2631,24 +2632,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_SET_TURNACTIONDELAYCOSTCHANGESOURCE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_LocalWinFlag()
+		::System::Nullable_1<::System::Boolean> get_LocalWinFlag()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_GET_LOCALWINFLAG_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_GET_LOCALWINFLAG_OFFSET))(this);
 		}
 
-		::System::Void set_LocalWinFlag(::System::Nullable* a1)
+		::System::Void set_LocalWinFlag(::System::Nullable_1<::System::Boolean> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_SET_LOCALWINFLAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_SET_LOCALWINFLAG_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_BattleResultState()
+		::System::Nullable_1<::RPG::GameCore::BattleResultState> get_BattleResultState()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_GET_BATTLERESULTSTATE_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::BattleResultState>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_GET_BATTLERESULTSTATE_OFFSET))(this);
 		}
 
-		::System::Void set_BattleResultState(::System::Nullable* a1)
+		::System::Void set_BattleResultState(::System::Nullable_1<::RPG::GameCore::BattleResultState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_SET_BATTLERESULTSTATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::BattleResultState>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE_SET_BATTLERESULTSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_CertainlyLoseInAdvance()

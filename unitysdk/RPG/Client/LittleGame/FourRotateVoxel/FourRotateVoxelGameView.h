@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FourRotateVoxelGameViewDirection.h"
 #include "unitysdk/RPG/Client/LittleGame/BaseMonoGenericView.h"
 #include "unitysdk/RPG/GameCore/FDRIStateMaskEnum.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/Client/LittleGame/BaseMonoGenericView_AttachPointInfo.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -18,7 +19,6 @@ namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace RPG::GameCore { class FiveDimRIStateEmissionAction; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -98,7 +98,7 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 		::UnityEngine::MaterialPropertyBlock* OILBJCCPCBE; // 0x88
 		::FiveDimRenderingPanel* MGNGEFCEICF; // 0x90
 		::UnityEngine::Transform* AOGDGEBEJCH; // 0x98
-		::System::Nullable* JIKCHOGANGM; // 0xA0
+		::System::Nullable_1<::UnityEngine::Vector3> JIKCHOGANGM; // 0xA0
 		::System::Byte _padding3[0x8];
 		::JDGOFBPECPM* PHOKLCDIDNC; // 0xB0
 		::RPG::GameCore::FDRIStateMaskEnum GGDDOBIJKDG; // 0xB8

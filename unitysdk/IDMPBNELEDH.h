@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DGCLAKDAHDB.h"
 #include "unitysdk/RPG/GameCore/PetDiySlotType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FKIODIMJPNA;
 class HFFHEPEBJFE;
 namespace System { class Object; }
@@ -22,7 +22,7 @@ inline static constexpr unsigned int IDMPBNELEDH_TypeDefinitionIndex = 60197;
 	class IDMPBNELEDH : public ::DGCLAKDAHDB
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* FDHOAEDHKCH; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Object*>* FDHOAEDHKCH; // 0x10
 		::System::Single JDJGAJFHIDK; // 0x18
 		// static const ::System::Object CJOHBGHEONO; // 0x0
 		// static const ::System::Object FOKKGCIOJEC; // 0x0

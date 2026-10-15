@@ -5,14 +5,14 @@
 #include "unitysdk/BFOGLEGJOLK.h"
 #include "unitysdk/HBMJDOFMACB_CNPJNFCAEAM.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator_2.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 class OFLIAAOJPJC;
 namespace RPG::GameCore { class PerformanceSubMissionLinkRow; }
 namespace RPG::GameCore { template <typename T1, typename T2> class TableLRUCache_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -48,9 +48,9 @@ inline static constexpr unsigned int HBMJDOFMACB_TypeDefinitionIndex = 14350;
 			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "HBMJDOFMACB")->GetStaticField(0x1B948);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "HBMJDOFMACB")->GetStaticField(0x1B950);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HBMJDOFMACB")->GetStaticField(0x1B950);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_KGADENKPMFA()
@@ -133,9 +133,9 @@ inline static constexpr unsigned int HBMJDOFMACB_TypeDefinitionIndex = 14350;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HBMJDOFMACB_KACCGMCPAFN_OFFSET))();
 		}
 
-		static ::System::Void MDDEBCEINEJ(::System::ValueTuple a1, ::RPG::GameCore::PerformanceSubMissionLinkRow* a2)
+		static ::System::Void MDDEBCEINEJ(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1, ::RPG::GameCore::PerformanceSubMissionLinkRow* a2)
 		{
-			return ((::System::Void(*)(::System::ValueTuple, ::RPG::GameCore::PerformanceSubMissionLinkRow*))((::PBYTE)hIl2Cpp + HBMJDOFMACB_MDDEBCEINEJ_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>, ::RPG::GameCore::PerformanceSubMissionLinkRow*))((::PBYTE)hIl2Cpp + HBMJDOFMACB_MDDEBCEINEJ_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean OKONOOJEJMJ(::HBMJDOFMACB_CNPJNFCAEAM a1, ::RPG::GameCore::PerformanceSubMissionLinkRow* a2)

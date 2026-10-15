@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Google::Protobuf::Collections
@@ -12,6 +12,6 @@ namespace Google::Protobuf::Collections
 	class MapField_2_DictionaryEnumerator : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* enumerator; // 0x0
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<T1, T2>>* enumerator; // 0x0
 	};
 }

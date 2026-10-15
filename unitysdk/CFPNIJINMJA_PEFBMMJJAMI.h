@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class CFPNIJINMJA_PEFBMMJJAMI;
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -32,12 +32,12 @@ inline static constexpr unsigned int CFPNIJINMJA_PEFBMMJJAMI_TypeDefinitionIndex
 	class CFPNIJINMJA_PEFBMMJJAMI : public ::System::Object
 	{
 	public:
-		::System::Nullable* _ActionScore_k__BackingField; // 0x10
+		::System::Nullable_1<::System::Int32> _ActionScore_k__BackingField; // 0x10
 		::System::Int32 _DamageScore_k__BackingField; // 0x18
 		::System::Int32 _DamagedHpPercent_k__BackingField; // 0x1C
-		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Nullable* a3)
+		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Nullable_1<::System::Int32> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + CFPNIJINMJA_PEFBMMJJAMI_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + CFPNIJINMJA_PEFBMMJJAMI_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::CFPNIJINMJA_PEFBMMJJAMI* a1)
@@ -70,14 +70,14 @@ inline static constexpr unsigned int CFPNIJINMJA_PEFBMMJJAMI_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CFPNIJINMJA_PEFBMMJJAMI_SET_DAMAGESCORE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_ActionScore()
+		::System::Nullable_1<::System::Int32> get_ActionScore()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CFPNIJINMJA_PEFBMMJJAMI_GET_ACTIONSCORE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CFPNIJINMJA_PEFBMMJJAMI_GET_ACTIONSCORE_OFFSET))(this);
 		}
 
-		::System::Void set_ActionScore(::System::Nullable* a1)
+		::System::Void set_ActionScore(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + CFPNIJINMJA_PEFBMMJJAMI_SET_ACTIONSCORE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + CFPNIJINMJA_PEFBMMJJAMI_SET_ACTIONSCORE_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

@@ -4,7 +4,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Collections { class IList; }
 
 #define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB7AF30)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class NonGenericInterfaceListFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IList*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "NonGenericInterfaceListFormatter")->GetStaticField(0x25240);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IList*>**)UnitySDK::FromName("MessagePack.Formatters", "NonGenericInterfaceListFormatter")->GetStaticField(0x25240);
 		}
 
 		::System::Void _ctor()

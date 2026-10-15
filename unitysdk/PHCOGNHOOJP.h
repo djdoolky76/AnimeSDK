@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateRinCaseBoardTeamType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class PCCJNGOCLKD;
 namespace RPG::Client::FateRin::CaseBoard { class GrailViewModel; }
 namespace RPG::Client::FateRin::CaseBoard { class TeamRelationViewModel; }
@@ -34,7 +34,7 @@ inline static constexpr unsigned int PHCOGNHOOJP_TypeDefinitionIndex = 80788;
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCaseBoardTeamType, ::RPG::Client::FateRin::CaseBoard::TeamViewModel*>* ABBHEIAHCKI; // 0x10
 		::PCCJNGOCLKD* FINDGMLOJNL; // 0x18
 		::RPG::Client::FateRin::CaseBoard::GrailViewModel* _Grail_k__BackingField; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::FateRin::CaseBoard::TeamRelationViewModel*>* CBNIMGHEFMF; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::FateRinCaseBoardTeamType, ::RPG::GameCore::FateRinCaseBoardTeamType>, ::RPG::Client::FateRin::CaseBoard::TeamRelationViewModel*>* CBNIMGHEFMF; // 0x28
 		::System::Void _ctor(::PCCJNGOCLKD* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::PCCJNGOCLKD*))((::PBYTE)hIl2Cpp + PHCOGNHOOJP_CTOR_OFFSET))(this, a1);

@@ -5,7 +5,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Pet { class IPetInstance; }
 namespace RPG::Client::Pet { class IPetInstanceRepository; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define IFMEAICPKCI_AGHCACKCDAM_OFFSET UNITYSDK_OFFSET(0x15F249A0)
@@ -18,7 +18,7 @@ inline static constexpr unsigned int IFMEAICPKCI_TypeDefinitionIndex = 75711;
 	class IFMEAICPKCI : public ::System::Object
 	{
 	public:
-		::System::WeakReference* NMPIJGKPFIK; // 0x10
+		::System::WeakReference_1<::RPG::Client::Pet::IPetInstanceRepository*>* NMPIJGKPFIK; // 0x10
 		::RPG::Client::Pet::PetInstanceIdentifier LNPLJMDCPEP; // 0x18
 		::System::Void _ctor(::RPG::Client::Pet::PetInstanceIdentifier a1, ::RPG::Client::Pet::IPetInstanceRepository* a2)
 		{

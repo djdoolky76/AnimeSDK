@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/UI/DebugUIHandlerWidget.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 namespace UnityEngine::UI { class Text; }
@@ -25,7 +25,7 @@ namespace UnityEngine::Rendering::UI
 		::UnityEngine::UI::Text* nameLabel; // 0x58
 		::UnityEngine::UI::Text* valueLabel; // 0x60
 		::System::Func_1<::System::Single>* getter; // 0x68
-		::System::Action* setter; // 0x70
+		::System::Action_1<::System::Single>* setter; // 0x70
 		::System::Func_1<::System::Single>* incStepGetter; // 0x78
 		::System::Func_1<::System::Single>* incStepMultGetter; // 0x80
 		::System::Func_1<::System::Single>* decimalsGetter; // 0x88

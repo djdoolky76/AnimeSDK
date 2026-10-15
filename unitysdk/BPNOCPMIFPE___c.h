@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define BPNOCPMIFPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC1ACF00)
 #define BPNOCPMIFPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC1ACF40)
@@ -14,9 +14,9 @@ inline static constexpr unsigned int BPNOCPMIFPE___c_TypeDefinitionIndex = 62757
 	class BPNOCPMIFPE___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__14_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__14_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBF10);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBF10);
 		}
 
 		static ::System::Object** StaticGet___9()

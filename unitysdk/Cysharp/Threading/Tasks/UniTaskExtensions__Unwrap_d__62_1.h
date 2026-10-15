@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
@@ -12,8 +12,8 @@ namespace Cysharp::Threading::Tasks
 	struct alignas(8) UniTaskExtensions__Unwrap_d__62_1
 	{
 		::System::Int32 __1__state; // 0x0
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x0
-		::Cysharp::Threading::Tasks::UniTask task; // 0x0
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<T> __t__builder; // 0x0
+		::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::UniTask_1<T>> task; // 0x0
 		::System::Object* __u__1; // 0x0
 		::System::Object* __u__2; // 0x0
 	};

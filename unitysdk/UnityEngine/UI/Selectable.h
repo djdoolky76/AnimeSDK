@@ -9,8 +9,8 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class CanvasGroup; }
@@ -122,7 +122,7 @@ namespace UnityEngine::UI
 		::System::Boolean _hasSelection_k__BackingField; // 0xEA
 		::System::Byte _padding4[0x5];
 		::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>* m_CanvasGroupCache; // 0xF0
-		::System::Action* OnNaviHandler; // 0xF8
+		::System::Action_3<::UnityEngine::EventSystems::AxisEventData*, ::UnityEngine::UI::Selectable*, ::System::Boolean>* OnNaviHandler; // 0xF8
 		::System::Boolean isIgnoreNavi; // 0x100
 		static ::Il2CppArray<::UnityEngine::UI::Selectable*>** StaticGet_s_Selectables()
 		{

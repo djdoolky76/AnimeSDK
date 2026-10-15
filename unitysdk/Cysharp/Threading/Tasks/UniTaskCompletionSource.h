@@ -3,12 +3,12 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 namespace Cysharp::Threading::Tasks { class ExceptionHolder; }
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14D4C0)
@@ -30,12 +30,12 @@ namespace Cysharp::Threading::Tasks
 	class UniTaskCompletionSource : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple>* secondaryContinuationList; // 0x10
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Action_1<::System::Object*>*, ::System::Object*>>* secondaryContinuationList; // 0x10
 		::System::Object* gate; // 0x18
 		::System::Threading::CancellationToken cancellationToken; // 0x20
 		::System::Object* singleState; // 0x28
 		::Cysharp::Threading::Tasks::ExceptionHolder* exception; // 0x30
-		::System::Action* singleContinuation; // 0x38
+		::System::Action_1<::System::Object*>* singleContinuation; // 0x38
 		::System::Int32 intStatus; // 0x40
 		::System::Boolean handled; // 0x44
 		::System::Void _ctor()
@@ -83,9 +83,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCE_UNSAFEGETSTATUS_OFFSET))(this);
 		}
 
-		::System::Void OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKCOMPLETIONSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean TrySignalCompletion(::Cysharp::Threading::Tasks::UniTaskStatus a1)

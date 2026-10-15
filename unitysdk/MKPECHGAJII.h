@@ -6,6 +6,7 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitTriggerTutorial; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MKPECHGAJII_BJLJAHMLKIO_OFFSET UNITYSDK_OFFSET(0xB9A3FF0)
 #define MKPECHGAJII_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A3B00)
@@ -23,7 +24,7 @@ inline static constexpr unsigned int MKPECHGAJII_TypeDefinitionIndex = 58933;
 	{
 	public:
 		::KDJNAAOFMMJ* NNFJKIPMAAI; // 0x18
-		::System::Action* CIFOILLJFNF; // 0x20
+		::System::Action_1<::System::Boolean>* CIFOILLJFNF; // 0x20
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::RPG::GameCore::WaitTriggerTutorial* OFKGLJOAMLD; // 0x30
 		::System::Boolean HDPLEHFEOFC; // 0x38
@@ -57,9 +58,9 @@ inline static constexpr unsigned int MKPECHGAJII_TypeDefinitionIndex = 58933;
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MKPECHGAJII_ONLJNKGEGAN_OFFSET))(this, a1);
 		}
 
-		::System::Void NKLHGEFLFNG(::System::Action* a1, ::System::Action* a2)
+		::System::Void NKLHGEFLFNG(::System::Action* a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MKPECHGAJII_NKLHGEFLFNG_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MKPECHGAJII_NKLHGEFLFNG_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ILJBJLGEMIP()

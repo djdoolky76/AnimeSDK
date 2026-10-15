@@ -3,7 +3,9 @@
 #include "unitysdk/RPG/Client/OpenWorld/OpenWorldCullingPauseReason.h"
 #include "unitysdk/RPG/Client/ReasonBool_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_4.h"
+#include "unitysdk/System/ValueTuple_5.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class APLEMBNFLAA;
 class BGNDPIPJFCI;
@@ -29,9 +31,10 @@ namespace RPG::GameCore { class OfflineCullingLod; }
 namespace RPG::GameCore { class StageAutoGenConfig; }
 namespace RPG::GameCore { class StageBaseConfig; }
 namespace RPG::GameCore { class StagePVSData; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -107,17 +110,17 @@ inline static constexpr unsigned int APMFKFNCCHH_TypeDefinitionIndex = 73776;
 		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* MGMEJJHGAOM; // 0x20
 		::NCNPCENKKGN* PNIAJCNKHOP; // 0x28
 		::System::Collections::Generic::List_1<::System::String*>* EONODDHDKGG; // 0x30
-		::System::Action* JJMFOBIIICA; // 0x38
+		::System::Action_6<::UnityEngine::TextAsset*, ::RPG::IReference*, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::System::Int32>* JJMFOBIIICA; // 0x38
 		::System::Collections::Generic::List_1<::System::Single>* PAKDMMJLJFI; // 0x40
 		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>*>*>* PMOBOBNKKAO; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Boolean>* JBHOAMOBHCG; // 0x50
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ECKIMJFMONA; // 0x58
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::ValueTuple>*>* JPKACEHEFOH; // 0x60
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*>* JPKACEHEFOH; // 0x60
 		::RPG::GameCore::StagePVSData* CDHODPNNMGO; // 0x68
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* KDHCAJKADBL; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Int32>* AFGNJKMIELE; // 0x78
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>* NIMEBGFNBGA; // 0x80
-		::System::Collections::Generic::List_1<::System::ValueTuple>* NMNLECOANLF; // 0x88
+		::System::Collections::Generic::List_1<::System::ValueTuple_4<::RPG::GameCore::OfflineCullingIndex*, ::UnityEngine::Vector3, ::System::Single, ::System::Int32>>* NMNLECOANLF; // 0x88
 		::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>* NPBFOFEGKJG; // 0x90
 		::RPG::Client::PVSDebugMono* EMDIEIENDCN; // 0x98
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* DLMAKOKDAPL; // 0xA0
@@ -125,18 +128,18 @@ inline static constexpr unsigned int APMFKFNCCHH_TypeDefinitionIndex = 73776;
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::RPG::GameCore::OfflineCullingIndex*>*>* GLIHMBDEKFP; // 0xB0
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* OALJEANHPAO; // 0xB8
 		::RPG::GameCore::StageAutoGenConfig* CGPPFOLFAKI; // 0xC0
-		::System::Action* PDHMBMJIADP; // 0xC8
+		::System::Action_2<::System::Int64, ::System::Boolean>* PDHMBMJIADP; // 0xC8
 		::FCCJBBDBHCA* IDHKPDHIAKE; // 0xD0
 		::RPG::GameCore::StageBaseConfig* KIKKCNDGFOL; // 0xD8
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::Volume*>* PKOJHLMKMPD; // 0xE0
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* JDHOBEHPEJF; // 0xE8
-		::System::Collections::Generic::List_1<::System::ValueTuple>* OGHDCJLJECC; // 0xF0
+		::System::Collections::Generic::List_1<::System::ValueTuple_5<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::RPG::GameCore::JsonOfflineCullingCellData*, ::System::Int32>>* OGHDCJLJECC; // 0xF0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonOfflineCullingCellData*>* BOBJONMPNFM; // 0xF8
 		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>*>* FJJNAJMOGHG; // 0x100
 		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* KJCFIDNOOPD; // 0x108
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* GOLFLIHEPEL; // 0x110
 		::LJFHKAJPFNE* BJPKBELGNCM; // 0x118
-		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::ValueTuple>* DBKOBGPIHEE; // 0x120
+		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::ValueTuple_4<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::System::Int32>>* DBKOBGPIHEE; // 0x120
 		::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::OpenWorldCullingPauseReason> CKHLABOMJBM; // 0x128
 		::System::Single JDHLINNDIJD; // 0x130
 		::System::Int32 KPCDAMGMMJB; // 0x134
@@ -268,14 +271,14 @@ inline static constexpr unsigned int APMFKFNCCHH_TypeDefinitionIndex = 73776;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + APMFKFNCCHH_BIBIIMAHAKB_OFFSET))(this);
 		}
 
-		::System::Void FDCEFLFOGIO(::System::Action* a1, ::System::Boolean a2)
+		::System::Void FDCEFLFOGIO(::System::Action_2<::System::Int64, ::System::Boolean>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + APMFKFNCCHH_FDCEFLFOGIO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int64, ::System::Boolean>*, ::System::Boolean))((::PBYTE)hIl2Cpp + APMFKFNCCHH_FDCEFLFOGIO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JMOHCMJEOMC(::System::Action* a1)
+		::System::Void JMOHCMJEOMC(::System::Action_2<::System::Int64, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + APMFKFNCCHH_JMOHCMJEOMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int64, ::System::Boolean>*))((::PBYTE)hIl2Cpp + APMFKFNCCHH_JMOHCMJEOMC_OFFSET))(this, a1);
 		}
 
 		::System::Int32 ABKKJIBEBHA()
@@ -383,9 +386,9 @@ inline static constexpr unsigned int APMFKFNCCHH_TypeDefinitionIndex = 73776;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + APMFKFNCCHH_ONFEIIIFCOK_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* FOEJHGAKBBI(::System::Int32 a1, ::System::Int64 a2)
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>* FOEJHGAKBBI(::System::Int32 a1, ::System::Int64 a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + APMFKFNCCHH_FOEJHGAKBBI_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>*(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + APMFKFNCCHH_FOEJHGAKBBI_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::OfflineCullingIndex* KCGFKIBJKNJ(::System::Int32 a1, ::System::Int64 a2, ::System::Single a3)

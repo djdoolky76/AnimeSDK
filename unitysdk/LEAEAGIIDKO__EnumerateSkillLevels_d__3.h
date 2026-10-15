@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
@@ -21,7 +21,7 @@ inline static constexpr unsigned int LEAEAGIIDKO__EnumerateSkillLevels_d__3_Type
 	class LEAEAGIIDKO__EnumerateSkillLevels_d__3 : public ::System::Object
 	{
 	public:
-		::System::ValueTuple __2__current; // 0x10
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __2__current; // 0x10
 		::System::Int32 __l__initialThreadId; // 0x18
 		::System::Int32 __1__state; // 0x1C
 		::System::Void _ctor(::System::Int32 a1)
@@ -39,9 +39,9 @@ inline static constexpr unsigned int LEAEAGIIDKO__EnumerateSkillLevels_d__3_Type
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LEAEAGIIDKO__ENUMERATESKILLLEVELS_D__3_MOVENEXT_OFFSET))(this);
 		}
 
-		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_System_UInt32_System_UInt32___get_Current()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> System_Collections_Generic_IEnumerator_System_ValueTuple_System_UInt32_System_UInt32___get_Current()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + LEAEAGIIDKO__ENUMERATESKILLLEVELS_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_UINT32_SYSTEM_UINT32___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + LEAEAGIIDKO__ENUMERATESKILLLEVELS_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_UINT32_SYSTEM_UINT32___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -54,9 +54,9 @@ inline static constexpr unsigned int LEAEAGIIDKO__EnumerateSkillLevels_d__3_Type
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + LEAEAGIIDKO__ENUMERATESKILLLEVELS_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>* System_Collections_Generic_IEnumerable_System_ValueTuple_System_UInt32_System_UInt32___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* System_Collections_Generic_IEnumerable_System_ValueTuple_System_UInt32_System_UInt32___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LEAEAGIIDKO__ENUMERATESKILLLEVELS_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_SYSTEM_UINT32_SYSTEM_UINT32___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LEAEAGIIDKO__ENUMERATESKILLLEVELS_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_SYSTEM_UINT32_SYSTEM_UINT32___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

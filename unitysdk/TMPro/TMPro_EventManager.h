@@ -4,6 +4,9 @@
 namespace System { class Object; }
 namespace TMPro { class Compute_DT_EventArgs; }
 namespace TMPro { class FastAction; }
+namespace TMPro { template <typename T1, typename T2, typename T3> class FastAction_3; }
+namespace TMPro { template <typename T1, typename T2> class FastAction_2; }
+namespace TMPro { template <typename T> class FastAction_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Object; }
@@ -29,14 +32,14 @@ namespace TMPro
 	class TMPro_EventManager : public ::System::Object
 	{
 	public:
-		static ::TMPro::FastAction** StaticGet_SPRITE_ASSET_PROPERTY_EVENT()
+		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>** StaticGet_SPRITE_ASSET_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D80);
+			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D80);
 		}
 
-		static ::TMPro::FastAction** StaticGet_TEXT_CHANGED_EVENT()
+		static ::TMPro::FastAction_1<::UnityEngine::Object*>** StaticGet_TEXT_CHANGED_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D88);
+			return (::TMPro::FastAction_1<::UnityEngine::Object*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D88);
 		}
 
 		static ::TMPro::FastAction** StaticGet_RESOURCE_LOAD_EVENT()
@@ -44,24 +47,24 @@ namespace TMPro
 			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D90);
 		}
 
-		static ::TMPro::FastAction** StaticGet_MATERIAL_PROPERTY_EVENT()
+		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Material*>** StaticGet_MATERIAL_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D98);
+			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Material*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D98);
 		}
 
-		static ::TMPro::FastAction** StaticGet_TEXTMESHPRO_PROPERTY_EVENT()
+		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>** StaticGet_TEXTMESHPRO_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DA0);
+			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DA0);
 		}
 
-		static ::TMPro::FastAction** StaticGet_COLOR_GRADIENT_PROPERTY_EVENT()
+		static ::TMPro::FastAction_1<::UnityEngine::Object*>** StaticGet_COLOR_GRADIENT_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DA8);
+			return (::TMPro::FastAction_1<::UnityEngine::Object*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DA8);
 		}
 
-		static ::TMPro::FastAction** StaticGet_DRAG_AND_DROP_MATERIAL_EVENT()
+		static ::TMPro::FastAction_3<::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*>** StaticGet_DRAG_AND_DROP_MATERIAL_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DB0);
+			return (::TMPro::FastAction_3<::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DB0);
 		}
 
 		static ::TMPro::FastAction** StaticGet_TMP_SETTINGS_PROPERTY_EVENT()
@@ -69,24 +72,24 @@ namespace TMPro
 			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DB8);
 		}
 
-		static ::TMPro::FastAction** StaticGet_TEXTMESHPRO_UGUI_PROPERTY_EVENT()
+		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>** StaticGet_TEXTMESHPRO_UGUI_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DC0);
+			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DC0);
 		}
 
-		static ::TMPro::FastAction** StaticGet_COMPUTE_DT_EVENT()
+		static ::TMPro::FastAction_2<::System::Object*, ::TMPro::Compute_DT_EventArgs*>** StaticGet_COMPUTE_DT_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DC8);
+			return (::TMPro::FastAction_2<::System::Object*, ::TMPro::Compute_DT_EventArgs*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DC8);
 		}
 
-		static ::TMPro::FastAction** StaticGet_FONT_PROPERTY_EVENT()
+		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>** StaticGet_FONT_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DD0);
+			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DD0);
 		}
 
-		static ::TMPro::FastAction** StaticGet_TEXT_STYLE_PROPERTY_EVENT()
+		static ::TMPro::FastAction_1<::System::Boolean>** StaticGet_TEXT_STYLE_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DD8);
+			return (::TMPro::FastAction_1<::System::Boolean>**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DD8);
 		}
 
 		static ::System::Void _cctor()

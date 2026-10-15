@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class KNGDGMPKJIF;
 namespace System { class Object; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KLEGPKKGFMN_BBJNNAEEOLO_OFFSET UNITYSDK_OFFSET(0xB5255D0)
@@ -17,9 +17,9 @@ inline static constexpr unsigned int KLEGPKKGFMN_TypeDefinitionIndex = 61133;
 	class KLEGPKKGFMN : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_NPIPNPBCKGF()
+		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Object*>*>** StaticGet_NPIPNPBCKGF()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("", "KLEGPKKGFMN")->GetStaticField(0x5E3C0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Object*>*>**)UnitySDK::FromName("", "KLEGPKKGFMN")->GetStaticField(0x5E3C0);
 		}
 
 		static ::System::Void _cctor()

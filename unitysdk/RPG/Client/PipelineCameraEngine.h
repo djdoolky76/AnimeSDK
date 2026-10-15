@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/Client/PauseMainCameraUpdateReason.h"
 #include "unitysdk/RPG/GameCore/CameraMode.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class ACBFNEKJDNP;
@@ -28,7 +29,6 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace RPG::Client { class VCameraFreelook3rdConfigTemplate; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -230,9 +230,9 @@ namespace RPG::Client
 			return ((::RPG::Client::CameraDataAndFlags*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIPELINECAMERAENGINE_GETCAMERADATA_OFFSET))(this);
 		}
 
-		::System::Nullable* GetActiveCloseupShotTimelineYLimit()
+		::System::Nullable_1<::System::Single> GetActiveCloseupShotTimelineYLimit()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIPELINECAMERAENGINE_GETACTIVECLOSEUPSHOTTIMELINEYLIMIT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIPELINECAMERAENGINE_GETACTIVECLOSEUPSHOTTIMELINEYLIMIT_OFFSET))(this);
 		}
 
 		::System::Boolean HasOverrideConfig(::RPG::Client::CameraModuleType a1)

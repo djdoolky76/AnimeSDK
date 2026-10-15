@@ -5,7 +5,7 @@ class HNNHKPKCMJD;
 class MHKOBCIGDOH;
 class PCOMPBCHHKC;
 namespace Entitas { template <typename T> class Context_1; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::LittleGameShare
@@ -20,6 +20,6 @@ namespace RPG::Client::LittleGameShare
 		::MHKOBCIGDOH* _SnapshotPredicationHistorySystemRef; // 0x0
 		::Entitas::Context_1<T>* _context; // 0x0
 		::System::Collections::Generic::Queue_1<::PCOMPBCHHKC*>* _PredictionCheckFrameSnapshotQueue; // 0x0
-		::System::Action* OnApplyFrameSnapshot; // 0x0
+		::System::Action_1<::PCOMPBCHHKC*>* OnApplyFrameSnapshot; // 0x0
 	};
 }

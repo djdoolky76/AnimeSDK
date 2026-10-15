@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Rendering/MSAASamples.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/RenderGraphModule/RenderGraphContext.h"
@@ -63,7 +63,7 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 	public:
 		::UnityEngine::Rendering::DynamicArray_1<::System::Object*>* m_RendererListResources; // 0x10
 		::UnityEngine::Rendering::DynamicArray_1<::System::Object*>* m_TextureResources; // 0x18
-		::System::Collections::Generic::List_1<::System::ValueTuple>* m_AllocatedTextures; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Rendering::RTHandle*>>* m_AllocatedTextures; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Stack_1<::UnityEngine::Rendering::RTHandle*>*>* m_TexturePool; // 0x28
 		::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphDebugParams* m_RenderGraphDebug; // 0x30
 		::UnityEngine::Rendering::RTHandleSystem* m_RTHandleSystem; // 0x38

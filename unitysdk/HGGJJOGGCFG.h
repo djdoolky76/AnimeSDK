@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GNHANKEMGLG.h"
 #include "unitysdk/JOGBIBJLPJB.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class FCLMONFLHFP;
@@ -13,7 +14,6 @@ class PEELDCHBLJK;
 namespace RPG::Client { class ChenLingStackDropProxy; }
 namespace RPG::GameCore { class LevelPedestrianV2ChenLingStackOffsetInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2SpawnGroupInfo_ChenLingStack; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -73,7 +73,7 @@ inline static constexpr unsigned int HGGJJOGGCFG_TypeDefinitionIndex = 69336;
 		::FCLMONFLHFP* DKOFBCEICPO; // 0x78
 		::System::Single OOACJDJLBIN; // 0x80
 		::UnityEngine::Quaternion NCMEPPHLGEG; // 0x84
-		::System::Nullable* GFILAANHFOA; // 0x94
+		::System::Nullable_1<::UnityEngine::Vector3> GFILAANHFOA; // 0x94
 		::System::Byte _padding0[0x8];
 		::System::Boolean DBPJOCPHCAF; // 0xA4
 		::System::Boolean LGNGBOPCNIO; // 0xA5

@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_1; }
 
@@ -55,7 +55,7 @@ namespace UnityEngine::UI
 		::System::Boolean _OptimizedRaycastActive; // 0x40
 		::System::Byte _padding2[0x7];
 		::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>* _RaycastGraphics; // 0x48
-		::UnityEngine::Events::UnityAction* _GraphicRaycastTargetChangeDelg; // 0x50
+		::UnityEngine::Events::UnityAction_1<::UnityEngine::UI::Graphic*>* _GraphicRaycastTargetChangeDelg; // 0x50
 		static ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>** StaticGet_s_SortedGraphics()
 		{
 			return (::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>**)UnitySDK::FromName("UnityEngine.UI", "GraphicRaycaster")->GetStaticField(0x33850);

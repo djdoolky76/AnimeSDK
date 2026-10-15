@@ -8,11 +8,11 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class Object; }
@@ -62,9 +62,9 @@ inline static constexpr unsigned int CANDJPJDHMO_TypeDefinitionIndex = 77118;
 	{
 	public:
 		::KJFIKOKBCCA BPCIMAIENFL; // 0x10
-		::Entitas::IGroup* APOFCMHKEHD; // 0xA0
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* APOFCMHKEHD; // 0xA0
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0xA8
-		::Entitas::ICollector* EFMALHIKLCP; // 0xB0
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* EFMALHIKLCP; // 0xB0
 		::NDDFLGNNMDK* FKINCGODJEP; // 0xB8
 		::RPG::PoolDictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0xC0
 		::System::Boolean ABKMPGNDAHO; // 0xC8
@@ -183,9 +183,9 @@ inline static constexpr unsigned int CANDJPJDHMO_TypeDefinitionIndex = 77118;
 			return ((::System::Boolean(*)(::PVOID, ::HIOEAKHGILF*, ::HIOEAKHGILF*, ::KLNKLOMDIIC))((::PBYTE)hIl2Cpp + CANDJPJDHMO_IFCOJCDDPAD_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void HICMDFPACKP(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void HICMDFPACKP(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + CANDJPJDHMO_HICMDFPACKP_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + CANDJPJDHMO_HICMDFPACKP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void IHJMGIHNOFA(::HIOEAKHGILF* a1, ::HIOEAKHGILF* a2)

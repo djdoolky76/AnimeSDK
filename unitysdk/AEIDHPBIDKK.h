@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/IGKFNIEJGLM.h"
 class AEIDHPBIDKK_AADJOJCNLOL;
-namespace System { class Nullable; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
@@ -29,9 +29,9 @@ inline static constexpr unsigned int AEIDHPBIDKK_TypeDefinitionIndex = 71407;
 		::System::Single HPGLNFKJKIJ; // 0x8C
 		::System::Single JBDOICCALDN; // 0x90
 		::System::Single EMCBFBGJBJI; // 0x94
-		::System::Nullable* NHFPGLCLOMO; // 0x98
+		::System::Nullable_1<::UnityEngine::Color> NHFPGLCLOMO; // 0x98
 		::System::Byte _padding0[0xC];
-		::System::Nullable* JKJAIJONJNN; // 0xAC
+		::System::Nullable_1<::System::Boolean> JKJAIJONJNN; // 0xAC
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		// static const ::System::String* FOJHBNDBANG; // 0x0
 		// static const ::System::String* KGNMFJAMICO; // 0x0

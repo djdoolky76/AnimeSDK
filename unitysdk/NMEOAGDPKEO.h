@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class GBMLMONHJME;
 class NJMLJBNICND;
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
@@ -25,7 +25,7 @@ inline static constexpr unsigned int NMEOAGDPKEO_TypeDefinitionIndex = 78339;
 		::System::Collections::Generic::Queue_1<::GBMLMONHJME*>* OJFECHILFHG; // 0x10
 		::NJMLJBNICND* NIHJGJMOEGB; // 0x18
 		::GBMLMONHJME* MLAEBDBIGLD; // 0x20
-		::RPG::Client::Promises::Promise* HDKMCJLGOFI; // 0x28
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* HDKMCJLGOFI; // 0x28
 		::System::Boolean _IsStopped_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{
@@ -42,9 +42,9 @@ inline static constexpr unsigned int NMEOAGDPKEO_TypeDefinitionIndex = 78339;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_SET_ISSTOPPED_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* PEKGGDMDKMI(::NJMLJBNICND* a1, ::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>* a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* PEKGGDMDKMI(::NJMLJBNICND* a1, ::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::NJMLJBNICND*, ::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>*))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_PEKGGDMDKMI_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::NJMLJBNICND*, ::System::Collections::Generic::IEnumerable_1<::GBMLMONHJME*>*))((::PBYTE)hIl2Cpp + NMEOAGDPKEO_PEKGGDMDKMI_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void APFBHJOIOBK()

@@ -4,6 +4,7 @@
 #include "unitysdk/IAPIIEJHLMP.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/EvolveBuildSeason.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class CFEDPOMHPCP;
 class CJJHNFICDIM;
@@ -26,7 +27,6 @@ namespace RPG::Client { class EvolveBuildStage; }
 namespace RPG::Client { class SortedEvolveBuildGearEquipInfoLists; }
 namespace RPG::Client { class UIController; }
 namespace RPG::GameCore { class MazeBuffRow; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -171,12 +171,12 @@ namespace RPG::Client
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _UnlockedGearIDs_k__BackingField; // 0x70
 		::RPG::Client::EvolveBuildLevel* _LevelInstance; // 0x78
 		::System::Collections::Generic::List_1<::LDLCMMOPKNG*>* _InProgressLevelInfoList; // 0x80
-		::System::Nullable* LastSelectGearID; // 0x88
+		::System::Nullable_1<::System::UInt32> LastSelectGearID; // 0x88
 		::System::Boolean _ShowDeadLine; // 0x90
 		::System::Boolean _ShouldAutoShowTutorialPage; // 0x91
 		::System::Boolean _ShouldAutoShowMainPage; // 0x92
 		::System::Boolean _IsGivingUp_k__BackingField; // 0x93
-		::System::Nullable* LastAbandonGearID; // 0x94
+		::System::Nullable_1<::System::UInt32> LastAbandonGearID; // 0x94
 		::RPG::GameCore::EvolveBuildSeason _AutoShowSeason; // 0x9C
 		::System::Void _ctor()
 		{

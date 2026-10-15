@@ -3,21 +3,22 @@
 #include "unitysdk/System/Object.h"
 class MEIGMBOLDOF;
 namespace System { class Object; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T1, typename T2> class UnityAction_2; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 inline static constexpr unsigned int KPNFPHJPOMM___O_TypeDefinitionIndex = 49183;
 
 	class KPNFPHJPOMM___O : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction** StaticGet__0___OnGetPooledManagedLight()
+		static ::UnityEngine::Events::UnityAction_2<::MEIGMBOLDOF*, ::System::Boolean>** StaticGet__0___OnGetPooledManagedLight()
 		{
-			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("", "<>O")->GetStaticField(0x65F80);
+			return (::UnityEngine::Events::UnityAction_2<::MEIGMBOLDOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x65F80);
 		}
 
-		static ::UnityEngine::Events::UnityAction** StaticGet__1___OnReleasePooledManagedLight()
+		static ::UnityEngine::Events::UnityAction_1<::MEIGMBOLDOF*>** StaticGet__1___OnReleasePooledManagedLight()
 		{
-			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("", "<>O")->GetStaticField(0x65F88);
+			return (::UnityEngine::Events::UnityAction_1<::MEIGMBOLDOF*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x65F88);
 		}
 
 		static ::System::Object** StaticGet__2___OnDiscardLoadedBlock()

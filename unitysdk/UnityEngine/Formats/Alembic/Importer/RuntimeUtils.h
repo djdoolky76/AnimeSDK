@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
@@ -33,9 +33,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DESTROYUNITYOBJECT_OFFSET))(a1);
 		}
 
-		static ::System::Void DepthFirstVisitor(::UnityEngine::GameObject* a1, ::System::Action* a2)
+		static ::System::Void DepthFirstVisitor(::UnityEngine::GameObject* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET))(a1, a2);
 		}
 
 	};

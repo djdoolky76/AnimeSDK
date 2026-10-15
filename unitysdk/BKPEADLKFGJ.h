@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/RPG/GameCore/StageType.h"
+#include "unitysdk/System/Nullable_1.h"
 class LOMPCFJNJBP;
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::GameCore { class LevelGameModeStateChanged; }
 namespace RPG::GameCore { class LevelUIComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -64,9 +64,9 @@ inline static constexpr unsigned int BKPEADLKFGJ_TypeDefinitionIndex = 72343;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKPEADLKFGJ_EKGCGIDIFJJ_OFFSET))(this);
 		}
 
-		::System::Void NDHJKKDPGMO(::System::Nullable* a1)
+		::System::Void NDHJKKDPGMO(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + BKPEADLKFGJ_NDHJKKDPGMO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + BKPEADLKFGJ_NDHJKKDPGMO_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GECINDNCLNM()

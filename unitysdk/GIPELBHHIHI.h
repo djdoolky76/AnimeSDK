@@ -2,15 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPEBLEKDAGI.h"
 #include "unitysdk/RPG/GameCore/MapRotationVolumeState.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class DLNCBOGAMFG;
 class KDFFHMDFALG;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class MapRotationVolumeConfig; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define GIPELBHHIHI_ABHMALNGJHH_OFFSET UNITYSDK_OFFSET(0x15A4E300)
@@ -43,10 +44,10 @@ inline static constexpr unsigned int GIPELBHHIHI_TypeDefinitionIndex = 60627;
 	{
 	public:
 		::DLNCBOGAMFG* BAMECAHHEKC; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* LJKIOJAJOMN; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Object*>* LJKIOJAJOMN; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* AKGOFPGKIKA; // 0x20
 		::KDFFHMDFALG* KGCNPIEDOCA; // 0x28
-		::System::Nullable* FKCLGOHFADC; // 0x30
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> FKCLGOHFADC; // 0x30
 		::System::Byte _padding0[0x4];
 		::System::Boolean KJPMJPLEHHF; // 0x3C
 		::System::Void _ctor()
@@ -89,14 +90,14 @@ inline static constexpr unsigned int GIPELBHHIHI_TypeDefinitionIndex = 60627;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + GIPELBHHIHI_NFNKLEAFFCI_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void CFHDDLFJIEN(::System::UInt32 a1, ::System::UInt32 a2, ::System::Action* a3)
+		::System::Void CFHDDLFJIEN(::System::UInt32 a1, ::System::UInt32 a2, ::System::Action_1<::RPG::GameCore::MapRotationVolumeState>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + GIPELBHHIHI_CFHDDLFJIEN_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Action_1<::RPG::GameCore::MapRotationVolumeState>*))((::PBYTE)hIl2Cpp + GIPELBHHIHI_CFHDDLFJIEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CNBFJOHMMEO(::System::UInt32 a1, ::System::UInt32 a2, ::System::Action* a3)
+		::System::Void CNBFJOHMMEO(::System::UInt32 a1, ::System::UInt32 a2, ::System::Action_1<::RPG::GameCore::MapRotationVolumeState>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + GIPELBHHIHI_CNBFJOHMMEO_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Action_1<::RPG::GameCore::MapRotationVolumeState>*))((::PBYTE)hIl2Cpp + GIPELBHHIHI_CNBFJOHMMEO_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean PMLPLNJMFMO(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single a3)
@@ -154,14 +155,14 @@ inline static constexpr unsigned int GIPELBHHIHI_TypeDefinitionIndex = 60627;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GIPELBHHIHI_CJBNJACBHPL_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* LHAKMEPDDJL()
+		::System::Nullable_1<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Single>> LHAKMEPDDJL()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + GIPELBHHIHI_LHAKMEPDDJL_OFFSET))(this);
+			return ((::System::Nullable_1<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Single>>(*)(::PVOID))((::PBYTE)hIl2Cpp + GIPELBHHIHI_LHAKMEPDDJL_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::GameCore::MapRotationVolumeConfig*>* LIELIMHHLHO()
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::MapRotationVolumeConfig*>* LIELIMHHLHO()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::GameCore::MapRotationVolumeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GIPELBHHIHI_LIELIMHHLHO_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::MapRotationVolumeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GIPELBHHIHI_LIELIMHHLHO_OFFSET))(this);
 		}
 
 	};

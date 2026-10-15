@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/GridFightTraitChooseBaseAction.h"
 class CHCHAJIANIM;
 namespace RPG::Client { class GridFightPrayQuest; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_GRIDFIGHTFATEPRAYSELECTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD12D160)
@@ -38,9 +38,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFATEPRAYSELECTACTION_SELECTMEMBER_OFFSET))(this, a1);
 		}
 
-		::System::Void Select(::System::UInt32 a1, ::System::Action* a2)
+		::System::Void Select(::System::UInt32 a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFATEPRAYSELECTACTION_SELECT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFATEPRAYSELECTACTION_SELECT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightPrayQuest*>* get_Options()

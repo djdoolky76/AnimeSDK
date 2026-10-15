@@ -9,7 +9,7 @@ namespace RPG::Client { class ChimeraDuelMasterData; }
 namespace RPG::Client { class ChimeraDuelPvpTeamSnapshot; }
 namespace RPG::Client { class IChimeraDuelChallengeTeam; }
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_CHIMERADUELGAMESESSIONBATTLE_CREATE_1_OFFSET UNITYSDK_OFFSET(0xCB248A0)
@@ -100,9 +100,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelGameSessionBattle*(*)(::LCEDDGELBMJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONBATTLE_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ChimeraDuelGameSessionBattle* Create_1(::System::Tuple* a1)
+		static ::RPG::Client::ChimeraDuelGameSessionBattle* Create_1(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameSessionBattle*(*)(::System::Tuple*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONBATTLE_CREATE_1_OFFSET))(a1);
+			return ((::RPG::Client::ChimeraDuelGameSessionBattle*(*)(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONBATTLE_CREATE_1_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::ChimeraDuelGameSessionBattle* Create_2(::KKIPKCDNPLE* a1)

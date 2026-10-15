@@ -6,8 +6,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace RPG::Client { class VirtualCameraAutoFitScreen; }
 namespace RPG::GameCore { class UI3DCameraStateBase; }
 namespace RPG::GameCore { class UI3DVirtualCameraComponent; }
-namespace System { class Action; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_GAMECORE_UI3DCAMERASTATEBASE_ACTIVE_OFFSET UNITYSDK_OFFSET(0xE865070)
@@ -46,7 +46,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::UI3DVirtualCameraComponent* _UI3DVirtualCameraCmpt; // 0x10
 		::RPG::Client::VirtualCameraAutoFitScreen* _AutoFitScreenCmpt; // 0x18
 		::Cinemachine::CinemachineVirtualCameraBase* _VirtualCameraBase; // 0x20
-		::System::Action* ActiveChanged; // 0x28
+		::System::Action_1<::System::Boolean>* ActiveChanged; // 0x28
 		::System::Boolean _IsActive; // 0x30
 		// static const ::System::Object _PRIORITY_ON; // 0x0
 		// static const ::System::Object _PRIORITY_OFF; // 0x0
@@ -55,14 +55,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DCAMERASTATEBASE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_ActiveChanged(::System::Action* a1)
+		::System::Void add_ActiveChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DCAMERASTATEBASE_ADD_ACTIVECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DCAMERASTATEBASE_ADD_ACTIVECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ActiveChanged(::System::Action* a1)
+		::System::Void remove_ActiveChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DCAMERASTATEBASE_REMOVE_ACTIVECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UI3DCAMERASTATEBASE_REMOVE_ACTIVECHANGED_OFFSET))(this, a1);
 		}
 
 		static ::RPG::GameCore::UI3DCameraStateBase* Create(::Cinemachine::CinemachineVirtualCameraBase* a1)

@@ -4,8 +4,8 @@
 namespace RPG::Client { class ActivityBenefitV2RewardOverviewViewModel; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class QuestData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL_ADD_ONMAYBEINITIALREWARDCLAIMED_OFFSET UNITYSDK_OFFSET(0xC3DBC20)
@@ -36,7 +36,7 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::ItemDisplayData* _NormalRewardItem_k__BackingField; // 0x10
-		::System::Action* OnMaybeInitialRewardClaimed; // 0x18
+		::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* OnMaybeInitialRewardClaimed; // 0x18
 		::RPG::Client::ItemDisplayData* _InitialRewardItem_k__BackingField; // 0x20
 		::RPG::Client::ItemDisplayData* _SpecialRewardExtraItem_k__BackingField; // 0x28
 		::System::Int32 _RoundCount_k__BackingField; // 0x30
@@ -126,14 +126,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL__ONQUESTGETREWARD_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnMaybeInitialRewardClaimed(::System::Action* a1)
+		::System::Void add_OnMaybeInitialRewardClaimed(::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL_ADD_ONMAYBEINITIALREWARDCLAIMED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL_ADD_ONMAYBEINITIALREWARDCLAIMED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnMaybeInitialRewardClaimed(::System::Action* a1)
+		::System::Void remove_OnMaybeInitialRewardClaimed(::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL_REMOVE_ONMAYBEINITIALREWARDCLAIMED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL_REMOVE_ONMAYBEINITIALREWARDCLAIMED_OFFSET))(this, a1);
 		}
 
 	};

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCallbackType.h"
 #include "unitysdk/JPNPHHIBPEK.h"
+#include "unitysdk/System/Nullable_1.h"
 class AkCallbackInfo;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OCMKDOGOKPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBD71070)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int OCMKDOGOKPJ_TypeDefinitionIndex = 72426;
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* HOCGAJDKPJF; // 0x20
 		::System::Int32 NCDEGDCPCHN; // 0x28
-		::System::Nullable* MFFPFLFAAGN; // 0x2C
+		::System::Nullable_1<::System::UInt32> MFFPFLFAAGN; // 0x2C
 		::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + OCMKDOGOKPJ_CTOR_OFFSET))(this, a1);

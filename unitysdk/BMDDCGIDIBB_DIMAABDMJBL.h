@@ -3,13 +3,13 @@
 #include "unitysdk/RPG/Client/EPedestrianV2MotionState.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/JOGBIBJLPJB.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BMDDCGIDIBB;
 class ICOHAPENNHF;
 class LAJCPEFEOPN;
 class MHHBDDMJOII;
 class MNIADKMONBH;
-namespace System { class Nullable; }
 
 #define BMDDCGIDIBB_DIMAABDMJBL_BFFPFIBADPI_OFFSET UNITYSDK_OFFSET(0xBA91DD0)
 #define BMDDCGIDIBB_DIMAABDMJBL_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xBA92FF0)
@@ -64,9 +64,9 @@ inline static constexpr unsigned int BMDDCGIDIBB_DIMAABDMJBL_TypeDefinitionIndex
 			return ((::RPG::Client::EPedestrianV2MotionState(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_DIMAABDMJBL_BGDKFHEBDFJ_OFFSET))(this);
 		}
 
-		::System::Nullable* DCBPABOCBHA()
+		::System::Nullable_1<::UnityEngine::Vector3> DCBPABOCBHA()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_DIMAABDMJBL_DCBPABOCBHA_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + BMDDCGIDIBB_DIMAABDMJBL_DCBPABOCBHA_OFFSET))(this);
 		}
 
 		::System::Void CMBFPCPBMNH()

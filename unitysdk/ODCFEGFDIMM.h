@@ -8,6 +8,7 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
 #define ODCFEGFDIMM_BKAAMJPIPLJ_OFFSET UNITYSDK_OFFSET(0xBD87B70)
@@ -120,14 +121,14 @@ inline static constexpr unsigned int ODCFEGFDIMM_TypeDefinitionIndex = 61150;
 			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + ODCFEGFDIMM_DMJOKNMPLHJ_OFFSET))(this, a1);
 		}
 
-		::System::Void __InitAudioPck_b__12_0(::System::Action* a1, ::System::Action* a2)
+		::System::Void __InitAudioPck_b__12_0(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + ODCFEGFDIMM___INITAUDIOPCK_B__12_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + ODCFEGFDIMM___INITAUDIOPCK_B__12_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __InitGame_b__13_0(::System::Action* a1, ::System::Action* a2)
+		::System::Void __InitGame_b__13_0(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + ODCFEGFDIMM___INITGAME_B__13_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + ODCFEGFDIMM___INITGAME_B__13_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __EnableLoginButton_b__14_0()

@@ -4,8 +4,8 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -26,9 +26,9 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Boolean completed; // 0x0
 		::System::Collections::Generic::List_1<T>* buffer; // 0x0
 		::System::Collections::Generic::IList_1<T>* _Current_k__BackingField; // 0x0
-		static ::System::Action** StaticGet_MoveNextCoreDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_MoveNextCoreDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_Buffer")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_Buffer")->GetStaticField(0x0);
 		}
 
 	};

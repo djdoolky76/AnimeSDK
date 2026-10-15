@@ -4,9 +4,9 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class UGCInterface; }
 namespace MiHoYo::SDK { class UGCInterface_UgcBinaryResponseModel; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB05C7A0)
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS12_0__HTTPGETBINARYCARRYTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0xB0610F0)
@@ -19,8 +19,8 @@ namespace MiHoYo::SDK
 	class UGCInterface___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::System::Action* tokenFailedCallback; // 0x18
+		::System::Action_1<::System::Object*>* callback; // 0x10
+		::System::Action_1<::System::Object*>* tokenFailedCallback; // 0x18
 		::System::String* strTaskId; // 0x20
 		::MiHoYo::SDK::UGCInterface* __4__this; // 0x28
 		::System::Void _ctor()

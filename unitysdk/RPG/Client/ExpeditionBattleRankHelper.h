@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ExpeditionBattleRank.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERANKHELPER_GETSTARBYRANK_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::ValueTuple>* GetRanksOrderedByStarDescending()
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* GetRanksOrderedByStarDescending()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERANKHELPER_GETRANKSORDEREDBYSTARDESCENDING_OFFSET))();
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERANKHELPER_GETRANKSORDEREDBYSTARDESCENDING_OFFSET))();
 		}
 
 		static ::System::String* GetRankStateNameByIndex(::System::UInt32 a1)

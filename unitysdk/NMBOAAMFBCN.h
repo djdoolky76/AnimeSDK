@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPEBLEKDAGI.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KDFFHMDFALG;
@@ -32,7 +32,7 @@ inline static constexpr unsigned int NMBOAAMFBCN_TypeDefinitionIndex = 60598;
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>* DLBGMKACBEH; // 0x10
 		::RPG::Client::MapDef* KKKADHHBMLD; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* FLKGJELMHCO; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Object*>* FLKGJELMHCO; // 0x20
 		::KDFFHMDFALG* KGCNPIEDOCA; // 0x28
 		::System::Void _ctor()
 		{

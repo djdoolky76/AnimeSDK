@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Billboard { class IBillboardTypeData; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 
 #define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_CLONE_OFFSET UNITYSDK_OFFSET(0xC8822D0)
 #define RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC882340)
@@ -20,7 +20,7 @@ namespace RPG::Client::Billboard
 	class FiveDimSidePuzzleBillboardData : public ::System::Object
 	{
 	public:
-		::System::Tuple* _FiveDimSidePuzzlePanelPaths_k__BackingField; // 0x10
+		::System::Tuple_2<::System::String*, ::System::String*>* _FiveDimSidePuzzlePanelPaths_k__BackingField; // 0x10
 		::System::Boolean _IsShowFiveDimSidePuzzleChest_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
@@ -37,14 +37,14 @@ namespace RPG::Client::Billboard
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_SET_ISSHOWFIVEDIMSIDEPUZZLECHEST_OFFSET))(this, a1);
 		}
 
-		::System::Tuple* get_FiveDimSidePuzzlePanelPaths()
+		::System::Tuple_2<::System::String*, ::System::String*>* get_FiveDimSidePuzzlePanelPaths()
 		{
-			return ((::System::Tuple*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_GET_FIVEDIMSIDEPUZZLEPANELPATHS_OFFSET))(this);
+			return ((::System::Tuple_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_GET_FIVEDIMSIDEPUZZLEPANELPATHS_OFFSET))(this);
 		}
 
-		::System::Void set_FiveDimSidePuzzlePanelPaths(::System::Tuple* a1)
+		::System::Void set_FiveDimSidePuzzlePanelPaths(::System::Tuple_2<::System::String*, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Tuple*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_SET_FIVEDIMSIDEPUZZLEPANELPATHS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_FIVEDIMSIDEPUZZLEBILLBOARDDATA_SET_FIVEDIMSIDEPUZZLEPANELPATHS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsValid()

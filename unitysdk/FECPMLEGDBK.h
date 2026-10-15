@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/GameCore/ECharacterNavSteerMode.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class FOOIINCDBFA;
 namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class ST_Main_MoveToPosition; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 
 #define FECPMLEGDBK_AAPKNHGHGPA_OFFSET UNITYSDK_OFFSET(0x156E6640)
 #define FECPMLEGDBK_BFJBKDGAJMO_OFFSET UNITYSDK_OFFSET(0x156E6E30)
@@ -54,9 +54,9 @@ inline static constexpr unsigned int FECPMLEGDBK_TypeDefinitionIndex = 52210;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FECPMLEGDBK_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* NECAHGBMMPI()
+		::System::Nullable_1<::RPG::GameCore::ECharacterNavSteerMode> NECAHGBMMPI()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FECPMLEGDBK_NECAHGBMMPI_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::ECharacterNavSteerMode>(*)(::PVOID))((::PBYTE)hIl2Cpp + FECPMLEGDBK_NECAHGBMMPI_OFFSET))(this);
 		}
 
 		::System::Void BFJBKDGAJMO()

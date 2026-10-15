@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System { class EventArgs; }
-namespace System { class EventHandler; }
 namespace System { class Object; }
 namespace System { class WeakReference; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class ActivityFilter; }
 namespace System::Diagnostics::Tracing { class EventListener; }
@@ -26,8 +26,8 @@ namespace System::Diagnostics::Tracing
 	class EventListener : public ::System::Object
 	{
 	public:
-		::System::EventHandler* EventWritten; // 0x10
-		::System::EventHandler* _EventSourceCreated; // 0x18
+		::System::EventHandler_1<::System::Diagnostics::Tracing::EventWrittenEventArgs*>* EventWritten; // 0x10
+		::System::EventHandler_1<::System::Diagnostics::Tracing::EventSourceCreatedEventArgs*>* _EventSourceCreated; // 0x18
 		::System::Diagnostics::Tracing::EventListener* m_Next; // 0x20
 		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x28
 		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_s_EventSources()

@@ -13,7 +13,7 @@ class PLJNLHLGILF;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -40,7 +40,7 @@ inline static constexpr unsigned int EGFMHEDPFOC_TypeDefinitionIndex = 71596;
 	public:
 		::DamageTextStyle* PCHICPLDDIB; // 0x60
 		::DamageTextStyle* LDCIMODGNCN; // 0x68
-		::System::Collections::Generic::List_1<::System::Tuple*>* LADHCMMDAOA; // 0x70
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::RPG::Client::TextID>*>* LADHCMMDAOA; // 0x70
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::DamageTextStyle*>* BHNHLHHOKLJ; // 0x78
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::DamageTextStyle*>* GNKGANNNMGI; // 0x80
 		::DamageTextStyle* MEEBEGPKBBM; // 0x88

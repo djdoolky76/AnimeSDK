@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EAODNLIPMEO;
 class FBAMAFLOBGA;
 class HFGMOFBDAON;
@@ -15,10 +15,10 @@ class PBICIFBPKHF;
 class PENGPJKHIJF;
 class PHKPDMEAMBP;
 class POCJJHEDFOD;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class ChallengeMazeConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define FOAEIPLEMKJ_ADD_ONPROGRESSCLEAR_OFFSET UNITYSDK_OFFSET(0x158DE5B0)
@@ -58,9 +58,9 @@ inline static constexpr unsigned int FOAEIPLEMKJ_TypeDefinitionIndex = 81496;
 			return ((::System::Void(*)(::PVOID, ::NHCHDKJLNBJ*))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_KPJGDHLENIP_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* LIDOMLFPNOI()
+		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*>>* LIDOMLFPNOI()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_LIDOMLFPNOI_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_LIDOMLFPNOI_OFFSET))(this);
 		}
 
 		::EAODNLIPMEO* MIILDBOPOCL(::HNGODOCOCCF* a1)
@@ -108,24 +108,24 @@ inline static constexpr unsigned int FOAEIPLEMKJ_TypeDefinitionIndex = 81496;
 			return ((::POCJJHEDFOD*(*)(::PVOID, ::PBICIFBPKHF*))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_JMOAELLJCAI_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GKPLIIIFHAL()
+		::RPG::Client::Promises::IPromise_1<::LPIHJBELIBN*>* GKPLIIIFHAL()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_GKPLIIIFHAL_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::LPIHJBELIBN*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_GKPLIIIFHAL_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* OEPKONFNJKK()
+		::RPG::Client::Promises::IPromise_1<::HFGMOFBDAON*>* OEPKONFNJKK()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_OEPKONFNJKK_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::HFGMOFBDAON*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_OEPKONFNJKK_OFFSET))(this);
 		}
 
-		::System::Void add_OnProgressClear(::System::Action* a1)
+		::System::Void add_OnProgressClear(::System::Action_1<::FBAMAFLOBGA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_ADD_ONPROGRESSCLEAR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FBAMAFLOBGA*>*))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_ADD_ONPROGRESSCLEAR_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnProgressClear(::System::Action* a1)
+		::System::Void remove_OnProgressClear(::System::Action_1<::FBAMAFLOBGA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_REMOVE_ONPROGRESSCLEAR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FBAMAFLOBGA*>*))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ_REMOVE_ONPROGRESSCLEAR_OFFSET))(this, a1);
 		}
 
 		::System::Void DBOOOLCKOLD(::System::UInt32 a1)

@@ -18,6 +18,7 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class VertexHelper; }
 namespace UnityEngine::UI::CoroutineTween { template <typename T> class TweenRunner_1; }
@@ -120,7 +121,7 @@ namespace UnityEngine::UI
 		::UnityEngine::Events::UnityAction* m_OnDirtyLayoutCallback; // 0x60
 		::UnityEngine::Events::UnityAction* m_OnDirtyVertsCallback; // 0x68
 		::UnityEngine::Events::UnityAction* m_OnDirtyMaterialCallback; // 0x70
-		::UnityEngine::Events::UnityAction* m_OnRaycastTargetChangeCallback; // 0x78
+		::UnityEngine::Events::UnityAction_1<::UnityEngine::UI::Graphic*>* m_OnRaycastTargetChangeCallback; // 0x78
 		::UnityEngine::Mesh* m_CachedMesh; // 0x80
 		::Il2CppArray<::UnityEngine::Vector2>* m_CachedUvs; // 0x88
 		::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>* m_ColorTweenRunner; // 0x90
@@ -493,14 +494,14 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHIC_UNREGISTERDIRTYMATERIALCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterChangeRaycastTargetCallback(::UnityEngine::Events::UnityAction* a1)
+		::System::Void RegisterChangeRaycastTargetCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::UI::Graphic*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHIC_REGISTERCHANGERAYCASTTARGETCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::UI::Graphic*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHIC_REGISTERCHANGERAYCASTTARGETCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void UnregisterChangeRaycastTargetCallback(::UnityEngine::Events::UnityAction* a1)
+		::System::Void UnregisterChangeRaycastTargetCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::UI::Graphic*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHIC_UNREGISTERCHANGERAYCASTTARGETCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::UI::Graphic*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHIC_UNREGISTERCHANGERAYCASTTARGETCALLBACK_OFFSET))(this, a1);
 		}
 
 		static ::System::Void ResetUIDefaultMat()

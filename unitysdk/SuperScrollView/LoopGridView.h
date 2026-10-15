@@ -21,6 +21,8 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Func_6; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -215,9 +217,9 @@ namespace SuperScrollView
 		::System::Int32 mRowCount; // 0xBC
 		::System::Int32 mColumnCount; // 0xC0
 		::System::Byte _padding2[0x4];
-		::System::Action* mOnBeginDragAction; // 0xC8
-		::System::Action* mOnDragingAction; // 0xD0
-		::System::Action* mOnEndDragAction; // 0xD8
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* mOnBeginDragAction; // 0xC8
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* mOnDragingAction; // 0xD0
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* mOnEndDragAction; // 0xD8
 		::System::Action* mOnEndPlayFadeInAction; // 0xE0
 		::System::Action* mOnFadeInEndAction; // 0xE8
 		::System::Single mSmoothDumpVel; // 0xF0
@@ -227,9 +229,9 @@ namespace SuperScrollView
 		::System::Boolean mItemSnapEnable; // 0x100
 		::System::Byte _padding3[0x3];
 		::SuperScrollView::GridFixedType mGridFixedType; // 0x104
-		::System::Action* mOnSnapItemFinished; // 0x108
-		::System::Action* mOnSnapNearestChanged; // 0x110
-		::System::Action* OnRecyeleItem; // 0x118
+		::System::Action_2<::SuperScrollView::LoopGridView*, ::SuperScrollView::LoopGridViewItem*>* mOnSnapItemFinished; // 0x108
+		::System::Action_1<::SuperScrollView::LoopGridView*>* mOnSnapNearestChanged; // 0x110
+		::System::Action_1<::SuperScrollView::LoopGridViewItem*>* OnRecyeleItem; // 0x118
 		::System::Int32 mLeftSnapUpdateExtraCount; // 0x120
 		::UnityEngine::Vector2 mViewPortSnapPivot; // 0x124
 		::UnityEngine::Vector2 mItemSnapPivot; // 0x12C
@@ -276,11 +278,11 @@ namespace SuperScrollView
 		::System::Int32 mPerFrameCount; // 0x1D4
 		::System::Int32 mPreparePrefabIndex; // 0x1D8
 		::System::Byte _padding12[0x4];
-		::System::Action* prepareAction; // 0x1E0
+		::System::Action_1<::XLua::LuaTable*>* prepareAction; // 0x1E0
 		::System::Boolean mInPrepare; // 0x1E8
 		::System::Boolean inAsyncSetItemCount; // 0x1E9
 		::System::Byte _padding13[0x6];
-		::System::Action* onSetCountFinish; // 0x1F0
+		::System::Action_1<::XLua::LuaTable*>* onSetCountFinish; // 0x1F0
 		::UnityEngine::Coroutine* setCountCoroutine; // 0x1F8
 		::System::Boolean setCountRestPos; // 0x200
 		::System::Byte _padding14[0x3];
@@ -907,9 +909,9 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopGridViewItem*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPGRIDVIEW_ONITEMNEW_OFFSET))(this, a1);
 		}
 
-		::System::Void AsyncPrepareItemCount(::System::Int32 a1, ::System::Int32 a2, ::System::Action* a3)
+		::System::Void AsyncPrepareItemCount(::System::Int32 a1, ::System::Int32 a2, ::System::Action_1<::XLua::LuaTable*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPGRIDVIEW_ASYNCPREPAREITEMCOUNT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPGRIDVIEW_ASYNCPREPAREITEMCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void PrepareInstanceItem()
@@ -917,9 +919,9 @@ namespace SuperScrollView
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPGRIDVIEW_PREPAREINSTANCEITEM_OFFSET))(this);
 		}
 
-		::System::Void AsyncSetListItemCount(::System::Int32 a1, ::System::Boolean a2, ::System::Action* a3)
+		::System::Void AsyncSetListItemCount(::System::Int32 a1, ::System::Boolean a2, ::System::Action_1<::XLua::LuaTable*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPGRIDVIEW_ASYNCSETLISTITEMCOUNT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_LOOPGRIDVIEW_ASYNCSETLISTITEMCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnSetListItemFinish()

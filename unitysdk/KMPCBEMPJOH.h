@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class NABFBNBJNKK;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -45,9 +45,9 @@ inline static constexpr unsigned int KMPCBEMPJOH_TypeDefinitionIndex = 73475;
 			return ((::R3::ReactiveProperty_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMPCBEMPJOH_GET_FOCUSENTERCOUNT_OFFSET))(this);
 		}
 
-		::R3::Observable* JKHIHPBHEEP()
+		::R3::Observable_1<::System::String*>* JKHIHPBHEEP()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMPCBEMPJOH_JKHIHPBHEEP_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMPCBEMPJOH_JKHIHPBHEEP_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::NABFBNBJNKK*>* get_Items()

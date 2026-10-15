@@ -7,7 +7,7 @@
 namespace IRIClusterBuilder { class IRI2Simulator; }
 namespace IRIClusterBuilder { class IRI2VolumeTemplate; }
 namespace IRIClusterBuilder { class IRIClusterBuildConfig; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
@@ -48,7 +48,7 @@ namespace IRIClusterBuilder
 		::UnityEngine::Texture2DArray* PKOMLNPPDOH; // 0x50
 		::UnityEngine::Texture2DArray* EOJJHCCCNOE; // 0x58
 		::UnityEngine::Transform* GOECGKDKEHO; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Collections::Generic::List_1<::System::Tuple*>*>* CAMOCBEEMIF; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*>* CAMOCBEEMIF; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* EFFFPDDFBFK; // 0x70
 		::System::Int32 MJDDDMCKLGP; // 0x78
 		::System::Int32 MKDDNAPPEJI; // 0x7C

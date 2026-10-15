@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client { class LuaUIController; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MATCHTHREEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5B2B90)
 #define RPG_CLIENT_MATCHTHREEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B2BD0)
@@ -20,14 +20,14 @@ namespace RPG::Client
 	class MatchThreeUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__15_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54ED0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54ED0);
 		}
 
-		static ::System::Action** StaticGet___9__4_0()
+		static ::System::Action_1<::RPG::Client::BaseLobby*>** StaticGet___9__4_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54ED8);
+			return (::System::Action_1<::RPG::Client::BaseLobby*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54ED8);
 		}
 
 		static ::System::Object** StaticGet___9()

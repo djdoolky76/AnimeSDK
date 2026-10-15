@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
-namespace UnityEngine::Events { class UnityEvent; }
+namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -12,7 +12,7 @@ namespace Cysharp::Threading::Tasks
 	class UnityEventHandlerAsyncEnumerable_1 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Events::UnityEvent* unityEvent; // 0x0
+		::UnityEngine::Events::UnityEvent_1<T>* unityEvent; // 0x0
 		::System::Threading::CancellationToken cancellationToken1; // 0x0
 	};
 }

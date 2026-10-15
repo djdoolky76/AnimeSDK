@@ -29,6 +29,7 @@ class OBJANKHLNGO;
 class PFALBCGPCFF;
 class PGKHIKFLKLM;
 namespace RPG::Client::FateRin { class ViewModelEventHandler; }
+namespace RPG::Client::FateRin { template <typename T> class ViewModelEventHandler_1; }
 namespace RPG::Client::FateRin::Battle { class FateRinBattleEnemyHudBossViewModel; }
 namespace RPG::Client::FateRin::Battle { class FateRinBattleEnemyHudViewModel; }
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudActiveSkillButtonViewModel; }
@@ -107,7 +108,7 @@ namespace RPG::Client::FateRin::Battle
 		::EAHCLJPMCIG* _Model; // 0x48
 		::RPG::Client::FateRin::ViewModelEventHandler* OnAnyKeyDown; // 0x50
 		::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudBossViewModel* _BossArea_k__BackingField; // 0x58
-		::RPG::Client::FateRin::ViewModelEventHandler* OnShowAllExceptBossBarUIChange; // 0x60
+		::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>* OnShowAllExceptBossBarUIChange; // 0x60
 		::OBJANKHLNGO* _Messenger; // 0x68
 		::RPG::Client::FateRin::ViewModelEventHandler* OnNotifyExit; // 0x70
 		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* _CardArea_k__BackingField; // 0x78
@@ -120,7 +121,7 @@ namespace RPG::Client::FateRin::Battle
 		::RPG::Client::FateRin::Battle::IFateRinBattleWaveInfoViewModel* _WaveInfoArea_k__BackingField; // 0xB0
 		::RPG::Client::FateRin::Battle::FateRinBattleHudTurnDamageViewModel* _TurnDamageArea_k__BackingField; // 0xB8
 		::RPG::Client::FateRin::Battle::IFateRinBattleFunctionAreaViewModel* _FunctionArea_k__BackingField; // 0xC0
-		::RPG::Client::FateRin::ViewModelEventHandler* OnIsShowAllUIChange; // 0xC8
+		::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>* OnIsShowAllUIChange; // 0xC8
 		::RPG::Client::FateRin::Battle::IFateRinBattleHudUltraTipViewModel* _UltraTipArea_k__BackingField; // 0xD0
 		::RPG::Client::FateRin::ViewModelEventHandler* OnNotifySilentExit; // 0xD8
 		::System::Boolean _IsHudHiddenByTask; // 0xE0
@@ -319,24 +320,24 @@ namespace RPG::Client::FateRin::Battle
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_REMOVE_ONNOTIFYSILENTEXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnIsShowAllUIChange(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void add_OnIsShowAllUIChange(::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_ADD_ONISSHOWALLUICHANGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_ADD_ONISSHOWALLUICHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnIsShowAllUIChange(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void remove_OnIsShowAllUIChange(::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_REMOVE_ONISSHOWALLUICHANGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_REMOVE_ONISSHOWALLUICHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnShowAllExceptBossBarUIChange(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void add_OnShowAllExceptBossBarUIChange(::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_ADD_ONSHOWALLEXCEPTBOSSBARUICHANGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_ADD_ONSHOWALLEXCEPTBOSSBARUICHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnShowAllExceptBossBarUIChange(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void remove_OnShowAllExceptBossBarUIChange(::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_REMOVE_ONSHOWALLEXCEPTBOSSBARUICHANGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDVIEWMODEL_REMOVE_ONSHOWALLEXCEPTBOSSBARUICHANGE_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnUltraTriggerPressStateChange(::RPG::Client::FateRin::ViewModelEventHandler* a1)

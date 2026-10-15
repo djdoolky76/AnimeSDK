@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
-namespace System::Diagnostics::Tracing { class TraceLoggingTypeInfo; }
+namespace System::Diagnostics::Tracing { template <typename T> class TraceLoggingTypeInfo_1; }
 
 namespace System::Diagnostics::Tracing
 {
@@ -11,7 +11,7 @@ namespace System::Diagnostics::Tracing
 	class ClassPropertyWriter_2
 	{
 	public:
-		::System::Diagnostics::Tracing::TraceLoggingTypeInfo* valueTypeInfo; // 0x0
+		::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::System::Object*>* valueTypeInfo; // 0x0
 		::System::Object* getter; // 0x0
 	};
 }

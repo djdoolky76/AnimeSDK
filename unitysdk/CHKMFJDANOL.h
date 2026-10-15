@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CHKMFJDANOL;
 class CJKMDOLJPHP;
 class DNDGOKEHEEI;
@@ -77,7 +77,7 @@ inline static constexpr unsigned int CHKMFJDANOL_TypeDefinitionIndex = 74614;
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* DMMIAMFHDOP; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* IHAEDLMMOED; // 0x20
 		::DNDGOKEHEEI* AKHKKDCAOAL; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* DOOIKKADDFD; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* DOOIKKADDFD; // 0x30
 		::System::Boolean _SyncedWithServer_k__BackingField; // 0x38
 		::System::Void _ctor()
 		{
@@ -189,9 +189,9 @@ inline static constexpr unsigned int CHKMFJDANOL_TypeDefinitionIndex = 74614;
 			return ((::FHNIMGBMPLN*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHKMFJDANOL_BDGEEMIMPHD_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapEntityDef*>* LJBOCEFENDO()
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapEntityDef*>* LJBOCEFENDO()
 		{
-			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapEntityDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHKMFJDANOL_LJBOCEFENDO_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapEntityDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHKMFJDANOL_LJBOCEFENDO_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>* JGHGGOINFDM(::System::UInt32 a1)
@@ -214,9 +214,9 @@ inline static constexpr unsigned int CHKMFJDANOL_TypeDefinitionIndex = 74614;
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::Client::MapEntityDef*))((::PBYTE)hIl2Cpp + CHKMFJDANOL_HBBBDIDMCAA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapAnchorDef*>* OPGJGJCNPPN()
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapAnchorDef*>* OPGJGJCNPPN()
 		{
-			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple, ::RPG::Client::MapAnchorDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHKMFJDANOL_OPGJGJCNPPN_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MapAnchorDef*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHKMFJDANOL_OPGJGJCNPPN_OFFSET))(this);
 		}
 
 		::RPG::Client::MapRotationInfo* EGDMENEEIIN()

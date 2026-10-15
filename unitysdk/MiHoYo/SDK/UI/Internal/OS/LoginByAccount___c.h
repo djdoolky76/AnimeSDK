@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::UI::Internal::OS { class LoginByAccount; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C00B3B0)
 #define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C00B3F0)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x18480);
 		}
 
-		static ::System::Action** StaticGet___9__60_0()
+		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>** StaticGet___9__60_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x18488);
+			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x18488);
 		}
 
 		static ::System::Void _cctor()

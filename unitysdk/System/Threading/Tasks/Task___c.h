@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class TimerCallback; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class Task_ContingentProperties; }
@@ -22,9 +22,9 @@ namespace System::Threading::Tasks
 	class Task___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__276_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__276_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x20A60);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading.Tasks", "<>c")->GetStaticField(0x20A60);
 		}
 
 		static ::System::Threading::TimerCallback** StaticGet___9__276_1()

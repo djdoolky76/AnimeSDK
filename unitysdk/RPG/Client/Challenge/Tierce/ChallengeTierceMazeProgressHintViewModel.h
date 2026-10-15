@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class ILDNJGBJGPF;
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC948960)
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0xC948920)
@@ -21,9 +21,9 @@ namespace RPG::Client::Challenge::Tierce
 	{
 	public:
 		::System::Int32 _StageIndex_k__BackingField; // 0x10
-		::System::Nullable* _LeftRoundCount_k__BackingField; // 0x14
+		::System::Nullable_1<::System::Int32> _LeftRoundCount_k__BackingField; // 0x14
 		::RPG::GameCore::ChallengeGroupType _GroupType_k__BackingField; // 0x1C
-		::System::Nullable* _ObtainedScore_k__BackingField; // 0x20
+		::System::Nullable_1<::System::Int32> _ObtainedScore_k__BackingField; // 0x20
 		::System::Void _ctor(::ILDNJGBJGPF* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::ILDNJGBJGPF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_CTOR_OFFSET))(this, a1);
@@ -39,24 +39,24 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_STAGEINDEX_OFFSET))(this);
 		}
 
-		::System::Nullable* get_LeftRoundCount()
+		::System::Nullable_1<::System::Int32> get_LeftRoundCount()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_LEFTROUNDCOUNT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_LEFTROUNDCOUNT_OFFSET))(this);
 		}
 
-		::System::Nullable* get_ObtainedScore()
+		::System::Nullable_1<::System::Int32> get_ObtainedScore()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_OBTAINEDSCORE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL_GET_OBTAINEDSCORE_OFFSET))(this);
 		}
 
-		static ::System::Nullable* _GetLeftRoundCount(::ILDNJGBJGPF* a1)
+		static ::System::Nullable_1<::System::Int32> _GetLeftRoundCount(::ILDNJGBJGPF* a1)
 		{
-			return ((::System::Nullable*(*)(::ILDNJGBJGPF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__GETLEFTROUNDCOUNT_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::ILDNJGBJGPF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__GETLEFTROUNDCOUNT_OFFSET))(a1);
 		}
 
-		static ::System::Nullable* _GetObtainedScore(::ILDNJGBJGPF* a1)
+		static ::System::Nullable_1<::System::Int32> _GetObtainedScore(::ILDNJGBJGPF* a1)
 		{
-			return ((::System::Nullable*(*)(::ILDNJGBJGPF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__GETOBTAINEDSCORE_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::ILDNJGBJGPF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEPROGRESSHINTVIEWMODEL__GETOBTAINEDSCORE_OFFSET))(a1);
 		}
 
 	};

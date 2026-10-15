@@ -3,8 +3,8 @@
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
@@ -54,7 +54,7 @@ inline static constexpr unsigned int MDDPDPLMNFN_TypeDefinitionIndex = 71528;
 		::UnityEngine::UI::Text* HCPKJEKHAPF; // 0x98
 		::System::Object* MFGAGCOCPDP; // 0xA0
 		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0xA8
-		::System::Action* FBDAMFNLEPK; // 0xB0
+		::System::Action_1<::System::Object*>* FBDAMFNLEPK; // 0xB0
 		::UnityEngine::RectTransform* HACIPINNIOG; // 0xB8
 		::UnityEngine::Transform* MACEILOIEKA; // 0xC0
 		::System::Int32 BPNKIBPILOC; // 0xC8
@@ -110,9 +110,9 @@ inline static constexpr unsigned int MDDPDPLMNFN_TypeDefinitionIndex = 71528;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDDPDPLMNFN_IILIABMPCNB_OFFSET))(this);
 		}
 
-		::System::Void FFHFCAMOKBH(::System::Action* a1, ::System::Object* a2)
+		::System::Void FFHFCAMOKBH(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + MDDPDPLMNFN_FFHFCAMOKBH_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + MDDPDPLMNFN_FFHFCAMOKBH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnBind()

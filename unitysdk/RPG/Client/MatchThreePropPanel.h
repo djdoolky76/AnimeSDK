@@ -7,6 +7,7 @@ namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class MatchThreeGameProp; }
 namespace RPG::Client { class MatchThreePropItemPanel; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
@@ -44,7 +45,7 @@ namespace RPG::Client
 		::RPG::Client::LittleGame::Match3::OpponentRole Role; // 0x48
 		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::MatchThreePropItemPanel*>* _ItemPanels_k__BackingField; // 0x50
-		::System::Action* _OnPropUse_k__BackingField; // 0x58
+		::System::Action_1<::RPG::Client::MatchThreeGameProp*>* _OnPropUse_k__BackingField; // 0x58
 		::System::Action* _OnButtonOk_k__BackingField; // 0x60
 		::System::Action* _OnButtonCancel_k__BackingField; // 0x68
 		::System::Void _ctor()
@@ -62,14 +63,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MatchThreePropItemPanel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPROPPANEL_SET_ITEMPANELS_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnPropUse()
+		::System::Action_1<::RPG::Client::MatchThreeGameProp*>* get_OnPropUse()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPROPPANEL_GET_ONPROPUSE_OFFSET))(this);
+			return ((::System::Action_1<::RPG::Client::MatchThreeGameProp*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPROPPANEL_GET_ONPROPUSE_OFFSET))(this);
 		}
 
-		::System::Void set_OnPropUse(::System::Action* a1)
+		::System::Void set_OnPropUse(::System::Action_1<::RPG::Client::MatchThreeGameProp*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPROPPANEL_SET_ONPROPUSE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MatchThreeGameProp*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPROPPANEL_SET_ONPROPUSE_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnButtonOk()

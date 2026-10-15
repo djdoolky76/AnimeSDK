@@ -4,7 +4,7 @@
 class GHHJNCOAIJF;
 class GHHJNCOAIJF_GHKPCOFFGMI;
 class IHGIENOHBMJ;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
 #define GHHJNCOAIJF_GHKPCOFFGMI_BACGLGPIIIH_OFFSET UNITYSDK_OFFSET(0x15A21090)
@@ -33,9 +33,9 @@ inline static constexpr unsigned int GHHJNCOAIJF_GHKPCOFFGMI_TypeDefinitionIndex
 			return ((::GHHJNCOAIJF_GHKPCOFFGMI*(*)())((::PBYTE)hIl2Cpp + GHHJNCOAIJF_GHKPCOFFGMI_GGBLHEHJBDO_OFFSET))();
 		}
 
-		::RPG::Client::Promises::IPromise* IDOCGNIBDFE(::GHHJNCOAIJF* a1)
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* IDOCGNIBDFE(::GHHJNCOAIJF* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF_GHKPCOFFGMI_IDOCGNIBDFE_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF_GHKPCOFFGMI_IDOCGNIBDFE_OFFSET))(this, a1);
 		}
 
 		static ::UnityEngine::Networking::UnityWebRequest* EGBKBGPCAOH(::GHHJNCOAIJF* a1)

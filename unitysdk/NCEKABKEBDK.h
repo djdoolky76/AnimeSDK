@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class CEEGMMCFCBG;
 class FJFNJCPHFDM;
 class KDGBPFBKDMF;
 class OBJANKHLNGO;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define NCEKABKEBDK_BLBJDKLNKHI_OFFSET UNITYSDK_OFFSET(0xBB0ABA0)
@@ -32,7 +32,7 @@ inline static constexpr unsigned int NCEKABKEBDK_TypeDefinitionIndex = 79633;
 		::CEEGMMCFCBG* DKHDIHANBNC; // 0x18
 		::FJFNJCPHFDM* GKPHGLBPCKD; // 0x20
 		::R3::ReactiveProperty_1<::System::Int32>* LNBGLLMCIFB; // 0x28
-		::System::Nullable* HCCLIMJJHEK; // 0x30
+		::System::Nullable_1<::System::Int32> HCCLIMJJHEK; // 0x30
 		::System::Int32 _TargetRevenue_k__BackingField; // 0x38
 		::System::Boolean GBNOHAMAKOG; // 0x3C
 		::System::Void _ctor(::OBJANKHLNGO* a1, ::FJFNJCPHFDM* a2)
@@ -50,9 +50,9 @@ inline static constexpr unsigned int NCEKABKEBDK_TypeDefinitionIndex = 79633;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NCEKABKEBDK_SET_TARGETREVENUE_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* CMIMBEFFIDH()
+		::R3::Observable_1<::System::Int32>* CMIMBEFFIDH()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NCEKABKEBDK_CMIMBEFFIDH_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NCEKABKEBDK_CMIMBEFFIDH_OFFSET))(this);
 		}
 
 		::CEEGMMCFCBG* EBGMBCHJPCI()

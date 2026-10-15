@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -44,9 +44,9 @@ namespace RPG::GameCore
 			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RelicType, ::System::UInt32>*>**)UnitySDK::FromName("RPG.GameCore", "RelicConfigExcelTable")->GetStaticField(0xDF70);
 		}
 
-		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "RelicConfigExcelTable")->GetStaticField(0xDF78);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "RelicConfigExcelTable")->GetStaticField(0xDF78);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RelicConfigRow*>** StaticGet_dataDict_()
@@ -59,9 +59,9 @@ namespace RPG::GameCore
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RelicConfigExcelTable")->GetStaticField(0xDF88);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>** StaticGet__SetIDAndTypeAndRarityToRelicID()
+		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::RelicType, ::RPG::GameCore::CombatPowerRelicRarityType>, ::System::UInt32>** StaticGet__SetIDAndTypeAndRarityToRelicID()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "RelicConfigExcelTable")->GetStaticField(0xDF90);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::RelicType, ::RPG::GameCore::CombatPowerRelicRarityType>, ::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "RelicConfigExcelTable")->GetStaticField(0xDF90);
 		}
 
 		static ::System::Boolean* StaticGet__IsInitialized()

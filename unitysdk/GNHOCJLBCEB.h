@@ -8,9 +8,9 @@ namespace RPG::Client { class RPGProfilerMarker; }
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 namespace RPG::GameCore { class LevelNPCPossessionInfo; }
 namespace RPG::GameCore { class NpcPossessionEffectConfig; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -53,7 +53,7 @@ inline static constexpr unsigned int GNHOCJLBCEB_TypeDefinitionIndex = 57341;
 	{
 	public:
 		::GNHOCJLBCEB_BJFFMGPIPJK* FIDNMKFIGEB; // 0x18
-		::System::Action* CEJJEGFPPMJ; // 0x20
+		::System::Action_1<::UnityEngine::GameObject*>* CEJJEGFPPMJ; // 0x20
 		::RPG::GameCore::CharacterVisibleComponent* LCFMAFCHALA; // 0x28
 		::System::Collections::Generic::List_1<::System::Object*>* BKGDGFEBNHB; // 0x30
 		::System::Boolean CJNDENCDPFL; // 0x38
@@ -103,14 +103,14 @@ inline static constexpr unsigned int GNHOCJLBCEB_TypeDefinitionIndex = 57341;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GNHOCJLBCEB_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void BMFHKFLELGL(::System::Action* a1)
+		::System::Void BMFHKFLELGL(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GNHOCJLBCEB_BMFHKFLELGL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + GNHOCJLBCEB_BMFHKFLELGL_OFFSET))(this, a1);
 		}
 
-		::System::Void BPHKEPFKJPI(::System::Action* a1)
+		::System::Void BPHKEPFKJPI(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GNHOCJLBCEB_BPHKEPFKJPI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + GNHOCJLBCEB_BPHKEPFKJPI_OFFSET))(this, a1);
 		}
 
 		::System::Void GFNFOFCJFMN(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a1)

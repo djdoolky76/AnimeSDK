@@ -5,9 +5,9 @@ class FGLAJHMCJLL;
 class JEGMGPOFHGG;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -36,14 +36,14 @@ inline static constexpr unsigned int JEGMGPOFHGG_TypeDefinitionIndex = 26498;
 	public:
 		::Google::Protobuf::Collections::RepeatedField_1<::FGLAJHMCJLL*>* OFPBAPDFGHJ; // 0x10
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::JEGMGPOFHGG*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "JEGMGPOFHGG")->GetStaticField(0x5EB20);
+			return (::Google::Protobuf::MessageParser_1<::JEGMGPOFHGG*>**)UnitySDK::FromName("", "JEGMGPOFHGG")->GetStaticField(0x5EB20);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_EMOIEMJDKHK()
+		static ::Google::Protobuf::FieldCodec_1<::FGLAJHMCJLL*>** StaticGet_EMOIEMJDKHK()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "JEGMGPOFHGG")->GetStaticField(0x5EB28);
+			return (::Google::Protobuf::FieldCodec_1<::FGLAJHMCJLL*>**)UnitySDK::FromName("", "JEGMGPOFHGG")->GetStaticField(0x5EB28);
 		}
 
 		// static const ::System::Object EAOPPMGOABD; // 0x0
@@ -62,9 +62,9 @@ inline static constexpr unsigned int JEGMGPOFHGG_TypeDefinitionIndex = 26498;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + JEGMGPOFHGG_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::JEGMGPOFHGG*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + JEGMGPOFHGG_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::JEGMGPOFHGG*>*(*)())((::PBYTE)hIl2Cpp + JEGMGPOFHGG_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

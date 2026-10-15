@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace EnviromentSystem { class EnviroAssetProperty; }
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
@@ -18,7 +18,7 @@ namespace EnviromentSystem
 	class EnviroAssetProperty___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__0; // 0x10
+		::System::Action_2<::UnityEngine::Object*, ::System::Object*>* __9__0; // 0x10
 		::EnviromentSystem::EnviroAssetProperty* __4__this; // 0x18
 		::System::Collections::Generic::List_1<::System::Object*>* temp; // 0x20
 		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onLoadFinish; // 0x28

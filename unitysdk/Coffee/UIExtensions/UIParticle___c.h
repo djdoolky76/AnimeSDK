@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace Coffee::UIExtensions { class UIParticleRenderer; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class ParticleSystem; }
 
 #define COFFEE_UIEXTENSIONS_UIPARTICLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x166BB0E0)
@@ -23,24 +23,24 @@ namespace Coffee::UIExtensions
 	class UIParticle___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__114_0()
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__114_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFC0);
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFC0);
 		}
 
-		static ::System::Action** StaticGet___9__115_0()
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__115_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFC8);
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFC8);
 		}
 
-		static ::System::Action** StaticGet___9__113_0()
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__113_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFD0);
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFD0);
 		}
 
-		static ::System::Action** StaticGet___9__106_0()
+		static ::System::Action_1<::Coffee::UIExtensions::UIParticleRenderer*>** StaticGet___9__106_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFD8);
+			return (::System::Action_1<::Coffee::UIExtensions::UIParticleRenderer*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFD8);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -48,19 +48,19 @@ namespace Coffee::UIExtensions
 			return (::System::Object**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFE0);
 		}
 
-		static ::System::Action** StaticGet___9__110_0()
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__110_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFE8);
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFE8);
 		}
 
-		static ::System::Action** StaticGet___9__116_0()
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__116_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFF0);
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFF0);
 		}
 
-		static ::System::Action** StaticGet___9__111_0()
+		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__111_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFF8);
+			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFF8);
 		}
 
 		static ::System::Void _cctor()

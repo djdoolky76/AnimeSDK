@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ItemRarity.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 class AHCEFHABPDI;
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class ItemData; }
 namespace RPG::Client { class LocalizedText; }
-namespace System { class Nullable; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
@@ -78,9 +78,9 @@ namespace RPG::Client::Challenge
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemRarity))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEREWARDITEMICONLITECONTROL_NFIFDIGGILL_OFFSET))(this, a1);
 		}
 
-		::System::Void NEDDICCIKBN(::System::Nullable* a1)
+		::System::Void NEDDICCIKBN(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEREWARDITEMICONLITECONTROL_NEDDICCIKBN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEREWARDITEMICONLITECONTROL_NEDDICCIKBN_OFFSET))(this, a1);
 		}
 
 		::System::Void CBDJKPPNMDC()

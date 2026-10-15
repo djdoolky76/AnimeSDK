@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChenLingFesDialogStyleType.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::ChenLingFes { class ChenLingFesFeverToastControl; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesGamePhaseToastControl; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesToastContainerViewModel; }
@@ -64,7 +64,7 @@ namespace RPG::Client::ChenLingFes
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Stack_1<::RPG::Client::ChenLingFes::ChenLingFesToastItemControl*>*>* _ItemsCache; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* _ItemAssetLUT; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl*>* _PersistentDialogControls; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::RPG::GameCore::ChenLingFesDialogStyleType>, ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl*>* _PersistentDialogControls; // 0x50
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Queue_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>*>* _ToastPendingQueueByEntity; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesToastItemControl*>*>* _ActivePiledToastControlsByEntity; // 0x60
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::ChenLingFes::ChenLingFesToastItemControl*, ::System::Int32>* _ItemPileKeyMap; // 0x68
@@ -157,9 +157,9 @@ namespace RPG::Client::ChenLingFes
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERCONTROL_CLEARALLPERSISTENTDIALOGSBYENTITY_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _GetPersistentDialogKey(::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel* a1)
+		::System::ValueTuple_2<::System::Int32, ::RPG::GameCore::ChenLingFesDialogStyleType> _GetPersistentDialogKey(::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERCONTROL__GETPERSISTENTDIALOGKEY_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Int32, ::RPG::GameCore::ChenLingFesDialogStyleType>(*)(::PVOID, ::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERCONTROL__GETPERSISTENTDIALOGKEY_OFFSET))(this, a1);
 		}
 
 		::System::Int32 _GetPileKey(::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel* a1)

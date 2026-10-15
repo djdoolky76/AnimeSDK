@@ -7,8 +7,9 @@ namespace RPG::Client { class PlanetFesAvatarData; }
 namespace RPG::Client { class PlanetFesAvatarEffectController; }
 namespace RPG::Client { class PlanetFesAvatarMoveController; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -57,9 +58,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::PlanetFesAvatarMoveController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDMOVECOMPONENT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AddTalkComponent(::RPG::GameCore::GameEntity* a1, ::XLua::LuaTable* a2, ::System::Action* a3, ::System::Action* a4)
+		static ::System::Void AddTalkComponent(::RPG::GameCore::GameEntity* a1, ::XLua::LuaTable* a2, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>* a3, ::System::Action_1<::XLua::LuaTable*>* a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::XLua::LuaTable*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDTALKCOMPONENT_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::XLua::LuaTable*, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::TextID>*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESSPINEUTILS_ADDTALKCOMPONENT_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void AddEmojiEffectComponent(::RPG::GameCore::GameEntity* a1, ::RPG::Client::PlanetFesAvatarEffectController* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Canvas* a4)

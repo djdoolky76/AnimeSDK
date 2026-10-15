@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 class BPHIKPCNBHM;
 class CIGDBCKOFBN;
 class NHGJEIHKKHB;
@@ -12,7 +13,6 @@ namespace RPG::Client { class RogueHandbookRandomEventData; }
 namespace RPG::GameCore { class RogueBuffRow; }
 namespace RPG::GameCore { class RogueHandBookEventTypeRow; }
 namespace RPG::GameCore { class RogueHandBookMiracleTypeRow; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -118,7 +118,7 @@ namespace RPG::Client
 		::System::UInt32 _AvailableBuffNum_k__BackingField; // 0x5C
 		::System::UInt32 _AvailableEventNum_k__BackingField; // 0x60
 		::System::UInt32 _UnlockBuffNum_k__BackingField; // 0x64
-		::System::Nullable* _ReadedAeonsNum; // 0x68
+		::System::Nullable_1<::System::UInt32> _ReadedAeonsNum; // 0x68
 		::System::UInt32 _AvailableMiracleNum_k__BackingField; // 0x70
 		::System::Void _ctor()
 		{

@@ -4,9 +4,9 @@
 class ECCKHOLLPPC;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -44,14 +44,14 @@ inline static constexpr unsigned int ECCKHOLLPPC_TypeDefinitionIndex = 25199;
 		::System::UInt64 KOODAEIBNNF; // 0x20
 		::System::UInt32 CIFEGFBGDNB; // 0x28
 		::System::UInt32 OCHKJGFHCLC; // 0x2C
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::ECCKHOLLPPC*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "ECCKHOLLPPC")->GetStaticField(0x3D3B0);
+			return (::Google::Protobuf::MessageParser_1<::ECCKHOLLPPC*>**)UnitySDK::FromName("", "ECCKHOLLPPC")->GetStaticField(0x3D3B0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_NNFIONJNAPA()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_NNFIONJNAPA()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "ECCKHOLLPPC")->GetStaticField(0x3D3B8);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "ECCKHOLLPPC")->GetStaticField(0x3D3B8);
 		}
 
 		// static const ::System::Object LNLFHMMLCEI; // 0x0
@@ -73,9 +73,9 @@ inline static constexpr unsigned int ECCKHOLLPPC_TypeDefinitionIndex = 25199;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ECCKHOLLPPC_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::ECCKHOLLPPC*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + ECCKHOLLPPC_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::ECCKHOLLPPC*>*(*)())((::PBYTE)hIl2Cpp + ECCKHOLLPPC_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

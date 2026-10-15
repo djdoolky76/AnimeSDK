@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/LevelNavNodeInfo.h"
 #include "unitysdk/RPG/GameCore/LevelNavNodeTransitInfo.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class DJJFECDBGIK;
 class ECPFBGMALIP;
@@ -37,11 +37,11 @@ inline static constexpr unsigned int ECPFBGMALIP_TypeDefinitionIndex = 74605;
 		::FFCGHKGDAJF* DCOPELFHOLO; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* EAPOGCIPOIO; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MJOBGAACNDC*>* KIMKMPPNJEI; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* KADGKBFMELL; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* KADGKBFMELL; // 0x30
 		::System::Collections::Generic::List_1<::DJJFECDBGIK*>* CAEIHNOCJDC; // 0x38
-		::System::Void _ctor(::FFCGHKGDAJF* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>* a2, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* a3)
+		::System::Void _ctor(::FFCGHKGDAJF* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>* a2, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::FFCGHKGDAJF*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>*))((::PBYTE)hIl2Cpp + ECPFBGMALIP_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::FFCGHKGDAJF*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>*))((::PBYTE)hIl2Cpp + ECPFBGMALIP_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::NavMap::IMapDataSource* FPMOEHJELID()
@@ -49,9 +49,9 @@ inline static constexpr unsigned int ECPFBGMALIP_TypeDefinitionIndex = 74605;
 			return ((::RPG::Client::NavMap::IMapDataSource*(*)(::PVOID))((::PBYTE)hIl2Cpp + ECPFBGMALIP_FPMOEHJELID_OFFSET))(this);
 		}
 
-		static ::ECPFBGMALIP* BPLPBPMEODA(::FFCGHKGDAJF* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>* a2, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* a3)
+		static ::ECPFBGMALIP* BPLPBPMEODA(::FFCGHKGDAJF* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>* a2, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* a3)
 		{
-			return ((::ECPFBGMALIP*(*)(::FFCGHKGDAJF*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>*))((::PBYTE)hIl2Cpp + ECPFBGMALIP_BPLPBPMEODA_OFFSET))(a1, a2, a3);
+			return ((::ECPFBGMALIP*(*)(::FFCGHKGDAJF*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>*))((::PBYTE)hIl2Cpp + ECPFBGMALIP_BPLPBPMEODA_OFFSET))(a1, a2, a3);
 		}
 
 		::System::UInt32 EJBCJAPMECH(::System::UInt32 a1)

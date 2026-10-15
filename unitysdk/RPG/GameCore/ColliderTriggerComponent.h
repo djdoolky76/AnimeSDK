@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/CollierTriggerComponentEnableReason.h"
 #include "unitysdk/RPG/GameCore/EntityType.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/RPG/MVector3.h"
 class DADHNMAGKMP;
 class EDLDHDMLJDH;
@@ -30,7 +31,6 @@ namespace RPG::GameCore { class ShowHintEffect; }
 namespace RPG::GameCore { class UnitHintTriggerConfig; }
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
@@ -152,7 +152,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::LevelTriggerInfo* _DefaultInteractionTriggerInfo; // 0x58
 		::System::Collections::Generic::List_1<::GFDKGLOANOH*>* _TickTriggerList; // 0x60
 		::System::Collections::Generic::Dictionary_2<::EDLDHDMLJDH*, ::UnityEngine::Transform*>* _NeedSyncAfterAttachTriggers; // 0x68
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _ExcutingTask; // 0x70
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::GELIALJDFBL*, ::EDLDHDMLJDH*>>* _ExcutingTask; // 0x70
 		::System::Int32 _TickTriggerCount; // 0x78
 		::System::Boolean _HasExecutingTask; // 0x7C
 		::System::Byte _padding0[0x3];

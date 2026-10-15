@@ -5,6 +5,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UI_EXTERNAL_OS_THIRDPARTYOAUTHWAITINGPLUGINUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFFCE70)
 #define MIHOYO_SDK_UI_EXTERNAL_OS_THIRDPARTYOAUTHWAITINGPLUGINUI_GET_ONCANCELBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BFFC4E0)
@@ -85,14 +86,14 @@ namespace MiHoYo::SDK::UI::External::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_THIRDPARTYOAUTHWAITINGPLUGINUI_HIDETHIRDPARTYOAUTHPLUGINUI_OFFSET))(this);
 		}
 
-		::System::Void _ShowThirdPartyOAuthPluginUI_b__13_0(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowThirdPartyOAuthPluginUI_b__13_0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_THIRDPARTYOAUTHWAITINGPLUGINUI__SHOWTHIRDPARTYOAUTHPLUGINUI_B__13_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_THIRDPARTYOAUTHWAITINGPLUGINUI__SHOWTHIRDPARTYOAUTHPLUGINUI_B__13_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowThirdPartyOAuthPluginUI_b__13_1(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowThirdPartyOAuthPluginUI_b__13_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_THIRDPARTYOAUTHWAITINGPLUGINUI__SHOWTHIRDPARTYOAUTHPLUGINUI_B__13_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_EXTERNAL_OS_THIRDPARTYOAUTHWAITINGPLUGINUI__SHOWTHIRDPARTYOAUTHPLUGINUI_B__13_1_OFFSET))(this, a1, a2);
 		}
 
 	};

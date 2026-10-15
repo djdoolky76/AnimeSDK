@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LPPKGHJGOCC.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FAKDJHMJOHF;
 namespace Proto { class ItemList; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveMessageService; }
@@ -24,9 +24,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _TakeMessageReward_b__0(::System::ValueTuple a1)
+		::System::Void _TakeMessageReward_b__0(::System::ValueTuple_2<::Proto::ItemList*, ::LPPKGHJGOCC> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE___C__DISPLAYCLASS1_0__TAKEMESSAGEREWARD_B__0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::Proto::ItemList*, ::LPPKGHJGOCC>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEMESSAGESERVICE___C__DISPLAYCLASS1_0__TAKEMESSAGEREWARD_B__0_OFFSET))(this, a1);
 		}
 
 	};

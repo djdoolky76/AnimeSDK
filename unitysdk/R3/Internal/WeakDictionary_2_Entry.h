@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 
 namespace R3::Internal
 {
@@ -12,7 +12,7 @@ namespace R3::Internal
 	class WeakDictionary_2_Entry : public ::System::Object
 	{
 	public:
-		::System::WeakReference* Key; // 0x0
+		::System::WeakReference_1<T1>* Key; // 0x0
 		T2 Value; // 0x0
 		::System::Int32 Hash; // 0x0
 		::System::Object* Prev; // 0x0

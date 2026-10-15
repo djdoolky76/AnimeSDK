@@ -6,7 +6,7 @@ class INKNLLODDHF_LGBJKLEOKPE;
 class JLNEKELMDNJ;
 class PDMBLCALNPD;
 class POIONNNNCMJ;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define PDMBLCALNPD_AHNJNLBGOKL_CTOR_OFFSET UNITYSDK_OFFSET(0xC0213E0)
@@ -24,9 +24,9 @@ inline static constexpr unsigned int PDMBLCALNPD_AHNJNLBGOKL_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::BEEJHBCIGGI*, ::INKNLLODDHF_LGBJKLEOKPE*))((::PBYTE)hIl2Cpp + PDMBLCALNPD_AHNJNLBGOKL_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::PDMBLCALNPD* LHLALAKKKKJ(::JLNEKELMDNJ* a1, ::System::Collections::Generic::IReadOnlyList_1<::POIONNNNCMJ*>* a2, ::R3::Observable* a3)
+		::PDMBLCALNPD* LHLALAKKKKJ(::JLNEKELMDNJ* a1, ::System::Collections::Generic::IReadOnlyList_1<::POIONNNNCMJ*>* a2, ::R3::Observable_1<::System::Boolean>* a3)
 		{
-			return ((::PDMBLCALNPD*(*)(::PVOID, ::JLNEKELMDNJ*, ::System::Collections::Generic::IReadOnlyList_1<::POIONNNNCMJ*>*, ::R3::Observable*))((::PBYTE)hIl2Cpp + PDMBLCALNPD_AHNJNLBGOKL_LHLALAKKKKJ_OFFSET))(this, a1, a2, a3);
+			return ((::PDMBLCALNPD*(*)(::PVOID, ::JLNEKELMDNJ*, ::System::Collections::Generic::IReadOnlyList_1<::POIONNNNCMJ*>*, ::R3::Observable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + PDMBLCALNPD_AHNJNLBGOKL_LHLALAKKKKJ_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

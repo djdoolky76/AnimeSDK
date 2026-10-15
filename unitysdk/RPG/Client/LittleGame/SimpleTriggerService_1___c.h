@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame { template <typename T> class SimpleTriggerService_1; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 namespace RPG::Client::LittleGame
 {
@@ -19,9 +19,9 @@ namespace RPG::Client::LittleGame
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_3<::RPG::Client::LittleGame::SimpleTriggerService_1<T>*, T, ::System::String*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x0);
+			return (::System::Action_3<::RPG::Client::LittleGame::SimpleTriggerService_1<T>*, T, ::System::String*>**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x0);
 		}
 
 	};

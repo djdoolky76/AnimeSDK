@@ -6,6 +6,7 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldEmailBindingDialog; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
@@ -65,8 +66,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		::System::Action* OnUserAgreementClicked; // 0xC0
 		::System::Action* OnPrivacyPolicyClicked; // 0xC8
 		::System::Action* OnSwitchToQRCodeClicked; // 0xD0
-		::System::Action* OnGetCaptchaClicked; // 0xD8
-		::System::Action* OnBindButtonClicked; // 0xE0
+		::System::Action_1<::System::String*>* OnGetCaptchaClicked; // 0xD8
+		::System::Action_1<::System::String*>* OnBindButtonClicked; // 0xE0
 		::System::Action* OnBindingCanceled; // 0xE8
 		::UnityEngine::UI::InputField* mailInputField; // 0xF0
 		::UnityEngine::UI::InputField* captchaInputField; // 0xF8

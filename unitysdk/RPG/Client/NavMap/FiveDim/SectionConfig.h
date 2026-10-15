@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/MVector2.h"
 class JBOLKLEHLME;
 namespace RPG::Client::NavMap::FiveDim { class SectionConfig; }
 namespace RPG::GameCore { class FiveDimSectionConfig; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0xD947670)
 #define RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD9476F0)
@@ -31,7 +31,7 @@ namespace RPG::Client::NavMap::FiveDim
 		::Il2CppArray<::System::UInt32>* _Indices_k__BackingField; // 0x10
 		::JBOLKLEHLME* __FogOfWarConfig_k__BackingField; // 0x18
 		::System::UInt32 _SectionID_k__BackingField; // 0x20
-		::System::Nullable* _FogID_k__BackingField; // 0x24
+		::System::Nullable_1<::System::UInt32> _FogID_k__BackingField; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONCONFIG_CTOR_OFFSET))(this);
@@ -72,14 +72,14 @@ namespace RPG::Client::NavMap::FiveDim
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONCONFIG_GET_HASFOG_OFFSET))(this);
 		}
 
-		::System::Nullable* get_FogID()
+		::System::Nullable_1<::System::UInt32> get_FogID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONCONFIG_GET_FOGID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONCONFIG_GET_FOGID_OFFSET))(this);
 		}
 
-		::System::Void set_FogID(::System::Nullable* a1)
+		::System::Void set_FogID(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONCONFIG_SET_FOGID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_SECTIONCONFIG_SET_FOGID_OFFSET))(this, a1);
 		}
 
 		::JBOLKLEHLME* get__FogOfWarConfig()

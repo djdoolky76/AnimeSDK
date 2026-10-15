@@ -6,6 +6,7 @@
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/TeamModule_TeleportState.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class PKPICFPDHEO;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class AssistData; }
@@ -14,7 +15,6 @@ namespace RPG::Client { class TeamData; }
 namespace RPG::Client { class TeamDataRefreshParam; }
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class TwoKeyDictionary_3; }
 namespace RPG::Client::Promises { class Promise; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -175,7 +175,7 @@ namespace RPG::Client
 		::System::Boolean _IsCurShowLocalTeam; // 0xAE
 		::System::Boolean _IsClientOnly; // 0xAF
 		::System::UInt32 _CurMpCostSkillUseID; // 0xB0
-		::System::Nullable* _TeamAssociationUnlockID; // 0xB4
+		::System::Nullable_1<::System::UInt32> _TeamAssociationUnlockID; // 0xB4
 		::RPG::Client::TeamModule_TeleportState _TeleportState; // 0xBC
 		// static const ::System::Object _MAX_TEAM_MEMBER; // 0x0
 		::System::Void _ctor()

@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/EnumEnterPerformanceResult.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/GMEFBLGIECD.h"
 #include "unitysdk/System/Guid.h"
@@ -43,9 +44,9 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerPerformance; }
 namespace System { class Action; }
 namespace System { class IDisposable; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -209,12 +210,12 @@ namespace RPG::Client
 		::System::Double _PlaySimpleTalkStartTime; // 0x118
 		::System::Int32 _CacheCmdWaitTick; // 0x120
 		::System::Boolean _IsWaitingClearAudioState_k__BackingField; // 0x124
-		::System::Nullable* _CacheNewPerformanceSkip; // 0x125
+		::System::Nullable_1<::System::Boolean> _CacheNewPerformanceSkip; // 0x125
 		::System::Boolean _NewPerformanceSkip_k__BackingField; // 0x127
 		::System::Int32 _CurrentTimelineID; // 0x128
 		::System::Boolean _IsPauseLock; // 0x12C
 		::System::Boolean _IsInGacha_k__BackingField; // 0x12D
-		::System::Nullable* _CacheCmdPauseToast; // 0x12E
+		::System::Nullable_1<::System::Boolean> _CacheCmdPauseToast; // 0x12E
 		::System::Boolean _IsInPerformance_k__BackingField; // 0x130
 		::System::Byte _padding0[0x3];
 		::RPG::GameCore::ELevelPerformanceType _PauseLockPerformanceType; // 0x134
@@ -293,14 +294,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEMANAGER__PERFORMANCESTATEEND_OFFSET))(this);
 		}
 
-		::System::Guid AddPerformanceByTriggerTask(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerPerformance* a2, ::System::Action* a3, ::System::Action* a4, ::GELIALJDFBL* a5)
+		::System::Guid AddPerformanceByTriggerTask(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerPerformance* a2, ::System::Action_1<::GMEFBLGIECD>* a3, ::System::Action* a4, ::GELIALJDFBL* a5)
 		{
-			return ((::System::Guid(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerPerformance*, ::System::Action*, ::System::Action*, ::GELIALJDFBL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEMANAGER_ADDPERFORMANCEBYTRIGGERTASK_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Guid(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerPerformance*, ::System::Action_1<::GMEFBLGIECD>*, ::System::Action*, ::GELIALJDFBL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEMANAGER_ADDPERFORMANCEBYTRIGGERTASK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Guid AddPerformanceByInitializeTask(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelPerformanceInitialize* a2, ::System::Action* a3)
+		::System::Guid AddPerformanceByInitializeTask(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelPerformanceInitialize* a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::System::Guid(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelPerformanceInitialize*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEMANAGER_ADDPERFORMANCEBYINITIALIZETASK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Guid(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelPerformanceInitialize*, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCEMANAGER_ADDPERFORMANCEBYINITIALIZETASK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void RemoveInstance(::System::Guid a1, ::System::Boolean a2)

@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 #include "unitysdk/RPG/GameCore/CakeRaceRegionTag.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/CKPLIMLCMIL.h"
 class GECHEPGEIKF;
 class GMIFBFGDGJK;
@@ -17,7 +17,7 @@ class NECBCJGIEIE;
 class NKGAIPKINJE;
 class PBGNKMMDBGD;
 class PJPAOLMBKEC;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::GameCore { class CakeRaceCellConfig; }
 namespace RPG::GameCore { class CakeRaceFieldRow; }
@@ -118,20 +118,20 @@ inline static constexpr unsigned int IPOPGAAKKAD_TypeDefinitionIndex = 37303;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* _FightCatBornInfos_k__BackingField; // 0x10
-		::Entitas::IGroup* _PickupItemGroup_k__BackingField; // 0x18
+		::Entitas::IGroup_1<::IFBFJDCECML*>* _PickupItemGroup_k__BackingField; // 0x18
 		::PBGNKMMDBGD* PDENFEFCAGN; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>* LNLHBCNAEIA; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* LNLHBCNAEIA; // 0x28
 		::System::Object* _Grids_k__BackingField; // 0x30
 		::System::Collections::Generic::List_1<::IFBFJDCECML*>* PFACKEGFAHC; // 0x38
 		::Il2CppArray<::System::Object*>* _AllDynamicRegions_k__BackingField; // 0x40
-		::Entitas::IGroup* _BubbleEntityGroup_k__BackingField; // 0x48
+		::Entitas::IGroup_1<::IFBFJDCECML*>* _BubbleEntityGroup_k__BackingField; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* _DynamicCatBornInfos_k__BackingField; // 0x50
 		::System::Collections::Generic::List_1<::System::Int32>* JCFOJOCPPDC; // 0x58
 		::NECBCJGIEIE* NEGDOCFKJHK; // 0x60
 		::System::Collections::Generic::List_1<::PJPAOLMBKEC*>* NDCKHPPHMLJ; // 0x68
 		::Il2CppArray<::System::Object*>* _SectionRegions_k__BackingField; // 0x70
-		::Entitas::IGroup* _TrapEntityGroup_k__BackingField; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* DBKAFLNBLNA; // 0x80
+		::Entitas::IGroup_1<::IFBFJDCECML*>* _TrapEntityGroup_k__BackingField; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::UInt32>* DBKAFLNBLNA; // 0x80
 		::PJKLFKHHOMO NBPHIOCPEDM; // 0x88
 		::System::Boolean _NeedSkipVote_k__BackingField; // 0xA0
 		::System::Byte _padding0[0x3];
@@ -514,34 +514,34 @@ inline static constexpr unsigned int IPOPGAAKKAD_TypeDefinitionIndex = 37303;
 			return ((::System::Collections::Generic::List_1<::IFBFJDCECML*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_BNFKJLEIOOO_OFFSET))(this);
 		}
 
-		::Entitas::IGroup* get_PickupItemGroup()
+		::Entitas::IGroup_1<::IFBFJDCECML*>* get_PickupItemGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_GET_PICKUPITEMGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::IFBFJDCECML*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_GET_PICKUPITEMGROUP_OFFSET))(this);
 		}
 
-		::System::Void set_PickupItemGroup(::Entitas::IGroup* a1)
+		::System::Void set_PickupItemGroup(::Entitas::IGroup_1<::IFBFJDCECML*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_SET_PICKUPITEMGROUP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::IFBFJDCECML*>*))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_SET_PICKUPITEMGROUP_OFFSET))(this, a1);
 		}
 
-		::Entitas::IGroup* get_BubbleEntityGroup()
+		::Entitas::IGroup_1<::IFBFJDCECML*>* get_BubbleEntityGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_GET_BUBBLEENTITYGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::IFBFJDCECML*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_GET_BUBBLEENTITYGROUP_OFFSET))(this);
 		}
 
-		::System::Void set_BubbleEntityGroup(::Entitas::IGroup* a1)
+		::System::Void set_BubbleEntityGroup(::Entitas::IGroup_1<::IFBFJDCECML*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_SET_BUBBLEENTITYGROUP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::IFBFJDCECML*>*))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_SET_BUBBLEENTITYGROUP_OFFSET))(this, a1);
 		}
 
-		::Entitas::IGroup* get_TrapEntityGroup()
+		::Entitas::IGroup_1<::IFBFJDCECML*>* get_TrapEntityGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_GET_TRAPENTITYGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::IFBFJDCECML*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_GET_TRAPENTITYGROUP_OFFSET))(this);
 		}
 
-		::System::Void set_TrapEntityGroup(::Entitas::IGroup* a1)
+		::System::Void set_TrapEntityGroup(::Entitas::IGroup_1<::IFBFJDCECML*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_SET_TRAPENTITYGROUP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::IFBFJDCECML*>*))((::PBYTE)hIl2Cpp + IPOPGAAKKAD_SET_TRAPENTITYGROUP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_NeedSkipVote()

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -70,8 +70,8 @@ namespace RPG::Client
 		::System::Int32 _lastStateNameHash; // 0xB8
 		::System::Byte _padding3[0x4];
 		::UnityEngine::GameObject* _gameObject; // 0xC0
-		::System::Nullable* _rtpcValue; // 0xC8
-		::System::Nullable* _sendRTPC; // 0xD0
+		::System::Nullable_1<::System::Single> _rtpcValue; // 0xC8
+		::System::Nullable_1<::System::Boolean> _sendRTPC; // 0xD0
 		::System::Collections::Generic::List_1<::System::Object*>* _poseLerpDatas; // 0xD8
 		// static const ::System::Object RUN_FORWARD_LIMIT_ANGLE; // 0x0
 		// static const ::System::String* MOTION_GATE_RTPC; // 0x0

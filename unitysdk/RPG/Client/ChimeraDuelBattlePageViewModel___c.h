@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class DODPFANHNDG;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB1AFD0)
 #define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB1B010)
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEEC0);
 		}
 
-		static ::System::Action** StaticGet___9__20_0()
+		static ::System::Action_1<::DODPFANHNDG*>** StaticGet___9__20_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEEC8);
+			return (::System::Action_1<::DODPFANHNDG*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEEC8);
 		}
 
-		static ::System::Action** StaticGet___9__24_0()
+		static ::System::Action_1<::DODPFANHNDG*>** StaticGet___9__24_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEED0);
+			return (::System::Action_1<::DODPFANHNDG*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEED0);
 		}
 
 		static ::System::Void _cctor()

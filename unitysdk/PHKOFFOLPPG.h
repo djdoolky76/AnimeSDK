@@ -7,9 +7,9 @@
 class DEIPGFGBEMG;
 class OEIKFPLBOMH;
 class PHKOFFOLPPG_HFFPHANAHLP;
-namespace System { class Action; }
 namespace System { class IDisposable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define PHKOFFOLPPG_ADD_ACTIVESTAGESTEPCOUNTCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC8C660)
@@ -35,7 +35,7 @@ inline static constexpr unsigned int PHKOFFOLPPG_TypeDefinitionIndex = 44168;
 	public:
 		::OEIKFPLBOMH* _Logger_k__BackingField; // 0x10
 		::System::Collections::Generic::List_1<::System::Object*>* JMJHABHDHKE; // 0x18
-		::System::Action* ActiveStageStepCountChanged; // 0x20
+		::System::Action_1<::System::Int32>* ActiveStageStepCountChanged; // 0x20
 		::System::Boolean GFAMGLFOMGI; // 0x28
 		::System::Void _ctor()
 		{
@@ -57,14 +57,14 @@ inline static constexpr unsigned int PHKOFFOLPPG_TypeDefinitionIndex = 44168;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PHKOFFOLPPG_JLIBOJHDJEM_OFFSET))(this);
 		}
 
-		::System::Void add_ActiveStageStepCountChanged(::System::Action* a1)
+		::System::Void add_ActiveStageStepCountChanged(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PHKOFFOLPPG_ADD_ACTIVESTAGESTEPCOUNTCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + PHKOFFOLPPG_ADD_ACTIVESTAGESTEPCOUNTCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ActiveStageStepCountChanged(::System::Action* a1)
+		::System::Void remove_ActiveStageStepCountChanged(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PHKOFFOLPPG_REMOVE_ACTIVESTAGESTEPCOUNTCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + PHKOFFOLPPG_REMOVE_ACTIVESTAGESTEPCOUNTCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::IDisposable* BKJGMFOKKKN(::System::Object* a1, ::DEIPGFGBEMG* a2)

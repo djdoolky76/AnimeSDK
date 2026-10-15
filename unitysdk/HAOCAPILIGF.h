@@ -17,7 +17,7 @@ namespace RPG::GameCore { class LevelUIComponent; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
@@ -207,9 +207,9 @@ inline static constexpr unsigned int HAOCAPILIGF_TypeDefinitionIndex = 71804;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + HAOCAPILIGF_MPKLJEEJMBM_OFFSET))(this, a1);
 		}
 
-		::System::Void LELBGCPANNC(::System::Tuple* a1)
+		::System::Void LELBGCPANNC(::System::Tuple_2<::System::UInt32, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Tuple*))((::PBYTE)hIl2Cpp + HAOCAPILIGF_LELBGCPANNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + HAOCAPILIGF_LELBGCPANNC_OFFSET))(this, a1);
 		}
 
 		::System::Void AIOJNOHDCDM()

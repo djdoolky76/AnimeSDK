@@ -3,8 +3,8 @@
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/LGIHDAMOLNK_DiffState.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
@@ -34,7 +34,7 @@ inline static constexpr unsigned int LGIHDAMOLNK_TypeDefinitionIndex = 72156;
 	public:
 		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x60
 		::UnityEngine::UI::Text* CPCCPIKCBAP; // 0x68
-		::System::Action* APCDJBLBEAF; // 0x70
+		::System::Action_1<::System::UInt32>* APCDJBLBEAF; // 0x70
 		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x78
 		::UnityEngine::Transform* ILEBMCNOKBC; // 0x80
 		::UnityEngine::Animation* JPHOOFFIAAH; // 0x88
@@ -56,9 +56,9 @@ inline static constexpr unsigned int LGIHDAMOLNK_TypeDefinitionIndex = 72156;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LGIHDAMOLNK__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void NKPPGDENJAE(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::System::Action* a3)
+		::System::Void NKPPGDENJAE(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::System::Action_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + LGIHDAMOLNK_NKPPGDENJAE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + LGIHDAMOLNK_NKPPGDENJAE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void HGLBOMOJOEA(::System::Int32 a1)

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 namespace RPG::Client { class ChallengePeakTeamApplier; }
 namespace RPG::Client { class ILineupRecommendation; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -99,9 +99,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMAPPLIER_REPORT_OFFSET))(this);
 		}
 
-		::System::ValueTuple _GetReportInfo()
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> _GetReportInfo()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMAPPLIER__GETREPORTINFO_OFFSET))(this);
+			return ((::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKTEAMAPPLIER__GETREPORTINFO_OFFSET))(this);
 		}
 
 	};

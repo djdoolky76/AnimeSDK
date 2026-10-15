@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
@@ -44,7 +44,7 @@ inline static constexpr unsigned int PMOMDOHCCOO_TypeDefinitionIndex = 75588;
 		::System::UInt32 _ID_k__BackingField; // 0x40
 		::System::Boolean FHBNNGCEPFD; // 0x44
 		::System::Byte _padding0[0x3];
-		::System::Nullable* PKLIOOJEGJO; // 0x48
+		::System::Nullable_1<::UnityEngine::Rect> PKLIOOJEGJO; // 0x48
 		static ::System::Int32* StaticGet_BAJIOAFNFDJ()
 		{
 			return (::System::Int32*)UnitySDK::FromName("", "PMOMDOHCCOO")->GetStaticField(0x15C10);

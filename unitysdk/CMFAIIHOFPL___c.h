@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 class CMFAIIHOFPL;
 class HIOEAKHGILF;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Comparison_1; }
 
 #define CMFAIIHOFPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA2F1B0)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int CMFAIIHOFPL___c_TypeDefinitionIndex = 77163
 			return (::System::Comparison_1<::KEHLFNHAMLA>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50E30);
 		}
 
-		static ::System::Action** StaticGet___9__27_0()
+		static ::System::Action_2<::CMFAIIHOFPL*, ::HIOEAKHGILF*>** StaticGet___9__27_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50E38);
+			return (::System::Action_2<::CMFAIIHOFPL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50E38);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/FarmTypeConfig.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_4.h"
 namespace RPG::Client { class VoracityInvasionWorldActivity; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
@@ -43,7 +43,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FarmTypeConfig, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* InvadedFarmIDs; // 0x10
 		::RPG::Client::VoracityInvasionWorldActivity* WorldActivity; // 0x18
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FarmTypeConfig, ::System::UInt32>* _FarmInvasionLevels; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* _NPCMonsterInvasionLevels; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::UInt32>* _NPCMonsterInvasionLevels; // 0x28
 		::System::Collections::Generic::HashSet_1<::RPG::GameCore::FarmTypeConfig>* _AllInvadedFarmTypes; // 0x30
 		::System::Void _ctor()
 		{

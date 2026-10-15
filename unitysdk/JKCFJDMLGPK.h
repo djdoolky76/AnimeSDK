@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NetPacket; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MethodInfo; }
 
@@ -26,14 +26,14 @@ inline static constexpr unsigned int JKCFJDMLGPK_TypeDefinitionIndex = 69399;
 			return ((::Il2CppArray<::System::String*>*(*)())((::PBYTE)hIl2Cpp + JKCFJDMLGPK_OEFMMGBIFCJ_OFFSET))();
 		}
 
-		static ::System::Boolean IDAPGCJFDKH(::System::UInt16 a1, ::RPG::Client::NetPacket* a2, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action*>* a3)
+		static ::System::Boolean IDAPGCJFDKH(::System::UInt16 a1, ::RPG::Client::NetPacket* a2, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action_1<::RPG::Client::NetPacket*>*>* a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt16, ::RPG::Client::NetPacket*, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action*>*))((::PBYTE)hIl2Cpp + JKCFJDMLGPK_IDAPGCJFDKH_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::UInt16, ::RPG::Client::NetPacket*, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action_1<::RPG::Client::NetPacket*>*>*))((::PBYTE)hIl2Cpp + JKCFJDMLGPK_IDAPGCJFDKH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void LFBJFKDFMKL(::System::Object* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action*>* a2)
+		static ::System::Void LFBJFKDFMKL(::System::Object* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action_1<::RPG::Client::NetPacket*>*>* a2)
 		{
-			return ((::System::Void(*)(::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action*>*))((::PBYTE)hIl2Cpp + JKCFJDMLGPK_LFBJFKDFMKL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action_1<::RPG::Client::NetPacket*>*>*))((::PBYTE)hIl2Cpp + JKCFJDMLGPK_LFBJFKDFMKL_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* CKILLPHFBBC(::System::Object* a1)

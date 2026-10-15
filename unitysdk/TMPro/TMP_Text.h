@@ -35,10 +35,11 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Rect.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Text { class StringBuilder; }
 namespace TMPro { class ITextPreprocessor; }
@@ -513,8 +514,8 @@ namespace TMPro
 		::UnityEngine::Mesh* m_mesh; // 0x3B8
 		::System::Boolean m_isVolumetricText; // 0x3C0
 		::System::Byte _padding24[0x7];
-		::System::Action* OnPreRenderText; // 0x3C8
-		::System::Action* ModifyMeshBeforeUpload; // 0x3D0
+		::System::Action_1<::TMPro::TMP_TextInfo*>* OnPreRenderText; // 0x3C8
+		::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>* ModifyMeshBeforeUpload; // 0x3D0
 		::TMPro::TMP_SpriteAnimator* m_spriteAnimator; // 0x3D8
 		::System::Single m_flexibleHeight; // 0x3E0
 		::System::Single m_flexibleWidth; // 0x3E4
@@ -1477,24 +1478,24 @@ namespace TMPro
 			return ((::System::Void(*)(::System::Func_3<::System::Int32, ::System::String*, ::TMPro::TMP_SpriteAsset*>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_REMOVE_ONSPRITEASSETREQUEST_OFFSET))(a1);
 		}
 
-		::System::Void add_OnPreRenderText(::System::Action* a1)
+		::System::Void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_ADD_ONPRERENDERTEXT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::TMPro::TMP_TextInfo*>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_ADD_ONPRERENDERTEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPreRenderText(::System::Action* a1)
+		::System::Void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_REMOVE_ONPRERENDERTEXT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::TMPro::TMP_TextInfo*>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_REMOVE_ONPRERENDERTEXT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_ModifyMeshBeforeUpload(::System::Action* a1)
+		::System::Void add_ModifyMeshBeforeUpload(::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_ADD_MODIFYMESHBEFOREUPLOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_ADD_MODIFYMESHBEFOREUPLOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ModifyMeshBeforeUpload(::System::Action* a1)
+		::System::Void remove_ModifyMeshBeforeUpload(::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_REMOVE_MODIFYMESHBEFOREUPLOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>*))((::PBYTE)hIl2Cpp + TMPRO_TMP_TEXT_REMOVE_MODIFYMESHBEFOREUPLOAD_OFFSET))(this, a1);
 		}
 
 		::TMPro::TMP_SpriteAnimator* get_spriteAnimator()

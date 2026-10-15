@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/AvatarSkillTreeAnchorType.h"
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class COBBDMDECDJ;
 class GIDHOABFFFP;
 class GJABEBPIGDN;
@@ -89,9 +89,9 @@ inline static constexpr unsigned int HEPOBPNLIAO_TypeDefinitionIndex = 62700;
 			return ((::GIDHOABFFFP*(*)(::PVOID, ::RPG::GameCore::RelicType, ::KGHMBCLFFLG*))((::PBYTE)hIl2Cpp + HEPOBPNLIAO_PEDMOABIHNI_OFFSET))(this, a1, a2);
 		}
 
-		::GIDHOABFFFP* GIBOFKOHOOK(::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* a1)
+		::GIDHOABFFFP* GIBOFKOHOOK(::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>* a1)
 		{
-			return ((::GIDHOABFFFP*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + HEPOBPNLIAO_GIBOFKOHOOK_OFFSET))(this, a1);
+			return ((::GIDHOABFFFP*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>*))((::PBYTE)hIl2Cpp + HEPOBPNLIAO_GIBOFKOHOOK_OFFSET))(this, a1);
 		}
 
 		::GIDHOABFFFP* DIFLDJAGOND()

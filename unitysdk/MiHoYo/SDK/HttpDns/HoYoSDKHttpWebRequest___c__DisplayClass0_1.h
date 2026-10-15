@@ -4,6 +4,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class ManualResetEvent; }
 
 #define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB09F0)
@@ -19,7 +20,7 @@ namespace MiHoYo::SDK::HttpDns
 	{
 	public:
 		::System::Object* CS___8__locals1; // 0x10
-		::System::Action* __9__2; // 0x18
+		::System::Action_1<::System::String*>* __9__2; // 0x18
 		::System::Threading::ManualResetEvent* mre; // 0x20
 		::System::Action* __9__3; // 0x28
 		::System::Void _ctor()

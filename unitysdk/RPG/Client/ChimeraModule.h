@@ -17,6 +17,8 @@ namespace RPG::Client { class ChimeraWorkInfo; }
 namespace RPG::Client { class ChimeraWorkRoundInfo; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -89,7 +91,7 @@ namespace RPG::Client
 	class ChimeraModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::RPG::Client::Promises::Promise* _StartEndlessPromise; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::UInt32>* _StartEndlessPromise; // 0x10
 		::RPG::Client::ChimeraDoingRoundData* _DoingRound_k__BackingField; // 0x18
 		::RPG::Client::Promises::Promise* _FinishOrdinaryRoundPromise; // 0x20
 		::RPG::Client::ChimeraGalleryInfo* _GalleryInfo_k__BackingField; // 0x28
@@ -118,9 +120,9 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE_GETWORKIDARRAY_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GetCurrentRoundID()
+		::RPG::Client::Promises::IPromise_1<::System::UInt32>* GetCurrentRoundID()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE_GETCURRENTROUNDID_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE_GETCURRENTROUNDID_OFFSET))(this);
 		}
 
 		::RPG::Client::ChimeraData* GetChimeraData(::System::UInt32 a1)
@@ -168,9 +170,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE_FINISHENDLESSGAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::Promise* StartEndlessMode()
+		::RPG::Client::Promises::Promise_1<::System::UInt32>* StartEndlessMode()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE_STARTENDLESSMODE_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE_STARTENDLESSMODE_OFFSET))(this);
 		}
 
 		::System::Void _UpdateCurrentGameMode()
@@ -183,14 +185,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE__UPDATECURRENTWORKREMAINHP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _GetEndlessWorkRoundID()
+		::RPG::Client::Promises::IPromise_1<::System::UInt32>* _GetEndlessWorkRoundID()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE__GETENDLESSWORKROUNDID_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE__GETENDLESSWORKROUNDID_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _GetWorkRoundID()
+		::RPG::Client::Promises::IPromise_1<::System::UInt32>* _GetWorkRoundID()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE__GETWORKROUNDID_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAMODULE__GETWORKROUNDID_OFFSET))(this);
 		}
 
 		::System::Boolean _TryResolvePromise(::RPG::Client::Promises::Promise* a1)

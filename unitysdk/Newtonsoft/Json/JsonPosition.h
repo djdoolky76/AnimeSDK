@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonContainerType.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace Newtonsoft::Json { class IJsonLineInfo; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
@@ -56,9 +56,9 @@ namespace Newtonsoft::Json
 		}
 
 		/*
-		static ::System::String* BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* a1, ::System::Nullable* a2)
+		static ::System::String* BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* a1, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> a2)
 		{
-			return ((::System::String*(*)(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET))(a1, a2);
 		}
 		*/
 

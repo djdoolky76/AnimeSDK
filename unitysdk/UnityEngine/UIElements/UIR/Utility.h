@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Profiling/ProfilerMarker.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define UNITYENGINE_UIELEMENTS_UIR_UTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C7D20)
 #define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEENGINEUPDATE_OFFSET UNITYSDK_OFFSET(0x1F4C7BE0)
@@ -21,9 +22,9 @@ namespace UnityEngine::UIElements::UIR
 			return (::System::Action**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x1FB20);
 		}
 
-		static ::System::Action** StaticGet_GraphicsResourcesRecreate()
+		static ::System::Action_1<::System::Boolean>** StaticGet_GraphicsResourcesRecreate()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x1FB28);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x1FB28);
 		}
 
 		static ::System::Action** StaticGet_FlushPendingResources()

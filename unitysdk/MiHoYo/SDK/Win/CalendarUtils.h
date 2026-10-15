@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define MIHOYO_SDK_WIN_CALENDARUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD13D20)
 #define MIHOYO_SDK_WIN_CALENDARUTILS_DATEFORMATTOTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1BD12DB0)
@@ -76,9 +76,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::String*(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_FORMATMONTH_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::KeyValuePair* GetNextMonth(::System::Int32 a1, ::System::Int32 a2)
+		static ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> GetNextMonth(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETNEXTMONTH_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CALENDARUTILS_GETNEXTMONTH_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int32 GetCurrentYear()

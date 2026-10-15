@@ -4,7 +4,7 @@
 #include "unitysdk/IGKFNIEJGLM.h"
 class BANDDFEHONE;
 namespace RPG::Client { class RPGAnimationEvent; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
@@ -30,7 +30,7 @@ inline static constexpr unsigned int PGNDPPPFEEA_TypeDefinitionIndex = 72173;
 		::BANDDFEHONE* EEHODNKAAMH; // 0x60
 		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x68
 		::UnityEngine::Animation* KCOAILOHDND; // 0x70
-		::System::Action* LJFACEIHGKL; // 0x78
+		::System::Action_1<::BANDDFEHONE*>* LJFACEIHGKL; // 0x78
 		::RPG::Client::RPGAnimationEvent* LHMIOEDNCAJ; // 0x80
 		::System::Boolean HMLJOCBCHKG; // 0x88
 		// static const ::System::String* PKGOOJBGLEG; // 0x0

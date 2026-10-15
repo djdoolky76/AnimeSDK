@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
 #include "unitysdk/RPG/GameCore/BoolEx.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class SetGridFightBEEnergyBarState; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 
 #define CIPFBLLHOLK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF90500)
 #define CIPFBLLHOLK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF90510)
@@ -46,14 +46,14 @@ inline static constexpr unsigned int CIPFBLLHOLK_TypeDefinitionIndex = 55511;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CIPFBLLHOLK_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MDLNPMMHOJI(::System::Int32 a1)
+		::System::Nullable_1<::System::Int32> MDLNPMMHOJI(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CIPFBLLHOLK_MDLNPMMHOJI_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CIPFBLLHOLK_MDLNPMMHOJI_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MDLNPMMHOJI_1(::RPG::GameCore::BoolEx a1)
+		::System::Nullable_1<::System::Boolean> MDLNPMMHOJI_1(::RPG::GameCore::BoolEx a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + CIPFBLLHOLK_MDLNPMMHOJI_1_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + CIPFBLLHOLK_MDLNPMMHOJI_1_OFFSET))(this, a1);
 		}
 
 	};

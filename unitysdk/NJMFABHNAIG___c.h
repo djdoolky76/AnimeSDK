@@ -7,6 +7,7 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define NJMFABHNAIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC1E650)
 #define NJMFABHNAIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1E690)
@@ -29,9 +30,9 @@ inline static constexpr unsigned int NJMFABHNAIG___c_TypeDefinitionIndex = 75152
 			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42AE8);
 		}
 
-		static ::System::Action** StaticGet___9__12_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__12_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42AF0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42AF0);
 		}
 
 		static ::System::Func_2<::JLCNOGIJGMH*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__12_0()

@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/Platform.h"
 #include "unitysdk/RPG/Client/RPGQualitySettingsBoolWrapper.h"
 #include "unitysdk/RPG/CustomRP/Quality.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/Resolution.h"
@@ -20,7 +21,6 @@ namespace RPG::GameCore { class DeviceInfo; }
 namespace RPG::GameCore { class ForceGlesDevices; }
 namespace RPG::GameCore { class ForceVulkanDevices; }
 namespace RPG::GameCore { class GraphicsSettingJson; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -254,19 +254,19 @@ namespace RPG::Client
 			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "RPGQualitySettings")->GetStaticField(0x2EBC);
 		}
 
-		static ::System::Nullable** StaticGet__EnableLocalLightShadowCacheBefore()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet__EnableLocalLightShadowCacheBefore()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("RPG.Client", "RPGQualitySettings")->GetStaticField(0x2EBD);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("RPG.Client", "RPGQualitySettings")->GetStaticField(0x2EBD);
 		}
 
-		static ::System::Nullable** StaticGet__EnableHiZOCBefore()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet__EnableHiZOCBefore()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("RPG.Client", "RPGQualitySettings")->GetStaticField(0x2EBF);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("RPG.Client", "RPGQualitySettings")->GetStaticField(0x2EBF);
 		}
 
-		static ::System::Nullable** StaticGet__Cascade4SplitBefore()
+		static ::System::Nullable_1<::UnityEngine::Vector3>* StaticGet__Cascade4SplitBefore()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("RPG.Client", "RPGQualitySettings")->GetStaticField(0x2EC4);
+			return (::System::Nullable_1<::UnityEngine::Vector3>*)UnitySDK::FromName("RPG.Client", "RPGQualitySettings")->GetStaticField(0x2EC4);
 		}
 
 		static ::System::Int32* StaticGet__Width()

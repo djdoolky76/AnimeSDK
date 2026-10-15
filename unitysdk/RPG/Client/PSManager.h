@@ -8,10 +8,10 @@ class KJHIAECCGBD;
 class NNAGJHEBNJD;
 class NOBFCPPBLFD;
 namespace RPG::Client { class AchievementData; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_PSMANAGER_CREATESESSION_OFFSET UNITYSDK_OFFSET(0xDA69B50)
@@ -82,9 +82,9 @@ namespace RPG::Client
 	{
 	public:
 		::System::String* RMP_None; // 0x10
-		::RPG::Client::Promises::Promise* _RefreshFriendListPromise; // 0x18
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* _RefreshFriendListPromise; // 0x18
 		::NOBFCPPBLFD* _QueryOnlineIdProcessor; // 0x20
-		::RPG::Client::Promises::Promise* _RefreshBlackListPromise; // 0x28
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* _RefreshBlackListPromise; // 0x28
 		::KJHIAECCGBD* _StartUpSessionData_k__BackingField; // 0x30
 		::System::String* RMP_CrocssPlatformPlay; // 0x38
 		::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* _FriendList; // 0x40
@@ -226,9 +226,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_TRYSYNCALLTROPHY_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* RefreshBlackListPromise()
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* RefreshBlackListPromise()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_REFRESHBLACKLISTPROMISE_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_REFRESHBLACKLISTPROMISE_OFFSET))(this);
 		}
 
 		::System::Void _OnGetBlackList(::System::String* a1)
@@ -236,9 +236,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER__ONGETBLACKLIST_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* RefreshFriendList()
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* RefreshFriendList()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_REFRESHFRIENDLIST_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_REFRESHFRIENDLIST_OFFSET))(this);
 		}
 
 		::System::Void OnGetFriendList(::System::String* a1)
@@ -246,9 +246,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_ONGETFRIENDLIST_OFFSET))(this, a1);
 		}
 
-		::System::Void _TryQuery(::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* a1, ::RPG::Client::Promises::Promise* a2)
+		::System::Void _TryQuery(::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* a1, ::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*, ::RPG::Client::Promises::Promise*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER__TRYQUERY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*, ::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER__TRYQUERY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void TryInitializeRestrictStatus()
@@ -306,24 +306,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_SESSIONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void CreateSession(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action* a4, ::MiHoYo::SDK::MHYSDKC_Console_JoinRestriction a5)
+		::System::Void CreateSession(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Action_1<::System::Boolean>* a4, ::MiHoYo::SDK::MHYSDKC_Console_JoinRestriction a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Action*, ::MiHoYo::SDK::MHYSDKC_Console_JoinRestriction))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_CREATESESSION_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Action_1<::System::Boolean>*, ::MiHoYo::SDK::MHYSDKC_Console_JoinRestriction))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_CREATESESSION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void GetPSSessionDataWithSessionID(::System::String* a1, ::System::Action* a2)
+		::System::Void GetPSSessionDataWithSessionID(::System::String* a1, ::System::Action_1<::KJHIAECCGBD*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_GETPSSESSIONDATAWITHSESSIONID_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::KJHIAECCGBD*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_GETPSSESSIONDATAWITHSESSIONID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JoinSession(::System::String* a1, ::MiHoYo::SDK::MHYSDKC_Console_MemberType a2, ::System::Action* a3)
+		::System::Void JoinSession(::System::String* a1, ::MiHoYo::SDK::MHYSDKC_Console_MemberType a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::MHYSDKC_Console_MemberType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_JOINSESSION_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::MHYSDKC_Console_MemberType, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_JOINSESSION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LeaveSession(::System::Action* a1)
+		::System::Void LeaveSession(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_LEAVESESSION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PSMANAGER_LEAVESESSION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsInSession()

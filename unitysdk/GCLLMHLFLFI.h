@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
@@ -21,7 +21,7 @@ inline static constexpr unsigned int GCLLMHLFLFI_TypeDefinitionIndex = 75538;
 		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
 		::UnityEngine::Transform* ANIONDFOGOG; // 0x18
 		::RPG::MVector3 JFAGECNFHJL; // 0x20
-		::System::Nullable* LKBCLLCFEAL; // 0x2C
+		::System::Nullable_1<::UnityEngine::Vector3> LKBCLLCFEAL; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCLLMHLFLFI_CTOR_OFFSET))(this);

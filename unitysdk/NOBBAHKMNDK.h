@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KMEOMKNPNCC.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KDEEGFCFOCG;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterInputData; }
-namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class CapsuleCollider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody; }
@@ -47,9 +47,9 @@ inline static constexpr unsigned int NOBBAHKMNDK_TypeDefinitionIndex = 57103;
 	class NOBBAHKMNDK : public ::KMEOMKNPNCC
 	{
 	public:
-		::System::Action* _OnUpdate_k__BackingField; // 0x168
+		::System::Action_1<::System::Single>* _OnUpdate_k__BackingField; // 0x168
 		::KDEEGFCFOCG* MODCPGEJFOF; // 0x170
-		::System::Nullable* _OverrideMoveDeltaPositionOtherDirectionConstraint_k__BackingField; // 0x178
+		::System::Nullable_1<::System::Single> _OverrideMoveDeltaPositionOtherDirectionConstraint_k__BackingField; // 0x178
 		::System::Single _RootMotionScale_k__BackingField; // 0x180
 		::System::Boolean _UseRigidbody_k__BackingField; // 0x184
 		// static const ::System::Object OADDOIFOGON; // 0x0
@@ -140,14 +140,14 @@ inline static constexpr unsigned int NOBBAHKMNDK_TypeDefinitionIndex = 57103;
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::RaycastHit))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_BLNOAHMFCCK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action* get_OnUpdate()
+		::System::Action_1<::System::Single>* get_OnUpdate()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_GET_ONUPDATE_OFFSET))(this);
+			return ((::System::Action_1<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_GET_ONUPDATE_OFFSET))(this);
 		}
 
-		::System::Void set_OnUpdate(::System::Action* a1)
+		::System::Void set_OnUpdate(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_SET_ONUPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_SET_ONUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_UseRigidbody()
@@ -185,14 +185,14 @@ inline static constexpr unsigned int NOBBAHKMNDK_TypeDefinitionIndex = 57103;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_SET_ROOTMOTIONSCALE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_OverrideMoveDeltaPositionOtherDirectionConstraint()
+		::System::Nullable_1<::System::Single> get_OverrideMoveDeltaPositionOtherDirectionConstraint()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_GET_OVERRIDEMOVEDELTAPOSITIONOTHERDIRECTIONCONSTRAINT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_GET_OVERRIDEMOVEDELTAPOSITIONOTHERDIRECTIONCONSTRAINT_OFFSET))(this);
 		}
 
-		::System::Void set_OverrideMoveDeltaPositionOtherDirectionConstraint(::System::Nullable* a1)
+		::System::Void set_OverrideMoveDeltaPositionOtherDirectionConstraint(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_SET_OVERRIDEMOVEDELTAPOSITIONOTHERDIRECTIONCONSTRAINT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NOBBAHKMNDK_SET_OVERRIDEMOVEDELTAPOSITIONOTHERDIRECTIONCONSTRAINT_OFFSET))(this, a1);
 		}
 
 	};

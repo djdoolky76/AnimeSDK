@@ -5,14 +5,14 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator64_2.h"
 #include "unitysdk/RPG/GameCore/TextmapExcelTable_IndexKey.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 class POGMNKLPKGM;
 namespace RPG::GameCore { class TextmapRow; }
 namespace RPG::GameCore { template <typename T1, typename T2> class TableLRUCache_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -46,9 +46,9 @@ namespace RPG::GameCore
 	class TextmapExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AC0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AC0);
 		}
 
 		static ::System::Func_1<::System::String*>** StaticGet_GetCurrentLanguage()
@@ -61,9 +61,9 @@ namespace RPG::GameCore
 			return (::POGMNKLPKGM**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AD0);
 		}
 
-		static ::System::Action** StaticGet_UnloadTextmapData()
+		static ::System::Action_1<::System::String*>** StaticGet_UnloadTextmapData()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AD8);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AD8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::TextmapRow*>** StaticGet_dataDict_()
@@ -121,9 +121,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPEXCELTABLE_UNLOADDATA_OFFSET))();
 		}
 
-		static ::System::Void LoadToRow(::System::ValueTuple a1, ::RPG::GameCore::TextmapRow* a2)
+		static ::System::Void LoadToRow(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1, ::RPG::GameCore::TextmapRow* a2)
 		{
-			return ((::System::Void(*)(::System::ValueTuple, ::RPG::GameCore::TextmapRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPEXCELTABLE_LOADTOROW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>, ::RPG::GameCore::TextmapRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPEXCELTABLE_LOADTOROW_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean TryLoadRow(::RPG::GameCore::TextmapExcelTable_IndexKey a1, ::RPG::GameCore::TextmapRow* a2)

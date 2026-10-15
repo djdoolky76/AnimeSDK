@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class GNJBNBIOLAJ;
 class JBIGEIHIFDN;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define RPG_CLIENT_FLOORSAVEDDATA_ADDVALUE_OFFSET UNITYSDK_OFFSET(0xD046D20)
@@ -66,14 +66,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int16, ::JBIGEIHIFDN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_SETVALUE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean RegisterOnSavedValueChange(::System::String* a1, ::System::Action* a2)
+		::System::Boolean RegisterOnSavedValueChange(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_REGISTERONSAVEDVALUECHANGE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_REGISTERONSAVEDVALUECHANGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean UnregisterOnSavedValueChange(::System::String* a1, ::System::Action* a2)
+		::System::Boolean UnregisterOnSavedValueChange(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_UNREGISTERONSAVEDVALUECHANGE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORSAVEDDATA_UNREGISTERONSAVEDVALUECHANGE_OFFSET))(this, a1, a2);
 		}
 
 	};

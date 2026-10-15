@@ -4,7 +4,9 @@
 #include "unitysdk/RPG/GameCore/ChenLingGridStatus.h"
 #include "unitysdk/RPG/GameCore/ChenLingStageWaveType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
+#include "unitysdk/System/Nullable_1.h"
 class AFDJNEOHCLB;
 class AJNJDDFGFJL;
 class BDOEDOEBFAJ;
@@ -43,7 +45,6 @@ namespace RPG::Client::ChenLingBattle { class ShopRefreshInfo; }
 namespace RPG::Client::ChenLingBattle { class Soldier; }
 namespace RPG::Client::ChenLingBattle { class SoldierPromotion; }
 namespace RPG::Client::ChenLingBattle { class StageWave; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -215,7 +216,7 @@ namespace RPG::Client::ChenLingBattle
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Effect*>* _EffectList_k__BackingField; // 0x60
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::IEntity*>* _Entities; // 0x68
 		::RPG::Client::ChenLingBattleSnapshot* _BattleSnapshot_k__BackingField; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::LKFBEJOFLNJ*>*>* _PreCheckConfigCache; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::RPG::GameCore::ChenLingCardType, ::System::UInt32, ::RPG::GameCore::ChenLingGridStatus>, ::System::Collections::Generic::List_1<::LKFBEJOFLNJ*>*>* _PreCheckConfigCache; // 0x78
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Condition*>* _GlobalConditionList; // 0x80
 		::System::UInt32 _Coin_k__BackingField; // 0x88
 		::System::UInt32 _PrivilegePoint_k__BackingField; // 0x8C
@@ -225,9 +226,9 @@ namespace RPG::Client::ChenLingBattle
 		::System::UInt32 _Exp_k__BackingField; // 0x9C
 		::System::UInt32 _Hp_k__BackingField; // 0xA0
 		::System::UInt32 _DeckId_k__BackingField; // 0xA4
-		static ::Il2CppArray<::System::ValueTuple>** StaticGet__AdjacentDirections()
+		static ::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>** StaticGet__AdjacentDirections()
 		{
-			return (::Il2CppArray<::System::ValueTuple>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "ChenLingBattleGameSession")->GetStaticField(0x6E230);
+			return (::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::System::Int32>>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "ChenLingBattleGameSession")->GetStaticField(0x6E230);
 		}
 
 		::System::Void _ctor()
@@ -600,9 +601,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::Soldier*, ::RPG::Client::ChenLingBattle::Soldier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION_ARESOLDIERSADJACENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Soldier*>* GetAllSoldiers(::System::Nullable* a1)
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Soldier*>* GetAllSoldiers(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Soldier*>*(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION_GETALLSOLDIERS_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::Soldier*>*(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION_GETALLSOLDIERS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* GetAllSoldierConfigIDs()
@@ -620,14 +621,14 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION__ISCURRENTDECKSOLDIER_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _CountConnectedSoldiers(::RPG::Client::ChenLingBattle::Soldier* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2, ::System::Nullable* a3)
+		::System::Int32 _CountConnectedSoldiers(::RPG::Client::ChenLingBattle::Soldier* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChenLingBattle::Soldier*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION__COUNTCONNECTEDSOLDIERS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChenLingBattle::Soldier*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION__COUNTCONNECTEDSOLDIERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetConnectedSoldierCount(::RPG::Client::ChenLingBattle::Soldier* a1, ::System::Nullable* a2)
+		::System::Int32 GetConnectedSoldierCount(::RPG::Client::ChenLingBattle::Soldier* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChenLingBattle::Soldier*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION_GETCONNECTEDSOLDIERCOUNT_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChenLingBattle::Soldier*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION_GETCONNECTEDSOLDIERCOUNT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _UpdateSoldierPromotion()

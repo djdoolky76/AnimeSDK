@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class JPHKBAHBDGB;
 class NNDAJDLAHNC;
@@ -7,7 +8,6 @@ namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 namespace RPG::Client { class TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData; }
 namespace RPG::Client::LiteInstancedItem { class ItemPrototype; }
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
@@ -33,7 +33,7 @@ namespace RPG::Client
 		::UnityEngine::Mesh* _targetMesh_5__6; // 0x18
 		::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin_TSCInstanceData* _data_5__11; // 0x20
 		::RPG::Client::LiteInstancedItem::ItemPrototype* _prototypeNormalDeformation_5__9; // 0x28
-		::System::Collections::Generic::KeyValuePair* _iriTemplate_5__5; // 0x30
+		::System::Collections::Generic::KeyValuePair_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::System::Object*>*> _iriTemplate_5__5; // 0x30
 		::System::Byte _padding0[0x10];
 		::RPG::Client::LiteInstancedItem::ItemPrototype* _prototypeNormal_5__8; // 0x48
 		::System::Object* __7__wrap13; // 0x50

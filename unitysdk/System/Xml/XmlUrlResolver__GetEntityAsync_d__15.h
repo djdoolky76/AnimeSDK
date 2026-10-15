@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System { class Uri; }
@@ -17,7 +17,7 @@ namespace System::Xml
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15>
 	struct alignas(8) XmlUrlResolver__GetEntityAsync_d__15
 	{
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x10
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder; // 0x10
 		::System::Byte _padding0[0x10];
 		::System::Type* ofObjectToReturn; // 0x28
 		::System::Uri* absoluteUri; // 0x30

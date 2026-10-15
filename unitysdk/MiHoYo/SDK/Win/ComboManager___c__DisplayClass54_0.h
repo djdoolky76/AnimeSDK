@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class ComboManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS54_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD231B0)
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS54_0__BEFOREVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0x1BD31810)
@@ -18,9 +18,9 @@ namespace MiHoYo::SDK::Win
 	class ComboManager___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::System::Action* __9__2; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action_1<::System::String*>* __9__1; // 0x10
+		::System::Action_1<::System::String*>* __9__2; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x20
 		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x28
 		::System::Void _ctor()
 		{

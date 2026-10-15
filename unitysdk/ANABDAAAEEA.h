@@ -10,8 +10,8 @@ class HHOBIBABNLM;
 class MADHNHEMBOJ;
 namespace RPG::Client { class UIParticleClippable; }
 namespace RPG::GameCore { class LevelEntityActionDelayChanged; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
@@ -64,7 +64,7 @@ inline static constexpr unsigned int ANABDAAAEEA_TypeDefinitionIndex = 71252;
 		::MADHNHEMBOJ* PKIGHMIMJLF; // 0x78
 		::UnityEngine::UI::Text* OLHGGKPJGAD; // 0x80
 		::UnityEngine::Transform* FCDDMEAANPH; // 0x88
-		::System::Action* DHHAGDEHPCM; // 0x90
+		::System::Action_1<::System::Boolean>* DHHAGDEHPCM; // 0x90
 		::UnityEngine::UI::Text* CEMNJHBGGFJ; // 0x98
 		::UnityEngine::Animation* LLLKMDHEDDL; // 0xA0
 		::UnityEngine::Animation* EGLLKGDOIEP; // 0xA8

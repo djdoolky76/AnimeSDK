@@ -5,7 +5,7 @@ class HEKOMMJCPJF;
 class IMENCDLHKAI;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MNPJNAEAJJP_AALCFBOGFKP_OFFSET UNITYSDK_OFFSET(0xBA19CC0)
@@ -21,7 +21,7 @@ inline static constexpr unsigned int MNPJNAEAJJP_TypeDefinitionIndex = 57817;
 	class MNPJNAEAJJP : public ::System::Object
 	{
 	public:
-		::System::Action* DGAAGLAGFID; // 0x10
+		::System::Action_1<::RPG::GameCore::GameEntity*>* DGAAGLAGFID; // 0x10
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::IMENCDLHKAI*>* HAGAFPFAONA; // 0x18
 		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x20
 		::System::Void _ctor()

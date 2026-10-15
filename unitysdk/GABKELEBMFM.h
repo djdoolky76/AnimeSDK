@@ -4,6 +4,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define GABKELEBMFM_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x2E78AF0)
 #define GABKELEBMFM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x2E78BA0)
@@ -19,11 +20,11 @@ inline static constexpr unsigned int GABKELEBMFM_TypeDefinitionIndex = 60302;
 		::UnityEngine::Quaternion GPOAGGCILMF; // 0x38
 		::System::Single IEHPFADHJFD; // 0x48
 		::System::Byte _padding0[0x4];
-		::System::Action* IMDLGFPMPEK; // 0x50
+		::System::Action_1<::System::Boolean>* IMDLGFPMPEK; // 0x50
 		::System::Action* HKHDLACNBOK; // 0x58
-		::System::Void DLAILGNMFGI(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Single a4, ::System::Action* a5)
+		::System::Void DLAILGNMFGI(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Single a4, ::System::Action_1<::System::Boolean>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + GABKELEBMFM_DLAILGNMFGI_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + GABKELEBMFM_DLAILGNMFGI_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void KHGIKBFDLFB()

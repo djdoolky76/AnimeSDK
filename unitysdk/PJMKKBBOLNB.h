@@ -7,8 +7,8 @@
 class CAOEEDDAPIK_NNBFMHKHMKO;
 class GAHPNAEGACM;
 class GEDMHFPPBHN;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define PJMKKBBOLNB_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0xC29C580)
 #define PJMKKBBOLNB_CTOR_OFFSET UNITYSDK_OFFSET(0xC29C980)
@@ -28,7 +28,7 @@ inline static constexpr unsigned int PJMKKBBOLNB_TypeDefinitionIndex = 71300;
 	{
 	public:
 		::GEDMHFPPBHN* KPFKDKLCFKG; // 0x60
-		::System::Action* ONHFOPOHPAP; // 0x68
+		::System::Action_1<::System::String*>* ONHFOPOHPAP; // 0x68
 		::RPG::Client::ActionBarItemUIStyle IACCEDNBPJL; // 0x70
 		::System::Boolean IDBHEIBEGBA; // 0x74
 		// static const ::System::String* IOOKKPNGLPC; // 0x0

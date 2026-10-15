@@ -5,7 +5,7 @@ class DFHADNIAOAD;
 class KBLELMJDBEA;
 class KDKHADGLIPJ;
 class MFKLCJHKNBK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define GBLEOHLLHNA_AHEEAFKFALM_OFFSET UNITYSDK_OFFSET(0x15952120)
 #define GBLEOHLLHNA_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x15951DD0)
@@ -47,9 +47,9 @@ inline static constexpr unsigned int GBLEOHLLHNA_TypeDefinitionIndex = 75767;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GBLEOHLLHNA_JMMOBKNNPIE_OFFSET))(this);
 		}
 
-		::Entitas::IGroup* ILDLLFNLKDL()
+		::Entitas::IGroup_1<::KDKHADGLIPJ*>* ILDLLFNLKDL()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + GBLEOHLLHNA_ILDLLFNLKDL_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::KDKHADGLIPJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GBLEOHLLHNA_ILDLLFNLKDL_OFFSET))(this);
 		}
 
 	};

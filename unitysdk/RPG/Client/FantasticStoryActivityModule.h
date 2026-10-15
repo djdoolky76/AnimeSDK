@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class PKCIPJBKAFO;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class FantasticStoryBuffData; }
@@ -10,7 +11,6 @@ namespace RPG::Client { class FantasticStoryChapterData; }
 namespace RPG::Client { class FantasticStoryParagraphData; }
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -109,7 +109,7 @@ namespace RPG::Client
 		::System::Collections::Generic::HashSet_1<::RPG::Client::ScheduleData*>* _ParagraphWaitOpenScheduleData; // 0xA0
 		::System::UInt32 _LastBattleScore; // 0xA8
 		::System::UInt32 _LastBattleParagraphID; // 0xAC
-		::System::Nullable* AutoShowParagraphID; // 0xB0
+		::System::Nullable_1<::System::UInt32> AutoShowParagraphID; // 0xB0
 		::System::Boolean _TextJoinCopySend; // 0xB8
 		::System::Boolean _TextJoinPreBattleSetSend; // 0xB9
 		::System::Boolean LastBattleNewRecord; // 0xBA
@@ -269,9 +269,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::FantasticStoryBuffData*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE_GETSLOTSTAGEBUFFDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* GetSlotEquipBuffID(::System::UInt32 a1, ::System::UInt32 a2)
+		::System::Nullable_1<::System::UInt32> GetSlotEquipBuffID(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE_GETSLOTEQUIPBUFFID_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE_GETSLOTEQUIPBUFFID_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SlotEquipBuffData(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)

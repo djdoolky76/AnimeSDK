@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EAODNLIPMEO;
 class FOAEIPLEMKJ;
 class HNGODOCOCCF;
@@ -37,7 +37,7 @@ inline static constexpr unsigned int FOAEIPLEMKJ__CreateConfigs_d__4_TypeDefinit
 		::System::Byte _padding1[0x38];
 		::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::PENGPJKHIJF*> _iter_5__3; // 0x90
 		::System::Byte _padding2[0x38];
-		::System::ValueTuple __2__current; // 0xD0
+		::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*> __2__current; // 0xD0
 		::System::Byte _padding3[0x8];
 		::FOAEIPLEMKJ* __4__this; // 0xE0
 		::System::Int32 __l__initialThreadId; // 0xE8
@@ -72,9 +72,9 @@ inline static constexpr unsigned int FOAEIPLEMKJ__CreateConfigs_d__4_TypeDefinit
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ__CREATECONFIGS_D__4___M__FINALLY3_OFFSET))(this);
 		}
 
-		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_System_UInt32_RPG_Client_Challenge_Tierce_ChallengeTierceConfig___get_Current()
+		::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*> System_Collections_Generic_IEnumerator_System_ValueTuple_System_UInt32_RPG_Client_Challenge_Tierce_ChallengeTierceConfig___get_Current()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ__CREATECONFIGS_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_UINT32_RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECONFIG___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*>(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ__CREATECONFIGS_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_UINT32_RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECONFIG___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -87,9 +87,9 @@ inline static constexpr unsigned int FOAEIPLEMKJ__CreateConfigs_d__4_TypeDefinit
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ__CREATECONFIGS_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>* System_Collections_Generic_IEnumerable_System_ValueTuple_System_UInt32_RPG_Client_Challenge_Tierce_ChallengeTierceConfig___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*>>* System_Collections_Generic_IEnumerable_System_ValueTuple_System_UInt32_RPG_Client_Challenge_Tierce_ChallengeTierceConfig___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ__CREATECONFIGS_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_SYSTEM_UINT32_RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECONFIG___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::System::UInt32, ::EAODNLIPMEO*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FOAEIPLEMKJ__CREATECONFIGS_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_SYSTEM_UINT32_RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCECONFIG___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

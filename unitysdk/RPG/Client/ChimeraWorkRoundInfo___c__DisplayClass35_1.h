@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class SubMissionData; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS35_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6C010)
 #define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS35_1__TRYGETCURRENTROUNDOPTIONMAINMISSIONDATA_B__1_OFFSET UNITYSDK_OFFSET(0xCB6CC00)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class ChimeraWorkRoundInfo___c__DisplayClass35_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::UInt32>* promise; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS35_1_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/MatchThreePropType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class IMatchThreePropData; }
 namespace RPG::Client { class MatchThreeV2PropData; }
 namespace RPG::GameCore { class MatchThreeV2BattleItemRow; }
@@ -121,9 +121,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPDATA_GET_SORTORDER_OFFSET))(this);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2PropData*>* Create(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		static ::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2PropData*>* Create(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2PropData*>*(*)(::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPDATA_CREATE_OFFSET))(a1);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2PropData*>*(*)(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEV2PROPDATA_CREATE_OFFSET))(a1);
 		}
 
 		static ::System::Collections::Generic::List_1<::RPG::Client::MatchThreeV2PropData*>* Create_1(::System::Collections::Generic::List_1<::System::UInt32>* a1)

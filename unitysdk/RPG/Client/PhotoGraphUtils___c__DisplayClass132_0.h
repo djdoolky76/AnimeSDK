@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Rendering/AsyncGPUReadbackRequest.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace UnityEngine { class RenderTexture; }
 
 #define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS132_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB22B40)
@@ -17,7 +17,7 @@ namespace RPG::Client
 	class PhotoGraphUtils___c__DisplayClass132_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise_1<::Unity::Collections::NativeArray_1<::System::Byte>>* promise; // 0x10
 		::UnityEngine::RenderTexture* filterRT; // 0x18
 		::RPG::Client::PhotoGraphUtils_StorageFormatType formatType; // 0x20
 		::System::Void _ctor()

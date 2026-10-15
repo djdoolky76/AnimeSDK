@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class AEFBPMPIKNB;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define AEFBPMPIKNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB14F540)
 #define AEFBPMPIKNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB14F570)
@@ -20,9 +20,9 @@ inline static constexpr unsigned int AEFBPMPIKNB___c_TypeDefinitionIndex = 77075
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C310);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_3<::AEFBPMPIKNB*, ::System::Int32, ::System::String*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C318);
+			return (::System::Action_3<::AEFBPMPIKNB*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C318);
 		}
 
 		static ::System::Void _cctor()

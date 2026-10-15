@@ -3,8 +3,8 @@
 class FCHFBJKLIPF;
 class FDPALAEIHPB;
 class NFPPGOFECMH;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IContext; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LLBGPKEIDKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90FED0)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int LLBGPKEIDKO_TypeDefinitionIndex = 42875;
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*))((::PBYTE)hIl2Cpp + LLBGPKEIDKO_CTOR_OFFSET))(this, a1);
 		}
 
-		::Entitas::ICollector* GetTrigger(::Entitas::IContext* a1)
+		::Entitas::ICollector_1<::NFPPGOFECMH*>* GetTrigger(::Entitas::IContext_1<::NFPPGOFECMH*>* a1)
 		{
-			return ((::Entitas::ICollector*(*)(::PVOID, ::Entitas::IContext*))((::PBYTE)hIl2Cpp + LLBGPKEIDKO_GETTRIGGER_OFFSET))(this, a1);
+			return ((::Entitas::ICollector_1<::NFPPGOFECMH*>*(*)(::PVOID, ::Entitas::IContext_1<::NFPPGOFECMH*>*))((::PBYTE)hIl2Cpp + LLBGPKEIDKO_GETTRIGGER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Filter(::NFPPGOFECMH* a1)

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client::Promises { class IRejectable; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Promises
 {
@@ -9,7 +9,7 @@ namespace RPG::Client::Promises
 
 	struct alignas(8) ProgressHandler
 	{
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::Single>* callback; // 0x10
 		::RPG::Client::Promises::IRejectable* rejectable; // 0x18
 	};
 }

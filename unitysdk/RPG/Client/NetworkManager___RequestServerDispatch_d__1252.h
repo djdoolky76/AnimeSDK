@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class NMGLDNNFHFB;
 namespace RPG::Client { class NetworkManager; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_NETWORKMANAGER___REQUESTSERVERDISPATCH_D__1252_CTOR_OFFSET UNITYSDK_OFFSET(0xD9C6500)
 #define RPG_CLIENT_NETWORKMANAGER___REQUESTSERVERDISPATCH_D__1252_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xD9D0FC0)
@@ -24,7 +24,7 @@ namespace RPG::Client
 	public:
 		::System::Object* __8__1; // 0x10
 		::RPG::Client::NetworkManager* __4__this; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action_1<::NMGLDNNFHFB*>* callback; // 0x20
 		::Il2CppArray<::System::String*>* __7__wrap3; // 0x28
 		::System::Object* __2__current; // 0x30
 		::System::String* _dispatchUrl_5__2; // 0x38

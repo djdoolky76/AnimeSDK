@@ -5,7 +5,7 @@ class KCFGMKGNMNP;
 class MEAFKINAELF;
 class OBOLGLHJLBP;
 namespace ObservableCollections { template <typename T> class ObservableList_1; }
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -25,19 +25,19 @@ namespace RPG::Client::ResBar
 	class TopBarControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable*>** StaticGet___9__6_2()
+		static ::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_2()
 		{
-			return (::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDB0);
+			return (::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDB0);
 		}
 
-		static ::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable*>** StaticGet___9__6_5()
+		static ::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_5()
 		{
-			return (::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDB8);
+			return (::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDB8);
 		}
 
-		static ::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable*>** StaticGet___9__6_3()
+		static ::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_3()
 		{
-			return (::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDC0);
+			return (::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDC0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -50,9 +50,9 @@ namespace RPG::Client::ResBar
 			return (::System::Func_2<::OBOLGLHJLBP*, ::ObservableCollections::ObservableList_1<::MEAFKINAELF*>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDD0);
 		}
 
-		static ::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable*>** StaticGet___9__6_4()
+		static ::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_4()
 		{
-			return (::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDD8);
+			return (::System::Func_2<::OBOLGLHJLBP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BDD8);
 		}
 
 		static ::System::Func_2<::OBOLGLHJLBP*, ::ObservableCollections::ObservableList_1<::KCFGMKGNMNP*>*>** StaticGet___9__6_1()
@@ -80,24 +80,24 @@ namespace RPG::Client::ResBar
 			return ((::ObservableCollections::ObservableList_1<::KCFGMKGNMNP*>*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__6_2(::OBOLGLHJLBP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__6_2(::OBOLGLHJLBP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__6_3(::OBOLGLHJLBP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__6_3(::OBOLGLHJLBP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__6_4(::OBOLGLHJLBP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__6_4(::OBOLGLHJLBP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__6_5(::OBOLGLHJLBP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__6_5(::OBOLGLHJLBP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_5_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_TOPBARCONTROL___C___BINDING_B__6_5_OFFSET))(this, a1);
 		}
 
 	};

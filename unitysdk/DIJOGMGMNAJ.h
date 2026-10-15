@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetVersusBar; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 
 #define DIJOGMGMNAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF20B460)
 #define DIJOGMGMNAJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF20B470)
@@ -48,9 +48,9 @@ inline static constexpr unsigned int DIJOGMGMNAJ_TypeDefinitionIndex = 55591;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + DIJOGMGMNAJ_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* HPEBIALGDKG(::RPG::GameCore::DynamicFloat* a1)
+		::System::Nullable_1<::RPG::GameCore::FixPoint> HPEBIALGDKG(::RPG::GameCore::DynamicFloat* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::DynamicFloat*))((::PBYTE)hIl2Cpp + DIJOGMGMNAJ_HPEBIALGDKG_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::GameCore::FixPoint>(*)(::PVOID, ::RPG::GameCore::DynamicFloat*))((::PBYTE)hIl2Cpp + DIJOGMGMNAJ_HPEBIALGDKG_OFFSET))(this, a1);
 		}
 
 		::System::Void GNDNDCEBFFE()

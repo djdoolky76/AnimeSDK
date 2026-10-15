@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::ActivityHipplen { class MonoHipplenGameBall; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody; }
@@ -43,9 +43,9 @@ inline static constexpr unsigned int KDIJJFMOHEC_PFBNNGIFCFF_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KDIJJFMOHEC_PFBNNGIFCFF_CTOR_OFFSET))(this);
 		}
 
-		::System::Void KPJGDHLENIP(::UnityEngine::GameObject* a1, ::System::Action* a2)
+		::System::Void KPJGDHLENIP(::UnityEngine::GameObject* a1, ::System::Action_2<::UnityEngine::Collision*, ::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Action*))((::PBYTE)hIl2Cpp + KDIJJFMOHEC_PFBNNGIFCFF_KPJGDHLENIP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Action_2<::UnityEngine::Collision*, ::System::Object*>*))((::PBYTE)hIl2Cpp + KDIJJFMOHEC_PFBNNGIFCFF_KPJGDHLENIP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void JLANKNHFKCN(::System::Single a1)

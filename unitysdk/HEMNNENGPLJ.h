@@ -7,7 +7,7 @@ class FIBBFHBGMBO;
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define HEMNNENGPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5BAC0)
 #define HEMNNENGPLJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15C5BC20)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int HEMNNENGPLJ_TypeDefinitionIndex = 76954;
 	class HEMNNENGPLJ : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* DCDNOOBNILM; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* DCDNOOBNILM; // 0x10
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x18
 		::Il2CppArray<::UnityEngine::RaycastHit>* MAIHABDAEKL; // 0x20
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x28

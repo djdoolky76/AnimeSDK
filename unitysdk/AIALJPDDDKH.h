@@ -3,10 +3,10 @@
 #include "unitysdk/AIALJPDDDKH_EOperationAbortReason.h"
 #include "unitysdk/INGNCPPMOFG.h"
 #include "unitysdk/RPG/GameCore/OperationTypeMask.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BattleGamePhase; }
 namespace RPG::GameCore { class BattleInstance; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define AIALJPDDDKH_CTOR_1_OFFSET UNITYSDK_OFFSET(0xEB8E620)
@@ -57,7 +57,7 @@ inline static constexpr unsigned int AIALJPDDDKH_TypeDefinitionIndex = 58986;
 	{
 	public:
 		::System::Collections::Generic::List_1<::INGNCPPMOFG>* _Operations_k__BackingField; // 0x10
-		::System::Nullable* IEKEDAEKPNO; // 0x18
+		::System::Nullable_1<::INGNCPPMOFG> IEKEDAEKPNO; // 0x18
 		::System::Byte _padding0[0x30];
 		::RPG::GameCore::BattleInstance* __BattleInstanceRef_k__BackingField; // 0x50
 		::RPG::Client::BattleGamePhase* _BattleGamePhaseRef_k__BackingField; // 0x58

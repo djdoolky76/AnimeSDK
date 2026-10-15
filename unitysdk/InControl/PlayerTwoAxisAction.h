@@ -3,8 +3,8 @@
 #include "unitysdk/InControl/BindingSourceType.h"
 #include "unitysdk/InControl/TwoAxisInputControl.h"
 namespace InControl { class PlayerAction; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define INCONTROL_PLAYERTWOAXISACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET UNITYSDK_OFFSET(0x1BA76D80)
 #define INCONTROL_PLAYERTWOAXISACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA74D10)
@@ -34,7 +34,7 @@ namespace InControl
 		::InControl::PlayerAction* positiveXAction; // 0x80
 		::System::Object* _UserData_k__BackingField; // 0x88
 		::InControl::PlayerAction* positiveYAction; // 0x90
-		::System::Action* OnLastInputTypeChanged; // 0x98
+		::System::Action_1<::InControl::BindingSourceType>* OnLastInputTypeChanged; // 0x98
 		::InControl::BindingSourceType LastInputType; // 0xA0
 		::System::Boolean _InvertYAxis_k__BackingField; // 0xA4
 		::System::Boolean _InvertXAxis_k__BackingField; // 0xA5
@@ -63,14 +63,14 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERTWOAXISACTION_SET_INVERTYAXIS_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnLastInputTypeChanged(::System::Action* a1)
+		::System::Void add_OnLastInputTypeChanged(::System::Action_1<::InControl::BindingSourceType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERTWOAXISACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::BindingSourceType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERTWOAXISACTION_ADD_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnLastInputTypeChanged(::System::Action* a1)
+		::System::Void remove_OnLastInputTypeChanged(::System::Action_1<::InControl::BindingSourceType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERTWOAXISACTION_REMOVE_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::BindingSourceType>*))((::PBYTE)hIl2Cpp + INCONTROL_PLAYERTWOAXISACTION_REMOVE_ONLASTINPUTTYPECHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_UserData()

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BaseGachaGroupData; }
 namespace RPG::Client { class GachaItemData; }
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define RPG_CLIENT_GACHAMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD09C5D0)
 #define RPG_CLIENT_GACHAMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD09C600)
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return (::System::Func_2<::RPG::Client::GachaItemData*, ::RPG::Client::GachaItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60390);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Boolean>** StaticGet___9__33_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>, ::System::Boolean>** StaticGet___9__33_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60398);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60398);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GachaItemData*(*)(::PVOID, ::RPG::Client::GachaItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C__GETSORTEDGACHAITEMDATAS_B__28_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _RefreshGachaPoolsData_b__33_0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean _RefreshGachaPoolsData_b__33_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C__REFRESHGACHAPOOLSDATA_B__33_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C__REFRESHGACHAPOOLSDATA_B__33_0_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 __GetLinkedGachaGroupOrder_b__63_0(::RPG::GameCore::DynamicValue* a1)

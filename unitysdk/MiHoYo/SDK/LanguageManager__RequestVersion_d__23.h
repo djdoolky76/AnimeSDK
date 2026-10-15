@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class LanguageManager; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_LANGUAGEMANAGER__REQUESTVERSION_D__23_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE90810)
 #define MIHOYO_SDK_LANGUAGEMANAGER__REQUESTVERSION_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BE90B30)
@@ -23,7 +24,7 @@ namespace MiHoYo::SDK
 	public:
 		::System::String* _url_5__1; // 0x10
 		::System::Action* timeoutCallback; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x20
 		::System::Object* __2__current; // 0x28
 		::MiHoYo::SDK::LanguageManager* __4__this; // 0x30
 		::System::Int32 __1__state; // 0x38

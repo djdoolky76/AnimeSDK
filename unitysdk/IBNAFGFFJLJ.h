@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/ActivityAlley/AlleyPackAnchorState.h"
 #include "unitysdk/RPG/GameCore/AlleyPackAnchorType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::ActivityAlley { class AlleyPackAnchor; }
 namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
@@ -26,7 +26,7 @@ inline static constexpr unsigned int IBNAFGFFJLJ_TypeDefinitionIndex = 74099;
 		::RPG::Client::ActivityAlley::AlleyPackAnchor* GLCHNMCMIMI; // 0x18
 		::RPG::Client::ActivityAlley::AlleyPackAnchorState MEPFOEEGBEA; // 0x20
 		::UnityEngine::Vector3 HMPNOGFAFEM; // 0x24
-		::System::ValueTuple DLIJNFFLHHI; // 0x30
+		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> DLIJNFFLHHI; // 0x30
 		::System::Byte _padding0[0x4];
 		::RPG::GameCore::AlleyPackAnchorType HPLKADFDFAI; // 0x3C
 		::RPG::Client::ActivityAlley::AlleyPackAnchorDirType MLDNAFBHNKO; // 0x40

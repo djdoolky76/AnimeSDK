@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 inline static constexpr unsigned int OBGAECGPEFF_EJADJCCBOAB_TypeDefinitionIndex = 54991;
@@ -13,5 +13,5 @@ inline static constexpr unsigned int OBGAECGPEFF_EJADJCCBOAB_TypeDefinitionIndex
 		::System::String* AABNPBGMOFN; // 0x10
 		::RPG::GameCore::DynamicFloat* GBGDCCKEBBP; // 0x18
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::System::Nullable* KPGCMKJMDHP; // 0x28
+		::System::Nullable_1<::RPG::GameCore::DynamicValueContextScope> KPGCMKJMDHP; // 0x28
 	};

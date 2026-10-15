@@ -3,8 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PluginUI { class IPluginUIService; }
 namespace MiHoYo::SDK::PluginUI { class IPluginUIService_ShowPluginUITask; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_CLOSEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BF82940)
@@ -46,19 +47,19 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::PluginUI::IPluginUIService_ShowPluginUITask*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_REGISTERTASK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action* TryGetElementAction(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* a2, ::System::Boolean a3, ::System::String* a4)
+		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* TryGetElementAction(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a2, ::System::Boolean a3, ::System::String* a4)
 		{
-			return ((::System::Action*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_TRYGETELEMENTACTION_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_TRYGETELEMENTACTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Action* MakeListItemDefaultAction(::System::String* a1, ::System::Boolean a2)
+		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* MakeListItemDefaultAction(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Action*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKELISTITEMDEFAULTACTION_OFFSET))(this, a1, a2);
+			return ((::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKELISTITEMDEFAULTACTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action* MakeCloseDefaultAction(::System::String* a1, ::System::String* a2)
+		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* MakeCloseDefaultAction(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Action*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKECLOSEDEFAULTACTION_OFFSET))(this, a1, a2);
+			return ((::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKECLOSEDEFAULTACTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DoCloseDefaultAction(::System::String* a1, ::System::String* a2)

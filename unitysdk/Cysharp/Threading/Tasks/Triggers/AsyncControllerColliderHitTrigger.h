@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnControllerColliderHitHandler; }
 namespace UnityEngine { class ControllerColliderHit; }
@@ -39,14 +39,14 @@ namespace Cysharp::Threading::Tasks::Triggers
 			return ((::Cysharp::Threading::Tasks::Triggers::IAsyncOnControllerColliderHitHandler*(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCCONTROLLERCOLLIDERHITTRIGGER_GETONCONTROLLERCOLLIDERHITASYNCHANDLER_1_OFFSET))(this, a1);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask OnControllerColliderHitAsync()
+		::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::ControllerColliderHit*> OnControllerColliderHitAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCCONTROLLERCOLLIDERHITTRIGGER_ONCONTROLLERCOLLIDERHITASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::ControllerColliderHit*>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCCONTROLLERCOLLIDERHITTRIGGER_ONCONTROLLERCOLLIDERHITASYNC_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask OnControllerColliderHitAsync_1(::System::Threading::CancellationToken a1)
+		::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::ControllerColliderHit*> OnControllerColliderHitAsync_1(::System::Threading::CancellationToken a1)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCCONTROLLERCOLLIDERHITTRIGGER_ONCONTROLLERCOLLIDERHITASYNC_1_OFFSET))(this, a1);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::ControllerColliderHit*>(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCCONTROLLERCOLLIDERHITTRIGGER_ONCONTROLLERCOLLIDERHITASYNC_1_OFFSET))(this, a1);
 		}
 
 	};

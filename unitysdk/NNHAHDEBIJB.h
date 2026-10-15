@@ -5,14 +5,14 @@
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/GACEPNEKIAI.h"
 #include "unitysdk/HGBCMFANCOE.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -65,11 +65,11 @@ inline static constexpr unsigned int NNHAHDEBIJB_TypeDefinitionIndex = 77152;
 	class NNHAHDEBIJB : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* BCFMPKPKMMP; // 0x10
-		::Entitas::ICollector* LIKPFOAJEBM; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* BCFMPKPKMMP; // 0x10
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* LIKPFOAJEBM; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
 		::RPG::PoolDictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x28
-		::Entitas::IGroup* FHCFJAJGECM; // 0x30
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* FHCFJAJGECM; // 0x30
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x38
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_KDDCBHBPJMF()
 		{
@@ -148,9 +148,9 @@ inline static constexpr unsigned int NNHAHDEBIJB_TypeDefinitionIndex = 77152;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Collections::Generic::List_1<::HIOEAKHGILF*>*))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_LMMFHMFGNMF_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple NDJJMEPBBON(::System::Single a1, ::RPG::Client::LittleGame::FiveDim::SpikeTrapState a2, ::System::Single a3, ::System::Single a4)
+		::System::ValueTuple_2<::System::Single, ::RPG::Client::LittleGame::FiveDim::SpikeTrapState> NDJJMEPBBON(::System::Single a1, ::RPG::Client::LittleGame::FiveDim::SpikeTrapState a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Single, ::RPG::Client::LittleGame::FiveDim::SpikeTrapState, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_NDJJMEPBBON_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::Single, ::RPG::Client::LittleGame::FiveDim::SpikeTrapState>(*)(::PVOID, ::System::Single, ::RPG::Client::LittleGame::FiveDim::SpikeTrapState, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_NDJJMEPBBON_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::Vector3 IDHNJKHEBMJ(::HIOEAKHGILF* a1, ::System::Int32 a2)
@@ -173,9 +173,9 @@ inline static constexpr unsigned int NNHAHDEBIJB_TypeDefinitionIndex = 77152;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_MHPLGOAHLPJ_OFFSET))(this, a1);
 		}
 
-		::System::Void HIDKEBJMOOM(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void HIDKEBJMOOM(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_HIDKEBJMOOM_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_HIDKEBJMOOM_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean MHNABDJDMFP(::HIOEAKHGILF* a1)
@@ -233,9 +233,9 @@ inline static constexpr unsigned int NNHAHDEBIJB_TypeDefinitionIndex = 77152;
 			return ((::System::Boolean(*)(::PVOID, ::HIOEAKHGILF*, ::System::Int32))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_JFMPKDBCNAJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple DILJPILGOAD(::HIOEAKHGILF* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> DILJPILGOAD(::HIOEAKHGILF* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::HIOEAKHGILF*, ::System::Int32))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_DILJPILGOAD_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::HIOEAKHGILF*, ::System::Int32))((::PBYTE)hIl2Cpp + NNHAHDEBIJB_DILJPILGOAD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean GNMNIPDGHPK(::UnityEngine::Collider* a1, ::HIOEAKHGILF* a2)

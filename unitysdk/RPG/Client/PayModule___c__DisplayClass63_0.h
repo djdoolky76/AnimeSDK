@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/PayProductResult.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PayModule; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS63_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA95ED0)
 #define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS63_0___DOPAYPRODUCT_B__0_OFFSET UNITYSDK_OFFSET(0xDA96460)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class PayModule___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onGetPayProductResult; // 0x10
+		::System::Action_1<::RPG::Client::PayProductResult>* onGetPayProductResult; // 0x10
 		::RPG::Client::PayModule* __4__this; // 0x18
 		::System::Void _ctor()
 		{

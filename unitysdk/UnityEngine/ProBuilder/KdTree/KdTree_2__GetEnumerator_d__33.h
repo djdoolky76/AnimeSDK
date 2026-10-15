@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::ProBuilder::KdTree { template <typename T1, typename T2> class KdTreeNode_2; }
 namespace UnityEngine::ProBuilder::KdTree { template <typename T1, typename T2> class KdTree_2; }
 
@@ -18,7 +18,7 @@ namespace UnityEngine::ProBuilder::KdTree
 		::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<T1, T2>* __2__current; // 0x0
 		::UnityEngine::ProBuilder::KdTree::KdTree_2<T1, T2>* __4__this; // 0x0
 		::System::Object* __8__1; // 0x0
-		::System::Action* _addLeft_5__2; // 0x0
-		::System::Action* _addRight_5__3; // 0x0
+		::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<T1, T2>*>* _addLeft_5__2; // 0x0
+		::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<T1, T2>*>* _addRight_5__3; // 0x0
 	};
 }

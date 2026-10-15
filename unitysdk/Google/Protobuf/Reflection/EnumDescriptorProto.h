@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class EnumDescriptorProto; }
 namespace Google::Protobuf::Reflection { class EnumOptions; }
@@ -50,19 +50,19 @@ namespace Google::Protobuf::Reflection
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x28
 		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* reservedName_; // 0x30
 		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::EnumValueDescriptorProto*>* value_; // 0x38
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_reservedName_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet__repeated_reservedName_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C170);
+			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C170);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_reservedRange_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::Object*>** StaticGet__repeated_reservedRange_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C178);
+			return (::Google::Protobuf::FieldCodec_1<::System::Object*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C178);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C180);
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C180);
 		}
 
 		static ::System::String** StaticGet_NameDefaultValue()
@@ -70,9 +70,9 @@ namespace Google::Protobuf::Reflection
 			return (::System::String**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C188);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_value_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumValueDescriptorProto*>** StaticGet__repeated_value_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C190);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumValueDescriptorProto*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumDescriptorProto")->GetStaticField(0x1C190);
 		}
 
 		::System::Void _ctor()
@@ -90,9 +90,9 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

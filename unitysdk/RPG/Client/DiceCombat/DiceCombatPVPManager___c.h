@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC2E020)
@@ -27,9 +27,9 @@ namespace RPG::Client::DiceCombat
 			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x25D90);
 		}
 
-		static ::System::Action** StaticGet___9__28_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__28_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x25D98);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x25D98);
 		}
 
 		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>** StaticGet___9__9_0()

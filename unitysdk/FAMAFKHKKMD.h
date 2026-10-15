@@ -6,7 +6,7 @@
 class AFEPOFEOCDI;
 class OCPOIDCNJDA;
 class OMPCEECHGJK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define FAMAFKHKKMD_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0x15684380)
 #define FAMAFKHKKMD_CDEBBIONEDG_OFFSET UNITYSDK_OFFSET(0x15685130)
@@ -28,10 +28,10 @@ inline static constexpr unsigned int FAMAFKHKKMD_TypeDefinitionIndex = 76667;
 	class FAMAFKHKKMD : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* GOHKBDPGAOA; // 0x10
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* GOHKBDPGAOA; // 0x10
 		::OMPCEECHGJK* PDENFEFCAGN; // 0x18
 		::AFEPOFEOCDI* FKINCGODJEP; // 0x20
-		::Entitas::IGroup* BICIKNNLHCI; // 0x28
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* BICIKNNLHCI; // 0x28
 		::Il2CppArray<::UnityEngine::RaycastHit>* HIHPCNKNPNE; // 0x30
 		::System::Int32 KHCOAACBFEB; // 0x38
 		::System::Void _ctor(::AFEPOFEOCDI* a1, ::OMPCEECHGJK* a2)

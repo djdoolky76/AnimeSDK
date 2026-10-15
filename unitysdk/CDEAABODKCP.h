@@ -4,9 +4,9 @@
 class CDEAABODKCP;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
@@ -57,9 +57,9 @@ inline static constexpr unsigned int CDEAABODKCP_TypeDefinitionIndex = 29135;
 			return (::System::Object**)UnitySDK::FromName("", "CDEAABODKCP")->GetStaticField(0xF020);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::CDEAABODKCP*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "CDEAABODKCP")->GetStaticField(0xF028);
+			return (::Google::Protobuf::MessageParser_1<::CDEAABODKCP*>**)UnitySDK::FromName("", "CDEAABODKCP")->GetStaticField(0xF028);
 		}
 
 		static ::System::Object** StaticGet_KGCBHCJMKMI()
@@ -67,9 +67,9 @@ inline static constexpr unsigned int CDEAABODKCP_TypeDefinitionIndex = 29135;
 			return (::System::Object**)UnitySDK::FromName("", "CDEAABODKCP")->GetStaticField(0xF030);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_NANHKNECMEF()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_NANHKNECMEF()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "CDEAABODKCP")->GetStaticField(0xF038);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "CDEAABODKCP")->GetStaticField(0xF038);
 		}
 
 		// static const ::System::Object GKKKEHJAKII; // 0x0
@@ -94,9 +94,9 @@ inline static constexpr unsigned int CDEAABODKCP_TypeDefinitionIndex = 29135;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CDEAABODKCP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::CDEAABODKCP*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + CDEAABODKCP_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::CDEAABODKCP*>*(*)())((::PBYTE)hIl2Cpp + CDEAABODKCP_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

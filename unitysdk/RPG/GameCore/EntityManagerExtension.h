@@ -69,9 +69,9 @@ namespace RPG::GameCore { class SummonUnitConfig; }
 namespace RPG::GameCore { class SummonUnitDataRow; }
 namespace RPG::GameCore { class TransformComponent; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -219,9 +219,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CCTOR_OFFSET))();
 		}
 
-		static ::RPG::GameCore::GameEntity* CreatePlayerTeamMember(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::TeamType a2, ::RPG::GameCore::EntityType a3, ::RPG::Client::MemberData* a4, ::System::Action* a5)
+		static ::RPG::GameCore::GameEntity* CreatePlayerTeamMember(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::TeamType a2, ::RPG::GameCore::EntityType a3, ::RPG::Client::MemberData* a4, ::System::Action_1<::RPG::GameCore::GameEntity*>* a5)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::TeamType, ::RPG::GameCore::EntityType, ::RPG::Client::MemberData*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATEPLAYERTEAMMEMBER_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::TeamType, ::RPG::GameCore::EntityType, ::RPG::Client::MemberData*, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATEPLAYERTEAMMEMBER_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::RPG::GameCore::AdventureCharacterConfig* _DecideAdventureCharacterConfig(::KNDOCIJHHFA* a1, ::RPG::GameCore::GameEntity* a2)
@@ -249,39 +249,39 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATESIMPLEMODELENTITYFORONLINEPLAYROOM_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::GameEntity* CreateAssemblyNPC(::RPG::GameCore::EntityManager* a1, ::RPG::Client::AssemNPC* a2, ::RPG::GameCore::LevelNPCPossessionInfo* a3, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>* a4, ::UnityEngine::Vector3 a5, ::System::String* a6, ::RPG::Client::EAssemblyNPC a7, ::System::UInt32 a8, ::System::Action* a9)
+		static ::RPG::GameCore::GameEntity* CreateAssemblyNPC(::RPG::GameCore::EntityManager* a1, ::RPG::Client::AssemNPC* a2, ::RPG::GameCore::LevelNPCPossessionInfo* a3, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>* a4, ::UnityEngine::Vector3 a5, ::System::String* a6, ::RPG::Client::EAssemblyNPC a7, ::System::UInt32 a8, ::System::Action_1<::RPG::GameCore::GameEntity*>* a9)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::AssemNPC*, ::RPG::GameCore::LevelNPCPossessionInfo*, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>*, ::UnityEngine::Vector3, ::System::String*, ::RPG::Client::EAssemblyNPC, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATEASSEMBLYNPC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::AssemNPC*, ::RPG::GameCore::LevelNPCPossessionInfo*, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>*, ::UnityEngine::Vector3, ::System::String*, ::RPG::Client::EAssemblyNPC, ::System::UInt32, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATEASSEMBLYNPC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::RPG::GameCore::GameEntity* CreatePedestrianArtNPC(::RPG::GameCore::EntityManager* a1, ::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo* a2, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo* a3, ::UnityEngine::Vector3 a4, ::System::Action* a5)
+		static ::RPG::GameCore::GameEntity* CreatePedestrianArtNPC(::RPG::GameCore::EntityManager* a1, ::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo* a2, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo* a3, ::UnityEngine::Vector3 a4, ::System::Action_1<::RPG::GameCore::GameEntity*>* a5)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo*, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo*, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATEPEDESTRIANARTNPC_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo*, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo*, ::UnityEngine::Vector3, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATEPEDESTRIANARTNPC_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateNPC(::RPG::GameCore::EntityManager* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::RPG::GameCore::EntityType a7, ::System::Action* a8, ::System::Action* a9, ::RPG::Client::MapNpcDef* a10, ::RPG::GameCore::NPCDataRow* a11, ::System::Boolean a12)
+		static ::RPG::GameCore::GameEntity* ClientCreateNPC(::RPG::GameCore::EntityManager* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::RPG::GameCore::EntityType a7, ::System::Action_1<::RPG::GameCore::GameEntity*>* a8, ::System::Action_1<::RPG::GameCore::GameEntity*>* a9, ::RPG::Client::MapNpcDef* a10, ::RPG::GameCore::NPCDataRow* a11, ::System::Boolean a12)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EntityType, ::System::Action*, ::System::Action*, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCDataRow*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATENPC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EntityType, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCDataRow*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATENPC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreatePetNpc(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::SummonUnitConfig* a2, ::RPG::GameCore::EntityType a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Action* a6)
+		static ::RPG::GameCore::GameEntity* ClientCreatePetNpc(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::SummonUnitConfig* a2, ::RPG::GameCore::EntityType a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Action_1<::RPG::GameCore::GameEntity*>* a6)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::SummonUnitConfig*, ::RPG::GameCore::EntityType, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEPETNPC_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::SummonUnitConfig*, ::RPG::GameCore::EntityType, ::System::Boolean, ::System::Boolean, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEPETNPC_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateMapNPC(::RPG::GameCore::EntityManager* a1, ::RPG::Client::MapNpcDef* a2, ::RPG::GameCore::NPCDataRow* a3, ::System::Action* a4, ::System::Boolean a5)
+		static ::RPG::GameCore::GameEntity* ClientCreateMapNPC(::RPG::GameCore::EntityManager* a1, ::RPG::Client::MapNpcDef* a2, ::RPG::GameCore::NPCDataRow* a3, ::System::Action_1<::RPG::GameCore::GameEntity*>* a4, ::System::Boolean a5)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCDataRow*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEMAPNPC_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCDataRow*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEMAPNPC_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateStillNPC(::RPG::GameCore::EntityManager* a1, ::RPG::Client::MapNpcDef* a2, ::RPG::GameCore::NPCDataRow* a3, ::RPG::GameCore::LevelNPCStillConfigData* a4, ::System::Action* a5, ::System::Boolean a6)
+		static ::RPG::GameCore::GameEntity* ClientCreateStillNPC(::RPG::GameCore::EntityManager* a1, ::RPG::Client::MapNpcDef* a2, ::RPG::GameCore::NPCDataRow* a3, ::RPG::GameCore::LevelNPCStillConfigData* a4, ::System::Action_1<::RPG::GameCore::GameEntity*>* a5, ::System::Boolean a6)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCDataRow*, ::RPG::GameCore::LevelNPCStillConfigData*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESTILLNPC_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCDataRow*, ::RPG::GameCore::LevelNPCStillConfigData*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESTILLNPC_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateMapNPCMonster(::RPG::GameCore::EntityManager* a1, ::RPG::Client::MapNpcDef* a2, ::RPG::GameCore::NPCMonsterDataRow* a3, ::System::Action* a4, ::System::Boolean a5)
+		static ::RPG::GameCore::GameEntity* ClientCreateMapNPCMonster(::RPG::GameCore::EntityManager* a1, ::RPG::Client::MapNpcDef* a2, ::RPG::GameCore::NPCMonsterDataRow* a3, ::System::Action_1<::RPG::GameCore::GameEntity*>* a4, ::System::Boolean a5)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCMonsterDataRow*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEMAPNPCMONSTER_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::Client::MapNpcDef*, ::RPG::GameCore::NPCMonsterDataRow*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEMAPNPCMONSTER_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::String* GetPropPathLOD(::System::String* a1)
@@ -304,9 +304,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEPROP_SETUPGROUPINFOCMPT_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateProp(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::PropRow* a2, ::RPG::GameCore::PropConfig* a3, ::RPG::Client::MapPropDef* a4, ::RPG::GameCore::TeamType a5, ::UnityEngine::GameObject* a6, ::RPG::MVector3 a7, ::System::Single a8, ::System::Single a9, ::System::Single a10, ::RPG::MVector3 a11, ::System::Action* a12, ::System::Boolean a13, ::GDKHHPPIFBC* a14, ::System::Boolean a15)
+		static ::RPG::GameCore::GameEntity* ClientCreateProp(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::PropRow* a2, ::RPG::GameCore::PropConfig* a3, ::RPG::Client::MapPropDef* a4, ::RPG::GameCore::TeamType a5, ::UnityEngine::GameObject* a6, ::RPG::MVector3 a7, ::System::Single a8, ::System::Single a9, ::System::Single a10, ::RPG::MVector3 a11, ::System::Action_1<::RPG::GameCore::GameEntity*>* a12, ::System::Boolean a13, ::GDKHHPPIFBC* a14, ::System::Boolean a15)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::PropRow*, ::RPG::GameCore::PropConfig*, ::RPG::Client::MapPropDef*, ::RPG::GameCore::TeamType, ::UnityEngine::GameObject*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::System::Action*, ::System::Boolean, ::GDKHHPPIFBC*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEPROP_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::PropRow*, ::RPG::GameCore::PropConfig*, ::RPG::Client::MapPropDef*, ::RPG::GameCore::TeamType, ::UnityEngine::GameObject*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Boolean, ::GDKHHPPIFBC*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEPROP_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15);
 		}
 
 		static ::RPG::GameCore::GameEntity* ClientPuzzleObjectBindProp(::RPG::GameCore::EntityManager* a1, ::UnityEngine::GameObject* a2)
@@ -324,9 +324,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::GameEntity*, ::System::String*, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTPUZZLEENTITYBINDANIMEVENTCOMPONENT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateDistrict(::RPG::GameCore::EntityManager* a1, ::System::String* a2, ::RPG::MVector3 a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::RPG::MVector3 a7, ::RPG::Client::MapDistrictDef* a8, ::System::Action* a9)
+		static ::RPG::GameCore::GameEntity* ClientCreateDistrict(::RPG::GameCore::EntityManager* a1, ::System::String* a2, ::RPG::MVector3 a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::RPG::MVector3 a7, ::RPG::Client::MapDistrictDef* a8, ::System::Action_1<::RPG::GameCore::GameEntity*>* a9)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::RPG::Client::MapDistrictDef*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEDISTRICT_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::RPG::Client::MapDistrictDef*, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEDISTRICT_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		static ::RPG::GameCore::GameEntity* ClientCreateUnityGOEntity(::RPG::GameCore::EntityManager* a1)
@@ -344,19 +344,19 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::System::String*, ::Il2CppArray<::System::String*>*, ::KLKMCNOECAL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATECUTSCENEENTITY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateStoryStillNPCEntity(::RPG::GameCore::EntityManager* a1, ::System::String* a2, ::System::String* a3, ::RPG::GameCore::LevelNPCStillConfigData* a4, ::System::Boolean a5, ::System::Action* a6)
+		static ::RPG::GameCore::GameEntity* ClientCreateStoryStillNPCEntity(::RPG::GameCore::EntityManager* a1, ::System::String* a2, ::System::String* a3, ::RPG::GameCore::LevelNPCStillConfigData* a4, ::System::Boolean a5, ::System::Action_1<::RPG::GameCore::GameEntity*>* a6)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::System::String*, ::RPG::GameCore::LevelNPCStillConfigData*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESTORYSTILLNPCENTITY_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::System::String*, ::RPG::GameCore::LevelNPCStillConfigData*, ::System::Boolean, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESTORYSTILLNPCENTITY_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateStoryNPCEntity(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::NPCSubType a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::RPG::GameCore::StoryCharacterRow* a7, ::System::String* a8, ::System::String* a9, ::Il2CppArray<::System::String*>* a10, ::System::Boolean a11, ::System::Action* a12)
+		static ::RPG::GameCore::GameEntity* ClientCreateStoryNPCEntity(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::NPCSubType a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::RPG::GameCore::StoryCharacterRow* a7, ::System::String* a8, ::System::String* a9, ::Il2CppArray<::System::String*>* a10, ::System::Boolean a11, ::System::Action_1<::RPG::GameCore::GameEntity*>* a12)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::NPCSubType, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::StoryCharacterRow*, ::System::String*, ::System::String*, ::Il2CppArray<::System::String*>*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESTORYNPCENTITY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::NPCSubType, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::StoryCharacterRow*, ::System::String*, ::System::String*, ::Il2CppArray<::System::String*>*, ::System::Boolean, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESTORYNPCENTITY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateStoryPropEntity(::RPG::GameCore::EntityManager* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Action* a8)
+		static ::RPG::GameCore::GameEntity* ClientCreateStoryPropEntity(::RPG::GameCore::EntityManager* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Action_1<::RPG::GameCore::GameEntity*>* a8)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESTORYPROPENTITY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Boolean, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESTORYPROPENTITY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		static ::RPG::GameCore::GameEntity* ClientCreateUI3DCameraEntity(::RPG::GameCore::EntityManager* a1, ::UnityEngine::Camera* a2)
@@ -409,9 +409,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::RuntimeGroupInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATEGROUPENTITY_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateSummonUnit(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3, ::RPG::GameCore::SummonUnitDataRow* a4, ::RPG::GameCore::SummonUnitConfig* a5, ::LLADGGNOJPG* a6, ::RPG::MVector3 a7, ::System::Single a8, ::System::Single a9, ::System::Single a10, ::RPG::MVector3 a11, ::System::Action* a12, ::System::Boolean a13, ::ENEIHJJPNPI* a14)
+		static ::RPG::GameCore::GameEntity* ClientCreateSummonUnit(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3, ::RPG::GameCore::SummonUnitDataRow* a4, ::RPG::GameCore::SummonUnitConfig* a5, ::LLADGGNOJPG* a6, ::RPG::MVector3 a7, ::System::Single a8, ::System::Single a9, ::System::Single a10, ::RPG::MVector3 a11, ::System::Action_1<::RPG::GameCore::GameEntity*>* a12, ::System::Boolean a13, ::ENEIHJJPNPI* a14)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SummonUnitDataRow*, ::RPG::GameCore::SummonUnitConfig*, ::LLADGGNOJPG*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::System::Action*, ::System::Boolean, ::ENEIHJJPNPI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESUMMONUNIT_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SummonUnitDataRow*, ::RPG::GameCore::SummonUnitConfig*, ::LLADGGNOJPG*, ::RPG::MVector3, ::System::Single, ::System::Single, ::System::Single, ::RPG::MVector3, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Boolean, ::ENEIHJJPNPI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATESUMMONUNIT_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
 		}
 
 		static ::RPG::GameCore::GameEntity* ClientCreatePreviewBattleEventEntity(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::BattleEventRow* a2, ::RPG::GameCore::TeamType a3, ::RPG::GameCore::GameEntity* a4, ::RPG::GameCore::GameEntity* a5, ::MBBEBLGELAP* a6)
@@ -434,9 +434,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::System::UInt32, ::RPG::GameCore::LevelLittleGameInfo*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATELITTLEGAMECONTAINERENTITY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::RPG::GameCore::GameEntity* ClientCreateLittleGameProxyEntity(::RPG::GameCore::EntityManager* a1, ::HCLPKMIIANI* a2, ::System::UInt32 a3, ::RPG::GameCore::LittleGameProxyEntityConfig* a4, ::FBNAAINOJNB* a5, ::Entitas::IContext* a6, ::System::Action* a7, ::System::Boolean a8)
+		static ::RPG::GameCore::GameEntity* ClientCreateLittleGameProxyEntity(::RPG::GameCore::EntityManager* a1, ::HCLPKMIIANI* a2, ::System::UInt32 a3, ::RPG::GameCore::LittleGameProxyEntityConfig* a4, ::FBNAAINOJNB* a5, ::Entitas::IContext* a6, ::System::Action_1<::RPG::GameCore::GameEntity*>* a7, ::System::Boolean a8)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::HCLPKMIIANI*, ::System::UInt32, ::RPG::GameCore::LittleGameProxyEntityConfig*, ::FBNAAINOJNB*, ::Entitas::IContext*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATELITTLEGAMEPROXYENTITY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::HCLPKMIIANI*, ::System::UInt32, ::RPG::GameCore::LittleGameProxyEntityConfig*, ::FBNAAINOJNB*, ::Entitas::IContext*, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CLIENTCREATELITTLEGAMEPROXYENTITY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		static ::System::Void _CommonSetupAdventureCharacter(::RPG::GameCore::GameEntity* a1)
@@ -559,9 +559,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::LevelGraphConfig*, ::System::String*, ::RPG::GameCore::EntityType, ::UnityEngine::GameObject*, ::BKCLEAHHCOI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATELEVELGRAPHENTITY_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::RPG::GameCore::GameEntity* CreateBattleEventEntity(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::BattleEventRow* a2, ::RPG::GameCore::TeamType a3, ::RPG::GameCore::GameEntity* a4, ::RPG::GameCore::GameEntity* a5, ::RPG::GameCore::GameEntity* a6, ::RPG::GameCore::StageRow* a7, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::FixPoint>* a8, ::System::Boolean a9, ::RPG::GameCore::BattleEventCreateType a10, ::System::Boolean a11, ::System::Action* a12, ::System::Object* a13, ::MBBEBLGELAP* a14)
+		static ::RPG::GameCore::GameEntity* CreateBattleEventEntity(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::BattleEventRow* a2, ::RPG::GameCore::TeamType a3, ::RPG::GameCore::GameEntity* a4, ::RPG::GameCore::GameEntity* a5, ::RPG::GameCore::GameEntity* a6, ::RPG::GameCore::StageRow* a7, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::FixPoint>* a8, ::System::Boolean a9, ::RPG::GameCore::BattleEventCreateType a10, ::System::Boolean a11, ::System::Action_1<::RPG::GameCore::GameEntity*>* a12, ::System::Object* a13, ::MBBEBLGELAP* a14)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::BattleEventRow*, ::RPG::GameCore::TeamType, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::StageRow*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::FixPoint>*, ::System::Boolean, ::RPG::GameCore::BattleEventCreateType, ::System::Boolean, ::System::Action*, ::System::Object*, ::MBBEBLGELAP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATEBATTLEEVENTENTITY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::BattleEventRow*, ::RPG::GameCore::TeamType, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::StageRow*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::FixPoint>*, ::System::Boolean, ::RPG::GameCore::BattleEventCreateType, ::System::Boolean, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::System::Object*, ::MBBEBLGELAP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION_CREATEBATTLEEVENTENTITY_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
 		}
 
 		static ::RPG::GameCore::GameEntity* CreateStageBattleEventEntity(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::StageBattleEventRow* a2)

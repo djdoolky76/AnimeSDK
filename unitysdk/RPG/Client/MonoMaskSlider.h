@@ -5,9 +5,10 @@
 #include "unitysdk/RPG/Client/MonoMaskSlider_SliderDirection.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class MonoMaskSlider; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
@@ -46,7 +47,7 @@ namespace RPG::Client
 		::UnityEngine::Animation* SpreadAnim; // 0x40
 		::System::Boolean SpreadAnimEnable; // 0x48
 		::System::Byte _padding2[0x7];
-		::System::Action* OnCustomAnimUpdate; // 0x50
+		::System::Action_1<::RPG::Client::MonoMaskSlider*>* OnCustomAnimUpdate; // 0x50
 		::RPG::Client::MonoMaskSlider* EKHMMEIDHIO; // 0x58
 		::UnityEngine::Transform* _fullEffect; // 0x60
 		::RPG::Client::MonoMaskSlider_SliderDirection dirction; // 0x68
@@ -55,7 +56,7 @@ namespace RPG::Client
 		::System::Single value; // 0x74
 		::System::Single maxValue; // 0x78
 		::System::Byte _padding3[0x4];
-		::System::Action* onValueChanged; // 0x80
+		::System::Action_2<::System::Single, ::System::Single>* onValueChanged; // 0x80
 		::System::Boolean FKEBDCOLKIM; // 0x88
 		::System::Boolean HDBGDLLNFHJ; // 0x89
 		::System::Byte _padding4[0x6];

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class BaseLeverSwitchSystem_1; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
@@ -19,9 +19,9 @@ namespace RPG::Client::LittleGame::FiveDim
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__18_0()
+		static ::System::Action_3<::RPG::Client::LittleGame::FiveDim::BaseLeverSwitchSystem_1<T>*, ::System::Int32, ::System::String*>** StaticGet___9__18_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x0);
+			return (::System::Action_3<::RPG::Client::LittleGame::FiveDim::BaseLeverSwitchSystem_1<T>*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x0);
 		}
 
 	};

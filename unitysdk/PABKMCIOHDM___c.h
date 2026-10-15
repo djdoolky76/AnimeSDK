@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class SubMissionData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define PABKMCIOHDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFC4F40)
@@ -20,9 +20,9 @@ inline static constexpr unsigned int PABKMCIOHDM___c_TypeDefinitionIndex = 56497
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60E50);
 		}
 
-		static ::System::Action** StaticGet___9__0_0()
+		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>** StaticGet___9__0_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60E58);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60E58);
 		}
 
 		static ::System::Void _cctor()

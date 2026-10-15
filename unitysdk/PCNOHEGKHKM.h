@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/KFBOFAILIBG.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class GIDHOABFFFP;
 class GJABEBPIGDN;
 class HPJEECIEDAB;
@@ -37,14 +37,14 @@ inline static constexpr unsigned int PCNOHEGKHKM_TypeDefinitionIndex = 62823;
 			return ((::NNOALJAEMCG*(*)(::PVOID, ::RPG::GameCore::SpecialAvatarRow*))((::PBYTE)hIl2Cpp + PCNOHEGKHKM_FNCNMCEOALF_OFFSET))(this, a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* LAABNIGOJKJ(::RPG::GameCore::SpecialAvatarRow* a1)
+		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>* LAABNIGOJKJ(::RPG::GameCore::SpecialAvatarRow* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::RPG::GameCore::SpecialAvatarRow*))((::PBYTE)hIl2Cpp + PCNOHEGKHKM_LAABNIGOJKJ_OFFSET))(a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>*(*)(::RPG::GameCore::SpecialAvatarRow*))((::PBYTE)hIl2Cpp + PCNOHEGKHKM_LAABNIGOJKJ_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* PAHALFAIMGN(::RPG::GameCore::SpecialAvatarRelicRow* a1)
+		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>* PAHALFAIMGN(::RPG::GameCore::SpecialAvatarRelicRow* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::RPG::GameCore::SpecialAvatarRelicRow*))((::PBYTE)hIl2Cpp + PCNOHEGKHKM_PAHALFAIMGN_OFFSET))(a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>*(*)(::RPG::GameCore::SpecialAvatarRelicRow*))((::PBYTE)hIl2Cpp + PCNOHEGKHKM_PAHALFAIMGN_OFFSET))(a1);
 		}
 
 		static ::GJABEBPIGDN* ODFIFAAGBCO(::RPG::GameCore::SpecialAvatarRow* a1)

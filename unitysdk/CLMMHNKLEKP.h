@@ -10,7 +10,7 @@ class ICEBONFCKMP;
 class NKOOKDOKLMK;
 class PCEHFACKCOM;
 class PPAEPHIFLBF;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define CLMMHNKLEKP_APDKMDLEHCB_OFFSET UNITYSDK_OFFSET(0xDA1B940)
 #define CLMMHNKLEKP_CTOR_OFFSET UNITYSDK_OFFSET(0xD792690)
@@ -29,10 +29,10 @@ inline static constexpr unsigned int CLMMHNKLEKP_TypeDefinitionIndex = 72414;
 	class CLMMHNKLEKP : public ::BLOFHFCGJHA
 	{
 	public:
-		::System::Action* LFLHLCELFJA; // 0x20
-		::System::Void _ctor(::System::Action* a1)
+		::System::Action_1<::System::Int32>* LFLHLCELFJA; // 0x20
+		::System::Void _ctor(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLMMHNKLEKP_CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CLMMHNKLEKP_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void GELGBAMKKOG()

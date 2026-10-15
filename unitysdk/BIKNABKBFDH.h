@@ -15,6 +15,7 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Threading { class Thread; }
@@ -85,7 +86,7 @@ inline static constexpr unsigned int BIKNABKBFDH_TypeDefinitionIndex = 43951;
 		::EPFAOLJKOOK* _GateServerAddress_k__BackingField; // 0x20
 		::System::Threading::Thread* NPDDCJGGFAL; // 0x28
 		::KNKPLOGICFO* GCLONILFCLO; // 0x30
-		::System::Action* DEPCPNODDIC; // 0x38
+		::System::Action_1<::RPG::Client::NetPacket*>* DEPCPNODDIC; // 0x38
 		::System::Action* LONOHDFMAGB; // 0x40
 		::System::String* GIDAEFPOGHI; // 0x48
 		::System::Collections::Concurrent::ConcurrentQueue_1<::RPG::Client::NetPacket*>* BDLAJDOCFNL; // 0x50
@@ -135,9 +136,9 @@ inline static constexpr unsigned int BIKNABKBFDH_TypeDefinitionIndex = 43951;
 			return ((::System::Void(*)(::PVOID, ::DBINPFBDKFL*))((::PBYTE)hIl2Cpp + BIKNABKBFDH_KLNHMAANCFP_OFFSET))(this, a1);
 		}
 
-		::System::Void GGAANEMGGEN(::System::Action* a1)
+		::System::Void GGAANEMGGEN(::System::Action_1<::RPG::Client::NetPacket*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BIKNABKBFDH_GGAANEMGGEN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::NetPacket*>*))((::PBYTE)hIl2Cpp + BIKNABKBFDH_GGAANEMGGEN_OFFSET))(this, a1);
 		}
 
 		static ::BIKNABKBFDH* OMJLJFDNLIH(::AEGIPHLMNAN* a1, ::OCOAGBCDNBC* a2, ::System::Boolean a3)

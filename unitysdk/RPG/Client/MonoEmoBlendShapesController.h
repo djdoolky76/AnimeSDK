@@ -6,7 +6,7 @@ namespace RPG::Client { class EmoBlendShapesConfig; }
 namespace RPG::Client { class MonoEmoBlendShapeBlink; }
 namespace RPG::Client { class MonoEmoBlendShapesMouth; }
 namespace System { class String; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
@@ -65,7 +65,7 @@ namespace RPG::Client
 		::System::Boolean _IsStoryMode_k__BackingField; // 0x30
 		::System::Boolean BCJNNBCMHCA; // 0x31
 		::System::Byte _padding1[0x6];
-		::System::WeakReference* FKFKIFBFHOH; // 0x38
+		::System::WeakReference_1<::UnityEngine::Mesh*>* FKFKIFBFHOH; // 0x38
 		::System::Collections::Generic::List_1<::System::String*>* ACNIFALMDMK; // 0x40
 		::JMNAGCHOAKN* BAHDHNANBBA; // 0x48
 		::JMNAGCHOAKN* EGDBHAOGIHK; // 0x50

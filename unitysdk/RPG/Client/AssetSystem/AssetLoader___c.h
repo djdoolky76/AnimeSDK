@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::AssetSystem { class AssetLoader; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class AsyncOperation; }
 
 #define RPG_CLIENT_ASSETSYSTEM_ASSETLOADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4DA730)
@@ -22,9 +22,9 @@ namespace RPG::Client::AssetSystem
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.AssetSystem", "<>c")->GetStaticField(0x157B0);
 		}
 
-		static ::System::Action** StaticGet___9__40_0()
+		static ::System::Action_2<::RPG::Client::AssetSystem::AssetLoader*, ::UnityEngine::AsyncOperation*>** StaticGet___9__40_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.AssetSystem", "<>c")->GetStaticField(0x157B8);
+			return (::System::Action_2<::RPG::Client::AssetSystem::AssetLoader*, ::UnityEngine::AsyncOperation*>**)UnitySDK::FromName("RPG.Client.AssetSystem", "<>c")->GetStaticField(0x157B8);
 		}
 
 		static ::System::Void _cctor()

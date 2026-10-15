@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class BJAPDDEENCN;
 class FFMGMJBLCDH;
 class GLPPDCIBMIH;
@@ -61,9 +62,9 @@ inline static constexpr unsigned int OEGDBPLMIAE_TypeDefinitionIndex = 36196;
 			return ((::System::Void(*)(::PVOID, ::OEGDBPLMIAE*))((::PBYTE)hIl2Cpp + OEGDBPLMIAE_ALJIOCDBMKO_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple EFLLOIHGNAJ()
+		::System::ValueTuple_3<::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*> EFLLOIHGNAJ()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + OEGDBPLMIAE_EFLLOIHGNAJ_OFFSET))(this);
+			return ((::System::ValueTuple_3<::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*>(*)(::PVOID))((::PBYTE)hIl2Cpp + OEGDBPLMIAE_EFLLOIHGNAJ_OFFSET))(this);
 		}
 
 		::System::Int32 MLLNBEIAKLD()
@@ -71,9 +72,9 @@ inline static constexpr unsigned int OEGDBPLMIAE_TypeDefinitionIndex = 36196;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OEGDBPLMIAE_MLLNBEIAKLD_OFFSET))(this);
 		}
 
-		::System::ValueTuple OAKCJCGJAPI()
+		::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*> OAKCJCGJAPI()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + OEGDBPLMIAE_OAKCJCGJAPI_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*>(*)(::PVOID))((::PBYTE)hIl2Cpp + OEGDBPLMIAE_OAKCJCGJAPI_OFFSET))(this);
 		}
 
 		::System::Boolean CEHKJBGHJCH(::GLPPDCIBMIH* a1)

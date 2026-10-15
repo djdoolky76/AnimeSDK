@@ -11,6 +11,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/MQuaternion.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Plane.h"
@@ -35,7 +36,6 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -355,9 +355,9 @@ inline static constexpr unsigned int PHDPAKFFLOK_TypeDefinitionIndex = 69695;
 			return ((::System::Void(*)(::PMCCDNCDGJJ*))((::PBYTE)hIl2Cpp + PHDPAKFFLOK_MCNGJFOADFK_OFFSET))(a1);
 		}
 
-		static ::System::Void MCNGJFOADFK_1(::RPG::GameCore::VCameraConfig* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Nullable* a6, ::RPG::GameCore::GameEntity* a7)
+		static ::System::Void MCNGJFOADFK_1(::RPG::GameCore::VCameraConfig* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Nullable_1<::RPG::MVector3> a6, ::RPG::GameCore::GameEntity* a7)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::VCameraConfig*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Nullable*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + PHDPAKFFLOK_MCNGJFOADFK_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::RPG::GameCore::VCameraConfig*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Nullable_1<::RPG::MVector3>, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + PHDPAKFFLOK_MCNGJFOADFK_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Void NIFIBGIKKLE(::RPG::Client::CameraDataAndFlags* a1, ::RPG::GameCore::VCameraConfig* a2)

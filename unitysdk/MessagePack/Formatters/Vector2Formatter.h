@@ -5,7 +5,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 #define MESSAGEPACK_FORMATTERS_VECTOR2FORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB81460)
 #define MESSAGEPACK_FORMATTERS_VECTOR2FORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB81220)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class Vector2Formatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Vector2>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "Vector2Formatter")->GetStaticField(0x25650);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Vector2>**)UnitySDK::FromName("MessagePack.Formatters", "Vector2Formatter")->GetStaticField(0x25650);
 		}
 
 		::System::Void _ctor()

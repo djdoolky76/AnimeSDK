@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class NMGLDNNFHFB;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE4421B0)
 #define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0__STARTLOCALASSETVERIFY_B__0_OFFSET UNITYSDK_OFFSET(0xE442E10)
@@ -16,7 +16,7 @@ namespace RPG::Client
 	class VersionUpdateCheck___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::NMGLDNNFHFB*>* callback; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS22_0_CTOR_OFFSET))(this);

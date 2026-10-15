@@ -20,7 +20,7 @@
 #include "unitysdk/PKICACMNNDM.h"
 #include "unitysdk/PLGBFIJIACG.h"
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FourRotateVoxelGameViewCoord.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class AEHGOOCDHCE;
@@ -152,6 +152,7 @@ namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -659,14 +660,14 @@ inline static constexpr unsigned int INMMPMDELKE_TypeDefinitionIndex = 42581;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INMMPMDELKE_GIGHHOPGDCK_OFFSET))(this);
 		}
 
-		::System::Void OHCNKNFOHFN(::RPG::PoolDictionary_2<::System::ValueTuple, ::System::Action*>* a1, ::RPG::PoolDictionary_2<::System::ValueTuple, ::System::Action*>* a2, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>* a3, ::System::Action* a4)
+		::System::Void OHCNKNFOHFN(::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::UInt32>, ::System::Action*>* a1, ::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::Int32>, ::System::Action*>* a2, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>* a3, ::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::PoolDictionary_2<::System::ValueTuple, ::System::Action*>*, ::RPG::PoolDictionary_2<::System::ValueTuple, ::System::Action*>*, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>*, ::System::Action*))((::PBYTE)hIl2Cpp + INMMPMDELKE_OHCNKNFOHFN_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::UInt32>, ::System::Action*>*, ::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::Int32>, ::System::Action*>*, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>*, ::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>*))((::PBYTE)hIl2Cpp + INMMPMDELKE_OHCNKNFOHFN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void CAOHKGCGKFK(::RPG::PoolDictionary_2<::System::ValueTuple, ::System::Action*>* a1, ::RPG::PoolDictionary_2<::System::ValueTuple, ::System::Action*>* a2, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>* a3, ::System::Action* a4)
+		::System::Void CAOHKGCGKFK(::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::UInt32>, ::System::Action*>* a1, ::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::Int32>, ::System::Action*>* a2, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>* a3, ::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::PoolDictionary_2<::System::ValueTuple, ::System::Action*>*, ::RPG::PoolDictionary_2<::System::ValueTuple, ::System::Action*>*, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>*, ::System::Action*))((::PBYTE)hIl2Cpp + INMMPMDELKE_CAOHKGCGKFK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::UInt32>, ::System::Action*>*, ::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::Int32>, ::System::Action*>*, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>*, ::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>*))((::PBYTE)hIl2Cpp + INMMPMDELKE_CAOHKGCGKFK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void LMMAPFCIFDN()

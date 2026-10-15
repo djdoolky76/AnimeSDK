@@ -17,8 +17,9 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGroupData; }
 namespace RPG::Client::ActivityAlley { class AlleyPackShipCollisionComponent; }
 namespace RPG::Client::ActivityAlley { class AlleyPackShipData; }
 namespace RPG::Client::ActivityAlley { class ClientAlleyPlacingShip; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -172,13 +173,13 @@ namespace RPG::Client::ActivityAlley
 		::RPG::Client::ActivityAlley::AlleyPackConfig* PackConfig; // 0xC0
 		::RPG::Client::ActivityAlley::AlleyPackComponent* _DraggingAlleyPackCmpt; // 0xC8
 		::RPG::Client::ActivityAlley::AlleyPackComponent* _UnSettleAlleyPackCmpt; // 0xD0
-		::System::Action* _GoodOnSelectCallback; // 0xD8
-		::System::Action* _GoodOnDragStartCallback; // 0xE0
-		::System::Action* _GoodOnDragEndCallback; // 0xE8
-		::System::Action* _GoodOnSettleCallback; // 0xF0
-		::System::Action* _GoodOnCancelSettleCallback; // 0xF8
-		::System::Action* _GoodOnAddCallback; // 0x100
-		::System::Action* _GoodOnRemoveCallback; // 0x108
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::ActivityAlley::AlleyPackComponent*>* _GoodOnSelectCallback; // 0xD8
+		::System::Action_1<::XLua::LuaTable*>* _GoodOnDragStartCallback; // 0xE0
+		::System::Action_1<::XLua::LuaTable*>* _GoodOnDragEndCallback; // 0xE8
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::ActivityAlley::AlleyPackComponent*>* _GoodOnSettleCallback; // 0xF0
+		::System::Action_1<::XLua::LuaTable*>* _GoodOnCancelSettleCallback; // 0xF8
+		::System::Action_1<::XLua::LuaTable*>* _GoodOnAddCallback; // 0x100
+		::System::Action_1<::XLua::LuaTable*>* _GoodOnRemoveCallback; // 0x108
 		::XLua::LuaTable* _GoodOperationCallbackLuaTable; // 0x110
 		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _UIRectTransList; // 0x118
 		// static const ::System::String* _EffectPathSmall; // 0x0
@@ -584,9 +585,9 @@ namespace RPG::Client::ActivityAlley
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONTROLLER_ROTATESHIP_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterGoodOperationCallback(::XLua::LuaTable* a1, ::System::Action* a2, ::System::Action* a3, ::System::Action* a4, ::System::Action* a5, ::System::Action* a6, ::System::Action* a7, ::System::Action* a8)
+		::System::Void RegisterGoodOperationCallback(::XLua::LuaTable* a1, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::ActivityAlley::AlleyPackComponent*>* a2, ::System::Action_1<::XLua::LuaTable*>* a3, ::System::Action_1<::XLua::LuaTable*>* a4, ::System::Action_1<::XLua::LuaTable*>* a5, ::System::Action_1<::XLua::LuaTable*>* a6, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::ActivityAlley::AlleyPackComponent*>* a7, ::System::Action_1<::XLua::LuaTable*>* a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONTROLLER_REGISTERGOODOPERATIONCALLBACK_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::ActivityAlley::AlleyPackComponent*>*, ::System::Action_1<::XLua::LuaTable*>*, ::System::Action_1<::XLua::LuaTable*>*, ::System::Action_1<::XLua::LuaTable*>*, ::System::Action_1<::XLua::LuaTable*>*, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::ActivityAlley::AlleyPackComponent*>*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONTROLLER_REGISTERGOODOPERATIONCALLBACK_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void AddUIArea(::UnityEngine::RectTransform* a1)

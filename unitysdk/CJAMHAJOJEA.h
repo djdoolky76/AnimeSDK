@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class FMPEKJEBIHK;
@@ -7,7 +8,6 @@ class JCAIHCKBCCF;
 class PHDHBNBJPJF;
 namespace RPG::GameCore { class LevelSmartObjectInfo; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CJAMHAJOJEA_ACEGNMFFHBN_OFFSET UNITYSDK_OFFSET(0xCF92420)
@@ -33,7 +33,7 @@ inline static constexpr unsigned int CJAMHAJOJEA_TypeDefinitionIndex = 52110;
 	public:
 		::System::Collections::Generic::List_1<::PHDHBNBJPJF*>* MFGEADHPLHO; // 0x10
 		::JCAIHCKBCCF* MEFLLFBJHBD; // 0x18
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* HJDEHAMNNLE; // 0x20
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>>* HJDEHAMNNLE; // 0x20
 		::System::Collections::Generic::List_1<::FMPEKJEBIHK*>* HJEDLJHJGIO; // 0x28
 		::System::UInt64 NJFKHPIHDEF; // 0x30
 		::System::Single FNCGPGBEMMF; // 0x38

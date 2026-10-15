@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_FATESUPPORTNOVOICEPART_CTOR_OFFSET UNITYSDK_OFFSET(0xCFDA940)
 #define RPG_CLIENT_FATESUPPORTNOVOICEPART_GET__TARGETMAINMISSIONID_OFFSET UNITYSDK_OFFSET(0xCFDAA20)
@@ -33,14 +34,14 @@ namespace RPG::Client
 			return ((::RPG::GameCore::DynamicValue*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_GET__TARGETMISSIONIDS_OFFSET))();
 		}
 
-		static ::System::Nullable* get__TargetMainMissionID()
+		static ::System::Nullable_1<::System::UInt32> get__TargetMainMissionID()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_GET__TARGETMAINMISSIONID_OFFSET))();
+			return ((::System::Nullable_1<::System::UInt32>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_GET__TARGETMAINMISSIONID_OFFSET))();
 		}
 
-		static ::System::Nullable* get__TargetSubMissionID()
+		static ::System::Nullable_1<::System::UInt32> get__TargetSubMissionID()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_GET__TARGETSUBMISSIONID_OFFSET))();
+			return ((::System::Nullable_1<::System::UInt32>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_GET__TARGETSUBMISSIONID_OFFSET))();
 		}
 
 		::System::Void Init()
@@ -58,9 +59,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_SHOULDSHOWNOVOICECONFIRMDIALOG_OFFSET))();
 		}
 
-		static ::System::Void ShowNoVoiceConfirmDialog(::System::Action* a1, ::System::Action* a2)
+		static ::System::Void ShowNoVoiceConfirmDialog(::System::Action_1<::System::Boolean>* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_SHOWNOVOICECONFIRMDIALOG_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Action_1<::System::Boolean>*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTNOVOICEPART_SHOWNOVOICECONFIRMDIALOG_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean IsEnglishAudioLangAssetExist()

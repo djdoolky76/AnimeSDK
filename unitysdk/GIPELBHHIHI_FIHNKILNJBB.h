@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/MapRotationVolumeState.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define GIPELBHHIHI_FIHNKILNJBB_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0x15A50990)
 #define GIPELBHHIHI_FIHNKILNJBB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A50890)
@@ -21,7 +21,7 @@ inline static constexpr unsigned int GIPELBHHIHI_FIHNKILNJBB_TypeDefinitionIndex
 	{
 	public:
 		::RPG::GameCore::GameEntity* OFCDMJAICDI; // 0x10
-		::System::Action* HGOJNFKDIMA; // 0x18
+		::System::Action_1<::RPG::GameCore::MapRotationVolumeState>* HGOJNFKDIMA; // 0x18
 		::RPG::GameCore::GameEntity* IMGJFJKONLK; // 0x20
 		::RPG::GameCore::MapRotationVolumeState DLNIGFGLPLJ; // 0x28
 		::System::UInt32 JGGDKOCIEGH; // 0x2C

@@ -4,8 +4,8 @@ class BOGCBDLBHFK;
 class FDPALAEIHPB;
 class GAIMCNKMJMD;
 class PEMFMPIPNJN;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IContext; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define FDJCGEHPLEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA665A0)
@@ -26,9 +26,9 @@ inline static constexpr unsigned int FDJCGEHPLEI_TypeDefinitionIndex = 42487;
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*, ::PEMFMPIPNJN*))((::PBYTE)hIl2Cpp + FDJCGEHPLEI_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Entitas::ICollector* GetTrigger(::Entitas::IContext* a1)
+		::Entitas::ICollector_1<::BOGCBDLBHFK*>* GetTrigger(::Entitas::IContext_1<::BOGCBDLBHFK*>* a1)
 		{
-			return ((::Entitas::ICollector*(*)(::PVOID, ::Entitas::IContext*))((::PBYTE)hIl2Cpp + FDJCGEHPLEI_GETTRIGGER_OFFSET))(this, a1);
+			return ((::Entitas::ICollector_1<::BOGCBDLBHFK*>*(*)(::PVOID, ::Entitas::IContext_1<::BOGCBDLBHFK*>*))((::PBYTE)hIl2Cpp + FDJCGEHPLEI_GETTRIGGER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Filter(::BOGCBDLBHFK* a1)

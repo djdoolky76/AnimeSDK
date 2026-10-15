@@ -7,6 +7,7 @@
 #include "unitysdk/RPG/GameCore/LittleGameSmartObjectType.h"
 #include "unitysdk/NEMHKFFNDJO.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -115,7 +116,6 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::Client::LittleGame { class PlacementConfig; }
 namespace RPG::GameCore { class LittleGameProxyEntityConfig; }
 namespace RPG::GameCore { class MonopolyMapCell; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::AI { class RVOAgent; }
@@ -793,9 +793,9 @@ inline static constexpr unsigned int KHPOKIKCOFO_TypeDefinitionIndex = 42145;
 			return ((::System::Void(*)(::PVOID, ::MMLNKGHJCJK*))((::PBYTE)hIl2Cpp + KHPOKIKCOFO_ALDACBHIPPE_OFFSET))(this, a1);
 		}
 
-		::System::Void FONIPMGFCIG(::System::Nullable* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::RPG::Client::LittleGame::PlacementConfig* a4)
+		::System::Void FONIPMGFCIG(::System::Nullable_1<::System::Int32> a1, ::System::Nullable_1<::System::Single> a2, ::System::Nullable_1<::System::Single> a3, ::RPG::Client::LittleGame::PlacementConfig* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::RPG::Client::LittleGame::PlacementConfig*))((::PBYTE)hIl2Cpp + KHPOKIKCOFO_FONIPMGFCIG_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>, ::RPG::Client::LittleGame::PlacementConfig*))((::PBYTE)hIl2Cpp + KHPOKIKCOFO_FONIPMGFCIG_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::ICMIHBDLDEJ* DJPDJPANFFA()

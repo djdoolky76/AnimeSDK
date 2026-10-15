@@ -6,8 +6,8 @@ class GGJFAFONDHN;
 class HGEGFCADEEC;
 class IOAJJFGGHAF;
 class NJIMHPJHICM;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define EBHAGMBDAAD_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x12CF2170)
@@ -37,7 +37,7 @@ inline static constexpr unsigned int EBHAGMBDAAD_TypeDefinitionIndex = 49314;
 		::IOAJJFGGHAF* LJJPOPHAHCL; // 0x48
 		::NJIMHPJHICM* BABMOLINNNL; // 0x50
 		::IOAJJFGGHAF* OPGLHHHIAOP; // 0x58
-		::System::Collections::Generic::List_1<::System::Action*>* ALLNBJCJHPF; // 0x60
+		::System::Collections::Generic::List_1<::System::Action_1<::HGEGFCADEEC*>*>* ALLNBJCJHPF; // 0x60
 		::IOAJJFGGHAF* HECCMJBLJJA; // 0x68
 		::NJIMHPJHICM* KAKMJDAMFIP; // 0x70
 		::IOAJJFGGHAF* IBHFONKBJLN; // 0x78
@@ -81,9 +81,9 @@ inline static constexpr unsigned int EBHAGMBDAAD_TypeDefinitionIndex = 49314;
 			return ((::System::Void(*)(::PVOID, ::GGJFAFONDHN*))((::PBYTE)hIl2Cpp + EBHAGMBDAAD_ODBJPBFIHPE_OFFSET))(this, a1);
 		}
 
-		::System::Void EKIHEIPLFFC(::System::Action* a1)
+		::System::Void EKIHEIPLFFC(::System::Action_1<::HGEGFCADEEC*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + EBHAGMBDAAD_EKIHEIPLFFC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::HGEGFCADEEC*>*))((::PBYTE)hIl2Cpp + EBHAGMBDAAD_EKIHEIPLFFC_OFFSET))(this, a1);
 		}
 
 		::HGEGFCADEEC* OIMOLGCPEEM()

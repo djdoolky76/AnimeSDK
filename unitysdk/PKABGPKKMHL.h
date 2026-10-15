@@ -16,7 +16,7 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class StreamingLayerDetail; }
 namespace RPG::Client::OpenWorld { template <typename T> class AOIBase_1; }
 namespace RPG::Client::OpenWorld { template <typename T> class CellStruct_1; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -52,7 +52,7 @@ inline static constexpr unsigned int PKABGPKKMHL_TypeDefinitionIndex = 73852;
 	public:
 		::PKABGPKKMHL_FPOIPMGLHBF* ADBOANJGCCK; // 0x170
 		::PKABGPKKMHL_FPOIPMGLHBF* JBFHLLICIFK; // 0x178
-		::System::Collections::Generic::List_1<::System::Tuple*>* ECICLILIDJJ; // 0x180
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*>*>* ECICLILIDJJ; // 0x180
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* KIHCPNIAIPO; // 0x188
 		::RPG::Client::OpenWorld::CellStruct_1<::RPG::Client::OpenWorld::StreamingItemData*>* HGDDMHIPHIB; // 0x190
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*>* KBLOKGOGPPK; // 0x198

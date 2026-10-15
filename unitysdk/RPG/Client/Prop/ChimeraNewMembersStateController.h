@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraPreparationState.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraPreparationStateControllerBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client::Prop { class ChimeraBillboardCanvasAdaptingScaler; }
 namespace RPG::Client::Prop { class ChimeraNewMembersModelInstance; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Canvas; }
@@ -60,8 +60,8 @@ namespace RPG::Client::Prop
 		::UnityEngine::Coroutine* _MoveCoroutine; // 0x88
 		::UnityEngine::Coroutine* _LeaveCoroutine; // 0x90
 		::RPG::Client::LuaUIController* _LuaUIController; // 0x98
-		::System::Nullable* _EnterBlockID; // 0xA0
-		::System::Nullable* _ExitBlockID; // 0xA8
+		::System::Nullable_1<::System::UInt32> _EnterBlockID; // 0xA0
+		::System::Nullable_1<::System::UInt32> _ExitBlockID; // 0xA8
 		::System::Boolean _IsInteractionEnabled; // 0xB0
 		::System::Byte _padding0[0x7];
 		::Il2CppArray<::UnityEngine::RaycastHit>* _RaycastHits; // 0xB8

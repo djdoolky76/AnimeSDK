@@ -17,8 +17,8 @@ namespace MiHoYo::SDK { class MiHoYoSDKWebView_OnWebViewPageClose; }
 namespace MiHoYo::SDK { class MiHoYoSDKWebView_OnWebViewPageError; }
 namespace MiHoYo::SDK { class MiHoYoSDKWebView_OnWebViewPageFinish; }
 namespace MiHoYo::SDK { class Web; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 #define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ADD_ONBEFOREBACK_OFFSET UNITYSDK_OFFSET(0xAFEACD0)
@@ -454,9 +454,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_CALLJSPUBLISHFUNCTION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RegisterJSPostMessage(::System::String* a1, ::System::Action* a2)
+		::System::Void RegisterJSPostMessage(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::JSONNode*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_REGISTERJSPOSTMESSAGE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::JSONNode*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_REGISTERJSPOSTMESSAGE_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void SetWebVolume(::System::Int32 a1)

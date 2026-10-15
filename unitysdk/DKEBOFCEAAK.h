@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GPGDJDKKHNE.h"
 #include "unitysdk/RPG/Client/ETravelShipState.h"
+#include "unitysdk/System/Nullable_1.h"
 class MGJOAOHPFBO;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 
 #define DKEBOFCEAAK_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xF877870)
 #define DKEBOFCEAAK_CHAHBFGGIDL_OFFSET UNITYSDK_OFFSET(0xF877270)
@@ -24,14 +24,14 @@ inline static constexpr unsigned int DKEBOFCEAAK_TypeDefinitionIndex = 68796;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::MGJOAOHPFBO*))((::PBYTE)hIl2Cpp + DKEBOFCEAAK_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void KIGBILLGNOH(::System::Nullable* a1)
+		::System::Void KIGBILLGNOH(::System::Nullable_1<::RPG::Client::ETravelShipState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + DKEBOFCEAAK_KIGBILLGNOH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + DKEBOFCEAAK_KIGBILLGNOH_OFFSET))(this, a1);
 		}
 
-		::System::Void CHAHBFGGIDL(::System::Nullable* a1)
+		::System::Void CHAHBFGGIDL(::System::Nullable_1<::RPG::Client::ETravelShipState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + DKEBOFCEAAK_CHAHBFGGIDL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + DKEBOFCEAAK_CHAHBFGGIDL_OFFSET))(this, a1);
 		}
 
 		::System::Void MENMHDNIBLA()

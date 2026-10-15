@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/JsonEnumCategory.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class JsonEnumConfig; }
@@ -56,9 +56,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::JsonEnum*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUMDEFINECONFIG_MIDDHOJLKDN_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple IOBCACJJOIP(::System::String* a1)
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> IOBCACJJOIP(::System::String* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUMDEFINECONFIG_IOBCACJJOIP_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUMDEFINECONFIG_IOBCACJJOIP_OFFSET))(this, a1);
 		}
 
 		::System::String* JFJLNGGEEPB(::RPG::GameCore::JsonEnumCategory a1, ::System::Int32 a2)

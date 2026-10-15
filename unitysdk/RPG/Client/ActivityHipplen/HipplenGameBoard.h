@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class NPPMHDBABDI;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
@@ -9,9 +9,9 @@ namespace RPG::Client { class AttachPointMapping; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENGAMEBOARD_ACTIVEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xC431F60)
@@ -53,7 +53,7 @@ namespace RPG::Client::ActivityHipplen
 		::System::Boolean MCAPIAKDMAA; // 0x7C
 		::System::Boolean PLOKNGMEJEI; // 0x7D
 		::System::Byte _padding0[0x2];
-		::System::Action* FJAACDOELNC; // 0x80
+		::System::Action_1<::System::Boolean>* FJAACDOELNC; // 0x80
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENGAMEBOARD_CTOR_OFFSET))(this);
@@ -109,9 +109,9 @@ namespace RPG::Client::ActivityHipplen
 			return ((::NPPMHDBABDI*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENGAMEBOARD_GETGAMEPROXY_OFFSET))(this);
 		}
 
-		::System::Void SetOnPauseStateChanged(::System::Action* a1)
+		::System::Void SetOnPauseStateChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENGAMEBOARD_SETONPAUSESTATECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENGAMEBOARD_SETONPAUSESTATECHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void MarkWillDestroy()
@@ -129,9 +129,9 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENGAMEBOARD_LCEPBBFHFHD_OFFSET))(this);
 		}
 
-		::System::ValueTuple DCBLPLMPCMI(::System::String* a1)
+		::System::ValueTuple_2<::Cinemachine::CinemachineVirtualCameraBase*, ::System::Single> DCBLPLMPCMI(::System::String* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENGAMEBOARD_DCBLPLMPCMI_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::Cinemachine::CinemachineVirtualCameraBase*, ::System::Single>(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENGAMEBOARD_DCBLPLMPCMI_OFFSET))(this, a1);
 		}
 
 		::System::Void HNAEEBIJCDA(::System::Boolean a1)

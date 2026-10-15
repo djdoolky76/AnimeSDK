@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/KEFOKEFMHOJ.h"
 #include "unitysdk/LABHEAHJHJF.h"
@@ -12,9 +13,8 @@ class GGMPKKNCLHF;
 class MNHFLMDPMMP;
 namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 namespace SimpleJSON { class JSONNode; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define ENEIHJJPNPI_AKPBOOEELBC_OFFSET UNITYSDK_OFFSET(0x1CDABE50)
@@ -42,7 +42,7 @@ inline static constexpr unsigned int ENEIHJJPNPI_TypeDefinitionIndex = 10850;
 	{
 	public:
 		::GGMPKKNCLHF* _AliasEvaluator_k__BackingField; // 0x10
-		::System::Action* CBPIHFNFPLD; // 0x18
+		::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* CBPIHFNFPLD; // 0x18
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::Object*>* CAOOBPKAPEO; // 0x20
 		::System::Void _ctor()
 		{

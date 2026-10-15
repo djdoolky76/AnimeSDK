@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceClass.h"
 #include "unitysdk/RPG/Client/FateRin/Battle/FateRinBattleHudInputMode.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class HDPHIHMEFOO;
@@ -9,8 +10,8 @@ namespace RPG::Client { class ScreenEventHandler; }
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudFreeCardMoveHandler; }
 namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 
 #define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONGAMEPADCANCEL_OFFSET UNITYSDK_OFFSET(0xCFC06C0)
@@ -101,18 +102,18 @@ namespace RPG::Client::FateRin::View::Battle
 	class FateRinBattleHudInputHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* OnPointerHover; // 0x18
+		::System::Action_1<::UnityEngine::Vector2>* OnPointerHover; // 0x18
 		::System::Action* OnPointerHoverExit; // 0x20
-		::System::Action* OnPointerPress; // 0x28
-		::System::Action* OnPointerDrag; // 0x30
-		::System::Action* OnPointerRelease; // 0x38
+		::System::Action_1<::UnityEngine::Vector2>* OnPointerPress; // 0x28
+		::System::Action_1<::UnityEngine::Vector2>* OnPointerDrag; // 0x30
+		::System::Action_1<::UnityEngine::Vector2>* OnPointerRelease; // 0x38
 		::System::Action* OnPointerCancel; // 0x40
 		::System::Action* OnInputInterrupted; // 0x48
-		::System::Action* OnInputDeviceClassSwitch; // 0x50
+		::System::Action_1<::InControl::InputDeviceClass>* OnInputDeviceClassSwitch; // 0x50
 		::System::Action* OnGamepadNavigationEnter; // 0x58
 		::System::Action* OnGamepadNavigationExit; // 0x60
-		::System::Action* OnGamepadHandCardNavigate; // 0x68
-		::System::Action* OnGamepadEnemyNavigate; // 0x70
+		::System::Action_1<::System::Int32>* OnGamepadHandCardNavigate; // 0x68
+		::System::Action_1<::System::Int32>* OnGamepadEnemyNavigate; // 0x70
 		::System::Action* OnGamepadConfirm; // 0x78
 		::System::Action* OnGamepadCancel; // 0x80
 		::System::Action* OnGamepadFocusRestoreRequested; // 0x88
@@ -121,7 +122,7 @@ namespace RPG::Client::FateRin::View::Battle
 		::RPG::Client::FateRin::Battle::FateRinBattleHudFreeCardMoveHandler* _FreeCardMoveHandler; // 0xA0
 		::RPG::Client::FateRin::Battle::IFateRinCardHitTestService* _HitTestService; // 0xA8
 		::HDPHIHMEFOO* _Driver; // 0xB0
-		::System::Nullable* _DriverMode; // 0xB8
+		::System::Nullable_1<::RPG::Client::FateRin::Battle::FateRinBattleHudInputMode> _DriverMode; // 0xB8
 		::System::Boolean _AreNotifyHandlersRegistered; // 0xC0
 		::System::Boolean _IsInitialized; // 0xC1
 		::System::Boolean _IsHudInputAllowed; // 0xC2
@@ -132,14 +133,14 @@ namespace RPG::Client::FateRin::View::Battle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_OnPointerHover(::System::Action* a1)
+		::System::Void add_OnPointerHover(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONPOINTERHOVER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONPOINTERHOVER_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPointerHover(::System::Action* a1)
+		::System::Void remove_OnPointerHover(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERHOVER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERHOVER_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnPointerHoverExit(::System::Action* a1)
@@ -152,34 +153,34 @@ namespace RPG::Client::FateRin::View::Battle
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERHOVEREXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPointerPress(::System::Action* a1)
+		::System::Void add_OnPointerPress(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONPOINTERPRESS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONPOINTERPRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPointerPress(::System::Action* a1)
+		::System::Void remove_OnPointerPress(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERPRESS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERPRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPointerDrag(::System::Action* a1)
+		::System::Void add_OnPointerDrag(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONPOINTERDRAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONPOINTERDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPointerDrag(::System::Action* a1)
+		::System::Void remove_OnPointerDrag(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERDRAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERDRAG_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPointerRelease(::System::Action* a1)
+		::System::Void add_OnPointerRelease(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONPOINTERRELEASE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONPOINTERRELEASE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPointerRelease(::System::Action* a1)
+		::System::Void remove_OnPointerRelease(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERRELEASE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONPOINTERRELEASE_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnPointerCancel(::System::Action* a1)
@@ -202,14 +203,14 @@ namespace RPG::Client::FateRin::View::Battle
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONINPUTINTERRUPTED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnInputDeviceClassSwitch(::System::Action* a1)
+		::System::Void add_OnInputDeviceClassSwitch(::System::Action_1<::InControl::InputDeviceClass>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONINPUTDEVICECLASSSWITCH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::InputDeviceClass>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONINPUTDEVICECLASSSWITCH_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnInputDeviceClassSwitch(::System::Action* a1)
+		::System::Void remove_OnInputDeviceClassSwitch(::System::Action_1<::InControl::InputDeviceClass>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONINPUTDEVICECLASSSWITCH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::InControl::InputDeviceClass>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONINPUTDEVICECLASSSWITCH_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnGamepadNavigationEnter(::System::Action* a1)
@@ -232,24 +233,24 @@ namespace RPG::Client::FateRin::View::Battle
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONGAMEPADNAVIGATIONEXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnGamepadHandCardNavigate(::System::Action* a1)
+		::System::Void add_OnGamepadHandCardNavigate(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONGAMEPADHANDCARDNAVIGATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONGAMEPADHANDCARDNAVIGATE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnGamepadHandCardNavigate(::System::Action* a1)
+		::System::Void remove_OnGamepadHandCardNavigate(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONGAMEPADHANDCARDNAVIGATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONGAMEPADHANDCARDNAVIGATE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnGamepadEnemyNavigate(::System::Action* a1)
+		::System::Void add_OnGamepadEnemyNavigate(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONGAMEPADENEMYNAVIGATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_ADD_ONGAMEPADENEMYNAVIGATE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnGamepadEnemyNavigate(::System::Action* a1)
+		::System::Void remove_OnGamepadEnemyNavigate(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONGAMEPADENEMYNAVIGATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLEHUDINPUTHANDLER_REMOVE_ONGAMEPADENEMYNAVIGATE_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnGamepadConfirm(::System::Action* a1)

@@ -4,8 +4,8 @@
 class BGIPKMPPBAL;
 class BOJOBHMEEIH;
 class LCDEEKNHPBG;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define EHLEMBBGCDA_BFLBPOAJAOJ_OFFSET UNITYSDK_OFFSET(0x154AE9C0)
@@ -21,7 +21,7 @@ inline static constexpr unsigned int EHLEMBBGCDA_TypeDefinitionIndex = 79174;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::LCDEEKNHPBG*>* EEMPAAFDLAP; // 0x10
-		::System::Action* HOJNACIFLKB; // 0x18
+		::System::Action_1<::System::String*>* HOJNACIFLKB; // 0x18
 		::System::Boolean EJDEKKEOHBE; // 0x20
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::LCDEEKNHPBG*>* a1)
 		{
@@ -38,9 +38,9 @@ inline static constexpr unsigned int EHLEMBBGCDA_TypeDefinitionIndex = 79174;
 			return ((::System::Void(*)(::PVOID, ::BGIPKMPPBAL*))((::PBYTE)hIl2Cpp + EHLEMBBGCDA_PKKADDCLLGK_OFFSET))(this, a1);
 		}
 
-		::System::Void NPAFMEBNFOB(::BOJOBHMEEIH* a1, ::System::Action* a2)
+		::System::Void NPAFMEBNFOB(::BOJOBHMEEIH* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BOJOBHMEEIH*, ::System::Action*))((::PBYTE)hIl2Cpp + EHLEMBBGCDA_NPAFMEBNFOB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BOJOBHMEEIH*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + EHLEMBBGCDA_NPAFMEBNFOB_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void HFKFNFKIEON(::BOJOBHMEEIH* a1)

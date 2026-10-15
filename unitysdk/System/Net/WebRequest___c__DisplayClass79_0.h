@@ -4,7 +4,7 @@
 namespace System::Net { class WebRequest; }
 namespace System::Net { class WebResponse; }
 namespace System::Security::Principal { class WindowsIdentity; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0A38A0)
 #define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__GETRESPONSEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1F0A4D30)
@@ -23,9 +23,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Threading::Tasks::Task* _GetResponseAsync_b__1()
+		::System::Threading::Tasks::Task_1<::System::Net::WebResponse*>* _GetResponseAsync_b__1()
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__GETRESPONSEASYNC_B__1_OFFSET))(this);
+			return ((::System::Threading::Tasks::Task_1<::System::Net::WebResponse*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS79_0__GETRESPONSEASYNC_B__1_OFFSET))(this);
 		}
 
 	};

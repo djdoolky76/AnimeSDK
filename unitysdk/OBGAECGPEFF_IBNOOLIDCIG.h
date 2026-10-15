@@ -3,7 +3,7 @@
 #include "unitysdk/OBGAECGPEFF_IterState.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/OBGAECGPEFF_EJADJCCBOAB.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -44,14 +44,14 @@ inline static constexpr unsigned int OBGAECGPEFF_IBNOOLIDCIG_TypeDefinitionIndex
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::OBGAECGPEFF_EJADJCCBOAB))((::PBYTE)hIl2Cpp + OBGAECGPEFF_IBNOOLIDCIG_ANJGFHEMIAK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* GOMGNDCDHIN(::System::String* a1, ::System::Int32 a2)
+		::System::Nullable_1<::System::Char> GOMGNDCDHIN(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + OBGAECGPEFF_IBNOOLIDCIG_GOMGNDCDHIN_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Char>(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + OBGAECGPEFF_IBNOOLIDCIG_GOMGNDCDHIN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* FJJOBECCOPN(::System::String* a1, ::System::Int32 a2)
+		::System::Nullable_1<::System::Char> FJJOBECCOPN(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + OBGAECGPEFF_IBNOOLIDCIG_FJJOBECCOPN_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Char>(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + OBGAECGPEFF_IBNOOLIDCIG_FJJOBECCOPN_OFFSET))(this, a1, a2);
 		}
 
 	};

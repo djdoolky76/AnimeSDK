@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame
 {
@@ -17,7 +17,7 @@ namespace RPG::Client::LittleGame
 		::System::Single StartDistance; // 0x0
 		::System::Single DestinationStopDistance; // 0x0
 		::System::Single StartMoveDuration; // 0x0
-		::System::Action* OnStartMoveFinish; // 0x0
-		::System::Action* OnNavigationFinish; // 0x0
+		::System::Action_1<::System::Boolean>* OnStartMoveFinish; // 0x0
+		::System::Action_1<::System::Boolean>* OnNavigationFinish; // 0x0
 	};
 }

@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class IABKDGPJEFI;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class IDisposable; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
@@ -25,7 +25,7 @@ inline static constexpr unsigned int IABKDGPJEFI_OEJJCPPNNGH_TypeDefinitionIndex
 		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x10
 		::IABKDGPJEFI* ADJNOFMEIKM; // 0x18
 		::UnityEngine::Coroutine* NAEJCNNMAKA; // 0x20
-		::System::Action* MPKAFEJFNKN; // 0x28
+		::System::Action_2<::RPG::GameCore::GameEntity*, ::System::Boolean>* MPKAFEJFNKN; // 0x28
 		static ::System::IDisposable** StaticGet_COAHELMPGLI()
 		{
 			return (::System::IDisposable**)UnitySDK::FromName("", "OEJJCPPNNGH")->GetStaticField(0x3F410);
@@ -41,9 +41,9 @@ inline static constexpr unsigned int IABKDGPJEFI_OEJJCPPNNGH_TypeDefinitionIndex
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IABKDGPJEFI_OEJJCPPNNGH_CCTOR_OFFSET))();
 		}
 
-		static ::System::IDisposable* BPLPBPMEODA(::IABKDGPJEFI* a1, ::RPG::GameCore::GameEntity* a2, ::System::Action* a3)
+		static ::System::IDisposable* BPLPBPMEODA(::IABKDGPJEFI* a1, ::RPG::GameCore::GameEntity* a2, ::System::Action_2<::RPG::GameCore::GameEntity*, ::System::Boolean>* a3)
 		{
-			return ((::System::IDisposable*(*)(::IABKDGPJEFI*, ::RPG::GameCore::GameEntity*, ::System::Action*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_OEJJCPPNNGH_BPLPBPMEODA_OFFSET))(a1, a2, a3);
+			return ((::System::IDisposable*(*)(::IABKDGPJEFI*, ::RPG::GameCore::GameEntity*, ::System::Action_2<::RPG::GameCore::GameEntity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + IABKDGPJEFI_OEJJCPPNNGH_BPLPBPMEODA_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Collections::IEnumerator* EPKECAMLCJH()

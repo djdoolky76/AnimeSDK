@@ -13,13 +13,13 @@
 #include "unitysdk/System/Diagnostics/Tracing/EventDescriptor.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventSourceOptions.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventSource_EventMetadata.h"
-namespace System { class Action; }
 namespace System { class Attribute; }
-namespace System { class EventHandler; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class ActivityTracker; }
@@ -143,7 +143,7 @@ namespace System::Diagnostics::Tracing
 		::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EtwSession*>* m_legacySessions; // 0x50
 		::System::Diagnostics::Tracing::EventCommandEventArgs* m_deferredCommands; // 0x58
 		::System::Exception* m_constructionException; // 0x60
-		::System::EventHandler* m_eventCommandExecuted; // 0x68
+		::System::EventHandler_1<::System::Diagnostics::Tracing::EventCommandEventArgs*>* m_eventCommandExecuted; // 0x68
 		::Il2CppArray<::System::Byte>* m_rawManifest; // 0x70
 		::System::Diagnostics::Tracing::EventKeywords m_matchAnyKeyword; // 0x78
 		::System::Byte _padding0[0x4];
@@ -158,9 +158,9 @@ namespace System::Diagnostics::Tracing
 		::System::Diagnostics::Tracing::SessionMask m_curLiveSessions; // 0x98
 		::System::Int32 m_id; // 0x9C
 		::System::Guid m_guid; // 0xA0
-		static ::System::Action** StaticGet_s_activityDying()
+		static ::System::Action_1<::System::Guid>** StaticGet_s_activityDying()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventSource")->GetStaticField(0x12120);
+			return (::System::Action_1<::System::Guid>**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventSource")->GetStaticField(0x12120);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_namespaceBytes()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Http/HttpCompletionOption.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 #include "unitysdk/System/Runtime/CompilerServices/ConfiguredTaskAwaitable_ConfiguredTaskAwaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace System { class Object; }
@@ -24,7 +24,7 @@ namespace System::Net::Http
 		::System::Net::Http::HttpRequestMessage* request; // 0x10
 		::System::Net::Http::HttpResponseMessage* _response_5__1; // 0x18
 		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2; // 0x20
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x30
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder; // 0x30
 		::System::Byte _padding0[0x10];
 		::System::Object* __u__1; // 0x48
 		::System::Byte _padding1[0x8];

@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class ActivityData; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenCollectData; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenMainController; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenOutfitData; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -84,7 +84,7 @@ namespace RPG::Client
 		::System::Boolean _IsPendingStartGame; // 0x3C
 		::System::Boolean _ActivityUnlock_k__BackingField; // 0x3D
 		::System::Boolean _IsDataInited; // 0x3E
-		::System::Nullable* _IsHipplenLimitRewardSeen; // 0x3F
+		::System::Nullable_1<::System::Boolean> _IsHipplenLimitRewardSeen; // 0x3F
 		// static const ::System::Object RESIDENT_ACTIVITY_ID; // 0x0
 		::System::Void _ctor()
 		{

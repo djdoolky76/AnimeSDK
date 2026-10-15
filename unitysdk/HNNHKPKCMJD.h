@@ -7,6 +7,7 @@
 #include "unitysdk/RPG/Client/LittleGameShare/PredicationState.h"
 #include "unitysdk/RPG/LogTag.h"
 #include "unitysdk/ECAOILCPKLA.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ReadOnlyMemory_1.h"
 #include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
@@ -31,10 +32,10 @@ namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
 namespace Google::Protobuf { class ByteString; }
 namespace RPG::Client { class RPGProfilerMarker; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
@@ -141,27 +142,27 @@ inline static constexpr unsigned int HNNHKPKCMJD_TypeDefinitionIndex = 36860;
 	{
 	public:
 		::PAGEFCPLCKO* LMJKKHJGFKG; // 0x68
-		::System::Action* BIKFMKCIJLF; // 0x70
+		::System::Action_1<::Entitas::IEntity*>* BIKFMKCIJLF; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* KCBMALAGBOE; // 0x78
 		::System::Collections::Generic::HashSet_1<::System::Int32>* NACMPEHNFDA; // 0x80
 		::HMGOADIEJHG* MIEMKPMCNLB; // 0x88
 		::PKLLGBHAKML* PCNAGJCECFH; // 0x90
 		::JCFCFDIFPFB* ENOGCCJPAGJ; // 0x98
-		::System::Action* EFLNHNPCOOP; // 0xA0
+		::System::Action_1<::Entitas::IEntity*>* EFLNHNPCOOP; // 0xA0
 		::RPG::Client::RPGProfilerMarker* GOFKFBACCAL; // 0xA8
 		::MHKOBCIGDOH* BBCAALEMEHE; // 0xB0
 		::FKFDEKPLFGB* MBJGNOEDGAM; // 0xB8
-		::System::Action* HHGEIGCBDPD; // 0xC0
+		::System::Action_2<::System::Int32, ::Entitas::IEntity*>* HHGEIGCBDPD; // 0xC0
 		::INNOKICFPLN* CLDGCBJIBKB; // 0xC8
 		::DGCCGEJBMAO* JDMPPBILMME; // 0xD0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* FKMKBPFLFDP; // 0xD8
-		::System::Action* AIAENMIPNHL; // 0xE0
+		::System::Action_2<::System::Int32, ::Entitas::IEntity*>* AIAENMIPNHL; // 0xE0
 		::BLLILEEDFCE* GEJAANPIBMN; // 0xE8
-		::System::Action* PBLMNPECAFF; // 0xF0
+		::System::Action_2<::System::Int32, ::Entitas::IEntity*>* PBLMNPECAFF; // 0xF0
 		::RPG::Client::RPGProfilerMarker* FNMNEBJAGFH; // 0xF8
 		::NNIKOAIKFMO* _EntityViewManager_k__BackingField; // 0x100
 		::NPBJDCALHLO* EMJMMJDDDNP; // 0x108
-		::System::Action* ILLAAEFNKDK; // 0x110
+		::System::Action_1<::Entitas::IEntity*>* ILLAAEFNKDK; // 0x110
 		::HBHNCDPBGBE* LPMKEPEDFOD; // 0x118
 		::ACEGPDEMKMN* KCFCOEEJBFF; // 0x120
 		::HNNHKPKCMJD_LKMPGINCCBI KCPOHMKAAHJ; // 0x128
@@ -201,9 +202,9 @@ inline static constexpr unsigned int HNNHKPKCMJD_TypeDefinitionIndex = 36860;
 			return ((::System::Void(*)(::PVOID, ::PCOMPBCHHKC*))((::PBYTE)hIl2Cpp + HNNHKPKCMJD_KKBIOFOOMEJ_OFFSET))(this, a1);
 		}
 
-		::System::Void IELPHHFKMGN(::System::Nullable* a1)
+		::System::Void IELPHHFKMGN(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + HNNHKPKCMJD_IELPHHFKMGN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + HNNHKPKCMJD_IELPHHFKMGN_OFFSET))(this, a1);
 		}
 
 		::System::Void KNLDBIOHONJ(::System::UInt32 a1, ::System::UInt64 a2, ::System::UInt64 a3)

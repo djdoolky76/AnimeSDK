@@ -23,6 +23,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeShader; }
@@ -179,7 +180,7 @@ inline static constexpr unsigned int HFJJCHKBGCC_TypeDefinitionIndex = 49277;
 		::System::Collections::Generic::List_1<::HHJGACLHFDJ*>* MKBACEGHANF; // 0x40
 		::GGLPJCKICNF* IJPMJAAADEO; // 0x48
 		::GGLPJCKICNF* KNNENCGNEJC; // 0x50
-		::System::Action* JGFKCPNEJDH; // 0x58
+		::System::Action_1<::System::String*>* JGFKCPNEJDH; // 0x58
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnviromentControlPriority, ::System::Collections::Generic::List_1<::System::String*>*>* HJJLOKBGLEF; // 0x60
 		::UnityEngine::ComputeShader* FAOKDKBILBH; // 0x68
 		::System::Collections::Generic::List_1<::ODGPPIHLOFF*>* BFKGPCELDGI; // 0x70
@@ -549,14 +550,14 @@ inline static constexpr unsigned int HFJJCHKBGCC_TypeDefinitionIndex = 49277;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::EnvironmentSystem*))((::PBYTE)hIl2Cpp + HFJJCHKBGCC_CHHHMLJCEBH_OFFSET))(this, a1);
 		}
 
-		::System::Void DODLCMFEMFM(::System::Action* a1)
+		::System::Void DODLCMFEMFM(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HFJJCHKBGCC_DODLCMFEMFM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + HFJJCHKBGCC_DODLCMFEMFM_OFFSET))(this, a1);
 		}
 
-		::System::Void IEGIHJBEJNM(::System::Action* a1)
+		::System::Void IEGIHJBEJNM(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HFJJCHKBGCC_IEGIHJBEJNM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + HFJJCHKBGCC_IEGIHJBEJNM_OFFSET))(this, a1);
 		}
 
 		::System::Void BHEEFDMCNPB()

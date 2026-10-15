@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PhotoGraphIdentifyState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/RPG/Client/TextID.h"
@@ -14,7 +15,6 @@ namespace RPG::Client { class PhotoGraphIdentifyStateChangeParam; }
 namespace RPG::Client { class PhotoGraphSystem; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PhotoGraphTargetSize; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -95,7 +95,7 @@ namespace RPG::Client
 		::System::Single _MaxDistanceSteal; // 0xB8
 		::System::Single _MinSizeScaleSteal; // 0xBC
 		::System::Single _MaxSizeScaleSteal; // 0xC0
-		::System::Nullable* _IdentifyAreaInitSize; // 0xC4
+		::System::Nullable_1<::UnityEngine::Vector2> _IdentifyAreaInitSize; // 0xC4
 		// static const ::System::String* _PHOTOGRAPH_AIM_ROOT; // 0x0
 		// static const ::System::String* _BG_SWITCH_TO_SUCCESS_ANIMATION; // 0x0
 		// static const ::System::String* _BG_SWITCH_TO_UNLOCK_ANIMATION; // 0x0
@@ -269,9 +269,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SETUPHINTMASK_OFFSET))(this);
 		}
 
-		::System::Void _ShowHintMask(::System::Boolean a1, ::System::Nullable* a2)
+		::System::Void _ShowHintMask(::System::Boolean a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWHINTMASK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHAIMCONTAINER__SHOWHINTMASK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ShowAimResultStatus(::RPG::Client::PhotoGraphAimContainer_PhotoGraphAim* a1, ::System::Boolean a2, ::System::Boolean a3)

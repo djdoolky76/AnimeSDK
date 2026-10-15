@@ -6,6 +6,7 @@
 namespace System { class Object; }
 namespace System::IO { class Stream; }
 namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_IO_MEMORYSTREAM_COPYTOASYNC_OFFSET UNITYSDK_OFFSET(0x1C261190)
 #define SYSTEM_IO_MEMORYSTREAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C25FE50)
@@ -52,7 +53,7 @@ namespace System::IO
 	{
 	public:
 		::Il2CppArray<::System::Byte>* _buffer; // 0x28
-		::System::Threading::Tasks::Task* _lastReadTask; // 0x30
+		::System::Threading::Tasks::Task_1<::System::Int32>* _lastReadTask; // 0x30
 		::System::Int32 _length; // 0x38
 		::System::Int32 _origin; // 0x3C
 		::System::Int32 _capacity; // 0x40
@@ -191,9 +192,9 @@ namespace System::IO
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYSTREAM_READ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
+		::System::Threading::Tasks::Task_1<::System::Int32>* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_MEMORYSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 ReadByte()

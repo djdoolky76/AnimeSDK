@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class MiHoYoSDKServer; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_CTOR_OFFSET UNITYSDK_OFFSET(0xAFDF590)
 #define MIHOYO_SDK_MIHOYOSDKSERVER__POST_D__105_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAFDF5B0)
@@ -26,7 +27,7 @@ namespace MiHoYo::SDK
 		::System::String* requestUrl; // 0x20
 		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x28
 		::System::Object* __2__current; // 0x30
-		::System::Action* callback; // 0x38
+		::System::Action_1<::System::String*>* callback; // 0x38
 		::System::Int32 __1__state; // 0x40
 		::System::Single timeoutSecond; // 0x44
 		::System::Int32 retryTime; // 0x48

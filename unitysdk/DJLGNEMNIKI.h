@@ -7,7 +7,7 @@ class HGDELEAHIJO;
 class OAPFEGCKDNG;
 class OBPJIBCAKEK;
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
@@ -128,9 +128,9 @@ inline static constexpr unsigned int DJLGNEMNIKI_TypeDefinitionIndex = 59463;
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::RPG::Client::ByteHash16, ::System::Int64))((::PBYTE)hIl2Cpp + DJLGNEMNIKI_GETSERVERBLOCKMANIFESTNAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* LHIBMOJONAE(::System::Boolean a1)
+		::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* LHIBMOJONAE(::System::Boolean a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + DJLGNEMNIKI_LHIBMOJONAE_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + DJLGNEMNIKI_LHIBMOJONAE_OFFSET))(this, a1);
 		}
 
 		::System::Void OnAllSucceed()

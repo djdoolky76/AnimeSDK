@@ -17,8 +17,8 @@ namespace RPG::Client { class MonoCurveMovementManager; }
 namespace RPG::Client { class MonoCurveMovementObject; }
 namespace RPG::Client { class MonoCurveUndirectedGraph; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CURVEMOVEMENTHANDLER_AOFBAOAHNJO_OFFSET UNITYSDK_OFFSET(0xCBDBC80)
 #define RPG_CLIENT_CURVEMOVEMENTHANDLER_CLIHPCBPJCJ_OFFSET UNITYSDK_OFFSET(0xCBDBD20)
@@ -82,8 +82,8 @@ namespace RPG::Client
 		::System::Single _speed; // 0x54
 		::System::Single _totalMoveDistance; // 0x58
 		::RPG::Client::ECurveMoveDirection _direction; // 0x5C
-		::System::Action* _onEnd; // 0x60
-		::System::Action* _onStop; // 0x68
+		::System::Action_1<::RPG::Client::CurveMovementHandler*>* _onEnd; // 0x60
+		::System::Action_1<::RPG::Client::CurveMovementHandler*>* _onStop; // 0x68
 		::RPG::GameCore::GameEntity* _entity; // 0x70
 		::RPG::Client::MonoCurveMovementManager* _movementManager; // 0x78
 		::RPG::Client::MonoCurveMovableTriggerRegion* _curveMovableTriggerRegion; // 0x80
@@ -118,9 +118,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::CurveEdgePointSetting, ::RPG::Client::CurveEdgePointSetting, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEMOVEMENTHANDLER_MJLNIAKBHOA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LPFBANCOMPE(::RPG::Client::ECurveMoveDirection a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void LPFBANCOMPE(::RPG::Client::ECurveMoveDirection a1, ::System::Action_1<::RPG::Client::CurveMovementHandler*>* a2, ::System::Action_1<::RPG::Client::CurveMovementHandler*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveMoveDirection, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEMOVEMENTHANDLER_LPFBANCOMPE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveMoveDirection, ::System::Action_1<::RPG::Client::CurveMovementHandler*>*, ::System::Action_1<::RPG::Client::CurveMovementHandler*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEMOVEMENTHANDLER_LPFBANCOMPE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void EBLMEKGAKAD()

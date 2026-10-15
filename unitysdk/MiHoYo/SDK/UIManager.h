@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace MiHoYo::SDK { class UIElement; }
 namespace MiHoYo::SDK { class UIManager; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class PropertyInfo; }
@@ -55,9 +55,9 @@ namespace MiHoYo::SDK
 			return (::System::Reflection::PropertyInfo**)UnitySDK::FromName("MiHoYo.SDK", "UIManager")->GetStaticField(0x184C8);
 		}
 
-		static ::System::Nullable** StaticGet__hasEnableUIVertexColorCalcProperty()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet__hasEnableUIVertexColorCalcProperty()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("MiHoYo.SDK", "UIManager")->GetStaticField(0x5A20);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("MiHoYo.SDK", "UIManager")->GetStaticField(0x5A20);
 		}
 
 		// static const ::System::String* CanvasName; // 0x0

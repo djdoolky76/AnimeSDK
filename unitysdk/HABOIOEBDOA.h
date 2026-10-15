@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/KFBOFAILIBG.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class GIDHOABFFFP;
 class GJABEBPIGDN;
 class HPJEECIEDAB;
@@ -36,9 +36,9 @@ inline static constexpr unsigned int HABOIOEBDOA_TypeDefinitionIndex = 62735;
 			return ((::NNOALJAEMCG*(*)(::PVOID, ::Proto::DisplayAvatarDetailInfo*, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + HABOIOEBDOA_FNCNMCEOALF_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* LAABNIGOJKJ(::Proto::DisplayAvatarDetailInfo* a1)
+		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>* LAABNIGOJKJ(::Proto::DisplayAvatarDetailInfo* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::Proto::DisplayAvatarDetailInfo*))((::PBYTE)hIl2Cpp + HABOIOEBDOA_LAABNIGOJKJ_OFFSET))(a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>*(*)(::Proto::DisplayAvatarDetailInfo*))((::PBYTE)hIl2Cpp + HABOIOEBDOA_LAABNIGOJKJ_OFFSET))(a1);
 		}
 
 		static ::GJABEBPIGDN* ODFIFAAGBCO(::Proto::DisplayAvatarDetailInfo* a1, ::RPG::AvatarSystem::IAvatar* a2)

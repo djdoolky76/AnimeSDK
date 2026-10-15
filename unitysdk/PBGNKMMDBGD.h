@@ -37,8 +37,8 @@ class OMLGPGPJGJK;
 class ONIJDACKGJG;
 class PCOECPCKLEG;
 class PJENKHDODKA;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define PBGNKMMDBGD_ADD_ONREPORTROOMSECTIONSETTLE_OFFSET UNITYSDK_OFFSET(0x1C7EA2E0)
@@ -126,7 +126,7 @@ inline static constexpr unsigned int PBGNKMMDBGD_TypeDefinitionIndex = 37324;
 		::ODPAAPBOCGA* _AoeService_k__BackingField; // 0x10
 		::LCGEDHMEJAA* _ModifierService_k__BackingField; // 0x18
 		::GBIDCPEOLMH* _EventService_k__BackingField; // 0x20
-		::System::Action* OnReportSectionEnd; // 0x28
+		::System::Action_1<::FLOICBDOCNJ*>* OnReportSectionEnd; // 0x28
 		::AHKGFBHBEEO* _ReviveService_k__BackingField; // 0x30
 		::IPOPGAAKKAD* _FieldService_k__BackingField; // 0x38
 		::MCJAAIBDGJA* _ChatServices_k__BackingField; // 0x40
@@ -136,9 +136,9 @@ inline static constexpr unsigned int PBGNKMMDBGD_TypeDefinitionIndex = 37324;
 		::IKLBNMHBNEL* _ConfigService_k__BackingField; // 0x60
 		::AMMDPDIPOAP* _StateTreeService_k__BackingField; // 0x68
 		::DBBPHCIBIBI* _AbilityService_k__BackingField; // 0x70
-		::System::Action* OnReportRoomSectionSettle; // 0x78
+		::System::Action_1<::IIPAHEHJJJL*>* OnReportRoomSectionSettle; // 0x78
 		::PCOECPCKLEG* _BuffService_k__BackingField; // 0x80
-		::System::Action* OnReportSectionBegin; // 0x88
+		::System::Action_1<::PJENKHDODKA*>* OnReportSectionBegin; // 0x88
 		::FCFLMBKJPOJ* _SettleService_k__BackingField; // 0x90
 		::AGENEONNBML* HEJHGJIGEGK; // 0x98
 		::NFAHODNHEKK* _LevelStateService_k__BackingField; // 0xA0
@@ -289,34 +289,34 @@ inline static constexpr unsigned int PBGNKMMDBGD_TypeDefinitionIndex = 37324;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_ENAEEBIPCNK_OFFSET))(this);
 		}
 
-		::System::Void add_OnReportSectionBegin(::System::Action* a1)
+		::System::Void add_OnReportSectionBegin(::System::Action_1<::PJENKHDODKA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_ADD_ONREPORTSECTIONBEGIN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::PJENKHDODKA*>*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_ADD_ONREPORTSECTIONBEGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnReportSectionBegin(::System::Action* a1)
+		::System::Void remove_OnReportSectionBegin(::System::Action_1<::PJENKHDODKA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_REMOVE_ONREPORTSECTIONBEGIN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::PJENKHDODKA*>*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_REMOVE_ONREPORTSECTIONBEGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnReportSectionEnd(::System::Action* a1)
+		::System::Void add_OnReportSectionEnd(::System::Action_1<::FLOICBDOCNJ*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_ADD_ONREPORTSECTIONEND_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FLOICBDOCNJ*>*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_ADD_ONREPORTSECTIONEND_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnReportSectionEnd(::System::Action* a1)
+		::System::Void remove_OnReportSectionEnd(::System::Action_1<::FLOICBDOCNJ*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_REMOVE_ONREPORTSECTIONEND_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FLOICBDOCNJ*>*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_REMOVE_ONREPORTSECTIONEND_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnReportRoomSectionSettle(::System::Action* a1)
+		::System::Void add_OnReportRoomSectionSettle(::System::Action_1<::IIPAHEHJJJL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_ADD_ONREPORTROOMSECTIONSETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::IIPAHEHJJJL*>*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_ADD_ONREPORTROOMSECTIONSETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnReportRoomSectionSettle(::System::Action* a1)
+		::System::Void remove_OnReportRoomSectionSettle(::System::Action_1<::IIPAHEHJJJL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_REMOVE_ONREPORTROOMSECTIONSETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::IIPAHEHJJJL*>*))((::PBYTE)hIl2Cpp + PBGNKMMDBGD_REMOVE_ONREPORTROOMSECTIONSETTLE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean FDMHNBFHLBA()

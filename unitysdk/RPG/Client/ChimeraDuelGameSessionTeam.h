@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class AMHPAMHCPHO;
 class CJHOCMLPMJD;
 class HGEBBOPADLG;
@@ -13,7 +14,6 @@ namespace RPG::Client { class ChimeraDuelMasterData; }
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace RPG::Client::Prop { class ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -159,9 +159,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAM_GET_ISSELLFEATUREUNLOCKED_OFFSET))(this);
 		}
 
-		::System::Nullable* get_RequiredMinMemberCount()
+		::System::Nullable_1<::System::Int32> get_RequiredMinMemberCount()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAM_GET_REQUIREDMINMEMBERCOUNT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAM_GET_REQUIREDMINMEMBERCOUNT_OFFSET))(this);
 		}
 
 		static ::RPG::Client::ChimeraDuelGameSessionTeam* Create(::AMHPAMHCPHO* a1, ::System::UInt32 a2, ::System::Collections::Generic::IEnumerable_1<::NHDGNBKBNDB*>* a3, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a4)

@@ -8,7 +8,7 @@ namespace CriWare { class CriManaMovieController; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class PlayVideoSequence; }
 namespace RPG::GameCore { class VideoSequenceItem; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
@@ -49,7 +49,7 @@ inline static constexpr unsigned int CCJPMOKKAED_TypeDefinitionIndex = 73216;
 	{
 	public:
 		::CriWare::CriManaMovieController* PECHJKPMGLJ; // 0x10
-		::System::Action* MJNODCEJEKN; // 0x18
+		::System::Action_3<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* MJNODCEJEKN; // 0x18
 		::RPG::Client::OpenWorld::StreamingItemData* MFGKNIEHDBD; // 0x20
 		::CriWare::CriManaMovieController* OJLDDOIMCAF; // 0x28
 		::RPG::GameCore::PlayVideoSequence* BDDJPHFIIPK; // 0x30
@@ -58,7 +58,7 @@ inline static constexpr unsigned int CCJPMOKKAED_TypeDefinitionIndex = 73216;
 		::Il2CppArray<::CriWare::CriManaMovieController*>* KFGHKHGLBMM; // 0x48
 		::UnityEngine::MeshRenderer* GKJEDHMABID; // 0x50
 		::UnityEngine::GameObject* FICBJLNBKLH; // 0x58
-		::System::Action* BPLOKGHNFCD; // 0x60
+		::System::Action_3<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::System::Boolean>* BPLOKGHNFCD; // 0x60
 		::System::Int32 LNMNOOFDBKJ; // 0x68
 		::System::Int32 DMAPPGGHNAJ; // 0x6C
 		::System::Int32 IMCMEPAPHMC; // 0x70

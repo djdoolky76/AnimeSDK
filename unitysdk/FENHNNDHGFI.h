@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MDILEMALGNC.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class AJDAJPHJBME;
 namespace RPG::Client { class CameraDataAndFlags; }
@@ -10,7 +11,6 @@ namespace RPG::Client { class Freelook3rdModuleConfig; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace RPG::Client { class ZoomModuleConfig; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
@@ -51,26 +51,26 @@ inline static constexpr unsigned int FENHNNDHGFI_TypeDefinitionIndex = 69656;
 		::UnityEngine::Vector3 NIJOOBNBIGH; // 0x50
 		::System::Single IAALGINAHEI; // 0x5C
 		::System::Single JJJMDDBOJGA; // 0x60
-		::System::Nullable* BCCHKOFHHIG; // 0x64
-		::System::Nullable* IKDPDKMMIIL; // 0x6C
+		::System::Nullable_1<::System::Single> BCCHKOFHHIG; // 0x64
+		::System::Nullable_1<::UnityEngine::Vector3> IKDPDKMMIIL; // 0x6C
 		::System::Byte _padding0[0x8];
 		::System::Single AKPJEFAIAAH; // 0x7C
-		::System::Nullable* BEBNHKJCBLL; // 0x80
+		::System::Nullable_1<::System::Single> BEBNHKJCBLL; // 0x80
 		::System::Single BBGPLPEAEOA; // 0x88
-		::System::Nullable* HDPLAEJNHKF; // 0x8C
+		::System::Nullable_1<::UnityEngine::Vector3> HDPLAEJNHKF; // 0x8C
 		::System::Byte _padding1[0x8];
 		::System::Single EGIIBCLDKBA; // 0x9C
-		::System::Nullable* GKGNHIDCJFM; // 0xA0
+		::System::Nullable_1<::System::Single> GKGNHIDCJFM; // 0xA0
 		::System::Single IHJCLMFJCFI; // 0xA8
-		::System::Nullable* BAJDACPIKJI; // 0xAC
-		::System::Nullable* AIBPKNIKOEM; // 0xB4
+		::System::Nullable_1<::System::Single> BAJDACPIKJI; // 0xAC
+		::System::Nullable_1<::UnityEngine::Vector3> AIBPKNIKOEM; // 0xB4
 		::System::Byte _padding2[0x8];
 		::System::Boolean ANKAHLMFDFN; // 0xC4
 		::System::Boolean PJACOCOKFLP; // 0xC5
 		::System::Boolean HPAEIBFNACJ; // 0xC6
 		::System::Byte _padding3[0x1];
 		::System::Single DMAGFPLPEKC; // 0xC8
-		::System::Nullable* LGAKMMNIDBH; // 0xCC
+		::System::Nullable_1<::UnityEngine::Vector3> LGAKMMNIDBH; // 0xCC
 		// static const ::System::Object MDOJLKNCMIC; // 0x0
 		::System::Void _ctor()
 		{

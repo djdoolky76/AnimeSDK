@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CJGNCPIDGNH;
 class MBJOEPEGLII;
 namespace RPG::Client::Promises { class IPromise; }
@@ -32,9 +32,9 @@ inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass13_0_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJGNCPIDGNH___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _CheckReconnectToFight_b__0(::System::ValueTuple a1)
+		::RPG::Client::Promises::IPromise* _CheckReconnectToFight_b__0(::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL> a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CJGNCPIDGNH___C__DISPLAYCLASS13_0__CHECKRECONNECTTOFIGHT_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>))((::PBYTE)hIl2Cpp + CJGNCPIDGNH___C__DISPLAYCLASS13_0__CHECKRECONNECTTOFIGHT_B__0_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* _CheckReconnectToFight_b__3()

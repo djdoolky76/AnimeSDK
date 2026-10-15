@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class OverseaGuestBindMail; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_OVERSEAGUESTBINDMAIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDB1D60)
 #define MIHOYO_SDK_WIN_OVERSEAGUESTBINDMAIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB1DA0)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::Win
 	class OverseaGuestBindMail___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__26_0()
+		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaGuestBindMail*>** StaticGet___9__26_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22030);
+			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaGuestBindMail*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x22030);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/FateRin/Card/FateRinHandbookCardTabType.h"
 #include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
 #include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CBJILMHOMGP;
 class CEEGMMCFCBG;
 class DEGELHCLDJB;
@@ -60,7 +60,7 @@ namespace RPG::Client::FateRin::Card
 		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*>* _AllCardOwnerViewModelList; // 0x58
 		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::FateRin::Card::IFateRinHandbookCardTabViewModel*>* _AllTabViewModelList_ReadOnly; // 0x60
 		::KIEIGGGKJOD* _CardVmFactory; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*>*>* _CardOwnerViewModelCacheDict; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::FateRin::Card::FateRinHandbookCardTabType, ::RPG::GameCore::FateRinHouguOwnerType>, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Card::IFateRinHandbookCardOwnerViewModel*>*>* _CardOwnerViewModelCacheDict; // 0x70
 		::FNMDEKMKEKH* _CardService; // 0x78
 		::FLNAHDFJBBA* _TabVmFactory; // 0x80
 		::System::Void _ctor(::FNMDEKMKEKH* a1, ::KIEIGGGKJOD* a2, ::FLNAHDFJBBA* a3, ::DEGELHCLDJB* a4, ::PEAFBFCPFCC* a5, ::OBJANKHLNGO* a6)

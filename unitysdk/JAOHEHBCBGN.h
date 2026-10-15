@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/VCameraChangeDataState.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class CameraBlendCurve; }
 namespace RPG::GameCore { class VCameraFloatChangeParam; }
-namespace System { class Nullable; }
 
 #define JAOHEHBCBGN_BEMELOPJLIK_OFFSET UNITYSDK_OFFSET(0x1655C6E0)
 #define JAOHEHBCBGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1655BF50)
@@ -58,9 +58,9 @@ inline static constexpr unsigned int JAOHEHBCBGN_TypeDefinitionIndex = 69542;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAOHEHBCBGN_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void JKHOBGMGIHJ(::System::Single a1, ::System::Nullable* a2)
+		::System::Void JKHOBGMGIHJ(::System::Single a1, ::System::Nullable_1<::System::Single> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + JAOHEHBCBGN_JKHOBGMGIHJ_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + JAOHEHBCBGN_JKHOBGMGIHJ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single KFGJEKJHIMB(::System::Single a1)

@@ -4,6 +4,7 @@
 namespace MiHoYo::SDK::Win { class GuestBindMail; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
@@ -42,7 +43,7 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnClose; // 0xB0
 		::System::Action* OnRegister; // 0xB8
 		::System::Action* OnForget; // 0xC0
-		::System::Action* OnBind; // 0xC8
+		::System::Action_2<::System::String*, ::System::String*>* OnBind; // 0xC8
 		static ::MiHoYo::SDK::Win::GuestBindMail** StaticGet_Instance()
 		{
 			return (::MiHoYo::SDK::Win::GuestBindMail**)UnitySDK::FromName("MiHoYo.SDK.Win", "GuestBindMail")->GetStaticField(0x19CC0);

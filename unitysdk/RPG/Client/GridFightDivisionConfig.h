@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightDivisionConfig; }
 namespace RPG::Client { class GridFightDivisionLevelConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -45,7 +45,7 @@ namespace RPG::Client
 		::System::UInt32 _DivisionLevel_k__BackingField; // 0x1C
 		::System::Boolean _IsPromotion_k__BackingField; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _PrevDivisionID; // 0x24
+		::System::Nullable_1<::System::UInt32> _PrevDivisionID; // 0x24
 		::System::UInt32 _SeasonID_k__BackingField; // 0x2C
 		::System::UInt32 _Progress_k__BackingField; // 0x30
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightDivisionConfig*>** StaticGet_GetConfigImpl()

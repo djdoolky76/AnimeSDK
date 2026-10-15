@@ -18,6 +18,7 @@ namespace RPG::Client::PetMarble::Level { class IPetMarbleLevelMode; }
 namespace RPG::Client::PetMarble::Level { class IPetMarbleLevelModeRepository; }
 namespace RPG::Client::PetMarble::Level { class PetMarbleLevelModeRepository; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class LevelAreaManager; }
 namespace System { class Action; }
 namespace System { class Object; }
@@ -85,7 +86,7 @@ namespace RPG::Client::PetMarble
 		::RPG::Client::Promises::Promise* _RefreshTimeLimitedTrialPetMarblesPromise; // 0x20
 		::RPG::Client::ActivityMarble::MarbleCoopBossPVPManager* _CoopBossPVPMgr; // 0x28
 		::BEJEBLAKKNN* _GameArea; // 0x30
-		::RPG::Client::Promises::Promise* _PveLevelBeginReqPromise; // 0x38
+		::RPG::Client::Promises::Promise_1<::System::String*>* _PveLevelBeginReqPromise; // 0x38
 		::System::UInt64 _NextTrialRefreshTime; // 0x40
 		::System::Boolean _IsTutorialLevelFinished; // 0x48
 		::System::Byte _padding0[0x3];

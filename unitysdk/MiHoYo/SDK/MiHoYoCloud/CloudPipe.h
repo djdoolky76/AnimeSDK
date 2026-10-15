@@ -4,9 +4,9 @@
 namespace CloudGame::MailBox { class Mailbox; }
 namespace CloudGame::MailBox { class Mailbox_ReceiveCallbackHandler; }
 namespace MiHoYo::SDK::MiHoYoCloud { class CloudPipe; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE9B3F0)
 #define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_CONNECT_OFFSET UNITYSDK_OFFSET(0x1BE9A5A0)
@@ -37,9 +37,9 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x10928);
 		}
 
-		static ::System::Action** StaticGet_OnReceiveData()
+		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet_OnReceiveData()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x10930);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "CloudPipe")->GetStaticField(0x10930);
 		}
 
 		static ::MiHoYo::SDK::MiHoYoCloud::CloudPipe** StaticGet_Instance()

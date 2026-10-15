@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Console { class PS4BindEmailDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE17F10)
 #define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE17F50)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::Console
 	class PS4BindEmailDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__53_0()
+		static ::System::Action_1<::MiHoYo::SDK::Console::PS4BindEmailDialog*>** StaticGet___9__53_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x12F0);
+			return (::System::Action_1<::MiHoYo::SDK::Console::PS4BindEmailDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x12F0);
 		}
 
 		static ::System::Object** StaticGet___9()

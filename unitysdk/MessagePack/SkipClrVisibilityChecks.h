@@ -7,7 +7,7 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Immutable { class ImmutableHashSet; }
+namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 namespace System::Reflection { class AssemblyName; }
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class PropertyInfo; }
@@ -46,9 +46,9 @@ namespace MessagePack
 			return (::System::Reflection::ConstructorInfo**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x25A88);
 		}
 
-		static ::System::Collections::Immutable::ImmutableHashSet** StaticGet_EmptySet()
+		static ::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>** StaticGet_EmptySet()
 		{
-			return (::System::Collections::Immutable::ImmutableHashSet**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x25A90);
+			return (::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>**)UnitySDK::FromName("MessagePack", "SkipClrVisibilityChecks")->GetStaticField(0x25A90);
 		}
 
 		static ::System::Reflection::PropertyInfo** StaticGet_AttributeUsageAllowMultipleProperty()

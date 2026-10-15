@@ -10,6 +10,7 @@ namespace RPG::GameCore { class CharacterInputData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define IMOKENFAECD_ADJLNBJDKLJ_OFFSET UNITYSDK_OFFSET(0x164E2860)
 #define IMOKENFAECD_AKKJMNPCLFB_OFFSET UNITYSDK_OFFSET(0x164E3660)
@@ -80,9 +81,9 @@ inline static constexpr unsigned int IMOKENFAECD_TypeDefinitionIndex = 60301;
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IMOKENFAECD_DLFDHOJLEBG_OFFSET))(this, a1);
 		}
 
-		::System::Void ADJLNBJDKLJ(::RPG::GameCore::GameEntity* a1, ::System::String* a2, ::System::String* a3, ::System::Single a4, ::System::Action* a5)
+		::System::Void ADJLNBJDKLJ(::RPG::GameCore::GameEntity* a1, ::System::String* a2, ::System::String* a3, ::System::Single a4, ::System::Action_1<::System::Boolean>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*, ::System::String*, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + IMOKENFAECD_ADJLNBJDKLJ_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*, ::System::String*, ::System::Single, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + IMOKENFAECD_ADJLNBJDKLJ_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void DPHABOHGKFL(::RPG::GameCore::GameEntity* a1, ::System::Action* a2)

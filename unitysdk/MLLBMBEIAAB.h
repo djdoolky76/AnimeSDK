@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -94,9 +94,9 @@ inline static constexpr unsigned int MLLBMBEIAAB_TypeDefinitionIndex = 49172;
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + MLLBMBEIAAB_CJEHEGCIPEI_OFFSET))();
 		}
 
-		static ::System::Void FBFKNPNNFMA(::System::Int32 a1, ::System::Collections::Generic::List_1<::System::String*>* a2, ::System::Action* a3)
+		static ::System::Void FBFKNPNNFMA(::System::Int32 a1, ::System::Collections::Generic::List_1<::System::String*>* a2, ::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::Object*>*>* a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MLLBMBEIAAB_FBFKNPNNFMA_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::Object*>*>*))((::PBYTE)hIl2Cpp + MLLBMBEIAAB_FBFKNPNNFMA_OFFSET))(a1, a2, a3);
 		}
 
 	};

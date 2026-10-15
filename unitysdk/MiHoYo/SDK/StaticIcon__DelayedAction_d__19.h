@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class StaticIcon; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
 #define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE1280)
@@ -23,7 +23,7 @@ namespace MiHoYo::SDK
 	public:
 		::MiHoYo::SDK::StaticIcon* __4__this; // 0x10
 		::System::Object* __2__current; // 0x18
-		::System::Action* action; // 0x20
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* action; // 0x20
 		::UnityEngine::EventSystems::PointerEventData* eventData; // 0x28
 		::System::Int32 __1__state; // 0x30
 		::System::Void _ctor(::System::Int32 a1)

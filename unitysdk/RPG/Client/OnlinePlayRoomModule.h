@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/Client/OnlineRoomDIYType.h"
 #include "unitysdk/RPG/GameCore/CharacterVisibleReason.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class AGJOIILGIHK;
 class CGPJCPKCPHC;
 class IKBDJLNEPBH;
@@ -27,7 +28,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -390,9 +390,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_TRYGETGUESTPLAYERINFOBYUID_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>* EnumerateGuestEntities()
+		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*>>* EnumerateGuestEntities()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_ENUMERATEGUESTENTITIES_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE_ENUMERATEGUESTENTITIES_OFFSET))(this);
 		}
 
 		::System::Void EnterOnlinePlayRoom(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)

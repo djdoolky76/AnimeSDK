@@ -4,8 +4,9 @@
 namespace MiHoYo::SDK { class BabelfishConfig; }
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK { class JSONNode; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_BABELFISHCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0xAF5C410)
 #define MIHOYO_SDK_BABELFISHCLIENT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xAF5BC20)
@@ -40,14 +41,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT_SETTRANSLATEURL_OFFSET))(this, a1);
 		}
 
-		::System::Void GetConfig(::System::String* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void GetConfig(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>* a2, ::System::Action_2<::System::Int32, ::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT_GETCONFIG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>*, ::System::Action_2<::System::Int32, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT_GETCONFIG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Translate(::MiHoYo::SDK::JSONArray* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::Action* a7, ::System::Action* a8, ::System::Single a9)
+		::System::Void Translate(::MiHoYo::SDK::JSONArray* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::Action_1<::MiHoYo::SDK::JSONNode*>* a7, ::System::Action_2<::System::Int32, ::System::String*>* a8, ::System::Single a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONArray*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action*, ::System::Action*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT_TRANSLATE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONArray*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::JSONNode*>*, ::System::Action_2<::System::Int32, ::System::String*>*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT_TRANSLATE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 	};

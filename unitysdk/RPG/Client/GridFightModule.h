@@ -14,7 +14,7 @@
 #include "unitysdk/RPG/GameCore/GridFightSettleRankType.h"
 #include "unitysdk/RPG/GameCore/GridFightUnlockFunctionType.h"
 #include "unitysdk/RPG/GameCore/GridFightUnlockShowType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AMEEHIIPMFP;
 class CLEDCMIOIPF;
 class FAIHLAKPABN;
@@ -64,13 +64,14 @@ namespace RPG::Client { class GridFightTutorialStageConfig; }
 namespace RPG::Client { class GridfightExpLineRewardData; }
 namespace RPG::Client { class ItemData; }
 namespace RPG::Client { class QuestData; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class GridFightRoleConfigRow; }
 namespace RPG::GameCore { class GridFightRoleRecommendEquipConfigRow; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -352,7 +353,7 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightRoleConfig*>* _RoleConfigByID; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* _equipToRecommendRole; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>* _EnemyDifficultyLvConfigConfigs_k__BackingField; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>* _EnemyDifficultyLvConfigConfigs_k__BackingField; // 0x20
 		::RPG::Client::GridFightEquipCraftMapInfo* _EquipCraftMapInfo_k__BackingField; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightTraitEffectConfig*>* _TraitEffectConfigByID; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightTraitConfig*>* _TraitConfigByID; // 0x38
@@ -362,7 +363,7 @@ namespace RPG::Client
 		::JKMFPHNLJHD* _AvatarUpgraderConverter; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>* _TrialAvatarDataByTrialAvatarID; // 0x60
 		::RPG::Client::GridfightExpLineRewardData* _expLineRewardData; // 0x68
-		::RPG::Client::Promises::Promise* _SyncFavourArchiveDataPromise; // 0x70
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightArchiveData*>*>* _SyncFavourArchiveDataPromise; // 0x70
 		::RPG::Client::GridFightHandBookStatus* _HandBookStatus_k__BackingField; // 0x78
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::Client::GridFightRolePropertyConfig*>* _RolePropertyConfigs_k__BackingField; // 0x80
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightBackRankConfig*>* _BackRankConfigByID; // 0x88
@@ -371,15 +372,15 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightHandBookEquipItemConfig*>* _HandBookEquipItemCacheDict; // 0xA0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightItemConfig*>* _ItemConfigs_k__BackingField; // 0xA8
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightDivisionStageConfig*>* _DivisionStageConfigs_k__BackingField; // 0xB0
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightDivisionLevelConfig*>* _DivisionLevelConfigs_k__BackingField; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightDivisionLevelConfig*>* _DivisionLevelConfigs_k__BackingField; // 0xB8
 		::NAAJDIINGCI* _EquipVariantRelationInfo_k__BackingField; // 0xC0
 		::RPG::Client::GridFightTalent* _Talent_k__BackingField; // 0xC8
-		::RPG::Client::Promises::Promise* _FavourArchivePromise; // 0xD0
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _FavourArchivePromise; // 0xD0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightHandbookRole*>* _HandBookroleCacheDict; // 0xD8
-		::RPG::Client::Promises::Promise* _SyncArchiveDataPromise; // 0xE0
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightArchiveData*>*>* _SyncArchiveDataPromise; // 0xE0
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightArchiveData*>* _ArchiveDataList_k__BackingField; // 0xE8
 		::RPG::Client::GridFightGameSession* _CurGameSession_k__BackingField; // 0xF0
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightExpiredRoleConfig*>* _ExpiredRoleConfigByID; // 0xF8
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightExpiredRoleConfig*>* _ExpiredRoleConfigByID; // 0xF8
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightDivisionConfig*>* _DivisionConfigs_k__BackingField; // 0x100
 		::RPG::Client::GridFightGameRef* _GameRef_k__BackingField; // 0x108
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightMonsterAffixConfig*>* _AffixDict; // 0x110
@@ -390,7 +391,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightConsumableItemConfig*>* _ConsumableItemConfigs_k__BackingField; // 0x138
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>* _UpgradeAvatarByAvatarID; // 0x140
 		::RPG::Client::GridFightDivisionInfo* _DivisionInfo_k__BackingField; // 0x148
-		::RPG::Client::Promises::Promise* _ReqPreFormationTextCheckPromise; // 0x150
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _ReqPreFormationTextCheckPromise; // 0x150
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightArchiveData*>* _FavourArchiveDataList_k__BackingField; // 0x158
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>* _NPCConfigs_k__BackingField; // 0x160
 		::System::Boolean _NeedShowEntrancePage; // 0x168
@@ -423,19 +424,19 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_CCTOR_OFFSET))();
 		}
 
-		::RPG::Client::Promises::Promise* GetAllArchiveData()
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightArchiveData*>*>* GetAllArchiveData()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_GETALLARCHIVEDATA_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightArchiveData*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_GETALLARCHIVEDATA_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* GetFavourArchiveData()
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightArchiveData*>*>* GetFavourArchiveData()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_GETFAVOURARCHIVEDATA_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightArchiveData*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_GETFAVOURARCHIVEDATA_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* FavourArchive(::System::UInt32 a1, ::System::Boolean a2)
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* FavourArchive(::System::UInt32 a1, ::System::Boolean a2)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_FAVOURARCHIVE_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::Promise_1<::System::Boolean>*(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_FAVOURARCHIVE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _SyncArchiveData(::System::Collections::Generic::IEnumerable_1<::FAIHLAKPABN*>* a1)
@@ -723,24 +724,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightDivisionStageConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_SET_DIVISIONSTAGECONFIGS_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightDivisionLevelConfig*>* get_DivisionLevelConfigs()
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightDivisionLevelConfig*>* get_DivisionLevelConfigs()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightDivisionLevelConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_GET_DIVISIONLEVELCONFIGS_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightDivisionLevelConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_GET_DIVISIONLEVELCONFIGS_OFFSET))(this);
 		}
 
-		::System::Void set_DivisionLevelConfigs(::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightDivisionLevelConfig*>* a1)
+		::System::Void set_DivisionLevelConfigs(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightDivisionLevelConfig*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightDivisionLevelConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_SET_DIVISIONLEVELCONFIGS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightDivisionLevelConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_SET_DIVISIONLEVELCONFIGS_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>* get_EnemyDifficultyLvConfigConfigs()
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>* get_EnemyDifficultyLvConfigConfigs()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_GET_ENEMYDIFFICULTYLVCONFIGCONFIGS_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_GET_ENEMYDIFFICULTYLVCONFIGCONFIGS_OFFSET))(this);
 		}
 
-		::System::Void set_EnemyDifficultyLvConfigConfigs(::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>* a1)
+		::System::Void set_EnemyDifficultyLvConfigConfigs(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_SET_ENEMYDIFFICULTYLVCONFIGCONFIGS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::GridFightEnemyDifficultyLvConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_SET_ENEMYDIFFICULTYLVCONFIGCONFIGS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightNPCConfig*>* get_NPCConfigs()
@@ -1678,9 +1679,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE__ONUPDATEGAMEFORMATION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CheckCustomTextHasForbiddenWord(::System::String* a1, ::System::Action* a2)
+		::System::Void CheckCustomTextHasForbiddenWord(::System::String* a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_CHECKCUSTOMTEXTHASFORBIDDENWORD_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE_CHECKCUSTOMTEXTHASFORBIDDENWORD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnCheckTextRsp(::System::UInt16 a1, ::System::Object* a2)

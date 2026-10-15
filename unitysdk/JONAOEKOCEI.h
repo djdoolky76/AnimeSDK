@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/MusicRhythmPropType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class JONAOEKOCEI_CAEJNKICJLN;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -44,7 +44,7 @@ inline static constexpr unsigned int JONAOEKOCEI_TypeDefinitionIndex = 60181;
 		::System::Single LJEOPKOBAGF; // 0x58
 		::System::Int32 PJHBEBBPKDG; // 0x5C
 		::UnityEngine::Vector3 AHAJBOAPBMC; // 0x60
-		::System::Nullable* PAIBLILBHKH; // 0x6C
+		::System::Nullable_1<::UnityEngine::Vector3> PAIBLILBHKH; // 0x6C
 		static ::System::String** StaticGet_ICEBBOPPAOH()
 		{
 			return (::System::String**)UnitySDK::FromName("", "JONAOEKOCEI")->GetStaticField(0x257E0);

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 class KOCDPFMMHIN;
 namespace RPG::Client { class RPGProfilerMarker; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JIAHILBIPBA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBDF580)
@@ -97,9 +97,9 @@ inline static constexpr unsigned int JIAHILBIPBA_TypeDefinitionIndex = 43823;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAHILBIPBA_PHFIEDGBECP_OFFSET))(this);
 		}
 
-		::System::Nullable* EMLECBJHPHN(::System::Collections::Generic::List_1<::KOCDPFMMHIN*>* a1)
+		::System::Nullable_1<::Unity::Jobs::JobHandle> EMLECBJHPHN(::System::Collections::Generic::List_1<::KOCDPFMMHIN*>* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Collections::Generic::List_1<::KOCDPFMMHIN*>*))((::PBYTE)hIl2Cpp + JIAHILBIPBA_EMLECBJHPHN_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::Unity::Jobs::JobHandle>(*)(::PVOID, ::System::Collections::Generic::List_1<::KOCDPFMMHIN*>*))((::PBYTE)hIl2Cpp + JIAHILBIPBA_EMLECBJHPHN_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GIMOCJDJNEA()

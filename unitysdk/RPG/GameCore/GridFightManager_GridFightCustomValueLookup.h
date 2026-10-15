@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class GridFightManager_GridFightCustomValue; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_ADDEMPTY_OFFSET UNITYSDK_OFFSET(0xE6D0B00)
@@ -22,7 +22,7 @@ namespace RPG::GameCore
 	class GridFightManager_GridFightCustomValueLookup : public ::System::Object
 	{
 	public:
-		::System::Action* OnChangedDefault; // 0x10
+		::System::Action_1<::System::Object*>* OnChangedDefault; // 0x10
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::Object*>* _CustomValue; // 0x18
 		::System::Void _ctor()
 		{

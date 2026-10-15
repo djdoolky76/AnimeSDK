@@ -4,10 +4,11 @@
 class HGCEOEHGPPE;
 class HIAMBDKHMIJ;
 class KGPCBBIOGLB;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define EJLIOMPMHHI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x154EA160)
 #define EJLIOMPMHHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154EA190)
@@ -23,9 +24,9 @@ inline static constexpr unsigned int EJLIOMPMHHI___c_TypeDefinitionIndex = 59562
 	class EJLIOMPMHHI___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__9_2()
+		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__9_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE50);
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE50);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -33,29 +34,29 @@ inline static constexpr unsigned int EJLIOMPMHHI___c_TypeDefinitionIndex = 59562
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE58);
 		}
 
-		static ::System::Action** StaticGet___9__14_2()
+		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__14_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE60);
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE60);
 		}
 
-		static ::System::Action** StaticGet___9__11_0()
+		static ::System::Action_2<::KGPCBBIOGLB*, ::System::Tuple_2<::System::String*, ::System::Boolean>*>** StaticGet___9__11_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE68);
+			return (::System::Action_2<::KGPCBBIOGLB*, ::System::Tuple_2<::System::String*, ::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE68);
 		}
 
-		static ::System::Action** StaticGet___9__13_3()
+		static ::System::Action_1<::HGCEOEHGPPE*>** StaticGet___9__13_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE70);
+			return (::System::Action_1<::HGCEOEHGPPE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE70);
 		}
 
-		static ::System::Action** StaticGet___9__13_2()
+		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__13_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE78);
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE78);
 		}
 
-		static ::System::Action** StaticGet___9__10_2()
+		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__10_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE80);
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE80);
 		}
 
 		static ::System::Void _cctor()
@@ -78,9 +79,9 @@ inline static constexpr unsigned int EJLIOMPMHHI___c_TypeDefinitionIndex = 59562
 			return ((::System::Void(*)(::PVOID, ::HIAMBDKHMIJ*))((::PBYTE)hIl2Cpp + EJLIOMPMHHI___C__ADDPREVERIFY_B__10_2_OFFSET))(this, a1);
 		}
 
-		::System::Void _AddClear_b__11_0(::KGPCBBIOGLB* a1, ::System::Tuple* a2)
+		::System::Void _AddClear_b__11_0(::KGPCBBIOGLB* a1, ::System::Tuple_2<::System::String*, ::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::KGPCBBIOGLB*, ::System::Tuple*))((::PBYTE)hIl2Cpp + EJLIOMPMHHI___C__ADDCLEAR_B__11_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::KGPCBBIOGLB*, ::System::Tuple_2<::System::String*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + EJLIOMPMHHI___C__ADDCLEAR_B__11_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _AddBlockHPatch_b__13_2(::HIAMBDKHMIJ* a1)

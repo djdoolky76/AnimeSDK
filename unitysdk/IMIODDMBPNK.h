@@ -4,13 +4,13 @@
 #include "unitysdk/CFMDKNCDDAL.h"
 #include "unitysdk/OIPMNNAHIFP.h"
 #include "unitysdk/PBBJDEMIFDC.h"
+#include "unitysdk/System/Nullable_1.h"
 class CFGGOBEDJOK;
 class KNHKBNKAJAN;
 class MNFBHFDNOKF;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class GrowthTargetRelicRecommender; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -40,20 +40,20 @@ inline static constexpr unsigned int IMIODDMBPNK_TypeDefinitionIndex = 65611;
 	public:
 		::RPG::Client::GrowthTargetRelicRecommender* _RelicRecommender_k__BackingField; // 0x20
 		::System::Collections::Generic::List_1<::CFMDKNCDDAL>* ANHCCDLOHGJ; // 0x28
-		::System::Nullable* _GrowthTargetIdentifier_k__BackingField; // 0x30
+		::System::Nullable_1<::OIPMNNAHIFP> _GrowthTargetIdentifier_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMIODDMBPNK_CTOR_OFFSET))(this);
 		}
 
-		::System::Nullable* get_GrowthTargetIdentifier()
+		::System::Nullable_1<::OIPMNNAHIFP> get_GrowthTargetIdentifier()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IMIODDMBPNK_GET_GROWTHTARGETIDENTIFIER_OFFSET))(this);
+			return ((::System::Nullable_1<::OIPMNNAHIFP>(*)(::PVOID))((::PBYTE)hIl2Cpp + IMIODDMBPNK_GET_GROWTHTARGETIDENTIFIER_OFFSET))(this);
 		}
 
-		::System::Void set_GrowthTargetIdentifier(::System::Nullable* a1)
+		::System::Void set_GrowthTargetIdentifier(::System::Nullable_1<::OIPMNNAHIFP> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + IMIODDMBPNK_SET_GROWTHTARGETIDENTIFIER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::OIPMNNAHIFP>))((::PBYTE)hIl2Cpp + IMIODDMBPNK_SET_GROWTHTARGETIDENTIFIER_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GrowthTargetRelicRecommender* get_RelicRecommender()

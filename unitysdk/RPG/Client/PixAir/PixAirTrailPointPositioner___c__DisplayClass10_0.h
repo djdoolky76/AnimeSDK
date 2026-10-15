@@ -6,6 +6,7 @@ namespace RPG::Client { class RPGAnimationEvent; }
 namespace RPG::Client::PixAir { class PixAirTrailPointPositioner; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB6DEF0)
 #define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0__PLAY_B__0_OFFSET UNITYSDK_OFFSET(0xDB6DF10)
@@ -20,10 +21,10 @@ namespace RPG::Client::PixAir
 	public:
 		::RPG::Client::RPGAnimationEvent* animEventCmpt; // 0x10
 		::RPG::Client::PixAir::PixAirTrailPointPositioner* __4__this; // 0x18
-		::System::Action* onAnimEvent; // 0x20
+		::System::Action_1<::System::String*>* onAnimEvent; // 0x20
 		::System::Action* onComplete; // 0x28
 		::RPG::Client::MonoAnimationTrigger* animTrigger; // 0x30
-		::System::Action* animationCallback; // 0x38
+		::System::Action_1<::System::String*>* animationCallback; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER___C__DISPLAYCLASS10_0_CTOR_OFFSET))(this);

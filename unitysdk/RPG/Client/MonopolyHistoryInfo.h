@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class MBKLKIAJPDD;
 class NJHAGKGHKJJ;
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -56,7 +56,7 @@ namespace RPG::Client
 	class MonopolyHistoryInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair*, ::System::UInt32>* ServerOptionRatio; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* ServerOptionRatio; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* HistoryActionCount; // 0x18
 		::System::UInt32 _DailyAssetFundsDonateCoin_k__BackingField; // 0x20
 		::System::Int32 _MBTIValueY_k__BackingField; // 0x24

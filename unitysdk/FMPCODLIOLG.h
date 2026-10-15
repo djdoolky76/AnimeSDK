@@ -19,6 +19,7 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -246,14 +247,14 @@ inline static constexpr unsigned int FMPCODLIOLG_TypeDefinitionIndex = 73025;
 			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + FMPCODLIOLG_NPGHILMAMPF_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CKEOKOICNKJ(::System::String* a1, ::System::Action* a2, ::UnityEngine::Transform* a3)
+		::System::Void CKEOKOICNKJ(::System::String* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2, ::UnityEngine::Transform* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_CKEOKOICNKJ_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::GameObject*>*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_CKEOKOICNKJ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CKEOKOICNKJ_1(::System::String* a1, ::System::Action* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4)
+		::System::Void CKEOKOICNKJ_1(::System::String* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + FMPCODLIOLG_CKEOKOICNKJ_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::GameObject*>*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + FMPCODLIOLG_CKEOKOICNKJ_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void AHIOPJEGGPB(::UnityEngine::GameObject* a1, ::System::Boolean a2)
@@ -276,14 +277,14 @@ inline static constexpr unsigned int FMPCODLIOLG_TypeDefinitionIndex = 73025;
 			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::RPG::Client::RspHandler*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_HCJJHNEMIDN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FFHFCAMOKBH(::UnityEngine::UI::Button* a1, ::System::Action* a2, ::System::Object* a3)
+		::System::Void FFHFCAMOKBH(::UnityEngine::UI::Button* a1, ::System::Action_1<::System::Object*>* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Button*, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_FFHFCAMOKBH_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Button*, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_FFHFCAMOKBH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DPPNKKKCEFE(::InControl::InputControlType a1, ::System::Action* a2)
+		::System::Void DPPNKKKCEFE(::InControl::InputControlType a1, ::System::Action_1<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_DPPNKKKCEFE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_DPPNKKKCEFE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void EFFIOJHIAOO(::InControl::InputControlType a1, ::System::Action* a2)
@@ -291,9 +292,9 @@ inline static constexpr unsigned int FMPCODLIOLG_TypeDefinitionIndex = 73025;
 			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_EFFIOJHIAOO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void MNINFDNHGEH(::InControl::InputControlType a1, ::System::Action* a2)
+		::System::Void MNINFDNHGEH(::InControl::InputControlType a1, ::System::Action_1<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_MNINFDNHGEH_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + FMPCODLIOLG_MNINFDNHGEH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PMMGKGPHNEA(::InControl::InputDeviceClass a1)

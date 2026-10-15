@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class AAKADBDHKBJ;
 class EBBBJDPGDFG;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_GAMECORE_RTBATTLEMODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE7408D0)
 #define RPG_GAMECORE_RTBATTLEMODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE740910)
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CA80);
 		}
 
-		static ::System::Action** StaticGet___9__83_0()
+		static ::System::Action_1<::EBBBJDPGDFG*>** StaticGet___9__83_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CA88);
+			return (::System::Action_1<::EBBBJDPGDFG*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CA88);
 		}
 
-		static ::System::Action** StaticGet___9__83_1()
+		static ::System::Action_1<::AAKADBDHKBJ*>** StaticGet___9__83_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CA90);
+			return (::System::Action_1<::AAKADBDHKBJ*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CA90);
 		}
 
 		static ::System::Void _cctor()

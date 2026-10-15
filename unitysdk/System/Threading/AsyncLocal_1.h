@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/AsyncLocalValueChangedArgs_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace System::Threading
 {
@@ -12,6 +12,6 @@ namespace System::Threading
 	class AsyncLocal_1 : public ::System::Object
 	{
 	public:
-		::System::Action* m_valueChangedHandler; // 0x0
+		::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* m_valueChangedHandler; // 0x0
 	};
 }

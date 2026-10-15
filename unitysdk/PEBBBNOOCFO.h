@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/Client/MapRotation/EffectType.h"
 #include "unitysdk/RPG/Client/MapNpcType.h"
 #include "unitysdk/RPG/GameCore/CharacterVisibleReason.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/PEBBBNOOCFO_DNCHPFDFAHJ.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -23,9 +23,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class LevelNPCInfo; }
 namespace RPG::GameCore { class MapRotationEntityEffectConfig; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -106,7 +106,7 @@ inline static constexpr unsigned int PEBBBNOOCFO_TypeDefinitionIndex = 60601;
 	class PEBBBNOOCFO : public ::NPEBLEKDAGI
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* HFOFDKICJJA; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Object*>* HFOFDKICJJA; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* BMOGFLMCPHL; // 0x18
 		::RPG::GameCore::GameWorld* JEOADHBDKMO; // 0x20
 		::DLNCBOGAMFG* BAMECAHHEKC; // 0x28
@@ -117,7 +117,7 @@ inline static constexpr unsigned int PEBBBNOOCFO_TypeDefinitionIndex = 60601;
 		::RPG::Client::MapDef* KKKADHHBMLD; // 0x50
 		::System::Collections::Generic::List_1<::System::UInt32>* IAGPALNFHJK; // 0x58
 		::System::Collections::Generic::List_1<::System::Object*>* HMJBJLKHILK; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>* EPAANHFGFNO; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Object*>* EPAANHFGFNO; // 0x68
 		::PEBBBNOOCFO_PoseEntitiesLoadingState OOBANJALKPN; // 0x70
 		::System::Int32 EKOOFKKMFJE; // 0x74
 		::System::Int32 MEGBJGGNMLP; // 0x78
@@ -375,9 +375,9 @@ inline static constexpr unsigned int PEBBBNOOCFO_TypeDefinitionIndex = 60601;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + PEBBBNOOCFO_GHHBBODIPNI_OFFSET))(this, a1);
 		}
 
-		::System::Void GHIFMGPKFPF(::RPG::Client::MapRotation::EffectType a1, ::System::String* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::PEBBBNOOCFO_DNCHPFDFAHJ a5, ::UnityEngine::Transform* a6, ::RPG::GameCore::GameEntity* a7, ::System::Action* a8, ::System::Boolean a9)
+		::System::Void GHIFMGPKFPF(::RPG::Client::MapRotation::EffectType a1, ::System::String* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::PEBBBNOOCFO_DNCHPFDFAHJ a5, ::UnityEngine::Transform* a6, ::RPG::GameCore::GameEntity* a7, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a8, ::System::Boolean a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapRotation::EffectType, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::PEBBBNOOCFO_DNCHPFDFAHJ, ::UnityEngine::Transform*, ::RPG::GameCore::GameEntity*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + PEBBBNOOCFO_GHIFMGPKFPF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapRotation::EffectType, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::PEBBBNOOCFO_DNCHPFDFAHJ, ::UnityEngine::Transform*, ::RPG::GameCore::GameEntity*, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::Boolean))((::PBYTE)hIl2Cpp + PEBBBNOOCFO_GHIFMGPKFPF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void MDFKNPBHALO(::RPG::Client::MapNpcDef* a1)

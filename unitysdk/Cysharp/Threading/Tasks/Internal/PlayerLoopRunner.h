@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { class IPlayerLoopItem; }
 namespace Cysharp::Threading::Tasks::Internal { template <typename T> class MinimumQueue_1; }
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER_ADDACTION_OFFSET UNITYSDK_OFFSET(0x1F11D7B0)
 #define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F11DB70)
@@ -37,7 +37,7 @@ namespace Cysharp::Threading::Tasks::Internal
 	public:
 		::Cysharp::Threading::Tasks::Internal::MinimumQueue_1<::Cysharp::Threading::Tasks::IPlayerLoopItem*>* waitQueue; // 0x10
 		::Il2CppArray<::Cysharp::Threading::Tasks::IPlayerLoopItem*>* loopItems; // 0x18
-		::System::Action* unhandledExceptionCallback; // 0x20
+		::System::Action_1<::System::Exception*>* unhandledExceptionCallback; // 0x20
 		::System::Object* arrayLock; // 0x28
 		::System::Object* runningAndQueueLock; // 0x30
 		::System::Boolean running; // 0x38

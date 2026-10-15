@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class DEIPGFGBEMG;
 class MMPNGLIMIHL;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define DCBGEFJPNEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC68230)
 #define DCBGEFJPNEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC68270)
@@ -22,19 +22,19 @@ inline static constexpr unsigned int DCBGEFJPNEB___c_TypeDefinitionIndex = 44198
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A7B0);
 		}
 
-		static ::System::Action** StaticGet___9__4_0()
+		static ::System::Action_1<::DEIPGFGBEMG*>** StaticGet___9__4_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A7B8);
+			return (::System::Action_1<::DEIPGFGBEMG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A7B8);
 		}
 
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_1<::MMPNGLIMIHL*>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A7C0);
+			return (::System::Action_1<::MMPNGLIMIHL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A7C0);
 		}
 
-		static ::System::Action** StaticGet___9__7_0()
+		static ::System::Action_1<::MMPNGLIMIHL*>** StaticGet___9__7_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A7C8);
+			return (::System::Action_1<::MMPNGLIMIHL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A7C8);
 		}
 
 		static ::System::Void _cctor()

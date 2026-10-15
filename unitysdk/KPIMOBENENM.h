@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HOBKANOJDMA.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 class KPIMOBENENM;
 namespace RPG::GameCore { class LevelSpatialIntVec2; }
@@ -16,7 +16,7 @@ inline static constexpr unsigned int KPIMOBENENM_TypeDefinitionIndex = 62050;
 	class KPIMOBENENM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::HOBKANOJDMA>* LKEHCIFAJNK; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::HOBKANOJDMA>* LKEHCIFAJNK; // 0x10
 		::UnityEngine::Bounds BMKHMEDKICK; // 0x18
 		::System::Void _ctor(::Il2CppArray<::System::Int16>* a1, ::RPG::GameCore::LevelSpatialIntVec2* a2)
 		{

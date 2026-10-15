@@ -3,6 +3,7 @@
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -44,7 +45,7 @@ namespace SRDebugger::UI::Other
 		::UnityEngine::UI::Text* ResultMessageText; // 0x80
 		::System::Action* ScreenshotComplete; // 0x88
 		::UnityEngine::UI::Button* SubmitButton; // 0x90
-		::System::Action* SubmitComplete; // 0x98
+		::System::Action_2<::System::Boolean, ::System::String*>* SubmitComplete; // 0x98
 		::System::Action* TakingScreenshot; // 0xA0
 		::System::Void _ctor()
 		{

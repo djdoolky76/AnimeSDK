@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/BGGDOPNKDLK_JJAJGKMMODN.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BGGDOPNKDLK_CDFEPGGALDB;
 class BGGDOPNKDLK_GLGPGAAPAAI;
 class BGGDOPNKDLK_MMDPKKPOHOG;
@@ -59,9 +59,9 @@ inline static constexpr unsigned int BGGDOPNKDLK_TypeDefinitionIndex = 37258;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BGGDOPNKDLK_CCTOR_OFFSET))();
 		}
 
-		static ::BGGDOPNKDLK_CDFEPGGALDB* FAFBGOAMHAA(::PBGNKMMDBGD* a1, ::CKEIGJNHMDN* a2, ::OIKDLNCBPFM* a3, ::ICNLEDIBDIE* a4, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* a5, ::System::UInt32 a6, ::IFBOFKLBBKO* a7)
+		static ::BGGDOPNKDLK_CDFEPGGALDB* FAFBGOAMHAA(::PBGNKMMDBGD* a1, ::CKEIGJNHMDN* a2, ::OIKDLNCBPFM* a3, ::ICNLEDIBDIE* a4, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* a5, ::System::UInt32 a6, ::IFBOFKLBBKO* a7)
 		{
-			return ((::BGGDOPNKDLK_CDFEPGGALDB*(*)(::PBGNKMMDBGD*, ::CKEIGJNHMDN*, ::OIKDLNCBPFM*, ::ICNLEDIBDIE*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>*, ::System::UInt32, ::IFBOFKLBBKO*))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_FAFBGOAMHAA_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::BGGDOPNKDLK_CDFEPGGALDB*(*)(::PBGNKMMDBGD*, ::CKEIGJNHMDN*, ::OIKDLNCBPFM*, ::ICNLEDIBDIE*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>*, ::System::UInt32, ::IFBOFKLBBKO*))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_FAFBGOAMHAA_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::BGGDOPNKDLK_CDFEPGGALDB* ENMNMPEPAFG(::PBGNKMMDBGD* a1, ::CKEIGJNHMDN* a2, ::OIKDLNCBPFM* a3, ::IFBFJDCECML* a4, ::System::Boolean a5)
@@ -69,9 +69,9 @@ inline static constexpr unsigned int BGGDOPNKDLK_TypeDefinitionIndex = 37258;
 			return ((::BGGDOPNKDLK_CDFEPGGALDB*(*)(::PBGNKMMDBGD*, ::CKEIGJNHMDN*, ::OIKDLNCBPFM*, ::IFBFJDCECML*, ::System::Boolean))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_ENMNMPEPAFG_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::BGGDOPNKDLK_GLGPGAAPAAI* ALFDCBPLEJN(::PBGNKMMDBGD* a1, ::CKEIGJNHMDN* a2, ::OIKDLNCBPFM* a3, ::ICNLEDIBDIE* a4, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* a5, ::System::UInt32 a6, ::System::Object* a7, ::System::UInt32 a8, ::IFBOFKLBBKO* a9, ::BGGDOPNKDLK_MMDPKKPOHOG* a10)
+		static ::BGGDOPNKDLK_GLGPGAAPAAI* ALFDCBPLEJN(::PBGNKMMDBGD* a1, ::CKEIGJNHMDN* a2, ::OIKDLNCBPFM* a3, ::ICNLEDIBDIE* a4, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* a5, ::System::UInt32 a6, ::System::Object* a7, ::System::UInt32 a8, ::IFBOFKLBBKO* a9, ::BGGDOPNKDLK_MMDPKKPOHOG* a10)
 		{
-			return ((::BGGDOPNKDLK_GLGPGAAPAAI*(*)(::PBGNKMMDBGD*, ::CKEIGJNHMDN*, ::OIKDLNCBPFM*, ::ICNLEDIBDIE*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>*, ::System::UInt32, ::System::Object*, ::System::UInt32, ::IFBOFKLBBKO*, ::BGGDOPNKDLK_MMDPKKPOHOG*))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_ALFDCBPLEJN_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::BGGDOPNKDLK_GLGPGAAPAAI*(*)(::PBGNKMMDBGD*, ::CKEIGJNHMDN*, ::OIKDLNCBPFM*, ::ICNLEDIBDIE*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>*, ::System::UInt32, ::System::Object*, ::System::UInt32, ::IFBOFKLBBKO*, ::BGGDOPNKDLK_MMDPKKPOHOG*))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_ALFDCBPLEJN_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
 		static ::System::Void HFIFEEOKMCG(::System::UInt32 a1, ::System::UInt32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::UInt32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9)
@@ -79,9 +79,9 @@ inline static constexpr unsigned int BGGDOPNKDLK_TypeDefinitionIndex = 37258;
 			return ((::System::Void(*)(::System::UInt32, ::System::UInt32, ::System::Int32, ::System::Int32, ::System::UInt32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_HFIFEEOKMCG_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::System::Single NOEEADKBDNL(::PBGNKMMDBGD* a1, ::CKEIGJNHMDN* a2, ::OIKDLNCBPFM* a3, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* a4, ::System::Object* a5, ::System::UInt32 a6, ::System::UInt32 a7)
+		static ::System::Single NOEEADKBDNL(::PBGNKMMDBGD* a1, ::CKEIGJNHMDN* a2, ::OIKDLNCBPFM* a3, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* a4, ::System::Object* a5, ::System::UInt32 a6, ::System::UInt32 a7)
 		{
-			return ((::System::Single(*)(::PBGNKMMDBGD*, ::CKEIGJNHMDN*, ::OIKDLNCBPFM*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>*, ::System::Object*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_NOEEADKBDNL_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Single(*)(::PBGNKMMDBGD*, ::CKEIGJNHMDN*, ::OIKDLNCBPFM*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>*, ::System::Object*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_NOEEADKBDNL_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Single MEKDECIJCFL(::CKEIGJNHMDN* a1, ::OIKDLNCBPFM* a2, ::System::UInt32 a3, ::System::UInt32 a4)
@@ -89,19 +89,19 @@ inline static constexpr unsigned int BGGDOPNKDLK_TypeDefinitionIndex = 37258;
 			return ((::System::Single(*)(::CKEIGJNHMDN*, ::OIKDLNCBPFM*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_MEKDECIJCFL_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::BGGDOPNKDLK_MMDPKKPOHOG* FEAKAHJAEHK(::KAJJEJMHCGD* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* a4)
+		static ::BGGDOPNKDLK_MMDPKKPOHOG* FEAKAHJAEHK(::KAJJEJMHCGD* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* a4)
 		{
-			return ((::BGGDOPNKDLK_MMDPKKPOHOG*(*)(::KAJJEJMHCGD*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>*))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_FEAKAHJAEHK_OFFSET))(a1, a2, a3, a4);
+			return ((::BGGDOPNKDLK_MMDPKKPOHOG*(*)(::KAJJEJMHCGD*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>*))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_FEAKAHJAEHK_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::BGGDOPNKDLK_MMDPKKPOHOG* KFCODECGPLJ(::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>* a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::Int32 a5)
+		static ::BGGDOPNKDLK_MMDPKKPOHOG* KFCODECGPLJ(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::BGGDOPNKDLK_MMDPKKPOHOG*(*)(::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>*, ::System::Int32, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_KFCODECGPLJ_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::BGGDOPNKDLK_MMDPKKPOHOG*(*)(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>*, ::System::Int32, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_KFCODECGPLJ_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::ValueTuple FNLPACDHBKF(::BGGDOPNKDLK_GLGPGAAPAAI* a1, ::System::Object* a2, ::KAJJEJMHCGD* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Int32 a11, ::System::UInt32 a12, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* a13)
+		static ::System::ValueTuple_2<::System::Object*, ::System::Boolean> FNLPACDHBKF(::BGGDOPNKDLK_GLGPGAAPAAI* a1, ::System::Object* a2, ::KAJJEJMHCGD* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Int32 a11, ::System::UInt32 a12, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* a13)
 		{
-			return ((::System::ValueTuple(*)(::BGGDOPNKDLK_GLGPGAAPAAI*, ::System::Object*, ::KAJJEJMHCGD*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>*))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_FNLPACDHBKF_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
+			return ((::System::ValueTuple_2<::System::Object*, ::System::Boolean>(*)(::BGGDOPNKDLK_GLGPGAAPAAI*, ::System::Object*, ::KAJJEJMHCGD*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>*))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_FNLPACDHBKF_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
 		static ::System::UInt32 MFBGOLIIJOM(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)

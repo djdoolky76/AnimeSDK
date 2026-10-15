@@ -5,8 +5,8 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class MessageContentBlock; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitPlanData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD6A23F0)
 #define RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD6A25E0)
@@ -28,7 +28,7 @@ namespace RPG::Client
 	class MessageContentRelicRecommendBlock : public ::RPG::Client::MessageContentFunctionCallBlock
 	{
 	public:
-		::System::Action* _Callback; // 0x28
+		::System::Action_1<::System::UInt32>* _Callback; // 0x28
 		::RPG::AvatarSystem::IAvatar* _Avatar_k__BackingField; // 0x30
 		::System::Boolean _WaitingData; // 0x38
 		::System::Byte _padding0[0x3];
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void RequestRecommendData(::System::Action* a1)
+		::System::Void RequestRecommendData(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_REQUESTRECOMMENDDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRECOMMENDBLOCK_REQUESTRECOMMENDDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MThreadRunState.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class Thread; }
 
 #define LCBKCCPECEN_BLGJKDMKFKO_OFFSET UNITYSDK_OFFSET(0xB611A90)
@@ -45,7 +45,7 @@ inline static constexpr unsigned int LCBKCCPECEN_TypeDefinitionIndex = 59443;
 		::System::Object* DMFEKIIDMFL; // 0x10
 		::System::String* GIDAEFPOGHI; // 0x18
 		::System::Threading::Thread* LFBNDFLKAJP; // 0x20
-		::System::Action* EDCBDIHKDMG; // 0x28
+		::System::Action_1<::System::Object*>* EDCBDIHKDMG; // 0x28
 		::System::Int32 IIDLHLOOAGD; // 0x30
 		::RPG::Client::MThreadRunState CEAMEHKPBOJ; // 0x34
 		::System::Boolean JMDGOBHBIIG; // 0x38
@@ -80,9 +80,9 @@ inline static constexpr unsigned int LCBKCCPECEN_TypeDefinitionIndex = 59443;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LCBKCCPECEN_KDHCICFNAOC_OFFSET))(this);
 		}
 
-		::System::Void IGDPMGKNFGN(::System::Action* a1)
+		::System::Void IGDPMGKNFGN(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LCBKCCPECEN_IGDPMGKNFGN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + LCBKCCPECEN_IGDPMGKNFGN_OFFSET))(this, a1);
 		}
 
 		::System::Void NLKPKABOIPJ(::System::Object* a1)

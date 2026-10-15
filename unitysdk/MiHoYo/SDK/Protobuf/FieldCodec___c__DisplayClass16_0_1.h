@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace MiHoYo::SDK::Protobuf { class MessageParser; }
+namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
 
 namespace MiHoYo::SDK::Protobuf
 {
@@ -11,6 +11,6 @@ namespace MiHoYo::SDK::Protobuf
 	class FieldCodec___c__DisplayClass16_0_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::MessageParser* parser; // 0x0
+		::MiHoYo::SDK::Protobuf::MessageParser_1<T>* parser; // 0x0
 	};
 }

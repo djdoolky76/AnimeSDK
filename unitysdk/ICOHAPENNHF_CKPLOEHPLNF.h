@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/JOGBIBJLPJB.h"
 class MNIADKMONBH;
@@ -21,7 +21,7 @@ inline static constexpr unsigned int ICOHAPENNHF_CKPLOEHPLNF_TypeDefinitionIndex
 		::RPG::GameCore::LevelPedestrianV2RoadEntryInfo* AHMPPCLODGL; // 0x18
 		::RPG::GameCore::LevelPedestrianV2RoadEntryConnectInfo* BFNFPKJIFOP; // 0x20
 		::Il2CppArray<::UnityEngine::Vector3>* BECDIKBLMEO; // 0x28
-		::Il2CppArray<::System::ValueTuple>* AONMMNAAAGO; // 0x30
+		::Il2CppArray<::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>>* AONMMNAAAGO; // 0x30
 		::System::Void _ctor(::MNIADKMONBH* a1, ::RPG::GameCore::LevelPedestrianV2RoadEntryInfo* a2, ::RPG::GameCore::LevelPedestrianV2RoadEntryConnectInfo* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::MNIADKMONBH*, ::RPG::GameCore::LevelPedestrianV2RoadEntryInfo*, ::RPG::GameCore::LevelPedestrianV2RoadEntryConnectInfo*))((::PBYTE)hIl2Cpp + ICOHAPENNHF_CKPLOEHPLNF_CTOR_OFFSET))(this, a1, a2, a3);

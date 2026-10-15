@@ -10,8 +10,9 @@ namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client { class LobbyMemberData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
 #define CJGNCPIDGNH_AHDPEAKFJAK_OFFSET UNITYSDK_OFFSET(0xD20EFE0)
@@ -57,7 +58,7 @@ inline static constexpr unsigned int CJGNCPIDGNH_TypeDefinitionIndex = 80265;
 	public:
 		::MBJOEPEGLII* NCIINDGLMFI; // 0x20
 		::RPG::Client::Promises::Promise* FJNDBBDGKGG; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::Action*>* BANKIFNMGOG; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>*>* BANKIFNMGOG; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_CTOR_OFFSET))(this);
@@ -73,24 +74,24 @@ inline static constexpr unsigned int CJGNCPIDGNH_TypeDefinitionIndex = 80265;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_STOP_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* JDMMKOKJPPK(::FJPMJPEKLJL a1, ::System::UInt32 a2, ::FMHEHLIFNGJ* a3, ::PJMGBLIFDFP* a4)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* JDMMKOKJPPK(::FJPMJPEKLJL a1, ::System::UInt32 a2, ::FMHEHLIFNGJ* a3, ::PJMGBLIFDFP* a4)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::FJPMJPEKLJL, ::System::UInt32, ::FMHEHLIFNGJ*, ::PJMGBLIFDFP*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_JDMMKOKJPPK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::FJPMJPEKLJL, ::System::UInt32, ::FMHEHLIFNGJ*, ::PJMGBLIFDFP*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_JDMMKOKJPPK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::Promises::IPromise* JKNKBLJPGDB(::MBJOEPEGLII* a1, ::System::UInt32 a2, ::FMHEHLIFNGJ* a3, ::PJMGBLIFDFP* a4)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* JKNKBLJPGDB(::MBJOEPEGLII* a1, ::System::UInt32 a2, ::FMHEHLIFNGJ* a3, ::PJMGBLIFDFP* a4)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::MBJOEPEGLII*, ::System::UInt32, ::FMHEHLIFNGJ*, ::PJMGBLIFDFP*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_JKNKBLJPGDB_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::MBJOEPEGLII*, ::System::UInt32, ::FMHEHLIFNGJ*, ::PJMGBLIFDFP*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_JKNKBLJPGDB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::Promises::IPromise* HIOFMONBFLO(::FJPMJPEKLJL a1, ::System::UInt64 a2, ::FMHEHLIFNGJ* a3)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* HIOFMONBFLO(::FJPMJPEKLJL a1, ::System::UInt64 a2, ::FMHEHLIFNGJ* a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::FJPMJPEKLJL, ::System::UInt64, ::FMHEHLIFNGJ*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_HIOFMONBFLO_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::FJPMJPEKLJL, ::System::UInt64, ::FMHEHLIFNGJ*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_HIOFMONBFLO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* KKBJHGKHHFD(::MBJOEPEGLII* a1, ::System::UInt64 a2, ::FMHEHLIFNGJ* a3)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* KKBJHGKHHFD(::MBJOEPEGLII* a1, ::System::UInt64 a2, ::FMHEHLIFNGJ* a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::MBJOEPEGLII*, ::System::UInt64, ::FMHEHLIFNGJ*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_KKBJHGKHHFD_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::MBJOEPEGLII*, ::System::UInt64, ::FMHEHLIFNGJ*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_KKBJHGKHHFD_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::Promises::IPromise* MACOBOLJKII()
@@ -153,14 +154,14 @@ inline static constexpr unsigned int CJGNCPIDGNH_TypeDefinitionIndex = 80265;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::FJPMJPEKLJL))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_HCJEKDPGABN_OFFSET))(this, a1);
 		}
 
-		::System::Void CDODNONECGH(::System::Action* a1)
+		::System::Void CDODNONECGH(::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_CDODNONECGH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_CDODNONECGH_OFFSET))(this, a1);
 		}
 
-		::System::Void HFAGDHEMCKN(::System::Action* a1)
+		::System::Void HFAGDHEMCKN(::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_HFAGDHEMCKN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState>*))((::PBYTE)hIl2Cpp + CJGNCPIDGNH_HFAGDHEMCKN_OFFSET))(this, a1);
 		}
 
 		::MBJOEPEGLII* NIJHDGKBHPM(::FJPMJPEKLJL a1)

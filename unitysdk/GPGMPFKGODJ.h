@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class DEEJKBIMHAA;
 class DFMJJDEDODL;
 namespace RPG::Client { class ReplayCustomData; }
-namespace System { class Nullable; }
 
 #define GPGMPFKGODJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15B58D70)
 #define GPGMPFKGODJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B593F0)
@@ -23,8 +23,8 @@ inline static constexpr unsigned int GPGMPFKGODJ_TypeDefinitionIndex = 56043;
 		::DFMJJDEDODL* OCAAOJEPEIN; // 0x10
 		::DFMJJDEDODL* BBJNCKODCKM; // 0x18
 		::DEEJKBIMHAA* OLEEIPHBJKB; // 0x20
-		::System::Nullable* MCLAPLIALEG; // 0x28
-		::System::Nullable* NOAGFJLOLAI; // 0x30
+		::System::Nullable_1<::System::UInt32> MCLAPLIALEG; // 0x28
+		::System::Nullable_1<::System::UInt32> NOAGFJLOLAI; // 0x30
 		::System::Boolean MMMFKOMGEON; // 0x38
 		::System::Void _ctor(::DEEJKBIMHAA* a1, ::System::Boolean a2)
 		{

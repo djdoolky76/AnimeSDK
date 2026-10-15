@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PKEJBHFMHCB.h"
+#include "unitysdk/System/Nullable_1.h"
 class GDAACOIKPFC;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -19,8 +19,8 @@ inline static constexpr unsigned int GINLLEEBIOH_TypeDefinitionIndex = 78353;
 	public:
 		::GDAACOIKPFC* HCABGOKDFJB; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* OEKDLELNKPP; // 0x30
-		::System::Nullable* HPGPKEPIBBP; // 0x38
-		::System::Nullable* OHBJMAGBEEF; // 0x40
+		::System::Nullable_1<::System::Int32> HPGPKEPIBBP; // 0x38
+		::System::Nullable_1<::System::Int32> OHBJMAGBEEF; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINLLEEBIOH_CTOR_OFFSET))(this);

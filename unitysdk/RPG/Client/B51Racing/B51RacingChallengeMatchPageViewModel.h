@@ -5,6 +5,7 @@
 namespace RPG::Client::B51Racing { class B51RacingChallengeMatchItemViewModel; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC731280)
 
@@ -19,7 +20,7 @@ namespace RPG::Client::B51Racing
 		::System::String* SelectedMapPath; // 0x18
 		::Il2CppArray<::RPG::Client::B51Racing::B51RacingChallengeMatchItemViewModel*>* MatchItems; // 0x20
 		::System::Action* OnCustomizeCar; // 0x28
-		::System::Action* OnMatchSelected; // 0x30
+		::System::Action_1<::System::UInt32>* OnMatchSelected; // 0x30
 		::System::Action* OnCarDetail; // 0x38
 		::RPG::Client::TextID SelectedMatchName; // 0x40
 		::System::UInt32 SelectedHistoryBestTime; // 0x50

@@ -4,6 +4,7 @@
 namespace MiHoYo::SDK::UI { class AgeGateParentalConsentDialog; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
@@ -44,7 +45,7 @@ namespace MiHoYo::SDK::UI
 		::UnityEngine::UI::Button* inputClearBtn; // 0xA0
 		::UnityEngine::UI::Button* confirmBtn; // 0xA8
 		::UnityEngine::UI::Text* confirmBtnText; // 0xB0
-		::System::Action* _OnNextButtonClicked_k__BackingField; // 0xB8
+		::System::Action_1<::System::String*>* _OnNextButtonClicked_k__BackingField; // 0xB8
 		::System::Action* _OnShowParentalControlProcessButtonPressed_k__BackingField; // 0xC0
 		::System::Action* _OnCloseBtnCliked_k__BackingField; // 0xC8
 		static ::MiHoYo::SDK::UI::AgeGateParentalConsentDialog** StaticGet_Instance()
@@ -70,14 +71,14 @@ namespace MiHoYo::SDK::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnNextButtonClicked()
+		::System::Action_1<::System::String*>* get_OnNextButtonClicked()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONNEXTBUTTONCLICKED_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_GET_ONNEXTBUTTONCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnNextButtonClicked(::System::Action* a1)
+		::System::Void set_OnNextButtonClicked(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONNEXTBUTTONCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG_SET_ONNEXTBUTTONCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnShowParentalControlProcessButtonPressed()

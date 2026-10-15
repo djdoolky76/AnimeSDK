@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 #include "unitysdk/System/Runtime/CompilerServices/ConfiguredTaskAwaitable_ConfiguredTaskAwaiter.h"
 #include "unitysdk/System/Security/Cryptography/CryptoStream_HopToThreadPoolAwaitable.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
@@ -25,7 +25,7 @@ namespace System::Security::Cryptography
 		::System::Security::Cryptography::CryptoStream* __4__this; // 0x28
 		::System::Threading::CancellationToken cancellationToken; // 0x30
 		::Il2CppArray<::System::Byte>* _tempInputBuffer_5__1; // 0x38
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x40
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x40
 		::System::Byte _padding1[0x10];
 		::System::Threading::SemaphoreSlim* _sem_5__4; // 0x58
 		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2; // 0x60

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Promises
 {
@@ -14,8 +14,8 @@ namespace RPG::Client::Promises
 	class Promise_1___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onResolved; // 0x0
+		::System::Action_1<::System::Object*>* onResolved; // 0x0
 		::RPG::Client::Promises::Promise* resultPromise; // 0x0
-		::System::Action* onRejected; // 0x0
+		::System::Action_1<::System::Exception*>* onRejected; // 0x0
 	};
 }

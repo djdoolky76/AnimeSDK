@@ -10,8 +10,8 @@ namespace RPG::Client { class Booklet; }
 namespace RPG::Client { class BookletLuaPanelParam; }
 namespace RPG::Client { class UIController; }
 namespace RPG::GameCore::Booklet { class ElementConfig; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
@@ -53,8 +53,8 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::List_1<::GABKNKLLMNP*>* _Plugins; // 0x18
 		::System::Collections::Generic::List_1<::LAIJLALGDLB*>* _UpdatableList; // 0x20
-		::System::Action* _PanelCreator; // 0x28
-		::System::Action* _PanelDestroyer; // 0x30
+		::System::Action_1<::RPG::Client::BookletLuaPanelParam*>* _PanelCreator; // 0x28
+		::System::Action_1<::System::UInt32>* _PanelDestroyer; // 0x30
 		::RPG::Client::UIController* _Owner_k__BackingField; // 0x38
 		::RPG::Client::Booklet* _Context_k__BackingField; // 0x40
 		::System::Void _ctor()
@@ -122,9 +122,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETVIEW_REPLAY_OFFSET))(this);
 		}
 
-		::System::Void Init(::RPG::Client::UIController* a1, ::RPG::Client::Booklet* a2, ::System::Action* a3, ::System::Action* a4)
+		::System::Void Init(::RPG::Client::UIController* a1, ::RPG::Client::Booklet* a2, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>* a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::Booklet*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETVIEW_INIT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*, ::RPG::Client::Booklet*, ::System::Action_1<::RPG::Client::BookletLuaPanelParam*>*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETVIEW_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Destroy()

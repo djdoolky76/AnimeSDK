@@ -9,7 +9,7 @@ namespace RPG::GameCore { class AdventurePositionCheckConfig; }
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 
 #define DNGIEBCPNIB_CHBOHMJJLHG_OFFSET UNITYSDK_OFFSET(0x11952AA0)
@@ -34,12 +34,12 @@ inline static constexpr unsigned int DNGIEBCPNIB_TypeDefinitionIndex = 57363;
 	class DNGIEBCPNIB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::System::Action* KMHBOBANHJI; // 0x18
+		::System::Action_1<::DNGIEBCPNIB*>* KMHBOBANHJI; // 0x18
 		::RPG::GameCore::AdventurePositionCheckConfig* IGHAHBNLIJA; // 0x20
 		::RPG::GameCore::GameEntity* _PosApdationTarget_k__BackingField; // 0x28
 		::RPG::GameCore::TransformComponent* PLJPNMPJMJH; // 0x30
 		::RPG::GameCore::CharacterVisibleComponent* JAOPNEJFELA; // 0x38
-		::System::Action* GAHEPJKKNMJ; // 0x40
+		::System::Action_1<::DNGIEBCPNIB*>* GAHEPJKKNMJ; // 0x40
 		::System::Single LPCKOIGHKLK; // 0x48
 		::System::Boolean LAMACEHMLGJ; // 0x4C
 		::System::Byte _padding0[0x3];

@@ -7,8 +7,8 @@ namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::Win { class NoticeManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
 #define MIHOYO_SDK_WIN_NOTICEMANAGER_BUILDREPORTMSGWITHTYPE_OFFSET UNITYSDK_OFFSET(0x1BD9D560)
@@ -63,7 +63,7 @@ namespace MiHoYo::SDK::Win
 		::System::String* HoYoLogoutAnnRedPoint; // 0x18
 		::MiHoYo::SDK::Web* noticeWeb; // 0x20
 		::UnityEngine::Coroutine* noticeCoroutine; // 0x28
-		::System::Action* m_callbackShowNotice; // 0x30
+		::System::Action_1<::System::String*>* m_callbackShowNotice; // 0x30
 		static ::MiHoYo::SDK::Win::NoticeManager** StaticGet_Instance()
 		{
 			return (::MiHoYo::SDK::Win::NoticeManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "NoticeManager")->GetStaticField(0x10450);
@@ -119,14 +119,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NOTICEMANAGER_PRELOAD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowNotice(::System::String* a1, ::System::Action* a2)
+		::System::Void ShowNotice(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NOTICEMANAGER_SHOWNOTICE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NOTICEMANAGER_SHOWNOTICE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ShowCustomNotice(::System::String* a1, ::System::Action* a2)
+		::System::Void ShowCustomNotice(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NOTICEMANAGER_SHOWCUSTOMNOTICE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NOTICEMANAGER_SHOWCUSTOMNOTICE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean ShowPopNotice()

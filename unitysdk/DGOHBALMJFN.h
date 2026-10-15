@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HDHODAPAOMM.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class MonoWavingBlockControl; }
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class Nullable; }
 namespace UnityEngine { class GameObject; }
 
 #define DGOHBALMJFN_CTOR_OFFSET UNITYSDK_OFFSET(0xE85AFC0)
@@ -19,7 +19,7 @@ inline static constexpr unsigned int DGOHBALMJFN_TypeDefinitionIndex = 57380;
 	{
 	public:
 		::RPG::Client::MonoWavingBlockControl* GIGFMBDOPOH; // 0x18
-		::System::Nullable* OBGJMDKPNCC; // 0x20
+		::System::Nullable_1<::System::Int32> OBGJMDKPNCC; // 0x20
 		::System::Void _ctor(::RPG::GameCore::PropComponent* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PropComponent*))((::PBYTE)hIl2Cpp + DGOHBALMJFN_CTOR_OFFSET))(this, a1);

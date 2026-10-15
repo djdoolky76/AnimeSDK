@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class OBKMGFPLJGB;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
@@ -20,7 +20,7 @@ inline static constexpr unsigned int OBKMGFPLJGB_TypeDefinitionIndex = 35181;
 	class OBKMGFPLJGB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::SortedList_2<::System::String*, ::System::ValueTuple>* LKEAPHDFKGJ; // 0x10
+		::System::Collections::Generic::SortedList_2<::System::String*, ::System::ValueTuple_2<::System::IO::MemoryMappedFiles::MemoryMappedFile*, ::System::Int32>>* LKEAPHDFKGJ; // 0x10
 		static ::OBKMGFPLJGB** StaticGet_EMLNOINPICJ()
 		{
 			return (::OBKMGFPLJGB**)UnitySDK::FromName("", "OBKMGFPLJGB")->GetStaticField(0x44360);

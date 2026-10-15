@@ -8,7 +8,7 @@ class FNINJACLJOH;
 class LOKOIPOFAHC;
 class NMCLDAMPDNE;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LOKOIPOFAHC_BNMFMCEFHLH_OFFSET UNITYSDK_OFFSET(0xB80B480)
@@ -30,7 +30,7 @@ inline static constexpr unsigned int LOKOIPOFAHC_TypeDefinitionIndex = 53974;
 	class LOKOIPOFAHC : public ::System::Object
 	{
 	public:
-		::System::Action* HGOJNFKDIMA; // 0x10
+		::System::Action_2<::RPG::GameCore::RtCharacterState, ::RPG::GameCore::RtCharacterState>* HGOJNFKDIMA; // 0x10
 		::FNINJACLJOH* HMPGKKAPEJN; // 0x18
 		::Il2CppArray<::ENAAOFHBDIB*>* EMDGNIIHDEN; // 0x20
 		::ENAAOFHBDIB* JJBOPOPCOCH; // 0x28

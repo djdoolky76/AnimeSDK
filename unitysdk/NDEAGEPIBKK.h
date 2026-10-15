@@ -5,10 +5,10 @@
 #include "unitysdk/RPG/GameCore/MarbleLifeTime.h"
 #include "unitysdk/RPG/GameCore/MarbleOperation.h"
 #include "unitysdk/RPG/GameCore/MarbleValue.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class NBIBOKEFKIH;
 namespace RPG::GameCore { class MarbleBuffConfig; }
-namespace System { class Nullable; }
 
 #define NDEAGEPIBKK_CFINKMFANFE_OFFSET UNITYSDK_OFFSET(0x1C937F70)
 #define NDEAGEPIBKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C93DD30)
@@ -43,12 +43,12 @@ inline static constexpr unsigned int NDEAGEPIBKK_TypeDefinitionIndex = 43090;
 		::RPG::GameCore::MarbleBuffConfig* _Config_k__BackingField; // 0x10
 		::System::UInt32 _Source_k__BackingField; // 0x18
 		::System::Int32 _RoundCount_k__BackingField; // 0x1C
-		::System::Nullable* PNGPEKDABLL; // 0x20
+		::System::Nullable_1<::System::Single> PNGPEKDABLL; // 0x20
 		::System::UInt32 _BuffId_k__BackingField; // 0x28
 		::System::UInt32 _StackCount_k__BackingField; // 0x2C
-		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::MarbleBuffConfig* a2, ::NBIBOKEFKIH* a3, ::System::UInt32 a4, ::System::Int32 a5, ::System::Nullable* a6)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::MarbleBuffConfig* a2, ::NBIBOKEFKIH* a3, ::System::UInt32 a4, ::System::Int32 a5, ::System::Nullable_1<::System::Single> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::MarbleBuffConfig*, ::NBIBOKEFKIH*, ::System::UInt32, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + NDEAGEPIBKK_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::MarbleBuffConfig*, ::NBIBOKEFKIH*, ::System::UInt32, ::System::Int32, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NDEAGEPIBKK_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void FMPJJHKCNGG()

@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/RPG/Client/PetMarble/PetEmojiInfo.h"
 class AAEIIPCFEPB;
 class BEJEBLAKKNN;
@@ -29,9 +30,9 @@ namespace RPG::GameCore { class LevelAreaManager; }
 namespace RPG::GameCore { class MarbleEmojiRow; }
 namespace RPG::GameCore { class MarbleMatchInfoConfigRow; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -195,7 +196,7 @@ namespace RPG::Client
 		::RPG::Client::ActivityMarble::MarblePlayerProgressInfo* _ProgressInfo; // 0x68
 		::System::Boolean _IsInPVEProgress_k__BackingField; // 0x70
 		::System::Boolean _IsCountingDown_k__BackingField; // 0x71
-		::System::Nullable* _IsMarbleLimitRewardSeen; // 0x72
+		::System::Nullable_1<::System::Boolean> _IsMarbleLimitRewardSeen; // 0x72
 		::System::Single _CountDownEndTime_k__BackingField; // 0x74
 		static ::System::String** StaticGet_BLOCK_NAME()
 		{
@@ -355,9 +356,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEMODULE_GETPLAYERINDEXBYUID_OFFSET))(this, a1);
 		}
 
-		::System::Void NotifyPetMarblePveLevelBeginStat(::ODHFCEALPFN* a1, ::System::Action* a2)
+		::System::Void NotifyPetMarblePveLevelBeginStat(::ODHFCEALPFN* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::ODHFCEALPFN*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEMODULE_NOTIFYPETMARBLEPVELEVELBEGINSTAT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::ODHFCEALPFN*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEMODULE_NOTIFYPETMARBLEPVELEVELBEGINSTAT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void NotifyPetMarblePveLevelEndStat(::MNLLCNFNKKP* a1)

@@ -4,6 +4,7 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class UGCInterface; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB05F950)
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS37_0__POSTHTTPREQUESTTASK_B__0_OFFSET UNITYSDK_OFFSET(0xB062A40)
@@ -17,8 +18,8 @@ namespace MiHoYo::SDK
 	{
 	public:
 		::MiHoYo::SDK::UGCInterface* __4__this; // 0x10
-		::System::Action* callback; // 0x18
-		::System::Action* tokenFailedCallback; // 0x20
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x20
 		::System::Action* task; // 0x28
 		::System::Void _ctor()
 		{

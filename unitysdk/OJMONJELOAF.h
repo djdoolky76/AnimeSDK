@@ -5,7 +5,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class DIBPAJHLFIF;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define OJMONJELOAF_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xBECBAD0)
 #define OJMONJELOAF_ABLHOKMABJJ_OFFSET UNITYSDK_OFFSET(0xBECBE70)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int OJMONJELOAF_TypeDefinitionIndex = 54092;
 	class OJMONJELOAF : public ::System::Object
 	{
 	public:
-		::System::Action* HFNCIGJGPFM; // 0x10
+		::System::Action_1<::DIBPAJHLFIF*>* HFNCIGJGPFM; // 0x10
 		::RPG::GameCore::RtAIBehaviorStopReason AINIOFKHNKO; // 0x18
 		::RPG::GameCore::RtAIBehaviorState DLNIGFGLPLJ; // 0x1C
 		::System::Void _ctor()

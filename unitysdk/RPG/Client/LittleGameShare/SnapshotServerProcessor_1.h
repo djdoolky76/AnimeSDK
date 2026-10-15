@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class AEKIOONKCIB;
-namespace Entitas { class IContext; }
+namespace Entitas { template <typename T> class IContext_1; }
 
 namespace RPG::Client::LittleGameShare
 {
@@ -13,7 +13,7 @@ namespace RPG::Client::LittleGameShare
 	{
 	public:
 		::AEKIOONKCIB* _Instance; // 0x0
-		::Entitas::IContext* _Context; // 0x0
+		::Entitas::IContext_1<T>* _Context; // 0x0
 		::System::Int32 _ReplicatedComponentIndex; // 0x0
 	};
 }

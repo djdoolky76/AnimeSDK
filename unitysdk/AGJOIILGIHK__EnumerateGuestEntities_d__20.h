@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class AGJOIILGIHK;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define AGJOIILGIHK__ENUMERATEGUESTENTITIES_D__20_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3AC80)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int AGJOIILGIHK__EnumerateGuestEntities_d__20_T
 	public:
 		::System::Object* __7__wrap1; // 0x10
 		::System::Byte _padding0[0x20];
-		::System::Collections::Generic::KeyValuePair* __2__current; // 0x38
+		::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*> __2__current; // 0x38
 		::System::Byte _padding1[0x8];
 		::AGJOIILGIHK* __4__this; // 0x48
 		::System::Int32 __1__state; // 0x50
@@ -51,9 +51,9 @@ inline static constexpr unsigned int AGJOIILGIHK__EnumerateGuestEntities_d__20_T
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOIILGIHK__ENUMERATEGUESTENTITIES_D__20___M__FINALLY1_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::KeyValuePair* System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_UInt32_RPG_GameCore_GameEntity___get_Current()
+		::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_UInt32_RPG_GameCore_GameEntity___get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOIILGIHK__ENUMERATEGUESTENTITIES_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_UINT32_RPG_GAMECORE_GAMEENTITY___GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*>(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOIILGIHK__ENUMERATEGUESTENTITIES_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_UINT32_RPG_GAMECORE_GAMEENTITY___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -66,9 +66,9 @@ inline static constexpr unsigned int AGJOIILGIHK__EnumerateGuestEntities_d__20_T
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOIILGIHK__ENUMERATEGUESTENTITIES_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_UInt32_RPG_GameCore_GameEntity___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*>>* System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_UInt32_RPG_GameCore_GameEntity___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOIILGIHK__ENUMERATEGUESTENTITIES_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_UINT32_RPG_GAMECORE_GAMEENTITY___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOIILGIHK__ENUMERATEGUESTENTITIES_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_UINT32_RPG_GAMECORE_GAMEENTITY___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

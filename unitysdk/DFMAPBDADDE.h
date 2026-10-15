@@ -8,8 +8,8 @@ class DFMAPBDADDE;
 class LJJLPCBDFAJ;
 namespace Entitas { class IEntity; }
 namespace RPG { template <typename T> class PoolList_1; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
@@ -31,7 +31,7 @@ inline static constexpr unsigned int DFMAPBDADDE_TypeDefinitionIndex = 42009;
 		::System::String* CDEEHGCEOKN; // 0x50
 		::UnityEngine::Transform* CIMHBBGGADG; // 0x58
 		::System::String* FCDAFMMLHEM; // 0x60
-		::System::Action* CLOEGAGOONL; // 0x68
+		::System::Action_2<::Entitas::IEntity*, ::UnityEngine::GameObject*>* CLOEGAGOONL; // 0x68
 		::System::String* BAHLDFMIJFG; // 0x70
 		::UnityEngine::GameObject* HKNLMDCOCCF; // 0x78
 		::UnityEngine::Vector3 POHDKIIOAJB; // 0x80

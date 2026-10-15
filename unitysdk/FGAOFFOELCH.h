@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::GameCore { class TaskContext; }
@@ -60,9 +60,9 @@ inline static constexpr unsigned int FGAOFFOELCH_TypeDefinitionIndex = 55797;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FGAOFFOELCH_KFMKNBHFGIK_OFFSET))(this);
 		}
 
-		::System::ValueTuple JLNPBOCIDBI(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraDataAndFlags* a2, ::RPG::GameCore::VCameraConfig* a3)
+		::System::ValueTuple_2<::System::Boolean, ::System::Boolean> JLNPBOCIDBI(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraDataAndFlags* a2, ::RPG::GameCore::VCameraConfig* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraDataAndFlags*, ::RPG::GameCore::VCameraConfig*))((::PBYTE)hIl2Cpp + FGAOFFOELCH_JLNPBOCIDBI_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraDataAndFlags*, ::RPG::GameCore::VCameraConfig*))((::PBYTE)hIl2Cpp + FGAOFFOELCH_JLNPBOCIDBI_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void JPPGBEJAIDP(::RPG::Client::CameraDataAndFlags* a1, ::RPG::GameCore::VCameraConfig* a2)

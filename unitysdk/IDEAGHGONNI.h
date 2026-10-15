@@ -8,6 +8,7 @@ class HIAMBDKHMIJ;
 class JIAFOPELMJJ;
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
@@ -37,7 +38,7 @@ inline static constexpr unsigned int IDEAGHGONNI_TypeDefinitionIndex = 61222;
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* HPKJPNBBBAO; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* AIGFMACJBHG; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* OIJNPBMLBFJ; // 0x28
-		::System::Action* PHJFCBCIGHB; // 0x30
+		::System::Action_1<::HIAMBDKHMIJ*>* PHJFCBCIGHB; // 0x30
 		::System::Action* BJMNHNHEABC; // 0x38
 		::JIAFOPELMJJ* MIPPNCGOJNM; // 0x40
 		::System::Boolean JGBDJCKDILB; // 0x48
@@ -77,9 +78,9 @@ inline static constexpr unsigned int IDEAGHGONNI_TypeDefinitionIndex = 61222;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IDEAGHGONNI_ABNAAIJOHEP_OFFSET))(this, a1);
 		}
 
-		::System::Void MIBPFFJMONL(::System::Action* a1)
+		::System::Void MIBPFFJMONL(::System::Action_1<::HIAMBDKHMIJ*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IDEAGHGONNI_MIBPFFJMONL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::HIAMBDKHMIJ*>*))((::PBYTE)hIl2Cpp + IDEAGHGONNI_MIBPFFJMONL_OFFSET))(this, a1);
 		}
 
 		::System::Void GLLNBPLJGFN(::System::Action* a1)

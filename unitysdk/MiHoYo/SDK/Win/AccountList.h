@@ -5,6 +5,8 @@ namespace MiHoYo::SDK::Win { class AccountList; }
 namespace MiHoYo::SDK::Win { class AccountList_AccountListItemsInfo; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Dropdown; }
@@ -63,8 +65,8 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnCloseFullDelegate; // 0xE0
 		::System::Action* OnLoginOtherAccountFullDelegate; // 0xE8
 		::System::Action* OnConfirmFullDelegate; // 0xF0
-		::System::Action* OnAccountSelectedFullDelegate; // 0xF8
-		::System::Action* OnDeleteAccountListItemFullDelegate; // 0x100
+		::System::Action_1<::System::Int32>* OnAccountSelectedFullDelegate; // 0xF8
+		::System::Action_2<::System::Int32, ::System::Action_1<::System::Int32>*>* OnDeleteAccountListItemFullDelegate; // 0x100
 		::System::Action* OnDeleteAccountFullDelegate; // 0x108
 		::System::Action* OnNoticeExpandDropdownFullDelegate; // 0x110
 		::System::Action* OnCollapseListFullDelegate; // 0x118

@@ -15,6 +15,7 @@ class LOLCJIIIHIM;
 class PKJHLEOADGL;
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
@@ -53,7 +54,7 @@ inline static constexpr unsigned int FCLEMGPEMJJ_TypeDefinitionIndex = 79461;
 	class FCLEMGPEMJJ : public ::System::Object
 	{
 	public:
-		::System::Action* HandleScrollToMold; // 0x10
+		::System::Action_1<::ILOOAAOHIIG*>* HandleScrollToMold; // 0x10
 		::LJHCJGNNMJD* JNIEKIAFNBA; // 0x18
 		::System::Collections::Generic::IReadOnlyList_1<::ILOOAAOHIIG*>* _AllMolds_k__BackingField; // 0x20
 		::CEEGMMCFCBG* OLFOEPECHIB; // 0x28
@@ -98,14 +99,14 @@ inline static constexpr unsigned int FCLEMGPEMJJ_TypeDefinitionIndex = 79461;
 			return ((::System::Void(*)(::PVOID, ::FCLEMGPEMJJ_CALHOBNPLPJ*))((::PBYTE)hIl2Cpp + FCLEMGPEMJJ_REMOVE_ONMOLDSCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_HandleScrollToMold(::System::Action* a1)
+		::System::Void add_HandleScrollToMold(::System::Action_1<::ILOOAAOHIIG*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FCLEMGPEMJJ_ADD_HANDLESCROLLTOMOLD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::ILOOAAOHIIG*>*))((::PBYTE)hIl2Cpp + FCLEMGPEMJJ_ADD_HANDLESCROLLTOMOLD_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleScrollToMold(::System::Action* a1)
+		::System::Void remove_HandleScrollToMold(::System::Action_1<::ILOOAAOHIIG*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FCLEMGPEMJJ_REMOVE_HANDLESCROLLTOMOLD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::ILOOAAOHIIG*>*))((::PBYTE)hIl2Cpp + FCLEMGPEMJJ_REMOVE_HANDLESCROLLTOMOLD_OFFSET))(this, a1);
 		}
 
 		::PKJHLEOADGL* get_FilterTabs()

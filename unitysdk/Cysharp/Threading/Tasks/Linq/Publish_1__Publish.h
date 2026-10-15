@@ -5,8 +5,8 @@
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class ITriggerHandler_1; }
 namespace Cysharp::Threading::Tasks::Linq { template <typename T> class Publish_1; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
@@ -23,9 +23,9 @@ namespace Cysharp::Threading::Tasks::Linq
 		T _Current_k__BackingField; // 0x0
 		::Cysharp::Threading::Tasks::ITriggerHandler_1<T>* _Cysharp_Threading_Tasks_ITriggerHandler_TSource__Prev_k__BackingField; // 0x0
 		::Cysharp::Threading::Tasks::ITriggerHandler_1<T>* _Cysharp_Threading_Tasks_ITriggerHandler_TSource__Next_k__BackingField; // 0x0
-		static ::System::Action** StaticGet_CancelDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_CancelDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_Publish")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_Publish")->GetStaticField(0x0);
 		}
 
 	};

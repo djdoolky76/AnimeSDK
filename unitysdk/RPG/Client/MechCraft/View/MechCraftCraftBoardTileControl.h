@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class OMNGKIHLBOL;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftBoardTileControlBinder; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDTILECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD6020D0)
@@ -37,7 +37,7 @@ namespace RPG::Client::MechCraft::View
 		::System::Byte _padding0[0x4];
 		::OMNGKIHLBOL* FHNIIJMLKAD; // 0x28
 		::OMNGKIHLBOL* PJAJANLFIII; // 0x30
-		::System::Nullable* IDODKOGDKPM; // 0x38
+		::System::Nullable_1<::System::Single> IDODKOGDKPM; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDTILECONTROL_CTOR_OFFSET))(this);
@@ -113,9 +113,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDTILECONTROL_DHPNIEOHALI_OFFSET))(this);
 		}
 
-		::System::Void HintPlaced(::System::Nullable* a1)
+		::System::Void HintPlaced(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDTILECONTROL_HINTPLACED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDTILECONTROL_HINTPLACED_OFFSET))(this, a1);
 		}
 
 		::System::Void ForceCloseCellVfx()

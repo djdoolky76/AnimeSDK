@@ -3,8 +3,8 @@
 #include "unitysdk/EBMMGODFEEO_DirectorState.h"
 #include "unitysdk/RPGTools/Timeline/PauseTimelineReason.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -30,7 +30,7 @@ inline static constexpr unsigned int EBMMGODFEEO_TypeDefinitionIndex = 48492;
 		::UnityEngine::Playables::PlayableDirector* LDALFGDPLLF; // 0x18
 		::UnityEngine::GameObject* IHOJMGFDIHL; // 0x20
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* IEFMDBOGJFA; // 0x28
-		::System::Action* NOLDNHOCOLH; // 0x30
+		::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* NOLDNHOCOLH; // 0x30
 		::System::String* FEBCMBILJMP; // 0x38
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* DAMHMJPFPDN; // 0x40
 		::UnityEngine::Events::UnityAction* FMNFMLKMHHL; // 0x48

@@ -15,7 +15,7 @@ namespace RPG::Client::NavMap { class ISubNavMap; }
 namespace RPG::Client::NavMap { class SubTabData; }
 namespace RPG::Client::NavMap { class UniverseData; }
 namespace RPG::Client::NavMap { class WorldData; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class NavMapSubTabRow; }
 namespace RPG::GameCore { class SubMissionRow; }
 namespace System { class String; }
@@ -137,9 +137,9 @@ namespace RPG::Client::NavMap
 			return ((::RPG::Client::NavMap::ICartography*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_SUBTABDATA_GETCARTOGRAPHYDATA_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* GetSyncedCartographyData(::System::Boolean a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartography*>* GetSyncedCartographyData(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_SUBTABDATA_GETSYNCEDCARTOGRAPHYDATA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartography*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_SUBTABDATA_GETSYNCEDCARTOGRAPHYDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void PrepareMapData()

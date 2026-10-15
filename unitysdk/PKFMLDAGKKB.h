@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Pose.h"
@@ -16,7 +17,6 @@ namespace RPG::Client { class BatchAnimationAttachPointMapping; }
 namespace RPG::Client { class BatchAnimationGraphMaskLayerConfig_BatchAnimationNPCMaskAnimConfig; }
 namespace RPG::Client { class PedestrianMemberExternalConfig_BatchAnimation; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -125,7 +125,7 @@ inline static constexpr unsigned int PKFMLDAGKKB_TypeDefinitionIndex = 69258;
 		::System::Boolean ODMMJFBMNBP; // 0x111
 		::System::Boolean JDKBGILFNCG; // 0x112
 		::System::Boolean PJOBJLOMAEO; // 0x113
-		::System::Nullable* OGFMJEKIEEC; // 0x114
+		::System::Nullable_1<::UnityEngine::Pose> OGFMJEKIEEC; // 0x114
 		::System::Byte _padding0[0x18];
 		::System::Single _Radius_k__BackingField; // 0x134
 		static ::UnityEngine::Vector3* StaticGet_LCLIBCPMLIN()
@@ -183,9 +183,9 @@ inline static constexpr unsigned int PKFMLDAGKKB_TypeDefinitionIndex = 69258;
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + PKFMLDAGKKB_GJMPCDMDAEO_OFFSET))(this);
 		}
 
-		::System::Void DLAILGNMFGI(::System::String* a1, ::System::String* a2, ::System::String* a3, ::RPG::Client::PedestrianMemberExternalConfig_BatchAnimation* a4, ::System::Action* a5, ::System::Nullable* a6)
+		::System::Void DLAILGNMFGI(::System::String* a1, ::System::String* a2, ::System::String* a3, ::RPG::Client::PedestrianMemberExternalConfig_BatchAnimation* a4, ::System::Action* a5, ::System::Nullable_1<::UnityEngine::Pose> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::RPG::Client::PedestrianMemberExternalConfig_BatchAnimation*, ::System::Action*, ::System::Nullable*))((::PBYTE)hIl2Cpp + PKFMLDAGKKB_DLAILGNMFGI_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::RPG::Client::PedestrianMemberExternalConfig_BatchAnimation*, ::System::Action*, ::System::Nullable_1<::UnityEngine::Pose>))((::PBYTE)hIl2Cpp + PKFMLDAGKKB_DLAILGNMFGI_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void Clear()

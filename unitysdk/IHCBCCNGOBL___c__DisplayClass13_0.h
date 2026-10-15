@@ -4,7 +4,7 @@
 class FHOHODHOAIA;
 class GPLMLPKBGGE;
 class PMBMFHMKBNC;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define IHCBCCNGOBL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16419AC0)
@@ -22,9 +22,9 @@ inline static constexpr unsigned int IHCBCCNGOBL___c__DisplayClass13_0_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IHCBCCNGOBL___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _Save_b__0(::PMBMFHMKBNC* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _Save_b__0(::PMBMFHMKBNC* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::PMBMFHMKBNC*))((::PBYTE)hIl2Cpp + IHCBCCNGOBL___C__DISPLAYCLASS13_0__SAVE_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::PMBMFHMKBNC*))((::PBYTE)hIl2Cpp + IHCBCCNGOBL___C__DISPLAYCLASS13_0__SAVE_B__0_OFFSET))(this, a1);
 		}
 
 	};

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Console { class ConsoleRealNameDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC91610)
 #define MIHOYO_SDK_CONSOLE_CONSOLEREALNAMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC91650)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::Console
 	class ConsoleRealNameDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__16_0()
+		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleRealNameDialog*>** StaticGet___9__16_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x35A90);
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleRealNameDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x35A90);
 		}
 
 		static ::System::Object** StaticGet___9()

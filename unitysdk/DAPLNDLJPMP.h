@@ -21,6 +21,7 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -639,9 +640,9 @@ inline static constexpr unsigned int DAPLNDLJPMP_TypeDefinitionIndex = 59685;
 			return ((::System::Void(*)(::PVOID, ::PFACHJFCILN*, ::System::Boolean))((::PBYTE)hIl2Cpp + DAPLNDLJPMP_JDIHJCFGOOP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action* CGIBACPEIDO()
+		::System::Action_2<::PFACHJFCILN*, ::System::Boolean>* CGIBACPEIDO()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + DAPLNDLJPMP_CGIBACPEIDO_OFFSET))(this);
+			return ((::System::Action_2<::PFACHJFCILN*, ::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DAPLNDLJPMP_CGIBACPEIDO_OFFSET))(this);
 		}
 
 		::System::Void JCJNEMPJODA(::HMPBAIAPDBE* a1, ::PFACHJFCILN* a2)

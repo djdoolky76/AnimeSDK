@@ -27,7 +27,7 @@
 #include "unitysdk/NBEKNJDCLEI.h"
 #include "unitysdk/PALBAPMODCK.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class DELPKNBPNLN;
 class EKFMIDBJDIA;
@@ -41,7 +41,7 @@ class PEEDLCHFAFL;
 namespace Entitas { class IComponent; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client { class FiveDimGameInstance_MusicBeatEffect; }
 namespace RPG::Client { class FiveDimPlayerEnterLeaveInfo; }
 namespace RPG::Client { class FiveDimTrainModeDisplayInfos; }
@@ -64,6 +64,7 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
@@ -525,9 +526,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_EXITMINIGAME_OFFSET))(this);
 		}
 
-		::System::Void SetMiniGameListenerCallback(::System::Boolean a1, ::System::Action* a2)
+		::System::Void SetMiniGameListenerCallback(::System::Boolean a1, ::System::Action_1<::RPG::Client::LittleGame::FiveDim::MiniGameEventReason>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_SETMINIGAMELISTENERCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action_1<::RPG::Client::LittleGame::FiveDim::MiniGameEventReason>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_SETMINIGAMELISTENERCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RegisterCollectCoinCallback(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
@@ -650,14 +651,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_DISPOSETHREADCOLLECTDATA_OFFSET))(this);
 		}
 
-		::System::Void _OnViewBoundEntityAdded(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void _OnViewBoundEntityAdded(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE__ONVIEWBOUNDENTITYADDED_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE__ONVIEWBOUNDENTITYADDED_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _OnTransformEntityDirty(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void _OnTransformEntityDirty(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE__ONTRANSFORMENTITYDIRTY_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE__ONTRANSFORMENTITYDIRTY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _OnEntityWillBeDestroyed(::Entitas::IContext* a1, ::Entitas::IEntity* a2)
@@ -710,14 +711,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::GJNFGCKLBKC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_UNREGISTERMUSICBEATCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void AddTaskMusicBeatCallback(::System::Action* a1)
+		::System::Void AddTaskMusicBeatCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_ADDTASKMUSICBEATCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_ADDTASKMUSICBEATCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveTaskMusicBeatCallback(::System::Action* a1)
+		::System::Void RemoveTaskMusicBeatCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_REMOVETASKMUSICBEATCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_REMOVETASKMUSICBEATCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void _TryInitMusicBeatEffect()
@@ -935,9 +936,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::KLNKLOMDIIC, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_GETWAYPOINTATTACHPOINTTRANSFORM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetAttachTarget(::System::UInt32 a1, ::System::ValueTuple a2, ::System::String* a3)
+		::System::Void SetAttachTarget(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_SETATTACHTARGET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_SETATTACHTARGET_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void RemoveAttachTarget(::System::UInt32 a1)
@@ -945,9 +946,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_REMOVEATTACHTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetIgnoreCollisionTarget(::System::ValueTuple a1, ::System::Boolean a2)
+		::System::Void SetIgnoreCollisionTarget(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_SETIGNORECOLLISIONTARGET_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMGAMEINSTANCE_SETIGNORECOLLISIONTARGET_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetupSimpleTrigger(::System::UInt32 a1, ::KJFIKOKBCCA a2, ::KJFIKOKBCCA a3, ::System::Boolean a4)

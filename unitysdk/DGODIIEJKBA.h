@@ -5,7 +5,7 @@
 class AFEPOFEOCDI;
 class OCPOIDCNJDA;
 class OMPCEECHGJK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define DGODIIEJKBA_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0xE859060)
 #define DGODIIEJKBA_CLEANUP_OFFSET UNITYSDK_OFFSET(0xE859E00)
@@ -24,9 +24,9 @@ inline static constexpr unsigned int DGODIIEJKBA_TypeDefinitionIndex = 76662;
 	{
 	public:
 		::OMPCEECHGJK* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* NLIGANPHLKN; // 0x18
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* NLIGANPHLKN; // 0x18
 		::AFEPOFEOCDI* FKINCGODJEP; // 0x20
-		::Entitas::IGroup* OKKAJODPEAA; // 0x28
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* OKKAJODPEAA; // 0x28
 		::System::Void _ctor(::AFEPOFEOCDI* a1, ::OMPCEECHGJK* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::AFEPOFEOCDI*, ::OMPCEECHGJK*))((::PBYTE)hIl2Cpp + DGODIIEJKBA_CTOR_OFFSET))(this, a1, a2);

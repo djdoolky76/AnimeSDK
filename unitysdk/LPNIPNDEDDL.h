@@ -21,7 +21,7 @@ class NAKCDHDLNEI;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class FiveDimLevelVariableShort; }
 namespace RPG::GameCore { class FiveDimPortalTarget; }
@@ -117,7 +117,7 @@ inline static constexpr unsigned int LPNIPNDEDDL_TypeDefinitionIndex = 76892;
 	class LPNIPNDEDDL : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* BOPPBBDNCND; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* BOPPBBDNCND; // 0x10
 		::Il2CppArray<::UnityEngine::Collider*>* MCNHCAPBMDG; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
 		::Il2CppArray<::UnityEngine::RaycastHit>* DAAEFLHHLHD; // 0x28

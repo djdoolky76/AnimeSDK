@@ -4,7 +4,7 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define KMLEFAPALOE_CLEANUP_OFFSET UNITYSDK_OFFSET(0xB566420)
 #define KMLEFAPALOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB566340)
@@ -17,7 +17,7 @@ inline static constexpr unsigned int KMLEFAPALOE_TypeDefinitionIndex = 77168;
 	{
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* CEBJLDMINPB; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* CEBJLDMINPB; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

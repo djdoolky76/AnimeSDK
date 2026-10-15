@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETDATARAW_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F41AA90)
 #define UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_GETDATARAW_OFFSET UNITYSDK_OFFSET(0x3C73130)
@@ -68,9 +68,9 @@ namespace UnityEngine::Rendering
 		}
 
 		/*
-		::System::Void SetScriptingCallback(::System::Action* a1)
+		::System::Void SetScriptingCallback(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_SETSCRIPTINGCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_SETSCRIPTINGCALLBACK_OFFSET))(this, a1);
 		}
 		*/
 
@@ -108,9 +108,9 @@ namespace UnityEngine::Rendering
 		*/
 
 		/*
-		static ::System::Void SetScriptingCallback_Injected(::UnityEngine::Rendering::AsyncGPUReadbackRequest a1, ::System::Action* a2)
+		static ::System::Void SetScriptingCallback_Injected(::UnityEngine::Rendering::AsyncGPUReadbackRequest a1, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_SETSCRIPTINGCALLBACK_INJECTED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACKREQUEST_SETSCRIPTINGCALLBACK_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
 

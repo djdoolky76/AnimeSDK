@@ -5,6 +5,7 @@
 class KPBPOKHFDOM;
 class OFLBAIOGIMO;
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define ALEAFADNBPL_GCNIILGPHCD_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x15565260)
 #define ALEAFADNBPL_GCNIILGPHCD_ANHDEECJEIO_OFFSET UNITYSDK_OFFSET(0x15565220)
@@ -75,9 +76,9 @@ inline static constexpr unsigned int ALEAFADNBPL_GCNIILGPHCD_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALEAFADNBPL_GCNIILGPHCD_BBLFBKOJICH_OFFSET))(this);
 		}
 
-		::System::Void HEDHBNLIOAK(::System::Action* a1)
+		::System::Void HEDHBNLIOAK(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ALEAFADNBPL_GCNIILGPHCD_HEDHBNLIOAK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + ALEAFADNBPL_GCNIILGPHCD_HEDHBNLIOAK_OFFSET))(this, a1);
 		}
 
 		::System::Void HEDHBNLIOAK_1(::OFLBAIOGIMO* a1)

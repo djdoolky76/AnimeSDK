@@ -12,6 +12,7 @@ namespace RPG::Client { class ChallengePeakTeamContext; }
 namespace RPG::Client { class ChallengeSettleConfirmation; }
 namespace RPG::Client { class LuaUIGameFlowContext; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OOHFBGJHCMB_AGBJEDMAFDM_OFFSET UNITYSDK_OFFSET(0xBF7F020)
@@ -283,14 +284,14 @@ inline static constexpr unsigned int OOHFBGJHCMB_TypeDefinitionIndex = 63162;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_GHLBBCALGKD_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* KKBJCJIHCJG()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* KKBJCJIHCJG()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_KKBJCJIHCJG_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_KKBJCJIHCJG_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* NEBDHLFNEIH()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* NEBDHLFNEIH()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_NEBDHLFNEIH_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_NEBDHLFNEIH_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::IPromise* JGEDJKNJPAB()
@@ -318,9 +319,9 @@ inline static constexpr unsigned int OOHFBGJHCMB_TypeDefinitionIndex = 63162;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::ChallengePeakTeam*))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_EIGMHMGCCNE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* JGIBLGENIGN(::System::Collections::Generic::List_1<::RPG::Client::ChallengePeak*>* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* JGIBLGENIGN(::System::Collections::Generic::List_1<::RPG::Client::ChallengePeak*>* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeak*>*))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_JGIBLGENIGN_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChallengePeak*>*))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_JGIBLGENIGN_OFFSET))(this, a1);
 		}
 
 		::System::Void KFLDCELKFDF()
@@ -353,14 +354,14 @@ inline static constexpr unsigned int OOHFBGJHCMB_TypeDefinitionIndex = 63162;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::ChallengePeakSettlement*))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_HHBHBKFOIOM_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* DHAFNCEMJEK()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* DHAFNCEMJEK()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_DHAFNCEMJEK_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_DHAFNCEMJEK_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* MMBJJPBHCEO()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* MMBJJPBHCEO()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_MMBJJPBHCEO_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_MMBJJPBHCEO_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::IPromise* FBLNBHKEGLM(::System::Boolean a1)
@@ -383,9 +384,9 @@ inline static constexpr unsigned int OOHFBGJHCMB_TypeDefinitionIndex = 63162;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_ONIJBJHBFCI_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* BNBNACFIDEB(::RPG::Client::ChallengePeak* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* BNBNACFIDEB(::RPG::Client::ChallengePeak* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::ChallengePeak*))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_BNBNACFIDEB_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::Client::ChallengePeak*))((::PBYTE)hIl2Cpp + OOHFBGJHCMB_BNBNACFIDEB_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* CDAAHANNHAE()
@@ -438,9 +439,9 @@ inline static constexpr unsigned int OOHFBGJHCMB_TypeDefinitionIndex = 63162;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB__REVOKENORMALLINEUPS_B__32_0_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* __HandleShowEntrance_b__41_0(::System::Boolean a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __HandleShowEntrance_b__41_0(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OOHFBGJHCMB___HANDLESHOWENTRANCE_B__41_0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OOHFBGJHCMB___HANDLESHOWENTRANCE_B__41_0_OFFSET))(this, a1);
 		}
 
 	};

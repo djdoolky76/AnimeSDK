@@ -4,10 +4,10 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class String; }
 
 #define OLKFGPPNJFN_AAJNAFJEDHB_OFFSET UNITYSDK_OFFSET(0xBF0F180)
@@ -26,9 +26,9 @@ inline static constexpr unsigned int OLKFGPPNJFN_TypeDefinitionIndex = 77121;
 	{
 	public:
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
-		::Entitas::IGroup* AMAPJMHAHDD; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* AMAPJMHAHDD; // 0x18
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x20
-		::Entitas::ICollector* JALGFGCOAGB; // 0x28
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* JALGFGCOAGB; // 0x28
 		static ::System::String** StaticGet_AOCHFFPMLJL()
 		{
 			return (::System::String**)UnitySDK::FromName("", "OLKFGPPNJFN")->GetStaticField(0x58320);

@@ -8,8 +8,9 @@ class LAAOKALNHIO;
 class OFKKOGBKOFI;
 class PCOMPBCHHKC;
 namespace Entitas { template <typename T> class Context_1; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -32,9 +33,9 @@ namespace RPG::Client::LittleGameShare
 		::BIHHJPHJELO* _OldDataReader; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KKMHKKIFFHD*>*>* _OldComponentSnapShotDic; // 0x0
 		::System::Collections::Generic::List_1<::OFKKOGBKOFI*>* _SnapshotLerpList; // 0x0
-		::System::Action* OnApplyEntityInterpolateEnd; // 0x0
-		::System::Action* OnApplyEntitySpawn; // 0x0
-		::System::Action* OnApplyEntityDespawn; // 0x0
-		::System::Action* OnApplyNoInterpolateComponent; // 0x0
+		::System::Action_1<::LAAOKALNHIO*>* OnApplyEntityInterpolateEnd; // 0x0
+		::System::Action_1<::LAAOKALNHIO*>* OnApplyEntitySpawn; // 0x0
+		::System::Action_1<::LAAOKALNHIO*>* OnApplyEntityDespawn; // 0x0
+		::System::Action_2<::LAAOKALNHIO*, ::KKMHKKIFFHD*>* OnApplyNoInterpolateComponent; // 0x0
 	};
 }

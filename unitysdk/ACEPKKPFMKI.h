@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -23,7 +24,7 @@ inline static constexpr unsigned int ACEPKKPFMKI_TypeDefinitionIndex = 69574;
 	class ACEPKKPFMKI : public ::System::Object
 	{
 	public:
-		::RPG::PoolDictionary_2<::System::Int32, ::System::ValueTuple>* NNGFDODICCO; // 0x10
+		::RPG::PoolDictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Single, ::System::Single>>* NNGFDODICCO; // 0x10
 		::RPG::PoolList_1<::System::Int32>* CBEHDOLKMEC; // 0x18
 		::System::Void _ctor()
 		{
@@ -55,9 +56,9 @@ inline static constexpr unsigned int ACEPKKPFMKI_TypeDefinitionIndex = 69574;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ACEPKKPFMKI_HNPOGLCAHPK_OFFSET))(this);
 		}
 
-		::System::ValueTuple AHIPGHDEOOG()
+		::System::ValueTuple_2<::System::Single, ::System::Single> AHIPGHDEOOG()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + ACEPKKPFMKI_AHIPGHDEOOG_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + ACEPKKPFMKI_AHIPGHDEOOG_OFFSET))(this);
 		}
 
 		::System::Boolean NHOJDNPKECD()
@@ -70,14 +71,14 @@ inline static constexpr unsigned int ACEPKKPFMKI_TypeDefinitionIndex = 69574;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACEPKKPFMKI_PJPFIHFAHGO_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* OADLABMHFHK()
+		::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Single, ::System::Single>>* OADLABMHFHK()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ACEPKKPFMKI_OADLABMHFHK_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Single, ::System::Single>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ACEPKKPFMKI_OADLABMHFHK_OFFSET))(this);
 		}
 
-		::System::Void MAOPNFBKLEI(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Void MAOPNFBKLEI(::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Single, ::System::Single>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + ACEPKKPFMKI_MAOPNFBKLEI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Single, ::System::Single>>*))((::PBYTE)hIl2Cpp + ACEPKKPFMKI_MAOPNFBKLEI_OFFSET))(this, a1);
 		}
 
 	};

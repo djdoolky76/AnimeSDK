@@ -3,8 +3,8 @@
 #include "unitysdk/KJFIKOKBCCA.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class TimeRewindSingleTarget; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define RPG_CLIENT_TIMEREWINDSINGLETARGET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE289060)
 #define RPG_CLIENT_TIMEREWINDSINGLETARGET___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2890A0)
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1ADD0);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::KJFIKOKBCCA>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1ADD8);
+			return (::System::Action_2<::RPG::Client::TimeRewindSingleTarget*, ::KJFIKOKBCCA>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1ADD8);
 		}
 
 		static ::System::Void _cctor()

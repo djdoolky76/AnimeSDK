@@ -3,17 +3,18 @@
 #include "unitysdk/RPG/LogTag.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/GNAKPEMFGFG.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class CCFPABPKGGJ;
 class GHCKKGPPHPK;
-namespace System { class Action; }
 namespace System { class Exception; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics { class StackTrace; }
@@ -132,14 +133,14 @@ namespace RPG
 			return (::System::Text::StringBuilder**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x480);
 		}
 
-		static ::System::Action** StaticGet_GameCoreLogSamplerErrorHandler()
+		static ::System::Action_1<::System::String*>** StaticGet_GameCoreLogSamplerErrorHandler()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x488);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x488);
 		}
 
-		static ::System::Action** StaticGet_SendMessageDelg()
+		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet_SendMessageDelg()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x490);
+			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x490);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::LogTag, ::System::String*>** StaticGet__TagTexts_k__BackingField()
@@ -182,34 +183,34 @@ namespace RPG
 			return ((::System::Void(*)(::RPG::LogTag, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGVERYIMPORTANTFORMAT_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void DrawLine(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::System::Single a4, ::System::Boolean a5)
+		static ::System::Void DrawLine(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Color> a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWLINE_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWLINE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void DrawLine_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawLine_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWLINE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWLINE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawRay(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::System::Single a4, ::System::Boolean a5)
+		static ::System::Void DrawRay(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Color> a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRAY_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRAY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void DrawRay_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawRay_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRAY_1_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRAY_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawCircle(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Nullable* a3, ::System::Int32 a4, ::System::Nullable* a5, ::System::Single a6, ::System::Boolean a7)
+		static ::System::Void DrawCircle(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Int32 a4, ::System::Nullable_1<::UnityEngine::Color> a5, ::System::Single a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::System::Single, ::System::Nullable*, ::System::Int32, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWCIRCLE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWCIRCLE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void DrawCircle_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Nullable* a4, ::System::Int32 a5, ::System::Nullable* a6, ::System::Single a7, ::System::Boolean a8)
+		static ::System::Void DrawCircle_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Int32 a5, ::System::Nullable_1<::UnityEngine::Color> a6, ::System::Single a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::System::Single, ::System::Nullable*, ::System::Int32, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWCIRCLE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWCIRCLE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		static ::System::Void DrawCircle_2(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Int32 a4, ::UnityEngine::Color a5, ::System::Single a6, ::System::Boolean a7)
@@ -237,24 +238,24 @@ namespace RPG
 			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWGRID_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void DrawArrow(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::System::Nullable* a6, ::System::Single a7, ::System::Boolean a8)
+		static ::System::Void DrawArrow(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::System::Nullable_1<::UnityEngine::Color> a6, ::System::Single a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWARROW_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWARROW_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void DrawBox(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawBox(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWBOX_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWBOX_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawMinMaxBox(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawMinMaxBox(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWMINMAXBOX_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWMINMAXBOX_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawRectangle(::UnityEngine::Vector3 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Quaternion a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawRectangle(::UnityEngine::Vector3 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Quaternion a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector2, ::UnityEngine::Quaternion, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRECTANGLE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector2, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRECTANGLE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::String* _FormatLogMessage(::RPG::LogTag a1, ::System::String* a2)

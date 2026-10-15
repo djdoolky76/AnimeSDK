@@ -4,7 +4,7 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimRTPCConfig; }
 namespace System { class Action; }
 
@@ -125,9 +125,9 @@ inline static constexpr unsigned int CCKLCDCCIGM_TypeDefinitionIndex = 76953;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCKLCDCCIGM_CNMOKKPLEKA_OFFSET))(this);
 		}
 
-		::Entitas::IGroup* ABAKIJHCHDN()
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* ABAKIJHCHDN()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + CCKLCDCCIGM_ABAKIJHCHDN_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::HIOEAKHGILF*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CCKLCDCCIGM_ABAKIJHCHDN_OFFSET))(this);
 		}
 
 	};

@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::Client { class ChimeraEvaluationManager; }
 namespace RPG::Client { class ChimeraModule; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 
 #define GEJKIKIKHFK_AMPLNFFNNJI_OFFSET UNITYSDK_OFFSET(0x159DB130)
@@ -39,9 +39,9 @@ inline static constexpr unsigned int GEJKIKIKHFK_TypeDefinitionIndex = 63486;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GEJKIKIKHFK_MJEGFOMAOFH_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* MMOFFFCEOIC()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* MMOFFFCEOIC()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + GEJKIKIKHFK_MMOFFFCEOIC_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GEJKIKIKHFK_MMOFFFCEOIC_OFFSET))(this);
 		}
 
 		::RPG::Client::ChimeraModule* NIPDCHOJNHJ()

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
-namespace System::Buffers { class ReadOnlySequence; }
 namespace System::Buffers { template <typename T> class ArrayPool_1; }
 namespace System::Buffers { template <typename T> class MemoryPool_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
@@ -27,9 +27,9 @@ namespace Nerdbank::Streams
 			return (::System::Int32*)UnitySDK::FromName("Nerdbank.Streams", "Sequence`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Buffers::ReadOnlySequence** StaticGet_Empty()
+		static ::System::Buffers::ReadOnlySequence_1<T>* StaticGet_Empty()
 		{
-			return (::System::Buffers::ReadOnlySequence**)UnitySDK::FromName("Nerdbank.Streams", "Sequence`1")->GetStaticField(0x0);
+			return (::System::Buffers::ReadOnlySequence_1<T>*)UnitySDK::FromName("Nerdbank.Streams", "Sequence`1")->GetStaticField(0x0);
 		}
 
 	};

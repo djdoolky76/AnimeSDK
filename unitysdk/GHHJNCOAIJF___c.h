@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class IHGIENOHBMJ;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define GHHJNCOAIJF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A20A70)
 #define GHHJNCOAIJF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A20AA0)
@@ -19,9 +19,9 @@ inline static constexpr unsigned int GHHJNCOAIJF___c_TypeDefinitionIndex = 69355
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C120);
 		}
 
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_1<::IHGIENOHBMJ*>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C128);
+			return (::System::Action_1<::IHGIENOHBMJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C128);
 		}
 
 		static ::System::Void _cctor()

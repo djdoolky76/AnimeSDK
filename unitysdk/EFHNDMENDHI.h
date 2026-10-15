@@ -29,7 +29,8 @@
 #include "unitysdk/MHCOBFJNNJB.h"
 #include "unitysdk/OOMMPEPOGLL.h"
 #include "unitysdk/PNELGBMHFFL.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ABHLDDDNFLB;
 class AIFPBKHIFDM;
 class AKMKCCJIPIF;
@@ -125,7 +126,6 @@ namespace RPG::GameCore::Match3 { class BombCreateConfig; }
 namespace RPG::GameCore::Match3 { class Match3Config; }
 namespace RPG::GameCore::Match3 { class Match3EnvActionConfig; }
 namespace RPG::GameCore::Match3 { class PieceConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -1084,14 +1084,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_CFKOHHIGFII_OFFSET))(this);
 		}
 
-		::System::Void PAHOFFJAJGE(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Void PAHOFFJAJGE(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_PAHOFFJAJGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_PAHOFFJAJGE_OFFSET))(this, a1);
 		}
 
-		::System::Void HLBBDFDIGGF(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Void HLBBDFDIGGF(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_HLBBDFDIGGF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_HLBBDFDIGGF_OFFSET))(this, a1);
 		}
 
 		::System::Void GDCKJLOGKDM()
@@ -1269,14 +1269,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_KMEPMHAPIGI_OFFSET))(this);
 		}
 
-		::System::Void AACJIBKHMCB(::System::Nullable* a1, ::System::Nullable* a2)
+		::System::Void AACJIBKHMCB(::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a1, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_AACJIBKHMCB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>))((::PBYTE)hIl2Cpp + EFHNDMENDHI_AACJIBKHMCB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FFAAGJBPABN(::System::Nullable* a1, ::System::Nullable* a2)
+		::System::Void FFAAGJBPABN(::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a1, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_FFAAGJBPABN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>))((::PBYTE)hIl2Cpp + EFHNDMENDHI_FFAAGJBPABN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void BGLLKBLEMAH()
@@ -1709,14 +1709,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_KBPMBIDECLJ_OFFSET))(this);
 		}
 
-		::System::Void MOMEHMIFNIH(::RPG::PoolList_1<::System::ValueTuple>* a1)
+		::System::Void MOMEHMIFNIH(::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::PoolList_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_MOMEHMIFNIH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_MOMEHMIFNIH_OFFSET))(this, a1);
 		}
 
-		::System::Void ONNFBCHHDPP(::RPG::PoolList_1<::System::ValueTuple>* a1)
+		::System::Void ONNFBCHHDPP(::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::PoolList_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_ONNFBCHHDPP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_ONNFBCHHDPP_OFFSET))(this, a1);
 		}
 
 		::System::Void NNNDIDLAMDO()
@@ -1759,14 +1759,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_BKCFDIIMDHH_OFFSET))(this);
 		}
 
-		::System::Void DEPBKGOIHLD(::RPG::GameCore::MatchThreePropType a1, ::RPG::PoolList_1<::System::ValueTuple>* a2)
+		::System::Void DEPBKGOIHLD(::RPG::GameCore::MatchThreePropType a1, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MatchThreePropType, ::RPG::PoolList_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_DEPBKGOIHLD_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MatchThreePropType, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_DEPBKGOIHLD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void IBPPAMBNCPC(::RPG::GameCore::MatchThreePropType a1, ::RPG::PoolList_1<::System::ValueTuple>* a2)
+		::System::Void IBPPAMBNCPC(::RPG::GameCore::MatchThreePropType a1, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MatchThreePropType, ::RPG::PoolList_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IBPPAMBNCPC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MatchThreePropType, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IBPPAMBNCPC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PNEJDDOEKOO()
@@ -1784,14 +1784,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_GDGJINDNJLK_OFFSET))(this);
 		}
 
-		::System::Void LADENPLAAFH(::System::ValueTuple a1, ::System::ValueTuple a2, ::System::Boolean a3)
+		::System::Void LADENPLAAFH(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple, ::System::Boolean))((::PBYTE)hIl2Cpp + EFHNDMENDHI_LADENPLAAFH_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Boolean))((::PBYTE)hIl2Cpp + EFHNDMENDHI_LADENPLAAFH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void IIPIPEDBPCO(::System::ValueTuple a1, ::System::ValueTuple a2, ::System::Boolean a3)
+		::System::Void IIPIPEDBPCO(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple, ::System::Boolean))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IIPIPEDBPCO_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Boolean))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IIPIPEDBPCO_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void PEBIAGMJCHJ()
@@ -1859,14 +1859,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_JKFJCLCFLNO_OFFSET))(this);
 		}
 
-		::System::Void BKNJNHOGEJI(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Void BKNJNHOGEJI(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + EFHNDMENDHI_BKNJNHOGEJI_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + EFHNDMENDHI_BKNJNHOGEJI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CODCJLKBOCM(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Void CODCJLKBOCM(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + EFHNDMENDHI_CODCJLKBOCM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + EFHNDMENDHI_CODCJLKBOCM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void BCCIIKCFKGE()
@@ -1909,14 +1909,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_FKJOGGPJCKM_OFFSET))(this);
 		}
 
-		::System::Void JBGILJOCMLL(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::PoolList_1<::System::ValueTuple>* a3)
+		::System::Void JBGILJOCMLL(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_JBGILJOCMLL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_JBGILJOCMLL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void IFKLINFOPKF(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::PoolList_1<::System::ValueTuple>* a3)
+		::System::Void IFKLINFOPKF(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IFKLINFOPKF_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IFKLINFOPKF_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void NJICCOJHOHD()
@@ -2034,14 +2034,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_FKLJDBBGBMO_OFFSET))(this);
 		}
 
-		::System::Void DHFPBNKFCKG(::System::ValueTuple a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		::System::Void DHFPBNKFCKG(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_DHFPBNKFCKG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_DHFPBNKFCKG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NAJDGEEMFLH(::System::ValueTuple a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		::System::Void NAJDGEEMFLH(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_NAJDGEEMFLH_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_NAJDGEEMFLH_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void NFOOONBFJDK()
@@ -2059,14 +2059,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_OOMHPKMHDKP_OFFSET))(this);
 		}
 
-		::System::Void AIIBIFFAJKJ(::System::ValueTuple a1, ::System::UInt32 a2)
+		::System::Void AIIBIFFAJKJ(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_AIIBIFFAJKJ_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_AIIBIFFAJKJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void IDNOPEPLLCG(::System::ValueTuple a1, ::System::UInt32 a2)
+		::System::Void IDNOPEPLLCG(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IDNOPEPLLCG_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IDNOPEPLLCG_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void GIPMDKIPLCB()
@@ -2159,14 +2159,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_LPHFMDHOBKK_OFFSET))(this);
 		}
 
-		::System::Void NMGOMLDENBK(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::LittleGame::Match3::ViewMomentType a4, ::System::ValueTuple a5, ::System::ValueTuple a6, ::System::UInt32 a7, ::System::UInt32 a8, ::RPG::GameCore::Match3::BombType a9, ::RPG::GameCore::Match3::PieceTag a10, ::System::UInt32 a11, ::System::UInt32 a12, ::RPG::Client::LittleGame::Match3::GridLocalPoint a13, ::System::Single a14, ::System::UInt32 a15, ::System::UInt32 a16, ::System::Boolean a17, ::System::Boolean a18, ::System::UInt32 a19, ::System::UInt32 a20)
+		::System::Void NMGOMLDENBK(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::LittleGame::Match3::ViewMomentType a4, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a5, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a6, ::System::UInt32 a7, ::System::UInt32 a8, ::RPG::GameCore::Match3::BombType a9, ::RPG::GameCore::Match3::PieceTag a10, ::System::UInt32 a11, ::System::UInt32 a12, ::RPG::Client::LittleGame::Match3::GridLocalPoint a13, ::System::Single a14, ::System::UInt32 a15, ::System::UInt32 a16, ::System::Boolean a17, ::System::Boolean a18, ::System::UInt32 a19, ::System::UInt32 a20)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::ViewMomentType, ::System::ValueTuple, ::System::ValueTuple, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::GridLocalPoint, ::System::Single, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_NMGOMLDENBK_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::ViewMomentType, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::GridLocalPoint, ::System::Single, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_NMGOMLDENBK_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20);
 		}
 
-		::System::Void EFAOFMIBJHN(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::LittleGame::Match3::ViewMomentType a4, ::System::ValueTuple a5, ::System::ValueTuple a6, ::System::UInt32 a7, ::System::UInt32 a8, ::RPG::GameCore::Match3::BombType a9, ::RPG::GameCore::Match3::PieceTag a10, ::System::UInt32 a11, ::System::UInt32 a12, ::RPG::Client::LittleGame::Match3::GridLocalPoint a13, ::System::Single a14, ::System::UInt32 a15, ::System::UInt32 a16, ::System::Boolean a17, ::System::Boolean a18, ::System::UInt32 a19, ::System::UInt32 a20)
+		::System::Void EFAOFMIBJHN(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::LittleGame::Match3::ViewMomentType a4, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a5, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a6, ::System::UInt32 a7, ::System::UInt32 a8, ::RPG::GameCore::Match3::BombType a9, ::RPG::GameCore::Match3::PieceTag a10, ::System::UInt32 a11, ::System::UInt32 a12, ::RPG::Client::LittleGame::Match3::GridLocalPoint a13, ::System::Single a14, ::System::UInt32 a15, ::System::UInt32 a16, ::System::Boolean a17, ::System::Boolean a18, ::System::UInt32 a19, ::System::UInt32 a20)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::ViewMomentType, ::System::ValueTuple, ::System::ValueTuple, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::GridLocalPoint, ::System::Single, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_EFAOFMIBJHN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::ViewMomentType, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::GridLocalPoint, ::System::Single, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + EFHNDMENDHI_EFAOFMIBJHN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20);
 		}
 
 		::System::Void FBMFDHGFHHP()
@@ -2209,14 +2209,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_BLCJINLBNNH_OFFSET))(this);
 		}
 
-		::System::Void MIDEDLNGKHM(::System::ValueTuple a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
+		::System::Void MIDEDLNGKHM(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_MIDEDLNGKHM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_MIDEDLNGKHM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CHFDAKKCOPJ(::System::ValueTuple a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
+		::System::Void CHFDAKKCOPJ(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_CHFDAKKCOPJ_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_CHFDAKKCOPJ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LAOMLLGKPIM()
@@ -2259,14 +2259,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_FIOLICDPNJM_OFFSET))(this);
 		}
 
-		::System::Void FFMNFJBCIJN(::System::ValueTuple a1, ::RPG::GameCore::Match3::GridTag a2)
+		::System::Void FFMNFJBCIJN(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::RPG::GameCore::Match3::GridTag a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::RPG::GameCore::Match3::GridTag))((::PBYTE)hIl2Cpp + EFHNDMENDHI_FFMNFJBCIJN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::Match3::GridTag))((::PBYTE)hIl2Cpp + EFHNDMENDHI_FFMNFJBCIJN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JOLGDMHPABA(::System::ValueTuple a1, ::RPG::GameCore::Match3::GridTag a2)
+		::System::Void JOLGDMHPABA(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::RPG::GameCore::Match3::GridTag a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::RPG::GameCore::Match3::GridTag))((::PBYTE)hIl2Cpp + EFHNDMENDHI_JOLGDMHPABA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::Match3::GridTag))((::PBYTE)hIl2Cpp + EFHNDMENDHI_JOLGDMHPABA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FJPFLMEEGMA()
@@ -2284,14 +2284,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_AIDPCHCNMBG_OFFSET))(this);
 		}
 
-		::System::Void LONBOCLKDIC(::System::ValueTuple a1)
+		::System::Void LONBOCLKDIC(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + EFHNDMENDHI_LONBOCLKDIC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + EFHNDMENDHI_LONBOCLKDIC_OFFSET))(this, a1);
 		}
 
-		::System::Void KJDFJEADAJJ(::System::ValueTuple a1)
+		::System::Void KJDFJEADAJJ(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + EFHNDMENDHI_KJDFJEADAJJ_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + EFHNDMENDHI_KJDFJEADAJJ_OFFSET))(this, a1);
 		}
 
 		::System::Void BMDBCKHHCFB()
@@ -2334,14 +2334,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_PGIJOEAEMAH_OFFSET))(this);
 		}
 
-		::System::Void BGDNKILAGDL(::System::Boolean a1, ::RPG::PoolList_1<::System::ValueTuple>* a2)
+		::System::Void BGDNKILAGDL(::System::Boolean a1, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::PoolList_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_BGDNKILAGDL_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_BGDNKILAGDL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BDHDCHMPGHH(::System::Boolean a1, ::RPG::PoolList_1<::System::ValueTuple>* a2)
+		::System::Void BDHDCHMPGHH(::System::Boolean a1, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::PoolList_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_BDHDCHMPGHH_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + EFHNDMENDHI_BDHDCHMPGHH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void MOBMACBMNKL()
@@ -2409,14 +2409,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_ENFGGNFOLEE_OFFSET))(this);
 		}
 
-		::System::Void MMDGFDKNAKC(::System::ValueTuple a1, ::RPG::Client::LittleGame::Match3::PieceRemoveReason a2)
+		::System::Void MMDGFDKNAKC(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::RPG::Client::LittleGame::Match3::PieceRemoveReason a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::RPG::Client::LittleGame::Match3::PieceRemoveReason))((::PBYTE)hIl2Cpp + EFHNDMENDHI_MMDGFDKNAKC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::LittleGame::Match3::PieceRemoveReason))((::PBYTE)hIl2Cpp + EFHNDMENDHI_MMDGFDKNAKC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void HMBGMDDMHFF(::System::ValueTuple a1, ::RPG::Client::LittleGame::Match3::PieceRemoveReason a2)
+		::System::Void HMBGMDDMHFF(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::RPG::Client::LittleGame::Match3::PieceRemoveReason a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::RPG::Client::LittleGame::Match3::PieceRemoveReason))((::PBYTE)hIl2Cpp + EFHNDMENDHI_HMBGMDDMHFF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::LittleGame::Match3::PieceRemoveReason))((::PBYTE)hIl2Cpp + EFHNDMENDHI_HMBGMDDMHFF_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void IHNGLGFNHJH()
@@ -2459,14 +2459,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_NMBBKMFKDMH_OFFSET))(this);
 		}
 
-		::System::Void LPNHHOJCIBB(::System::ValueTuple a1, ::RPG::GameCore::Match3::PieceTag a2, ::RPG::GameCore::Match3::GridTag a3)
+		::System::Void LPNHHOJCIBB(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::RPG::GameCore::Match3::PieceTag a2, ::RPG::GameCore::Match3::GridTag a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::RPG::GameCore::Match3::PieceTag, ::RPG::GameCore::Match3::GridTag))((::PBYTE)hIl2Cpp + EFHNDMENDHI_LPNHHOJCIBB_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::Match3::PieceTag, ::RPG::GameCore::Match3::GridTag))((::PBYTE)hIl2Cpp + EFHNDMENDHI_LPNHHOJCIBB_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void IFFENDNGJGI(::System::ValueTuple a1, ::RPG::GameCore::Match3::PieceTag a2, ::RPG::GameCore::Match3::GridTag a3)
+		::System::Void IFFENDNGJGI(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::RPG::GameCore::Match3::PieceTag a2, ::RPG::GameCore::Match3::GridTag a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::RPG::GameCore::Match3::PieceTag, ::RPG::GameCore::Match3::GridTag))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IFFENDNGJGI_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::Match3::PieceTag, ::RPG::GameCore::Match3::GridTag))((::PBYTE)hIl2Cpp + EFHNDMENDHI_IFFENDNGJGI_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void EIMAPDJJKDB()
@@ -2484,14 +2484,14 @@ inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFHNDMENDHI_FLBIEGCJKCK_OFFSET))(this);
 		}
 
-		::System::Void OMLGILGDLAC(::System::ValueTuple a1, ::System::UInt32 a2, ::RPG::GameCore::Match3::BombType a3)
+		::System::Void OMLGILGDLAC(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2, ::RPG::GameCore::Match3::BombType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::UInt32, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + EFHNDMENDHI_OMLGILGDLAC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + EFHNDMENDHI_OMLGILGDLAC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void CJJKFMNGDGF(::System::ValueTuple a1, ::System::UInt32 a2, ::RPG::GameCore::Match3::BombType a3)
+		::System::Void CJJKFMNGDGF(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2, ::RPG::GameCore::Match3::BombType a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::UInt32, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + EFHNDMENDHI_CJJKFMNGDGF_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + EFHNDMENDHI_CJJKFMNGDGF_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void KDBMHEJOOCH()

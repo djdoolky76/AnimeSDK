@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class CakeRaceRegionConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
@@ -12,8 +12,8 @@ inline static constexpr unsigned int PECDJPIHMAM_TypeDefinitionIndex = 37225;
 	class PECDJPIHMAM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* PMMGBKJIIFN; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* IALHAGJCLOP; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* PMMGBKJIIFN; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* IALHAGJCLOP; // 0x18
 		::RPG::GameCore::CakeRaceRegionConfig* ENCFIALFHEN; // 0x20
 		::System::Int32 NDKILPMMLHJ; // 0x28
 		::System::Int32 FIELGBACDLG; // 0x2C

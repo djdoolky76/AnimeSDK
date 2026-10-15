@@ -5,6 +5,7 @@ class IFCDCCJEJKD;
 class PMLDGPDNEOA;
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -43,14 +44,14 @@ inline static constexpr unsigned int BANPFFNEHCP_TypeDefinitionIndex = 68252;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_ONRECONNECT_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* OJOGKMPKIFL()
+		::RPG::Client::Promises::IPromise_1<::IFCDCCJEJKD*>* OJOGKMPKIFL()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_OJOGKMPKIFL_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::IFCDCCJEJKD*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_OJOGKMPKIFL_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* DOHKJJBPHGP()
+		::RPG::Client::Promises::IPromise_1<::PMLDGPDNEOA*>* DOHKJJBPHGP()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_DOHKJJBPHGP_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::PMLDGPDNEOA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_DOHKJJBPHGP_OFFSET))(this);
 		}
 
 		::System::Boolean ENPEJIIEBHM()
@@ -68,14 +69,14 @@ inline static constexpr unsigned int BANPFFNEHCP_TypeDefinitionIndex = 68252;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_ECHADEACOIJ_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* EKEFIGKEBOL()
+		::RPG::Client::Promises::IPromise_1<::IFCDCCJEJKD*>* EKEFIGKEBOL()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_EKEFIGKEBOL_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::IFCDCCJEJKD*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_EKEFIGKEBOL_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* FFFDCIGDIGA()
+		::RPG::Client::Promises::IPromise_1<::PMLDGPDNEOA*>* FFFDCIGDIGA()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_FFFDCIGDIGA_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::PMLDGPDNEOA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANPFFNEHCP_FFFDCIGDIGA_OFFSET))(this);
 		}
 
 	};

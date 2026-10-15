@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/Challenge/Tierce/ChallengeTierceStageSelectControlBase.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class MonoPrefabSwitcher; }
@@ -21,7 +22,6 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; 
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTargetListControl; }
 namespace RPG::UINavigation { class UINavigationZone; }
 namespace Sofa { class ShortCutHintControl; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -128,14 +128,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL_SET_PRIVATESTAGERESULT_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_PrivateStageBuffID()
+		::System::Nullable_1<::System::UInt32> get_PrivateStageBuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL_GET_PRIVATESTAGEBUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL_GET_PRIVATESTAGEBUFFID_OFFSET))(this);
 		}
 
-		::System::Void set_PrivateStageBuffID(::System::Nullable* a1)
+		::System::Void set_PrivateStageBuffID(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL_SET_PRIVATESTAGEBUFFID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTBOSSCONTROL_SET_PRIVATESTAGEBUFFID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AttackDamageType>* get_PrivateStageRecommendDamageTypes()

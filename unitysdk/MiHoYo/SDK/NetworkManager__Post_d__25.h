@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class NetworkManager; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_NETWORKMANAGER__POST_D__25_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEADFB0)
 #define MIHOYO_SDK_NETWORKMANAGER__POST_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BEB4E60)
@@ -22,7 +23,7 @@ namespace MiHoYo::SDK
 	{
 	public:
 		::System::String* requestUrl; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x18
 		::System::Object* __2__current; // 0x20
 		::MiHoYo::SDK::NetworkManager* __4__this; // 0x28
 		::System::String* bodyString; // 0x30

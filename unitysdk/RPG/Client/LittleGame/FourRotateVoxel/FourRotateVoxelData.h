@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
@@ -18,8 +18,8 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 	class FourRotateVoxelData : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* FixUpdateFunction; // 0x18
-		::System::Action* LateFixUpdateFunction; // 0x20
+		::System::Action_1<::System::Single>* FixUpdateFunction; // 0x18
+		::System::Action_1<::System::Single>* LateFixUpdateFunction; // 0x20
 		::UnityEngine::Coroutine* FNADMCIINLH; // 0x28
 		::System::Void _ctor()
 		{

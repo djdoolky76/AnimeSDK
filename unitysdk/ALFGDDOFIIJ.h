@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/MusicBeatSyncGroup.h"
 #include "unitysdk/System/Object.h"
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define ALFGDDOFIIJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8901A0)
 #define ALFGDDOFIIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C890740)
@@ -19,7 +19,7 @@ inline static constexpr unsigned int ALFGDDOFIIJ_TypeDefinitionIndex = 43398;
 	{
 	public:
 		::RPG::PoolDictionary_2<::RPG::Client::LittleGame::FiveDim::MusicBeatSyncGroup, ::System::Int32>* DIBHOODKFJN; // 0x10
-		::System::Action* CKOMJEKKNIB; // 0x18
+		::System::Action_1<::System::Single>* CKOMJEKKNIB; // 0x18
 		::RPG::PoolDictionary_2<::RPG::Client::LittleGame::FiveDim::MusicBeatSyncGroup, ::System::Int32>* GJNGAFMMPLN; // 0x20
 		::System::Boolean PCKBADNFMNO; // 0x28
 		::System::Byte _padding0[0x3];

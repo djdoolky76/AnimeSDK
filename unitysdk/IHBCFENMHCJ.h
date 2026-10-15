@@ -10,8 +10,8 @@ class DGMADGGFLIJ;
 class GAHPNAEGACM;
 class GEDMHFPPBHN;
 class MADHNHEMBOJ;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
 #define IHBCFENMHCJ_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0x16416D70)
@@ -37,7 +37,7 @@ inline static constexpr unsigned int IHBCFENMHCJ_TypeDefinitionIndex = 71255;
 		::BNCEIPFBBGM* CGLMAOHLOJD; // 0x68
 		::MADHNHEMBOJ* PKIGHMIMJLF; // 0x70
 		::DGMADGGFLIJ* GEJPOMIFPDL; // 0x78
-		::System::Action* ONHFOPOHPAP; // 0x80
+		::System::Action_1<::System::String*>* ONHFOPOHPAP; // 0x80
 		::GEDMHFPPBHN* KPFKDKLCFKG; // 0x88
 		::System::Boolean IDBHEIBEGBA; // 0x90
 		::System::Byte _padding0[0x3];

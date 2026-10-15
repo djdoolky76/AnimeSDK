@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 class HIOEAKHGILF;
 namespace RPG { template <typename T> class PoolList_1; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MHINANAPELB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C92AD40)
 #define MHINANAPELB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92AE10)
@@ -16,11 +16,11 @@ inline static constexpr unsigned int MHINANAPELB_TypeDefinitionIndex = 43570;
 	public:
 		::HIOEAKHGILF* OANLEPICPEA; // 0x10
 		::HIOEAKHGILF* BHKEFIKOHFK; // 0x18
-		::System::Action* KLDCLEOAJFD; // 0x20
+		::System::Action_1<::HIOEAKHGILF*>* KLDCLEOAJFD; // 0x20
 		::RPG::PoolList_1<::HIOEAKHGILF*>* JJJNPLOLJGE; // 0x28
-		::System::Action* MMKJLGLBDMI; // 0x30
+		::System::Action_1<::HIOEAKHGILF*>* MMKJLGLBDMI; // 0x30
 		::RPG::PoolList_1<::HIOEAKHGILF*>* MNFCJNLHEJN; // 0x38
-		::System::Action* BFDFDGGJCHJ; // 0x40
+		::System::Action_1<::HIOEAKHGILF*>* BFDFDGGJCHJ; // 0x40
 		::HIOEAKHGILF* OKPKEHBENDC; // 0x48
 		::System::Boolean FONIBCIGOLE; // 0x50
 		::System::Byte _padding0[0x1];

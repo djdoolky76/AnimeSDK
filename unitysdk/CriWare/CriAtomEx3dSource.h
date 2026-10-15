@@ -5,9 +5,9 @@
 #include "unitysdk/CriWare/CriAtomEx_CuboidExtent.h"
 #include "unitysdk/CriWare/CriAtomEx_NativeVector.h"
 #include "unitysdk/CriWare/CriAtomEx_Randomize3dConfig.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace CriWare { class CriAtomEx3dRegion; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define CRIWARE_CRIATOMEX3DSOURCE_CRIATOMEX3DSOURCE_CREATE_OFFSET UNITYSDK_OFFSET(0x166D4AB0)
@@ -165,9 +165,9 @@ namespace CriWare
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX3DSOURCE_GETATTENUATIONDISTANCESETTING_OFFSET))(this);
 		}
 
-		::System::Void SetRandomPositionConfig(::System::Nullable* a1)
+		::System::Void SetRandomPositionConfig(::System::Nullable_1<::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX3DSOURCE_SETRANDOMPOSITIONCONFIG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX3DSOURCE_SETRANDOMPOSITIONCONFIG_OFFSET))(this, a1);
 		}
 
 		::System::Void SetRandomPositionList(::Il2CppArray<::UnityEngine::Vector3>* a1)

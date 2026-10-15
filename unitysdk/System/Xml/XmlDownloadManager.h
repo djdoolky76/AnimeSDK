@@ -8,7 +8,7 @@ namespace System::IO { class Stream; }
 namespace System::Net { class ICredentials; }
 namespace System::Net { class IWebProxy; }
 namespace System::Net::Cache { class RequestCachePolicy; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_XML_XMLDOWNLOADMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF603F0)
 #define SYSTEM_XML_XMLDOWNLOADMANAGER_GETNONFILESTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x1EF602F0)
@@ -45,14 +45,14 @@ namespace System::Xml
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOWNLOADMANAGER_REMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task* GetStreamAsync(::System::Uri* a1, ::System::Net::ICredentials* a2, ::System::Net::IWebProxy* a3, ::System::Net::Cache::RequestCachePolicy* a4)
+		::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetStreamAsync(::System::Uri* a1, ::System::Net::ICredentials* a2, ::System::Net::IWebProxy* a3, ::System::Net::Cache::RequestCachePolicy* a4)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOWNLOADMANAGER_GETSTREAMASYNC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::Tasks::Task_1<::System::IO::Stream*>*(*)(::PVOID, ::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOWNLOADMANAGER_GETSTREAMASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Threading::Tasks::Task* GetNonFileStreamAsync(::System::Uri* a1, ::System::Net::ICredentials* a2, ::System::Net::IWebProxy* a3, ::System::Net::Cache::RequestCachePolicy* a4)
+		::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetNonFileStreamAsync(::System::Uri* a1, ::System::Net::ICredentials* a2, ::System::Net::IWebProxy* a3, ::System::Net::Cache::RequestCachePolicy* a4)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOWNLOADMANAGER_GETNONFILESTREAMASYNC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::Tasks::Task_1<::System::IO::Stream*>*(*)(::PVOID, ::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLDOWNLOADMANAGER_GETNONFILESTREAMASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 	};

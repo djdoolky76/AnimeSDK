@@ -4,8 +4,8 @@
 #include "unitysdk/System/Guid.h"
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine::Events { class UnityAction; }
-namespace UnityEngine::Events { class UnityEvent; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 namespace UnityEngine::Networking::PlayerConnection { class MessageEventArgs; }
 namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnectionEvents_ConnectionChangeEvent; }
 
@@ -34,14 +34,14 @@ namespace UnityEngine::Networking::PlayerConnection
 			return ((::System::Void(*)(::PVOID, ::System::Guid, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_INVOKEMESSAGEIDSUBSCRIBERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Events::UnityEvent* AddAndCreate(::System::Guid a1)
+		::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid a1)
 		{
-			return ((::UnityEngine::Events::UnityEvent*(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_ADDANDCREATE_OFFSET))(this, a1);
+			return ((::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_ADDANDCREATE_OFFSET))(this, a1);
 		}
 
-		::System::Void UnregisterManagedCallback(::System::Guid a1, ::UnityEngine::Events::UnityAction* a2)
+		::System::Void UnregisterManagedCallback(::System::Guid a1, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_UNREGISTERMANAGEDCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Guid, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_UNREGISTERMANAGEDCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 	};

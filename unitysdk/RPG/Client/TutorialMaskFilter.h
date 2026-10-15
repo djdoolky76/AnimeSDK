@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 
@@ -21,7 +21,7 @@ namespace RPG::Client
 	class TutorialMaskFilter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Nullable*>* POFJJNJLMBA; // 0x18
+		::System::Collections::Generic::List_1<::System::Nullable_1<::UnityEngine::Rect>>* POFJJNJLMBA; // 0x18
 		::System::Boolean AJODECOABDD; // 0x20
 		::System::Void _ctor()
 		{

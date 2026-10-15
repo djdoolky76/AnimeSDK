@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/AbilityProperty.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::GameCore { class ServantRowData; }
 namespace System { class String; }
@@ -37,24 +37,24 @@ inline static constexpr unsigned int MGHEJOGLOCN_TypeDefinitionIndex = 59064;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MGHEJOGLOCN_CCTOR_OFFSET))();
 		}
 
-		static ::System::ValueTuple BOEILPIJLJJ(::System::String* a1, ::System::String* a2, ::Il2CppArray<::RPG::GameCore::FixPoint>* a3)
+		static ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> BOEILPIJLJJ(::System::String* a1, ::System::String* a2, ::Il2CppArray<::RPG::GameCore::FixPoint>* a3)
 		{
-			return ((::System::ValueTuple(*)(::System::String*, ::System::String*, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_OFFSET))(a1, a2, a3);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::System::String*, ::System::String*, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::ValueTuple BOEILPIJLJJ_1(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::RPG::GameCore::ServantRowData* a4)
+		static ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> BOEILPIJLJJ_1(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::RPG::GameCore::ServantRowData* a4)
 		{
-			return ((::System::ValueTuple(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::GameCore::ServantRowData*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::GameCore::ServantRowData*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::ValueTuple BOEILPIJLJJ_2(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::RPG::AvatarSystem::IAvatar* a4)
+		static ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> BOEILPIJLJJ_2(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::RPG::AvatarSystem::IAvatar* a4)
 		{
-			return ((::System::ValueTuple(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_2_OFFSET))(a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::ValueTuple BOEILPIJLJJ_3(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		static ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> BOEILPIJLJJ_3(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::System::ValueTuple(*)(::System::String*, ::System::String*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_3_OFFSET))(a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::System::String*, ::System::String*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_3_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::UInt32 PFAHDIJMFNG(::System::UInt32 a1, ::System::UInt32 a2)

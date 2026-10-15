@@ -29,9 +29,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class LevelEntityActionDelayChanged; }
 namespace RPG::GameCore { class LevelUIComponent; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -157,7 +157,7 @@ inline static constexpr unsigned int MADHNHEMBOJ_TypeDefinitionIndex = 71203;
 	public:
 		::Il2CppArray<::RPG::Client::ActionBarItemUIStyle>* GCOLFBLOLJD; // 0x10
 		::Il2CppArray<::UnityEngine::Vector2>* MLDPICFPPBH; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action*>* _SkillPreviewRemoveCache_k__BackingField; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action_1<::System::Boolean>*>* _SkillPreviewRemoveCache_k__BackingField; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::ShowAttackTimeParam*>* DLECJCLNHPA; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::AOIAGGGHHBD*>*>*>* _CustomEffects_k__BackingField; // 0x30
 		::System::Collections::Generic::HashSet_1<::System::Collections::Generic::List_1<::System::UInt32>*>* BLMMLLODFAN; // 0x38
@@ -605,14 +605,14 @@ inline static constexpr unsigned int MADHNHEMBOJ_TypeDefinitionIndex = 71203;
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MADHNHEMBOJ_NLDBLLPDHGP_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action*>* get_SkillPreviewRemoveCache()
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action_1<::System::Boolean>*>* get_SkillPreviewRemoveCache()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MADHNHEMBOJ_GET_SKILLPREVIEWREMOVECACHE_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action_1<::System::Boolean>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MADHNHEMBOJ_GET_SKILLPREVIEWREMOVECACHE_OFFSET))(this);
 		}
 
-		::System::Void set_SkillPreviewRemoveCache(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action*>* a1)
+		::System::Void set_SkillPreviewRemoveCache(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action_1<::System::Boolean>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action*>*))((::PBYTE)hIl2Cpp + MADHNHEMBOJ_SET_SKILLPREVIEWREMOVECACHE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action_1<::System::Boolean>*>*))((::PBYTE)hIl2Cpp + MADHNHEMBOJ_SET_SKILLPREVIEWREMOVECACHE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ShenJunLevel1Count()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BOMFGKDLHIB;
 class FDPALAEIHPB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -25,7 +25,7 @@ inline static constexpr unsigned int PKFLCJDKMFI_TypeDefinitionIndex = 76577;
 	class PKFLCJDKMFI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple>* BPCONKNPIBM; // 0x10
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Single, ::System::Single>>* BPCONKNPIBM; // 0x10
 		::FDPALAEIHPB* FKINCGODJEP; // 0x18
 		::BOMFGKDLHIB* PDENFEFCAGN; // 0x20
 		::System::Single NGLKHNFDPLE; // 0x28

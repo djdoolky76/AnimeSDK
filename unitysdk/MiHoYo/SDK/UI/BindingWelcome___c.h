@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::UI { class BindingWelcome; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UI_BINDINGWELCOME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFF2D30)
 #define MIHOYO_SDK_UI_BINDINGWELCOME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF2D70)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::UI
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.UI", "<>c")->GetStaticField(0x20A20);
 		}
 
-		static ::System::Action** StaticGet___9__36_0()
+		static ::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>** StaticGet___9__36_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.UI", "<>c")->GetStaticField(0x20A28);
+			return (::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>**)UnitySDK::FromName("MiHoYo.SDK.UI", "<>c")->GetStaticField(0x20A28);
 		}
 
 		static ::System::Void _cctor()

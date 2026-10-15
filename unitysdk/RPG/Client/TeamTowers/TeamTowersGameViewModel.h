@@ -12,6 +12,7 @@ namespace RPG::Client::TeamTowers { class TeamTowersGamePlayerViewModel; }
 namespace RPG::Client::TeamTowers { class TeamTowersGameStarsViewModel; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
@@ -155,9 +156,9 @@ namespace RPG::Client::TeamTowers
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMEVIEWMODEL_EXIT_OFFSET))(this);
 		}
 
-		::System::Void AddViewTickCallback(::System::Action* a1)
+		::System::Void AddViewTickCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMEVIEWMODEL_ADDVIEWTICKCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSGAMEVIEWMODEL_ADDVIEWTICKCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void TryPauseGame(::System::Boolean a1)

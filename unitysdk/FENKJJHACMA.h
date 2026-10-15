@@ -6,8 +6,8 @@
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client { class MonoEffectManager; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Transform; }
 
 #define FENKJJHACMA_AAIBMNHOOFP_OFFSET UNITYSDK_OFFSET(0x1572C240)
@@ -50,9 +50,9 @@ inline static constexpr unsigned int FENKJJHACMA_TypeDefinitionIndex = 80171;
 			return ((::RPG::Client::MonoEffect*(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + FENKJJHACMA_GMLGNCFNHCA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AAIBMNHOOFP(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::System::String* a3, ::System::Action* a4)
+		::System::Void AAIBMNHOOFP(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::System::String* a3, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + FENKJJHACMA_AAIBMNHOOFP_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::String*, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*))((::PBYTE)hIl2Cpp + FENKJJHACMA_AAIBMNHOOFP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::Client::MonoEffect* AJFMBBLLIHM(::System::String* a1, ::UnityEngine::Transform* a2)
@@ -60,9 +60,9 @@ inline static constexpr unsigned int FENKJJHACMA_TypeDefinitionIndex = 80171;
 			return ((::RPG::Client::MonoEffect*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + FENKJJHACMA_AJFMBBLLIHM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CNGFJBMBIID(::System::String* a1, ::UnityEngine::Transform* a2, ::System::Action* a3)
+		::System::Void CNGFJBMBIID(::System::String* a1, ::UnityEngine::Transform* a2, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::System::Action*))((::PBYTE)hIl2Cpp + FENKJJHACMA_CNGFJBMBIID_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*))((::PBYTE)hIl2Cpp + FENKJJHACMA_CNGFJBMBIID_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* NGICNEMJFAG(::System::String* a1)

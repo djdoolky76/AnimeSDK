@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 class DABIJNBDBBA;
 class DBDOIJGPJJG;
 namespace RPG::Client { class ActivityElationBattleInfo; }
 namespace RPG::Client { class ActivityElationBattleResult; }
 namespace RPG::Client { class ActivityElationStage; }
 namespace RPG::Client { class LuaUIController; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -55,7 +55,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityElationStage*>* _Stages; // 0x10
 		::RPG::Client::ActivityElationBattleInfo* _OnGoingBattleInfo; // 0x18
 		::RPG::Client::ActivityElationBattleResult* _BattleResult; // 0x20
-		::System::Nullable* _AutoShowStageID; // 0x28
+		::System::Nullable_1<::System::UInt32> _AutoShowStageID; // 0x28
 		::System::UInt32 _GuideMissionID_k__BackingField; // 0x30
 		::System::UInt32 _ActivityRewardID_k__BackingField; // 0x34
 		::System::Void _ctor()

@@ -12,8 +12,8 @@ namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class GridFightTraitEffectElationProperty; }
 namespace RPG::Client { class GridFightTraitEffectElationSkill; }
 namespace RPG::GameCore { class GridFightTraitEffectLayerParamConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
 #define RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_ADDGETITEMCALLBACK_OFFSET UNITYSDK_OFFSET(0xD2BA930)
@@ -51,8 +51,8 @@ namespace RPG::Client
 		::RPG::GameCore::GridFightTraitEffectLayerParamConfigRow* _ParamConfigRow; // 0x38
 		::System::Collections::Generic::IDictionary_2<::System::UInt32, ::RPG::GameCore::FixPoint>* AdditionalProperties; // 0x40
 		::RPG::Client::GridFightTraitEffectElationProperty* _PropertyProvider_k__BackingField; // 0x48
-		::System::Action* _OnGetItem; // 0x50
-		::System::Action* _OnGetOrb; // 0x58
+		::System::Action_1<::RPG::Client::GridFightEquipItemData*>* _OnGetItem; // 0x50
+		::System::Action_1<::RPG::Client::GridFightOrbEntityData*>* _OnGetOrb; // 0x58
 		::RPG::Client::GridFightElationTraitEquipComponent* _EquipComponent_k__BackingField; // 0x60
 		::System::UInt32 _Star; // 0x68
 		::System::UInt32 _TrackEquipUpdate; // 0x6C
@@ -61,14 +61,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddGetOrbCallback(::System::Action* a1)
+		::System::Void AddGetOrbCallback(::System::Action_1<::RPG::Client::GridFightOrbEntityData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_ADDGETORBCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::GridFightOrbEntityData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_ADDGETORBCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void AddGetItemCallback(::System::Action* a1)
+		::System::Void AddGetItemCallback(::System::Action_1<::RPG::Client::GridFightEquipItemData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_ADDGETITEMCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::GridFightEquipItemData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONEFFECT_ADDGETITEMCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void ClearCallback()

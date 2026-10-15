@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace R3 { class FrameProvider; }
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class TimeProvider; }
+namespace System { template <typename T> class Action_1; }
 
 #define R3_OBSERVABLESYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C423D40)
 #define R3_OBSERVABLESYSTEM_DEFAULTUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1C423C50)
@@ -17,9 +17,9 @@ namespace R3
 	class ObservableSystem : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_unhandledException()
+		static ::System::Action_1<::System::Exception*>** StaticGet_unhandledException()
 		{
-			return (::System::Action**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA40);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA40);
 		}
 
 		static ::System::TimeProvider** StaticGet_defaultTimeProvider()
@@ -37,9 +37,9 @@ namespace R3
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLESYSTEM_CCTOR_OFFSET))();
 		}
 
-		static ::System::Action* GetUnhandledExceptionHandler()
+		static ::System::Action_1<::System::Exception*>* GetUnhandledExceptionHandler()
 		{
-			return ((::System::Action*(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET))();
+			return ((::System::Action_1<::System::Exception*>*(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET))();
 		}
 
 		static ::System::Void DefaultUnhandledExceptionHandler(::System::Exception* a1)

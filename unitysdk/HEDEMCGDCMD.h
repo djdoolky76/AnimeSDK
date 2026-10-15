@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class ACBFNEKJDNP;
 namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCasterToTargetConfig; }
 namespace RPG::Client { class CameraFightStateCommonConfig; }
-namespace System { class Nullable; }
 
 #define HEDEMCGDCMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4E4F0)
 #define HEDEMCGDCMD_FIOBFGIGDGA_OFFSET UNITYSDK_OFFSET(0x15C4B680)
@@ -26,11 +26,11 @@ inline static constexpr unsigned int HEDEMCGDCMD_TypeDefinitionIndex = 69593;
 		::ACBFNEKJDNP* LEOGIKABIGF; // 0x10
 		::RPG::Client::CameraFightStateCasterToTargetConfig* MAFIONBKPIE; // 0x18
 		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x20
-		::System::Nullable* HAKKPBCKEOM; // 0x28
+		::System::Nullable_1<::UnityEngine::Vector3> HAKKPBCKEOM; // 0x28
 		::System::Byte _padding0[0x8];
 		::UnityEngine::Vector3 OEGAAMGHNCP; // 0x38
 		::UnityEngine::Vector3 EBJIPOAJLBG; // 0x44
-		::System::Nullable* OCBKABJKEHG; // 0x50
+		::System::Nullable_1<::UnityEngine::Vector3> OCBKABJKEHG; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDEMCGDCMD_CTOR_OFFSET))(this);

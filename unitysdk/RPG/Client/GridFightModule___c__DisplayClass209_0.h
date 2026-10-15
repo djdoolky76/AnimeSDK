@@ -6,6 +6,7 @@ namespace RPG::Client { class GridFightModule; }
 namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1B1E80)
 #define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0___TRYGETCURDATABYCDN_B__0_OFFSET UNITYSDK_OFFSET(0xD1BB4F0)
@@ -22,7 +23,7 @@ namespace RPG::Client
 	public:
 		::System::Action* callback; // 0x10
 		::RPG::Client::GridFightModule* __4__this; // 0x18
-		::System::Action* __9__3; // 0x20
+		::System::Action_1<::System::String*>* __9__3; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS209_0_CTOR_OFFSET))(this);

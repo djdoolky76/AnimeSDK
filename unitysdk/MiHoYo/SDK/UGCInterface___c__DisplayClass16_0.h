@@ -5,6 +5,8 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class UGCInterface; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB05D1E0)
@@ -23,9 +25,9 @@ namespace MiHoYo::SDK
 		::System::String* strUrl; // 0x18
 		::MiHoYo::SDK::UGCInterface* __4__this; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x28
-		::System::Action* __9__1; // 0x30
-		::System::Action* callback; // 0x38
-		::System::Action* tokenFailedCallback; // 0x40
+		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* __9__1; // 0x30
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x38
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x40
 		::System::Action* __9__2; // 0x48
 		::System::String* strUId; // 0x50
 		::System::Int32 nRetryCount; // 0x58

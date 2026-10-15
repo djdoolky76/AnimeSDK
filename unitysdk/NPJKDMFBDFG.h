@@ -3,7 +3,7 @@
 #include "unitysdk/EnviromentSystemV2Space/OutputType.h"
 #include "unitysdk/EnviromentSystem/EnviromentPropertiesID.h"
 #include "unitysdk/RPG/GameCore/EnviromentControlPriority.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AEKEIBNBMDJ;
 class BDDAELGEKFF;
 class CBEBICGIOAB;
@@ -18,7 +18,7 @@ namespace RPG::Editor::EnvironmentSystemV2Editor { class EnvEditorBlock; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -94,7 +94,7 @@ inline static constexpr unsigned int NPJKDMFBDFG_TypeDefinitionIndex = 49427;
 		::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>* JAFOHFGNLDJ; // 0x10
 		::System::Collections::Generic::List_1<::System::String*>* NHILOAEGDJD; // 0x18
 		::BDDAELGEKFF* EECNIMFMEPO; // 0x20
-		::RPG::Client::LRUCache_2<::System::String*, ::System::Tuple*>* PAFOEGDMBKK; // 0x28
+		::RPG::Client::LRUCache_2<::System::String*, ::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>*>* PAFOEGDMBKK; // 0x28
 		::System::Collections::Generic::List_1<::AEKEIBNBMDJ*>* IFNMCHPBMDN; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::GGJFAFONDHN*>* BHJILPLENLK; // 0x38
 		::NAMLDEFNHGN* MIGMCEDIPPH; // 0x40
@@ -106,9 +106,9 @@ inline static constexpr unsigned int NPJKDMFBDFG_TypeDefinitionIndex = 49427;
 		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::System::String*>*>* LOKCABDKPLB; // 0x70
 		::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::Int32>* AKFKOIJKAMM; // 0x78
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnviromentControlPriority, ::System::String*>* HFCDFGBDPGC; // 0x80
-		static ::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::ValueTuple>** StaticGet_NCIMBBDFJFD()
+		static ::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::ValueTuple_2<::System::String*, ::System::String*>>** StaticGet_NCIMBBDFJFD()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::ValueTuple>**)UnitySDK::FromName("", "NPJKDMFBDFG")->GetStaticField(0x59030);
+			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::ValueTuple_2<::System::String*, ::System::String*>>**)UnitySDK::FromName("", "NPJKDMFBDFG")->GetStaticField(0x59030);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_NGABLGIOIBF()

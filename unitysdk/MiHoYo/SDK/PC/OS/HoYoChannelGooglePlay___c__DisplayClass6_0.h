@@ -4,8 +4,8 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelGooglePlay; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelProductsResult; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2AB80)
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS6_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1BF2FE20)
@@ -17,7 +17,7 @@ namespace MiHoYo::SDK::PC::OS
 	class HoYoChannelGooglePlay___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::MiHoYo::SDK::JSONArray* productArray; // 0x18
 		::MiHoYo::SDK::PC::OS::HoYoChannelGooglePlay* __4__this; // 0x20
 		::System::Void _ctor()

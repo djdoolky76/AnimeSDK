@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class LEAEAGIIDKO;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
@@ -35,9 +35,9 @@ inline static constexpr unsigned int LEAEAGIIDKO_TypeDefinitionIndex = 51995;
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + LEAEAGIIDKO_KILEPBKMIHE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* ANAHFGMKJMB()
+		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* ANAHFGMKJMB()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LEAEAGIIDKO_ANAHFGMKJMB_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LEAEAGIIDKO_ANAHFGMKJMB_OFFSET))(this);
 		}
 
 	};

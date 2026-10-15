@@ -8,7 +8,7 @@ namespace RPG::Client::Billboard { class IBillboardHost; }
 namespace RPG::GameCore { class BillboardComponent_NotifyParam; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define RPG_GAMECORE_BILLBOARDCOMPONENT_NOTIFYPARAM_COPYTO_OFFSET UNITYSDK_OFFSET(0xE5D1630)
@@ -24,7 +24,7 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::BillboardShowType, ::System::Single>* TypeToShowDistance; // 0x10
 		::RPG::Client::Billboard::IBillboardHost* Host; // 0x18
 		::RPG::GameCore::GameEntity* Entity; // 0x20
-		::System::Tuple* FiveDimSidePuzzlePanelPaths; // 0x28
+		::System::Tuple_2<::System::String*, ::System::String*>* FiveDimSidePuzzlePanelPaths; // 0x28
 		::System::String* TypeIconPath; // 0x30
 		::RPG::Client::TextID TextTitle; // 0x38
 		::System::Single XOffset; // 0x48

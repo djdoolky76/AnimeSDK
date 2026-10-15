@@ -9,6 +9,7 @@ namespace RPG::Client::SocialPlay { class SocialPlayMapUIBridge; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
 #define RPG_CLIENT_ONLINEPLAYROOMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9F3D70)
@@ -76,9 +77,9 @@ namespace RPG::Client
 			return (::System::Func_2<::JBJNJPAOCDA*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE40);
 		}
 
-		static ::System::Action** StaticGet___9__35_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__35_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE48);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE48);
 		}
 
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__128_0()

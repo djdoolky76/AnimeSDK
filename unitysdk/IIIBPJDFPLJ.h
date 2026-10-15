@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class CCEIJBFAOAI;
 class IIIBPJDFPLJ;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 
 #define IIIBPJDFPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1643D4B0)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int IIIBPJDFPLJ_TypeDefinitionIndex = 79578;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IIIBPJDFPLJ_DNEBMKJAMCH_OFFSET))(this);
 		}
 
-		::R3::Observable* LIHALEDBELL()
+		::R3::Observable_1<::System::Int32>* LIHALEDBELL()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIIBPJDFPLJ_LIHALEDBELL_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIIBPJDFPLJ_LIHALEDBELL_OFFSET))(this);
 		}
 
 		::System::Boolean get_NeedWaitForCraftTarget()

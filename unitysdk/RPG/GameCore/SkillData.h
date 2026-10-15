@@ -15,9 +15,10 @@
 #include "unitysdk/RPG/GameCore/SkillUISpecialButtonType.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/RPG/GameCore/UseSkillErrorCode.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FFLCBCBGMLI;
 class GELIALJDFBL;
 class HBGIMIPDNDF;
@@ -33,7 +34,6 @@ namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class SkillTargetConfig; }
 namespace RPG::GameCore { class SkillUIConfig; }
 namespace RPG::GameCore { class VCameraConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -119,13 +119,13 @@ namespace RPG::GameCore
 		::RPG::GameCore::VCameraConfig* OverrideCameraConfigAdded; // 0xD0
 		::Il2CppArray<::BJICAHJPKEC>* _SkillProperties; // 0xD8
 		::System::UInt32 CommonActiveSkillID; // 0xE0
-		::System::Nullable* OverrideAIUltraSkillPriority; // 0xE4
+		::System::Nullable_1<::System::Int32> OverrideAIUltraSkillPriority; // 0xE4
 		::System::Int32 MaxCastTimes; // 0xEC
 		::System::Int32 SkillIndex; // 0xF0
 		::System::Int32 ChildIndex; // 0xF4
 		::System::Int32 CurrentCoolDown; // 0xF8
 		::RPG::GameCore::AttackDamageType AttackDamageTypePreshowAttach; // 0xFC
-		::System::Nullable* _OverrideProgressDisplayType; // 0x100
+		::System::Nullable_1<::RPG::GameCore::SkillSPProgressType> _OverrideProgressDisplayType; // 0x100
 		::System::Boolean IgnoreDisableAction; // 0x108
 		::System::Byte _padding0[0x3];
 		::System::UInt32 SkillConfigID; // 0x10C
@@ -241,9 +241,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::SkillSPProgressType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_PROGRESSDISPLAYTYPE_OFFSET))(this);
 		}
 
-		::System::Void OverrideProgressDisplayType(::System::Nullable* a1)
+		::System::Void OverrideProgressDisplayType(::System::Nullable_1<::RPG::GameCore::SkillSPProgressType> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_OVERRIDEPROGRESSDISPLAYTYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::SkillSPProgressType>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_OVERRIDEPROGRESSDISPLAYTYPE_OFFSET))(this, a1);
 		}
 
 		::FFLCBCBGMLI* get_Slot()
@@ -311,9 +311,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETDEFAULTPROPERTY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetOverrideProperty(::RPG::GameCore::SkillPropertyType a1, ::System::Nullable* a2)
+		::System::Void SetOverrideProperty(::RPG::GameCore::SkillPropertyType a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::FixPoint GetPropertyValueIgnoreSlot(::RPG::GameCore::SkillPropertyType a1)
@@ -371,9 +371,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_HASMULTITARGETGROUP_OFFSET))(this);
 		}
 
-		::System::ValueTuple GetUnusableConditionResult()
+		::System::ValueTuple_2<::RPG::GameCore::UseSkillErrorCode, ::System::String*> GetUnusableConditionResult()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETUNUSABLECONDITIONRESULT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::GameCore::UseSkillErrorCode, ::System::String*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETUNUSABLECONDITIONRESULT_OFFSET))(this);
 		}
 
 	};

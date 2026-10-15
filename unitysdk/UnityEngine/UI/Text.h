@@ -9,7 +9,7 @@
 #include "unitysdk/UnityEngine/TextFormattingTag.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
 #include "unitysdk/UnityEngine/VerticalWrapMode.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/NativeStringRef.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/TextGenerationSettings.h"
@@ -636,9 +636,9 @@ namespace UnityEngine::UI
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXT_GET_PREFERREDHEIGHT_OFFSET))(this);
 		}
 
-		::System::ValueTuple GetPreferredHeightAllScaleFactors(::Il2CppArray<::System::Single>* a1)
+		::System::ValueTuple_2<::System::Single, ::System::Single> GetPreferredHeightAllScaleFactors(::Il2CppArray<::System::Single>* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXT_GETPREFERREDHEIGHTALLSCALEFACTORS_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TEXT_GETPREFERREDHEIGHTALLSCALEFACTORS_OFFSET))(this, a1);
 		}
 
 		::System::Single get_flexibleHeight()

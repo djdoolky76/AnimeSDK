@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/R3/Result.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Exception; }
-namespace System { class Nullable; }
 
 #define R3_COMPLETESTATE_GETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3C26E60)
 #define R3_COMPLETESTATE_GET_ISCOMPLETEDORDISPOSED_OFFSET UNITYSDK_OFFSET(0x3C26E30)
@@ -35,9 +35,9 @@ namespace R3
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + R3_COMPLETESTATE_GET_ISCOMPLETEDORDISPOSED_OFFSET))(this);
 		}
 
-		::System::Nullable* TryGetResult()
+		::System::Nullable_1<::R3::Result> TryGetResult()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + R3_COMPLETESTATE_TRYGETRESULT_OFFSET))(this);
+			return ((::System::Nullable_1<::R3::Result>(*)(::PVOID))((::PBYTE)hIl2Cpp + R3_COMPLETESTATE_TRYGETRESULT_OFFSET))(this);
 		}
 
 		::System::Exception* GetException()

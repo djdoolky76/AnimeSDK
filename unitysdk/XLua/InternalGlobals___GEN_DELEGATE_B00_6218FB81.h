@@ -4,8 +4,8 @@
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
-namespace UnityEngine::Events { class UnityAction; }
-namespace UnityEngine::Events { class UnityEvent; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
 #define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DB1110)
 #define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB1010)
@@ -24,14 +24,14 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Events::UnityEvent* a1, ::UnityEngine::Events::UnityAction* a2)
+		::System::Void Invoke(::UnityEngine::Events::UnityEvent_1<::System::Single>* a1, ::UnityEngine::Events::UnityAction_1<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityEvent*, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_INVOKE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityEvent_1<::System::Single>*, ::UnityEngine::Events::UnityAction_1<::System::Single>*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Events::UnityEvent* a1, ::UnityEngine::Events::UnityAction* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Events::UnityEvent_1<::System::Single>* a1, ::UnityEngine::Events::UnityAction_1<::System::Single>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Events::UnityEvent*, ::UnityEngine::Events::UnityAction*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Events::UnityEvent_1<::System::Single>*, ::UnityEngine::Events::UnityAction_1<::System::Single>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_6218FB81_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* a1)

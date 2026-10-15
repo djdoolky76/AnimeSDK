@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class LMJPFDHIPNB;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define LMJPFDHIPNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7CCBE0)
 #define LMJPFDHIPNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CCC10)
@@ -15,9 +15,9 @@ inline static constexpr unsigned int LMJPFDHIPNB___c_TypeDefinitionIndex = 77086
 	class LMJPFDHIPNB___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__18_0()
+		static ::System::Action_3<::LMJPFDHIPNB*, ::System::Int32, ::System::String*>** StaticGet___9__18_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C270);
+			return (::System::Action_3<::LMJPFDHIPNB*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C270);
 		}
 
 		static ::System::Object** StaticGet___9()

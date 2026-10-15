@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class ClientMail; }
@@ -52,19 +52,19 @@ namespace Proto
 		::System::UInt32 retcode_; // 0x2C
 		::System::UInt32 totalNum_; // 0x30
 		::System::Boolean isEnd_; // 0x34
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetMailScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "GetMailScRsp")->GetStaticField(0x43B90);
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetMailScRsp*>**)UnitySDK::FromName("Proto", "GetMailScRsp")->GetStaticField(0x43B90);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_mailList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>** StaticGet__repeated_mailList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GetMailScRsp")->GetStaticField(0x43B98);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>**)UnitySDK::FromName("Proto", "GetMailScRsp")->GetStaticField(0x43B98);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_noticeMailList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>** StaticGet__repeated_noticeMailList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GetMailScRsp")->GetStaticField(0x43BA0);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>**)UnitySDK::FromName("Proto", "GetMailScRsp")->GetStaticField(0x43BA0);
 		}
 
 		// static const ::System::Object IsEndFieldNumber; // 0x0
@@ -88,9 +88,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetMailScRsp*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::GetMailScRsp*>*(*)())((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

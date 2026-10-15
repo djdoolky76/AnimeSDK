@@ -9,10 +9,12 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class IPromiseInfo; }
 namespace RPG::Client::Promises { class IRejectable; }
 namespace System { class Action; }
-namespace System { class EventHandler; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -97,9 +99,9 @@ namespace RPG::Client::Promises
 			return (::RPG::Client::Promises::IPromise**)UnitySDK::FromName("RPG.Client.Promises", "Promise")->GetStaticField(0x6B0);
 		}
 
-		static ::System::EventHandler** StaticGet_unhandlerException()
+		static ::System::EventHandler_1<::RPG::Client::Promises::ExceptionEventArgs*>** StaticGet_unhandlerException()
 		{
-			return (::System::EventHandler**)UnitySDK::FromName("RPG.Client.Promises", "Promise")->GetStaticField(0x6B8);
+			return (::System::EventHandler_1<::RPG::Client::Promises::ExceptionEventArgs*>**)UnitySDK::FromName("RPG.Client.Promises", "Promise")->GetStaticField(0x6B8);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::RPG::Client::Promises::IPromiseInfo*>** StaticGet_PendingPromises()
@@ -122,9 +124,9 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Action* a1)
+		::System::Void _ctor_1(::System::Action_2<::System::Action*, ::System::Action_1<::System::Exception*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Action*, ::System::Action_1<::System::Exception*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::RPG::Client::Promises::PromiseState a1)
@@ -137,14 +139,14 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_CCTOR_OFFSET))();
 		}
 
-		static ::System::Void add_UnhandledException(::System::EventHandler* a1)
+		static ::System::Void add_UnhandledException(::System::EventHandler_1<::RPG::Client::Promises::ExceptionEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::System::EventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ADD_UNHANDLEDEXCEPTION_OFFSET))(a1);
+			return ((::System::Void(*)(::System::EventHandler_1<::RPG::Client::Promises::ExceptionEventArgs*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ADD_UNHANDLEDEXCEPTION_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_UnhandledException(::System::EventHandler* a1)
+		static ::System::Void remove_UnhandledException(::System::EventHandler_1<::RPG::Client::Promises::ExceptionEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::System::EventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_REMOVE_UNHANDLEDEXCEPTION_OFFSET))(a1);
+			return ((::System::Void(*)(::System::EventHandler_1<::RPG::Client::Promises::ExceptionEventArgs*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_REMOVE_UNHANDLEDEXCEPTION_OFFSET))(a1);
 		}
 
 		static ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Promises::IPromiseInfo*>* GetPendingPromises()
@@ -182,9 +184,9 @@ namespace RPG::Client::Promises
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_NEXTID_OFFSET))();
 		}
 
-		::System::Void AddRejectHandler(::System::Action* a1, ::RPG::Client::Promises::IRejectable* a2)
+		::System::Void AddRejectHandler(::System::Action_1<::System::Exception*>* a1, ::RPG::Client::Promises::IRejectable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::RPG::Client::Promises::IRejectable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ADDREJECTHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Exception*>*, ::RPG::Client::Promises::IRejectable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ADDREJECTHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AddResolveHandler(::System::Action* a1, ::RPG::Client::Promises::IRejectable* a2)
@@ -192,14 +194,14 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID, ::System::Action*, ::RPG::Client::Promises::IRejectable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ADDRESOLVEHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddProgressHandler(::System::Action* a1, ::RPG::Client::Promises::IRejectable* a2)
+		::System::Void AddProgressHandler(::System::Action_1<::System::Single>* a1, ::RPG::Client::Promises::IRejectable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::RPG::Client::Promises::IRejectable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ADDPROGRESSHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*, ::RPG::Client::Promises::IRejectable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ADDPROGRESSHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InvokeRejectHandler(::System::Action* a1, ::RPG::Client::Promises::IRejectable* a2, ::System::Exception* a3)
+		::System::Void InvokeRejectHandler(::System::Action_1<::System::Exception*>* a1, ::RPG::Client::Promises::IRejectable* a2, ::System::Exception* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::RPG::Client::Promises::IRejectable*, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_INVOKEREJECTHANDLER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Exception*>*, ::RPG::Client::Promises::IRejectable*, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_INVOKEREJECTHANDLER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void InvokeResolveHandler(::System::Action* a1, ::RPG::Client::Promises::IRejectable* a2)
@@ -207,9 +209,9 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID, ::System::Action*, ::RPG::Client::Promises::IRejectable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_INVOKERESOLVEHANDLER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void InvokeProgressHandler(::System::Action* a1, ::RPG::Client::Promises::IRejectable* a2, ::System::Single a3)
+		::System::Void InvokeProgressHandler(::System::Action_1<::System::Single>* a1, ::RPG::Client::Promises::IRejectable* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::RPG::Client::Promises::IRejectable*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_INVOKEPROGRESSHANDLER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*, ::RPG::Client::Promises::IRejectable*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_INVOKEPROGRESSHANDLER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ClearHandlers()
@@ -247,9 +249,9 @@ namespace RPG::Client::Promises
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_REPORTPROGRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void Done(::System::Action* a1, ::System::Action* a2)
+		::System::Void Done(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_DONE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_DONE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Done_1(::System::Action* a1)
@@ -267,9 +269,9 @@ namespace RPG::Client::Promises
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_WITHNAME_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* Catch(::System::Action* a1)
+		::RPG::Client::Promises::IPromise* Catch(::System::Action_1<::System::Exception*>* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_CATCH_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_CATCH_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* Then_1(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1)
@@ -292,34 +294,34 @@ namespace RPG::Client::Promises
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THENLUAACTION_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* Then_4(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1, ::System::Action* a2)
+		::RPG::Client::Promises::IPromise* Then_4(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THEN_4_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THEN_4_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* Then_5(::System::Action* a1, ::System::Action* a2)
+		::RPG::Client::Promises::IPromise* Then_5(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THEN_5_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THEN_5_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* Then_7(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1, ::System::Action* a2, ::System::Action* a3)
+		::RPG::Client::Promises::IPromise* Then_7(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1, ::System::Action_1<::System::Exception*>* a2, ::System::Action_1<::System::Single>* a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THEN_7_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*, ::System::Action_1<::System::Exception*>*, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THEN_7_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* Then_8(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::RPG::Client::Promises::IPromise* Then_8(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2, ::System::Action_1<::System::Single>* a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THEN_8_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_THEN_8_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ActionHandlers(::RPG::Client::Promises::IRejectable* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void ActionHandlers(::RPG::Client::Promises::IRejectable* a1, ::System::Action* a2, ::System::Action_1<::System::Exception*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Promises::IRejectable*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ACTIONHANDLERS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Promises::IRejectable*, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_ACTIONHANDLERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ProgressHandlers(::RPG::Client::Promises::IRejectable* a1, ::System::Action* a2)
+		::System::Void ProgressHandlers(::RPG::Client::Promises::IRejectable* a1, ::System::Action_1<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Promises::IRejectable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_PROGRESSHANDLERS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Promises::IRejectable*, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_PROGRESSHANDLERS_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::Promises::IPromise* ThenAll(::System::Func_1<::System::Collections::Generic::IEnumerable_1<::RPG::Client::Promises::IPromise*>*>* a1)
@@ -387,9 +389,9 @@ namespace RPG::Client::Promises
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_CONTINUEWITH_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* Progress(::System::Action* a1)
+		::RPG::Client::Promises::IPromise* Progress(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_PROGRESS_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE_PROGRESS_OFFSET))(this, a1);
 		}
 
 		static ::System::Void PropagateUnhandledException(::System::Object* a1, ::System::Exception* a2)

@@ -4,6 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class BGOBCKLPEMK;
 namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCasterToTargetConfig; }
@@ -11,7 +12,6 @@ namespace RPG::Client { class CameraSomatoDynamicOffset; }
 namespace RPG::Client { class CloseupShotData; }
 namespace RPG::Client { class FightModuleConfig; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HPGLJFPJLMO_AMFEDJJJJKE_OFFSET UNITYSDK_OFFSET(0x15DC4090)
@@ -66,9 +66,9 @@ inline static constexpr unsigned int HPGLJFPJLMO_TypeDefinitionIndex = 69658;
 		::System::Single BPAIDCADMDO; // 0xC4
 		::UnityEngine::Quaternion EFOJEMGDBKL; // 0xC8
 		::UnityEngine::Vector3 GNLKFOKBMHN; // 0xD8
-		::System::Void _ctor(::RPG::Client::CameraDataAndFlags* a1, ::RPG::Client::CloseupShotData* a2, ::System::Nullable* a3)
+		::System::Void _ctor(::RPG::Client::CameraDataAndFlags* a1, ::RPG::Client::CloseupShotData* a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraDataAndFlags*, ::RPG::Client::CloseupShotData*, ::System::Nullable*))((::PBYTE)hIl2Cpp + HPGLJFPJLMO_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraDataAndFlags*, ::RPG::Client::CloseupShotData*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + HPGLJFPJLMO_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void BCGKNFLGBPP(::System::Boolean a1)
@@ -81,9 +81,9 @@ inline static constexpr unsigned int HPGLJFPJLMO_TypeDefinitionIndex = 69658;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPGLJFPJLMO_NPAFMEBNFOB_OFFSET))(this);
 		}
 
-		::System::Void JLANKNHFKCN(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Quaternion a5, ::System::Single a6, ::System::Nullable* a7, ::System::Nullable* a8)
+		::System::Void JLANKNHFKCN(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Quaternion a5, ::System::Single a6, ::System::Nullable_1<::UnityEngine::Quaternion> a7, ::System::Nullable_1<::RPG::MVector3> a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + HPGLJFPJLMO_JLANKNHFKCN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + HPGLJFPJLMO_JLANKNHFKCN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void INMMBIONNKJ(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Quaternion a3)

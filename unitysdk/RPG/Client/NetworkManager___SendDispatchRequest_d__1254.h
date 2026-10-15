@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class NMGLDNNFHFB;
 namespace RPG::Client { class NetworkManager; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
 #define RPG_CLIENT_NETWORKMANAGER___SENDDISPATCHREQUEST_D__1254_CTOR_OFFSET UNITYSDK_OFFSET(0xD9C6C90)
@@ -28,7 +28,7 @@ namespace RPG::Client
 		::UnityEngine::Networking::UnityWebRequest* _request_5__3; // 0x18
 		::System::Object* __2__current; // 0x20
 		::System::String* dispatchUrl; // 0x28
-		::System::Action* callback; // 0x30
+		::System::Action_1<::NMGLDNNFHFB*>* callback; // 0x30
 		::RPG::Client::NetworkManager* __4__this; // 0x38
 		::System::Int32 __1__state; // 0x40
 		::System::Int32 timeout; // 0x44

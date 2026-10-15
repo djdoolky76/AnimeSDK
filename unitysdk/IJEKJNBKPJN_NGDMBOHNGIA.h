@@ -13,8 +13,8 @@ namespace RPG::GameCore { class CharacterModelComponent; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelNPCPossessionInfo; }
 namespace RPG::GameCore { class PossessionConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
@@ -60,7 +60,7 @@ inline static constexpr unsigned int IJEKJNBKPJN_NGDMBOHNGIA_TypeDefinitionIndex
 		::RPG::GameCore::PossessionConfigRow* LGECLNIGGFH; // 0x68
 		::IJEKJNBKPJN* JHFKOHNKLMH; // 0x70
 		::System::String* ODHMHECLFCO; // 0x78
-		::System::Action* LMONILAPCFA; // 0x80
+		::System::Action_1<::UnityEngine::GameObject*>* LMONILAPCFA; // 0x80
 		::System::String* KHHGBMCHGPL; // 0x88
 		::DEBEAKKOHLN* OIDAGBPPNBJ; // 0x90
 		::UnityEngine::Vector3 MFMKGEIJFNF; // 0x98

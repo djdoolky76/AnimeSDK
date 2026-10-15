@@ -4,11 +4,11 @@
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
 #include "unitysdk/CriWare/CriAtomExMic_Config.h"
 #include "unitysdk/CriWare/CriAtomExMic_DeviceInfo.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace CriWare { class CriAtomExMic; }
 namespace CriWare { class CriAtomExMic_Effect; }
 namespace CriWare { class CriAudioReadStream; }
 namespace CriWare { class CriAudioWriteStream; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define CRIWARE_CRIATOMEXMIC_ATTACHEFFECT_OFFSET UNITYSDK_OFFSET(0x166EE750)
@@ -140,9 +140,9 @@ namespace CriWare
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_GETNUMDEVICES_OFFSET))();
 		}
 
-		static ::System::Nullable* GetDefaultDevice()
+		static ::System::Nullable_1<::System::Object*> GetDefaultDevice()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_GETDEFAULTDEVICE_OFFSET))();
+			return ((::System::Nullable_1<::System::Object*>(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_GETDEFAULTDEVICE_OFFSET))();
 		}
 
 		static ::System::Boolean IsFormatSupported(::CriWare::CriAtomExMic_Config a1)
@@ -150,9 +150,9 @@ namespace CriWare
 			return ((::System::Boolean(*)(::CriWare::CriAtomExMic_Config))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_ISFORMATSUPPORTED_OFFSET))(a1);
 		}
 
-		static ::CriWare::CriAtomExMic* Create(::System::Nullable* a1)
+		static ::CriWare::CriAtomExMic* Create(::System::Nullable_1<::System::Object*> a1)
 		{
-			return ((::CriWare::CriAtomExMic*(*)(::System::Nullable*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_CREATE_OFFSET))(a1);
+			return ((::CriWare::CriAtomExMic*(*)(::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_CREATE_OFFSET))(a1);
 		}
 
 		::System::Void Finalize()

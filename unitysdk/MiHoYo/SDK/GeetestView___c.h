@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class GeetestView; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_GEETESTVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE44D60)
 #define MIHOYO_SDK_GEETESTVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE44DA0)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0xD2D0);
 		}
 
-		static ::System::Action** StaticGet___9__14_0()
+		static ::System::Action_1<::MiHoYo::SDK::GeetestView*>** StaticGet___9__14_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0xD2D8);
+			return (::System::Action_1<::MiHoYo::SDK::GeetestView*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0xD2D8);
 		}
 
 		static ::System::Void _cctor()

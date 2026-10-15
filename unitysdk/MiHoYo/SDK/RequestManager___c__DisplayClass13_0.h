@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC7A20)
 #define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS13_0__LOGINBYACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1BFCFE10)
@@ -15,7 +15,7 @@ namespace MiHoYo::SDK
 	class RequestManager___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* callback; // 0x10
 		::System::String* url; // 0x18
 		::System::String* account; // 0x20
 		::System::String* password; // 0x28

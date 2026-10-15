@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::HoYoPass { class UserCenterManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE78980)
 #define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BE7A2F0)
@@ -20,7 +20,7 @@ namespace MiHoYo::SDK::HoYoPass
 	public:
 		::MiHoYo::SDK::AccountModel* currentAccount; // 0x10
 		::MiHoYo::SDK::HoYoPass::UserCenterManager* __4__this; // 0x18
-		::System::Action* __9__3; // 0x20
+		::System::Action_1<::System::String*>* __9__3; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_ROGUETOURNMODULE___C__DISPLAYCLASS129_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE009C30)
@@ -14,7 +14,7 @@ namespace RPG::Client
 	class RogueTournModule___c__DisplayClass129_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise_1<::XLua::LuaTable*>* promise; // 0x10
 		::System::Boolean isSkipAutoShowDialogs; // 0x18
 		::System::Void _ctor()
 		{

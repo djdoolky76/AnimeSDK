@@ -5,7 +5,7 @@
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace RPG::Client { class MonoExUICamera; }
 namespace RPG::Client { class MonoUI3DTouch_FingerUtil; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Camera; }
 
 #define RPG_CLIENT_MONOUI3DTOUCH_BINDCAMERA_OFFSET UNITYSDK_OFFSET(0xD875330)
@@ -74,9 +74,9 @@ namespace RPG::Client
 		::System::Single _mouseWheelDelayInputScale; // 0x64
 		::System::Single _mouseWheelInterruptTime; // 0x68
 		::System::Byte _padding4[0x4];
-		::System::Action* onSwipe; // 0x70
-		::System::Action* onSwipeEnd; // 0x78
-		::System::Action* onPinch; // 0x80
+		::System::Action_1<::HedgehogTeam::EasyTouch::Gesture*>* onSwipe; // 0x70
+		::System::Action_1<::HedgehogTeam::EasyTouch::Gesture*>* onSwipeEnd; // 0x78
+		::System::Action_1<::HedgehogTeam::EasyTouch::Gesture*>* onPinch; // 0x80
 		// static const ::System::Object _IN_CONTROL_PINCH_FACTOR; // 0x0
 		// static const ::System::Object _cd_touch_after_pinch; // 0x0
 		// static const ::System::Object JOYSTICK_SIMULATE_SWIPE_SPEED; // 0x0

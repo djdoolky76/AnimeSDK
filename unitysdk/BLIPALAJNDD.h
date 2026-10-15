@@ -3,9 +3,9 @@
 #include "unitysdk/BLIPALAJNDD_DataType.h"
 #include "unitysdk/System/Object.h"
 class BLIPALAJNDD;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BLIPALAJNDD_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1DDA12B0)
@@ -557,9 +557,9 @@ inline static constexpr unsigned int BLIPALAJNDD_TypeDefinitionIndex = 43915;
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLIPALAJNDD_CLONE_OFFSET))(this);
 		}
 
-		::System::Void IJGPNDPBCOB(::System::Action* a1)
+		::System::Void IJGPNDPBCOB(::System::Action_1<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BLIPALAJNDD_IJGPNDPBCOB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Byte>*))((::PBYTE)hIl2Cpp + BLIPALAJNDD_IJGPNDPBCOB_OFFSET))(this, a1);
 		}
 
 		::System::Void PJPFIHFAHGO()

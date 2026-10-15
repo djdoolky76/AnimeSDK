@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/RPG/GameCore/Match3/GridTag.h"
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
@@ -38,6 +38,9 @@ namespace RPG::Client { template <typename T> class MatchThreeIndex_1; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
@@ -224,9 +227,9 @@ namespace RPG::Client
 		::System::Single CopyPieceEffectLength; // 0x98
 		::System::Byte _padding0[0x4];
 		::RPG::Client::MatchThreePiece* _SelectionPiece_k__BackingField; // 0xA0
-		::System::Action* OnSwitch; // 0xA8
+		::System::Action_2<::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int>* OnSwitch; // 0xA8
 		::System::Action* OnBoardDestroy; // 0xB0
-		::System::Action* OnPause; // 0xB8
+		::System::Action_1<::System::Boolean>* OnPause; // 0xB8
 		::System::Boolean _IsPaused_k__BackingField; // 0xC0
 		::System::Byte _padding1[0x7];
 		::UnityEngine::RectTransform* _EmptySkillIconRectTransform_k__BackingField; // 0xC8
@@ -242,8 +245,8 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::Match3::BombType, ::System::String*>* _BombType2CreateEffectPath; // 0x118
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* _PieceID2GemPouchTrailEffectPath; // 0x120
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* _SkillID2SkillTrailEffectPath; // 0x128
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* _StyleID2PowerCounterColor; // 0x130
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::Match3::BombType, ::System::ValueTuple>* _BombType2PowerCounterColor; // 0x138
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::UnityEngine::Color, ::UnityEngine::Color>>* _StyleID2PowerCounterColor; // 0x130
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::Match3::BombType, ::System::ValueTuple_2<::UnityEngine::Color, ::UnityEngine::Color>>* _BombType2PowerCounterColor; // 0x138
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* _Combo2MatchAudioEvent; // 0x140
 		::RPG::Client::MatchThreeBoardEnv* _BoardEnv; // 0x148
 		::RPG::Client::MatchThreeIndex_1<::RPG::Client::MatchThreePiece*>* _Pieces; // 0x150
@@ -264,7 +267,7 @@ namespace RPG::Client
 		::UnityEngine::RectTransform* _SkillTriggerRectTransform; // 0x1C0
 		::UnityEngine::RectTransform* _SkillTriggerRectTransformEnemy; // 0x1C8
 		::RPG::Client::GridBasedMovement* _GridBasedMovement; // 0x1D0
-		::System::Action* OnPropInput; // 0x1D8
+		::System::Action_3<::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::UnityEngine::Vector2Int>*>* OnPropInput; // 0x1D8
 		::System::Int32 _LastPropUseFrameCount; // 0x1E0
 		::System::Byte _padding4[0x4];
 		::RPG::Client::MatchThreeGameProp* _CurrentActivatePropInfo; // 0x1E8
@@ -841,14 +844,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MatchThreePiece*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_SET_SELECTIONPIECE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnSwitch(::System::Action* a1)
+		::System::Void add_OnSwitch(::System::Action_2<::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_ADD_ONSWITCH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_ADD_ONSWITCH_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnSwitch(::System::Action* a1)
+		::System::Void remove_OnSwitch(::System::Action_2<::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_REMOVE_ONSWITCH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_REMOVE_ONSWITCH_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnBoardDestroy(::System::Action* a1)
@@ -861,14 +864,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_REMOVE_ONBOARDDESTROY_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPause(::System::Action* a1)
+		::System::Void add_OnPause(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_ADD_ONPAUSE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_ADD_ONPAUSE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPause(::System::Action* a1)
+		::System::Void remove_OnPause(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_REMOVE_ONPAUSE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_REMOVE_ONPAUSE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsPaused()
@@ -986,14 +989,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD__SELECTPROPTARGET_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_OnPropInput(::System::Action* a1)
+		::System::Void add_OnPropInput(::System::Action_3<::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_ADD_ONPROPINPUT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_ADD_ONPROPINPUT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPropInput(::System::Action* a1)
+		::System::Void remove_OnPropInput(::System::Action_3<::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_REMOVE_ONPROPINPUT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::UInt32, ::System::UInt32, ::RPG::PoolList_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEBOARD_REMOVE_ONPROPINPUT_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::LittleGame::Match3::OpponentRole get_CurrentActionRole()

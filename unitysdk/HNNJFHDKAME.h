@@ -17,9 +17,9 @@ namespace RPG::Client { class MonoMapRotationVolumeV2; }
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 namespace RPG::GameCore { class ColliderTriggerComponent; }
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Coroutine; }
@@ -166,14 +166,14 @@ inline static constexpr unsigned int HNNJFHDKAME_TypeDefinitionIndex = 57319;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + HNNJFHDKAME_GHPBDKLHACE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CFHDDLFJIEN(::System::Action* a1)
+		::System::Void CFHDDLFJIEN(::System::Action_1<::RPG::GameCore::MapRotationVolumeState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HNNJFHDKAME_CFHDDLFJIEN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::MapRotationVolumeState>*))((::PBYTE)hIl2Cpp + HNNJFHDKAME_CFHDDLFJIEN_OFFSET))(this, a1);
 		}
 
-		::System::Void CNBFJOHMMEO(::System::Action* a1)
+		::System::Void CNBFJOHMMEO(::System::Action_1<::RPG::GameCore::MapRotationVolumeState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HNNJFHDKAME_CNBFJOHMMEO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::MapRotationVolumeState>*))((::PBYTE)hIl2Cpp + HNNJFHDKAME_CNBFJOHMMEO_OFFSET))(this, a1);
 		}
 
 		::System::Void OnModelArtLoaded()

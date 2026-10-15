@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class BaseChestSystem_1; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
@@ -18,9 +18,9 @@ namespace RPG::Client::LittleGame::FiveDim
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__11_0()
+		static ::System::Action_2<::RPG::Client::LittleGame::FiveDim::BaseChestSystem_1<T>*, T>** StaticGet___9__11_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x0);
+			return (::System::Action_2<::RPG::Client::LittleGame::FiveDim::BaseChestSystem_1<T>*, T>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x0);
 		}
 
 	};

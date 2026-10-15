@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 namespace UnityEngine::Networking { class UnityWebRequestAsyncOperation; }
@@ -18,7 +19,7 @@ namespace Cysharp::Threading::Tasks
 	struct alignas(8) UnityAsyncExtensions_UnityWebRequestAsyncOperationAwaiter
 	{
 		::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation; // 0x10
-		::System::Action* continuationAction; // 0x18
+		::System::Action_1<::UnityEngine::AsyncOperation*>* continuationAction; // 0x18
 		::System::Void _ctor(::UnityEngine::Networking::UnityWebRequestAsyncOperation* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::UnityWebRequestAsyncOperation*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_UNITYWEBREQUESTASYNCOPERATIONAWAITER_CTOR_OFFSET))(this, a1);

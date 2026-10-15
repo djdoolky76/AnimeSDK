@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0040F0)
 #define MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1C003EF0)
@@ -26,20 +27,20 @@ namespace MiHoYo::SDK::UI::Internal::OS
 	public:
 		::System::Action* _onCloseBtnClicked_k__BackingField; // 0x10
 		::System::Action* _OnShowParentalControlProcessButtonPressed_k__BackingField; // 0x18
-		::System::Action* _OnNextButtonClicked_k__BackingField; // 0x20
+		::System::Action_1<::System::String*>* _OnNextButtonClicked_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnNextButtonClicked()
+		::System::Action_1<::System::String*>* get_OnNextButtonClicked()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONNEXTBUTTONCLICKED_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_GET_ONNEXTBUTTONCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnNextButtonClicked(::System::Action* a1)
+		::System::Void set_OnNextButtonClicked(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONNEXTBUTTONCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_AGEGATEPARENTALCONSENTDIALOG_SET_ONNEXTBUTTONCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnShowParentalControlProcessButtonPressed()

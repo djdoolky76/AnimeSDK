@@ -8,7 +8,7 @@ class FCNLPLHOACB;
 class JEBPFBNCALB;
 class PAHNGJAHJKI;
 class POIONNNNCMJ;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -46,7 +46,7 @@ inline static constexpr unsigned int OFIILELJGIE_TypeDefinitionIndex = 41824;
 		::DBPFECFIKOM* _Traits_k__BackingField; // 0x20
 		::FCNLPLHOACB* _Attributes_k__BackingField; // 0x28
 		::AEKGAOHNOIA* _Validity_k__BackingField; // 0x30
-		::R3::Observable* _ObservableIsAllRequiredMet_k__BackingField; // 0x38
+		::R3::Observable_1<::System::Boolean>* _ObservableIsAllRequiredMet_k__BackingField; // 0x38
 		::System::Action* OnMaybeChanged; // 0x40
 		::DHHMOPOLKBF* _Integration_k__BackingField; // 0x48
 		::System::Void _ctor()
@@ -54,14 +54,14 @@ inline static constexpr unsigned int OFIILELJGIE_TypeDefinitionIndex = 41824;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFIILELJGIE_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable* get_ObservableIsAllRequiredMet()
+		::R3::Observable_1<::System::Boolean>* get_ObservableIsAllRequiredMet()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + OFIILELJGIE_GET_OBSERVABLEISALLREQUIREDMET_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OFIILELJGIE_GET_OBSERVABLEISALLREQUIREDMET_OFFSET))(this);
 		}
 
-		::System::Void set_ObservableIsAllRequiredMet(::R3::Observable* a1)
+		::System::Void set_ObservableIsAllRequiredMet(::R3::Observable_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::R3::Observable*))((::PBYTE)hIl2Cpp + OFIILELJGIE_SET_OBSERVABLEISALLREQUIREDMET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::R3::Observable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + OFIILELJGIE_SET_OBSERVABLEISALLREQUIREDMET_OFFSET))(this, a1);
 		}
 
 		::System::Boolean NJLLIFIJEJD()

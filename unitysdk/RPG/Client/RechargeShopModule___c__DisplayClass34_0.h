@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/PayProductResult.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RechargeShopModule; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE59290)
 #define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_0__BUYGIFT_B__0_OFFSET UNITYSDK_OFFSET(0xDE59E20)
@@ -16,7 +16,7 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::RechargeShopModule* __4__this; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* promise; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS34_0_CTOR_OFFSET))(this);

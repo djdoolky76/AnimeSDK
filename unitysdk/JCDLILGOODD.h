@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 
 inline static constexpr unsigned int JCDLILGOODD_TypeDefinitionIndex = 36859;
 
@@ -19,5 +19,5 @@ inline static constexpr unsigned int JCDLILGOODD_TypeDefinitionIndex = 36859;
 		::System::UInt64 IKFMHLMOMPL; // 0x40
 		::System::Single PHJKANKECIN; // 0x48
 		::System::Single PAEANMBONDF; // 0x4C
-		::System::Nullable* AHCONINCIIK; // 0x50
+		::System::Nullable_1<::System::UInt32> AHCONINCIIK; // 0x50
 	};

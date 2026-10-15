@@ -4,8 +4,8 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define BGOMMMOBAHM_AMENPDLCODD_OFFSET UNITYSDK_OFFSET(0xB46C350)
 #define BGOMMMOBAHM_CTOR_OFFSET UNITYSDK_OFFSET(0xB46BEF0)
@@ -18,9 +18,9 @@ inline static constexpr unsigned int BGOMMMOBAHM_TypeDefinitionIndex = 77122;
 	class BGOMMMOBAHM : public ::System::Object
 	{
 	public:
-		::Entitas::ICollector* OOGGEJFJHIF; // 0x10
-		::Entitas::IGroup* GGLEFKBINMC; // 0x18
-		::Entitas::IGroup* KFBHHFIFHCJ; // 0x20
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* OOGGEJFJHIF; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GGLEFKBINMC; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* KFBHHFIFHCJ; // 0x20
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x28
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x30
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)

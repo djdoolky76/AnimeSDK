@@ -5,13 +5,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 class MGCJOCBHLBF;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define FDKCJINBAHP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CDDE110)
 #define FDKCJINBAHP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDDE6E0)
@@ -42,9 +42,9 @@ inline static constexpr unsigned int FDKCJINBAHP_TypeDefinitionIndex = 11581;
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MGCJOCBHLBF*>**)UnitySDK::FromName("", "FDKCJINBAHP")->GetStaticField(0x10888);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "FDKCJINBAHP")->GetStaticField(0x10890);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FDKCJINBAHP")->GetStaticField(0x10890);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
@@ -77,9 +77,9 @@ inline static constexpr unsigned int FDKCJINBAHP_TypeDefinitionIndex = 11581;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::MGCJOCBHLBF*>(*)())((::PBYTE)hIl2Cpp + FDKCJINBAHP_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::MGCJOCBHLBF*>, ::MGCJOCBHLBF*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + FDKCJINBAHP_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::MGCJOCBHLBF*>, ::MGCJOCBHLBF*>(*)())((::PBYTE)hIl2Cpp + FDKCJINBAHP_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::MGCJOCBHLBF* LMBKNCAIDLC(::RPG::GameCore::FateRinCaseBoardAvatarType a1)

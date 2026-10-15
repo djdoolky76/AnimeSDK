@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class Cookie; }
-namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
+namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class Promise_1; }
 
 #define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6577E0)
 #define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER___C__DISPLAYCLASS5_0__CB_GETCOOKIEFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F6578F0)
@@ -16,7 +16,7 @@ namespace ZenFulcrum::EmbeddedBrowser
 	{
 	public:
 		::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::Cookie*>* result; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::Promise* promise; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::Promise_1<::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::Cookie*>*>* promise; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

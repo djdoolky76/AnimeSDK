@@ -3,6 +3,7 @@
 #include "unitysdk/EEMDFPCIKCJ_MeshLodState.h"
 #include "unitysdk/RPG/GameCore/EntityLoadState.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class HEAIEBHLCMJ;
@@ -23,9 +24,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LodTemplate; }
 namespace System { class Action; }
 namespace System { class Exception; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -131,7 +132,7 @@ inline static constexpr unsigned int EEMDFPCIKCJ_TypeDefinitionIndex = 57344;
 		::RPG::Client::Promises::Promise* COPJLLEEHLI; // 0x28
 		::IAPOIJDMPJC* PPOHKOJMFDM; // 0x30
 		::RPG::Client::Promises::Promise* JOIGEPKIAML; // 0x38
-		::System::Action* AAPFGCJJIOC; // 0x40
+		::System::Action_1<::System::Boolean>* AAPFGCJJIOC; // 0x40
 		::UnityEngine::GameObject* LJOALOGMPBK; // 0x48
 		::System::String* AOOMBFICPBL; // 0x50
 		::UnityEngine::Transform* NHFGOEDBIJG; // 0x58
@@ -148,7 +149,7 @@ inline static constexpr unsigned int EEMDFPCIKCJ_TypeDefinitionIndex = 57344;
 		::RPG::GameCore::AdventureCharacterConfig* OEBOMFMHDCD; // 0xB0
 		::RPG::Client::Promises::Promise* NJIMOOBOKCO; // 0xB8
 		::RPG::GameCore::LodTemplate* HGNENGJAIAC; // 0xC0
-		::System::Action* LEGGMPIFJIL; // 0xC8
+		::System::Action_1<::RPG::GameCore::GameEntity*>* LEGGMPIFJIL; // 0xC8
 		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* HJDBFDAMKGA; // 0xD0
 		::HEAIEBHLCMJ* MGBABGFLKHN; // 0xD8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* LKGBGAJJEDK; // 0xE0
@@ -159,7 +160,7 @@ inline static constexpr unsigned int EEMDFPCIKCJ_TypeDefinitionIndex = 57344;
 		::EEMDFPCIKCJ_MeshLodState GJHKAFDFHLL; // 0x110
 		::System::Boolean DOBOOECEJLE; // 0x114
 		::System::Boolean JGKMOGHIMCJ; // 0x115
-		::System::Nullable* KFPABCHDLGI; // 0x116
+		::System::Nullable_1<::System::Boolean> KFPABCHDLGI; // 0x116
 		::UnityEngine::Vector3 MEABKPGIPGB; // 0x118
 		::UnityEngine::Bounds KPKONAAKNFF; // 0x124
 		::System::Single NMNFLBLHDDM; // 0x13C
@@ -262,9 +263,9 @@ inline static constexpr unsigned int EEMDFPCIKCJ_TypeDefinitionIndex = 57344;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEMDFPCIKCJ_CKHBPKAEGLF_OFFSET))(this);
 		}
 
-		::System::Void CBAGHIMPPJP(::System::Action* a1)
+		::System::Void CBAGHIMPPJP(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + EEMDFPCIKCJ_CBAGHIMPPJP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + EEMDFPCIKCJ_CBAGHIMPPJP_OFFSET))(this, a1);
 		}
 
 		::System::Void NJADGBCANMD()
@@ -362,9 +363,9 @@ inline static constexpr unsigned int EEMDFPCIKCJ_TypeDefinitionIndex = 57344;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEMDFPCIKCJ__ONINITOWNERREF_OFFSET))(this);
 		}
 
-		::System::Void LMCEDCHJKFF(::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo* a1, ::RPG::GameCore::AdventureCharacterConfig* a2, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo* a3, ::UnityEngine::Vector3 a4, ::System::Action* a5)
+		::System::Void LMCEDCHJKFF(::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo* a1, ::RPG::GameCore::AdventureCharacterConfig* a2, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo* a3, ::UnityEngine::Vector3 a4, ::System::Action_1<::RPG::GameCore::GameEntity*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo*, ::RPG::GameCore::AdventureCharacterConfig*, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo*, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + EEMDFPCIKCJ_LMCEDCHJKFF_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo*, ::RPG::GameCore::AdventureCharacterConfig*, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo*, ::UnityEngine::Vector3, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + EEMDFPCIKCJ_LMCEDCHJKFF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Dispose()

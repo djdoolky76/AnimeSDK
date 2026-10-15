@@ -6,7 +6,7 @@
 #include "unitysdk/UnityEngine/Behaviour.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/PropertyName.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class ScriptableObject; }
 namespace UnityEngine::Playables { class PlayableAsset; }
@@ -79,9 +79,9 @@ namespace UnityEngine::Playables
 	class PlayableDirector : public ::UnityEngine::Behaviour
 	{
 	public:
-		::System::Action* played; // 0x18
-		::System::Action* paused; // 0x20
-		::System::Action* stopped; // 0x28
+		::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* played; // 0x18
+		::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* paused; // 0x20
+		::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* stopped; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_CTOR_OFFSET))(this);
@@ -307,34 +307,34 @@ namespace UnityEngine::Playables
 			return ((::UnityEngine::ScriptableObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_INTERNAL_GETPLAYABLEASSET_OFFSET))(this);
 		}
 
-		::System::Void add_played(::System::Action* a1)
+		::System::Void add_played(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_ADD_PLAYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_ADD_PLAYED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_played(::System::Action* a1)
+		::System::Void remove_played(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_REMOVE_PLAYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_REMOVE_PLAYED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_paused(::System::Action* a1)
+		::System::Void add_paused(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_ADD_PAUSED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_ADD_PAUSED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_paused(::System::Action* a1)
+		::System::Void remove_paused(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_REMOVE_PAUSED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_REMOVE_PAUSED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_stopped(::System::Action* a1)
+		::System::Void add_stopped(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_ADD_STOPPED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_ADD_STOPPED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_stopped(::System::Action* a1)
+		::System::Void remove_stopped(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_REMOVE_STOPPED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEDIRECTOR_REMOVE_STOPPED_OFFSET))(this, a1);
 		}
 
 		static ::System::Void ResetFrameTiming()

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_RuntimeAtlas_Status.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 namespace System { class Object; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
@@ -21,8 +21,8 @@ namespace UnityEngine::UI
 		::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas_Status status; // 0x1C
 		::System::Int32 instanceID; // 0x20
 		::System::Int32 refCount; // 0x24
-		::System::ValueTuple secondLeaf; // 0x28
-		::System::WeakReference* textureRef; // 0x30
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> secondLeaf; // 0x28
+		::System::WeakReference_1<::UnityEngine::Texture*>* textureRef; // 0x30
 		::System::Int32 insertedFrame; // 0x38
 		::System::Void Free(::UnityEngine::Pooled::PooledList_1<::System::Object*>* a1)
 		{

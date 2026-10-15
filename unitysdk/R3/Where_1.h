@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace R3
@@ -11,7 +11,7 @@ namespace R3
 	class Where_1
 	{
 	public:
-		::R3::Observable* source; // 0x0
+		::R3::Observable_1<T>* source; // 0x0
 		::System::Func_2<T, ::System::Boolean>* predicate; // 0x0
 	};
 }

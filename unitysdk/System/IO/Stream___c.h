@@ -3,12 +3,12 @@
 #include "unitysdk/System/Threading/Tasks/VoidTaskResult.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/IO/Stream_ReadWriteParameters.h"
-namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 namespace System::IO { class Stream; }
@@ -63,9 +63,9 @@ namespace System::IO
 			return (::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15228);
 		}
 
-		static ::System::Action** StaticGet___9__47_0()
+		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__47_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15230);
+			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15230);
 		}
 
 		static ::System::Object** StaticGet___9()

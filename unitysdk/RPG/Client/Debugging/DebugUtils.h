@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 
@@ -24,9 +24,9 @@ namespace RPG::Client::Debugging
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEBUGGING_DEBUGUTILS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void DrawString(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::System::Nullable* a5)
+		static ::System::Void DrawString(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::System::Nullable_1<::UnityEngine::Color> a5)
 		{
-			return ((::System::Void(*)(::System::String*, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEBUGGING_DEBUGUTILS_DRAWSTRING_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::System::String*, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Nullable_1<::UnityEngine::Color>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEBUGGING_DEBUGUTILS_DRAWSTRING_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::UnityEngine::Vector3 PFLCOLIIFDN(::UnityEngine::Camera* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4)

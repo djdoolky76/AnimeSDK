@@ -4,9 +4,9 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -36,8 +36,8 @@ inline static constexpr unsigned int AEFBPMPIKNB_TypeDefinitionIndex = 77073;
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x18
-		::Entitas::ICollector* LLNOHKODFAB; // 0x20
-		::Entitas::IGroup* GJNBNKGJBFJ; // 0x28
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* LLNOHKODFAB; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GJNBNKGJBFJ; // 0x28
 		::RPG::PoolDictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x30
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{
@@ -59,9 +59,9 @@ inline static constexpr unsigned int AEFBPMPIKNB_TypeDefinitionIndex = 77073;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEFBPMPIKNB_EDLAMBPMMHL_OFFSET))(this);
 		}
 
-		::System::Void ALONMIHFDNE(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void ALONMIHFDNE(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + AEFBPMPIKNB_ALONMIHFDNE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + AEFBPMPIKNB_ALONMIHFDNE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean LAGAFLIFFMN(::HIOEAKHGILF* a1, ::System::String* a2)

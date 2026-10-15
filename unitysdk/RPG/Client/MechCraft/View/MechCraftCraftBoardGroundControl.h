@@ -5,13 +5,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/ONPKMMDCDAN.h"
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftCraftBoardGroundControl___c__DisplayClass30_0.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class BIKFPBGFCHP;
 class CHGHIALKMFM;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftBoardGroundControlBinder; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftBoardTileControl; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -90,9 +90,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::UnityEngine::RectTransform*(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL_GETCELLANCHOR_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* GetCellAtPivot(::CHGHIALKMFM* a1, ::RPG::Client::MechCraft::MechCraftRotationType a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4)
+		::System::Nullable_1<::UnityEngine::Vector2Int> GetCellAtPivot(::CHGHIALKMFM* a1, ::RPG::Client::MechCraft::MechCraftRotationType a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::CHGHIALKMFM*, ::RPG::Client::MechCraft::MechCraftRotationType, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL_GETCELLATPIVOT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Nullable_1<::UnityEngine::Vector2Int>(*)(::PVOID, ::CHGHIALKMFM*, ::RPG::Client::MechCraft::MechCraftRotationType, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL_GETCELLATPIVOT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ForceCloseCellVfx()
@@ -140,9 +140,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL_KDOJBBPNGDO_OFFSET))(this, a1);
 		}
 
-		::System::Void BLBDPOPCACB(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>* a1, ::System::Nullable* a2)
+		::System::Void BLBDPOPCACB(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL_BLBDPOPCACB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL_BLBDPOPCACB_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void GMMNOOEBFGP(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>* a1)

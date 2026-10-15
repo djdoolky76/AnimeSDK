@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class CutSceneSFXItem; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
 #define OKKFJLFMPFK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBEE8C90)
@@ -26,9 +26,9 @@ inline static constexpr unsigned int OKKFJLFMPFK___c_TypeDefinitionIndex = 56370
 			return (::System::Comparison_1<::RPG::GameCore::CutSceneSFXItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x566B8);
 		}
 
-		static ::System::Action** StaticGet___9__30_0()
+		static ::System::Action_1<::System::UInt32>** StaticGet___9__30_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x566C0);
+			return (::System::Action_1<::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x566C0);
 		}
 
 		static ::System::Void _cctor()

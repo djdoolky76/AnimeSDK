@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PetMarbleTalkTriggerType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MarbleModule; }
 namespace RPG::Client::PetMarble { class PetMarbleBattlePetTalkController; }
 namespace RPG::Client::PetMarble { class PetMarbleBattlePetTalkController_PetMarbleBattlePetTalkConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class Random; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -38,7 +38,7 @@ namespace RPG::Client::PetMarble
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PetMarbleTalkTriggerType, ::System::Collections::Generic::List_1<::System::Object*>*>*>* _TalkDict; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* _BondDict; // 0x18
 		::System::Random* _Random; // 0x20
-		::System::Nullable* _CurRound; // 0x28
+		::System::Nullable_1<::System::Int32> _CurRound; // 0x28
 		// static const ::System::Object _GoldRatioFraction; // 0x0
 		::System::Void _ctor()
 		{

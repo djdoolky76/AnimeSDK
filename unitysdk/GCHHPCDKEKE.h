@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/EntityTag.h"
 #include "unitysdk/RPG/GameCore/FiveDimCameraPriority.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EFHNDMENDHI;
 class EFODGECFLLC;
 class EHOFEPBAHNK;
@@ -150,14 +150,14 @@ inline static constexpr unsigned int GCHHPCDKEKE_TypeDefinitionIndex = 42830;
 			return ((::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>*(*)(::EHOFEPBAHNK*, ::System::UInt32))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_IMJAOIJCPDG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>* PCFHGJNMAFP(::EHOFEPBAHNK* a1, ::System::ValueTuple a2)
+		static ::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>* PCFHGJNMAFP(::EHOFEPBAHNK* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>*(*)(::EHOFEPBAHNK*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_PCFHGJNMAFP_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>*(*)(::EHOFEPBAHNK*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_PCFHGJNMAFP_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>* GMDBOGCBDBH(::EHOFEPBAHNK* a1, ::System::ValueTuple a2)
+		static ::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>* GMDBOGCBDBH(::EHOFEPBAHNK* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>*(*)(::EHOFEPBAHNK*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_GMDBOGCBDBH_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::HashSet_1<::OCPOIDCNJDA*>*(*)(::EHOFEPBAHNK*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_GMDBOGCBDBH_OFFSET))(a1, a2);
 		}
 
 		static ::HIOEAKHGILF* HBACENNPNBI(::EFODGECFLLC* a1, ::System::UInt32 a2)
@@ -195,14 +195,14 @@ inline static constexpr unsigned int GCHHPCDKEKE_TypeDefinitionIndex = 42830;
 			return ((::HIOEAKHGILF*(*)(::EFODGECFLLC*, ::System::UInt32))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_AEBBCACMMHL_OFFSET))(a1, a2);
 		}
 
-		static ::HIOEAKHGILF* FPNECNCJEOJ(::EFODGECFLLC* a1, ::System::ValueTuple a2)
+		static ::HIOEAKHGILF* FPNECNCJEOJ(::EFODGECFLLC* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::HIOEAKHGILF*(*)(::EFODGECFLLC*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_FPNECNCJEOJ_OFFSET))(a1, a2);
+			return ((::HIOEAKHGILF*(*)(::EFODGECFLLC*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_FPNECNCJEOJ_OFFSET))(a1, a2);
 		}
 
-		static ::EFHNDMENDHI* IHHBHDLLMGO(::EKJAOIOPBIO* a1, ::System::ValueTuple a2)
+		static ::EFHNDMENDHI* IHHBHDLLMGO(::EKJAOIOPBIO* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_IHHBHDLLMGO_OFFSET))(a1, a2);
+			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_IHHBHDLLMGO_OFFSET))(a1, a2);
 		}
 
 		static ::EFHNDMENDHI* CFLONPCJACA(::EKJAOIOPBIO* a1, ::System::UInt32 a2)
@@ -215,24 +215,24 @@ inline static constexpr unsigned int GCHHPCDKEKE_TypeDefinitionIndex = 42830;
 			return ((::System::Collections::Generic::HashSet_1<::EFHNDMENDHI*>*(*)(::EKJAOIOPBIO*, ::System::UInt32))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_NOICAGIIMPB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::EFHNDMENDHI*>* BHCHEMGLOFL(::EKJAOIOPBIO* a1, ::System::ValueTuple a2)
+		static ::System::Collections::Generic::HashSet_1<::EFHNDMENDHI*>* BHCHEMGLOFL(::EKJAOIOPBIO* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Collections::Generic::HashSet_1<::EFHNDMENDHI*>*(*)(::EKJAOIOPBIO*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_BHCHEMGLOFL_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::HashSet_1<::EFHNDMENDHI*>*(*)(::EKJAOIOPBIO*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_BHCHEMGLOFL_OFFSET))(a1, a2);
 		}
 
-		static ::EFHNDMENDHI* NKEIPCAMHGE(::EKJAOIOPBIO* a1, ::System::ValueTuple a2)
+		static ::EFHNDMENDHI* NKEIPCAMHGE(::EKJAOIOPBIO* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_NKEIPCAMHGE_OFFSET))(a1, a2);
+			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_NKEIPCAMHGE_OFFSET))(a1, a2);
 		}
 
-		static ::EFHNDMENDHI* GJCFIEABCFK(::EKJAOIOPBIO* a1, ::System::ValueTuple a2)
+		static ::EFHNDMENDHI* GJCFIEABCFK(::EKJAOIOPBIO* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_GJCFIEABCFK_OFFSET))(a1, a2);
+			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_GJCFIEABCFK_OFFSET))(a1, a2);
 		}
 
-		static ::EFHNDMENDHI* NLCECBIOHKM(::EKJAOIOPBIO* a1, ::System::ValueTuple a2)
+		static ::EFHNDMENDHI* NLCECBIOHKM(::EKJAOIOPBIO* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_NLCECBIOHKM_OFFSET))(a1, a2);
+			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_NLCECBIOHKM_OFFSET))(a1, a2);
 		}
 
 		static ::EFHNDMENDHI* GJFIBPGEKHP(::EKJAOIOPBIO* a1, ::System::UInt32 a2)
@@ -240,14 +240,14 @@ inline static constexpr unsigned int GCHHPCDKEKE_TypeDefinitionIndex = 42830;
 			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::UInt32))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_GJFIBPGEKHP_OFFSET))(a1, a2);
 		}
 
-		static ::EFHNDMENDHI* OBGINDIKBED(::EKJAOIOPBIO* a1, ::System::ValueTuple a2)
+		static ::EFHNDMENDHI* OBGINDIKBED(::EKJAOIOPBIO* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_OBGINDIKBED_OFFSET))(a1, a2);
+			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_OBGINDIKBED_OFFSET))(a1, a2);
 		}
 
-		static ::EFHNDMENDHI* MCJGKOCNBNC(::EKJAOIOPBIO* a1, ::System::ValueTuple a2)
+		static ::EFHNDMENDHI* MCJGKOCNBNC(::EKJAOIOPBIO* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_MCJGKOCNBNC_OFFSET))(a1, a2);
+			return ((::EFHNDMENDHI*(*)(::EKJAOIOPBIO*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GCHHPCDKEKE_MCJGKOCNBNC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::HIOEAKHGILF*>* CEKPKJCCHCD(::EFODGECFLLC* a1, ::System::Int32 a2)

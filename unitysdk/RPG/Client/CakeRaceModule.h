@@ -20,8 +20,9 @@ namespace RPG::Client::CakeRace { class CakeRacePerformanceInfo; }
 namespace RPG::Client::CakeRace { class CakeRacePlayerData; }
 namespace RPG::Client::CakeRace { class CakeRaceTriggerEventInfo; }
 namespace RPG::Client::Progress { class CakeRaceProgressInfo; }
-namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -99,7 +100,7 @@ namespace RPG::Client
 		::RPG::Client::CakeRaceChatInfo* _ChatInfo_k__BackingField; // 0x38
 		::RPG::Client::CakeRaceTitleInfo* _TitleInfo_k__BackingField; // 0x40
 		::RPG::Client::CakeRace::CakeRacePlayerData* _PlayerData_k__BackingField; // 0x48
-		::RPG::Client::Promises::Promise* _RequestLoanPromise; // 0x50
+		::RPG::Client::Promises::Promise_1<::EEFNMFGDGMA*>* _RequestLoanPromise; // 0x50
 		::RPG::Client::CakeRaceBattleItemInfo* _BattleItemInfo_k__BackingField; // 0x58
 		::RPG::Client::CakeRaceUI3DUtils* _UI3DUtils_k__BackingField; // 0x60
 		::RPG::Client::CakeRaceCatInfo* _CatInfo_k__BackingField; // 0x68
@@ -153,9 +154,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEMODULE__ONCAKERACECOINSCORECHANGESCNOTIFY_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* RequestLoan(::RPG::Client::CakeRace::CakeRaceLoanPrepareData* a1)
+		::RPG::Client::Promises::IPromise_1<::EEFNMFGDGMA*>* RequestLoan(::RPG::Client::CakeRace::CakeRaceLoanPrepareData* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::CakeRace::CakeRaceLoanPrepareData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEMODULE_REQUESTLOAN_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::EEFNMFGDGMA*>*(*)(::PVOID, ::RPG::Client::CakeRace::CakeRaceLoanPrepareData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEMODULE_REQUESTLOAN_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnCakeRaceLoanScRsp(::System::UInt16 a1, ::System::Object* a2)

@@ -3,16 +3,16 @@
 #include "unitysdk/CHFDBMHCGFL_State.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class BDMGLFNMFBD;
 class KPCDEJGJHBK;
 namespace RPG::Client { class MonoAnimationTrigger; }
 namespace RPG::Client { class NamedCurve; }
 namespace RPG::Client { class UIPrefabLoader; }
 namespace RPG::GameCore { class TeamTowersRobotConfig; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -81,7 +81,7 @@ inline static constexpr unsigned int CHFDBMHCGFL_TypeDefinitionIndex = 79112;
 		::KPCDEJGJHBK* MPJPDNHHENK; // 0x58
 		::UnityEngine::Transform* CEIICMEKDNE; // 0x60
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x68
-		::System::Action* JEPGOJGADHI; // 0x70
+		::System::Action_2<::System::String*, ::UnityEngine::GameObject*>* JEPGOJGADHI; // 0x70
 		::UnityEngine::GameObject* PFFFHDNFGKB; // 0x78
 		::RPG::Client::NamedCurve* DKBKFGAJDLJ; // 0x80
 		::System::Single HHBAMKJNMDC; // 0x88
@@ -182,9 +182,9 @@ inline static constexpr unsigned int CHFDBMHCGFL_TypeDefinitionIndex = 79112;
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CHFDBMHCGFL_NEFMELFNOHA_OFFSET))(this, a1);
 		}
 
-		::System::Void HKEPJLDBGIG(::System::String* a1, ::UnityEngine::Transform* a2, ::KPCDEJGJHBK* a3, ::System::Action* a4, ::System::Boolean a5)
+		::System::Void HKEPJLDBGIG(::System::String* a1, ::UnityEngine::Transform* a2, ::KPCDEJGJHBK* a3, ::System::Action_2<::System::String*, ::UnityEngine::GameObject*>* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::KPCDEJGJHBK*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + CHFDBMHCGFL_HKEPJLDBGIG_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::KPCDEJGJHBK*, ::System::Action_2<::System::String*, ::UnityEngine::GameObject*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CHFDBMHCGFL_HKEPJLDBGIG_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void JLANKNHFKCN(::System::Single a1)
@@ -222,9 +222,9 @@ inline static constexpr unsigned int CHFDBMHCGFL_TypeDefinitionIndex = 79112;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CHFDBMHCGFL_DBFHIJJCEJI_OFFSET))(this);
 		}
 
-		::System::Nullable* FPEMHNLKKAH()
+		::System::Nullable_1<::UnityEngine::Vector3> FPEMHNLKKAH()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHFDBMHCGFL_FPEMHNLKKAH_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + CHFDBMHCGFL_FPEMHNLKKAH_OFFSET))(this);
 		}
 
 		::System::Void AEOMIBPLMND()

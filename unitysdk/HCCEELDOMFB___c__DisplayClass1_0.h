@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Net { class IPEndPoint; }
 
@@ -14,7 +14,7 @@ inline static constexpr unsigned int HCCEELDOMFB___c__DisplayClass1_0_TypeDefini
 	{
 	public:
 		::System::Collections::Generic::IList_1<::System::Net::IPEndPoint*>* ipEndPoints; // 0x10
-		::System::Action* onCompleted; // 0x18
+		::System::Action_1<::System::Collections::Generic::IList_1<::System::UInt64>*>* onCompleted; // 0x18
 		::System::UInt64 timeout; // 0x20
 		::System::Void _ctor()
 		{

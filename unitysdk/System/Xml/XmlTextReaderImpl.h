@@ -18,14 +18,14 @@
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
 namespace System { class Uri; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Tuple_4; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::IO { class Stream; }
 namespace System::IO { class TextReader; }
 namespace System::Text { class Encoding; }
 namespace System::Text { class StringBuilder; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 namespace System::Xml { class IDtdDefaultAttributeInfo; }
 namespace System::Xml { class IDtdEntityInfo; }
 namespace System::Xml { class IDtdInfo; }
@@ -289,7 +289,7 @@ namespace System::Xml
 		::System::Text::StringBuilder* stringBuilder; // 0x10
 		::System::Xml::XmlNameTable* nameTable; // 0x18
 		::System::Xml::XmlCharType xmlCharType; // 0x20
-		::System::Threading::Tasks::Task* parseText_dummyTask; // 0x28
+		::System::Threading::Tasks::Task_1<::System::Tuple_4<::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean>*>* parseText_dummyTask; // 0x28
 		::System::Xml::IDtdInfo* dtdInfo; // 0x30
 		::System::String* reportedBaseUri; // 0x38
 		::System::Xml::IncrementalReadDecoder* incReadDecoder; // 0x40

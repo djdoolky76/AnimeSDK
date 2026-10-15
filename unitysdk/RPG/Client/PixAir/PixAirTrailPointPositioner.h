@@ -5,6 +5,7 @@
 namespace RPG::Client { class QuadricBezier; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class ParticleSystem; }
@@ -45,9 +46,9 @@ namespace RPG::Client::PixAir
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_SETPOINTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Play(::System::Action* a1, ::System::Action* a2)
+		::System::Void Play(::System::Action* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_PLAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_PLAY_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector2 _CalculateRandomMiddleScreenPos(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)

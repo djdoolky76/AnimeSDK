@@ -3,9 +3,9 @@
 #include "unitysdk/EnviromentSystemV2Space/EnvCallbackCurveType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/System/Nullable_1.h"
 class CADDDIKDHBJ;
 class PNEMLMAGOMM;
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -96,9 +96,9 @@ inline static constexpr unsigned int MHGKEGBGANO_TypeDefinitionIndex = 49565;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MHGKEGBGANO_JLANKNHFKCN_OFFSET))(this, a1);
 		}
 
-		::System::Void GKCJPBGDDFK(::System::String* a1, ::System::Nullable* a2, ::System::Nullable* a3)
+		::System::Void GKCJPBGDDFK(::System::String* a1, ::System::Nullable_1<::UnityEngine::Vector2> a2, ::System::Nullable_1<::UnityEngine::Vector2> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + MHGKEGBGANO_GKCJPBGDDFK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Nullable_1<::UnityEngine::Vector2>, ::System::Nullable_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + MHGKEGBGANO_GKCJPBGDDFK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void KOBNBLHDEMH()

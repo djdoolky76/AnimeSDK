@@ -5,9 +5,9 @@
 class AHIJMGKPIMF;
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
-namespace System { class Action; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
@@ -39,10 +39,10 @@ inline static constexpr unsigned int AHIJMGKPIMF_TypeDefinitionIndex = 71353;
 	{
 	public:
 		::RPG::Client::OnAssetOperationDelegate* FKLFJNPOPEA; // 0x10
-		::System::Collections::Generic::List_1<::System::Action*>* GIKNFBMJDFJ; // 0x18
+		::System::Collections::Generic::List_1<::System::Action_1<::AHIJMGKPIMF*>*>* GIKNFBMJDFJ; // 0x18
 		::UnityEngine::Object* ODGHHCHLMOP; // 0x20
 		::RPG::Client::IAssetOperation* CCFIHJJGBFN; // 0x28
-		::System::Collections::Generic::List_1<::System::Action*>* FKMFGHPMJKI; // 0x30
+		::System::Collections::Generic::List_1<::System::Action_1<::AHIJMGKPIMF*>*>* FKMFGHPMJKI; // 0x30
 		::System::Type* FEAPBKECDPL; // 0x38
 		::System::String* LBMJJOOCCBD; // 0x40
 		::AHIJMGKPIMF_AssetStatus JOPNMBKICND; // 0x48
@@ -61,44 +61,44 @@ inline static constexpr unsigned int AHIJMGKPIMF_TypeDefinitionIndex = 71353;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_ILDPJNPHNLK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OIPIANCDINE(::System::Action* a1)
+		::System::Void OIPIANCDINE(::System::Action_1<::AHIJMGKPIMF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_OIPIANCDINE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::AHIJMGKPIMF*>*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_OIPIANCDINE_OFFSET))(this, a1);
 		}
 
-		::System::Void GMNIIPCFFOE(::System::Action* a1)
+		::System::Void GMNIIPCFFOE(::System::Action_1<::AHIJMGKPIMF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_GMNIIPCFFOE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::AHIJMGKPIMF*>*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_GMNIIPCFFOE_OFFSET))(this, a1);
 		}
 
-		::System::Void OIFBALMLODK(::System::Action* a1)
+		::System::Void OIFBALMLODK(::System::Action_1<::AHIJMGKPIMF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_OIFBALMLODK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::AHIJMGKPIMF*>*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_OIFBALMLODK_OFFSET))(this, a1);
 		}
 
-		::System::Void HFDJKMPIHAM(::System::Action* a1)
+		::System::Void HFDJKMPIHAM(::System::Action_1<::AHIJMGKPIMF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_HFDJKMPIHAM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::AHIJMGKPIMF*>*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_HFDJKMPIHAM_OFFSET))(this, a1);
 		}
 
-		::System::Void EPELDMNMFEJ(::System::Action* a1)
+		::System::Void EPELDMNMFEJ(::System::Action_1<::AHIJMGKPIMF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_EPELDMNMFEJ_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::AHIJMGKPIMF*>*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_EPELDMNMFEJ_OFFSET))(this, a1);
 		}
 
-		::System::Void LADMGDAOLOD(::System::Action* a1)
+		::System::Void LADMGDAOLOD(::System::Action_1<::AHIJMGKPIMF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_LADMGDAOLOD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::AHIJMGKPIMF*>*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_LADMGDAOLOD_OFFSET))(this, a1);
 		}
 
-		::System::Void KFDJANKMJBA(::System::Action* a1)
+		::System::Void KFDJANKMJBA(::System::Action_1<::AHIJMGKPIMF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_KFDJANKMJBA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::AHIJMGKPIMF*>*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_KFDJANKMJBA_OFFSET))(this, a1);
 		}
 
-		::System::Void GPKPDMJGIHF(::System::Action* a1)
+		::System::Void GPKPDMJGIHF(::System::Action_1<::AHIJMGKPIMF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_GPKPDMJGIHF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::AHIJMGKPIMF*>*))((::PBYTE)hIl2Cpp + AHIJMGKPIMF_GPKPDMJGIHF_OFFSET))(this, a1);
 		}
 
 		::System::Type* LLFPEANIJIC()

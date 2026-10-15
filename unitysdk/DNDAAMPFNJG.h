@@ -8,9 +8,9 @@ class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class ODHPCINKFKK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimLightningConfig; }
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
@@ -46,9 +46,9 @@ inline static constexpr unsigned int DNDAAMPFNJG_TypeDefinitionIndex = 77129;
 	{
 	public:
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
-		::Entitas::ICollector* LDBOPAHKHJL; // 0x18
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* LDBOPAHKHJL; // 0x18
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x20
-		::Entitas::IGroup* JJJAKENOACB; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* JJJAKENOACB; // 0x28
 		::System::Boolean ABKMPGNDAHO; // 0x30
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_KIPGEBIACHF()
 		{
@@ -183,9 +183,9 @@ inline static constexpr unsigned int DNDAAMPFNJG_TypeDefinitionIndex = 77129;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DNDAAMPFNJG_NGGHLBDENKP_OFFSET))(this);
 		}
 
-		::System::Void LJBLJIBAOHP(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void LJBLJIBAOHP(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + DNDAAMPFNJG_LJBLJIBAOHP_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + DNDAAMPFNJG_LJBLJIBAOHP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 	};

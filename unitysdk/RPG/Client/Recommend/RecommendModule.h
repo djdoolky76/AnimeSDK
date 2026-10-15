@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JMEOHDKGMHK.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BGGIHLHFPGA;
 class EJEDKALMMNP;
 class OCGAELCDMOE;
@@ -13,6 +13,8 @@ namespace RPG::Client { class RelicSuitRecommendData; }
 namespace RPG::Client { class SuitRecommendAvatarData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::Client::Recommend { class RecommendModule; }
 namespace RPG::Client::Recommend { class RelicRecommendBigData; }
 namespace System { class Object; }
@@ -60,18 +62,18 @@ namespace RPG::Client::Recommend
 	class RecommendModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise*>* _RequestRelicRecommendBigDataPromiseDict; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise_1<::RPG::Client::Recommend::RelicRecommendBigData*>*>* _RequestRelicRecommendBigDataPromiseDict; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RelicRecommendData*>* _AvatarRelicRecommendConfigDataDict; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RelicRecommendData*>* _AvatarRelicRecommendDataDict; // 0x20
 		::RPG::Client::Promises::Promise* _FetchAllDataPromise; // 0x28
-		::System::Collections::Generic::Dictionary_2<::JMEOHDKGMHK, ::RPG::Client::Promises::Promise*>* _AllRecommendDataPromises; // 0x30
+		::System::Collections::Generic::Dictionary_2<::JMEOHDKGMHK, ::RPG::Client::Promises::Promise_1<::EJEDKALMMNP*>*>* _AllRecommendDataPromises; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Recommend::RelicRecommendBigData*>* _RelicRecommendBigDataDict; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise*>* _RequestLightConeRecommendBigDataPromiseDict; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise_1<::RPG::Client::LightConeRecommendData*>*>* _RequestLightConeRecommendBigDataPromiseDict; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RelicSuitRecommendData*>* _RelicAvatarRecommendDataDict; // 0x48
 		::RPG::Client::Promises::Promise* _FetchRelicAvatarRecommendDataPromise; // 0x50
 		::RPG::Client::Promises::Promise* _FetchAvatarRelicRecommendDataPromise; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise*>* _RequestRelicRecommendDataPromiseDict; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::Promises::Promise*>* _RecommendDataPromises; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise_1<::RPG::Client::RelicRecommendData*>*>* _RequestRelicRecommendDataPromiseDict; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::JMEOHDKGMHK, ::System::UInt32>, ::RPG::Client::Promises::Promise_1<::BGGIHLHFPGA*>*>* _RecommendDataPromises; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::LightConeRecommendData*>* _LightConeRecommendBigDataDict; // 0x70
 		::System::UInt32 _TimeStamp; // 0x78
 		::System::UInt32 _EXPIRED_TIME; // 0x7C
@@ -80,9 +82,9 @@ namespace RPG::Client::Recommend
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* RequestLightConeRecommendBigData(::System::UInt32 a1)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::LightConeRecommendData*>* RequestLightConeRecommendBigData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_REQUESTLIGHTCONERECOMMENDBIGDATA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::LightConeRecommendData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_REQUESTLIGHTCONERECOMMENDBIGDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::LightConeRecommendData* GetLightConeBigData(::System::UInt32 a1)
@@ -95,14 +97,14 @@ namespace RPG::Client::Recommend
 			return ((::System::Void(*)(::PVOID, ::BGGIHLHFPGA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE__UPDATELIGHTCONERECOMMENDBIGDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GetRecommendData(::JMEOHDKGMHK a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::IPromise_1<::BGGIHLHFPGA*>* GetRecommendData(::JMEOHDKGMHK a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::JMEOHDKGMHK, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_GETRECOMMENDDATA_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::BGGIHLHFPGA*>*(*)(::PVOID, ::JMEOHDKGMHK, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_GETRECOMMENDDATA_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* GetAllRecommendData(::JMEOHDKGMHK a1)
+		::RPG::Client::Promises::IPromise_1<::EJEDKALMMNP*>* GetAllRecommendData(::JMEOHDKGMHK a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::JMEOHDKGMHK))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_GETALLRECOMMENDDATA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::EJEDKALMMNP*>*(*)(::PVOID, ::JMEOHDKGMHK))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_GETALLRECOMMENDDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void _HandleRecommendData(::BGGIHLHFPGA* a1)
@@ -125,9 +127,9 @@ namespace RPG::Client::Recommend
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_GET_ISEXPIRED_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* RequestRelicRecommendBigData(::System::UInt32 a1)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::Recommend::RelicRecommendBigData*>* RequestRelicRecommendBigData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_REQUESTRELICRECOMMENDBIGDATA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::Recommend::RelicRecommendBigData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_REQUESTRELICRECOMMENDBIGDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Recommend::RelicRecommendBigData* GetRelicBigData(::System::UInt32 a1)
@@ -135,9 +137,9 @@ namespace RPG::Client::Recommend
 			return ((::RPG::Client::Recommend::RelicRecommendBigData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_GETRELICBIGDATA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* RequestRelicRecommendData(::System::UInt32 a1)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::RelicRecommendData*>* RequestRelicRecommendData(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_REQUESTRELICRECOMMENDDATA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::RelicRecommendData*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOMMEND_RECOMMENDMODULE_REQUESTRELICRECOMMENDDATA_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RelicRecommendData* GetRelicRecommendData(::System::UInt32 a1)

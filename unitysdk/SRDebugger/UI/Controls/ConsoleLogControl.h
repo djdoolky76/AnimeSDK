@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/Services/MihoyoOptionControlType.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace SRDebugger::Services { class ConsoleEntry; }
 namespace SRDebugger::Services { class IConsoleService; }
 namespace SRF::UI::Layout { class VirtualVerticalLayoutGroup; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::EventSystems { class AxisEventData; }
 namespace UnityEngine::UI { class ScrollRect; }
@@ -49,13 +49,13 @@ namespace SRDebugger::UI::Controls
 		::UnityEngine::UI::ScrollRect* _consoleScrollRect; // 0x50
 		::System::Boolean _isDirty; // 0x58
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _scrollPosition; // 0x5C
+		::System::Nullable_1<::UnityEngine::Vector2> _scrollPosition; // 0x5C
 		::System::Byte _padding1[0x4];
 		::System::Boolean _showErrors; // 0x68
 		::System::Boolean _showInfo; // 0x69
 		::System::Boolean _showWarnings; // 0x6A
 		::System::Byte _padding2[0x5];
-		::System::Action* SelectedItemChanged; // 0x70
+		::System::Action_1<::SRDebugger::Services::ConsoleEntry*>* SelectedItemChanged; // 0x70
 		::System::String* _filter; // 0x78
 		::System::Boolean _NeedNavi; // 0x80
 		::System::Void _ctor()

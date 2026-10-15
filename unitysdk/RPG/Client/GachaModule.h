@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/GachaItemType.h"
 #include "unitysdk/RPG/GameCore/GachaType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/Nullable_1.h"
 class NEIMLKNMDBM;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::AvatarSystem { class IAvatar; }
@@ -17,9 +18,8 @@ namespace RPG::Client { class GachaModule_DrawInfoCache; }
 namespace RPG::Client { class GachaTimeData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -119,11 +119,11 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GachaTimeData*>* _GachaTimeDatas; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* _NewGotUpAvatarIDs; // 0x18
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GachaType, ::RPG::Client::GachaCeilingData*>* _GachaCeilingDict; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::BaseGachaDecideData*>* _DecideDatas; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::BaseGachaDecideData*>* _DecideDatas; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* _WaitForPoolEndTimerID; // 0x30
 		::RPG::Client::BaseGachaPoolData* _GachaPoolDataCache_k__BackingField; // 0x38
 		::System::Collections::Generic::List_1<::RPG::Client::BaseGachaGroupData*>* _GachaGroupDatasThisVersion; // 0x40
-		::System::Action* _GetGachaInfoRspCallback_k__BackingField; // 0x48
+		::System::Action_1<::System::Boolean>* _GetGachaInfoRspCallback_k__BackingField; // 0x48
 		::Il2CppArray<::System::UInt32>* _LinkedGachaGroupOrder; // 0x50
 		::System::Collections::Generic::List_1<::System::UInt32>* _GachaNormalTrialStageIDList; // 0x58
 		::RPG::Client::GachaModule_DrawInfoCache* _CurrentDrawInfo; // 0x60
@@ -339,9 +339,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::RPG::Client::BaseGachaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE__ISANYGACHAPOOLREWARDACTIVITYSHOWNEWREDDOT_OFFSET))(a1);
 		}
 
-		::System::Nullable* GetToastGachaID()
+		::System::Nullable_1<::System::UInt32> GetToastGachaID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_GETTOASTGACHAID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_GETTOASTGACHAID_OFFSET))(this);
 		}
 
 		static ::System::Boolean HasAvatarToast(::System::UInt32 a1)
@@ -474,14 +474,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE__ONDEFAULTGACHAIDCHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_GetGachaInfoRspCallback()
+		::System::Action_1<::System::Boolean>* get_GetGachaInfoRspCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_GET_GETGACHAINFORSPCALLBACK_OFFSET))(this);
+			return ((::System::Action_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_GET_GETGACHAINFORSPCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_GetGachaInfoRspCallback(::System::Action* a1)
+		::System::Void set_GetGachaInfoRspCallback(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_SET_GETGACHAINFORSPCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_SET_GETGACHAINFORSPCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalGachaLimit()
@@ -574,9 +574,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_GET_GACHANORMALTRIALSTAGEIDLIST_OFFSET))(this);
 		}
 
-		::System::Nullable* get_GachaNormalPoolID()
+		::System::Nullable_1<::System::UInt32> get_GachaNormalPoolID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_GET_GACHANORMALPOOLID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE_GET_GACHANORMALPOOLID_OFFSET))(this);
 		}
 
 	};

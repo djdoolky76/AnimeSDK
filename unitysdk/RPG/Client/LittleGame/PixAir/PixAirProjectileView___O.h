@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
@@ -11,9 +11,9 @@ namespace RPG::Client::LittleGame::PixAir
 	class PixAirProjectileView___O : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__0____OnTrackedHitEffectRemoved()
+		static ::System::Action_1<::RPG::Client::MonoEffect*>** StaticGet__0____OnTrackedHitEffectRemoved()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>O")->GetStaticField(0x371B0);
+			return (::System::Action_1<::RPG::Client::MonoEffect*>**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>O")->GetStaticField(0x371B0);
 		}
 
 	};

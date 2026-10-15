@@ -3,6 +3,7 @@
 #include "unitysdk/KNKPLOGICFO_TimingMode.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define KNKPLOGICFO_BCKKLJNILIB_OFFSET UNITYSDK_OFFSET(0x1EC323D0)
 #define KNKPLOGICFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC31D70)
@@ -27,7 +28,7 @@ inline static constexpr unsigned int KNKPLOGICFO_TypeDefinitionIndex = 35325;
 	class KNKPLOGICFO : public ::System::Object
 	{
 	public:
-		::System::Action* GHFNNDPKDMK; // 0x10
+		::System::Action_1<::System::Single>* GHFNNDPKDMK; // 0x10
 		::System::Action* CLCPFHNMMKC; // 0x18
 		::System::Double HGLNIHAKLOA; // 0x20
 		::System::Single EEMMOONKNGN; // 0x28

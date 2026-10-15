@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Windows::OS::Channel { class BindManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS54_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0F010)
@@ -18,7 +18,7 @@ namespace MiHoYo::SDK::Windows::OS::Channel
 	{
 	public:
 		::System::String* account; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* callback; // 0x18
 		::System::String* actionType; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x28
 		::MiHoYo::SDK::Windows::OS::Channel::BindManager* __4__this; // 0x30

@@ -3,7 +3,7 @@
 #include "unitysdk/FMPCODLIOLG.h"
 class ENPCHFJGOMK;
 class NNCKBIHOFIP;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Slider; }
 
 #define ENPCHFJGOMK_COPGACEDIEI_OFFSET UNITYSDK_OFFSET(0x155B6D90)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int ENPCHFJGOMK_TypeDefinitionIndex = 72288;
 	public:
 		::UnityEngine::UI::Slider* HBMGJNFEFLN; // 0x60
 		::NNCKBIHOFIP* PFKCKIOAOFO; // 0x68
-		::System::Action* HJLKNPIFNGI; // 0x70
+		::System::Action_1<::ENPCHFJGOMK*>* HJLKNPIFNGI; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENPCHFJGOMK_CTOR_OFFSET))(this);
@@ -36,9 +36,9 @@ inline static constexpr unsigned int ENPCHFJGOMK_TypeDefinitionIndex = 72288;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENPCHFJGOMK_EKGCGIDIFJJ_OFFSET))(this);
 		}
 
-		::System::Void HPKAAIMCAPC(::System::Action* a1)
+		::System::Void HPKAAIMCAPC(::System::Action_1<::ENPCHFJGOMK*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ENPCHFJGOMK_HPKAAIMCAPC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::ENPCHFJGOMK*>*))((::PBYTE)hIl2Cpp + ENPCHFJGOMK_HPKAAIMCAPC_OFFSET))(this, a1);
 		}
 
 		::System::Void EGLHCCFNAGK()

@@ -7,6 +7,7 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class OverseaAccountList; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -56,11 +57,11 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Image* collapseBackgroundImage; // 0xA8
 		::UnityEngine::UI::Button* deleteButton; // 0xB0
 		::System::Action* OnClose; // 0xB8
-		::System::Action* OnConfirm; // 0xC0
+		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnConfirm; // 0xC0
 		::System::Action* OnLoginOtherAccount; // 0xC8
-		::System::Action* OnDeleteAccount; // 0xD0
-		::System::Action* OnDeleteAccountRecord; // 0xD8
-		::System::Action* OnSelectAccount; // 0xE0
+		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnDeleteAccount; // 0xD0
+		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnDeleteAccountRecord; // 0xD8
+		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnSelectAccount; // 0xE0
 		::System::Action* OnClickLastButton; // 0xE8
 		::MiHoYo::SDK::AccountModel* currentAccount; // 0xF0
 		::UnityEngine::UI::Image* currentAccountIcon; // 0xF8

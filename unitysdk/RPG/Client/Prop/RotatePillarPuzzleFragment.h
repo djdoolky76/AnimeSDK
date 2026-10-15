@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client::Prop { class RotatePillarPuzzleFragment; }
 namespace RPG::Client::Prop { class RotatePillarPuzzleFragmentData; }
 namespace RPG::Client::Prop { class RotatePillarPuzzleFragmentMono; }
 namespace RPG::Client::Prop { class RotatePillarPuzzlePillar; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -73,7 +73,7 @@ namespace RPG::Client::Prop
 		::System::Boolean _IsMainRotate; // 0x4D
 		::System::Boolean _IsComplete; // 0x4E
 		::System::Byte _padding2[0x1];
-		::System::Action* _RotateFinishCallback; // 0x50
+		::System::Action_3<::RPG::Client::Prop::RotatePillarPuzzleFragment*, ::System::Boolean, ::System::Boolean>* _RotateFinishCallback; // 0x50
 		::RPG::GameCore::GameEntity* _Owner; // 0x58
 		::RPG::Client::Prop::RotatePillarPuzzlePillar* _OwnerPillar; // 0x60
 		::System::Int32 _UniqueID; // 0x68
@@ -121,9 +121,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT_CCTOR_OFFSET))();
 		}
 
-		::System::Void LKODPOPDGDO(::RPG::Client::Prop::RotatePillarPuzzlePillar* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::Client::Prop::RotatePillarPuzzleFragmentData* a3, ::System::Action* a4)
+		::System::Void LKODPOPDGDO(::RPG::Client::Prop::RotatePillarPuzzlePillar* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::Client::Prop::RotatePillarPuzzleFragmentData* a3, ::System::Action_3<::RPG::Client::Prop::RotatePillarPuzzleFragment*, ::System::Boolean, ::System::Boolean>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RotatePillarPuzzlePillar*, ::RPG::GameCore::GameEntity*, ::RPG::Client::Prop::RotatePillarPuzzleFragmentData*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT_LKODPOPDGDO_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RotatePillarPuzzlePillar*, ::RPG::GameCore::GameEntity*, ::RPG::Client::Prop::RotatePillarPuzzleFragmentData*, ::System::Action_3<::RPG::Client::Prop::RotatePillarPuzzleFragment*, ::System::Boolean, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT_LKODPOPDGDO_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void HKGODOGHHFI(::System::String* a1)
@@ -176,9 +176,9 @@ namespace RPG::Client::Prop
 			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT_JFKCECJKHNB_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::IEnumerator* BGJENOCGHFF(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable* a4, ::System::Boolean a5)
+		::System::Collections::IEnumerator* BGJENOCGHFF(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable_1<::System::Single> a4, ::System::Boolean a5)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT_BGJENOCGHFF_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENT_BGJENOCGHFF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void MEJPCDCODCM(::System::Boolean a1)

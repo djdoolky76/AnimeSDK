@@ -4,8 +4,8 @@
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/IFBPIIECCAH.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -62,9 +62,9 @@ inline static constexpr unsigned int OKKEMIFLDEO_HANPIBHCKNL_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + OKKEMIFLDEO_HANPIBHCKNL_POKJJGHIKFK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EMFNGIMCHAF(::System::Nullable* a1, ::System::Nullable* a2, ::System::Nullable* a3)
+		::System::Void EMFNGIMCHAF(::System::Nullable_1<::RPG::GameCore::FixPoint> a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + OKKEMIFLDEO_HANPIBHCKNL_EMFNGIMCHAF_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + OKKEMIFLDEO_HANPIBHCKNL_EMFNGIMCHAF_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void GHKHAMOLHMC(::RPG::GameCore::PropertyModifyFunction a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::PropertyModifyFunction a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5)

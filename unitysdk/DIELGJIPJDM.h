@@ -5,9 +5,9 @@
 #include "unitysdk/RPG/GameCore/EnergyBarState.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/MonsterEnergyBarNumColor.h"
+#include "unitysdk/System/Nullable_1.h"
 class KCMGAIFFBPL;
 namespace RPG::GameCore { class MonsterEnergyBarCustomColor; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -214,9 +214,9 @@ inline static constexpr unsigned int DIELGJIPJDM_TypeDefinitionIndex = 71785;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIELGJIPJDM_MKLJPJHGKAH_OFFSET))(this);
 		}
 
-		::System::Void AFOIGCEJALH(::System::Nullable* a1)
+		::System::Void AFOIGCEJALH(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + DIELGJIPJDM_AFOIGCEJALH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + DIELGJIPJDM_AFOIGCEJALH_OFFSET))(this, a1);
 		}
 
 		::System::Void PDCPJMGMMPH()

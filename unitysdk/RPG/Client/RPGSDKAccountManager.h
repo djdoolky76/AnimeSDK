@@ -17,11 +17,11 @@ namespace RPG::Client { class ConsentBannerFunc; }
 namespace RPG::Client { class DevAccountModel; }
 namespace RPG::Client { class ShareSDK; }
 namespace RPG::Client { class VersionUpdateProgressInfo; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
@@ -227,19 +227,19 @@ namespace RPG::Client
 	public:
 		::System::String* _SDKDeviceId_k__BackingField; // 0x10
 		::System::String* _EnvType; // 0x18
-		::RPG::Client::Promises::Promise* _privacyProtocolPromise; // 0x20
+		::RPG::Client::Promises::Promise_1<::System::Int32>* _privacyProtocolPromise; // 0x20
 		::PJAEFBNMFBN* _MiHoYoEventTrackingSDK_k__BackingField; // 0x28
 		::System::String* ChannelToken; // 0x30
 		::System::String* AccountUid; // 0x38
 		::RPG::Client::ConsentBannerFunc* _ConsentBannerFunc_k__BackingField; // 0x40
 		::System::String* _CountryCode_k__BackingField; // 0x48
 		::System::String* Token; // 0x50
-		::RPG::Client::Promises::Promise* _initPromise; // 0x58
+		::RPG::Client::Promises::Promise_1<::System::Int32>* _initPromise; // 0x58
 		::GOLPBHDHPOO* _FireBaseAdSDK_k__BackingField; // 0x60
 		::RPG::Client::ShareSDK* _ShareSDK_k__BackingField; // 0x68
 		::PCCDHBCMOGE* _LocalPushMessageManager_k__BackingField; // 0x70
 		::System::String* ServerName; // 0x78
-		::RPG::Client::Promises::Promise* _UserAggreementPromise; // 0x80
+		::RPG::Client::Promises::Promise_1<::System::Int32>* _UserAggreementPromise; // 0x80
 		::MiHoYoSDKJSON::JSONNode* CurNode; // 0x88
 		::RPG::Client::DevAccountModel* DevAccountModel; // 0x90
 		::BFHEHDNBJLL* _ThirdPartyCloud_k__BackingField; // 0x98
@@ -342,9 +342,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* InitSdkEnv(::System::Boolean a1)
+		::RPG::Client::Promises::IPromise_1<::System::Int32>* InitSdkEnv(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_INITSDKENV_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Int32>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_INITSDKENV_OFFSET))(this, a1);
 		}
 
 		::System::Void SetAccountLoginMode(::RPG::Client::AccountLoginMode a1)
@@ -387,9 +387,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_SETGAMEPARAMETERS_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* ShowUserAgreement(::System::String* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Int32>* ShowUserAgreement(::System::String* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_SHOWUSERAGREEMENT_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Int32>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_SHOWUSERAGREEMENT_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnShowPrivacyProtocolResult(::System::String* a1)
@@ -637,9 +637,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_SETCHANNELCONFIG_OFFSET))(this);
 		}
 
-		static ::System::Void ShowExitUI(::System::Action* a1)
+		static ::System::Void ShowExitUI(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_SHOWEXITUI_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_SHOWEXITUI_OFFSET))(a1);
 		}
 
 		::System::Void LoginBind()
@@ -807,9 +807,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_GETDEVICEFINGERPRINT_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* CheckIsPushNotifyOpen()
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* CheckIsPushNotifyOpen()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_CHECKISPUSHNOTIFYOPEN_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER_CHECKISPUSHNOTIFYOPEN_OFFSET))(this);
 		}
 
 		::System::Void OpenPushNotifySetting()
@@ -892,14 +892,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__ONIOSPHOTOPERMISSIONCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _RPGSDKLogin(::System::Action* a1)
+		::System::Boolean _RPGSDKLogin(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__RPGSDKLOGIN_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__RPGSDKLOGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void _RPGSDKLogout(::System::Boolean a1, ::System::Action* a2)
+		::System::Void _RPGSDKLogout(::System::Boolean a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__RPGSDKLOGOUT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__RPGSDKLOGOUT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnSDKInitResponse(::System::String* a1)
@@ -1027,9 +1027,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__ONSWITCHROLERESPONSE_OFFSET))(a1);
 		}
 
-		static ::System::Void _OnExitResponse(::System::String* a1, ::System::Action* a2)
+		static ::System::Void _OnExitResponse(::System::String* a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__ONEXITRESPONSE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::String*, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__ONEXITRESPONSE_OFFSET))(a1, a2);
 		}
 
 		::System::Void _OnBindResponse(::System::String* a1)

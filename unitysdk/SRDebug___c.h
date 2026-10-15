@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace SRDebugger::Services { class ConsoleEntry; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define SRDEBUG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED364C0)
 #define SRDEBUG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED364F0)
@@ -19,9 +19,9 @@ inline static constexpr unsigned int SRDebug___c_TypeDefinitionIndex = 37947;
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38D90);
 		}
 
-		static ::System::Action** StaticGet___9__8_0()
+		static ::System::Action_1<::SRDebugger::Services::ConsoleEntry*>** StaticGet___9__8_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38D98);
+			return (::System::Action_1<::SRDebugger::Services::ConsoleEntry*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38D98);
 		}
 
 		static ::System::Void _cctor()

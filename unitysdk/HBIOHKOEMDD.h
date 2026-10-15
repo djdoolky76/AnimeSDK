@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class HBIOHKOEMDD_IHPDOPAKDCG;
 class HJCHNOIBJCA;
 namespace RPG::AvatarSystem { class IAvatar; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -69,9 +69,9 @@ inline static constexpr unsigned int HBIOHKOEMDD_TypeDefinitionIndex = 66729;
 			return ((::RPG::AvatarSystem::IAvatar*(*)(::HJCHNOIBJCA*, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + HBIOHKOEMDD_JFBFADEGHIA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Nullable* EIIMJHKLELE(::System::UInt32 a1)
+		static ::System::Nullable_1<::System::UInt32> EIIMJHKLELE(::System::UInt32 a1)
 		{
-			return ((::System::Nullable*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + HBIOHKOEMDD_EIIMJHKLELE_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + HBIOHKOEMDD_EIIMJHKLELE_OFFSET))(a1);
 		}
 
 	};

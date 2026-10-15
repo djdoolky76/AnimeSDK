@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Random; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -18,7 +18,7 @@ inline static constexpr unsigned int NECBCJGIEIE_ILKLIMGPMMP_TypeDefinitionIndex
 	class NECBCJGIEIE_ILKLIMGPMMP : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple>* KOFMMMDCNAL; // 0x10
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* KOFMMMDCNAL; // 0x10
 		::System::UInt32 _EndZ_k__BackingField; // 0x18
 		::System::UInt32 _StartZ_k__BackingField; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
@@ -26,14 +26,14 @@ inline static constexpr unsigned int NECBCJGIEIE_ILKLIMGPMMP_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + NECBCJGIEIE_ILKLIMGPMMP_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EGFCFCBHJJP(::System::ValueTuple a1)
+		::System::Void EGFCFCBHJJP(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + NECBCJGIEIE_ILKLIMGPMMP_EGFCFCBHJJP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + NECBCJGIEIE_ILKLIMGPMMP_EGFCFCBHJJP_OFFSET))(this, a1);
 		}
 
-		::System::Void AALCFBOGFKP(::System::ValueTuple a1)
+		::System::Void AALCFBOGFKP(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + NECBCJGIEIE_ILKLIMGPMMP_AALCFBOGFKP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + NECBCJGIEIE_ILKLIMGPMMP_AALCFBOGFKP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean COAHELMPGLI()
@@ -41,9 +41,9 @@ inline static constexpr unsigned int NECBCJGIEIE_ILKLIMGPMMP_TypeDefinitionIndex
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NECBCJGIEIE_ILKLIMGPMMP_COAHELMPGLI_OFFSET))(this);
 		}
 
-		::System::ValueTuple HMKMEJHBAGE(::System::Random* a1)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> HMKMEJHBAGE(::System::Random* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Random*))((::PBYTE)hIl2Cpp + NECBCJGIEIE_ILKLIMGPMMP_HMKMEJHBAGE_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::Random*))((::PBYTE)hIl2Cpp + NECBCJGIEIE_ILKLIMGPMMP_HMKMEJHBAGE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_StartZ()

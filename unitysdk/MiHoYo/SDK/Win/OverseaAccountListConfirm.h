@@ -3,6 +3,7 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 namespace MiHoYo::SDK::Win { class OverseaAccountListConfirm; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
@@ -34,7 +35,7 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Button* confirmButton; // 0xA0
 		::UnityEngine::UI::Text* confirmButtonText; // 0xA8
 		::System::Action* OnCancel; // 0xB0
-		::System::Action* OnConfirm; // 0xB8
+		::System::Action_1<::System::Boolean>* OnConfirm; // 0xB8
 		static ::MiHoYo::SDK::Win::OverseaAccountListConfirm** StaticGet_Instance()
 		{
 			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAccountListConfirm")->GetStaticField(0x22C50);

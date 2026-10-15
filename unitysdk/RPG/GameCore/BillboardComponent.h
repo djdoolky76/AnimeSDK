@@ -23,7 +23,7 @@ namespace RPG::GameCore { class SetInwardBubbleInfo; }
 namespace RPG::GameCore { class SummonUnitConfig; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -349,9 +349,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::HLGICBNPGOO))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BILLBOARDCOMPONENT__ISICONPARAMREPEATED_OFFSET))(this, a1);
 		}
 
-		::System::Tuple* _GetFiveDimSidePuzzlePanelPaths(::System::UInt32 a1)
+		::System::Tuple_2<::System::String*, ::System::String*>* _GetFiveDimSidePuzzlePanelPaths(::System::UInt32 a1)
 		{
-			return ((::System::Tuple*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BILLBOARDCOMPONENT__GETFIVEDIMSIDEPUZZLEPANELPATHS_OFFSET))(this, a1);
+			return ((::System::Tuple_2<::System::String*, ::System::String*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BILLBOARDCOMPONENT__GETFIVEDIMSIDEPUZZLEPANELPATHS_OFFSET))(this, a1);
 		}
 
 		::System::String* _GetFiveDimSidePuzzlePanelPath(::System::UInt32 a1)

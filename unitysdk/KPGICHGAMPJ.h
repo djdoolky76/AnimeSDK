@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class KFELGAIGHAP;
 class LEILONLGEGA;
 namespace RPG::Client { class EmoPlayableGraphConfig; }
@@ -82,7 +82,7 @@ inline static constexpr unsigned int KPGICHGAMPJ_TypeDefinitionIndex = 57350;
 		::KFELGAIGHAP* GDHIGBONMGN; // 0x70
 		::RPG::Client::EmoPlayableGraphConfig* BEDFGGHNOOF; // 0x78
 		::System::String* NKCNGCHLNEI; // 0x80
-		::System::Collections::Generic::List_1<::System::ValueTuple>* AOKFOAOOAFM; // 0x88
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::GameCore::BattlePerformCreateActor*, ::RPG::GameCore::GameEntity*>>* AOKFOAOOAFM; // 0x88
 		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* PKJIDNPPEIH; // 0x90
 		::RPG::GameCore::LevelGraphComponent* LJCPCPJJEIB; // 0x98
 		::RPG::GameCore::BattlePerformConfig* NFMCAMOLLLP; // 0xA0

@@ -5,12 +5,12 @@
 #include "unitysdk/RPG/GameCore/DrinkMakerRequestMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class DrinkMakerCheersBartendDrinkDataExtend; }
 namespace RPG::Client { class DrinkMakerCheersGroupData; }
 namespace RPG::Client { class DrinkMakerTagCombination; }
 namespace RPG::GameCore { class DrinkMakerCheersGuestRow; }
 namespace RPG::GameCore { class DrinkMakerIngredientRow; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -93,9 +93,9 @@ namespace RPG::Client
 		::System::Boolean _IsInviteGuest_k__BackingField; // 0x74
 		::System::Byte _padding0[0x3];
 		::System::UInt32 _InviteGuestGroupId_k__BackingField; // 0x78
-		::System::Void _ctor(::System::UInt32 a1, ::System::Nullable* a2)
+		::System::Void _ctor(::System::UInt32 a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSBARTENDREQUESTDATA_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSBARTENDREQUESTDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void VerifyTags(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::Boolean a2)

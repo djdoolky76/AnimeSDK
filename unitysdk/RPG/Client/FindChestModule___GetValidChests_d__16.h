@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class FBCGFMLJMLM;
 namespace RPG::Client { class FindChestModule; }
@@ -11,7 +12,6 @@ namespace RPG::GameCore { class FindChestFuncDataRow; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define RPG_CLIENT_FINDCHESTMODULE___GETVALIDCHESTS_D__16_CTOR_OFFSET UNITYSDK_OFFSET(0xD004D20)
@@ -41,7 +41,7 @@ namespace RPG::Client
 		::RPG::GameCore::FindChestFuncDataRow* findChestRow; // 0x68
 		::RPG::GameCore::RuntimeGroupInfo* _groupInfo_5__3; // 0x70
 		::FBCGFMLJMLM* __2__current; // 0x78
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* _iter_5__2; // 0x80
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*>>* _iter_5__2; // 0x80
 		::RPG::GameCore::FindChestFuncDataRow* __3__findChestRow; // 0x88
 		::System::Int32 _i_5__4; // 0x90
 		::System::Int32 __l__initialThreadId; // 0x94

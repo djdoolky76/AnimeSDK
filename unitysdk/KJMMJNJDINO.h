@@ -5,6 +5,7 @@
 namespace System { class Action; }
 namespace System { class IDisposable; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 inline static constexpr unsigned int KJMMJNJDINO_TypeDefinitionIndex = 49967;
@@ -14,7 +15,7 @@ inline static constexpr unsigned int KJMMJNJDINO_TypeDefinitionIndex = 49967;
 	public:
 		::System::Action* NDNMKBAJDAI; // 0x0
 		::System::Collections::Generic::List_1<::System::Action*>* GJOJBHCKLBP; // 0x0
-		::System::Collections::Generic::List_1<::System::Action*>* HIMBONECCJK; // 0x0
+		::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>* HIMBONECCJK; // 0x0
 		::System::IDisposable* IECELKOCKBH; // 0x0
 		::Sofa::Runtime::ReactiveBinding::LoadSessionPhase NOHNKAIALPJ; // 0x0
 		::System::Int32 FFFFJCOACPK; // 0x0

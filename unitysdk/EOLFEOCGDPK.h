@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GGLKJLLMHBN.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class GJABEBPIGDN;
 class GJHNDAONNGP;
 
@@ -20,7 +20,7 @@ inline static constexpr unsigned int EOLFEOCGDPK_TypeDefinitionIndex = 62719;
 	public:
 		::GJHNDAONNGP* EOEACGLNPMC; // 0x28
 		::RPG::GameCore::AvatarBaseType GIEAOGNLGFP; // 0x30
-		::System::ValueTuple FFFFJCOACPK; // 0x34
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> FFFFJCOACPK; // 0x34
 		::System::Void _ctor(::RPG::GameCore::AvatarBaseType a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + EOLFEOCGDPK_CTOR_OFFSET))(this, a1);

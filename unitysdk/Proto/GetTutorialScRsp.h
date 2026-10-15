@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class GetTutorialScRsp; }
@@ -41,14 +41,14 @@ namespace Proto
 		::Google::Protobuf::Collections::RepeatedField_1<::Proto::Tutorial*>* tutorialList_; // 0x10
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 		::System::UInt32 retcode_; // 0x20
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_tutorialList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::Tutorial*>** StaticGet__repeated_tutorialList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "GetTutorialScRsp")->GetStaticField(0x43C70);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::Tutorial*>**)UnitySDK::FromName("Proto", "GetTutorialScRsp")->GetStaticField(0x43C70);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetTutorialScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "GetTutorialScRsp")->GetStaticField(0x43C78);
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetTutorialScRsp*>**)UnitySDK::FromName("Proto", "GetTutorialScRsp")->GetStaticField(0x43C78);
 		}
 
 		// static const ::System::Object TutorialListFieldNumber; // 0x0
@@ -68,9 +68,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GETTUTORIALSCRSP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetTutorialScRsp*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_GETTUTORIALSCRSP_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::GetTutorialScRsp*>*(*)())((::PBYTE)hIl2Cpp + PROTO_GETTUTORIALSCRSP_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

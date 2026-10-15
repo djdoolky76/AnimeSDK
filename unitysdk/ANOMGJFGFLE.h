@@ -11,7 +11,7 @@ class HKDNFPBFODG;
 class MNBNFBAMKKI;
 namespace RPG::GameCore { class EventManager; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -117,9 +117,9 @@ inline static constexpr unsigned int ANOMGJFGFLE_TypeDefinitionIndex = 71732;
 			return ((::UnityEngine::Transform*(*)(::PVOID, ::MNBNFBAMKKI*))((::PBYTE)hIl2Cpp + ANOMGJFGFLE_LCNHFNKKNPI_OFFSET))(this, a1);
 		}
 
-		::System::Void BKGJDNCPLOH(::System::Action* a1)
+		::System::Void BKGJDNCPLOH(::System::Action_2<::MNBNFBAMKKI*, ::GOCCCPDKAHN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ANOMGJFGFLE_BKGJDNCPLOH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::MNBNFBAMKKI*, ::GOCCCPDKAHN*>*))((::PBYTE)hIl2Cpp + ANOMGJFGFLE_BKGJDNCPLOH_OFFSET))(this, a1);
 		}
 
 		::System::Void DMLMBFJCHON(::MNBNFBAMKKI* a1)

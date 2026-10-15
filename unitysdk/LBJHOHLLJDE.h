@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/SwipeCameraStateEnum.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class AJDAJPHJBME;
-namespace System { class Nullable; }
 
 #define LBJHOHLLJDE_ACGKGDDIBNB_OFFSET UNITYSDK_OFFSET(0xB600450)
 #define LBJHOHLLJDE_APLEBHNBEHA_OFFSET UNITYSDK_OFFSET(0xB6004B0)
@@ -37,7 +37,7 @@ inline static constexpr unsigned int LBJHOHLLJDE_TypeDefinitionIndex = 69664;
 		::System::Single JDPBNKPMDGF; // 0x24
 		::System::Boolean MOKNCFJICIC; // 0x28
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _OverrideXClampSoftZone_k__BackingField; // 0x2C
+		::System::Nullable_1<::System::Single> _OverrideXClampSoftZone_k__BackingField; // 0x2C
 		::System::Single CHFBAMFMAOJ; // 0x34
 		::System::Single ICCBDIBOGKO; // 0x38
 		::UnityEngine::Vector2 HNDKOOLOJAE; // 0x3C
@@ -45,7 +45,7 @@ inline static constexpr unsigned int LBJHOHLLJDE_TypeDefinitionIndex = 69664;
 		::System::Single FDJLFNEJALP; // 0x48
 		::System::Single AKIGECGJJDA; // 0x4C
 		::RPG::Client::SwipeCameraStateEnum DLNIGFGLPLJ; // 0x50
-		::System::Nullable* _OverrideXClampDeadZone_k__BackingField; // 0x54
+		::System::Nullable_1<::System::Single> _OverrideXClampDeadZone_k__BackingField; // 0x54
 		::System::Single NMFDLKEPKLJ; // 0x5C
 		::UnityEngine::Vector2 OGDEKPDMCLF; // 0x60
 		::System::Void _ctor(::AJDAJPHJBME* a1)
@@ -113,14 +113,14 @@ inline static constexpr unsigned int LBJHOHLLJDE_TypeDefinitionIndex = 69664;
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_APLEBHNBEHA_OFFSET))(this);
 		}
 
-		::System::Nullable* get_OverrideXClampSoftZone()
+		::System::Nullable_1<::System::Single> get_OverrideXClampSoftZone()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_GET_OVERRIDEXCLAMPSOFTZONE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_GET_OVERRIDEXCLAMPSOFTZONE_OFFSET))(this);
 		}
 
-		::System::Void set_OverrideXClampSoftZone(::System::Nullable* a1)
+		::System::Void set_OverrideXClampSoftZone(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_SET_OVERRIDEXCLAMPSOFTZONE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_SET_OVERRIDEXCLAMPSOFTZONE_OFFSET))(this, a1);
 		}
 
 		::System::Single ACGKGDDIBNB()
@@ -128,14 +128,14 @@ inline static constexpr unsigned int LBJHOHLLJDE_TypeDefinitionIndex = 69664;
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_ACGKGDDIBNB_OFFSET))(this);
 		}
 
-		::System::Nullable* get_OverrideXClampDeadZone()
+		::System::Nullable_1<::System::Single> get_OverrideXClampDeadZone()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_GET_OVERRIDEXCLAMPDEADZONE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_GET_OVERRIDEXCLAMPDEADZONE_OFFSET))(this);
 		}
 
-		::System::Void set_OverrideXClampDeadZone(::System::Nullable* a1)
+		::System::Void set_OverrideXClampDeadZone(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_SET_OVERRIDEXCLAMPDEADZONE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + LBJHOHLLJDE_SET_OVERRIDEXCLAMPDEADZONE_OFFSET))(this, a1);
 		}
 
 	};

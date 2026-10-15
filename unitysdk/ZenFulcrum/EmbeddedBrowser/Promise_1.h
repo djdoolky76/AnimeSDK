@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/PromiseState.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/RejectHandler.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IRejectable; }
 
@@ -21,7 +21,7 @@ namespace ZenFulcrum::EmbeddedBrowser
 		::System::Exception* rejectionException; // 0x0
 		T resolveValue; // 0x0
 		::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::RejectHandler>* rejectHandlers; // 0x0
-		::System::Collections::Generic::List_1<::System::Action*>* resolveCallbacks; // 0x0
+		::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>* resolveCallbacks; // 0x0
 		::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::IRejectable*>* resolveRejectables; // 0x0
 		::System::Int32 _Id_k__BackingField; // 0x0
 		::System::String* _Name_k__BackingField; // 0x0

@@ -3,7 +3,7 @@
 #include "unitysdk/GLBAOKOHKCF.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AKHEOAIPAPA;
 class ENGFCDJAFCG;
 class OFAKEFLLHNP;
@@ -30,7 +30,7 @@ inline static constexpr unsigned int HGLIFHHGLAD_TypeDefinitionIndex = 76385;
 	public:
 		::System::Collections::Generic::Dictionary_2<::GLBAOKOHKCF, ::ENGFCDJAFCG*>* IAFNNMFIMOI; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AKHEOAIPAPA*>* OHCMNIPPDIM; // 0x18
-		::System::Collections::Generic::Dictionary_2<::GLBAOKOHKCF, ::System::ValueTuple>* LJAFLGFOJNB; // 0x20
+		::System::Collections::Generic::Dictionary_2<::GLBAOKOHKCF, ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>>* LJAFLGFOJNB; // 0x20
 		::System::Boolean DALKJPIGDNO; // 0x28
 		::System::Void _ctor()
 		{

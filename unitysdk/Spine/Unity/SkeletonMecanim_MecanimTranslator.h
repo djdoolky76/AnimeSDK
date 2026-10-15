@@ -3,6 +3,7 @@
 #include "unitysdk/Spine/Unity/SkeletonMecanim_MecanimTranslator_MixMode.h"
 #include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/AnimatorClipInfo.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace Spine { class Animation; }
@@ -11,7 +12,6 @@ namespace Spine::Unity { class SkeletonDataAsset; }
 namespace Spine::Unity { class SkeletonMecanim_MecanimTranslator_OnClipAppliedDelegate; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
@@ -125,9 +125,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_APPLY_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* GetActiveAnimationAndTime(::System::Int32 a1)
+		::System::Collections::Generic::KeyValuePair_2<::Spine::Animation*, ::System::Single> GetActiveAnimationAndTime(::System::Int32 a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETACTIVEANIMATIONANDTIME_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::Spine::Animation*, ::System::Single>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_GETACTIVEANIMATIONANDTIME_OFFSET))(this, a1);
 		}
 
 		static ::System::Single AnimationTime(::System::Single a1, ::System::Single a2, ::System::Boolean a3, ::System::Boolean a4)

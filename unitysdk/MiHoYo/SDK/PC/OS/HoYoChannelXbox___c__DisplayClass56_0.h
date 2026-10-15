@@ -5,8 +5,8 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelXbox; }
 namespace MiHoYo::SDK::PC::OS { class XboxPayInfo; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3C130)
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS56_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BF3E5B0)
@@ -23,10 +23,10 @@ namespace MiHoYo::SDK::PC::OS
 	public:
 		::MiHoYo::SDK::PC::OS::HoYoChannelXbox* __4__this; // 0x10
 		::MiHoYo::SDK::PC::OS::XboxPayInfo* payInfo; // 0x18
-		::System::Action* __9__2; // 0x20
+		::System::Action_1<::System::String*>* __9__2; // 0x20
 		::MiHoYo::SDK::AccountModel* accountModel; // 0x28
-		::System::Action* __9__3; // 0x30
-		::System::Action* __9__1; // 0x38
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__3; // 0x30
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__1; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS56_0_CTOR_OFFSET))(this);

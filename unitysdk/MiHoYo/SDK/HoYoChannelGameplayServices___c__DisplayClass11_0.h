@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelStatisticsResult; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF82B00)
 #define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES___C__DISPLAYCLASS11_0__ONSTATISTICSCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xAF87E10)
@@ -15,7 +15,7 @@ namespace MiHoYo::SDK
 	class HoYoChannelGameplayServices___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelStatisticsResult*>* callback; // 0x10
 		::System::String* jsonResponse; // 0x18
 		::System::Int32 resultCode; // 0x20
 		::System::Void _ctor()

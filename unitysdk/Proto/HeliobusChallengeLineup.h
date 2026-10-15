@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class HeliobusChallengeLineup; }
@@ -43,14 +43,14 @@ namespace Proto
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* avatarIdList_; // 0x18
 		::System::UInt32 groupId_; // 0x20
 		::System::UInt32 skillId_; // 0x24
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::HeliobusChallengeLineup*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "HeliobusChallengeLineup")->GetStaticField(0x43CF0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::HeliobusChallengeLineup*>**)UnitySDK::FromName("Proto", "HeliobusChallengeLineup")->GetStaticField(0x43CF0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_avatarIdList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_avatarIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "HeliobusChallengeLineup")->GetStaticField(0x43CF8);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "HeliobusChallengeLineup")->GetStaticField(0x43CF8);
 		}
 
 		// static const ::System::Object GroupIdFieldNumber; // 0x0
@@ -71,9 +71,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_HELIOBUSCHALLENGELINEUP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::HeliobusChallengeLineup*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_HELIOBUSCHALLENGELINEUP_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::HeliobusChallengeLineup*>*(*)())((::PBYTE)hIl2Cpp + PROTO_HELIOBUSCHALLENGELINEUP_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

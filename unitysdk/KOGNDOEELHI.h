@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftPartType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class HNMIPBLIAJA;
 class JACIBMLLOFE;
 class OCKFDCAINLB;
@@ -18,9 +19,9 @@ inline static constexpr unsigned int KOGNDOEELHI_TypeDefinitionIndex = 80129;
 	class KOGNDOEELHI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::OCKFDCAINLB*>* HJLKLEMKDNI; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::MechCraft::MechCraftPartType>, ::OCKFDCAINLB*>* HJLKLEMKDNI; // 0x10
 		::HNMIPBLIAJA* CEFLLELKFOP; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::JACIBMLLOFE*>* LHFHFJBKJDK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::UInt32, ::RPG::Client::MechCraft::MechCraftPartType>, ::JACIBMLLOFE*>* LHFHFJBKJDK; // 0x20
 		::System::Void _ctor(::HNMIPBLIAJA* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::HNMIPBLIAJA*))((::PBYTE)hIl2Cpp + KOGNDOEELHI_CTOR_OFFSET))(this, a1);

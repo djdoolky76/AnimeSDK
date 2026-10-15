@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/NativeTask.h"
 namespace MiHoYo::SDK::Win { class NoticeManager_NativeNotice; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDA4680)
 #define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA3A30)
@@ -77,9 +77,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE_TRYREQUESTREDPOINTTEXT_OFFSET))(this);
 		}
 
-		::System::Boolean TryShowNotice(::System::String* a1, ::System::Action* a2)
+		::System::Boolean TryShowNotice(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE_TRYSHOWNOTICE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE_TRYSHOWNOTICE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean TryShowPopNotice(::System::Boolean a1)

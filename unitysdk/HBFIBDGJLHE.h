@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/Quality.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class HBFIBDGJLHE_APICCADOKMH;
@@ -10,7 +11,6 @@ class HBFIBDGJLHE_HBDKCJIBNMJ;
 class HBFIBDGJLHE_NOIHNPGDCDL;
 class HBFIBDGJLHE_OCJKOIKBNIN;
 namespace RPG::Client::CityCarFlow { class MonoCityCarConfigure; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -91,7 +91,7 @@ inline static constexpr unsigned int HBFIBDGJLHE_TypeDefinitionIndex = 82170;
 		::System::Boolean _IsRoadRagePlayer_k__BackingField; // 0x84
 		::System::Boolean _IsNight_k__BackingField; // 0x85
 		::System::Byte _padding0[0x2];
-		::System::Nullable* _PlayerPosition_k__BackingField; // 0x88
+		::System::Nullable_1<::UnityEngine::Vector3> _PlayerPosition_k__BackingField; // 0x88
 		::System::Byte _padding1[0x8];
 		::System::UInt32 _ID_k__BackingField; // 0x98
 		static ::System::Single* StaticGet_DLKDDCPBPGA()
@@ -159,9 +159,9 @@ inline static constexpr unsigned int HBFIBDGJLHE_TypeDefinitionIndex = 82170;
 			return ((::System::Void(*)(::PVOID, ::HBFIBDGJLHE_GIFMIOMFGNE*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_BIAFBNHBGFE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* IMEBGKDJIAL(::HBFIBDGJLHE_GIFMIOMFGNE* a1)
+		::System::Nullable_1<::System::Single> IMEBGKDJIAL(::HBFIBDGJLHE_GIFMIOMFGNE* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::HBFIBDGJLHE_GIFMIOMFGNE*))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_IMEBGKDJIAL_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::HBFIBDGJLHE_GIFMIOMFGNE*))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_IMEBGKDJIAL_OFFSET))(this, a1);
 		}
 
 		::HBFIBDGJLHE_GIFMIOMFGNE* BJFHDBPNLJJ(::HBFIBDGJLHE_OCJKOIKBNIN* a1)
@@ -219,14 +219,14 @@ inline static constexpr unsigned int HBFIBDGJLHE_TypeDefinitionIndex = 82170;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::CityCarFlow::MonoCityCarConfigure*))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_SET_CONFIGURE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_PlayerPosition()
+		::System::Nullable_1<::UnityEngine::Vector3> get_PlayerPosition()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_GET_PLAYERPOSITION_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_GET_PLAYERPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_PlayerPosition(::System::Nullable* a1)
+		::System::Void set_PlayerPosition(::System::Nullable_1<::UnityEngine::Vector3> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_SET_PLAYERPOSITION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + HBFIBDGJLHE_SET_PLAYERPOSITION_OFFSET))(this, a1);
 		}
 
 		::System::Void JDEKJLHMPLG(::RPG::Client::CityCarFlow::MonoCityCarConfigure* a1)

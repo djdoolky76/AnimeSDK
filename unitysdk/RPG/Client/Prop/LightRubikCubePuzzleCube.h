@@ -8,9 +8,9 @@ namespace RPG::Client::Prop { class LightRubikCubePuzzleBlock; }
 namespace RPG::Client::Prop { class LightRubikCubePuzzleConditionGroup; }
 namespace RPG::Client::Prop { class LightRubikCubePuzzleCube; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
@@ -51,8 +51,8 @@ namespace RPG::Client::Prop
 		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x130
 		::System::Collections::IEnumerator* BJOEOGDJKFF; // 0x138
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::LightRubikCubePuzzleConditionGroup*>* NNPKPPFJKDF; // 0x140
-		::System::Action* CIFOILLJFNF; // 0x148
-		::System::Action* JCGFOCCPHEH; // 0x150
+		::System::Action_1<::RPG::Client::Prop::LightRubikCubePuzzleCube*>* CIFOILLJFNF; // 0x148
+		::System::Action_1<::RPG::Client::Prop::LightRubikCubePuzzleCube*>* JCGFOCCPHEH; // 0x150
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_CTOR_OFFSET))(this);
@@ -78,9 +78,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void InitCube(::RPG::GameCore::GameEntity* a1, ::System::Action* a2)
+		::System::Void InitCube(::RPG::GameCore::GameEntity* a1, ::System::Action_1<::RPG::Client::Prop::LightRubikCubePuzzleCube*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_INITCUBE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action_1<::RPG::Client::Prop::LightRubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_INITCUBE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RegisterFrame(::RPG::Client::Prop::LightRubikCubePuzzleConditionGroup* a1)
@@ -113,14 +113,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RubikCubeGroup, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_SELECTGROUPTEST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterRotateFinishCallback(::System::Action* a1)
+		::System::Void RegisterRotateFinishCallback(::System::Action_1<::RPG::Client::Prop::LightRubikCubePuzzleCube*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_REGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Prop::LightRubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_REGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void UnRegisterRotateFinishCallback(::System::Action* a1)
+		::System::Void UnRegisterRotateFinishCallback(::System::Action_1<::RPG::Client::Prop::LightRubikCubePuzzleCube*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_UNREGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Prop::LightRubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECUBE_UNREGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::LightRubikCubePuzzleBlock*>* GetGroup(::RPG::Client::Prop::RubikCubeGroup a1)

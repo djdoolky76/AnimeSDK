@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/Client/LittleGame/BaseMonoGenericView.h"
 #include "unitysdk/RPG/GCFreeClosure/ClosureEvent_1.h"
 #include "unitysdk/RPG/GameCore/FDRIStateMaskEnum.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/KLNKLOMDIIC.h"
@@ -28,7 +29,6 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimView; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimView_PEOCIMCJAOD; }
 namespace RPG::GameCore { class FiveDimRIStateEmissionAction; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -184,7 +184,7 @@ namespace RPG::Client::LittleGame::FiveDim
 		::FiveDimRenderingPanel* JHBKPBHIJPM; // 0x108
 		::FiveDimRenderingPanel* MGNGEFCEICF; // 0x110
 		::UnityEngine::Transform* AOGDGEBEJCH; // 0x118
-		::System::Nullable* JIKCHOGANGM; // 0x120
+		::System::Nullable_1<::UnityEngine::Vector3> JIKCHOGANGM; // 0x120
 		::System::Byte _padding6[0x8];
 		::JDGOFBPECPM* PHOKLCDIDNC; // 0x130
 		::RPG::GameCore::FDRIStateMaskEnum GGDDOBIJKDG; // 0x138

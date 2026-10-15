@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame { template <typename T> class Services_1; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
@@ -16,6 +16,6 @@ namespace RPG::Client::LittleGame
 	public:
 		::UnityEngine::Transform* _Root; // 0x0
 		::RPG::Client::LittleGame::Services_1<T>* _Services; // 0x0
-		::System::Action* _LogErrorAction; // 0x0
+		::System::Action_1<::System::String*>* _LogErrorAction; // 0x0
 	};
 }

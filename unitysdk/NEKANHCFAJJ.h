@@ -8,7 +8,7 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPropCurveMovePaused; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 
 #define NEKANHCFAJJ_CKBCLDKJJDC_OFFSET UNITYSDK_OFFSET(0xBB6A8F0)
 #define NEKANHCFAJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6A2E0)
@@ -24,7 +24,7 @@ inline static constexpr unsigned int NEKANHCFAJJ_TypeDefinitionIndex = 58916;
 	public:
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x20
-		::System::WeakReference* HPIHLICKLAD; // 0x28
+		::System::WeakReference_1<::EBLHIMCKJIJ*>* HPIHLICKLAD; // 0x28
 		::RPG::GameCore::WaitPropCurveMovePaused* OFKGLJOAMLD; // 0x30
 		::System::String* IJMGEMMNNPI; // 0x38
 		::KFELGAIGHAP* HFOFIODMFGB; // 0x40

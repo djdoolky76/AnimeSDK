@@ -9,8 +9,8 @@ namespace MiHoYo::SDK { class BilibiliConfigModel; }
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class BiliBiliManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_BILIBILIMANAGER_ANTIADDICTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BCE2AA0)
 #define MIHOYO_SDK_WIN_BILIBILIMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCE7900)
@@ -49,14 +49,14 @@ namespace MiHoYo::SDK::Win
 	public:
 		::MiHoYo::SDK::JSONNode* gamePayInfo; // 0x10
 		::MiHoYo::SDK::BilibiliConfigModel* configModel; // 0x18
-		static ::System::Action** StaticGet_initCallback()
+		static ::System::Action_1<::System::String*>** StaticGet_initCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "BiliBiliManager")->GetStaticField(0x18BF0);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "BiliBiliManager")->GetStaticField(0x18BF0);
 		}
 
-		static ::System::Action** StaticGet_payCallback()
+		static ::System::Action_1<::System::String*>** StaticGet_payCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "BiliBiliManager")->GetStaticField(0x18BF8);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "BiliBiliManager")->GetStaticField(0x18BF8);
 		}
 
 		static ::MiHoYo::SDK::BiliBiliDelegate_AntiAddictionCallback** StaticGet_bAntiAddictionCallback()
@@ -84,9 +84,9 @@ namespace MiHoYo::SDK::Win
 			return (::MiHoYo::SDK::BiliBiliDelegate_InitCallback**)UnitySDK::FromName("MiHoYo.SDK.Win", "BiliBiliManager")->GetStaticField(0x18C20);
 		}
 
-		static ::System::Action** StaticGet_loginCallback()
+		static ::System::Action_1<::System::String*>** StaticGet_loginCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "BiliBiliManager")->GetStaticField(0x18C28);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "BiliBiliManager")->GetStaticField(0x18C28);
 		}
 
 		::System::Void _ctor()
@@ -114,9 +114,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_CHECKLOCALPARAMS_OFFSET))(this);
 		}
 
-		::System::Int32 Init(::System::Action* a1)
+		::System::Int32 Init(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_INIT_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void UnInit()
@@ -124,9 +124,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_UNINIT_OFFSET))(this);
 		}
 
-		::System::Void Login(::System::Action* a1)
+		::System::Void Login(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_LOGIN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_LOGIN_OFFSET))(this, a1);
 		}
 
 		static ::System::Void HandleLoginFlowNotification(::System::Int32 a1, ::System::String* a2)
@@ -144,14 +144,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_OPENANTIADDICTION_OFFSET))(this);
 		}
 
-		::System::Void Pay(::System::String* a1, ::System::Action* a2)
+		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_PAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_PAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CreatOrder(::MiHoYo::SDK::JSONNode* a1, ::MiHoYo::SDK::JSONNode* a2, ::System::Action* a3)
+		::System::Void CreatOrder(::MiHoYo::SDK::JSONNode* a1, ::MiHoYo::SDK::JSONNode* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::JSONNode*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_CREATORDER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::JSONNode*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_CREATORDER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnCreateOrder(::MiHoYo::SDK::NetworkResponseModel* a1)
@@ -179,49 +179,49 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_PAYCALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void OnCallback(::System::Int32 a1, ::System::String* a2, ::System::Action* a3, ::MiHoYo::SDK::JSONNode* a4)
+		static ::System::Void OnCallback(::System::Int32 a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3, ::MiHoYo::SDK::JSONNode* a4)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::Action*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONCALLBACK_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::Int32, ::System::String*, ::System::Action_1<::System::String*>*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONCALLBACK_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void OnInitSuccess(::System::Action* a1)
+		static ::System::Void OnInitSuccess(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONINITSUCCESS_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONINITSUCCESS_OFFSET))(a1);
 		}
 
-		static ::System::Void OnInitFail(::System::Action* a1, ::System::Int32 a2, ::System::String* a3)
+		static ::System::Void OnInitFail(::System::Action_1<::System::String*>* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::Action*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONINITFAIL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONINITFAIL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void OnLoginSuccess(::System::Action* a1, ::MiHoYo::SDK::JSONNode* a2)
+		static ::System::Void OnLoginSuccess(::System::Action_1<::System::String*>* a1, ::MiHoYo::SDK::JSONNode* a2)
 		{
-			return ((::System::Void(*)(::System::Action*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONLOGINSUCCESS_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONLOGINSUCCESS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void OnLoginFail(::System::Action* a1, ::System::Int32 a2, ::System::String* a3)
+		static ::System::Void OnLoginFail(::System::Action_1<::System::String*>* a1, ::System::Int32 a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::Action*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONLOGINFAIL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONLOGINFAIL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void OnLoginCancel(::System::Action* a1)
+		static ::System::Void OnLoginCancel(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONLOGINCANCEL_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONLOGINCANCEL_OFFSET))(a1);
 		}
 
-		static ::System::Void OnPayFail(::System::Action* a1, ::System::String* a2, ::System::Int32 a3)
+		static ::System::Void OnPayFail(::System::Action_1<::System::String*>* a1, ::System::String* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Action*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONPAYFAIL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONPAYFAIL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void OnPayCancel(::System::Action* a1)
+		static ::System::Void OnPayCancel(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONPAYCANCEL_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONPAYCANCEL_OFFSET))(a1);
 		}
 
-		static ::System::Void OnPaySuccess(::System::Action* a1)
+		static ::System::Void OnPaySuccess(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONPAYSUCCESS_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BILIBILIMANAGER_ONPAYSUCCESS_OFFSET))(a1);
 		}
 
 	};

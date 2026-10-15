@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OEOFKECAJEB.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class LittleGameComponentConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -35,9 +35,9 @@ inline static constexpr unsigned int BDPDNAECJII___c_TypeDefinitionIndex = 37160
 			return (::System::Func_2<::RPG::GameCore::LittleGameComponentConfig*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56000);
 		}
 
-		static ::System::Comparison_1<::System::ValueTuple>** StaticGet___9__68_0()
+		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__68_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56008);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56008);
 		}
 
 		static ::System::Comparison_1<::OEOFKECAJEB>** StaticGet___9__82_0()
@@ -65,9 +65,9 @@ inline static constexpr unsigned int BDPDNAECJII___c_TypeDefinitionIndex = 37160
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LittleGameComponentConfig*))((::PBYTE)hIl2Cpp + BDPDNAECJII___C___INITPLAYER_B__47_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __FillPlayerAchievementList_b__68_0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __FillPlayerAchievementList_b__68_0(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + BDPDNAECJII___C___FILLPLAYERACHIEVEMENTLIST_B__68_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + BDPDNAECJII___C___FILLPLAYERACHIEVEMENTLIST_B__68_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 __GetActiveSkillInfoList_b__82_0(::OEOFKECAJEB a1, ::OEOFKECAJEB a2)

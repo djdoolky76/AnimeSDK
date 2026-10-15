@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/Client/LittleGameShare/TeamTowersCore/ModifyType.h"
 #include "unitysdk/RPG/Client/LittleGameShare/TeamTowersCore/TeamTowersStatType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FKIAHEEJGKH;
 namespace System { class Object; }
 namespace System { class String; }
@@ -30,8 +31,8 @@ inline static constexpr unsigned int BGGGFKNDEMJ_TypeDefinitionIndex = 37126;
 	class BGGGFKNDEMJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>* FGFFMLILPLP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Int32>* MCMPOKENOJC; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>, ::System::Int32>* FGFFMLILPLP; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* MCMPOKENOJC; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* COIAEELHCOJ; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Int32>* DPHIHLJEBKF; // 0x28
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Object*>* EIKFHBIHLON; // 0x30

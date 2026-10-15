@@ -19,6 +19,7 @@
 #include "unitysdk/RPG/GameCore/FreezeMovementReason.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/LevelAnimatingObjectState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/AnimatorCullingMode.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
@@ -74,10 +75,11 @@ namespace RPGTools::Timeline { class CharacterStoryMoveSequenceData; }
 namespace RPGTools::Timeline { class CharacterStoryMoveStartData; }
 namespace RPGTools::Timeline { class CharacterStoryMoveStopData; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections { class IEnumerator; }
@@ -458,7 +460,7 @@ namespace RPG::GameCore
 		::UnityEngine::CapsuleCollider* _capsuleCollider; // 0x40
 		::JKJAAHPMPIN* _TurnInPlaceRecoverTask; // 0x48
 		::UnityEngine::Coroutine* _WaitRecoverAnimatorCoroutine; // 0x50
-		::System::Action* _OnEnterStandByStateAction; // 0x58
+		::System::Action_1<::RPG::GameCore::AdventureCharacterController*>* _OnEnterStandByStateAction; // 0x58
 		::System::Collections::Generic::List_1<::GFGMMPIDNGI*>* _ModifyRunSpeedRatioMultiplierTasks; // 0x60
 		::KFELGAIGHAP* _onEndRushMove; // 0x68
 		::ILHNCGGCBBL* _AnimFSM; // 0x70
@@ -543,11 +545,11 @@ namespace RPG::GameCore
 		::System::Single _LastAnimatorSpeed; // 0x23C
 		::UnityEngine::Vector3 _LastActiveCameraForward; // 0x240
 		::System::Single _ConfigReferenceWalkSpeed_k__BackingField; // 0x24C
-		::System::Nullable* _AnimAlertLevel; // 0x250
+		::System::Nullable_1<::RPG::GameCore::CharacterAlertLevel> _AnimAlertLevel; // 0x250
 		::System::Single UnitSpeed; // 0x258
 		::RPG::GameCore::CharacterMotionFlag _MotionFlag_k__BackingField; // 0x25C
 		::System::Single _FastRunRootMotionScale; // 0x260
-		::System::Nullable* _LastAllowIdleShowPosition_k__BackingField; // 0x264
+		::System::Nullable_1<::UnityEngine::Vector3> _LastAllowIdleShowPosition_k__BackingField; // 0x264
 		::System::Byte _padding0[0x8];
 		::System::Single _DelayUseCameraForwardTime; // 0x274
 		::UnityEngine::Vector3 _EntityApplyMoveVector; // 0x278
@@ -583,7 +585,7 @@ namespace RPG::GameCore
 		::System::UInt32 _NeedCalcTiltFlag_k__BackingField; // 0x2F8
 		::System::Byte _padding2[0x4];
 		::RPG::Client::ReasonBool_1<::RPG::GameCore::EAdventureCharacterSelfIdleShowReason> _ForbidPlayIdleShowReason; // 0x300
-		::System::Nullable* _enterCurveRotation; // 0x308
+		::System::Nullable_1<::UnityEngine::Quaternion> _enterCurveRotation; // 0x308
 		::System::Byte _padding3[0xC];
 		::System::Boolean _FobidGetRotatingAxis; // 0x31C
 		::System::Boolean _IsForbidInputOnUIBlock_k__BackingField; // 0x31D
@@ -858,9 +860,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::BJPKCHPDJBO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_FLUSHIKTHREADDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void OverrideAnimAlertLevel(::System::Nullable* a1)
+		::System::Void OverrideAnimAlertLevel(::System::Nullable_1<::RPG::GameCore::CharacterAlertLevel> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_OVERRIDEANIMALERTLEVEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::CharacterAlertLevel>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_OVERRIDEANIMALERTLEVEL_OFFSET))(this, a1);
 		}
 
 		::System::Void TriggerAttack()
@@ -1253,9 +1255,9 @@ namespace RPG::GameCore
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_GETRUNSPEEDROOTMOTIONSCALEMULTIPLIER_OFFSET))(this);
 		}
 
-		::System::Void AcquireInputDataFillControl(::System::Int32 a1, ::System::Action* a2)
+		::System::Void AcquireInputDataFillControl(::System::Int32 a1, ::System::Action_2<::RPG::GameCore::CharacterInputData*, ::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_ACQUIREINPUTDATAFILLCONTROL_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_2<::RPG::GameCore::CharacterInputData*, ::System::Single>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_ACQUIREINPUTDATAFILLCONTROL_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean ReleaseInputDataFillControl(::System::Int32 a1)
@@ -1263,14 +1265,14 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_RELEASEINPUTDATAFILLCONTROL_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterEnterStandByStateListener(::System::Action* a1)
+		::System::Void RegisterEnterStandByStateListener(::System::Action_1<::RPG::GameCore::AdventureCharacterController*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_REGISTERENTERSTANDBYSTATELISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::AdventureCharacterController*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_REGISTERENTERSTANDBYSTATELISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void UnregisterEnterStandByStateListener(::System::Action* a1)
+		::System::Void UnregisterEnterStandByStateListener(::System::Action_1<::RPG::GameCore::AdventureCharacterController*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_UNREGISTERENTERSTANDBYSTATELISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::AdventureCharacterController*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_UNREGISTERENTERSTANDBYSTATELISTENER_OFFSET))(this, a1);
 		}
 
 		::System::Void SetAnimatorSpeedMultiplyFactor(::RPG::GameCore::AnimatorSpeedMultiplyReason a1, ::System::Single a2)
@@ -2163,14 +2165,14 @@ namespace RPG::GameCore
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_GET_DELTATIMEFORIK_OFFSET))(this);
 		}
 
-		::System::Nullable* get_LastAllowIdleShowPosition()
+		::System::Nullable_1<::UnityEngine::Vector3> get_LastAllowIdleShowPosition()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_GET_LASTALLOWIDLESHOWPOSITION_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_GET_LASTALLOWIDLESHOWPOSITION_OFFSET))(this);
 		}
 
-		::System::Void set_LastAllowIdleShowPosition(::System::Nullable* a1)
+		::System::Void set_LastAllowIdleShowPosition(::System::Nullable_1<::UnityEngine::Vector3> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_SET_LASTALLOWIDLESHOWPOSITION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECHARACTERCONTROLLER_SET_LASTALLOWIDLESHOWPOSITION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsForbidPlayIdleShow()

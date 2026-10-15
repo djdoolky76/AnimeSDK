@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define CLOUDGAME_MAILBOX_IME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC201D0)
 #define CLOUDGAME_MAILBOX_IME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC20210)
@@ -21,9 +21,9 @@ namespace CloudGame::MailBox
 			return (::System::Object**)UnitySDK::FromName("CloudGame.MailBox", "<>c")->GetStaticField(0x2EB70);
 		}
 
-		static ::System::Action** StaticGet___9__3_0()
+		static ::System::Action_1<::System::String*>** StaticGet___9__3_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("CloudGame.MailBox", "<>c")->GetStaticField(0x2EB78);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("CloudGame.MailBox", "<>c")->GetStaticField(0x2EB78);
 		}
 
 		static ::System::Void _cctor()

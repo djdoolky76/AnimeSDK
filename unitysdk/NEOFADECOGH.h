@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -39,9 +39,9 @@ inline static constexpr unsigned int NEOFADECOGH_TypeDefinitionIndex = 49288;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEOFADECOGH_JLANKNHFKCN_OFFSET))(this);
 		}
 
-		::System::Int32 FLAAIBEJDOI(::System::Single a1, ::System::Action* a2, ::System::String* a3)
+		::System::Int32 FLAAIBEJDOI(::System::Single a1, ::System::Action_1<::System::Int32>* a2, ::System::String* a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + NEOFADECOGH_FLAAIBEJDOI_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Action_1<::System::Int32>*, ::System::String*))((::PBYTE)hIl2Cpp + NEOFADECOGH_FLAAIBEJDOI_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* DBIELBAPKIK(::System::Int32 a1)

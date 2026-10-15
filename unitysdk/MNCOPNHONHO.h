@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PlayerDisableInteractReason.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/RIStateSetReason.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/RendererMoveReason.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/HPKDNHLINPC.h"
 #include "unitysdk/MAAGBGMIOAL.h"
@@ -54,9 +55,10 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -322,7 +324,7 @@ inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
 	public:
 		::OEAKPLCANOI* AEMHACMMLGC; // 0x90
 		::RPG::Client::LuaUIController* MELABBBDKDB; // 0x98
-		::System::Action* GCFMCCLFBFA; // 0xA0
+		::System::Action_1<::RPG::GameCore::FourRotateVoxelPortalConfig*>* GCFMCCLFBFA; // 0xA0
 		::PDOPIEJIBCF* _RoomDoorService_k__BackingField; // 0xA8
 		::DFOAEBGJJJG* _RoomService_k__BackingField; // 0xB0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* FCBNHELBMMM; // 0xB8
@@ -351,7 +353,7 @@ inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
 		::System::Boolean KFIENGODAOL; // 0x169
 		::System::Boolean GKNAJEFKABI; // 0x16A
 		::System::Boolean _HasDisposed_k__BackingField; // 0x16B
-		::System::Nullable* ONPONHALPNB; // 0x16C
+		::System::Nullable_1<::System::Single> ONPONHALPNB; // 0x16C
 		::System::Int32 MMKKEJFKIGK; // 0x174
 		::System::Int32 IECOHOMHKGD; // 0x178
 		::System::Int32 LHNILJGIEOP; // 0x17C
@@ -581,14 +583,14 @@ inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
 			return ((::INMMPMDELKE*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MNCOPNHONHO_DELBEBFEOOP_OFFSET))(this, a1);
 		}
 
-		::System::Void NIGDMLLHPIA(::System::Action* a1)
+		::System::Void NIGDMLLHPIA(::System::Action_1<::RPG::GameCore::FourRotateVoxelPortalConfig*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_NIGDMLLHPIA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::FourRotateVoxelPortalConfig*>*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_NIGDMLLHPIA_OFFSET))(this, a1);
 		}
 
-		::System::Void DEILMBKCGKH(::System::Action* a1)
+		::System::Void DEILMBKCGKH(::System::Action_1<::RPG::GameCore::FourRotateVoxelPortalConfig*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_DEILMBKCGKH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::FourRotateVoxelPortalConfig*>*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_DEILMBKCGKH_OFFSET))(this, a1);
 		}
 
 		::System::Void NLEKHKKGBHP(::RPG::GameCore::FourRotateVoxelPortalConfig* a1)
@@ -1031,9 +1033,9 @@ inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
 			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::INMMPMDELKE*, ::System::Int32))((::PBYTE)hIl2Cpp + MNCOPNHONHO_EDBEICKFCCF_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord CDMMGOOIEII(::UnityEngine::Vector3 a1, ::System::Nullable* a2, ::System::Int32 a3)
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord CDMMGOOIEII(::UnityEngine::Vector3 a1, ::System::Nullable_1<::UnityEngine::Vector3> a2, ::System::Int32 a3)
 		{
-			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + MNCOPNHONHO_CDMMGOOIEII_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32))((::PBYTE)hIl2Cpp + MNCOPNHONHO_CDMMGOOIEII_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 BJBMDNOJIPN(::UnityEngine::Vector3 a1, ::System::Single a2)
@@ -1101,14 +1103,14 @@ inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + MNCOPNHONHO_MNLDAHHFMKJ_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 LFJHIGJLDMH(::UnityEngine::Vector3 a1, ::System::Nullable* a2)
+		::UnityEngine::Vector3 LFJHIGJLDMH(::UnityEngine::Vector3 a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_LFJHIGJLDMH_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + MNCOPNHONHO_LFJHIGJLDMH_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord LMAHDKCGOAF(::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a1, ::System::Nullable* a2)
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord LMAHDKCGOAF(::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Nullable*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_LMAHDKCGOAF_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + MNCOPNHONHO_LMAHDKCGOAF_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 GMLIMNADDME(::UnityEngine::Vector3 a1)
@@ -1146,9 +1148,9 @@ inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::System::Single))((::PBYTE)hIl2Cpp + MNCOPNHONHO_KINBMPENIFM_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::TriggerEffectParamsRef HHEHKOFNGLK(::System::String* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Action* a4, ::System::Nullable* a5)
+		::RPG::Client::TriggerEffectParamsRef HHEHKOFNGLK(::System::String* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a4, ::System::Nullable_1<::UnityEngine::Vector3> a5)
 		{
-			return ((::RPG::Client::TriggerEffectParamsRef(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Action*, ::System::Nullable*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_HHEHKOFNGLK_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::RPG::Client::TriggerEffectParamsRef(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + MNCOPNHONHO_HHEHKOFNGLK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void NFGHKDJHMLI(::INMMPMDELKE* a1, ::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* a2, ::System::Action* a3)
@@ -1206,9 +1208,9 @@ inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MNCOPNHONHO_IDLCPJILKDJ_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 IFDOOGLKFGM(::System::Nullable* a1)
+		::UnityEngine::Vector3 IFDOOGLKFGM(::System::Nullable_1<::UnityEngine::Vector3> a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_IFDOOGLKFGM_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + MNCOPNHONHO_IFDOOGLKFGM_OFFSET))(this, a1);
 		}
 
 		::System::Void CDCKJHFNHDD(::System::Single a1)
@@ -1251,24 +1253,24 @@ inline static constexpr unsigned int MNCOPNHONHO_TypeDefinitionIndex = 76684;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MNCOPNHONHO_LEECMKJDMJI_OFFSET))(this, a1);
 		}
 
-		::System::Void MINONJEBFLP(::System::Action* a1)
+		::System::Void MINONJEBFLP(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_MINONJEBFLP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_MINONJEBFLP_OFFSET))(this, a1);
 		}
 
-		::System::Void EMLOMLAMFAP(::System::Action* a1)
+		::System::Void EMLOMLAMFAP(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_EMLOMLAMFAP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_EMLOMLAMFAP_OFFSET))(this, a1);
 		}
 
-		::System::Void HNLNKJABOPK(::System::Action* a1)
+		::System::Void HNLNKJABOPK(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_HNLNKJABOPK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_HNLNKJABOPK_OFFSET))(this, a1);
 		}
 
-		::System::Void CENOPIJNNKG(::System::Action* a1)
+		::System::Void CENOPIJNNKG(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_CENOPIJNNKG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + MNCOPNHONHO_CENOPIJNNKG_OFFSET))(this, a1);
 		}
 
 		::System::Void JDHHGDINKKN(::System::Int32 a1, ::System::Single a2, ::System::Single a3, ::UnityEngine::AnimationCurve* a4)

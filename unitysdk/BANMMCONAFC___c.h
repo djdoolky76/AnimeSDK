@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define BANMMCONAFC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E7DAE0)
 #define BANMMCONAFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E7DB20)
@@ -19,9 +19,9 @@ inline static constexpr unsigned int BANMMCONAFC___c_TypeDefinitionIndex = 77898
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C490);
 		}
 
-		static ::System::Action** StaticGet___9__11_1()
+		static ::System::Action_1<::UnityEngine::Vector3>** StaticGet___9__11_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C498);
+			return (::System::Action_1<::UnityEngine::Vector3>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C498);
 		}
 
 		static ::System::Void _cctor()

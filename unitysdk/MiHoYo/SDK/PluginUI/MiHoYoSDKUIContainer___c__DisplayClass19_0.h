@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PluginUI { class MiHoYoSDKUIContainer; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUICONTAINER___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB02B690)
 #define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUICONTAINER___C__DISPLAYCLASS19_0__DOLISTITEMACTION_B__0_OFFSET UNITYSDK_OFFSET(0xB02B6A0)
@@ -17,7 +17,7 @@ namespace MiHoYo::SDK::PluginUI
 	public:
 		::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer* __4__this; // 0x10
 		::System::String* strElementID; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x20
 		::System::Int32 nItemIndex; // 0x28
 		::System::Boolean bIsDeleteAction; // 0x2C
 		::System::Void _ctor()

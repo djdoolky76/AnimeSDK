@@ -5,7 +5,7 @@ class HIOEAKHGILF;
 class HPNAKDOGIAD;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define EJLHJAPOKJH_CTOR_OFFSET UNITYSDK_OFFSET(0x154E12F0)
 #define EJLHJAPOKJH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x154E1DE0)
@@ -23,11 +23,11 @@ inline static constexpr unsigned int EJLHJAPOKJH_TypeDefinitionIndex = 76920;
 	class EJLHJAPOKJH
 	{
 	public:
-		::Entitas::IGroup* DDILPFIPNCP; // 0x58
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* DDILPFIPNCP; // 0x58
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x60
-		::Entitas::IGroup* KIHGCGEFJHJ; // 0x68
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* KIHGCGEFJHJ; // 0x68
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x70
-		::Entitas::IGroup* MJEMDIDAEOH; // 0x78
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* MJEMDIDAEOH; // 0x78
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::NDDFLGNNMDK*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + EJLHJAPOKJH_CTOR_OFFSET))(this, a1, a2);

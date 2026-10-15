@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class MotionInfoSnapshot; }
 namespace Proto { class VectorSnapshot; }
@@ -40,9 +40,9 @@ namespace Proto
 		::Proto::VectorSnapshot* rot_; // 0x10
 		::Proto::VectorSnapshot* pos_; // 0x18
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "MotionInfoSnapshot")->GetStaticField(0x43E30);
+			return (::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>**)UnitySDK::FromName("Proto", "MotionInfoSnapshot")->GetStaticField(0x43E30);
 		}
 
 		// static const ::System::Object PosFieldNumber; // 0x0
@@ -62,9 +62,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::MotionInfoSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_MOTIONINFOSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

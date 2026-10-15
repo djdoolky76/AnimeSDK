@@ -4,6 +4,7 @@
 #include "unitysdk/MLFEHGAFNBE.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define NCHDFGJBFPN_AENPHDMACPG_OFFSET UNITYSDK_OFFSET(0x1F850)
 #define NCHDFGJBFPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F710)
@@ -24,9 +25,9 @@ inline static constexpr unsigned int NCHDFGJBFPN_TypeDefinitionIndex = 73964;
 		::HGIHIELHLGF DICDJJOJKGF; // 0x40
 		::System::Single IDKONBFPBLH; // 0xA0
 		::System::Single NIIHAFIENBB; // 0xA4
-		::System::Void _ctor(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Action* a3, ::System::Action* a4)
+		::System::Void _ctor(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Action_1<::System::Int32>* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + NCHDFGJBFPN_CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Action_1<::System::Int32>*, ::System::Action*))((::PBYTE)hIl2Cpp + NCHDFGJBFPN_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::MLFEHGAFNBE EMKKJFGMHFJ()

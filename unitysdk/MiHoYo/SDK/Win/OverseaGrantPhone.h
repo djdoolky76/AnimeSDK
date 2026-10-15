@@ -6,6 +6,7 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class OverseaGrantPhone; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -49,8 +50,8 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Button* otherButton; // 0xA8
 		::UnityEngine::UI::Text* otherButtonText; // 0xB0
 		::System::Action* OnBack; // 0xB8
-		::System::Action* OnGetCode; // 0xC0
-		::System::Action* OnSubmit; // 0xC8
+		::System::Action_1<::MiHoYo::SDK::GrantType>* OnGetCode; // 0xC0
+		::System::Action_1<::System::String*>* OnSubmit; // 0xC8
 		::System::Action* OnOtherButton; // 0xD0
 		::System::Boolean isRequestVerifyCode; // 0xD8
 		::System::Byte _padding0[0x3];

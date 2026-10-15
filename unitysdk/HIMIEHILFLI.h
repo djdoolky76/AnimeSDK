@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 class KOKDNGLIFND;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define HIMIEHILFLI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CEB0A80)
 #define HIMIEHILFLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEB1050)
@@ -36,9 +36,9 @@ inline static constexpr unsigned int HIMIEHILFLI_TypeDefinitionIndex = 14986;
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::KOKDNGLIFND*>**)UnitySDK::FromName("", "HIMIEHILFLI")->GetStaticField(0x1E1E0);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "HIMIEHILFLI")->GetStaticField(0x1E1E8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HIMIEHILFLI")->GetStaticField(0x1E1E8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int HIMIEHILFLI_TypeDefinitionIndex = 14986;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::KOKDNGLIFND*>(*)())((::PBYTE)hIl2Cpp + HIMIEHILFLI_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::KOKDNGLIFND*>, ::KOKDNGLIFND*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + HIMIEHILFLI_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::KOKDNGLIFND*>, ::KOKDNGLIFND*>(*)())((::PBYTE)hIl2Cpp + HIMIEHILFLI_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::KOKDNGLIFND* LMBKNCAIDLC(::System::UInt32 a1)

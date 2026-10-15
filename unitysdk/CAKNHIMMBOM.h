@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/Match3/ViewMomentType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class KPCPIMINKPL;
-namespace System { class Nullable; }
 
 #define CAKNHIMMBOM_ALCCOMJDPIA_OFFSET UNITYSDK_OFFSET(0x1C8DBEA0)
 #define CAKNHIMMBOM_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8DBC60)
@@ -35,12 +35,12 @@ inline static constexpr unsigned int CAKNHIMMBOM_TypeDefinitionIndex = 43007;
 		::System::Boolean JGFDKEMPACK; // 0x2E
 		::System::Byte _padding0[0x1];
 		::System::UInt32 KLOEJIMMPJM; // 0x30
-		::System::Nullable* NMLLFPBHLKI; // 0x34
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> NMLLFPBHLKI; // 0x34
 		::System::Byte _padding1[0x4];
 		::System::UInt32 CEJEOLOFOBL; // 0x40
 		::System::UInt32 INIFKHIFKKD; // 0x44
 		::RPG::Client::LittleGame::Match3::ViewMomentType NGECMJGNLMJ; // 0x48
-		::System::Nullable* LFDICJEDNEH; // 0x4C
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> LFDICJEDNEH; // 0x4C
 		::System::Byte _padding2[0x4];
 		::System::Boolean HDNPFJJDMMK; // 0x58
 		::System::Boolean GDEIKHGCJBD; // 0x59
@@ -52,9 +52,9 @@ inline static constexpr unsigned int CAKNHIMMBOM_TypeDefinitionIndex = 43007;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAKNHIMMBOM_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple ONPDAALFIIH()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> ONPDAALFIIH()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + CAKNHIMMBOM_ONPDAALFIIH_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CAKNHIMMBOM_ONPDAALFIIH_OFFSET))(this);
 		}
 
 		::System::Void Clear()

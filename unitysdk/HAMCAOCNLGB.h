@@ -23,11 +23,12 @@ class LOLCJIIIHIM;
 class MCHECHNKADP;
 class NNOBLAFGHFG;
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
-namespace System::Collections::Immutable { class ImmutableHashSet; }
+namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 
 #define HAMCAOCNLGB_ADD_HANDLECONFIRMEXIT_OFFSET UNITYSDK_OFFSET(0x15B90200)
 #define HAMCAOCNLGB_ADD_HANDLEEXIT_OFFSET UNITYSDK_OFFSET(0x15B90300)
@@ -92,7 +93,7 @@ inline static constexpr unsigned int HAMCAOCNLGB_TypeDefinitionIndex = 79538;
 		::LOLCJIIIHIM* MPFFGNPIDOA; // 0x58
 		::HFBEJKNDLJF* _Board_k__BackingField; // 0x60
 		::DBHGOLFACFL* _Partners_k__BackingField; // 0x68
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* HandleConfirmExit; // 0x70
+		::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>* HandleConfirmExit; // 0x70
 		::CEEGMMCFCBG* LCGBLFOHNFA; // 0x78
 		::MCHECHNKADP* MLGCJCPCLJP; // 0x80
 		::CHDPAOEGGEI* IFFHKDPBEFL; // 0x88
@@ -196,14 +197,14 @@ inline static constexpr unsigned int HAMCAOCNLGB_TypeDefinitionIndex = 79538;
 			return ((::CEEGMMCFCBG*(*)(::PVOID))((::PBYTE)hIl2Cpp + HAMCAOCNLGB_OGNJAICKAOB_OFFSET))(this);
 		}
 
-		::System::Void add_HandleConfirmExit(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1)
+		::System::Void add_HandleConfirmExit(::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*))((::PBYTE)hIl2Cpp + HAMCAOCNLGB_ADD_HANDLECONFIRMEXIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>*))((::PBYTE)hIl2Cpp + HAMCAOCNLGB_ADD_HANDLECONFIRMEXIT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleConfirmExit(::System::Func_1<::RPG::Client::Promises::IPromise*>* a1)
+		::System::Void remove_HandleConfirmExit(::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise*>*))((::PBYTE)hIl2Cpp + HAMCAOCNLGB_REMOVE_HANDLECONFIRMEXIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Func_1<::RPG::Client::Promises::IPromise_1<::System::Boolean>*>*))((::PBYTE)hIl2Cpp + HAMCAOCNLGB_REMOVE_HANDLECONFIRMEXIT_OFFSET))(this, a1);
 		}
 
 		::System::Void add_HandleExit(::System::Action* a1)
@@ -296,9 +297,9 @@ inline static constexpr unsigned int HAMCAOCNLGB_TypeDefinitionIndex = 79538;
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + HAMCAOCNLGB__INIT_B__58_5_OFFSET))(this, a1);
 		}
 
-		::System::Void _Init_b__58_7(::System::Collections::Immutable::ImmutableHashSet* a1)
+		::System::Void _Init_b__58_7(::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Immutable::ImmutableHashSet*))((::PBYTE)hIl2Cpp + HAMCAOCNLGB__INIT_B__58_7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + HAMCAOCNLGB__INIT_B__58_7_OFFSET))(this, a1);
 		}
 
 		::System::Void _Init_b__58_8(::System::Action* a1)

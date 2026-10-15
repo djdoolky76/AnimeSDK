@@ -5,6 +5,7 @@ namespace RPG::Client { class GridFightTrait; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GRIDFIGHTUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2D5A60)
 #define RPG_CLIENT_GRIDFIGHTUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2D5AA0)
@@ -29,9 +30,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD7B8);
 		}
 
-		static ::System::Action** StaticGet___9__46_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__46_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD7C0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xD7C0);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightTrait*, ::System::UInt32>** StaticGet___9__37_1()

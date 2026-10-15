@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class JSONNode; }
-namespace System { class Nullable; }
 
 #define MIHOYO_SDK_PASSPORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF81280)
 
@@ -13,7 +13,7 @@ namespace MiHoYo::SDK
 	class PassportConfig : public ::System::Object
 	{
 	public:
-		::System::Nullable* ageGateEnabledForCurrentCountry; // 0x10
+		::System::Nullable_1<::System::Boolean> ageGateEnabledForCurrentCountry; // 0x10
 		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PASSPORTCONFIG_CTOR_OFFSET))(this, a1);

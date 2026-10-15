@@ -3,8 +3,9 @@
 #include "unitysdk/System/Object.h"
 class ALCAOBIABGN;
 namespace RPG::GameCore { class EntityLodLoadingData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -32,11 +33,11 @@ inline static constexpr unsigned int IAPMAKKKIEK_TypeDefinitionIndex = 57325;
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* JIDFGJPFONL; // 0x10
 		::RPG::GameCore::EntityLodLoadingData* CMCKMDEBKHE; // 0x18
-		::System::Action* MAEBAFINNNO; // 0x20
+		::System::Action_1<::ALCAOBIABGN*>* MAEBAFINNNO; // 0x20
 		::UnityEngine::GameObject* OAGDNIBLMAC; // 0x28
 		::System::Collections::Generic::List_1<::ALCAOBIABGN*>* BONENBLJGCN; // 0x30
 		::System::String* AJDOEJPFFBF; // 0x38
-		::System::Action* KINHNJOJAGB; // 0x40
+		::System::Action_3<::System::String*, ::UnityEngine::SkinnedMeshRenderer*, ::UnityEngine::Mesh*>* KINHNJOJAGB; // 0x40
 		::System::Boolean GFAMGLFOMGI; // 0x48
 		::System::Void _ctor()
 		{

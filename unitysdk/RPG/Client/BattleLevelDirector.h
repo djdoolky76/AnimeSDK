@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/LevelDirector.h"
 #include "unitysdk/RPG/MQuaternion.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class BLBINLBGNLI;
 class EKFMIDBJDIA;
 class JAKJKCPJEPF;
@@ -12,7 +13,6 @@ namespace RPG::Client { class Stage; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class TeamFormationComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -167,9 +167,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TeamFormationComponent*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::Il2CppArray<::RPG::MVector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPTEAMFORMATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _SetupCloseupShot(::System::String* a1, ::System::Single a2, ::RPG::GameCore::GameEntity* a3, ::RPG::GameCore::GameEntity* a4, ::RPG::MVector3 a5, ::RPG::MVector3 a6, ::System::Nullable* a7)
+		::System::Void _SetupCloseupShot(::System::String* a1, ::System::Single a2, ::RPG::GameCore::GameEntity* a3, ::RPG::GameCore::GameEntity* a4, ::RPG::MVector3 a5, ::RPG::MVector3 a6, ::System::Nullable_1<::RPG::MQuaternion> a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::MVector3, ::RPG::MVector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPCLOSEUPSHOT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::MVector3, ::RPG::MVector3, ::System::Nullable_1<::RPG::MQuaternion>))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLELEVELDIRECTOR__SETUPCLOSEUPSHOT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void _EntityPlayAnimation(::RPG::GameCore::GameEntity* a1)

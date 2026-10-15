@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
 
 #define RPG_GAMECORE_PLAYERLOCKTARGETWEIGHTOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE71CF20)
 
@@ -23,7 +23,7 @@ namespace RPG::GameCore
 		::System::Single UnLockTime; // 0x30
 		::System::Single UnLockRatio; // 0x34
 		::System::Single RaycastOffsetHeight; // 0x38
-		::System::Nullable* OverrideNotPropAdditiveScore; // 0x3C
+		::System::Nullable_1<::System::Single> OverrideNotPropAdditiveScore; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERLOCKTARGETWEIGHTOVERRIDECONFIG_CTOR_OFFSET))(this);

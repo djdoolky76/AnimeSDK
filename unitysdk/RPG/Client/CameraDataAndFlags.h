@@ -24,6 +24,7 @@
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/RPG/GameCore/TeamTypeMask.h"
 #include "unitysdk/RPG/GameCore/VCameraState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -32,7 +33,7 @@
 #include "unitysdk/LOHLDEIBJLO.h"
 #include "unitysdk/RPG/MQuaternion.h"
 #include "unitysdk/RPG/MVector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ACEPKKPFMKI;
 class AJDAJPHJBME;
 class BBICCJAGCDL;
@@ -67,7 +68,6 @@ namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
 namespace RPG::GameCore { class VCameraNoiseChange; }
 namespace RPGTools::Timeline { class CameraData; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -259,10 +259,10 @@ namespace RPG::Client
 		::System::Single CameraZoomVelocityAdditiveRatio; // 0x3D0
 		::System::Single TrackRoamingStandardScreenDis; // 0x3D4
 		::UnityEngine::Vector3 ShotAimCenterPos; // 0x3D8
-		::System::Nullable* Freelook3rdChangeParamLookAtDamping; // 0x3E4
+		::System::Nullable_1<::UnityEngine::Vector3> Freelook3rdChangeParamLookAtDamping; // 0x3E4
 		::System::Byte _padding1[0x8];
 		::System::Single RoamingInitFov; // 0x3F4
-		::System::Nullable* EraLightFollowModeZoomDistanceLimit; // 0x3F8
+		::System::Nullable_1<::System::Single> EraLightFollowModeZoomDistanceLimit; // 0x3F8
 		::System::Single MoveControlDistance; // 0x400
 		::UnityEngine::Vector3 CameraShakeRotOffset; // 0x404
 		::UnityEngine::Vector3 RoamingInitLookAtPos; // 0x410
@@ -341,10 +341,10 @@ namespace RPG::Client
 		::System::Boolean CameraRotating; // 0x4F6
 		::System::Boolean IsForceClearDitherOnce; // 0x4F7
 		::RPG::GameCore::TeamFormationType LightTeamRefreshTypeWhenSetVCameraConfig; // 0x4F8
-		::System::Nullable* DialogModeTargetPos; // 0x4FC
+		::System::Nullable_1<::UnityEngine::Vector3> DialogModeTargetPos; // 0x4FC
 		::System::Byte _padding3[0x8];
 		::System::Single CameraZoomAddValue; // 0x50C
-		::System::Nullable* DialogModeZoomDistance; // 0x510
+		::System::Nullable_1<::System::Single> DialogModeZoomDistance; // 0x510
 		::System::Int32 TrackCameraEndBlendInIndex; // 0x518
 		::CHFAIKPJMGE DisableFreelook3rdCameraInputX; // 0x51C
 		::UnityEngine::Vector3 ShotInitCenterPos; // 0x520
@@ -356,7 +356,7 @@ namespace RPG::Client
 		::System::Boolean TrackCameraEnable; // 0x53A
 		::System::Boolean IsRecovering; // 0x53B
 		::UnityEngine::Vector3 CameraAimOffsetResult; // 0x53C
-		::System::Nullable* Freelook3rdChangeParamFollowDamping; // 0x548
+		::System::Nullable_1<::UnityEngine::Vector3> Freelook3rdChangeParamFollowDamping; // 0x548
 		::System::Byte _padding4[0x8];
 		::System::Single _LastFrameFovResult_k__BackingField; // 0x558
 		::UnityEngine::Matrix4x4 PresetOrthographicProjectionMatrix; // 0x55C
@@ -572,9 +572,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::CameraDataAndFlags_ClipPlaneOverridePriority))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERADATAANDFLAGS_REMOVECLIPPLANEOVERRIDE_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple GetCurrentClipPlaneOverride()
+		::System::ValueTuple_2<::System::Single, ::System::Single> GetCurrentClipPlaneOverride()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERADATAANDFLAGS_GETCURRENTCLIPPLANEOVERRIDE_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERADATAANDFLAGS_GETCURRENTCLIPPLANEOVERRIDE_OFFSET))(this);
 		}
 
 		::System::Void SetKeepOrthographicOnReset(::System::Boolean a1, ::RPG::Client::CameraDataAndFlags_KeepOrthographicOnResetReason a2)
@@ -672,9 +672,9 @@ namespace RPG::Client
 			return ((::RPG::GameCore::CameraMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERADATAANDFLAGS_GETCAMERAMODE_OFFSET))(this);
 		}
 
-		::System::Void SetVCameraConfig(::RPG::Client::PipelineCameraEngine* a1, ::RPG::GameCore::VCameraConfig* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Nullable* a5, ::RPG::GameCore::TeamType a6, ::System::Action* a7, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a8, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a9, ::RPG::GameCore::GameEntity* a10, ::RPG::GameCore::GameEntity* a11, ::RPG::GameCore::TargetEvaluator* a12, ::RPG::GameCore::TargetEvaluator* a13, ::System::Boolean a14, ::RPG::GameCore::GameEntity* a15, ::RPG::GameCore::GameEntity* a16, ::System::Single a17, ::System::Single a18, ::System::Boolean a19, ::System::Boolean a20, ::System::String* a21)
+		::System::Void SetVCameraConfig(::RPG::Client::PipelineCameraEngine* a1, ::RPG::GameCore::VCameraConfig* a2, ::System::Nullable_1<::RPG::MVector3> a3, ::System::Nullable_1<::RPG::MVector3> a4, ::System::Nullable_1<::RPG::MQuaternion> a5, ::RPG::GameCore::TeamType a6, ::System::Action* a7, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a8, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a9, ::RPG::GameCore::GameEntity* a10, ::RPG::GameCore::GameEntity* a11, ::RPG::GameCore::TargetEvaluator* a12, ::RPG::GameCore::TargetEvaluator* a13, ::System::Boolean a14, ::RPG::GameCore::GameEntity* a15, ::RPG::GameCore::GameEntity* a16, ::System::Single a17, ::System::Single a18, ::System::Boolean a19, ::System::Boolean a20, ::System::String* a21)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::GameCore::VCameraConfig*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::RPG::GameCore::TeamType, ::System::Action*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TargetEvaluator*, ::RPG::GameCore::TargetEvaluator*, ::System::Boolean, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERADATAANDFLAGS_SETVCAMERACONFIG_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::GameCore::VCameraConfig*, ::System::Nullable_1<::RPG::MVector3>, ::System::Nullable_1<::RPG::MVector3>, ::System::Nullable_1<::RPG::MQuaternion>, ::RPG::GameCore::TeamType, ::System::Action*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TargetEvaluator*, ::RPG::GameCore::TargetEvaluator*, ::System::Boolean, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERADATAANDFLAGS_SETVCAMERACONFIG_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21);
 		}
 
 		::System::Single CalcCameraLookAtAngle(::UnityEngine::Vector3 a1)

@@ -7,7 +7,7 @@ class EPLKHKBBIDK;
 namespace RPG::Client { class StaticListView; }
 namespace RPG::Client { class StaticListViewItem; }
 namespace RPG::UINavigation { class UINavigationZoneManager; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_B51RACING_B51RACINGDIYNUMPANELCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC786210)
@@ -38,7 +38,7 @@ namespace RPG::Client::B51Racing
 	public:
 		::RPG::Client::StaticListView* _InputListView; // 0x40
 		::RPG::Client::StaticListView* _KeypadListView; // 0x48
-		::System::Action* OnCarNumberChanged; // 0x50
+		::System::Action_1<::System::UInt32>* OnCarNumberChanged; // 0x50
 		::Il2CppArray<::EPLKHKBBIDK*>* _KeypadItems; // 0x58
 		::Il2CppArray<::CJENPNIKBAA*>* _InputItems; // 0x60
 		::System::Boolean _KeypadListInitialized; // 0x68

@@ -8,6 +8,7 @@
 #include "unitysdk/RPG/GameCore/RtModifierBehaviorLifeBinding.h"
 #include "unitysdk/RPG/GameCore/RtModifierEvent.h"
 #include "unitysdk/RPG/GameCore/RtModifierPropertyType.h"
+#include "unitysdk/System/Nullable_1.h"
 class BGMKDGACBNI;
 class EBBBJDPGDFG;
 class HPICNGFLLCA;
@@ -20,10 +21,9 @@ namespace RPG::GameCore { class GameComponentBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtModifierConfig; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MNBNFBAMKKI_AKOGLGKMAPM_OFFSET UNITYSDK_OFFSET(0xB9E53D0)
@@ -75,10 +75,10 @@ inline static constexpr unsigned int MNBNFBAMKKI_TypeDefinitionIndex = 53780;
 		::System::Collections::Generic::List_1<::LEOLBNBFGEL*>* PHBOMHANOOM; // 0xC0
 		::RPG::GameCore::RtModifierConfig* OFKGLJOAMLD; // 0xC8
 		::System::Collections::Generic::List_1<::MNBNFBAMKKI*>* EGNGNPEKGNG; // 0xD0
-		::System::Action* BNEOOBEBNML; // 0xD8
+		::System::Action_1<::MNBNFBAMKKI*>* BNEOOBEBNML; // 0xD8
 		::RPG::GameCore::GameEntity* JOIPPIKNILC; // 0xE0
 		::System::Int32 PPNBGHOPMNB; // 0xE8
-		::System::Nullable* KIDIAMDNOPA; // 0xEC
+		::System::Nullable_1<::System::Int32> KIDIAMDNOPA; // 0xEC
 		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint KHOIMMEBGII; // 0xF8
 		::RPG::GameCore::FixPoint OLEIDKBKEOE; // 0x100

@@ -15,6 +15,7 @@ namespace RPG::Client::FateRin::RedDot { class FateRinDeckEditRedDotFilter; }
 namespace RPG::Client::FateRin::RedDot { class FateRinHouguMapFightRedDotFilter; }
 namespace RPG::Client::FateRin::RedDot { class FateRinResidentRewardRedDotFilter; }
 namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -111,9 +112,9 @@ namespace RPG::Client::FateRin
 			return ((::RPG::Client::UIController*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINHOST_SHOWREPLACECARDDIALOG_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::UIController* ShowReplaceCardDialog_1(::System::UInt32 a1, ::System::Action* a2)
+		static ::RPG::Client::UIController* ShowReplaceCardDialog_1(::System::UInt32 a1, ::System::Action_2<::RPG::Client::UIController*, ::RPG::Client::FateRin::Card::IFateRinReplaceCardViewModel*>* a2)
 		{
-			return ((::RPG::Client::UIController*(*)(::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINHOST_SHOWREPLACECARDDIALOG_1_OFFSET))(a1, a2);
+			return ((::RPG::Client::UIController*(*)(::System::UInt32, ::System::Action_2<::RPG::Client::UIController*, ::RPG::Client::FateRin::Card::IFateRinReplaceCardViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINHOST_SHOWREPLACECARDDIALOG_1_OFFSET))(a1, a2);
 		}
 
 		static ::RPG::Client::UIController* ShowBattleSuccessPageAfterBattle(::System::UInt32 a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2)

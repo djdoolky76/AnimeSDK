@@ -4,7 +4,8 @@
 #include "unitysdk/RPG/Client/TSCRendererType.h"
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupBehavior_LazyLoadUnloadTag.h"
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 class IDEFMHBFDKL;
@@ -16,7 +17,6 @@ namespace RPG::Client { class GameObjectAudio; }
 namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 namespace RPG::Client { class TimeSpaceCrisscrossGroupMonoPlugin; }
 namespace RPG::Client { class TimeSpaceCrisscrossIRIMonoPlugin; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
@@ -106,11 +106,11 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::IDEFMHBFDKL*>* _TSCRendererB; // 0x58
 		::System::Collections::Generic::List_1<::RPG::PoolList_1<::UnityEngine::Renderer*>*>* _CollectorAllRenderersA; // 0x60
 		::System::Collections::Generic::List_1<::RPG::PoolList_1<::UnityEngine::Renderer*>*>* _CollectorAllRenderersB; // 0x68
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _CollectorAllColliders; // 0x70
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::PoolList_1<::UnityEngine::Collider*>*, ::JMEAKCMLLJE*>>* _CollectorAllColliders; // 0x70
 		::System::Collections::Generic::List_1<::RPG::PoolList_1<::RPG::Client::TimeSpaceCrisscrossIRIMonoPlugin*>*>* _CollectorAllIRIs; // 0x78
 		::System::Collections::Generic::List_1<::RPG::Client::GameObjectAudio*>* _AudioSourcesTSA; // 0x80
 		::System::Collections::Generic::List_1<::RPG::Client::GameObjectAudio*>* _AudioSourcesTSB; // 0x88
-		::System::Nullable* _FrozenState; // 0x90
+		::System::Nullable_1<::System::Object*> _FrozenState; // 0x90
 		::System::Boolean _IsInAsyncInitialize_k__BackingField; // 0x98
 		::System::Byte _padding1[0x3];
 		::System::Int32 AsyncWorkID; // 0x9C

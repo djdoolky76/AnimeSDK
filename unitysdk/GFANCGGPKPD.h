@@ -6,6 +6,7 @@
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 class DEBEAKKOHLN;
 namespace RPG::Client { class EraFlipperCommonConfig; }
@@ -14,10 +15,9 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client { class ProxyEffectProp; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define GFANCGGPKPD_BEFOREDISPOSE_OFFSET UNITYSDK_OFFSET(0x159E64F0)
 #define GFANCGGPKPD_BOCPHJPFJAA_OFFSET UNITYSDK_OFFSET(0x159E74C0)
@@ -72,7 +72,7 @@ inline static constexpr unsigned int GFANCGGPKPD_TypeDefinitionIndex = 73316;
 		::System::Boolean GLOGHGMLHFA; // 0x56
 		::System::Boolean JBNGIGALLIJ; // 0x57
 		::RPG::Client::ReasonBool_1<::RPG::Client::EraVisibleReason> EPBLIMCONGG; // 0x58
-		::System::Nullable* HMNJLMFDCAL; // 0x60
+		::System::Nullable_1<::System::Object*> HMNJLMFDCAL; // 0x60
 		::RPG::Client::EraEntityType LLGKKKFKBBC; // 0x68
 		::RPG::GameCore::EraStateType BGDKFBODOEO; // 0x6C
 		// static const ::System::Object OAIHHECNKNF; // 0x0
@@ -181,9 +181,9 @@ inline static constexpr unsigned int GFANCGGPKPD_TypeDefinitionIndex = 73316;
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GFANCGGPKPD_IPBKLOKFDAI_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 GHIFMGPKFPF(::System::String* a1, ::System::Action* a2, ::System::Boolean a3)
+		::System::UInt32 GHIFMGPKFPF(::System::String* a1, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a2, ::System::Boolean a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + GFANCGGPKPD_GHIFMGPKFPF_OFFSET))(this, a1, a2, a3);
+			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::Boolean))((::PBYTE)hIl2Cpp + GFANCGGPKPD_GHIFMGPKFPF_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CEPJHGNMKJD(::System::UInt32 a1, ::System::Boolean a2)

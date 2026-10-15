@@ -5,7 +5,7 @@
 namespace RPG::Client { class MapProp; }
 namespace RPG::Client { class MiniMapManager; }
 namespace RPG::Client { class SubMissionData; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_CLEAR_OFFSET UNITYSDK_OFFSET(0xD6C1E00)
 #define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C1E60)
@@ -24,8 +24,8 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::SubMissionData* subMission; // 0x10
-		::System::Action* _executeCallback; // 0x18
-		::System::Action* _execute2Callback; // 0x20
+		::System::Action_1<::RPG::Client::MapProp*>* _executeCallback; // 0x18
+		::System::Action_1<::RPG::Client::MapProp*>* _execute2Callback; // 0x20
 		::RPG::Client::MiniMapManager* _context; // 0x28
 		::System::Single fWayPointShowRangeMax; // 0x30
 		::System::Single fShowRangeRadius; // 0x34
@@ -48,14 +48,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapManager*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_INIT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action* get_ExecuteForMissionRefreshed()
+		::System::Action_1<::RPG::Client::MapProp*>* get_ExecuteForMissionRefreshed()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORMISSIONREFRESHED_OFFSET))(this);
+			return ((::System::Action_1<::RPG::Client::MapProp*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORMISSIONREFRESHED_OFFSET))(this);
 		}
 
-		::System::Action* get_ExecuteForAssistWaypointRefreshed()
+		::System::Action_1<::RPG::Client::MapProp*>* get_ExecuteForAssistWaypointRefreshed()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORASSISTWAYPOINTREFRESHED_OFFSET))(this);
+			return ((::System::Action_1<::RPG::Client::MapProp*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORASSISTWAYPOINTREFRESHED_OFFSET))(this);
 		}
 
 		::System::Void ExecuteForMissionRefreshedImpl(::RPG::Client::MapProp* a1)

@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class BHBHHBIDBIB;
 class HIOEAKHGILF;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace UnityEngine { class Collider; }
 
@@ -19,14 +19,14 @@ inline static constexpr unsigned int BHBHHBIDBIB___c_TypeDefinitionIndex = 77147
 	class BHBHHBIDBIB___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__6_1()
+		static ::System::Action_3<::BHBHHBIDBIB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__6_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED40);
+			return (::System::Action_3<::BHBHHBIDBIB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED40);
 		}
 
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_3<::BHBHHBIDBIB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED48);
+			return (::System::Action_3<::BHBHHBIDBIB*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED48);
 		}
 
 		static ::System::Func_3<::BHBHHBIDBIB*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__8_0()

@@ -25,7 +25,7 @@ namespace RPG::Client { template <typename T> class AsyncActionProgress_1; }
 namespace RPG::Client { template <typename T> class DataActionProgress_1; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define EJLIOMPMHHI_ABPOGFNENBF_OFFSET UNITYSDK_OFFSET(0x154E5380)
@@ -161,14 +161,14 @@ inline static constexpr unsigned int EJLIOMPMHHI_TypeDefinitionIndex = 59561;
 			return ((::RPG::Client::DataActionProgress_1<::HGDELEAHIJO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EJLIOMPMHHI_HNFDLGNHMIJ_OFFSET))(this);
 		}
 
-		::RPG::Client::AsyncActionProgress_1<::System::Tuple*>* IOOHJKKBPKA(::RPG::Client::ProgressID a1)
+		::RPG::Client::AsyncActionProgress_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* IOOHJKKBPKA(::RPG::Client::ProgressID a1)
 		{
-			return ((::RPG::Client::AsyncActionProgress_1<::System::Tuple*>*(*)(::PVOID, ::RPG::Client::ProgressID))((::PBYTE)hIl2Cpp + EJLIOMPMHHI_IOOHJKKBPKA_OFFSET))(this, a1);
+			return ((::RPG::Client::AsyncActionProgress_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID, ::RPG::Client::ProgressID))((::PBYTE)hIl2Cpp + EJLIOMPMHHI_IOOHJKKBPKA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AsyncActionProgress_1<::System::Tuple*>* CEGEEIOINCO(::System::Boolean a1)
+		::RPG::Client::AsyncActionProgress_1<::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*>* CEGEEIOINCO(::System::Boolean a1)
 		{
-			return ((::RPG::Client::AsyncActionProgress_1<::System::Tuple*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EJLIOMPMHHI_CEGEEIOINCO_OFFSET))(this, a1);
+			return ((::RPG::Client::AsyncActionProgress_1<::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EJLIOMPMHHI_CEGEEIOINCO_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::DataActionProgress_1<::LFCKLPMBGGI*>* ABPOGFNENBF()

@@ -16,8 +16,10 @@ class PEOKJEOOOJD;
 class PKPICFPDHEO;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define LILFFGAGIHG_ADD_ONKICKEDOUTOFCHALLENGEMAZE_OFFSET UNITYSDK_OFFSET(0xB6D71D0)
 #define LILFFGAGIHG_ADD_ONSESSIONSETTLE_OFFSET UNITYSDK_OFFSET(0xB6D7050)
@@ -57,34 +59,34 @@ inline static constexpr unsigned int LILFFGAGIHG_TypeDefinitionIndex = 81492;
 			return ((::System::Void(*)(::PVOID, ::OMOEFAHFJFL*, ::NHCHDKJLNBJ*, ::OBJANKHLNGO*, ::MNALCKHBLKN*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void add_OnStageSettle(::System::Action* a1)
+		::System::Void add_OnStageSettle(::System::Action_1<::JCKGBFJJFFC*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_ADD_ONSTAGESETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::JCKGBFJJFFC*>*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_ADD_ONSTAGESETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnStageSettle(::System::Action* a1)
+		::System::Void remove_OnStageSettle(::System::Action_1<::JCKGBFJJFFC*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_REMOVE_ONSTAGESETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::JCKGBFJJFFC*>*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_REMOVE_ONSTAGESETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnStageSettleConfirm(::System::Action* a1)
+		::System::Void add_OnStageSettleConfirm(::System::Action_1<::PEOKJEOOOJD*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_ADD_ONSTAGESETTLECONFIRM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::PEOKJEOOOJD*>*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_ADD_ONSTAGESETTLECONFIRM_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnStageSettleConfirm(::System::Action* a1)
+		::System::Void remove_OnStageSettleConfirm(::System::Action_1<::PEOKJEOOOJD*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_REMOVE_ONSTAGESETTLECONFIRM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::PEOKJEOOOJD*>*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_REMOVE_ONSTAGESETTLECONFIRM_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnSessionSettle(::System::Action* a1)
+		::System::Void add_OnSessionSettle(::System::Action_1<::GEKNAKDAMJF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_ADD_ONSESSIONSETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GEKNAKDAMJF*>*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_ADD_ONSESSIONSETTLE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnSessionSettle(::System::Action* a1)
+		::System::Void remove_OnSessionSettle(::System::Action_1<::GEKNAKDAMJF*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_REMOVE_ONSESSIONSETTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::GEKNAKDAMJF*>*))((::PBYTE)hIl2Cpp + LILFFGAGIHG_REMOVE_ONSESSIONSETTLE_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnKickedOutOfChallengeMaze(::System::Action* a1)
@@ -127,14 +129,14 @@ inline static constexpr unsigned int LILFFGAGIHG_TypeDefinitionIndex = 81492;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LILFFGAGIHG_HHGDGCANKIA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* CDIDPIDJJAN()
+		::RPG::Client::Promises::IPromise_1<::LHAKNKHBLBI*>* CDIDPIDJJAN()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + LILFFGAGIHG_CDIDPIDJJAN_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::LHAKNKHBLBI*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LILFFGAGIHG_CDIDPIDJJAN_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* ELGBCKDMKIP()
+		::RPG::Client::Promises::IPromise_1<::JMPJCAPKNGI*>* ELGBCKDMKIP()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + LILFFGAGIHG_ELGBCKDMKIP_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::JMPJCAPKNGI*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LILFFGAGIHG_ELGBCKDMKIP_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::IPromise* OPCKNBHNBOA()

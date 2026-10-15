@@ -5,8 +5,8 @@ class IHEBJJKGBOH;
 class LPKBLKAHEDB;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -38,9 +38,9 @@ inline static constexpr unsigned int LPKBLKAHEDB_TypeDefinitionIndex = 26485;
 		::IHEBJJKGBOH* EDMIENLBGFO; // 0x10
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
 		::System::UInt32 NAEACGPKNNH; // 0x20
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::LPKBLKAHEDB*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "LPKBLKAHEDB")->GetStaticField(0x420B0);
+			return (::Google::Protobuf::MessageParser_1<::LPKBLKAHEDB*>**)UnitySDK::FromName("", "LPKBLKAHEDB")->GetStaticField(0x420B0);
 		}
 
 		// static const ::System::Object PLDKENJLKME; // 0x0
@@ -60,9 +60,9 @@ inline static constexpr unsigned int LPKBLKAHEDB_TypeDefinitionIndex = 26485;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LPKBLKAHEDB_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::LPKBLKAHEDB*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + LPKBLKAHEDB_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::LPKBLKAHEDB*>*(*)())((::PBYTE)hIl2Cpp + LPKBLKAHEDB_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

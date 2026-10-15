@@ -6,9 +6,9 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelCheckPermissionParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelCheckPermissionResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelPrivilegeParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelPrivilegeResult; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF9AFF0)
@@ -33,9 +33,9 @@ namespace MiHoYo::SDK
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x211F0);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet_s_privilegeCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>** StaticGet_s_privilegeCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x211F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x211F8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_privilegeTimeouts()
@@ -53,9 +53,9 @@ namespace MiHoYo::SDK
 			return (::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x21210);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet_s_checkPermissionCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>** StaticGet_s_checkPermissionCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x21218);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelOnlineServices")->GetStaticField(0x21218);
 		}
 
 		static ::System::Object** StaticGet_s_checkPermissionLock()
@@ -85,9 +85,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONCHECKPRIVILEGECALLBACK_OFFSET))(a1, a2);
 		}
 
-		::System::Void ResolvePrivilege(::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeParams* a1, ::System::Action* a2)
+		::System::Void ResolvePrivilege(::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeParams*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELONLINESERVICES_RESOLVEPRIVILEGE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELONLINESERVICES_RESOLVEPRIVILEGE_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void OnResolvePrivilegeCallback(::System::Int32 a1, ::System::String* a2)
@@ -95,9 +95,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELONLINESERVICES_ONRESOLVEPRIVILEGECALLBACK_OFFSET))(a1, a2);
 		}
 
-		::System::Void CheckPermission(::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionParams* a1, ::System::Action* a2)
+		::System::Void CheckPermission(::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionParams*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPERMISSION_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELONLINESERVICES_CHECKPERMISSION_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void OnCheckPermissionCallback(::System::Int32 a1, ::System::String* a2)

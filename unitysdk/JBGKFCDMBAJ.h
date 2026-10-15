@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DAOENPMCFON.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class DAOENPMCFON;
 namespace RPG::Client::ParkourGame { class ParkourSkillConfig; }
 namespace RPG::Client::ParkourGame { class ParkourSkillConfig_Random; }
-namespace System { class Nullable; }
 
 #define JBGKFCDMBAJ_BEDJBAHNAEO_OFFSET UNITYSDK_OFFSET(0x1656EB30)
 #define JBGKFCDMBAJ_CEDHDEKHHFD_OFFSET UNITYSDK_OFFSET(0x1656F140)
@@ -66,9 +66,9 @@ inline static constexpr unsigned int JBGKFCDMBAJ_TypeDefinitionIndex = 74184;
 			return ((::RPG::Client::ParkourGame::ParkourSkillConfig_Random*(*)(::PVOID))((::PBYTE)hIl2Cpp + JBGKFCDMBAJ_FMHKLHAKMKO_OFFSET))(this);
 		}
 
-		::System::Nullable* IPAMHBBNLAF()
+		::System::Nullable_1<::UnityEngine::Vector3> IPAMHBBNLAF()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + JBGKFCDMBAJ_IPAMHBBNLAF_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + JBGKFCDMBAJ_IPAMHBBNLAF_OFFSET))(this);
 		}
 
 		::System::Boolean LOOKHHBPEPA()

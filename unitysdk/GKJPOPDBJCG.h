@@ -6,7 +6,7 @@
 #include "unitysdk/System/Object.h"
 class BDPDNAECJII;
 class BGGGFKNDEMJ;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -44,7 +44,7 @@ inline static constexpr unsigned int GKJPOPDBJCG_TypeDefinitionIndex = 37127;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::BGGGFKNDEMJ*>* IHIGOKFHKAB; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Collections::Generic::List_1<::System::Action*>*>* HHBPPLLHAPL; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Collections::Generic::List_1<::System::Action_2<::System::UInt32, ::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType>*>*>* HHBPPLLHAPL; // 0x18
 		::BDPDNAECJII* NMNILJHPGOK; // 0x20
 		::System::UInt32 NDDICDIMAJB; // 0x28
 		::System::Void _ctor(::BDPDNAECJII* a1)
@@ -107,9 +107,9 @@ inline static constexpr unsigned int GKJPOPDBJCG_TypeDefinitionIndex = 37127;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKJPOPDBJCG_MPBAGGFLPDL_OFFSET))(this);
 		}
 
-		::System::Void ONHNGCNCLPO(::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType a1, ::System::Action* a2)
+		::System::Void ONHNGCNCLPO(::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType a1, ::System::Action_2<::System::UInt32, ::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Action*))((::PBYTE)hIl2Cpp + GKJPOPDBJCG_ONHNGCNCLPO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Action_2<::System::UInt32, ::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType>*))((::PBYTE)hIl2Cpp + GKJPOPDBJCG_ONHNGCNCLPO_OFFSET))(this, a1, a2);
 		}
 
 		::BGGGFKNDEMJ* OFLDFOPHEFL(::System::UInt32 a1)

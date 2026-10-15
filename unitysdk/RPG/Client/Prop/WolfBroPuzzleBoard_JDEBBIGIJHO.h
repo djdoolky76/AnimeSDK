@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::Prop
 {
@@ -10,6 +10,6 @@ namespace RPG::Client::Prop
 	{
 		::System::Single DAJHCEKHNBH; // 0x10
 		::System::Byte _padding0[0x4];
-		::System::Action* IMDLGFPMPEK; // 0x18
+		::System::Action_1<::System::Boolean>* IMDLGFPMPEK; // 0x18
 	};
 }

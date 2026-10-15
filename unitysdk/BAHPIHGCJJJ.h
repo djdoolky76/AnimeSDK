@@ -6,7 +6,8 @@ class IAJMCLGLAAC;
 class LIELJCGKNJN;
 class PBGNKMMDBGD;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2, typename T3> class Tuple_3; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -25,12 +26,12 @@ inline static constexpr unsigned int BAHPIHGCJJJ_TypeDefinitionIndex = 37315;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* HMNJDELFEAI; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple*>* NDALOEKCDBN; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_2<::System::Int32, ::System::UInt32>*>* NDALOEKCDBN; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* FDPEBMLJCBN; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple*>* CMCEONNODPM; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>*>* CMCEONNODPM; // 0x28
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* GKIIJMCKKON; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* OLDAIOBNCEI; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple*>* GEGNADMNMPI; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* GEGNADMNMPI; // 0x40
 		::System::Collections::Generic::List_1<::System::UInt32>* ILACMNCIKPM; // 0x48
 		::System::Collections::Generic::List_1<::System::UInt32>* GGGMDECDEBB; // 0x50
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* NNCHEAGGHPN; // 0x58

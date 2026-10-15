@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class PHINPOJOJGD;
 namespace RPG::GameCore { class RogueScoreRewardRow; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_ROGUESCOREREWARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDF69450)
@@ -47,7 +47,7 @@ namespace RPG::Client
 		::System::UInt32 _PreScore_k__BackingField; // 0x20
 		::System::UInt32 _Score_k__BackingField; // 0x24
 		::System::Boolean _PoolRefreshed_k__BackingField; // 0x28
-		::System::Nullable* _HasRewaradCanTake; // 0x29
+		::System::Nullable_1<::System::Boolean> _HasRewaradCanTake; // 0x29
 		::System::Boolean _HasTakenInitialScore_k__BackingField; // 0x2B
 		::System::UInt32 _PoolID_k__BackingField; // 0x2C
 		::System::Int64 _EndTimeStamp_k__BackingField; // 0x30

@@ -6,6 +6,7 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -75,14 +76,14 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "MiHoYoSDKDll")->GetStaticField(0x10DA0);
 		}
 
-		static ::System::Action** StaticGet_initCallback()
+		static ::System::Action_1<::System::String*>** StaticGet_initCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "MiHoYoSDKDll")->GetStaticField(0x10DA8);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "MiHoYoSDKDll")->GetStaticField(0x10DA8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>** StaticGet_invokeCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::System::String*>*>** StaticGet_invokeCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "MiHoYoSDKDll")->GetStaticField(0x10DB0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "MiHoYoSDKDll")->GetStaticField(0x10DB0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_invokeReturnCaches()
@@ -90,9 +91,9 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "MiHoYoSDKDll")->GetStaticField(0x10DB8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>** StaticGet_invokeReturnCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::System::String*>*>** StaticGet_invokeReturnCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "MiHoYoSDKDll")->GetStaticField(0x10DC0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::System::String*>*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "MiHoYoSDKDll")->GetStaticField(0x10DC0);
 		}
 
 		static ::Il2CppArray<::System::Object*>** StaticGet_parameters2()
@@ -190,14 +191,14 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_UPDATE_OFFSET))(this);
 		}
 
-		static ::System::Boolean BlockedFuncCheck(::System::String* a1, ::System::Action* a2)
+		static ::System::Boolean BlockedFuncCheck(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_BLOCKEDFUNCCHECK_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_BLOCKEDFUNCCHECK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean WhiteFuncCheck(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
+		static ::System::Boolean WhiteFuncCheck(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::System::String*>* a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_WHITEFUNCCHECK_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_WHITEFUNCCHECK_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void MiddleFuncCheck(::System::String* a1, ::System::String* a2)
@@ -205,14 +206,14 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_MIDDLEFUNCCHECK_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* SDKInvoke(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		static ::System::String* SDKInvoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_SDKINVOKE_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_SDKINVOKE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::String* SDKInvokeFunction(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		static ::System::String* SDKInvokeFunction(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_SDKINVOKEFUNCTION_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_SDKINVOKEFUNCTION_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::String* InvokeReturn(::System::String* a1, ::System::String* a2)
@@ -230,14 +231,14 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_ONGETINVOKERESPONSE_OFFSET))(a1);
 		}
 
-		static ::System::Void AddCallback(::System::Action* a1)
+		static ::System::Void AddCallback(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_ADDCALLBACK_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_ADDCALLBACK_OFFSET))(a1);
 		}
 
-		static ::System::Void AddInvoreReturnCallback(::System::Action* a1)
+		static ::System::Void AddInvoreReturnCallback(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_ADDINVORERETURNCALLBACK_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_ADDINVORERETURNCALLBACK_OFFSET))(a1);
 		}
 
 		static ::System::Void CheckFunctionIndex(::System::String* a1, ::System::Int32 a2)
@@ -255,9 +256,9 @@ namespace MiHoYo::SDK::MiHoYoCloud
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_GETCMDLINEMAP_OFFSET))(this);
 		}
 
-		static ::System::Void Init(::System::Action* a1)
+		static ::System::Void Init(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_INIT_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL_INIT_OFFSET))(a1);
 		}
 
 		static ::System::String* all_set_env(::System::String* a1)

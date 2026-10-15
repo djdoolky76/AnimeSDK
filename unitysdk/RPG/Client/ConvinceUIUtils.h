@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class ConvinceTrickSkillGroup; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 
 #define RPG_CLIENT_CONVINCEUIUTILS_GETCONVINCEGAMEPLAYNPCID_OFFSET UNITYSDK_OFFSET(0xCBC7FD0)
 #define RPG_CLIENT_CONVINCEUIUTILS_GETCONVINCESPLITELINEPOS_OFFSET UNITYSDK_OFFSET(0xCBC81A0)
@@ -26,14 +26,14 @@ namespace RPG::Client
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCEUIUTILS_GETHP_OFFSET))();
 		}
 
-		static ::System::Tuple* GetTurn()
+		static ::System::Tuple_2<::System::Int32, ::System::Int32>* GetTurn()
 		{
-			return ((::System::Tuple*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCEUIUTILS_GETTURN_OFFSET))();
+			return ((::System::Tuple_2<::System::Int32, ::System::Int32>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCEUIUTILS_GETTURN_OFFSET))();
 		}
 
-		static ::System::Tuple* GetNameTexts()
+		static ::System::Tuple_2<::RPG::Client::TextID, ::RPG::Client::TextID>* GetNameTexts()
 		{
-			return ((::System::Tuple*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCEUIUTILS_GETNAMETEXTS_OFFSET))();
+			return ((::System::Tuple_2<::RPG::Client::TextID, ::RPG::Client::TextID>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CONVINCEUIUTILS_GETNAMETEXTS_OFFSET))();
 		}
 
 		static ::RPG::Client::TalkConvinceTalkingSide GetTalkingSide()

@@ -9,12 +9,12 @@
 #include "unitysdk/RPG/GameCore/BpChangeReason.h"
 #include "unitysdk/RPG/GameCore/SpecialBPDisplayStyle.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class IEIGLAPKDNK;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SpecialBpFeature; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -87,11 +87,11 @@ inline static constexpr unsigned int LFGNEHOMBLJ_TypeDefinitionIndex = 56900;
 		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x28
 		::System::Collections::Generic::List_1<::IEIGLAPKDNK*>* PDHPIJFGCMB; // 0x30
 		::System::Int32 LDJFONHLCFA; // 0x38
-		::System::Nullable* KPJLGCCHBEL; // 0x3C
+		::System::Nullable_1<::System::Int32> KPJLGCCHBEL; // 0x3C
 		::System::Int32 HPPGHIHNLHL; // 0x44
 		::RPG::GameCore::TeamType _Team_k__BackingField; // 0x48
 		::OBFNJDGEHPH MJCLFMOHPGG; // 0x4C
-		::System::Nullable* JAKGHBENGNO; // 0x5C
+		::System::Nullable_1<::System::Int32> JAKGHBENGNO; // 0x5C
 		::System::Int32 IMGACOCGIKC; // 0x64
 		::RPG::GameCore::BPSortType _SortType_k__BackingField; // 0x68
 		::System::Int32 AHOMFEIDAMC; // 0x6C
@@ -215,9 +215,9 @@ inline static constexpr unsigned int LFGNEHOMBLJ_TypeDefinitionIndex = 56900;
 			return ((::RPG::GameCore::SpecialBpFeature*(*)(::PVOID))((::PBYTE)hIl2Cpp + LFGNEHOMBLJ_FIOJEOLAFFF_OFFSET))(this);
 		}
 
-		::System::Nullable* BJBJOLOCNGB()
+		::System::Nullable_1<::INKMMBKPNMJ> BJBJOLOCNGB()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LFGNEHOMBLJ_BJBJOLOCNGB_OFFSET))(this);
+			return ((::System::Nullable_1<::INKMMBKPNMJ>(*)(::PVOID))((::PBYTE)hIl2Cpp + LFGNEHOMBLJ_BJBJOLOCNGB_OFFSET))(this);
 		}
 
 		::System::Int32 PFJANGKDOLH(::RPG::GameCore::BPValueType a1)

@@ -6,7 +6,7 @@ class BDPDNAECJII;
 class DFBICHLFCLL;
 class FEFFMCCAOCO;
 namespace RPG::GameCore { class TeamTowersSkillConfig; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OKPGJGFMICC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D7B60)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int OKPGJGFMICC_TypeDefinitionIndex = 37120;
 	class OKPGJGFMICC : public ::System::Object
 	{
 	public:
-		::System::Action* LGAOOKPFIMF; // 0x10
+		::System::Action_1<::System::UInt32>* LGAOOKPFIMF; // 0x10
 		::DFBICHLFCLL* DFCNIFEAKLK; // 0x18
 		::System::Collections::Generic::List_1<::FEFFMCCAOCO*>* ILFCFKCNAAH; // 0x20
 		::System::Boolean PPPKKAKDEBA; // 0x28
@@ -43,9 +43,9 @@ inline static constexpr unsigned int OKPGJGFMICC_TypeDefinitionIndex = 37120;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::BDPDNAECJII*, ::RPG::GameCore::TeamTowersSkillConfig*))((::PBYTE)hIl2Cpp + OKPGJGFMICC_JHFJDLIGIIH_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EHILPKHDLNJ(::System::UInt32 a1, ::System::UInt32 a2, ::BDPDNAECJII* a3, ::RPG::GameCore::TeamTowersSkillConfig* a4, ::System::Action* a5)
+		::System::Void EHILPKHDLNJ(::System::UInt32 a1, ::System::UInt32 a2, ::BDPDNAECJII* a3, ::RPG::GameCore::TeamTowersSkillConfig* a4, ::System::Action_1<::System::UInt32>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::BDPDNAECJII*, ::RPG::GameCore::TeamTowersSkillConfig*, ::System::Action*))((::PBYTE)hIl2Cpp + OKPGJGFMICC_EHILPKHDLNJ_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::BDPDNAECJII*, ::RPG::GameCore::TeamTowersSkillConfig*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + OKPGJGFMICC_EHILPKHDLNJ_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void JLANKNHFKCN(::System::Single a1)

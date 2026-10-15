@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Nullable; }
 
 #define CYSHARP_THREADING_TASKS_LINQ_TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F10FA70)
 #define CYSHARP_THREADING_TASKS_LINQ_TIMER_GETASYNCENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F10FAA0)
@@ -18,16 +18,16 @@ namespace Cysharp::Threading::Tasks::Linq
 	class Timer : public ::System::Object
 	{
 	public:
-		::System::Nullable* period; // 0x10
+		::System::Nullable_1<::System::TimeSpan> period; // 0x10
 		::System::Byte _padding0[0x8];
 		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x20
 		::System::Boolean cancelImmediately; // 0x24
 		::System::Boolean ignoreTimeScale; // 0x25
 		::System::Byte _padding1[0x2];
 		::System::TimeSpan dueTime; // 0x28
-		::System::Void _ctor(::System::TimeSpan a1, ::System::Nullable* a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Boolean a4, ::System::Boolean a5)
+		::System::Void _ctor(::System::TimeSpan a1, ::System::Nullable_1<::System::TimeSpan> a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::System::Nullable*, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::System::Nullable_1<::System::TimeSpan>, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::Cysharp::Threading::Tasks::AsyncUnit>* GetAsyncEnumerator(::System::Threading::CancellationToken a1)

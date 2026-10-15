@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1AC60)
 #define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS40_0__SENDSESSIONINVITE_B__0_OFFSET UNITYSDK_OFFSET(0x1BF21480)
@@ -15,7 +15,7 @@ namespace MiHoYo::SDK::PC::OS
 	{
 	public:
 		::System::String* jsonString; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS40_0_CTOR_OFFSET))(this);

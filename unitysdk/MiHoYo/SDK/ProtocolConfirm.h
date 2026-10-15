@@ -6,6 +6,7 @@ namespace MiHoYo::SDK { class ProtocolConfirm; }
 namespace MiHoYo::SDK { class UIManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 
@@ -31,7 +32,7 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::ILinkImageText* descText; // 0x70
 		::System::Action* OnAccept; // 0x78
 		::System::Action* OnRefuse; // 0x80
-		::System::Action* OnHrefButtonClicked; // 0x88
+		::System::Action_1<::System::String*>* OnHrefButtonClicked; // 0x88
 		::System::String* noticeContent; // 0x90
 		static ::MiHoYo::SDK::ProtocolConfirm** StaticGet_Instance()
 		{

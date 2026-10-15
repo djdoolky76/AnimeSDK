@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace MiHoYo::SDK
 {
@@ -10,9 +11,9 @@ namespace MiHoYo::SDK
 	class MiHoYoSDKWebViewManager___O : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__1___OnSyncInitRecoveredGlobal()
+		static ::System::Action_1<::System::Int32>** StaticGet__1___OnSyncInitRecoveredGlobal()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x2E500);
+			return (::System::Action_1<::System::Int32>**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x2E500);
 		}
 
 		static ::System::Action** StaticGet__0___OnShutDown()

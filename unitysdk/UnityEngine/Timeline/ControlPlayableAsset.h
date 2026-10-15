@@ -6,7 +6,7 @@
 #include "unitysdk/UnityEngine/Timeline/ActivationControlPlayable_PostPlaybackState.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/ExposedReference_1.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
@@ -81,9 +81,9 @@ namespace UnityEngine::Timeline
 			return (::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>**)UnitySDK::FromName("UnityEngine.Timeline", "ControlPlayableAsset")->GetStaticField(0x4B4B8);
 		}
 
-		static ::System::Action** StaticGet_OnModifyPlayables()
+		static ::System::Action_4<::UnityEngine::Timeline::ControlPlayableAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>** StaticGet_OnModifyPlayables()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Timeline", "ControlPlayableAsset")->GetStaticField(0x4B4C0);
+			return (::System::Action_4<::UnityEngine::Timeline::ControlPlayableAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>**)UnitySDK::FromName("UnityEngine.Timeline", "ControlPlayableAsset")->GetStaticField(0x4B4C0);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Playables::PlayableDirector*>** StaticGet_s_ProcessedDirectors()

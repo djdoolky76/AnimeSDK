@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/GameCore/Match3/MatchThree1v1AIScoreApsect.h"
 #include "unitysdk/RPG/GameCore/MatchThreePropType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_4.h"
 class PKJOPFLMLLB;
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIPropPriorityConfig; }
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIScoreAspectConfig; }
@@ -44,9 +45,9 @@ inline static constexpr unsigned int HEOAAAKKHLC___c_TypeDefinitionIndex = 43032
 			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A9A8);
 		}
 
-		static ::System::Comparison_1<::System::ValueTuple>** StaticGet___9__31_0()
+		static ::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>** StaticGet___9__31_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A9B0);
+			return (::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A9B0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -84,9 +85,9 @@ inline static constexpr unsigned int HEOAAAKKHLC___c_TypeDefinitionIndex = 43032
 			return ((::System::Int32(*)(::PVOID, ::PKJOPFLMLLB*, ::PKJOPFLMLLB*))((::PBYTE)hIl2Cpp + HEOAAAKKHLC___C___MAKECHOICE_B__18_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 __GenPropSimulateInfo_SelectBreakStyle_b__31_0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __GenPropSimulateInfo_SelectBreakStyle_b__31_0(::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a1, ::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + HEOAAAKKHLC___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>, ::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>))((::PBYTE)hIl2Cpp + HEOAAAKKHLC___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET))(this, a1, a2);
 		}
 
 	};

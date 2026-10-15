@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PS { class PSAccountBindingDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF66F30)
 #define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF66F70)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::PS
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18370);
 		}
 
-		static ::System::Action** StaticGet___9__58_0()
+		static ::System::Action_1<::MiHoYo::SDK::PS::PSAccountBindingDialog*>** StaticGet___9__58_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18378);
+			return (::System::Action_1<::MiHoYo::SDK::PS::PSAccountBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18378);
 		}
 
 		static ::System::Void _cctor()

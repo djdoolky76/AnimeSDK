@@ -6,8 +6,9 @@ namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::Base::GoodsPlatform { class GoodsPlatformManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Diagnostics { class Stopwatch; }
 
 #define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC34BB0)
@@ -56,14 +57,14 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager_WorkMode(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_GET_LISTGOODSWORKMODE_OFFSET))(this);
 		}
 
-		::System::Void RetrieveGoodsList(::System::String* a1, ::System::Action* a2)
+		::System::Void RetrieveGoodsList(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestListGoodsAPIWithCDNFallback(::MiHoYo::SDK::JSONObject* a1, ::System::Action* a2)
+		::System::Void RequestListGoodsAPIWithCDNFallback(::MiHoYo::SDK::JSONObject* a1, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONObject*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::JSONObject* NormalizeGoodsListData(::MiHoYo::SDK::JSONNode* a1)

@@ -6,10 +6,10 @@
 #include "unitysdk/System/DateTimeOffset.h"
 #include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/TimeSpan.h"
 namespace Newtonsoft::Json { template <typename T> class IArrayPool_1; }
 namespace Newtonsoft::Json::Utilities { class Base64Encoder; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Uri; }
@@ -228,9 +228,9 @@ namespace Newtonsoft::Json
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONTEXTWRITER_WRITEVALUE_6_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteValue_7(::System::Nullable* a1)
+		::System::Void WriteValue_7(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONTEXTWRITER_WRITEVALUE_7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONTEXTWRITER_WRITEVALUE_7_OFFSET))(this, a1);
 		}
 
 		::System::Void WriteValue_8(::System::Double a1)
@@ -238,9 +238,9 @@ namespace Newtonsoft::Json
 			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONTEXTWRITER_WRITEVALUE_8_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteValue_9(::System::Nullable* a1)
+		::System::Void WriteValue_9(::System::Nullable_1<::System::Double> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONTEXTWRITER_WRITEVALUE_9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Double>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONTEXTWRITER_WRITEVALUE_9_OFFSET))(this, a1);
 		}
 
 		::System::Void WriteValue_10(::System::Boolean a1)

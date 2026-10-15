@@ -9,8 +9,8 @@
 #include "unitysdk/Newtonsoft/Json/Utilities/StringReference.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/DateTimeOffset.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::IO { class TextWriter; }
@@ -206,9 +206,9 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Void(*)(::System::IO::TextWriter*, ::System::DateTime, ::Newtonsoft::Json::DateFormatHandling, ::System::String*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_DATETIMEUTILS_WRITEDATETIMESTRING_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 WriteDateTimeString_1(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::DateTime a3, ::System::Nullable* a4, ::System::DateTimeKind a5, ::Newtonsoft::Json::DateFormatHandling a6)
+		static ::System::Int32 WriteDateTimeString_1(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::DateTime a3, ::System::Nullable_1<::System::TimeSpan> a4, ::System::DateTimeKind a5, ::Newtonsoft::Json::DateFormatHandling a6)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::DateTime, ::System::Nullable*, ::System::DateTimeKind, ::Newtonsoft::Json::DateFormatHandling))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_DATETIMEUTILS_WRITEDATETIMESTRING_1_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::DateTime, ::System::Nullable_1<::System::TimeSpan>, ::System::DateTimeKind, ::Newtonsoft::Json::DateFormatHandling))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_DATETIMEUTILS_WRITEDATETIMESTRING_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Int32 WriteDefaultIsoDate(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::DateTime a3)

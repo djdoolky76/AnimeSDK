@@ -7,9 +7,9 @@ class HIOEAKHGILF;
 class KMGHEKCKAAP;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
+namespace Entitas { template <typename T> class ICollector_1; }
 namespace RPG::GameCore { class FiveDimTriggerEventEmitterConfig; }
 namespace UnityEngine { class Collider; }
 
@@ -40,7 +40,7 @@ inline static constexpr unsigned int AJJCKLMCOMM_TypeDefinitionIndex = 77090;
 	{
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x50
-		::Entitas::ICollector* CJGEEMIIAEF; // 0x58
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* CJGEEMIIAEF; // 0x58
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x60
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

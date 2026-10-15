@@ -5,7 +5,7 @@ namespace MiHoYo::SDK { class AccountManager; }
 namespace MiHoYo::SDK { class LoginDataModel; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC27260)
 #define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1BC28CE0)
@@ -19,7 +19,7 @@ namespace MiHoYo::SDK
 	{
 	public:
 		::MiHoYo::SDK::AccountManager* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::LoginDataModel*>*>* callback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0_CTOR_OFFSET))(this);

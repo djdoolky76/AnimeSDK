@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class GLAKFODMCPH;
 namespace System { class String; }
 
@@ -14,7 +14,7 @@ inline static constexpr unsigned int HJGEFIGGFPL_TypeDefinitionIndex = 43281;
 	public:
 		::GLAKFODMCPH* DBJDOIBADAA; // 0x10
 		::System::String* HFLDHJHJNCF; // 0x18
-		::System::ValueTuple MOMJMJIGCDN; // 0x20
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> MOMJMJIGCDN; // 0x20
 		::System::UInt32 CIHDMACAGPN; // 0x28
 		::System::Void _ctor()
 		{

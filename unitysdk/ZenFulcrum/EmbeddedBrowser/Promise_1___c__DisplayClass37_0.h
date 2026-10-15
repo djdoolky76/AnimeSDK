@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
-namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
+namespace System { template <typename T> class Action_1; }
+namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class Promise_1; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
@@ -14,8 +14,8 @@ namespace ZenFulcrum::EmbeddedBrowser
 	class Promise_1___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onResolved; // 0x0
-		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x0
-		::System::Action* onRejected; // 0x0
+		::System::Action_1<::System::Object*>* onResolved; // 0x0
+		::ZenFulcrum::EmbeddedBrowser::Promise_1<::System::Object*>* resultPromise; // 0x0
+		::System::Action_1<::System::Exception*>* onRejected; // 0x0
 	};
 }

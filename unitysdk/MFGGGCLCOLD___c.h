@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
@@ -14,9 +14,9 @@ inline static constexpr unsigned int MFGGGCLCOLD___c_TypeDefinitionIndex = 62174
 	class MFGGGCLCOLD___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::ValueTuple>** StaticGet___9__14_0()
+		static ::System::Comparison_1<::System::ValueTuple_2<::System::Double, ::System::Int32>>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F710);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::Double, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F710);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -34,9 +34,9 @@ inline static constexpr unsigned int MFGGGCLCOLD___c_TypeDefinitionIndex = 62174
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MFGGGCLCOLD___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetEdgeIndexByRay_b__14_0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 _GetEdgeIndexByRay_b__14_0(::System::ValueTuple_2<::System::Double, ::System::Int32> a1, ::System::ValueTuple_2<::System::Double, ::System::Int32> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + MFGGGCLCOLD___C__GETEDGEINDEXBYRAY_B__14_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Double, ::System::Int32>, ::System::ValueTuple_2<::System::Double, ::System::Int32>))((::PBYTE)hIl2Cpp + MFGGGCLCOLD___C__GETEDGEINDEXBYRAY_B__14_0_OFFSET))(this, a1, a2);
 		}
 
 	};

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class BNFHFJMLEMO;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
@@ -25,12 +25,12 @@ inline static constexpr unsigned int BNFHFJMLEMO_BAFPLLAFFGH_TypeDefinitionIndex
 	public:
 		::UnityEngine::Object* LKIMACFHCAE; // 0x10
 		::BNFHFJMLEMO* ECPJEBHMMHC; // 0x18
-		::System::Collections::Generic::List_1<::System::Action*>* EBPEECFACIG; // 0x20
+		::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>* EBPEECFACIG; // 0x20
 		::System::String* IGDPHOBJENH; // 0x28
 		::System::Boolean JJGABAMOFCI; // 0x30
-		::System::Void _ctor(::BNFHFJMLEMO* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void _ctor(::BNFHFJMLEMO* a1, ::System::String* a2, ::System::Action_1<::UnityEngine::Object*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::BNFHFJMLEMO*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_BAFPLLAFFGH_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::BNFHFJMLEMO*, ::System::String*, ::System::Action_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_BAFPLLAFFGH_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 PLPCJPMFELI()
@@ -43,14 +43,14 @@ inline static constexpr unsigned int BNFHFJMLEMO_BAFPLLAFFGH_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_BAFPLLAFFGH_FCIMEFBNPIF_OFFSET))(this, a1);
 		}
 
-		::System::Void JIJEOJIJEBA(::System::Action* a1)
+		::System::Void JIJEOJIJEBA(::System::Action_1<::UnityEngine::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_BAFPLLAFFGH_JIJEOJIJEBA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_BAFPLLAFFGH_JIJEOJIJEBA_OFFSET))(this, a1);
 		}
 
-		::System::Int32 HBJEKNJOOHC(::System::Action* a1)
+		::System::Int32 HBJEKNJOOHC(::System::Action_1<::UnityEngine::Object*>* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_BAFPLLAFFGH_HBJEKNJOOHC_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Action_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_BAFPLLAFFGH_HBJEKNJOOHC_OFFSET))(this, a1);
 		}
 
 		::System::Boolean DCOLLBEIGPL()

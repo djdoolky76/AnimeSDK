@@ -27,6 +27,8 @@ namespace RPG::GameCore { class FiveDimCameraLensConfig; }
 namespace RPG::GameCore { class FiveDimMoveConfig; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -519,19 +521,19 @@ inline static constexpr unsigned int LKGIMGKIFFI_TypeDefinitionIndex = 76758;
 			return ((::UnityEngine::Vector3(*)(::Cinemachine::CinemachineFramingTransposer*, ::Cinemachine::LensSettings))((::PBYTE)hIl2Cpp + LKGIMGKIFFI_HPJFDJKPJCO_OFFSET))(a1, a2);
 		}
 
-		::System::Void IGALPIKOMGF(::System::Action* a1)
+		::System::Void IGALPIKOMGF(::System::Action_2<::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI_IGALPIKOMGF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*>*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI_IGALPIKOMGF_OFFSET))(this, a1);
 		}
 
-		::System::Void ABDPBOCAKPF(::System::Action* a1)
+		::System::Void ABDPBOCAKPF(::System::Action_2<::Cinemachine::CinemachineVirtualCamera*, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI_ABDPBOCAKPF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::Cinemachine::CinemachineVirtualCamera*, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*>*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI_ABDPBOCAKPF_OFFSET))(this, a1);
 		}
 
-		::System::Void ABDPBOCAKPF_1(::System::Action* a1)
+		::System::Void ABDPBOCAKPF_1(::System::Action_3<::INMMPMDELKE*, ::Cinemachine::CinemachineVirtualCamera*, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI_ABDPBOCAKPF_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::INMMPMDELKE*, ::Cinemachine::CinemachineVirtualCamera*, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*>*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI_ABDPBOCAKPF_1_OFFSET))(this, a1);
 		}
 
 		::System::Void MGMCPOFFHJH(::UnityEngine::Vector3 a1)

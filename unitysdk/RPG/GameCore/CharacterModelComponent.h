@@ -10,7 +10,8 @@
 #include "unitysdk/RPG/GameCore/EntityLodTemplateName.h"
 #include "unitysdk/RPG/GameCore/EntityType.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/MVector3.h"
@@ -53,9 +54,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonConfig; }
 namespace RPG::GameCore { class NpcLodInfo; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -378,13 +380,13 @@ namespace RPG::GameCore
 	{
 	public:
 		::GDKHHPPIFBC* _SceneObjHandler; // 0x18
-		::System::Action* _WaitModelRootUnloadCallback; // 0x20
+		::System::Action_1<::RPG::GameCore::GameEntity*>* _WaitModelRootUnloadCallback; // 0x20
 		::UnityEngine::Transform* _NameBoardTrans; // 0x28
-		::System::Action* _ReplaceMeshCallback; // 0x30
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _TempSetArtNodeRotationList; // 0x38
+		::System::Action_3<::System::String*, ::UnityEngine::SkinnedMeshRenderer*, ::UnityEngine::Mesh*>* _ReplaceMeshCallback; // 0x30
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::UnityEngine::Quaternion>>* _TempSetArtNodeRotationList; // 0x38
 		::System::String* _charAssetPath; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* _RootScaleFactors; // 0x48
-		::System::Action* _OnModelRootSpawnAsyncDelg; // 0x50
+		::System::Action_1<::UnityEngine::GameObject*>* _OnModelRootSpawnAsyncDelg; // 0x50
 		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* _AddColliders; // 0x58
 		::UnityEngine::GameObject* _SceneCapturedObj; // 0x60
 		::System::Collections::Generic::List_1<::ALCAOBIABGN*>* _LodMeshLoadJobs; // 0x68
@@ -403,7 +405,7 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ChildUnityGOAssetPath; // 0xD0
 		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* _Colliders; // 0xD8
 		::System::Action* _TickPossisionDelg; // 0xE0
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>* _ReplaceRendererMaterialDatas; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>* _ReplaceRendererMaterialDatas; // 0xE8
 		::UnityEngine::Transform* _rootBone; // 0xF0
 		::RPG::Client::SpaceZooCatData* _RuanMadeCatData; // 0xF8
 		::System::Collections::Generic::List_1<::FMJLKHFNKNO*>* _PossessionDatas; // 0x100
@@ -424,24 +426,24 @@ namespace RPG::GameCore
 		::UnityEngine::Transform* _CustomUnityGORoot; // 0x180
 		::RPG::PoolList_1<::MPLPJIADKMI*>* _ModelRootLoadListeners; // 0x188
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* _ChildUnityGO; // 0x190
-		::System::Action* _LodMeshLoadCallback; // 0x198
+		::System::Action_1<::ALCAOBIABGN*>* _LodMeshLoadCallback; // 0x198
 		::UnityEngine::Material* _ReplaceSingleMaterial; // 0x1A0
 		::NLMPFKPGCNA* _AnimOverrideCmpt; // 0x1A8
 		::HEAIEBHLCMJ* _EntityAssetLoader; // 0x1B0
 		::UnityEngine::Transform* _ScaleNode; // 0x1B8
-		::System::Action* _WaitModelArtLoadFinishCallback; // 0x1C0
+		::System::Action_1<::RPG::GameCore::GameEntity*>* _WaitModelArtLoadFinishCallback; // 0x1C0
 		::RPG::GameCore::JsonConfig* _EntityJsonConfig; // 0x1C8
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* _ArtModelEffectsList; // 0x1D0
 		::RPG::Client::FollowPointMapping* _FollowPointMapping; // 0x1D8
 		::System::Collections::Generic::List_1<::MDAMCBDNMKL*>* _FeatureList; // 0x1E0
 		::UnityEngine::Animator* _InnerRootAnimator; // 0x1E8
-		::System::Action* _WaitModelRootLoadFinishCallback; // 0x1F0
+		::System::Action_1<::RPG::GameCore::GameEntity*>* _WaitModelRootLoadFinishCallback; // 0x1F0
 		::RPG::Client::Effect_Transform* _ModelObject_Effect_Transform; // 0x1F8
 		::UnityEngine::Animator* _InnerAnimator; // 0x200
 		::System::String* _PreloadArtAssetPath; // 0x208
-		::System::Action* SyncDitherTargetChangeCallback; // 0x210
+		::System::Action_1<::RPG::GameCore::GameEntity*>* SyncDitherTargetChangeCallback; // 0x210
 		::UnityEngine::Renderer* _ModelRenderer; // 0x218
-		::System::Action* _ArtAsyncSpawnCallback; // 0x220
+		::System::Action_1<::UnityEngine::GameObject*>* _ArtAsyncSpawnCallback; // 0x220
 		::UnityEngine::GameObject* _LightWeightCaptureGO; // 0x228
 		::AKAMFKBFIHP* _RootColliderFollowParam; // 0x230
 		::RPG::PoolList_1<::EHEIDEOJMIF*>* _ModelArtLoadListenrs; // 0x238
@@ -473,7 +475,7 @@ namespace RPG::GameCore
 		::System::Boolean _RootUnityGODirty; // 0x2CD
 		::System::Boolean _DeactiveModelBeforeRootLoaded; // 0x2CE
 		::System::Boolean _HasReplaceSingleMaterial; // 0x2CF
-		::System::Nullable* _ArtNodeRotation; // 0x2D0
+		::System::Nullable_1<::UnityEngine::Quaternion> _ArtNodeRotation; // 0x2D0
 		::System::Byte _padding1[0xC];
 		::System::Single _RootScale; // 0x2E4
 		::System::Int32 _AniamtorTickLod; // 0x2E8
@@ -505,9 +507,9 @@ namespace RPG::GameCore
 		::System::Boolean _HasDisposed; // 0x347
 		::UnityEngine::Vector3 _NameBoardOffset; // 0x348
 		::System::Single _ModelScale; // 0x354
-		::System::Nullable* _AttachPointCameraRootSourceLocalPosition; // 0x358
+		::System::Nullable_1<::UnityEngine::Vector3> _AttachPointCameraRootSourceLocalPosition; // 0x358
 		::System::Byte _padding2[0x8];
-		::System::Nullable* _ArtNodePos; // 0x368
+		::System::Nullable_1<::UnityEngine::Vector3> _ArtNodePos; // 0x368
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet__PropertyIdCache()
 		{
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "CharacterModelComponent")->GetStaticField(0x3C6B0);
@@ -726,19 +728,19 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_APPLYALLREPLACEMATERIALS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void RevertAllReplaceMaterials(::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>* a1)
+		static ::System::Void RevertAllReplaceMaterials(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_REVERTALLREPLACEMATERIALS_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_REVERTALLREPLACEMATERIALS_OFFSET))(a1);
 		}
 
-		static ::System::Void ApplyReplaceMaterialData(::UnityEngine::GameObject* a1, ::System::String* a2, ::RPG::GameCore::CharacterReplaceMaterialRenderList* a3, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>* a4)
+		static ::System::Void ApplyReplaceMaterialData(::UnityEngine::GameObject* a1, ::System::String* a2, ::RPG::GameCore::CharacterReplaceMaterialRenderList* a3, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>* a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::String*, ::RPG::GameCore::CharacterReplaceMaterialRenderList*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_APPLYREPLACEMATERIALDATA_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::String*, ::RPG::GameCore::CharacterReplaceMaterialRenderList*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_APPLYREPLACEMATERIALDATA_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void RevertReplaceMaterialData(::UnityEngine::GameObject* a1, ::System::String* a2, ::RPG::GameCore::CharacterReplaceMaterialRenderList* a3, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>* a4)
+		static ::System::Void RevertReplaceMaterialData(::UnityEngine::GameObject* a1, ::System::String* a2, ::RPG::GameCore::CharacterReplaceMaterialRenderList* a3, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>* a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::String*, ::RPG::GameCore::CharacterReplaceMaterialRenderList*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_REVERTREPLACEMATERIALDATA_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::String*, ::RPG::GameCore::CharacterReplaceMaterialRenderList*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_REVERTREPLACEMATERIALDATA_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::String* FindReplaceMaterialKeyOfPossession(::System::String* a1, ::System::Collections::Generic::IList_1<::System::String*>* a2)
@@ -1391,9 +1393,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_UPDATECOLLIDERCACHE_OFFSET))(this);
 		}
 
-		::System::ValueTuple GetPossessionReplaceMaterialKey()
+		::System::ValueTuple_2<::System::String*, ::System::String*> GetPossessionReplaceMaterialKey()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_GETPOSSESSIONREPLACEMATERIALKEY_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_GETPOSSESSIONREPLACEMATERIALKEY_OFFSET))(this);
 		}
 
 		::System::Boolean HasOverrideReplaceMaterialKeyList()
@@ -1751,34 +1753,34 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_LOADMODEL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void WaitModelRootLoadFinish(::System::Action* a1)
+		::System::Void WaitModelRootLoadFinish(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_WAITMODELROOTLOADFINISH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_WAITMODELROOTLOADFINISH_OFFSET))(this, a1);
 		}
 
-		::System::Void CancelWaitModleRootLoadFinish(::System::Action* a1)
+		::System::Void CancelWaitModleRootLoadFinish(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_CANCELWAITMODLEROOTLOADFINISH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_CANCELWAITMODLEROOTLOADFINISH_OFFSET))(this, a1);
 		}
 
-		::System::Void WaitModelRootUnload(::System::Action* a1)
+		::System::Void WaitModelRootUnload(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_WAITMODELROOTUNLOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_WAITMODELROOTUNLOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void CancelWaitModelRootUnload(::System::Action* a1)
+		::System::Void CancelWaitModelRootUnload(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_CANCELWAITMODELROOTUNLOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_CANCELWAITMODELROOTUNLOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void WaitModelArtLoadFinish(::System::Action* a1)
+		::System::Void WaitModelArtLoadFinish(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_WAITMODELARTLOADFINISH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_WAITMODELARTLOADFINISH_OFFSET))(this, a1);
 		}
 
-		::System::Void CancelWaitModelArtLoadFinish(::System::Action* a1)
+		::System::Void CancelWaitModelArtLoadFinish(::System::Action_1<::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_CANCELWAITMODELARTLOADFINISH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_CANCELWAITMODELARTLOADFINISH_OFFSET))(this, a1);
 		}
 
 		::System::Void MarkDeactiveModelBeforeRootLoaded()
@@ -1921,9 +1923,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT__POLYMERPARTDISPOSE_OFFSET))(this);
 		}
 
-		::System::Void RegisterReplaceMeshCallback(::System::Action* a1)
+		::System::Void RegisterReplaceMeshCallback(::System::Action_3<::System::String*, ::UnityEngine::SkinnedMeshRenderer*, ::UnityEngine::Mesh*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_REGISTERREPLACEMESHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::String*, ::UnityEngine::SkinnedMeshRenderer*, ::UnityEngine::Mesh*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERMODELCOMPONENT_REGISTERREPLACEMESHCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateModelArtLod(::System::Int32 a1, ::System::Boolean a2)

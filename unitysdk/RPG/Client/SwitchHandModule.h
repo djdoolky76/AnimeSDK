@@ -13,9 +13,9 @@ class OENDLKLJHPF;
 namespace Proto { class SwitchHandSnapshot; }
 namespace RPG::Client { class SwitchHandMazePuzzleDataManager; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define RPG_CLIENT_SWITCHHANDMODULE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE15B710)
@@ -75,7 +75,7 @@ namespace RPG::Client
 		::RPG::Client::SwitchHandMazePuzzleDataManager* MazePuzzleDataManager; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NOPBGGCGFMM*>* _CustomDataMap; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::IPDJEKLHILE*>* _SaveDataMap; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action*>* _CallbackMap; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Action_2<::IPDJEKLHILE*, ::NOPBGGCGFMM*>*>* _CallbackMap; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NOPBGGCGFMM*>* _SaveCustomDataMap; // 0x30
 		::System::UInt32 _CurrID; // 0x38
 		static ::System::UInt32* StaticGet_HandPropID()
@@ -118,14 +118,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWITCHHANDMODULE_REQUESTPLAYFINISH_OFFSET))(this);
 		}
 
-		::System::Void RegisterSaveDataUpdatedCallback(::System::UInt32 a1, ::System::Action* a2)
+		::System::Void RegisterSaveDataUpdatedCallback(::System::UInt32 a1, ::System::Action_2<::IPDJEKLHILE*, ::NOPBGGCGFMM*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWITCHHANDMODULE_REGISTERSAVEDATAUPDATEDCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action_2<::IPDJEKLHILE*, ::NOPBGGCGFMM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWITCHHANDMODULE_REGISTERSAVEDATAUPDATEDCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnregisterSaveDataUpdatedCallback(::System::UInt32 a1, ::System::Action* a2)
+		::System::Void UnregisterSaveDataUpdatedCallback(::System::UInt32 a1, ::System::Action_2<::IPDJEKLHILE*, ::NOPBGGCGFMM*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWITCHHANDMODULE_UNREGISTERSAVEDATAUPDATEDCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action_2<::IPDJEKLHILE*, ::NOPBGGCGFMM*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWITCHHANDMODULE_UNREGISTERSAVEDATAUPDATEDCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ResetTransform(::System::UInt32 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)

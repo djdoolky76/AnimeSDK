@@ -6,9 +6,9 @@ class KDLEIHJGDAP;
 namespace RPG::Client { class GamePhaseManager; }
 namespace RPG::Client { class NotifyHandler; }
 namespace RPG::Client { class RspHandler; }
-namespace System { class Action; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -33,8 +33,8 @@ namespace RPG::Client
 	{
 	public:
 		::System::Collections::Generic::List_1<::KDLEIHJGDAP*>* components; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::Tuple*>* packetHandlers; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::Tuple*>* normalHandlers; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::Tuple_2<::System::UInt16, ::RPG::Client::RspHandler*>*>* packetHandlers; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::Tuple_2<::RPG::Client::NotifyType, ::RPG::Client::NotifyHandler*>*>* normalHandlers; // 0x20
 		::RPG::Client::GamePhaseManager* Manager; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::KDLEIHJGDAP*>* componentDict; // 0x30
 		::System::Boolean isInit; // 0x38
@@ -53,9 +53,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPHASECONTEXT_ONINIT_OFFSET))(this);
 		}
 
-		::System::Void ForeachComponent(::System::Action* a1)
+		::System::Void ForeachComponent(::System::Action_1<::KDLEIHJGDAP*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPHASECONTEXT_FOREACHCOMPONENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KDLEIHJGDAP*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASEPHASECONTEXT_FOREACHCOMPONENT_OFFSET))(this, a1);
 		}
 
 		::System::Void AddComponent(::KDLEIHJGDAP* a1)

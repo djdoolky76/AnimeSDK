@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UserPrefs_EyeProtectionMode.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define EOIJLIIHGJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x155C3C90)
 #define EOIJLIIHGJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x155C3CD0)
@@ -21,44 +21,44 @@ inline static constexpr unsigned int EOIJLIIHGJD___c_TypeDefinitionIndex = 66696
 	class EOIJLIIHGJD___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__0_5()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_5()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538E0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538E0);
 		}
 
-		static ::System::Action** StaticGet___9__0_4()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538E8);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538E8);
 		}
 
-		static ::System::Action** StaticGet___9__0_1()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538F0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538F0);
 		}
 
-		static ::System::Action** StaticGet___9__0_2()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538F8);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538F8);
 		}
 
-		static ::System::Action** StaticGet___9__0_7()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_7()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53900);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53900);
 		}
 
-		static ::System::Action** StaticGet___9__0_6()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_6()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53908);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53908);
 		}
 
-		static ::System::Action** StaticGet___9__0_3()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__0_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53910);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53910);
 		}
 
-		static ::System::Action** StaticGet___9__0_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53918);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53918);
 		}
 
 		static ::System::Object** StaticGet___9()

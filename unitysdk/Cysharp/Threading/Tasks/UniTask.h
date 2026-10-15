@@ -11,6 +11,7 @@
 #include "unitysdk/Cysharp/Threading/Tasks/SwitchToTaskPoolAwaitable.h"
 #include "unitysdk/Cysharp/Threading/Tasks/SwitchToThreadPoolAwaitable.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/TimeSpan.h"
 namespace Cysharp::Threading::Tasks { class AsyncLazy; }
@@ -20,6 +21,7 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -365,9 +367,9 @@ namespace Cysharp::Threading::Tasks
 		*/
 
 		/*
-		static ::Cysharp::Threading::Tasks::UniTask Run_1(::System::Action* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Threading::CancellationToken a4)
+		static ::Cysharp::Threading::Tasks::UniTask Run_1(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Action*, ::System::Object*, ::System::Boolean, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_RUN_1_OFFSET))(a1, a2, a3, a4);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Boolean, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_RUN_1_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 
@@ -393,9 +395,9 @@ namespace Cysharp::Threading::Tasks
 		*/
 
 		/*
-		static ::Cysharp::Threading::Tasks::UniTask RunOnThreadPool_1(::System::Action* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Threading::CancellationToken a4)
+		static ::Cysharp::Threading::Tasks::UniTask RunOnThreadPool_1(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Action*, ::System::Object*, ::System::Boolean, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_RUNONTHREADPOOL_1_OFFSET))(a1, a2, a3, a4);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Boolean, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_RUNONTHREADPOOL_1_OFFSET))(a1, a2, a3, a4);
 		}
 		*/
 
@@ -499,16 +501,16 @@ namespace Cysharp::Threading::Tasks
 		*/
 
 		/*
-		static ::Cysharp::Threading::Tasks::UniTask WhenAny_17(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* a1)
+		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32> WhenAny_17(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* a1)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANY_17_OFFSET))(a1);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>(*)(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANY_17_OFFSET))(a1);
 		}
 		*/
 
 		/*
-		static ::Cysharp::Threading::Tasks::UniTask WhenAny_18(::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>* a1)
+		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32> WhenAny_18(::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>* a1)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANY_18_OFFSET))(a1);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>(*)(::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANY_18_OFFSET))(a1);
 		}
 		*/
 
@@ -543,12 +545,10 @@ namespace Cysharp::Threading::Tasks
 		}
 		*/
 
-		/*
-		::Cysharp::Threading::Tasks::UniTask AsAsyncUnitUniTask()
+		::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::AsyncUnit> AsAsyncUnitUniTask()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ASASYNCUNITUNITASK_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::AsyncUnit>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ASASYNCUNITUNITASK_OFFSET))(this);
 		}
-		*/
 
 	};
 }

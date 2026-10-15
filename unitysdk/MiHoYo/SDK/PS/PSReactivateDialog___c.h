@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PS { class PSReactivateDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PS_PSREACTIVATEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF6C040)
 #define MIHOYO_SDK_PS_PSREACTIVATEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF6C080)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::PS
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18380);
 		}
 
-		static ::System::Action** StaticGet___9__8_0()
+		static ::System::Action_1<::MiHoYo::SDK::PS::PSReactivateDialog*>** StaticGet___9__8_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18388);
+			return (::System::Action_1<::MiHoYo::SDK::PS::PSReactivateDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18388);
 		}
 
 		static ::System::Void _cctor()

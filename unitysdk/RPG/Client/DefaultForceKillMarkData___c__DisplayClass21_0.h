@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ForceKillMarkType.h"
 #include "unitysdk/RPG/GameCore/ForceKillShowType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class DefaultForceKillMarkData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_DEFAULTFORCEKILLMARKDATA___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEE710)
 #define RPG_CLIENT_DEFAULTFORCEKILLMARKDATA___C__DISPLAYCLASS21_0___CACULATEFROMMODIFIERS_B__0_OFFSET UNITYSDK_OFFSET(0xCBEE720)
@@ -21,8 +21,8 @@ namespace RPG::Client
 		::RPG::Client::DefaultForceKillMarkData* __4__this; // 0x10
 		::RPG::GameCore::GameEntity* entity; // 0x18
 		::System::Single maxRatio; // 0x20
-		::System::Nullable* forceKillShowType; // 0x24
-		::System::Nullable* forceKillMarkType; // 0x2C
+		::System::Nullable_1<::RPG::GameCore::ForceKillShowType> forceKillShowType; // 0x24
+		::System::Nullable_1<::RPG::GameCore::ForceKillMarkType> forceKillMarkType; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEFAULTFORCEKILLMARKDATA___C__DISPLAYCLASS21_0_CTOR_OFFSET))(this);

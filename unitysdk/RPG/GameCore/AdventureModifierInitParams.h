@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class PGJINBJDAHN;
 namespace RPG::GameCore { class AdventureModifierInitParams; }
-namespace System { class Nullable; }
 
 #define RPG_GAMECORE_ADVENTUREMODIFIERINITPARAMS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE570C10)
 #define RPG_GAMECORE_ADVENTUREMODIFIERINITPARAMS_CLONE_OFFSET UNITYSDK_OFFSET(0xE570B80)
@@ -18,7 +18,7 @@ namespace RPG::GameCore
 	public:
 		::PGJINBJDAHN* BaseInitParams; // 0x10
 		::System::UInt32 SkillSeqID; // 0x18
-		::System::Nullable* OverrideLifeTime; // 0x1C
+		::System::Nullable_1<::System::Single> OverrideLifeTime; // 0x1C
 		::System::Boolean IsClientOnly; // 0x24
 		::System::Boolean IsBuffCreate; // 0x25
 		::System::Boolean IsServerSync; // 0x26

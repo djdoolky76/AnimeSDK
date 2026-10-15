@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonReader.h"
 #include "unitysdk/Newtonsoft/Json/JsonToken.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace Newtonsoft::Json::Linq { class JContainer; }
 namespace Newtonsoft::Json::Linq { class JToken; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -59,9 +59,9 @@ namespace Newtonsoft::Json::Linq
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JTOKENREADER_READTOEND_OFFSET))(this);
 		}
 
-		::System::Nullable* GetEndToken(::Newtonsoft::Json::Linq::JContainer* a1)
+		::System::Nullable_1<::Newtonsoft::Json::JsonToken> GetEndToken(::Newtonsoft::Json::Linq::JContainer* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::Newtonsoft::Json::Linq::JContainer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JTOKENREADER_GETENDTOKEN_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::Newtonsoft::Json::JsonToken>(*)(::PVOID, ::Newtonsoft::Json::Linq::JContainer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JTOKENREADER_GETENDTOKEN_OFFSET))(this, a1);
 		}
 
 		::System::Boolean ReadInto(::Newtonsoft::Json::Linq::JContainer* a1)

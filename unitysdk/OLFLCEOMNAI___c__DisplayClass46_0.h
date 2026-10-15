@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class HFCOGLIEHFB;
 class IDHNPGBOIKD;
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define OLFLCEOMNAI___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF07EA0)
 #define OLFLCEOMNAI___C__DISPLAYCLASS46_0__GETINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0xBF08390)
@@ -21,9 +21,9 @@ inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass46_0_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OLFLCEOMNAI___C__DISPLAYCLASS46_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetInstance_b__0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean _GetInstance_b__0(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::HFCOGLIEHFB*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + OLFLCEOMNAI___C__DISPLAYCLASS46_0__GETINSTANCE_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::HFCOGLIEHFB*>))((::PBYTE)hIl2Cpp + OLFLCEOMNAI___C__DISPLAYCLASS46_0__GETINSTANCE_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean _GetInstance_b__1(::IDHNPGBOIKD* a1)

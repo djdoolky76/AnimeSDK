@@ -5,9 +5,9 @@
 #include "unitysdk/System/IO/FileMode.h"
 #include "unitysdk/System/IO/FileShare.h"
 #include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/IO/MonoIOStat.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::IO { class FileStream; }
@@ -55,9 +55,9 @@ namespace System::IO
 	class File : public ::System::Object
 	{
 	public:
-		static ::System::Nullable** StaticGet_defaultLocalFileTime()
+		static ::System::Nullable_1<::System::DateTime>* StaticGet_defaultLocalFileTime()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("System.IO", "File")->GetStaticField(0x4D30);
+			return (::System::Nullable_1<::System::DateTime>*)UnitySDK::FromName("System.IO", "File")->GetStaticField(0x4D30);
 		}
 
 		static ::System::Void AppendAllText(::System::String* a1, ::System::String* a2)

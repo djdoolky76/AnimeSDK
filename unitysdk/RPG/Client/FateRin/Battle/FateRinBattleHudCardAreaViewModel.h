@@ -29,6 +29,7 @@ class PFALBCGPCFF;
 class PGKHIKFLKLM;
 namespace RPG::Client::FateRin { class CardStateChangeContext; }
 namespace RPG::Client::FateRin { class ViewModelEventHandler; }
+namespace RPG::Client::FateRin { template <typename T> class ViewModelEventHandler_1; }
 namespace RPG::Client::FateRin::Battle { class CardAnimationEventArgs; }
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudCardAreaViewModel_CardAnimationEntry; }
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudCardAreaViewModel_CardAnimationSegment; }
@@ -190,7 +191,7 @@ namespace RPG::Client::FateRin::Battle
 		::HLOHDPOEMDK* _Model; // 0xD8
 		::RPG::Client::FateRin::Battle::FateRinBattleHudFreeCardViewModel* _FreeCardVm; // 0xE0
 		::System::Collections::Generic::List_1<::System::Object*>* _AddCardQueue; // 0xE8
-		::RPG::Client::FateRin::ViewModelEventHandler* OnCardAnimation; // 0xF0
+		::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::Client::FateRin::Battle::CardAnimationEventArgs*>* OnCardAnimation; // 0xF0
 		::System::Collections::Generic::List_1<::System::Object*>* _CardCycleSegments; // 0xF8
 		::System::UInt32 _TargetEnemyID_k__BackingField; // 0x100
 		::RPG::Client::FateRin::Battle::CardInteractionPhase _CurrentPhase_k__BackingField; // 0x104
@@ -719,14 +720,14 @@ namespace RPG::Client::FateRin::Battle
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_REMOVE_ONSHOWBYTURNSTATECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnCardAnimation(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void add_OnCardAnimation(::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::Client::FateRin::Battle::CardAnimationEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_ADD_ONCARDANIMATION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::Client::FateRin::Battle::CardAnimationEventArgs*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_ADD_ONCARDANIMATION_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnCardAnimation(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void remove_OnCardAnimation(::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::Client::FateRin::Battle::CardAnimationEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_REMOVE_ONCARDANIMATION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::Client::FateRin::Battle::CardAnimationEventArgs*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_REMOVE_ONCARDANIMATION_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::FateRin::Battle::IFateRinBattleHudReplicateCardViewModel* get_ReplicateCard()

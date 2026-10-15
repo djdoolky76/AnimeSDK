@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChimeraWorkRoundData; }
 namespace RPG::Client { class ChimeraWorkRoundInfo; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6B150)
 #define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS33_0__GETCURRENTDISPLAYROUNDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCB6CA70)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class ChimeraWorkRoundInfo___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise_1<::RPG::Client::ChimeraWorkRoundData*>* promise; // 0x10
 		::RPG::Client::ChimeraWorkRoundInfo* __4__this; // 0x18
 		::System::Void _ctor()
 		{

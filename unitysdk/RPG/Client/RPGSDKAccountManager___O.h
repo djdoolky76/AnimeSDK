@@ -5,8 +5,8 @@ namespace MiHoYo::SDK { class MiHoYoSDKWebView_OnUniWebViewMessageDelegate; }
 namespace MiHoYo::SDK { class MiHoYoSDKWebView_OnWebViewPageBeforeHide; }
 namespace MiHoYo::SDK { class MiHoYoSDKWebView_OnWebViewPageClose; }
 namespace MiHoYo::SDK { class MiHoYoSDKWebView_OnWebViewPageFinish; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageClose**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x644A8);
 		}
 
-		static ::System::Action** StaticGet__0____OnSwitchRoleResponse()
+		static ::System::Action_1<::System::String*>** StaticGet__0____OnSwitchRoleResponse()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x644B0);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x644B0);
 		}
 
 	};

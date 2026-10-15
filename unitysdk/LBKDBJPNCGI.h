@@ -24,8 +24,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatStartPVPGameParam; }
 namespace RPG::Client::DiceCombat { class DiceCombatTeamEditDialogMsgParam; }
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LBKDBJPNCGI_BGCFHHBCLPP_OFFSET UNITYSDK_OFFSET(0xB602D70)
@@ -283,9 +283,9 @@ inline static constexpr unsigned int LBKDBJPNCGI_TypeDefinitionIndex = 76109;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::DiceCombatStartPVPGameParam*))((::PBYTE)hIl2Cpp + LBKDBJPNCGI_OHFDOJNLIFP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* BHEOIMCJBAP(::FENBIHEDDPB* a1, ::System::Action* a2)
+		::RPG::Client::Promises::IPromise* BHEOIMCJBAP(::FENBIHEDDPB* a1, ::System::Action_1<::BKHHFIJCHEP*>* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::FENBIHEDDPB*, ::System::Action*))((::PBYTE)hIl2Cpp + LBKDBJPNCGI_BHEOIMCJBAP_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::FENBIHEDDPB*, ::System::Action_1<::BKHHFIJCHEP*>*))((::PBYTE)hIl2Cpp + LBKDBJPNCGI_BHEOIMCJBAP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void IFNPDLFMNCE()

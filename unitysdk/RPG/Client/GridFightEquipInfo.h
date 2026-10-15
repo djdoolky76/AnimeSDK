@@ -11,8 +11,8 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightGameModifier; }
 namespace RPG::Client { class GridFightGameSession; }
 namespace RPG::Client { class GridFightModifierInfo; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace Sofa::Core { template <typename T1, typename T2> class ObservableDictionary_2; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -60,8 +60,8 @@ namespace RPG::Client
 	{
 	public:
 		::INFGDNHDOLB* _Comparer; // 0x10
-		::RPG::Client::Promises::Promise* _CraftEquipRspPromise; // 0x18
-		::RPG::Client::Promises::Promise* _DressEquipRspPromise; // 0x20
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _CraftEquipRspPromise; // 0x18
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _DressEquipRspPromise; // 0x20
 		::System::Collections::Generic::List_1<::DLDENAECKHF*>* _EquipDressConstraits; // 0x28
 		::FBFODNFGMKG* _Collector; // 0x30
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemData*>* _EquipListHelper; // 0x38
@@ -187,9 +187,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO_GET_IDLEEQUIPCOUNT_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* TryDressEquipToRole(::System::UInt32 a1, ::System::UInt32 a2, ::DMGOKGLBNJJ a3)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* TryDressEquipToRole(::System::UInt32 a1, ::System::UInt32 a2, ::DMGOKGLBNJJ a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::DMGOKGLBNJJ))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO_TRYDRESSEQUIPTOROLE_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::DMGOKGLBNJJ))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO_TRYDRESSEQUIPTOROLE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean CanDressEquipToRole(::System::UInt32 a1, ::System::UInt32 a2, ::System::String* a3, ::System::Boolean a4)
@@ -202,9 +202,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO_ONDRESSEQUIPRSP_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* TryCraftEquip(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::ACNPGGHPDJB a4)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* TryCraftEquip(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::ACNPGGHPDJB a4)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32, ::System::UInt32, ::ACNPGGHPDJB))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO_TRYCRAFTEQUIP_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32, ::System::UInt32, ::ACNPGGHPDJB))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPINFO_TRYCRAFTEQUIP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void OnCraftEquipRsp()

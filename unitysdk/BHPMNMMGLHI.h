@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class IPromiseInfo; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -16,7 +16,7 @@ inline static constexpr unsigned int BHPMNMMGLHI_TypeDefinitionIndex = 49678;
 	class BHPMNMMGLHI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::System::Action*>*>* HFAEJDDKEOJ; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::System::Action_2<::System::UInt16, ::System::Object*>*>*>* HFAEJDDKEOJ; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::RPG::Client::Promises::IPromiseInfo*>* FIMFDOLGEBE; // 0x18
 		::System::Void _ctor()
 		{

@@ -9,8 +9,8 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateErrorDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentProcessDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC4D230)
@@ -51,7 +51,7 @@ namespace MiHoYo::SDK::Common::OS
 	{
 	public:
 		::System::String* PayLifeCycleId; // 0x10
-		::System::Action* ResultCallback; // 0x18
+		::System::Action_1<::System::Boolean>* ResultCallback; // 0x18
 		::System::String* PayPlat; // 0x20
 		::MiHoYo::SDK::AgeGateTicketModel* AgeGateTicket; // 0x28
 		::System::String* Payload; // 0x30
@@ -102,9 +102,9 @@ namespace MiHoYo::SDK::Common::OS
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ReportStage, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER_REPORTAGEGATEPAYVALIDATION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PreOrderValidation(::System::String* a1, ::System::Action* a2, ::System::String* a3)
+		::System::Void PreOrderValidation(::System::String* a1, ::System::Action_1<::System::Boolean>* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER_PREORDERVALIDATION_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::Boolean>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER_PREORDERVALIDATION_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnPreOrderValidationResponse(::MiHoYo::SDK::NetworkResponseModelEx* a1)

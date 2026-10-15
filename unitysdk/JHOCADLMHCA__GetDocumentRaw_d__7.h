@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
-#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
+#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter_1.h"
 class JHOCADLMHCA;
 namespace System { class Object; }
 namespace System { class String; }
@@ -17,13 +17,13 @@ inline static constexpr unsigned int JHOCADLMHCA__GetDocumentRaw_d__7_TypeDefini
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	struct alignas(8) JHOCADLMHCA__GetDocumentRaw_d__7
 	{
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x10
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x10
 		::System::String* docID; // 0x18
 		::System::Net::Http::HttpClient* _client_5__3; // 0x20
 		::System::Object* __u__3; // 0x28
 		::System::Byte _padding0[0x8];
 		::JHOCADLMHCA* __4__this; // 0x38
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x40
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x40
 		::System::Byte _padding1[0x10];
 		::System::Object* __u__2; // 0x58
 		::System::Byte _padding2[0x8];

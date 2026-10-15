@@ -6,7 +6,9 @@
 #include "unitysdk/RPG/GameCore/B51RacingStatType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class AJPBKMBIGNC;
 class BDHINPLKOPK;
 class CIFKCGJNFHF;
@@ -46,7 +48,6 @@ namespace RPG::Client::B51Racing { class B51RacingPartRetentionItemViewModel; }
 namespace RPG::Client::B51Racing { class B51RacingResidentRewardPageViewModel; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -186,9 +187,9 @@ inline static constexpr unsigned int PJDHMMEEBBC_TypeDefinitionIndex = 81986;
 			return ((::RPG::Client::B51Racing::B51RacingCarDetailDialogViewModel*(*)(::PVOID, ::KBKFLNHFHPF*, ::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_BNAPHKFPBGH_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple CPPKHMMLBNP(::KBKFLNHFHPF* a1, ::MONJFDPKFBA* a2)
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Single> CPPKHMMLBNP(::KBKFLNHFHPF* a1, ::MONJFDPKFBA* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::KBKFLNHFHPF*, ::MONJFDPKFBA*))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_CPPKHMMLBNP_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Single>(*)(::PVOID, ::KBKFLNHFHPF*, ::MONJFDPKFBA*))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_CPPKHMMLBNP_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* JAICPOODKMC(::KBKFLNHFHPF* a1, ::MONJFDPKFBA* a2, ::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode a3)
@@ -196,9 +197,9 @@ inline static constexpr unsigned int PJDHMMEEBBC_TypeDefinitionIndex = 81986;
 			return ((::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>*(*)(::PVOID, ::KBKFLNHFHPF*, ::MONJFDPKFBA*, ::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_JAICPOODKMC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple BAALCJJNLJO(::KBKFLNHFHPF* a1, ::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode a2, ::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* a3)
+		::System::ValueTuple_3<::System::String*, ::RPG::Client::TextID, ::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel*> BAALCJJNLJO(::KBKFLNHFHPF* a1, ::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode a2, ::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::KBKFLNHFHPF*, ::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode, ::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>*))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_BAALCJJNLJO_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_3<::System::String*, ::RPG::Client::TextID, ::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel*>(*)(::PVOID, ::KBKFLNHFHPF*, ::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode, ::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>*))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_BAALCJJNLJO_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel* OLGAMIIIMIC(::KBKFLNHFHPF* a1)
@@ -206,9 +207,9 @@ inline static constexpr unsigned int PJDHMMEEBBC_TypeDefinitionIndex = 81986;
 			return ((::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel*(*)(::PVOID, ::KBKFLNHFHPF*))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_OLGAMIIIMIC_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple NJBNDNFMBAL(::IIFHKNIBAFH* a1, ::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* a2)
+		::System::ValueTuple_2<::System::String*, ::RPG::Client::TextID> NJBNDNFMBAL(::IIFHKNIBAFH* a1, ::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::IIFHKNIBAFH*, ::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>*))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_NJBNDNFMBAL_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::String*, ::RPG::Client::TextID>(*)(::PVOID, ::IIFHKNIBAFH*, ::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>*))((::PBYTE)hIl2Cpp + PJDHMMEEBBC_NJBNDNFMBAL_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void EKDBAACBBIJ(::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* a1, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* a2)
@@ -326,9 +327,9 @@ inline static constexpr unsigned int PJDHMMEEBBC_TypeDefinitionIndex = 81986;
 			return ((::MKHPAECGJBE*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PJDHMMEEBBC__BUILDACTIONSELECTPAGEVMBYAGENDA_B__8_0_OFFSET))(this, a1);
 		}
 
-		::DNBDHGNLIPK* _CreateNewDevelopTargetDialogVM_b__11_0(::System::Collections::Generic::KeyValuePair* a1)
+		::DNBDHGNLIPK* _CreateNewDevelopTargetDialogVM_b__11_0(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32> a1)
 		{
-			return ((::DNBDHGNLIPK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + PJDHMMEEBBC__CREATENEWDEVELOPTARGETDIALOGVM_B__11_0_OFFSET))(this, a1);
+			return ((::DNBDHGNLIPK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>))((::PBYTE)hIl2Cpp + PJDHMMEEBBC__CREATENEWDEVELOPTARGETDIALOGVM_B__11_0_OFFSET))(this, a1);
 		}
 
 	};

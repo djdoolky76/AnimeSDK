@@ -31,6 +31,7 @@ namespace RPG::Client::B51Racing { class B51RacingReadyPageViewModel; }
 namespace RPG::Client::B51Racing { class B51RacingScoreBoardPageViewModel; }
 namespace RPG::Client::B51Racing { class B51RacingSeasonProgressDialogViewModel; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -156,14 +157,14 @@ inline static constexpr unsigned int EGFHAJCOOPO_TypeDefinitionIndex = 81743;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingNewDevelopTargetDialogViewModel*))((::PBYTE)hIl2Cpp + EGFHAJCOOPO_HHBHGGNMGCO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* NJGDLACGNKA(::RPG::Client::B51Racing::B51RacingCarDevelopPageViewModel* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::UIController*>* NJGDLACGNKA(::RPG::Client::B51Racing::B51RacingCarDevelopPageViewModel* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingCarDevelopPageViewModel*))((::PBYTE)hIl2Cpp + EGFHAJCOOPO_NJGDLACGNKA_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::UIController*>*(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingCarDevelopPageViewModel*))((::PBYTE)hIl2Cpp + EGFHAJCOOPO_NJGDLACGNKA_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* HDONMKHGBDJ(::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectViewModel* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::UIController*>* HDONMKHGBDJ(::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectViewModel* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectViewModel*))((::PBYTE)hIl2Cpp + EGFHAJCOOPO_HDONMKHGBDJ_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::UIController*>*(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectViewModel*))((::PBYTE)hIl2Cpp + EGFHAJCOOPO_HDONMKHGBDJ_OFFSET))(this, a1);
 		}
 
 		::System::Void CLAPGLLJEHE(::RPG::Client::B51Racing::B51RacingCarDetailDialogViewModel* a1)

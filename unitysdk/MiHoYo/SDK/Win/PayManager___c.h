@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_PAYMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDD4410)
 #define MIHOYO_SDK_WIN_PAYMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD4450)
@@ -20,9 +20,9 @@ namespace MiHoYo::SDK::Win
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23220);
 		}
 
-		static ::System::Action** StaticGet___9__29_4()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__29_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23228);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23228);
 		}
 
 		static ::System::Void _cctor()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Net/Http/Headers/Token.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
@@ -94,9 +94,9 @@ namespace System::Net::Http::Headers
 			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::MediaTypeHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Nullable* TryParseMediaType(::System::Net::Http::Headers::Lexer* a1, ::System::String* a2)
+		static ::System::Nullable_1<::System::Net::Http::Headers::Token> TryParseMediaType(::System::Net::Http::Headers::Lexer* a1, ::System::String* a2)
 		{
-			return ((::System::Nullable*(*)(::System::Net::Http::Headers::Lexer*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE_TRYPARSEMEDIATYPE_OFFSET))(a1, a2);
+			return ((::System::Nullable_1<::System::Net::Http::Headers::Token>(*)(::System::Net::Http::Headers::Lexer*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE_TRYPARSEMEDIATYPE_OFFSET))(a1, a2);
 		}
 
 	};

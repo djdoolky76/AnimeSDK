@@ -7,6 +7,7 @@ class PALANLLDNLP;
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define JDKNLNLGODN_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0x165D5270)
@@ -43,7 +44,7 @@ inline static constexpr unsigned int JDKNLNLGODN_TypeDefinitionIndex = 61061;
 		::System::Action* DPANHIICMLD; // 0x20
 		::System::Action* HKHDLACNBOK; // 0x28
 		::JDKNLNLGODN* CMJJLIFIEJH; // 0x30
-		::System::Action* DHEEKNDLMPN; // 0x38
+		::System::Action_1<::JDKNLNLGODN*>* DHEEKNDLMPN; // 0x38
 		::System::Object* HBAEKBMPGFK; // 0x40
 		::RPG::Client::WorkNodeState DLNIGFGLPLJ; // 0x48
 		::System::Void _ctor()

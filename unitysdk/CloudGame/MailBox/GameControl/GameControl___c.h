@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC1EC60)
 #define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1ECA0)
@@ -20,9 +20,9 @@ namespace CloudGame::MailBox::GameControl
 			return (::System::Object**)UnitySDK::FromName("CloudGame.MailBox.GameControl", "<>c")->GetStaticField(0x2EA70);
 		}
 
-		static ::System::Action** StaticGet___9__13_0()
+		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet___9__13_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("CloudGame.MailBox.GameControl", "<>c")->GetStaticField(0x2EA78);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("CloudGame.MailBox.GameControl", "<>c")->GetStaticField(0x2EA78);
 		}
 
 		static ::System::Void _cctor()

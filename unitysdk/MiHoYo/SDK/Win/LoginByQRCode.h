@@ -6,6 +6,7 @@ namespace MiHoYo::SDK::Win { class LoginByQRCode; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
@@ -64,7 +65,7 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnClose; // 0x100
 		::System::Action* OnBack; // 0x108
 		::System::Action* OnRefresh; // 0x110
-		::System::Action* OnSaveRecordToggleClicked; // 0x118
+		::System::Action_1<::System::Boolean>* OnSaveRecordToggleClicked; // 0x118
 		::MiHoYo::SDK::DialogType dialogType; // 0x120
 		static ::MiHoYo::SDK::Win::LoginByQRCode** StaticGet_Instance()
 		{

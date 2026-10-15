@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE863D0)
@@ -28,7 +28,7 @@ namespace MiHoYo::SDK
 	{
 	public:
 		::MiHoYo::SDK::JSONNode* __2__current; // 0x10
-		::System::Collections::Generic::KeyValuePair* _N_5__2; // 0x18
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYo::SDK::JSONNode*> _N_5__2; // 0x18
 		::System::Byte _padding0[0x8];
 		::MiHoYo::SDK::JSONObject* __4__this; // 0x28
 		::System::Object* __s__1; // 0x30

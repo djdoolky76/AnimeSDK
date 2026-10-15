@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/Prop/BoxmanDir.h"
 #include "unitysdk/RPG/Client/Prop/BoxmanItemType.h"
 #include "unitysdk/RPG/Client/Prop/ScenePuzzleItemBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EKOJBGEHGDL;
 namespace RPG::Client::Prop { class BoxmanPuzzleBoard; }
 namespace RPG::Client::Prop { class BoxmanPuzzleItemBindProp; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
@@ -56,7 +56,7 @@ namespace RPG::Client::Prop
 		::System::Boolean TargetItemFinish; // 0x54
 		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 OODFLGPMAKO; // 0x58
-		::System::Nullable* PDAAPKHANNJ; // 0x64
+		::System::Nullable_1<::System::Boolean> PDAAPKHANNJ; // 0x64
 		::System::Single Speed; // 0x68
 		::System::UInt32 IdleMotionId; // 0x6C
 		::System::UInt32 InteractMotionId; // 0x70

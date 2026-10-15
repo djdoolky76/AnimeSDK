@@ -5,8 +5,8 @@
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define IDLMJDKPBGC_ADNANIOABOO_OFFSET UNITYSDK_OFFSET(0x15EDA210)
 #define IDLMJDKPBGC_BIKEBDGMFCC_OFFSET UNITYSDK_OFFSET(0x15EDAB40)
@@ -26,7 +26,7 @@ inline static constexpr unsigned int IDLMJDKPBGC_TypeDefinitionIndex = 76866;
 	class IDLMJDKPBGC : public ::System::Object
 	{
 	public:
-		::System::Action* DAENOGJCGFK; // 0x10
+		::System::Action_1<::System::Object*>* DAENOGJCGFK; // 0x10
 		::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera* KCIFKMOMPOL; // 0x18
 		::RPG::GameCore::FiveDimVCameraBlendConfig* OFMHHIAOEHK; // 0x20
 		::System::Boolean FMNEEONAMNO; // 0x28
@@ -35,9 +35,9 @@ inline static constexpr unsigned int IDLMJDKPBGC_TypeDefinitionIndex = 76866;
 			return (::RPG::GameCore::FiveDimVCameraBlendConfig**)UnitySDK::FromName("", "IDLMJDKPBGC")->GetStaticField(0x53150);
 		}
 
-		::System::Void _ctor(::System::Action* a1)
+		::System::Void _ctor(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IDLMJDKPBGC_CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + IDLMJDKPBGC_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class ChimeraDuelChimeraModelView; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC649D0)
 #define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC64A10)
@@ -21,9 +21,9 @@ namespace RPG::Client::Prop
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x4BE80);
 		}
 
-		static ::System::Action** StaticGet___9__15_0()
+		static ::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>** StaticGet___9__15_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x4BE88);
+			return (::System::Action_1<::RPG::Client::Prop::ChimeraDuelChimeraModelView*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x4BE88);
 		}
 
 		static ::System::Void _cctor()

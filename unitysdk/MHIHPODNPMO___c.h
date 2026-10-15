@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class MHIHPODNPMO;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define MHIHPODNPMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB943040)
 #define MHIHPODNPMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB943080)
@@ -16,9 +16,9 @@ inline static constexpr unsigned int MHIHPODNPMO___c_TypeDefinitionIndex = 76778
 	class MHIHPODNPMO___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__69_0()
+		static ::System::Action_3<::MHIHPODNPMO*, ::System::Int32, ::System::String*>** StaticGet___9__69_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FB80);
+			return (::System::Action_3<::MHIHPODNPMO*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FB80);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -26,9 +26,9 @@ inline static constexpr unsigned int MHIHPODNPMO___c_TypeDefinitionIndex = 76778
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FB88);
 		}
 
-		static ::System::Action** StaticGet___9__59_0()
+		static ::System::Action_3<::MHIHPODNPMO*, ::System::Int32, ::System::String*>** StaticGet___9__59_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FB90);
+			return (::System::Action_3<::MHIHPODNPMO*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FB90);
 		}
 
 		static ::System::Void _cctor()

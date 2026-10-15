@@ -11,9 +11,11 @@ class PJMGBLIFDFP;
 namespace Google::Protobuf { class ByteString; }
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client { class ChatMessageInviteData; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_ACCEPTINVITATION_OFFSET UNITYSDK_OFFSET(0xCCA6C50)
 #define RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_CHECKCANENTERMPGAME_OFFSET UNITYSDK_OFFSET(0xCCA5D90)
@@ -42,8 +44,8 @@ namespace RPG::Client::DiceCombat
 	{
 	public:
 		::System::Action* _OnServerConnected; // 0x28
-		::System::Action* _OnOnGeneralRsp; // 0x30
-		::System::Action* _OnGeneralNotify; // 0x38
+		::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* _OnOnGeneralRsp; // 0x30
+		::System::Action_1<::COMJKPOMILA*>* _OnGeneralNotify; // 0x38
 		::System::Void _ctor(::CJGNCPIDGNH* a1, ::KFGPAHIEDKH* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::CJGNCPIDGNH*, ::KFGPAHIEDKH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_CTOR_OFFSET))(this, a1, a2);
@@ -94,9 +96,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_GET_INVITETOASTUIPATH_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* AcceptInvitation(::RPG::Client::ChatMessageInviteData* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* AcceptInvitation(::RPG::Client::ChatMessageInviteData* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::ChatMessageInviteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_ACCEPTINVITATION_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::RPG::Client::ChatMessageInviteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_ACCEPTINVITATION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsInActivityGame()
@@ -104,14 +106,14 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_ISINACTIVITYGAME_OFFSET))(this);
 		}
 
-		::System::Void RegisterGuest(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void RegisterGuest(::System::Action* a1, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a2, ::System::Action_1<::COMJKPOMILA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_REGISTERGUEST_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*, ::System::Action_1<::COMJKPOMILA*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_REGISTERGUEST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UnregisterGuest(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void UnregisterGuest(::System::Action* a1, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a2, ::System::Action_1<::COMJKPOMILA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_UNREGISTERGUEST_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*, ::System::Action_1<::COMJKPOMILA*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2MPSERVICE_UNREGISTERGUEST_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void SetInviteRobotID(::System::UInt32 a1)

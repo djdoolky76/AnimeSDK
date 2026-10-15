@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class Car;
 class CarFlowIntersectionRule;
 class CarFlowRoad;
@@ -146,9 +146,9 @@ inline static constexpr unsigned int CarFlowManager_TypeDefinitionIndex = 47072;
 			return ((::CarFlowIntersectionRule*(*)(::PVOID, ::CarFlowRoadMapPosition*, ::CarFlowRoad*))((::PBYTE)hIl2Cpp + CARFLOWMANAGER_GETNEXTROUTE_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple AAHCFHABKHE(::Car* a1)
+		::System::ValueTuple_2<::System::Boolean, ::System::Single> AAHCFHABKHE(::Car* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::Car*))((::PBYTE)hIl2Cpp + CARFLOWMANAGER_AAHCFHABKHE_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Single>(*)(::PVOID, ::Car*))((::PBYTE)hIl2Cpp + CARFLOWMANAGER_AAHCFHABKHE_OFFSET))(this, a1);
 		}
 
 		::System::Single LPPAEHNGMOK(::Car* a1, ::System::Boolean a2, ::System::Single a3)

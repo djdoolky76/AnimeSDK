@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class LLCICCEMLIO;
 class MDNBBCOBGPH;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_TEAMBUILDCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1C9FA0)
 #define RPG_CLIENT_TEAMBUILDCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C9FE0)
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5A0);
 		}
 
-		static ::System::Action** StaticGet___9__20_0()
+		static ::System::Action_1<::MDNBBCOBGPH*>** StaticGet___9__20_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5A8);
+			return (::System::Action_1<::MDNBBCOBGPH*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5A8);
 		}
 
 		static ::System::Func_2<::LLCICCEMLIO*, ::System::Boolean>** StaticGet___9__25_1()

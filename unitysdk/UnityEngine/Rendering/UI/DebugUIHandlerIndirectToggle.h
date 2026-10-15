@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/UI/DebugUIHandlerWidget.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 namespace UnityEngine::UI { class Image; }
@@ -26,7 +26,7 @@ namespace UnityEngine::Rendering::UI
 		::UnityEngine::UI::Toggle* valueToggle; // 0x60
 		::UnityEngine::UI::Image* checkmarkImage; // 0x68
 		::System::Func_2<::System::Int32, ::System::Boolean>* getter; // 0x70
-		::System::Action* setter; // 0x78
+		::System::Action_2<::System::Int32, ::System::Boolean>* setter; // 0x78
 		::System::Int32 index; // 0x80
 		::System::Void _ctor()
 		{

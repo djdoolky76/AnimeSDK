@@ -6,7 +6,7 @@ class HIOEAKHGILF;
 class KNLEMBFCBCO;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
 #define BNNMFFOFCON_BCKOCFHMFOO_OFFSET UNITYSDK_OFFSET(0xBDE42F0)
@@ -30,7 +30,7 @@ inline static constexpr unsigned int BNNMFFOFCON_TypeDefinitionIndex = 76945;
 	{
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* IBDHGDBHGCA; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* IBDHGDBHGCA; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
 		::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FiveDim::PhantomPlayerState>* AEKBHKKIOOG; // 0x28
 		::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FiveDim::PhantomPlayerState>* EGGHHGIEIHG; // 0x30

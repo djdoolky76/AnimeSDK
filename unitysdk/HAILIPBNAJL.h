@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/DiceCombatCore/EAIState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class AIMNKMEFBKE;
 class DMGMDAFEFAP;
 class GLPPDCIBMIH;
@@ -14,8 +15,8 @@ class MOCPBOFGDCP;
 class OKCLMKOCLKL;
 class PHEHGMEOKMB;
 class PLAJONHLDJN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class BitArray; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -159,9 +160,9 @@ inline static constexpr unsigned int HAILIPBNAJL_TypeDefinitionIndex = 36407;
 			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID, ::IJFIHJJPHNA*))((::PBYTE)hIl2Cpp + HAILIPBNAJL_JKOGFHNJPBC_1_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple LBHCPPODHBB(::IJFIHJJPHNA* a1, ::System::Collections::Generic::List_1<::System::Int32>* a2, ::System::Collections::Generic::List_1<::System::Int32>* a3, ::System::Int32 a4)
+		::System::ValueTuple_2<::System::Single, ::System::Collections::Generic::List_1<::System::Int32>*> LBHCPPODHBB(::IJFIHJJPHNA* a1, ::System::Collections::Generic::List_1<::System::Int32>* a2, ::System::Collections::Generic::List_1<::System::Int32>* a3, ::System::Int32 a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::IJFIHJJPHNA*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + HAILIPBNAJL_LBHCPPODHBB_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Collections::Generic::List_1<::System::Int32>*>(*)(::PVOID, ::IJFIHJJPHNA*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + HAILIPBNAJL_LBHCPPODHBB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void NBFONANHLGM(::IJFIHJJPHNA* a1)
@@ -239,9 +240,9 @@ inline static constexpr unsigned int HAILIPBNAJL_TypeDefinitionIndex = 36407;
 			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::IJFIHJJPHNA*, ::LHOBLLEMGHB*, ::System::Single, ::System::UInt32))((::PBYTE)hIl2Cpp + HAILIPBNAJL_DMBOGKFFNLP_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple JPDHPHBNCJF(::IJFIHJJPHNA* a1, ::System::Int32 a2)
+		::System::ValueTuple_3<::System::Boolean, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*> JPDHPHBNCJF(::IJFIHJJPHNA* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::IJFIHJJPHNA*, ::System::Int32))((::PBYTE)hIl2Cpp + HAILIPBNAJL_JPDHPHBNCJF_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_3<::System::Boolean, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*>(*)(::PVOID, ::IJFIHJJPHNA*, ::System::Int32))((::PBYTE)hIl2Cpp + HAILIPBNAJL_JPDHPHBNCJF_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single IDOOMOAFJDF(::DMGMDAFEFAP* a1, ::System::Collections::Generic::List_1<::System::Int32>* a2, ::System::Collections::BitArray* a3)
@@ -249,9 +250,9 @@ inline static constexpr unsigned int HAILIPBNAJL_TypeDefinitionIndex = 36407;
 			return ((::System::Single(*)(::PVOID, ::DMGMDAFEFAP*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::BitArray*))((::PBYTE)hIl2Cpp + HAILIPBNAJL_IDOOMOAFJDF_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple NBJCDHILFKH(::OKCLMKOCLKL* a1)
+		::System::ValueTuple_2<::System::Single, ::System::Collections::Generic::List_1<::System::Int32>*> NBJCDHILFKH(::OKCLMKOCLKL* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::OKCLMKOCLKL*))((::PBYTE)hIl2Cpp + HAILIPBNAJL_NBJCDHILFKH_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Collections::Generic::List_1<::System::Int32>*>(*)(::PVOID, ::OKCLMKOCLKL*))((::PBYTE)hIl2Cpp + HAILIPBNAJL_NBJCDHILFKH_OFFSET))(this, a1);
 		}
 
 		::PHEHGMEOKMB* NJFLNDCEKHF(::MOCPBOFGDCP* a1)
@@ -309,14 +310,14 @@ inline static constexpr unsigned int HAILIPBNAJL_TypeDefinitionIndex = 36407;
 			return ((::System::Collections::Generic::IEnumerable_1<::System::Object*>*(*)(::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HAILIPBNAJL_GFGIPBNJEOG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void BLLCMFINEOM(::System::Int32 a1, ::System::Int32 a2, ::System::Action* a3)
+		static ::System::Void BLLCMFINEOM(::System::Int32 a1, ::System::Int32 a2, ::System::Action_1<::System::UInt64>* a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + HAILIPBNAJL_BLLCMFINEOM_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Action_1<::System::UInt64>*))((::PBYTE)hIl2Cpp + HAILIPBNAJL_BLLCMFINEOM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void MHMOHJCDDFC(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::UInt64 a5, ::System::Action* a6)
+		static ::System::Void MHMOHJCDDFC(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::UInt64 a5, ::System::Action_1<::System::UInt64>* a6)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::UInt64, ::System::Action*))((::PBYTE)hIl2Cpp + HAILIPBNAJL_MHMOHJCDDFC_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::UInt64, ::System::Action_1<::System::UInt64>*))((::PBYTE)hIl2Cpp + HAILIPBNAJL_MHMOHJCDDFC_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Int32>* MNHJKFIECEO(::System::UInt64 a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::System::Int32>* a3)

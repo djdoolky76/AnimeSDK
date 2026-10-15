@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightPreset.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class DBOJDIKCJLF;
@@ -9,7 +10,6 @@ namespace RPG::Client { class GridFightExpiredRoleConfig; }
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightRoleEffect; }
 namespace RPG::Client { class GridFightSeasonRole; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -67,7 +67,7 @@ namespace RPG::Client
 		::System::Boolean _markUseExpired; // 0x29
 		::System::Boolean _IsUpgradeAvatar; // 0x2A
 		::System::Byte _padding0[0x1];
-		::System::Nullable* _PosIndex; // 0x2C
+		::System::Nullable_1<::System::UInt32> _PosIndex; // 0x2C
 		::System::UInt32 _Star_k__BackingField; // 0x34
 		::System::Void _ctor()
 		{
@@ -229,9 +229,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightSeasonRole*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSEASONROLE_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::Client::GridFightSeasonRole* CreateByRole(::RPG::Client::GridFightRole* a1, ::System::Nullable* a2)
+		static ::RPG::Client::GridFightSeasonRole* CreateByRole(::RPG::Client::GridFightRole* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::RPG::Client::GridFightSeasonRole*(*)(::RPG::Client::GridFightRole*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSEASONROLE_CREATEBYROLE_OFFSET))(a1, a2);
+			return ((::RPG::Client::GridFightSeasonRole*(*)(::RPG::Client::GridFightRole*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSEASONROLE_CREATEBYROLE_OFFSET))(a1, a2);
 		}
 
 		::System::Void SetPosIndex(::System::UInt32 a1)

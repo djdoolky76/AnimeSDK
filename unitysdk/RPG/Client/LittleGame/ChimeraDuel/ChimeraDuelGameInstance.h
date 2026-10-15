@@ -13,8 +13,8 @@ class JOLDFJCNJOI;
 class KKIPKCDNPLE;
 class LMJPODEEGKK;
 class ONNFAHOCAPN;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -74,7 +74,7 @@ namespace RPG::Client::LittleGame::ChimeraDuel
 	{
 	public:
 		::System::Collections::Generic::List_1<::JHPDBJDLJOD*>* _NewlyRegisteredTickables; // 0x78
-		::System::Action* _SettleHandler_k__BackingField; // 0x80
+		::System::Action_1<::DODPFANHNDG*>* _SettleHandler_k__BackingField; // 0x80
 		::JOLDFJCNJOI* _Feature; // 0x88
 		::ECIIEBFKNMJ* _Services; // 0x90
 		::ONNFAHOCAPN* _CommandGuide; // 0x98
@@ -284,14 +284,14 @@ namespace RPG::Client::LittleGame::ChimeraDuel
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELGAMEINSTANCE_GET_ISANYCHIMERASUMMONED_OFFSET))(this);
 		}
 
-		::System::Action* get_SettleHandler()
+		::System::Action_1<::DODPFANHNDG*>* get_SettleHandler()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELGAMEINSTANCE_GET_SETTLEHANDLER_OFFSET))(this);
+			return ((::System::Action_1<::DODPFANHNDG*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELGAMEINSTANCE_GET_SETTLEHANDLER_OFFSET))(this);
 		}
 
-		::System::Void set_SettleHandler(::System::Action* a1)
+		::System::Void set_SettleHandler(::System::Action_1<::DODPFANHNDG*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELGAMEINSTANCE_SET_SETTLEHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DODPFANHNDG*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELGAMEINSTANCE_SET_SETTLEHANDLER_OFFSET))(this, a1);
 		}
 
 		::DODPFANHNDG* get_SettleInfo()

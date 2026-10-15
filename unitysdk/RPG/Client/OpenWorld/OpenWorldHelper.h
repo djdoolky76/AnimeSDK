@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GraphicQuality.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/GEEOPFIMJEM.h"
@@ -23,10 +24,9 @@ namespace RPG::GameCore { class LodConfig; }
 namespace RPG::GameCore { class LodTemplate; }
 namespace RPG::GameCore { class MeshBound; }
 namespace RPG::GameCore { class StageLodMapConfig; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -348,9 +348,9 @@ namespace RPG::Client::OpenWorld
 			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2690);
 		}
 
-		static ::System::Nullable** StaticGet_CustomLodGraphicQuality()
+		static ::System::Nullable_1<::RPG::GameCore::GraphicQuality>* StaticGet_CustomLodGraphicQuality()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2694);
+			return (::System::Nullable_1<::RPG::GameCore::GraphicQuality>*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2694);
 		}
 
 		static ::System::Boolean* StaticGet_EnableGrass()
@@ -633,9 +633,9 @@ namespace RPG::Client::OpenWorld
 			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26FC);
 		}
 
-		static ::System::Nullable** StaticGet_CustomEntityLodGraphicQuality()
+		static ::System::Nullable_1<::RPG::GameCore::GraphicQuality>* StaticGet_CustomEntityLodGraphicQuality()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2700);
+			return (::System::Nullable_1<::RPG::GameCore::GraphicQuality>*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2700);
 		}
 
 		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_UNLOAD_DELTA_R()
@@ -991,9 +991,9 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SHRINKOPENWORLDIRIBYTEARRAYCACHE_OFFSET))();
 		}
 
-		static ::IAJPMNLEFLJ GetIRIBuildingRendererListWithConfigDataPool(::System::String* a1, ::System::Action* a2, ::System::Object* a3)
+		static ::IAJPMNLEFLJ GetIRIBuildingRendererListWithConfigDataPool(::System::String* a1, ::System::Action_2<::IAJPMNLEFLJ, ::System::Object*>* a2, ::System::Object* a3)
 		{
-			return ((::IAJPMNLEFLJ(*)(::System::String*, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHCONFIGDATAPOOL_OFFSET))(a1, a2, a3);
+			return ((::IAJPMNLEFLJ(*)(::System::String*, ::System::Action_2<::IAJPMNLEFLJ, ::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHCONFIGDATAPOOL_OFFSET))(a1, a2, a3);
 		}
 
 		static ::IAJPMNLEFLJ GetIRIBuildingRendererListWithTextAsset(::UnityEngine::TextAsset* a1)

@@ -17,6 +17,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatBattleDiceDisplayInfo; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -136,8 +138,8 @@ inline static constexpr unsigned int GPDLKLOEOJG_TypeDefinitionIndex = 60317;
 	class GPDLKLOEOJG : public ::System::Object
 	{
 	public:
-		::System::Action* AMBDKNJFNHN; // 0x10
-		::System::Action* DEJNJAPCFLM; // 0x18
+		::System::Action_1<::IFLICGOLBIG*>* AMBDKNJFNHN; // 0x10
+		::System::Action_2<::System::Int32, ::System::Boolean>* DEJNJAPCFLM; // 0x18
 		::UnityEngine::Transform* FGEIHEMCHJG; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* FOHHIBGKLKG; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* DLGLEOHCLHB; // 0x30
@@ -438,9 +440,9 @@ inline static constexpr unsigned int GPDLKLOEOJG_TypeDefinitionIndex = 60317;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GPDLKLOEOJG_PKLGCNHCIPD_OFFSET))(this, a1);
 		}
 
-		::System::Void FMMAGHPBGEH(::System::Action* a1)
+		::System::Void FMMAGHPBGEH(::System::Action_2<::System::Int32, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GPDLKLOEOJG_FMMAGHPBGEH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + GPDLKLOEOJG_FMMAGHPBGEH_OFFSET))(this, a1);
 		}
 
 		::System::Void EDBFLPJFIKA(::System::Collections::Generic::List_1<::System::Int32>* a1)
@@ -498,9 +500,9 @@ inline static constexpr unsigned int GPDLKLOEOJG_TypeDefinitionIndex = 60317;
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + GPDLKLOEOJG_AEKOKNCPFJP_OFFSET))(this, a1);
 		}
 
-		::System::Void BOPEOJLDOEO(::System::Single a1, ::System::Action* a2, ::System::Boolean a3)
+		::System::Void BOPEOJLDOEO(::System::Single a1, ::System::Action_1<::IFLICGOLBIG*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + GPDLKLOEOJG_BOPEOJLDOEO_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action_1<::IFLICGOLBIG*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + GPDLKLOEOJG_BOPEOJLDOEO_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void HHHCCDDJBMK()

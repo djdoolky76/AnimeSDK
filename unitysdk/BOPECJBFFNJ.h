@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/Client/LoaderState.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/IPKGHGJPNKB.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class BOCEFFDMFPM;
 class NFCPIKFFCNA;
 class ODMILIPHJGD;
@@ -16,11 +17,10 @@ namespace RPG::Client { template <typename T1, typename T2> class MHashLinkedLis
 namespace RPG::Client::AssetSystem { class AssetLoader; }
 namespace RPG::Client::AssetSystem { class AssetObjectOptProxy; }
 namespace RPG::Client::AssetSystem { template <typename T> class AssetOperationCache_1; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AssetBundle; }
@@ -349,9 +349,9 @@ inline static constexpr unsigned int BOPECJBFFNJ_TypeDefinitionIndex = 41574;
 			return ((::System::Void(*)(::PVOID, ::BOCEFFDMFPM*))((::PBYTE)hIl2Cpp + BOPECJBFFNJ_NLFMDKKPLJK_1_OFFSET))(this, a1);
 		}
 
-		::System::Void BCEKHBIGKEO(::System::Collections::Generic::List_1<::BOCEFFDMFPM*>* a1, ::RPG::Client::MHashLinkedList_2<::System::UInt64, ::BOCEFFDMFPM*>* a2, ::System::Action* a3)
+		::System::Void BCEKHBIGKEO(::System::Collections::Generic::List_1<::BOCEFFDMFPM*>* a1, ::RPG::Client::MHashLinkedList_2<::System::UInt64, ::BOCEFFDMFPM*>* a2, ::System::Action_1<::BOCEFFDMFPM*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::BOCEFFDMFPM*>*, ::RPG::Client::MHashLinkedList_2<::System::UInt64, ::BOCEFFDMFPM*>*, ::System::Action*))((::PBYTE)hIl2Cpp + BOPECJBFFNJ_BCEKHBIGKEO_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::BOCEFFDMFPM*>*, ::RPG::Client::MHashLinkedList_2<::System::UInt64, ::BOCEFFDMFPM*>*, ::System::Action_1<::BOCEFFDMFPM*>*))((::PBYTE)hIl2Cpp + BOPECJBFFNJ_BCEKHBIGKEO_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MNIJJBNAOJD()
@@ -404,9 +404,9 @@ inline static constexpr unsigned int BOPECJBFFNJ_TypeDefinitionIndex = 41574;
 			return ((::PNDFLJFPBBE*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOPECJBFFNJ_PGHHFBLOHKM_OFFSET))(this);
 		}
 
-		::System::Boolean _ClearCache_b__48_0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean _ClearCache_b__48_0(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::UInt64> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + BOPECJBFFNJ__CLEARCACHE_B__48_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::UInt64>))((::PBYTE)hIl2Cpp + BOPECJBFFNJ__CLEARCACHE_B__48_0_OFFSET))(this, a1);
 		}
 
 	};

@@ -6,9 +6,9 @@
 #include "unitysdk/System/Guid.h"
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class FilePath; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_PERFORMANCESKIPUTILS_REPORTPERFORMANCESKIPDIALOG_OFFSET UNITYSDK_OFFSET(0xDAA7C30)
@@ -26,9 +26,9 @@ namespace RPG::Client
 	{
 	public:
 		// static const ::System::Object AVATAR_ICON_MAX_COUNT; // 0x0
-		static ::System::Boolean ShowPerformanceSkipDialog(::RPG::GameCore::ELevelPerformanceType a1, ::System::UInt32 a2, ::System::Action* a3)
+		static ::System::Boolean ShowPerformanceSkipDialog(::RPG::GameCore::ELevelPerformanceType a1, ::System::UInt32 a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::ELevelPerformanceType, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCESKIPUTILS_SHOWPERFORMANCESKIPDIALOG_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::RPG::GameCore::ELevelPerformanceType, ::System::UInt32, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PERFORMANCESKIPUTILS_SHOWPERFORMANCESKIPDIALOG_OFFSET))(a1, a2, a3);
 		}
 
 		static ::RPG::Client::LuaUIController* ShowOldPerformanceSkipDialog(::System::Object* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Boolean a4)

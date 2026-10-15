@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
@@ -22,21 +22,21 @@ namespace RPG::Client
 	class VirtualCursorSimulateTouchActionWrapper : public ::System::Object
 	{
 	public:
-		::System::Action* _OnPointerPress; // 0x10
-		::System::Action* _OnPointerUp; // 0x18
+		::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>* _OnPointerPress; // 0x10
+		::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>* _OnPointerUp; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORSIMULATETOUCHACTIONWRAPPER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetOnPointerPress(::System::Action* a1)
+		::System::Void SetOnPointerPress(::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORSIMULATETOUCHACTIONWRAPPER_SETONPOINTERPRESS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORSIMULATETOUCHACTIONWRAPPER_SETONPOINTERPRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void SetOnPointerUp(::System::Action* a1)
+		::System::Void SetOnPointerUp(::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORSIMULATETOUCHACTIONWRAPPER_SETONPOINTERUP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCURSORSIMULATETOUCHACTIONWRAPPER_SETONPOINTERUP_OFFSET))(this, a1);
 		}
 
 		::System::Void ExecutePointerPress(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::PointerEventData* a2)

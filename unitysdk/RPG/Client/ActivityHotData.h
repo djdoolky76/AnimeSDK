@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/BPGECKIMDKM.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class BOMPFHOMMBH;
 namespace RPG::Client { class ActivityData; }
 namespace RPG::Client { class ActivityPanelData; }
@@ -10,7 +11,6 @@ namespace RPG::Client { class ConditionChecker; }
 namespace RPG::GameCore { class ActivityHotRow; }
 namespace RPG::GameCore { class ActivityPanelRow; }
 namespace RPG::GameCore { class ConditionParam; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -176,9 +176,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTDATA_GET_ENDTIMESTAMP_OFFSET))(this);
 		}
 
-		::System::Nullable* get__Candidate()
+		::System::Nullable_1<::BPGECKIMDKM> get__Candidate()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTDATA_GET__CANDIDATE_OFFSET))(this);
+			return ((::System::Nullable_1<::BPGECKIMDKM>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTDATA_GET__CANDIDATE_OFFSET))(this);
 		}
 
 		static ::System::UInt32 get_IntroID()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/OneD/OneDReader.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 
 #define ZXING_ONED_UPCEANREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C7380)
@@ -60,9 +60,9 @@ namespace ZXing::OneD
 			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + ZXING_ONED_UPCEANREADER_CHECKSTANDARDUPCEANCHECKSUM_OFFSET))(a1);
 		}
 
-		static ::System::Nullable* getStandardUPCEANChecksum(::System::String* a1)
+		static ::System::Nullable_1<::System::Int32> getStandardUPCEANChecksum(::System::String* a1)
 		{
-			return ((::System::Nullable*(*)(::System::String*))((::PBYTE)hIl2Cpp + ZXING_ONED_UPCEANREADER_GETSTANDARDUPCEANCHECKSUM_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::System::String*))((::PBYTE)hIl2Cpp + ZXING_ONED_UPCEANREADER_GETSTANDARDUPCEANCHECKSUM_OFFSET))(a1);
 		}
 
 	};

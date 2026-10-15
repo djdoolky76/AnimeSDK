@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Numerics/BigInteger.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -20,9 +20,9 @@ inline static constexpr unsigned int DOMMIAJFGGF_TypeDefinitionIndex = 66466;
 			return ((::System::Numerics::BigInteger(*)(::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + DOMMIAJFGGF_IMHBALDLAHP_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::ValueTuple KGLOPGFNBMI(::System::Numerics::BigInteger a1, ::System::Int32 a2)
+		static ::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32> KGLOPGFNBMI(::System::Numerics::BigInteger a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::System::Numerics::BigInteger, ::System::Int32))((::PBYTE)hIl2Cpp + DOMMIAJFGGF_KGLOPGFNBMI_OFFSET))(a1, a2);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32>(*)(::System::Numerics::BigInteger, ::System::Int32))((::PBYTE)hIl2Cpp + DOMMIAJFGGF_KGLOPGFNBMI_OFFSET))(a1, a2);
 		}
 
 	};

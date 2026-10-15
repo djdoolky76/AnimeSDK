@@ -48,9 +48,9 @@ namespace Google::Protobuf { class ByteString; }
 namespace RPG::Client::DiceCombat { class DiceCombatPerformanceBattleEvent; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::LittleGameShare::DiceCombatCore { class DiceCombatPreviewInfo; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -275,7 +275,7 @@ inline static constexpr unsigned int BKHHFIJCHEP_TypeDefinitionIndex = 60379;
 		::System::Collections::Generic::Queue_1<::EFNJLACKEDH*>* INDJFKAMHOP; // 0xE0
 		::GGDIMKDOIGA* LJKKAGHJHOH; // 0xE8
 		::RPG::Client::DiceCombat::DiceCombatPerformanceBattleEvent* HGAMGBINHIF; // 0xF0
-		::Il2CppArray<::System::Action*>* CJIJBNFLHOA; // 0xF8
+		::Il2CppArray<::System::Action_1<::FDBODHHKGFB*>*>* CJIJBNFLHOA; // 0xF8
 		::System::Collections::Generic::Dictionary_2<::IJFIHJJPHNA*, ::GPDLKLOEOJG*>* JFJIGJIDLBC; // 0x100
 		::IJFIHJJPHNA* IOMFMDFDDPH; // 0x108
 		::IJFIHJJPHNA* MLAPFLFPHAD; // 0x110

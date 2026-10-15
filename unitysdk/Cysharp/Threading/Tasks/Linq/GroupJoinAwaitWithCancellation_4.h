@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
@@ -19,9 +19,9 @@ namespace Cysharp::Threading::Tasks::Linq
 	public:
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T1>* outer; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T2>* inner; // 0x0
-		::System::Func_3<T1, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>* outerKeySelector; // 0x0
-		::System::Func_3<T2, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>* innerKeySelector; // 0x0
-		::System::Func_4<T1, ::System::Collections::Generic::IEnumerable_1<T2>*, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>* resultSelector; // 0x0
+		::System::Func_3<T1, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask_1<T3>>* outerKeySelector; // 0x0
+		::System::Func_3<T2, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask_1<T3>>* innerKeySelector; // 0x0
+		::System::Func_4<T1, ::System::Collections::Generic::IEnumerable_1<T2>*, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask_1<T4>>* resultSelector; // 0x0
 		::System::Collections::Generic::IEqualityComparer_1<T3>* comparer; // 0x0
 	};
 }

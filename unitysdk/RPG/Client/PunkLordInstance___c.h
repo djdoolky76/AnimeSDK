@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_PUNKLORDINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDFF6D0)
 #define RPG_CLIENT_PUNKLORDINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDDFF710)
@@ -16,9 +16,9 @@ namespace RPG::Client
 	class PunkLordInstance___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__5_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60CA0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60CA0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60CA8);
 		}
 
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60CB0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60CB0);
 		}
 
 		static ::System::Void _cctor()

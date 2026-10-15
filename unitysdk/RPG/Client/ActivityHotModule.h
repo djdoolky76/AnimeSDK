@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 class EFGIHHJGCFA;
 class NDKGIMLKJHA;
 namespace RPG::Client { class ActivityHotCoreRewardData; }
 namespace RPG::Client { class ActivityHotData; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
-namespace System { class Nullable; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -41,8 +41,8 @@ namespace RPG::Client
 	class ActivityHotModule : public ::RPG::Client::BaseModule
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Nullable*>* _ActivityIDToTotalHCoinCounts; // 0x10
-		::RPG::Client::Promises::Promise* _WaitServerSyncPromise; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Nullable_1<::System::Int32>>* _ActivityIDToTotalHCoinCounts; // 0x10
+		::RPG::Client::Promises::Promise_1<::NDKGIMLKJHA*>* _WaitServerSyncPromise; // 0x18
 		// static const ::System::Object DefaultHCoins; // 0x0
 		::System::Void _ctor()
 		{
@@ -64,9 +64,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_ISFUNCTIONUNLOCK_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* GetActivityHotDatas()
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*>* GetActivityHotDatas()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_GETACTIVITYHOTDATAS_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHOTMODULE_GETACTIVITYHOTDATAS_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityHotCoreRewardData*>* ProcessCoreRewardDatas(::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>* a1)

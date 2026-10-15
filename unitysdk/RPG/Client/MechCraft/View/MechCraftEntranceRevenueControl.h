@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class NCEKABKEBDK;
 namespace RPG::Client::MechCraft::View { class MechCraftEntranceRevenueControlBinder; }
 namespace System { class IDisposable; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCEREVENUECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD63FA40)
@@ -32,7 +32,7 @@ namespace RPG::Client::MechCraft::View
 		::System::String* _StateActive; // 0x30
 		::System::String* _StateUnactive; // 0x38
 		::System::IDisposable* GLJKCIFADHM; // 0x40
-		::System::Nullable* EKBACLKBFAC; // 0x48
+		::System::Nullable_1<::System::Int32> EKBACLKBFAC; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTENTRANCEREVENUECONTROL_CTOR_OFFSET))(this);

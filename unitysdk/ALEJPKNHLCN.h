@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ALEJPKNHLCN_HHPCKGMJCDB;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -29,9 +29,9 @@ inline static constexpr unsigned int ALEJPKNHLCN_TypeDefinitionIndex = 50046;
 			return (::System::Collections::Generic::Stack_1<::System::String*>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x5E298);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::ValueTuple>** StaticGet_GJEMIPOHMJF()
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>** StaticGet_GJEMIPOHMJF()
 		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x5E2A0);
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>**)UnitySDK::FromName("", "ALEJPKNHLCN")->GetStaticField(0x5E2A0);
 		}
 
 		static ::System::Void _cctor()

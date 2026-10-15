@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkObstructionOcclusion.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class AkAudioListener;
 class AkGameObj;
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define AKEMITTEROBSTRUCTIONOCCLUSION_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F58EE00)
 #define AKEMITTEROBSTRUCTIONOCCLUSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58F380)
@@ -32,9 +32,9 @@ inline static constexpr unsigned int AkEmitterObstructionOcclusion_TypeDefinitio
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEMITTEROBSTRUCTIONOCCLUSION_UPDATECURRENTLISTENERLIST_OFFSET))(this);
 		}
 
-		::System::Void SetObstructionOcclusion(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Void SetObstructionOcclusion(::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + AKEMITTEROBSTRUCTIONOCCLUSION_SETOBSTRUCTIONOCCLUSION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::System::Object*>))((::PBYTE)hIl2Cpp + AKEMITTEROBSTRUCTIONOCCLUSION_SETOBSTRUCTIONOCCLUSION_OFFSET))(this, a1);
 		}
 
 	};

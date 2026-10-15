@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FouRotateVoxelSimpleCameraCurveBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -10,9 +11,8 @@ class PIJMKBDHLBH;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelStructGameView; }
-namespace System { class Nullable; }
 namespace System { class Object; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -87,7 +87,7 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 		::System::Byte _padding4[0x3];
 		::System::Int32 CBNCOPOENPN; // 0x108
 		::System::Single CFKGKLEPEAJ; // 0x10C
-		::System::Nullable* EODJJNCHECO; // 0x110
+		::System::Nullable_1<::System::Single> EODJJNCHECO; // 0x110
 		::Cinemachine::CinemachineVirtualCamera* EDPKNBLEGOD; // 0x118
 		::UnityEngine::Vector3 NJMCHCDFAPC; // 0x120
 		::UnityEngine::Vector3 OKADADJIFAM; // 0x12C
@@ -95,7 +95,7 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 		::System::Byte _padding5[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*>* INDPPAEIICN; // 0x148
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::UnityEngine::Transform*>* NGCEDPAKDIF; // 0x150
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Tuple*>* ABNNDMNIBLC; // 0x158
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Tuple_2<::UnityEngine::Vector3, ::RPG::Client::MonoEffect*>*>* ABNNDMNIBLC; // 0x158
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::System::Object*>* IIFKHPMPBNA; // 0x160
 		::System::Collections::Generic::List_1<::System::Single>* IENCIIAABCJ; // 0x168
 		::System::Single BACCIAAOJBB; // 0x170
@@ -134,9 +134,9 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE_SETPLAYERPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void StartCurve(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2, ::PIJMKBDHLBH* a3, ::System::Nullable* a4)
+		::System::Void StartCurve(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2, ::PIJMKBDHLBH* a3, ::System::Nullable_1<::System::Single> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::BABNOKHOBCF*, ::MNCOPNHONHO*, ::PIJMKBDHLBH*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE_STARTCURVE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::BABNOKHOBCF*, ::MNCOPNHONHO*, ::PIJMKBDHLBH*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE_STARTCURVE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void LHFANFKFCIF()

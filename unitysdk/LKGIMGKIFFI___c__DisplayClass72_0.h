@@ -4,7 +4,7 @@
 class INMMPMDELKE;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define LKGIMGKIFFI___C__DISPLAYCLASS72_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7446F0)
 #define LKGIMGKIFFI___C__DISPLAYCLASS72_0___FOREACHSTACKFOLLOWCAMERA_B__0_OFFSET UNITYSDK_OFFSET(0xB7478A0)
@@ -14,7 +14,7 @@ inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass72_0_TypeDefin
 	class LKGIMGKIFFI___c__DisplayClass72_0 : public ::System::Object
 	{
 	public:
-		::System::Action* action; // 0x10
+		::System::Action_2<::Cinemachine::CinemachineVirtualCamera*, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*>* action; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LKGIMGKIFFI___C__DISPLAYCLASS72_0_CTOR_OFFSET))(this);

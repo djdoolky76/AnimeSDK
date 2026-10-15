@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/ExeCode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class CCKEHNGDJJF;
 class CEOABLKMPKE;
 class EBGMOALCIEA;
@@ -22,9 +23,8 @@ class PFKBJGECBDE;
 class PNFLEMCDMJD;
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -339,9 +339,9 @@ inline static constexpr unsigned int JIAFOPELMJJ_TypeDefinitionIndex = 59495;
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JIAFOPELMJJ_DLLDGAGKLDP_OFFSET))(this, a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* LLCEKGHOPIF(::HKPOAGEKMAM* a1, ::BIJCAGLKGCO_eFileLoaderPosType a2, ::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>* a3)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*>* LLCEKGHOPIF(::HKPOAGEKMAM* a1, ::BIJCAGLKGCO_eFileLoaderPosType a2, ::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>* a3)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*(*)(::HKPOAGEKMAM*, ::BIJCAGLKGCO_eFileLoaderPosType, ::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + JIAFOPELMJJ_LLCEKGHOPIF_OFFSET))(a1, a2, a3);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*>*(*)(::HKPOAGEKMAM*, ::BIJCAGLKGCO_eFileLoaderPosType, ::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + JIAFOPELMJJ_LLCEKGHOPIF_OFFSET))(a1, a2, a3);
 		}
 
 		::EMILHGPLJHC* FIIAJPHDHAI()
@@ -389,9 +389,9 @@ inline static constexpr unsigned int JIAFOPELMJJ_TypeDefinitionIndex = 59495;
 			return ((::System::Void(*)(::PVOID, ::HGCEOEHGPPE*, ::KPNOBBFKNHA*, ::CEOABLKMPKE*, ::PNFLEMCDMJD*, ::RPG::Client::ExeCode))((::PBYTE)hIl2Cpp + JIAFOPELMJJ_BJDICNBKMEF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 _MakeStateMessage_b__57_0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 _MakeStateMessage_b__57_0(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + JIAFOPELMJJ__MAKESTATEMESSAGE_B__57_0_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + JIAFOPELMJJ__MAKESTATEMESSAGE_B__57_0_OFFSET))(this, a1);
 		}
 
 	};

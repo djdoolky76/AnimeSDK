@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Watermark { class WatermarkImageManager; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture2D; }
 
 #define MIHOYO_SDK_WATERMARK_WATERMARKIMAGEMANAGER__GETSCREENSHOTWATERMARKTIMER_D__13_CTOR_OFFSET UNITYSDK_OFFSET(0x1C019B80)
@@ -21,7 +21,7 @@ namespace MiHoYo::SDK::Watermark
 	class WatermarkImageManager__GetScreenshotWatermarkTimer_d__13 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>* callback; // 0x10
 		::MiHoYo::SDK::Watermark::WatermarkImageManager* __4__this; // 0x18
 		::System::Object* __2__current; // 0x20
 		::System::Single waitSeconds; // 0x28

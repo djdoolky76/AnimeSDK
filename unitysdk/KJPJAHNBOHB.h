@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/RPG/GameCore/IronTombProgressMode.h"
+#include "unitysdk/System/Nullable_1.h"
 class EBMPLHELOMF;
 class EIDIGCLKLOA;
 class LFLLOBENAFB;
 class NIGAJBOLBBC;
 namespace RPG::Client { class MonoInControlTip; }
 namespace RPG::Client { class UIValueChangeAnimation; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Transform; }
 
 #define KJPJAHNBOHB_ANFHFABGJJO_OFFSET UNITYSDK_OFFSET(0xB45FB50)
@@ -38,7 +38,7 @@ inline static constexpr unsigned int KJPJAHNBOHB_TypeDefinitionIndex = 71704;
 		::EBMPLHELOMF* ADENBFMPHMB; // 0x80
 		::RPG::Client::MonoInControlTip* HBHIMMJCGAA; // 0x88
 		::System::Int32 _Index_k__BackingField; // 0x90
-		::System::Nullable* NCNHCOBEHPL; // 0x94
+		::System::Nullable_1<::RPG::GameCore::IronTombProgressMode> NCNHCOBEHPL; // 0x94
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		// static const ::System::String* PENODFJKLGN; // 0x0
 		::System::Void _ctor()

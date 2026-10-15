@@ -3,8 +3,8 @@
 #include "unitysdk/System/Threading/Tasks/InternalTaskOptions.h"
 #include "unitysdk/System/Threading/Tasks/TaskCreationOptions.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading::Tasks { class Task; }
 
 #define SYSTEM_THREADING_TASKS_TASK___C__DISPLAYCLASS178_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C154D90)
@@ -17,7 +17,7 @@ namespace System::Threading::Tasks
 	class Task___c__DisplayClass178_0 : public ::System::Object
 	{
 	public:
-		::System::Action* taskReplicaDelegate; // 0x10
+		::System::Action_1<::System::Object*>* taskReplicaDelegate; // 0x10
 		::System::Threading::Tasks::Task* root; // 0x18
 		::System::Boolean replicasAreQuitting; // 0x20
 		::System::Byte _padding0[0x3];

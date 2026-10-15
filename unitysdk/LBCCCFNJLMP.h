@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 class OAMKFGGIAIM;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define LBCCCFNJLMP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0D4BB0)
 #define LBCCCFNJLMP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0D5180)
@@ -36,9 +36,9 @@ inline static constexpr unsigned int LBCCCFNJLMP_TypeDefinitionIndex = 11287;
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::OAMKFGGIAIM*>**)UnitySDK::FromName("", "LBCCCFNJLMP")->GetStaticField(0x3B900);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "LBCCCFNJLMP")->GetStaticField(0x3B908);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LBCCCFNJLMP")->GetStaticField(0x3B908);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int LBCCCFNJLMP_TypeDefinitionIndex = 11287;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::OAMKFGGIAIM*>(*)())((::PBYTE)hIl2Cpp + LBCCCFNJLMP_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::OAMKFGGIAIM*>, ::OAMKFGGIAIM*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + LBCCCFNJLMP_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::OAMKFGGIAIM*>, ::OAMKFGGIAIM*>(*)())((::PBYTE)hIl2Cpp + LBCCCFNJLMP_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::OAMKFGGIAIM* LMBKNCAIDLC(::System::UInt32 a1)

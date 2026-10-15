@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Protobuf
@@ -15,7 +15,7 @@ namespace MiHoYo::SDK::Protobuf
 	{
 	public:
 		::System::Boolean _PackedRepeatedField_k__BackingField; // 0x0
-		::System::Action* _ValueWriter_k__BackingField; // 0x0
+		::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, T>* _ValueWriter_k__BackingField; // 0x0
 		::System::Func_2<T, ::System::Int32>* _ValueSizeCalculator_k__BackingField; // 0x0
 		::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, T>* _ValueReader_k__BackingField; // 0x0
 		::System::Int32 _FixedSize_k__BackingField; // 0x0

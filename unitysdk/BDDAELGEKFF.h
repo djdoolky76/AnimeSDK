@@ -12,6 +12,7 @@ class ODGPPIHLOFF;
 class ONCAOGIEEIG;
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -75,9 +76,9 @@ inline static constexpr unsigned int BDDAELGEKFF_TypeDefinitionIndex = 49444;
 		::System::Collections::Generic::List_1<::ONCAOGIEEIG*>* HHFPDLJEJNE; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::GGJFAFONDHN*>* APDHIPDCDEE; // 0x30
 		::RPG::GameCore::EnviromentControlPriority KPKPEANHMJI; // 0x38
-		static ::System::Action** StaticGet_ENKGNBPNHLJ()
+		static ::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>** StaticGet_ENKGNBPNHLJ()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "BDDAELGEKFF")->GetStaticField(0x6D830);
+			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "BDDAELGEKFF")->GetStaticField(0x6D830);
 		}
 
 		::System::Void _ctor()

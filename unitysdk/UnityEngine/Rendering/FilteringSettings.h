@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Rendering/DistanceRange.h"
 #include "unitysdk/UnityEngine/Rendering/RenderQueueRange.h"
 #include "unitysdk/UnityEngine/Rendering/SortingLayerRange.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Object; }
 
 #define UNITYENGINE_RENDERING_FILTERINGSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x3C77BA0)
@@ -30,9 +30,9 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::SortingLayerRange m_SortingLayerRange; // 0x28
 		::UnityEngine::Rendering::DistanceRange m_DistanceRange; // 0x2C
 		::System::Single m_MinScreenSize; // 0x34
-		::System::Void _ctor(::System::Nullable* a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Int32 a4)
+		::System::Void _ctor(::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange> a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Int32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FILTERINGSETTINGS_CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange>, ::System::Int32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_FILTERINGSETTINGS_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_layerMask()

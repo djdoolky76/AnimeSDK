@@ -7,7 +7,7 @@
 namespace RPG::Client { class GridBasedEventData; }
 namespace RPG::Client { class UIController; }
 namespace UnityEngine::EventSystems { class AxisEventData; }
-namespace UnityEngine::Events { class UnityEvent; }
+namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
 #define RPG_CLIENT_GRIDBASEDMOVEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD0C8B40)
 #define RPG_CLIENT_GRIDBASEDMOVEMENT_DISABLEREPEATMOVEONCE_OFFSET UNITYSDK_OFFSET(0xD0C8050)
@@ -27,7 +27,7 @@ namespace RPG::Client
 	class GridBasedMovement : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Events::UnityEvent* _OnMove_k__BackingField; // 0x18
+		::UnityEngine::Events::UnityEvent_1<::RPG::Client::GridBasedEventData*>* _OnMove_k__BackingField; // 0x18
 		::System::Boolean UseUnityStickMove; // 0x20
 		::System::Byte _padding0[0x3];
 		::System::Single MoveSpeed; // 0x24
@@ -44,9 +44,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Events::UnityEvent* get_OnMove()
+		::UnityEngine::Events::UnityEvent_1<::RPG::Client::GridBasedEventData*>* get_OnMove()
 		{
-			return ((::UnityEngine::Events::UnityEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_GET_ONMOVE_OFFSET))(this);
+			return ((::UnityEngine::Events::UnityEvent_1<::RPG::Client::GridBasedEventData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDBASEDMOVEMENT_GET_ONMOVE_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::Client::UIController* a1)

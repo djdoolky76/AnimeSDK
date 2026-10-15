@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EJLMLFDJLLH;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -16,7 +16,7 @@ inline static constexpr unsigned int BJBOCLCFBEO_TypeDefinitionIndex = 74540;
 	class BJBOCLCFBEO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* _Predecessors_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::EJLMLFDJLLH*>>* _Predecessors_k__BackingField; // 0x10
 		::System::Func_2<::System::UInt32, ::System::Boolean>* _IsEndVertex_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
@@ -33,9 +33,9 @@ inline static constexpr unsigned int BJBOCLCFBEO_TypeDefinitionIndex = 74540;
 			return ((::System::Void(*)(::PVOID, ::System::Func_2<::System::UInt32, ::System::Boolean>*))((::PBYTE)hIl2Cpp + BJBOCLCFBEO_SET_ISENDVERTEX_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* get_Predecessors()
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::EJLMLFDJLLH*>>* get_Predecessors()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BJBOCLCFBEO_GET_PREDECESSORS_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::EJLMLFDJLLH*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BJBOCLCFBEO_GET_PREDECESSORS_OFFSET))(this);
 		}
 
 	};

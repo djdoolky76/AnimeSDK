@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChallengeData; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTORYENVIRONMENTHINTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC96AD00)
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTORYENVIRONMENTHINTVIEWMODEL_GET_CHALLENGEDATAREF_OFFSET UNITYSDK_OFFSET(0xC96ACA0)
@@ -21,7 +21,7 @@ namespace RPG::Client::Challenge::Tierce
 	public:
 		::RPG::Client::ChallengeData* _ChallengeDataRef_k__BackingField; // 0x10
 		::System::Int32 _CurrentStageNumber_k__BackingField; // 0x18
-		::System::Nullable* _CurrentStageBuffID_k__BackingField; // 0x1C
+		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTORYENVIRONMENTHINTVIEWMODEL_CTOR_OFFSET))(this);
@@ -47,14 +47,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTORYENVIRONMENTHINTVIEWMODEL_SET_CURRENTSTAGENUMBER_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_CurrentStageBuffID()
+		::System::Nullable_1<::System::UInt32> get_CurrentStageBuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTORYENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTORYENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentStageBuffID(::System::Nullable* a1)
+		::System::Void set_CurrentStageBuffID(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTORYENVIRONMENTHINTVIEWMODEL_SET_CURRENTSTAGEBUFFID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTORYENVIRONMENTHINTVIEWMODEL_SET_CURRENTSTAGEBUFFID_OFFSET))(this, a1);
 		}
 
 	};

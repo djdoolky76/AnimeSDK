@@ -4,7 +4,7 @@
 class EEFNMFGDGMA;
 class MIBPJLAGBLD;
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define MIBPJLAGBLD___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9504D0)
 #define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xB951520)
@@ -22,9 +22,9 @@ inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass7_0_TypeDefini
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIBPJLAGBLD___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _ConfirmLoan_b__0()
+		::RPG::Client::Promises::IPromise_1<::EEFNMFGDGMA*>* _ConfirmLoan_b__0()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::EEFNMFGDGMA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET))(this);
 		}
 
 		::System::Void _ConfirmLoan_b__1(::EEFNMFGDGMA* a1)

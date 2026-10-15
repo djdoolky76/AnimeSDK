@@ -5,6 +5,8 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class UGCInterface; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB05D8A0)
@@ -21,11 +23,11 @@ namespace MiHoYo::SDK
 	public:
 		::System::String* strUrl; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* __9__1; // 0x20
 		::System::String* strUId; // 0x28
 		::System::String* strBody; // 0x30
-		::System::Action* tokenFailedCallback; // 0x38
-		::System::Action* callback; // 0x40
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x38
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x40
 		::System::Action* __9__2; // 0x48
 		::MiHoYo::SDK::UGCInterface* __4__this; // 0x50
 		::System::String* strRegion; // 0x58

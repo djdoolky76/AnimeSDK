@@ -5,9 +5,9 @@
 class GNJDDFBBGJP;
 class OEIKFPLBOMH;
 class PCJIMECLEPH;
-namespace R3 { class Observable; }
-namespace System { class Action; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 inline static constexpr unsigned int PCJIMECLEPH_TypeDefinitionIndex = 50013;
@@ -17,17 +17,17 @@ inline static constexpr unsigned int PCJIMECLEPH_TypeDefinitionIndex = 50013;
 	public:
 		::GNJDDFBBGJP* FPAHLFBBNMK; // 0x0
 		::OEIKFPLBOMH* JKCNFDEAMDJ; // 0x0
-		::System::Func_2<::System::Object*, ::R3::Observable*>* LIDLDCBLJLF; // 0x0
-		::R3::Observable* ACOIGHKEHCK; // 0x0
+		::System::Func_2<::System::Object*, ::R3::Observable_1<::System::Boolean>*>* LIDLDCBLJLF; // 0x0
+		::R3::Observable_1<::System::Boolean>* ACOIGHKEHCK; // 0x0
 		::System::Boolean _OutputError_k__BackingField; // 0x0
-		static ::System::Action** StaticGet_CADAMKAADDK()
+		static ::System::Action_2<::CABAELAPPDA, ::System::Object*>** StaticGet_CADAMKAADDK()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "PCJIMECLEPH")->GetStaticField(0x0);
+			return (::System::Action_2<::CABAELAPPDA, ::System::Object*>**)UnitySDK::FromName("", "PCJIMECLEPH")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet_IPOCEHFFLME()
+		static ::System::Action_2<::CABAELAPPDA, ::PCJIMECLEPH*>** StaticGet_IPOCEHFFLME()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "PCJIMECLEPH")->GetStaticField(0x0);
+			return (::System::Action_2<::CABAELAPPDA, ::PCJIMECLEPH*>**)UnitySDK::FromName("", "PCJIMECLEPH")->GetStaticField(0x0);
 		}
 
 	};

@@ -57,7 +57,7 @@
 #include "unitysdk/RPG/GameCore/RogueMagicStyleType.h"
 #include "unitysdk/RPG/GameCore/RogueTournRoomType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/DGOAKJNHIFJ.h"
 #include "unitysdk/EPAHNPPLIAJ.h"
 #include "unitysdk/MHCOBFJNNJB.h"
@@ -65,7 +65,8 @@
 #include "unitysdk/RPG/Client/PacketSendResult_1.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/MVector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -196,8 +197,8 @@ namespace RPG::Client { class TransferExtraInfo; }
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class TwoKeyDictionary_3; }
 namespace RPG::Client::ActivityAlley { class ClientAlleyPlacingShip; }
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotData; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::Client::RelicSmartSuit { class PinData; }
 namespace RPG::Client::RelicSmartSuit { class PinDataKey; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
@@ -207,10 +208,10 @@ namespace RPG::GameCore { class MissionItemConfig; }
 namespace RPG::GameCore { class MissionItemConfigList; }
 namespace System { class Action; }
 namespace System { class Exception; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -1581,7 +1582,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* GJEOAPGAIML; // 0x70
 		::System::Collections::Generic::HashSet_1<::System::UInt16>* LPIMJHKMFIF; // 0x78
 		::RPG::Client::GlobalDispatchData_ServerData* JKLBKKEBGOO; // 0x80
-		::RPG::Client::Promises::Promise* NNIKCGNKLBP; // 0x88
+		::RPG::Client::Promises::Promise_1<::NMGLDNNFHFB*>* NNIKCGNKLBP; // 0x88
 		::UnityEngine::Coroutine* FCLLJJIBOGO; // 0x90
 		::RPG::Client::GlobalDispatchData_ServerData* _RecommendServer_k__BackingField; // 0x98
 		::KNKPLOGICFO* GGJMBCFONEI; // 0xA0
@@ -1881,9 +1882,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_SET_GLOBALDISPATHERRORCODE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::IEnumerator* FDKDFAKINIM(::System::Action* a1, ::System::Boolean a2)
+		::System::Collections::IEnumerator* FDKDFAKINIM(::System::Action_1<::System::Boolean>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FDKDFAKINIM_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action_1<::System::Boolean>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FDKDFAKINIM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean PCFPFDEGEIM(::System::String* a1, ::System::Boolean a2, ::System::String* a3)
@@ -2121,9 +2122,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_LCLFAKMCPEL_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::Promises::IPromise* KCAFIMGCPPO(::System::Collections::Generic::IList_1<::System::Net::IPEndPoint*>* a1, ::System::UInt64 a2)
+		static ::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::IList_1<::System::UInt64>*>* KCAFIMGCPPO(::System::Collections::Generic::IList_1<::System::Net::IPEndPoint*>* a1, ::System::UInt64 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::System::Collections::Generic::IList_1<::System::Net::IPEndPoint*>*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_KCAFIMGCPPO_OFFSET))(a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::IList_1<::System::UInt64>*>*(*)(::System::Collections::Generic::IList_1<::System::Net::IPEndPoint*>*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_KCAFIMGCPPO_OFFSET))(a1, a2);
 		}
 
 		::System::Void OHFJLKNBHBD(::System::UInt16 a1)
@@ -2331,9 +2332,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_BMEAPDIPMBC_OFFSET))(this, a1);
 		}
 
-		::System::Void FHOJGPJAKIF(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Void FHOJGPJAKIF(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FHOJGPJAKIF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FHOJGPJAKIF_OFFSET))(this, a1);
 		}
 
 		::System::Void GIMOKGMMOMB(::System::UInt32 a1, ::System::Boolean a2)
@@ -4541,9 +4542,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FAGKDEKDKBL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void FAGKDEKDKBL_1(::System::Collections::Generic::List_1<::System::Tuple*>* a1)
+		::System::Void FAGKDEKDKBL_1(::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Tuple*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FAGKDEKDKBL_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FAGKDEKDKBL_1_OFFSET))(this, a1);
 		}
 
 		::System::Void DJABBFDEKHO(::System::UInt32 a1)
@@ -4616,9 +4617,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_JOIHKMGMPEJ_OFFSET))(this);
 		}
 
-		::System::Void FBNAJFDJFKG(::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* a1)
+		::System::Void FBNAJFDJFKG(::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FBNAJFDJFKG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_FBNAJFDJFKG_OFFSET))(this, a1);
 		}
 
 		::System::Void MLIMKBCBJEI(::RPG::Client::GridFightConsumableItemData* a1, ::LMIFHAMFCFE* a2)
@@ -6996,9 +6997,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_HCNBOOGHJGC_OFFSET))(this, a1);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask NHKNDNODOEM(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::Collections::Generic::List_1<::System::UInt32>* a5, ::System::UInt32 a6)
+		::Cysharp::Threading::Tasks::UniTask_1<::RPG::Client::PacketSendResult_1<::Proto::BuyGoodsScRsp*>> NHKNDNODOEM(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::Collections::Generic::List_1<::System::UInt32>* a5, ::System::UInt32 a6)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_NHKNDNODOEM_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::RPG::Client::PacketSendResult_1<::Proto::BuyGoodsScRsp*>>(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_NHKNDNODOEM_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void AFMBMFOJPHJ(::System::UInt32 a1, ::System::UInt32 a2)
@@ -7586,9 +7587,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::IMessage*, ::AMNPGECIPHB))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_GGPGNJGBLDF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* ALCMFCOBPIE(::System::UInt16 a1)
+		::System::Nullable_1<::AMNPGECIPHB> ALCMFCOBPIE(::System::UInt16 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_ALCMFCOBPIE_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::AMNPGECIPHB>(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_ALCMFCOBPIE_OFFSET))(this, a1);
 		}
 
 		::System::Void CDFGHHJFJNG(::System::UInt16 a1, ::Google::Protobuf::IMessage* a2)
@@ -7646,14 +7647,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_SET_SERVERDISPATCHERRORCODE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GBMDIPDGJBD()
+		::RPG::Client::Promises::IPromise_1<::NMGLDNNFHFB*>* GBMDIPDGJBD()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_GBMDIPDGJBD_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::NMGLDNNFHFB*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_GBMDIPDGJBD_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* DDODAKJLJCC(::System::Action* a1)
+		::System::Collections::IEnumerator* DDODAKJLJCC(::System::Action_1<::NMGLDNNFHFB*>* a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_DDODAKJLJCC_OFFSET))(this, a1);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action_1<::NMGLDNNFHFB*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_DDODAKJLJCC_OFFSET))(this, a1);
 		}
 
 		::System::String* IDJDFKGABKB(::System::String* a1)
@@ -7661,14 +7662,14 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_IDJDFKGABKB_OFFSET))(this, a1);
 		}
 
-		::System::Collections::IEnumerator* OICPOFLPIIN(::System::String* a1, ::System::Int32 a2, ::System::Action* a3)
+		::System::Collections::IEnumerator* OICPOFLPIIN(::System::String* a1, ::System::Int32 a2, ::System::Action_1<::NMGLDNNFHFB*>* a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_OICPOFLPIIN_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Action_1<::NMGLDNNFHFB*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_OICPOFLPIIN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ADLGGBFBJDL(::System::Action* a1)
+		::System::Void ADLGGBFBJDL(::System::Action_1<::NMGLDNNFHFB*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_ADLGGBFBJDL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::NMGLDNNFHFB*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER_ADLGGBFBJDL_OFFSET))(this, a1);
 		}
 
 		::System::Void FDBBKBPBLAN(::RPG::Client::NetPacket* a1)

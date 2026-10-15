@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class DebugUI_Widget; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerPanel; }
 
@@ -24,9 +24,9 @@ namespace UnityEngine::Rendering::UI
 			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x4A5A0);
 		}
 
-		static ::System::Action** StaticGet___9__14_0()
+		static ::System::Action_1<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>** StaticGet___9__14_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x4A5A8);
+			return (::System::Action_1<::UnityEngine::Rendering::UI::DebugUIHandlerPanel*>**)UnitySDK::FromName("UnityEngine.Rendering.UI", "<>c")->GetStaticField(0x4A5A8);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_0()

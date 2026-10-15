@@ -4,7 +4,7 @@
 #include "unitysdk/HOAKPIIOFPG.h"
 #include "unitysdk/RPG/Client/MonoEmoPlayableGraph_EyeState.h"
 #include "unitysdk/RPGTools/Timeline/Emotion/EmoTrackType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Animations/AnimationMixerPlayable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/AnimationBlendMode.h"
@@ -46,7 +46,7 @@ inline static constexpr unsigned int PGLFBJPOBEJ_TypeDefinitionIndex = 48775;
 		::HOAKPIIOFPG ACDJEMJDEFE; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* ELHLFCJHMFN; // 0x38
 		::System::Collections::Generic::List_1<::EPHNKOEJNFB>* EEPPHHAPFGM; // 0x40
-		::System::Collections::Generic::List_1<::System::ValueTuple>* KLJAIMDINMG; // 0x48
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Single>>* KLJAIMDINMG; // 0x48
 		::UnityEngine::Animations::AnimationMixerPlayable PJFFKDHKKCE; // 0x50
 		::System::Boolean FOKJJHOCCNK; // 0x60
 		::System::Boolean GBJMFEKOCGO; // 0x61

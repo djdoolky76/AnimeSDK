@@ -10,9 +10,9 @@
 class LCCJKNEADPL;
 namespace RPG::Client { class BattleGamePhase; }
 namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 
 #define IBOLNDGHCBB_APCKFBJNDFD_OFFSET UNITYSDK_OFFSET(0x15E44330)
@@ -48,7 +48,7 @@ inline static constexpr unsigned int IBOLNDGHCBB_TypeDefinitionIndex = 60991;
 	{
 	public:
 		::RPG::Client::BattleGamePhase* NOHNKAIALPJ; // 0x10
-		::System::Action* IMKEDDPCEHJ; // 0x18
+		::System::Action_1<::RPG::GameCore::BattleResultState>* IMKEDDPCEHJ; // 0x18
 		::RPG::Client::Promises::Promise* MOEMENBDMIJ; // 0x20
 		::Il2CppArray<::System::Byte>* MKAMMOMKFPC; // 0x28
 		::System::Boolean DFDHDJJMAEB; // 0x30
@@ -75,9 +75,9 @@ inline static constexpr unsigned int IBOLNDGHCBB_TypeDefinitionIndex = 60991;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::BattleGamePhase*))((::PBYTE)hIl2Cpp + IBOLNDGHCBB_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void CNPCJHEMFFN(::System::Action* a1)
+		::System::Void CNPCJHEMFFN(::System::Action_1<::RPG::GameCore::BattleResultState>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IBOLNDGHCBB_CNPCJHEMFFN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::BattleResultState>*))((::PBYTE)hIl2Cpp + IBOLNDGHCBB_CNPCJHEMFFN_OFFSET))(this, a1);
 		}
 
 		::System::Void NPAFMEBNFOB(::System::Boolean a1, ::System::Boolean a2)

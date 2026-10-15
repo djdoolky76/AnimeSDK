@@ -6,13 +6,13 @@
 #include "unitysdk/RPG/GameCore/PamActionType.h"
 #include "unitysdk/RPG/GameCore/PamMoodType.h"
 #include "unitysdk/RPG/GameCore/PamPlaceType.h"
+#include "unitysdk/System/Nullable_1.h"
 class KDFAEPFCFHN;
 class OJFPIAPCFPF_MILAFFFBCKD;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PamActionRow; }
 namespace RPG::GameCore { class PamAnchorRow; }
 namespace RPG::GameCore { class PamLevelInfo; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
@@ -127,7 +127,7 @@ inline static constexpr unsigned int OJFPIAPCFPF_TypeDefinitionIndex = 66423;
 		::System::Single CLCGBIMIJIN; // 0x94
 		::AKMDNONDDEL EJBLHBJNGOI; // 0x98
 		::System::UInt32 INPLGOEFFKH; // 0xA8
-		::System::Nullable* MDINGMAINEI; // 0xAC
+		::System::Nullable_1<::System::Object*> MDINGMAINEI; // 0xAC
 		::System::Byte _padding0[0x8];
 		::System::Single ALDECJJKOBE; // 0xBC
 		::System::Single NDBDOGOECBN; // 0xC0

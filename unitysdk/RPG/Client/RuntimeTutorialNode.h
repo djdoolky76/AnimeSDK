@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TutorialNodeType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -8,7 +9,6 @@ namespace RPG::Client { class RuntimeTutorialNode; }
 namespace RPG::GameCore { class TutorialGuideUIContextConfig; }
 namespace SuperScrollView { class LoopGridViewItem; }
 namespace SuperScrollView { class LoopListViewItem2; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -59,7 +59,7 @@ namespace RPG::Client
 		::UnityEngine::Vector3 _CachePosition; // 0x44
 		::System::Boolean _IsNodeShow; // 0x50
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _CurrentScreenRect; // 0x54
+		::System::Nullable_1<::UnityEngine::Rect> _CurrentScreenRect; // 0x54
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMETUTORIALNODE_CTOR_OFFSET))(this, a1);

@@ -3,8 +3,8 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -16,9 +16,9 @@ namespace Cysharp::Threading::Tasks
 	public:
 		::System::Threading::CancellationToken cancellationToken; // 0x0
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<T> core; // 0x0
-		static ::System::Action** StaticGet_cancellationCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_cancellationCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "NeverPromise`1")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "NeverPromise`1")->GetStaticField(0x0);
 		}
 
 	};

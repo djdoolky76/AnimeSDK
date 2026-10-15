@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class EntityGameObjectConnection; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_ENTITYGAMEOBJECTCONNECTION_ADDLIFECIRCLECALLBACK_OFFSET UNITYSDK_OFFSET(0xCDF2750)
 #define RPG_CLIENT_ENTITYGAMEOBJECTCONNECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF29D0)
@@ -23,8 +23,8 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::GameCore::GameEntity* HOEGAPJBABG; // 0x18
-		::System::Action* NCJCIIPKPON; // 0x20
-		::System::Action* AENKDHDOBAK; // 0x28
+		::System::Action_1<::RPG::Client::EntityGameObjectConnection*>* NCJCIIPKPON; // 0x20
+		::System::Action_1<::RPG::Client::EntityGameObjectConnection*>* AENKDHDOBAK; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYGAMEOBJECTCONNECTION_CTOR_OFFSET))(this);
@@ -40,14 +40,14 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYGAMEOBJECTCONNECTION_GETOWNERENTITY_OFFSET))(this);
 		}
 
-		::System::Void AddLifeCircleCallback(::RPG::Client::MonoLifeCircleEvent a1, ::System::Action* a2)
+		::System::Void AddLifeCircleCallback(::RPG::Client::MonoLifeCircleEvent a1, ::System::Action_1<::RPG::Client::EntityGameObjectConnection*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoLifeCircleEvent, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYGAMEOBJECTCONNECTION_ADDLIFECIRCLECALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoLifeCircleEvent, ::System::Action_1<::RPG::Client::EntityGameObjectConnection*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYGAMEOBJECTCONNECTION_ADDLIFECIRCLECALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RemoveLifeCircleCallback(::RPG::Client::MonoLifeCircleEvent a1, ::System::Action* a2)
+		::System::Void RemoveLifeCircleCallback(::RPG::Client::MonoLifeCircleEvent a1, ::System::Action_1<::RPG::Client::EntityGameObjectConnection*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoLifeCircleEvent, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYGAMEOBJECTCONNECTION_REMOVELIFECIRCLECALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoLifeCircleEvent, ::System::Action_1<::RPG::Client::EntityGameObjectConnection*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYGAMEOBJECTCONNECTION_REMOVELIFECIRCLECALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnEnable()

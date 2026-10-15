@@ -9,6 +9,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/GNACIJDMBOK_DJGJDAODCOL.h"
+#include "unitysdk/System/Nullable_1.h"
 class BABNOKHOBCF;
 class CDENJKCGLIB;
 class DNFFEFPKDPC;
@@ -24,7 +25,6 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelMoveSt
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelStructGameView; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { template <typename T> class FourRotateVoxelLayer_1; }
 namespace RPG::GameCore { class FourRotateVoxel2DPlatformConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -417,9 +417,9 @@ inline static constexpr unsigned int GNACIJDMBOK_TypeDefinitionIndex = 76720;
 			return ((::DNFFEFPKDPC*(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::CDENJKCGLIB*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Func_2<::DNFFEFPKDPC*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + GNACIJDMBOK_ACKCAKKBKDJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Nullable* EAGAGDLDFMJ(::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Int32 a4, ::System::Func_2<::DNFFEFPKDPC*, ::System::Boolean>* a5)
+		::System::Nullable_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord> EAGAGDLDFMJ(::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Int32 a4, ::System::Func_2<::DNFFEFPKDPC*, ::System::Boolean>* a5)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Func_2<::DNFFEFPKDPC*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + GNACIJDMBOK_EAGAGDLDFMJ_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Nullable_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Func_2<::DNFFEFPKDPC*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + GNACIJDMBOK_EAGAGDLDFMJ_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::DNFFEFPKDPC* KMGHHMNDFFB(::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a1, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayerType a2, ::System::Int32 a3, ::INMMPMDELKE* a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Int32 a7, ::System::Func_2<::DNFFEFPKDPC*, ::System::Boolean>* a8)

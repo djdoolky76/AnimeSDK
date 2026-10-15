@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/UI3DCameraStateBase.h"
 #include "unitysdk/RPG/GameCore/UI3DMap3DCameraState_InnerState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Bounds.h"
@@ -12,7 +13,6 @@ class KJPENGJCKCO;
 namespace RPG::Client { class UI3DMap3DCameraSettings; }
 namespace RPG::GameCore { class UI3DMap3DCameraStateConfig; }
 namespace RPG::GameCore { class UI3DVirtualCameraComponent; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -89,7 +89,7 @@ namespace RPG::GameCore
 		::System::Single _LastZoomVelocity; // 0xA0
 		::System::Single _ZoomRecoverVelocity; // 0xA4
 		::UnityEngine::Vector3 _CurrentReturnBoundsVelocity; // 0xA8
-		::System::Nullable* _InitialCameraPosition; // 0xB4
+		::System::Nullable_1<::UnityEngine::Vector3> _InitialCameraPosition; // 0xB4
 		::System::Byte _padding0[0x8];
 		::System::Boolean _TransformedLastFrame; // 0xC4
 		::System::Byte _padding1[0x3];

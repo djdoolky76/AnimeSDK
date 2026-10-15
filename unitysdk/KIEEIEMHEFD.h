@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BattleModeType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ADGFFEDNPPO;
 namespace System { class Type; }
 
@@ -14,9 +14,9 @@ inline static constexpr unsigned int KIEEIEMHEFD_TypeDefinitionIndex = 53629;
 	class KIEEIEMHEFD : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::ValueTuple>** StaticGet_HKHFDOODKOA()
+		static ::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>** StaticGet_HKHFDOODKOA()
 		{
-			return (::Il2CppArray<::System::ValueTuple>**)UnitySDK::FromName("", "KIEEIEMHEFD")->GetStaticField(0x54700);
+			return (::Il2CppArray<::System::ValueTuple_2<::RPG::GameCore::BattleModeType, ::System::Type*>>**)UnitySDK::FromName("", "KIEEIEMHEFD")->GetStaticField(0x54700);
 		}
 
 		static ::System::Void _cctor()

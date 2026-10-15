@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 class IGKLKGGKAJO;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define EGNCKOKLDIE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD7F0B0)
 #define EGNCKOKLDIE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD7F680)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int EGNCKOKLDIE_TypeDefinitionIndex = 11239;
 	class EGNCKOKLDIE : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "EGNCKOKLDIE")->GetStaticField(0x53E40);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EGNCKOKLDIE")->GetStaticField(0x53E40);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int EGNCKOKLDIE_TypeDefinitionIndex = 11239;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::IGKLKGGKAJO*>(*)())((::PBYTE)hIl2Cpp + EGNCKOKLDIE_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::IGKLKGGKAJO*>, ::IGKLKGGKAJO*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + EGNCKOKLDIE_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::IGKLKGGKAJO*>, ::IGKLKGGKAJO*>(*)())((::PBYTE)hIl2Cpp + EGNCKOKLDIE_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::IGKLKGGKAJO* LMBKNCAIDLC(::System::UInt32 a1)

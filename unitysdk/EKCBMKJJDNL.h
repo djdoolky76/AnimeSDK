@@ -10,8 +10,8 @@ class FDOICPJGACI;
 class IOIIFAENPNH;
 class KKHNFGNFJFD;
 namespace RPG::Client { class AnimatorButton; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
@@ -39,7 +39,7 @@ inline static constexpr unsigned int EKCBMKJJDNL_TypeDefinitionIndex = 72070;
 	{
 	public:
 		::RPG::Client::AnimatorButton* IJMNHDMPNGH; // 0x60
-		::System::Action* EFLDFAEDJIN; // 0x68
+		::System::Action_1<::EANJILGOKBE*>* EFLDFAEDJIN; // 0x68
 		::KKHNFGNFJFD* GAFBGDNAEDO; // 0x70
 		::System::Collections::Generic::List_1<::FDOICPJGACI*>* GCIKKMGIPIO; // 0x78
 		::UnityEngine::Transform* FHEMCAFOIKG; // 0x80

@@ -7,8 +7,8 @@ namespace SRDebugger::UI::Controls { class SRTabButton; }
 namespace SRDebugger::UI::Other { class SRTab; }
 namespace SRDebugger::UI::Other { class SRTabController; }
 namespace SRF { template <typename T> class SRList_1; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
@@ -43,7 +43,7 @@ namespace SRDebugger::UI::Other
 		::UnityEngine::RectTransform* TabHeaderContentContainer; // 0x70
 		::UnityEngine::UI::Text* TabHeaderText; // 0x78
 		::UnityEngine::RectTransform* TabViewPortRectTransform; // 0x80
-		::System::Action* ActiveTabChanged; // 0x88
+		::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>* ActiveTabChanged; // 0x88
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet__LocalConers()
 		{
 			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("SRDebugger.UI.Other", "SRTabController")->GetStaticField(0x3CA80);
@@ -89,14 +89,14 @@ namespace SRDebugger::UI::Other
 			return ((::System::Collections::Generic::IList_1<::SRDebugger::UI::Other::SRTab*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_GET_TABS_OFFSET))(this);
 		}
 
-		::System::Void add_ActiveTabChanged(::System::Action* a1)
+		::System::Void add_ActiveTabChanged(::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADD_ACTIVETABCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_ADD_ACTIVETABCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ActiveTabChanged(::System::Action* a1)
+		::System::Void remove_ActiveTabChanged(::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_REMOVE_ACTIVETABCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::UI::Other::SRTabController*, ::SRDebugger::UI::Other::SRTab*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_SRTABCONTROLLER_REMOVE_ACTIVETABCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void AddTab(::SRDebugger::UI::Other::SRTab* a1, ::System::Boolean a2)

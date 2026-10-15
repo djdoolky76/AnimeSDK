@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -29,9 +29,9 @@ namespace RPGTools::HoudiniToUnity
 			return (::System::Func_2<::System::Single, ::System::String*>**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x3A218);
 		}
 
-		static ::System::Comparison_1<::System::ValueTuple>** StaticGet___9__23_0()
+		static ::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::String*>>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple>**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x3A220);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::Single, ::System::String*>>**)UnitySDK::FromName("RPGTools.HoudiniToUnity", "<>c")->GetStaticField(0x3A220);
 		}
 
 		static ::System::Void _cctor()
@@ -44,9 +44,9 @@ namespace RPGTools::HoudiniToUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _SortSplitPoints_b__23_0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 _SortSplitPoints_b__23_0(::System::ValueTuple_2<::System::Single, ::System::String*> a1, ::System::ValueTuple_2<::System::Single, ::System::String*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__SORTSPLITPOINTS_B__23_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Single, ::System::String*>, ::System::ValueTuple_2<::System::Single, ::System::String*>))((::PBYTE)hIl2Cpp + RPGTOOLS_HOUDINITOUNITY_CURVEATTRIBUTE___C__SORTSPLITPOINTS_B__23_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* _OnAfterDeserialize_b__28_0(::System::Single a1)

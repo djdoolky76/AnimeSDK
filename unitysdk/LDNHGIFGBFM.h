@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LDNHGIFGBFM_ContentType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class OFIILELJGIE;
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define LDNHGIFGBFM_CTOR_OFFSET UNITYSDK_OFFSET(0xB63E740)
@@ -23,7 +23,7 @@ inline static constexpr unsigned int LDNHGIFGBFM_TypeDefinitionIndex = 79484;
 	public:
 		::R3::ReactiveProperty_1<::System::Object*>* LFGMLJCCPCH; // 0x10
 		::OFIILELJGIE* LKBKDNAMNEG; // 0x18
-		::System::Nullable* OIMACANBFPP; // 0x20
+		::System::Nullable_1<::System::Boolean> OIMACANBFPP; // 0x20
 		::System::Void _ctor(::OFIILELJGIE* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::OFIILELJGIE*))((::PBYTE)hIl2Cpp + LDNHGIFGBFM_CTOR_OFFSET))(this, a1);

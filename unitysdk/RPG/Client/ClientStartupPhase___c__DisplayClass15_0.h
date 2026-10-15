@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ClientStartupPhase; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB791C0)
 #define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS15_0___FETCHGLOBALDISPATCHINFO_B__1_OFFSET UNITYSDK_OFFSET(0xCB79270)
@@ -14,7 +14,7 @@ namespace RPG::Client
 	class ClientStartupPhase___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::System::Action* resolve; // 0x10
+		::System::Action_1<::System::Boolean>* resolve; // 0x10
 		::RPG::Client::ClientStartupPhase* __4__this; // 0x18
 		::System::Void _ctor()
 		{

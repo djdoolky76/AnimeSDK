@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class WaterInteractor;
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
@@ -37,7 +37,7 @@ inline static constexpr unsigned int KKAKDKDKNKM_TypeDefinitionIndex = 70865;
 		::System::Boolean IHCNKCIBCGC; // 0x30
 		::System::Byte _padding0[0x3];
 		::System::Single NFKALJLCLNN; // 0x34
-		::System::Nullable* OLFJGCDNAOP; // 0x38
+		::System::Nullable_1<::System::Single> OLFJGCDNAOP; // 0x38
 		::System::UInt32 PIIDBIMBGPE; // 0x40
 		static ::System::String** StaticGet_JNPGMADIPCD()
 		{

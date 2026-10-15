@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class WaterWheel; }
 namespace System { class Action; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Tuple_5; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MonoBehaviour; }
@@ -36,7 +36,7 @@ inline static constexpr unsigned int DDBHMHFPFJC_TypeDefinitionIndex = 68811;
 	class DDBHMHFPFJC : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::System::Tuple* DMBHPECBAGD; // 0x18
+		::System::Tuple_5<::System::Int32, ::System::Int32, ::System::Boolean, ::System::Action*, ::System::Single>* DMBHPECBAGD; // 0x18
 		::UnityEngine::Transform* PDGDCPLEPFC; // 0x20
 		::UnityEngine::AnimationCurve* CBEBGNOFBPG; // 0x28
 		::RPG::Client::WaterWheel* PCPJHCMMONO; // 0x30

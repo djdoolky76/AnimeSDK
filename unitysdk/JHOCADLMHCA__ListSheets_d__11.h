@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
-#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
+#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class JHOCADLMHCA;
 namespace System { class Object; }
 namespace System { class String; }
@@ -27,8 +27,8 @@ inline static constexpr unsigned int JHOCADLMHCA__ListSheets_d__11_TypeDefinitio
 		::System::Byte _padding1[0x8];
 		::JHOCADLMHCA* __4__this; // 0x40
 		::System::String* docID; // 0x48
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x50
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x58
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x50
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::String*>>*> __t__builder; // 0x58
 		::System::Byte _padding2[0x10];
 		::System::Int32 __1__state; // 0x70
 		::System::Void MoveNext()

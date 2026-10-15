@@ -4,8 +4,8 @@
 class FEMAHFBGJJP;
 class OEAKPLCANOI;
 namespace RPG::GameCore { class LittleGameEntityConfig; }
-namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define OEAKPLCANOI___C__DISPLAYCLASS55_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDFC8A0)
@@ -21,7 +21,7 @@ inline static constexpr unsigned int OEAKPLCANOI___c__DisplayClass55_0_TypeDefin
 	public:
 		::OEAKPLCANOI* __4__this; // 0x10
 		::FEMAHFBGJJP* entityLoadingContextData; // 0x18
-		::System::Action* __9__2; // 0x20
+		::System::Action_1<::RPG::GameCore::LittleGameEntityConfig*>* __9__2; // 0x20
 		::System::Func_2<::RPG::GameCore::LittleGameEntityConfig*, ::System::Boolean>* __9__3; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*>* configByEntityID; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* hierarchyDepthCache; // 0x38

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/AsymmetricKeyExchangeFormatter.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 namespace System::Security::Cryptography { class RSA; }
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
@@ -20,7 +20,7 @@ namespace System::Security::Cryptography
 	public:
 		::System::Security::Cryptography::RSA* _rsaKey; // 0x10
 		::System::Security::Cryptography::RandomNumberGenerator* RngValue; // 0x18
-		::System::Nullable* _rsaOverridesEncrypt; // 0x20
+		::System::Nullable_1<::System::Boolean> _rsaOverridesEncrypt; // 0x20
 		::System::Void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsymmetricAlgorithm*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEFORMATTER_CTOR_OFFSET))(this, a1);

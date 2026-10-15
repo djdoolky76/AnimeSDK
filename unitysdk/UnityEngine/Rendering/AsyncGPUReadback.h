@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/Rendering/AsyncGPUReadbackRequest.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Texture; }
 
 #define UNITYENGINE_RENDERING_ASYNCGPUREADBACK_REQUEST_1_OFFSET UNITYSDK_OFFSET(0x1F41A8D0)
@@ -27,19 +27,19 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::UnityEngine::Texture*, ::UnityEngine::Experimental::Rendering::GraphicsFormat))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACK_VALIDATEFORMAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetUpScriptingRequest(::UnityEngine::Rendering::AsyncGPUReadbackRequest a1, ::System::Action* a2)
+		static ::System::Void SetUpScriptingRequest(::UnityEngine::Rendering::AsyncGPUReadbackRequest a1, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACK_SETUPSCRIPTINGREQUEST_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Rendering::AsyncGPUReadbackRequest, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACK_SETUPSCRIPTINGREQUEST_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request(::UnityEngine::Texture* a1, ::System::Int32 a2, ::System::Action* a3)
+		static ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request(::UnityEngine::Texture* a1, ::System::Int32 a2, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* a3)
 		{
-			return ((::UnityEngine::Rendering::AsyncGPUReadbackRequest(*)(::UnityEngine::Texture*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACK_REQUEST_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Rendering::AsyncGPUReadbackRequest(*)(::UnityEngine::Texture*, ::System::Int32, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACK_REQUEST_OFFSET))(a1, a2, a3);
 		}
 
-		static ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_1(::UnityEngine::Texture* a1, ::System::Int32 a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::System::Action* a4)
+		static ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_1(::UnityEngine::Texture* a1, ::System::Int32 a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* a4)
 		{
-			return ((::UnityEngine::Rendering::AsyncGPUReadbackRequest(*)(::UnityEngine::Texture*, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACK_REQUEST_1_OFFSET))(a1, a2, a3, a4);
+			return ((::UnityEngine::Rendering::AsyncGPUReadbackRequest(*)(::UnityEngine::Texture*, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_ASYNCGPUREADBACK_REQUEST_1_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_Internal_Texture_1(::UnityEngine::Texture* a1, ::System::Int32 a2)

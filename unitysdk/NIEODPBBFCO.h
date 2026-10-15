@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/JKLPFLJEPCH.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/AI/NavMeshHit.h"
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace UnityEngine { class Collider; }
@@ -102,9 +102,9 @@ inline static constexpr unsigned int NIEODPBBFCO_TypeDefinitionIndex = 57805;
 			return ((::RPG::GameCore::GameEntityPosAdaptionResultFlag(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NIEODPBBFCO_CNKCEHKIMLN_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::ValueTuple FKBLDMIADMM(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
+		static ::System::ValueTuple_2<::RPG::GameCore::GameEntityPosAdaptionResultFlag, ::UnityEngine::Vector3> FKBLDMIADMM(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::ValueTuple(*)(::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + NIEODPBBFCO_FKBLDMIADMM_OFFSET))(a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GameEntityPosAdaptionResultFlag, ::UnityEngine::Vector3>(*)(::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + NIEODPBBFCO_FKBLDMIADMM_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::RPG::GameCore::GameEntityPosAdaptionResultFlag ADBPJCAGPPC(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::Int32 a4, ::System::Single a5, ::System::Int32 a6, ::System::Boolean a7)
@@ -117,9 +117,9 @@ inline static constexpr unsigned int NIEODPBBFCO_TypeDefinitionIndex = 57805;
 			return ((::RPG::GameCore::GameEntityPosAdaptionResultFlag(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Single, ::UnityEngine::Collider*, ::System::Int32))((::PBYTE)hIl2Cpp + NIEODPBBFCO_FLHODNMCDMM_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
-		static ::System::ValueTuple ANFELDIEJKH(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Boolean a8, ::System::Single a9, ::UnityEngine::Collider* a10, ::System::Int32 a11)
+		static ::System::ValueTuple_2<::UnityEngine::Vector3, ::System::Int32> ANFELDIEJKH(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Boolean a8, ::System::Single a9, ::UnityEngine::Collider* a10, ::System::Int32 a11)
 		{
-			return ((::System::ValueTuple(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Single, ::UnityEngine::Collider*, ::System::Int32))((::PBYTE)hIl2Cpp + NIEODPBBFCO_ANFELDIEJKH_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::System::Int32>(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Single, ::UnityEngine::Collider*, ::System::Int32))((::PBYTE)hIl2Cpp + NIEODPBBFCO_ANFELDIEJKH_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		static ::RPG::GameCore::GameEntityPosAdaptionResultFlag LHJODLJJIGK(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Int32 a4, ::System::Int32 a5)

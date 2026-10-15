@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BBDBABJLIIB;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelPerformanceInitialize; }
@@ -37,8 +37,8 @@ inline static constexpr unsigned int BKMLAKCCPHD_TypeDefinitionIndex = 60701;
 	class BKMLAKCCPHD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::GameCore::GameEntity*>* GPNHEDBHBHL; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* PIFIOLGCNDO; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::GameEntity*>* GPNHEDBHBHL; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* PIFIOLGCNDO; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*>* JKDEAEGLAON; // 0x20
 		::RPG::GameCore::ELevelPerformanceType DBLMPDKBMLH; // 0x28
 		::System::Boolean _BlockNew_k__BackingField; // 0x2C

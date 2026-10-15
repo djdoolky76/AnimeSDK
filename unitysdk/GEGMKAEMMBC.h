@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/RPG/GameCore/VersusBarReasonTipType.h"
+#include "unitysdk/System/Nullable_1.h"
 class BBDFGMBNDGD;
 class KNKPLOGICFO;
 class PHJHLADKIAJ;
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class RPGAnimationEvent; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
@@ -44,9 +44,9 @@ inline static constexpr unsigned int GEGMKAEMMBC_TypeDefinitionIndex = 72219;
 		::RPG::Client::LocalizedText* AGNIJEOAICD; // 0xA8
 		::System::UInt32 ELCICNFBCDI; // 0xB0
 		::System::Single KIPAGNCANAJ; // 0xB4
-		static ::System::Nullable** StaticGet_OIBFIMDCDNL()
+		static ::System::Nullable_1<::System::Single>* StaticGet_OIBFIMDCDNL()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("", "GEGMKAEMMBC")->GetStaticField(0x13630);
+			return (::System::Nullable_1<::System::Single>*)UnitySDK::FromName("", "GEGMKAEMMBC")->GetStaticField(0x13630);
 		}
 
 		::System::Void _ctor()

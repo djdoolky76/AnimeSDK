@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::U2D { class SpriteAtlas; }
 
 namespace UnityEngine::UI
@@ -11,9 +11,9 @@ namespace UnityEngine::UI
 	class Image___O : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__0___RebuildImage()
+		static ::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>** StaticGet__0___RebuildImage()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.UI", "<>O")->GetStaticField(0x359A0);
+			return (::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>**)UnitySDK::FromName("UnityEngine.UI", "<>O")->GetStaticField(0x359A0);
 		}
 
 	};

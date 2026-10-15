@@ -6,8 +6,8 @@
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class FCOEMCEDLNL;
 class MDPJLLMJGEC;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -39,9 +39,9 @@ inline static constexpr unsigned int LPPJIGMBMGA_TypeDefinitionIndex = 15399;
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::MDPJLLMJGEC*>**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x46D78);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x46D80);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LPPJIGMBMGA")->GetStaticField(0x46D80);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()

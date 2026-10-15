@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/IMECompositionMode.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Nullable; }
 namespace UnityEngine::UI { class InputField; }
 
 #define MIHOYO_SDK_WIN_PASSWORDINPUTIMEGUARD_ACQUIREIME_OFFSET UNITYSDK_OFFSET(0x1BDC90E0)
@@ -21,7 +21,7 @@ namespace MiHoYo::SDK::Win
 	{
 	public:
 		::UnityEngine::UI::InputField* targetInput; // 0x18
-		::System::Nullable* savedMode; // 0x20
+		::System::Nullable_1<::UnityEngine::IMECompositionMode> savedMode; // 0x20
 		::System::Boolean focusedLastFrame; // 0x28
 		::System::Void _ctor()
 		{

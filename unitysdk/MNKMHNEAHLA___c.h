@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class BPJMEGHIEIN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MNKMHNEAHLA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA11590)
 #define MNKMHNEAHLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA115D0)
@@ -14,9 +14,9 @@ inline static constexpr unsigned int MNKMHNEAHLA___c_TypeDefinitionIndex = 81650
 	class MNKMHNEAHLA___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__2_0()
+		static ::System::Action_1<::BPJMEGHIEIN*>** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11D80);
+			return (::System::Action_1<::BPJMEGHIEIN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11D80);
 		}
 
 		static ::System::Object** StaticGet___9()

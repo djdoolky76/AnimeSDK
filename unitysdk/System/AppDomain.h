@@ -8,6 +8,7 @@ namespace System { class Object; }
 namespace System { class ResolveEventHandler; }
 namespace System { class String; }
 namespace System { class UnhandledExceptionEventHandler; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class Assembly; }
@@ -81,7 +82,7 @@ namespace System
 		::System::ResolveEventHandler* ResourceResolve; // 0x58
 		::System::ResolveEventHandler* TypeResolve; // 0x60
 		::System::UnhandledExceptionEventHandler* UnhandledException; // 0x68
-		::System::EventHandler* FirstChanceException; // 0x70
+		::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* FirstChanceException; // 0x70
 		::System::Object* _domain_manager; // 0x78
 		::System::ResolveEventHandler* ReflectionOnlyAssemblyResolve; // 0x80
 		::System::Object* _activation; // 0x88

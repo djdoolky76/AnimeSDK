@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class LELCKJPOPAO;
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::GameCore
 {
@@ -19,7 +19,7 @@ namespace RPG::GameCore
 		::System::Int32 _LinearIndex; // 0x0
 		::System::Int32 _BucketIndex; // 0x0
 		::System::Int32 _FoundCount; // 0x0
-		::System::Collections::Generic::KeyValuePair* _Current; // 0x0
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, T> _Current; // 0x0
 		::System::Int32 _BucketSize; // 0x0
 		::System::UInt32 _DataOffset; // 0x0
 	};

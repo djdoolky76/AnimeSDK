@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class BAELLFLPIPF;
 class CHGHIALKMFM;
 class GGBEEJNPPOP;
 class PJPPGJEDCOG;
-namespace System { class Nullable; }
 
 #define LJHCJGNNMJD_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C56E270)
 #define LJHCJGNNMJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56E260)
@@ -47,9 +47,9 @@ inline static constexpr unsigned int LJHCJGNNMJD_TypeDefinitionIndex = 41811;
 			return ((::System::Int32(*)(::PVOID, ::CHGHIALKMFM*, ::CHGHIALKMFM*))((::PBYTE)hIl2Cpp + LJHCJGNNMJD_OCHDLMECPAJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* FEFOILCOBAM(::System::Int32 a1)
+		::System::Nullable_1<::System::Int32> FEFOILCOBAM(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LJHCJGNNMJD_FEFOILCOBAM_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LJHCJGNNMJD_FEFOILCOBAM_OFFSET))(this, a1);
 		}
 
 	};

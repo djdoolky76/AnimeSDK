@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class BindManagerCX; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCBA5A0)
 #define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS4_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BCBB270)
@@ -16,7 +16,7 @@ namespace MiHoYo::SDK::Console::OS
 	class BindManagerCX___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Action* OnLoginResult; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnLoginResult; // 0x10
 		::MiHoYo::SDK::Console::OS::BindManagerCX* __4__this; // 0x18
 		::System::Void _ctor()
 		{

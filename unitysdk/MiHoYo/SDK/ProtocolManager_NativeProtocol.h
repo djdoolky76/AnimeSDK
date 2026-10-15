@@ -3,8 +3,8 @@
 #include "unitysdk/MiHoYo/SDK/NativeTask.h"
 namespace MiHoYo::SDK { class BoxModel; }
 namespace MiHoYo::SDK { class ProtocolManager_NativeProtocol; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFBD2B0)
 #define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFBC360)
@@ -99,9 +99,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL_REMOVENATIVEFALLBACKFLAG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryShowLauncherProtocolCompliance(::System::String* a1, ::System::Action* a2)
+		::System::Boolean TryShowLauncherProtocolCompliance(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL_TRYSHOWLAUNCHERPROTOCOLCOMPLIANCE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL_TRYSHOWLAUNCHERPROTOCOLCOMPLIANCE_OFFSET))(this, a1, a2);
 		}
 
 	};

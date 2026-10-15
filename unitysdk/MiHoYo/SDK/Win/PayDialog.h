@@ -8,6 +8,7 @@ namespace MiHoYo::SDK::Win { class PayDialog; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
@@ -42,7 +43,7 @@ namespace MiHoYo::SDK::Win
 	public:
 		::System::Action* OnBack; // 0x58
 		::System::Action* OnPaySuccess; // 0x60
-		::System::Action* OnSelectPayType; // 0x68
+		::System::Action_1<::MiHoYo::SDK::PayPlat>* OnSelectPayType; // 0x68
 		::UnityEngine::UI::Button* backButton; // 0x70
 		::UnityEngine::GameObject* goodsContentGameObject; // 0x78
 		::UnityEngine::UI::Text* goodsNameText; // 0x80

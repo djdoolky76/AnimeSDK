@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class GOKNJPBGBLE;
-namespace R3 { class Observable; }
-namespace System { class Nullable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -27,24 +27,24 @@ namespace RPG::Client
 	class AvatarHpBarControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Nullable*, ::System::Single>** StaticGet___9__6_2()
+		static ::System::Func_2<::System::Nullable_1<::System::Single>, ::System::Single>** StaticGet___9__6_2()
 		{
-			return (::System::Func_2<::System::Nullable*, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B690);
+			return (::System::Func_2<::System::Nullable_1<::System::Single>, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B690);
 		}
 
-		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>** StaticGet___9__6_0()
+		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Single>*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B698);
+			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Single>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B698);
 		}
 
-		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>** StaticGet___9__5_1()
+		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6A0);
+			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6A0);
 		}
 
-		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>** StaticGet___9__5_3()
+		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_3()
 		{
-			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6A8);
+			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6A8);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6B0);
 		}
 
-		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>** StaticGet___9__5_0()
+		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Single>*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6B8);
+			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Single>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6B8);
 		}
 
 		static ::System::Func_2<::System::Single, ::System::Boolean>** StaticGet___9__5_4()
@@ -62,9 +62,9 @@ namespace RPG::Client
 			return (::System::Func_2<::System::Single, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6C0);
 		}
 
-		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>** StaticGet___9__5_2()
+		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Single>*>** StaticGet___9__5_2()
 		{
-			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6C8);
+			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Single>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6C8);
 		}
 
 		static ::System::Func_2<::System::Single, ::System::Boolean>** StaticGet___9__5_5()
@@ -72,14 +72,14 @@ namespace RPG::Client
 			return (::System::Func_2<::System::Single, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6D0);
 		}
 
-		static ::System::Func_2<::System::Nullable*, ::System::Boolean>** StaticGet___9__6_3()
+		static ::System::Func_2<::System::Nullable_1<::System::Single>, ::System::Boolean>** StaticGet___9__6_3()
 		{
-			return (::System::Func_2<::System::Nullable*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6D8);
+			return (::System::Func_2<::System::Nullable_1<::System::Single>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6D8);
 		}
 
-		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>** StaticGet___9__6_1()
+		static ::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6E0);
+			return (::System::Func_2<::GOKNJPBGBLE*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B6E0);
 		}
 
 		static ::System::Void _cctor()
@@ -92,14 +92,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable* __BindHp_b__5_0(::GOKNJPBGBLE* a1)
+		::R3::Observable_1<::System::Single>* __BindHp_b__5_0(::GOKNJPBGBLE* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Single>*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHp_b__5_1(::GOKNJPBGBLE* a1)
+		::R3::Observable_1<::System::Boolean>* __BindHp_b__5_1(::GOKNJPBGBLE* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindHp_b__5_4(::System::Single a1)
@@ -107,14 +107,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHp_b__5_2(::GOKNJPBGBLE* a1)
+		::R3::Observable_1<::System::Single>* __BindHp_b__5_2(::GOKNJPBGBLE* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Single>*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHp_b__5_3(::GOKNJPBGBLE* a1)
+		::R3::Observable_1<::System::Boolean>* __BindHp_b__5_3(::GOKNJPBGBLE* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_3_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindHp_b__5_5(::System::Single a1)
@@ -122,24 +122,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDHP_B__5_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindPlusHp_b__6_0(::GOKNJPBGBLE* a1)
+		::R3::Observable_1<::System::Single>* __BindPlusHp_b__6_0(::GOKNJPBGBLE* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDPLUSHP_B__6_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Single>*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDPLUSHP_B__6_0_OFFSET))(this, a1);
 		}
 
-		::System::Single __BindPlusHp_b__6_2(::System::Nullable* a1)
+		::System::Single __BindPlusHp_b__6_2(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDPLUSHP_B__6_2_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDPLUSHP_B__6_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindPlusHp_b__6_1(::GOKNJPBGBLE* a1)
+		::R3::Observable_1<::System::Boolean>* __BindPlusHp_b__6_1(::GOKNJPBGBLE* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDPLUSHP_B__6_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDPLUSHP_B__6_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __BindPlusHp_b__6_3(::System::Nullable* a1)
+		::System::Boolean __BindPlusHp_b__6_3(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDPLUSHP_B__6_3_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARHPBARCONTROL___C___BINDPLUSHP_B__6_3_OFFSET))(this, a1);
 		}
 
 	};

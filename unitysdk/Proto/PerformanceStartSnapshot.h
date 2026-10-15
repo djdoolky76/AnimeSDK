@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
@@ -107,9 +107,9 @@ namespace Proto
 		::System::UInt32 contentId_; // 0x98
 		::System::UInt32 dimensionId_; // 0x9C
 		::System::UInt32 ownerGroupId_; // 0xA0
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::PerformanceStartSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16840);
+			return (::Google::Protobuf::MessageParser_1<::Proto::PerformanceStartSnapshot*>**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16840);
 		}
 
 		static ::System::Object** StaticGet__map_floorCustomValueList_codec()
@@ -122,24 +122,24 @@ namespace Proto
 			return (::System::Object**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16850);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_clientGroupList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_clientGroupList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16858);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16858);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_serverLegacyGroupList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_serverLegacyGroupList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16860);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16860);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_serverGroupList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_serverGroupList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16868);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16868);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_clientLegacyGroupList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>** StaticGet__repeated_clientLegacyGroupList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16870);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::GroupSnapshot*>**)UnitySDK::FromName("Proto", "PerformanceStartSnapshot")->GetStaticField(0x16870);
 		}
 
 		// static const ::System::Object PerformanceIdFieldNumber; // 0x0
@@ -180,9 +180,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_PERFORMANCESTARTSNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::PerformanceStartSnapshot*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_PERFORMANCESTARTSNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::PerformanceStartSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_PERFORMANCESTARTSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

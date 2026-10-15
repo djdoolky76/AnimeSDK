@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DBBPHCIBIBI;
 class PBGNKMMDBGD;
 
@@ -13,7 +13,7 @@ inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass27_0_TypeDefin
 	class DBBPHCIBIBI___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::ValueTuple>* catsTargets; // 0x10
+		::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* catsTargets; // 0x10
 		::DBBPHCIBIBI* __4__this; // 0x18
 		::System::Void _ctor()
 		{

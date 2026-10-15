@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Decimal.h"
@@ -22,7 +22,7 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Object* __7__wrap3; // 0x10
 		::System::Threading::CancellationToken cancellationToken; // 0x18
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Decimal> __t__builder; // 0x30
 		::System::Byte _padding0[0x18];
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Decimal>* source; // 0x50
 		::System::Object* __u__1; // 0x58

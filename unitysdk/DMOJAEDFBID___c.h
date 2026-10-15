@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class MEDGOLOBNJM;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
 #define DMOJAEDFBID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xFECD750)
@@ -26,9 +26,9 @@ inline static constexpr unsigned int DMOJAEDFBID___c_TypeDefinitionIndex = 71317
 			return (::System::Comparison_1<::MEDGOLOBNJM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E9B8);
 		}
 
-		static ::System::Action** StaticGet___9__45_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__45_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E9C0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E9C0);
 		}
 
 		static ::System::Void _cctor()

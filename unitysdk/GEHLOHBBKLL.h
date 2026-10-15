@@ -11,6 +11,7 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelUIComponent; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
@@ -68,7 +69,7 @@ inline static constexpr unsigned int GEHLOHBBKLL_TypeDefinitionIndex = 71825;
 		::UnityEngine::Transform* HCOGIJGBHFB; // 0x80
 		::System::Action* OOMGNJOILLB; // 0x88
 		::UnityEngine::UI::Text* BDDBIFFMCCB; // 0x90
-		::System::Action* LECMHEEAFEM; // 0x98
+		::System::Action_1<::System::Single>* LECMHEEAFEM; // 0x98
 		::UnityEngine::Transform* MOFBLBLNPIM; // 0xA0
 		::HGKIKKOLLFA* INFKHFPPPCN; // 0xA8
 		::UnityEngine::Color GLHMOPDPMLH; // 0xB0
@@ -187,9 +188,9 @@ inline static constexpr unsigned int GEHLOHBBKLL_TypeDefinitionIndex = 71825;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GEHLOHBBKLL_CEENCDMHBFB_OFFSET))(this, a1);
 		}
 
-		::System::Void GDBOALOEFMD(::System::Action* a1)
+		::System::Void GDBOALOEFMD(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GEHLOHBBKLL_GDBOALOEFMD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + GEHLOHBBKLL_GDBOALOEFMD_OFFSET))(this, a1);
 		}
 
 		::System::Void OPCDEPOJOAL()

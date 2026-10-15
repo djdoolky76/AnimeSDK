@@ -5,7 +5,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 #define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB80140)
 #define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB80080)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class TimeSpanFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::TimeSpan>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "TimeSpanFormatter")->GetStaticField(0x25520);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::TimeSpan>**)UnitySDK::FromName("MessagePack.Formatters", "TimeSpanFormatter")->GetStaticField(0x25520);
 		}
 
 		::System::Void _ctor()

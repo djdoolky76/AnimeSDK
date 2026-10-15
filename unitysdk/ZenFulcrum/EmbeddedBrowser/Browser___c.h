@@ -4,6 +4,10 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Texture2D; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
@@ -37,9 +41,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 	class Browser___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__254_15()
+		static ::System::Action_2<::System::Boolean, ::System::Boolean>** StaticGet___9__254_15()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1D0);
+			return (::System::Action_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1D0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -47,9 +51,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1D8);
 		}
 
-		static ::System::Action** StaticGet___9__254_3()
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1E0);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1E0);
 		}
 
 		static ::System::Action** StaticGet___9__254_7()
@@ -57,9 +61,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1E8);
 		}
 
-		static ::System::Action** StaticGet___9__254_11()
+		static ::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_11()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1F0);
+			return (::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1F0);
 		}
 
 		static ::System::Action** StaticGet___9__254_9()
@@ -67,39 +71,39 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1F8);
 		}
 
-		static ::System::Action** StaticGet___9__254_12()
+		static ::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>** StaticGet___9__254_12()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E200);
+			return (::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E200);
 		}
 
-		static ::System::Action** StaticGet___9__254_13()
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_13()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E208);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E208);
 		}
 
-		static ::System::Action** StaticGet___9__254_0()
+		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__254_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E210);
+			return (::System::Action_2<::System::String*, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E210);
 		}
 
-		static ::System::Action** StaticGet___9__254_5()
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_5()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E218);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E218);
 		}
 
-		static ::System::Action** StaticGet___9__254_10()
+		static ::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>** StaticGet___9__254_10()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E220);
+			return (::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E220);
 		}
 
-		static ::System::Action** StaticGet___9__158_1()
+		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__158_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E228);
+			return (::System::Action_2<::System::String*, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E228);
 		}
 
-		static ::System::Action** StaticGet___9__254_14()
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_14()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E230);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E230);
 		}
 
 		static ::System::Action** StaticGet___9__254_8()
@@ -107,24 +111,24 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E238);
 		}
 
-		static ::System::Action** StaticGet___9__254_4()
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E240);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E240);
 		}
 
-		static ::System::Action** StaticGet___9__254_1()
+		static ::System::Action_1<::UnityEngine::Texture2D*>** StaticGet___9__254_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E248);
+			return (::System::Action_1<::UnityEngine::Texture2D*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E248);
 		}
 
-		static ::System::Action** StaticGet___9__254_2()
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E250);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E250);
 		}
 
-		static ::System::Action** StaticGet___9__254_6()
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_6()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E258);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E258);
 		}
 
 		static ::System::Void _cctor()

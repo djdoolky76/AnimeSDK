@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KJCHLFOFENJ;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class VCameraOverrideShakeV2; }
 namespace RPG::GameCore { class VCameraShakeV2; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -79,9 +79,9 @@ inline static constexpr unsigned int KEGNPEGPLPM_TypeDefinitionIndex = 69645;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + KEGNPEGPLPM_PBFOFDPFCPH_OFFSET))(this);
 		}
 
-		::System::Nullable* EALGGCNBLDN(::System::Nullable* a1, ::System::Nullable* a2)
+		::System::Nullable_1<::System::Single> EALGGCNBLDN(::System::Nullable_1<::System::Single> a1, ::System::Nullable_1<::System::Single> a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + KEGNPEGPLPM_EALGGCNBLDN_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + KEGNPEGPLPM_EALGGCNBLDN_OFFSET))(this, a1, a2);
 		}
 
 	};

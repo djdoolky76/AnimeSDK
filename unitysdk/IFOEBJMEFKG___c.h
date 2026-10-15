@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftChipTraitType.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CHGHIALKMFM;
 class IFOEBJMEFKG_BCEIMHGKKCC;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define IFOEBJMEFKG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15F2F130)
 #define IFOEBJMEFKG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15F2F170)
@@ -58,9 +58,9 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58478);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__53_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__53_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58480);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58480);
 		}
 
 		static ::System::Func_2<::CHGHIALKMFM*, ::System::Int32>** StaticGet___9__52_7()
@@ -68,9 +68,9 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return (::System::Func_2<::CHGHIALKMFM*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58488);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__52_3()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__52_3()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58490);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58490);
 		}
 
 		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__52_5()
@@ -88,14 +88,14 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return (::System::Func_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584A8);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::Int32>** StaticGet___9__52_4()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>** StaticGet___9__52_4()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584B0);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584B0);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__53_4()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__53_4()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584B8);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584B8);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__51_1()
@@ -108,14 +108,14 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584C8);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*>** StaticGet___9__54_1()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__54_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584D0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584D0);
 		}
 
-		static ::System::Func_3<::System::Collections::Generic::KeyValuePair*, ::System::Int32, ::System::ValueTuple>** StaticGet___9__54_2()
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>** StaticGet___9__54_2()
 		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair*, ::System::Int32, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584D8);
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584D8);
 		}
 
 		static ::System::Func_2<::CHGHIALKMFM*, ::System::Int32>** StaticGet___9__53_10()
@@ -133,19 +133,19 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584F0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*>** StaticGet___9__52_1()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__52_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584F8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x584F8);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__54_3()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>** StaticGet___9__54_3()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58500);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::RPG::Client::MechCraft::MechCraftAttributeType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58500);
 		}
 
-		static ::System::Func_3<::System::Collections::Generic::KeyValuePair*, ::System::Int32, ::System::ValueTuple>** StaticGet___9__52_2()
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>** StaticGet___9__52_2()
 		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair*, ::System::Int32, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58508);
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58508);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__32_0()
@@ -163,29 +163,29 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return (::System::Func_2<::CHGHIALKMFM*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58520);
 		}
 
-		static ::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple>** StaticGet___9__53_3()
+		static ::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>** StaticGet___9__53_3()
 		{
-			return (::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58528);
+			return (::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58528);
 		}
 
-		static ::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple>** StaticGet___9__54_7()
+		static ::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>** StaticGet___9__54_7()
 		{
-			return (::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58530);
+			return (::System::Func_3<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58530);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::Int32>** StaticGet___9__53_5()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>** StaticGet___9__53_5()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58538);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58538);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__54_8()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__54_8()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58540);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58540);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::Int32>** StaticGet___9__54_4()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>** StaticGet___9__54_4()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58548);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58548);
 		}
 
 		static ::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>** StaticGet___9__53_6()
@@ -193,9 +193,9 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return (::System::Func_2<::CHGHIALKMFM*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58550);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::Int32>** StaticGet___9__54_9()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>** StaticGet___9__54_9()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58558);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58558);
 		}
 
 		static ::System::Void _cctor()
@@ -233,24 +233,24 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return ((::System::Boolean(*)(::PVOID, ::CHGHIALKMFM*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFOREXAM_B__51_3_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* __TryRecommendMoldForAttrNotMetOnly_b__52_1(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> __TryRecommendMoldForAttrNotMetOnly_b__52_1(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_1_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_1_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __TryRecommendMoldForAttrNotMetOnly_b__52_2(::System::Collections::Generic::KeyValuePair* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> __TryRecommendMoldForAttrNotMetOnly_b__52_2(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Int32))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_2_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_2_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::MechCraft::MechCraftAttributeType __TryRecommendMoldForAttrNotMetOnly_b__52_3(::System::ValueTuple a1)
+		::RPG::Client::MechCraft::MechCraftAttributeType __TryRecommendMoldForAttrNotMetOnly_b__52_3(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_3_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_3_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __TryRecommendMoldForAttrNotMetOnly_b__52_4(::System::ValueTuple a1)
+		::System::Int32 __TryRecommendMoldForAttrNotMetOnly_b__52_4(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_4_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_4_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __TryRecommendMoldForAttrNotMetOnly_b__52_5(::CHGHIALKMFM* a1)
@@ -263,9 +263,9 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return ((::System::Int32(*)(::PVOID, ::CHGHIALKMFM*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRNOTMETONLY_B__52_7_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MechCraft::MechCraftAttributeType __TryRecommendMoldForTraitNotMetOnly_b__53_0(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::MechCraft::MechCraftAttributeType __TryRecommendMoldForTraitNotMetOnly_b__53_0(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_0_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_0_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MechCraft::MechCraftChipTraitType __TryRecommendMoldForTraitNotMetOnly_b__53_2(::RPG::Client::MechCraft::MechCraftChipTraitType a1)
@@ -273,19 +273,19 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_2_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __TryRecommendMoldForTraitNotMetOnly_b__53_3(::RPG::Client::MechCraft::MechCraftChipTraitType a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> __TryRecommendMoldForTraitNotMetOnly_b__53_3(::RPG::Client::MechCraft::MechCraftChipTraitType a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_3_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_3_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::MechCraft::MechCraftChipTraitType __TryRecommendMoldForTraitNotMetOnly_b__53_4(::System::ValueTuple a1)
+		::RPG::Client::MechCraft::MechCraftChipTraitType __TryRecommendMoldForTraitNotMetOnly_b__53_4(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_4_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_4_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __TryRecommendMoldForTraitNotMetOnly_b__53_5(::System::ValueTuple a1)
+		::System::Int32 __TryRecommendMoldForTraitNotMetOnly_b__53_5(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_5_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_5_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __TryRecommendMoldForTraitNotMetOnly_b__53_6(::CHGHIALKMFM* a1)
@@ -303,24 +303,24 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return ((::System::Int32(*)(::PVOID, ::CHGHIALKMFM*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__53_10_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* __TryRecommendMoldForAttrTraitNeitherMet_b__54_1(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> __TryRecommendMoldForAttrTraitNeitherMet_b__54_1(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_1_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_1_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __TryRecommendMoldForAttrTraitNeitherMet_b__54_2(::System::Collections::Generic::KeyValuePair* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> __TryRecommendMoldForAttrTraitNeitherMet_b__54_2(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Int32))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_2_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_2_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::MechCraft::MechCraftAttributeType __TryRecommendMoldForAttrTraitNeitherMet_b__54_3(::System::ValueTuple a1)
+		::RPG::Client::MechCraft::MechCraftAttributeType __TryRecommendMoldForAttrTraitNeitherMet_b__54_3(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_3_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_3_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __TryRecommendMoldForAttrTraitNeitherMet_b__54_4(::System::ValueTuple a1)
+		::System::Int32 __TryRecommendMoldForAttrTraitNeitherMet_b__54_4(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_4_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_4_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MechCraft::MechCraftChipTraitType __TryRecommendMoldForAttrTraitNeitherMet_b__54_6(::RPG::Client::MechCraft::MechCraftChipTraitType a1)
@@ -328,19 +328,19 @@ inline static constexpr unsigned int IFOEBJMEFKG___c_TypeDefinitionIndex = 79446
 			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_6_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __TryRecommendMoldForAttrTraitNeitherMet_b__54_7(::RPG::Client::MechCraft::MechCraftChipTraitType a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> __TryRecommendMoldForAttrTraitNeitherMet_b__54_7(::RPG::Client::MechCraft::MechCraftChipTraitType a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_7_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_7_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::MechCraft::MechCraftChipTraitType __TryRecommendMoldForAttrTraitNeitherMet_b__54_8(::System::ValueTuple a1)
+		::RPG::Client::MechCraft::MechCraftChipTraitType __TryRecommendMoldForAttrTraitNeitherMet_b__54_8(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_8_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_8_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __TryRecommendMoldForAttrTraitNeitherMet_b__54_9(::System::ValueTuple a1)
+		::System::Int32 __TryRecommendMoldForAttrTraitNeitherMet_b__54_9(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_9_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__54_9_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __TryRecommendMoldForAttrTraitNeitherMet_b__54_10(::CHGHIALKMFM* a1)

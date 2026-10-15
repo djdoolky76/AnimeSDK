@@ -4,6 +4,8 @@
 namespace MiHoYo::SDK::Win { class GuestBindPhone; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
@@ -44,8 +46,8 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Text* submitButtonText; // 0x98
 		::UnityEngine::UI::Text* redirectButtonText; // 0xA0
 		::System::Action* OnClose; // 0xA8
-		::System::Action* OnGetCode; // 0xB0
-		::System::Action* OnBind; // 0xB8
+		::System::Action_1<::System::String*>* OnGetCode; // 0xB0
+		::System::Action_2<::System::String*, ::System::String*>* OnBind; // 0xB8
 		::System::Action* OnBindMail; // 0xC0
 		::System::Boolean isRequestVerifyCode; // 0xC8
 		::System::Byte _padding0[0x3];

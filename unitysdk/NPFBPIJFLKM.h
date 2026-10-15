@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/IGKFNIEJGLM.h"
 class EHLKMDOAFOB;
 class IMOAFBKNDGG;
 namespace RPG::Client { class SPProgress; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
@@ -30,7 +30,7 @@ inline static constexpr unsigned int NPFBPIJFLKM_TypeDefinitionIndex = 71871;
 		::UnityEngine::Transform* DILJKKIJCCL; // 0x78
 		::System::Collections::Generic::List_1<::IMOAFBKNDGG*>* HICJMOPEGCA; // 0x80
 		::UnityEngine::Transform* EHCGMIMEPCI; // 0x88
-		::System::Nullable* IOBINHIJKEJ; // 0x90
+		::System::Nullable_1<::System::Int32> IOBINHIJKEJ; // 0x90
 		::System::Boolean AKBPNMEFGAO; // 0x98
 		::System::Void _ctor()
 		{

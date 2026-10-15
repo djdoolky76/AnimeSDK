@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 class JCAOAPBEMJD;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define ODILGKCOCJD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D258000)
 #define ODILGKCOCJD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2585D0)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int ODILGKCOCJD_TypeDefinitionIndex = 11575;
 	class ODILGKCOCJD : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "ODILGKCOCJD")->GetStaticField(0x322B0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "ODILGKCOCJD")->GetStaticField(0x322B0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int ODILGKCOCJD_TypeDefinitionIndex = 11575;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::JCAOAPBEMJD*>(*)())((::PBYTE)hIl2Cpp + ODILGKCOCJD_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::JCAOAPBEMJD*>, ::JCAOAPBEMJD*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + ODILGKCOCJD_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::JCAOAPBEMJD*>, ::JCAOAPBEMJD*>(*)())((::PBYTE)hIl2Cpp + ODILGKCOCJD_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::JCAOAPBEMJD* LMBKNCAIDLC(::System::UInt32 a1)

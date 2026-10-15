@@ -6,8 +6,8 @@ class JIAFOPELMJJ;
 class MHHDLGIJDMO;
 class NKMIDHGFCDI;
 namespace RPG::Client { class ServerDispatchData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections { class IEnumerator; }
 
 #define IILDDCNDMOJ_CHAMHFBICKC_OFFSET UNITYSDK_OFFSET(0x1644A2D0)
@@ -30,7 +30,7 @@ inline static constexpr unsigned int IILDDCNDMOJ_TypeDefinitionIndex = 61227;
 	class IILDDCNDMOJ : public ::System::Object
 	{
 	public:
-		::System::Action* CKEDCCHCKAH; // 0x10
+		::System::Action_2<::System::Boolean, ::NKMIDHGFCDI*>* CKEDCCHCKAH; // 0x10
 		::MHHDLGIJDMO* BIOKPIMHBNK; // 0x18
 		::JIAFOPELMJJ* MIPPNCGOJNM; // 0x20
 		::System::Void _ctor()
@@ -58,9 +58,9 @@ inline static constexpr unsigned int IILDDCNDMOJ_TypeDefinitionIndex = 61227;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IILDDCNDMOJ_CHJHKJGDLGJ_OFFSET))(this);
 		}
 
-		::System::Void POEFHGALPNI(::System::Action* a1)
+		::System::Void POEFHGALPNI(::System::Action_2<::System::Boolean, ::NKMIDHGFCDI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IILDDCNDMOJ_POEFHGALPNI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Boolean, ::NKMIDHGFCDI*>*))((::PBYTE)hIl2Cpp + IILDDCNDMOJ_POEFHGALPNI_OFFSET))(this, a1);
 		}
 
 		::System::Void DHGMLJIGPBK(::System::Object* a1)

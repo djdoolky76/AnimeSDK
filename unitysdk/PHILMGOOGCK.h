@@ -3,12 +3,12 @@
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/WeaknessState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/IGKFNIEJGLM.h"
 class KMGHMEJFAKE;
 namespace RPG::Client { class RPGAnimationEvent; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
@@ -79,7 +79,7 @@ inline static constexpr unsigned int PHILMGOOGCK_TypeDefinitionIndex = 72096;
 		::UnityEngine::UI::Image* EIAEMNMJOJI; // 0x80
 		::UnityEngine::UI::Image* AONLGGIGCKE; // 0x88
 		::UnityEngine::Transform* KIONPDKAHOL; // 0x90
-		::System::Action* IINEMAPKHAK; // 0x98
+		::System::Action_1<::RPG::GameCore::AttackDamageType>* IINEMAPKHAK; // 0x98
 		::UnityEngine::Animation* OFDFAIMLJKB; // 0xA0
 		::UnityEngine::Transform* EOEEKANEGEH; // 0xA8
 		::UnityEngine::ParticleSystem* BOBDAKFODDC; // 0xB0
@@ -93,7 +93,7 @@ inline static constexpr unsigned int PHILMGOOGCK_TypeDefinitionIndex = 72096;
 		::RPG::GameCore::WeaknessState DBCADLBJMMN; // 0xEC
 		::System::Boolean GINNMDOLMLG; // 0xF0
 		::System::Boolean DIMECBLLOGB; // 0xF1
-		::System::Nullable* ALKJCDKMOBP; // 0xF2
+		::System::Nullable_1<::System::Boolean> ALKJCDKMOBP; // 0xF2
 		// static const ::System::String* PALOECOGDNK; // 0x0
 		// static const ::System::String* BGCNJNHIIME; // 0x0
 		// static const ::System::String* CJKGBEFLPEL; // 0x0
@@ -197,9 +197,9 @@ inline static constexpr unsigned int PHILMGOOGCK_TypeDefinitionIndex = 72096;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHILMGOOGCK_NCKNAAFBMPL_OFFSET))(this);
 		}
 
-		::System::Void PFOIOFEMELJ(::System::Action* a1)
+		::System::Void PFOIOFEMELJ(::System::Action_1<::RPG::GameCore::AttackDamageType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PHILMGOOGCK_PFOIOFEMELJ_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::AttackDamageType>*))((::PBYTE)hIl2Cpp + PHILMGOOGCK_PFOIOFEMELJ_OFFSET))(this, a1);
 		}
 
 		::System::Void INOMCPLIBNN(::System::Boolean a1)

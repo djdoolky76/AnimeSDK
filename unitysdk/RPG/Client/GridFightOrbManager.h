@@ -11,8 +11,8 @@ namespace RPG::Client { class GridFightOrbEntityData; }
 namespace RPG::Client { class GridFightPresentEntity; }
 namespace RPG::Client { class OrbSpawnConfig; }
 namespace RPG::Client { class UIPrefabLoader; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class BoxCollider; }
@@ -69,8 +69,8 @@ namespace RPG::Client
 		::System::Byte _padding0[0x2];
 		::System::UInt32 _OrbNum; // 0x2C
 		::System::Collections::Generic::List_1<::DJECDMCCEBM*>* _PresentPos; // 0x30
-		::System::Action* OnSphereClicked; // 0x38
-		::System::Action* OnSphereDragEnter; // 0x40
+		::System::Action_1<::UnityEngine::GameObject*>* OnSphereClicked; // 0x38
+		::System::Action_1<::UnityEngine::GameObject*>* OnSphereDragEnter; // 0x40
 		::UnityEngine::Camera* _mainCamera; // 0x48
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _generatedSpheres; // 0x50
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _pendingRegenerateSpheres; // 0x58
@@ -254,14 +254,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::UnityEngine::EventSystems::RaycastResult))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER__ISUIRESULT_OFFSET))(a1);
 		}
 
-		::System::Void RegisterOnClickCallback(::System::Action* a1)
+		::System::Void RegisterOnClickCallback(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONCLICKCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONCLICKCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterOnDragEnterCallback(::System::Action* a1)
+		::System::Void RegisterOnDragEnterCallback(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONDRAGENTERCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBMANAGER_REGISTERONDRAGENTERCALLBACK_OFFSET))(this, a1);
 		}
 
 	};

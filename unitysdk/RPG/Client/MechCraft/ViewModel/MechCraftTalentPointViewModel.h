@@ -6,8 +6,8 @@ class CEEGMMCFCBG;
 class GMDIBFIGIEG;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewModel; }
 namespace Sofa::Core { class SimpleCommand; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_ADD_ONSELECTREQUESTED_OFFSET UNITYSDK_OFFSET(0xD687690)
@@ -53,11 +53,11 @@ namespace RPG::Client::MechCraft::ViewModel
 	class MechCraftTalentPointViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:
-		::System::Action* OnMoveRequested; // 0x18
+		::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*>* OnMoveRequested; // 0x18
 		::Sofa::Core::SimpleCommand* _SelectSilentlyCommand; // 0x20
 		::Sofa::Core::SimpleCommand* _MoveCommand; // 0x28
 		::GMDIBFIGIEG* _Model_k__BackingField; // 0x30
-		::System::Action* OnSelectRequested; // 0x38
+		::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*>* OnSelectRequested; // 0x38
 		::Sofa::Core::SimpleCommand* _SelectCommand; // 0x40
 		::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointState _State; // 0x48
 		::System::Boolean _IsPrePointUnlocked; // 0x4C
@@ -197,14 +197,14 @@ namespace RPG::Client::MechCraft::ViewModel
 			return ((::CEEGMMCFCBG*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_GET_SELECTSILENTLYCOMMAND_OFFSET))(this);
 		}
 
-		::System::Void add_OnSelectRequested(::System::Action* a1)
+		::System::Void add_OnSelectRequested(::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_ADD_ONSELECTREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_ADD_ONSELECTREQUESTED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnSelectRequested(::System::Action* a1)
+		::System::Void remove_OnSelectRequested(::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_REMOVE_ONSELECTREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTTALENTPOINTVIEWMODEL_REMOVE_ONSELECTREQUESTED_OFFSET))(this, a1);
 		}
 
 		::System::Void RefreshModelState()

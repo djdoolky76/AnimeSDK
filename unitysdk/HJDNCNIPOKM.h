@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/LittleGame/Match3/Match3GameState.h"
 #include "unitysdk/RPG/Client/LittleGame/Match3/MatchThreeGameMode.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BOMFGKDLHIB;
 class CNPJKKGEDPC;
 class EFHNDMENDHI;
@@ -29,6 +29,7 @@ namespace RPG::GameCore::Match3 { class PieceConfig; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -109,7 +110,7 @@ inline static constexpr unsigned int HJDNCNIPOKM_TypeDefinitionIndex = 76558;
 		::BOMFGKDLHIB* PDENFEFCAGN; // 0x20
 		::RPG::GameCore::GameEntity* LIDKFDENKAP; // 0x28
 		::RPG::Client::LittleGame::MatchThreeTimelineBattleField* NJGEMGKDBCM; // 0x30
-		::System::Action* EFKLHOJHCEG; // 0x38
+		::System::Action_1<::RPG::Client::LittleGame::Match3::Match3GameState>* EFKLHOJHCEG; // 0x38
 		::System::Collections::Generic::List_1<::RPG::Client::MatchThreeGameProp*>* NDOAIECPLBE; // 0x40
 		::System::String* JLFLLPEIKGF; // 0x48
 		::System::Action* MJBDDBBGBLJ; // 0x50
@@ -174,9 +175,9 @@ inline static constexpr unsigned int HJDNCNIPOKM_TypeDefinitionIndex = 76558;
 			return ((::System::Void(*)(::PVOID, ::EFHNDMENDHI*, ::System::Boolean))((::PBYTE)hIl2Cpp + HJDNCNIPOKM_NMLLENFFMKO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean MIPMEOLJNGI(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Boolean MIPMEOLJNGI(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + HJDNCNIPOKM_MIPMEOLJNGI_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + HJDNCNIPOKM_MIPMEOLJNGI_OFFSET))(this, a1);
 		}
 
 		::System::Void DKAMIGJIOIF()
@@ -249,9 +250,9 @@ inline static constexpr unsigned int HJDNCNIPOKM_TypeDefinitionIndex = 76558;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HJDNCNIPOKM_GBCGMPKFNOK_OFFSET))(this);
 		}
 
-		::System::ValueTuple KNIICBLCKLF()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> KNIICBLCKLF()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + HJDNCNIPOKM_KNIICBLCKLF_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + HJDNCNIPOKM_KNIICBLCKLF_OFFSET))(this);
 		}
 
 		::System::Void CLABIOEEDDO()

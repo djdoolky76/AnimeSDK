@@ -10,9 +10,9 @@ namespace SuperScrollView { class LoopFlexibleGridView; }
 namespace SuperScrollView { class LoopGridView; }
 namespace SuperScrollView { class LoopListView2; }
 namespace SuperScrollView { class LoopStaggeredGridView; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -69,7 +69,7 @@ namespace RPG::Client
 	public:
 		::UnityEngine::GameObject* _EmptyStateNode; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _ItemPrefabs; // 0x20
-		::System::Action* OnScroll; // 0x28
+		::System::Action_1<::UnityEngine::Vector2>* OnScroll; // 0x28
 		::RPG::Client::ListView_BackendKind CMAOAKMIMLA; // 0x30
 		::System::Byte _padding0[0x4];
 		::RPG::Client::StaticListView* PJBPELODMJP; // 0x38
@@ -149,19 +149,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_LISTVIEW_SET_NORMALIZEDPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnScroll(::System::Action* a1)
+		::System::Void add_OnScroll(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LISTVIEW_ADD_ONSCROLL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LISTVIEW_ADD_ONSCROLL_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnScroll(::System::Action* a1)
+		::System::Void remove_OnScroll(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LISTVIEW_REMOVE_ONSCROLL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LISTVIEW_REMOVE_ONSCROLL_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::System::Collections::Generic::IReadOnlyCollection_1<::System::Object*>* a1, ::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>* a2, ::System::Action* a3, ::System::Func_2<::System::Object*, ::System::Int32>* a4)
+		::System::Void Init(::System::Collections::Generic::IReadOnlyCollection_1<::System::Object*>* a1, ::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>* a2, ::System::Action_1<::UnityEngine::GameObject*>* a3, ::System::Func_2<::System::Object*, ::System::Int32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyCollection_1<::System::Object*>*, ::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>*, ::System::Action*, ::System::Func_2<::System::Object*, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LISTVIEW_INIT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyCollection_1<::System::Object*>*, ::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>*, ::System::Action_1<::UnityEngine::GameObject*>*, ::System::Func_2<::System::Object*, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LISTVIEW_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::GameObject* NewItem(::System::Int32 a1)

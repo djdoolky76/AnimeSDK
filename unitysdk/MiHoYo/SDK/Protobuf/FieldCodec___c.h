@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 #define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBE3D90)
@@ -37,14 +37,14 @@ namespace MiHoYo::SDK::Protobuf
 			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x4CB40);
 		}
 
-		static ::System::Action** StaticGet___9__3_1()
+		static ::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::Int32>** StaticGet___9__3_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x4CB48);
+			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::Int32>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x4CB48);
 		}
 
-		static ::System::Action** StaticGet___9__0_1()
+		static ::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::String*>** StaticGet___9__0_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x4CB50);
+			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x4CB50);
 		}
 
 		static ::System::Void _cctor()

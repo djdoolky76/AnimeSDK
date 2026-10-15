@@ -21,12 +21,12 @@ namespace RPG::Client { class ChimeraDuelSkillInfo; }
 namespace RPG::Client { class ChimeraDuelTalkInfo; }
 namespace RPG::Client { class ChimeraDuelTools_ShowcaseBattleSetup; }
 namespace RPG::Client { class IChimeraDuelChallengeTeam; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleBoard; }
 namespace RPG::Client::Prop { class IChimeraDuelMainPuzzleStateMachine; }
 namespace System { class Object; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -111,11 +111,11 @@ namespace RPG::Client
 	public:
 		::RPG::Client::Prop::ChimeraDuelMainPuzzleBoard* _MainPuzzleBoard_k__BackingField; // 0x10
 		::System::Collections::Generic::List_1<::LGEDKNLBCAN*>* _PendingSessionChanges; // 0x18
-		::System::Tuple* _NextChallengeBattle_k__BackingField; // 0x20
+		::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* _NextChallengeBattle_k__BackingField; // 0x20
 		::EBLJHPOGCHJ* _FriendPvpInfo_k__BackingField; // 0x28
 		::System::Collections::Generic::List_1<::INAOPPNJBAC*>* _SendPacketProxies; // 0x30
 		::RPG::Client::ChimeraDuelPlayerData* _PlayerData_k__BackingField; // 0x38
-		::RPG::Client::Promises::Promise* _RequestingStartGame; // 0x40
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _RequestingStartGame; // 0x40
 		::RPG::Client::ChimeraDuelAchievementDataManager* _AchievementDataManager_k__BackingField; // 0x48
 		::POBNHFMGBMO* _RankInfo_k__BackingField; // 0x50
 		::BNLDPBNNINH* _RoundInfo_k__BackingField; // 0x58
@@ -195,9 +195,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMODULE_SENDSELECTGAMECSREQ_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* SendStartGamePromised(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* SendStartGamePromised(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMODULE_SENDSTARTGAMEPROMISED_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMODULE_SENDSTARTGAMEPROMISED_OFFSET))(this, a1);
 		}
 
 		::System::Void _TryResolvePromisedStartGame(::System::Boolean a1)
@@ -415,14 +415,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelAchievementDataManager*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMODULE_SET_ACHIEVEMENTDATAMANAGER_OFFSET))(this, a1);
 		}
 
-		::System::Tuple* get_NextChallengeBattle()
+		::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* get_NextChallengeBattle()
 		{
-			return ((::System::Tuple*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMODULE_GET_NEXTCHALLENGEBATTLE_OFFSET))(this);
+			return ((::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMODULE_GET_NEXTCHALLENGEBATTLE_OFFSET))(this);
 		}
 
-		::System::Void set_NextChallengeBattle(::System::Tuple* a1)
+		::System::Void set_NextChallengeBattle(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Tuple*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMODULE_SET_NEXTCHALLENGEBATTLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELMODULE_SET_NEXTCHALLENGEBATTLE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChimeraDuelTools_ShowcaseBattleSetup* get_NextShowcaseBattle()

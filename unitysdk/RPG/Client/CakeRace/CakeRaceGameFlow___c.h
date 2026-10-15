@@ -4,6 +4,7 @@
 namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8F85A0)
 #define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F85E0)
@@ -19,19 +20,19 @@ namespace RPG::Client::CakeRace
 	class CakeRaceGameFlow___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__68_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__68_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x60D80);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x60D80);
 		}
 
-		static ::System::Action** StaticGet___9__70_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__70_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x60D88);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x60D88);
 		}
 
-		static ::System::Action** StaticGet___9__32_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__32_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x60D90);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x60D90);
 		}
 
 		static ::System::Object** StaticGet___9()

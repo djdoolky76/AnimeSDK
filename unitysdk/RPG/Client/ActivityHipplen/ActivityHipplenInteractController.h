@@ -16,6 +16,7 @@ namespace RPG::Client::ActivityHipplen { class HipplenInteractCameraController; 
 namespace RPG::Client::ActivityHipplen { class HipplenInteractShakeParams; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -76,8 +77,8 @@ namespace RPG::Client::ActivityHipplen
 		::System::Byte _padding0[0x7];
 		::UnityEngine::GameObject* _InteractPropRoot; // 0x38
 		::KFCMMMMMIIO* _CurInteract; // 0x40
-		::System::Action* _OnProgressChanged; // 0x48
-		::System::Action* _OnInteractStateChanged; // 0x50
+		::System::Action_1<::System::Single>* _OnProgressChanged; // 0x48
+		::System::Action_1<::System::Boolean>* _OnInteractStateChanged; // 0x50
 		::System::Action* _OnInteractCompleted; // 0x58
 		::UnityEngine::Transform* _InteractPropPlane; // 0x60
 		::System::Boolean _LastInteractValid; // 0x68
@@ -122,14 +123,14 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenInteractType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterProgressChangedCallback(::System::Action* a1)
+		::System::Void RegisterProgressChangedCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER_REGISTERPROGRESSCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER_REGISTERPROGRESSCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterInteractStateChangedCallback(::System::Action* a1)
+		::System::Void RegisterInteractStateChangedCallback(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER_REGISTERINTERACTSTATECHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER_REGISTERINTERACTSTATECHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void RegisterCompletedCallback(::System::Action* a1)

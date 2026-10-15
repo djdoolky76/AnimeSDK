@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 class DIGCDGKOBMK;
 class FKLECLLJCEH;
 class IALBJEGDCFI;
 class KFGGDNIGKGG;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftEditingChipDetailControlBinder; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -76,9 +76,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::IALBJEGDCFI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_MOIOMPLMGPF_OFFSET))(this, a1);
 		}
 
-		::System::Void OHMIBFAEGJE(::System::Nullable* a1)
+		::System::Void OHMIBFAEGJE(::System::Nullable_1<::System::Boolean> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_OHMIBFAEGJE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_OHMIBFAEGJE_OFFSET))(this, a1);
 		}
 
 		::System::Void EELLOALGBPM()
@@ -111,14 +111,14 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_NFIFDIGGILL_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* IAFNMDBBPCP(::System::Collections::Generic::IReadOnlyList_1<::DIGCDGKOBMK*>* a1)
+		::System::Nullable_1<::RPG::Client::TextID> IAFNMDBBPCP(::System::Collections::Generic::IReadOnlyList_1<::DIGCDGKOBMK*>* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::DIGCDGKOBMK*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_IAFNMDBBPCP_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::TextID>(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::DIGCDGKOBMK*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_IAFNMDBBPCP_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* DHNMPADNECL(::System::Nullable* a1)
+		::System::Nullable_1<::RPG::Client::TextID> DHNMPADNECL(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_DHNMPADNECL_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::TextID>(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITINGCHIPDETAILCONTROL_DHNMPADNECL_OFFSET))(this, a1);
 		}
 
 	};

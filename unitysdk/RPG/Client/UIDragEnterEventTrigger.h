@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -34,8 +34,8 @@ namespace RPG::Client
 		::System::Single StartDragThreshold; // 0x18
 		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Object*>* _AreaInfoList; // 0x20
-		::System::Action* _OnDragEnter; // 0x28
-		::System::Nullable* _LastMousePosition; // 0x30
+		::System::Action_1<::System::Object*>* _OnDragEnter; // 0x28
+		::System::Nullable_1<::UnityEngine::Vector2> _LastMousePosition; // 0x30
 		::System::Byte _padding1[0x4];
 		::System::Boolean _IsDragging; // 0x3C
 		::System::Byte _padding2[0x3];
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_ADDAREA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BindDragEnterCallback(::System::Action* a1)
+		::System::Void BindDragEnterCallback(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_BINDDRAGENTERCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGENTEREVENTTRIGGER_BINDDRAGENTERCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDisable()

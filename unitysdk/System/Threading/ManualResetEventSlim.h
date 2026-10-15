@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
@@ -42,9 +42,9 @@ namespace System::Threading
 		::System::Object* m_lock; // 0x10
 		::System::Threading::ManualResetEvent* m_eventObj; // 0x18
 		::System::Int32 m_combinedState; // 0x20
-		static ::System::Action** StaticGet_s_cancellationTokenCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_s_cancellationTokenCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Threading", "ManualResetEventSlim")->GetStaticField(0x1FB80);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Threading", "ManualResetEventSlim")->GetStaticField(0x1FB80);
 		}
 
 		::System::Void _ctor()

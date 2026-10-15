@@ -5,9 +5,9 @@ class DKFNBJOGFME;
 class EJJNPDFPIAP;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -42,14 +42,14 @@ inline static constexpr unsigned int EJJNPDFPIAP_TypeDefinitionIndex = 34113;
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
 		::System::UInt32 DKLCPIAINIK; // 0x20
 		::System::UInt32 DNCBIIBLFOO; // 0x24
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::EJJNPDFPIAP*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "EJJNPDFPIAP")->GetStaticField(0x4BCF0);
+			return (::Google::Protobuf::MessageParser_1<::EJJNPDFPIAP*>**)UnitySDK::FromName("", "EJJNPDFPIAP")->GetStaticField(0x4BCF0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_CHNOMGBGFJP()
+		static ::Google::Protobuf::FieldCodec_1<::DKFNBJOGFME*>** StaticGet_CHNOMGBGFJP()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "EJJNPDFPIAP")->GetStaticField(0x4BCF8);
+			return (::Google::Protobuf::FieldCodec_1<::DKFNBJOGFME*>**)UnitySDK::FromName("", "EJJNPDFPIAP")->GetStaticField(0x4BCF8);
 		}
 
 		// static const ::System::Object NBCBOBPECPD; // 0x0
@@ -70,9 +70,9 @@ inline static constexpr unsigned int EJJNPDFPIAP_TypeDefinitionIndex = 34113;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + EJJNPDFPIAP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::EJJNPDFPIAP*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + EJJNPDFPIAP_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::EJJNPDFPIAP*>*(*)())((::PBYTE)hIl2Cpp + EJJNPDFPIAP_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

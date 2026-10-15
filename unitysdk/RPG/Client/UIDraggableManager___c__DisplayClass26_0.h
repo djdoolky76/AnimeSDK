@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE39EB80)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class UIDraggableManager___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_2<::XLua::LuaTable*, ::System::Object*>* callback; // 0x10
 		::XLua::LuaTable* listener; // 0x18
 		::System::Void _ctor()
 		{

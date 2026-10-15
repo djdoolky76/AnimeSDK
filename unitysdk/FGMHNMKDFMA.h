@@ -8,7 +8,7 @@ class MNBNFBAMKKI;
 class OJBMEJCOGID;
 namespace RPG::GameCore { class AbilityComponent; }
 namespace RPG::GameCore { class RtAbilityConfig; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define FGMHNMKDFMA_AIBLKCJHCCC_OFFSET UNITYSDK_OFFSET(0x1576A7B0)
 #define FGMHNMKDFMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1576A5B0)
@@ -28,10 +28,10 @@ inline static constexpr unsigned int FGMHNMKDFMA_TypeDefinitionIndex = 53775;
 	public:
 		::KFELGAIGHAP* CKOEPEAPNAC; // 0x90
 		::MNBNFBAMKKI* FGPFEPMDIJJ; // 0x98
-		::System::Action* BDGNIIHBGDD; // 0xA0
+		::System::Action_1<::FGMHNMKDFMA*>* BDGNIIHBGDD; // 0xA0
 		::OJBMEJCOGID* LNLOEIICNMO; // 0xA8
 		::RPG::GameCore::RtAbilityConfig* EABKOHGCHFP; // 0xB0
-		::System::Action* DMDFMAJACHI; // 0xB8
+		::System::Action_1<::FGMHNMKDFMA*>* DMDFMAJACHI; // 0xB8
 		::System::Boolean BCAAEMLPLML; // 0xC0
 		::System::Boolean EMODOHCJFCD; // 0xC1
 		::System::Byte _padding0[0x6];

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/NavMap/NavNodeConditionParamType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ABCPIKLPIGI;
 class FFCGHKGDAJF;
 class GLDDJECCBAO;
 class NHLGPCOOCMA;
 class PFICJAHEGIH;
 namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -95,9 +95,9 @@ inline static constexpr unsigned int ABCPIKLPIGI_TypeDefinitionIndex = 74602;
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ABCPIKLPIGI_KHCGPOIKEOE_OFFSET))(this);
 		}
 
-		::System::ValueTuple FAIBBPJDBLB(::System::UInt32 a1, ::System::UInt32 a2, ::System::Nullable* a3)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> FAIBBPJDBLB(::System::UInt32 a1, ::System::UInt32 a2, ::System::Nullable_1<::System::Single> a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Nullable*))((::PBYTE)hIl2Cpp + ABCPIKLPIGI_FAIBBPJDBLB_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + ABCPIKLPIGI_FAIBBPJDBLB_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 DHPIMADHNOC(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single a3)

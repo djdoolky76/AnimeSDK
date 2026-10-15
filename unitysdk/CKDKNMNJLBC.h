@@ -3,10 +3,10 @@
 #include "unitysdk/GELIALJDFBL.h"
 #include "unitysdk/RPG/GameCore/BoolEx.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetMonsterEnergyBarState; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 
 #define CKDKNMNJLBC_CTOR_OFFSET UNITYSDK_OFFSET(0xD756EF0)
 #define CKDKNMNJLBC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD756F00)
@@ -39,9 +39,9 @@ inline static constexpr unsigned int CKDKNMNJLBC_TypeDefinitionIndex = 55541;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKDKNMNJLBC_ONTASKBEGIN_OFFSET))(this);
 		}
 
-		::System::Nullable* HPEBIALGDKG(::RPG::GameCore::DynamicFloat* a1)
+		::System::Nullable_1<::RPG::GameCore::FixPoint> HPEBIALGDKG(::RPG::GameCore::DynamicFloat* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::DynamicFloat*))((::PBYTE)hIl2Cpp + CKDKNMNJLBC_HPEBIALGDKG_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::GameCore::FixPoint>(*)(::PVOID, ::RPG::GameCore::DynamicFloat*))((::PBYTE)hIl2Cpp + CKDKNMNJLBC_HPEBIALGDKG_OFFSET))(this, a1);
 		}
 
 		::System::Void OnTaskReset()
@@ -54,14 +54,14 @@ inline static constexpr unsigned int CKDKNMNJLBC_TypeDefinitionIndex = 55541;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CKDKNMNJLBC_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MDLNPMMHOJI(::RPG::GameCore::BoolEx a1)
+		::System::Nullable_1<::System::Boolean> MDLNPMMHOJI(::RPG::GameCore::BoolEx a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + CKDKNMNJLBC_MDLNPMMHOJI_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::RPG::GameCore::BoolEx))((::PBYTE)hIl2Cpp + CKDKNMNJLBC_MDLNPMMHOJI_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* LJLDFLFOOHP(::System::Int32 a1)
+		::System::Nullable_1<::System::Int32> LJLDFLFOOHP(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CKDKNMNJLBC_LJLDFLFOOHP_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CKDKNMNJLBC_LJLDFLFOOHP_OFFSET))(this, a1);
 		}
 
 	};

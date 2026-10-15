@@ -3,6 +3,7 @@
 #include "unitysdk/ICFEIEJDMIB.h"
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define KJFIKOKBCCA_BBNJCKPKPDN_OFFSET UNITYSDK_OFFSET(0x1DD6BF30)
 #define KJFIKOKBCCA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1DD6C050)
@@ -18,7 +19,7 @@ inline static constexpr unsigned int KJFIKOKBCCA_TypeDefinitionIndex = 6431;
 	struct alignas(8) KJFIKOKBCCA
 	{
 		::ICFEIEJDMIB APKCDIIEJLO; // 0x10
-		::System::Action* LGOENNFHOFE; // 0x98
+		::System::Action_1<::ICFEIEJDMIB>* LGOENNFHOFE; // 0x98
 		/*
 		static ::KJFIKOKBCCA BBNJCKPKPDN(::System::Action* a1)
 		{

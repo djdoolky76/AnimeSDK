@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Transform; }
 
 #define NJMCHDHCHOL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1B1A0)
@@ -19,14 +19,14 @@ inline static constexpr unsigned int NJMCHDHCHOL_TypeDefinitionIndex = 57498;
 	class NJMCHDHCHOL : public ::EDLDHDMLJDH
 	{
 	public:
-		::System::Action* ILEMLGEGLCC; // 0xA0
+		::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>* ILEMLGEGLCC; // 0xA0
 		::UnityEngine::Transform* MELOKNOIJPA; // 0xA8
 		::UnityEngine::Transform* MMIPMDKKPNN; // 0xB0
 		::System::Int32 KKPGNHCACEB; // 0xB8
 		::System::Boolean IBMOGFCHNBN; // 0xBC
-		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4, ::System::Action* a5)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4, ::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Action*))((::PBYTE)hIl2Cpp + NJMCHDHCHOL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>*))((::PBYTE)hIl2Cpp + NJMCHDHCHOL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Dispose()

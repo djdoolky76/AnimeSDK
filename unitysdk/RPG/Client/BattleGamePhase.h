@@ -12,6 +12,7 @@
 #include "unitysdk/RPG/GameCore/OperationTypeMask.h"
 #include "unitysdk/RPG/GameCore/StageBGMType.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/CNFOICAMEPN.h"
 #include "unitysdk/RPG/Client/BattleGamePhase_DamageSoundData.h"
 class AIALJPDDDKH;
@@ -48,7 +49,6 @@ namespace RPG::GameCore { class EventManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
@@ -307,7 +307,7 @@ namespace RPG::Client
 		::System::UInt32 _ReloginDirtyBlockUID; // 0x13C
 		::System::UInt32 AddAvatarExp; // 0x140
 		::System::UInt32 AddPlayerExp; // 0x144
-		::System::Nullable* _HasUsedBattleSeverCheckEffectiveGMCommand; // 0x148
+		::System::Nullable_1<::System::Boolean> _HasUsedBattleSeverCheckEffectiveGMCommand; // 0x148
 		::System::Boolean SkipBattleCheckFlag; // 0x14A
 		::System::Boolean _HasDisposed; // 0x14B
 		::System::Boolean UseLocalTimeSlowForHit; // 0x14C

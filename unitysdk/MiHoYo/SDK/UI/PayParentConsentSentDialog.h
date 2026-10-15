@@ -4,6 +4,7 @@
 namespace MiHoYo::SDK::UI { class PayParentConsentSentDialog; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
@@ -38,7 +39,7 @@ namespace MiHoYo::SDK::UI
 		::UnityEngine::UI::Text* sendBtnText; // 0x88
 		::UnityEngine::UI::Text* hintText; // 0x90
 		::System::Action* _onCloseBtnCliked_k__BackingField; // 0x98
-		::System::Action* _OnSendBtnCliekd_k__BackingField; // 0xA0
+		::System::Action_1<::System::String*>* _OnSendBtnCliekd_k__BackingField; // 0xA0
 		::System::String* emailTextStr; // 0xA8
 		::System::Single countDownTime; // 0xB0
 		static ::MiHoYo::SDK::UI::PayParentConsentSentDialog** StaticGet_Instance()
@@ -70,14 +71,14 @@ namespace MiHoYo::SDK::UI
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SET_ONCLOSEBTNCLIKED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnSendBtnCliekd()
+		::System::Action_1<::System::String*>* get_OnSendBtnCliekd()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_GET_ONSENDBTNCLIEKD_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_GET_ONSENDBTNCLIEKD_OFFSET))(this);
 		}
 
-		::System::Void set_OnSendBtnCliekd(::System::Action* a1)
+		::System::Void set_OnSendBtnCliekd(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SET_ONSENDBTNCLIEKD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_SET_ONSENDBTNCLIEKD_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

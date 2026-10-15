@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/MatchThreePropType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BOMFGKDLHIB;
 class FDPALAEIHPB;
 class JODOCGMOPJJ;
@@ -34,7 +34,7 @@ inline static constexpr unsigned int CGJIJKMNODN_TypeDefinitionIndex = 42301;
 	{
 	public:
 		::BOMFGKDLHIB* PDENFEFCAGN; // 0x10
-		::System::Func_2<::System::ValueTuple, ::System::Boolean>* CKCDEDKJKEE; // 0x18
+		::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Boolean>* CKCDEDKJKEE; // 0x18
 		::FDPALAEIHPB* FKINCGODJEP; // 0x20
 		::RPG::GameCore::MatchThreePropType PCKPIJADNLP; // 0x28
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::BOMFGKDLHIB* a2)
@@ -62,14 +62,14 @@ inline static constexpr unsigned int CGJIJKMNODN_TypeDefinitionIndex = 42301;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CGJIJKMNODN_IIFODFKIEGE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean HMCDLICJPFL(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Boolean HMCDLICJPFL(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CGJIJKMNODN_HMCDLICJPFL_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + CGJIJKMNODN_HMCDLICJPFL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean PPGCJBEPDMI(::RPG::GameCore::MatchThreePropType a1, ::System::ValueTuple a2)
+		::System::Boolean PPGCJBEPDMI(::RPG::GameCore::MatchThreePropType a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MatchThreePropType, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CGJIJKMNODN_PPGCJBEPDMI_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MatchThreePropType, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + CGJIJKMNODN_PPGCJBEPDMI_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean MDANBOEGAFH(::RPG::GameCore::MatchThreePropType a1, ::System::UInt32 a2)
@@ -82,29 +82,29 @@ inline static constexpr unsigned int CGJIJKMNODN_TypeDefinitionIndex = 42301;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CGJIJKMNODN_DPFOFDBHNMC_OFFSET))(this);
 		}
 
-		::System::Boolean LFELGAMFHHD(::System::ValueTuple a1, ::System::Boolean a2)
+		::System::Boolean LFELGAMFHHD(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::Boolean))((::PBYTE)hIl2Cpp + CGJIJKMNODN_LFELGAMFHHD_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Boolean))((::PBYTE)hIl2Cpp + CGJIJKMNODN_LFELGAMFHHD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean LDBILLGKEBF(::System::ValueTuple a1)
+		::System::Boolean LDBILLGKEBF(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CGJIJKMNODN_LDBILLGKEBF_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + CGJIJKMNODN_LDBILLGKEBF_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CIHMAFEBEIK(::System::ValueTuple a1)
+		::System::Boolean CIHMAFEBEIK(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CGJIJKMNODN_CIHMAFEBEIK_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + CGJIJKMNODN_CIHMAFEBEIK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean PLLJFFGFOHP(::System::ValueTuple a1)
+		::System::Boolean PLLJFFGFOHP(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CGJIJKMNODN_PLLJFFGFOHP_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + CGJIJKMNODN_PLLJFFGFOHP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean MLIDOPEKIHJ(::System::ValueTuple a1)
+		::System::Boolean MLIDOPEKIHJ(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CGJIJKMNODN_MLIDOPEKIHJ_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + CGJIJKMNODN_MLIDOPEKIHJ_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 LOLKDEJOGJH(::System::UInt32 a1)
@@ -112,9 +112,9 @@ inline static constexpr unsigned int CGJIJKMNODN_TypeDefinitionIndex = 42301;
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CGJIJKMNODN_LOLKDEJOGJH_OFFSET))(this, a1);
 		}
 
-		::System::Void GEHIJLEDCCI(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Void GEHIJLEDCCI(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CGJIJKMNODN_GEHIJLEDCCI_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + CGJIJKMNODN_GEHIJLEDCCI_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FGDNBMCBANC()
@@ -127,9 +127,9 @@ inline static constexpr unsigned int CGJIJKMNODN_TypeDefinitionIndex = 42301;
 			return ((::JODOCGMOPJJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + CGJIJKMNODN_HGBIBKHENAI_OFFSET))(this);
 		}
 
-		::System::Boolean __ctor_b__0_0(::System::ValueTuple a1)
+		::System::Boolean __ctor_b__0_0(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + CGJIJKMNODN___CTOR_B__0_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + CGJIJKMNODN___CTOR_B__0_0_OFFSET))(this, a1);
 		}
 
 	};

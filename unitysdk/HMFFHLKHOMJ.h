@@ -7,7 +7,7 @@ class DCIAAMADOGH;
 class HDLCAPDIKJI;
 class HMFFHLKHOMJ;
 namespace RPG::Client { class PlayerPlatformInfo; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HMFFHLKHOMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15D7C4A0)
@@ -105,9 +105,9 @@ inline static constexpr unsigned int HMFFHLKHOMJ_TypeDefinitionIndex = 79039;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + HMFFHLKHOMJ_KHEFLOHLHGP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* PPACFGBCLAM(::CLCOAJDPMJN* a1)
+		::RPG::Client::Promises::IPromise_1<::HMFFHLKHOMJ*>* PPACFGBCLAM(::CLCOAJDPMJN* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::CLCOAJDPMJN*))((::PBYTE)hIl2Cpp + HMFFHLKHOMJ_PPACFGBCLAM_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::HMFFHLKHOMJ*>*(*)(::PVOID, ::CLCOAJDPMJN*))((::PBYTE)hIl2Cpp + HMFFHLKHOMJ_PPACFGBCLAM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Success()

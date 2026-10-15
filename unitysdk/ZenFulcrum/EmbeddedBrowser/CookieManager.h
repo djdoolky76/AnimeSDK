@@ -6,7 +6,7 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NativeCookie; }
 namespace ZenFulcrum::EmbeddedBrowser { class Cookie; }
 namespace ZenFulcrum::EmbeddedBrowser { class CookieManager_CookieFetch; }
-namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
+namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class IPromise_1; }
 
 #define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CB_GETCOOKIEFUNC_OFFSET UNITYSDK_OFFSET(0x1F6572C0)
 #define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1F6577F0)
@@ -31,9 +31,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_CTOR_OFFSET))(this, a1);
 		}
 
-		::ZenFulcrum::EmbeddedBrowser::IPromise* GetCookies()
+		::ZenFulcrum::EmbeddedBrowser::IPromise_1<::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::Cookie*>*>* GetCookies()
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_GETCOOKIES_OFFSET))(this);
+			return ((::ZenFulcrum::EmbeddedBrowser::IPromise_1<::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::Cookie*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_GETCOOKIES_OFFSET))(this);
 		}
 
 		static ::System::Void CB_GetCookieFunc(::ZenFulcrum::EmbeddedBrowser::BrowserNative_NativeCookie* a1)

@@ -3,7 +3,7 @@
 #include "unitysdk/APCGKBOPGJL.h"
 #include "unitysdk/GGLKJLLMHBN.h"
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class KFMGKJPDLNB;
 class ODJIEONBGBL;
@@ -22,7 +22,7 @@ inline static constexpr unsigned int INBGCDGBDFD_TypeDefinitionIndex = 62717;
 	public:
 		::ODJIEONBGBL* ELJAHHOIABP; // 0x28
 		::KFMGKJPDLNB* BBHLBMONOIJ; // 0x30
-		::System::ValueTuple LDMKNOIOFLI; // 0x38
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> LDMKNOIOFLI; // 0x38
 		::System::Byte _padding0[0x4];
 		::APCGKBOPGJL ODMGLBEOBDP; // 0x44
 		::System::Void _ctor(::APCGKBOPGJL a1, ::ODJIEONBGBL* a2)

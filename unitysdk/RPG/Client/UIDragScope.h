@@ -10,6 +10,7 @@ namespace RPG::Client { class UIDragGhost; }
 namespace RPG::Client { class UIDragSource; }
 namespace RPG::Client { class UIDropTarget; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
@@ -41,7 +42,7 @@ namespace RPG::Client
 	public:
 		::RPG::Client::UIDragGhost* _Ghost; // 0x18
 		::System::Action* DragBegan; // 0x20
-		::System::Action* DragMoved; // 0x28
+		::System::Action_1<::ALKHIHHGNKG>* DragMoved; // 0x28
 		::System::Action* DragEnded; // 0x30
 		::DMHKKMFEJNH* INNPHMMNOAN; // 0x38
 		::RPG::Client::UIDragEventReceiver* LFCELIPJIOA; // 0x40
@@ -63,14 +64,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGSCOPE_REMOVE_DRAGBEGAN_OFFSET))(this, a1);
 		}
 
-		::System::Void add_DragMoved(::System::Action* a1)
+		::System::Void add_DragMoved(::System::Action_1<::ALKHIHHGNKG>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGSCOPE_ADD_DRAGMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::ALKHIHHGNKG>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGSCOPE_ADD_DRAGMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_DragMoved(::System::Action* a1)
+		::System::Void remove_DragMoved(::System::Action_1<::ALKHIHHGNKG>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGSCOPE_REMOVE_DRAGMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::ALKHIHHGNKG>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGSCOPE_REMOVE_DRAGMOVED_OFFSET))(this, a1);
 		}
 
 		::System::Void add_DragEnded(::System::Action* a1)

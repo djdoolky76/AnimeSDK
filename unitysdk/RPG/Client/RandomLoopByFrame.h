@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
@@ -39,7 +39,7 @@ namespace RPG::Client
 		::System::Single _CurTime; // 0x50
 		::System::Byte _padding2[0x4];
 		::XLua::LuaTable* _CbkOwner; // 0x58
-		::System::Action* _OnLoopFinish; // 0x60
+		::System::Action_1<::XLua::LuaTable*>* _OnLoopFinish; // 0x60
 		::System::Boolean _ShouldTick; // 0x68
 		::System::Byte _padding3[0x3];
 		::System::Int32 _RefreshedTime; // 0x6C
@@ -50,9 +50,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMLOOPBYFRAME_CTOR_OFFSET))(this);
 		}
 
-		::System::Void TryStartPerform(::XLua::LuaTable* a1, ::System::Action* a2)
+		::System::Void TryStartPerform(::XLua::LuaTable* a1, ::System::Action_1<::XLua::LuaTable*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMLOOPBYFRAME_TRYSTARTPERFORM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMLOOPBYFRAME_TRYSTARTPERFORM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SetRandomTextIDList(::System::Collections::Generic::List_1<::RPG::Client::TextID>* a1, ::RPG::Client::TextID a2)

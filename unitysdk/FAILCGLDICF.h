@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PLHLAIJKMOD.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class CHGHIALKMFM;
 class FBKKFMONGAA;
 namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -32,8 +33,8 @@ inline static constexpr unsigned int FAILCGLDICF_TypeDefinitionIndex = 79499;
 		::CHGHIALKMFM* GIEPEGOALHN; // 0x10
 		::System::Action* OnTransformChanged; // 0x18
 		::System::Action* OnChipChanged; // 0x20
-		::System::Action* OnBuffedCellsMaybeChanged; // 0x28
-		::System::Nullable* PDJGEDNLBKJ; // 0x30
+		::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* OnBuffedCellsMaybeChanged; // 0x28
+		::System::Nullable_1<::PLHLAIJKMOD> PDJGEDNLBKJ; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FAILCGLDICF_CTOR_OFFSET))(this);
@@ -59,14 +60,14 @@ inline static constexpr unsigned int FAILCGLDICF_TypeDefinitionIndex = 79499;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FAILCGLDICF_REMOVE_ONCHIPCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* BLPLAFPIJPC()
+		::System::Nullable_1<::PLHLAIJKMOD> BLPLAFPIJPC()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FAILCGLDICF_BLPLAFPIJPC_OFFSET))(this);
+			return ((::System::Nullable_1<::PLHLAIJKMOD>(*)(::PVOID))((::PBYTE)hIl2Cpp + FAILCGLDICF_BLPLAFPIJPC_OFFSET))(this);
 		}
 
-		::System::Void EEIHKIJPCPN(::System::Nullable* a1)
+		::System::Void EEIHKIJPCPN(::System::Nullable_1<::PLHLAIJKMOD> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + FAILCGLDICF_EEIHKIJPCPN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::PLHLAIJKMOD>))((::PBYTE)hIl2Cpp + FAILCGLDICF_EEIHKIJPCPN_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnTransformChanged(::System::Action* a1)
@@ -79,14 +80,14 @@ inline static constexpr unsigned int FAILCGLDICF_TypeDefinitionIndex = 79499;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FAILCGLDICF_REMOVE_ONTRANSFORMCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnBuffedCellsMaybeChanged(::System::Action* a1)
+		::System::Void add_OnBuffedCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FAILCGLDICF_ADD_ONBUFFEDCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + FAILCGLDICF_ADD_ONBUFFEDCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBuffedCellsMaybeChanged(::System::Action* a1)
+		::System::Void remove_OnBuffedCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FAILCGLDICF_REMOVE_ONBUFFEDCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + FAILCGLDICF_REMOVE_ONBUFFEDCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void CMFIPKJCFAK()

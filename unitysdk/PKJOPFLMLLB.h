@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/Match3/SimulateInputType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class PLKAJKKLGOL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -23,13 +23,13 @@ inline static constexpr unsigned int PKJOPFLMLLB_TypeDefinitionIndex = 43030;
 		::System::Boolean MNMBAANKOGG; // 0x2C
 		::System::Byte _padding0[0x3];
 		::System::UInt32 EFNNOMMFCOJ; // 0x30
-		::System::ValueTuple FOKJOEKBEML; // 0x34
-		::System::ValueTuple JEPOIFJFOFA; // 0x3C
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> FOKJOEKBEML; // 0x34
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> JEPOIFJFOFA; // 0x3C
 		::RPG::Client::LittleGame::Match3::SimulateInputType PLEMHLIAKPF; // 0x44
 		::System::UInt32 CDGDPFNDPLK; // 0x48
-		::System::ValueTuple OCCIGEAJGHK; // 0x4C
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> OCCIGEAJGHK; // 0x4C
 		::System::UInt32 HHCPCIBKMFJ; // 0x54
-		::System::ValueTuple HIKJECOPFMI; // 0x58
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> HIKJECOPFMI; // 0x58
 		::System::UInt32 GLANPLEGMPG; // 0x60
 		::System::UInt32 PMOHKEDFGHP; // 0x64
 		::System::UInt32 COFAKDPCNEB; // 0x68

@@ -6,9 +6,9 @@ class BBDFGMBNDGD;
 class KNKPLOGICFO;
 class MJOPBJKKGPL;
 namespace RPG::GameCore { class LevelUIComponent; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
@@ -45,7 +45,7 @@ inline static constexpr unsigned int IEHGPFIGKOB_TypeDefinitionIndex = 72087;
 	class IEHGPFIGKOB : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Action* GAPEPJJJBME; // 0x60
+		::System::Action_1<::System::Object*>* GAPEPJJJBME; // 0x60
 		::System::String* KBHBEBLFBOD; // 0x68
 		::System::String* ICMMNDHIIMN; // 0x70
 		::KNKPLOGICFO* PGMIOKKLHIE; // 0x78
@@ -56,7 +56,7 @@ inline static constexpr unsigned int IEHGPFIGKOB_TypeDefinitionIndex = 72087;
 		::System::String* LMAJLLBMEHL; // 0xA0
 		::System::String* EOHOKJDPILG; // 0xA8
 		::System::String* KIBCGMIDNOG; // 0xB0
-		::System::Action* GIANJDIPHAC; // 0xB8
+		::System::Action_1<::BBDFGMBNDGD*>* GIANJDIPHAC; // 0xB8
 		::UnityEngine::UI::Slider* DNHDAJDEFBM; // 0xC0
 		::UnityEngine::UI::Slider* EDLNEDEKKCF; // 0xC8
 		::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0xD0
@@ -64,7 +64,7 @@ inline static constexpr unsigned int IEHGPFIGKOB_TypeDefinitionIndex = 72087;
 		::System::String* JHKODMIOIKF; // 0xE0
 		::System::String* AEGCPFAGOLC; // 0xE8
 		::System::String* EOKGFDBKKHB; // 0xF0
-		::System::Action* LLLBNIFCFGG; // 0xF8
+		::System::Action_1<::System::Object*>* LLLBNIFCFGG; // 0xF8
 		::UnityEngine::UI::Image* DOHOGHIHBNH; // 0x100
 		::IEHGPFIGKOB_NPHKIPDJODH KKKPBJLFLLM; // 0x108
 		::System::Single IBFGCEKJPHP; // 0x110
@@ -176,9 +176,9 @@ inline static constexpr unsigned int IEHGPFIGKOB_TypeDefinitionIndex = 72087;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IEHGPFIGKOB_EKNDOCDFGBM_OFFSET))(this);
 		}
 
-		::System::Void EOKCBIONPEG(::System::Action* a1, ::System::Single a2, ::System::Single a3)
+		::System::Void EOKCBIONPEG(::System::Action_1<::System::Object*>* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IEHGPFIGKOB_EOKCBIONPEG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IEHGPFIGKOB_EOKCBIONPEG_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void FOPDCOJAKKG(::System::Object* a1)

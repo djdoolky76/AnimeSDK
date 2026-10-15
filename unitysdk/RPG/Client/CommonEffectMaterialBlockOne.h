@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CommonEffectMatBlockType.h"
 #include "unitysdk/RPG/Client/MaterialBlockEffectPropertyType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -37,7 +37,7 @@ namespace RPG::Client
 		::UnityEngine::Color ColorData; // 0x28
 		::UnityEngine::Vector4 VectorData; // 0x38
 		::UnityEngine::Texture2D* TextureData; // 0x48
-		::System::Nullable* KeywordData; // 0x50
+		::System::Nullable_1<::System::Boolean> KeywordData; // 0x50
 		::UnityEngine::MaterialPropertyBlock* _MatBlock; // 0x58
 		::System::Void _ctor(::RPG::Client::MaterialBlockEffectPropertyType a1, ::RPG::Client::CommonEffectMatBlockType a2)
 		{

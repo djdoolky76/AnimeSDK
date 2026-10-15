@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 namespace RPG::Client { class PhotoGraphFilterImage; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 
 #define RPG_CLIENT_PHOTOGRAPHUTILS__GENERATESCREENCAPTURECOROUTINE_D__132_CTOR_OFFSET UNITYSDK_OFFSET(0xDB20F20)
@@ -22,7 +22,7 @@ namespace RPG::Client
 	class PhotoGraphUtils__GenerateScreenCaptureCoroutine_d__132 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise_1<::Unity::Collections::NativeArray_1<::System::Byte>>* promise; // 0x10
 		::RPG::Client::PhotoGraphFilterImage* image; // 0x18
 		::System::Object* __2__current; // 0x20
 		::System::Object* __8__1; // 0x28

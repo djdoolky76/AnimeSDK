@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GAMEPHASECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0A5780)
 #define RPG_CLIENT_GAMEPHASECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0A57C0)
@@ -15,9 +15,9 @@ namespace RPG::Client
 	class GamePhaseContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__10_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60760);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60760);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -4,7 +4,8 @@
 #include "unitysdk/RPG/Client/LittleGameShare/ST_TargetCatType.h"
 #include "unitysdk/RPG/GameCore/CakeRaceAbilityName.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class DBBPHCIBIBI;
 class DFEAHIKPKLO;
 class EMNNNCHNPKP;
@@ -166,24 +167,24 @@ inline static constexpr unsigned int DBBPHCIBIBI_TypeDefinitionIndex = 37282;
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_IFEOBMLPFGM_OFFSET))(this, a1);
 		}
 
-		::System::Void CEFLHOEMNLM(::Il2CppArray<::System::ValueTuple>* a1)
+		::System::Void CEFLHOEMNLM(::Il2CppArray<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_CEFLHOEMNLM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_CEFLHOEMNLM_OFFSET))(this, a1);
 		}
 
-		::System::Void CMOKMCLNNBN(::Il2CppArray<::System::ValueTuple>* a1)
+		::System::Void CMOKMCLNNBN(::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_CMOKMCLNNBN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_CMOKMCLNNBN_OFFSET))(this, a1);
 		}
 
-		::System::Void FJFELGKOPLM(::Il2CppArray<::System::ValueTuple>* a1)
+		::System::Void FJFELGKOPLM(::Il2CppArray<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_FJFELGKOPLM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_FJFELGKOPLM_OFFSET))(this, a1);
 		}
 
-		::System::Void DBFGNCEOIKB(::Il2CppArray<::System::ValueTuple>* a1)
+		::System::Void DBFGNCEOIKB(::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_DBFGNCEOIKB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + DBBPHCIBIBI_DBFGNCEOIKB_OFFSET))(this, a1);
 		}
 
 		::System::Void FEKOOCEGGAA()

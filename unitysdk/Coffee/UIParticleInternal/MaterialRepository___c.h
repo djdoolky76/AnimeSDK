@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -29,9 +29,9 @@ namespace Coffee::UIParticleInternal
 			return (::System::Object**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>c")->GetStaticField(0x10C8);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::UnityEngine::Material*>** StaticGet___9__6_0()
+		static ::System::Func_2<::System::ValueTuple_2<::System::String*, ::Il2CppArray<::System::String*>*>, ::UnityEngine::Material*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::UnityEngine::Material*>**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>c")->GetStaticField(0x10D0);
+			return (::System::Func_2<::System::ValueTuple_2<::System::String*, ::Il2CppArray<::System::String*>*>, ::UnityEngine::Material*>**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>c")->GetStaticField(0x10D0);
 		}
 
 		static ::System::Void _cctor()
@@ -49,9 +49,9 @@ namespace Coffee::UIParticleInternal
 			return ((::UnityEngine::Material*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__GET_B__5_0_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Material* _Get_b__6_0(::System::ValueTuple a1)
+		::UnityEngine::Material* _Get_b__6_0(::System::ValueTuple_2<::System::String*, ::Il2CppArray<::System::String*>*> a1)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__GET_B__6_0_OFFSET))(this, a1);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::System::ValueTuple_2<::System::String*, ::Il2CppArray<::System::String*>*>))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__GET_B__6_0_OFFSET))(this, a1);
 		}
 
 	};

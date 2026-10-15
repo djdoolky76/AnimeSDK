@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace MessagePack::Internal { class ObjectSerializationInfo_EmittableMember; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MemberInfo; }
 
@@ -37,14 +37,14 @@ namespace MessagePack::Internal
 	class ObjectSerializationInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::ValueTuple, ::System::Int32>** StaticGet___9__27_12()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Int32>** StaticGet___9__27_12()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26300);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26300);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::Object*>** StaticGet___9__27_13()
+		static ::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Object*>** StaticGet___9__27_13()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::Object*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26308);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Object*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26308);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__27_5()
@@ -57,9 +57,9 @@ namespace MessagePack::Internal
 			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26318);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Int32>** StaticGet___9__27_10()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32>** StaticGet___9__27_10()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26320);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26320);
 		}
 
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Type*>** StaticGet___9__27_8()
@@ -72,9 +72,9 @@ namespace MessagePack::Internal
 			return (::System::Object**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26330);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet___9__27_14()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__27_14()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26338);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26338);
 		}
 
 		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__27_2()
@@ -82,14 +82,14 @@ namespace MessagePack::Internal
 			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26340);
 		}
 
-		static ::System::Func_3<::System::Collections::Generic::KeyValuePair*, ::System::Int32, ::System::ValueTuple>** StaticGet___9__27_11()
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32, ::System::ValueTuple_2<::System::Object*, ::System::Int32>>** StaticGet___9__27_11()
 		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair*, ::System::Int32, ::System::ValueTuple>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26348);
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32, ::System::ValueTuple_2<::System::Object*, ::System::Int32>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26348);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*>** StaticGet___9__27_15()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>** StaticGet___9__27_15()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26350);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26350);
 		}
 
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet___9__27_9()
@@ -107,14 +107,14 @@ namespace MessagePack::Internal
 			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26368);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet___9__27_16()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__27_16()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26370);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26370);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*>** StaticGet___9__27_17()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>** StaticGet___9__27_17()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26378);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26378);
 		}
 
 		static ::System::Void _cctor()
@@ -147,44 +147,44 @@ namespace MessagePack::Internal
 			return ((::System::Int32(*)(::PVOID, ::System::Reflection::ConstructorInfo*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_4_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _CreateOrNull_b__27_10(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 _CreateOrNull_b__27_10(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_10_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_10_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _CreateOrNull_b__27_11(::System::Collections::Generic::KeyValuePair* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Object*, ::System::Int32> _CreateOrNull_b__27_11(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*> a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_11_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Object*, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_11_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _CreateOrNull_b__27_12(::System::ValueTuple a1)
+		::System::Int32 _CreateOrNull_b__27_12(::System::ValueTuple_2<::System::Object*, ::System::Int32> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_12_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Object*, ::System::Int32>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_12_OFFSET))(this, a1);
 		}
 
-		::MessagePack::Internal::ObjectSerializationInfo_EmittableMember* _CreateOrNull_b__27_13(::System::ValueTuple a1)
+		::MessagePack::Internal::ObjectSerializationInfo_EmittableMember* _CreateOrNull_b__27_13(::System::ValueTuple_2<::System::Object*, ::System::Int32> a1)
 		{
-			return ((::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_13_OFFSET))(this, a1);
+			return ((::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*(*)(::PVOID, ::System::ValueTuple_2<::System::Object*, ::System::Int32>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_13_OFFSET))(this, a1);
 		}
 
-		::System::String* _CreateOrNull_b__27_14(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* _CreateOrNull_b__27_14(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_14_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_14_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* _CreateOrNull_b__27_15(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> _CreateOrNull_b__27_15(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_15_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_15_OFFSET))(this, a1);
 		}
 
-		::System::String* _CreateOrNull_b__27_16(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* _CreateOrNull_b__27_16(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_16_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_16_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* _CreateOrNull_b__27_17(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> _CreateOrNull_b__27_17(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_17_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_17_OFFSET))(this, a1);
 		}
 
 		::System::Int32 _CreateOrNull_b__27_5(::MessagePack::Internal::ObjectSerializationInfo_EmittableMember* a1)

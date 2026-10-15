@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 
 #define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_BITWISENULLABLESINGLEEQUALITYCOMPARERIMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1B853360)
 #define GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_BITWISENULLABLESINGLEEQUALITYCOMPARERIMPL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B853700)
@@ -18,14 +18,14 @@ namespace Google::Protobuf::Collections
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_BITWISENULLABLESINGLEEQUALITYCOMPARERIMPL_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Equals(::System::Nullable* a1, ::System::Nullable* a2)
+		::System::Boolean Equals(::System::Nullable_1<::System::Single> a1, ::System::Nullable_1<::System::Single> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_BITWISENULLABLESINGLEEQUALITYCOMPARERIMPL_EQUALS_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_BITWISENULLABLESINGLEEQUALITYCOMPARERIMPL_EQUALS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 GetHashCode(::System::Nullable* a1)
+		::System::Int32 GetHashCode(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_BITWISENULLABLESINGLEEQUALITYCOMPARERIMPL_GETHASHCODE_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_COLLECTIONS_PROTOBUFEQUALITYCOMPARERS_BITWISENULLABLESINGLEEQUALITYCOMPARERIMPL_GETHASHCODE_OFFSET))(this, a1);
 		}
 
 	};

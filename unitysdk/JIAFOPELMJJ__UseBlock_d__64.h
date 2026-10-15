@@ -5,8 +5,8 @@
 class HGDELEAHIJO;
 class HKPOAGEKMAM;
 namespace System { class Object; }
-namespace System { class Tuple; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
@@ -27,7 +27,7 @@ inline static constexpr unsigned int JIAFOPELMJJ__UseBlock_d__64_TypeDefinitionI
 	public:
 		::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>* predicate; // 0x10
 		::System::Func_2<::HGDELEAHIJO*, ::System::Boolean>* __3__predicate; // 0x18
-		::System::Tuple* __2__current; // 0x20
+		::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>* __2__current; // 0x20
 		::HKPOAGEKMAM* index; // 0x28
 		::HKPOAGEKMAM* __3__index; // 0x30
 		::System::Int32 _count_5__2; // 0x38
@@ -51,9 +51,9 @@ inline static constexpr unsigned int JIAFOPELMJJ__UseBlock_d__64_TypeDefinitionI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ__USEBLOCK_D__64_MOVENEXT_OFFSET))(this);
 		}
 
-		::System::Tuple* System_Collections_Generic_IEnumerator_System_Tuple_RPG_Client_IBlockItem_RPG_Client_UnityFileLoaderHelper_eFileLoaderPosType___get_Current()
+		::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>* System_Collections_Generic_IEnumerator_System_Tuple_RPG_Client_IBlockItem_RPG_Client_UnityFileLoaderHelper_eFileLoaderPosType___get_Current()
 		{
-			return ((::System::Tuple*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ__USEBLOCK_D__64_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_RPG_CLIENT_IBLOCKITEM_RPG_CLIENT_UNITYFILELOADERHELPER_EFILELOADERPOSTYPE___GET_CURRENT_OFFSET))(this);
+			return ((::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ__USEBLOCK_D__64_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_RPG_CLIENT_IBLOCKITEM_RPG_CLIENT_UNITYFILELOADERHELPER_EFILELOADERPOSTYPE___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -66,9 +66,9 @@ inline static constexpr unsigned int JIAFOPELMJJ__UseBlock_d__64_TypeDefinitionI
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ__USEBLOCK_D__64_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Tuple*>* System_Collections_Generic_IEnumerable_System_Tuple_RPG_Client_IBlockItem_RPG_Client_UnityFileLoaderHelper_eFileLoaderPosType___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*>* System_Collections_Generic_IEnumerable_System_Tuple_RPG_Client_IBlockItem_RPG_Client_UnityFileLoaderHelper_eFileLoaderPosType___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ__USEBLOCK_D__64_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_RPG_CLIENT_IBLOCKITEM_RPG_CLIENT_UNITYFILELOADERHELPER_EFILELOADERPOSTYPE___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ__USEBLOCK_D__64_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_RPG_CLIENT_IBLOCKITEM_RPG_CLIENT_UNITYFILELOADERHELPER_EFILELOADERPOSTYPE___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

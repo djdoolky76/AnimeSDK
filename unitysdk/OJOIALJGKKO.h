@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace SimpleJSON { class JSONArray; }
 namespace SimpleJSON { class JSONClass; }
 namespace SimpleJSON { class JSONNode; }
@@ -25,14 +25,14 @@ inline static constexpr unsigned int OJOIALJGKKO_TypeDefinitionIndex = 52053;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJOIALJGKKO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::ValueTuple>* EKFICALFHOA(::SimpleJSON::JSONNode* a1, ::SimpleJSON::JSONNode* a2)
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::SimpleJSON::JSONNode*>>* EKFICALFHOA(::SimpleJSON::JSONNode* a1, ::SimpleJSON::JSONNode* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::SimpleJSON::JSONNode*, ::SimpleJSON::JSONNode*))((::PBYTE)hIl2Cpp + OJOIALJGKKO_EKFICALFHOA_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::SimpleJSON::JSONNode*>>*(*)(::SimpleJSON::JSONNode*, ::SimpleJSON::JSONNode*))((::PBYTE)hIl2Cpp + OJOIALJGKKO_EKFICALFHOA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FEFDEMHEBND(::SimpleJSON::JSONNode* a1, ::SimpleJSON::JSONNode* a2, ::System::String* a3, ::System::Collections::Generic::List_1<::System::ValueTuple>* a4)
+		static ::System::Void FEFDEMHEBND(::SimpleJSON::JSONNode* a1, ::SimpleJSON::JSONNode* a2, ::System::String* a3, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::SimpleJSON::JSONNode*>>* a4)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::SimpleJSON::JSONNode*, ::System::String*, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + OJOIALJGKKO_FEFDEMHEBND_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::SimpleJSON::JSONNode*, ::System::String*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::SimpleJSON::JSONNode*>>*))((::PBYTE)hIl2Cpp + OJOIALJGKKO_FEFDEMHEBND_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean FLCPFDILIGH(::SimpleJSON::JSONClass* a1, ::SimpleJSON::JSONClass* a2)

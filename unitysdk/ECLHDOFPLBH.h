@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace RPG::GameCore { class ServantSkillRowData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -14,7 +14,7 @@ inline static constexpr unsigned int ECLHDOFPLBH_TypeDefinitionIndex = 62637;
 	class ECLHDOFPLBH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::GameCore::ServantSkillRowData*>* PFBKNEFKOLB; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::ServantSkillRowData*>* PFBKNEFKOLB; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ECLHDOFPLBH_CTOR_OFFSET))(this);

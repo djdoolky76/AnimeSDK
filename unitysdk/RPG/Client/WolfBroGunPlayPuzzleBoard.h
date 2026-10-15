@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/Client/WolfBroGunPlayPuzzleBoard_ScoreRankConfig.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayResult.h"
 #include "unitysdk/RPG/GameCore/GunPlayModeType.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class FICJADOJGMF;
 class FMFOFIDGMMP;
@@ -23,7 +24,6 @@ namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -132,8 +132,8 @@ namespace RPG::Client
 		::System::Int32 _TimeScaleChangeFrame; // 0x154
 		::RPG::Client::WolfBroGunPlayResult _Result; // 0x158
 		::System::Byte _padding3[0x4];
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _ThisFrameScores; // 0x190
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _ThisFrameDelScores; // 0x198
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::WolfBroGunPlayTarget*, ::System::Single>>* _ThisFrameScores; // 0x190
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::WolfBroGunTargetProjectile*, ::System::Single>>* _ThisFrameDelScores; // 0x198
 		::FICJADOJGMF* _RoadMap; // 0x1A0
 		::RPG::GameCore::GameEntity* _Entity; // 0x1A8
 		::RPG::Client::MonoWolfBroCustomData* _CustomData; // 0x1B0

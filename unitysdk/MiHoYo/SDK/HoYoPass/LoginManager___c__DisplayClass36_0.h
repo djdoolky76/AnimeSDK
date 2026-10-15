@@ -3,8 +3,8 @@
 #include "unitysdk/MiHoYo/SDK/HoYoPass/HoYoPassSDK_ErrorCode.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE59BE0)
 #define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS36_0__REFRESHCURRENTACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1BE6D5F0)
@@ -17,7 +17,7 @@ namespace MiHoYo::SDK::HoYoPass
 	{
 	public:
 		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::System::Int32>* callback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS36_0_CTOR_OFFSET))(this);

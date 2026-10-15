@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::UINavigation { class UINavigation; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define CONAIOFALJB___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCBFDA0)
 #define CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__1_OFFSET UNITYSDK_OFFSET(0xDCBFE10)
@@ -19,14 +19,14 @@ inline static constexpr unsigned int CONAIOFALJB___c__DisplayClass3_0_TypeDefini
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CONAIOFALJB___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _IsFocused_b__1(::System::Action* a1)
+		::System::Void _IsFocused_b__1(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__1_OFFSET))(this, a1);
 		}
 
-		::System::Void _IsFocused_b__2(::System::Action* a1)
+		::System::Void _IsFocused_b__2(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + CONAIOFALJB___C__DISPLAYCLASS3_0__ISFOCUSED_B__2_OFFSET))(this, a1);
 		}
 
 	};

@@ -4,8 +4,8 @@
 class CJGNCPIDGNH;
 class MBJOEPEGLII;
 namespace RPG::Client { class BaseLobby; }
-namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { template <typename T> class Action_1; }
 
 #define CJGNCPIDGNH___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD20BF70)
 #define CJGNCPIDGNH___C__DISPLAYCLASS3_0___DOCREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD2115A0)
@@ -18,7 +18,7 @@ inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass3_0_TypeDefini
 	public:
 		::CJGNCPIDGNH* __4__this; // 0x10
 		::MBJOEPEGLII* session; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action_1<::System::Exception*>* __9__1; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJGNCPIDGNH___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

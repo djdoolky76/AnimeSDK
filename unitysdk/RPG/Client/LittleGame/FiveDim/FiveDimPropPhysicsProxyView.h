@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimView.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/RPG/GCFreeClosure/ActionClosure_1.h"
 class EMJIDLCDFMI;
 class GIPAFBHPHHE;
@@ -46,7 +46,7 @@ namespace RPG::Client::LittleGame::FiveDim
 		::RPG::Client::Mono::FiveDimBodyCollisionSensor* HLGAOHEMJAI; // 0x210
 		::RPG::Client::Mono::FiveDimBodyTriggerSensor* ANBNCGONHPK; // 0x218
 		::RPG::Client::Mono::FiveDimBodyCollisionSensorWithStay* JDNAKAALPMD; // 0x220
-		::System::Collections::Generic::List_1<::System::ValueTuple>* IHBHHELPJBL; // 0x228
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::GIPAFBHPHHE*, ::UnityEngine::Collider*>>* IHBHHELPJBL; // 0x228
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPROPPHYSICSPROXYVIEW_CTOR_OFFSET))(this);

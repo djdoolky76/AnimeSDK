@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class ONIPPDKFHDD;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define ONIPPDKFHDD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBF576B0)
@@ -23,7 +23,7 @@ inline static constexpr unsigned int ONIPPDKFHDD_TypeDefinitionIndex = 61369;
 	class ONIPPDKFHDD : public ::System::Object
 	{
 	public:
-		::System::Action* NNOJAPCJGLA; // 0x10
+		::System::Action_1<::System::UInt32>* NNOJAPCJGLA; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Boolean>* PCKGADHDJFF; // 0x18
 		::System::UInt32 _AchievementID_k__BackingField; // 0x20
 		::System::Boolean _Disposed_k__BackingField; // 0x24
@@ -32,9 +32,9 @@ inline static constexpr unsigned int ONIPPDKFHDD_TypeDefinitionIndex = 61369;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ONIPPDKFHDD_CTOR_OFFSET))(this);
 		}
 
-		static ::ONIPPDKFHDD* BPLPBPMEODA(::Il2CppArray<::System::String*>* a1, ::System::UInt32 a2, ::System::Action* a3)
+		static ::ONIPPDKFHDD* BPLPBPMEODA(::Il2CppArray<::System::String*>* a1, ::System::UInt32 a2, ::System::Action_1<::System::UInt32>* a3)
 		{
-			return ((::ONIPPDKFHDD*(*)(::Il2CppArray<::System::String*>*, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + ONIPPDKFHDD_BPLPBPMEODA_OFFSET))(a1, a2, a3);
+			return ((::ONIPPDKFHDD*(*)(::Il2CppArray<::System::String*>*, ::System::UInt32, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + ONIPPDKFHDD_BPLPBPMEODA_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Void HADOHLNHHGB()

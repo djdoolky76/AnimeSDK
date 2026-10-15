@@ -6,7 +6,7 @@
 #include "unitysdk/System/Object.h"
 class CEEGMMCFCBG;
 class JAMLOIADIDB;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace System { class String; }
@@ -86,9 +86,9 @@ inline static constexpr unsigned int FCJKEBPNIED_TypeDefinitionIndex = 79140;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::JAMLOIADIDB*))((::PBYTE)hIl2Cpp + FCJKEBPNIED_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::R3::Observable* FMHKLHAKMKO()
+		::R3::Observable_1<::JAMLOIADIDB*>* FMHKLHAKMKO()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_FMHKLHAKMKO_OFFSET))(this);
+			return ((::R3::Observable_1<::JAMLOIADIDB*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_FMHKLHAKMKO_OFFSET))(this);
 		}
 
 		::CEEGMMCFCBG* get_ClickCommand()
@@ -96,94 +96,94 @@ inline static constexpr unsigned int FCJKEBPNIED_TypeDefinitionIndex = 79140;
 			return ((::CEEGMMCFCBG*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_GET_CLICKCOMMAND_OFFSET))(this);
 		}
 
-		::R3::Observable* AHNHNBDCOLP()
+		::R3::Observable_1<::System::Boolean>* AHNHNBDCOLP()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_AHNHNBDCOLP_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_AHNHNBDCOLP_OFFSET))(this);
 		}
 
-		::R3::Observable* FJDFDINHALL()
+		::R3::Observable_1<::System::Boolean>* FJDFDINHALL()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_FJDFDINHALL_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_FJDFDINHALL_OFFSET))(this);
 		}
 
-		::R3::Observable* IHEFFDKFAOA()
+		::R3::Observable_1<::System::String*>* IHEFFDKFAOA()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_IHEFFDKFAOA_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_IHEFFDKFAOA_OFFSET))(this);
 		}
 
-		::R3::Observable* JONEOIMNHND()
+		::R3::Observable_1<::System::Boolean>* JONEOIMNHND()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_JONEOIMNHND_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_JONEOIMNHND_OFFSET))(this);
 		}
 
-		::R3::Observable* KNEHFOEDBKP()
+		::R3::Observable_1<::System::String*>* KNEHFOEDBKP()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_KNEHFOEDBKP_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_KNEHFOEDBKP_OFFSET))(this);
 		}
 
-		::R3::Observable* EBKGLBAAJFI()
+		::R3::Observable_1<::System::Boolean>* EBKGLBAAJFI()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_EBKGLBAAJFI_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_EBKGLBAAJFI_OFFSET))(this);
 		}
 
-		::R3::Observable* AEGBGKJEHBO()
+		::R3::Observable_1<::System::String*>* AEGBGKJEHBO()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_AEGBGKJEHBO_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_AEGBGKJEHBO_OFFSET))(this);
 		}
 
-		::R3::Observable* OKDGEHGKGFE()
+		::R3::Observable_1<::System::String*>* OKDGEHGKGFE()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_OKDGEHGKGFE_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_OKDGEHGKGFE_OFFSET))(this);
 		}
 
-		::R3::Observable* ALAAEMGFODH()
+		::R3::Observable_1<::System::Boolean>* ALAAEMGFODH()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_ALAAEMGFODH_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_ALAAEMGFODH_OFFSET))(this);
 		}
 
-		::R3::Observable* CIBFJGIHIMP()
+		::R3::Observable_1<::System::String*>* CIBFJGIHIMP()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_CIBFJGIHIMP_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_CIBFJGIHIMP_OFFSET))(this);
 		}
 
-		::R3::Observable* KAODIPGBMNG()
+		::R3::Observable_1<::System::Boolean>* KAODIPGBMNG()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_KAODIPGBMNG_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_KAODIPGBMNG_OFFSET))(this);
 		}
 
-		::R3::Observable* PDDKMNLPINH()
+		::R3::Observable_1<::System::Boolean>* PDDKMNLPINH()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_PDDKMNLPINH_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_PDDKMNLPINH_OFFSET))(this);
 		}
 
-		::R3::Observable* OODJOHHNMAE()
+		::R3::Observable_1<::System::String*>* OODJOHHNMAE()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_OODJOHHNMAE_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_OODJOHHNMAE_OFFSET))(this);
 		}
 
-		::R3::Observable* MMBFCDMGCCO()
+		::R3::Observable_1<::System::Boolean>* MMBFCDMGCCO()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_MMBFCDMGCCO_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_MMBFCDMGCCO_OFFSET))(this);
 		}
 
-		::R3::Observable* MLMGEFIOION()
+		::R3::Observable_1<::System::String*>* MLMGEFIOION()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_MLMGEFIOION_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_MLMGEFIOION_OFFSET))(this);
 		}
 
-		::R3::Observable* MEEOBEGMCLB()
+		::R3::Observable_1<::RPG::Client::RewardItem::RewardItemMarkFlags>* MEEOBEGMCLB()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_MEEOBEGMCLB_OFFSET))(this);
+			return ((::R3::Observable_1<::RPG::Client::RewardItem::RewardItemMarkFlags>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_MEEOBEGMCLB_OFFSET))(this);
 		}
 
-		::R3::Observable* JLOEDGPLFBM()
+		::R3::Observable_1<::RPG::GameCore::ItemRecycleShowType>* JLOEDGPLFBM()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_JLOEDGPLFBM_OFFSET))(this);
+			return ((::R3::Observable_1<::RPG::GameCore::ItemRecycleShowType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_JLOEDGPLFBM_OFFSET))(this);
 		}
 
-		::R3::Observable* HHMDNILOCOL()
+		::R3::Observable_1<::System::String*>* HHMDNILOCOL()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_HHMDNILOCOL_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FCJKEBPNIED_HHMDNILOCOL_OFFSET))(this);
 		}
 
 		::System::Void EIPEDAMPEFC(::System::UInt32 a1, ::RPG::Client::ItemDisplayData* a2)

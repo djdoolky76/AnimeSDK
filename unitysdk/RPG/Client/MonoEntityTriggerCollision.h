@@ -6,7 +6,7 @@
 namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
@@ -39,9 +39,9 @@ namespace RPG::Client
 		::System::String* OnPlayerCollisionCustomString; // 0x48
 		::System::UInt32 HitPlayerQuestID; // 0x50
 		::System::Single ECNLKMLELIJ; // 0x54
-		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_IgnoreCollisionEntities()
+		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::RPG::GameCore::GameEntity*>*>** StaticGet_IgnoreCollisionEntities()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("RPG.Client", "MonoEntityTriggerCollision")->GetStaticField(0x651C0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::RPG::GameCore::GameEntity*>*>**)UnitySDK::FromName("RPG.Client", "MonoEntityTriggerCollision")->GetStaticField(0x651C0);
 		}
 
 		::System::Void _ctor()

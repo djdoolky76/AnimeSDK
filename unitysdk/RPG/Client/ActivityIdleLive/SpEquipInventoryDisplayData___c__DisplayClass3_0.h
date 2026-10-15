@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
 #define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC514160)
@@ -14,7 +14,7 @@ namespace RPG::Client::ActivityIdleLive
 	class SpEquipInventoryDisplayData___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::ValueTuple tuple; // 0x10
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> tuple; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

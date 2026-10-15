@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleShopState; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6CDD0)
 #define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xDC6D450)
@@ -16,7 +16,7 @@ namespace RPG::Client::Prop
 	{
 	public:
 		::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState* __4__this; // 0x10
-		::System::Action* onComplete; // 0x18
+		::System::Action_1<::System::Boolean>* onComplete; // 0x18
 		::System::Boolean isFinished; // 0x20
 		::System::Void _ctor()
 		{

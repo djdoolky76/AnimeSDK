@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -9,7 +10,6 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CloseupShotData; }
 namespace RPG::Client { class PlayableBindingControl; }
 namespace RPG::GameCore { class TargetEvaluator; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
@@ -53,24 +53,24 @@ inline static constexpr unsigned int ONGJAABPPCP_TypeDefinitionIndex = 69611;
 		::UnityEngine::GameObject* AAKLLPLGHBN; // 0x40
 		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x48
 		::HPGLJFPJLMO* KDMOOAEBPDP; // 0x50
-		::System::Nullable* JMHPKMCKBJO; // 0x58
+		::System::Nullable_1<::UnityEngine::Quaternion> JMHPKMCKBJO; // 0x58
 		::System::Byte _padding0[0xC];
-		::System::Nullable* NJIOJEBJDEN; // 0x6C
+		::System::Nullable_1<::System::Single> NJIOJEBJDEN; // 0x6C
 		::System::Byte _padding1[0x4];
-		::System::Nullable* JBELDBONNIK; // 0x78
+		::System::Nullable_1<::System::Double> JBELDBONNIK; // 0x78
 		::System::Byte _padding2[0x8];
-		::System::Nullable* FNOKLIMCJFE; // 0x88
+		::System::Nullable_1<::UnityEngine::Vector3> FNOKLIMCJFE; // 0x88
 		::System::Byte _padding3[0x8];
 		::System::Int32 LBDCGECLEPM; // 0x98
-		::System::Nullable* KOGCFJCMFLD; // 0x9C
+		::System::Nullable_1<::UnityEngine::Vector3> KOGCFJCMFLD; // 0x9C
 		::System::Byte _padding4[0x8];
 		::System::Boolean INJJGMIGFFD; // 0xAC
 		::System::Boolean EJDEKKEOHBE; // 0xAD
 		::System::Byte _padding5[0x2];
 		::System::Int32 MJHPCLJCCNK; // 0xB0
-		::System::Void _ctor(::RPG::Client::CloseupShotData* a1, ::RPG::Client::CameraDataAndFlags* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		::System::Void _ctor(::RPG::Client::CloseupShotData* a1, ::RPG::Client::CameraDataAndFlags* a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Nullable_1<::UnityEngine::Quaternion> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CloseupShotData*, ::RPG::Client::CameraDataAndFlags*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + ONGJAABPPCP_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CloseupShotData*, ::RPG::Client::CameraDataAndFlags*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + ONGJAABPPCP_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean FNOFNOADEPB()
@@ -133,9 +133,9 @@ inline static constexpr unsigned int ONGJAABPPCP_TypeDefinitionIndex = 69611;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_EAHPPEBENAO_OFFSET))(this);
 		}
 
-		::System::Nullable* HEKFHODGFLP()
+		::System::Nullable_1<::System::Double> HEKFHODGFLP()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_HEKFHODGFLP_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Double>(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_HEKFHODGFLP_OFFSET))(this);
 		}
 
 		::UnityEngine::Transform* OEJBGDFIGJG(::RPG::GameCore::TargetEvaluator* a1)
@@ -168,9 +168,9 @@ inline static constexpr unsigned int ONGJAABPPCP_TypeDefinitionIndex = 69611;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_ALMGCBHDHNK_OFFSET))(this);
 		}
 
-		::System::Nullable* HAHCGJEMFMN()
+		::System::Nullable_1<::System::Single> HAHCGJEMFMN()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_HAHCGJEMFMN_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + ONGJAABPPCP_HAHCGJEMFMN_OFFSET))(this);
 		}
 
 	};

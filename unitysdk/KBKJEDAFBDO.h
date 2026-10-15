@@ -7,7 +7,7 @@
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class HPKACEPPPCA;
 class KFOMKKPPMBO;
@@ -221,9 +221,9 @@ inline static constexpr unsigned int KBKJEDAFBDO_TypeDefinitionIndex = 60521;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState))((::PBYTE)hIl2Cpp + KBKJEDAFBDO_ICIOBBMPPDK_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple BPMMOPIHGFM()
+		::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single> BPMMOPIHGFM()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + KBKJEDAFBDO_BPMMOPIHGFM_OFFSET))(this);
+			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + KBKJEDAFBDO_BPMMOPIHGFM_OFFSET))(this);
 		}
 
 		::System::Boolean MNIDEOAGKOJ()

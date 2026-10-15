@@ -9,7 +9,9 @@ class LJFHKAJPFNE;
 class OIDDJJLHGKO;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class StreamingLayerDetail; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -41,11 +43,11 @@ inline static constexpr unsigned int GIIMNHIEBAG_TypeDefinitionIndex = 73752;
 	{
 	public:
 		::System::Collections::Generic::List_1<::HPKACEPPPCA*>* MDPHLGPNHGL; // 0x170
-		::System::Action* CMINHDLOIIP; // 0x178
-		::System::Action* HKKAODHHNLM; // 0x180
-		::System::Action* IADNCGNIHDM; // 0x188
-		::System::Action* INJMMHBDEHC; // 0x190
-		::System::Action* FPBNLGEJKLH; // 0x198
+		::System::Action_1<::HPKACEPPPCA*>* CMINHDLOIIP; // 0x178
+		::System::Action_2<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*>* HKKAODHHNLM; // 0x180
+		::System::Action_3<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::System::Boolean>* IADNCGNIHDM; // 0x188
+		::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* INJMMHBDEHC; // 0x190
+		::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* FPBNLGEJKLH; // 0x198
 		::UnityEngine::Vector2 CGCMOADCGEC; // 0x1A0
 		::System::Boolean MCAPIAKDMAA; // 0x1A8
 		::System::Boolean BKEGDMBMHHP; // 0x1A9

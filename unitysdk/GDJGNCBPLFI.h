@@ -4,10 +4,10 @@
 class BABNOKHOBCF;
 class INMMPMDELKE;
 class MNCOPNHONHO;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -33,10 +33,10 @@ inline static constexpr unsigned int GDJGNCBPLFI_TypeDefinitionIndex = 76753;
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* BMEOJFMJJFI; // 0x10
 		::BABNOKHOBCF* FKINCGODJEP; // 0x18
-		::Entitas::ICollector* KLPOJBKOOOK; // 0x20
+		::Entitas::ICollector_1<::INMMPMDELKE*>* KLPOJBKOOOK; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x28
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x30
-		::Entitas::IGroup* BBANBAKCLCK; // 0x38
+		::Entitas::IGroup_1<::INMMPMDELKE*>* BBANBAKCLCK; // 0x38
 		::System::Void _ctor(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::BABNOKHOBCF*, ::MNCOPNHONHO*))((::PBYTE)hIl2Cpp + GDJGNCBPLFI_CTOR_OFFSET))(this, a1, a2);

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
@@ -11,7 +11,7 @@ namespace RPG::Client::MechCraft::ViewModel
 	class MechCraftDiySignal_1 : public ::System::Object
 	{
 	public:
-		::System::Action* _Callbacks; // 0x0
+		::System::Action_1<T>* _Callbacks; // 0x0
 		::System::Boolean _Disposed; // 0x0
 	};
 }

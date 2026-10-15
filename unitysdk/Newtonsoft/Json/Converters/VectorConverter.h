@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonConverter.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class Type; }
 
@@ -97,9 +97,9 @@ namespace Newtonsoft::Json::Converters
 			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEJSON_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void WriteVector(::Newtonsoft::Json::JsonWriter* a1, ::System::Single a2, ::System::Single a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		static ::System::Void WriteVector(::Newtonsoft::Json::JsonWriter* a1, ::System::Single a2, ::System::Single a3, ::System::Nullable_1<::System::Single> a4, ::System::Nullable_1<::System::Single> a5)
 		{
-			return ((::System::Void(*)(::Newtonsoft::Json::JsonWriter*, ::System::Single, ::System::Single, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEVECTOR_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::Newtonsoft::Json::JsonWriter*, ::System::Single, ::System::Single, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VECTORCONVERTER_WRITEVECTOR_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* a1, ::System::Type* a2, ::System::Object* a3, ::Newtonsoft::Json::JsonSerializer* a4)

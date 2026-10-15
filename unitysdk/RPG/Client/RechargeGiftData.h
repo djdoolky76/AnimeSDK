@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/DateTimePro.h"
 #include "unitysdk/RPG/Client/RechargeGiftStatus.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class JBNGCJJDLHL;
 namespace RPG::Client { class Product; }
@@ -9,7 +10,6 @@ namespace RPG::Client { class RechargeGiftData; }
 namespace RPG::Client { class RechargeGiftRewardData; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace RPG::GameCore { class RechargeGiftConfigRow; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -53,7 +53,7 @@ namespace RPG::Client
 		::JBNGCJJDLHL* __RewardRef_k__BackingField; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>* _RewardOfDay_k__BackingField; // 0x38
 		::RPG::Client::DateTimePro _RewardEndTime_k__BackingField; // 0x40
-		::System::Nullable* _CachedIsBanned; // 0x48
+		::System::Nullable_1<::System::Boolean> _CachedIsBanned; // 0x48
 		::System::Void _ctor(::RPG::GameCore::RechargeGiftConfigRow* a1, ::RPG::Client::Product* a2, ::JBNGCJJDLHL* a3, ::RPG::Client::Product* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RechargeGiftConfigRow*, ::RPG::Client::Product*, ::JBNGCJJDLHL*, ::RPG::Client::Product*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTDATA_CTOR_OFFSET))(this, a1, a2, a3, a4);
@@ -154,9 +154,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTDATA_GET__ISPRODUCTSOLDOUT_OFFSET))(this);
 		}
 
-		::System::Nullable* get_ProductVersion()
+		::System::Nullable_1<::System::UInt32> get_ProductVersion()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTDATA_GET_PRODUCTVERSION_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTDATA_GET_PRODUCTVERSION_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsRewardInSchedule()

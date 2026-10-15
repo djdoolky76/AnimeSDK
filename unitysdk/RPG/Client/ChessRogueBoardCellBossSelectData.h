@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GNFLPMACOFA.h"
 class DFKMNLIJMFB;
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCAE8BF0)
@@ -21,7 +21,7 @@ namespace RPG::Client
 	class ChessRogueBoardCellBossSelectData : public ::GNFLPMACOFA
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Tuple*>* _ToSelectList_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* _ToSelectList_k__BackingField; // 0x10
 		::System::UInt32 _SelectedMonsterID_k__BackingField; // 0x18
 		::System::Boolean _IsSelected_k__BackingField; // 0x1C
 		::System::Void _ctor(::DFKMNLIJMFB* a1)
@@ -54,14 +54,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_SELECTEDMONSTERID_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::Tuple*>* get_ToSelectList()
+		::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* get_ToSelectList()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_TOSELECTLIST_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_GET_TOSELECTLIST_OFFSET))(this);
 		}
 
-		::System::Void set_ToSelectList(::System::Collections::Generic::List_1<::System::Tuple*>* a1)
+		::System::Void set_ToSelectList(::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Tuple*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_TOSELECTLIST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDCELLBOSSSELECTDATA_SET_TOSELECTLIST_OFFSET))(this, a1);
 		}
 
 	};

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class KFGGDNIGKGG;
 namespace RPG::Client::MechCraft::View { class MechCraftAttributeRadarDimensionControlBinder; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -23,7 +23,7 @@ namespace RPG::Client::MechCraft::View
 	{
 	public:
 		::KFGGDNIGKGG* JLDGIKMAPGK; // 0x18
-		::System::Nullable* DLNIGFGLPLJ; // 0x20
+		::System::Nullable_1<::System::Object*> DLNIGFGLPLJ; // 0x20
 		::System::String* OFCNNJKHMDJ; // 0x28
 		::RPG::Client::MechCraft::View::MechCraftAttributeRadarDimensionControlBinder* _Binder; // 0x30
 		::System::String* _StateNonTargetDefault; // 0x38
@@ -48,14 +48,14 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::KFGGDNIGKGG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTATTRIBUTERADARDIMENSIONCONTROL_SET_ATTRIBUTE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_State()
+		::System::Nullable_1<::System::Object*> get_State()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTATTRIBUTERADARDIMENSIONCONTROL_GET_STATE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTATTRIBUTERADARDIMENSIONCONTROL_GET_STATE_OFFSET))(this);
 		}
 
-		::System::Void set_State(::System::Nullable* a1)
+		::System::Void set_State(::System::Nullable_1<::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTATTRIBUTERADARDIMENSIONCONTROL_SET_STATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTATTRIBUTERADARDIMENSIONCONTROL_SET_STATE_OFFSET))(this, a1);
 		}
 
 		::System::String* OPLJKGNFPFE()

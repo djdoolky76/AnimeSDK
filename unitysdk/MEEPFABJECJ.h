@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OMNEDLJOPNM.h"
 #include "unitysdk/RPG/GameCore/CakeRaceTargetLockStatus.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class IFBFJDCECML;
 class PBGNKMMDBGD;
 class PFMAAAJFLOA;
@@ -89,9 +89,9 @@ inline static constexpr unsigned int MEEPFABJECJ_TypeDefinitionIndex = 37239;
 			return ((::System::Void(*)(::PVOID, ::IFBFJDCECML*, ::IFBFJDCECML*, ::PBGNKMMDBGD*))((::PBYTE)hIl2Cpp + MEEPFABJECJ_KFOMLHEPBMI_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* INDNACOGMGN()
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* INDNACOGMGN()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MEEPFABJECJ_INDNACOGMGN_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MEEPFABJECJ_INDNACOGMGN_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CakeRaceTargetLockStatus, ::System::Int32>* GBMJLLGNCHM(::PBGNKMMDBGD* a1)

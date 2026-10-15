@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RelicRecommendData; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::Client::Recommend { class RecommendModule; }
 
 #define RPG_CLIENT_RECOMMEND_RECOMMENDMODULE___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE5EAA0)
@@ -16,7 +16,7 @@ namespace RPG::Client::Recommend
 	{
 	public:
 		::RPG::Client::Recommend::RecommendModule* __4__this; // 0x10
-		::RPG::Client::Promises::Promise* newPromise; // 0x18
+		::RPG::Client::Promises::Promise_1<::RPG::Client::RelicRecommendData*>* newPromise; // 0x18
 		::System::UInt32 avatarRealID; // 0x20
 		::System::Void _ctor()
 		{

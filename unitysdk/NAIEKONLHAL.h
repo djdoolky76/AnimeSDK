@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class NAIEKONLHAL;
 namespace RPG::GameCore { class ItemConfig; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -72,9 +72,9 @@ inline static constexpr unsigned int NAIEKONLHAL_TypeDefinitionIndex = 62489;
 			return ((::NAIEKONLHAL*(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + NAIEKONLHAL_AJFBJNKGLNF_OFFSET))(this, a1);
 		}
 
-		::System::Void IJGPNDPBCOB(::System::Action* a1)
+		::System::Void IJGPNDPBCOB(::System::Action_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + NAIEKONLHAL_IJGPNDPBCOB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + NAIEKONLHAL_IJGPNDPBCOB_OFFSET))(this, a1);
 		}
 
 		::System::Void PJPFIHFAHGO()

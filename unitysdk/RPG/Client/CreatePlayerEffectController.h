@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class DOFConfig; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Camera; }
 
 #define RPG_CLIENT_CREATEPLAYEREFFECTCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC9570)
@@ -24,7 +24,7 @@ namespace RPG::Client
 	public:
 		::RPG::Client::MonoEffect* _MonoEffect; // 0x18
 		::UnityEngine::Camera* _UI3DCamera; // 0x20
-		::System::Nullable* _IsNeedToInvoke; // 0x28
+		::System::Nullable_1<::System::Boolean> _IsNeedToInvoke; // 0x28
 		::System::Action* _NextFrameCallback; // 0x30
 		// static const ::System::String* _EFFECT_PATH; // 0x0
 		::System::Void _ctor()

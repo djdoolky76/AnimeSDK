@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/EventSystems/BaseEventData.h"
 #include "unitysdk/UnityEngine/EventSystems/PointerEventData_InputButton.h"
 #include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
 #include "unitysdk/UnityEngine/UI/TouchFilter_FilterState.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -94,7 +94,7 @@ namespace UnityEngine::EventSystems
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* dragingObjects; // 0x130
 		::System::Int32 CanHandleCount; // 0x138
 		::UnityEngine::UI::TouchFilter_FilterState filterState; // 0x13C
-		::System::Nullable* FilterParam; // 0x140
+		::System::Nullable_1<::System::Object*> FilterParam; // 0x140
 		::System::Byte _padding2[0x4];
 		::System::Boolean ScrollHandled; // 0x14C
 		::System::Void _ctor(::UnityEngine::EventSystems::EventSystem* a1)

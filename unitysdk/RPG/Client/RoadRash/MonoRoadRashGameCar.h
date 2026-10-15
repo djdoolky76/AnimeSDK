@@ -6,7 +6,7 @@
 #include "unitysdk/RPG/Client/RoadRash/RoadRashGameSettingsConfigure_ImpactEffectConfig.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class GHMGGIHEHJE;
 class KPDKCEAFBHI;
 namespace RPG::Client { class NamedCurve; }
@@ -166,9 +166,9 @@ namespace RPG::Client::RoadRash
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_MMNMOFJBNJH_OFFSET))(this, a1);
 		}
 
-		static ::System::ValueTuple JHPDFKCJANG(::RPG::Client::B51Racing::RoadRashGameHitSource a1, ::RPG::Client::B51Racing::RoadRashGameHitSource a2)
+		static ::System::ValueTuple_2<::System::Boolean, ::System::Boolean> JHPDFKCJANG(::RPG::Client::B51Racing::RoadRashGameHitSource a1, ::RPG::Client::B51Racing::RoadRashGameHitSource a2)
 		{
-			return ((::System::ValueTuple(*)(::RPG::Client::B51Racing::RoadRashGameHitSource, ::RPG::Client::B51Racing::RoadRashGameHitSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_JHPDFKCJANG_OFFSET))(a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::RPG::Client::B51Racing::RoadRashGameHitSource, ::RPG::Client::B51Racing::RoadRashGameHitSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHGAMECAR_JHPDFKCJANG_OFFSET))(a1, a2);
 		}
 
 	};

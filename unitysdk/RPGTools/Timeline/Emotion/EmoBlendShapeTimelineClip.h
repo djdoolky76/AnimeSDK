@@ -7,7 +7,7 @@
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace RPGTools::Timeline::Emotion { class EmoBlendShapeParam; }
 namespace RPGTools::Timeline::Emotion { class EmoBlendShapeTimelineBehaviour; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -27,7 +27,7 @@ namespace RPGTools::Timeline::Emotion
 		::RPG::Client::MonoEmoBlendShapesController* MonoController; // 0x20
 		::System::Double Start; // 0x28
 		::System::Double End; // 0x30
-		::System::WeakReference* Behaviour; // 0x38
+		::System::WeakReference_1<::RPGTools::Timeline::Emotion::EmoBlendShapeTimelineBehaviour*>* Behaviour; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINECLIP_CTOR_OFFSET))(this);

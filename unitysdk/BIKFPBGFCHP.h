@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ONPKMMDCDAN.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class BIKFPBGFCHP_AGPDDEPAAPE;
@@ -10,8 +11,8 @@ class BIKFPBGFCHP_HIEDPDLIHKF;
 class BIKFPBGFCHP_JJPIPEJJOEG;
 class CCEIJBFAOAI;
 class NKIJFPHFJCO;
-namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -80,7 +81,7 @@ inline static constexpr unsigned int BIKFPBGFCHP_TypeDefinitionIndex = 79454;
 		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* CENPHKJBLPK; // 0x18
 		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* KECBLJENOBE; // 0x20
 		::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>* MGLENJEDGCJ; // 0x28
-		::System::Action* HandleHintPlaced; // 0x30
+		::System::Action_2<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>>* HandleHintPlaced; // 0x30
 		::BIKFPBGFCHP_HIEDPDLIHKF* OnCoveredBannedCellsChanged; // 0x38
 		::System::Collections::Immutable::IImmutableSet_1<::ONPKMMDCDAN>* MEAAPCKMMNJ; // 0x40
 		::BIKFPBGFCHP_JJPIPEJJOEG* OnBuffAffectingCellsChanged; // 0x48
@@ -91,13 +92,13 @@ inline static constexpr unsigned int BIKFPBGFCHP_TypeDefinitionIndex = 79454;
 		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* NFKOGIKHLGJ; // 0x70
 		::BIKFPBGFCHP_AGPDDEPAAPE* OnTutorialTargetCellsChanged; // 0x78
 		::BIKFPBGFCHP_AGPDDEPAAPE* OnPreviewOverlappedCellsChanged; // 0x80
-		::System::Action* HandleForceHintBuffed; // 0x88
+		::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* HandleForceHintBuffed; // 0x88
 		::System::Collections::Immutable::IImmutableSet_1<::UnityEngine::Vector2Int>* MMHBILCCJOG; // 0x90
 		::CCEIJBFAOAI* JOKBAPFCJFM; // 0x98
 		::BIKFPBGFCHP_HIEDPDLIHKF* OnErroneousOverlappedCellsChanged; // 0xA0
 		::System::Collections::Immutable::IImmutableSet_1<::UnityEngine::Vector2Int>* IADIPFGACDL; // 0xA8
 		::System::Collections::Immutable::IImmutableSet_1<::UnityEngine::Vector2Int>* CAEKHIPPCMB; // 0xB0
-		::System::Action* HandleHintAsymmetricCells; // 0xB8
+		::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* HandleHintAsymmetricCells; // 0xB8
 		::System::Void _ctor(::CCEIJBFAOAI* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::CCEIJBFAOAI*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_CTOR_OFFSET))(this, a1);
@@ -273,14 +274,14 @@ inline static constexpr unsigned int BIKFPBGFCHP_TypeDefinitionIndex = 79454;
 			return ((::System::Void(*)(::PVOID, ::BIKFPBGFCHP_HIEDPDLIHKF*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_REMOVE_ONBUFFPREVIEWCELLSCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_HandleHintAsymmetricCells(::System::Action* a1)
+		::System::Void add_HandleHintAsymmetricCells(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_ADD_HANDLEHINTASYMMETRICCELLS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_ADD_HANDLEHINTASYMMETRICCELLS_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleHintAsymmetricCells(::System::Action* a1)
+		::System::Void remove_HandleHintAsymmetricCells(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_REMOVE_HANDLEHINTASYMMETRICCELLS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_REMOVE_HANDLEHINTASYMMETRICCELLS_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Immutable::IImmutableSet_1<::UnityEngine::Vector2Int>* AJGOGDOMEPK()
@@ -303,24 +304,24 @@ inline static constexpr unsigned int BIKFPBGFCHP_TypeDefinitionIndex = 79454;
 			return ((::System::Void(*)(::PVOID, ::BIKFPBGFCHP_AGPDDEPAAPE*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_REMOVE_ONTUTORIALTARGETCELLSCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_HandleHintPlaced(::System::Action* a1)
+		::System::Void add_HandleHintPlaced(::System::Action_2<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_ADD_HANDLEHINTPLACED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>>*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_ADD_HANDLEHINTPLACED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleHintPlaced(::System::Action* a1)
+		::System::Void remove_HandleHintPlaced(::System::Action_2<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_REMOVE_HANDLEHINTPLACED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>>*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_REMOVE_HANDLEHINTPLACED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_HandleForceHintBuffed(::System::Action* a1)
+		::System::Void add_HandleForceHintBuffed(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_ADD_HANDLEFORCEHINTBUFFED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_ADD_HANDLEFORCEHINTBUFFED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleForceHintBuffed(::System::Action* a1)
+		::System::Void remove_HandleForceHintBuffed(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_REMOVE_HANDLEFORCEHINTBUFFED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + BIKFPBGFCHP_REMOVE_HANDLEFORCEHINTBUFFED_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

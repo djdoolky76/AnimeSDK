@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MiniMapIconType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define EJMCJECLENI_CEELKMGHHLJ_OFFSET UNITYSDK_OFFSET(0x154ED990)
@@ -93,7 +93,7 @@ inline static constexpr unsigned int EJMCJECLENI_TypeDefinitionIndex = 60640;
 		::System::Single _RangeRadius_k__BackingField; // 0x58
 		::System::Boolean LKAIKOLJPDO; // 0x5C
 		::System::Boolean _IsStatic_k__BackingField; // 0x5D
-		::System::Nullable* IECPJFBLBLB; // 0x5E
+		::System::Nullable_1<::System::Boolean> IECPJFBLBLB; // 0x5E
 		::System::Boolean _IsMission_k__BackingField; // 0x60
 		::System::Byte _padding0[0x3];
 		::UnityEngine::Color _IconColor_k__BackingField; // 0x64

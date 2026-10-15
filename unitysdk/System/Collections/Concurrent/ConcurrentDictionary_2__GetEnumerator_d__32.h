@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace System::Collections::Concurrent
 {
@@ -14,7 +14,7 @@ namespace System::Collections::Concurrent
 	{
 	public:
 		::System::Int32 __1__state; // 0x0
-		::System::Collections::Generic::KeyValuePair* __2__current; // 0x0
+		::System::Collections::Generic::KeyValuePair_2<T1, T2> __2__current; // 0x0
 		::System::Collections::Concurrent::ConcurrentDictionary_2<T1, T2>* __4__this; // 0x0
 		::Il2CppArray<::System::Object*>* _buckets_5__1; // 0x0
 		::System::Object* _current_5__2; // 0x0

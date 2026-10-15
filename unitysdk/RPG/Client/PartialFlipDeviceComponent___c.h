@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_4.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -23,9 +24,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11770);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::ValueTuple>** StaticGet___9__39_0()
+		static ::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::ValueTuple>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11778);
+			return (::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11778);
 		}
 
 		static ::System::Void _cctor()
@@ -38,9 +39,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple __CollectAffectBlockAndItem_b__39_0(::System::ValueTuple a1)
+		::System::ValueTuple_2<::System::String*, ::System::String*> __CollectAffectBlockAndItem_b__39_0(::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType> a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET))(this, a1);
 		}
 
 	};

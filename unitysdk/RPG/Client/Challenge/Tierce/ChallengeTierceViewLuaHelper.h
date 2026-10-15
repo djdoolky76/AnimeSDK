@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class ILDNJGBJGPF;
 namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceBattlePauseViewModel; }
@@ -12,7 +13,6 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRewardViewModel;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditViewModel; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEVIEWLUAHELPER_CHECKCHALLENGETIERCESPECIALREWARDHASSEEN_OFFSET UNITYSDK_OFFSET(0xC972F30)
@@ -72,14 +72,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceMazeViewModel*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEVIEWLUAHELPER_CREATEMAZEVIEWMODEL_OFFSET))();
 		}
 
-		static ::System::Nullable* TryGetCurrentlyEngagedGroupType()
+		static ::System::Nullable_1<::RPG::GameCore::ChallengeGroupType> TryGetCurrentlyEngagedGroupType()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEVIEWLUAHELPER_TRYGETCURRENTLYENGAGEDGROUPTYPE_OFFSET))();
+			return ((::System::Nullable_1<::RPG::GameCore::ChallengeGroupType>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEVIEWLUAHELPER_TRYGETCURRENTLYENGAGEDGROUPTYPE_OFFSET))();
 		}
 
-		static ::System::Nullable* TryGetCurrentlyEngagedMazeBuffID()
+		static ::System::Nullable_1<::System::UInt32> TryGetCurrentlyEngagedMazeBuffID()
 		{
-			return ((::System::Nullable*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEVIEWLUAHELPER_TRYGETCURRENTLYENGAGEDMAZEBUFFID_OFFSET))();
+			return ((::System::Nullable_1<::System::UInt32>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEVIEWLUAHELPER_TRYGETCURRENTLYENGAGEDMAZEBUFFID_OFFSET))();
 		}
 
 		static ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* TryGetCurrentlyEngagedStoryFeverMazeBuffIDs()

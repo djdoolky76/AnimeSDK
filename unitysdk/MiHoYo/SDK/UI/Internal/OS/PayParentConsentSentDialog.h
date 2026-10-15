@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UI_INTERNAL_OS_PAYPARENTCONSENTSENTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C00E100)
 #define MIHOYO_SDK_UI_INTERNAL_OS_PAYPARENTCONSENTSENTDIALOG_GET_ONCLOSEBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1C00DB80)
@@ -22,7 +23,7 @@ namespace MiHoYo::SDK::UI::Internal::OS
 	class PayParentConsentSentDialog : public ::System::Object
 	{
 	public:
-		::System::Action* _OnSendBtnCliekd_k__BackingField; // 0x10
+		::System::Action_1<::System::String*>* _OnSendBtnCliekd_k__BackingField; // 0x10
 		::System::Action* _onCloseBtnClicked_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
@@ -39,14 +40,14 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_PAYPARENTCONSENTSENTDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnSendBtnCliekd()
+		::System::Action_1<::System::String*>* get_OnSendBtnCliekd()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_PAYPARENTCONSENTSENTDIALOG_GET_ONSENDBTNCLIEKD_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_PAYPARENTCONSENTSENTDIALOG_GET_ONSENDBTNCLIEKD_OFFSET))(this);
 		}
 
-		::System::Void set_OnSendBtnCliekd(::System::Action* a1)
+		::System::Void set_OnSendBtnCliekd(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_PAYPARENTCONSENTSENTDIALOG_SET_ONSENDBTNCLIEKD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_PAYPARENTCONSENTSENTDIALOG_SET_ONSENDBTNCLIEKD_OFFSET))(this, a1);
 		}
 
 		::System::Void Show(::System::String* a1)

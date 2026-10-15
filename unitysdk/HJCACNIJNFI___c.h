@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class LAJCPEFEOPN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define HJCACNIJNFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D03F30)
 #define HJCACNIJNFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15D03F70)
@@ -19,9 +19,9 @@ inline static constexpr unsigned int HJCACNIJNFI___c_TypeDefinitionIndex = 69318
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D060);
 		}
 
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_1<::LAJCPEFEOPN*>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D068);
+			return (::System::Action_1<::LAJCPEFEOPN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D068);
 		}
 
 		static ::System::Void _cctor()

@@ -5,7 +5,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 #define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB6E730)
 #define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB6E5C0)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class BigIntegerFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::BigInteger>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "BigIntegerFormatter")->GetStaticField(0x248F0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::BigInteger>**)UnitySDK::FromName("MessagePack.Formatters", "BigIntegerFormatter")->GetStaticField(0x248F0);
 		}
 
 		::System::Void _ctor()

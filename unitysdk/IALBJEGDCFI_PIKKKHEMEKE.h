@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IALBJEGDCFI_HCBKBKPNDKB.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftRotationType.h"
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 
 #define IALBJEGDCFI_PIKKKHEMEKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15E194E0)
@@ -39,9 +39,9 @@ inline static constexpr unsigned int IALBJEGDCFI_PIKKKHEMEKE_TypeDefinitionIndex
 			return ((::R3::ReactiveProperty_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IALBJEGDCFI_PIKKKHEMEKE_GET_MUTABLESHOULDHINTROTATIONIMPROPER_OFFSET))(this);
 		}
 
-		::R3::Observable* OIDLGEHDOOE()
+		::R3::Observable_1<::System::Boolean>* OIDLGEHDOOE()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IALBJEGDCFI_PIKKKHEMEKE_OIDLGEHDOOE_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IALBJEGDCFI_PIKKKHEMEKE_OIDLGEHDOOE_OFFSET))(this);
 		}
 
 		::RPG::Client::MechCraft::MechCraftRotationType HNEADNPJHEB()

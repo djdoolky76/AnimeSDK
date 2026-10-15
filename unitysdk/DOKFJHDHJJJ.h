@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -32,7 +32,7 @@ inline static constexpr unsigned int DOKFJHDHJJJ_TypeDefinitionIndex = 72561;
 		::UnityEngine::Transform* MJCCOGIFANB; // 0x10
 		::UnityEngine::UI::ScrollRect* DNGOBOCIMNC; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>*>* BEHHICMOFIE; // 0x20
-		::System::Action* MCKAFONACMF; // 0x28
+		::System::Action_1<::UnityEngine::GameObject*>* MCKAFONACMF; // 0x28
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* OGCDJMKECHP; // 0x30
 		::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>* NELHFBDKJFJ; // 0x38
 		::UnityEngine::Transform* NHJIMBADBEN; // 0x40
@@ -64,9 +64,9 @@ inline static constexpr unsigned int DOKFJHDHJJJ_TypeDefinitionIndex = 72561;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DOKFJHDHJJJ_IMIKJMCGGML_OFFSET))(this);
 		}
 
-		::System::Void KPJGDHLENIP(::System::Int32 a1, ::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>* a2, ::System::Action* a3)
+		::System::Void KPJGDHLENIP(::System::Int32 a1, ::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>* a2, ::System::Action_1<::UnityEngine::GameObject*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>*, ::System::Action*))((::PBYTE)hIl2Cpp + DOKFJHDHJJJ_KPJGDHLENIP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>*, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + DOKFJHDHJJJ_KPJGDHLENIP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void LJBCDJNNBJH(::System::Int32 a1, ::System::Boolean a2)

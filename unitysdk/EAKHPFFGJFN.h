@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelPerformanceInitialize; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -19,7 +19,7 @@ inline static constexpr unsigned int EAKHPFFGJFN_TypeDefinitionIndex = 60699;
 	class EAKHPFFGJFN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* LCCCBGBIMFA; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* LCCCBGBIMFA; // 0x10
 		::System::Boolean OCCIFHOEJMI; // 0x18
 		::System::Boolean _BlockNew_k__BackingField; // 0x19
 		::System::Void _ctor()

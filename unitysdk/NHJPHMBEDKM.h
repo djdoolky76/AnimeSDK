@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MDILEMALGNC.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BPMLCFOHMDB;
@@ -10,7 +11,6 @@ namespace RPG::Client { class PhotoGraphSystem; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace RPG::Client { class RoamingModuleConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define NHJPHMBEDKM_AIPFFPHLAJA_OFFSET UNITYSDK_OFFSET(0xBBD18A0)
@@ -61,7 +61,7 @@ inline static constexpr unsigned int NHJPHMBEDKM_TypeDefinitionIndex = 69641;
 		::System::Boolean LKHPAHLNGLL; // 0x63
 		::UnityEngine::Vector3 GDAPGHLHJBD; // 0x64
 		::System::Single DLCHNFHCJGI; // 0x70
-		::System::Nullable* KMFDOJMNKON; // 0x74
+		::System::Nullable_1<::UnityEngine::Vector3> KMFDOJMNKON; // 0x74
 		::System::Byte _padding0[0x8];
 		::UnityEngine::Vector3 FPMNNJCJHJA; // 0x84
 		::System::Single NGCDFBJKEOD; // 0x90

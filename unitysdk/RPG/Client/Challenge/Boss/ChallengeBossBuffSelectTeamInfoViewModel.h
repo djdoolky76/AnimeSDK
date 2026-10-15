@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class IAvatar; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSBUFFSELECTTEAMINFOVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC93C940)
@@ -21,7 +21,7 @@ namespace RPG::Client::Challenge::Boss
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* _Avatars_k__BackingField; // 0x10
-		::System::Nullable* _CurrentBuffID_k__BackingField; // 0x18
+		::System::Nullable_1<::System::UInt32> _CurrentBuffID_k__BackingField; // 0x18
 		::System::Int32 _TeamIndex_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
@@ -48,14 +48,14 @@ namespace RPG::Client::Challenge::Boss
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSBUFFSELECTTEAMINFOVIEWMODEL_SET_TEAMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_CurrentBuffID()
+		::System::Nullable_1<::System::UInt32> get_CurrentBuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSBUFFSELECTTEAMINFOVIEWMODEL_GET_CURRENTBUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSBUFFSELECTTEAMINFOVIEWMODEL_GET_CURRENTBUFFID_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentBuffID(::System::Nullable* a1)
+		::System::Void set_CurrentBuffID(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSBUFFSELECTTEAMINFOVIEWMODEL_SET_CURRENTBUFFID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_BOSS_CHALLENGEBOSSBUFFSELECTTEAMINFOVIEWMODEL_SET_CURRENTBUFFID_OFFSET))(this, a1);
 		}
 
 	};

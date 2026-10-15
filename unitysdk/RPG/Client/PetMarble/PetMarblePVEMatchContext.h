@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityMarble/MarbleMatchContext.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CCHGIFFBECE;
 namespace RPG::Client { class MarbleBall; }
 namespace RPG::Client::PetMarble { class PetMarblePVEMatchContext; }
@@ -42,7 +42,7 @@ namespace RPG::Client::PetMarble
 	public:
 		::RPG::Client::PetMarble::Level::IPetMarbleLevelMode* _LevelMode_k__BackingField; // 0x70
 		::RPG::Client::PetMarble::PetMarblePlayer* _CoopPlayer_k__BackingField; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::RPG::Client::MarbleBall*>* _BallInfoDict; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::MarbleBall*>* _BallInfoDict; // 0x80
 		::CCHGIFFBECE* _TutorialLevelInfo_k__BackingField; // 0x88
 		::System::UInt32 _EnemyId_k__BackingField; // 0x90
 		::System::Boolean _PlayerFirst_k__BackingField; // 0x94

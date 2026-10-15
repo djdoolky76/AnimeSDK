@@ -9,6 +9,7 @@ class KPNOBBFKNHA;
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
@@ -41,10 +42,10 @@ inline static constexpr unsigned int OFKAKOLDDIC_TypeDefinitionIndex = 61251;
 	class OFKAKOLDDIC : public ::System::Object
 	{
 	public:
-		::System::Action* PHJFCBCIGHB; // 0x10
+		::System::Action_1<::HIAMBDKHMIJ*>* PHJFCBCIGHB; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* COAGBKMILGM; // 0x18
 		::JIAFOPELMJJ* MIPPNCGOJNM; // 0x20
-		::System::Action* BJMNHNHEABC; // 0x28
+		::System::Action_1<::System::Object*>* BJMNHNHEABC; // 0x28
 		::System::Action* LDIHIHJEAEB; // 0x30
 		::System::Boolean JGBDJCKDILB; // 0x38
 		// static const ::System::String* OKFEEDPEINC; // 0x0
@@ -78,14 +79,14 @@ inline static constexpr unsigned int OFKAKOLDDIC_TypeDefinitionIndex = 61251;
 			return ((::System::Int64(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OFKAKOLDDIC_DEGANOOLJME_OFFSET))(this, a1);
 		}
 
-		::System::Void ABNAAIJOHEP(::System::Action* a1)
+		::System::Void ABNAAIJOHEP(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OFKAKOLDDIC_ABNAAIJOHEP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OFKAKOLDDIC_ABNAAIJOHEP_OFFSET))(this, a1);
 		}
 
-		::System::Void MIBPFFJMONL(::System::Action* a1)
+		::System::Void MIBPFFJMONL(::System::Action_1<::HIAMBDKHMIJ*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OFKAKOLDDIC_MIBPFFJMONL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::HIAMBDKHMIJ*>*))((::PBYTE)hIl2Cpp + OFKAKOLDDIC_MIBPFFJMONL_OFFSET))(this, a1);
 		}
 
 		::System::Void GLLNBPLJGFN(::System::Action* a1)

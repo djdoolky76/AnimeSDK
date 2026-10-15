@@ -11,9 +11,9 @@ namespace SuperScrollView { class LoopFlexibleGridViewItem; }
 namespace SuperScrollView { class LoopGridViewItem; }
 namespace SuperScrollView { class LoopListViewItem2; }
 namespace SuperScrollView { class LoopStaggeredGridViewItem; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
@@ -91,7 +91,7 @@ namespace RPG::Client
 		::System::Boolean isInFakeDisableState; // 0x16A
 		::System::Byte _padding1[0x1];
 		::RPG::Client::AnimatorButtonCheckMode mAnimatorButtonMode; // 0x16C
-		::System::Action* onSelectHandler; // 0x170
+		::System::Action_1<::RPG::Client::AnimatorButton*>* onSelectHandler; // 0x170
 		::SuperScrollView::LoopGridViewItem* gridItem; // 0x178
 		::SuperScrollView::LoopListViewItem2* listItem; // 0x180
 		::SuperScrollView::LoopFlexibleGridViewItem* flexGridItem; // 0x188
@@ -369,14 +369,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORBUTTON__SETTABCONTROLFOCUSED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_onSelectHandler(::System::Action* a1)
+		::System::Void add_onSelectHandler(::System::Action_1<::RPG::Client::AnimatorButton*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORBUTTON_ADD_ONSELECTHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::AnimatorButton*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORBUTTON_ADD_ONSELECTHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_onSelectHandler(::System::Action* a1)
+		::System::Void remove_onSelectHandler(::System::Action_1<::RPG::Client::AnimatorButton*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORBUTTON_REMOVE_ONSELECTHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::AnimatorButton*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORBUTTON_REMOVE_ONSELECTHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_LayerSelect()

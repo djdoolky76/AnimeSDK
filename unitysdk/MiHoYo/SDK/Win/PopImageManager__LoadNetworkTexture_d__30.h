@@ -6,7 +6,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Security::Cryptography { class MD5; }
 namespace UnityEngine { class Texture2D; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
 #define MIHOYO_SDK_WIN_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD9B30)
@@ -34,7 +34,7 @@ namespace MiHoYo::SDK::Win
 		::System::String* _imageMD5_5__5; // 0x48
 		::System::String* _downloadMD5_5__8; // 0x50
 		::System::String* _name_5__2; // 0x58
-		::UnityEngine::Events::UnityAction* callback; // 0x60
+		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x60
 		::System::Security::Cryptography::MD5* _md5_5__6; // 0x68
 		::System::Int32 __1__state; // 0x70
 		::System::Void _ctor(::System::Int32 a1)

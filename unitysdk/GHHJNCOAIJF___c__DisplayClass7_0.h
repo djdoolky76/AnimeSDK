@@ -4,10 +4,10 @@
 class GHHJNCOAIJF;
 class GHHJNCOAIJF_KKHGKLOBDFN;
 class IHGIENOHBMJ;
-namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define GHHJNCOAIJF___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A20120)
 #define GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__0_OFFSET UNITYSDK_OFFSET(0x15A20AC0)
@@ -19,13 +19,13 @@ inline static constexpr unsigned int GHHJNCOAIJF___c__DisplayClass7_0_TypeDefini
 	class GHHJNCOAIJF___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
+		::System::Action_1<::IHGIENOHBMJ*>* __9__2; // 0x10
 		::GHHJNCOAIJF_KKHGKLOBDFN* retrySendParams; // 0x18
-		::System::Action* sendOnce; // 0x20
-		::RPG::Client::Promises::Promise* promise; // 0x28
+		::System::Action_1<::System::Object*>* sendOnce; // 0x20
+		::RPG::Client::Promises::Promise_1<::IHGIENOHBMJ*>* promise; // 0x28
 		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x30
 		::GHHJNCOAIJF* __4__this; // 0x38
-		::System::Action* onError; // 0x40
+		::System::Action_1<::System::Exception*>* onError; // 0x40
 		::System::UInt32 curRetries; // 0x48
 		::System::UInt32 retries; // 0x4C
 		::System::Void _ctor()

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MDILEMALGNC.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraModuleConfigCollection; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace RPG::Client { class SmoothResultModuleConfig; }
-namespace System { class Nullable; }
 
 #define BGFNKJFGHML_ACELCCCLGAI_OFFSET UNITYSDK_OFFSET(0xB184630)
 #define BGFNKJFGHML_BPBBFFNKDLH_OFFSET UNITYSDK_OFFSET(0xB184EB0)
@@ -28,7 +28,7 @@ inline static constexpr unsigned int BGFNKJFGHML_TypeDefinitionIndex = 69650;
 	{
 	public:
 		::RPG::Client::SmoothResultModuleConfig* BAKFOPDBNBM; // 0x38
-		::System::Nullable* LDBGNKGNBEP; // 0x40
+		::System::Nullable_1<::System::Single> LDBGNKGNBEP; // 0x40
 		::System::Boolean MAMOEGLPJBK; // 0x48
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_FNKFEHPKLFL()
 		{

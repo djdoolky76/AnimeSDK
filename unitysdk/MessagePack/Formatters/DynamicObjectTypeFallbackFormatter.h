@@ -4,7 +4,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace MessagePack::Internal { template <typename T> class ThreadsafeTypeKeyHashTable_1; }
 namespace System { class Object; }
 
@@ -25,9 +25,9 @@ namespace MessagePack::Formatters
 			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>**)UnitySDK::FromName("MessagePack.Formatters", "DynamicObjectTypeFallbackFormatter")->GetStaticField(0x24F40);
 		}
 
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "DynamicObjectTypeFallbackFormatter")->GetStaticField(0x24F48);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Object*>**)UnitySDK::FromName("MessagePack.Formatters", "DynamicObjectTypeFallbackFormatter")->GetStaticField(0x24F48);
 		}
 
 		::System::Void _ctor()

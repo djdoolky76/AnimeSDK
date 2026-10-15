@@ -4,9 +4,9 @@
 class KNPNAHPHNJK;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class ItemList; }
@@ -47,19 +47,19 @@ namespace Proto
 		::Proto::ItemList* attachment_; // 0x20
 		::Google::Protobuf::Collections::RepeatedField_1<::KNPNAHPHNJK*>* failMailList_; // 0x28
 		::System::UInt32 retcode_; // 0x30
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::TakeMailAttachmentScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x181F0);
+			return (::Google::Protobuf::MessageParser_1<::Proto::TakeMailAttachmentScRsp*>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x181F0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_failMailList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::KNPNAHPHNJK*>** StaticGet__repeated_failMailList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x181F8);
+			return (::Google::Protobuf::FieldCodec_1<::KNPNAHPHNJK*>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x181F8);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_succMailIdList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_succMailIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x18200);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "TakeMailAttachmentScRsp")->GetStaticField(0x18200);
 		}
 
 		// static const ::System::Object FailMailListFieldNumber; // 0x0
@@ -81,9 +81,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::TakeMailAttachmentScRsp*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::TakeMailAttachmentScRsp*>*(*)())((::PBYTE)hIl2Cpp + PROTO_TAKEMAILATTACHMENTSCRSP_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

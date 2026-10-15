@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace UnityEngine { class Animation; }
 
 #define PKKFCCHPDEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C3FA0)
@@ -14,7 +14,7 @@ inline static constexpr unsigned int PKKFCCHPDEL_TypeDefinitionIndex = 72353;
 	{
 	public:
 		::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
-		::System::Nullable* IAPJFCPEOBL; // 0x68
+		::System::Nullable_1<::System::Boolean> IAPJFCPEOBL; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PKKFCCHPDEL_CTOR_OFFSET))(this);

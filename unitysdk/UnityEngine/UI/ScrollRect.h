@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
 #include "unitysdk/UnityEngine/UI/CanvasUpdate.h"
 #include "unitysdk/UnityEngine/UI/ScrollRect_AlignDirection.h"
@@ -13,7 +13,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
@@ -201,7 +201,7 @@ namespace UnityEngine::UI
 		::UnityEngine::RectTransform* m_VerticalScrollbarRect; // 0x110
 		::UnityEngine::DrivenRectTransformTracker m_Tracker; // 0x118
 		::System::Byte _padding4[0x7];
-		::System::Action* _ScrollCallback; // 0x120
+		::System::Action_1<::UnityEngine::Vector2>* _ScrollCallback; // 0x120
 		::UnityEngine::UI::TouchFilter* touchFilter; // 0x128
 		::Il2CppArray<::UnityEngine::Vector3>* m_Corners; // 0x130
 		::Il2CppArray<::UnityEngine::Vector3>* tempPoints; // 0x138
@@ -225,9 +225,9 @@ namespace UnityEngine::UI
 		::System::Boolean reboundEventEnable; // 0x178
 		::System::Byte _padding8[0x7];
 		::UnityEngine::UI::ScrollRect_ReboundEvent* onReboundEvent; // 0x180
-		static ::System::ValueTuple* StaticGet_UseRaw()
+		static ::System::ValueTuple_2<::System::Boolean, ::System::Boolean>* StaticGet_UseRaw()
 		{
-			return (::System::ValueTuple*)UnitySDK::FromName("UnityEngine.UI", "ScrollRect")->GetStaticField(0xC660);
+			return (::System::ValueTuple_2<::System::Boolean, ::System::Boolean>*)UnitySDK::FromName("UnityEngine.UI", "ScrollRect")->GetStaticField(0xC660);
 		}
 
 		::System::Void _ctor()
@@ -480,9 +480,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLRECT_MANUALSTOPDRAGGING_OFFSET))(this);
 		}
 
-		::System::Void RegisterScrollCallback(::System::Action* a1)
+		::System::Void RegisterScrollCallback(::System::Action_1<::UnityEngine::Vector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLRECT_REGISTERSCROLLCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLRECT_REGISTERSCROLLCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void OnScroll(::UnityEngine::EventSystems::PointerEventData* a1)

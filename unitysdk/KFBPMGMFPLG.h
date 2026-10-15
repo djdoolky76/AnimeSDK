@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LimaoNewsEmployeeStateType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class PPPCGBKJDAB;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class LimaoNewsDutyCheckOptionTalkInfo; }
@@ -54,7 +54,7 @@ inline static constexpr unsigned int KFBPMGMFPLG_TypeDefinitionIndex = 80312;
 	class KFBPMGMFPLG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::System::UInt32>*>* OKIDEFOEJND; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::RPG::GameCore::LimaoNewsEmployeeStateType>, ::System::Collections::Generic::List_1<::System::UInt32>*>* OKIDEFOEJND; // 0x10
 		::System::Random* OLEEIPHBJKB; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>* MEJOIBFBHLP; // 0x20
 		::System::UInt32 _CurrentCheckingEmployeeID_k__BackingField; // 0x28

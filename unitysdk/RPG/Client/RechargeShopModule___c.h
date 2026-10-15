@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class JBNGCJJDLHL;
 namespace RPG::Client { class RechargeGiftData; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_RECHARGESHOPMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE59D60)
 #define RPG_CLIENT_RECHARGESHOPMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE59D90)
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return (::System::Func_2<::JBNGCJJDLHL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57440);
 		}
 
-		static ::System::Action** StaticGet___9__24_0()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__24_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57448);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57448);
 		}
 
 		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__26_1()
@@ -38,14 +38,14 @@ namespace RPG::Client
 			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57450);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::RPG::Client::RechargeGiftData*>** StaticGet___9__37_1()
+		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::RPG::Client::RechargeGiftData*>** StaticGet___9__37_1()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::RPG::Client::RechargeGiftData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57458);
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::RPG::Client::RechargeGiftData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57458);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::UInt32>** StaticGet___9__37_0()
+		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>** StaticGet___9__37_0()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57460);
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57460);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -78,14 +78,14 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID, ::JBNGCJJDLHL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C___ONGETRECHARGEGIFTINFOSCRSP_B__32_0_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _GetShopGiftsByShopID_b__37_0(::System::ValueTuple a1)
+		::System::UInt32 _GetShopGiftsByShopID_b__37_0(::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__37_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__37_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RechargeGiftData* _GetShopGiftsByShopID_b__37_1(::System::ValueTuple a1)
+		::RPG::Client::RechargeGiftData* _GetShopGiftsByShopID_b__37_1(::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*> a1)
 		{
-			return ((::RPG::Client::RechargeGiftData*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__37_1_OFFSET))(this, a1);
+			return ((::RPG::Client::RechargeGiftData*(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGESHOPMODULE___C__GETSHOPGIFTSBYSHOPID_B__37_1_OFFSET))(this, a1);
 		}
 
 	};

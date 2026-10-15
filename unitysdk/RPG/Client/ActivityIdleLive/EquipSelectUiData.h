@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/ActivityIdleLive/EquipUiData.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -14,7 +14,7 @@ namespace RPG::Client::ActivityIdleLive
 
 	struct alignas(8) EquipSelectUiData
 	{
-		::System::Nullable* CurEquipUiData; // 0x10
+		::System::Nullable_1<::RPG::Client::ActivityIdleLive::EquipUiData> CurEquipUiData; // 0x10
 		::System::Byte _padding0[0x70];
 		::RPG::Client::ActivityIdleLive::EquipUiData NewEquipUiData; // 0x88
 		::System::UInt32 ConfirmedPendingEquipNum; // 0xF8

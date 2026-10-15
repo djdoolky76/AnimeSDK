@@ -5,9 +5,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/JJBAAGFMEKM.h"
+#include "unitysdk/System/Nullable_1.h"
 class GHDOIPGECOG;
 namespace RPG::Client { class AirshipCar; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 
@@ -99,9 +99,9 @@ inline static constexpr unsigned int DJPBNHAADAF_TypeDefinitionIndex = 59811;
 			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + DJPBNHAADAF_HAIHHFOPBLN_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Boolean GDBMEKNMHLD(::System::Nullable* a1, ::System::Int32 a2, ::System::Boolean a3)
+		::System::Boolean GDBMEKNMHLD(::System::Nullable_1<::System::Object*> a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + DJPBNHAADAF_GDBMEKNMHLD_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::Object*>, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + DJPBNHAADAF_GDBMEKNMHLD_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean CEHBDLIBIAM()
@@ -124,9 +124,9 @@ inline static constexpr unsigned int DJPBNHAADAF_TypeDefinitionIndex = 59811;
 			return ((::System::Void(*)(::PVOID, ::JJBAAGFMEKM, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + DJPBNHAADAF_LGNNAOLPNIP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void APMNGBCINAL(::System::Nullable* a1)
+		::System::Void APMNGBCINAL(::System::Nullable_1<::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + DJPBNHAADAF_APMNGBCINAL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + DJPBNHAADAF_APMNGBCINAL_OFFSET))(this, a1);
 		}
 
 		::System::Void IGIEMENOCOK(::System::Single a1)

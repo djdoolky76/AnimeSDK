@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/SpookyHash_U.h"
-namespace Cysharp::Threading::Tasks { class TaskPool; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
@@ -29,9 +29,9 @@ namespace Cysharp::Threading::Tasks
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x0
 		::System::Boolean cancelImmediately; // 0x0
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::UnityEngine::SpookyHash_U> core; // 0x0
-		static ::Cysharp::Threading::Tasks::TaskPool** StaticGet_pool()
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool**)UnitySDK::FromName("Cysharp.Threading.Tasks", "WaitUntilValueChangedUnityObjectPromise`2")->GetStaticField(0x0);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "WaitUntilValueChangedUnityObjectPromise`2")->GetStaticField(0x0);
 		}
 
 	};

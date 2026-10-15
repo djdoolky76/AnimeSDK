@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/MainlightSwitchType.h"
 #include "unitysdk/RPG/CustomRP/GameCameraType.h"
 #include "unitysdk/RPG/GameCore/EnviromentControlPriority.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderKeyword.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -29,7 +30,6 @@ namespace RPG::CustomRP { class CustomAdditionalCameraData; }
 namespace RPG::CustomRP { class CustomAdditionalLightData; }
 namespace RPG::CustomRP { class VolumetricFogController; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
@@ -463,9 +463,9 @@ namespace RPG::Client
 			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C8D);
 		}
 
-		static ::System::Nullable** StaticGet__IsPatchUseEnvSystemV2()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet__IsPatchUseEnvSystemV2()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C8E);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C8E);
 		}
 
 		static ::System::Boolean* StaticGet__ReplacedGbufferLightingMatOwnedByCache()

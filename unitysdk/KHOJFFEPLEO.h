@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AlleyPackAnchorType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class IBNAFGFFJLJ;
 class MCJMNJGBCLI;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -24,8 +24,8 @@ inline static constexpr unsigned int KHOJFFEPLEO_TypeDefinitionIndex = 74113;
 	class KHOJFFEPLEO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::SortedSet_1<::System::ValueTuple>* _AnchorGridSets_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::MCJMNJGBCLI*>* _GridAnchorDataDict_k__BackingField; // 0x18
+		::System::Collections::Generic::SortedSet_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>* _AnchorGridSets_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>, ::MCJMNJGBCLI*>* _GridAnchorDataDict_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_CTOR_OFFSET))(this);
@@ -56,24 +56,24 @@ inline static constexpr unsigned int KHOJFFEPLEO_TypeDefinitionIndex = 74113;
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::IBNAFGFFJLJ*))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_EDAMFBHFEGE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::MCJMNJGBCLI*>* get_GridAnchorDataDict()
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>, ::MCJMNJGBCLI*>* get_GridAnchorDataDict()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::MCJMNJGBCLI*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_GET_GRIDANCHORDATADICT_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>, ::MCJMNJGBCLI*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_GET_GRIDANCHORDATADICT_OFFSET))(this);
 		}
 
-		::System::Void set_GridAnchorDataDict(::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::MCJMNJGBCLI*>* a1)
+		::System::Void set_GridAnchorDataDict(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>, ::MCJMNJGBCLI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::MCJMNJGBCLI*>*))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_SET_GRIDANCHORDATADICT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>, ::MCJMNJGBCLI*>*))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_SET_GRIDANCHORDATADICT_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::SortedSet_1<::System::ValueTuple>* get_AnchorGridSets()
+		::System::Collections::Generic::SortedSet_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>* get_AnchorGridSets()
 		{
-			return ((::System::Collections::Generic::SortedSet_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_GET_ANCHORGRIDSETS_OFFSET))(this);
+			return ((::System::Collections::Generic::SortedSet_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_GET_ANCHORGRIDSETS_OFFSET))(this);
 		}
 
-		::System::Void set_AnchorGridSets(::System::Collections::Generic::SortedSet_1<::System::ValueTuple>* a1)
+		::System::Void set_AnchorGridSets(::System::Collections::Generic::SortedSet_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_SET_ANCHORGRIDSETS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>*))((::PBYTE)hIl2Cpp + KHOJFFEPLEO_SET_ANCHORGRIDSETS_OFFSET))(this, a1);
 		}
 
 	};

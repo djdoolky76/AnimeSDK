@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/GameCore/CharacterVisibleReason.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class HHCKNGMIAKL;
 class IFEEMEAJMEJ;
 class KBGKLKLKLFG;
@@ -20,9 +20,9 @@ namespace RPG::Client::Pet { class IPet; }
 namespace RPG::Client::Pet { class IPetRepository; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -81,8 +81,8 @@ inline static constexpr unsigned int PJJKDGFODDL_TypeDefinitionIndex = 75633;
 	{
 	public:
 		::PJJKDGFODDL_CNDPPBCPHOJ* JHIHDPHBCBP; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple>* POLGFOEHLEK; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* MACFIIFMDDP; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>* POLGFOEHLEK; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::RPG::GameCore::GameEntity*, ::IFEEMEAJMEJ*>>* MACFIIFMDDP; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* MMPLDEINPJH; // 0x28
 		::HHCKNGMIAKL* HOJLLCOOLDN; // 0x30
 		::MCLDPNEJPBG* EGJNACIPNKF; // 0x38
@@ -146,9 +146,9 @@ inline static constexpr unsigned int PJJKDGFODDL_TypeDefinitionIndex = 75633;
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + PJJKDGFODDL_GLPADIMIOHC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EAKFOLICBGK(::System::Action* a1)
+		::System::Void EAKFOLICBGK(::System::Action_2<::System::UInt32, ::RPG::Client::Pet::IPet*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PJJKDGFODDL_EAKFOLICBGK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::RPG::Client::Pet::IPet*>*))((::PBYTE)hIl2Cpp + PJJKDGFODDL_EAKFOLICBGK_OFFSET))(this, a1);
 		}
 
 		::System::Void OBFKIKOKDMD()

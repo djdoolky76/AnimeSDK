@@ -3,7 +3,7 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Diagnostics::Tracing { class ActivityFilter; }
@@ -25,7 +25,7 @@ namespace System::Diagnostics::Tracing
 	class ActivityFilter__GetFilterAsTuple_d__7 : public ::System::Object
 	{
 	public:
-		::System::Tuple* __2__current; // 0x10
+		::System::Tuple_2<::System::Int32, ::System::Int32>* __2__current; // 0x10
 		::System::Diagnostics::Tracing::ActivityFilter* __4__this; // 0x18
 		::System::Diagnostics::Tracing::ActivityFilter* _af_5__1; // 0x20
 		::System::Guid sourceGuid; // 0x28
@@ -47,9 +47,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER__GETFILTERASTUPLE_D__7_MOVENEXT_OFFSET))(this);
 		}
 
-		::System::Tuple* System_Collections_Generic_IEnumerator_System_Tuple_System_Int32_System_Int32___get_Current()
+		::System::Tuple_2<::System::Int32, ::System::Int32>* System_Collections_Generic_IEnumerator_System_Tuple_System_Int32_System_Int32___get_Current()
 		{
-			return ((::System::Tuple*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER__GETFILTERASTUPLE_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_SYSTEM_INT32_SYSTEM_INT32___GET_CURRENT_OFFSET))(this);
+			return ((::System::Tuple_2<::System::Int32, ::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER__GETFILTERASTUPLE_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_SYSTEM_INT32_SYSTEM_INT32___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -62,9 +62,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER__GETFILTERASTUPLE_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Tuple*>* System_Collections_Generic_IEnumerable_System_Tuple_System_Int32_System_Int32___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Tuple_2<::System::Int32, ::System::Int32>*>* System_Collections_Generic_IEnumerable_System_Tuple_System_Int32_System_Int32___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER__GETFILTERASTUPLE_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_SYSTEM_INT32_SYSTEM_INT32___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Tuple_2<::System::Int32, ::System::Int32>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER__GETFILTERASTUPLE_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_SYSTEM_INT32_SYSTEM_INT32___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

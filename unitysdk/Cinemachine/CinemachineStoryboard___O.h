@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace Cinemachine { class CinemachineBrain; }
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace Cinemachine
 {
@@ -11,9 +11,9 @@ namespace Cinemachine
 	class CinemachineStoryboard___O : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction** StaticGet__0___StaticBlendingHandler()
+		static ::UnityEngine::Events::UnityAction_1<::Cinemachine::CinemachineBrain*>** StaticGet__0___StaticBlendingHandler()
 		{
-			return (::UnityEngine::Events::UnityAction**)UnitySDK::FromName("Cinemachine", "<>O")->GetStaticField(0x54690);
+			return (::UnityEngine::Events::UnityAction_1<::Cinemachine::CinemachineBrain*>**)UnitySDK::FromName("Cinemachine", "<>O")->GetStaticField(0x54690);
 		}
 
 	};

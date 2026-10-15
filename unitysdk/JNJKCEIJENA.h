@@ -4,9 +4,9 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -41,8 +41,8 @@ inline static constexpr unsigned int JNJKCEIJENA_TypeDefinitionIndex = 77139;
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
 		::RPG::PoolDictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x20
-		::Entitas::ICollector* OLDKIELDAMD; // 0x28
-		::Entitas::IGroup* PPLJFJNEAGM; // 0x30
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* OLDKIELDAMD; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* PPLJFJNEAGM; // 0x30
 		// static const ::System::String* DMPFADJIOEE; // 0x0
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{
@@ -144,9 +144,9 @@ inline static constexpr unsigned int JNJKCEIJENA_TypeDefinitionIndex = 77139;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + JNJKCEIJENA_MHPLGOAHLPJ_OFFSET))(this, a1);
 		}
 
-		::System::Void LMGJHGHHKMK(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void LMGJHGHHKMK(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + JNJKCEIJENA_LMGJHGHHKMK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + JNJKCEIJENA_LMGJHGHHKMK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 	};

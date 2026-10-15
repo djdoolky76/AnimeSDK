@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/ClockParkGameStateEnum.h"
 #include "unitysdk/RPG/GameCore/ClockParkEffectType.h"
 #include "unitysdk/RPG/GameCore/GunPlayModeType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class ClockParkEffectDataItem; }
 namespace RPG::Client { class ClockParkEffectResult; }
 namespace System { class Object; }
@@ -119,9 +119,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKLITTLEGAMESTATE__TRIGGERHANUSHOOTING_OFFSET))(this);
 		}
 
-		::System::ValueTuple _GetHanuShootingLevelID()
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> _GetHanuShootingLevelID()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKLITTLEGAMESTATE__GETHANUSHOOTINGLEVELID_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKLITTLEGAMESTATE__GETHANUSHOOTINGLEVELID_OFFSET))(this);
 		}
 
 		::System::String* _GetHanuShootingTriggerStr(::RPG::GameCore::GunPlayModeType a1, ::System::UInt32 a2)

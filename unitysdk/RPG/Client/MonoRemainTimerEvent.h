@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/DateTimePro.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_MONOREMAINTIMEREVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0xD85D090)
@@ -26,7 +26,7 @@ namespace RPG::Client
 	public:
 		::RPG::Client::DateTimePro _TargetTime; // 0x18
 		::XLua::LuaTable* _LuaTable; // 0x20
-		::System::Action* _TimeOutCallBack; // 0x28
+		::System::Action_1<::XLua::LuaTable*>* _TimeOutCallBack; // 0x28
 		::System::Boolean _IsUpdating; // 0x30
 		::System::Void _ctor()
 		{
@@ -48,14 +48,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMEREVENT_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void SetTargetTime(::RPG::Client::DateTimePro a1, ::System::Action* a2, ::XLua::LuaTable* a3)
+		::System::Void SetTargetTime(::RPG::Client::DateTimePro a1, ::System::Action_1<::XLua::LuaTable*>* a2, ::XLua::LuaTable* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMEREVENT_SETTARGETTIME_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMEREVENT_SETTARGETTIME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetTargetTimeByTimeStamp(::System::UInt32 a1, ::System::Action* a2, ::XLua::LuaTable* a3)
+		::System::Void SetTargetTimeByTimeStamp(::System::UInt32 a1, ::System::Action_1<::XLua::LuaTable*>* a2, ::XLua::LuaTable* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMEREVENT_SETTARGETTIMEBYTIMESTAMP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMEREVENT_SETTARGETTIMEBYTIMESTAMP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ForceUpdateTime()

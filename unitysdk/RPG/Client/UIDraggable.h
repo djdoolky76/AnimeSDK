@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
@@ -44,13 +44,13 @@ namespace RPG::Client
 		::System::Single _ContainerOffset; // 0x48
 		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _ObstacleRects; // 0x50
-		::System::Action* _BeginDragCallback; // 0x58
+		::System::Action_1<::System::Object*>* _BeginDragCallback; // 0x58
 		::System::Object* _BeginDragCallbackParam; // 0x60
-		::System::Action* _EndDragCallback; // 0x68
+		::System::Action_1<::System::Object*>* _EndDragCallback; // 0x68
 		::System::Object* _EndDragCallbackParam; // 0x70
-		::System::Action* _PointerDownCallback; // 0x78
+		::System::Action_1<::System::Object*>* _PointerDownCallback; // 0x78
 		::System::Object* _PointerDownCallbackParam; // 0x80
-		::System::Action* _PointerUpCallback; // 0x88
+		::System::Action_1<::System::Object*>* _PointerUpCallback; // 0x88
 		::System::Object* _PointerUpCallbackParam; // 0x90
 		::System::Void _ctor()
 		{
@@ -87,24 +87,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBeginDragCallback(::System::Action* a1, ::System::Object* a2)
+		::System::Void SetBeginDragCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETBEGINDRAGCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETBEGINDRAGCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetEndDragCallback(::System::Action* a1, ::System::Object* a2)
+		::System::Void SetEndDragCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETENDDRAGCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETENDDRAGCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPointerDownCallback(::System::Action* a1, ::System::Object* a2)
+		::System::Void SetPointerDownCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPointerUpCallback(::System::Action* a1, ::System::Object* a2)
+		::System::Void SetPointerUpCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETPOINTERUPCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETPOINTERUPCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AddObstacle(::UnityEngine::RectTransform* a1)

@@ -3,8 +3,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class PlanetFesToastItem; }
 namespace RPG::Client { class UIPrefabLoader; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
@@ -47,8 +48,8 @@ namespace RPG::Client
 		::System::Boolean _IsPaused; // 0x41
 		::System::Byte _padding1[0x6];
 		::RPG::Client::UIPrefabLoader* _PrefabLoader; // 0x48
-		::System::Action* _OnAddToPileDelegate; // 0x50
-		::System::Action* _OnItemHideDelegate; // 0x58
+		::System::Action_3<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*, ::System::Object*>* _OnAddToPileDelegate; // 0x50
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*>* _OnItemHideDelegate; // 0x58
 		::XLua::LuaTable* _LuaTable; // 0x60
 		// static const ::System::Object MOVE_TIME; // 0x0
 		::System::Void _ctor()
@@ -61,9 +62,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST_PILE_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::System::Int32 a1, ::System::Action* a2, ::XLua::LuaTable* a3, ::System::Action* a4)
+		::System::Void Init(::System::Int32 a1, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*, ::System::Object*>* a2, ::XLua::LuaTable* a3, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*, ::XLua::LuaTable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST_INIT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*, ::System::Object*>*, ::XLua::LuaTable*, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void SetEnable(::System::Boolean a1)

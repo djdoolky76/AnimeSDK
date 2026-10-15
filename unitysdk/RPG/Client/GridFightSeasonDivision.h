@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class GridFightDivisionConfig; }
 namespace RPG::Client { class GridFightDivisionLevelReward; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -23,7 +23,7 @@ namespace RPG::Client
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightDivisionLevelReward*>* SeasonDivisionRewards; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* LastDivisionIDLUT; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* LastDivisionIDLUT; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightDivisionConfig*>* SeasonDivisionConfigs; // 0x20
 		::System::Void _ctor(::System::UInt32 a1)
 		{

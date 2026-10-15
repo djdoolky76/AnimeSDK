@@ -4,9 +4,9 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
@@ -39,19 +39,19 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Int32 completedCount; // 0x0
 		::System::Boolean syncRunning; // 0x0
 		T4 result; // 0x0
-		static ::System::Action** StaticGet_Completed1Delegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_Completed1Delegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_CombineLatest")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_CombineLatest")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet_Completed2Delegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_Completed2Delegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_CombineLatest")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_CombineLatest")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet_Completed3Delegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_Completed3Delegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_CombineLatest")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_CombineLatest")->GetStaticField(0x0);
 		}
 
 		// static const ::System::Object CompleteCount; // 0x0

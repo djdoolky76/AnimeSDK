@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class CMOPLAHDEPN;
 class JLCJBFLKOJD;
 class KHPENGJFKBB;
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -33,10 +33,10 @@ inline static constexpr unsigned int KHPENGJFKBB_TypeDefinitionIndex = 81462;
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::JLCJBFLKOJD*>* _Lineup_k__BackingField; // 0x10
-		::System::Nullable* _BuffID_k__BackingField; // 0x18
-		::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::JLCJBFLKOJD*>* a1, ::System::Nullable* a2)
+		::System::Nullable_1<::System::UInt32> _BuffID_k__BackingField; // 0x18
+		::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::JLCJBFLKOJD*>* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::JLCJBFLKOJD*>*, ::System::Nullable*))((::PBYTE)hIl2Cpp + KHPENGJFKBB_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::JLCJBFLKOJD*>*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + KHPENGJFKBB_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::CMOPLAHDEPN* a1)
@@ -59,9 +59,9 @@ inline static constexpr unsigned int KHPENGJFKBB_TypeDefinitionIndex = 81462;
 			return ((::System::Collections::Generic::IReadOnlyList_1<::JLCJBFLKOJD*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KHPENGJFKBB_GET_LINEUP_OFFSET))(this);
 		}
 
-		::System::Nullable* get_BuffID()
+		::System::Nullable_1<::System::UInt32> get_BuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KHPENGJFKBB_GET_BUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + KHPENGJFKBB_GET_BUFFID_OFFSET))(this);
 		}
 
 		::System::String* ToString()

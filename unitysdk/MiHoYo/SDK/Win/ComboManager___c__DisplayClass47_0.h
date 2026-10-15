@@ -4,8 +4,8 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class ComboManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD21FF0)
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS47_0__BIND_B__0_OFFSET UNITYSDK_OFFSET(0x1BD316F0)
@@ -21,7 +21,7 @@ namespace MiHoYo::SDK::Win
 	class ComboManager___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{

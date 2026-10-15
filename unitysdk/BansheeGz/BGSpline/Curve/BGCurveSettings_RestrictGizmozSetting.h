@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace BansheeGz::BGSpline::Curve { class BGCurveSettings_RestrictGizmozSetting; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -22,7 +22,7 @@ namespace BansheeGz::BGSpline::Curve
 	public:
 		::System::Collections::Generic::HashSet_1<::System::Int32>* numbersList; // 0x10
 		::System::String* value; // 0x18
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* fromToList; // 0x20
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>>* fromToList; // 0x20
 		::System::Boolean valid; // 0x28
 		::System::Void _ctor(::System::String* a1)
 		{

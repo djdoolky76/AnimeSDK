@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace Cysharp::Threading::Tasks
@@ -11,9 +11,9 @@ namespace Cysharp::Threading::Tasks
 	class UniTask_CanceledUniTaskCache_1 : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_Task()
+		static ::Cysharp::Threading::Tasks::UniTask_1<T>* StaticGet_Task()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CanceledUniTaskCache`1")->GetStaticField(0x0);
+			return (::Cysharp::Threading::Tasks::UniTask_1<T>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CanceledUniTaskCache`1")->GetStaticField(0x0);
 		}
 
 	};

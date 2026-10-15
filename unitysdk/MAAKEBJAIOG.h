@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class CHGHIALKMFM;
@@ -7,7 +8,6 @@ class KKGMHJNMOID;
 class NKIJFPHFJCO;
 class PLHOHFBLKJO;
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -36,7 +36,7 @@ inline static constexpr unsigned int MAAKEBJAIOG_TypeDefinitionIndex = 41809;
 		::PLHOHFBLKJO* DAABOFCNGGM; // 0x18
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* CCKIGNEOCNJ; // 0x20
 		::System::Action* OnAnyMoldUsabilityChanged; // 0x28
-		::System::Nullable* JGLJCHGAIHP; // 0x30
+		::System::Nullable_1<::UnityEngine::Vector2Int> JGLJCHGAIHP; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MAAKEBJAIOG_CTOR_OFFSET))(this);

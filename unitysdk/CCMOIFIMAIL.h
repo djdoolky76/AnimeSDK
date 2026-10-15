@@ -11,8 +11,8 @@ class HPKACEPPPCA;
 class KLEFGGIHGMI;
 class LJFHKAJPFNE;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -53,7 +53,7 @@ inline static constexpr unsigned int CCMOIFIMAIL_TypeDefinitionIndex = 73811;
 		::System::Collections::Generic::List_1<::System::Object*>* KKJNFBBCEFD; // 0x18
 		::System::Collections::Generic::List_1<::System::Int32>* KOEGPNNJCIG; // 0x20
 		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* DECLBABJGKI; // 0x28
-		::System::Action* EDOOHBDJLEO; // 0x30
+		::System::Action_4<::HPKACEPPPCA*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType>* EDOOHBDJLEO; // 0x30
 		::System::Collections::Generic::HashSet_1<::KLEFGGIHGMI*>* PNCIEMMMPEN; // 0x38
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Object*>* BACMAOIGABB; // 0x40
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* DIENBAMFJEJ; // 0x48

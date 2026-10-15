@@ -11,6 +11,7 @@
 #include "unitysdk/RPG/GameCore/ModifierHitEffectStacking.h"
 #include "unitysdk/RPG/GameCore/MonoEffectFlag.h"
 #include "unitysdk/RPG/GameCore/MonsterRank.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/MVector3.h"
 class HPICNGFLLCA;
@@ -27,7 +28,6 @@ namespace RPG::GameCore { class DynamicVector3; }
 namespace RPG::GameCore { class GameComponentBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -100,7 +100,7 @@ namespace RPG::GameCore
 		::System::UInt32 BuffID; // 0xF0
 		::System::Int32 _HitEffectOverride; // 0xF4
 		::System::Single InitLifeTime; // 0xF8
-		::System::Nullable* _OverrideAlertLevel_k__BackingField; // 0xFC
+		::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel> _OverrideAlertLevel_k__BackingField; // 0xFC
 		::System::UInt32 SkillSeqID; // 0x104
 		::System::Boolean _AddGlobalWeakness; // 0x108
 		::System::Boolean ServerSynced; // 0x109
@@ -136,9 +136,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_DETACHEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ReattachEffectTarget(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::System::Nullable* a3)
+		::System::Void ReattachEffectTarget(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::System::Nullable_1<::RPG::MVector3> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_REATTACHEFFECTTARGET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_REATTACHEFFECTTARGET_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _TryAttachMutexEffects(::System::Collections::Generic::List_1<::System::Object*>* a1, ::System::Boolean a2)
@@ -336,14 +336,14 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_CASTER_OFFSET))(this);
 		}
 
-		::System::Nullable* get_OverrideAlertLevel()
+		::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel> get_OverrideAlertLevel()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_OVERRIDEALERTLEVEL_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_OVERRIDEALERTLEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_OverrideAlertLevel(::System::Nullable* a1)
+		::System::Void set_OverrideAlertLevel(::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_OVERRIDEALERTLEVEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_OVERRIDEALERTLEVEL_OFFSET))(this, a1);
 		}
 
 	};

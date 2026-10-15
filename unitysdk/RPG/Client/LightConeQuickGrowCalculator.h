@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/LightConeQuickGrowCalculator_GrowSimState.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class NAIEKONLHAL;
 namespace Proto { class ItemCost; }
 namespace RPG::Client { class EquipmentItemData; }
@@ -170,9 +170,9 @@ namespace RPG::Client
 			return ((::RPG::Client::LightConeQuickGrowCalculator_GrowSimState(*)(::PVOID, ::RPG::Client::ItemCostCalculator*, ::NAIEKONLHAL*, ::NAIEKONLHAL*, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LightConeGrowPlanResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR__SIMULATEGROW_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::ValueTuple _DetermineLevelTarget(::NAIEKONLHAL* a1, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _DetermineLevelTarget(::NAIEKONLHAL* a1, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::NAIEKONLHAL*, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR__DETERMINELEVELTARGET_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::NAIEKONLHAL*, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR__DETERMINELEVELTARGET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::UInt32 _GetExpCostForLevels(::System::UInt32 a1, ::System::UInt32 a2)

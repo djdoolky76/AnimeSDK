@@ -5,8 +5,8 @@
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SystemDefaultLanguageRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -38,9 +38,9 @@ inline static constexpr unsigned int LFGKPNGPDGD_TypeDefinitionIndex = 12653;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LFGKPNGPDGD")->GetStaticField(0x3CA98);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "LFGKPNGPDGD")->GetStaticField(0x3CAA0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LFGKPNGPDGD")->GetStaticField(0x3CAA0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()

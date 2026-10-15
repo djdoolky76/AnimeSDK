@@ -4,14 +4,14 @@
 #include "unitysdk/BFOGLEGJOLK.h"
 #include "unitysdk/OGMCLIEEMHE_IGICEPNBHNK.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator_2.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 class OFLIAAOJPJC;
 namespace RPG::GameCore { class RTGameplayEffectConfigRow; }
 namespace RPG::GameCore { template <typename T1, typename T2> class TableLRUCache_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -42,9 +42,9 @@ inline static constexpr unsigned int OGMCLIEEMHE_TypeDefinitionIndex = 14608;
 			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::RTGameplayEffectConfigRow*>**)UnitySDK::FromName("", "OGMCLIEEMHE")->GetStaticField(0x35390);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "OGMCLIEEMHE")->GetStaticField(0x35398);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OGMCLIEEMHE")->GetStaticField(0x35398);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_KGADENKPMFA()
@@ -132,9 +132,9 @@ inline static constexpr unsigned int OGMCLIEEMHE_TypeDefinitionIndex = 14608;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OGMCLIEEMHE_KACCGMCPAFN_OFFSET))();
 		}
 
-		static ::System::Void MDDEBCEINEJ(::System::ValueTuple a1, ::RPG::GameCore::RTGameplayEffectConfigRow* a2)
+		static ::System::Void MDDEBCEINEJ(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1, ::RPG::GameCore::RTGameplayEffectConfigRow* a2)
 		{
-			return ((::System::Void(*)(::System::ValueTuple, ::RPG::GameCore::RTGameplayEffectConfigRow*))((::PBYTE)hIl2Cpp + OGMCLIEEMHE_MDDEBCEINEJ_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>, ::RPG::GameCore::RTGameplayEffectConfigRow*))((::PBYTE)hIl2Cpp + OGMCLIEEMHE_MDDEBCEINEJ_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean OKONOOJEJMJ(::OGMCLIEEMHE_IGICEPNBHNK a1, ::RPG::GameCore::RTGameplayEffectConfigRow* a2)

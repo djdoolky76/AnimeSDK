@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace MiHoYo::SDK { class MiHoYoSDKBrowser; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class CanvasGroup; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
@@ -33,9 +34,9 @@ namespace MiHoYo::SDK
 	class MiHoYoSDKBrowser : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* OnPageFinished; // 0x18
-		::System::Action* OnMessageReceived; // 0x20
-		::System::Action* OnPageErrorReceived; // 0x28
+		::System::Action_2<::MiHoYo::SDK::MiHoYoSDKBrowser*, ::System::String*>* OnPageFinished; // 0x18
+		::System::Action_2<::MiHoYo::SDK::MiHoYoSDKBrowser*, ::System::String*>* OnMessageReceived; // 0x20
+		::System::Action_3<::MiHoYo::SDK::MiHoYoSDKBrowser*, ::System::Int32, ::System::String*>* OnPageErrorReceived; // 0x28
 		::UnityEngine::CanvasGroup* _canvasGroup; // 0x30
 		::ZenFulcrum::EmbeddedBrowser::Browser* _browser; // 0x38
 		::System::Void _ctor()

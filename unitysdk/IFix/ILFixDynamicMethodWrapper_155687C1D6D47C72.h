@@ -20,6 +20,7 @@
 #include "unitysdk/RPG/Client/ByteHash16.h"
 #include "unitysdk/RPG/Client/DesignDataShortNameHash.h"
 #include "unitysdk/RPG/Client/WeakAssetReference.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Decimal.h"
 class BOCEFFDMFPM;
 class DFBAHCICJNE;
@@ -34,7 +35,6 @@ namespace IFix::Core { class VirtualMachine; }
 namespace RPG::Client::AssetSystem { class AssetLoader; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define IFIX_ILFIXDYNAMICMETHODWRAPPER_155687C1D6D47C72_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C49E570)
 #define IFIX_ILFIXDYNAMICMETHODWRAPPER_155687C1D6D47C72_CTOR_OFFSET UNITYSDK_OFFSET(0x1C48B890)
@@ -427,9 +427,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_155687C1D6D47C72___GEN_WRAP_30_OFFSET))(this, a1, a2);
 		}
 
-		::BOCEFFDMFPM* __Gen_Wrap_31(::System::Collections::Generic::KeyValuePair* a1)
+		::BOCEFFDMFPM* __Gen_Wrap_31(::System::Collections::Generic::KeyValuePair_2<::System::UInt64, ::BOCEFFDMFPM*> a1)
 		{
-			return ((::BOCEFFDMFPM*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_155687C1D6D47C72___GEN_WRAP_31_OFFSET))(this, a1);
+			return ((::BOCEFFDMFPM*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt64, ::BOCEFFDMFPM*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_155687C1D6D47C72___GEN_WRAP_31_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_32(::BOCEFFDMFPM* a1)
@@ -467,9 +467,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_155687C1D6D47C72___GEN_WRAP_38_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_39(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_39(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::UInt64> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_155687C1D6D47C72___GEN_WRAP_39_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::UInt64>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_155687C1D6D47C72___GEN_WRAP_39_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_40(::System::Object* a1, ::PNKPEABDCGC a2, ::RPG::Client::AssetSystem::AssetLoader* a3)

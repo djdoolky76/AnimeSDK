@@ -8,7 +8,7 @@ class EILABEFHPCG;
 class GGHEGHCAIEH;
 class LOLCJIIIHIM;
 class OBJANKHLNGO;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define MLKJGIKFFFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B4370)
 #define MLKJGIKFFFO_EAMMBKNABNJ_OFFSET UNITYSDK_OFFSET(0xB9B43C0)
@@ -27,14 +27,14 @@ inline static constexpr unsigned int MLKJGIKFFFO_TypeDefinitionIndex = 79584;
 			return ((::System::Void(*)(::PVOID, ::EILABEFHPCG*, ::LOLCJIIIHIM*, ::CCEIJBFAOAI*, ::GGHEGHCAIEH*, ::AAFIACIMMHE*, ::OBJANKHLNGO*))((::PBYTE)hIl2Cpp + MLKJGIKFFFO_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::RPG::Client::Promises::IPromise* EAMMBKNABNJ()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* EAMMBKNABNJ()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + MLKJGIKFFFO_EAMMBKNABNJ_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MLKJGIKFFFO_EAMMBKNABNJ_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* __SubmitImpl_b__5_0(::CGEOCOPMJGI* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __SubmitImpl_b__5_0(::CGEOCOPMJGI* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::CGEOCOPMJGI*))((::PBYTE)hIl2Cpp + MLKJGIKFFFO___SUBMITIMPL_B__5_0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::CGEOCOPMJGI*))((::PBYTE)hIl2Cpp + MLKJGIKFFFO___SUBMITIMPL_B__5_0_OFFSET))(this, a1);
 		}
 
 	};

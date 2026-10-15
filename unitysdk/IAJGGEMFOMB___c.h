@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PLHLAIJKMOD.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class DIGCDGKOBMK;
 class FBKKFMONGAA;
 namespace System { class Object; }
@@ -32,14 +33,14 @@ inline static constexpr unsigned int IAJGGEMFOMB___c_TypeDefinitionIndex = 79481
 			return (::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41A38);
 		}
 
-		static ::System::Func_4<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean, ::System::ValueTuple>** StaticGet___9__57_11()
+		static ::System::Func_4<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean, ::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean>>** StaticGet___9__57_11()
 		{
-			return (::System::Func_4<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41A40);
+			return (::System::Func_4<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean, ::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41A40);
 		}
 
-		static ::System::Func_3<::PLHLAIJKMOD, ::System::Boolean, ::System::ValueTuple>** StaticGet___9__57_3()
+		static ::System::Func_3<::PLHLAIJKMOD, ::System::Boolean, ::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean>>** StaticGet___9__57_3()
 		{
-			return (::System::Func_3<::PLHLAIJKMOD, ::System::Boolean, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41A48);
+			return (::System::Func_3<::PLHLAIJKMOD, ::System::Boolean, ::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41A48);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -57,14 +58,14 @@ inline static constexpr unsigned int IAJGGEMFOMB___c_TypeDefinitionIndex = 79481
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___C_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple __ctor_b__57_3(::PLHLAIJKMOD a1, ::System::Boolean a2)
+		::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean> __ctor_b__57_3(::PLHLAIJKMOD a1, ::System::Boolean a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::PLHLAIJKMOD, ::System::Boolean))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___C___CTOR_B__57_3_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean>(*)(::PVOID, ::PLHLAIJKMOD, ::System::Boolean))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___C___CTOR_B__57_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __ctor_b__57_11(::PLHLAIJKMOD a1, ::System::Boolean a2, ::System::Boolean a3)
+		::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean> __ctor_b__57_11(::PLHLAIJKMOD a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___C___CTOR_B__57_11_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean>(*)(::PVOID, ::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___C___CTOR_B__57_11_OFFSET))(this, a1, a2, a3);
 		}
 
 		::FBKKFMONGAA* __GetBuffAffectingCells_b__63_0(::DIGCDGKOBMK* a1)

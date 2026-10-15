@@ -12,7 +12,7 @@ namespace RPG::Client::LimaoNews { class LimaoNewsLocationData; }
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyContentData; }
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyItem; }
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyTypeData; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -162,9 +162,9 @@ namespace RPG::Client::LimaoNews
 			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYITEM_GET_CURCONTENTID_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* FetchFirstJumpableSubMissionData()
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::SubMissionData*>* FetchFirstJumpableSubMissionData()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYITEM_FETCHFIRSTJUMPABLESUBMISSIONDATA_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::SubMissionData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYITEM_FETCHFIRSTJUMPABLESUBMISSIONDATA_OFFSET))(this);
 		}
 
 		::RPG::Client::IBigMapIcon* GetBigMapIcon()

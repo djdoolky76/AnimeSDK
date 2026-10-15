@@ -24,8 +24,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourItem; }
 namespace RPG::Client::ParkourGame { class ParkourGameLevelConfigAsset; }
 namespace RPG::Client::ParkourGame { class ParkourSkillConfig; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Rigidbody; }
@@ -137,7 +137,7 @@ inline static constexpr unsigned int CFALFIPEHJH_TypeDefinitionIndex = 74186;
 	{
 	public:
 		::UnityEngine::Renderer* JAMDAALMOAL; // 0x10
-		::System::Action* PNIMHENAFDD; // 0x18
+		::System::Action_1<::ABDOMMLHNBC*>* PNIMHENAFDD; // 0x18
 		::UnityEngine::Rigidbody* HPAGDLDHKFC; // 0x20
 		::RPG::Client::ParkourGame::MonoParkourCharacter* PFECGMGNMEN; // 0x28
 		::UnityEngine::Transform* CPNELLAPDMK; // 0x30
@@ -147,7 +147,7 @@ inline static constexpr unsigned int CFALFIPEHJH_TypeDefinitionIndex = 74186;
 		::CEHPHKFBPCG* LLFEHKABAIA; // 0x50
 		::UnityEngine::Transform* PDJGEDNLBKJ; // 0x58
 		::MEHEPKNJPOA* NELLPHEKEPH; // 0x60
-		::System::Action* HIBOENHDHJL; // 0x68
+		::System::Action_1<::ABDOMMLHNBC*>* HIBOENHDHJL; // 0x68
 		::IDHAIJDALAH* HICEHCKKEPK; // 0x70
 		::CFALFIPEHJH_LEIONODFFJE* CPBIJHKPFAN; // 0x78
 		::RPG::Client::AttachPointMapping* MDOMBPFNPGB; // 0x80

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class CEEGMMCFCBG;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class String; }
 
@@ -28,24 +28,24 @@ inline static constexpr unsigned int KMGKNFDPEKG_TypeDefinitionIndex = 81247;
 			return ((::System::Void(*)(::PVOID, ::CEEGMMCFCBG*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::R3::Observable* FJFGOONJFAP()
+		::R3::Observable_1<::System::Boolean>* FJFGOONJFAP()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_FJFGOONJFAP_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_FJFGOONJFAP_OFFSET))(this);
 		}
 
-		::R3::Observable* IHEFFDKFAOA()
+		::R3::Observable_1<::System::String*>* IHEFFDKFAOA()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_IHEFFDKFAOA_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_IHEFFDKFAOA_OFFSET))(this);
 		}
 
-		::R3::Observable* MJPCMPJLGMG()
+		::R3::Observable_1<::System::String*>* MJPCMPJLGMG()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_MJPCMPJLGMG_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_MJPCMPJLGMG_OFFSET))(this);
 		}
 
-		::R3::Observable* HHMDNILOCOL()
+		::R3::Observable_1<::System::String*>* HHMDNILOCOL()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_HHMDNILOCOL_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMGKNFDPEKG_HHMDNILOCOL_OFFSET))(this);
 		}
 
 		::CEEGMMCFCBG* get_ClickCommand()

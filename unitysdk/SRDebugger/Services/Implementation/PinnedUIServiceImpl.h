@@ -4,9 +4,10 @@ namespace SRDebugger { class OptionDefinition; }
 namespace SRDebugger::UI::Controls { class OptionsControlBase; }
 namespace SRDebugger::UI::Other { class DockConsoleController; }
 namespace SRDebugger::UI::Other { class PinnedUIRoot; }
-namespace System { class Action; }
 namespace System { class EventArgs; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
@@ -47,8 +48,8 @@ namespace SRDebugger::Services::Implementation
 		::System::Boolean _queueRefresh; // 0x58
 		::System::Byte _padding0[0x7];
 		::SRDebugger::UI::Other::PinnedUIRoot* _uiRoot; // 0x60
-		::System::Action* OptionPinStateChanged; // 0x68
-		::System::Action* OptionsCanvasCreated; // 0x70
+		::System::Action_2<::SRDebugger::OptionDefinition*, ::System::Boolean>* OptionPinStateChanged; // 0x68
+		::System::Action_1<::UnityEngine::RectTransform*>* OptionsCanvasCreated; // 0x70
 		::System::Boolean _NeedReload; // 0x78
 		::System::Void _ctor()
 		{
@@ -60,24 +61,24 @@ namespace SRDebugger::Services::Implementation
 			return ((::SRDebugger::UI::Other::DockConsoleController*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_GET_DOCKCONSOLECONTROLLER_OFFSET))(this);
 		}
 
-		::System::Void add_OptionPinStateChanged(::System::Action* a1)
+		::System::Void add_OptionPinStateChanged(::System::Action_2<::SRDebugger::OptionDefinition*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_ADD_OPTIONPINSTATECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::OptionDefinition*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_ADD_OPTIONPINSTATECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OptionPinStateChanged(::System::Action* a1)
+		::System::Void remove_OptionPinStateChanged(::System::Action_2<::SRDebugger::OptionDefinition*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_REMOVE_OPTIONPINSTATECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::SRDebugger::OptionDefinition*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_REMOVE_OPTIONPINSTATECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OptionsCanvasCreated(::System::Action* a1)
+		::System::Void add_OptionsCanvasCreated(::System::Action_1<::UnityEngine::RectTransform*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_ADD_OPTIONSCANVASCREATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::RectTransform*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_ADD_OPTIONSCANVASCREATED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OptionsCanvasCreated(::System::Action* a1)
+		::System::Void remove_OptionsCanvasCreated(::System::Action_1<::UnityEngine::RectTransform*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_REMOVE_OPTIONSCANVASCREATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::RectTransform*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_PINNEDUISERVICEIMPL_REMOVE_OPTIONSCANVASCREATED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsProfilerPinned()

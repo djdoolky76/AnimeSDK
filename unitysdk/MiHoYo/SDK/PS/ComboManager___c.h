@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
 #define MIHOYO_SDK_PS_COMBOMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF52AC0)
@@ -24,9 +24,9 @@ namespace MiHoYo::SDK::PS
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x182C0);
 		}
 
-		static ::System::Action** StaticGet___9__20_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__20_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x182C8);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x182C8);
 		}
 
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__15_0()

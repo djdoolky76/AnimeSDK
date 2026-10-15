@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
 #define NPJKDMFBDFG___C__DISPLAYCLASS63_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD08880)
@@ -12,7 +12,7 @@ inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass63_0_TypeDefin
 	class NPJKDMFBDFG___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__0; // 0x10
+		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x10
 		::System::Int32 h; // 0x18
 		::System::Void _ctor()
 		{

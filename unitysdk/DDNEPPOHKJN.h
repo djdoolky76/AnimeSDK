@@ -9,6 +9,7 @@
 #include "unitysdk/RPG/GameCore/StreamingLayerType.h"
 #include "unitysdk/GEEOPFIMJEM.h"
 #include "unitysdk/NNBOAOJBOFC.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class CELDMKCEPAO;
@@ -27,9 +28,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class StageConfig; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class ISet_1; }
@@ -305,9 +308,9 @@ inline static constexpr unsigned int DDNEPPOHKJN_TypeDefinitionIndex = 69498;
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::System::Collections::Generic::ISet_1<::System::String*>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_COLLECTSTREAMINGBLOCKBYNAMESET_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void ForeachStreamingBlocks(::System::Action* a1)
+		::System::Void ForeachStreamingBlocks(::System::Action_1<::KLEFGGIHGMI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_FOREACHSTREAMINGBLOCKS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KLEFGGIHGMI*>*))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_FOREACHSTREAMINGBLOCKS_OFFSET))(this, a1);
 		}
 
 		::System::Void CollectBlocksByTag_1(::System::Collections::Generic::List_1<::KLEFGGIHGMI*>* a1, ::System::String* a2)
@@ -345,24 +348,24 @@ inline static constexpr unsigned int DDNEPPOHKJN_TypeDefinitionIndex = 69498;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Int32, ::System::Int32, ::RPG::Client::OpenWorld::StreamingBlockType))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_INACTIVEENVIROMENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::GameObject* GetAliasInstanceAndMark(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action* a4, ::System::Boolean a5)
+		::UnityEngine::GameObject* GetAliasInstanceAndMark(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a4, ::System::Boolean a5)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_GETALIASINSTANCEANDMARK_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_GETALIASINSTANCEANDMARK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void UnMarkAliasInstance(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void UnMarkAliasInstance(::System::String* a1, ::System::String* a2, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_UNMARKALIASINSTANCE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_UNMARKALIASINSTANCE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::HPKACEPPPCA* GetAliasStreamingInstanceAndMark(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action* a4, ::System::Boolean a5)
+		::HPKACEPPPCA* GetAliasStreamingInstanceAndMark(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>* a4, ::System::Boolean a5)
 		{
-			return ((::HPKACEPPPCA*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_GETALIASSTREAMINGINSTANCEANDMARK_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::HPKACEPPPCA*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_GETALIASSTREAMINGINSTANCEANDMARK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void UnMarkAliasStreamingInstance(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void UnMarkAliasStreamingInstance(::System::String* a1, ::System::String* a2, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_UNMARKALIASSTREAMINGINSTANCE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_UNMARKALIASSTREAMINGINSTANCE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::OpenWorld::StreamingItemData* GetAliasItemData(::System::String* a1, ::System::String* a2)
@@ -395,9 +398,9 @@ inline static constexpr unsigned int DDNEPPOHKJN_TypeDefinitionIndex = 69498;
 			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_GETALIASITEMGAMEOBJECT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryRegisterRenderStubRebuildCallback(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2, ::System::Boolean a3)
+		::System::Boolean TryRegisterRenderStubRebuildCallback(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_TRYREGISTERRENDERSTUBREBUILDCALLBACK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_TRYREGISTERRENDERSTUBREBUILDCALLBACK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void SetUnloadEnable(::System::Boolean a1)
@@ -440,14 +443,14 @@ inline static constexpr unsigned int DDNEPPOHKJN_TypeDefinitionIndex = 69498;
 			return ((::RPG::Client::OpenWorld::StreamingItemData*(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_RUNTIMEADDSTREAMINGITEM_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::RPG::Client::OpenWorld::StreamingItemData* RuntimeAddStreamingItem_1(::GEEOPFIMJEM a1, ::RPG::GameCore::GameEntity* a2, ::UnityEngine::GameObject* a3, ::System::Action* a4, ::System::Action* a5, ::System::Action* a6, ::System::String* a7, ::System::Boolean a8, ::RPG::Client::OpenWorld::StreamingItemVisibleReason a9, ::System::Boolean a10)
+		::RPG::Client::OpenWorld::StreamingItemData* RuntimeAddStreamingItem_1(::GEEOPFIMJEM a1, ::RPG::GameCore::GameEntity* a2, ::UnityEngine::GameObject* a3, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a4, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a5, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a6, ::System::String* a7, ::System::Boolean a8, ::RPG::Client::OpenWorld::StreamingItemVisibleReason a9, ::System::Boolean a10)
 		{
-			return ((::RPG::Client::OpenWorld::StreamingItemData*(*)(::PVOID, ::GEEOPFIMJEM, ::RPG::GameCore::GameEntity*, ::UnityEngine::GameObject*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::String*, ::System::Boolean, ::RPG::Client::OpenWorld::StreamingItemVisibleReason, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_RUNTIMEADDSTREAMINGITEM_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::RPG::Client::OpenWorld::StreamingItemData*(*)(::PVOID, ::GEEOPFIMJEM, ::RPG::GameCore::GameEntity*, ::UnityEngine::GameObject*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::String*, ::System::Boolean, ::RPG::Client::OpenWorld::StreamingItemVisibleReason, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_RUNTIMEADDSTREAMINGITEM_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::RPG::Client::OpenWorld::StreamingItemData* RuntimeAddStreamingItem_2(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::RPG::GameCore::GameEntity* a4, ::UnityEngine::GameObject* a5, ::System::Action* a6, ::System::Action* a7, ::System::Action* a8, ::System::String* a9, ::System::Boolean a10)
+		::RPG::Client::OpenWorld::StreamingItemData* RuntimeAddStreamingItem_2(::System::String* a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::RPG::GameCore::GameEntity* a4, ::UnityEngine::GameObject* a5, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a6, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a7, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a8, ::System::String* a9, ::System::Boolean a10)
 		{
-			return ((::RPG::Client::OpenWorld::StreamingItemData*(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::System::Nullable*, ::RPG::GameCore::GameEntity*, ::UnityEngine::GameObject*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_RUNTIMEADDSTREAMINGITEM_2_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::RPG::Client::OpenWorld::StreamingItemData*(*)(::PVOID, ::System::String*, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>, ::RPG::GameCore::GameEntity*, ::UnityEngine::GameObject*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDNEPPOHKJN_RUNTIMEADDSTREAMINGITEM_2_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
 		::System::Void RuntimeRemoveStreamingItem(::RPG::Client::OpenWorld::StreamingItemData* a1)

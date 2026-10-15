@@ -3,6 +3,7 @@
 #include "unitysdk/LPMONNHABLI.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class AAODEOPMKBD;
@@ -21,7 +22,6 @@ namespace RPG::Client::OpenWorld { class Volume; }
 namespace RPG::Client::OpenWorld { template <typename T> class AOIBase_1; }
 namespace RPG::GameCore { class AnchorInfo; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class Camera; }
@@ -202,9 +202,9 @@ inline static constexpr unsigned int APLEMBNFLAA_TypeDefinitionIndex = 73938;
 			return ((::System::Collections::Generic::IList_1<::APLEMBNFLAA*>*(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + APLEMBNFLAA_NFCGOPKCBCP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean FJGELBCACEK(::KLEFGGIHGMI* a1, ::System::Nullable* a2)
+		::System::Boolean FJGELBCACEK(::KLEFGGIHGMI* a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::KLEFGGIHGMI*, ::System::Nullable*))((::PBYTE)hIl2Cpp + APLEMBNFLAA_FJGELBCACEK_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::KLEFGGIHGMI*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + APLEMBNFLAA_FJGELBCACEK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LNGKNPJIOML(::GDMONJOAKHD* a1, ::UnityEngine::Vector2 a2, ::RPG::Client::OpenWorld::AOIBase_1<::RPG::Client::OpenWorld::StreamingItemData*>* a3, ::System::Boolean a4, ::OIDDJJLHGKO* a5, ::System::Boolean a6)

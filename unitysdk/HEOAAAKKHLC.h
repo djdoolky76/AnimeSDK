@@ -8,8 +8,9 @@
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
 #include "unitysdk/RPG/GameCore/MatchThreePropType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/ACCGBEKMHNF.h"
+#include "unitysdk/System/Nullable_1.h"
 class BOMFGKDLHIB;
 class CAKNHIMMBOM;
 class KPCPIMINKPL;
@@ -19,7 +20,6 @@ class PLKAJKKLGOL;
 namespace RPG::GameCore::Match3 { class MatchThree1v1AILevelConfig; }
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIPriorityRetainConfig; }
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIScoreAspectConfig; }
-namespace System { class Nullable; }
 namespace System { class Random; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -90,10 +90,10 @@ inline static constexpr unsigned int HEOAAAKKHLC_TypeDefinitionIndex = 43031;
 		::PKJOPFLMLLB* ECDMJAJFDNG; // 0x40
 		::System::Collections::Generic::List_1<::PKJOPFLMLLB*>* LLCGBAOAMDN; // 0x48
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect, ::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*>* HCDKPJGAHNK; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::CAKNHIMMBOM*>* HIJPJBGAADF; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::PKJOPFLMLLB*>* GBFAAIIECMB; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::CAKNHIMMBOM*>* HIJPJBGAADF; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::PKJOPFLMLLB*>* GBFAAIIECMB; // 0x60
 		::System::Collections::Generic::Queue_1<::PKJOPFLMLLB*>* ECHMPHPGBMI; // 0x68
-		::System::Collections::Generic::List_1<::System::ValueTuple>* KLEIMNLINEE; // 0x70
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* KLEIMNLINEE; // 0x70
 		::System::UInt32 _Level_k__BackingField; // 0x78
 		::System::Int32 IAJDCMPBPGP; // 0x7C
 		::RPG::Client::LittleGame::Match3::OpponentRole _Role_k__BackingField; // 0x80
@@ -124,34 +124,34 @@ inline static constexpr unsigned int HEOAAAKKHLC_TypeDefinitionIndex = 43031;
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_MNLCEMNEIOE_OFFSET))(this);
 		}
 
-		::System::Void OEKDKMAKONP(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::LittleGame::Match3::ViewMomentType a4, ::System::ValueTuple a5, ::System::Nullable* a6, ::System::UInt32 a7, ::RPG::GameCore::Match3::BombType a8, ::RPG::GameCore::Match3::PieceTag a9, ::System::Boolean a10)
+		::System::Void OEKDKMAKONP(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::LittleGame::Match3::ViewMomentType a4, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a5, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a6, ::System::UInt32 a7, ::RPG::GameCore::Match3::BombType a8, ::RPG::GameCore::Match3::PieceTag a9, ::System::Boolean a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::ViewMomentType, ::System::ValueTuple, ::System::Nullable*, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::Boolean))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_OEKDKMAKONP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::ViewMomentType, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::Boolean))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_OEKDKMAKONP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::UInt32 GHGFFNOHGKN(::ACCGBEKMHNF a1, ::System::Collections::Generic::List_1<::System::ValueTuple>* a2)
+		::System::UInt32 GHGFFNOHGKN(::ACCGBEKMHNF a1, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::ACCGBEKMHNF, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_GHGFFNOHGKN_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::ACCGBEKMHNF, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_GHGFFNOHGKN_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 ENDANOPPLNC(::System::UInt32 a1, ::System::ValueTuple a2, ::System::UInt32 a3, ::RPG::GameCore::Match3::BombType a4, ::RPG::GameCore::Match3::PieceTag a5, ::System::Single a6)
+		::System::UInt32 ENDANOPPLNC(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::UInt32 a3, ::RPG::GameCore::Match3::BombType a4, ::RPG::GameCore::Match3::PieceTag a5, ::System::Single a6)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::Single))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_ENDANOPPLNC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::Single))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_ENDANOPPLNC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::UInt32 GIIFGOMKFIC(::System::UInt32 a1, ::System::ValueTuple a2, ::System::UInt32 a3, ::RPG::GameCore::Match3::BombType a4, ::System::UInt32 a5, ::System::Nullable* a6, ::System::Boolean a7)
+		::System::UInt32 GIIFGOMKFIC(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::UInt32 a3, ::RPG::GameCore::Match3::BombType a4, ::System::UInt32 a5, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a6, ::System::Boolean a7)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::System::UInt32, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_GIIFGOMKFIC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::System::UInt32, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>, ::System::Boolean))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_GIIFGOMKFIC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::UInt32 BJMMLHKPILL(::System::UInt32 a1, ::System::ValueTuple a2, ::RPG::GameCore::Match3::BombType a3)
+		::System::UInt32 BJMMLHKPILL(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::RPG::GameCore::Match3::BombType a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_BJMMLHKPILL_OFFSET))(this, a1, a2, a3);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_BJMMLHKPILL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 KEJFGJACPJP(::System::UInt32 a1, ::System::UInt32 a2, ::System::ValueTuple a3, ::RPG::Client::LittleGame::Match3::GridLocalPoint a4, ::System::UInt32 a5)
+		::System::UInt32 KEJFGJACPJP(::System::UInt32 a1, ::System::UInt32 a2, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a3, ::RPG::Client::LittleGame::Match3::GridLocalPoint a4, ::System::UInt32 a5)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::ValueTuple, ::RPG::Client::LittleGame::Match3::GridLocalPoint, ::System::UInt32))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_KEJFGJACPJP_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::LittleGame::Match3::GridLocalPoint, ::System::UInt32))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_KEJFGJACPJP_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void OICGAKFBFNJ()
@@ -249,9 +249,9 @@ inline static constexpr unsigned int HEOAAAKKHLC_TypeDefinitionIndex = 43031;
 			return ((::System::Void(*)(::PVOID, ::PLKAJKKLGOL*))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_JCDLBIIALNM_OFFSET))(this, a1);
 		}
 
-		::System::Int32 ALIECNONGMB(::System::ValueTuple a1)
+		::System::Int32 ALIECNONGMB(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_ALIECNONGMB_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_ALIECNONGMB_OFFSET))(this, a1);
 		}
 
 		::System::Void IEOAKPPDDNG(::PLKAJKKLGOL* a1)
@@ -344,9 +344,9 @@ inline static constexpr unsigned int HEOAAAKKHLC_TypeDefinitionIndex = 43031;
 			return ((::RPG::Client::LittleGame::Match3::OpponentRole(*)(::PVOID))((::PBYTE)hIl2Cpp + HEOAAAKKHLC_GET_ROLE_OFFSET))(this);
 		}
 
-		::System::Int32 __GenPropSimulateInfo_BreakPiece_b__29_0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __GenPropSimulateInfo_BreakPiece_b__29_0(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + HEOAAAKKHLC___GENPROPSIMULATEINFO_BREAKPIECE_B__29_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + HEOAAAKKHLC___GENPROPSIMULATEINFO_BREAKPIECE_B__29_0_OFFSET))(this, a1, a2);
 		}
 
 	};

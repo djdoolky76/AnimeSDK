@@ -3,7 +3,7 @@
 class CAALFIDBNMJ;
 class HIKAAGHELPH;
 class MLJMOGJMJEB;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::UINavigation { class UINavigationArea; }
 namespace RPG::UINavigation { class UINavigationButton; }
@@ -48,9 +48,9 @@ namespace RPG::Client::Ui::Samples
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::MLJMOGJMJEB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL__ONENTRANCEANIMEND_OFFSET))(this, a1, a2);
 		}
 
-		::R3::Observable* __Binding_b__5_2(::CAALFIDBNMJ* a1)
+		::R3::Observable_1<::System::Single>* __Binding_b__5_2(::CAALFIDBNMJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::CAALFIDBNMJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___BINDING_B__5_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Single>*(*)(::PVOID, ::CAALFIDBNMJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___BINDING_B__5_2_OFFSET))(this, a1);
 		}
 
 	};

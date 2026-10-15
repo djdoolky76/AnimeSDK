@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/Match3/PerformMark.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
 #define OOLCJNAFGCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A0B40)
 #define OOLCJNAFGCE_ONPDAALFIIH_OFFSET UNITYSDK_OFFSET(0x1C9A0AF0)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int OOLCJNAFGCE_TypeDefinitionIndex = 42255;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OOLCJNAFGCE_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple ONPDAALFIIH()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> ONPDAALFIIH()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + OOLCJNAFGCE_ONPDAALFIIH_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + OOLCJNAFGCE_ONPDAALFIIH_OFFSET))(this);
 		}
 
 	};

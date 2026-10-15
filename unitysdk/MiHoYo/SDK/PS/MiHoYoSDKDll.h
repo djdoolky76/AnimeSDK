@@ -5,10 +5,10 @@
 #include "unitysdk/MiHoYo/SDK/PS_IssuerID.h"
 #include "unitysdk/MiHoYo/SDK/SubChannelType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class InputField; }
 
 #define MIHOYO_SDK_PS_MIHOYOSDKDLL_ADDINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x1BF58E10)
@@ -210,14 +210,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::InputField*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_ADDINPUTFIELD_OFFSET))(this, a1);
 		}
 
-		static ::System::String* SDKInvoke(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		static ::System::String* SDKInvoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_SDKINVOKE_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_SDKINVOKE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Init(::System::Action* a1)
+		static ::System::Void Init(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_INIT_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_INIT_OFFSET))(a1);
 		}
 
 		static ::System::Boolean GetInitStatus()
@@ -235,24 +235,24 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_ALL_SET_ENV_AND_GAMEBIZ_OFFSET))(a1);
 		}
 
-		static ::System::String* login_login(::System::Action* a1)
+		static ::System::String* login_login(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_LOGIN_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_LOGIN_OFFSET))(a1);
 		}
 
-		static ::System::String* login_logout(::System::Action* a1)
+		static ::System::String* login_logout(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_LOGOUT_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_LOGOUT_OFFSET))(a1);
 		}
 
-		static ::System::String* login_logout_without_confirm(::System::Action* a1)
+		static ::System::String* login_logout_without_confirm(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_LOGOUT_WITHOUT_CONFIRM_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_LOGOUT_WITHOUT_CONFIRM_OFFSET))(a1);
 		}
 
-		static ::System::String* login_switch_role(::System::Action* a1)
+		static ::System::String* login_switch_role(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_SWITCH_ROLE_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_SWITCH_ROLE_OFFSET))(a1);
 		}
 
 		static ::System::String* login_get_account_name()
@@ -265,9 +265,9 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_GET_ASTERISK_NAME_OFFSET))();
 		}
 
-		static ::System::String* login_list_goods(::System::String* a1, ::System::Action* a2)
+		static ::System::String* login_list_goods(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_LIST_GOODS_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_LIST_GOODS_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* info_get_device_id()
@@ -345,9 +345,9 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_SET_SERVER_ID_OFFSET))(a1);
 		}
 
-		static ::System::String* login_will_enter_game(::System::String* a1, ::System::Action* a2)
+		static ::System::String* login_will_enter_game(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_WILL_ENTER_GAME_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_WILL_ENTER_GAME_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* login_enter_game(::System::String* a1)
@@ -355,14 +355,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_ENTER_GAME_OFFSET))(a1);
 		}
 
-		static ::System::String* login_get_price_tier(::System::String* a1, ::System::Action* a2)
+		static ::System::String* login_get_price_tier(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_GET_PRICE_TIER_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_GET_PRICE_TIER_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* login_get_product_list(::System::String* a1, ::System::Action* a2)
+		static ::System::String* login_get_product_list(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_GET_PRODUCT_LIST_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_GET_PRODUCT_LIST_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* login_create_role(::System::String* a1)
@@ -400,9 +400,9 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_ALL_SET_LANGUAGE_OFFSET))(a1);
 		}
 
-		static ::System::String* login_pay(::System::String* a1, ::System::Action* a2)
+		static ::System::String* login_pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_PAY_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_PAY_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* report_set_info(::System::String* a1)
@@ -440,14 +440,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_INIT_PS_TROPHY_OFFSET))();
 		}
 
-		static ::System::String* show_empty_store_dialog(::System::Action* a1)
+		static ::System::String* show_empty_store_dialog(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_SHOW_EMPTY_STORE_DIALOG_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_SHOW_EMPTY_STORE_DIALOG_OFFSET))(a1);
 		}
 
-		static ::System::String* show_system_message_dialog(::System::String* a1, ::System::Action* a2)
+		static ::System::String* show_system_message_dialog(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_SHOW_SYSTEM_MESSAGE_DIALOG_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_SHOW_SYSTEM_MESSAGE_DIALOG_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* info_set_game_parameters(::System::String* a1)
@@ -455,14 +455,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_INFO_SET_GAME_PARAMETERS_OFFSET))(a1);
 		}
 
-		static ::System::String* get_account_id_by_online_id(::System::String* a1, ::System::Action* a2)
+		static ::System::String* get_account_id_by_online_id(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_GET_ACCOUNT_ID_BY_ONLINE_ID_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_GET_ACCOUNT_ID_BY_ONLINE_ID_OFFSET))(a1, a2);
 		}
 
-		static ::System::String* get_online_id_list_by_account_id_list(::System::String* a1, ::System::Action* a2)
+		static ::System::String* get_online_id_list_by_account_id_list(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_GET_ONLINE_ID_LIST_BY_ACCOUNT_ID_LIST_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_GET_ONLINE_ID_LIST_BY_ACCOUNT_ID_LIST_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* notice_show_pop_image(::System::String* a1)
@@ -485,24 +485,24 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_LOGIN_OPEN_USER_CENTER_OFFSET))();
 		}
 
-		static ::System::String* get_ps_friend_list(::System::Action* a1)
+		static ::System::String* get_ps_friend_list(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_GET_PS_FRIEND_LIST_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_GET_PS_FRIEND_LIST_OFFSET))(a1);
 		}
 
-		static ::System::String* get_ps_block_list(::System::Action* a1)
+		static ::System::String* get_ps_block_list(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_GET_PS_BLOCK_LIST_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_GET_PS_BLOCK_LIST_OFFSET))(a1);
 		}
 
-		static ::System::String* register_ps_friend_update(::System::Action* a1)
+		static ::System::String* register_ps_friend_update(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_REGISTER_PS_FRIEND_UPDATE_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_REGISTER_PS_FRIEND_UPDATE_OFFSET))(a1);
 		}
 
-		static ::System::String* register_ps_block_update(::System::Action* a1)
+		static ::System::String* register_ps_block_update(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_REGISTER_PS_BLOCK_UPDATE_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_REGISTER_PS_BLOCK_UPDATE_OFFSET))(a1);
 		}
 
 		static ::System::String* unregister_ps_friend_update()
@@ -605,14 +605,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_GAMEINTENT_DESTORY_OFFSET))();
 		}
 
-		static ::System::String* ps_register_gameintent_get_activity_id(::System::Action* a1)
+		static ::System::String* ps_register_gameintent_get_activity_id(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_REGISTER_GAMEINTENT_GET_ACTIVITY_ID_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_REGISTER_GAMEINTENT_GET_ACTIVITY_ID_OFFSET))(a1);
 		}
 
-		static ::System::String* ps_register_gameintent_get_session_id(::System::Action* a1)
+		static ::System::String* ps_register_gameintent_get_session_id(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_REGISTER_GAMEINTENT_GET_SESSION_ID_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_REGISTER_GAMEINTENT_GET_SESSION_ID_OFFSET))(a1);
 		}
 
 		static ::System::String* ps_unregister_gameintent_get_activity_id()
@@ -630,14 +630,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_HAS_PREMIUM_OFFSET))();
 		}
 
-		static ::System::String* ps_premium_pay(::System::Action* a1)
+		static ::System::String* ps_premium_pay(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_PREMIUM_PAY_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_PREMIUM_PAY_OFFSET))(a1);
 		}
 
-		static ::System::String* ps_dlc_pay(::System::String* a1, ::System::Action* a2)
+		static ::System::String* ps_dlc_pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_DLC_PAY_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_DLC_PAY_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* ps_notify_premium_feature(::System::String* a1)
@@ -645,14 +645,14 @@ namespace MiHoYo::SDK::PS
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_NOTIFY_PREMIUM_FEATURE_OFFSET))(a1);
 		}
 
-		static ::System::String* ps_get_communication_restriction_status(::System::Action* a1)
+		static ::System::String* ps_get_communication_restriction_status(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_GET_COMMUNICATION_RESTRICTION_STATUS_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_GET_COMMUNICATION_RESTRICTION_STATUS_OFFSET))(a1);
 		}
 
-		static ::System::String* ps_register_np_state(::System::Action* a1)
+		static ::System::String* ps_register_np_state(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::String*(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_REGISTER_NP_STATE_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_MIHOYOSDKDLL_PS_REGISTER_NP_STATE_OFFSET))(a1);
 		}
 
 		static ::System::String* ps_unregister_np_state()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class NBKNHOHKDJI;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
 #define MDKJNMJFNAD_BNMDGBCKFCG_AGOJJMIIHFP_OFFSET UNITYSDK_OFFSET(0x1EC86D10)
@@ -24,9 +24,9 @@ inline static constexpr unsigned int MDKJNMJFNAD_BNMDGBCKFCG_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDKJNMJFNAD_BNMDGBCKFCG_CTOR_OFFSET))(this);
 		}
 
-		::NBKNHOHKDJI* AGOJJMIIHFP(::R3::Observable* a1)
+		::NBKNHOHKDJI* AGOJJMIIHFP(::R3::Observable_1<::System::Boolean>* a1)
 		{
-			return ((::NBKNHOHKDJI*(*)(::PVOID, ::R3::Observable*))((::PBYTE)hIl2Cpp + MDKJNMJFNAD_BNMDGBCKFCG_AGOJJMIIHFP_OFFSET))(this, a1);
+			return ((::NBKNHOHKDJI*(*)(::PVOID, ::R3::Observable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MDKJNMJFNAD_BNMDGBCKFCG_AGOJJMIIHFP_OFFSET))(this, a1);
 		}
 
 		::System::Void PDKLDMNAJBO()

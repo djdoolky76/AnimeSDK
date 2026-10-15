@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HBLDGJCDJPF.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
+#include "unitysdk/System/Nullable_1.h"
 class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelFireGlobalEffectNode; }
-namespace System { class Nullable; }
 
 #define HJECPHGDJPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15D14020)
 #define HJECPHGDJPJ_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x15D13FA0)
@@ -16,7 +16,7 @@ inline static constexpr unsigned int HJECPHGDJPJ_TypeDefinitionIndex = 77681;
 	{
 	public:
 		::RPG::GameCore::ChimeraDuelFireGlobalEffectNode* EABKOHGCHFP; // 0x10
-		::System::Nullable* FLPPKLDOCDD; // 0x18
+		::System::Nullable_1<::RPG::GameCore::ChimeraDuelTeamType> FLPPKLDOCDD; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJECPHGDJPJ_CTOR_OFFSET))(this);

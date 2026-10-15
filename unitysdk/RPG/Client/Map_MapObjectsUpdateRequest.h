@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Map_MapObjectsUpdateRequestState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BIDDFDEAEGB;
 class EOABGMGNKGA;
 class NNDAJDLAHNC;
@@ -66,8 +66,8 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>* _MapEntityDefToBeDestroy; // 0x40
 		::RPG::Client::Map_RefreshEntitiesExtraInfo* ExtraInfo; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _GroupOperationCount; // 0x50
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _MapGroupDefsToBeDestroy; // 0x58
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _MapGroupDefsToBeCreated; // 0x60
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::BIDDFDEAEGB*, ::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>*>>* _MapGroupDefsToBeDestroy; // 0x58
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::BIDDFDEAEGB*, ::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>*>>* _MapGroupDefsToBeCreated; // 0x60
 		::System::Collections::Generic::List_1<::EOABGMGNKGA*>* _MapObjectsCreated; // 0x68
 		::RPG::Client::Map_MapObjectsUpdateRequestState _State; // 0x70
 		::System::Void _ctor(::RPG::Client::Map* a1)
@@ -210,14 +210,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MapEntityDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_MAPOBJECTSUPDATEREQUEST_DESTROYOBJECTBYMAPENTITYDEF_OFFSET))(this, a1);
 		}
 
-		::System::Void _DoAddMapGroupDefToContainer(::System::Collections::Generic::List_1<::System::ValueTuple>* a1, ::BIDDFDEAEGB* a2)
+		::System::Void _DoAddMapGroupDefToContainer(::System::Collections::Generic::List_1<::System::ValueTuple_2<::BIDDFDEAEGB*, ::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>*>>* a1, ::BIDDFDEAEGB* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*, ::BIDDFDEAEGB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_MAPOBJECTSUPDATEREQUEST__DOADDMAPGROUPDEFTOCONTAINER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::BIDDFDEAEGB*, ::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>*>>*, ::BIDDFDEAEGB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_MAPOBJECTSUPDATEREQUEST__DOADDMAPGROUPDEFTOCONTAINER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _DoRemoveMapGroupDefToContainer(::System::Collections::Generic::List_1<::System::ValueTuple>* a1, ::BIDDFDEAEGB* a2)
+		::System::Void _DoRemoveMapGroupDefToContainer(::System::Collections::Generic::List_1<::System::ValueTuple_2<::BIDDFDEAEGB*, ::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>*>>* a1, ::BIDDFDEAEGB* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*, ::BIDDFDEAEGB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_MAPOBJECTSUPDATEREQUEST__DOREMOVEMAPGROUPDEFTOCONTAINER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::BIDDFDEAEGB*, ::System::Collections::Generic::List_1<::RPG::Client::MapEntityDef*>*>>*, ::BIDDFDEAEGB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_MAPOBJECTSUPDATEREQUEST__DOREMOVEMAPGROUPDEFTOCONTAINER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _IncreaseGroupOperationCount(::BIDDFDEAEGB* a1)

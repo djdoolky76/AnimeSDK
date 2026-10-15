@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/ChapterRecordUiData.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -25,7 +25,7 @@ inline static constexpr unsigned int KBMDCFONPMP_TypeDefinitionIndex = 75320;
 	class KBMDCFONPMP : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* HMBCMFGJNIM; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::System::UInt32>*>* HMBCMFGJNIM; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KBMDCFONPMP_CTOR_OFFSET))(this);
@@ -61,9 +61,9 @@ inline static constexpr unsigned int KBMDCFONPMP_TypeDefinitionIndex = 75320;
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::ChapterRecordUiData>*))((::PBYTE)hIl2Cpp + KBMDCFONPMP_GHBLCPJPBEP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* IMCBADDPGDD()
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::System::UInt32>*>* IMCBADDPGDD()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + KBMDCFONPMP_IMCBADDPGDD_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::System::UInt32>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KBMDCFONPMP_IMCBADDPGDD_OFFSET))(this);
 		}
 
 		::System::Void DNEIJOHLMHC(::System::UInt16 a1, ::System::Object* a2)

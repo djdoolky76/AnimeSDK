@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
@@ -12,7 +12,7 @@ namespace RPG::Client
 	class RogueTournWeekChallengeData_ObjectLevelSegmentedList_1 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _List; // 0x0
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, T>>* _List; // 0x0
 		::System::Boolean _IsSorted; // 0x0
 	};
 }

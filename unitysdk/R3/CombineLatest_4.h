@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 
 namespace R3
@@ -11,9 +11,9 @@ namespace R3
 	class CombineLatest_4
 	{
 	public:
-		::R3::Observable* _source1_P; // 0x0
-		::R3::Observable* _source2_P; // 0x0
-		::R3::Observable* _source3_P; // 0x0
+		::R3::Observable_1<T1>* _source1_P; // 0x0
+		::R3::Observable_1<T2>* _source2_P; // 0x0
+		::R3::Observable_1<T3>* _source3_P; // 0x0
 		::System::Func_4<T1, T2, T3, T4>* _resultSelector_P; // 0x0
 	};
 }

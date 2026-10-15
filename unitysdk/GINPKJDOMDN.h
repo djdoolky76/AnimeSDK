@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HCLPKMIIANI.h"
 #include "unitysdk/RPG/GameCore/PuzzleCustomEvent.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EKFMIDBJDIA;
 class FDPALAEIHPB;
@@ -14,7 +15,6 @@ namespace RPG::Client { class AchievementData; }
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class TRFCameraComponentConfig; }
 namespace RPG::GameCore { class TimeRelayFlameGameConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -75,14 +75,14 @@ inline static constexpr unsigned int GINPKJDOMDN_TypeDefinitionIndex = 60431;
 		::PEMFMPIPNJN* PDENFEFCAGN; // 0xB8
 		::PAGLJLCBBAK* MOAHPOKJFMH; // 0xC0
 		::UnityEngine::Vector3 GELBPOOAHEA; // 0xC8
-		::System::Nullable* OFABLKBBNHC; // 0xD4
+		::System::Nullable_1<::System::Single> OFABLKBBNHC; // 0xD4
 		::System::Single DMAAPEJKNJP; // 0xDC
 		::System::UInt32 IFDLFIBAFKE; // 0xE0
 		::System::Single DAELBLLLMHL; // 0xE4
 		::System::UInt32 MMILCBFLPDJ; // 0xE8
 		::UnityEngine::Vector3 JKBFKLAHJHK; // 0xEC
 		::System::Single CIBILKNLODG; // 0xF8
-		::System::Nullable* DLFPFLOAGGG; // 0xFC
+		::System::Nullable_1<::System::Single> DLFPFLOAGGG; // 0xFC
 		::System::Int32 KBDPMBDJIOF; // 0x104
 		::System::Int32 HFOIDBJPGIL; // 0x108
 		::System::Boolean ADLJOCILKJB; // 0x10C

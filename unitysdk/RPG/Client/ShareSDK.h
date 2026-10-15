@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ShareSource.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class EIEMOAANHHO;
 class GHFNPKEGLGN;
 namespace MiHoYo::SDK { class JSONObject; }
 namespace RPG::Client { class PhotoGraphFilterImage; }
 namespace RPG::GameCore { class ShareChannelConfigRow; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -32,7 +32,7 @@ namespace RPG::Client
 	public:
 		::EIEMOAANHHO* _ShareParams; // 0x10
 		::RPG::Client::ShareSource _ShareSource; // 0x18
-		::System::Nullable* _ShareFunctionEnable; // 0x1C
+		::System::Nullable_1<::System::Boolean> _ShareFunctionEnable; // 0x1C
 		// static const ::System::String* _BASE64_PREFIX; // 0x0
 		::System::Void _ctor()
 		{

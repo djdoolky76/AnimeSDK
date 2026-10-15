@@ -7,7 +7,7 @@
 #include "unitysdk/RPG/GameCore/TalkChosenType.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 #include "unitysdk/RPG/GameCore/TalkTrigger_DialogueGroupInfo.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class FetchAdvNPCData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelGroupMissionConditionSet; }
@@ -108,9 +108,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::TalkTrigger_DialogueGroupInfo(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__GETCURCHINWAGDIALOGUE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _GetShownMissionDialogueGroups()
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Object*>>* _GetShownMissionDialogueGroups()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__GETSHOWNMISSIONDIALOGUEGROUPS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Object*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__GETSHOWNMISSIONDIALOGUEGROUPS_OFFSET))(this);
 		}
 
 		::System::Boolean _IsDialogueAssociateWithTrackingMission(::System::UInt32 a1)
@@ -118,9 +118,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__ISDIALOGUEASSOCIATEWITHTRACKINGMISSION_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _SortDialogue(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 _SortDialogue(::System::ValueTuple_2<::System::UInt32, ::System::Object*> a1, ::System::ValueTuple_2<::System::UInt32, ::System::Object*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__SORTDIALOGUE_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::Object*>, ::System::ValueTuple_2<::System::UInt32, ::System::Object*>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__SORTDIALOGUE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean _HasConfig(::RPG::GameCore::GameEntity* a1)
@@ -243,9 +243,9 @@ namespace RPG::GameCore
 			return ((::RPG::Client::DialoguePhase(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__GETTALKBTNPARAM_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _CheckDialogueByGroupID(::System::UInt32 a1)
+		::System::ValueTuple_2<::System::Boolean, ::System::UInt32> _CheckDialogueByGroupID(::System::UInt32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__CHECKDIALOGUEBYGROUPID_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::UInt32>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER__CHECKDIALOGUEBYGROUPID_OFFSET))(this, a1);
 		}
 
 		::System::Void _InitDialogueType()

@@ -4,6 +4,7 @@
 namespace RPG::Client::ActivityHipplen { class HipplenMovingGoodsInputData; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSINPUTSEQ_AUTOINPUT_OFFSET UNITYSDK_OFFSET(0xC434870)
@@ -34,8 +35,8 @@ namespace RPG::Client::ActivityHipplen
 	public:
 		::System::Action* _OnChanged; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::HipplenMovingGoodsInputData*>* _InputDatas_k__BackingField; // 0x18
-		::System::Action* _OnInputFinished; // 0x20
-		::System::Action* _OnFinished; // 0x28
+		::System::Action_1<::System::Boolean>* _OnInputFinished; // 0x20
+		::System::Action_1<::System::Boolean>* _OnFinished; // 0x28
 		::System::Int32 _CurIndex_k__BackingField; // 0x30
 		::System::Boolean _EnableThreeKeyLayout_k__BackingField; // 0x34
 		::System::Boolean _IsFinished_k__BackingField; // 0x35
@@ -74,9 +75,9 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSINPUTSEQ__ONINPUTWRONG_OFFSET))(this);
 		}
 
-		::System::Void SetOnFinished(::System::Action* a1)
+		::System::Void SetOnFinished(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSINPUTSEQ_SETONFINISHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSINPUTSEQ_SETONFINISHED_OFFSET))(this, a1);
 		}
 
 		::System::Void SetOnChanged(::System::Action* a1)
@@ -84,9 +85,9 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSINPUTSEQ_SETONCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetOnInputFinished(::System::Action* a1)
+		::System::Void SetOnInputFinished(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSINPUTSEQ_SETONINPUTFINISHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSINPUTSEQ_SETONINPUTFINISHED_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::HipplenMovingGoodsInputData*>* get_InputDatas()

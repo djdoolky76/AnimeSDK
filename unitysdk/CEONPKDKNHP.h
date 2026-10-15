@@ -7,8 +7,8 @@
 class CAOEEDDAPIK_NNBFMHKHMKO;
 class GAHPNAEGACM;
 class GEDMHFPPBHN;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define CEONPKDKNHP_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0xC9F7C60)
 #define CEONPKDKNHP_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F7FB0)
@@ -27,7 +27,7 @@ inline static constexpr unsigned int CEONPKDKNHP_TypeDefinitionIndex = 71271;
 	class CEONPKDKNHP : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Action* ONHFOPOHPAP; // 0x60
+		::System::Action_1<::System::String*>* ONHFOPOHPAP; // 0x60
 		::GEDMHFPPBHN* KPFKDKLCFKG; // 0x68
 		::System::Boolean IDBHEIBEGBA; // 0x70
 		::System::Byte _padding0[0x3];

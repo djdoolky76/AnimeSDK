@@ -9,8 +9,9 @@ namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console { class PayManagerBase; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_CONVERTTOCONSOLEPRODUCT_OFFSET UNITYSDK_OFFSET(0x1BE1C390)
 #define MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_CREATEFAILPAYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BE1B410)
@@ -40,16 +41,16 @@ namespace MiHoYo::SDK::Console
 	class PayManagerBase : public ::System::Object
 	{
 	public:
-		::System::Action* payCallback; // 0x10
+		::System::Action_1<::System::String*>* payCallback; // 0x10
 		::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>* cacheProducts; // 0x18
-		::System::Action* productsCallback; // 0x20
+		::System::Action_1<::System::String*>* productsCallback; // 0x20
 		::System::String* deliveryURL; // 0x28
 		::Il2CppArray<::System::String*>* queryProductArray; // 0x30
 		::MiHoYo::SDK::JSONNode* gamePayInfo; // 0x38
 		::System::String* payLifecycleId; // 0x40
 		::System::String* productId; // 0x48
 		::MiHoYo::SDK::Console::ConsoleProduct purchasingProduct; // 0x50
-		::System::Action* priceTierCallback; // 0x80
+		::System::Action_1<::System::String*>* priceTierCallback; // 0x80
 		::System::String* countryCode; // 0x88
 		::System::Boolean isGettingProducts; // 0x90
 		::System::Byte _padding0[0x3];
@@ -79,19 +80,19 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_REFRESHPRODUCTSCACHE_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestPriceTier(::System::Action* a1, ::System::String* a2)
+		::System::Void RequestPriceTier(::System::Action_1<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_REQUESTPRICETIER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_REQUESTPRICETIER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetProductList(::System::String* a1, ::System::Action* a2)
+		::System::Void GetProductList(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_GETPRODUCTLIST_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_GETPRODUCTLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetProducts(::Il2CppArray<::System::String*>* a1, ::System::Action* a2)
+		::System::Void GetProducts(::Il2CppArray<::System::String*>* a1, ::System::Action_2<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_GETPRODUCTS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Action_2<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Int32>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_GETPRODUCTS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void GetProducts_1(::MiHoYo::SDK::JSONArray* a1)
@@ -99,14 +100,14 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONArray*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_GETPRODUCTS_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Pay(::System::String* a1, ::System::Action* a2)
+		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_PAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_PAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PremiumPay(::System::Action* a1)
+		::System::Void PremiumPay(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_PREMIUMPAY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_PREMIUMPAY_OFFSET))(this, a1);
 		}
 
 		::System::String* CreateFailPayCallback(::System::String* a1, ::System::String* a2)
@@ -119,9 +120,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONArray*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_ONGETPRODUCTLISTSUCCESS_OFFSET))(this, a1);
 		}
 
-		::System::Void OnGetProductListError(::System::Action* a1, ::System::Int32 a2)
+		::System::Void OnGetProductListError(::System::Action_1<::System::String*>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_ONGETPRODUCTLISTERROR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PAYMANAGERBASE_ONGETPRODUCTLISTERROR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnPayCallbackFail(::System::String* a1, ::System::String* a2)

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MaterialProppertySetWay.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
@@ -15,7 +16,6 @@ namespace RPG::GameCore { class ShaderPropertyConfig; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
@@ -131,7 +131,7 @@ inline static constexpr unsigned int DEBEAKKOHLN_TypeDefinitionIndex = 69807;
 		::System::Collections::Generic::List_1<::RPG::Client::RendererMaterialCache*>* CDGLCCCOMJM; // 0x30
 		::DEBEAKKOHLN* BNLCCCCMABF; // 0x38
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* JFEIIBIJFLL; // 0x40
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* EKLIFAPHNJM; // 0x48
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Material*, ::System::Int32>>* EKLIFAPHNJM; // 0x48
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::Collections::Generic::List_1<::System::Object*>*>* EGPGIGCOEAN; // 0x50
 		::System::Collections::Generic::List_1<::DEBEAKKOHLN*>* MGNAMBGJIPJ; // 0x58
 		::System::Boolean FKJPJKOEKEE; // 0x60
@@ -473,19 +473,19 @@ inline static constexpr unsigned int DEBEAKKOHLN_TypeDefinitionIndex = 69807;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DEBEAKKOHLN_BHMNDNIPJDF_OFFSET))(this);
 		}
 
-		static ::System::Void KACCAICCIAD(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Material*>* a2, ::UnityEngine::Renderer* a3)
+		static ::System::Void KACCAICCIAD(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Material*, ::System::Int32>>* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Material*>* a2, ::UnityEngine::Renderer* a3)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*, ::System::Collections::Generic::IList_1<::UnityEngine::Material*>*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + DEBEAKKOHLN_KACCAICCIAD_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Material*, ::System::Int32>>*, ::System::Collections::Generic::IList_1<::UnityEngine::Material*>*, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + DEBEAKKOHLN_KACCAICCIAD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void PBIMADDKBAP(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* a1, ::UnityEngine::Material* a2)
+		static ::System::Void PBIMADDKBAP(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Material*, ::System::Int32>>* a1, ::UnityEngine::Material* a2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + DEBEAKKOHLN_PBIMADDKBAP_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Material*, ::System::Int32>>*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + DEBEAKKOHLN_PBIMADDKBAP_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FJACCPKMCGA(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* a1)
+		static ::System::Void FJACCPKMCGA(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Material*, ::System::Int32>>* a1)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*))((::PBYTE)hIl2Cpp + DEBEAKKOHLN_FJACCPKMCGA_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Material*, ::System::Int32>>*))((::PBYTE)hIl2Cpp + DEBEAKKOHLN_FJACCPKMCGA_OFFSET))(a1);
 		}
 
 		::System::Boolean BBNOFOKNNGL()

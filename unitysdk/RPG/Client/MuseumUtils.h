@@ -6,8 +6,8 @@
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class MuseumAreaData; }
 namespace RPG::Client { class MuseumStaffData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MUSEUMUTILS_CONVERTSTATTYPETOSTUFFSTATS_OFFSET UNITYSDK_OFFSET(0xD8FFCC0)
 #define RPG_CLIENT_MUSEUMUTILS_CONVERTSTUFFSTATSTOSTATTYPE_OFFSET UNITYSDK_OFFSET(0xD907020)
@@ -39,19 +39,19 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::RPG::Client::MuseumStaffData*, ::RPG::GameCore::StuffStats))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMUTILS_GETSTAFFSTATVALUE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ShowMuseumEntrancePage(::System::Action* a1, ::Il2CppArray<::System::Object*>* a2)
+		static ::System::Void ShowMuseumEntrancePage(::System::Action_1<::RPG::Client::LuaUIController*>* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::System::Action*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMUTILS_SHOWMUSEUMENTRANCEPAGE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Action_1<::RPG::Client::LuaUIController*>*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMUTILS_SHOWMUSEUMENTRANCEPAGE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ShowMuseumAtlasPage(::System::Action* a1)
+		static ::System::Void ShowMuseumAtlasPage(::System::Action_1<::RPG::Client::LuaUIController*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMUTILS_SHOWMUSEUMATLASPAGE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::RPG::Client::LuaUIController*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMUTILS_SHOWMUSEUMATLASPAGE_OFFSET))(a1);
 		}
 
-		static ::System::Void ShowMuseumMarketPage(::System::Action* a1)
+		static ::System::Void ShowMuseumMarketPage(::System::Action_1<::RPG::Client::LuaUIController*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMUTILS_SHOWMUSEUMMARKETPAGE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::RPG::Client::LuaUIController*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMUTILS_SHOWMUSEUMMARKETPAGE_OFFSET))(a1);
 		}
 
 		static ::System::Int32 GetAreaFullStatNum(::RPG::Client::MuseumAreaData* a1, ::System::Boolean a2)

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/UI/ColorMode.h"
 #include "unitysdk/UnityEngine/AdditionalCanvasShaderChannels.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/UI/RampColorExt___c__DisplayClass6_0.h"
 #include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
-namespace System { class Nullable; }
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class IRampColor; }
 namespace UnityEngine::UI { class VertexHelper; }
@@ -57,9 +57,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_CCTOR_OFFSET))();
 		}
 
-		static ::System::Void ApplyVertexColor(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::UI::VertexHelper* a2, ::System::Nullable* a3, ::UnityEngine::UI::ColorMode a4, ::UnityEngine::AdditionalCanvasShaderChannels a5)
+		static ::System::Void ApplyVertexColor(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::UI::VertexHelper* a2, ::System::Nullable_1<::UnityEngine::Rect> a3, ::UnityEngine::UI::ColorMode a4, ::UnityEngine::AdditionalCanvasShaderChannels a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::UI::VertexHelper*, ::System::Nullable*, ::UnityEngine::UI::ColorMode, ::UnityEngine::AdditionalCanvasShaderChannels))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLOR_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::UI::VertexHelper*, ::System::Nullable_1<::UnityEngine::Rect>, ::UnityEngine::UI::ColorMode, ::UnityEngine::AdditionalCanvasShaderChannels))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLOR_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void ApplyVertexColorNoScale(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::UnityEngine::UI::ColorMode a3, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a4)
@@ -67,9 +67,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::UI::ColorMode, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLORNOSCALE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void ApplyColorSimple(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::System::Nullable* a3, ::UnityEngine::UI::ColorMode a4, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a5, ::UnityEngine::Pooled::PooledList_1<::System::Int32>* a6)
+		static ::System::Void ApplyColorSimple(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::System::Nullable_1<::UnityEngine::Rect> a3, ::UnityEngine::UI::ColorMode a4, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a5, ::UnityEngine::Pooled::PooledList_1<::System::Int32>* a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::System::Nullable*, ::UnityEngine::UI::ColorMode, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORSIMPLE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::System::Nullable_1<::UnityEngine::Rect>, ::UnityEngine::UI::ColorMode, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORSIMPLE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::UnityEngine::Color32 GetColor(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Rect a3, ::UnityEngine::UI::ColorMode a4)

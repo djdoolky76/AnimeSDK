@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/B51RacingPartType.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define PJELEGLGHCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC2845A0)
 
@@ -13,7 +13,7 @@ inline static constexpr unsigned int PJELEGLGHCN_TypeDefinitionIndex = 82001;
 	class PJELEGLGHCN : public ::System::Object
 	{
 	public:
-		::System::Action* ONPCPLEECCG; // 0x10
+		::System::Action_1<::System::UInt32>* ONPCPLEECCG; // 0x10
 		::System::String* CNPMPHNKALI; // 0x18
 		::RPG::Client::TextID OHLBMAGECPM; // 0x20
 		::RPG::Client::TextID CAEPCCBODOM; // 0x30

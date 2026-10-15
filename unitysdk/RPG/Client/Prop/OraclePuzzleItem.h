@@ -3,13 +3,13 @@
 #include "unitysdk/RPG/Client/Prop/InteractPuzzleItemBase.h"
 #include "unitysdk/RPG/Client/Prop/OracleItemColor.h"
 #include "unitysdk/RPG/Client/Prop/OracleItemState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class NEOCEOCDEAF;
 namespace RPG::Client::Prop { class OraclePuzzlePanel; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshCollider; }
@@ -49,7 +49,7 @@ namespace RPG::Client::Prop
 		::System::Int32 InitY; // 0x2C
 		::System::Boolean IsInteractable; // 0x30
 		::System::Byte _padding0[0x3];
-		::System::Nullable* PinLocalPosition; // 0x34
+		::System::Nullable_1<::UnityEngine::Vector3> PinLocalPosition; // 0x34
 		::System::Byte _padding1[0x8];
 		::UnityEngine::Vector3 TargetLocalPosition; // 0x44
 		::UnityEngine::Vector3 AHIAONKOBGP; // 0x50

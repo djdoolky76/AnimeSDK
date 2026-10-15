@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenMainController; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
@@ -32,7 +32,7 @@ namespace RPG::Client::ActivityHipplen
 		::System::Single AKAJAJDNIOP; // 0x18
 		::System::Single DBCBACNBGPD; // 0x1C
 		::UnityEngine::Transform* KHPMDEJPJGA; // 0x20
-		::System::Nullable* OIPCDKEFHHN; // 0x28
+		::System::Nullable_1<::UnityEngine::Vector2> OIPCDKEFHHN; // 0x28
 		::System::Byte _padding0[0x4];
 		::UnityEngine::Quaternion AAMLGAMNAIF; // 0x34
 		::UnityEngine::Vector2 _CamRotatorMin; // 0x44

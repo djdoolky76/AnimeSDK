@@ -7,7 +7,7 @@ class HMGELDJBNLH;
 class KKOJJCIIKAH;
 class MNBCPGLOMIE;
 namespace RPG::Client { class UIController; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define BIOAHMPNJCH_ABPKCIBACLG_OFFSET UNITYSDK_OFFSET(0xB794CB0)
 #define BIOAHMPNJCH_AGCKIBJGHHI_OFFSET UNITYSDK_OFFSET(0xB7947C0)
@@ -54,9 +54,9 @@ inline static constexpr unsigned int BIOAHMPNJCH_TypeDefinitionIndex = 82073;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_IAPJKKJHOBN_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* EAKBOFBNNDO(::System::UInt32 a1)
+		::RPG::Client::Promises::Promise_1<::RPG::Client::UIController*>* EAKBOFBNNDO(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_EAKBOFBNNDO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::Promise_1<::RPG::Client::UIController*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_EAKBOFBNNDO_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::UIController* NNJPPNFPDKI(::System::UInt32 a1)

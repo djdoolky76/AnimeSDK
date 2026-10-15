@@ -3,7 +3,7 @@
 #include "unitysdk/Sofa/BaseSofaWindow.h"
 class HAMCAOCNLGB;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftControl; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace UnityEngine { class Coroutine; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xD638F70)
@@ -57,9 +57,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTWINDOW__ONEXITFINALSTEP_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _HandleConfirmExit()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* _HandleConfirmExit()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTWINDOW__HANDLECONFIRMEXIT_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTWINDOW__HANDLECONFIRMEXIT_OFFSET))(this);
 		}
 
 		::System::Void __OnBindViewModel_b__7_0()

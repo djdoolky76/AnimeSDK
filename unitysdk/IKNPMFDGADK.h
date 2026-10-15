@@ -9,10 +9,11 @@ class CCEIJBFAOAI;
 class CEEGMMCFCBG;
 class IKNPMFDGADK_AIJMLMNGDEB;
 class OBJANKHLNGO;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define IKNPMFDGADK_ADD_HANDLEDESELECT_OFFSET UNITYSDK_OFFSET(0x1649D580)
@@ -46,12 +47,12 @@ inline static constexpr unsigned int IKNPMFDGADK_TypeDefinitionIndex = 79588;
 	{
 	public:
 		::BOJOBHMEEIH* GJALMBBNNOF; // 0x10
-		::System::Action* HandleHintAsymmetricCells; // 0x18
+		::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* HandleHintAsymmetricCells; // 0x18
 		::System::Action* HandleDeselect; // 0x20
 		::System::Action* HandleHintImproperPlacement; // 0x28
 		::System::Action* HandleHintAttrTraitTargetNotMet; // 0x30
 		::R3::ReadOnlyReactiveProperty_1<::System::Boolean>* __CanSubmit_k__BackingField; // 0x38
-		::System::Action* HandleSetExitAfterTransition; // 0x40
+		::System::Action_1<::System::Boolean>* HandleSetExitAfterTransition; // 0x40
 		::System::Action* HandleHintRequiredConstraintsNotMet; // 0x48
 		::CEEGMMCFCBG* DIGPBKLALJE; // 0x50
 		::CCEIJBFAOAI* JOKBAPFCJFM; // 0x58
@@ -66,9 +67,9 @@ inline static constexpr unsigned int IKNPMFDGADK_TypeDefinitionIndex = 79588;
 			return ((::R3::ReadOnlyReactiveProperty_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IKNPMFDGADK_GET__CANSUBMIT_OFFSET))(this);
 		}
 
-		::R3::Observable* IAECDEILOHO()
+		::R3::Observable_1<::System::Boolean>* IAECDEILOHO()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IKNPMFDGADK_IAECDEILOHO_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IKNPMFDGADK_IAECDEILOHO_OFFSET))(this);
 		}
 
 		::CEEGMMCFCBG* PGLJCNMNIJC()
@@ -76,14 +77,14 @@ inline static constexpr unsigned int IKNPMFDGADK_TypeDefinitionIndex = 79588;
 			return ((::CEEGMMCFCBG*(*)(::PVOID))((::PBYTE)hIl2Cpp + IKNPMFDGADK_PGLJCNMNIJC_OFFSET))(this);
 		}
 
-		::System::Void add_HandleSetExitAfterTransition(::System::Action* a1)
+		::System::Void add_HandleSetExitAfterTransition(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_ADD_HANDLESETEXITAFTERTRANSITION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_ADD_HANDLESETEXITAFTERTRANSITION_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleSetExitAfterTransition(::System::Action* a1)
+		::System::Void remove_HandleSetExitAfterTransition(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_REMOVE_HANDLESETEXITAFTERTRANSITION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_REMOVE_HANDLESETEXITAFTERTRANSITION_OFFSET))(this, a1);
 		}
 
 		::System::Void add_HandleHintImproperPlacement(::System::Action* a1)
@@ -126,14 +127,14 @@ inline static constexpr unsigned int IKNPMFDGADK_TypeDefinitionIndex = 79588;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_REMOVE_HANDLEDESELECT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_HandleHintAsymmetricCells(::System::Action* a1)
+		::System::Void add_HandleHintAsymmetricCells(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_ADD_HANDLEHINTASYMMETRICCELLS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_ADD_HANDLEHINTASYMMETRICCELLS_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleHintAsymmetricCells(::System::Action* a1)
+		::System::Void remove_HandleHintAsymmetricCells(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_REMOVE_HANDLEHINTASYMMETRICCELLS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + IKNPMFDGADK_REMOVE_HANDLEHINTASYMMETRICCELLS_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

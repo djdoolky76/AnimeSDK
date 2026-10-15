@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ScheduleData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_FATEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCEAAE20)
 #define RPG_CLIENT_FATEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCEAAE50)
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54DF0);
 		}
 
-		static ::System::Action** StaticGet___9__16_0()
+		static ::System::Action_1<::RPG::Client::ScheduleData*>** StaticGet___9__16_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54DF8);
+			return (::System::Action_1<::RPG::Client::ScheduleData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54DF8);
 		}
 
 		static ::System::Void _cctor()

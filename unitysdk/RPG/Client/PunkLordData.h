@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/Client/ClientPunkLordShareType.h"
 #include "unitysdk/RPG/Client/DateTimePro.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BGFNFLBFBPC;
 class CJDIAHDLCNJ;
 class EPCFIBODPIE;
@@ -105,7 +105,7 @@ namespace RPG::Client
 		::System::UInt32 _SummonPlayerUID_k__BackingField; // 0x58
 		::System::UInt32 _CurHP_k__BackingField; // 0x5C
 		::System::UInt32 _ServerID_k__BackingField; // 0x60
-		::System::ValueTuple _MonsterKey_k__BackingField; // 0x64
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _MonsterKey_k__BackingField; // 0x64
 		::System::Byte _padding0[0x4];
 		::RPG::Client::DateTimePro _ExpireDateTime_k__BackingField; // 0x70
 		::System::UInt32 _ExpireTimeStamp_k__BackingField; // 0x78
@@ -209,14 +209,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDDATA_SET_SUMMONPLAYERUID_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple get_MonsterKey()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> get_MonsterKey()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDDATA_GET_MONSTERKEY_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDDATA_GET_MONSTERKEY_OFFSET))(this);
 		}
 
-		::System::Void set_MonsterKey(::System::ValueTuple a1)
+		::System::Void set_MonsterKey(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDDATA_SET_MONSTERKEY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDDATA_SET_MONSTERKEY_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ClientPunkLordAttackerStatus get_Status()

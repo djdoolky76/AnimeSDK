@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::GameCore { class AdvEnablePropDialogMode; }
@@ -8,7 +9,6 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Nullable; }
 
 #define HKPGKKOACIM_AHICKGJHFEG_OFFSET UNITYSDK_OFFSET(0x15D504A0)
 #define HKPGKKOACIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15D50430)
@@ -38,7 +38,7 @@ inline static constexpr unsigned int HKPGKKOACIM_TypeDefinitionIndex = 52355;
 		::UnityEngine::Vector3 KIPJGEFAHPF; // 0x54
 		::System::Boolean FPGKLEODJJN; // 0x60
 		::System::Byte _padding0[0x3];
-		::System::Nullable* EPBKDBCMBDN; // 0x64
+		::System::Nullable_1<::UnityEngine::Vector3> EPBKDBCMBDN; // 0x64
 		::System::Byte _padding1[0x8];
 		::System::Single MLIKCLDNOCI; // 0x74
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvEnablePropDialogMode* a2)

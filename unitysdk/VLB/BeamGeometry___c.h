@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Camera; }
 namespace VLB { class BeamGeometry; }
 
@@ -23,9 +23,9 @@ namespace VLB
 			return (::System::Object**)UnitySDK::FromName("VLB", "<>c")->GetStaticField(0x14270);
 		}
 
-		static ::System::Action** StaticGet___9__29_0()
+		static ::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__29_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("VLB", "<>c")->GetStaticField(0x14278);
+			return (::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)UnitySDK::FromName("VLB", "<>c")->GetStaticField(0x14278);
 		}
 
 		static ::System::Void _cctor()

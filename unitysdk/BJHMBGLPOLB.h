@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/GameCore/FateRinCardPileType.h"
 #include "unitysdk/RPG/GameCore/FateRinKeywordEventType.h"
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/KBHPNKKKAAL.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
@@ -23,7 +24,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class SkillTargetConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
@@ -106,7 +106,7 @@ inline static constexpr unsigned int BJHMBGLPOLB_TypeDefinitionIndex = 55964;
 		::DJJJMOFDALB* PFDAOOBMGAK; // 0x38
 		::System::Collections::Generic::List_1<::System::UInt32>* DNGKIEKPNIJ; // 0x40
 		::KOIACJAJFEC* CNMJEAKFPIO; // 0x48
-		::System::Nullable* MCOHIMKANFC; // 0x50
+		::System::Nullable_1<::System::Int32> MCOHIMKANFC; // 0x50
 		::RPG::GameCore::FateRinCardPileType _CurrentPileType_k__BackingField; // 0x58
 		::System::Boolean FJMKKONHCOG; // 0x5A
 		::System::Byte _padding0[0x1];

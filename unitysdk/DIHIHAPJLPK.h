@@ -16,9 +16,10 @@ namespace RPG::Client { class MonoEffectPluginPerformEventListener; }
 namespace RPG::GameCore { class ButtonListTrigger; }
 namespace RPG::GameCore { class ColliderTriggerComponent; }
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DIHIHAPJLPK_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xEBFBD90)
@@ -73,7 +74,7 @@ inline static constexpr unsigned int DIHIHAPJLPK_TypeDefinitionIndex = 57310;
 		::System::String* NENDBLMGHLO; // 0x78
 		::System::String* GNBHANDCFDK; // 0x80
 		::RPG::GameCore::ColliderTriggerComponent* FKDFCAGAEBD; // 0x88
-		::System::Action* HGOJNFKDIMA; // 0x90
+		::System::Action_1<::System::Object*>* HGOJNFKDIMA; // 0x90
 		::System::String* BBKELOEHDEC; // 0x98
 		::System::String* BJDDCONLDPJ; // 0xA0
 		::RPG::Client::MapRotationInfo* OCDIENNPEDA; // 0xA8
@@ -134,9 +135,9 @@ inline static constexpr unsigned int DIHIHAPJLPK_TypeDefinitionIndex = 57310;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIHIHAPJLPK_MPKIICDLBIO_OFFSET))(this);
 		}
 
-		::System::Void HBMKDAGAPAI(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action* a4)
+		::System::Void HBMKDAGAPAI(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + DIHIHAPJLPK_HBMKDAGAPAI_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*))((::PBYTE)hIl2Cpp + DIHIHAPJLPK_HBMKDAGAPAI_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void EKLCHLNGOIO()

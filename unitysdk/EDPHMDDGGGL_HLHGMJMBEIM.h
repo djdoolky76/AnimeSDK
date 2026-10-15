@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LODKHMFCLOG.h"
 #include "unitysdk/NECBOLFGIMA.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define EDPHMDDGGGL_HLHGMJMBEIM_CTOR_OFFSET UNITYSDK_OFFSET(0x13334A70)
@@ -16,9 +16,9 @@ inline static constexpr unsigned int EDPHMDDGGGL_HLHGMJMBEIM_TypeDefinitionIndex
 	{
 	public:
 		::System::String* GEDFIDJOHOG; // 0x10
-		::System::Nullable* OHLEJJEOKBP; // 0x18
+		::System::Nullable_1<::NECBOLFGIMA> OHLEJJEOKBP; // 0x18
 		::System::Byte _padding0[0x10];
-		::System::Nullable* INEJMACHPIJ; // 0x30
+		::System::Nullable_1<::LODKHMFCLOG> INEJMACHPIJ; // 0x30
 		::System::Byte _padding1[0x20];
 		::System::String* DKNMIJKJKHF; // 0x58
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x60

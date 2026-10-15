@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class ChimeraDuelChimeraLevelInfo_LevelUpRule; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC73770)
 #define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEEFFECT_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xDC73CE0)
@@ -91,14 +91,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEEFFECT_SET_NEWLEVEL_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_DeltaGainedExp()
+		::System::Nullable_1<::System::Int32> get_DeltaGainedExp()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEEFFECT_GET_DELTAGAINEDEXP_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEEFFECT_GET_DELTAGAINEDEXP_OFFSET))(this);
 		}
 
-		::System::Nullable* get_DeltaLevel()
+		::System::Nullable_1<::System::Int32> get_DeltaLevel()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEEFFECT_GET_DELTALEVEL_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEEFFECT_GET_DELTALEVEL_OFFSET))(this);
 		}
 
 	};

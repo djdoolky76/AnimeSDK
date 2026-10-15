@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class GELIALJDFBL;
 namespace RPG::GameCore { class PlayVideo; }
 namespace RPG::GameCore { class TaskContext; }
@@ -114,9 +114,9 @@ inline static constexpr unsigned int KBBPLOAPADA_TypeDefinitionIndex = 53106;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + KBBPLOAPADA_CHDCCCEPKJN_OFFSET))(this);
 		}
 
-		::System::ValueTuple OMBKNCOOFIG()
+		::System::ValueTuple_2<::System::Boolean, ::System::UInt32> OMBKNCOOFIG()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + KBBPLOAPADA_OMBKNCOOFIG_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + KBBPLOAPADA_OMBKNCOOFIG_OFFSET))(this);
 		}
 
 		::System::Void JCGHNHOIJAJ()

@@ -6,6 +6,7 @@
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/HGBCMFANCOE.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 class ABFAAKFMJIO;
 class BABNOKHOBCF;
@@ -18,7 +19,6 @@ class OMAFNEHLDED;
 namespace RPG::Client { class RPGProfilerMarker; }
 namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
 namespace RPG::GameCore { class FiveDimMoveConfig; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -384,9 +384,9 @@ inline static constexpr unsigned int EMKNLNNLNKE_TypeDefinitionIndex = 76785;
 			return ((::System::Void(*)(::PVOID, ::JAODHHPIKGJ*))((::PBYTE)hIl2Cpp + EMKNLNNLNKE_GBCHFFLMIIC_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 BPOLDDMJGCO(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Nullable* a8)
+		::UnityEngine::Vector3 BPOLDDMJGCO(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Nullable_1<::System::Single> a8)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + EMKNLNNLNKE_BPOLDDMJGCO_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + EMKNLNNLNKE_BPOLDDMJGCO_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		static ::UnityEngine::Vector3 NGDCOLPIOEI(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)

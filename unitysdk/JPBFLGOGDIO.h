@@ -5,7 +5,8 @@
 class AIBOPLOBAFN;
 class JPBFLGOGDIO;
 class LEKNHIPIKCF;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
 #define JPBFLGOGDIO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB2AF6D0)
@@ -28,8 +29,8 @@ inline static constexpr unsigned int JPBFLGOGDIO_TypeDefinitionIndex = 59380;
 	{
 	public:
 		::AIBOPLOBAFN* _Owner_k__BackingField; // 0x10
-		::System::Action* GPOMBCJHLDP; // 0x18
-		::System::Action* IMDLGFPMPEK; // 0x20
+		::System::Action_2<::UnityEngine::GameObject*, ::LEKNHIPIKCF*>* GPOMBCJHLDP; // 0x18
+		::System::Action_1<::UnityEngine::GameObject*>* IMDLGFPMPEK; // 0x20
 		::RPG::Client::GameObjectSpawnPriority _Priority_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
@@ -56,19 +57,19 @@ inline static constexpr unsigned int JPBFLGOGDIO_TypeDefinitionIndex = 59380;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GameObjectSpawnPriority))((::PBYTE)hIl2Cpp + JPBFLGOGDIO_SET_PRIORITY_OFFSET))(this, a1);
 		}
 
-		static ::JPBFLGOGDIO* BPLPBPMEODA(::System::Action* a1, ::RPG::Client::GameObjectSpawnPriority a2)
+		static ::JPBFLGOGDIO* BPLPBPMEODA(::System::Action_1<::UnityEngine::GameObject*>* a1, ::RPG::Client::GameObjectSpawnPriority a2)
 		{
-			return ((::JPBFLGOGDIO*(*)(::System::Action*, ::RPG::Client::GameObjectSpawnPriority))((::PBYTE)hIl2Cpp + JPBFLGOGDIO_BPLPBPMEODA_OFFSET))(a1, a2);
+			return ((::JPBFLGOGDIO*(*)(::System::Action_1<::UnityEngine::GameObject*>*, ::RPG::Client::GameObjectSpawnPriority))((::PBYTE)hIl2Cpp + JPBFLGOGDIO_BPLPBPMEODA_OFFSET))(a1, a2);
 		}
 
-		::JPBFLGOGDIO* DIGPJGDGLPB(::System::Action* a1)
+		::JPBFLGOGDIO* DIGPJGDGLPB(::System::Action_1<::UnityEngine::GameObject*>* a1)
 		{
-			return ((::JPBFLGOGDIO*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JPBFLGOGDIO_DIGPJGDGLPB_OFFSET))(this, a1);
+			return ((::JPBFLGOGDIO*(*)(::PVOID, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + JPBFLGOGDIO_DIGPJGDGLPB_OFFSET))(this, a1);
 		}
 
-		::JPBFLGOGDIO* MLALEMMAIFE(::System::Action* a1)
+		::JPBFLGOGDIO* MLALEMMAIFE(::System::Action_2<::UnityEngine::GameObject*, ::LEKNHIPIKCF*>* a1)
 		{
-			return ((::JPBFLGOGDIO*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JPBFLGOGDIO_MLALEMMAIFE_OFFSET))(this, a1);
+			return ((::JPBFLGOGDIO*(*)(::PVOID, ::System::Action_2<::UnityEngine::GameObject*, ::LEKNHIPIKCF*>*))((::PBYTE)hIl2Cpp + JPBFLGOGDIO_MLALEMMAIFE_OFFSET))(this, a1);
 		}
 
 		::System::Void DJPHNOJOGII()

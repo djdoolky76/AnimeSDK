@@ -4,6 +4,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS45_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE5E7B0)
 #define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS45_1__ONHOYOPASSPROTECTIVEBAN_B__2_OFFSET UNITYSDK_OFFSET(0x1BE6E8C0)
@@ -18,7 +19,7 @@ namespace MiHoYo::SDK::HoYoPass
 	class LoginManager___c__DisplayClass45_1 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__4; // 0x10
+		::System::Action_2<::System::Int32, ::System::String*>* __9__4; // 0x10
 		::System::Action* onChangePasswordCanceled; // 0x18
 		::System::Object* CS___8__locals1; // 0x20
 		::System::Void _ctor()

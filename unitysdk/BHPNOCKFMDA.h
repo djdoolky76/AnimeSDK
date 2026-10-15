@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class NGFHCJIAOLH;
 class OAIPJANPCEK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BHPNOCKFMDA_CTOR_OFFSET UNITYSDK_OFFSET(0xB493F50)
@@ -18,7 +18,7 @@ inline static constexpr unsigned int BHPNOCKFMDA_TypeDefinitionIndex = 77778;
 	{
 	public:
 		::OAIPJANPCEK* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* MBBMBOMFIGF; // 0x18
+		::Entitas::IGroup_1<::NGFHCJIAOLH*>* MBBMBOMFIGF; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* LAKFMBIIAAK; // 0x20
 		::System::UInt32 IAGMNMEJPMN; // 0x28
 		::System::Void _ctor(::OAIPJANPCEK* a1)

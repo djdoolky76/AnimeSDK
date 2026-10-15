@@ -4,8 +4,8 @@
 #include "unitysdk/System/Net/Sockets/SocketError.h"
 #include "unitysdk/System/ArraySegment_1.h"
 #include "unitysdk/System/EventArgs.h"
-namespace System { class EventHandler; }
 namespace System { class Object; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Net { class EndPoint; }
 namespace System::Net::Sockets { class Socket; }
@@ -46,7 +46,7 @@ namespace System::Net::Sockets
 		::System::Object* _UserToken_k__BackingField; // 0x28
 		::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>* m_BufferList; // 0x30
 		::System::Net::Sockets::Socket* _AcceptSocket_k__BackingField; // 0x38
-		::System::EventHandler* Completed; // 0x40
+		::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* Completed; // 0x40
 		::System::Int32 _Count_k__BackingField; // 0x48
 		::System::Net::Sockets::SocketError _SocketError_k__BackingField; // 0x4C
 		::System::Net::Sockets::SocketAsyncOperation _LastOperation_k__BackingField; // 0x50
@@ -115,14 +115,14 @@ namespace System::Net::Sockets
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_USERTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Completed(::System::EventHandler* a1)
+		::System::Void add_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ADD_COMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ADD_COMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Completed(::System::EventHandler* a1)
+		::System::Void remove_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_REMOVE_COMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_REMOVE_COMPLETED_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TalkConvinceSpliteLineType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class HEAIEBHLCMJ;
@@ -15,7 +16,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
@@ -82,10 +82,10 @@ inline static constexpr unsigned int NHBJIOIJBII_TypeDefinitionIndex = 60679;
 		::RPG::Client::ConvinceAnchorConfig_AnchorData* NLGODOIMMIF; // 0xB0
 		::RPG::GameCore::GameEntity* NODHJBFCMBA; // 0xB8
 		::UnityEngine::Vector3 KAAFIBDCLKP; // 0xC0
-		::System::Nullable* OFABLKBBNHC; // 0xCC
+		::System::Nullable_1<::System::Single> OFABLKBBNHC; // 0xCC
 		::UnityEngine::Vector3 JHLJODHMEMP; // 0xD4
 		::UnityEngine::Vector3 KLNKMOLHCOG; // 0xE0
-		::System::Nullable* DLFPFLOAGGG; // 0xEC
+		::System::Nullable_1<::System::Single> DLFPFLOAGGG; // 0xEC
 		::System::Single BCCNAPMANBA; // 0xF4
 		::System::Single NKACMJLILMM; // 0xF8
 		::System::Single MLFJOADGMOD; // 0xFC

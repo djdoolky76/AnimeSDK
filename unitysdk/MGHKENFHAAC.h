@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/PropShaderCtrlStatus.h"
 #include "unitysdk/RPG/GameCore/PropType.h"
+#include "unitysdk/System/Nullable_1.h"
 class MKCGPPKDOKG;
 namespace RPG::Client { class TrivisionSpeed; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -114,9 +114,9 @@ inline static constexpr unsigned int MGHKENFHAAC_TypeDefinitionIndex = 57420;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MGHKENFHAAC_MAAJEKHHKDA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JFCLCCNDAJP(::System::UInt32 a1, ::System::Nullable* a2, ::System::Boolean a3)
+		::System::Void JFCLCCNDAJP(::System::UInt32 a1, ::System::Nullable_1<::System::Single> a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + MGHKENFHAAC_JFCLCCNDAJP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + MGHKENFHAAC_JFCLCCNDAJP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void DPCPFFLAFLJ(::System::Boolean a1)

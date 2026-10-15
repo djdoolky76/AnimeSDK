@@ -25,14 +25,15 @@ class JNBPOOEIKAP;
 class OBJANKHLNGO;
 class PNLFOGCNENP;
 namespace RPG::Client::FateRin { class ViewModelEventHandler; }
+namespace RPG::Client::FateRin { template <typename T> class ViewModelEventHandler_1; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleEnemyEnergyBarViewModel; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleEnemySpecialMarkViewModel; }
 namespace RPG::GameCore { class CharacterDataComponent; }
 namespace RPG::GameCore { class CharacterModelComponent; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class LuaTable; }
 
@@ -100,10 +101,10 @@ namespace RPG::Client::FateRin::Battle
 	{
 	public:
 		::RPG::Client::FateRin::Battle::IFateRinBattleEnemyEnergyBarViewModel* _EnergyBarArea_k__BackingField; // 0x20
-		::System::Action* _MessageHandler; // 0x28
+		::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* _MessageHandler; // 0x28
 		::FOOFKOELLGH* _StatusArea_k__BackingField; // 0x30
 		::OBJANKHLNGO* _Messenger; // 0x38
-		::RPG::Client::FateRin::ViewModelEventHandler* OnHPChangeWithDelta; // 0x40
+		::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::GameCore::FixPoint>* OnHPChangeWithDelta; // 0x40
 		::CEEGMMCFCBG* _NavigateToTeamDetail_k__BackingField; // 0x48
 		::ELDKPCBCIIO* _UIPresentService; // 0x50
 		::EAHCLJPMCIG* _GameStateModel; // 0x58
@@ -131,9 +132,9 @@ namespace RPG::Client::FateRin::Battle
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDSINGLEVIEWMODEL_SETPOSINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void AddMessageHandler(::XLua::LuaTable* a1, ::System::Action* a2)
+		::System::Void AddMessageHandler(::XLua::LuaTable* a1, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDSINGLEVIEWMODEL_ADDMESSAGEHANDLER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDSINGLEVIEWMODEL_ADDMESSAGEHANDLER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _SendMessage(::System::Int32 a1, ::System::Object* a2)
@@ -361,14 +362,14 @@ namespace RPG::Client::FateRin::Battle
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDSINGLEVIEWMODEL_SET_ISALIVE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnHPChangeWithDelta(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void add_OnHPChangeWithDelta(::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::GameCore::FixPoint>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDSINGLEVIEWMODEL_ADD_ONHPCHANGEWITHDELTA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDSINGLEVIEWMODEL_ADD_ONHPCHANGEWITHDELTA_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnHPChangeWithDelta(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void remove_OnHPChangeWithDelta(::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::GameCore::FixPoint>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDSINGLEVIEWMODEL_REMOVE_ONHPCHANGEWITHDELTA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDSINGLEVIEWMODEL_REMOVE_ONHPCHANGEWITHDELTA_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnStatusChange(::RPG::Client::FateRin::ViewModelEventHandler* a1)

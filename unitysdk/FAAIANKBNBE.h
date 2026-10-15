@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/EAssemblyNPC.h"
 #include "unitysdk/RPG/GameCore/GraphicQuality.h"
 #include "unitysdk/RPG/GameCore/WorldType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class DDKIDMKIJMG;
@@ -27,10 +28,9 @@ namespace RPG::GameCore { class LevelNPCPossessionInfo; }
 namespace RPG::GameCore { class LodConfig; }
 namespace RPG::GameCore { class LodTemplate; }
 namespace RPG::GameCore { class TimeScaleStack; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
@@ -150,7 +150,7 @@ inline static constexpr unsigned int FAAIANKBNBE_TypeDefinitionIndex = 69203;
 		::UnityEngine::Vector3 JJJMGGNCEIA; // 0xA8
 		::System::UInt32 GHILCHKJHBD; // 0xB4
 		::UnityEngine::Vector3 KDBIIKOOGCP; // 0xB8
-		::System::Nullable* LBFMKPLAAFD; // 0xC4
+		::System::Nullable_1<::UnityEngine::Vector3> LBFMKPLAAFD; // 0xC4
 		static ::FAAIANKBNBE** StaticGet_EMLNOINPICJ()
 		{
 			return (::FAAIANKBNBE**)UnitySDK::FromName("", "FAAIANKBNBE")->GetStaticField(0x32E40);
@@ -257,9 +257,9 @@ inline static constexpr unsigned int FAAIANKBNBE_TypeDefinitionIndex = 69203;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FAAIANKBNBE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void BDEPPNHCGLC(::System::Nullable* a1, ::System::String* a2)
+		::System::Void BDEPPNHCGLC(::System::Nullable_1<::UnityEngine::Vector3> a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::String*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_BDEPPNHCGLC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::String*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_BDEPPNHCGLC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CHIJJAGJCBP(::System::Boolean a1)
@@ -307,9 +307,9 @@ inline static constexpr unsigned int FAAIANKBNBE_TypeDefinitionIndex = 69203;
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_IFOAJFIHFBB_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* LIMJCGPLHJC(::RPG::Client::AssemNPC* a1, ::RPG::GameCore::LevelNPCPossessionInfo* a2, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>* a3, ::System::String* a4, ::RPG::Client::EAssemblyNPC a5, ::UnityEngine::Vector3 a6, ::System::UInt32 a7, ::System::Action* a8)
+		::RPG::GameCore::GameEntity* LIMJCGPLHJC(::RPG::Client::AssemNPC* a1, ::RPG::GameCore::LevelNPCPossessionInfo* a2, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>* a3, ::System::String* a4, ::RPG::Client::EAssemblyNPC a5, ::UnityEngine::Vector3 a6, ::System::UInt32 a7, ::System::Action_1<::RPG::GameCore::GameEntity*>* a8)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::AssemNPC*, ::RPG::GameCore::LevelNPCPossessionInfo*, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>*, ::System::String*, ::RPG::Client::EAssemblyNPC, ::UnityEngine::Vector3, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_LIMJCGPLHJC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::AssemNPC*, ::RPG::GameCore::LevelNPCPossessionInfo*, ::Il2CppArray<::RPG::GameCore::LevelNPCPossessionInfo*>*, ::System::String*, ::RPG::Client::EAssemblyNPC, ::UnityEngine::Vector3, ::System::UInt32, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_LIMJCGPLHJC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void AOKHGOBABLE(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
@@ -317,9 +317,9 @@ inline static constexpr unsigned int FAAIANKBNBE_TypeDefinitionIndex = 69203;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_AOKHGOBABLE_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* BLCKMGCCKJC(::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo* a1, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo* a2, ::UnityEngine::Vector3 a3, ::System::Action* a4)
+		::RPG::GameCore::GameEntity* BLCKMGCCKJC(::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo* a1, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo* a2, ::UnityEngine::Vector3 a3, ::System::Action_1<::RPG::GameCore::GameEntity*>* a4)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo*, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo*, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_BLCKMGCCKJC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::ArtNPCPedestrianEntityConfig_EntityInfo*, ::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo*, ::UnityEngine::Vector3, ::System::Action_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_BLCKMGCCKJC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void DKMDDHAKNLH()
@@ -472,29 +472,29 @@ inline static constexpr unsigned int FAAIANKBNBE_TypeDefinitionIndex = 69203;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::AdventurePhase*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_KMHKOGIDIID_OFFSET))(this, a1);
 		}
 
-		::System::Void CJGCIKJCBCI(::System::String* a1, ::System::Action* a2)
+		::System::Void CJGCIKJCBCI(::System::String* a1, ::System::Action_1<::UnityEngine::Mesh*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_CJGCIKJCBCI_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Mesh*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_CJGCIKJCBCI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CPKOJPJLEKJ(::System::String* a1, ::System::Action* a2)
+		::System::Void CPKOJPJLEKJ(::System::String* a1, ::System::Action_1<::UnityEngine::Mesh*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_CPKOJPJLEKJ_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Mesh*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_CPKOJPJLEKJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OMMMCPEMGLB(::System::String* a1, ::System::Action* a2)
+		::System::Void OMMMCPEMGLB(::System::String* a1, ::System::Action_1<::UnityEngine::Material*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_OMMMCPEMGLB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_OMMMCPEMGLB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JHNECMFNHOF(::System::String* a1, ::System::Action* a2)
+		::System::Void JHNECMFNHOF(::System::String* a1, ::System::Action_1<::UnityEngine::Material*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_JHNECMFNHOF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_JHNECMFNHOF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void HEHGKKIIDKF(::System::String* a1, ::System::Action* a2)
+		::System::Void HEHGKKIIDKF(::System::String* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_HEHGKKIIDKF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_HEHGKKIIDKF_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void GMACBEAPCKL(::System::String* a1, ::UnityEngine::GameObject* a2)
@@ -502,9 +502,9 @@ inline static constexpr unsigned int FAAIANKBNBE_TypeDefinitionIndex = 69203;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_GMACBEAPCKL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CJEDFONMPNG(::System::String* a1, ::System::Action* a2)
+		::System::Void CJEDFONMPNG(::System::String* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_CJEDFONMPNG_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + FAAIANKBNBE_CJEDFONMPNG_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single EANLMIKHCKG()

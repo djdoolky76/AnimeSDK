@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/Client/UISkillIndex.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EANKAFJCEEH;
@@ -14,7 +15,6 @@ namespace RPG::GameCore { class BattleInstance; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace RPG::GameCore { class SkillData; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -63,7 +63,7 @@ inline static constexpr unsigned int EHLKMDOAFOB_TypeDefinitionIndex = 71869;
 		::System::Boolean FGCCKIKHLGK; // 0x39
 		::System::Byte _padding0[0x6];
 		::RPG::Client::TextID AGOHEFBOPNO; // 0x40
-		::System::Nullable* IOBINHIJKEJ; // 0x50
+		::System::Nullable_1<::System::Int32> IOBINHIJKEJ; // 0x50
 		::System::Int32 _FilledCount_k__BackingField; // 0x58
 		::System::Int32 _MaxCastCount_k__BackingField; // 0x5C
 		::RPG::Client::UISkillIndex FFNBLDFFMCN; // 0x60

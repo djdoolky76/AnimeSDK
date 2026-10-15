@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OBFADADBJHB_LDHPKHDCGAB.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EDHPIGIAOLE;
@@ -54,9 +54,9 @@ inline static constexpr unsigned int OBFADADBJHB_TypeDefinitionIndex = 76884;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBFADADBJHB_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void FLCLCKKDCDP(::System::UInt32 a1, ::System::ValueTuple a2, ::System::String* a3)
+		::System::Void FLCLCKKDCDP(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::System::String*))((::PBYTE)hIl2Cpp + OBFADADBJHB_FLCLCKKDCDP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::String*))((::PBYTE)hIl2Cpp + OBFADADBJHB_FLCLCKKDCDP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MFDECFHNFNC(::System::UInt32 a1)
@@ -74,14 +74,14 @@ inline static constexpr unsigned int OBFADADBJHB_TypeDefinitionIndex = 76884;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Boolean))((::PBYTE)hIl2Cpp + OBFADADBJHB_OGNBMBKFDGG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JFLLLHBBONK(::System::ValueTuple a1)
+		::System::Void JFLLLHBBONK(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + OBFADADBJHB_JFLLLHBBONK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + OBFADADBJHB_JFLLLHBBONK_OFFSET))(this, a1);
 		}
 
-		::System::Void EHJPGBJOPJN(::System::ValueTuple a1)
+		::System::Void EHJPGBJOPJN(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + OBFADADBJHB_EHJPGBJOPJN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + OBFADADBJHB_EHJPGBJOPJN_OFFSET))(this, a1);
 		}
 
 		::System::Void AAJNAFJEDHB(::Entitas::IContext* a1, ::Entitas::IEntity* a2)
@@ -89,9 +89,9 @@ inline static constexpr unsigned int OBFADADBJHB_TypeDefinitionIndex = 76884;
 			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + OBFADADBJHB_AAJNAFJEDHB_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::GameEntity* FDFDACJGEOK(::System::ValueTuple a1)
+		::RPG::GameCore::GameEntity* FDFDACJGEOK(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + OBFADADBJHB_FDFDACJGEOK_OFFSET))(this, a1);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + OBFADADBJHB_FDFDACJGEOK_OFFSET))(this, a1);
 		}
 
 		::EDHPIGIAOLE* CFPMLIGLAMB(::RPG::GameCore::GameEntity* a1)

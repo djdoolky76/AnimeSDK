@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LICGOGNGGID.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class AMMDOPEDNJF;
 class EJEDKALMMNP;
@@ -14,9 +15,8 @@ namespace RPG::Client { class TeamBuildRecipe; }
 namespace RPG::Client { class TeamBuildSynopsis; }
 namespace RPG::Client { class TeamBuildUnit; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
 namespace System { class Exception; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -77,7 +77,7 @@ namespace RPG::Client
 		::AMMDOPEDNJF* _TeamBuildBuilder; // 0x58
 		::System::Boolean _HasData; // 0x60
 		::System::Byte _padding0[0x3];
-		::System::Nullable* _MaxTeamBuildSynopsisCount; // 0x64
+		::System::Nullable_1<::System::Int32> _MaxTeamBuildSynopsisCount; // 0x64
 		// static const ::System::Object _MaxAlternativeCount; // 0x0
 		::System::Void _ctor()
 		{
@@ -124,9 +124,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__FILLWITHALTERNATIVEAVATARS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void _FillTeamBuildResults(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* a1, ::System::Int32 a2, ::System::Collections::Generic::IList_1<::System::UInt32>* a3, ::System::Collections::Generic::IList_1<::System::UInt32>* a4, ::System::Boolean a5, ::System::Action* a6)
+		::System::Void _FillTeamBuildResults(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* a1, ::System::Int32 a2, ::System::Collections::Generic::IList_1<::System::UInt32>* a3, ::System::Collections::Generic::IList_1<::System::UInt32>* a4, ::System::Boolean a5, ::System::Action_1<::MDNBBCOBGPH*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*, ::System::Int32, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__FILLTEAMBUILDRESULTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*, ::System::Int32, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Boolean, ::System::Action_1<::MDNBBCOBGPH*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__FILLTEAMBUILDRESULTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void _EnsureResultCount(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* a1, ::System::Int32 a2)

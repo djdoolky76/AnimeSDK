@@ -13,6 +13,8 @@ namespace System { class Action; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
@@ -119,9 +121,9 @@ inline static constexpr unsigned int IOOIEOKJKMM_TypeDefinitionIndex = 60978;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IOOIEOKJKMM_CPGGKPFCCAJ_OFFSET))(this);
 		}
 
-		::System::Void BDMKCNMPIKH(::Il2CppArray<::System::Byte>* a1, ::OEIPKOKBJCH* a2, ::System::Action* a3)
+		::System::Void BDMKCNMPIKH(::Il2CppArray<::System::Byte>* a1, ::OEIPKOKBJCH* a2, ::System::Action_1<::System::Net::HttpStatusCode>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::OEIPKOKBJCH*, ::System::Action*))((::PBYTE)hIl2Cpp + IOOIEOKJKMM_BDMKCNMPIKH_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::OEIPKOKBJCH*, ::System::Action_1<::System::Net::HttpStatusCode>*))((::PBYTE)hIl2Cpp + IOOIEOKJKMM_BDMKCNMPIKH_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean GJAKBMECLGJ(::System::Object* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::System::Net::Security::SslPolicyErrors a4)
@@ -134,9 +136,9 @@ inline static constexpr unsigned int IOOIEOKJKMM_TypeDefinitionIndex = 60978;
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + IOOIEOKJKMM_HEHIMAFCDNC_OFFSET))(this, a1);
 		}
 
-		::System::Void IDLHCENCFJA(::System::Int32 a1, ::HNFFJNEKJHA* a2, ::System::Action* a3)
+		::System::Void IDLHCENCFJA(::System::Int32 a1, ::HNFFJNEKJHA* a2, ::System::Action_3<::System::Net::HttpStatusCode, ::System::Int32, ::HNFFJNEKJHA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::HNFFJNEKJHA*, ::System::Action*))((::PBYTE)hIl2Cpp + IOOIEOKJKMM_IDLHCENCFJA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::HNFFJNEKJHA*, ::System::Action_3<::System::Net::HttpStatusCode, ::System::Int32, ::HNFFJNEKJHA*>*))((::PBYTE)hIl2Cpp + IOOIEOKJKMM_IDLHCENCFJA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OKNIAIIGKKN(::System::IAsyncResult* a1)

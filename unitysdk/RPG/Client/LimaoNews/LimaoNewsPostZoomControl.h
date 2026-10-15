@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace HedgehogTeam::EasyTouch { class Gesture; }
-namespace System { class Nullable; }
 namespace UnityEngine { class RectTransform; }
 
 #define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3E3240)
@@ -56,9 +56,9 @@ namespace RPG::Client::LimaoNews
 		::System::Single _currentWidth; // 0x94
 		::System::Single _currentHeight; // 0x98
 		::UnityEngine::Vector2 _currentPos; // 0x9C
-		::System::Nullable* _posFinal; // 0xA4
+		::System::Nullable_1<::UnityEngine::Vector2> _posFinal; // 0xA4
 		::System::Byte _padding1[0x4];
-		::System::Nullable* _sizeFinal; // 0xB0
+		::System::Nullable_1<::UnityEngine::Vector2> _sizeFinal; // 0xB0
 		::System::Byte _padding2[0x4];
 		::UnityEngine::Vector2 _posVelocity; // 0xBC
 		::UnityEngine::Vector2 _sizeVelocity; // 0xC4

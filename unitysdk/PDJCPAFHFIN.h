@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HMKFHBKCFGN.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DDPFPHOOCLN;
 class DEBEAKKOHLN;
 class JNPKHNPNMFC;
@@ -49,13 +49,13 @@ inline static constexpr unsigned int PDJCPAFHFIN_TypeDefinitionIndex = 69837;
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::DEBEAKKOHLN*>* PJEJKNJFAFN; // 0x10
 		::System::Collections::Generic::List_1<::System::Int32>* LJDOJBCOGBI; // 0x18
 		::System::Collections::Generic::Dictionary_2<::HMKFHBKCFGN, ::JNPKHNPNMFC*>* PMFNNDPNDKO; // 0x20
-		::System::Collections::Generic::List_1<::System::ValueTuple>* OMNDMNNKEPM; // 0x28
-		::System::Collections::Generic::List_1<::System::ValueTuple>* MKIBNBKNFFI; // 0x30
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::DEBEAKKOHLN*>>* OMNDMNNKEPM; // 0x28
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::DEBEAKKOHLN*>>* MKIBNBKNFFI; // 0x30
 		::System::Collections::Generic::List_1<::System::Int32>* JPCBNMCGBLM; // 0x38
-		::System::Collections::Generic::List_1<::System::ValueTuple>* PAKBEHGFNLJ; // 0x40
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::DEBEAKKOHLN*>>* PAKBEHGFNLJ; // 0x40
 		::System::Collections::Generic::HashSet_1<::System::Int32>* MLKCONHHMGG; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::RendererMaterialCache*>* MAHGHAJKNMC; // 0x50
-		::System::Collections::Generic::List_1<::System::ValueTuple>* AOJDBNIIFDG; // 0x58
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::DEBEAKKOHLN*>>* AOJDBNIIFDG; // 0x58
 		::System::Collections::Generic::List_1<::System::Int32>* DPBDAEEALEM; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* EHKNOEJBDPK; // 0x68
 		::System::Collections::Generic::Dictionary_2<::Il2CppArray<::UnityEngine::Material*>*, ::DDPFPHOOCLN*>* IONMNMMPHLL; // 0x70

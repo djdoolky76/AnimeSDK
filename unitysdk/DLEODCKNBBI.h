@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LHNMIKHFKAG.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class CameraBlendCurve; }
 namespace RPG::GameCore { class VCameraFreelook3rdBaseChangeParam; }
-namespace System { class Nullable; }
 
 #define DLEODCKNBBI_BGDGALFBEJH_OFFSET UNITYSDK_OFFSET(0xF89B560)
 #define DLEODCKNBBI_CTOR_OFFSET UNITYSDK_OFFSET(0xF89B380)
@@ -51,9 +51,9 @@ inline static constexpr unsigned int DLEODCKNBBI_TypeDefinitionIndex = 69538;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLEODCKNBBI_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void JKHOBGMGIHJ(::LHNMIKHFKAG a1, ::System::Nullable* a2, ::System::Boolean a3)
+		::System::Void JKHOBGMGIHJ(::LHNMIKHFKAG a1, ::System::Nullable_1<::LHNMIKHFKAG> a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::LHNMIKHFKAG, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + DLEODCKNBBI_JKHOBGMGIHJ_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::LHNMIKHFKAG, ::System::Nullable_1<::LHNMIKHFKAG>, ::System::Boolean))((::PBYTE)hIl2Cpp + DLEODCKNBBI_JKHOBGMGIHJ_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void BGDGALFBEJH()

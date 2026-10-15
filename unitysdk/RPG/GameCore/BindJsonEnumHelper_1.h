@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonEnumCategory.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
@@ -12,9 +12,9 @@ namespace RPG::GameCore
 	class BindJsonEnumHelper_1 : public ::System::Object
 	{
 	public:
-		static ::System::Nullable** StaticGet_BindCategory()
+		static ::System::Nullable_1<::RPG::GameCore::JsonEnumCategory>* StaticGet_BindCategory()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("RPG.GameCore", "BindJsonEnumHelper`1")->GetStaticField(0x0);
+			return (::System::Nullable_1<::RPG::GameCore::JsonEnumCategory>*)UnitySDK::FromName("RPG.GameCore", "BindJsonEnumHelper`1")->GetStaticField(0x0);
 		}
 
 	};

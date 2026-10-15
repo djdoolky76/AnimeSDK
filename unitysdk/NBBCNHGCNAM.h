@@ -6,7 +6,7 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitEntityArtLoad; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define NBBCNHGCNAM_BKPGNCBNMGP_OFFSET UNITYSDK_OFFSET(0xBABD1A0)
 #define NBBCNHGCNAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBABCEC0)
@@ -22,7 +22,7 @@ inline static constexpr unsigned int NBBCNHGCNAM_TypeDefinitionIndex = 58887;
 	{
 	public:
 		::RPG::GameCore::GameEntity* POPNDPJELNO; // 0x18
-		::System::Action* MNGIAJPCOCG; // 0x20
+		::System::Action_1<::RPG::GameCore::GameEntity*>* MNGIAJPCOCG; // 0x20
 		::RPG::GameCore::WaitEntityArtLoad* OFKGLJOAMLD; // 0x28
 		::GELIALJDFBL* JLMAKNFAEBH; // 0x30
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38

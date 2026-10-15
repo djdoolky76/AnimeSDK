@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -152,9 +152,9 @@ inline static constexpr unsigned int OODMOIBKGCP_TypeDefinitionIndex = 76655;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LittleGameEntityConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + OODMOIBKGCP_AMFPGKECAKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NEDINMBFPAH(::OCPOIDCNJDA* a1, ::UnityEngine::Transform* a2, ::System::ValueTuple a3)
+		::System::Void NEDINMBFPAH(::OCPOIDCNJDA* a1, ::UnityEngine::Transform* a2, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + OODMOIBKGCP_NEDINMBFPAH_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>))((::PBYTE)hIl2Cpp + OODMOIBKGCP_NEDINMBFPAH_OFFSET))(this, a1, a2, a3);
 		}
 
 		::OCPOIDCNJDA* ONIDEHACILE(::RPG::Client::LittleGame::PingPong::PingPongDynamicBone* a1)

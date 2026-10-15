@@ -5,8 +5,8 @@
 class IHOMABBDNPN;
 class MNLHJMMEHEI_NNKHNDEBHDA;
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IHOMABBDNPN_FIADDBBCCCF_CTOR_OFFSET UNITYSDK_OFFSET(0x16426970)
@@ -22,7 +22,7 @@ inline static constexpr unsigned int IHOMABBDNPN_FIADDBBCCCF_TypeDefinitionIndex
 	class IHOMABBDNPN_FIADDBBCCCF : public ::System::Object
 	{
 	public:
-		::System::Action* ONPHBBOOJMA; // 0x10
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* ONPHBBOOJMA; // 0x10
 		::IHOMABBDNPN* OOGKPHFFOOB; // 0x18
 		::System::Collections::Generic::List_1<::System::Object*>* IOIBFJENGJJ; // 0x20
 		::System::Single PHPKIPNNKLI; // 0x28

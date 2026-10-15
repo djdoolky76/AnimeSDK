@@ -5,12 +5,12 @@
 #include "unitysdk/System/TypeCode.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Decimal.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace Newtonsoft::Json { class JsonConverter; }
 namespace Newtonsoft::Json { class JsonWriter; }
 namespace Newtonsoft::Json::Linq { class JToken; }
 namespace Newtonsoft::Json::Linq { class JValue; }
 namespace System { class IFormatProvider; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -145,14 +145,14 @@ namespace Newtonsoft::Json::Linq
 			return ((::Newtonsoft::Json::Linq::JValue*(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_CREATEUNDEFINED_OFFSET))();
 		}
 
-		static ::Newtonsoft::Json::Linq::JTokenType GetValueType(::System::Nullable* a1, ::System::Object* a2)
+		static ::Newtonsoft::Json::Linq::JTokenType GetValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> a1, ::System::Object* a2)
 		{
-			return ((::Newtonsoft::Json::Linq::JTokenType(*)(::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETVALUETYPE_OFFSET))(a1, a2);
+			return ((::Newtonsoft::Json::Linq::JTokenType(*)(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType>, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETVALUETYPE_OFFSET))(a1, a2);
 		}
 
-		static ::Newtonsoft::Json::Linq::JTokenType GetStringValueType(::System::Nullable* a1)
+		static ::Newtonsoft::Json::Linq::JTokenType GetStringValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> a1)
 		{
-			return ((::Newtonsoft::Json::Linq::JTokenType(*)(::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETSTRINGVALUETYPE_OFFSET))(a1);
+			return ((::Newtonsoft::Json::Linq::JTokenType(*)(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JVALUE_GETSTRINGVALUETYPE_OFFSET))(a1);
 		}
 
 		::Newtonsoft::Json::Linq::JTokenType get_Type()

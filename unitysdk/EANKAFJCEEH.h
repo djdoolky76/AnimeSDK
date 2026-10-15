@@ -11,6 +11,7 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class CFFPEAALCPH;
 class DEKDEPEBHNC;
 class FDLCPHKGHME;
@@ -24,7 +25,6 @@ namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class VCameraConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -501,9 +501,9 @@ inline static constexpr unsigned int EANKAFJCEEH_TypeDefinitionIndex = 72007;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::ControlSkillType, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + EANKAFJCEEH_KCEALIEBCKN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* GDCBFMCHHOK(::RPG::GameCore::VCameraConfig* a1)
+		::System::Nullable_1<::RPG::MVector3> GDCBFMCHHOK(::RPG::GameCore::VCameraConfig* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::GameCore::VCameraConfig*))((::PBYTE)hIl2Cpp + EANKAFJCEEH_GDCBFMCHHOK_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::MVector3>(*)(::PVOID, ::RPG::GameCore::VCameraConfig*))((::PBYTE)hIl2Cpp + EANKAFJCEEH_GDCBFMCHHOK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean OJIEFKCIGAJ(::RPG::Client::UISkillIndex a1)

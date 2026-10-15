@@ -18,7 +18,7 @@ class PBGNKMMDBGD;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Common { template <typename T> class StateMachine_1; }
 namespace System { class Object; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -127,9 +127,9 @@ inline static constexpr unsigned int NFAHODNHEKK_TypeDefinitionIndex = 37316;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NFAHODNHEKK_ACAOCBOFJFH_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple*>* CFJHIKHKHMI(::System::Double a1, ::System::Object* a2)
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* CFJHIKHKHMI(::System::Double a1, ::System::Object* a2)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple*>*(*)(::PVOID, ::System::Double, ::System::Object*))((::PBYTE)hIl2Cpp + NFAHODNHEKK_CFJHIKHKHMI_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::UInt32>*>*(*)(::PVOID, ::System::Double, ::System::Object*))((::PBYTE)hIl2Cpp + NFAHODNHEKK_CFJHIKHKHMI_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean PGNCHMOCKNH()

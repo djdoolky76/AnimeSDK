@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class CJLPABADMFD;
 class FJOADPKDFLC;
 class HEKHCLACHJE;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define JLEPEBBFNPF_BKNBFDFHHPL_OFFSET UNITYSDK_OFFSET(0xB23EEC0)
@@ -59,9 +59,9 @@ inline static constexpr unsigned int JLEPEBBFNPF_TypeDefinitionIndex = 80146;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + JLEPEBBFNPF_BKNBFDFHHPL_OFFSET))(this);
 		}
 
-		::System::Nullable* LLGAKMPMKIO()
+		::System::Nullable_1<::System::UInt32> LLGAKMPMKIO()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + JLEPEBBFNPF_LLGAKMPMKIO_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + JLEPEBBFNPF_LLGAKMPMKIO_OFFSET))(this);
 		}
 
 	};

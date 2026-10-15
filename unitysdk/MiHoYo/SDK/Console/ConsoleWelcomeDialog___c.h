@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Console { class ConsoleWelcomeDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC99940)
 #define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC99980)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::Console
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x35D60);
 		}
 
-		static ::System::Action** StaticGet___9__24_0()
+		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleWelcomeDialog*>** StaticGet___9__24_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x35D68);
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleWelcomeDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x35D68);
 		}
 
 		static ::System::Void _cctor()

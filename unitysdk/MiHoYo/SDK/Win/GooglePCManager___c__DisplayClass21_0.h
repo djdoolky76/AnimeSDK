@@ -4,8 +4,8 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class GooglePCManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD3AFA0)
 #define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1BD3DBE0)
@@ -17,7 +17,7 @@ namespace MiHoYo::SDK::Win
 	class GooglePCManager___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::MiHoYo::SDK::JSONArray* productArray; // 0x18
 		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x20
 		::System::Void _ctor()

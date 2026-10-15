@@ -4,7 +4,8 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimExitType.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimStatisticPlayerActionType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class LFMFMHKDCIM;
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
@@ -25,7 +26,7 @@ inline static constexpr unsigned int KANAGLAENIO_TypeDefinitionIndex = 43566;
 		::RPG::PoolList_1<::System::UInt32>* KCIKHPPHHOC; // 0x18
 		::RPG::PoolList_1<::System::UInt32>* HNOMGGONLEI; // 0x20
 		::RPG::PoolDictionary_2<::System::UInt32, ::LFMFMHKDCIM*>* FOGPAKBNFLD; // 0x28
-		::RPG::PoolDictionary_2<::System::ValueTuple, ::System::ValueTuple>* IMOFMAEHGPM; // 0x30
+		::RPG::PoolDictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* IMOFMAEHGPM; // 0x30
 		::System::String* JCLIFKACIJD; // 0x38
 		::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolDictionary_2<::System::UInt32, ::System::UInt32>*>* HNOEILDODGC; // 0x40
 		::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolDictionary_2<::System::UInt32, ::System::UInt32>*>* OOLFNOGDCAB; // 0x48

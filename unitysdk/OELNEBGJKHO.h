@@ -6,8 +6,8 @@
 class BOCEFFDMFPM;
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client::AssetSystem { class AssetLoader; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define OELNEBGJKHO_CAEOBEFMIML_OFFSET UNITYSDK_OFFSET(0x1C4CCE70)
 #define OELNEBGJKHO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4CCFC0)
@@ -32,9 +32,9 @@ inline static constexpr unsigned int OELNEBGJKHO_TypeDefinitionIndex = 41396;
 	class OELNEBGJKHO : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Action*>** StaticGet_DHPACGHECNM()
+		static ::Il2CppArray<::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>*>** StaticGet_DHPACGHECNM()
 		{
-			return (::Il2CppArray<::System::Action*>**)UnitySDK::FromName("", "OELNEBGJKHO")->GetStaticField(0x14F30);
+			return (::Il2CppArray<::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>*>**)UnitySDK::FromName("", "OELNEBGJKHO")->GetStaticField(0x14F30);
 		}
 
 		// static const ::System::Object FPJHKPHLOPA; // 0x0
@@ -53,24 +53,24 @@ inline static constexpr unsigned int OELNEBGJKHO_TypeDefinitionIndex = 41396;
 			return ((::System::Int32(*)(::RPG::Client::AssetEventType, ::RPG::Client::AssetEventPort))((::PBYTE)hIl2Cpp + OELNEBGJKHO_CJIJHBPEFEM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void KIDNPIKFFHG(::RPG::Client::AssetEventType a1, ::System::Action* a2)
+		static ::System::Void KIDNPIKFFHG(::RPG::Client::AssetEventType a1, ::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::AssetEventType, ::System::Action*))((::PBYTE)hIl2Cpp + OELNEBGJKHO_KIDNPIKFFHG_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::Client::AssetEventType, ::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>*))((::PBYTE)hIl2Cpp + OELNEBGJKHO_KIDNPIKFFHG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void KIDNPIKFFHG_1(::RPG::Client::AssetEventType a1, ::RPG::Client::AssetEventPort a2, ::System::Action* a3)
+		static ::System::Void KIDNPIKFFHG_1(::RPG::Client::AssetEventType a1, ::RPG::Client::AssetEventPort a2, ::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>* a3)
 		{
-			return ((::System::Void(*)(::RPG::Client::AssetEventType, ::RPG::Client::AssetEventPort, ::System::Action*))((::PBYTE)hIl2Cpp + OELNEBGJKHO_KIDNPIKFFHG_1_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::RPG::Client::AssetEventType, ::RPG::Client::AssetEventPort, ::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>*))((::PBYTE)hIl2Cpp + OELNEBGJKHO_KIDNPIKFFHG_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void KLINKDOIOEB(::RPG::Client::AssetEventType a1, ::System::Action* a2)
+		static ::System::Void KLINKDOIOEB(::RPG::Client::AssetEventType a1, ::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>* a2)
 		{
-			return ((::System::Void(*)(::RPG::Client::AssetEventType, ::System::Action*))((::PBYTE)hIl2Cpp + OELNEBGJKHO_KLINKDOIOEB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::Client::AssetEventType, ::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>*))((::PBYTE)hIl2Cpp + OELNEBGJKHO_KLINKDOIOEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void KLINKDOIOEB_1(::RPG::Client::AssetEventType a1, ::RPG::Client::AssetEventPort a2, ::System::Action* a3)
+		static ::System::Void KLINKDOIOEB_1(::RPG::Client::AssetEventType a1, ::RPG::Client::AssetEventPort a2, ::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>* a3)
 		{
-			return ((::System::Void(*)(::RPG::Client::AssetEventType, ::RPG::Client::AssetEventPort, ::System::Action*))((::PBYTE)hIl2Cpp + OELNEBGJKHO_KLINKDOIOEB_1_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::RPG::Client::AssetEventType, ::RPG::Client::AssetEventPort, ::System::Action_2<::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*>*))((::PBYTE)hIl2Cpp + OELNEBGJKHO_KLINKDOIOEB_1_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void FMPAOKGPMNG()

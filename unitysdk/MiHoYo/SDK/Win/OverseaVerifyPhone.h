@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class OverseaVerifyPhone; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -47,7 +48,7 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnClose; // 0xA8
 		::System::Action* OnBack; // 0xB0
 		::System::Action* OnGetCode; // 0xB8
-		::System::Action* OnVerify; // 0xC0
+		::System::Action_1<::System::String*>* OnVerify; // 0xC0
 		::System::Boolean isRequestVerifyCode; // 0xC8
 		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xCC

@@ -6,9 +6,9 @@
 class FCOEMCEDLNL;
 class FLKDBBGDEHN_OLPHBCFKOGG;
 namespace RPG::GameCore { class ClientLogConfigRow; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -43,9 +43,9 @@ inline static constexpr unsigned int FLKDBBGDEHN_TypeDefinitionIndex = 13232;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FLKDBBGDEHN")->GetStaticField(0x148E8);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "FLKDBBGDEHN")->GetStaticField(0x148F0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FLKDBBGDEHN")->GetStaticField(0x148F0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>** StaticGet_PNKIHCCINND()

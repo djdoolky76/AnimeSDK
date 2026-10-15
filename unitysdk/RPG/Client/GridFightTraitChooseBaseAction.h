@@ -4,6 +4,7 @@
 class CJLEJIGIKOF;
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEBASEACTION_ADDFINISHACTION_OFFSET UNITYSDK_OFFSET(0xD2AFA60)
 #define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEBASEACTION_ADDHANDLERSPACTION_OFFSET UNITYSDK_OFFSET(0xD2AFB20)
@@ -25,7 +26,7 @@ namespace RPG::Client
 	{
 	public:
 		::System::Action* _OnFinishAction; // 0x18
-		::System::Action* _HandleRspAction; // 0x20
+		::System::Action_1<::System::Boolean>* _HandleRspAction; // 0x20
 		::System::UInt32 _EffectID_k__BackingField; // 0x28
 		::System::UInt32 _TraitID_k__BackingField; // 0x2C
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
@@ -53,9 +54,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHOOSEBASEACTION_REMOVEFINISHACTION_OFFSET))(this);
 		}
 
-		::System::Void AddHandleRspAction(::System::Action* a1)
+		::System::Void AddHandleRspAction(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHOOSEBASEACTION_ADDHANDLERSPACTION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHOOSEBASEACTION_ADDHANDLERSPACTION_OFFSET))(this, a1);
 		}
 
 		::System::String* GetScriptPath()

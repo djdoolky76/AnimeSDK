@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FateRin/Battle/FateRinBattleHudDragBrain_DragIntent.h"
 #include "unitysdk/RPG/Client/FateRin/Battle/FateRinBattleHudInputBrainBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 class ALIACDLNBJB;
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewModel; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudInputSource; }
 namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCEC7BB0)
 #define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCEC6780)
@@ -34,7 +34,7 @@ namespace RPG::Client::FateRin::Battle
 	public:
 		::UnityEngine::Vector2 _DragOrigin; // 0x40
 		::UnityEngine::Vector2 _LastPointerPos; // 0x48
-		::System::Nullable* _DecidedDragAngle; // 0x50
+		::System::Nullable_1<::System::Single> _DecidedDragAngle; // 0x50
 		::RPG::Client::FateRin::Battle::FateRinBattleHudDragBrain_DragIntent _DragIntent; // 0x58
 		static ::System::Single* StaticGet_UseIntentAngleThreshold()
 		{

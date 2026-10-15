@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class AdventureCharacterConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -26,7 +26,7 @@ namespace RPG::Client
 	{
 	public:
 		::UnityEngine::GameObject* ArtNode; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>* FIBJJCFGGLF; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>* FIBJJCFGGLF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALREPLACERBASE_CTOR_OFFSET))(this);
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALREPLACERBASE_PAFFDNAFPPC_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AdventureCharacterConfig* ODDGLOHILEG(::System::Nullable* a1)
+		::RPG::GameCore::AdventureCharacterConfig* ODDGLOHILEG(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::RPG::GameCore::AdventureCharacterConfig*(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALREPLACERBASE_ODDGLOHILEG_OFFSET))(this, a1);
+			return ((::RPG::GameCore::AdventureCharacterConfig*(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALREPLACERBASE_ODDGLOHILEG_OFFSET))(this, a1);
 		}
 
 	};

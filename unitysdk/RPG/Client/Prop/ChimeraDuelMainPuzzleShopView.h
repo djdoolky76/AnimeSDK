@@ -5,7 +5,7 @@ namespace RPG::Client::Prop { class ChimeraArrangementModelInstance_MotionConfig
 namespace RPG::Client::Prop { class ChimeraBillboardCanvasAdaptingScaler; }
 namespace RPG::Client::Prop { class ChimeraDuelShopDraggedChimeraSlotView; }
 namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlotView; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class Transform; }
@@ -29,20 +29,20 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::ChimeraBillboardCanvasAdaptingScaler* BillboardCanvasScaler; // 0x40
 		::RPG::Client::Prop::ChimeraArrangementModelInstance_MotionConfig* _SwapMotion; // 0x48
 		::UnityEngine::Transform* KeyMapAnchor; // 0x50
-		::System::Action* OnUpdate; // 0x58
+		::System::Action_1<::System::Single>* OnUpdate; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_OnUpdate(::System::Action* a1)
+		::System::Void add_OnUpdate(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_ADD_ONUPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_ADD_ONUPDATE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnUpdate(::System::Action* a1)
+		::System::Void remove_OnUpdate(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_REMOVE_ONUPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPVIEW_REMOVE_ONUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()

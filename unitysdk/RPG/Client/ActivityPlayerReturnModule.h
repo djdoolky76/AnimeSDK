@@ -24,7 +24,7 @@ namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
 namespace RPG::Client { template <typename T> class RPGHttpPlatformActResponse_1; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class PlayerReturnInviteRow; }
 namespace RPG::GameCore { class PlayerReturnRelicRow; }
 namespace System { class Exception; }
@@ -601,9 +601,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE_GET__ISDISABLEDBYFEATURESWITCH_OFFSET))(this);
 		}
 
-		static ::RPG::Client::Promises::IPromise* _PrepareHttpReq(::GHHJNCOAIJF* a1)
+		static ::RPG::Client::Promises::IPromise_1<::GHHJNCOAIJF*>* _PrepareHttpReq(::GHHJNCOAIJF* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE__PREPAREHTTPREQ_OFFSET))(a1);
+			return ((::RPG::Client::Promises::IPromise_1<::GHHJNCOAIJF*>*(*)(::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE__PREPAREHTTPREQ_OFFSET))(a1);
 		}
 
 		::System::Void SendGetInviterInfoWWWReq()

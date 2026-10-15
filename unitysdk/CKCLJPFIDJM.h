@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueActivityResidentConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define CKCLJPFIDJM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DC1E4A0)
 #define CKCLJPFIDJM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC1EA20)
@@ -41,9 +41,9 @@ inline static constexpr unsigned int CKCLJPFIDJM_TypeDefinitionIndex = 14704;
 			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueActivityResidentConfigRow*>**)UnitySDK::FromName("", "CKCLJPFIDJM")->GetStaticField(0x43248);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "CKCLJPFIDJM")->GetStaticField(0x43250);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CKCLJPFIDJM")->GetStaticField(0x43250);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int CKCLJPFIDJM_TypeDefinitionIndex = 14704;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueActivityResidentConfigRow*>(*)())((::PBYTE)hIl2Cpp + CKCLJPFIDJM_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueActivityResidentConfigRow*>, ::RPG::GameCore::RogueActivityResidentConfigRow*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + CKCLJPFIDJM_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueActivityResidentConfigRow*>, ::RPG::GameCore::RogueActivityResidentConfigRow*>(*)())((::PBYTE)hIl2Cpp + CKCLJPFIDJM_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::RPG::GameCore::RogueActivityResidentConfigRow* LMBKNCAIDLC(::System::UInt32 a1)

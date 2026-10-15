@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/CCBBMJPLKME.h"
 #include "unitysdk/LLFLBBCHACG.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class ADKFPNMPIDD;
@@ -13,7 +14,6 @@ class NJFHGODIBPN_BNDKBMLLKBO;
 namespace RPG::Client { class SpeciallyRootMotionBakedConfig; }
 namespace RPG::GameCore { class AdventureAIControllerConfig; }
 namespace RPG::GameCore { class AdventureCharacterController; }
-namespace System { class Nullable; }
 
 #define NJFHGODIBPN_BIBHPMDDEBM_OFFSET UNITYSDK_OFFSET(0xBC0E950)
 #define NJFHGODIBPN_BIPNKJPCJMN_OFFSET UNITYSDK_OFFSET(0xBC0EAF0)
@@ -153,9 +153,9 @@ inline static constexpr unsigned int NJFHGODIBPN_TypeDefinitionIndex = 56990;
 			return ((::NJFHGODIBPN_BNDKBMLLKBO*(*)(::PVOID, ::CCBBMJPLKME))((::PBYTE)hIl2Cpp + NJFHGODIBPN_HOEJNDNDIOD_OFFSET))(this, a1);
 		}
 
-		::NJFHGODIBPN_BNDKBMLLKBO* DPLDDKIPJOK(::System::UInt32 a1, ::System::Boolean a2, ::System::Single a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		::NJFHGODIBPN_BNDKBMLLKBO* DPLDDKIPJOK(::System::UInt32 a1, ::System::Boolean a2, ::System::Single a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::UnityEngine::Quaternion> a5)
 		{
-			return ((::NJFHGODIBPN_BNDKBMLLKBO*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Single, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + NJFHGODIBPN_DPLDDKIPJOK_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::NJFHGODIBPN_BNDKBMLLKBO*(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + NJFHGODIBPN_DPLDDKIPJOK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void HCPKGEBAICK(::ADKFPNMPIDD* a1)

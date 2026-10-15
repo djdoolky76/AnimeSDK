@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LPPKGHJGOCC.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EMDFGIJOGNJ;
 class FAKDJHMJOHF;
 namespace Proto { class ItemList; }
@@ -23,9 +23,9 @@ inline static constexpr unsigned int EMDFGIJOGNJ___c__DisplayClass5_0_TypeDefini
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EMDFGIJOGNJ___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _StartInteraction_b__0(::System::ValueTuple a1)
+		::System::Void _StartInteraction_b__0(::System::ValueTuple_2<::Proto::ItemList*, ::LPPKGHJGOCC> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + EMDFGIJOGNJ___C__DISPLAYCLASS5_0__STARTINTERACTION_B__0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::Proto::ItemList*, ::LPPKGHJGOCC>))((::PBYTE)hIl2Cpp + EMDFGIJOGNJ___C__DISPLAYCLASS5_0__STARTINTERACTION_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Void _StartInteraction_b__1()

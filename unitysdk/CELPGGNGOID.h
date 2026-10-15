@@ -7,8 +7,8 @@ class PHPFBBDLPNL_GDPCFEDMCHC;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSoundInAnim; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define CELPGGNGOID_BLJNHIABBBN_OFFSET UNITYSDK_OFFSET(0xC9E6F70)
 #define CELPGGNGOID_CHJOJCGHKDC_OFFSET UNITYSDK_OFFSET(0xC9E67B0)
@@ -30,7 +30,7 @@ inline static constexpr unsigned int CELPGGNGOID_TypeDefinitionIndex = 56470;
 		::System::String* MGBHHNCMBHD; // 0x38
 		::PAADPKGPFMJ_LIJIFNDLBDF* GEDBIMJBELE; // 0x40
 		::PHPFBBDLPNL_GDPCFEDMCHC* LENAOOGGHDD; // 0x48
-		::System::Action* PKDJEJPKOGO; // 0x50
+		::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* PKDJEJPKOGO; // 0x50
 		::System::Boolean LKABAJOFGPI; // 0x58
 		::System::Boolean HKNNBCBGPOJ; // 0x59
 		::System::Byte _padding0[0x2];

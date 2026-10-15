@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB0166B0)
 #define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__REGISTERDELEGATE_B__6_OFFSET UNITYSDK_OFFSET(0xB016800)
@@ -14,7 +14,7 @@ namespace MiHoYo::SDK::PluginUI
 	class HoYoSDKAccountList___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action* deleteCallback; // 0x10
+		::System::Action_1<::System::Int32>* deleteCallback; // 0x10
 		::System::Int32 nItemIndex; // 0x18
 		::System::Void _ctor()
 		{

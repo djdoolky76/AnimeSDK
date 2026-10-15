@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CFALFIPEHJH.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BIIJADGFFLF;
 class CFALFIPEHJH;
@@ -13,9 +14,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 namespace RPG::Client::ParkourGame { class MonoParkourItem; }
 namespace RPG::Client::ParkourGame { class ParkourSkillConfig; }
 namespace RPG::Client::ParkourGame { class ParkourSkillConfig_Fire; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
@@ -97,7 +97,7 @@ inline static constexpr unsigned int KGKEHEBHAJN_TypeDefinitionIndex = 74217;
 	public:
 		::Cinemachine::CinemachineVirtualCamera* KCIFKMOMPOL; // 0x108
 		::ParkourCameraController* IJPIHJKEPKE; // 0x110
-		::System::Action* OCAGAMDPPNG; // 0x118
+		::System::Action_1<::System::UInt32>* OCAGAMDPPNG; // 0x118
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* GNKFBDJOMFH; // 0x120
 		::UnityEngine::GameObject* DFIIFCOCDND; // 0x128
 		::UnityEngine::Animator* OHLBHFPKHHK; // 0x130
@@ -106,7 +106,7 @@ inline static constexpr unsigned int KGKEHEBHAJN_TypeDefinitionIndex = 74217;
 		::System::Int32 NHHAPGOOJLN; // 0x140
 		::System::UInt32 _SuperStarRecoveryCount_k__BackingField; // 0x144
 		::UnityEngine::Vector3 OBOIEPFKOCA; // 0x148
-		::System::Nullable* CCHLDBONFEG; // 0x154
+		::System::Nullable_1<::System::Single> CCHLDBONFEG; // 0x154
 		::System::UInt32 _SpeedUpUseCount_k__BackingField; // 0x15C
 		::System::UInt32 _TriggerAccelerationCount_k__BackingField; // 0x160
 		::System::Single _PowerEngineMaxSpeed_k__BackingField; // 0x164

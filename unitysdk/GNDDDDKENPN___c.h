@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Comparison_1; }
 
 #define GNDDDDKENPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC1B6D0)
@@ -22,14 +22,14 @@ inline static constexpr unsigned int GNDDDDKENPN___c_TypeDefinitionIndex = 35307
 			return (::System::Comparison_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AE00);
 		}
 
-		static ::System::Action** StaticGet___9__70_0()
+		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AE08);
+			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AE08);
 		}
 
-		static ::System::Action** StaticGet___9__70_1()
+		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet___9__70_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AE10);
+			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AE10);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -5,7 +5,7 @@
 class COIEOCDIBBP;
 namespace RPG::Client::Pet { class IPetInstanceRepository; }
 namespace RPG::Client::Pet { class IPetLineup; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 
 #define IEKJLPDEGMM_BFKMEJGGPHL_OFFSET UNITYSDK_OFFSET(0x15F01350)
 #define IEKJLPDEGMM_CTOR_OFFSET UNITYSDK_OFFSET(0x15F01230)
@@ -17,7 +17,7 @@ inline static constexpr unsigned int IEKJLPDEGMM_TypeDefinitionIndex = 75709;
 	class IEKJLPDEGMM : public ::System::Object
 	{
 	public:
-		::System::WeakReference* NMPIJGKPFIK; // 0x10
+		::System::WeakReference_1<::RPG::Client::Pet::IPetInstanceRepository*>* NMPIJGKPFIK; // 0x10
 		::System::Void _ctor(::RPG::Client::Pet::IPetInstanceRepository* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Pet::IPetInstanceRepository*))((::PBYTE)hIl2Cpp + IEKJLPDEGMM_CTOR_OFFSET))(this, a1);

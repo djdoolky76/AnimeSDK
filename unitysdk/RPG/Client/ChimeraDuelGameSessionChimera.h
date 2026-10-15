@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class KGHDDIBDABP;
 class NHDGNBKBNDB;
 namespace RPG::Client { class ChimeraDuelChimeraData; }
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace RPG::Client { class ChimeraDuelGameSessionItem; }
 namespace RPG::Client { class IChimeraDuelSkillData; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_CHIMERADUELGAMESESSIONCHIMERA_CANBEUPGRADEDBY_OFFSET UNITYSDK_OFFSET(0xCB29540)
 #define RPG_CLIENT_CHIMERADUELGAMESESSIONCHIMERA_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0xCB28F50)
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCHIMERA_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_1(::RPG::Client::ChimeraDuelGameSessionChimera* a1, ::System::Nullable* a2)
+		::System::Void _ctor_1(::RPG::Client::ChimeraDuelGameSessionChimera* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCHIMERA_CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCHIMERA_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_UniqueID()
@@ -173,9 +173,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCHIMERA__GETCOREFLAMECOUNT_OFFSET))(this);
 		}
 
-		::System::Nullable* TryGetCoreflameCount()
+		::System::Nullable_1<::System::Int32> TryGetCoreflameCount()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCHIMERA_TRYGETCOREFLAMECOUNT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONCHIMERA_TRYGETCOREFLAMECOUNT_OFFSET))(this);
 		}
 
 		::RPG::Client::IChimeraDuelSkillData* TryGetSkillDataForDisplay()

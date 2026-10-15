@@ -3,6 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
@@ -20,8 +21,8 @@ namespace RPG::Client
 	class UIClonableDrag : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* BeginDragCallback; // 0x18
-		::System::Action* EndDragCallback; // 0x20
+		::System::Action_3<::System::Object*, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::GameObject*>* BeginDragCallback; // 0x18
+		::System::Action_3<::System::Object*, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::GameObject*>* EndDragCallback; // 0x20
 		::System::Action* ClickCallback; // 0x28
 		::System::Object* DragParm; // 0x30
 		::UnityEngine::Transform* Root; // 0x38

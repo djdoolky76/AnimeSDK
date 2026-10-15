@@ -3,6 +3,7 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 namespace MiHoYo::SDK::Win { class PayLimitTipsDialog; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
@@ -27,7 +28,7 @@ namespace MiHoYo::SDK::Win
 	public:
 		::System::Action* OnSubmit; // 0x58
 		::System::Action* OnClose; // 0x60
-		::System::Action* OnToggle; // 0x68
+		::System::Action_1<::System::Boolean>* OnToggle; // 0x68
 		::UnityEngine::UI::Button* closeButton; // 0x70
 		::UnityEngine::UI::Text* contentText; // 0x78
 		::UnityEngine::UI::Button* submitButton; // 0x80

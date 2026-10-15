@@ -5,8 +5,8 @@
 #include "unitysdk/RPG/Client/UIController.h"
 #include "unitysdk/RPG/Client/UILayer.h"
 class JGBABEICECH;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MESSAGEBOXDIALOGCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xD69B930)
 #define RPG_CLIENT_MESSAGEBOXDIALOGCONTEXT_GET_VIEW_OFFSET UNITYSDK_OFFSET(0xD69BF90)
@@ -29,7 +29,7 @@ namespace RPG::Client
 	class MessageBoxDialogContext : public ::RPG::Client::UIController
 	{
 	public:
-		::System::Action* OkOrCancelDispatch; // 0x190
+		::System::Action_1<::System::Boolean>* OkOrCancelDispatch; // 0x190
 		::RPG::Client::TextID TextIDOK; // 0x198
 		::RPG::Client::TextID TextIDCancel; // 0x1A8
 		::RPG::Client::TextID TextIDTitle; // 0x1B8

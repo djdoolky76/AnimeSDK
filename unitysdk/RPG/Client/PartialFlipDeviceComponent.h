@@ -2,8 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class EKFMIDBJDIA;
 class HPKACEPPPCA;
 class KFOMKKPPMBO;
@@ -16,7 +18,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class SetFlipperLightDeviceFollowPlayer; }
 namespace RPG::GameCore { class SetFlipperLightDeviceRangeFollowPlayer; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -95,7 +96,7 @@ namespace RPG::Client
 		::RPG::GameCore::GameEntity* _RangeFollowScaleTarget; // 0x28
 		::UnityEngine::Transform* _RingTransform_k__BackingField; // 0x30
 		::RPG::Client::FlipDevicePoint* _CurrentPoint; // 0x38
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _ActivePointAffectedBlockAndItems; // 0x40
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::String*>>* _ActivePointAffectedBlockAndItems; // 0x40
 		::RPG::GameCore::SetFlipperLightDeviceRangeFollowPlayer* _RangeFollowConfig; // 0x48
 		::System::Collections::Generic::List_1<::RPG::Client::FlipDevicePoint*>* _FlipDevicePointList; // 0x50
 		::RPG::Client::EraFlipperManager* _FlipperManager; // 0x58
@@ -109,17 +110,17 @@ namespace RPG::Client
 		::System::Single _TwinkleTimeAcc; // 0x94
 		::System::Single _RangeCalRadius; // 0x98
 		::System::Single _TwinkleInterval; // 0x9C
-		::System::Nullable* _RangeFollowTransition; // 0xA0
+		::System::Nullable_1<::System::Single> _RangeFollowTransition; // 0xA0
 		::System::Single _BeamRangeDistance; // 0xA8
 		::System::Single _RangFollowVelocity; // 0xAC
 		::UnityEngine::Vector3 _FollowVelocity; // 0xB0
 		::System::Single _RotateSpeed; // 0xBC
 		::System::Boolean _TwinkleChange; // 0xC0
 		::System::Boolean _IsStatic; // 0xC1
-		::System::Nullable* _OverrideFollowInverseCollider; // 0xC2
+		::System::Nullable_1<::System::Boolean> _OverrideFollowInverseCollider; // 0xC2
 		::System::Boolean _IsManualOp; // 0xC4
 		::System::Boolean _TurnBlend_k__BackingField; // 0xC5
-		::System::Nullable* _TwinkleOn; // 0xC6
+		::System::Nullable_1<::System::Boolean> _TwinkleOn; // 0xC6
 		::UnityEngine::Vector3 _RingUpward_k__BackingField; // 0xC8
 		::System::Single _TurnBlendTimeAcc; // 0xD4
 		::System::Single _TurnOnTime; // 0xD8
@@ -156,9 +157,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::KFOMKKPPMBO*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT_FILLTAPLUGIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple GetLightConeInfo()
+		::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single> GetLightConeInfo()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT_GETLIGHTCONEINFO_OFFSET))(this);
+			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT_GETLIGHTCONEINFO_OFFSET))(this);
 		}
 
 		::System::Void OnExitControl()

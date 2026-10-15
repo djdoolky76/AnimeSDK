@@ -5,8 +5,8 @@ class ACNCBDAMADO;
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define MIGHCMCOCJN_AJNJNIIMBPF_OFFSET UNITYSDK_OFFSET(0xB955300)
 #define MIGHCMCOCJN_CTOR_OFFSET UNITYSDK_OFFSET(0xB9548A0)
@@ -29,8 +29,8 @@ inline static constexpr unsigned int MIGHCMCOCJN_TypeDefinitionIndex = 77150;
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x18
-		::Entitas::IGroup* MNBKAECECKC; // 0x20
-		::Entitas::ICollector* LEMDGKGHHGH; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* MNBKAECECKC; // 0x20
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* LEMDGKGHHGH; // 0x28
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::NDDFLGNNMDK*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + MIGHCMCOCJN_CTOR_OFFSET))(this, a1, a2);

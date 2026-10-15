@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class KELDADFDNPO;
 class PIMCPBPFGMB;
 namespace RPG::AvatarSystem { class IAvatar; }
@@ -13,8 +14,7 @@ namespace RPG::Client::Challenge::Story { class ChallengeStoryBuffSelectTeamInfo
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSettleConfirmViewModel; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectViewModel; }
 namespace RPG::Client::Monster { class IMonsterDataProviderViewModel; }
-namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define LFKJAFEIGKI_ABPKCIBACLG_OFFSET UNITYSDK_OFFSET(0xB681050)
@@ -40,9 +40,9 @@ inline static constexpr unsigned int LFKJAFEIGKI_TypeDefinitionIndex = 81514;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LFKJAFEIGKI_CTOR_OFFSET))(this);
 		}
 
-		::System::Void ABPKCIBACLG(::RPG::Client::ChallengeGroupData* a1, ::System::Nullable* a2, ::System::Boolean a3)
+		::System::Void ABPKCIBACLG(::RPG::Client::ChallengeGroupData* a1, ::System::Nullable_1<::System::Int32> a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeGroupData*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + LFKJAFEIGKI_ABPKCIBACLG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeGroupData*, ::System::Nullable_1<::System::Int32>, ::System::Boolean))((::PBYTE)hIl2Cpp + LFKJAFEIGKI_ABPKCIBACLG_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void IJCMMBKACBE(::RPG::Client::ITeamInfoProviderViewModel* a1, ::RPG::AvatarSystem::IAvatar* a2)
@@ -55,14 +55,14 @@ inline static constexpr unsigned int LFKJAFEIGKI_TypeDefinitionIndex = 81514;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Monster::IMonsterDataProviderViewModel*))((::PBYTE)hIl2Cpp + LFKJAFEIGKI_LMGJKEKFHMK_OFFSET))(this, a1);
 		}
 
-		::System::Void KDOAJJDBKGH(::RPG::Client::ChallengeStoryData* a1, ::RPG::Client::Challenge::Story::ChallengeStoryBuffSelectTeamInfoViewModel* a2, ::System::Action* a3)
+		::System::Void KDOAJJDBKGH(::RPG::Client::ChallengeStoryData* a1, ::RPG::Client::Challenge::Story::ChallengeStoryBuffSelectTeamInfoViewModel* a2, ::System::Action_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeStoryData*, ::RPG::Client::Challenge::Story::ChallengeStoryBuffSelectTeamInfoViewModel*, ::System::Action*))((::PBYTE)hIl2Cpp + LFKJAFEIGKI_KDOAJJDBKGH_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeStoryData*, ::RPG::Client::Challenge::Story::ChallengeStoryBuffSelectTeamInfoViewModel*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + LFKJAFEIGKI_KDOAJJDBKGH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void KDOAJJDBKGH_1(::RPG::Client::ChallengeBossData* a1, ::RPG::Client::Challenge::Boss::ChallengeBossBuffSelectTeamInfoViewModel* a2, ::System::Action* a3)
+		::System::Void KDOAJJDBKGH_1(::RPG::Client::ChallengeBossData* a1, ::RPG::Client::Challenge::Boss::ChallengeBossBuffSelectTeamInfoViewModel* a2, ::System::Action_1<::System::UInt32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeBossData*, ::RPG::Client::Challenge::Boss::ChallengeBossBuffSelectTeamInfoViewModel*, ::System::Action*))((::PBYTE)hIl2Cpp + LFKJAFEIGKI_KDOAJJDBKGH_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeBossData*, ::RPG::Client::Challenge::Boss::ChallengeBossBuffSelectTeamInfoViewModel*, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + LFKJAFEIGKI_KDOAJJDBKGH_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void LCMAFBLFAMA(::RPG::Client::ChallengeBossData* a1, ::System::Int32 a2, ::System::Boolean a3)

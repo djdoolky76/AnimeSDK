@@ -4,7 +4,7 @@
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/System/Object.h"
 namespace R3 { template <typename T> class Observer_1; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace R3
 {
@@ -15,7 +15,7 @@ namespace R3
 	{
 	public:
 		::R3::Observer_1<::R3::Unit>* observer; // 0x0
-		::System::Action* removeHandler; // 0x0
+		::System::Action_1<T>* removeHandler; // 0x0
 		T registeredHandler; // 0x0
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x0
 	};

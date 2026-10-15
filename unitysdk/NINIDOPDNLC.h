@@ -3,7 +3,7 @@
 #include "unitysdk/APCGKBOPGJL.h"
 #include "unitysdk/RPG/GameCore/AvatarSkillTreeAnchorType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define NINIDOPDNLC_CTOR_OFFSET UNITYSDK_OFFSET(0xBBFE870)
@@ -17,16 +17,16 @@ inline static constexpr unsigned int NINIDOPDNLC_TypeDefinitionIndex = 62652;
 	class NINIDOPDNLC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::System::UInt32>*>* FGKDDIMLIMC; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* LCIBIGFOMCA; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::System::UInt32>*>* FGKDDIMLIMC; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::APCGKBOPGJL, ::RPG::GameCore::AvatarSkillTreeAnchorType>>* LCIBIGFOMCA; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NINIDOPDNLC_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple HIGHCBNFGFK(::System::UInt32 a1)
+		::System::ValueTuple_2<::APCGKBOPGJL, ::RPG::GameCore::AvatarSkillTreeAnchorType> HIGHCBNFGFK(::System::UInt32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NINIDOPDNLC_HIGHCBNFGFK_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::APCGKBOPGJL, ::RPG::GameCore::AvatarSkillTreeAnchorType>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NINIDOPDNLC_HIGHCBNFGFK_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 JOFBCHJCLDA(::APCGKBOPGJL a1, ::RPG::GameCore::AvatarSkillTreeAnchorType a2)

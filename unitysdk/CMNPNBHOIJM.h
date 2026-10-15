@@ -6,7 +6,7 @@ class HEHPINDHNON;
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define CMNPNBHOIJM_BJOBAAEPAFP_OFFSET UNITYSDK_OFFSET(0xDA3D7D0)
 #define CMNPNBHOIJM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA3CCC0)
@@ -22,7 +22,7 @@ inline static constexpr unsigned int CMNPNBHOIJM_TypeDefinitionIndex = 77158;
 	{
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* EJNOEADLPEK; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* EJNOEADLPEK; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

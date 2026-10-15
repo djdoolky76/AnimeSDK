@@ -8,6 +8,7 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/GEEOPFIMJEM.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 class APLEMBNFLAA;
 class BJBDLDCDDJH;
@@ -30,11 +31,12 @@ namespace RPG::GameCore { class BlockNodeConfig; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -175,9 +177,9 @@ inline static constexpr unsigned int GDMONJOAKHD_TypeDefinitionIndex = 73832;
 		::Collections::Pooled::PooledDictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>* NAEKEECDHNB; // 0x40
 		::RPG::Client::OpenWorld::AOIBase_1<::RPG::Client::OpenWorld::StreamingItemData*>* BBFLHKMCLFM; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* NFFPHIPJEGA; // 0x50
-		::System::Action* JILMNFCFMOI; // 0x58
-		::System::Action* PIBCMNAFAME; // 0x60
-		::System::Collections::Concurrent::ConcurrentQueue_1<::System::Tuple*>* PCILCIFFFOI; // 0x68
+		::System::Action_1<::HPKACEPPPCA*>* JILMNFCFMOI; // 0x58
+		::System::Action_2<::HPKACEPPPCA*, ::System::Boolean>* PIBCMNAFAME; // 0x60
+		::System::Collections::Concurrent::ConcurrentQueue_1<::System::Tuple_2<::HPKACEPPPCA*, ::System::Int32>*>* PCILCIFFFOI; // 0x68
 		::System::Collections::Generic::HashSet_1<::HPKACEPPPCA*>* OIDDKKBOEKD; // 0x70
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* NCNHHAMBINO; // 0x78
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* BMICLMBHFGF; // 0x80
@@ -185,7 +187,7 @@ inline static constexpr unsigned int GDMONJOAKHD_TypeDefinitionIndex = 73832;
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* LLBALBGMDGE; // 0x90
 		::System::Collections::Generic::List_1<::System::Action*>* NFBNLDIFCGC; // 0x98
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* KAIBMIPGFMM; // 0xA0
-		::System::Collections::Generic::List_1<::System::Tuple*>* CNMJMNNDLIF; // 0xA8
+		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>*>* CNMJMNNDLIF; // 0xA8
 		::RPG::Client::OpenWorld::StreamingLayerDetail* CDJGDNCOFOD; // 0xB0
 		::UnityEngine::GameObject* KMNJGLJLCBM; // 0xB8
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* HIKMPLOHEHI; // 0xC0
@@ -289,9 +291,9 @@ inline static constexpr unsigned int GDMONJOAKHD_TypeDefinitionIndex = 73832;
 			return ((::System::Void(*)(::PVOID, ::OIDDJJLHGKO*, ::APLEMBNFLAA*, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + GDMONJOAKHD_SOLVECALCULATESTREAMINGTASK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void FONPNGPBJON(::OIDDJJLHGKO* a1, ::APLEMBNFLAA* a2, ::System::Boolean a3, ::HPKACEPPPCA* a4, ::RPG::Client::OpenWorld::StreamingItemData* a5, ::System::Collections::Generic::KeyValuePair* a6)
+		::System::Void FONPNGPBJON(::OIDDJJLHGKO* a1, ::APLEMBNFLAA* a2, ::System::Boolean a3, ::HPKACEPPPCA* a4, ::RPG::Client::OpenWorld::StreamingItemData* a5, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::OIDDJJLHGKO*, ::APLEMBNFLAA*, ::System::Boolean, ::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + GDMONJOAKHD_FONPNGPBJON_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::OIDDJJLHGKO*, ::APLEMBNFLAA*, ::System::Boolean, ::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>))((::PBYTE)hIl2Cpp + GDMONJOAKHD_FONPNGPBJON_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void LAAMHEAGKNF()
@@ -399,9 +401,9 @@ inline static constexpr unsigned int GDMONJOAKHD_TypeDefinitionIndex = 73832;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + GDMONJOAKHD_REMOVEFROMAOI_OFFSET))(this, a1);
 		}
 
-		::System::Void BENMJGHMHDF(::System::Action* a1, ::System::Object* a2)
+		::System::Void BENMJGHMHDF(::System::Action_2<::HPKACEPPPCA*, ::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + GDMONJOAKHD_BENMJGHMHDF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::HPKACEPPPCA*, ::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + GDMONJOAKHD_BENMJGHMHDF_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LNAMNBCDMFJ(::System::Boolean a1)

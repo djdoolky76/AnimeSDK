@@ -4,7 +4,7 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::HoYoPass { class WebPageManager; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7BAB0)
 #define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0__OPENWEBPAGE_B__5_OFFSET UNITYSDK_OFFSET(0x1BE7CC90)
@@ -16,7 +16,7 @@ namespace MiHoYo::SDK::HoYoPass
 	class WebPageManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action* bridgeValue; // 0x10
+		::System::Action_2<::MiHoYo::SDK::Web*, ::MiHoYo::SDK::JSONNode*>* bridgeValue; // 0x10
 		::MiHoYo::SDK::HoYoPass::WebPageManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{

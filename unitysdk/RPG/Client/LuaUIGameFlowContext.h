@@ -5,9 +5,9 @@ namespace RPG::Client { class BaseGameFlow; }
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class LuaUIGameFlowContext; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace XLua { class LuaTable; }
 
 #define RPG_CLIENT_LUAUIGAMEFLOWCONTEXT_ASYNCSHOW_OFFSET UNITYSDK_OFFSET(0xD4F90F0)
@@ -33,7 +33,7 @@ namespace RPG::Client
 	public:
 		::RPG::Client::LuaUIController* _Controller_k__BackingField; // 0x20
 		::XLua::LuaTable* _Table; // 0x28
-		::System::Action* _OnMessageReceived; // 0x30
+		::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* _OnMessageReceived; // 0x30
 		::System::Void _ctor(::RPG::Client::BaseGameFlow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseGameFlow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUAUIGAMEFLOWCONTEXT_CTOR_OFFSET))(this, a1);
@@ -59,9 +59,9 @@ namespace RPG::Client
 			return ((::RPG::Client::LuaUIGameFlowContext*(*)(::RPG::Client::BaseGameFlow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUAUIGAMEFLOWCONTEXT_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void Init(::XLua::LuaTable* a1, ::System::Action* a2)
+		::System::Void Init(::XLua::LuaTable* a1, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUAUIGAMEFLOWCONTEXT_INIT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LUAUIGAMEFLOWCONTEXT_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::Promises::IPromise* SyncShow(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)

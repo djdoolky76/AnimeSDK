@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace System { class AsyncCallback; }
 namespace System { class Exception; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Net { class SimpleAsyncCallback; }
@@ -44,7 +44,7 @@ namespace System::Net
 		::System::Object* state; // 0x20
 		::System::Exception* exc; // 0x28
 		::System::Threading::ManualResetEvent* handle; // 0x30
-		::System::Nullable* user_read_synch; // 0x38
+		::System::Nullable_1<::System::Boolean> user_read_synch; // 0x38
 		::System::Boolean synch; // 0x3A
 		::System::Boolean callbackDone; // 0x3B
 		::System::Boolean isCompleted; // 0x3C

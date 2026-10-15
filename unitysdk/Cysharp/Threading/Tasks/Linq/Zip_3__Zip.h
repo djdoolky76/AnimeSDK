@@ -4,9 +4,9 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
@@ -25,14 +25,14 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Object* firstAwaiter; // 0x0
 		::System::Object* secondAwaiter; // 0x0
 		T3 _Current_k__BackingField; // 0x0
-		static ::System::Action** StaticGet_firstMoveNextCoreDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_firstMoveNextCoreDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_Zip")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_Zip")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet_secondMoveNextCoreDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet_secondMoveNextCoreDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_Zip")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "_Zip")->GetStaticField(0x0);
 		}
 
 	};

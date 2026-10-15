@@ -7,7 +7,7 @@
 #include "unitysdk/RPG/GameCore/PhotoGraphAimIdentifyType.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphModeType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -207,7 +207,7 @@ namespace RPG::Client
 		::RPG::Client::AdventurePhase* _OwnerPhaseRef; // 0x80
 		::Cinemachine::CinemachinePathBase* _CinemachinePath; // 0x88
 		::DJOOMFGNEGK* _PhotoGraphTagNotifyParam; // 0x90
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _TrackPhotoShotPairs; // 0x98
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* _TrackPhotoShotPairs; // 0x98
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::TrackPhotoTrashCanConfigRow*>* _TrashPhotoConfig; // 0xA0
 		::FDBNFFDCCEG* _PhotoGraphAimEntityContainer; // 0xA8
 		::OOHEEFDHPHM* _InputManager_k__BackingField; // 0xB0

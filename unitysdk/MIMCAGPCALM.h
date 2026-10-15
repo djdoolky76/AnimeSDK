@@ -17,6 +17,7 @@ namespace RPG::Client { class CakeRaceGameVoteData; }
 namespace RPG::Client { class CakeRaceReceiveChatEventData; }
 namespace RPG::Client::CakeRace { class CakeRaceFieldSectionGameData; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIMCAGPCALM_ADD_ONBATTLEITEMUSEFAILED_OFFSET UNITYSDK_OFFSET(0xB95C740)
 #define MIMCAGPCALM_ADD_ONBETRSP_OFFSET UNITYSDK_OFFSET(0xB95C300)
@@ -72,81 +73,81 @@ inline static constexpr unsigned int MIMCAGPCALM_TypeDefinitionIndex = 78112;
 	class MIMCAGPCALM : public ::System::Object
 	{
 	public:
-		::System::Action* OnSyncBattleItem; // 0x10
+		::System::Action_1<::RPG::Client::CakeRaceBattleItemSyncData*>* OnSyncBattleItem; // 0x10
 		::LNLAOECCCDM* IDKCCHJHNDG; // 0x18
 		::FGJAKGPJCKB* MABAGAEOIPH; // 0x20
 		::JBACCAGFHON* PDENFEFCAGN; // 0x28
-		::System::Action* OnVoteRsp; // 0x30
-		::System::Action* OnBetRsp; // 0x38
-		::System::Action* OnChatReceived; // 0x40
-		::System::Action* OnVoteResult; // 0x48
-		::System::Action* OnVoteConfirmRsp; // 0x50
-		::System::Action* OnLevelStateChanged; // 0x58
-		::System::Action* OnDynamicCatBorn; // 0x60
+		::System::Action_1<::System::Boolean>* OnVoteRsp; // 0x30
+		::System::Action_1<::System::Boolean>* OnBetRsp; // 0x38
+		::System::Action_1<::RPG::Client::CakeRaceReceiveChatEventData*>* OnChatReceived; // 0x40
+		::System::Action_1<::RPG::Client::CakeRaceGameVoteData*>* OnVoteResult; // 0x48
+		::System::Action_1<::System::Boolean>* OnVoteConfirmRsp; // 0x50
+		::System::Action_1<::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType>* OnLevelStateChanged; // 0x58
+		::System::Action_1<::System::UInt32>* OnDynamicCatBorn; // 0x60
 		::System::Action* OnBattleItemUseFailed; // 0x68
 		::System::Void _ctor(::JBACCAGFHON* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::JBACCAGFHON*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnLevelStateChanged(::System::Action* a1)
+		::System::Void add_OnLevelStateChanged(::System::Action_1<::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONLEVELSTATECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONLEVELSTATECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnLevelStateChanged(::System::Action* a1)
+		::System::Void remove_OnLevelStateChanged(::System::Action_1<::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONLEVELSTATECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONLEVELSTATECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnBetRsp(::System::Action* a1)
+		::System::Void add_OnBetRsp(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONBETRSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONBETRSP_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBetRsp(::System::Action* a1)
+		::System::Void remove_OnBetRsp(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONBETRSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONBETRSP_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnVoteRsp(::System::Action* a1)
+		::System::Void add_OnVoteRsp(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONVOTERSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONVOTERSP_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnVoteRsp(::System::Action* a1)
+		::System::Void remove_OnVoteRsp(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONVOTERSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONVOTERSP_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnVoteConfirmRsp(::System::Action* a1)
+		::System::Void add_OnVoteConfirmRsp(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONVOTECONFIRMRSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONVOTECONFIRMRSP_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnVoteConfirmRsp(::System::Action* a1)
+		::System::Void remove_OnVoteConfirmRsp(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONVOTECONFIRMRSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONVOTECONFIRMRSP_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnVoteResult(::System::Action* a1)
+		::System::Void add_OnVoteResult(::System::Action_1<::RPG::Client::CakeRaceGameVoteData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONVOTERESULT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::CakeRaceGameVoteData*>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONVOTERESULT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnVoteResult(::System::Action* a1)
+		::System::Void remove_OnVoteResult(::System::Action_1<::RPG::Client::CakeRaceGameVoteData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONVOTERESULT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::CakeRaceGameVoteData*>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONVOTERESULT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnSyncBattleItem(::System::Action* a1)
+		::System::Void add_OnSyncBattleItem(::System::Action_1<::RPG::Client::CakeRaceBattleItemSyncData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONSYNCBATTLEITEM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::CakeRaceBattleItemSyncData*>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONSYNCBATTLEITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnSyncBattleItem(::System::Action* a1)
+		::System::Void remove_OnSyncBattleItem(::System::Action_1<::RPG::Client::CakeRaceBattleItemSyncData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONSYNCBATTLEITEM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::CakeRaceBattleItemSyncData*>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONSYNCBATTLEITEM_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnBattleItemUseFailed(::System::Action* a1)
@@ -159,24 +160,24 @@ inline static constexpr unsigned int MIMCAGPCALM_TypeDefinitionIndex = 78112;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONBATTLEITEMUSEFAILED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnChatReceived(::System::Action* a1)
+		::System::Void add_OnChatReceived(::System::Action_1<::RPG::Client::CakeRaceReceiveChatEventData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONCHATRECEIVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::CakeRaceReceiveChatEventData*>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONCHATRECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnChatReceived(::System::Action* a1)
+		::System::Void remove_OnChatReceived(::System::Action_1<::RPG::Client::CakeRaceReceiveChatEventData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONCHATRECEIVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::CakeRaceReceiveChatEventData*>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONCHATRECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnDynamicCatBorn(::System::Action* a1)
+		::System::Void add_OnDynamicCatBorn(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONDYNAMICCATBORN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_ADD_ONDYNAMICCATBORN_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnDynamicCatBorn(::System::Action* a1)
+		::System::Void remove_OnDynamicCatBorn(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONDYNAMICCATBORN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + MIMCAGPCALM_REMOVE_ONDYNAMICCATBORN_OFFSET))(this, a1);
 		}
 
 		::LNLAOECCCDM* JBOBGAEHFHI()

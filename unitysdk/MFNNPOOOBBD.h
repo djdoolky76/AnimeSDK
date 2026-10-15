@@ -17,7 +17,7 @@ class MEGIEBCBOCI;
 class NKIJFPHFJCO;
 class OBJANKHLNGO;
 class POJNGHHJCNC;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -49,9 +49,9 @@ inline static constexpr unsigned int MFNNPOOOBBD_TypeDefinitionIndex = 80248;
 			return ((::System::Void(*)(::PVOID, ::OBJANKHLNGO*, ::GAGKMDGBGFL*, ::FHHJMJFKIIH*, ::FJFNJCPHFDM*, ::CNCELEJMKDC*, ::CDEHGGILJOM*, ::FABNLDDIMIG*, ::AMFNPJFKAOH*))((::PBYTE)hIl2Cpp + MFNNPOOOBBD_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::RPG::Client::Promises::IPromise* NIBAAIPDBGP(::System::UInt32 a1, ::System::Collections::Generic::IEnumerable_1<::NKIJFPHFJCO*>* a2, ::AKMFECNJFBG* a3)
+		::RPG::Client::Promises::IPromise_1<::MEGIEBCBOCI*>* NIBAAIPDBGP(::System::UInt32 a1, ::System::Collections::Generic::IEnumerable_1<::NKIJFPHFJCO*>* a2, ::AKMFECNJFBG* a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::NKIJFPHFJCO*>*, ::AKMFECNJFBG*))((::PBYTE)hIl2Cpp + MFNNPOOOBBD_NIBAAIPDBGP_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::MEGIEBCBOCI*>*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IEnumerable_1<::NKIJFPHFJCO*>*, ::AKMFECNJFBG*))((::PBYTE)hIl2Cpp + MFNNPOOOBBD_NIBAAIPDBGP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void DHOFLOEPGHH(::EOKPKNLFICD* a1)
@@ -59,9 +59,9 @@ inline static constexpr unsigned int MFNNPOOOBBD_TypeDefinitionIndex = 80248;
 			return ((::System::Void(*)(::PVOID, ::EOKPKNLFICD*))((::PBYTE)hIl2Cpp + MFNNPOOOBBD_DHOFLOEPGHH_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* DGLLPGIBPJG(::System::UInt32 a1, ::AOBDHCFGGBH* a2, ::AKMFECNJFBG* a3)
+		::RPG::Client::Promises::IPromise_1<::MEGIEBCBOCI*>* DGLLPGIBPJG(::System::UInt32 a1, ::AOBDHCFGGBH* a2, ::AKMFECNJFBG* a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::AOBDHCFGGBH*, ::AKMFECNJFBG*))((::PBYTE)hIl2Cpp + MFNNPOOOBBD_DGLLPGIBPJG_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::MEGIEBCBOCI*>*(*)(::PVOID, ::System::UInt32, ::AOBDHCFGGBH*, ::AKMFECNJFBG*))((::PBYTE)hIl2Cpp + MFNNPOOOBBD_DGLLPGIBPJG_OFFSET))(this, a1, a2, a3);
 		}
 
 		::POJNGHHJCNC* BODNBKHBGPN(::System::UInt32 a1, ::AOBDHCFGGBH* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::AKMFECNJFBG* a6, ::System::UInt32 a7, ::System::UInt32 a8)

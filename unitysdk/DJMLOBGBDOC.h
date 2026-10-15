@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CGNHALFCLJB_ReasonType.h"
 #include "unitysdk/JEOCDNBFEBF.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class CGNHALFCLJB;
 class DJMLOBGBDOC_LHEAMHHMOFL;
@@ -10,8 +11,7 @@ class HFCHPMGNMOM;
 class IAJGGEMFOMB;
 class ILOOAAOHIIG;
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Nullable; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define DJMLOBGBDOC_BHHOIIOGAJK_OFFSET UNITYSDK_OFFSET(0xF240160)
 #define DJMLOBGBDOC_CIDMGHLONGD_OFFSET UNITYSDK_OFFSET(0xF23FF90)
@@ -137,9 +137,9 @@ inline static constexpr unsigned int DJMLOBGBDOC_TypeDefinitionIndex = 79508;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJMLOBGBDOC_OLPNCONNKNN_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* HAJFBKHHNEJ(::ILOOAAOHIIG* a1, ::System::Nullable* a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* HAJFBKHHNEJ(::ILOOAAOHIIG* a1, ::System::Nullable_1<::UnityEngine::Vector2Int> a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::ILOOAAOHIIG*, ::System::Nullable*))((::PBYTE)hIl2Cpp + DJMLOBGBDOC_HAJFBKHHNEJ_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::ILOOAAOHIIG*, ::System::Nullable_1<::UnityEngine::Vector2Int>))((::PBYTE)hIl2Cpp + DJMLOBGBDOC_HAJFBKHHNEJ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DCGPFFDAIAE()
@@ -147,9 +147,9 @@ inline static constexpr unsigned int DJMLOBGBDOC_TypeDefinitionIndex = 79508;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJMLOBGBDOC_DCGPFFDAIAE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* CIDMGHLONGD(::IAJGGEMFOMB* a1, ::UnityEngine::Vector2Int a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* CIDMGHLONGD(::IAJGGEMFOMB* a1, ::UnityEngine::Vector2Int a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::IAJGGEMFOMB*, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + DJMLOBGBDOC_CIDMGHLONGD_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::IAJGGEMFOMB*, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + DJMLOBGBDOC_CIDMGHLONGD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void BHHOIIOGAJK()

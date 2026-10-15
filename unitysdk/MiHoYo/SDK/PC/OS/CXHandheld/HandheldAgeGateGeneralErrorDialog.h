@@ -3,8 +3,8 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateGeneralErrorDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Text; }
 
@@ -41,8 +41,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		::System::String* subDescTextStr; // 0xE8
 		::System::String* cancelBtnText; // 0xF0
 		::System::String* confirmBtnText; // 0xF8
-		::System::Action* _OnClose_k__BackingField; // 0x100
-		::System::Action* _OnConfirm_k__BackingField; // 0x108
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>* _OnClose_k__BackingField; // 0x100
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>* _OnConfirm_k__BackingField; // 0x108
 		::System::Boolean _Interactable_k__BackingField; // 0x110
 		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldAgeGateGeneralErrorDialog** StaticGet_Instance()
 		{
@@ -58,24 +58,24 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnClose()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>* get_OnClose()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_GET_ONCLOSE_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_GET_ONCLOSE_OFFSET))(this);
 		}
 
-		::System::Void set_OnClose(::System::Action* a1)
+		::System::Void set_OnClose(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_SET_ONCLOSE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_SET_ONCLOSE_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnConfirm()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>* get_OnConfirm()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_GET_ONCONFIRM_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_GET_ONCONFIRM_OFFSET))(this);
 		}
 
-		::System::Void set_OnConfirm(::System::Action* a1)
+		::System::Void set_OnConfirm(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_SET_ONCONFIRM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEGENERALERRORDIALOG_SET_ONCONFIRM_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Interactable()

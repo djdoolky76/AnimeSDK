@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/LevelStateType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EGDAOGCDJBB;
 class JBACCAGFHON;
@@ -48,9 +49,9 @@ inline static constexpr unsigned int EGDAOGCDJBB_TypeDefinitionIndex = 78108;
 		::System::Action* ICMGKCENJDD; // 0x28
 		::System::Action* HLLPNIILBIC; // 0x30
 		::System::Action* IDIALGNPLBK; // 0x38
-		::System::ValueTuple MPIEKILHCCB; // 0x40
+		::System::ValueTuple_2<::System::UInt32, ::System::Int32> MPIEKILHCCB; // 0x40
 		::UnityEngine::Vector3 DBEGEGCHLMG; // 0x48
-		::System::ValueTuple PDBCINGJCOH; // 0x54
+		::System::ValueTuple_4<::System::Int32, ::System::Int32, ::System::Single, ::System::UInt32> PDBCINGJCOH; // 0x54
 		::System::Void _ctor(::JBACCAGFHON* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::JBACCAGFHON*))((::PBYTE)hIl2Cpp + EGDAOGCDJBB_CTOR_OFFSET))(this, a1);

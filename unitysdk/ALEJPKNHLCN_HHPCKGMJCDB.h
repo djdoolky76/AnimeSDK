@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
@@ -15,7 +15,7 @@ inline static constexpr unsigned int ALEJPKNHLCN_HHPCKGMJCDB_TypeDefinitionIndex
 	class ALEJPKNHLCN_HHPCKGMJCDB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple>* LDGBEDOGGEP; // 0x10
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>* LDGBEDOGGEP; // 0x10
 		static ::System::Text::StringBuilder** StaticGet_JFCLFJPCNKM()
 		{
 			return (::System::Text::StringBuilder**)UnitySDK::FromName("", "HHPCKGMJCDB")->GetStaticField(0x5E300);

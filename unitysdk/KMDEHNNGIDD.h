@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BJIAFAFAFNE;
 class COMJKPOMILA;
 class FDKAIKEOLON;
@@ -15,6 +15,8 @@ namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client { class CakeRaceLobby; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define KMDEHNNGIDD_AFKFCCIODME_OFFSET UNITYSDK_OFFSET(0xB5416A0)
 #define KMDEHNNGIDD_AGOOLADHFPL_OFFSET UNITYSDK_OFFSET(0xB541760)
@@ -63,7 +65,7 @@ inline static constexpr unsigned int KMDEHNNGIDD_TypeDefinitionIndex = 63055;
 	{
 	public:
 		::RPG::Client::Promises::Promise* HGCONHACNIO; // 0x10
-		::RPG::Client::Promises::Promise* PONGEJHFHJD; // 0x18
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* PONGEJHFHJD; // 0x18
 		::FDKAIKEOLON* HAJFPCOPCBH; // 0x20
 		::RPG::Client::Promises::Promise* NAOBDKGBNDK; // 0x28
 		::System::Void _ctor()
@@ -171,9 +173,9 @@ inline static constexpr unsigned int KMDEHNNGIDD_TypeDefinitionIndex = 63055;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_AGOOLADHFPL_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* LPCGPKMPCOO()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* LPCGPKMPCOO()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_LPCGPKMPCOO_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_LPCGPKMPCOO_OFFSET))(this);
 		}
 
 		::System::Void LADIBAAJJDB()
@@ -191,19 +193,19 @@ inline static constexpr unsigned int KMDEHNNGIDD_TypeDefinitionIndex = 63055;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_LODPHBBGLHC_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* JDMMKOKJPPK(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* JDMMKOKJPPK(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_JDMMKOKJPPK_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_JDMMKOKJPPK_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* JKNKBLJPGDB(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* JKNKBLJPGDB(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_JKNKBLJPGDB_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_JKNKBLJPGDB_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* HKOIEDMHGDF(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* HKOIEDMHGDF(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_HKOIEDMHGDF_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_HKOIEDMHGDF_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* IOGHOFPPOGH()
@@ -211,14 +213,14 @@ inline static constexpr unsigned int KMDEHNNGIDD_TypeDefinitionIndex = 63055;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_IOGHOFPPOGH_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* MNBPIBLHNHO(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* MNBPIBLHNHO(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_MNBPIBLHNHO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_MNBPIBLHNHO_OFFSET))(this, a1);
 		}
 
-		static ::System::ValueTuple OJDLGADIJEL(::System::UInt32 a1)
+		static ::System::ValueTuple_2<::FMHEHLIFNGJ*, ::PJMGBLIFDFP*> OJDLGADIJEL(::System::UInt32 a1)
 		{
-			return ((::System::ValueTuple(*)(::System::UInt32))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_OJDLGADIJEL_OFFSET))(a1);
+			return ((::System::ValueTuple_2<::FMHEHLIFNGJ*, ::PJMGBLIFDFP*>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_OJDLGADIJEL_OFFSET))(a1);
 		}
 
 		::RPG::Client::Promises::Promise* GMJJLGGCAIC()
@@ -241,9 +243,9 @@ inline static constexpr unsigned int KMDEHNNGIDD_TypeDefinitionIndex = 63055;
 			return ((::BJIAFAFAFNE*(*)(::PVOID))((::PBYTE)hIl2Cpp + KMDEHNNGIDD_PIHJDKODOLB_OFFSET))(this);
 		}
 
-		::System::Void _TryGetReconnectInfo_b__16_0(::System::ValueTuple a1)
+		::System::Void _TryGetReconnectInfo_b__16_0(::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + KMDEHNNGIDD__TRYGETRECONNECTINFO_B__16_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>))((::PBYTE)hIl2Cpp + KMDEHNNGIDD__TRYGETRECONNECTINFO_B__16_0_OFFSET))(this, a1);
 		}
 
 		::System::Void __ShowReconnectDialog_b__19_0(::System::Boolean a1)

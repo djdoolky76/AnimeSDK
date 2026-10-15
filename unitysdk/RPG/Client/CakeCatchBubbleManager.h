@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/CakeBubbleOffset.h"
 #include "unitysdk/RPG/Client/CakeCatchBubbleType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class ACPGJEEJBPB;
 class AGMKEJJJGFM;
 class ALEAKDBNMKC;
@@ -85,14 +85,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::ACPGJEEJBPB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHBUBBLEMANAGER__SHOWCAKEDIALOGUEBUBBLE_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _ResolveBubbleOffset(::ALEAKDBNMKC* a1)
+		::System::ValueTuple_2<::RPG::Client::CakeBubbleOffset, ::RPG::Client::CakeCatchBubbleType> _ResolveBubbleOffset(::ALEAKDBNMKC* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::ALEAKDBNMKC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHBUBBLEMANAGER__RESOLVEBUBBLEOFFSET_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::Client::CakeBubbleOffset, ::RPG::Client::CakeCatchBubbleType>(*)(::PVOID, ::ALEAKDBNMKC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHBUBBLEMANAGER__RESOLVEBUBBLEOFFSET_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _GetDefaultBubbleOffset()
+		::System::ValueTuple_2<::RPG::Client::CakeBubbleOffset, ::RPG::Client::CakeCatchBubbleType> _GetDefaultBubbleOffset()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHBUBBLEMANAGER__GETDEFAULTBUBBLEOFFSET_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::Client::CakeBubbleOffset, ::RPG::Client::CakeCatchBubbleType>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHBUBBLEMANAGER__GETDEFAULTBUBBLEOFFSET_OFFSET))(this);
 		}
 
 		::System::Void ShowCakeIdentityBubble(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)

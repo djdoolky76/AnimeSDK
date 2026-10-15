@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/MonoEffectFlag.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
+#include "unitysdk/System/Nullable_1.h"
 class IDCOKMGFCGJ;
 class IHOMABBDNPN_FIADDBBCCCF;
 class MNLHJMMEHEI_NNKHNDEBHDA;
@@ -20,10 +21,9 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEffect; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -143,9 +143,9 @@ inline static constexpr unsigned int IHOMABBDNPN_TypeDefinitionIndex = 57326;
 			return ((::System::Void(*)(::PVOID, ::RPG::PoolList_1<::System::Object*>*, ::RPG::PoolList_1<::System::Object*>*))((::PBYTE)hIl2Cpp + IHOMABBDNPN_JOBMCEFHLPO_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 KHCGENIKGLE(::MNLHJMMEHEI_NNKHNDEBHDA* a1, ::System::Boolean a2, ::System::Action* a3)
+		::System::UInt32 KHCGENIKGLE(::MNLHJMMEHEI_NNKHNDEBHDA* a1, ::System::Boolean a2, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::MNLHJMMEHEI_NNKHNDEBHDA*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + IHOMABBDNPN_KHCGENIKGLE_OFFSET))(this, a1, a2, a3);
+			return ((::System::UInt32(*)(::PVOID, ::MNLHJMMEHEI_NNKHNDEBHDA*, ::System::Boolean, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*))((::PBYTE)hIl2Cpp + IHOMABBDNPN_KHCGENIKGLE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void FPDKPGOPDJJ(::System::UInt32 a1, ::System::Boolean a2)
@@ -308,9 +308,9 @@ inline static constexpr unsigned int IHOMABBDNPN_TypeDefinitionIndex = 57326;
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IHOMABBDNPN_CMBGBPKEAFM_OFFSET))(this, a1);
 		}
 
-		::System::Void CMBGBPKEAFM_1(::System::String* a1, ::System::Nullable* a2)
+		::System::Void CMBGBPKEAFM_1(::System::String* a1, ::System::Nullable_1<::System::Boolean> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IHOMABBDNPN_CMBGBPKEAFM_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + IHOMABBDNPN_CMBGBPKEAFM_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void JDBKCOBIOPP(::System::String* a1)

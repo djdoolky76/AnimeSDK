@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/PixAirEventType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class BCLKDMAHONE;
 class DDCDKHALPDP;
 class DOMHKLANPAI;
@@ -11,7 +12,6 @@ class HJMFDDMHOJC;
 class IOGNBKGNPFD;
 class PMGIMPDMIKC;
 namespace Entitas { class IEntity; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Text { class StringBuilder; }
@@ -235,9 +235,9 @@ inline static constexpr unsigned int IIBBDJLIICI_TypeDefinitionIndex = 77285;
 			return ((::System::Void(*)(::BCLKDMAHONE*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::PixAirEventType>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IIBBDJLIICI_DGDJFKDHFON_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void LALDODDPCBG(::BCLKDMAHONE* a1, ::System::Nullable* a2)
+		static ::System::Void LALDODDPCBG(::BCLKDMAHONE* a1, ::System::Nullable_1<::System::Int32> a2)
 		{
-			return ((::System::Void(*)(::BCLKDMAHONE*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IIBBDJLIICI_LALDODDPCBG_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::BCLKDMAHONE*, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + IIBBDJLIICI_LALDODDPCBG_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* DJMIGINPCCN(::BCLKDMAHONE* a1)

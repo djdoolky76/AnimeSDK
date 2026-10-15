@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/LevelType.h"
+#include "unitysdk/System/Nullable_1.h"
 class DJDNEHAIMCA;
 namespace RPG::Client { class ActivityData; }
 namespace RPG::Client { class ChenLingFesStageData; }
@@ -9,7 +10,6 @@ namespace RPG::Client { class ChenLingFesStageInstance; }
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -65,7 +65,7 @@ namespace RPG::Client
 		::RPG::Client::ChenLingFesStageInstance* _StageInstance_k__BackingField; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*>* _StageDataDict_k__BackingField; // 0x20
 		::DJDNEHAIMCA* _LastStageSettleResult_k__BackingField; // 0x28
-		::System::Nullable* _DefaultDisplayStageType_k__BackingField; // 0x30
+		::System::Nullable_1<::RPG::GameCore::LevelType> _DefaultDisplayStageType_k__BackingField; // 0x30
 		static ::System::UInt32* StaticGet_ACTIVITY_ID()
 		{
 			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "ChenLingFesModule")->GetStaticField(0x9D0);
@@ -246,14 +246,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::DJDNEHAIMCA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODULE_SET_LASTSTAGESETTLERESULT_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_DefaultDisplayStageType()
+		::System::Nullable_1<::RPG::GameCore::LevelType> get_DefaultDisplayStageType()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODULE_GET_DEFAULTDISPLAYSTAGETYPE_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::LevelType>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODULE_GET_DEFAULTDISPLAYSTAGETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_DefaultDisplayStageType(::System::Nullable* a1)
+		::System::Void set_DefaultDisplayStageType(::System::Nullable_1<::RPG::GameCore::LevelType> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODULE_SET_DEFAULTDISPLAYSTAGETYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::LevelType>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODULE_SET_DEFAULTDISPLAYSTAGETYPE_OFFSET))(this, a1);
 		}
 
 		::System::Void RecordDefaultDisplayStageType(::RPG::GameCore::LevelType a1)
@@ -261,9 +261,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODULE_RECORDDEFAULTDISPLAYSTAGETYPE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* ConsumeDefaultDisplayStageType()
+		::System::Nullable_1<::RPG::GameCore::LevelType> ConsumeDefaultDisplayStageType()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODULE_CONSUMEDEFAULTDISPLAYSTAGETYPE_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::LevelType>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODULE_CONSUMEDEFAULTDISPLAYSTAGETYPE_OFFSET))(this);
 		}
 
 		::System::Void __SendInitPacket_b__19_0(::RPG::Client::ScheduleData* a1)

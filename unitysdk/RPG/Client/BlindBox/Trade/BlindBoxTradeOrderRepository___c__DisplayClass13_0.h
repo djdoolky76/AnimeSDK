@@ -4,7 +4,7 @@
 class MNGELOJBJGC;
 namespace RPG::Client::BlindBox::Trade { class BlindBoxTradeOrderRepository; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC89D770)
 #define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS13_0__LOADHISTORYORDERS_B__0_OFFSET UNITYSDK_OFFSET(0xC8A2FD0)
@@ -18,7 +18,7 @@ namespace RPG::Client::BlindBox::Trade
 	{
 	public:
 		::RPG::Client::BlindBox::Trade::BlindBoxTradeOrderRepository* __4__this; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action_1<::MNGELOJBJGC*>* __9__1; // 0x18
 		::System::UInt32 offset; // 0x20
 		::System::UInt32 count; // 0x24
 		::System::Void _ctor()

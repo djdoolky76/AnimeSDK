@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace Cinemachine { class CinemachineDollyCart; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_TRAINPARTYLOOPCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE301800)
@@ -24,7 +24,7 @@ namespace RPG::Client
 		::System::Boolean IsLoop; // 0x38
 		::System::Byte _padding1[0x3];
 		::System::Single MoveLength; // 0x3C
-		::System::Nullable* AHOAJOAEPMC; // 0x40
+		::System::Nullable_1<::System::Single> AHOAJOAEPMC; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYLOOPCONTROL_CTOR_OFFSET))(this);

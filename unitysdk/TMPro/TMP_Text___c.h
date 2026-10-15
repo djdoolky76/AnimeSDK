@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace TMPro { class TMP_TextInfo; }
 namespace UnityEngine { class Mesh; }
 
@@ -18,14 +19,14 @@ namespace TMPro
 	class TMP_Text___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__625_1()
+		static ::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>** StaticGet___9__625_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x52760);
+			return (::System::Action_3<::UnityEngine::Mesh*, ::TMPro::TMP_TextInfo*, ::System::Int32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x52760);
 		}
 
-		static ::System::Action** StaticGet___9__625_0()
+		static ::System::Action_1<::TMPro::TMP_TextInfo*>** StaticGet___9__625_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x52768);
+			return (::System::Action_1<::TMPro::TMP_TextInfo*>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x52768);
 		}
 
 		static ::System::Object** StaticGet___9()

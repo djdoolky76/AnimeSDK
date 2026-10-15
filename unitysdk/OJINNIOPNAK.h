@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FFCGHKGDAJF;
 class GFBAEDGGPMM;
 class GIJPBMMNJKO;
@@ -45,9 +45,9 @@ inline static constexpr unsigned int OJINNIOPNAK_TypeDefinitionIndex = 74582;
 			return ((::GFBAEDGGPMM*(*)(::PVOID, ::FFCGHKGDAJF*, ::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>*, ::RPG::Client::NavMap::ITrackPointInfo*))((::PBYTE)hIl2Cpp + OJINNIOPNAK_OHCBNANFLFK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple DAFIMENKAPD(::FFCGHKGDAJF* a1, ::RPG::Client::NavMap::ITrackPointInfo* a2)
+		::System::ValueTuple_2<::GIJPBMMNJKO*, ::IOEPMPAKMOK*> DAFIMENKAPD(::FFCGHKGDAJF* a1, ::RPG::Client::NavMap::ITrackPointInfo* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::FFCGHKGDAJF*, ::RPG::Client::NavMap::ITrackPointInfo*))((::PBYTE)hIl2Cpp + OJINNIOPNAK_DAFIMENKAPD_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::GIJPBMMNJKO*, ::IOEPMPAKMOK*>(*)(::PVOID, ::FFCGHKGDAJF*, ::RPG::Client::NavMap::ITrackPointInfo*))((::PBYTE)hIl2Cpp + OJINNIOPNAK_DAFIMENKAPD_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::MappingInfoNode*>* HEAFEHKDDFM(::FFCGHKGDAJF* a1, ::System::Collections::Generic::List_1<::RPG::Client::NavMap::MappingInfoNode*>* a2, ::IOEPMPAKMOK* a3, ::GIJPBMMNJKO* a4)

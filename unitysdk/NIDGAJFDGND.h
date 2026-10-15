@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BOMFGKDLHIB;
 class FDPALAEIHPB;
 class IIBBAFBGJJP;
 class MLOAGJHJHHA;
-namespace System { class Nullable; }
 
 #define NIDGAJFDGND_AKOOKMNFBIM_OFFSET UNITYSDK_OFFSET(0x1C967DC0)
 #define NIDGAJFDGND_CEOJHMLFBCK_OFFSET UNITYSDK_OFFSET(0x1C967E30)
@@ -29,9 +29,9 @@ inline static constexpr unsigned int NIDGAJFDGND_TypeDefinitionIndex = 42300;
 	public:
 		::BOMFGKDLHIB* PDENFEFCAGN; // 0x10
 		::FDPALAEIHPB* FKINCGODJEP; // 0x18
-		::System::Nullable* PNEBDPNONDN; // 0x20
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> PNEBDPNONDN; // 0x20
 		::System::Byte _padding0[0x4];
-		::System::Nullable* ENMDBEKHOJH; // 0x2C
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> ENMDBEKHOJH; // 0x2C
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::BOMFGKDLHIB* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*, ::BOMFGKDLHIB*))((::PBYTE)hIl2Cpp + NIDGAJFDGND_CTOR_OFFSET))(this, a1, a2);
@@ -57,9 +57,9 @@ inline static constexpr unsigned int NIDGAJFDGND_TypeDefinitionIndex = 42300;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NIDGAJFDGND_OLPJKJFABAH_OFFSET))(this);
 		}
 
-		::System::Boolean PJOJKEDHGHC(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Boolean PJOJKEDHGHC(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + NIDGAJFDGND_PJOJKEDHGHC_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + NIDGAJFDGND_PJOJKEDHGHC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean FLFMLDOGJJB()

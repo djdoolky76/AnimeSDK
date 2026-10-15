@@ -10,8 +10,8 @@ namespace RPG::Client { class UIStateCtrl; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayItemControl; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayItemViewModel; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesItemTagMiniControl; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
@@ -51,8 +51,8 @@ namespace RPG::Client::ChenLingFes
 	class ChenLingFesGameplayItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::System::Action* OnClickItem; // 0x40
-		::System::Action* OnSelectItem; // 0x48
+		::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayItemControl*>* OnClickItem; // 0x40
+		::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayItemControl*>* OnSelectItem; // 0x48
 		::System::Func_1<::System::Boolean>* CanInteract; // 0x50
 		::RPG::Client::AnimatorButton* _BtnRoot; // 0x58
 		::RPG::Client::AnimatorButton* _GamepadBtnDetail; // 0x60

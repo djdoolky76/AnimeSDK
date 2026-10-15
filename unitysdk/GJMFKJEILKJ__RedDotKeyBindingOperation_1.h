@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -11,5 +11,5 @@ inline static constexpr unsigned int GJMFKJEILKJ__RedDotKeyBindingOperation_1_Ty
 	class GJMFKJEILKJ__RedDotKeyBindingOperation_1 : public ::System::Object
 	{
 	public:
-		::System::Func_2<T, ::R3::Observable*>* _KeySelector; // 0x0
+		::System::Func_2<T, ::R3::Observable_1<::System::String*>*>* _KeySelector; // 0x0
 	};

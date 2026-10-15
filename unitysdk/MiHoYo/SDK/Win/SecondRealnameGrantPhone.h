@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SecondRealnameGrantPhone; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -49,7 +50,7 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Text* otherVerifyButtonText; // 0xB0
 		::System::Action* OnBack; // 0xB8
 		::System::Action* OnGetCode; // 0xC0
-		::System::Action* OnLogin; // 0xC8
+		::System::Action_1<::System::String*>* OnLogin; // 0xC8
 		::System::Action* OnGrantMail; // 0xD0
 		::System::Action* OnOtherVerify; // 0xD8
 		::System::Boolean isRequestVerifyCode; // 0xE0

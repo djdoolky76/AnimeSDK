@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/MemberSerialization.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace Newtonsoft::Json { class JsonConverter; }
 namespace Newtonsoft::Json::Utilities { class ReflectionDelegateFactory; }
 namespace Newtonsoft::Json::Utilities { class ReflectionObject; }
 namespace Newtonsoft::Json::Utilities { template <typename T1, typename T2> class ThreadSafeStore_2; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -50,9 +50,9 @@ namespace Newtonsoft::Json::Serialization
 			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "JsonTypeReflector")->GetStaticField(0x30DA0);
 		}
 
-		static ::System::Nullable** StaticGet__fullyTrusted()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet__fullyTrusted()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "JsonTypeReflector")->GetStaticField(0xA490);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("Newtonsoft.Json.Serialization", "JsonTypeReflector")->GetStaticField(0xA490);
 		}
 
 		static ::System::Void _cctor()

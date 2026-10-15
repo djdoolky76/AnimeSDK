@@ -3,9 +3,10 @@
 #include "unitysdk/MiHoYo/SDK/PluginUI/IPluginUIService.h"
 namespace MiHoYo::SDK::PluginUI { class IPluginUIService_ShowPluginUITask; }
 namespace MiHoYo::SDK::PluginUI { class PluginUIDispatcher; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF8ABD0)
@@ -43,9 +44,9 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::MiHoYo::SDK::PluginUI::PluginUIDispatcher*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_GETINSTANCE_OFFSET))();
 		}
 
-		::System::Void ManuallyShowPluginUI(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* a2, ::System::String* a3)
+		::System::Void ManuallyShowPluginUI(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_MANUALLYSHOWPLUGINUI_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_PLUGINUIDISPATCHER_MANUALLYSHOWPLUGINUI_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnCreateService()

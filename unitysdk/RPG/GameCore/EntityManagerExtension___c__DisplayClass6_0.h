@@ -6,8 +6,8 @@ class IJEKJNBKPJN;
 namespace RPG::Client { class AssemNPC; }
 namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE63F790)
 #define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS6_0__CREATEASSEMBLYNPC_B__0_OFFSET UNITYSDK_OFFSET(0xE6642C0)
@@ -20,7 +20,7 @@ namespace RPG::GameCore
 	{
 	public:
 		::System::String* uniqueName; // 0x10
-		::System::Action* OnLoadFinish; // 0x18
+		::System::Action_1<::RPG::GameCore::GameEntity*>* OnLoadFinish; // 0x18
 		::RPG::GameCore::EntityManager* pManager; // 0x20
 		::RPG::Client::AssemNPC* npcConfig; // 0x28
 		::RPG::GameCore::GameEntity* pEntity; // 0x30

@@ -18,7 +18,7 @@
 #include "unitysdk/RPG/Client/RoadRash/RoadRashObstacleImpactVisualOverrideConfig.h"
 #include "unitysdk/RPG/Client/RoadRash/RoadRashObstaclePhysicsImpactConfig.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BEGILENIHBD;
@@ -55,10 +55,10 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameProjectile; }
 namespace RPG::Client::RoadRash { class MonoRoadRashGameSettings; }
 namespace RPG::Client::RoadRash { class RoadRashGameSettingsConfigure_AICarConfig; }
 namespace RPG::GameCore { class LittleGameAbilityConfig; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -648,9 +648,9 @@ inline static constexpr unsigned int CGBECAKCLFD_TypeDefinitionIndex = 75915;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CGBECAKCLFD_LFCINKCOPDC_OFFSET))(this);
 		}
 
-		::System::UInt32 BGEBEKMJIPD(::GHMGGIHEHJE* a1, ::RPG::Client::RoadRash::MonoEffectConfig a2, ::System::Action* a3, ::System::Action* a4, ::System::Boolean a5)
+		::System::UInt32 BGEBEKMJIPD(::GHMGGIHEHJE* a1, ::RPG::Client::RoadRash::MonoEffectConfig a2, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a3, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a4, ::System::Boolean a5)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::GHMGGIHEHJE*, ::RPG::Client::RoadRash::MonoEffectConfig, ::System::Action*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + CGBECAKCLFD_BGEBEKMJIPD_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::UInt32(*)(::PVOID, ::GHMGGIHEHJE*, ::RPG::Client::RoadRash::MonoEffectConfig, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CGBECAKCLFD_BGEBEKMJIPD_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::UInt32 ICANIKHCBPG(::GHMGGIHEHJE* a1)
@@ -678,14 +678,14 @@ inline static constexpr unsigned int CGBECAKCLFD_TypeDefinitionIndex = 75915;
 			return ((::System::UInt32(*)(::PVOID, ::GHMGGIHEHJE*))((::PBYTE)hIl2Cpp + CGBECAKCLFD_POMAMBGPJCB_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 BGEBEKMJIPD_1(::GHMGGIHEHJE* a1, ::RPG::Client::RoadRash::MonoSpeedEffectConfig a2, ::System::Action* a3, ::System::Boolean a4)
+		::System::UInt32 BGEBEKMJIPD_1(::GHMGGIHEHJE* a1, ::RPG::Client::RoadRash::MonoSpeedEffectConfig a2, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a3, ::System::Boolean a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::GHMGGIHEHJE*, ::RPG::Client::RoadRash::MonoSpeedEffectConfig, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + CGBECAKCLFD_BGEBEKMJIPD_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::UInt32(*)(::PVOID, ::GHMGGIHEHJE*, ::RPG::Client::RoadRash::MonoSpeedEffectConfig, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CGBECAKCLFD_BGEBEKMJIPD_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::UInt32 GPKKCGLAFJF(::GHMGGIHEHJE* a1, ::System::String* a2, ::System::String* a3, ::System::Single a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Action* a7, ::System::Action* a8, ::System::Boolean a9)
+		::System::UInt32 GPKKCGLAFJF(::GHMGGIHEHJE* a1, ::System::String* a2, ::System::String* a3, ::System::Single a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a7, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a8, ::System::Boolean a9)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::GHMGGIHEHJE*, ::System::String*, ::System::String*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + CGBECAKCLFD_GPKKCGLAFJF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::UInt32(*)(::PVOID, ::GHMGGIHEHJE*, ::System::String*, ::System::String*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CGBECAKCLFD_GPKKCGLAFJF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void ILLFLMDDMBK(::GHMGGIHEHJE* a1, ::GHMGGIHEHJE* a2)
@@ -943,19 +943,19 @@ inline static constexpr unsigned int CGBECAKCLFD_TypeDefinitionIndex = 75915;
 			return ((::System::Void(*)(::PVOID, ::GHMGGIHEHJE*))((::PBYTE)hIl2Cpp + CGBECAKCLFD_PIBKBCGJOBI_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple KCCJFGKPKNJ(::BJIACBNKCCJ* a1, ::System::Single a2, ::System::Single a3)
+		::System::ValueTuple_2<::BJIACBNKCCJ*, ::System::Single> KCCJFGKPKNJ(::BJIACBNKCCJ* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::BJIACBNKCCJ*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CGBECAKCLFD_KCCJFGKPKNJ_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::BJIACBNKCCJ*, ::System::Single>(*)(::PVOID, ::BJIACBNKCCJ*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CGBECAKCLFD_KCCJFGKPKNJ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple BKJGJLEEBJH(::BJIACBNKCCJ* a1, ::System::Single a2, ::System::Single a3)
+		::System::ValueTuple_2<::BJIACBNKCCJ*, ::System::Single> BKJGJLEEBJH(::BJIACBNKCCJ* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::BJIACBNKCCJ*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CGBECAKCLFD_BKJGJLEEBJH_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::BJIACBNKCCJ*, ::System::Single>(*)(::PVOID, ::BJIACBNKCCJ*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CGBECAKCLFD_BKJGJLEEBJH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple GIPNFPMDFGJ(::BJIACBNKCCJ* a1, ::System::Single a2, ::System::Single a3)
+		::System::ValueTuple_2<::BJIACBNKCCJ*, ::System::Single> GIPNFPMDFGJ(::BJIACBNKCCJ* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::BJIACBNKCCJ*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CGBECAKCLFD_GIPNFPMDFGJ_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::BJIACBNKCCJ*, ::System::Single>(*)(::PVOID, ::BJIACBNKCCJ*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CGBECAKCLFD_GIPNFPMDFGJ_OFFSET))(this, a1, a2, a3);
 		}
 
 		::BJIACBNKCCJ* FNJHBBGKDPG(::BJIACBNKCCJ* a1)

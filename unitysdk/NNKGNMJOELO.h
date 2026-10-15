@@ -3,7 +3,7 @@
 #include "unitysdk/NNKGNMJOELO_OperateMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class NGFHCJIAOLH;
 class OAIPJANPCEK;
 class OFGLEOIIJBD;
@@ -116,9 +116,9 @@ inline static constexpr unsigned int NNKGNMJOELO_TypeDefinitionIndex = 77752;
 			return ((::System::Void(*)(::PVOID, ::OFGLEOIIJBD*))((::PBYTE)hIl2Cpp + NNKGNMJOELO_JNKBNFEBEIG_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* GHBPENNEKAI()
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>* GHBPENNEKAI()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNKGNMJOELO_GHBPENNEKAI_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNKGNMJOELO_GHBPENNEKAI_OFFSET))(this);
 		}
 
 		::System::Void LNDGFLJHOBE()

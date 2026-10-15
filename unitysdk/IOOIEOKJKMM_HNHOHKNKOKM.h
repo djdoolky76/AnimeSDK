@@ -3,7 +3,7 @@
 #include "unitysdk/System/Net/HttpStatusCode.h"
 #include "unitysdk/System/Object.h"
 class HNFFJNEKJHA;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebResponse; }
 
@@ -16,7 +16,7 @@ inline static constexpr unsigned int IOOIEOKJKMM_HNHOHKNKOKM_TypeDefinitionIndex
 	public:
 		::System::Net::WebResponse* LCJPCLCCOHB; // 0x10
 		::HNFFJNEKJHA* EPFMCIOMPHH; // 0x18
-		::System::Action* PKOEDEOHADB; // 0x20
+		::System::Action_3<::System::Net::HttpStatusCode, ::System::Int32, ::HNFFJNEKJHA*>* PKOEDEOHADB; // 0x20
 		::System::Net::HttpWebRequest* MDPHGOBONBG; // 0x28
 		::System::Int32 AEBMCLFMKKB; // 0x30
 		::System::Void _ctor()

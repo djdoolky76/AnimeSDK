@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG::Client::LittleGame { template <typename T> class IEntityScaledTimeService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventActionService_1; }
@@ -19,10 +19,10 @@ namespace RPG::Client::LittleGame::FiveDim
 	class BaseEventActionSystem_1 : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* _EventReceiverGroup; // 0x0
-		::Entitas::IGroup* _EventEmitterGroup; // 0x0
-		::Entitas::ICollector* _EventEmitterCollector; // 0x0
-		::Entitas::IGroup* _DelayedActionGroup; // 0x0
+		::Entitas::IGroup_1<T>* _EventReceiverGroup; // 0x0
+		::Entitas::IGroup_1<T>* _EventEmitterGroup; // 0x0
+		::Entitas::ICollector_1<T>* _EventEmitterCollector; // 0x0
+		::Entitas::IGroup_1<T>* _DelayedActionGroup; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::PoolDictionary_2<::RPG::GameCore::LittleGameEvent*, ::System::Object*>*>* _EventCallbackCaches; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IFiveDimEventService_1<T>* _EventService; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IFiveDimEventActionService_1<T>* _ActionService; // 0x0

@@ -18,7 +18,8 @@
 #include "unitysdk/RPG/GameCore/SpecialSkillButtonGroupType.h"
 #include "unitysdk/RPG/GameCore/TeamTypeMask.h"
 #include "unitysdk/RPG/MVector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class HLHIKGINAHB;
 class MBBEBLGELAP;
@@ -32,7 +33,6 @@ namespace RPG::GameCore { class ICharacterRowData; }
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace RPG::GameCore { class LocationConfig; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -159,7 +159,7 @@ namespace RPG::GameCore
 		::System::Collections::Generic::HashSet_1<::System::String*>* HideDisplayInfoSkillNames; // 0x50
 		::IJDDNGPOEHK _OverrideCharacterConfigParam; // 0x58
 		::RPG::GameCore::GameEntity* Summoner; // 0xE0
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _DummpyEntityList; // 0xE8
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::RPG::GameCore::GameEntity*>>* _DummpyEntityList; // 0xE8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _CharacterUICustomValueDict; // 0xF0
 		::System::String* OrbitAgentDummyName; // 0xF8
 		::RPG::GameCore::GameEntity* Creator; // 0x100
@@ -170,14 +170,14 @@ namespace RPG::GameCore
 		::System::UInt32 _CharacterID_k__BackingField; // 0x118
 		::System::Int32 LineupIndex; // 0x11C
 		::System::Boolean _IsVisibleInViewMode_k__BackingField; // 0x120
-		::System::Nullable* _SaveModelWhenDeadOverride; // 0x121
+		::System::Nullable_1<::System::Boolean> _SaveModelWhenDeadOverride; // 0x121
 		::NLNEBDEEONP CreateReason; // 0x124
 		::RPG::GameCore::CharacterEnhancedStateType EnhancedState; // 0x128
 		::System::Int32 _ActivityTag_k__BackingField; // 0x12C
 		::System::UInt32 _LastActTurnCount_k__BackingField; // 0x130
 		::System::Boolean IsBodyPart; // 0x134
 		::System::Boolean TriggerLimbo; // 0x135
-		::System::Nullable* DisableHeadLookAtActionEntityOverride; // 0x136
+		::System::Nullable_1<::System::Boolean> DisableHeadLookAtActionEntityOverride; // 0x136
 		::System::Boolean _ShowSummonerUI_k__BackingField; // 0x138
 		::System::Byte _padding0[0x3];
 		::System::UInt32 SpawnTurnCount; // 0x13C

@@ -6,7 +6,7 @@ class OEODAOIOGLO;
 namespace RPG::Client { class AudioBundleInfoItem; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
@@ -30,7 +30,7 @@ inline static constexpr unsigned int OEODAOIOGLO__GetNeedClearFiles_d__54_TypeDe
 	public:
 		::System::IO::FileInfo* _fileInfo_5__6; // 0x10
 		::OEODAOIOGLO* __4__this; // 0x18
-		::System::Tuple* __2__current; // 0x20
+		::System::Tuple_2<::System::String*, ::System::Boolean>* __2__current; // 0x20
 		::RPG::Client::AudioBundleInfoItem* _audio_5__7; // 0x28
 		::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap4; // 0x30
 		::KLBIIOCGHGD* _indexInfo_5__2; // 0x38
@@ -61,9 +61,9 @@ inline static constexpr unsigned int OEODAOIOGLO__GetNeedClearFiles_d__54_TypeDe
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OEODAOIOGLO__GETNEEDCLEARFILES_D__54___M__FINALLY1_OFFSET))(this);
 		}
 
-		::System::Tuple* System_Collections_Generic_IEnumerator_System_Tuple_System_String_System_Boolean___get_Current()
+		::System::Tuple_2<::System::String*, ::System::Boolean>* System_Collections_Generic_IEnumerator_System_Tuple_System_String_System_Boolean___get_Current()
 		{
-			return ((::System::Tuple*(*)(::PVOID))((::PBYTE)hIl2Cpp + OEODAOIOGLO__GETNEEDCLEARFILES_D__54_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET))(this);
+			return ((::System::Tuple_2<::System::String*, ::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OEODAOIOGLO__GETNEEDCLEARFILES_D__54_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int OEODAOIOGLO__GetNeedClearFiles_d__54_TypeDe
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + OEODAOIOGLO__GETNEEDCLEARFILES_D__54_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Tuple*>* System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_Boolean___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_Boolean___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OEODAOIOGLO__GETNEEDCLEARFILES_D__54_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OEODAOIOGLO__GETNEEDCLEARFILES_D__54_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

@@ -9,8 +9,8 @@ class ELMBLCNMADI;
 namespace RPG::Client::ActivityHipplen { class HipplenMovingGoodsInputSeq; }
 namespace RPG::GameCore { class AnchorInfo; }
 namespace RPG::GameCore { class HipplenMovingGoodsMiniGameConfig; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSMINIGAME_CANRESTART_OFFSET UNITYSDK_OFFSET(0xC435AC0)
 #define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSMINIGAME_CTOR_OFFSET UNITYSDK_OFFSET(0xC421C40)
@@ -57,8 +57,8 @@ namespace RPG::Client::ActivityHipplen
 	{
 	public:
 		::RPG::Client::ActivityHipplen::HipplenMovingGoodsInputSeq* _CurInputSeq_k__BackingField; // 0x70
-		::System::Action* _ShowInputSeqHandler; // 0x78
-		::System::Action* _OnGameTimeChanged; // 0x80
+		::System::Action_1<::System::Boolean>* _ShowInputSeqHandler; // 0x78
+		::System::Action_1<::System::Single>* _OnGameTimeChanged; // 0x80
 		::RPG::GameCore::HipplenMovingGoodsMiniGameConfig* _ConfigRef; // 0x88
 		::System::Single _FinishCountDown; // 0x90
 		::RPG::Client::ActivityHipplen::HipplenMovingGoodsMiniGame_InnerState _State; // 0x94
@@ -77,14 +77,14 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSMINIGAME_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void SetOnGameTimeChanged(::System::Action* a1)
+		::System::Void SetOnGameTimeChanged(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSMINIGAME_SETONGAMETIMECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSMINIGAME_SETONGAMETIMECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void SetShowInputSeqHandler(::System::Action* a1)
+		::System::Void SetShowInputSeqHandler(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSMINIGAME_SETSHOWINPUTSEQHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENMOVINGGOODSMINIGAME_SETSHOWINPUTSEQHANDLER_OFFSET))(this, a1);
 		}
 
 		::System::Void Run()

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace Mono::Net::Security { class AsyncProtocolRequest; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
@@ -21,9 +21,9 @@ namespace Mono::Net::Security
 		::System::Object* __u__1; // 0x18
 		::System::Byte _padding0[0x8];
 		::Mono::Net::Security::AsyncProtocolRequest* __4__this; // 0x28
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x30
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Int32>> __t__builder; // 0x30
 		::System::Byte _padding1[0x10];
-		::System::Nullable* _totalRead_5__2; // 0x48
+		::System::Nullable_1<::System::Int32> _totalRead_5__2; // 0x48
 		::System::Int32 _requestedSize_5__1; // 0x50
 		::System::Int32 __1__state; // 0x54
 		::System::Void MoveNext()

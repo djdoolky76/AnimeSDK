@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class IOJPCGBBOKJ;
 namespace RPG::Client { class SimulateSpeedController; }
 namespace RPG::Client { class SystemOpenModule; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Nullable; }
 
 #define IOJPCGBBOKJ_BNEKHIKBEND_OFFSET UNITYSDK_OFFSET(0x165041A0)
 #define IOJPCGBBOKJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16503D40)
@@ -50,9 +50,9 @@ inline static constexpr unsigned int IOJPCGBBOKJ_TypeDefinitionIndex = 72025;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IOJPCGBBOKJ_IBDIMBNFLHN_OFFSET))(this);
 		}
 
-		::System::Boolean EBKJGPEKDON(::System::Nullable* a1)
+		::System::Boolean EBKJGPEKDON(::System::Nullable_1<::System::Boolean> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + IOJPCGBBOKJ_EBKJGPEKDON_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + IOJPCGBBOKJ_EBKJGPEKDON_OFFSET))(this, a1);
 		}
 
 		::System::Boolean LFMBODEJMGO()
@@ -70,9 +70,9 @@ inline static constexpr unsigned int IOJPCGBBOKJ_TypeDefinitionIndex = 72025;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + IOJPCGBBOKJ_BNEKHIKBEND_OFFSET))(this, a1);
 		}
 
-		::System::Void KANMCJHEFJJ(::System::Nullable* a1)
+		::System::Void KANMCJHEFJJ(::System::Nullable_1<::System::Boolean> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + IOJPCGBBOKJ_KANMCJHEFJJ_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + IOJPCGBBOKJ_KANMCJHEFJJ_OFFSET))(this, a1);
 		}
 
 		::System::Void PNNHMOIACLL()

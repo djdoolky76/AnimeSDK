@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
@@ -36,7 +36,7 @@ namespace RPG::Client
 	class UIBillboard : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* _lateUpdateCallback; // 0x18
+		::System::Action_2<::XLua::LuaTable*, ::System::Single>* _lateUpdateCallback; // 0x18
 		::XLua::LuaTable* _lateUpdateLuaSelf; // 0x20
 		::System::Boolean _IsTicking; // 0x28
 		::System::Boolean _IsOrthographic; // 0x29
@@ -116,9 +116,9 @@ namespace RPG::Client
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_GETRECTTRANSFORM_OFFSET))(this);
 		}
 
-		::System::Void SetLateUpdateCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void SetLateUpdateCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETLATEUPDATECALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIBILLBOARD_SETLATEUPDATECALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearLateTickCallback()

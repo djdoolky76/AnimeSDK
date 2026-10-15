@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChenLingFesProperty.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define BAMOCNEALHK_AAEKJNLAJEC_OFFSET UNITYSDK_OFFSET(0x1C8B0560)
@@ -24,7 +24,7 @@ inline static constexpr unsigned int BAMOCNEALHK_TypeDefinitionIndex = 43720;
 	{
 	public:
 		::Il2CppArray<::System::Single>* FBEBNLOPIBL; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesProperty, ::System::Action*>* NNJIDEOKDII; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesProperty, ::System::Action_2<::System::Single, ::System::Single>*>* NNJIDEOKDII; // 0x18
 		::System::Single JGCJFLDDOBM; // 0x20
 		::System::Single GOCNDFOEJLF; // 0x24
 		static ::System::Single* StaticGet_CKKLOBHGMMC()
@@ -87,14 +87,14 @@ inline static constexpr unsigned int BAMOCNEALHK_TypeDefinitionIndex = 43720;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAMOCNEALHK_AAEKJNLAJEC_OFFSET))(this);
 		}
 
-		::System::Void HFFBCPHLNEJ(::RPG::GameCore::ChenLingFesProperty a1, ::System::Action* a2)
+		::System::Void HFFBCPHLNEJ(::RPG::GameCore::ChenLingFesProperty a1, ::System::Action_2<::System::Single, ::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingFesProperty, ::System::Action*))((::PBYTE)hIl2Cpp + BAMOCNEALHK_HFFBCPHLNEJ_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingFesProperty, ::System::Action_2<::System::Single, ::System::Single>*))((::PBYTE)hIl2Cpp + BAMOCNEALHK_HFFBCPHLNEJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void MOLEJCLFFKI(::RPG::GameCore::ChenLingFesProperty a1, ::System::Action* a2)
+		::System::Void MOLEJCLFFKI(::RPG::GameCore::ChenLingFesProperty a1, ::System::Action_2<::System::Single, ::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingFesProperty, ::System::Action*))((::PBYTE)hIl2Cpp + BAMOCNEALHK_MOLEJCLFFKI_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingFesProperty, ::System::Action_2<::System::Single, ::System::Single>*))((::PBYTE)hIl2Cpp + BAMOCNEALHK_MOLEJCLFFKI_OFFSET))(this, a1, a2);
 		}
 
 	};

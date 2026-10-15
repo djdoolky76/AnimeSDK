@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class SafePhoneManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_SAFEPHONEMANAGER_BINDMOBILETICKET_OFFSET UNITYSDK_OFFSET(0x1BDEC760)
 #define MIHOYO_SDK_WIN_SAFEPHONEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDED260)
@@ -54,13 +56,13 @@ namespace MiHoYo::SDK::Win
 	{
 	public:
 		::MiHoYo::SDK::AccountModel* accountModel; // 0x10
-		::System::Action* m_callbackPluginUIGetMailCaptcha; // 0x18
-		::System::Action* OnBindSafePhoneSuccess; // 0x20
+		::System::Action_1<::System::String*>* m_callbackPluginUIGetMailCaptcha; // 0x18
+		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnBindSafePhoneSuccess; // 0x20
 		::System::String* ticket; // 0x28
 		::System::String* phoneNumber; // 0x30
-		::System::Action* m_callbackPluginUIGetCaptcha; // 0x38
+		::System::Action_1<::System::String*>* m_callbackPluginUIGetCaptcha; // 0x38
 		::System::Action* OnClose; // 0x40
-		::System::Action* OnBindSafePhoneFail; // 0x48
+		::System::Action_2<::System::Int32, ::System::String*>* OnBindSafePhoneFail; // 0x48
 		static ::MiHoYo::SDK::Win::SafePhoneManager** StaticGet_Instance()
 		{
 			return (::MiHoYo::SDK::Win::SafePhoneManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "SafePhoneManager")->GetStaticField(0x19BD0);
@@ -132,9 +134,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER_ONGETBINDRESULT_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestBindMobile(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void RequestBindMobile(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER_REQUESTBINDMOBILE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER_REQUESTBINDMOBILE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnGetMobileCode(::System::String* a1)
@@ -142,9 +144,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER_ONGETMOBILECODE_OFFSET))(this, a1);
 		}
 
-		::System::Void BindMobileTicket(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void BindMobileTicket(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER_BINDMOBILETICKET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER_BINDMOBILETICKET_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void RequestMobileCaptcha(::System::String* a1)
@@ -182,24 +184,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER_ONVERIFYMAILBYCODE_OFFSET))(this, a1);
 		}
 
-		::System::Void _ShowBindMobilePluginUI_b__12_0(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowBindMobilePluginUI_b__12_0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILEPLUGINUI_B__12_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILEPLUGINUI_B__12_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowBindMobilePluginUI_b__12_1(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowBindMobilePluginUI_b__12_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILEPLUGINUI_B__12_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILEPLUGINUI_B__12_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowBindMobilePluginUI_b__12_2(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowBindMobilePluginUI_b__12_2(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILEPLUGINUI_B__12_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILEPLUGINUI_B__12_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowBindMobilePluginUI_b__12_3(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowBindMobilePluginUI_b__12_3(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILEPLUGINUI_B__12_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILEPLUGINUI_B__12_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ShowBindMobile_b__13_0()
@@ -207,24 +209,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWBINDMOBILE_B__13_0_OFFSET))(this);
 		}
 
-		::System::Void _ShowVerifyMailPluginUI_b__16_0(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowVerifyMailPluginUI_b__16_0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWVERIFYMAILPLUGINUI_B__16_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWVERIFYMAILPLUGINUI_B__16_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowVerifyMailPluginUI_b__16_1(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowVerifyMailPluginUI_b__16_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWVERIFYMAILPLUGINUI_B__16_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWVERIFYMAILPLUGINUI_B__16_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowVerifyMailPluginUI_b__16_2(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowVerifyMailPluginUI_b__16_2(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWVERIFYMAILPLUGINUI_B__16_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWVERIFYMAILPLUGINUI_B__16_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowVerifyMailPluginUI_b__16_3(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowVerifyMailPluginUI_b__16_3(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWVERIFYMAILPLUGINUI_B__16_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_SAFEPHONEMANAGER__SHOWVERIFYMAILPLUGINUI_B__16_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ShowVerifyMail_b__17_0()

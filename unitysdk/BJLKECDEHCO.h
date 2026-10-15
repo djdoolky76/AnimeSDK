@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CDNAABEAPDI;
 class PLLADJPGMCG;
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -45,9 +45,9 @@ inline static constexpr unsigned int BJLKECDEHCO_TypeDefinitionIndex = 52013;
 			return ((::System::Collections::Generic::List_1<::PLLADJPGMCG*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BJLKECDEHCO_BGAKDFJDIKF_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple MHFNLLAGIKN(::System::UInt32 a1)
+		::System::ValueTuple_2<::CDNAABEAPDI*, ::System::Collections::Generic::List_1<::CDNAABEAPDI*>*> MHFNLLAGIKN(::System::UInt32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BJLKECDEHCO_MHFNLLAGIKN_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::CDNAABEAPDI*, ::System::Collections::Generic::List_1<::CDNAABEAPDI*>*>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BJLKECDEHCO_MHFNLLAGIKN_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::CDNAABEAPDI*>* CCDCFEBOGGL(::CDNAABEAPDI* a1)

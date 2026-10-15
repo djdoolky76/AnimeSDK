@@ -18,7 +18,7 @@ namespace RPG::Client::ActivityAlley { class AlleyPackMatReference; }
 namespace RPG::Common { template <typename T> class StateMachine_1; }
 namespace System { class Action; }
 namespace System { class Object; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
@@ -174,9 +174,9 @@ namespace RPG::Client::ActivityAlley
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ENABLECOLLIDERTRIGGER_OFFSET))(this, a1);
 		}
 
-		::System::Tuple* CheckBoundIntersect(::UnityEngine::Bounds a1)
+		::System::Tuple_2<::System::Boolean, ::System::Single>* CheckBoundIntersect(::UnityEngine::Bounds a1)
 		{
-			return ((::System::Tuple*(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_CHECKBOUNDINTERSECT_OFFSET))(this, a1);
+			return ((::System::Tuple_2<::System::Boolean, ::System::Single>*(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_CHECKBOUNDINTERSECT_OFFSET))(this, a1);
 		}
 
 		::System::Void _CollectAnchors()

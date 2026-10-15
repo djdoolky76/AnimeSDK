@@ -4,7 +4,7 @@
 namespace RPG::Client { class TarotBookInteraction; }
 namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class LevelGraphComponent; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define GFCJBHLLKBO_GAPLDKGHPPP_CIHFGJDCHIA_OFFSET UNITYSDK_OFFSET(0x159EA1F0)
 #define GFCJBHLLKBO_GAPLDKGHPPP_CTOR_OFFSET UNITYSDK_OFFSET(0x159E9F70)
@@ -24,15 +24,15 @@ inline static constexpr unsigned int GFCJBHLLKBO_GAPLDKGHPPP_TypeDefinitionIndex
 	class GFCJBHLLKBO_GAPLDKGHPPP : public ::System::Object
 	{
 	public:
-		::System::Action* _OnFinished_k__BackingField; // 0x10
+		::System::Action_1<::RPG::Client::TarotBookInteraction*>* _OnFinished_k__BackingField; // 0x10
 		::RPG::Client::TarotBookInteraction* _Interaction_k__BackingField; // 0x18
 		::RPG::GameCore::EntityManager* _Manager_k__BackingField; // 0x20
 		::RPG::GameCore::LevelGraphComponent* _Component_k__BackingField; // 0x28
 		::System::Boolean _HasStopped_k__BackingField; // 0x30
 		::System::Boolean _HasFinished_k__BackingField; // 0x31
-		::System::Void _ctor(::RPG::Client::TarotBookInteraction* a1, ::System::Action* a2, ::RPG::GameCore::LevelGraphComponent* a3, ::RPG::GameCore::EntityManager* a4)
+		::System::Void _ctor(::RPG::Client::TarotBookInteraction* a1, ::System::Action_1<::RPG::Client::TarotBookInteraction*>* a2, ::RPG::GameCore::LevelGraphComponent* a3, ::RPG::GameCore::EntityManager* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TarotBookInteraction*, ::System::Action*, ::RPG::GameCore::LevelGraphComponent*, ::RPG::GameCore::EntityManager*))((::PBYTE)hIl2Cpp + GFCJBHLLKBO_GAPLDKGHPPP_CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TarotBookInteraction*, ::System::Action_1<::RPG::Client::TarotBookInteraction*>*, ::RPG::GameCore::LevelGraphComponent*, ::RPG::GameCore::EntityManager*))((::PBYTE)hIl2Cpp + GFCJBHLLKBO_GAPLDKGHPPP_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_HasStopped()
@@ -60,9 +60,9 @@ inline static constexpr unsigned int GFCJBHLLKBO_GAPLDKGHPPP_TypeDefinitionIndex
 			return ((::RPG::Client::TarotBookInteraction*(*)(::PVOID))((::PBYTE)hIl2Cpp + GFCJBHLLKBO_GAPLDKGHPPP_GET_INTERACTION_OFFSET))(this);
 		}
 
-		::System::Action* get_OnFinished()
+		::System::Action_1<::RPG::Client::TarotBookInteraction*>* get_OnFinished()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + GFCJBHLLKBO_GAPLDKGHPPP_GET_ONFINISHED_OFFSET))(this);
+			return ((::System::Action_1<::RPG::Client::TarotBookInteraction*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GFCJBHLLKBO_GAPLDKGHPPP_GET_ONFINISHED_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelGraphComponent* get_Component()

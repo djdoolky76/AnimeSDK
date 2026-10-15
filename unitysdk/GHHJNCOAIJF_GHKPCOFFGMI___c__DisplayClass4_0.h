@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class GHHJNCOAIJF;
 class IHGIENOHBMJ;
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
@@ -17,7 +17,7 @@ inline static constexpr unsigned int GHHJNCOAIJF_GHKPCOFFGMI___c__DisplayClass4_
 	public:
 		::UnityEngine::Networking::UnityWebRequest* unityReq; // 0x10
 		::GHHJNCOAIJF* req; // 0x18
-		::RPG::Client::Promises::Promise* promise; // 0x20
+		::RPG::Client::Promises::Promise_1<::IHGIENOHBMJ*>* promise; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHHJNCOAIJF_GHKPCOFFGMI___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

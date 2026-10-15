@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriDisposable.h"
 #include "unitysdk/CriWare/CriAtomExAuxIn_Config.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace CriWare { class CriAudioReadStream; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -39,9 +39,9 @@ namespace CriWare
 		::CriWare::CriAudioReadStream* inputReadStream; // 0x20
 		::System::IntPtr handle; // 0x28
 		// static const ::System::String* errorInvalidHandle; // 0x0
-		::System::Void _ctor(::System::Nullable* a1)
+		::System::Void _ctor(::System::Nullable_1<::System::Object*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXAUXIN_CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXAUXIN_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()

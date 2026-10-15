@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_InsertionStatus.h"
 #include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_RuntimeAtlas_CopyShader.h"
@@ -74,9 +74,9 @@ namespace UnityEngine::UI
 		::System::Int32 m_ParamsID; // 0xB0
 		::System::Int32 m_SrcTexID; // 0xB4
 		::System::Int32 m_DstTexID; // 0xB8
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::ValueTuple>** StaticGet_m_BaseOffset()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::ValueTuple_2<::System::Int32, ::System::Int32>>** StaticGet_m_BaseOffset()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::ValueTuple>**)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlas")->GetStaticField(0x38E50);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::ValueTuple_2<::System::Int32, ::System::Int32>>**)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlas")->GetStaticField(0x38E50);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>** StaticGet_k_AtlasSizeToDepth()

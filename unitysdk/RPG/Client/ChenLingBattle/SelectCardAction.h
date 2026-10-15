@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/PendingAction.h"
+#include "unitysdk/System/Nullable_1.h"
 class GOKHEKCHLEL;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 namespace RPG::Client::ChenLingBattle { class SelectCardActionInfo; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xCA5AE90)
 #define RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCA5B360)
@@ -25,9 +25,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChenLingBattle::ChenLingBattleGameContext*, ::RPG::Client::ChenLingBattle::SelectCardActionInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* OnEnter(::System::Nullable* a1)
+		::RPG::Client::Promises::IPromise* OnEnter(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTION_ONENTER_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_SELECTCARDACTION_ONENTER_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

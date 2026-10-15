@@ -5,6 +5,7 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 
@@ -21,9 +22,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 	class Promise___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__63_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__63_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x47910);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x47910);
 		}
 
 		static ::System::Object** StaticGet___9()

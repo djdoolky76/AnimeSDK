@@ -4,7 +4,7 @@
 class AGKHOGNMPMO;
 class IGNPKBNCDEP;
 class KPBPOKHFDOM;
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define KPBPOKHFDOM_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xB5AFE20)
 #define KPBPOKHFDOM_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xB5AFD00)
@@ -32,9 +32,9 @@ inline static constexpr unsigned int KPBPOKHFDOM_TypeDefinitionIndex = 49257;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + KPBPOKHFDOM_CCTOR_OFFSET))();
 		}
 
-		static ::KPBPOKHFDOM* ACMKLFOMPFC(::System::Action* a1, ::AGKHOGNMPMO* a2)
+		static ::KPBPOKHFDOM* ACMKLFOMPFC(::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>* a1, ::AGKHOGNMPMO* a2)
 		{
-			return ((::KPBPOKHFDOM*(*)(::System::Action*, ::AGKHOGNMPMO*))((::PBYTE)hIl2Cpp + KPBPOKHFDOM_ACMKLFOMPFC_OFFSET))(a1, a2);
+			return ((::KPBPOKHFDOM*(*)(::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>*, ::AGKHOGNMPMO*))((::PBYTE)hIl2Cpp + KPBPOKHFDOM_ACMKLFOMPFC_OFFSET))(a1, a2);
 		}
 
 		::System::Void MBABPIHGAJN(::System::Int64 a1)

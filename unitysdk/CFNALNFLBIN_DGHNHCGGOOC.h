@@ -8,6 +8,7 @@ namespace RPG::Client { class RPGProfilerMarker; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define CFNALNFLBIN_DGHNHCGGOOC_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC590B0)
 #define CFNALNFLBIN_DGHNHCGGOOC_CFGMEFOKIEM_OFFSET UNITYSDK_OFFSET(0xCC57620)
@@ -25,7 +26,7 @@ inline static constexpr unsigned int CFNALNFLBIN_DGHNHCGGOOC_TypeDefinitionIndex
 	public:
 		::KLEFGGIHGMI* EDOPACGLHBN; // 0x10
 		::CFNALNFLBIN* JLDECFKPLCB; // 0x18
-		::System::Action* IMDLGFPMPEK; // 0x20
+		::System::Action_1<::System::Object*>* IMDLGFPMPEK; // 0x20
 		::System::Action* PGGCHMMAAEO; // 0x28
 		::System::String* _debugAssetPath_k__BackingField; // 0x30
 		::System::UInt32 LKKNGKHELAJ; // 0x38

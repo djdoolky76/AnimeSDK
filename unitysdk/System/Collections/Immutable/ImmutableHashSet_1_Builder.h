@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
-namespace System::Collections::Immutable { class ImmutableHashSet; }
+namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 namespace System::Collections::Immutable { template <typename T> class SortedInt32KeyNode_1; }
 
 namespace System::Collections::Immutable
@@ -18,7 +18,7 @@ namespace System::Collections::Immutable
 		::System::Collections::Generic::IEqualityComparer_1<T>* _equalityComparer; // 0x0
 		::System::Collections::Generic::IEqualityComparer_1<::System::Object*>* _hashBucketEqualityComparer; // 0x0
 		::System::Int32 _count; // 0x0
-		::System::Collections::Immutable::ImmutableHashSet* _immutable; // 0x0
+		::System::Collections::Immutable::ImmutableHashSet_1<T>* _immutable; // 0x0
 		::System::Int32 _version; // 0x0
 	};
 }

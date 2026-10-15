@@ -3,6 +3,7 @@
 #include "unitysdk/HLNOEGNOJHH_PlaceInteractState.h"
 #include "unitysdk/NNKGNMJOELO_OperateMode.h"
 #include "unitysdk/RPG/Client/LittleGame/ChenLingFes/ChenLingFesJoyStickState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class GIKOGDBPCLO;
@@ -13,8 +14,8 @@ namespace RPG::Client { class VirtualCursor; }
 namespace RPG::Client { class VirtualCursorSimulateTouchActionWrapper; }
 namespace RPG::Common { template <typename T> class StateMachine_1; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
@@ -63,18 +64,18 @@ inline static constexpr unsigned int IDPIIKPHFJP_TypeDefinitionIndex = 77770;
 	class IDPIIKPHFJP : public ::System::Object
 	{
 	public:
-		::System::Action* CLFCPEOPCFK; // 0x10
+		::System::Action_3<::RPG::Client::VirtualCursorSimulateTouchActionWrapper*, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>* CLFCPEOPCFK; // 0x10
 		::OAIPJANPCEK* PDENFEFCAGN; // 0x18
 		::RPG::Common::StateMachine_1<::IDPIIKPHFJP*>* CBIGPGKJAEI; // 0x20
 		::System::Action* OMAICAFCLKK; // 0x28
-		::System::Action* AFNLFDEBMKC; // 0x30
+		::System::Action_3<::RPG::Client::VirtualCursorSimulateTouchActionWrapper*, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>* AFNLFDEBMKC; // 0x30
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::ChenLingFes::ChenLingFesJoyStickState, ::GIKOGDBPCLO*>* FMKOCCEPMBG; // 0x38
 		::RPG::Client::VirtualCursorSimulateTouchActionWrapper* JMLBHJIEFNF; // 0x40
 		::System::Boolean _IsDraggingUIItem_k__BackingField; // 0x48
 		::System::Boolean _IsExpandSelect_k__BackingField; // 0x49
 		::System::Byte _padding0[0x2];
 		::RPG::Client::LittleGame::ChenLingFes::ChenLingFesJoyStickState _CurJoyStickState_k__BackingField; // 0x4C
-		::System::Nullable* HOLDJMMAFFN; // 0x50
+		::System::Nullable_1<::UnityEngine::Vector3> HOLDJMMAFFN; // 0x50
 		::System::Void _ctor(::OAIPJANPCEK* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::OAIPJANPCEK*))((::PBYTE)hIl2Cpp + IDPIIKPHFJP_CTOR_OFFSET))(this, a1);
@@ -145,9 +146,9 @@ inline static constexpr unsigned int IDPIIKPHFJP_TypeDefinitionIndex = 77770;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IDPIIKPHFJP_AABLGFDIACE_OFFSET))(this);
 		}
 
-		::System::Void GKNJDLOCIEN(::System::Action* a1, ::System::Action* a2)
+		::System::Void GKNJDLOCIEN(::System::Action_3<::RPG::Client::VirtualCursorSimulateTouchActionWrapper*, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>* a1, ::System::Action_3<::RPG::Client::VirtualCursorSimulateTouchActionWrapper*, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + IDPIIKPHFJP_GKNJDLOCIEN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::RPG::Client::VirtualCursorSimulateTouchActionWrapper*, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>*, ::System::Action_3<::RPG::Client::VirtualCursorSimulateTouchActionWrapper*, ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::PointerEventData*>*))((::PBYTE)hIl2Cpp + IDPIIKPHFJP_GKNJDLOCIEN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void GMJDLIFLKOM(::System::Action* a1)

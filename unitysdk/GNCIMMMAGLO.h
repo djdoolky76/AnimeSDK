@@ -9,6 +9,7 @@ namespace RPG::Client { class BaseGameFlow; }
 namespace RPG::Client::ActivityIdleLive { class PendingEquipData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Exception; }
 namespace System { class Object; }
 
@@ -33,7 +34,7 @@ inline static constexpr unsigned int GNCIMMMAGLO_TypeDefinitionIndex = 75290;
 	class GNCIMMMAGLO : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:
-		::RPG::Client::Promises::Promise* EHDMEHABELJ; // 0x20
+		::RPG::Client::Promises::Promise_1<::LGNJPFPACGH*>* EHDMEHABELJ; // 0x20
 		::RPG::Client::Promises::Promise* BBEFPKDHLBK; // 0x28
 		::FLKGLAHINMI* EPAAHFFBKFG; // 0x30
 		::PLLPNJOEDHF* HEMMHLHDGBO; // 0x38
@@ -83,9 +84,9 @@ inline static constexpr unsigned int GNCIMMMAGLO_TypeDefinitionIndex = 75290;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GNCIMMMAGLO_AEPNFCKLDFK_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* EIODGIHAOOP()
+		::RPG::Client::Promises::Promise_1<::LGNJPFPACGH*>* EIODGIHAOOP()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + GNCIMMMAGLO_EIODGIHAOOP_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::LGNJPFPACGH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GNCIMMMAGLO_EIODGIHAOOP_OFFSET))(this);
 		}
 
 		::System::Void EEKAJOLHJHE(::System::UInt16 a1, ::System::Object* a2)

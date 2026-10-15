@@ -8,8 +8,8 @@ class IHGIENOHBMJ;
 namespace RPG::Client { class GridFightGameRef; }
 namespace RPG::Client { class GridFightGameRefData; }
 namespace RPG::Client { template <typename T> class GridFightGameRefHttpRspBody_1; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD15A2B0)
@@ -26,7 +26,7 @@ namespace RPG::Client
 	{
 	public:
 		::GHHJNCOAIJF* req; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightGameRefData*>*>* callback; // 0x18
 		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x20
 		::RPG::Client::GridFightGameRef* __4__this; // 0x28
 		::System::Void _ctor()
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendGridFightGetFavourListGameRefReq_b__0()
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* _SendGridFightGetFavourListGameRefReq_b__0()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__0_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__0_OFFSET))(this);
 		}
 
 		::RPG::Client::GridFightGameRefHttpRspBody_1<::ADHIHGCOHME*>* _SendGridFightGetFavourListGameRefReq_b__1(::IHGIENOHBMJ* a1)

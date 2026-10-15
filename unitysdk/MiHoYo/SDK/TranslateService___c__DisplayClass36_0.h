@@ -4,8 +4,8 @@
 namespace MiHoYo::SDK { class ChatMessage; }
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class TranslateService; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_TRANSLATESERVICE___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB05B060)
 #define MIHOYO_SDK_TRANSLATESERVICE___C__DISPLAYCLASS36_0__TRANSLATE_B__0_OFFSET UNITYSDK_OFFSET(0xB05BDE0)
@@ -18,7 +18,7 @@ namespace MiHoYo::SDK
 	class TranslateService___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::System::String* targetLanguage; // 0x18
 		::MiHoYo::SDK::ChatMessage* msg; // 0x20
 		::MiHoYo::SDK::TranslateService* __4__this; // 0x28

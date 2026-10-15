@@ -3,7 +3,7 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateAgeAppealOptionDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateAgeAppealOptionDialog; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
@@ -42,9 +42,9 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		::UnityEngine::UI::Text* titleText; // 0xD0
 		::System::Int32 Days; // 0xD8
 		::System::Byte _padding0[0x4];
-		::System::Action* _OnClosed_k__BackingField; // 0xE0
-		::System::Action* _OnSendEmailButtonPressed_k__BackingField; // 0xE8
-		::System::Action* _OnCorrectAgeButtonPressed_k__BackingField; // 0xF0
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* _OnClosed_k__BackingField; // 0xE0
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* _OnSendEmailButtonPressed_k__BackingField; // 0xE8
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* _OnCorrectAgeButtonPressed_k__BackingField; // 0xF0
 		::System::Boolean _Interactable_k__BackingField; // 0xF8
 		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldAgeGateAgeAppealOptionDialog** StaticGet_Instance()
 		{
@@ -64,34 +64,34 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnClosed()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* get_OnClosed()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_GET_ONCLOSED_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_GET_ONCLOSED_OFFSET))(this);
 		}
 
-		::System::Void set_OnClosed(::System::Action* a1)
+		::System::Void set_OnClosed(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_SET_ONCLOSED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_SET_ONCLOSED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnSendEmailButtonPressed()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* get_OnSendEmailButtonPressed()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_GET_ONSENDEMAILBUTTONPRESSED_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_GET_ONSENDEMAILBUTTONPRESSED_OFFSET))(this);
 		}
 
-		::System::Void set_OnSendEmailButtonPressed(::System::Action* a1)
+		::System::Void set_OnSendEmailButtonPressed(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_SET_ONSENDEMAILBUTTONPRESSED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_SET_ONSENDEMAILBUTTONPRESSED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnCorrectAgeButtonPressed()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* get_OnCorrectAgeButtonPressed()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_GET_ONCORRECTAGEBUTTONPRESSED_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_GET_ONCORRECTAGEBUTTONPRESSED_OFFSET))(this);
 		}
 
-		::System::Void set_OnCorrectAgeButtonPressed(::System::Action* a1)
+		::System::Void set_OnCorrectAgeButtonPressed(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_SET_ONCORRECTAGEBUTTONPRESSED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateAgeAppealOptionDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEAGEAPPEALOPTIONDIALOG_SET_ONCORRECTAGEBUTTONPRESSED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Interactable()

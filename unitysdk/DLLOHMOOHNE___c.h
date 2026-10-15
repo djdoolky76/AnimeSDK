@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonoEffect; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define DLLOHMOOHNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF8B27B0)
 #define DLLOHMOOHNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B27F0)
@@ -15,9 +15,9 @@ inline static constexpr unsigned int DLLOHMOOHNE___c_TypeDefinitionIndex = 57069
 	class DLLOHMOOHNE___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__20_0()
+		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__20_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BDA0);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BDA0);
 		}
 
 		static ::System::Object** StaticGet___9()

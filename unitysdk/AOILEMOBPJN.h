@@ -5,9 +5,9 @@
 class BABNOKHOBCF;
 class INMMPMDELKE;
 class MNCOPNHONHO;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -45,11 +45,11 @@ inline static constexpr unsigned int AOILEMOBPJN_TypeDefinitionIndex = 76823;
 	class AOILEMOBPJN : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* BANPMJMECAI; // 0x10
+		::Entitas::IGroup_1<::INMMPMDELKE*>* BANPMJMECAI; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x18
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x20
 		::BABNOKHOBCF* FKINCGODJEP; // 0x28
-		::Entitas::ICollector* JOPKGDIAGPP; // 0x30
+		::Entitas::ICollector_1<::INMMPMDELKE*>* JOPKGDIAGPP; // 0x30
 		::System::Void _ctor(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::BABNOKHOBCF*, ::MNCOPNHONHO*))((::PBYTE)hIl2Cpp + AOILEMOBPJN_CTOR_OFFSET))(this, a1, a2);
@@ -115,9 +115,9 @@ inline static constexpr unsigned int AOILEMOBPJN_TypeDefinitionIndex = 76823;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::INMMPMDELKE*))((::PBYTE)hIl2Cpp + AOILEMOBPJN_GPLJAKFAIDI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DNOOEMIHJIG(::Entitas::IGroup* a1, ::INMMPMDELKE* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void DNOOEMIHJIG(::Entitas::IGroup_1<::INMMPMDELKE*>* a1, ::INMMPMDELKE* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::INMMPMDELKE*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + AOILEMOBPJN_DNOOEMIHJIG_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::INMMPMDELKE*>*, ::INMMPMDELKE*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + AOILEMOBPJN_DNOOEMIHJIG_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void BHOKGPNBNOH(::INMMPMDELKE* a1, ::RPG::Client::LittleGame::FiveDim::SwitchPlatformState a2)

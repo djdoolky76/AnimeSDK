@@ -5,8 +5,8 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define AFPAAGFDMMK_BKKONEOAPLF_OFFSET UNITYSDK_OFFSET(0xCF1FE10)
 #define AFPAAGFDMMK_CDIDIDOFHIE_OFFSET UNITYSDK_OFFSET(0xCF1E220)
@@ -29,8 +29,8 @@ inline static constexpr unsigned int AFPAAGFDMMK_TypeDefinitionIndex = 77135;
 	public:
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
-		::Entitas::ICollector* OLDKIELDAMD; // 0x20
-		::Entitas::IGroup* PPLJFJNEAGM; // 0x28
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* OLDKIELDAMD; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* PPLJFJNEAGM; // 0x28
 		// static const ::System::String* IIMGPOGICFF; // 0x0
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

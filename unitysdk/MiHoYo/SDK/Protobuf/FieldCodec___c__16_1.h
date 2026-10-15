@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Protobuf
@@ -19,9 +19,9 @@ namespace MiHoYo::SDK::Protobuf
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c__16`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__16_1()
+		static ::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, T>** StaticGet___9__16_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c__16`1")->GetStaticField(0x0);
+			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, T>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c__16`1")->GetStaticField(0x0);
 		}
 
 		static ::System::Func_2<T, ::System::Int32>** StaticGet___9__16_2()

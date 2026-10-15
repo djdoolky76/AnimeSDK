@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define EJOKHBOJHNA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x154F5F90)
 #define EJOKHBOJHNA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154F5FD0)
@@ -19,9 +19,9 @@ inline static constexpr unsigned int EJOKHBOJHNA___c_TypeDefinitionIndex = 81848
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EE10);
 		}
 
-		static ::System::Action** StaticGet___9__19_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__19_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EE18);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EE18);
 		}
 
 		static ::System::Void _cctor()

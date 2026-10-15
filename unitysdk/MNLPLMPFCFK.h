@@ -4,7 +4,7 @@
 #include "unitysdk/KBNONEGEOMC_EICHGMOKKKM.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/KBNONEGEOMC_ADBGGJHAFDL.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -58,9 +58,9 @@ inline static constexpr unsigned int MNLPLMPFCFK_TypeDefinitionIndex = 51813;
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MNLPLMPFCFK_AJPIKAENLFP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BIIIDFGLBOK(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Void BIIIDFGLBOK(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Vector3>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + MNLPLMPFCFK_BIIIDFGLBOK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Vector3>>*))((::PBYTE)hIl2Cpp + MNLPLMPFCFK_BIIIDFGLBOK_OFFSET))(this, a1);
 		}
 
 		::KBNONEGEOMC_ADBGGJHAFDL JMNDEMAKGMC(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)

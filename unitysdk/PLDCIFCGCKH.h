@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Decimal.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class String; }
 
 #define PLDCIFCGCKH_BHIBBEJNGPC_OFFSET UNITYSDK_OFFSET(0xC2ED120)
@@ -69,9 +69,9 @@ inline static constexpr unsigned int PLDCIFCGCKH_TypeDefinitionIndex = 72117;
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PLDCIFCGCKH_FPABJIPNJJL_OFFSET))(this);
 		}
 
-		::System::ValueTuple HKKBLGMLJPD()
+		::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> HKKBLGMLJPD()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + PLDCIFCGCKH_HKKBLGMLJPD_OFFSET))(this);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::PVOID))((::PBYTE)hIl2Cpp + PLDCIFCGCKH_HKKBLGMLJPD_OFFSET))(this);
 		}
 
 	};

@@ -6,9 +6,9 @@ class CEDCMIMKJHK;
 class IBKDHOIDKJA;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class PileItem; }
@@ -96,29 +96,29 @@ inline static constexpr unsigned int IBKDHOIDKJA_TypeDefinitionIndex = 32231;
 		::System::Boolean GHKHIHNAIKB; // 0x76
 		::System::Boolean DHAHNCEMJJE; // 0x77
 		::System::Int64 DPNKODHICIJ; // 0x78
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::IBKDHOIDKJA*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E70);
+			return (::Google::Protobuf::MessageParser_1<::IBKDHOIDKJA*>**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E70);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_EMNIHLGHHAC()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_EMNIHLGHHAC()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E78);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E78);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_EEIBDGNNIFI()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::PileItem*>** StaticGet_EEIBDGNNIFI()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E80);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::PileItem*>**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E80);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_BOMJHGBDOFC()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_BOMJHGBDOFC()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E88);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E88);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_KMINJADAHKD()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_KMINJADAHKD()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E90);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "IBKDHOIDKJA")->GetStaticField(0x41E90);
 		}
 
 		// static const ::System::Object HOLLCCLAJAB; // 0x0
@@ -157,9 +157,9 @@ inline static constexpr unsigned int IBKDHOIDKJA_TypeDefinitionIndex = 32231;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IBKDHOIDKJA_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::IBKDHOIDKJA*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + IBKDHOIDKJA_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::IBKDHOIDKJA*>*(*)())((::PBYTE)hIl2Cpp + IBKDHOIDKJA_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

@@ -21,7 +21,11 @@ class PLMODIOCPAF;
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -85,34 +89,34 @@ inline static constexpr unsigned int JKKOAAANPGL_TypeDefinitionIndex = 37156;
 	class JKKOAAANPGL : public ::HNNHKPKCMJD
 	{
 	public:
-		::System::Action* CGEMKOOCBOB; // 0x1A0
+		::System::Action_2<::System::String*, ::HNLKNLJBHDD*>* CGEMKOOCBOB; // 0x1A0
 		::MOGEAODEJOD* BKIFMPHBIAK; // 0x1A8
 		::HNLKNLJBHDD* ACJGKBDLCMF; // 0x1B0
 		::HNLKNLJBHDD* LMBBHFPBONJ; // 0x1B8
-		::System::Action* LNFGOFMPNDN; // 0x1C0
-		::System::Action* FAHNMDMPBGH; // 0x1C8
-		::System::Action* EJDBHFPDFGE; // 0x1D0
+		::System::Action_2<::System::UInt32, ::System::Int32>* LNFGOFMPNDN; // 0x1C0
+		::System::Action_1<::MDJMFENLDJL*>* FAHNMDMPBGH; // 0x1C8
+		::System::Action_1<::HNLKNLJBHDD*>* EJDBHFPDFGE; // 0x1D0
 		::DJGLCIMIDDJ* IPOEELPNEGN; // 0x1D8
 		::KIPOJIOCDKF* KDKDEGIECIF; // 0x1E0
-		::System::Action* OnGameFinished; // 0x1E8
-		::System::Action* OnFireSpawnBrickEffect; // 0x1F0
+		::System::Action_1<::JFAIGANLDBK*>* OnGameFinished; // 0x1E8
+		::System::Action_4<::System::UInt32, ::System::UInt64, ::System::UInt32, ::RPG::MVector2>* OnFireSpawnBrickEffect; // 0x1F0
 		::PLMODIOCPAF* FKGGBEAELPE; // 0x1F8
-		::System::Action* OnBossSkillWarningHint; // 0x200
+		::System::Action_2<::System::UInt32, ::RPG::Client::LittleGameShare::TeamTowersCore::BossSkillViewType>* OnBossSkillWarningHint; // 0x200
 		::System::Func_3<::HNLKNLJBHDD*, ::HNLKNLJBHDD*, ::PHBGENKFABA*>* BOENBPPFFLG; // 0x208
-		::System::Action* JGKHGJMPJDF; // 0x210
-		::System::Action* AIEKCPIFHEP; // 0x218
+		::System::Action_1<::HNLKNLJBHDD*>* JGKHGJMPJDF; // 0x210
+		::System::Action_3<::System::UInt32, ::System::UInt32, ::RPG::MVector2>* AIEKCPIFHEP; // 0x218
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::BMKLCCOJMOF*>* MKIDHGILKMJ; // 0x220
-		::System::Action* PNGABHNJBNG; // 0x228
-		::System::Action* DKBPPOFFDJJ; // 0x230
+		::System::Action_1<::HNLKNLJBHDD*>* PNGABHNJBNG; // 0x228
+		::System::Action_2<::System::UInt64, ::System::Int32>* DKBPPOFFDJJ; // 0x230
 		::System::Action* LBIFNAKJMBO; // 0x238
 		::System::Action* AFLELMEDGDH; // 0x240
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* BJHJPDANHCA; // 0x248
 		::HNLKNLJBHDD* NKIKPPOODKK; // 0x250
-		::System::Action* EOFLJKDFDJD; // 0x258
+		::System::Action_1<::System::UInt32>* EOFLJKDFDJD; // 0x258
 		::HNLKNLJBHDD* CPFJKLOMIKF; // 0x260
-		::System::Action* CKNOOPIMKDI; // 0x268
+		::System::Action_1<::System::UInt32>* CKNOOPIMKDI; // 0x268
 		::CABIEOJNNIM* JBMDOCDAKMH; // 0x270
-		::System::Action* CDIPLIPLDGO; // 0x278
+		::System::Action_1<::System::Object*>* CDIPLIPLDGO; // 0x278
 		::System::Boolean GOFKAELMOPB; // 0x280
 		::System::Void _ctor()
 		{
@@ -349,34 +353,34 @@ inline static constexpr unsigned int JKKOAAANPGL_TypeDefinitionIndex = 37156;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JKKOAAANPGL_NAKIGFCHAMF_OFFSET))(this);
 		}
 
-		::System::Void add_OnGameFinished(::System::Action* a1)
+		::System::Void add_OnGameFinished(::System::Action_1<::JFAIGANLDBK*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_ADD_ONGAMEFINISHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::JFAIGANLDBK*>*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_ADD_ONGAMEFINISHED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnGameFinished(::System::Action* a1)
+		::System::Void remove_OnGameFinished(::System::Action_1<::JFAIGANLDBK*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_REMOVE_ONGAMEFINISHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::JFAIGANLDBK*>*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_REMOVE_ONGAMEFINISHED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnFireSpawnBrickEffect(::System::Action* a1)
+		::System::Void add_OnFireSpawnBrickEffect(::System::Action_4<::System::UInt32, ::System::UInt64, ::System::UInt32, ::RPG::MVector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_ADD_ONFIRESPAWNBRICKEFFECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_4<::System::UInt32, ::System::UInt64, ::System::UInt32, ::RPG::MVector2>*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_ADD_ONFIRESPAWNBRICKEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnFireSpawnBrickEffect(::System::Action* a1)
+		::System::Void remove_OnFireSpawnBrickEffect(::System::Action_4<::System::UInt32, ::System::UInt64, ::System::UInt32, ::RPG::MVector2>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_REMOVE_ONFIRESPAWNBRICKEFFECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_4<::System::UInt32, ::System::UInt64, ::System::UInt32, ::RPG::MVector2>*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_REMOVE_ONFIRESPAWNBRICKEFFECT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnBossSkillWarningHint(::System::Action* a1)
+		::System::Void add_OnBossSkillWarningHint(::System::Action_2<::System::UInt32, ::RPG::Client::LittleGameShare::TeamTowersCore::BossSkillViewType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_ADD_ONBOSSSKILLWARNINGHINT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::RPG::Client::LittleGameShare::TeamTowersCore::BossSkillViewType>*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_ADD_ONBOSSSKILLWARNINGHINT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBossSkillWarningHint(::System::Action* a1)
+		::System::Void remove_OnBossSkillWarningHint(::System::Action_2<::System::UInt32, ::RPG::Client::LittleGameShare::TeamTowersCore::BossSkillViewType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_REMOVE_ONBOSSSKILLWARNINGHINT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::UInt32, ::RPG::Client::LittleGameShare::TeamTowersCore::BossSkillViewType>*))((::PBYTE)hIl2Cpp + JKKOAAANPGL_REMOVE_ONBOSSSKILLWARNINGHINT_OFFSET))(this, a1);
 		}
 
 		::System::String* PAFKJAHJMCE()

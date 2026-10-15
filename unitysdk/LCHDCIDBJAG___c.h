@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class GHLNPFDIJLF;
 class IJFIHJJPHNA;
 namespace System { class Object; }
@@ -41,9 +41,9 @@ inline static constexpr unsigned int LCHDCIDBJAG___c_TypeDefinitionIndex = 36480
 			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13E58);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::Int32>** StaticGet___9__74_1()
+		static ::System::Func_2<::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>, ::System::Int32>** StaticGet___9__74_1()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13E60);
+			return (::System::Func_2<::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13E60);
 		}
 
 		static ::System::Void _cctor()
@@ -61,9 +61,9 @@ inline static constexpr unsigned int LCHDCIDBJAG___c_TypeDefinitionIndex = 36480
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C___APPLYTACTICSCARDMODIFIER_B__73_0_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _UseTacticsCard_b__74_1(::System::ValueTuple a1)
+		::System::Int32 _UseTacticsCard_b__74_1(::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C__USETACTICSCARD_B__74_1_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>))((::PBYTE)hIl2Cpp + LCHDCIDBJAG___C__USETACTICSCARD_B__74_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 _UseTacticsCard_b__74_2(::System::Int32 a1)

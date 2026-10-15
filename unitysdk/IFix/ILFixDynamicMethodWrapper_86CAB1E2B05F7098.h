@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
@@ -11,7 +12,6 @@ namespace IFix { class ILFixDynamicMethodWrapper; }
 namespace IFix::Core { class VirtualMachine; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define IFIX_ILFIXDYNAMICMETHODWRAPPER_86CAB1E2B05F7098_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F635840)
 #define IFIX_ILFIXDYNAMICMETHODWRAPPER_86CAB1E2B05F7098_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61EBA0)
@@ -1593,9 +1593,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_86CAB1E2B05F7098___GEN_WRAP_257_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_258(::System::Object* a1, ::System::Collections::Generic::KeyValuePair* a2)
+		::System::Void __Gen_Wrap_258(::System::Object* a1, ::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::System::Object*> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_86CAB1E2B05F7098___GEN_WRAP_258_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::KeyValuePair_2<::AkAudioListener*, ::System::Object*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_86CAB1E2B05F7098___GEN_WRAP_258_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_259(::System::Object* a1, ::UnityEngine::Playables::FrameData a2)

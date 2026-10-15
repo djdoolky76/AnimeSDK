@@ -12,6 +12,7 @@ namespace RPG::Client { class RPGProfilerMarker; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -72,7 +73,7 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _ReportTryLoadStates; // 0x10
 		::PFINJBIFLHA* _LoadMapStuckReportData; // 0x18
-		::System::Action* _ProgressChangedCallback; // 0x20
+		::System::Action_1<::System::Single>* _ProgressChangedCallback; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ReportArguments; // 0x28
 		::System::Collections::Generic::List_1<::System::String*>* _MonsterWaveList; // 0x30
 		::RPG::Client::LoadingManager_WorkDefCounter* _workDefCounter; // 0x38
@@ -209,9 +210,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SETLOADFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetProgressChangedCallback(::System::Action* a1)
+		::System::Void SetProgressChangedCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SETPROGRESSCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOADINGMANAGER_SETPROGRESSCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsGameLoading()

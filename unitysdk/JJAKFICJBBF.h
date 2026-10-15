@@ -4,7 +4,7 @@
 class GMIFBFGDGJK;
 class IFBFJDCECML;
 class PBGNKMMDBGD;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -43,7 +43,7 @@ inline static constexpr unsigned int JJAKFICJBBF_TypeDefinitionIndex = 37278;
 		::System::Collections::Generic::List_1<::System::UInt32>* FBPMMHEDFAM; // 0x10
 		::System::Collections::Generic::List_1<::System::Object*>* BEEAGFKDABO; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* FFJFNNKDACM; // 0x20
-		::Entitas::IGroup* _AllCatGroup_k__BackingField; // 0x28
+		::Entitas::IGroup_1<::IFBFJDCECML*>* _AllCatGroup_k__BackingField; // 0x28
 		::Il2CppArray<::IFBFJDCECML*>* CFDNNJPPOLB; // 0x30
 		::PBGNKMMDBGD* PDENFEFCAGN; // 0x38
 		::System::UInt64 DJCMKNKKDNB; // 0x40
@@ -160,14 +160,14 @@ inline static constexpr unsigned int JJAKFICJBBF_TypeDefinitionIndex = 37278;
 			return ((::Il2CppArray<::IFBFJDCECML*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JJAKFICJBBF_GIMHACCEKMJ_OFFSET))(this);
 		}
 
-		::Entitas::IGroup* get_AllCatGroup()
+		::Entitas::IGroup_1<::IFBFJDCECML*>* get_AllCatGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + JJAKFICJBBF_GET_ALLCATGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::IFBFJDCECML*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JJAKFICJBBF_GET_ALLCATGROUP_OFFSET))(this);
 		}
 
-		::System::Void set_AllCatGroup(::Entitas::IGroup* a1)
+		::System::Void set_AllCatGroup(::Entitas::IGroup_1<::IFBFJDCECML*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + JJAKFICJBBF_SET_ALLCATGROUP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::IFBFJDCECML*>*))((::PBYTE)hIl2Cpp + JJAKFICJBBF_SET_ALLCATGROUP_OFFSET))(this, a1);
 		}
 
 	};

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class EOABGMGNKGA;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
@@ -24,9 +24,9 @@ inline static constexpr unsigned int BPIEHCCAMIA_TypeDefinitionIndex = 60882;
 			return ((::System::Void(*)(::PVOID, ::EOABGMGNKGA*))((::PBYTE)hIl2Cpp + BPIEHCCAMIA_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void JKAILKNKMHO(::System::Single a1, ::System::Action* a2)
+		::System::Void JKAILKNKMHO(::System::Single a1, ::System::Action_1<::EOABGMGNKGA*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + BPIEHCCAMIA_JKAILKNKMHO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action_1<::EOABGMGNKGA*>*))((::PBYTE)hIl2Cpp + BPIEHCCAMIA_JKAILKNKMHO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -39,9 +39,9 @@ inline static constexpr unsigned int BPIEHCCAMIA_TypeDefinitionIndex = 60882;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BPIEHCCAMIA_LDLGJOOEOFM_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* MMAAGGPCFGL(::System::Single a1, ::System::Action* a2)
+		::System::Collections::IEnumerator* MMAAGGPCFGL(::System::Single a1, ::System::Action_1<::EOABGMGNKGA*>* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + BPIEHCCAMIA_MMAAGGPCFGL_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Action_1<::EOABGMGNKGA*>*))((::PBYTE)hIl2Cpp + BPIEHCCAMIA_MMAAGGPCFGL_OFFSET))(this, a1, a2);
 		}
 
 	};

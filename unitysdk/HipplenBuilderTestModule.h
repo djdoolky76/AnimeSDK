@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class HipplenBuilderStatus;
 class HipplenBuilderTestAsset;
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -37,9 +37,9 @@ inline static constexpr unsigned int HipplenBuilderTestModule_TypeDefinitionInde
 			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_GETTESTSINDAY_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* TakeTest(::System::Int32 a1, ::HipplenBuilderStatus* a2)
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Boolean>>* TakeTest(::System::Int32 a1, ::HipplenBuilderStatus* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID, ::System::Int32, ::HipplenBuilderStatus*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Boolean>>*(*)(::PVOID, ::System::Int32, ::HipplenBuilderStatus*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET))(this, a1, a2);
 		}
 
 	};

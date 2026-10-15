@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PS { class PSWelcomeDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PS_PSWELCOMEDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF6F070)
 #define MIHOYO_SDK_PS_PSWELCOMEDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF6F0B0)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::PS
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18390);
 		}
 
-		static ::System::Action** StaticGet___9__19_0()
+		static ::System::Action_1<::MiHoYo::SDK::PS::PSWelcomeDialog*>** StaticGet___9__19_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18398);
+			return (::System::Action_1<::MiHoYo::SDK::PS::PSWelcomeDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18398);
 		}
 
 		static ::System::Void _cctor()

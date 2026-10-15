@@ -8,8 +8,8 @@ namespace RPG::Client { class UIStateCtrl; }
 namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconListControl; }
 namespace RPG::Client::B51Racing { class LuaControllerHandle; }
 namespace RPG::UINavigation { class UINavigationButton; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC792490)
 #define RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMCONTROL_GET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0xC7918A0)
@@ -33,7 +33,7 @@ namespace RPG::Client::B51Racing
 	public:
 		::System::Int32 _CardIndex_k__BackingField; // 0x40
 		::System::Byte _padding0[0x4];
-		::System::Action* _OnCardSelectCallback_k__BackingField; // 0x48
+		::System::Action_1<::System::Int32>* _OnCardSelectCallback_k__BackingField; // 0x48
 		::RPG::Client::B51Racing::B51RacingDevelopValueIconListControl* _ValueIconListControl; // 0x50
 		::RPG::Client::LocalizedText* _NameText; // 0x58
 		::RPG::Client::LocalizedText* _DescText; // 0x60
@@ -58,14 +58,14 @@ namespace RPG::Client::B51Racing
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMCONTROL_SET_CARDINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnCardSelectCallback()
+		::System::Action_1<::System::Int32>* get_OnCardSelectCallback()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMCONTROL_GET_ONCARDSELECTCALLBACK_OFFSET))(this);
+			return ((::System::Action_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMCONTROL_GET_ONCARDSELECTCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_OnCardSelectCallback(::System::Action* a1)
+		::System::Void set_OnCardSelectCallback(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMCONTROL_SET_ONCARDSELECTCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMCONTROL_SET_ONCARDSELECTCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnInitializeComponent()

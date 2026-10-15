@@ -6,10 +6,11 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Action; }
 namespace System { class IDisposable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationTokenSource; }
 
 #define CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_ADDTO_OFFSET UNITYSDK_OFFSET(0x1F115880)
@@ -31,14 +32,14 @@ namespace Cysharp::Threading::Tasks
 	class CancellationTokenExtensions : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_disposeCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_disposeCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenExtensions")->GetStaticField(0x3EC10);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenExtensions")->GetStaticField(0x3EC10);
 		}
 
-		static ::System::Action** StaticGet_cancellationTokenCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_cancellationTokenCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenExtensions")->GetStaticField(0x3EC18);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "CancellationTokenExtensions")->GetStaticField(0x3EC18);
 		}
 
 		static ::System::Void _cctor()
@@ -61,9 +62,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskVoid(*)(::Cysharp::Threading::Tasks::UniTask, ::System::Threading::CancellationTokenSource*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_TOCANCELLATIONTOKENCORE_OFFSET))(a1, a2);
 		}
 
-		static ::System::ValueTuple ToUniTask(::System::Threading::CancellationToken a1)
+		static ::System::ValueTuple_2<::Cysharp::Threading::Tasks::UniTask, ::System::Threading::CancellationTokenRegistration> ToUniTask(::System::Threading::CancellationToken a1)
 		{
-			return ((::System::ValueTuple(*)(::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_TOUNITASK_OFFSET))(a1);
+			return ((::System::ValueTuple_2<::Cysharp::Threading::Tasks::UniTask, ::System::Threading::CancellationTokenRegistration>(*)(::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_TOUNITASK_OFFSET))(a1);
 		}
 
 		static ::System::Void Callback(::System::Object* a1)
@@ -81,9 +82,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Threading::CancellationTokenRegistration(*)(::System::Threading::CancellationToken, ::System::Action*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_REGISTERWITHOUTCAPTUREEXECUTIONCONTEXT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Threading::CancellationTokenRegistration RegisterWithoutCaptureExecutionContext_1(::System::Threading::CancellationToken a1, ::System::Action* a2, ::System::Object* a3)
+		static ::System::Threading::CancellationTokenRegistration RegisterWithoutCaptureExecutionContext_1(::System::Threading::CancellationToken a1, ::System::Action_1<::System::Object*>* a2, ::System::Object* a3)
 		{
-			return ((::System::Threading::CancellationTokenRegistration(*)(::System::Threading::CancellationToken, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_REGISTERWITHOUTCAPTUREEXECUTIONCONTEXT_1_OFFSET))(a1, a2, a3);
+			return ((::System::Threading::CancellationTokenRegistration(*)(::System::Threading::CancellationToken, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_CANCELLATIONTOKENEXTENSIONS_REGISTERWITHOUTCAPTUREEXECUTIONCONTEXT_1_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Threading::CancellationTokenRegistration AddTo(::System::IDisposable* a1, ::System::Threading::CancellationToken a2)

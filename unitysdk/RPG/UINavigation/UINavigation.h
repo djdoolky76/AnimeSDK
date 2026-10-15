@@ -7,6 +7,7 @@ namespace RPG::UINavigation { class UINavigation; }
 namespace RPG::UINavigation { class UINavigationInControlAction; }
 namespace RPG::UINavigation { class UINavigationZone; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -75,7 +76,7 @@ namespace RPG::UINavigation
 		::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigationInControlAction*>* _InControlActions; // 0x40
 		::System::Boolean _IsFocused; // 0x48
 		::System::Byte _padding2[0x7];
-		::System::Action* OnFocusChanged; // 0x50
+		::System::Action_1<::System::Boolean>* OnFocusChanged; // 0x50
 		::System::Action* OnChildrenInvalidated; // 0x58
 		::RPG::UINavigation::UINavigationZone* _NavigationZone; // 0x60
 		static ::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigation*>** StaticGet__AllNavigations()
@@ -133,14 +134,14 @@ namespace RPG::UINavigation
 			return ((::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigation*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_GET_CHILDREN_OFFSET))(this);
 		}
 
-		::System::Void add_OnFocusChanged(::System::Action* a1)
+		::System::Void add_OnFocusChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_ADD_ONFOCUSCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_ADD_ONFOCUSCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnFocusChanged(::System::Action* a1)
+		::System::Void remove_OnFocusChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_REMOVE_ONFOCUSCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_REMOVE_ONFOCUSCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnChildrenInvalidated(::System::Action* a1)
@@ -218,14 +219,14 @@ namespace RPG::UINavigation
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_ISINTOPZONE_OFFSET))(this);
 		}
 
-		::System::Void AddFocusChangedCallback(::System::Action* a1)
+		::System::Void AddFocusChangedCallback(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_ADDFOCUSCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_ADDFOCUSCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveFocusChangedCallback(::System::Action* a1)
+		::System::Void RemoveFocusChangedCallback(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_REMOVEFOCUSCHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATION_REMOVEFOCUSCHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void AddInControlAction(::RPG::UINavigation::UINavigationInControlAction* a1)

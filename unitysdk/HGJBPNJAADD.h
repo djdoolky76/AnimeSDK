@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KKHKACBICMH.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class DMCEKKPFNPL;
@@ -9,7 +10,6 @@ namespace Cinemachine { class CinemachineComposer; }
 namespace Cinemachine { class CinemachineFreeLook; }
 namespace RPG::Client::RoadRash { class MonoRoadRashCameraSettings; }
 namespace RPG::Client::RoadRash { class MonoRoadRashCameraShake; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HGJBPNJAADD_CTOR_OFFSET UNITYSDK_OFFSET(0x15CA1590)
@@ -117,7 +117,7 @@ inline static constexpr unsigned int HGJBPNJAADD_TypeDefinitionIndex = 75933;
 		::System::Single _CurrentRigRadius_k__BackingField; // 0x78
 		::System::Single _BlurBlendElapsed_k__BackingField; // 0x7C
 		::System::Single _UltimateRigBlendTarget_k__BackingField; // 0x80
-		::System::Nullable* _OverrideXDamping_k__BackingField; // 0x84
+		::System::Nullable_1<::System::Single> _OverrideXDamping_k__BackingField; // 0x84
 		::System::Single _TrackedObjectOffsetBlendDuration_k__BackingField; // 0x8C
 		::System::Single _UltimateRigBlendElapsed_k__BackingField; // 0x90
 		::System::Single _CurrentFOV_k__BackingField; // 0x94
@@ -406,14 +406,14 @@ inline static constexpr unsigned int HGJBPNJAADD_TypeDefinitionIndex = 75933;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HGJBPNJAADD_SET_SOURCEXDAMPING_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_OverrideXDamping()
+		::System::Nullable_1<::System::Single> get_OverrideXDamping()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + HGJBPNJAADD_GET_OVERRIDEXDAMPING_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + HGJBPNJAADD_GET_OVERRIDEXDAMPING_OFFSET))(this);
 		}
 
-		::System::Void set_OverrideXDamping(::System::Nullable* a1)
+		::System::Void set_OverrideXDamping(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + HGJBPNJAADD_SET_OVERRIDEXDAMPING_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + HGJBPNJAADD_SET_OVERRIDEXDAMPING_OFFSET))(this, a1);
 		}
 
 		::System::Single GHNKBOIOIHG()

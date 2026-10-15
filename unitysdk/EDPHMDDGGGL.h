@@ -44,6 +44,7 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
@@ -412,8 +413,8 @@ inline static constexpr unsigned int EDPHMDDGGGL_TypeDefinitionIndex = 60715;
 		::RPG::Client::Promises::Promise* AGKCJKAHGFH; // 0x1B8
 		::RPG::Client::Promises::Promise* DAPEBDCIFCG; // 0x1C0
 		::RPG::Client::AdventureModule* MMEJHHCPCMJ; // 0x1C8
-		::System::Action* MKNEHFLDNBD; // 0x1D0
-		::System::Action* NBKJCMJGPKH; // 0x1D8
+		::System::Action_1<::System::Boolean>* MKNEHFLDNBD; // 0x1D0
+		::System::Action_1<::GMEFBLGIECD>* NBKJCMJGPKH; // 0x1D8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::PerformanceOverrideCharacterOutfit*>* MMJFGJHGAPJ; // 0x1E0
 		::RPG::Client::Promises::Promise* OPIPBJFBLBA; // 0x1E8
 		::System::Boolean LJLEGDEMIOK; // 0x1F0
@@ -1605,14 +1606,14 @@ inline static constexpr unsigned int EDPHMDDGGGL_TypeDefinitionIndex = 60715;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EDPHMDDGGGL_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void HCLCLDMMGGD(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerPerformance* a2, ::System::Action* a3, ::System::Action* a4, ::GELIALJDFBL* a5)
+		::System::Void HCLCLDMMGGD(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerPerformance* a2, ::System::Action_1<::GMEFBLGIECD>* a3, ::System::Action* a4, ::GELIALJDFBL* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerPerformance*, ::System::Action*, ::System::Action*, ::GELIALJDFBL*))((::PBYTE)hIl2Cpp + EDPHMDDGGGL_HCLCLDMMGGD_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerPerformance*, ::System::Action_1<::GMEFBLGIECD>*, ::System::Action*, ::GELIALJDFBL*))((::PBYTE)hIl2Cpp + EDPHMDDGGGL_HCLCLDMMGGD_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void BKGGNGLFDCB(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelPerformanceInitialize* a2, ::System::Action* a3)
+		::System::Void BKGGNGLFDCB(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelPerformanceInitialize* a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelPerformanceInitialize*, ::System::Action*))((::PBYTE)hIl2Cpp + EDPHMDDGGGL_BKGGNGLFDCB_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelPerformanceInitialize*, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + EDPHMDDGGGL_BKGGNGLFDCB_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void NPAFMEBNFOB()

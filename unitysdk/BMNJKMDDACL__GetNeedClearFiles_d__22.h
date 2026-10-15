@@ -6,7 +6,7 @@ class BMNJKMDDACL;
 namespace RPG::Client { class RawItem; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
@@ -28,7 +28,7 @@ inline static constexpr unsigned int BMNJKMDDACL__GetNeedClearFiles_d__22_TypeDe
 	class BMNJKMDDACL__GetNeedClearFiles_d__22 : public ::System::Object
 	{
 	public:
-		::System::Tuple* __2__current; // 0x10
+		::System::Tuple_2<::System::String*, ::System::Boolean>* __2__current; // 0x10
 		::RPG::Client::RawItem* _video_5__7; // 0x18
 		::BJHAIOJBFAK* _indexStream_5__3; // 0x20
 		::BMNJKMDDACL* __4__this; // 0x28
@@ -61,9 +61,9 @@ inline static constexpr unsigned int BMNJKMDDACL__GetNeedClearFiles_d__22_TypeDe
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BMNJKMDDACL__GETNEEDCLEARFILES_D__22___M__FINALLY1_OFFSET))(this);
 		}
 
-		::System::Tuple* System_Collections_Generic_IEnumerator_System_Tuple_System_String_System_Boolean___get_Current()
+		::System::Tuple_2<::System::String*, ::System::Boolean>* System_Collections_Generic_IEnumerator_System_Tuple_System_String_System_Boolean___get_Current()
 		{
-			return ((::System::Tuple*(*)(::PVOID))((::PBYTE)hIl2Cpp + BMNJKMDDACL__GETNEEDCLEARFILES_D__22_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET))(this);
+			return ((::System::Tuple_2<::System::String*, ::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BMNJKMDDACL__GETNEEDCLEARFILES_D__22_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int BMNJKMDDACL__GetNeedClearFiles_d__22_TypeDe
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + BMNJKMDDACL__GETNEEDCLEARFILES_D__22_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Tuple*>* System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_Boolean___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_Boolean___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BMNJKMDDACL__GETNEEDCLEARFILES_D__22_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BMNJKMDDACL__GETNEEDCLEARFILES_D__22_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_TUPLE_SYSTEM_STRING_SYSTEM_BOOLEAN___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

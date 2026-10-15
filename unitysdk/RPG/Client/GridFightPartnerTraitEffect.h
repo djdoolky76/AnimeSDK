@@ -14,9 +14,9 @@ namespace RPG::Client { class GridFightTraitConfig; }
 namespace RPG::Client { class GridFightTraitSubTraitConfig; }
 namespace RPG::Client { class IGridFightTraitEffect; }
 namespace RPG::GameCore { class GridFightRoleChooseRow; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -251,9 +251,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT_GET_ENHANCETRAITID_OFFSET))(this);
 		}
 
-		::System::Void SelectPartner(::System::Int32 a1, ::System::Action* a2)
+		::System::Void SelectPartner(::System::Int32 a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT_SELECTPARTNER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT_SELECTPARTNER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* _GetCurRoleOptionsFromTeam()

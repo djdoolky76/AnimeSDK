@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class DPOGHBMIPFF;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define DPOGHBMIPFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x126617D0)
 #define DPOGHBMIPFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12661800)
@@ -16,9 +17,9 @@ inline static constexpr unsigned int DPOGHBMIPFF___c_TypeDefinitionIndex = 77167
 	class DPOGHBMIPFF___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__2_0()
+		static ::System::Action_1<::DPOGHBMIPFF*>** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCE0);
+			return (::System::Action_1<::DPOGHBMIPFF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCE0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -26,14 +27,14 @@ inline static constexpr unsigned int DPOGHBMIPFF___c_TypeDefinitionIndex = 77167
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCE8);
 		}
 
-		static ::System::Action** StaticGet___9__5_0()
+		static ::System::Action_2<::DPOGHBMIPFF*, ::System::Int32>** StaticGet___9__5_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCF0);
+			return (::System::Action_2<::DPOGHBMIPFF*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCF0);
 		}
 
-		static ::System::Action** StaticGet___9__2_1()
+		static ::System::Action_1<::DPOGHBMIPFF*>** StaticGet___9__2_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCF8);
+			return (::System::Action_1<::DPOGHBMIPFF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCF8);
 		}
 
 		static ::System::Void _cctor()

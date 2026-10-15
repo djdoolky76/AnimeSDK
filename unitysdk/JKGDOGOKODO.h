@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournExhibitionConfigRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define JKGDOGOKODO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D041D10)
 #define JKGDOGOKODO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D042290)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int JKGDOGOKODO_TypeDefinitionIndex = 14996;
 	class JKGDOGOKODO : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x2F120);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x2F120);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournExhibitionConfigRow*>** StaticGet_EHNHPCGDOIO()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int JKGDOGOKODO_TypeDefinitionIndex = 14996;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournExhibitionConfigRow*>(*)())((::PBYTE)hIl2Cpp + JKGDOGOKODO_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournExhibitionConfigRow*>, ::RPG::GameCore::RogueTournExhibitionConfigRow*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + JKGDOGOKODO_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournExhibitionConfigRow*>, ::RPG::GameCore::RogueTournExhibitionConfigRow*>(*)())((::PBYTE)hIl2Cpp + JKGDOGOKODO_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::RPG::GameCore::RogueTournExhibitionConfigRow* LMBKNCAIDLC(::System::UInt32 a1)

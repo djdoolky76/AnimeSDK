@@ -25,9 +25,10 @@ namespace BansheeGz::BGSpline::Curve { class BGCurveSettings; }
 namespace BansheeGz::BGSpline::Curve { class BGCurve_FieldsTree; }
 namespace BansheeGz::BGSpline::Curve { class BGCurve_IterationCallback; }
 namespace System { class Action; }
-namespace System { class EventHandler; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
@@ -151,8 +152,8 @@ namespace BansheeGz::BGSpline::Curve
 	{
 	public:
 		::BansheeGz::BGSpline::Curve::BGCurveSettings* settings; // 0x18
-		::System::EventHandler* Changed; // 0x20
-		::System::EventHandler* BeforeChange; // 0x28
+		::System::EventHandler_1<::BansheeGz::BGSpline::Curve::BGCurveChangedArgs*>* Changed; // 0x20
+		::System::EventHandler_1<::System::Object*>* BeforeChange; // 0x28
 		::BansheeGz::BGSpline::Curve::BGCurve_Mode2DEnum mode2D; // 0x30
 		::System::Boolean closed; // 0x34
 		::System::Byte _padding0[0x3];
@@ -256,24 +257,24 @@ namespace BansheeGz::BGSpline::Curve
 			return ((::BansheeGz::BGSpline::Curve::BGCurveSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_GET_SETTINGS_OFFSET))(this);
 		}
 
-		::System::Void add_Changed(::System::EventHandler* a1)
+		::System::Void add_Changed(::System::EventHandler_1<::BansheeGz::BGSpline::Curve::BGCurveChangedArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ADD_CHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::BansheeGz::BGSpline::Curve::BGCurveChangedArgs*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ADD_CHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Changed(::System::EventHandler* a1)
+		::System::Void remove_Changed(::System::EventHandler_1<::BansheeGz::BGSpline::Curve::BGCurveChangedArgs*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_REMOVE_CHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::BansheeGz::BGSpline::Curve::BGCurveChangedArgs*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_REMOVE_CHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_BeforeChange(::System::EventHandler* a1)
+		::System::Void add_BeforeChange(::System::EventHandler_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ADD_BEFORECHANGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Object*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ADD_BEFORECHANGE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_BeforeChange(::System::EventHandler* a1)
+		::System::Void remove_BeforeChange(::System::EventHandler_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_REMOVE_BEFORECHANGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Object*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_REMOVE_BEFORECHANGE_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* get_Points()
@@ -726,19 +727,19 @@ namespace BansheeGz::BGSpline::Curve
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurvePoint*>*, ::System::Int32, ::System::Boolean, ::System::Func_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ADDPOINTS_2_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Delete_3(::System::Int32 a1, ::System::Action* a2)
+		::System::Void Delete_3(::System::Int32 a1, ::System::Action_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_DELETE_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_DELETE_3_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Delete_4(::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* a1, ::System::Action* a2)
+		::System::Void Delete_4(::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* a1, ::System::Action_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurvePointI*>*, ::System::Action*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_DELETE_4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurvePointI*>*, ::System::Action_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_DELETE_4_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ConvertPoints(::BansheeGz::BGSpline::Curve::BGCurve_PointsModeEnum a1, ::System::Func_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* a2, ::System::Action* a3)
+		::System::Void ConvertPoints(::BansheeGz::BGSpline::Curve::BGCurve_PointsModeEnum a1, ::System::Func_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* a2, ::System::Action_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve_PointsModeEnum, ::System::Func_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>*, ::System::Action*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_CONVERTPOINTS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve_PointsModeEnum, ::System::Func_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>*, ::System::Action_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_CONVERTPOINTS_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::BansheeGz::BGSpline::Curve::BGCurvePointI* Convert(::BansheeGz::BGSpline::Curve::BGCurvePointI* a1, ::BansheeGz::BGSpline::Curve::BGCurve_PointsModeEnum a2, ::BansheeGz::BGSpline::Curve::BGCurve_PointsModeEnum a3, ::System::Func_1<::BansheeGz::BGSpline::Curve::BGCurvePointI*>* a4)
@@ -771,9 +772,9 @@ namespace BansheeGz::BGSpline::Curve
 			return ((::BansheeGz::BGSpline::Curve::BGCurvePointField*(*)(::PVOID, ::System::String*, ::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum, ::System::Func_1<::BansheeGz::BGSpline::Curve::BGCurvePointField*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ADDFIELD_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DeleteField_1(::BansheeGz::BGSpline::Curve::BGCurvePointField* a1, ::System::Action* a2)
+		::System::Void DeleteField_1(::BansheeGz::BGSpline::Curve::BGCurvePointField* a1, ::System::Action_1<::BansheeGz::BGSpline::Curve::BGCurvePointField*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurvePointField*, ::System::Action*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_DELETEFIELD_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurvePointField*, ::System::Action_1<::BansheeGz::BGSpline::Curve::BGCurvePointField*>*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_DELETEFIELD_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CachePointsWithTransforms()

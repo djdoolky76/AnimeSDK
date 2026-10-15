@@ -5,7 +5,7 @@
 class COGBNIGPJPO;
 class ODGPPIHLOFF;
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15651600)
 #define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x15653120)
@@ -18,7 +18,7 @@ namespace EnviromentSystemV2Space
 	class EnvironmentSystemV2___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
+		::System::Action_1<::System::Boolean>* __9__2; // 0x10
 		::ODGPPIHLOFF* h; // 0x18
 		::COGBNIGPJPO* targetProfile; // 0x20
 		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onFinish; // 0x28

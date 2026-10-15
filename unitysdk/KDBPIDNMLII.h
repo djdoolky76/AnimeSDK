@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class BNLHGENFEHG;
 class FDPALAEIHPB;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
 #define KDBPIDNMLII_CTOR_OFFSET UNITYSDK_OFFSET(0xB347A60)
@@ -18,7 +18,7 @@ inline static constexpr unsigned int KDBPIDNMLII_TypeDefinitionIndex = 77272;
 	{
 	public:
 		::FDPALAEIHPB* FKINCGODJEP; // 0x10
-		::Entitas::IGroup* NFBCHEEFOCK; // 0x18
+		::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* NFBCHEEFOCK; // 0x18
 		::BNLHGENFEHG* PDENFEFCAGN; // 0x20
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::BNLHGENFEHG* a2)
 		{

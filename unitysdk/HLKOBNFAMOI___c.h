@@ -5,8 +5,8 @@ class DEIKCHNBAGL;
 class EEANCDFECGN;
 class KEALONANBJO;
 class OLLEOCLINLN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define HLKOBNFAMOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D63E10)
 #define HLKOBNFAMOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15D63E50)
@@ -25,24 +25,24 @@ inline static constexpr unsigned int HLKOBNFAMOI___c_TypeDefinitionIndex = 62761
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D370);
 		}
 
-		static ::System::Action** StaticGet___9__2_0()
+		static ::System::Action_1<::DEIKCHNBAGL*>** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D378);
+			return (::System::Action_1<::DEIKCHNBAGL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D378);
 		}
 
-		static ::System::Action** StaticGet___9__5_0()
+		static ::System::Action_1<::EEANCDFECGN*>** StaticGet___9__5_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D380);
+			return (::System::Action_1<::EEANCDFECGN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D380);
 		}
 
-		static ::System::Action** StaticGet___9__4_0()
+		static ::System::Action_1<::OLLEOCLINLN*>** StaticGet___9__4_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D388);
+			return (::System::Action_1<::OLLEOCLINLN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D388);
 		}
 
-		static ::System::Action** StaticGet___9__3_0()
+		static ::System::Action_1<::KEALONANBJO*>** StaticGet___9__3_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D390);
+			return (::System::Action_1<::KEALONANBJO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D390);
 		}
 
 		static ::System::Void _cctor()

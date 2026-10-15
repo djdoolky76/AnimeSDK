@@ -9,6 +9,8 @@ namespace Proto { class ItemList; }
 namespace RPG::Client::ActivityIdleLive { class GetEquipResult; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -42,9 +44,9 @@ inline static constexpr unsigned int KNCMHNDHKMG_TypeDefinitionIndex = 75302;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* MOJCOIFGPAG; // 0x10
-		::RPG::Client::Promises::Promise* KLGMDEBCFIL; // 0x18
-		::RPG::Client::Promises::Promise* IBJKBAPCPJC; // 0x20
-		::RPG::Client::Promises::Promise* MMBJKICACJF; // 0x28
+		::RPG::Client::Promises::Promise_1<::KLNNIAHJBCO*>* KLGMDEBCFIL; // 0x18
+		::RPG::Client::Promises::Promise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>* IBJKBAPCPJC; // 0x20
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::System::UInt32>*>* MMBJKICACJF; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Promises::Promise*>* KGAEBLCMHMJ; // 0x30
 		::JFJCIGJIPBP* BNDBICJOAMD; // 0x38
 		::System::UInt32 EGOHDIHNHCE; // 0x40
@@ -109,9 +111,9 @@ inline static constexpr unsigned int KNCMHNDHKMG_TypeDefinitionIndex = 75302;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_NBGPNLAEJCB_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* JPKCFBNMOAO(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::System::UInt32>*>* JPKCFBNMOAO(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_JPKCFBNMOAO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::System::UInt32>*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_JPKCFBNMOAO_OFFSET))(this, a1);
 		}
 
 		::System::Void OPAPKPHHGBJ()
@@ -119,9 +121,9 @@ inline static constexpr unsigned int KNCMHNDHKMG_TypeDefinitionIndex = 75302;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_OPAPKPHHGBJ_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* KPNJPKGOPLA()
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>* KPNJPKGOPLA()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_KPNJPKGOPLA_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_KPNJPKGOPLA_OFFSET))(this);
 		}
 
 		::System::UInt32 FNCCJNCHMIE()
@@ -129,9 +131,9 @@ inline static constexpr unsigned int KNCMHNDHKMG_TypeDefinitionIndex = 75302;
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_FNCCJNCHMIE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* NEEMOEKHEEK(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>* NEEMOEKHEEK(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_NEEMOEKHEEK_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ActivityIdleLive::GetEquipResult*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KNCMHNDHKMG_NEEMOEKHEEK_OFFSET))(this, a1);
 		}
 
 		::System::Void BLMJGAMKGAB(::System::UInt16 a1, ::System::Object* a2)

@@ -26,11 +26,11 @@ class MINFEAKALGE;
 class NAJMEPONCEL;
 class NFDMOPAMCMA;
 class POFHPPEDJKE;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -472,19 +472,19 @@ inline static constexpr unsigned int FEIEBAJPIAE_TypeDefinitionIndex = 75940;
 			return ((::System::Void(*)(::PVOID, ::GHMGGIHEHJE*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_JBAPJBGKCAO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void JBAPJBGKCAO_1(::UnityEngine::Vector3 a1, ::BJIACBNKCCJ* a2, ::System::Single a3, ::System::Single a4, ::POFHPPEDJKE* a5, ::System::Action* a6)
+		::System::Void JBAPJBGKCAO_1(::UnityEngine::Vector3 a1, ::BJIACBNKCCJ* a2, ::System::Single a3, ::System::Single a4, ::POFHPPEDJKE* a5, ::System::Action_3<::BJIACBNKCCJ*, ::System::Single, ::System::Single>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::BJIACBNKCCJ*, ::System::Single, ::System::Single, ::POFHPPEDJKE*, ::System::Action*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_JBAPJBGKCAO_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::BJIACBNKCCJ*, ::System::Single, ::System::Single, ::POFHPPEDJKE*, ::System::Action_3<::BJIACBNKCCJ*, ::System::Single, ::System::Single>*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_JBAPJBGKCAO_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void NOOKHODLNNM_1(::UnityEngine::Vector3 a1, ::BJIACBNKCCJ* a2, ::System::Single a3, ::System::Single a4, ::POFHPPEDJKE* a5, ::System::Action* a6, ::System::Boolean a7)
+		::System::Void NOOKHODLNNM_1(::UnityEngine::Vector3 a1, ::BJIACBNKCCJ* a2, ::System::Single a3, ::System::Single a4, ::POFHPPEDJKE* a5, ::System::Action_3<::BJIACBNKCCJ*, ::System::Single, ::System::Single>* a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::BJIACBNKCCJ*, ::System::Single, ::System::Single, ::POFHPPEDJKE*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_NOOKHODLNNM_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::BJIACBNKCCJ*, ::System::Single, ::System::Single, ::POFHPPEDJKE*, ::System::Action_3<::BJIACBNKCCJ*, ::System::Single, ::System::Single>*, ::System::Boolean))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_NOOKHODLNNM_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void OEEJOIKHCLO_1(::System::Single a1, ::System::Single a2, ::BJIACBNKCCJ* a3, ::System::Single a4, ::System::Single a5, ::POFHPPEDJKE* a6, ::System::Action* a7, ::System::Boolean a8)
+		::System::Void OEEJOIKHCLO_1(::System::Single a1, ::System::Single a2, ::BJIACBNKCCJ* a3, ::System::Single a4, ::System::Single a5, ::POFHPPEDJKE* a6, ::System::Action_3<::BJIACBNKCCJ*, ::System::Single, ::System::Single>* a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::BJIACBNKCCJ*, ::System::Single, ::System::Single, ::POFHPPEDJKE*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_OEEJOIKHCLO_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::BJIACBNKCCJ*, ::System::Single, ::System::Single, ::POFHPPEDJKE*, ::System::Action_3<::BJIACBNKCCJ*, ::System::Single, ::System::Single>*, ::System::Boolean))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_OEEJOIKHCLO_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void HEBDLFBLMKI(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::BJIACBNKCCJ* a3, ::System::Single a4, ::System::Single a5, ::BJIACBNKCCJ* a6, ::System::Single a7, ::System::Single a8)
@@ -1022,9 +1022,9 @@ inline static constexpr unsigned int FEIEBAJPIAE_TypeDefinitionIndex = 75940;
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_FKOHOJPHJEC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LNABPPKPGPK(::Entitas::IGroup* a1)
+		::System::Void LNABPPKPGPK(::Entitas::IGroup_1<::GHMGGIHEHJE*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_LNABPPKPGPK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::GHMGGIHEHJE*>*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_LNABPPKPGPK_OFFSET))(this, a1);
 		}
 
 		static ::System::Single IALKJKJCKFN(::BJIACBNKCCJ* a1, ::System::Single a2, ::BJIACBNKCCJ* a3, ::System::Single a4)
@@ -1057,14 +1057,14 @@ inline static constexpr unsigned int FEIEBAJPIAE_TypeDefinitionIndex = 75940;
 			return ((::System::Void(*)(::PVOID, ::GHMGGIHEHJE*, ::HPMECOPBDBE*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_BLPEHEEJLAM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ECKFDHGOCLG(::Entitas::IGroup* a1)
+		::System::Void ECKFDHGOCLG(::Entitas::IGroup_1<::GHMGGIHEHJE*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_ECKFDHGOCLG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::GHMGGIHEHJE*>*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_ECKFDHGOCLG_OFFSET))(this, a1);
 		}
 
-		::System::Void HACMNKEMEBN(::Entitas::IGroup* a1)
+		::System::Void HACMNKEMEBN(::Entitas::IGroup_1<::GHMGGIHEHJE*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_HACMNKEMEBN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::GHMGGIHEHJE*>*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_HACMNKEMEBN_OFFSET))(this, a1);
 		}
 
 		::System::Void CHGLFDLEEKM(::GHMGGIHEHJE* a1)
@@ -1072,9 +1072,9 @@ inline static constexpr unsigned int FEIEBAJPIAE_TypeDefinitionIndex = 75940;
 			return ((::System::Void(*)(::PVOID, ::GHMGGIHEHJE*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_CHGLFDLEEKM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean BFIBOJIADJI(::GHMGGIHEHJE* a1, ::Entitas::IGroup* a2)
+		::System::Boolean BFIBOJIADJI(::GHMGGIHEHJE* a1, ::Entitas::IGroup_1<::GHMGGIHEHJE*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::GHMGGIHEHJE*, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_BFIBOJIADJI_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::GHMGGIHEHJE*, ::Entitas::IGroup_1<::GHMGGIHEHJE*>*))((::PBYTE)hIl2Cpp + FEIEBAJPIAE_BFIBOJIADJI_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single NCFFPPPIGIF(::BJIACBNKCCJ* a1, ::System::Single a2)

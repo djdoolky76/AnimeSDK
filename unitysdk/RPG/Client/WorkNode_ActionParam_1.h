@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
@@ -11,7 +11,7 @@ namespace RPG::Client
 	class WorkNode_ActionParam_1 : public ::System::Object
 	{
 	public:
-		::System::Action* Action; // 0x0
+		::System::Action_1<T>* Action; // 0x0
 		T Param; // 0x0
 	};
 }

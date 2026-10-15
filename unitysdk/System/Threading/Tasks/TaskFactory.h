@@ -4,11 +4,12 @@
 #include "unitysdk/System/Threading/Tasks/TaskCreationOptions.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1C15CD70)
 #define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1C15CED0)
@@ -44,9 +45,9 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)(::System::Threading::Tasks::TaskCreationOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET))(a1);
 		}
 
-		::System::Threading::Tasks::Task* StartNew(::System::Action* a1, ::System::Object* a2, ::System::Threading::CancellationToken a3, ::System::Threading::Tasks::TaskCreationOptions a4, ::System::Threading::Tasks::TaskScheduler* a5)
+		::System::Threading::Tasks::Task* StartNew(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Threading::CancellationToken a3, ::System::Threading::Tasks::TaskCreationOptions a4, ::System::Threading::Tasks::TaskScheduler* a5)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_STARTNEW_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_STARTNEW_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions a1, ::System::Boolean a2)
@@ -54,9 +55,9 @@ namespace System::Threading::Tasks
 			return ((::System::Void(*)(::System::Threading::Tasks::TaskCreationOptions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Threading::Tasks::Task* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* a1)
+		static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* a1)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET))(a1);
+			return ((::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*(*)(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET))(a1);
 		}
 
 		static ::System::Void CheckMultiTaskContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions a1)

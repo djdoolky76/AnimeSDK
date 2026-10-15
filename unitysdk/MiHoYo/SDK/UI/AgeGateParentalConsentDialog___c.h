@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::UI { class AgeGateParentalConsentDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFEED50)
 #define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEED90)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::UI
 	class AgeGateParentalConsentDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__41_0()
+		static ::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>** StaticGet___9__41_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.UI", "<>c")->GetStaticField(0x207C0);
+			return (::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>**)UnitySDK::FromName("MiHoYo.SDK.UI", "<>c")->GetStaticField(0x207C0);
 		}
 
 		static ::System::Object** StaticGet___9()

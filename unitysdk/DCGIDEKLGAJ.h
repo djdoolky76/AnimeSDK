@@ -11,6 +11,7 @@ class HKJDDODAIAE;
 namespace RPG::Client { class ForceKillMarkDataProvider; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
@@ -77,14 +78,14 @@ inline static constexpr unsigned int DCGIDEKLGAJ_TypeDefinitionIndex = 71679;
 	{
 	public:
 		::EIDFPDLDDEK* MEIFJHOKEPH; // 0x60
-		::System::Action* LECMHEEAFEM; // 0x68
+		::System::Action_1<::System::Single>* LECMHEEAFEM; // 0x68
 		::DFFPCAIGHPP* HFKDBOLDFEH; // 0x70
 		::System::Action* OOMGNJOILLB; // 0x78
 		::UnityEngine::Transform* HCOGIJGBHFB; // 0x80
 		::UnityEngine::RectTransform* DDMJJAKCOID; // 0x88
 		::System::Action* FEHLHIEBKLD; // 0x90
-		::System::Action* KHHLFDELGBC; // 0x98
-		::System::Action* MBEFNCNAECB; // 0xA0
+		::System::Action_1<::System::Single>* KHHLFDELGBC; // 0x98
+		::System::Action_1<::System::Single>* MBEFNCNAECB; // 0xA0
 		::HKJDDODAIAE* KBHDJMBGNJC; // 0xA8
 		::System::Single GHJJJLNJBJL; // 0xB0
 		::System::Single EIFBLIDPNIH; // 0xB4
@@ -137,9 +138,9 @@ inline static constexpr unsigned int DCGIDEKLGAJ_TypeDefinitionIndex = 71679;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_PFNEMDODCAE_OFFSET))(this, a1);
 		}
 
-		::System::Void PJMBOIFCHFP(::System::Action* a1)
+		::System::Void PJMBOIFCHFP(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_PJMBOIFCHFP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_PJMBOIFCHFP_OFFSET))(this, a1);
 		}
 
 		::System::Single ACCNBLLBDLH()
@@ -202,9 +203,9 @@ inline static constexpr unsigned int DCGIDEKLGAJ_TypeDefinitionIndex = 71679;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_CMMDKAMBJMJ_OFFSET))(this, a1);
 		}
 
-		::System::Void ACBENJFCAHG(::System::Action* a1)
+		::System::Void ACBENJFCAHG(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_ACBENJFCAHG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_ACBENJFCAHG_OFFSET))(this, a1);
 		}
 
 		::System::Void CEENCDMHBFB(::System::Action* a1)
@@ -217,9 +218,9 @@ inline static constexpr unsigned int DCGIDEKLGAJ_TypeDefinitionIndex = 71679;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_OJEKLHHILDD_OFFSET))(this, a1);
 		}
 
-		::System::Void GDBOALOEFMD(::System::Action* a1)
+		::System::Void GDBOALOEFMD(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_GDBOALOEFMD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + DCGIDEKLGAJ_GDBOALOEFMD_OFFSET))(this, a1);
 		}
 
 		::System::Void EDCJFGHCCGO(::System::Single a1)

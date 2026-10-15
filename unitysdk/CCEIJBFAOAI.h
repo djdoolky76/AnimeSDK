@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/MechCraft/MechCraftRotationType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/PLHLAIJKMOD.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class CHGHIALKMFM;
 class MAAKEBJAIOG;
@@ -13,8 +14,8 @@ class OFIILELJGIE;
 class PAHNGJAHJKI;
 class PLHOHFBLKJO;
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -64,14 +65,14 @@ inline static constexpr unsigned int CCEIJBFAOAI_TypeDefinitionIndex = 41790;
 	class CCEIJBFAOAI : public ::System::Object
 	{
 	public:
-		::System::Action* OnPieceInstantiated; // 0x10
+		::System::Action_1<::NKIJFPHFJCO*>* OnPieceInstantiated; // 0x10
 		::MAAKEBJAIOG* LGOMCOOEHJG; // 0x18
 		::OFIILELJGIE* _Progress_k__BackingField; // 0x20
-		::System::Action* OnManyPiecesDestroyed; // 0x28
+		::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*>* OnManyPiecesDestroyed; // 0x28
 		::OECNOHOLGPP* MIPPNCGOJNM; // 0x30
-		::System::Action* OnPieceMoved; // 0x38
-		::System::Action* OnPieceRotated; // 0x40
-		::System::Action* OnSinglePieceDestroyed; // 0x48
+		::System::Action_1<::NKIJFPHFJCO*>* OnPieceMoved; // 0x38
+		::System::Action_1<::NKIJFPHFJCO*>* OnPieceRotated; // 0x40
+		::System::Action_1<::System::Int32>* OnSinglePieceDestroyed; // 0x48
 		::NLOGOPPGNMD* _ChipPieces_k__BackingField; // 0x50
 		::PAHNGJAHJKI* FILKNFKKGIC; // 0x58
 		::System::Void _ctor()
@@ -124,54 +125,54 @@ inline static constexpr unsigned int CCEIJBFAOAI_TypeDefinitionIndex = 41790;
 			return ((::System::Void(*)(::PVOID, ::OFIILELJGIE*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_SET_PROGRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPieceInstantiated(::System::Action* a1)
+		::System::Void add_OnPieceInstantiated(::System::Action_1<::NKIJFPHFJCO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONPIECEINSTANTIATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::NKIJFPHFJCO*>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONPIECEINSTANTIATED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPieceInstantiated(::System::Action* a1)
+		::System::Void remove_OnPieceInstantiated(::System::Action_1<::NKIJFPHFJCO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONPIECEINSTANTIATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::NKIJFPHFJCO*>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONPIECEINSTANTIATED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPieceMoved(::System::Action* a1)
+		::System::Void add_OnPieceMoved(::System::Action_1<::NKIJFPHFJCO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONPIECEMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::NKIJFPHFJCO*>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONPIECEMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPieceMoved(::System::Action* a1)
+		::System::Void remove_OnPieceMoved(::System::Action_1<::NKIJFPHFJCO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONPIECEMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::NKIJFPHFJCO*>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONPIECEMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPieceRotated(::System::Action* a1)
+		::System::Void add_OnPieceRotated(::System::Action_1<::NKIJFPHFJCO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONPIECEROTATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::NKIJFPHFJCO*>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONPIECEROTATED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPieceRotated(::System::Action* a1)
+		::System::Void remove_OnPieceRotated(::System::Action_1<::NKIJFPHFJCO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONPIECEROTATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::NKIJFPHFJCO*>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONPIECEROTATED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnSinglePieceDestroyed(::System::Action* a1)
+		::System::Void add_OnSinglePieceDestroyed(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONSINGLEPIECEDESTROYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONSINGLEPIECEDESTROYED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnSinglePieceDestroyed(::System::Action* a1)
+		::System::Void remove_OnSinglePieceDestroyed(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONSINGLEPIECEDESTROYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONSINGLEPIECEDESTROYED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnManyPiecesDestroyed(::System::Action* a1)
+		::System::Void add_OnManyPiecesDestroyed(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONMANYPIECESDESTROYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_ADD_ONMANYPIECESDESTROYED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnManyPiecesDestroyed(::System::Action* a1)
+		::System::Void remove_OnManyPiecesDestroyed(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONMANYPIECESDESTROYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*>*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_REMOVE_ONMANYPIECESDESTROYED_OFFSET))(this, a1);
 		}
 
 		::System::Void OHOAEIAEOID(::PLHOHFBLKJO* a1)
@@ -224,9 +225,9 @@ inline static constexpr unsigned int CCEIJBFAOAI_TypeDefinitionIndex = 41790;
 			return ((::System::Boolean(*)(::PVOID, ::NKIJFPHFJCO*, ::PLHLAIJKMOD))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_KIADGAJEDPF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean KIADGAJEDPF_1(::NKIJFPHFJCO* a1, ::UnityEngine::Vector2Int a2, ::System::Nullable* a3)
+		::System::Boolean KIADGAJEDPF_1(::NKIJFPHFJCO* a1, ::UnityEngine::Vector2Int a2, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType> a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::NKIJFPHFJCO*, ::UnityEngine::Vector2Int, ::System::Nullable*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_KIADGAJEDPF_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::NKIJFPHFJCO*, ::UnityEngine::Vector2Int, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType>))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_KIADGAJEDPF_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MHPLEKGEBJL(::NKIJFPHFJCO* a1, ::PLHLAIJKMOD a2)
@@ -234,9 +235,9 @@ inline static constexpr unsigned int CCEIJBFAOAI_TypeDefinitionIndex = 41790;
 			return ((::System::Void(*)(::PVOID, ::NKIJFPHFJCO*, ::PLHLAIJKMOD))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_MHPLEKGEBJL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void MHPLEKGEBJL_1(::NKIJFPHFJCO* a1, ::UnityEngine::Vector2Int a2, ::System::Nullable* a3)
+		::System::Void MHPLEKGEBJL_1(::NKIJFPHFJCO* a1, ::UnityEngine::Vector2Int a2, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::NKIJFPHFJCO*, ::UnityEngine::Vector2Int, ::System::Nullable*))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_MHPLEKGEBJL_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::NKIJFPHFJCO*, ::UnityEngine::Vector2Int, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType>))((::PBYTE)hIl2Cpp + CCEIJBFAOAI_MHPLEKGEBJL_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean MMHPJLFMDDJ(::NKIJFPHFJCO* a1)

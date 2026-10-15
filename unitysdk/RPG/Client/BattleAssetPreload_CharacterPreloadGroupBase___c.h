@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BattleAssetPreload_AssetPreloadGroup; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC80A2F0)
 #define RPG_CLIENT_BATTLEASSETPRELOAD_CHARACTERPRELOADGROUPBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC80A330)
@@ -22,14 +22,14 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58F20);
 		}
 
-		static ::System::Action** StaticGet___9__84_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__84_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58F28);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58F28);
 		}
 
-		static ::System::Action** StaticGet___9__81_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__81_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58F30);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58F30);
 		}
 
 		static ::System::Void _cctor()

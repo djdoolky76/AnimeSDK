@@ -5,7 +5,7 @@ class BCLKDMAHONE;
 class NJKFCOIBIOK;
 namespace Entitas { class IEntity; }
 namespace RPG::Client::LittleGame::PixAir { class BasePixAirView; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_LITTLEGAME_PIXAIR_BASEPIXAIRVIEW_ADD_DESTROYED_OFFSET UNITYSDK_OFFSET(0xD479DB0)
@@ -26,7 +26,7 @@ namespace RPG::Client::LittleGame::PixAir
 	class BasePixAirView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* Destroyed; // 0x18
+		::System::Action_1<::RPG::Client::LittleGame::PixAir::BasePixAirView*>* Destroyed; // 0x18
 		::BCLKDMAHONE* CFKHNPGEAJA; // 0x20
 		::System::Boolean LINNHMPNCJG; // 0x28
 		::System::Byte _padding0[0x7];
@@ -36,14 +36,14 @@ namespace RPG::Client::LittleGame::PixAir
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_BASEPIXAIRVIEW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_Destroyed(::System::Action* a1)
+		::System::Void add_Destroyed(::System::Action_1<::RPG::Client::LittleGame::PixAir::BasePixAirView*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_BASEPIXAIRVIEW_ADD_DESTROYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::LittleGame::PixAir::BasePixAirView*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_BASEPIXAIRVIEW_ADD_DESTROYED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Destroyed(::System::Action* a1)
+		::System::Void remove_Destroyed(::System::Action_1<::RPG::Client::LittleGame::PixAir::BasePixAirView*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_BASEPIXAIRVIEW_REMOVE_DESTROYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::LittleGame::PixAir::BasePixAirView*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_BASEPIXAIRVIEW_REMOVE_DESTROYED_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Transform* GetRoot()

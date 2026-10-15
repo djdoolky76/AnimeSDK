@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::Console { class UGCProtocolManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Diagnostics { class Stopwatch; }
 
@@ -34,7 +34,7 @@ namespace MiHoYo::SDK::Console
 	{
 	public:
 		::System::Diagnostics::Stopwatch* callbackStopwatch; // 0x10
-		::System::Action* agreementCallback; // 0x18
+		::System::Action_1<::System::String*>* agreementCallback; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Headers; // 0x20
 		::System::String* agreementDomain; // 0x28
 		::System::String* ugcToken; // 0x30
@@ -72,9 +72,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_SETTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void CheckIfShowNeeded(::System::String* a1, ::System::Action* a2)
+		::System::Void CheckIfShowNeeded(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CHECKIFSHOWNEEDED_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CHECKIFSHOWNEEDED_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Close()

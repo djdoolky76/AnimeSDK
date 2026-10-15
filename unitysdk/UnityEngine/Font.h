@@ -3,8 +3,8 @@
 #include "unitysdk/UnityEngine/FontStyle.h"
 #include "unitysdk/UnityEngine/Object.h"
 #include "unitysdk/UnityEngine/CharacterInfo.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Font; }
 namespace UnityEngine { class Font_FontTextureRebuildCallback; }
 namespace UnityEngine { class Material; }
@@ -36,9 +36,9 @@ namespace UnityEngine
 	{
 	public:
 		::UnityEngine::Font_FontTextureRebuildCallback* m_FontTextureRebuildCallback; // 0x18
-		static ::System::Action** StaticGet_textureRebuilt()
+		static ::System::Action_1<::UnityEngine::Font*>** StaticGet_textureRebuilt()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine", "Font")->GetStaticField(0x1F0);
+			return (::System::Action_1<::UnityEngine::Font*>**)UnitySDK::FromName("UnityEngine", "Font")->GetStaticField(0x1F0);
 		}
 
 		::System::Void _ctor()
@@ -46,14 +46,14 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void add_textureRebuilt(::System::Action* a1)
+		static ::System::Void add_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_ADD_TEXTUREREBUILT_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::UnityEngine::Font*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_ADD_TEXTUREREBUILT_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_textureRebuilt(::System::Action* a1)
+		static ::System::Void remove_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_REMOVE_TEXTUREREBUILT_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::UnityEngine::Font*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FONT_REMOVE_TEXTUREREBUILT_OFFSET))(a1);
 		}
 
 		::UnityEngine::Material* get_material()

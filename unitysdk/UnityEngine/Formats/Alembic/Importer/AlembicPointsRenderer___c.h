@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class ComputeBuffer; }
 
 #define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F171310)
@@ -16,9 +16,9 @@ namespace UnityEngine::Formats::Alembic::Importer
 	class AlembicPointsRenderer___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__39_0()
+		static ::System::Action_1<::UnityEngine::ComputeBuffer*>** StaticGet___9__39_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Importer", "<>c")->GetStaticField(0x15AB0);
+			return (::System::Action_1<::UnityEngine::ComputeBuffer*>**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Importer", "<>c")->GetStaticField(0x15AB0);
 		}
 
 		static ::System::Object** StaticGet___9()

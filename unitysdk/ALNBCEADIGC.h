@@ -4,7 +4,7 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG { template <typename T> class PoolList_1; }
 
 #define ALNBCEADIGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1556FC60)
@@ -17,8 +17,8 @@ inline static constexpr unsigned int ALNBCEADIGC_TypeDefinitionIndex = 76919;
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x18
-		::Entitas::IGroup* OEKLGLKBJMB; // 0x20
-		::Entitas::IGroup* CDHCLKMJJIL; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* OEKLGLKBJMB; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* CDHCLKMJJIL; // 0x28
 		::RPG::PoolList_1<::HIOEAKHGILF*>* FLLDODFPLHK; // 0x30
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

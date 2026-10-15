@@ -6,7 +6,7 @@ class IMFPIFAMEHE;
 namespace RPG::Client::Pet { class IPet; }
 namespace RPG::Client::Pet { class SimplePetAppearance; }
 namespace RPG::GameCore { class ItemRow; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define LPCLKDJLGKC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB818750)
 #define LPCLKDJLGKC_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xB818DC0)
@@ -32,14 +32,14 @@ inline static constexpr unsigned int LPCLKDJLGKC_TypeDefinitionIndex = 75669;
 			return ((::System::Boolean(*)(::System::UInt32, ::RPG::Client::Pet::IPet*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_LHLALAKKKKJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void NLPBKFAGFGA(::System::Action* a1)
+		static ::System::Void NLPBKFAGFGA(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_NLPBKFAGFGA_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_NLPBKFAGFGA_OFFSET))(a1);
 		}
 
-		static ::System::Void MCMHMFOIJAB(::System::Action* a1)
+		static ::System::Void MCMHMFOIJAB(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_MCMHMFOIJAB_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + LPCLKDJLGKC_MCMHMFOIJAB_OFFSET))(a1);
 		}
 
 		static ::System::Void MCMHMFOIJAB_1(::ANOBOGENEMP* a1)

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 class JNEJKGNDADC;
 namespace Proto { class ItemList; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class MaterialSubmitter; }
 namespace RPG::Client { class MaterialSubmitterGroup; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -40,7 +40,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MaterialSubmitter*>* _Submitters; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _ItemToGroupMap; // 0x28
 		::JNEJKGNDADC* _ServerAgent; // 0x30
-		::System::Nullable* _SubmittedSubmitterIDCache; // 0x38
+		::System::Nullable_1<::System::UInt32> _SubmittedSubmitterIDCache; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALSUBMISSIONMODULE_CTOR_OFFSET))(this);

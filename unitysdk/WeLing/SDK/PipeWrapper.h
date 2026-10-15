@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/WeLing/SDK/GyroType.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace WeLing::SDK { class PipeWrapper_OnReceiveData; }
 namespace WeLing::SDK { class PipeWrapper_OnSensorCallbackFun; }
 
@@ -25,14 +26,14 @@ namespace WeLing::SDK
 	class PipeWrapper : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_OnReceiveDataEvent()
+		static ::System::Action_1<::System::String*>** StaticGet_OnReceiveDataEvent()
 		{
-			return (::System::Action**)UnitySDK::FromName("WeLing.SDK", "PipeWrapper")->GetStaticField(0x620);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("WeLing.SDK", "PipeWrapper")->GetStaticField(0x620);
 		}
 
-		static ::System::Action** StaticGet_OnSensorEvent()
+		static ::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>** StaticGet_OnSensorEvent()
 		{
-			return (::System::Action**)UnitySDK::FromName("WeLing.SDK", "PipeWrapper")->GetStaticField(0x628);
+			return (::System::Action_2<::WeLing::SDK::GyroType, ::Il2CppArray<::System::Single>*>**)UnitySDK::FromName("WeLing.SDK", "PipeWrapper")->GetStaticField(0x628);
 		}
 
 		::System::Void _ctor()

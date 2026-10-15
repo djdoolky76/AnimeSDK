@@ -8,8 +8,8 @@ class INMMPMDELKE;
 class MNCOPNHONHO;
 class NKMEEIAEDDP;
 namespace RPG::GameCore { class PropButtonConfig; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Transform; }
 
@@ -52,9 +52,9 @@ inline static constexpr unsigned int NKMEEIAEDDP_TypeDefinitionIndex = 76742;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NKMEEIAEDDP_CCTOR_OFFSET))();
 		}
 
-		::System::Void FNMBEFOBKCM(::INMMPMDELKE* a1, ::RPG::GameCore::PropButtonConfig* a2, ::System::Action* a3)
+		::System::Void FNMBEFOBKCM(::INMMPMDELKE* a1, ::RPG::GameCore::PropButtonConfig* a2, ::System::Action_1<::INMMPMDELKE*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::RPG::GameCore::PropButtonConfig*, ::System::Action*))((::PBYTE)hIl2Cpp + NKMEEIAEDDP_FNMBEFOBKCM_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::RPG::GameCore::PropButtonConfig*, ::System::Action_1<::INMMPMDELKE*>*))((::PBYTE)hIl2Cpp + NKMEEIAEDDP_FNMBEFOBKCM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::GCFreeClosure::FuncClosureR_1<::System::Boolean> AMLBFDFKLIA()
@@ -92,14 +92,14 @@ inline static constexpr unsigned int NKMEEIAEDDP_TypeDefinitionIndex = 76742;
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelTriggerActionType))((::PBYTE)hIl2Cpp + NKMEEIAEDDP_OMOEIALNEHF_OFFSET))(this, a1);
 		}
 
-		::System::Void LMFHDJMELFH(::INMMPMDELKE* a1, ::System::Action* a2, ::System::Action* a3, ::System::String* a4, ::System::Boolean a5)
+		::System::Void LMFHDJMELFH(::INMMPMDELKE* a1, ::System::Action_1<::INMMPMDELKE*>* a2, ::System::Action_1<::INMMPMDELKE*>* a3, ::System::String* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::System::Action*, ::System::Action*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + NKMEEIAEDDP_LMFHDJMELFH_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::System::Action_1<::INMMPMDELKE*>*, ::System::Action_1<::INMMPMDELKE*>*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + NKMEEIAEDDP_LMFHDJMELFH_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PHHMNKDAFMK(::INMMPMDELKE* a1, ::System::Action* a2, ::System::Action* a3, ::System::String* a4)
+		::System::Void PHHMNKDAFMK(::INMMPMDELKE* a1, ::System::Action_1<::INMMPMDELKE*>* a2, ::System::Action_1<::INMMPMDELKE*>* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::System::Action*, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + NKMEEIAEDDP_PHHMNKDAFMK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::System::Action_1<::INMMPMDELKE*>*, ::System::Action_1<::INMMPMDELKE*>*, ::System::String*))((::PBYTE)hIl2Cpp + NKMEEIAEDDP_PHHMNKDAFMK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean _get_CheckDisableInteract_b__2_0(::NKMEEIAEDDP* a1)

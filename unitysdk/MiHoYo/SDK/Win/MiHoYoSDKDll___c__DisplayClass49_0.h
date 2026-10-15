@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD91700)
 #define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS49_0__LOGIN_WILL_ENTER_GAME_B__0_OFFSET UNITYSDK_OFFSET(0x1BD99000)
@@ -14,7 +14,7 @@ namespace MiHoYo::SDK::Win
 	class MiHoYoSDKDll___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::System::String* jsonString; // 0x18
 		::System::Void _ctor()
 		{

@@ -10,10 +10,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventDescriptor.h"
 namespace Microsoft::Win32 { class UnsafeNativeMethods_ManifestEtw_EtwEnableCallback; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -151,9 +151,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_FINDNULL_OFFSET))(a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::System::Tuple*>* GetSessions()
+		::System::Collections::Generic::List_1<::System::Tuple_2<::System::Object*, ::System::Boolean>*>* GetSessions()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Tuple_2<::System::Object*, ::System::Boolean>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONS_OFFSET))(this);
 		}
 
 		static ::System::Void GetSessionInfoCallback(::System::Int32 a1, ::System::Int64 a2, ::System::Object* a3)
@@ -161,9 +161,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::System::Int32, ::System::Int64, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFOCALLBACK_OFFSET))(a1, a2, a3);
 		}
 
-		::System::Void GetSessionInfo(::System::Action* a1)
+		::System::Void GetSessionInfo(::System::Action_2<::System::Int32, ::System::Int64>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Int32, ::System::Int64>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_GETSESSIONINFO_OFFSET))(this, a1);
 		}
 
 		static ::System::Int32 IndexOfSessionInList(::System::Collections::Generic::List_1<::System::Object*>* a1, ::System::Int32 a2)

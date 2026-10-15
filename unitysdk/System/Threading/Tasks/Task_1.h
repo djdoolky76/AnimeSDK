@@ -3,7 +3,8 @@
 #include "unitysdk/System/Threading/Tasks/Task.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Threading::Tasks { class Task; }
-namespace System::Threading::Tasks { class TaskFactory; }
+namespace System::Threading::Tasks { template <typename T> class TaskFactory_1; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Threading::Tasks
 {
@@ -14,14 +15,14 @@ namespace System::Threading::Tasks
 	{
 	public:
 		T m_result; // 0x0
-		static ::System::Threading::Tasks::TaskFactory** StaticGet_s_Factory()
+		static ::System::Threading::Tasks::TaskFactory_1<T>** StaticGet_s_Factory()
 		{
-			return (::System::Threading::Tasks::TaskFactory**)UnitySDK::FromName("System.Threading.Tasks", "Task`1")->GetStaticField(0x0);
+			return (::System::Threading::Tasks::TaskFactory_1<T>**)UnitySDK::FromName("System.Threading.Tasks", "Task`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Func_2<::System::Threading::Tasks::Task*, ::System::Threading::Tasks::Task*>** StaticGet_TaskWhenAnyCast()
+		static ::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<T>*>** StaticGet_TaskWhenAnyCast()
 		{
-			return (::System::Func_2<::System::Threading::Tasks::Task*, ::System::Threading::Tasks::Task*>**)UnitySDK::FromName("System.Threading.Tasks", "Task`1")->GetStaticField(0x0);
+			return (::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<T>*>**)UnitySDK::FromName("System.Threading.Tasks", "Task`1")->GetStaticField(0x0);
 		}
 
 	};

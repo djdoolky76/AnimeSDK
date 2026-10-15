@@ -5,7 +5,7 @@ class AFKFJCPELEM;
 class AKMFECNJFBG;
 class CGEOCOPMJGI;
 class MFFPHMCGEOJ;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define MFFPHMCGEOJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F4F00)
 #define MFFPHMCGEOJ___C__DISPLAYCLASS8_0__SUBMITEXAM_B__0_OFFSET UNITYSDK_OFFSET(0xB8F5990)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int MFFPHMCGEOJ___c__DisplayClass8_0_TypeDefini
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MFFPHMCGEOJ___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _SubmitExam_b__0(::AFKFJCPELEM* a1)
+		::RPG::Client::Promises::IPromise_1<::CGEOCOPMJGI*>* _SubmitExam_b__0(::AFKFJCPELEM* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::AFKFJCPELEM*))((::PBYTE)hIl2Cpp + MFFPHMCGEOJ___C__DISPLAYCLASS8_0__SUBMITEXAM_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::CGEOCOPMJGI*>*(*)(::PVOID, ::AFKFJCPELEM*))((::PBYTE)hIl2Cpp + MFFPHMCGEOJ___C__DISPLAYCLASS8_0__SUBMITEXAM_B__0_OFFSET))(this, a1);
 		}
 
 	};

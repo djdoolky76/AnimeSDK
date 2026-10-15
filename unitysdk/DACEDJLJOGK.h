@@ -4,8 +4,8 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/B51RacingPartType.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define DACEDJLJOGK_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBC810)
 
@@ -15,7 +15,7 @@ inline static constexpr unsigned int DACEDJLJOGK_TypeDefinitionIndex = 81992;
 	{
 	public:
 		::System::String* OLOIFNNLKJP; // 0x10
-		::System::Action* ONPCPLEECCG; // 0x18
+		::System::Action_1<::System::UInt32>* ONPCPLEECCG; // 0x18
 		::RPG::Client::B51Racing::B51RacingDIYDecoItemType LINLNNHIBAK; // 0x20
 		::System::Boolean HELJNHNDCJP; // 0x24
 		::System::Boolean AALCCPJCBME; // 0x25

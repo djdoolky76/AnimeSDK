@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
 #define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC16990)
@@ -22,9 +22,9 @@ namespace RPG::Client::Prop
 			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x401A0);
 		}
 
-		static ::System::Action** StaticGet___9__11_2()
+		static ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>** StaticGet___9__11_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x401A8);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x401A8);
 		}
 
 		static ::System::Void _cctor()

@@ -5,8 +5,8 @@ class EDNECKFHLEM;
 class OEIKFPLBOMH;
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class TabView; }
-namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define ILDFNPFMKIF_CTOR_OFFSET UNITYSDK_OFFSET(0x164A94C0)
 #define ILDFNPFMKIF_DISPOSECORE_OFFSET UNITYSDK_OFFSET(0x164A9C30)
@@ -21,7 +21,7 @@ inline static constexpr unsigned int ILDFNPFMKIF_TypeDefinitionIndex = 49815;
 	class ILDFNPFMKIF
 	{
 	public:
-		::System::Action* CDLBHDFLHJA; // 0x20
+		::System::Action_2<::EDNECKFHLEM*, ::EDNECKFHLEM*>* CDLBHDFLHJA; // 0x20
 		::OEIKFPLBOMH* JKCNFDEAMDJ; // 0x28
 		::RPG::Client::TabView* PEOHNLJEFLJ; // 0x30
 		::R3::ReactiveProperty_1<::System::Int32>* AGFAPPGGKMA; // 0x38

@@ -5,7 +5,7 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__UNWRAP_D__67_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F210)
 #define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__UNWRAP_D__67_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
@@ -21,7 +21,7 @@ namespace Cysharp::Threading::Tasks
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
 		::System::Object* __u__1; // 0x30
 		::System::Byte _padding0[0x8];
-		::System::Threading::Tasks::Task* task; // 0x40
+		::System::Threading::Tasks::Task_1<::Cysharp::Threading::Tasks::UniTask>* task; // 0x40
 		::System::Int32 __1__state; // 0x48
 		::System::Boolean continueOnCapturedContext; // 0x4C
 		::System::Void MoveNext()

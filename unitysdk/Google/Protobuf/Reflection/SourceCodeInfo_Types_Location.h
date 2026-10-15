@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class SourceCodeInfo_Types_Location; }
@@ -50,24 +50,24 @@ namespace Google::Protobuf::Reflection
 		::System::String* trailingComments_; // 0x28
 		::Google::Protobuf::Collections::RepeatedField_1<::System::Int32>* span_; // 0x30
 		::Google::Protobuf::Collections::RepeatedField_1<::System::Int32>* path_; // 0x38
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_path_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::Int32>** StaticGet__repeated_path_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "Location")->GetStaticField(0x18D70);
+			return (::Google::Protobuf::FieldCodec_1<::System::Int32>**)UnitySDK::FromName("Google.Protobuf.Reflection", "Location")->GetStaticField(0x18D70);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_leadingDetachedComments_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet__repeated_leadingDetachedComments_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "Location")->GetStaticField(0x18D78);
+			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "Location")->GetStaticField(0x18D78);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_span_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::Int32>** StaticGet__repeated_span_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "Location")->GetStaticField(0x18D80);
+			return (::Google::Protobuf::FieldCodec_1<::System::Int32>**)UnitySDK::FromName("Google.Protobuf.Reflection", "Location")->GetStaticField(0x18D80);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::System::Object*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.Reflection", "Location")->GetStaticField(0x18D88);
+			return (::Google::Protobuf::MessageParser_1<::System::Object*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "Location")->GetStaticField(0x18D88);
 		}
 
 		static ::System::String** StaticGet_TrailingCommentsDefaultValue()
@@ -95,9 +95,9 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::System::Object*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::System::Object*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

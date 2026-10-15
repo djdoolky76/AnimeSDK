@@ -6,6 +6,7 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayExitConfirmViewMod
 namespace Sofa::Core { class SimpleCommand; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMVIEWMODEL_ADD_REQUESTCLOSE_OFFSET UNITYSDK_OFFSET(0xCA8D960)
 #define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCA8CF50)
@@ -42,7 +43,7 @@ namespace RPG::Client::ChenLingFes
 	{
 	public:
 		::Sofa::Core::SimpleCommand* _SettleAndExitCommand_k__BackingField; // 0x20
-		::System::Action* _OnConfirm; // 0x28
+		::System::Action_1<::System::Boolean>* _OnConfirm; // 0x28
 		::System::String* _Star_k__BackingField; // 0x30
 		::Sofa::Core::SimpleCommand* _SettingCommand_k__BackingField; // 0x38
 		::System::String* _Day_k__BackingField; // 0x40
@@ -57,9 +58,9 @@ namespace RPG::Client::ChenLingFes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMVIEWMODEL_CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayExitConfirmViewModel* Create(::System::Action* a1, ::HJPJAKIIOCN* a2)
+		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayExitConfirmViewModel* Create(::System::Action_1<::System::Boolean>* a1, ::HJPJAKIIOCN* a2)
 		{
-			return ((::RPG::Client::ChenLingFes::ChenLingFesGameplayExitConfirmViewModel*(*)(::System::Action*, ::HJPJAKIIOCN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMVIEWMODEL_CREATE_OFFSET))(a1, a2);
+			return ((::RPG::Client::ChenLingFes::ChenLingFesGameplayExitConfirmViewModel*(*)(::System::Action_1<::System::Boolean>*, ::HJPJAKIIOCN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMVIEWMODEL_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::Void _Init()

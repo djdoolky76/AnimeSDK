@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
+#include "unitysdk/System/Nullable_1.h"
 class DLNGPHPNPAN;
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -15,7 +15,7 @@ inline static constexpr unsigned int LAKIIPFOJNB_TypeDefinitionIndex = 74796;
 	class LAKIIPFOJNB : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:
-		::System::Nullable* IPMICIJLDBJ; // 0x28
+		::System::Nullable_1<::System::UInt32> IPMICIJLDBJ; // 0x28
 		::System::Void _ctor(::System::Collections::Generic::List_1<::DLNGPHPNPAN*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::DLNGPHPNPAN*>*))((::PBYTE)hIl2Cpp + LAKIIPFOJNB_CTOR_OFFSET))(this, a1);

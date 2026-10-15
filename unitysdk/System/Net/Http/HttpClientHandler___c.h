@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE602A0)
 #define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE602D0)
@@ -28,9 +28,9 @@ namespace System::Net::Http
 			return (::System::Object**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0xBEC8);
 		}
 
-		static ::System::Action** StaticGet___9__64_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__64_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0xBED0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.Net.Http", "<>c")->GetStaticField(0xBED0);
 		}
 
 		static ::System::Void _cctor()

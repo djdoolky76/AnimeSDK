@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/BGGDOPNKDLK_NECBAADFLNA.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BGGDOPNKDLK_MMDPKKPOHOG;
 class ICNLEDIBDIE;
 namespace System { class Object; }
@@ -67,9 +67,9 @@ inline static constexpr unsigned int BGGDOPNKDLK_GLGPGAAPAAI_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_GLGPGAAPAAI_ILJIMIGPOON_OFFSET))(this);
 		}
 
-		::System::Int32 LIACNFLBDKC(::System::Collections::Generic::Queue_1<::System::ValueTuple>* a1, ::System::Int32 a2)
+		::System::Int32 LIACNFLBDKC(::System::Collections::Generic::Queue_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::Queue_1<::System::ValueTuple>*, ::System::Int32))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_GLGPGAAPAAI_LIACNFLBDKC_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::Queue_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*, ::System::Int32))((::PBYTE)hIl2Cpp + BGGDOPNKDLK_GLGPGAAPAAI_LIACNFLBDKC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean HJLPONIGJNN(::System::Int32 a1, ::System::Int32 a2)

@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/BoundingSphere.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BPNMJLEMOMK;
 namespace RPG::Client { class UIMap3DContainerConfig; }
 namespace RPG::Client { class UIMap3DContainer_IPoseTransformProvider; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
@@ -101,7 +101,7 @@ namespace RPG::Client
 		::System::Boolean _ShouldNotifyMap3DColliderUpdate; // 0xD0
 		::System::Boolean _IsReseting; // 0xD1
 		::System::Byte _padding3[0x2];
-		::System::Nullable* _InitRotation; // 0xD4
+		::System::Nullable_1<::UnityEngine::Quaternion> _InitRotation; // 0xD4
 		::System::Byte _padding4[0xC];
 		::UnityEngine::Quaternion _ResetStartRotation; // 0xE8
 		::System::Single _CurrentCenteringTime; // 0xF8
@@ -170,14 +170,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__ROTATEMODEL_OFFSET))(this);
 		}
 
-		::System::ValueTuple _ComputeRotateSpeedDefault()
+		::System::ValueTuple_2<::System::Single, ::System::Single> _ComputeRotateSpeedDefault()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDEFAULT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDEFAULT_OFFSET))(this);
 		}
 
-		::System::ValueTuple _ComputeRotateSpeedDamping()
+		::System::ValueTuple_2<::System::Single, ::System::Single> _ComputeRotateSpeedDamping()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDAMPING_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDAMPING_OFFSET))(this);
 		}
 
 		::System::Void _ClearRotateLock()
@@ -230,9 +230,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__RECOVERPITCH_OFFSET))(this);
 		}
 
-		::System::ValueTuple _FetchRotateInput()
+		::System::ValueTuple_2<::System::Single, ::System::Single> _FetchRotateInput()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__FETCHROTATEINPUT_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__FETCHROTATEINPUT_OFFSET))(this);
 		}
 
 		::System::Void _StartResetRotation()

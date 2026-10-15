@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace Entitas { class IContext; }
+namespace Entitas { template <typename T> class IContext_1; }
 
 namespace RPG::Client::LittleGame
 {
@@ -11,7 +11,7 @@ namespace RPG::Client::LittleGame
 	class SimpleEventService_1 : public ::System::Object
 	{
 	public:
-		::Entitas::IContext* _Context; // 0x0
+		::Entitas::IContext_1<T>* _Context; // 0x0
 		::System::Int32 _EventCenterEntityID; // 0x0
 		// static const ::System::Object INVALID_SOURCE_ID; // 0x0
 		// static const ::System::Object INVALID_RUNTIME_ID; // 0x0

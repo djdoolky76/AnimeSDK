@@ -6,6 +6,7 @@
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 
 #define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0FDF20)
 #define CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F0FE1B0)
@@ -34,9 +35,9 @@ namespace Cysharp::Threading::Tasks::Linq
 			return ((::Cysharp::Threading::Tasks::AsyncUnit(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_GET_CURRENT_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask MoveNextAsync()
+		::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean> MoveNextAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXTASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_EVERYUPDATE__EVERYUPDATE_MOVENEXTASYNC_OFFSET))(this);
 		}
 
 		::Cysharp::Threading::Tasks::UniTask DisposeAsync()

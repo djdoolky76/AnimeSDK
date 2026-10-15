@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
-#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
+#include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter_1.h"
 class JHOCADLMHCA;
 namespace System { class Object; }
 namespace System { class String; }
@@ -19,12 +19,12 @@ inline static constexpr unsigned int JHOCADLMHCA__GetSheetValuesV2Raw_d__9_TypeD
 	{
 		::System::Object* __u__3; // 0x10
 		::System::Byte _padding0[0x8];
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x20
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x20
 		::System::String* docID; // 0x28
 		::System::Object* __u__2; // 0x30
 		::System::Byte _padding1[0x8];
 		::System::String* sheetID; // 0x40
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x48
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x48
 		::System::Byte _padding2[0x10];
 		::JHOCADLMHCA* __4__this; // 0x60
 		::System::Net::Http::HttpClient* _client_5__3; // 0x68

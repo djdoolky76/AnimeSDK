@@ -2,9 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngineInternal/Input/NativeInputUpdateType.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngineInternal::Input { class NativeUpdateCallback; }
 
 #define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F471690)
@@ -21,14 +22,14 @@ namespace UnityEngineInternal::Input
 	class NativeInputSystem : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_s_OnDeviceDiscoveredCallback()
+		static ::System::Action_2<::System::Int32, ::System::String*>** StaticGet_s_OnDeviceDiscoveredCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngineInternal.Input", "NativeInputSystem")->GetStaticField(0x380);
+			return (::System::Action_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("UnityEngineInternal.Input", "NativeInputSystem")->GetStaticField(0x380);
 		}
 
-		static ::System::Action** StaticGet_onBeforeUpdate()
+		static ::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>** StaticGet_onBeforeUpdate()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngineInternal.Input", "NativeInputSystem")->GetStaticField(0x388);
+			return (::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>**)UnitySDK::FromName("UnityEngineInternal.Input", "NativeInputSystem")->GetStaticField(0x388);
 		}
 
 		static ::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, ::System::Boolean>** StaticGet_onShouldRunUpdate()

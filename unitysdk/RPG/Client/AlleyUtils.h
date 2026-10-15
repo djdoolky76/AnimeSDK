@@ -5,7 +5,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/AlleyEventInfo.h"
 namespace RPG::Client { class LuaUIController; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODANCHORCOUNTBYGOODID_OFFSET UNITYSDK_OFFSET(0xC67A370)
@@ -20,9 +20,9 @@ namespace RPG::Client
 	class AlleyUtils : public ::System::Object
 	{
 	public:
-		static ::System::Void ShowAlleyMainEntrancePage(::System::Action* a1)
+		static ::System::Void ShowAlleyMainEntrancePage(::System::Action_1<::RPG::Client::LuaUIController*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYUTILS_SHOWALLEYMAINENTRANCEPAGE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::RPG::Client::LuaUIController*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYUTILS_SHOWALLEYMAINENTRANCEPAGE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean IsExistingUrgentEventMission(::System::Collections::Generic::List_1<::RPG::Client::AlleyEventInfo>* a1, ::RPG::GameCore::EventTypeEnum a2)

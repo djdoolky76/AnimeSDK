@@ -21,9 +21,9 @@ namespace RPG::Client { class MonoAnimatorPlatform; }
 namespace RPG::Client { class MonoMovementPropHandle; }
 namespace RPG::Client { class NodeRotationController; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
@@ -111,9 +111,9 @@ inline static constexpr unsigned int EDHPIGIAOLE_TypeDefinitionIndex = 57405;
 		::System::Collections::Generic::List_1<::System::Object*>* BIAJOKOMFNJ; // 0x90
 		::RPG::GameCore::GameEntity* JNDHPNOLOJE; // 0x98
 		::OEEKHELGHKF HBJBCBJAHOJ; // 0xA0
-		::System::Action* LIGJMDCBMNK; // 0xB0
+		::System::Action_1<::RPG::GameCore::GameEntity*>* LIGJMDCBMNK; // 0xB0
 		::RPG::GameCore::GameEntity* GACDIFAKJOI; // 0xB8
-		::System::Action* JDCLPCCMAEP; // 0xC0
+		::System::Action_1<::RPG::GameCore::GameEntity*>* JDCLPCCMAEP; // 0xC0
 		::System::Boolean NFKGDIABFNP; // 0xC8
 		::System::Boolean _EnableAnimatorMoveCallback_k__BackingField; // 0xC9
 		::System::Boolean OEBLHFNMHBH; // 0xCA

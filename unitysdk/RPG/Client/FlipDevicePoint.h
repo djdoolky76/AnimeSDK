@@ -3,7 +3,8 @@
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class HPKACEPPPCA;
 namespace RPG::GameCore { class GameEntity; }
@@ -35,8 +36,8 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* AffectedGroups; // 0x10
 		::RPG::GameCore::PropComponent* _PropComponent_k__BackingField; // 0x18
 		::RPG::GameCore::GameEntity* UIPointProxyPropEntity; // 0x20
-		::System::Collections::Generic::List_1<::System::ValueTuple>* MappingProps; // 0x28
-		::System::Collections::Generic::List_1<::System::ValueTuple>* AffectedStageItems; // 0x30
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* MappingProps; // 0x28
+		::System::Collections::Generic::List_1<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>>* AffectedStageItems; // 0x30
 		::RPG::GameCore::GameEntity* GameEntity; // 0x38
 		::System::Single _Radius; // 0x40
 		::System::Single _AddDistance_k__BackingField; // 0x44

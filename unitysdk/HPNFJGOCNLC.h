@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class OFIILELJGIE;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 
 #define HPNFJGOCNLC_BJHJKFKEMJN_OFFSET UNITYSDK_OFFSET(0x15DD4EE0)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int HPNFJGOCNLC_TypeDefinitionIndex = 79562;
 			return ((::System::Void(*)(::PVOID, ::OFIILELJGIE*))((::PBYTE)hIl2Cpp + HPNFJGOCNLC_CTOR_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* BJHJKFKEMJN()
+		::R3::Observable_1<::System::Boolean>* BJHJKFKEMJN()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + HPNFJGOCNLC_BJHJKFKEMJN_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HPNFJGOCNLC_BJHJKFKEMJN_OFFSET))(this);
 		}
 
 		::System::Void Dispose()

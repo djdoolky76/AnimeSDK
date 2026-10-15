@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/IKKAFGPNEGO_AJAGEDENGHL.h"
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
@@ -66,7 +66,7 @@ inline static constexpr unsigned int IKKAFGPNEGO_TypeDefinitionIndex = 57295;
 		::System::String* MMMJBLGMDHG; // 0x40
 		::System::String* GNAHLKCNFEA; // 0x48
 		::System::String* KKBIKLPNAPE; // 0x50
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* BADIPHHBBJC; // 0x58
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* BADIPHHBBJC; // 0x58
 		::UnityEngine::AnimationClip* CMOOEJBJILE; // 0x60
 		::System::String* _Clip0Name_k__BackingField; // 0x68
 		::System::Int32 _Clip1NameHash_k__BackingField; // 0x70
@@ -236,9 +236,9 @@ inline static constexpr unsigned int IKKAFGPNEGO_TypeDefinitionIndex = 57295;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IKKAFGPNEGO_SET_RIBBONCLIP1NAMEHASH_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* ALLAHFLPHOJ()
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* ALLAHFLPHOJ()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IKKAFGPNEGO_ALLAHFLPHOJ_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IKKAFGPNEGO_ALLAHFLPHOJ_OFFSET))(this);
 		}
 
 		::System::Boolean ALFLCCLBKGJ(::System::Int32 a1)

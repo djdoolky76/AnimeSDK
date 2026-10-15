@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NOOHPODHIAA.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class PEEDLCHFAFL;
 namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG { template <typename T> class PoolList_1; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 
@@ -24,7 +24,7 @@ inline static constexpr unsigned int DNELLGPEAED_TypeDefinitionIndex = 43542;
 		::RPG::PoolHashSet_1<::UnityEngine::Collider*>* NILFBBGIHGI; // 0x338
 		::RPG::PoolList_1<::UnityEngine::Collision*>* KNEONECEFKK; // 0x340
 		::RPG::PoolHashSet_1<::System::Int32>* NCIHCMEFKMP; // 0x348
-		::System::Nullable* KFFFAJEEKGI; // 0x350
+		::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x350
 		::System::Byte _padding0[0x2C];
 		::UnityEngine::Vector3 KEJAHHOADEC; // 0x384
 		::System::Single NMPMMIAKFMO; // 0x390
@@ -35,9 +35,9 @@ inline static constexpr unsigned int DNELLGPEAED_TypeDefinitionIndex = 43542;
 		::System::Byte _padding1[0x1];
 		::System::Int32 HMGBOLNBDGA; // 0x39C
 		::System::Single GPGIEFKLNKA; // 0x3A0
-		::System::Nullable* NGKIHMLBGLE; // 0x3A4
+		::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x3A4
 		::System::Byte _padding2[0x2C];
-		::System::Nullable* ALAGENDAJLE; // 0x3D8
+		::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x3D8
 		::System::Byte _padding3[0x2C];
 		::System::Single IDNCONEOKKD; // 0x40C
 		::System::Void _ctor()

@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class CBEMBJPNIJJ;
 class KHNIAFDBHCD_PDACENHFJCM;
@@ -7,7 +8,6 @@ class OGLGJAFCELK;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define KHNIAFDBHCD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB40F780)
 #define KHNIAFDBHCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB40F7C0)
@@ -28,14 +28,14 @@ inline static constexpr unsigned int KHNIAFDBHCD___c_TypeDefinitionIndex = 77840
 	class KHNIAFDBHCD___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Int64>** StaticGet___9__12_4()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::System::Int64>** StaticGet___9__12_4()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54250);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54250);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::OGLGJAFCELK*>** StaticGet___9__12_6()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::OGLGJAFCELK*>** StaticGet___9__12_6()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::OGLGJAFCELK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54258);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::OGLGJAFCELK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54258);
 		}
 
 		static ::System::Func_2<::System::Single, ::System::Single>** StaticGet___9__12_10()
@@ -43,9 +43,9 @@ inline static constexpr unsigned int KHNIAFDBHCD___c_TypeDefinitionIndex = 77840
 			return (::System::Func_2<::System::Single, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54260);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::OGLGJAFCELK*>** StaticGet___9__12_9()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::OGLGJAFCELK*>** StaticGet___9__12_9()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::OGLGJAFCELK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54268);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::OGLGJAFCELK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54268);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__12_1()
@@ -53,9 +53,9 @@ inline static constexpr unsigned int KHNIAFDBHCD___c_TypeDefinitionIndex = 77840
 			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54270);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet___9__12_5()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::System::String*>** StaticGet___9__12_5()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54278);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54278);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__12_2()
@@ -73,9 +73,9 @@ inline static constexpr unsigned int KHNIAFDBHCD___c_TypeDefinitionIndex = 77840
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54290);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet___9__12_8()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::System::String*>** StaticGet___9__12_8()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54298);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54298);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Int64>** StaticGet___9__12_0()
@@ -83,9 +83,9 @@ inline static constexpr unsigned int KHNIAFDBHCD___c_TypeDefinitionIndex = 77840
 			return (::System::Func_2<::System::Object*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x542A0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Int64>** StaticGet___9__12_7()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::System::Int64>** StaticGet___9__12_7()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x542A8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x542A8);
 		}
 
 		static ::System::Void _cctor()
@@ -118,34 +118,34 @@ inline static constexpr unsigned int KHNIAFDBHCD___c_TypeDefinitionIndex = 77840
 			return ((::CBEMBJPNIJJ*(*)(::PVOID, ::KHNIAFDBHCD_PDACENHFJCM*))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_3_OFFSET))(this, a1);
 		}
 
-		::System::Int64 _BuildSnapshot_b__12_4(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int64 _BuildSnapshot_b__12_4(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_4_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_4_OFFSET))(this, a1);
 		}
 
-		::System::String* _BuildSnapshot_b__12_5(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* _BuildSnapshot_b__12_5(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_5_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_5_OFFSET))(this, a1);
 		}
 
-		::OGLGJAFCELK* _BuildSnapshot_b__12_6(::System::Collections::Generic::KeyValuePair* a1)
+		::OGLGJAFCELK* _BuildSnapshot_b__12_6(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::OGLGJAFCELK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_6_OFFSET))(this, a1);
+			return ((::OGLGJAFCELK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_6_OFFSET))(this, a1);
 		}
 
-		::System::Int64 _BuildSnapshot_b__12_7(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int64 _BuildSnapshot_b__12_7(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_7_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_7_OFFSET))(this, a1);
 		}
 
-		::System::String* _BuildSnapshot_b__12_8(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* _BuildSnapshot_b__12_8(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_8_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_8_OFFSET))(this, a1);
 		}
 
-		::OGLGJAFCELK* _BuildSnapshot_b__12_9(::System::Collections::Generic::KeyValuePair* a1)
+		::OGLGJAFCELK* _BuildSnapshot_b__12_9(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::OGLGJAFCELK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_9_OFFSET))(this, a1);
+			return ((::OGLGJAFCELK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_9_OFFSET))(this, a1);
 		}
 
 		::System::Single _BuildSnapshot_b__12_10(::System::Single a1)

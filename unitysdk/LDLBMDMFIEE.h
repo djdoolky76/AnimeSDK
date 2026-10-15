@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NOOHPODHIAA.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG { template <typename T> class PoolList_1; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Collision; }
 
 #define LDLBMDMFIEE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C90CF00)
@@ -22,12 +22,12 @@ inline static constexpr unsigned int LDLBMDMFIEE_TypeDefinitionIndex = 43534;
 		::RPG::PoolHashSet_1<::System::Int32>* NCIHCMEFKMP; // 0x340
 		::System::Single MHPMADJGBJB; // 0x348
 		::UnityEngine::Vector3 KEJAHHOADEC; // 0x34C
-		::System::Nullable* NGKIHMLBGLE; // 0x358
+		::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x358
 		::System::Byte _padding0[0x2C];
 		::System::Single GPGIEFKLNKA; // 0x38C
-		::System::Nullable* KFFFAJEEKGI; // 0x390
+		::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x390
 		::System::Byte _padding1[0x2C];
-		::System::Nullable* ALAGENDAJLE; // 0x3C4
+		::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x3C4
 		::System::Byte _padding2[0x2C];
 		::System::Boolean BNAPGMEKLHB; // 0x3F8
 		::System::Boolean IHLODLNFJKK; // 0x3F9

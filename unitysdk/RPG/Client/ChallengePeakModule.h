@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 class JAIEIHLGJDM;
 class LGMFKDCCDNN;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
@@ -13,7 +14,6 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class QuestData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::GameCore { class ChallengePeakRewardRow; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -85,13 +85,13 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChallengePeak*>* _ChallengePeaks; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChallengePeakBoss*>* _ChallengePeakBosses; // 0x38
 		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _PreQuestIDs; // 0x40
-		::System::Nullable* _EntranceID; // 0x48
-		::System::Nullable* _AboutToExpireThresholdDays; // 0x50
-		::System::Nullable* _CanEnterFromHandbookQuestID; // 0x58
-		::System::Nullable* _ChallengePeakUnlockQuestID; // 0x60
-		::System::Nullable* _ShopID; // 0x68
-		::System::Nullable* _TutorialMainMissionID; // 0x70
-		::System::Nullable* _MapInfoID; // 0x78
+		::System::Nullable_1<::System::UInt32> _EntranceID; // 0x48
+		::System::Nullable_1<::System::UInt32> _AboutToExpireThresholdDays; // 0x50
+		::System::Nullable_1<::System::UInt32> _CanEnterFromHandbookQuestID; // 0x58
+		::System::Nullable_1<::System::UInt32> _ChallengePeakUnlockQuestID; // 0x60
+		::System::Nullable_1<::System::Int32> _ShopID; // 0x68
+		::System::Nullable_1<::System::UInt32> _TutorialMainMissionID; // 0x70
+		::System::Nullable_1<::System::UInt32> _MapInfoID; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEPEAKMODULE_CTOR_OFFSET))(this);

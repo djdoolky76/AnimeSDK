@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Slider_Direction.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 
@@ -25,7 +25,7 @@ namespace RPG::Client
 		::System::Single minValue; // 0x34
 		::System::Single value; // 0x38
 		::System::Single maxValue; // 0x3C
-		::System::Action* onValueChanged; // 0x40
+		::System::Action_2<::System::Single, ::System::Single>* onValueChanged; // 0x40
 		::UnityEngine::Animation* anim; // 0x48
 		// static const ::System::String* animName; // 0x0
 		::System::Void _ctor()

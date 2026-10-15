@@ -6,6 +6,7 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_NodeInfo.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_PDG_WorkItemInfo.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_PDG_WorkItemOutputFile.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace HoudiniEngineUnity { class HEU_CookedEventData; }
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace HoudiniEngineUnity { class HEU_PDGAssetLink_UpdateUIDelegate; }
@@ -19,9 +20,8 @@ namespace HoudiniEngineUnity { class HEU_TOPNodeData; }
 namespace HoudiniEngineUnity { class HEU_TOPWorkResult; }
 namespace HoudiniEngineUnity { class HEU_WorkItemTally; }
 namespace HoudiniEngineUnity { class TOPNodeTags; }
-namespace System { class Action; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -281,9 +281,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_REFRESH_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* GetNonHiddenTOPNodes(::HoudiniEngineUnity::HEU_TOPNetworkData* a1)
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::HoudiniEngineUnity::HEU_TOPNodeData*>>* GetNonHiddenTOPNodes(::HoudiniEngineUnity::HEU_TOPNetworkData* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_GETNONHIDDENTOPNODES_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::HoudiniEngineUnity::HEU_TOPNodeData*>>*(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_GETNONHIDDENTOPNODES_OFFSET))(this, a1);
 		}
 
 		::System::Void SelectTOPNetwork(::System::Int32 a1)
@@ -461,9 +461,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_TOPWorkResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_DESTROYWORKITEMRESULTDATA_OFFSET))(a1, a2);
 		}
 
-		::System::Void LoadResults(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2, ::HoudiniEngineUnity::HAPI_PDG_WorkItemInfo a3, ::Il2CppArray<::HoudiniEngineUnity::HAPI_PDG_WorkItemOutputFile>* a4, ::System::Int32 a5, ::System::Action* a6)
+		::System::Void LoadResults(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HEU_TOPNodeData* a2, ::HoudiniEngineUnity::HAPI_PDG_WorkItemInfo a3, ::Il2CppArray<::HoudiniEngineUnity::HAPI_PDG_WorkItemOutputFile>* a4, ::System::Int32 a5, ::System::Action_2<::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_SyncedEventData*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HAPI_PDG_WorkItemInfo, ::Il2CppArray<::HoudiniEngineUnity::HAPI_PDG_WorkItemOutputFile>*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_LOADRESULTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HAPI_PDG_WorkItemInfo, ::Il2CppArray<::HoudiniEngineUnity::HAPI_PDG_WorkItemOutputFile>*, ::System::Int32, ::System::Action_2<::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_SyncedEventData*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_LOADRESULTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::UnityEngine::Transform* GetLoadRootTransform()

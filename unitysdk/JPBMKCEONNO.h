@@ -11,7 +11,7 @@ namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class EventManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class InfiniteBattleData; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define JPBMKCEONNO_AHKGJFJEJIL_OFFSET UNITYSDK_OFFSET(0xB2B23D0)
 #define JPBMKCEONNO_COOLOEPLAPI_OFFSET UNITYSDK_OFFSET(0xB2B05D0)
@@ -34,14 +34,14 @@ inline static constexpr unsigned int JPBMKCEONNO_TypeDefinitionIndex = 57617;
 	{
 	public:
 		::RPG::GameCore::InfiniteBattleData* KAENBFPDKLJ; // 0x10
-		::System::Action* OBIECPEOECK; // 0x18
+		::System::Action_1<::GNLNKOGLFPF*>* OBIECPEOECK; // 0x18
 		::RPG::GameCore::EventManager* DOBLIBIFBBK; // 0x20
 		::JPBMKCEONNO_EPHNOAAENFO* HGNALMILOFA; // 0x28
 		::RPG::GameCore::EntityManager* LPILDKDAGDP; // 0x30
 		::System::Boolean DLGFMPNEHGO; // 0x38
-		::System::Void _ctor(::RPG::GameCore::BattleInstance* a1, ::MNIKFAGNMCJ* a2, ::System::Action* a3)
+		::System::Void _ctor(::RPG::GameCore::BattleInstance* a1, ::MNIKFAGNMCJ* a2, ::System::Action_1<::GNLNKOGLFPF*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleInstance*, ::MNIKFAGNMCJ*, ::System::Action*))((::PBYTE)hIl2Cpp + JPBMKCEONNO_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleInstance*, ::MNIKFAGNMCJ*, ::System::Action_1<::GNLNKOGLFPF*>*))((::PBYTE)hIl2Cpp + JPBMKCEONNO_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void FGNCLBALPIF()

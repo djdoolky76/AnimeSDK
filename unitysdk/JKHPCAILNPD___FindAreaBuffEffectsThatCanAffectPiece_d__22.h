@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class AGDBDNGEKFP;
@@ -9,7 +10,6 @@ class LHGAEBPLFFK;
 class NKIJFPHFJCO;
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define JKHPCAILNPD___FINDAREABUFFEFFECTSTHATCANAFFECTPIECE_D__22_CTOR_OFFSET UNITYSDK_OFFSET(0x1C569760)
@@ -29,7 +29,7 @@ inline static constexpr unsigned int JKHPCAILNPD___FindAreaBuffEffectsThatCanAff
 	class JKHPCAILNPD___FindAreaBuffEffectsThatCanAffectPiece_d__22 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* __7__wrap3; // 0x10
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::DIGCDGKOBMK*, ::LHGAEBPLFFK*>>* __7__wrap3; // 0x10
 		::NKIJFPHFJCO* __3__piece; // 0x18
 		::Il2CppArray<::UnityEngine::Vector2Int>* _coveredCells_5__2; // 0x20
 		::System::Object* __7__wrap2; // 0x28

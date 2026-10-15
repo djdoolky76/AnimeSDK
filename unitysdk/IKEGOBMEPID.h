@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 class IFEABBJBIGK;
 class IKEGOBMEPID;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -33,7 +33,7 @@ inline static constexpr unsigned int IKEGOBMEPID_TypeDefinitionIndex = 71116;
 	class IKEGOBMEPID : public ::System::Object
 	{
 	public:
-		::System::Action* LGAOOKPFIMF; // 0x10
+		::System::Action_2<::IKEGOBMEPID*, ::System::Boolean>* LGAOOKPFIMF; // 0x10
 		::System::Collections::Generic::Queue_1<::IFEABBJBIGK*>* CGIOKAFHOLM; // 0x18
 		::System::Collections::Generic::HashSet_1<::IFEABBJBIGK*>* PFFCKJPDLGA; // 0x20
 		::System::Collections::Generic::Queue_1<::IFEABBJBIGK*>* FDMJKDCBIGK; // 0x28
@@ -85,9 +85,9 @@ inline static constexpr unsigned int IKEGOBMEPID_TypeDefinitionIndex = 71116;
 			return ((::System::Void(*)(::PVOID, ::IFEABBJBIGK*))((::PBYTE)hIl2Cpp + IKEGOBMEPID_FGLGLHDAEDE_OFFSET))(this, a1);
 		}
 
-		::System::Void HKKFFCBJOKM(::System::Action* a1)
+		::System::Void HKKFFCBJOKM(::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IKEGOBMEPID_HKKFFCBJOKM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + IKEGOBMEPID_HKKFFCBJOKM_OFFSET))(this, a1);
 		}
 
 		::System::Void KAOLPGACCID()

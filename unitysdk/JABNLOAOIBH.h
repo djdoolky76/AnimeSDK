@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/SceneManagement/Scene.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -46,9 +47,9 @@ inline static constexpr unsigned int JABNLOAOIBH_TypeDefinitionIndex = 48477;
 			return (::System::String**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE58);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple>*>** StaticGet_BDLABNOJLAH()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Timeline::TimelineClip*, ::System::String*, ::System::String*>>*>** StaticGet_BDLABNOJLAH()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE60);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Timeline::TimelineClip*, ::System::String*, ::System::String*>>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE60);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TimelineClip*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>** StaticGet_ILPOECBBOMG()
@@ -61,9 +62,9 @@ inline static constexpr unsigned int JABNLOAOIBH_TypeDefinitionIndex = 48477;
 			return (::System::String**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE70);
 		}
 
-		static ::System::Nullable** StaticGet_EBNCHKLGCLC()
+		static ::System::Nullable_1<::UnityEngine::SceneManagement::Scene>* StaticGet_EBNCHKLGCLC()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x154A0);
+			return (::System::Nullable_1<::UnityEngine::SceneManagement::Scene>*)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x154A0);
 		}
 
 		static ::System::Void _cctor()
@@ -91,9 +92,9 @@ inline static constexpr unsigned int JABNLOAOIBH_TypeDefinitionIndex = 48477;
 			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + JABNLOAOIBH_INHBHGCOPOO_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::ValueTuple HIPGBJJFJCF(::UnityEngine::Timeline::TimelineClip* a1, ::System::String* a2)
+		static ::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*> HIPGBJJFJCF(::UnityEngine::Timeline::TimelineClip* a1, ::System::String* a2)
 		{
-			return ((::System::ValueTuple(*)(::UnityEngine::Timeline::TimelineClip*, ::System::String*))((::PBYTE)hIl2Cpp + JABNLOAOIBH_HIPGBJJFJCF_OFFSET))(a1, a2);
+			return ((::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>(*)(::UnityEngine::Timeline::TimelineClip*, ::System::String*))((::PBYTE)hIl2Cpp + JABNLOAOIBH_HIPGBJJFJCF_OFFSET))(a1, a2);
 		}
 
 		static ::UnityEngine::GameObject* NMGEGNECDLA(::System::String* a1, ::System::String* a2)

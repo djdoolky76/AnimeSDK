@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NEOLEBDHNPG.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AIMNKMEFBKE;
 class ANPKIMHNJDO;
 class HBHPMCICICF;
@@ -88,9 +88,9 @@ inline static constexpr unsigned int OKNFDGKFBNB_TypeDefinitionIndex = 36535;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_GBPDHDKIHLF_OFFSET))(this);
 		}
 
-		::System::ValueTuple ANDDDHAFFGM()
+		::System::ValueTuple_2<::System::Boolean, ::System::Single> ANDDDHAFFGM()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_ANDDDHAFFGM_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_ANDDDHAFFGM_OFFSET))(this);
 		}
 
 		::System::Void CIBOICLGHEE()
@@ -143,9 +143,9 @@ inline static constexpr unsigned int OKNFDGKFBNB_TypeDefinitionIndex = 36535;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_HHLHCNBLBDG_OFFSET))(this);
 		}
 
-		::System::ValueTuple DEJPNBAFGHB()
+		::System::ValueTuple_2<::System::Boolean, ::System::Single> DEJPNBAFGHB()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_DEJPNBAFGHB_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_DEJPNBAFGHB_OFFSET))(this);
 		}
 
 		::System::Void NKCLOGFNPOK()
@@ -233,9 +233,9 @@ inline static constexpr unsigned int OKNFDGKFBNB_TypeDefinitionIndex = 36535;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_INITIALIZE_OFFSET))(this);
 		}
 
-		::System::ValueTuple LCMIAHBCFCK()
+		::System::ValueTuple_2<::System::Boolean, ::System::Single> LCMIAHBCFCK()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_LCMIAHBCFCK_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + OKNFDGKFBNB_LCMIAHBCFCK_OFFSET))(this);
 		}
 
 		::System::Boolean OLKMFEJGBBF(::IJFIHJJPHNA* a1)

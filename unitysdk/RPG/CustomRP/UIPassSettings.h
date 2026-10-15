@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
@@ -19,9 +19,9 @@ namespace RPG::CustomRP
 	class UIPassSettings : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::ValueTuple>** StaticGet_OffScreenUIContexts()
+		static ::Il2CppArray<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::System::Boolean>>** StaticGet_OffScreenUIContexts()
 		{
-			return (::Il2CppArray<::System::ValueTuple>**)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2780);
+			return (::Il2CppArray<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::System::Boolean>>**)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2780);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_BlurPartialParamsA()

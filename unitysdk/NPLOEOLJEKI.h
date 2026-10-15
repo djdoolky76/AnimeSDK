@@ -8,6 +8,7 @@
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelCellSaver.h"
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelCellTrigger.h"
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelGroup.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 class AFOAMOJGBFC;
@@ -18,7 +19,6 @@ class HPCKCJDCNFM;
 class ILILKFMOKEB;
 class JPMKMMMGNJN;
 namespace RPG::Client::LittleGame { class TimelineControlGameWorld_LevelGroupAction; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Transform; }
 
 #define NPLOEOLJEKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9771F0)
@@ -55,9 +55,9 @@ inline static constexpr unsigned int NPLOEOLJEKI_TypeDefinitionIndex = 42533;
 			return ((::AFOAMOJGBFC*(*)(::PVOID, ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroup, ::Il2CppArray<::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroupAction*>*))((::PBYTE)hIl2Cpp + NPLOEOLJEKI_JHAJLBKIINL_OFFSET))(this, a1, a2);
 		}
 
-		::HPCKCJDCNFM* IFFMDKABCDC(::AFOAMOJGBFC* a1, ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCell a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		::HPCKCJDCNFM* IFFMDKABCDC(::AFOAMOJGBFC* a1, ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCell a2, ::System::Nullable_1<::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellDrop> a3, ::System::Nullable_1<::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellTrigger> a4, ::System::Nullable_1<::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellSaver> a5)
 		{
-			return ((::HPCKCJDCNFM*(*)(::PVOID, ::AFOAMOJGBFC*, ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCell, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + NPLOEOLJEKI_IFFMDKABCDC_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::HPCKCJDCNFM*(*)(::PVOID, ::AFOAMOJGBFC*, ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCell, ::System::Nullable_1<::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellDrop>, ::System::Nullable_1<::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellTrigger>, ::System::Nullable_1<::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCellSaver>))((::PBYTE)hIl2Cpp + NPLOEOLJEKI_IFFMDKABCDC_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::HPCKCJDCNFM* HNPANKDGIGH(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Vector3Int a3, ::RPG::Client::LittleGame::ETimelineControlGameCharacterMoveDirection a4, ::UnityEngine::Vector3Int a5, ::RPG::Client::LittleGame::TimelineControlGameCharacterMovementConfig a6)

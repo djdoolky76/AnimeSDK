@@ -7,7 +7,7 @@ class FIEDGBPNHMN;
 class LNGKFJLKJAJ;
 namespace ObservableCollections { template <typename T> class IObservableCollection_1; }
 namespace ObservableCollections { template <typename T> class ObservableList_1; }
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client::Ui::Samples { class FriendChatContactVM; }
 namespace RPG::Client::Ui::Samples { class FriendChatTabViewModel; }
@@ -53,9 +53,9 @@ namespace RPG::Client::Ui::Samples
 			return (::System::Func_2<::LNGKFJLKJAJ*, ::FIEDGBPNHMN*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42540);
 		}
 
-		static ::System::Func_2<::LNGKFJLKJAJ*, ::R3::Observable*>** StaticGet___9__11_6()
+		static ::System::Func_2<::LNGKFJLKJAJ*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__11_6()
 		{
-			return (::System::Func_2<::LNGKFJLKJAJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42548);
+			return (::System::Func_2<::LNGKFJLKJAJ*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42548);
 		}
 
 		static ::System::Func_2<::LNGKFJLKJAJ*, ::ObservableCollections::IObservableCollection_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>*>** StaticGet___9__11_0()
@@ -68,9 +68,9 @@ namespace RPG::Client::Ui::Samples
 			return (::System::Func_2<::LNGKFJLKJAJ*, ::R3::ReactiveProperty_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42558);
 		}
 
-		static ::System::Func_2<::LNGKFJLKJAJ*, ::R3::Observable*>** StaticGet___9__11_4()
+		static ::System::Func_2<::LNGKFJLKJAJ*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__11_4()
 		{
-			return (::System::Func_2<::LNGKFJLKJAJ*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42560);
+			return (::System::Func_2<::LNGKFJLKJAJ*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42560);
 		}
 
 		static ::System::Func_2<::LNGKFJLKJAJ*, ::CEEGMMCFCBG*>** StaticGet___9__11_11()
@@ -138,9 +138,9 @@ namespace RPG::Client::Ui::Samples
 			return ((::CBJILMHOMGP*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL___C___BINDING_B__11_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__11_4(::LNGKFJLKJAJ* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__11_4(::LNGKFJLKJAJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL___C___BINDING_B__11_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL___C___BINDING_B__11_4_OFFSET))(this, a1);
 		}
 
 		::ObservableCollections::ObservableList_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>* __Binding_b__11_5(::LNGKFJLKJAJ* a1)
@@ -148,9 +148,9 @@ namespace RPG::Client::Ui::Samples
 			return ((::ObservableCollections::ObservableList_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL___C___BINDING_B__11_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__11_6(::LNGKFJLKJAJ* a1)
+		::R3::Observable_1<::System::Int32>* __Binding_b__11_6(::LNGKFJLKJAJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL___C___BINDING_B__11_6_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAGESAMPLECONTROL___C___BINDING_B__11_6_OFFSET))(this, a1);
 		}
 
 		::R3::ReactiveProperty_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>* __Binding_b__11_7(::LNGKFJLKJAJ* a1)

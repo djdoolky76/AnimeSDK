@@ -5,7 +5,7 @@
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 #define MESSAGEPACK_FORMATTERS_GUIDFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB75EA0)
 #define MESSAGEPACK_FORMATTERS_GUIDFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB743B0)
@@ -19,9 +19,9 @@ namespace MessagePack::Formatters
 	class GuidFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Guid>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "GuidFormatter")->GetStaticField(0x250B0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Guid>**)UnitySDK::FromName("MessagePack.Formatters", "GuidFormatter")->GetStaticField(0x250B0);
 		}
 
 		::System::Void _ctor()

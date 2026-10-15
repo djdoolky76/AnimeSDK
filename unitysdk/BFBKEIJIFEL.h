@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/RPG/Client/PreReleaseScheduleState.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -58,9 +58,9 @@ inline static constexpr unsigned int BFBKEIJIFEL_TypeDefinitionIndex = 66710;
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BFBKEIJIFEL_GIFJPIGPABJ_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* EEKNLEHMPMM(::System::UInt32 a1)
+		::System::Nullable_1<::System::UInt32> EEKNLEHMPMM(::System::UInt32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BFBKEIJIFEL_EEKNLEHMPMM_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BFBKEIJIFEL_EEKNLEHMPMM_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::PreReleaseScheduleState ONCHHIJLCJI(::System::UInt32 a1)

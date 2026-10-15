@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net::Http::Headers { class ContentRangeHeaderValue; }
@@ -28,44 +28,44 @@ namespace System::Net::Http::Headers
 	{
 	public:
 		::System::String* unit; // 0x10
-		::System::Nullable* _Length_k__BackingField; // 0x18
+		::System::Nullable_1<::System::Int64> _Length_k__BackingField; // 0x18
 		::System::Byte _padding0[0x8];
-		::System::Nullable* _To_k__BackingField; // 0x28
+		::System::Nullable_1<::System::Int64> _To_k__BackingField; // 0x28
 		::System::Byte _padding1[0x8];
-		::System::Nullable* _From_k__BackingField; // 0x38
+		::System::Nullable_1<::System::Int64> _From_k__BackingField; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_CTOR_OFFSET))(this);
 		}
 
-		::System::Nullable* get_From()
+		::System::Nullable_1<::System::Int64> get_From()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_GET_FROM_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_GET_FROM_OFFSET))(this);
 		}
 
-		::System::Void set_From(::System::Nullable* a1)
+		::System::Void set_From(::System::Nullable_1<::System::Int64> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_SET_FROM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int64>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_SET_FROM_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_Length()
+		::System::Nullable_1<::System::Int64> get_Length()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_GET_LENGTH_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_GET_LENGTH_OFFSET))(this);
 		}
 
-		::System::Void set_Length(::System::Nullable* a1)
+		::System::Void set_Length(::System::Nullable_1<::System::Int64> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_SET_LENGTH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int64>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_SET_LENGTH_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_To()
+		::System::Nullable_1<::System::Int64> get_To()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_GET_TO_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_GET_TO_OFFSET))(this);
 		}
 
-		::System::Void set_To(::System::Nullable* a1)
+		::System::Void set_To(::System::Nullable_1<::System::Int64> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_SET_TO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int64>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTRANGEHEADERVALUE_SET_TO_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Unit()

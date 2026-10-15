@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Widget.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 namespace UnityEngine::Rendering
@@ -14,7 +15,7 @@ namespace UnityEngine::Rendering
 	{
 	public:
 		::System::Func_1<T>* _getter_k__BackingField; // 0x0
-		::System::Action* _setter_k__BackingField; // 0x0
-		::System::Action* onValueChanged; // 0x0
+		::System::Action_1<T>* _setter_k__BackingField; // 0x0
+		::System::Action_2<::System::Object*, T>* onValueChanged; // 0x0
 	};
 }

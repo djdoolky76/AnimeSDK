@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EvolveBuildSeason.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class GFNDLFEEPCK;
 class GNIIELGAKCE;
@@ -10,7 +11,6 @@ namespace RPG::Client { class EvolveBuildStage; }
 namespace RPG::Client { class ItemData; }
 namespace RPG::Client { class QuestData; }
 namespace RPG::GameCore { class DynamicValue; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -72,7 +72,7 @@ namespace RPG::Client
 		::System::UInt32 _ResetSelectGearQuestID; // 0x60
 		::System::UInt32 _SkillShopUnlockQuestID; // 0x64
 		::System::UInt32 _CoinItemConfigID; // 0x68
-		::System::Nullable* _CardUnlockQuestID; // 0x6C
+		::System::Nullable_1<::System::UInt32> _CardUnlockQuestID; // 0x6C
 		::System::Void _ctor(::RPG::GameCore::EvolveBuildSeason a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EvolveBuildSeason))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDSEASONDATA_CTOR_OFFSET))(this, a1);

@@ -4,9 +4,9 @@
 #include "unitysdk/Cysharp/Threading/Tasks/SwitchToMainThreadAwaitable_Awaiter.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 #define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS__FORGETCOREWITHCATCH_D__50_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F1C0)
@@ -21,7 +21,7 @@ namespace Cysharp::Threading::Tasks
 	{
 		::System::Object* __7__wrap1; // 0x10
 		::System::Exception* _ex_5__4; // 0x18
-		::System::Action* exceptionHandler; // 0x20
+		::System::Action_1<::System::Exception*>* exceptionHandler; // 0x20
 		::Cysharp::Threading::Tasks::UniTask task; // 0x28
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
 		::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable_Awaiter __u__2; // 0x48

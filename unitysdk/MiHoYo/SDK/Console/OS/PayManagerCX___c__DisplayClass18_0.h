@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Console::OS { class PayManagerCX; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCBD70)
 #define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BCCE2C0)
@@ -20,7 +20,7 @@ namespace MiHoYo::SDK::Console::OS
 		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x18
 		::System::String* region; // 0x20
 		::System::String* collectionsId; // 0x28
-		::System::Action* __9__3; // 0x30
+		::System::Action_1<::System::String*>* __9__3; // 0x30
 		::System::String* game; // 0x38
 		::System::String* gameToken; // 0x40
 		::System::String* uid; // 0x48

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NetworkManager; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
 #define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D06B0)
@@ -26,7 +26,7 @@ namespace RPG::Client
 		::System::String* _requestUrl_5__4; // 0x10
 		::System::Object* __2__current; // 0x18
 		::RPG::Client::NetworkManager* __4__this; // 0x20
-		::System::Action* callback; // 0x28
+		::System::Action_1<::System::Boolean>* callback; // 0x28
 		::System::String* _errMsg_5__6; // 0x30
 		::UnityEngine::Networking::UnityWebRequest* _request_5__10; // 0x38
 		::System::String* _url_5__9; // 0x40

@@ -9,6 +9,7 @@ class HGKIKKOLLFA;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
@@ -64,7 +65,7 @@ inline static constexpr unsigned int OIIJADEHJOB_TypeDefinitionIndex = 71725;
 		::DCGIDEKLGAJ* LJHNBPDMEKC; // 0x78
 		::UnityEngine::Transform* MOFBLBLNPIM; // 0x80
 		::HGKIKKOLLFA* INFKHFPPPCN; // 0x88
-		::System::Action* LECMHEEAFEM; // 0x90
+		::System::Action_1<::System::Single>* LECMHEEAFEM; // 0x90
 		::UnityEngine::UI::Text* BDDBIFFMCCB; // 0x98
 		::Il2CppArray<::UnityEngine::Color>* LLHMCHGLBHC; // 0xA0
 		::UnityEngine::Color GANKIOBIBMA; // 0xA8
@@ -191,9 +192,9 @@ inline static constexpr unsigned int OIIJADEHJOB_TypeDefinitionIndex = 71725;
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OIIJADEHJOB_CEENCDMHBFB_OFFSET))(this, a1);
 		}
 
-		::System::Void GDBOALOEFMD(::System::Action* a1)
+		::System::Void GDBOALOEFMD(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OIIJADEHJOB_GDBOALOEFMD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + OIIJADEHJOB_GDBOALOEFMD_OFFSET))(this, a1);
 		}
 
 		::System::Void OPCDEPOJOAL()

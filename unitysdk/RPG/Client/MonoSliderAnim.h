@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Slider; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace XLua { class LuaTable; }
@@ -27,7 +27,7 @@ namespace RPG::Client
 		::System::Single _delay; // 0x30
 		::System::Single _duration; // 0x34
 		::XLua::LuaTable* _LuaTable; // 0x38
-		::System::Action* _AnimEndCallback; // 0x40
+		::System::Action_1<::XLua::LuaTable*>* _AnimEndCallback; // 0x40
 		::System::Boolean _updating; // 0x48
 		::System::Byte _padding0[0x3];
 		::System::Single _startTime; // 0x4C
@@ -37,9 +37,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_CTOR_OFFSET))(this);
 		}
 
-		::System::Void StartAnim(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Action* a5, ::XLua::LuaTable* a6, ::System::Boolean a7)
+		::System::Void StartAnim(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Action_1<::XLua::LuaTable*>* a5, ::XLua::LuaTable* a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Action*, ::XLua::LuaTable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_STARTANIM_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOSLIDERANIM_STARTANIM_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void SetValue(::System::Single a1)

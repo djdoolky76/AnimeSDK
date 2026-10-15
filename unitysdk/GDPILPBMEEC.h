@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/B51RacingStatType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AEANOGAFBGK;
 class BIMCEEABCEI;
 class CKBIKDBNKEO;
@@ -47,7 +47,7 @@ inline static constexpr unsigned int GDPILPBMEEC_TypeDefinitionIndex = 81736;
 	public:
 		::System::Collections::Generic::List_1<::DNBDHGNLIPK*>* BOLAFEMLDLJ; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AEANOGAFBGK*>* NFCGEFEPMCM; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::MINFEAKALGE*>* IKAABEOAICM; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::MINFEAKALGE*>* IKAABEOAICM; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KIIGKJKMCHP*>* MMILHAANAPM; // 0x28
 		::System::Collections::Generic::List_1<::DLJPDKIMHAC*>* DDOCAEAOGFF; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::IAKMFLMFALK*>* DOAABGLKAKD; // 0x38

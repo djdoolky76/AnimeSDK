@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Windows/OS/Channel/BindManager.h"
 #include "unitysdk/MiHoYo/SDK/ReportType.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX_CHECKSHOWPREBINDINGPROTOCOLDIALOG_OFFSET UNITYSDK_OFFSET(0x1BE142C0)
 #define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0B890)
@@ -41,9 +41,9 @@ namespace MiHoYo::SDK::Windows::OS::Channel
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX_SAVEPREBINDINGPROTOCOLAGREERECORD_OFFSET))(this);
 		}
 
-		::System::Void GenerateAccessToken(::System::Action* a1, ::System::Boolean a2)
+		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGERXBOX_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetBindingWebURL()

@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/DateTimeKind.h"
 #include "unitysdk/System/Object.h"
@@ -15,7 +16,6 @@ namespace System { class String; }
 namespace System { class TimeType; }
 namespace System { class TimeZoneInfo; }
 namespace System { class TimeZoneInfo_AdjustmentRule; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
@@ -119,7 +119,7 @@ namespace System
 		::System::String* daylightDisplayName; // 0x10
 		::System::String* standardDisplayName; // 0x18
 		::Il2CppArray<::System::Object*>* adjustmentRules; // 0x20
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* transitions; // 0x28
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>* transitions; // 0x28
 		::System::String* displayName; // 0x30
 		::System::String* id; // 0x38
 		::System::Boolean supportsDaylightSavingTime; // 0x40
@@ -565,9 +565,9 @@ namespace System
 			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETIMESTYPES_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* ParseTransitions(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>* a4)
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>* ParseTransitions(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>* a4)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETRANSITIONS_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::DateTime, ::System::TimeType*>>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::TimeType*>*))((::PBYTE)hIl2Cpp + SYSTEM_TIMEZONEINFO_PARSETRANSITIONS_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::DateTime DateTimeFromUnixTime(::System::Int64 a1)

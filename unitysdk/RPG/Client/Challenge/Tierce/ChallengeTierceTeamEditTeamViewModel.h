@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class ACNNMGIJMFK;
 class CKCJOCJGHKC;
@@ -7,7 +8,6 @@ class EFCKAAKHBKG;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_ADD_ONMODIFIEDBUFFIDCHANGED_OFFSET UNITYSDK_OFFSET(0xC96D7F0)
@@ -37,7 +37,7 @@ namespace RPG::Client::Challenge::Tierce
 		::Il2CppArray<::RPG::AvatarSystem::IAvatar*>* _ModifiedAvatars; // 0x20
 		::CKCJOCJGHKC* _Tierce; // 0x28
 		::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel* _RelatedStage_k__BackingField; // 0x30
-		::System::Nullable* _ModifiedBuffID; // 0x38
+		::System::Nullable_1<::System::UInt32> _ModifiedBuffID; // 0x38
 		::System::Void _ctor(::EFCKAAKHBKG* a1, ::ACNNMGIJMFK* a2, ::CKCJOCJGHKC* a3, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::EFCKAAKHBKG*, ::ACNNMGIJMFK*, ::CKCJOCJGHKC*, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3, a4);
@@ -58,14 +58,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_COUNTOFSLOT_OFFSET))(this);
 		}
 
-		::System::Nullable* get_ModifiedBuffID()
+		::System::Nullable_1<::System::UInt32> get_ModifiedBuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_MODIFIEDBUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_GET_MODIFIEDBUFFID_OFFSET))(this);
 		}
 
-		::System::Void set_ModifiedBuffID(::System::Nullable* a1)
+		::System::Void set_ModifiedBuffID(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_SET_MODIFIEDBUFFID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_SET_MODIFIEDBUFFID_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnModifiedBuffIDChanged(::System::Action* a1)

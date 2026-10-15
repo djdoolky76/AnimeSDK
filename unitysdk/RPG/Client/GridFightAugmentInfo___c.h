@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightAugment; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0D2A60)
 #define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0D2AA0)
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x641A8);
 		}
 
-		static ::System::Action** StaticGet___9__18_0()
+		static ::System::Action_1<::RPG::Client::GridFightAugment*>** StaticGet___9__18_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x641B0);
+			return (::System::Action_1<::RPG::Client::GridFightAugment*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x641B0);
 		}
 
 		static ::System::Void _cctor()

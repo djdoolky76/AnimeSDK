@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
 #include "unitysdk/RPG/Client/PacketSendResult_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
@@ -16,7 +16,7 @@ namespace RPG::Client
 	struct alignas(8) PendingRspEntry_1__AwaitAsync_d__21
 	{
 		::System::Int32 __1__state; // 0x0
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x0
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::RPG::Client::PacketSendResult_1<T1>> __t__builder; // 0x0
 		::System::Threading::CancellationToken ct; // 0x0
 		::RPG::Client::PendingRspEntry_1<T1>* __4__this; // 0x0
 		::System::Threading::CancellationTokenRegistration _ctReg_5__2; // 0x0

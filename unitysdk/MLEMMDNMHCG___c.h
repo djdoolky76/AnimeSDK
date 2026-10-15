@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class GMDIBFIGIEG;
 class MHGMGKGDLOC;
 class PHCMIJEDENP;
@@ -25,9 +25,9 @@ inline static constexpr unsigned int MLEMMDNMHCG___c_TypeDefinitionIndex = 41879
 	class MLEMMDNMHCG___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::ValueTuple>** StaticGet___9__13_8()
+		static ::System::Func_2<::System::Object*, ::System::ValueTuple_3<::PHCMIJEDENP*, ::GMDIBFIGIEG*, ::MHGMGKGDLOC*>>** StaticGet___9__13_8()
 		{
-			return (::System::Func_2<::System::Object*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18A60);
+			return (::System::Func_2<::System::Object*, ::System::ValueTuple_3<::PHCMIJEDENP*, ::GMDIBFIGIEG*, ::MHGMGKGDLOC*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18A60);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*>** StaticGet___9__13_4()
@@ -105,9 +105,9 @@ inline static constexpr unsigned int MLEMMDNMHCG___c_TypeDefinitionIndex = 41879
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::UInt32))((::PBYTE)hIl2Cpp + MLEMMDNMHCG___C___ITERATESORTEDACTIVETALENTEFFECTSOFTYPE_B__13_5_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __IterateSortedActiveTalentEffectsOfType_b__13_8(::System::Object* a1)
+		::System::ValueTuple_3<::PHCMIJEDENP*, ::GMDIBFIGIEG*, ::MHGMGKGDLOC*> __IterateSortedActiveTalentEffectsOfType_b__13_8(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MLEMMDNMHCG___C___ITERATESORTEDACTIVETALENTEFFECTSOFTYPE_B__13_8_OFFSET))(this, a1);
+			return ((::System::ValueTuple_3<::PHCMIJEDENP*, ::GMDIBFIGIEG*, ::MHGMGKGDLOC*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MLEMMDNMHCG___C___ITERATESORTEDACTIVETALENTEFFECTSOFTYPE_B__13_8_OFFSET))(this, a1);
 		}
 
 	};

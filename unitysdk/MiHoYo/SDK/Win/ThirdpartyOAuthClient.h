@@ -5,9 +5,9 @@
 #include "unitysdk/MiHoYo/SDK/ReportType.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class ThirdpartyOAuthClient_OnAuthCompleteDelegate; }
-namespace System { class Action; }
 namespace System { class IAsyncResult; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Net { class HttpListener; }
 namespace UnityEngine { class Coroutine; }
 
@@ -182,14 +182,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT__SHOWLOGINPAGE_B__22_1_OFFSET))(this);
 		}
 
-		::System::Void _ShowThirdPartyOAuthPluginUI_b__23_0(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowThirdPartyOAuthPluginUI_b__23_0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT__SHOWTHIRDPARTYOAUTHPLUGINUI_B__23_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT__SHOWTHIRDPARTYOAUTHPLUGINUI_B__23_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowThirdPartyOAuthPluginUI_b__23_1(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowThirdPartyOAuthPluginUI_b__23_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT__SHOWTHIRDPARTYOAUTHPLUGINUI_B__23_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_THIRDPARTYOAUTHCLIENT__SHOWTHIRDPARTYOAUTHPLUGINUI_B__23_1_OFFSET))(this, a1, a2);
 		}
 
 	};

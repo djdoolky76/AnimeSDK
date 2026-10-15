@@ -9,10 +9,10 @@ class HIOEAKHGILF;
 class IHAJEPBCCFP;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimSplineMoveConfig; }
 
 #define CMFAIIHOFPL_AAFMGMJGGHB_OFFSET UNITYSDK_OFFSET(0xDA2CD80)
@@ -50,8 +50,8 @@ inline static constexpr unsigned int CMFAIIHOFPL_TypeDefinitionIndex = 77162;
 	{
 	public:
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* BNBKEJONPIJ; // 0x18
-		::Entitas::ICollector* CBLPDFPEJLO; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* BNBKEJONPIJ; // 0x18
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* CBLPDFPEJLO; // 0x20
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x28
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class NGFHCJIAOLH;
 class OAIPJANPCEK;
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class ChenLingFesPosition; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
@@ -27,10 +27,10 @@ inline static constexpr unsigned int DODBAHAPCJA_TypeDefinitionIndex = 77762;
 	class DODBAHAPCJA : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* NPDEMOGNIAE; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* NPDEMOGNIAE; // 0x10
 		::OAIPJANPCEK* PDENFEFCAGN; // 0x18
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* KDEODGPLDJI; // 0x20
-		::RPG::Client::Promises::Promise* JGIFKBIFFOJ; // 0x28
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* JGIFKBIFFOJ; // 0x28
 		::System::Collections::Generic::HashSet_1<::RPG::GameCore::ChenLingFesPosition*>* GKOMNFGLMLP; // 0x30
 		::System::Boolean AGEBCFDADFA; // 0x38
 		::System::Boolean FMDPCEGDOPP; // 0x39
@@ -44,14 +44,14 @@ inline static constexpr unsigned int DODBAHAPCJA_TypeDefinitionIndex = 77762;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DODBAHAPCJA_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* CFDAOKBADCL(::RPG::GameCore::ChenLingFesPosition* a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* CFDAOKBADCL(::RPG::GameCore::ChenLingFesPosition* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::GameCore::ChenLingFesPosition*, ::System::UInt32))((::PBYTE)hIl2Cpp + DODBAHAPCJA_CFDAOKBADCL_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::GameCore::ChenLingFesPosition*, ::System::UInt32))((::PBYTE)hIl2Cpp + DODBAHAPCJA_CFDAOKBADCL_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* ODFIOHMGBLO(::RPG::GameCore::ChenLingFesPosition* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* ODFIOHMGBLO(::RPG::GameCore::ChenLingFesPosition* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::GameCore::ChenLingFesPosition*))((::PBYTE)hIl2Cpp + DODBAHAPCJA_ODFIOHMGBLO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::RPG::GameCore::ChenLingFesPosition*))((::PBYTE)hIl2Cpp + DODBAHAPCJA_ODFIOHMGBLO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean KPJBKCFJEAH(::RPG::GameCore::ChenLingFesPosition* a1)

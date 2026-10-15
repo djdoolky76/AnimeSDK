@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/Client/VerseParam.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class BPGIIEPHAPH;
 class FDIOCFOAMLD;
 class IEIPFBGBBMH;
@@ -15,8 +15,8 @@ namespace RPG::Client::NavMap { class ISubNavMap; }
 namespace RPG::Client::NavMap { class NavMapModule; }
 namespace RPG::Client::NavMap { class SubTabData; }
 namespace RPG::Client::NavMap { class UniverseData; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class ChestGroupPropertyRow; }
 namespace RPG::GameCore { class ChestMonsterRow; }
 namespace RPG::GameCore { class LevelFloorBakedSubmapInfo; }
@@ -115,20 +115,20 @@ namespace RPG::Client::NavMap
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::VerseParam, ::RPG::Client::NavMap::UniverseData*>* _UniverseDatas; // 0x10
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::MapDataKey*, ::RPG::Client::NavMap::IMapDataSource*>* _CacheMapDatas; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _FloorID2PlaneID; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::System::UInt32>*>* _FiveDimInstanceContainsChestMonsterLimaoIDs; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::System::UInt32>*>* _FiveDimInstanceContainsChestMonsterLimaoIDs; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::NavMapSubTabRow*>*>* _TabContainSubTabs; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::NavMapTabRow*>*>* _WorldContainTabs; // 0x38
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _EnteredFloors; // 0x40
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MapDataKey*, ::RPG::Client::Promises::Promise*>* _SyncMapDataPromises; // 0x48
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MapDataKey*, ::RPG::Client::Promises::Promise_1<::RPG::Client::NavMap::IMapDataSource*>*>* _SyncMapDataPromises; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _FloorID2DefaultEntranceID; // 0x50
 		::RPG::Client::NavMap::SubTabData* _RaidSubTabData; // 0x58
 		::FDIOCFOAMLD* _CurrentMapDataStrategy; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _OtherFloorSubNavMapIDs; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::BPGIIEPHAPH*>*>* _FiveDimInstanceContainsCollectionDatas; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::BPGIIEPHAPH*>*>* _FiveDimInstanceContainsCollectionDatas; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ConditionChecker*>* _SubTabConditionCheckers; // 0x78
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::SubNavMapRow*>*>* _SubTabContainOtherFloorSubNavMaps; // 0x80
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::LevelFloorBakedSubmapInfo*>*>* _SubTabContainSameFloorSubNavMaps; // 0x88
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::IEIPFBGBBMH*>*>* _FiveDimInstanceContainsGPChestDatas; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::IEIPFBGBBMH*>*>* _FiveDimInstanceContainsGPChestDatas; // 0x90
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_CTOR_OFFSET))(this);
@@ -214,9 +214,9 @@ namespace RPG::Client::NavMap
 			return ((::RPG::Client::NavMap::ICartographer*(*)(::PVOID, ::RPG::Client::NavMap::SubTabData*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__GETCARTOGRAPHERENTITYIN_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::RPG::Client::Promises::IPromise* GetCartographerMappingInfoIDIn(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* GetCartographerMappingInfoIDIn(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean _HaveMappingInfoID(::RPG::Client::NavMap::ICartographer* a1, ::System::UInt32 a2, ::System::UInt32 a3)
@@ -224,9 +224,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::ICartographer*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE__HAVEMAPPINGINFOID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* GetCartographerMappingInfoIDIn_1(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* GetCartographerMappingInfoIDIn_1(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETCARTOGRAPHERMAPPINGINFOIDIN_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::Client::NavMap::SubTabData* GetPlayerLocatedSubTab()
@@ -424,9 +424,9 @@ namespace RPG::Client::NavMap
 			return ((::RPG::Client::NavMap::IMapDataSource*(*)(::PVOID, ::RPG::Client::MapDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETMAPDATASOURCE_1_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Promises::IPromise*>* GetSyncedMapDataSource(::System::Boolean a1, ::Il2CppArray<::RPG::Client::MapDataKey*>* a2)
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::IMapDataSource*>*>* GetSyncedMapDataSource(::System::Boolean a1, ::Il2CppArray<::RPG::Client::MapDataKey*>* a2)
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Promises::IPromise*>*(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::Client::MapDataKey*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSYNCEDMAPDATASOURCE_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::IMapDataSource*>*>*(*)(::PVOID, ::System::Boolean, ::Il2CppArray<::RPG::Client::MapDataKey*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPMODULE_GETSYNCEDMAPDATASOURCE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PrepareMapDataSource(::System::Boolean a1, ::Il2CppArray<::RPG::Client::MapDataKey*>* a2)

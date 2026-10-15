@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ScheduleData; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_ACTIVITYELATIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3EB6C0)
 #define RPG_CLIENT_ACTIVITYELATIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3EB6F0)
@@ -16,9 +16,9 @@ namespace RPG::Client
 	class ActivityElationModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__33_0()
+		static ::System::Action_1<::RPG::Client::ScheduleData*>** StaticGet___9__33_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14C50);
+			return (::System::Action_1<::RPG::Client::ScheduleData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14C50);
 		}
 
 		static ::System::Object** StaticGet___9()

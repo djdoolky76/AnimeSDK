@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace MessagePack::Formatters { class IMessagePackFormatter; }
+namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 namespace RPG::Client::LittleGameShare
 {
@@ -11,9 +11,9 @@ namespace RPG::Client::LittleGameShare
 	class RpcFormatterResolver_FormatterCache_1 : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Formatter()
+		static ::MessagePack::Formatters::IMessagePackFormatter_1<T>** StaticGet_Formatter()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("RPG.Client.LittleGameShare", "FormatterCache`1")->GetStaticField(0x0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<T>**)UnitySDK::FromName("RPG.Client.LittleGameShare", "FormatterCache`1")->GetStaticField(0x0);
 		}
 
 	};

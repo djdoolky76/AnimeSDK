@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class EntityLodLoadingData; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define RPG_GAMECORE_ADVENTUREPHASECACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE57BA90)
@@ -18,9 +18,9 @@ namespace RPG::GameCore
 	class AdventurePhaseCache : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>** StaticGet__MeshLodPathDict()
+		static ::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>, ::System::String*>** StaticGet__MeshLodPathDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair*, ::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AdventurePhaseCache")->GetStaticField(0x59450);
+			return (::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>, ::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AdventurePhaseCache")->GetStaticField(0x59450);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::EntityLodLoadingData*>** StaticGet__LoadingDataCache()

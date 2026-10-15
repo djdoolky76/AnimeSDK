@@ -5,7 +5,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/RPG/Client/AudienceLayoutConfig_DensityLevel.h"
 #include "unitysdk/RPG/Client/AudienceStanceConfig_CellConfig.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -152,9 +152,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Collections::Pooled::PooledList_1<::System::Int32>*, ::System::Int32, ::System::Int32, ::RPG::Client::AudienceLayoutConfig_DensityLevel))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE_EPJOCGBDDHK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* DNACJIEKHFG(::UnityEngine::Vector2 a1, ::RPG::Client::AudienceStanceConfig_CellConfig a2)
+		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*>>* DNACJIEKHFG(::UnityEngine::Vector2 a1, ::RPG::Client::AudienceStanceConfig_CellConfig a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::PVOID, ::UnityEngine::Vector2, ::RPG::Client::AudienceStanceConfig_CellConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE_DNACJIEKHFG_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::UnityEngine::Vector2, ::System::Object*>>*(*)(::PVOID, ::UnityEngine::Vector2, ::RPG::Client::AudienceStanceConfig_CellConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEGROUPINSTANCE_DNACJIEKHFG_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::AudienceStanceConfig_CellConfig ALGGPFNPOPB(::System::Int32 a1)

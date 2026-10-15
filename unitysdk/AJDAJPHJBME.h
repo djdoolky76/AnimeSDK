@@ -3,6 +3,7 @@
 #include "unitysdk/BHPAGJNNOMM_VCameraType.h"
 #include "unitysdk/Cinemachine/CinemachineTransposer_BindingMode.h"
 #include "unitysdk/RPG/GameCore/FreelookCameraDragMode.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -17,7 +18,6 @@ namespace RPG::Client { class Freelook3rdRigParams; }
 namespace RPG::Client { class RPGCinemachineCorrectionExtension; }
 namespace RPG::Client { class RPGCinemachineOldFreelook3rdBlend; }
 namespace RPG::Client { class RPGCinemachineZoom; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
@@ -133,9 +133,9 @@ inline static constexpr unsigned int AJDAJPHJBME_TypeDefinitionIndex = 69752;
 		::LBJHOHLLJDE* CINEAOLJBPJ; // 0x58
 		::System::UInt32 _RuntimeID_k__BackingField; // 0x60
 		::System::Single PGMIOKKLHIE; // 0x64
-		::System::Nullable* BLOALMOJGIK; // 0x68
+		::System::Nullable_1<::UnityEngine::Vector2> BLOALMOJGIK; // 0x68
 		::System::Byte _padding0[0x4];
-		::System::Nullable* NIIAIMKDCDO; // 0x74
+		::System::Nullable_1<::UnityEngine::Vector2> NIIAIMKDCDO; // 0x74
 		::System::Byte _padding1[0x4];
 		::BHPAGJNNOMM_VCameraType _CameraType_k__BackingField; // 0x80
 		::System::Single _AxisValueXChangeSpeed_k__BackingField; // 0x84

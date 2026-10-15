@@ -8,8 +8,8 @@ namespace RPG::Client::Compliance::Ftc::DirectPurchase { class IFtcDirectPurchas
 namespace RPG::Client::Compliance::Ftc::DirectPurchase { class IFtcDirectPurchaseRepository; }
 namespace RPG::Client::Compliance::Ftc::DropLink { class FtcDropLinkRepository; }
 namespace RPG::Client::Compliance::Ftc::DropLink { class IFtcDropLinkRepository; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBACE90)
 #define RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE_DOFTCDIRECTPURCHASE_OFFSET UNITYSDK_OFFSET(0xCBAC530)
@@ -49,9 +49,9 @@ namespace RPG::Client::Compliance
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE_HASFTCDIRECTPURCHASE_OFFSET))(this, a1);
 		}
 
-		::System::Void DoFtcDirectPurchase(::RPG::Client::Compliance::Ftc::DirectPurchase::IFtcDirectPurchaseEntry* a1, ::System::Action* a2)
+		::System::Void DoFtcDirectPurchase(::RPG::Client::Compliance::Ftc::DirectPurchase::IFtcDirectPurchaseEntry* a1, ::System::Action_1<::RPG::Client::PayProductResult>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Compliance::Ftc::DirectPurchase::IFtcDirectPurchaseEntry*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE_DOFTCDIRECTPURCHASE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Compliance::Ftc::DirectPurchase::IFtcDirectPurchaseEntry*, ::System::Action_1<::RPG::Client::PayProductResult>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPLIANCE_COMPLIANCEMODULE_DOFTCDIRECTPURCHASE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _OnGetRechargeItem(::System::Object* a1)

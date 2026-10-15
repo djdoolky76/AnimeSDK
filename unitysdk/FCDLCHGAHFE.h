@@ -14,6 +14,7 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class ExpeditionBattleMap; }
 namespace RPG::Client { class PlayerBriefDisplayData; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -117,14 +118,14 @@ inline static constexpr unsigned int FCDLCHGAHFE_TypeDefinitionIndex = 63920;
 			return ((::System::UInt32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FCDLCHGAHFE_ANJLKPBJJPP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* GetLineupDetailInfo(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>* GetLineupDetailInfo(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + FCDLCHGAHFE_GETLINEUPDETAILINFO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + FCDLCHGAHFE_GETLINEUPDETAILINFO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* DOMAOPLDIEI(::OLLGFBLPHOH* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>* DOMAOPLDIEI(::OLLGFBLPHOH* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::OLLGFBLPHOH*))((::PBYTE)hIl2Cpp + FCDLCHGAHFE_DOMAOPLDIEI_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>*(*)(::PVOID, ::OLLGFBLPHOH*))((::PBYTE)hIl2Cpp + FCDLCHGAHFE_DOMAOPLDIEI_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::PlayerBriefDisplayData* FEEHDOFCBLI(::System::Int32 a1)

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class ProtocolWithJoypad; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PROTOCOLWITHJOYPAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFC0A00)
 #define MIHOYO_SDK_PROTOCOLWITHJOYPAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC0A40)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK
 	class ProtocolWithJoypad___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__42_0()
+		static ::System::Action_1<::MiHoYo::SDK::ProtocolWithJoypad*>** StaticGet___9__42_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C820);
+			return (::System::Action_1<::MiHoYo::SDK::ProtocolWithJoypad*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C820);
 		}
 
 		static ::System::Object** StaticGet___9()

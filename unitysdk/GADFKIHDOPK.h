@@ -4,8 +4,8 @@
 class BOJOBHMEEIH;
 class ELENICENJKP;
 class EMHMFMNBJPG;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define GADFKIHDOPK_ADD_ONDIRTY_OFFSET UNITYSDK_OFFSET(0x159374E0)
 #define GADFKIHDOPK_BINDNODE_OFFSET UNITYSDK_OFFSET(0x159376C0)
@@ -28,7 +28,7 @@ inline static constexpr unsigned int GADFKIHDOPK_TypeDefinitionIndex = 79155;
 	{
 	public:
 		::EMHMFMNBJPG* DLNIGFGLPLJ; // 0x10
-		::System::Action* KLKNOBJBOOP; // 0x18
+		::System::Action_1<::System::String*>* KLKNOBJBOOP; // 0x18
 		::ELENICENJKP* _Node_k__BackingField; // 0x20
 		::System::String* _Key_k__BackingField; // 0x28
 		::System::Void _ctor(::System::String* a1)
@@ -51,14 +51,14 @@ inline static constexpr unsigned int GADFKIHDOPK_TypeDefinitionIndex = 79155;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GADFKIHDOPK_PJFFCDFECIG_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnDirty(::System::Action* a1)
+		::System::Void add_OnDirty(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GADFKIHDOPK_ADD_ONDIRTY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + GADFKIHDOPK_ADD_ONDIRTY_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnDirty(::System::Action* a1)
+		::System::Void remove_OnDirty(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GADFKIHDOPK_REMOVE_ONDIRTY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + GADFKIHDOPK_REMOVE_ONDIRTY_OFFSET))(this, a1);
 		}
 
 		::ELENICENJKP* get_Node()

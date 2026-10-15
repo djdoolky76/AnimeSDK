@@ -12,7 +12,7 @@ class HGCEOEHGPPE;
 class JIAFOPELMJJ;
 class NBNLIDCJLHK;
 class OFLJCMOBHIH;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define JIAFOPELMJJ___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E9A80)
 #define JIAFOPELMJJ___C__DISPLAYCLASS7_0__STARTFORMIDPACK_B__0_OFFSET UNITYSDK_OFFSET(0xB1E9A90)
@@ -33,7 +33,7 @@ inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass7_0_TypeDefini
 		::EADIJOHAPHK* blockData; // 0x40
 		::NBNLIDCJLHK* luaData; // 0x48
 		::OFLJCMOBHIH* startData; // 0x50
-		::System::Action* __9__1; // 0x58
+		::System::Action_1<::HGCEOEHGPPE*>* __9__1; // 0x58
 		::RPG::Client::TextID progressDescText; // 0x60
 		::System::Void _ctor()
 		{

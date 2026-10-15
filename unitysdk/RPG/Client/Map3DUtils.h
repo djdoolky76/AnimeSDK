@@ -11,7 +11,7 @@ namespace RPG::Client::NavMap { class Cartography3DBase; }
 namespace RPG::Client::NavMap { class ICartography3D; }
 namespace RPG::Client::NavMap { class IMapDataSource; }
 namespace RPG::Client::NavMap { class NavMap3DIconData; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
@@ -163,9 +163,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::System::UInt32, ::RPG::Client::NavMap::IMapDataSource*, ::RPG::Client::MapPropDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS_GETMAPROTATIONCHARGERMINIMAPICON_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Tuple* GetByAttach(::System::UInt32 a1, ::System::UInt32 a2)
+		static ::System::Tuple_2<::System::UInt32, ::System::UInt32>* GetByAttach(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Tuple*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS_GETBYATTACH_OFFSET))(a1, a2);
+			return ((::System::Tuple_2<::System::UInt32, ::System::UInt32>*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP3DUTILS_GETBYATTACH_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean _GetRawOpacity(::RPG::Client::NavMap::NavMap3DIconData* a1, ::UnityEngine::GameObject* a2, ::System::Boolean a3, ::System::Single a4)

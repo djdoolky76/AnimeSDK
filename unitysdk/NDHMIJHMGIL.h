@@ -10,6 +10,7 @@
 #include "unitysdk/RPG/GameCore/MarbleTargetType.h"
 #include "unitysdk/RPG/GameCore/PetMarbleLevelMode.h"
 #include "unitysdk/RPG/GameCore/PuzzleCustomEvent.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/KNOGPMGGDFL.h"
@@ -66,10 +67,10 @@ namespace RPG::GameCore { class GlobalMarbleEffectConfig; }
 namespace RPG::GameCore { class MarbleGameConfig; }
 namespace RPG::GameCore { class MarbleMatchInfoConfigRow; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class Random; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -315,7 +316,7 @@ inline static constexpr unsigned int NDHMIJHMGIL_TypeDefinitionIndex = 60417;
 		::System::Boolean JKIJNMKLAGN; // 0x170
 		::System::Boolean DLCDADAHGEK; // 0x171
 		::System::Boolean FEFJLDILGJI; // 0x172
-		::System::Nullable* AJPACLNPLJC; // 0x173
+		::System::Nullable_1<::System::Boolean> AJPACLNPLJC; // 0x173
 		::FJPMJPEKLJL _GameMode_k__BackingField; // 0x178
 		::System::Single EFLJPELIKAH; // 0x17C
 		::UnityEngine::Vector3 LKBCLLCFEAL; // 0x180
@@ -872,9 +873,9 @@ inline static constexpr unsigned int NDHMIJHMGIL_TypeDefinitionIndex = 60417;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_EDGLEMPCNKC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void KCKIDLDLGMC(::System::UInt32 a1, ::System::UInt32 a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
+		::System::Void KCKIDLDLGMC(::System::UInt32 a1, ::System::UInt32 a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Nullable_1<::UnityEngine::Quaternion> a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Nullable*, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_KCKIDLDLGMC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_KCKIDLDLGMC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void BCAECPPJICK(::System::UInt32 a1, ::System::UInt32 a2)
@@ -897,9 +898,9 @@ inline static constexpr unsigned int NDHMIJHMGIL_TypeDefinitionIndex = 60417;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_IBAKIEMEJLH_OFFSET))(this, a1);
 		}
 
-		::System::Void GHIFMGPKFPF(::System::String* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::UnityEngine::Transform* a5, ::System::String* a6, ::System::Action* a7)
+		::System::Void GHIFMGPKFPF(::System::String* a1, ::System::Nullable_1<::UnityEngine::Vector3> a2, ::System::Nullable_1<::UnityEngine::Quaternion> a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::UnityEngine::Transform* a5, ::System::String* a6, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::UnityEngine::Transform*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_GHIFMGPKFPF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Nullable_1<::UnityEngine::Vector3>, ::UnityEngine::Transform*, ::System::String*, ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>*))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_GHIFMGPKFPF_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void CEPJHGNMKJD(::System::String* a1)
@@ -1077,9 +1078,9 @@ inline static constexpr unsigned int NDHMIJHMGIL_TypeDefinitionIndex = 60417;
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_GETTIMESCALE_OFFSET))(this);
 		}
 
-		::System::Void BBEOBLJJEJP(::System::UInt32 a1, ::System::UInt32 a2, ::System::Nullable* a3)
+		::System::Void BBEOBLJJEJP(::System::UInt32 a1, ::System::UInt32 a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Nullable*))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_BBEOBLJJEJP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + NDHMIJHMGIL_BBEOBLJJEJP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CEEFNJBEJNL(::System::UInt32 a1)

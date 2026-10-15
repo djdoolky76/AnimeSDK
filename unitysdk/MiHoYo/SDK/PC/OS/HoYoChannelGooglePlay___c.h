@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelConsumeResult; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF2D240)
 #define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2D280)
@@ -17,9 +17,9 @@ namespace MiHoYo::SDK::PC::OS
 	class HoYoChannelGooglePlay___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__18_1()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>** StaticGet___9__18_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x16C60);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x16C60);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -27,9 +27,9 @@ namespace MiHoYo::SDK::PC::OS
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x16C68);
 		}
 
-		static ::System::Action** StaticGet___9__13_3()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>** StaticGet___9__13_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x16C70);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x16C70);
 		}
 
 		static ::System::Void _cctor()

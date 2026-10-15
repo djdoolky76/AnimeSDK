@@ -5,8 +5,8 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class HandbookGrowthGuideData; }
 namespace RPG::Client { class MessageContentBlock; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD69DB80)
 #define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD69DD50)
@@ -42,9 +42,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void RequestData(::System::Action* a1)
+		::System::Void RequestData(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_REQUESTDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK_REQUESTDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)

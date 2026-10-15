@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace UnityEngine { class Collider; }
 
 #define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT_CHECKBOUNDINTERSECT_OFFSET UNITYSDK_OFFSET(0xC3D4070)
@@ -27,9 +27,9 @@ namespace RPG::Client::ActivityAlley
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT_INIT_OFFSET))(this);
 		}
 
-		::System::Tuple* CheckBoundIntersect(::UnityEngine::Bounds a1)
+		::System::Tuple_2<::System::Boolean, ::System::Single>* CheckBoundIntersect(::UnityEngine::Bounds a1)
 		{
-			return ((::System::Tuple*(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT_CHECKBOUNDINTERSECT_OFFSET))(this, a1);
+			return ((::System::Tuple_2<::System::Boolean, ::System::Single>*(*)(::PVOID, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKSHIPCOLLISIONCOMPONENT_CHECKBOUNDINTERSECT_OFFSET))(this, a1);
 		}
 
 	};

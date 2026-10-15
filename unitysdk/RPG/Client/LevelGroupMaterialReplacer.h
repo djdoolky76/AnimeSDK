@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MaterialReplacerBase.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class LevelNPCInfo; }
 namespace RPG::GameCore { class RtLevelGroupInstanceInfo; }
 namespace System { class String; }
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple NBGHCNNLKPD()
+		::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*> NBGHCNNLKPD()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER_NBGHCNNLKPD_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELGROUPMATERIALREPLACER_NBGHCNNLKPD_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelNPCInfo* MBFPCDDIJKE()

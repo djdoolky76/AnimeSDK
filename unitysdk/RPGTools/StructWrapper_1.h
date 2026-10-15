@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 namespace RPGTools
@@ -14,6 +14,6 @@ namespace RPGTools
 	public:
 		T Value; // 0x0
 		::System::Func_1<T>* GetValue; // 0x0
-		::System::Action* SetValue; // 0x0
+		::System::Action_1<T>* SetValue; // 0x0
 	};
 }

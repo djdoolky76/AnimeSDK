@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class RegionTranslationManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 
 #define MIHOYO_SDK_REGIONTRANSLATIONMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFC2800)
@@ -117,14 +118,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER_ONGETREMOTETRANSLATIONTIMEOUT_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* RequestRemoteVersion(::System::Action* a1, ::System::Action* a2)
+		::System::Collections::IEnumerator* RequestRemoteVersion(::System::Action_1<::System::String*>* a1, ::System::Action* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER_REQUESTREMOTEVERSION_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER_REQUESTREMOTEVERSION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::IEnumerator* RequestRemoteTranslation(::System::String* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Collections::IEnumerator* RequestRemoteTranslation(::System::String* a1, ::System::Action_1<::System::String*>* a2, ::System::Action* a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER_REQUESTREMOTETRANSLATION_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REGIONTRANSLATIONMANAGER_REQUESTREMOTETRANSLATION_OFFSET))(this, a1, a2, a3);
 		}
 
 		::MiHoYo::SDK::JSONObject* ParseTranslation(::System::String* a1)

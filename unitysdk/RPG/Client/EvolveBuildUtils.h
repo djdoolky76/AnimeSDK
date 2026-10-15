@@ -6,6 +6,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/EvolveBuildUtils___c__DisplayClass15_0.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class GFNAPELNFIC;
 namespace RPG::Client { class EvolveBuildMixData; }
 namespace RPG::Client { class EvolveBuildScMixData; }
@@ -13,7 +14,6 @@ namespace RPG::Client { class SortedEvolveBuildGearEquipInfoLists; }
 namespace RPG::GameCore { class ActivityEvolveGearForgeMaterialRow; }
 namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 namespace RPG::GameCore { class MazeBuffRow; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
@@ -102,14 +102,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_ISGEARUNLOCK_OFFSET))(a1);
 		}
 
-		static ::System::Nullable* GetGearLvToForge(::System::UInt32 a1)
+		static ::System::Nullable_1<::System::UInt32> GetGearLvToForge(::System::UInt32 a1)
 		{
-			return ((::System::Nullable*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARLVTOFORGE_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARLVTOFORGE_OFFSET))(a1);
 		}
 
-		static ::System::Nullable* GetGearForgeID(::System::UInt32 a1)
+		static ::System::Nullable_1<::System::UInt32> GetGearForgeID(::System::UInt32 a1)
 		{
-			return ((::System::Nullable*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEID_OFFSET))(a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS_GETGEARFORGEID_OFFSET))(a1);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::UInt32>* GetCollectionIDListByType(::RPG::GameCore::EvolveGearType a1)

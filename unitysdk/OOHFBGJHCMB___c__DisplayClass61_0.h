@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define OOHFBGJHCMB___C__DISPLAYCLASS61_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF83B50)
 #define OOHFBGJHCMB___C__DISPLAYCLASS61_0___SHOWCONFIRMREVOKENORMALLINEUPDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xBF84390)
@@ -11,7 +11,7 @@ inline static constexpr unsigned int OOHFBGJHCMB___c__DisplayClass61_0_TypeDefin
 	class OOHFBGJHCMB___c__DisplayClass61_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* result; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* result; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OOHFBGJHCMB___C__DISPLAYCLASS61_0_CTOR_OFFSET))(this);

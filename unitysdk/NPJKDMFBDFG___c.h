@@ -4,7 +4,7 @@
 namespace EnviromentSystemV2Space { class EnvProfileV2; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 
 #define NPJKDMFBDFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD0BB80)
 #define NPJKDMFBDFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD0BBB0)
@@ -35,9 +35,9 @@ inline static constexpr unsigned int NPJKDMFBDFG___c_TypeDefinitionIndex = 49429
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPJKDMFBDFG___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Init_b__40_0(::System::Tuple* a1)
+		::System::Void _Init_b__40_0(::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Tuple*))((::PBYTE)hIl2Cpp + NPJKDMFBDFG___C__INIT_B__40_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>*))((::PBYTE)hIl2Cpp + NPJKDMFBDFG___C__INIT_B__40_0_OFFSET))(this, a1);
 		}
 
 	};

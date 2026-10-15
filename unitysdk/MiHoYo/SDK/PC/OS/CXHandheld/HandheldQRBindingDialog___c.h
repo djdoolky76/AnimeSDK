@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldQRBindingDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEF4AD0)
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDQRBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF4B10)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 	class HandheldQRBindingDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__40_0()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog*>** StaticGet___9__40_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x128D0);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldQRBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x128D0);
 		}
 
 		static ::System::Object** StaticGet___9()

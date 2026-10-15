@@ -3,7 +3,7 @@
 #include "unitysdk/Newtonsoft/Json/ReferenceLoopHandling.h"
 #include "unitysdk/Newtonsoft/Json/TypeNameHandling.h"
 #include "unitysdk/System/Attribute.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class Object; }
 namespace System { class Type; }
 
@@ -20,10 +20,10 @@ namespace Newtonsoft::Json
 	public:
 		::Il2CppArray<::System::Object*>* _ItemConverterParameters_k__BackingField; // 0x10
 		::System::Type* _ItemConverterType_k__BackingField; // 0x18
-		::System::Nullable* _itemIsReference; // 0x20
-		::System::Nullable* _isReference; // 0x22
-		::System::Nullable* _itemReferenceLoopHandling; // 0x24
-		::System::Nullable* _itemTypeNameHandling; // 0x2C
+		::System::Nullable_1<::System::Boolean> _itemIsReference; // 0x20
+		::System::Nullable_1<::System::Boolean> _isReference; // 0x22
+		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _itemReferenceLoopHandling; // 0x24
+		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _itemTypeNameHandling; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONCONTAINERATTRIBUTE_CTOR_OFFSET))(this);

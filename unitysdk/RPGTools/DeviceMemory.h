@@ -4,7 +4,7 @@
 #include "unitysdk/RPGTools/RUsage.h"
 #include "unitysdk/RPGTools/TaskVmInfo.h"
 namespace System { template <typename T> class Func_1; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZEIMPL_OFFSET UNITYSDK_OFFSET(0xB0842F0)
 #define RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0xB084380)
@@ -132,9 +132,9 @@ namespace RPGTools
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZEIMPL_OFFSET))();
 		}
 
-		static ::System::Threading::Tasks::Task* AsyncGetMemorySize()
+		static ::System::Threading::Tasks::Task_1<::System::Int32>* AsyncGetMemorySize()
 		{
-			return ((::System::Threading::Tasks::Task*(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZE_OFFSET))();
+			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZE_OFFSET))();
 		}
 
 		static ::System::Int32 GetOomScore(::System::Int32 a1)

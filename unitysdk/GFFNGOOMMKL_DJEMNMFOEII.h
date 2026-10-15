@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
 #define GFFNGOOMMKL_DJEMNMFOEII_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E7B3A0)
 
@@ -10,7 +10,7 @@ inline static constexpr unsigned int GFFNGOOMMKL_DJEMNMFOEII_TypeDefinitionIndex
 	{
 		::System::Boolean OHAKMNKICDE; // 0x10
 		::System::Byte _padding0[0x3];
-		::System::ValueTuple NOJAHOAGBHB; // 0x14
+		::System::ValueTuple_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> NOJAHOAGBHB; // 0x14
 		::System::Byte _padding1[0x8];
 		::System::Single ILDLJANNNEJ; // 0x24
 		::System::Void KHGIKBFDLFB()

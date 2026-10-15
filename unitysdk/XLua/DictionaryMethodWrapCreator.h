@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Reflection { class MethodBase; }
 namespace XLua { class ObjectTranslator; }
@@ -23,9 +23,9 @@ namespace XLua
 	class DictionaryMethodWrapCreator : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Collections::Generic::KeyValuePair*>** StaticGet__ValidTypes()
+		static ::System::Collections::Generic::HashSet_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Type*>>** StaticGet__ValidTypes()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("XLua", "DictionaryMethodWrapCreator")->GetStaticField(0x433B0);
+			return (::System::Collections::Generic::HashSet_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Type*>>**)UnitySDK::FromName("XLua", "DictionaryMethodWrapCreator")->GetStaticField(0x433B0);
 		}
 
 		static ::System::Void _cctor()

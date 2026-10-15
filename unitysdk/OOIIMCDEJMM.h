@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HLFHMKMJNPK.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class DFGDEHAHLHC;
 class EMJIDLCDFMI;
@@ -36,7 +36,7 @@ inline static constexpr unsigned int OOIIMCDEJMM_TypeDefinitionIndex = 76550;
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* KPCHLAHHILG; // 0x18
 		::EMJIDLCDFMI* PDENFEFCAGN; // 0x20
 		::UnityEngine::Transform* GKNBCPMJHMN; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::Il2CppArray<::UnityEngine::Material*>*>*>* HPJKCGGKPPO; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::String*, ::UnityEngine::Renderer*>, ::Il2CppArray<::UnityEngine::Material*>*>*>* HPJKCGGKPPO; // 0x30
 		::FDPALAEIHPB* FKINCGODJEP; // 0x38
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::EMJIDLCDFMI* a2, ::UnityEngine::Transform* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{

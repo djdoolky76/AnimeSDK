@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::B51Racing { class B51RacingCarActiveSkillItemViewModel; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_B51RACING_B51RACINGDIYACTIVESKILLPANELVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7320A0)
 
@@ -15,7 +15,7 @@ namespace RPG::Client::B51Racing
 	public:
 		::Il2CppArray<::System::UInt32>* CarIDs; // 0x10
 		::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel*>* ActiveSkillOptions; // 0x18
-		::System::Action* OnItemSelected; // 0x20
+		::System::Action_1<::System::UInt32>* OnItemSelected; // 0x20
 		::System::Int32 SelectedIndex; // 0x28
 		::System::UInt32 SelectedCarID; // 0x2C
 		::System::Void _ctor()

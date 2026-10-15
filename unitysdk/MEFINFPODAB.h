@@ -3,13 +3,13 @@
 #include "unitysdk/GLDAMFHLMPM_UIElementType.h"
 #include "unitysdk/RPG/Client/CloudUIBattlePosRegion.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class DFFPKLFKGAO;
 class GLDAMFHLMPM_LINELOKDPNG;
 class MADHNHEMBOJ;
 namespace RPG::Client { class CloudUIPosReporterMono; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
@@ -56,14 +56,14 @@ inline static constexpr unsigned int MEFINFPODAB_TypeDefinitionIndex = 59849;
 			return ((::GLDAMFHLMPM_LINELOKDPNG*(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::GLDAMFHLMPM_UIElementType))((::PBYTE)hIl2Cpp + MEFINFPODAB_GNPKMOLBNMI_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* CDAGCKHFKBO()
+		::System::Nullable_1<::UnityEngine::Vector2> CDAGCKHFKBO()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MEFINFPODAB_CDAGCKHFKBO_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector2>(*)(::PVOID))((::PBYTE)hIl2Cpp + MEFINFPODAB_CDAGCKHFKBO_OFFSET))(this);
 		}
 
-		::System::Nullable* OJPLJKMHFPE()
+		::System::Nullable_1<::UnityEngine::Vector2> OJPLJKMHFPE()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MEFINFPODAB_OJPLJKMHFPE_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector2>(*)(::PVOID))((::PBYTE)hIl2Cpp + MEFINFPODAB_OJPLJKMHFPE_OFFSET))(this);
 		}
 
 		::MADHNHEMBOJ* HLLAJNELHPL()

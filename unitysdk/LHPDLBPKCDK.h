@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/CharacterVisibleReason.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/StoryCharacterApperMode.h"
+#include "unitysdk/System/Nullable_1.h"
 class KNKPLOGICFO;
 namespace RPG::GameCore { class CharacterVisibleComponent; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define LHPDLBPKCDK_AAMIJDHKAHM_OFFSET UNITYSDK_OFFSET(0xB6C06E0)
@@ -46,10 +46,10 @@ inline static constexpr unsigned int LHPDLBPKCDK_TypeDefinitionIndex = 57356;
 		::KNKPLOGICFO* MODIMDALIKJ; // 0x20
 		::System::String* LBFGLPNBLMA; // 0x28
 		::RPG::GameCore::CharacterVisibleComponent* JAOPNEJFELA; // 0x30
-		::System::Nullable* BHIBKPHAGLB; // 0x38
+		::System::Nullable_1<::System::Single> BHIBKPHAGLB; // 0x38
 		::System::Boolean PGCLEPHIGCC; // 0x40
 		::System::Boolean HOLOCCCIKBH; // 0x41
-		::System::Nullable* HBAMPPPMFCH; // 0x42
+		::System::Nullable_1<::System::Boolean> HBAMPPPMFCH; // 0x42
 		::System::Boolean AIGIIBHBKKG; // 0x44
 		::System::Boolean ACABDKCCCAA; // 0x45
 		::System::Boolean FBFNCOAAADC; // 0x46

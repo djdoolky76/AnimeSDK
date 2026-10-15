@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/Client/GameObjectPoolReleaseMode.h"
 #include "unitysdk/RPG/Client/GameObjectPoolUsage.h"
 #include "unitysdk/RPG/Client/PoolGameObjectInstantiateStrategy.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class AIBOPLOBAFN;
 class CCAFCCGAFDG;
 class LEKNHIPIKCF;
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -121,9 +121,9 @@ inline static constexpr unsigned int LFPJGOEOLNH_TypeDefinitionIndex = 59371;
 		::System::Double LJMFOHAFBKO; // 0x90
 		::System::Int32 OBFBCFHAAEL; // 0x98
 		::RPG::Client::PoolGameObjectInstantiateStrategy JJOFIKOODCJ; // 0x9C
-		static ::System::Nullable** StaticGet_OOEMLLNIBLJ()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet_OOEMLLNIBLJ()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("", "LFPJGOEOLNH")->GetStaticField(0x13F40);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("", "LFPJGOEOLNH")->GetStaticField(0x13F40);
 		}
 
 		::System::Void _ctor()
@@ -206,9 +206,9 @@ inline static constexpr unsigned int LFPJGOEOLNH_TypeDefinitionIndex = 59371;
 			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::RPG::Client::GameObjectPoolUsage))((::PBYTE)hIl2Cpp + LFPJGOEOLNH_INIJCJJLPKM_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void FMOPFGKPAFB(::System::String* a1, ::System::Action* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4, ::RPG::Client::GameObjectPoolUsage a5)
+		::System::Void FMOPFGKPAFB(::System::String* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4, ::RPG::Client::GameObjectPoolUsage a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::UnityEngine::Transform*, ::System::Boolean, ::RPG::Client::GameObjectPoolUsage))((::PBYTE)hIl2Cpp + LFPJGOEOLNH_FMOPFGKPAFB_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::GameObject*>*, ::UnityEngine::Transform*, ::System::Boolean, ::RPG::Client::GameObjectPoolUsage))((::PBYTE)hIl2Cpp + LFPJGOEOLNH_FMOPFGKPAFB_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void FMOPFGKPAFB_1(::System::String* a1, ::LEKNHIPIKCF* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4, ::RPG::Client::GameObjectPoolUsage a5)
@@ -216,9 +216,9 @@ inline static constexpr unsigned int LFPJGOEOLNH_TypeDefinitionIndex = 59371;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::LEKNHIPIKCF*, ::UnityEngine::Transform*, ::System::Boolean, ::RPG::Client::GameObjectPoolUsage))((::PBYTE)hIl2Cpp + LFPJGOEOLNH_FMOPFGKPAFB_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void JCJGMDAOIPN(::System::String* a1, ::System::Action* a2)
+		::System::Void JCJGMDAOIPN(::System::String* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + LFPJGOEOLNH_JCJGMDAOIPN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + LFPJGOEOLNH_JCJGMDAOIPN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void JCJGMDAOIPN_1(::System::String* a1, ::LEKNHIPIKCF* a2)

@@ -6,10 +6,10 @@ class EFKHNCOGKGH;
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimCleanerBotMoveConfig; }
 
 #define FCCKDJABHCN_AAJNAFJEDHB_OFFSET UNITYSDK_OFFSET(0x156B3BE0)
@@ -40,11 +40,11 @@ inline static constexpr unsigned int FCCKDJABHCN_TypeDefinitionIndex = 77148;
 	class FCCKDJABHCN : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* AKMIPJMCHJA; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* AKMIPJMCHJA; // 0x10
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
-		::Entitas::ICollector* MANLFKNAFAH; // 0x28
-		::Entitas::IGroup* LKCDPPOENAH; // 0x30
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* MANLFKNAFAH; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* LKCDPPOENAH; // 0x30
 		::System::Boolean OEAJGHPCKAC; // 0x38
 		::System::Boolean BJMOFKLEAII; // 0x39
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)

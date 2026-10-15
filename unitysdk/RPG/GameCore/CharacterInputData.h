@@ -3,10 +3,10 @@
 #include "unitysdk/OHLGGCHBGJK.h"
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class CharacterInputData; }
-namespace System { class Nullable; }
 
 #define RPG_GAMECORE_CHARACTERINPUTDATA_CLEARMOVEINPUT_OFFSET UNITYSDK_OFFSET(0xE5DBF80)
 #define RPG_GAMECORE_CHARACTERINPUTDATA_CLEARSTEER_OFFSET UNITYSDK_OFFSET(0xE5DBD70)
@@ -28,7 +28,7 @@ namespace RPG::GameCore
 		::System::Boolean NavigationToTarget; // 0x11
 		::System::Boolean TriggerSkill; // 0x12
 		::System::Byte _padding0[0x1];
-		::System::Nullable* NavigationFinishedConstraint; // 0x14
+		::System::Nullable_1<::OHLGGCHBGJK> NavigationFinishedConstraint; // 0x14
 		::System::Byte _padding1[0x10];
 		::RPG::MVector3 DesiredTarget; // 0x2C
 		::System::Boolean MovingSteerOnly; // 0x38

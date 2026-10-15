@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class OverseaAccountListConfirm; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDAA760)
 #define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDAA7A0)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::Win
 	class OverseaAccountListConfirm___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__28_0()
+		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>** StaticGet___9__28_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x25BB0);
+			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x25BB0);
 		}
 
 		static ::System::Object** StaticGet___9()

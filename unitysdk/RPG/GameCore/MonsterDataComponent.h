@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/CharacterDataComponent.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/MonsterViewPhaseType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/HMJGCFJMEAH.h"
 class DKNHMEHFNDB;
 class EKFMIDBJDIA;
@@ -19,7 +20,6 @@ namespace RPG::GameCore { class ICharacterRowData; }
 namespace RPG::GameCore { class MonsterRow; }
 namespace RPG::GameCore { class MonsterRowData; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
-namespace System { class Nullable; }
 
 #define RPG_GAMECORE_MONSTERDATACOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE707E50)
 #define RPG_GAMECORE_MONSTERDATACOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE705E20)
@@ -89,7 +89,7 @@ namespace RPG::GameCore
 		::System::Int32 MonsterIndexInWave; // 0x180
 		::System::Int32 MonsterWave; // 0x184
 		::RPG::GameCore::FixPoint _DefaultMaxStance; // 0x188
-		::System::Nullable* _OverrideRankScore_k__BackingField; // 0x190
+		::System::Nullable_1<::RPG::GameCore::FixPoint> _OverrideRankScore_k__BackingField; // 0x190
 		::System::Byte _padding1[0x8];
 		::RPG::GameCore::FixPoint _DefaultMaxHP; // 0x1A0
 		::System::Int32 _PhaseMaxStanceStackIndex; // 0x1A8
@@ -294,14 +294,14 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::MonsterViewPhaseType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERDATACOMPONENT_GET_VIEWPHASETYPE_OFFSET))(this);
 		}
 
-		::System::Nullable* get_OverrideRankScore()
+		::System::Nullable_1<::RPG::GameCore::FixPoint> get_OverrideRankScore()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERDATACOMPONENT_GET_OVERRIDERANKSCORE_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::FixPoint>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERDATACOMPONENT_GET_OVERRIDERANKSCORE_OFFSET))(this);
 		}
 
-		::System::Void set_OverrideRankScore(::System::Nullable* a1)
+		::System::Void set_OverrideRankScore(::System::Nullable_1<::RPG::GameCore::FixPoint> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERDATACOMPONENT_SET_OVERRIDERANKSCORE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERDATACOMPONENT_SET_OVERRIDERANKSCORE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMainMonster()

@@ -4,7 +4,7 @@
 #include "unitysdk/MiHoYo/SDK/AgeGateFlowType.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateParentalConsentProcessDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentProcessDialog; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BEDEFA0)
@@ -29,7 +29,7 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 	class HandheldAgeGateParentalConsentProcessDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		::System::Action* _OnBack_k__BackingField; // 0xC0
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>* _OnBack_k__BackingField; // 0xC0
 		::MiHoYo::SDK::AgeGateFlowType _Type; // 0xC8
 		::System::Boolean _Interactable_k__BackingField; // 0xCC
 		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldAgeGateParentalConsentProcessDialog** StaticGet_Instance()
@@ -55,14 +55,14 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG_CTOR_OFFSET))(this);
 		}
 
-		::System::Action* get_OnBack()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>* get_OnBack()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG_GET_ONBACK_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG_GET_ONBACK_OFFSET))(this);
 		}
 
-		::System::Void set_OnBack(::System::Action* a1)
+		::System::Void set_OnBack(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG_SET_ONBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG_SET_ONBACK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_Interactable()

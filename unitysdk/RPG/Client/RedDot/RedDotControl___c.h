@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/RedDotType.h"
 #include "unitysdk/System/Object.h"
 class CHLKFLECHIP;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -38,14 +38,14 @@ namespace RPG::Client::RedDot
 			return (::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BB0);
 		}
 
-		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable*>** StaticGet___9__3_1()
+		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BB8);
+			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BB8);
 		}
 
-		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable*>** StaticGet___9__3_2()
+		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__3_2()
 		{
-			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BC0);
+			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BC0);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>** StaticGet___9__3_5()
@@ -53,9 +53,9 @@ namespace RPG::Client::RedDot
 			return (::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BC8);
 		}
 
-		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable*>** StaticGet___9__3_0()
+		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BD0);
+			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BD0);
 		}
 
 		static ::System::Void _cctor()
@@ -68,9 +68,9 @@ namespace RPG::Client::RedDot
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable* __Binding_b__3_0(::CHLKFLECHIP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__3_0(::CHLKFLECHIP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::CHLKFLECHIP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::CHLKFLECHIP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Binding_b__3_3(::RPG::GameCore::RedDotType a1)
@@ -78,9 +78,9 @@ namespace RPG::Client::RedDot
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RedDotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__3_1(::CHLKFLECHIP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__3_1(::CHLKFLECHIP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::CHLKFLECHIP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::CHLKFLECHIP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Binding_b__3_4(::RPG::GameCore::RedDotType a1)
@@ -88,9 +88,9 @@ namespace RPG::Client::RedDot
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RedDotType))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__3_2(::CHLKFLECHIP* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__3_2(::CHLKFLECHIP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::CHLKFLECHIP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::CHLKFLECHIP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Binding_b__3_5(::RPG::GameCore::RedDotType a1)

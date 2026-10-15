@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/LittleGameShare/TeamTowersCore/BossSkillViewType.h"
 #include "unitysdk/RPG/Client/TeamTowers/TeamTowersGamePauseReason.h"
 #include "unitysdk/RPG/GameCore/TeamTowersPlayerInputType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/FHIFNHALHPI_HPOPMNLOLJE.h"
 #include "unitysdk/RPG/MVector2.h"
@@ -35,7 +36,6 @@ namespace Entitas { class IEntity; }
 namespace Google::Protobuf { class ByteString; }
 namespace RPG::Client::TeamTowers { class TeamTowersPVPService; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -176,9 +176,9 @@ inline static constexpr unsigned int ODCELNBAEIB_TypeDefinitionIndex = 79101;
 		::System::Boolean LJNCEGJFDOD; // 0x150
 		::System::Boolean NAPJOMKPPEG; // 0x151
 		::System::Byte _padding0[0x2];
-		::System::Nullable* OFABLKBBNHC; // 0x154
+		::System::Nullable_1<::System::Single> OFABLKBBNHC; // 0x154
 		::RPG::Client::TeamTowers::TeamTowersGamePauseReason JFHCMNAEEBA; // 0x15C
-		::System::Nullable* DLFPFLOAGGG; // 0x160
+		::System::Nullable_1<::System::Single> DLFPFLOAGGG; // 0x160
 		::UnityEngine::Vector3 LOMMNBIANJO; // 0x168
 		::UnityEngine::Vector3 JHLJODHMEMP; // 0x174
 		// static const ::System::String* JDGCBDIPECD; // 0x0

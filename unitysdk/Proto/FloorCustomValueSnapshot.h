@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class FloorCustomValueSnapshot; }
 namespace System { class Object; }
@@ -50,9 +50,9 @@ namespace Proto
 		::System::Byte _padding0[0x3];
 		::EGMOEMCIINO type_; // 0x2C
 		::System::Single floatVal_; // 0x30
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::FloorCustomValueSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "FloorCustomValueSnapshot")->GetStaticField(0x43B30);
+			return (::Google::Protobuf::MessageParser_1<::Proto::FloorCustomValueSnapshot*>**)UnitySDK::FromName("Proto", "FloorCustomValueSnapshot")->GetStaticField(0x43B30);
 		}
 
 		// static const ::System::Object NameFieldNumber; // 0x0
@@ -75,9 +75,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::FloorCustomValueSnapshot*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::FloorCustomValueSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentProcessDialog; }
 namespace MiHoYo::SDK::UI::OS { class IWinAgeGateParentalConsentDetailsDialog; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTPROCESSDIALOGBRIDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA59C0)
 #define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTPROCESSDIALOGBRIDGE_GET_ONBACK_OFFSET UNITYSDK_OFFSET(0x1BDA5FE0)
@@ -20,20 +20,20 @@ namespace MiHoYo::SDK::Win::OS
 	{
 	public:
 		::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentDetailsDialog* bridge; // 0x10
-		::System::Action* _OnBack_k__BackingField; // 0x18
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>* _OnBack_k__BackingField; // 0x18
 		::System::Void _ctor(::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentDetailsDialog* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentDetailsDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTPROCESSDIALOGBRIDGE_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnBack()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>* get_OnBack()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTPROCESSDIALOGBRIDGE_GET_ONBACK_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTPROCESSDIALOGBRIDGE_GET_ONBACK_OFFSET))(this);
 		}
 
-		::System::Void set_OnBack(::System::Action* a1)
+		::System::Void set_OnBack(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTPROCESSDIALOGBRIDGE_SET_ONBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentProcessDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTPROCESSDIALOGBRIDGE_SET_ONBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void HideDialog()

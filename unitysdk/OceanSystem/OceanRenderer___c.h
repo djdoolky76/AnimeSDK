@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 namespace OceanSystem { class OceanRenderer; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Camera; }
 
 #define OCEANSYSTEM_OCEANRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFB8D20)
@@ -18,9 +18,9 @@ namespace OceanSystem
 	class OceanRenderer___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__58_0()
+		static ::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__58_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("OceanSystem", "<>c")->GetStaticField(0x60310);
+			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)UnitySDK::FromName("OceanSystem", "<>c")->GetStaticField(0x60310);
 		}
 
 		static ::System::Object** StaticGet___9()

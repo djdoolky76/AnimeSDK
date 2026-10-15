@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 
 #define RPG_CLIENT_ANIMATIONEXTENSIONS__WAITANIMENDCOROUTINE_D__1_CTOR_OFFSET UNITYSDK_OFFSET(0xC67F280)
@@ -20,7 +20,7 @@ namespace RPG::Client
 	class AnimationExtensions__WaitAnimEndCoroutine_d__1 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::Object*>* callback; // 0x10
 		::UnityEngine::Animation* animation; // 0x18
 		::System::Object* callbackParam; // 0x20
 		::System::Object* __2__current; // 0x28

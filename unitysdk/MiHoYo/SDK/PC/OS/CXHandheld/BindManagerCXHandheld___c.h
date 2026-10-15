@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BED5D20)
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED5D60)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 	class BindManagerCXHandheld___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__5_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__5_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x11FA0);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x11FA0);
 		}
 
 		static ::System::Object** StaticGet___9()

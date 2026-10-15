@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Numerics/Vector_1.h"
 #include "unitysdk/System/NUInt.h"
 namespace System { class Type; }
-namespace System::Numerics { class Vector; }
 
 #define SYSTEM_SPANHELPERS_21321BB165CABDFE_CLEARLESSTHANPOINTERSIZED_1_OFFSET UNITYSDK_OFFSET(0x1EE48240)
 #define SYSTEM_SPANHELPERS_21321BB165CABDFE_CLEARLESSTHANPOINTERSIZED_OFFSET UNITYSDK_OFFSET(0x1EE481B0)
@@ -45,9 +45,9 @@ namespace System
 			return ((::System::Boolean(*)(::System::Byte, ::System::Byte, ::System::NUInt))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_SEQUENCEEQUAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 LocateFirstFoundByte(::System::Numerics::Vector* a1)
+		static ::System::Int32 LocateFirstFoundByte(::System::Numerics::Vector_1<::System::Byte> a1)
 		{
-			return ((::System::Int32(*)(::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_LOCATEFIRSTFOUNDBYTE_OFFSET))(a1);
+			return ((::System::Int32(*)(::System::Numerics::Vector_1<::System::Byte>))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_LOCATEFIRSTFOUNDBYTE_OFFSET))(a1);
 		}
 
 		static ::System::Int32 SequenceCompareTo(::System::Byte a1, ::System::Int32 a2, ::System::Byte a3, ::System::Int32 a4)
@@ -60,9 +60,9 @@ namespace System
 			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_LOCATEFIRSTFOUNDBYTE_1_OFFSET))(a1);
 		}
 
-		static ::System::Numerics::Vector* GetVector(::System::Byte a1)
+		static ::System::Numerics::Vector_1<::System::Byte> GetVector(::System::Byte a1)
 		{
-			return ((::System::Numerics::Vector*(*)(::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_GETVECTOR_OFFSET))(a1);
+			return ((::System::Numerics::Vector_1<::System::Byte>(*)(::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_GETVECTOR_OFFSET))(a1);
 		}
 
 		static ::System::Int32 SequenceCompareTo_1(::System::Char a1, ::System::Int32 a2, ::System::Char a3, ::System::Int32 a4)
@@ -75,9 +75,9 @@ namespace System
 			return ((::System::Int32(*)(::System::Char, ::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_INDEXOF_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 LocateFirstFoundChar(::System::Numerics::Vector* a1)
+		static ::System::Int32 LocateFirstFoundChar(::System::Numerics::Vector_1<::System::UInt16> a1)
 		{
-			return ((::System::Int32(*)(::System::Numerics::Vector*))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_LOCATEFIRSTFOUNDCHAR_OFFSET))(a1);
+			return ((::System::Int32(*)(::System::Numerics::Vector_1<::System::UInt16>))((::PBYTE)hIl2Cpp + SYSTEM_SPANHELPERS_21321BB165CABDFE_LOCATEFIRSTFOUNDCHAR_OFFSET))(a1);
 		}
 
 		static ::System::Int32 LocateFirstFoundChar_1(::System::UInt64 a1)

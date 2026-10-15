@@ -3,7 +3,7 @@
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/RPG/Client/ActivityMarble/MarblePVPMode.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class PJMGBLIFDFP;
 namespace RPG::Client::ActivityMarble { class MarblePVPManagerBase; }
 namespace RPG::Client::Promises { class IPromise; }
@@ -30,9 +30,9 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _EnterPVPLobby_b__0(::System::ValueTuple a1)
+		::RPG::Client::Promises::IPromise* _EnterPVPLobby_b__0(::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL> a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0__ENTERPVPLOBBY_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0__ENTERPVPLOBBY_B__0_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* _EnterPVPLobby_b__1()

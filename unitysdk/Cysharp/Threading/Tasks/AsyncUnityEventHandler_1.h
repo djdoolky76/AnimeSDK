@@ -4,10 +4,10 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
-namespace UnityEngine::Events { class UnityAction; }
-namespace UnityEngine::Events { class UnityEvent; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -17,16 +17,16 @@ namespace Cysharp::Threading::Tasks
 	class AsyncUnityEventHandler_1 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Events::UnityAction* action; // 0x0
-		::UnityEngine::Events::UnityEvent* unityEvent; // 0x0
+		::UnityEngine::Events::UnityAction_1<T>* action; // 0x0
+		::UnityEngine::Events::UnityEvent_1<T>* unityEvent; // 0x0
 		::System::Threading::CancellationToken cancellationToken; // 0x0
 		::System::Threading::CancellationTokenRegistration registration; // 0x0
 		::System::Boolean isDisposed; // 0x0
 		::System::Boolean callOnce; // 0x0
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<T> core; // 0x0
-		static ::System::Action** StaticGet_cancellationCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_cancellationCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncUnityEventHandler`1")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncUnityEventHandler`1")->GetStaticField(0x0);
 		}
 
 	};

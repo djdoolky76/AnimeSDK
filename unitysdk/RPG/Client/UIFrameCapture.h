@@ -4,7 +4,7 @@
 namespace RPG::Client { class FrameCaptureManager; }
 namespace RPG::Client { class UIFrameCaptureParam; }
 namespace RPG::Client { class UIFramePostProcessParam; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace UnityEngine { class Texture; }
 
 #define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0xE3A3050)
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Texture*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAME_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise* CaptureFrameWithPostProcess(::RPG::Client::UIFrameCaptureParam* a1, ::RPG::Client::UIFramePostProcessParam* a2)
+		::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>* CaptureFrameWithPostProcess(::RPG::Client::UIFrameCaptureParam* a1, ::RPG::Client::UIFramePostProcessParam* a2)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ReleaseCapture()

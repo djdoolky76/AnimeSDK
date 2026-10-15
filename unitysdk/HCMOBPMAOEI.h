@@ -4,9 +4,9 @@
 class HCMOBPMAOEI;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -35,14 +35,14 @@ inline static constexpr unsigned int HCMOBPMAOEI_TypeDefinitionIndex = 30425;
 	public:
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* GMCBFKPHMCC; // 0x18
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::HCMOBPMAOEI*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "HCMOBPMAOEI")->GetStaticField(0x30AB0);
+			return (::Google::Protobuf::MessageParser_1<::HCMOBPMAOEI*>**)UnitySDK::FromName("", "HCMOBPMAOEI")->GetStaticField(0x30AB0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_FHONEDIAILF()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FHONEDIAILF()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "HCMOBPMAOEI")->GetStaticField(0x30AB8);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "HCMOBPMAOEI")->GetStaticField(0x30AB8);
 		}
 
 		// static const ::System::Object NMEODHEIPGL; // 0x0
@@ -61,9 +61,9 @@ inline static constexpr unsigned int HCMOBPMAOEI_TypeDefinitionIndex = 30425;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HCMOBPMAOEI_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::HCMOBPMAOEI*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + HCMOBPMAOEI_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::HCMOBPMAOEI*>*(*)())((::PBYTE)hIl2Cpp + HCMOBPMAOEI_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

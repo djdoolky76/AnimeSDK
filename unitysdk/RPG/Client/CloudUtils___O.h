@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
@@ -11,9 +11,9 @@ namespace RPG::Client
 	class CloudUtils___O : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__0___OnGetClipBoardData()
+		static ::System::Action_1<::System::String*>** StaticGet__0___OnGetClipBoardData()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x17E40);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x17E40);
 		}
 
 	};

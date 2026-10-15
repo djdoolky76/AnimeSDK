@@ -5,6 +5,8 @@ namespace RPG::Client { class ChimeraRankSwapItem; }
 namespace RPG::Client { class ChimeraTeamData; }
 namespace RPG::Client { class VirtualRankChimeraTeam; }
 namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCB57050)
@@ -35,7 +37,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::VirtualRankChimeraTeam*>* _VirtualTeamList; // 0x30
 		::System::Single _MaxSliderValue; // 0x38
 		::System::Int32 _MaxIncreaseValue; // 0x3C
-		::System::Action* _ItemUpdateCallback; // 0x40
+		::System::Action_2<::RPG::Client::VirtualRankChimeraTeam*, ::System::Boolean>* _ItemUpdateCallback; // 0x40
 		::System::Action* _IncreaseFinishCallback; // 0x48
 		::System::Void _ctor()
 		{
@@ -57,9 +59,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_STARTRANKINCREASEANDSWAP_OFFSET))(this, a1);
 		}
 
-		::System::Void CreateVirtualTeamList(::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* a2, ::System::Action* a3, ::System::Action* a4)
+		::System::Void CreateVirtualTeamList(::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>* a2, ::System::Action_1<::System::Int32>* a3, ::System::Action_2<::RPG::Client::VirtualRankChimeraTeam*, ::System::Boolean>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_CREATEVIRTUALTEAMLIST_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>*, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraTeamData*>*, ::System::Action_1<::System::Int32>*, ::System::Action_2<::RPG::Client::VirtualRankChimeraTeam*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERARANKSWAPCONTROLLER_CREATEVIRTUALTEAMLIST_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _VirtualTeamIncrease()

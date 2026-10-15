@@ -5,6 +5,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class ComputeShader; }
@@ -29,7 +30,7 @@ inline static constexpr unsigned int DENDPLEJIPM_ODAIMCKJKMF_TypeDefinitionIndex
 	public:
 		::Il2CppArray<::UnityEngine::Vector2>* NIFNLNOLAJC; // 0x10
 		::Il2CppArray<::UnityEngine::Vector2>* EDCJKBFNJBP; // 0x18
-		::System::Action* GOJNFHCLBAF; // 0x20
+		::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* GOJNFHCLBAF; // 0x20
 		::System::Collections::Generic::List_1<::System::Action*>* BHHJMAOIAOM; // 0x28
 		::UnityEngine::RenderTexture* DJMPAIFPBCM; // 0x30
 		::UnityEngine::ComputeShader* MLNAIBGJAGD; // 0x38

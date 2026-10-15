@@ -12,6 +12,7 @@ class OBJANKHLNGO;
 class PHKEBBMDJKD;
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define JGDCIMPJDNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB198080)
 #define JGDCIMPJDNN_GET_WAITFULLSYNCFINISH_OFFSET UNITYSDK_OFFSET(0xB1986F0)
@@ -49,9 +50,9 @@ inline static constexpr unsigned int JGDCIMPJDNN_TypeDefinitionIndex = 80520;
 			return ((::System::Void(*)(::PVOID, ::NCBOENDMDIC*))((::PBYTE)hIl2Cpp + JGDCIMPJDNN_GJJOENMGPMB_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* IEAAPKFFKND(::NCBOENDMDIC* a1)
+		::RPG::Client::Promises::IPromise_1<::NCBOENDMDIC*>* IEAAPKFFKND(::NCBOENDMDIC* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::NCBOENDMDIC*))((::PBYTE)hIl2Cpp + JGDCIMPJDNN_IEAAPKFFKND_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::NCBOENDMDIC*>*(*)(::PVOID, ::NCBOENDMDIC*))((::PBYTE)hIl2Cpp + JGDCIMPJDNN_IEAAPKFFKND_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::Promise* get_WaitFullSyncFinish()

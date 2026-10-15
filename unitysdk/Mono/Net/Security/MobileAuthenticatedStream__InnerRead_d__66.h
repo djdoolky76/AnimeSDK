@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 namespace System { class Object; }
@@ -17,7 +17,7 @@ namespace Mono::Net::Security
 	struct alignas(8) MobileAuthenticatedStream__InnerRead_d__66
 	{
 		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x10
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x18
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Int32> __t__builder; // 0x18
 		::System::Byte _padding0[0x10];
 		::System::Threading::CancellationToken cancellationToken; // 0x30
 		::System::Object* __u__1; // 0x38

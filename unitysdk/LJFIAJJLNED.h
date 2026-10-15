@@ -4,8 +4,8 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define LJFIAJJLNED_BFLBPHOGOGA_OFFSET UNITYSDK_OFFSET(0xB7163D0)
 #define LJFIAJJLNED_CTOR_OFFSET UNITYSDK_OFFSET(0xB716050)
@@ -25,8 +25,8 @@ inline static constexpr unsigned int LJFIAJJLNED_TypeDefinitionIndex = 77131;
 	class LJFIAJJLNED : public ::System::Object
 	{
 	public:
-		::Entitas::ICollector* GIHINFDAOIM; // 0x10
-		::Entitas::IGroup* PPKNDCBLMJA; // 0x18
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* GIHINFDAOIM; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* PPKNDCBLMJA; // 0x18
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x28
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChallengeData; }
 namespace RPG::Client { class MonsterData; }
 namespace RPG::Client { class MonsterGuideData; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBOSSENVIRONMENTHINTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC943DA0)
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBOSSENVIRONMENTHINTVIEWMODEL_GET_BOSSMONSTERDATA_OFFSET UNITYSDK_OFFSET(0xC943D60)
@@ -29,7 +29,7 @@ namespace RPG::Client::Challenge::Tierce
 		::RPG::Client::ChallengeData* _ChallengeDataRef_k__BackingField; // 0x18
 		::RPG::Client::MonsterGuideData* _BossMonsterGuideData_k__BackingField; // 0x20
 		::System::Int32 _CurrentStageNumber_k__BackingField; // 0x28
-		::System::Nullable* _CurrentStageBuffID_k__BackingField; // 0x2C
+		::System::Nullable_1<::System::UInt32> _CurrentStageBuffID_k__BackingField; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBOSSENVIRONMENTHINTVIEWMODEL_CTOR_OFFSET))(this);
@@ -55,14 +55,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBOSSENVIRONMENTHINTVIEWMODEL_SET_CURRENTSTAGENUMBER_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_CurrentStageBuffID()
+		::System::Nullable_1<::System::UInt32> get_CurrentStageBuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBOSSENVIRONMENTHINTVIEWMODEL_GET_CURRENTSTAGEBUFFID_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentStageBuffID(::System::Nullable* a1)
+		::System::Void set_CurrentStageBuffID(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBOSSENVIRONMENTHINTVIEWMODEL_SET_CURRENTSTAGEBUFFID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEBOSSENVIRONMENTHINTVIEWMODEL_SET_CURRENTSTAGEBUFFID_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MonsterData* get_BossMonsterData()

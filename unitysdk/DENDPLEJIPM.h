@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SurfaceType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
@@ -9,7 +10,6 @@ class DENDPLEJIPM;
 namespace RPG::Client { class Effect_DynamicWavesManager; }
 namespace RPG::Client { class MonoSurfaceInfo; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -134,9 +134,9 @@ inline static constexpr unsigned int DENDPLEJIPM_TypeDefinitionIndex = 69512;
 			return ((::RPG::GameCore::SurfaceType(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + DENDPLEJIPM_MJNOOAGLABJ_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* NAKMPIOEMMG(::System::Int32 a1, ::UnityEngine::Vector2 a2, ::RPG::GameCore::SurfaceType a3)
+		::System::Nullable_1<::System::Int32> NAKMPIOEMMG(::System::Int32 a1, ::UnityEngine::Vector2 a2, ::RPG::GameCore::SurfaceType a3)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector2, ::RPG::GameCore::SurfaceType))((::PBYTE)hIl2Cpp + DENDPLEJIPM_NAKMPIOEMMG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector2, ::RPG::GameCore::SurfaceType))((::PBYTE)hIl2Cpp + DENDPLEJIPM_NAKMPIOEMMG_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::GameCore::SurfaceType EEFLBJIPBMO(::System::Int32 a1, ::System::Int32 a2, ::RPG::GameCore::SurfaceType a3)

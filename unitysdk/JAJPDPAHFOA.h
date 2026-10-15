@@ -4,6 +4,7 @@
 #include "unitysdk/GODJKFFNCNI.h"
 #include "unitysdk/ADBMFDNMBIJ.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class FABMDCOFHCG;
 class KFELGAIGHAP;
 class MDJOLMBECHA;
@@ -13,7 +14,6 @@ namespace RPG::GameCore { class AddModifier; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -86,24 +86,24 @@ inline static constexpr unsigned int JAJPDPAHFOA_TypeDefinitionIndex = 54816;
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::OKOCPOFNODF*, ::RPG::PoolList_1<::MDJOLMBECHA*>*))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_HLIKBEBHGEF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* BFCDKOEAHPL(::OKOCPOFNODF* a1)
+		::System::Nullable_1<::System::Int32> BFCDKOEAHPL(::OKOCPOFNODF* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::OKOCPOFNODF*))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_BFCDKOEAHPL_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::OKOCPOFNODF*))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_BFCDKOEAHPL_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* NLCAFABBKEH(::OKOCPOFNODF* a1)
+		::System::Nullable_1<::System::Int32> NLCAFABBKEH(::OKOCPOFNODF* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::OKOCPOFNODF*))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_NLCAFABBKEH_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::OKOCPOFNODF*))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_NLCAFABBKEH_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* EBAKJENHODH(::OKOCPOFNODF* a1)
+		::System::Nullable_1<::System::Int32> EBAKJENHODH(::OKOCPOFNODF* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::OKOCPOFNODF*))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_EBAKJENHODH_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::OKOCPOFNODF*))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_EBAKJENHODH_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* COEBCFILCIH(::OKOCPOFNODF* a1, ::RPG::GameCore::DynamicFloat* a2, ::ADBMFDNMBIJ a3)
+		::System::Nullable_1<::System::Int32> COEBCFILCIH(::OKOCPOFNODF* a1, ::RPG::GameCore::DynamicFloat* a2, ::ADBMFDNMBIJ a3)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::OKOCPOFNODF*, ::RPG::GameCore::DynamicFloat*, ::ADBMFDNMBIJ))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_COEBCFILCIH_OFFSET))(this, a1, a2, a3);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::OKOCPOFNODF*, ::RPG::GameCore::DynamicFloat*, ::ADBMFDNMBIJ))((::PBYTE)hIl2Cpp + JAJPDPAHFOA_COEBCFILCIH_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

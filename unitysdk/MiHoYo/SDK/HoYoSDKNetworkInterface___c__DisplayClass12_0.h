@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class HoYoSDKNetworkInterface; }
 namespace MiHoYo::SDK { class HoYoSDKNetworkInterface_CustomHttpRequestHandler; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA7E20)
@@ -20,7 +21,7 @@ namespace MiHoYo::SDK
 	public:
 		::System::String* strUrl; // 0x10
 		::System::Action* __9__1; // 0x18
-		::System::Action* completeCallback; // 0x20
+		::System::Action_1<::System::String*>* completeCallback; // 0x20
 		::MiHoYo::SDK::HoYoSDKNetworkInterface_CustomHttpRequestHandler* customHttpRequestHander; // 0x28
 		::Il2CppArray<::System::Byte>* arraBody; // 0x30
 		::MiHoYo::SDK::HoYoSDKNetworkInterface* __4__this; // 0x38

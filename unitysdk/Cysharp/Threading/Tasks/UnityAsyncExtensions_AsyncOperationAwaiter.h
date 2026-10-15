@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AsyncOperation; }
 
 #define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONAWAITER_CTOR_OFFSET UNITYSDK_OFFSET(0x14640)
@@ -16,7 +17,7 @@ namespace Cysharp::Threading::Tasks
 	struct alignas(8) UnityAsyncExtensions_AsyncOperationAwaiter
 	{
 		::UnityEngine::AsyncOperation* asyncOperation; // 0x10
-		::System::Action* continuationAction; // 0x18
+		::System::Action_1<::UnityEngine::AsyncOperation*>* continuationAction; // 0x18
 		::System::Void _ctor(::UnityEngine::AsyncOperation* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::AsyncOperation*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_ASYNCOPERATIONAWAITER_CTOR_OFFSET))(this, a1);

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define MIEJMBIHIMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB952AA0)
 #define MIEJMBIHIMF_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xB9529A0)
@@ -22,9 +22,9 @@ inline static constexpr unsigned int MIEJMBIHIMF_TypeDefinitionIndex = 63485;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIEJMBIHIMF_MJEGFOMAOFH_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* MMOFFFCEOIC()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* MMOFFFCEOIC()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIEJMBIHIMF_MMOFFFCEOIC_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIEJMBIHIMF_MMOFFFCEOIC_OFFSET))(this);
 		}
 
 	};

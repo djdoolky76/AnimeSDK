@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BaseGameFlow; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD0A1770)
 #define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS9_0__GETORTRYENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xD0A1E40)
@@ -15,7 +15,7 @@ namespace RPG::Client
 	{
 	public:
 		::RPG::Client::BaseGameFlow* gameFlow; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
+		::RPG::Client::Promises::Promise_1<::RPG::Client::BaseGameFlow*>* promise; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);

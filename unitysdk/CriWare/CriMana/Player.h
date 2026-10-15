@@ -7,6 +7,7 @@
 #include "unitysdk/CriWare/CriMana/Player_Status.h"
 #include "unitysdk/CriWare/CriMana/Player_TimerType.h"
 #include "unitysdk/CriWare/CriDisposable.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/Unity/Profiling/ProfilerMarker.h"
 #include "unitysdk/CriWare/CriMana/EventPoint.h"
 namespace CriWare { class CriAtomEx3dSource; }
@@ -24,7 +25,6 @@ namespace CriWare::CriMana { class Player_StatusChangeCallback; }
 namespace CriWare::CriMana { class Player_SubtitleCallbackFromNativeDelegate; }
 namespace CriWare::CriMana { class Player_SubtitleChangeCallback; }
 namespace CriWare::CriMana::Detail { class RendererResource; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
@@ -286,7 +286,7 @@ namespace CriWare::CriMana
 		::System::Boolean isMovieInfoAvailable; // 0x85
 		::System::Boolean isNativeInitialized; // 0x86
 		::System::Boolean isPreparingForRendering; // 0x87
-		::System::Nullable* lastNativeStatus; // 0x88
+		::System::Nullable_1<::System::Object*> lastNativeStatus; // 0x88
 		::CriWare::CriMana::Player_Status _nativeStatus; // 0x90
 		::CriWare::CriMana::Player_TimerType _timerType; // 0x94
 		::System::Boolean _uiRenderMode_k__BackingField; // 0x98
@@ -297,7 +297,7 @@ namespace CriWare::CriMana
 		::CriWare::CriMana::Player_Status internalrequiredStatus; // 0xA0
 		::System::Int32 playerId; // 0xA4
 		::System::IntPtr _subtitleBuffer_k__BackingField; // 0xA8
-		::System::Nullable* lastPlayerStatus; // 0xB0
+		::System::Nullable_1<::System::Object*> lastPlayerStatus; // 0xB0
 		::System::Int32 subtitleBufferSize; // 0xB8
 		::System::Int32 _subtitleSize_k__BackingField; // 0xBC
 		::System::Int32 _maxFrameDrop_k__BackingField; // 0xC0

@@ -6,6 +6,7 @@
 #include "unitysdk/IOKPMIHIPGM.h"
 #include "unitysdk/LBPACBKOGLF.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class DEKDEPEBHNC;
 class EJJAGEEGEKA;
 class EKFMIDBJDIA;
@@ -20,7 +21,6 @@ namespace RPG::Client { class UIController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -300,9 +300,9 @@ inline static constexpr unsigned int OEENEGJBMCO_TypeDefinitionIndex = 56051;
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OEENEGJBMCO_GAIHEMDNLGH_OFFSET))(this, a1);
 		}
 
-		::System::Void IMFAJJKLKMK(::System::Nullable* a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::GameEntity* a3)
+		::System::Void IMFAJJKLKMK(::System::Nullable_1<::RPG::GameCore::FixPoint> a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::GameEntity* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + OEENEGJBMCO_IMFAJJKLKMK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + OEENEGJBMCO_IMFAJJKLKMK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void BHDIGADBLBE()

@@ -4,6 +4,7 @@
 namespace MiHoYo::SDK { class Dispatcher; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIHOYO_SDK_DISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF78D70)
@@ -56,9 +57,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_RUNASYNC_OFFSET))(a1);
 		}
 
-		static ::System::Void RunAsync_1(::System::Action* a1, ::System::Object* a2)
+		static ::System::Void RunAsync_1(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_RUNASYNC_1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_RUNASYNC_1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void RunOnMainThread(::System::Action* a1)

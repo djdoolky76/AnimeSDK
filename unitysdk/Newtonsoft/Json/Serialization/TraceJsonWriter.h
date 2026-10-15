@@ -5,10 +5,10 @@
 #include "unitysdk/System/DateTimeOffset.h"
 #include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/TimeSpan.h"
 namespace Newtonsoft::Json { class JsonTextWriter; }
 namespace Newtonsoft::Json { class JsonWriter; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Uri; }
@@ -89,9 +89,9 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_TRACEJSONWRITER_WRITEVALUE_2_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteValue_3(::System::Nullable* a1)
+		::System::Void WriteValue_3(::System::Nullable_1<::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_TRACEJSONWRITER_WRITEVALUE_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Byte>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_TRACEJSONWRITER_WRITEVALUE_3_OFFSET))(this, a1);
 		}
 
 		::System::Void WriteValue_4(::System::Char a1)

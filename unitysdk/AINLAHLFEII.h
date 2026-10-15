@@ -3,12 +3,12 @@
 #include "unitysdk/LKLOMEEPIEM.h"
 #include "unitysdk/RPG/GameCore/EFreeStyleControlMode.h"
 #include "unitysdk/RPG/GameCore/FreeStyleController.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/BPFKOIIMKBG.h"
 class IMPNPPMLNPH;
 namespace RPG::GameCore { class FreeStyleComponent; }
 namespace RPG::GameCore { class FreeStyleMotionInfoConfig; }
 namespace RPG::GameCore { class FreeStyleState; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -55,13 +55,13 @@ inline static constexpr unsigned int AINLAHLFEII_TypeDefinitionIndex = 57277;
 		::Il2CppArray<::System::Object*>* GJBEKJDLAMD; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* FLHNKLJAONG; // 0x68
 		::System::Int32 FPCADIACJLG; // 0x70
-		::System::Nullable* GAPHHKAILID; // 0x74
-		::System::Nullable* CADOLMLNLFD; // 0x7C
+		::System::Nullable_1<::System::Single> GAPHHKAILID; // 0x74
+		::System::Nullable_1<::LKLOMEEPIEM> CADOLMLNLFD; // 0x7C
 		::System::Byte _padding0[0x1C];
 		::System::Boolean EFALFIHHKOI; // 0xA0
 		::System::Boolean CECCMFMBGBI; // 0xA1
 		::System::Byte _padding1[0x2];
-		::System::Nullable* HFEEDBMEOFO; // 0xA4
+		::System::Nullable_1<::LKLOMEEPIEM> HFEEDBMEOFO; // 0xA4
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet_FKNPDNGBNLI()
 		{
 			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)UnitySDK::FromName("", "AINLAHLFEII")->GetStaticField(0x5A360);
@@ -97,19 +97,19 @@ inline static constexpr unsigned int AINLAHLFEII_TypeDefinitionIndex = 57277;
 			return ((::IMPNPPMLNPH*(*)(::PVOID))((::PBYTE)hIl2Cpp + AINLAHLFEII_GET_INFO_OFFSET))(this);
 		}
 
-		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3)
+		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*))((::PBYTE)hIl2Cpp + AINLAHLFEII_AGPHBLGBODG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>))((::PBYTE)hIl2Cpp + AINLAHLFEII_AGPHBLGBODG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AGPHBLGBODG_1(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3, ::System::Boolean a4)
+		::System::Void AGPHBLGBODG_1(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + AINLAHLFEII_AGPHBLGBODG_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + AINLAHLFEII_AGPHBLGBODG_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void AGPHBLGBODG_2(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3, ::System::Boolean a4, ::System::Nullable* a5, ::System::Boolean a6)
+		::System::Void AGPHBLGBODG_2(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3, ::System::Boolean a4, ::System::Nullable_1<::System::Single> a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*, ::System::Boolean, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + AINLAHLFEII_AGPHBLGBODG_2_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + AINLAHLFEII_AGPHBLGBODG_2_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void INHHIGAOCNE(::System::Int32 a1, ::System::Single a2, ::System::Single a3)

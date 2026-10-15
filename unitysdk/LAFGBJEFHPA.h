@@ -8,6 +8,7 @@ namespace Proto { class ItemList; }
 namespace RPG::Client { class RogueTournSettleData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
@@ -137,9 +138,9 @@ inline static constexpr unsigned int LAFGBJEFHPA_TypeDefinitionIndex = 67825;
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + LAFGBJEFHPA_EACHEFCDIKL_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* INGJPHNIIIO()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* INGJPHNIIIO()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + LAFGBJEFHPA_INGJPHNIIIO_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LAFGBJEFHPA_INGJPHNIIIO_OFFSET))(this);
 		}
 
 		::System::Void BBBIFJPCDEG(::System::Object* a1)

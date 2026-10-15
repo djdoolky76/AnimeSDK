@@ -8,6 +8,7 @@ namespace RPG::QA { class QAManager_LogInfoSender; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -198,14 +199,14 @@ namespace RPG::QA
 			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDMESSAGE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SendMessage_1(::RPG::QA::QAManager_Message a1, ::System::Action* a2)
+		static ::System::Void SendMessage_1(::RPG::QA::QAManager_Message a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::RPG::QA::QAManager_Message, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDMESSAGE_1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::QA::QAManager_Message, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDMESSAGE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SendLastErrorMessage(::System::Action* a1)
+		static ::System::Void SendLastErrorMessage(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDLASTERRORMESSAGE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_SENDLASTERRORMESSAGE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean _NeedSendLog(::UnityEngine::LogType a1, ::System::String* a2, ::System::String* a3)
@@ -233,14 +234,14 @@ namespace RPG::QA
 			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER_EXECUTERELEASEGM_OFFSET))(a1);
 		}
 
-		static ::System::Void _SendMessageToApm(::RPG::QA::QAManager_Message a1, ::System::Action* a2)
+		static ::System::Void _SendMessageToApm(::RPG::QA::QAManager_Message a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::RPG::QA::QAManager_Message, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__SENDMESSAGETOAPM_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::QA::QAManager_Message, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__SENDMESSAGETOAPM_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* _SendMessageToApmCo(::RPG::QA::QAManager_Message a1, ::System::Action* a2)
+		static ::System::Collections::IEnumerator* _SendMessageToApmCo(::RPG::QA::QAManager_Message a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::RPG::QA::QAManager_Message, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__SENDMESSAGETOAPMCO_OFFSET))(a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::RPG::QA::QAManager_Message, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_QA_QAMANAGER__SENDMESSAGETOAPMCO_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void InitRPGShell(::System::Action* a1)

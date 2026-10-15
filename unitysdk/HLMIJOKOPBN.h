@@ -5,8 +5,8 @@ class FCAFLGBOMFN;
 class HLMIJOKOPBN;
 class ODPGEKCDNCJ;
 namespace RPG::Client { class BattleShowUIPageParam; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
 #define HLMIJOKOPBN_BDJAMKKKPPA_OFFSET UNITYSDK_OFFSET(0x15D65B90)
@@ -27,12 +27,12 @@ inline static constexpr unsigned int HLMIJOKOPBN_TypeDefinitionIndex = 71698;
 	class HLMIJOKOPBN : public ::System::Object
 	{
 	public:
-		::System::Action* JLBLEBFNIIM; // 0x10
+		::System::Action_1<::FCAFLGBOMFN*>* JLBLEBFNIIM; // 0x10
 		::UnityEngine::Coroutine* CGAEACAKGMP; // 0x18
 		::System::String* _UniqueName_k__BackingField; // 0x20
 		::RPG::Client::BattleShowUIPageParam* _Param_k__BackingField; // 0x28
-		::System::Action* OPHEBAAKIHB; // 0x30
-		::System::Action* JFKMKCIPIGI; // 0x38
+		::System::Action_1<::FCAFLGBOMFN*>* OPHEBAAKIHB; // 0x30
+		::System::Action_1<::System::String*>* JFKMKCIPIGI; // 0x38
 		::System::Single HIMIAAEICFA; // 0x40
 		// static const ::System::Object FOPMNAAAIDC; // 0x0
 		::System::Void _ctor()
@@ -40,9 +40,9 @@ inline static constexpr unsigned int HLMIJOKOPBN_TypeDefinitionIndex = 71698;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_CTOR_OFFSET))(this);
 		}
 
-		static ::HLMIJOKOPBN* BPLPBPMEODA(::ODPGEKCDNCJ* a1, ::System::Action* a2, ::System::Action* a3, ::System::Action* a4)
+		static ::HLMIJOKOPBN* BPLPBPMEODA(::ODPGEKCDNCJ* a1, ::System::Action_1<::FCAFLGBOMFN*>* a2, ::System::Action_1<::FCAFLGBOMFN*>* a3, ::System::Action_1<::System::String*>* a4)
 		{
-			return ((::HLMIJOKOPBN*(*)(::ODPGEKCDNCJ*, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_BPLPBPMEODA_OFFSET))(a1, a2, a3, a4);
+			return ((::HLMIJOKOPBN*(*)(::ODPGEKCDNCJ*, ::System::Action_1<::FCAFLGBOMFN*>*, ::System::Action_1<::FCAFLGBOMFN*>*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + HLMIJOKOPBN_BPLPBPMEODA_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void Dispose()

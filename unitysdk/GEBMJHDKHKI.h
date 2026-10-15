@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityTagRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define GEBMJHDKHKI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE33860)
 #define GEBMJHDKHKI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE33DE0)
@@ -41,9 +41,9 @@ inline static constexpr unsigned int GEBMJHDKHKI_TypeDefinitionIndex = 11216;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GEBMJHDKHKI")->GetStaticField(0x16D78);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "GEBMJHDKHKI")->GetStaticField(0x16D80);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GEBMJHDKHKI")->GetStaticField(0x16D80);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int GEBMJHDKHKI_TypeDefinitionIndex = 11216;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTagRow*>(*)())((::PBYTE)hIl2Cpp + GEBMJHDKHKI_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTagRow*>, ::RPG::GameCore::ActivityTagRow*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + GEBMJHDKHKI_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityTagRow*>, ::RPG::GameCore::ActivityTagRow*>(*)())((::PBYTE)hIl2Cpp + GEBMJHDKHKI_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::RPG::GameCore::ActivityTagRow* LMBKNCAIDLC(::System::UInt32 a1)

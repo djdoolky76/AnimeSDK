@@ -11,6 +11,7 @@ namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client { class ChatMessageData; }
 namespace RPG::Client { class ChatMessageInviteData; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 
 #define RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_ACCEPTINVITATION_1_OFFSET UNITYSDK_OFFSET(0xD8E0F10)
@@ -58,14 +59,14 @@ namespace RPG::Client::Multiplayer
 			return ((::System::Void(*)(::PVOID, ::CJGNCPIDGNH*, ::KFGPAHIEDKH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* CreateLobby(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* CreateLobby(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_CREATELOBBY_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_CREATELOBBY_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* JoinLobby(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* JoinLobby(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_JOINLOBBY_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_JOINLOBBY_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* TryQuitLobby()
@@ -93,9 +94,9 @@ namespace RPG::Client::Multiplayer
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_INVITE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* AcceptInvitation(::RPG::Client::ChatMessageInviteData* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* AcceptInvitation(::RPG::Client::ChatMessageInviteData* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::ChatMessageInviteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_ACCEPTINVITATION_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::RPG::Client::ChatMessageInviteData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE_ACCEPTINVITATION_OFFSET))(this, a1);
 		}
 
 		::System::Void AcceptInvitation_1(::RPG::Client::ChatMessageData* a1)

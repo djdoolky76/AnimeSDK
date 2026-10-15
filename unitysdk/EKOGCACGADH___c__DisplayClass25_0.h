@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 class AHIJMGKPIMF;
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define EKOGCACGADH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15515D40)
 #define EKOGCACGADH___C__DISPLAYCLASS25_0___ASYNCLOADPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x15516C00)
@@ -13,7 +14,7 @@ inline static constexpr unsigned int EKOGCACGADH___c__DisplayClass25_0_TypeDefin
 	{
 	public:
 		::System::Action* callback; // 0x10
-		::System::Action* __9__0; // 0x18
+		::System::Action_1<::AHIJMGKPIMF*>* __9__0; // 0x18
 		::System::Int32 count; // 0x20
 		::System::Int32 total; // 0x24
 		::System::Void _ctor()

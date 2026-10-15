@@ -27,6 +27,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StageRegionCollection; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
@@ -127,13 +130,13 @@ inline static constexpr unsigned int PKKNEBGOION_TypeDefinitionIndex = 62175;
 		::RPG::GameCore::StageRegionCollection* OCPODIPIJFN; // 0x28
 		::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>* OGGGBMKGKIP; // 0x30
 		::RPG::Client::RegionManagerDebugMono* MPFDPICIPID; // 0x38
-		::System::Action* EPFAPAONHMI; // 0x40
-		::System::Action* BIKOJDMGFON; // 0x48
+		::System::Action_3<::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*>* EPFAPAONHMI; // 0x40
+		::System::Action_2<::KGDADKNPPOL*, ::KGDADKNPPOL*>* BIKOJDMGFON; // 0x48
 		::PKKNEBGOION_COKPEGBODLD* KGLEAOAOHKO; // 0x50
 		::PKKNEBGOION_AKOPAHKBDJN* MHNKIDKIHHM; // 0x58
-		::System::Action* AKILKFIOHNA; // 0x60
+		::System::Action_1<::System::Collections::Generic::IReadOnlyCollection_1<::KGDADKNPPOL*>*>* AKILKFIOHNA; // 0x60
 		::System::Collections::Generic::List_1<::KGDADKNPPOL*>* NCNPOINLNGC; // 0x68
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Action*>* FHFGICFBGMK; // 0x70
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Action_2<::KGDADKNPPOL*, ::KGDADKNPPOL*>*>* FHFGICFBGMK; // 0x70
 		::System::Collections::Generic::List_1<::KGDADKNPPOL*>* GMOGELHAPDP; // 0x78
 		::RPG::Client::Stage* PKLNPNKEJOO; // 0x80
 		::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>* BCKANDNDKMA; // 0x88
@@ -143,7 +146,7 @@ inline static constexpr unsigned int PKKNEBGOION_TypeDefinitionIndex = 62175;
 		::System::Collections::Generic::List_1<::RPG::GameCore::StageRegionVisualState>* MEAPIMDMKLK; // 0xA8
 		::System::Collections::Generic::List_1<::KGDADKNPPOL*>* MDOHEJMFDCN; // 0xB0
 		::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>* JBOAHJHEOJL; // 0xB8
-		::System::Action* MEMMLLEOEEH; // 0xC0
+		::System::Action_1<::KGDADKNPPOL*>* MEMMLLEOEEH; // 0xC0
 		::System::Collections::Generic::List_1<::BFEOGBPMBFB>* EJKCBEMOCBM; // 0xC8
 		::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>* AJMEFIKCNED; // 0xD0
 		::System::Collections::Generic::List_1<::RPG::GameCore::StageRegionVisualState>* ICENIBNIENK; // 0xD8
@@ -154,7 +157,7 @@ inline static constexpr unsigned int PKKNEBGOION_TypeDefinitionIndex = 62175;
 		::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>* CCJMNHLONEA; // 0x100
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::KGDADKNPPOL*>* LMMJPNMIDFN; // 0x108
 		::System::Collections::Generic::List_1<::KGDADKNPPOL*>* OHDJPOJFAAL; // 0x110
-		::System::Action* OFJLHOIMPCD; // 0x118
+		::System::Action_1<::KGDADKNPPOL*>* OFJLHOIMPCD; // 0x118
 		::System::Collections::Generic::List_1<::RPG::GameCore::StageRegionVisualState>* JMGHNGMPACJ; // 0x120
 		::System::Collections::Generic::List_1<::KLEFGGIHGMI*>* LCFOBPCCLIB; // 0x128
 		::System::Collections::Generic::List_1<::KGDADKNPPOL*>* ICGDKKEHJMH; // 0x130
@@ -284,9 +287,9 @@ inline static constexpr unsigned int PKKNEBGOION_TypeDefinitionIndex = 62175;
 			return ((::KGDADKNPPOL*(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + PKKNEBGOION_GDAAEOOFNIG_1_OFFSET))(this, a1);
 		}
 
-		::System::Void MPIEOBCBOBA(::RPG::GameCore::GameEntity* a1, ::System::Action* a2)
+		::System::Void MPIEOBCBOBA(::RPG::GameCore::GameEntity* a1, ::System::Action_2<::KGDADKNPPOL*, ::KGDADKNPPOL*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_MPIEOBCBOBA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action_2<::KGDADKNPPOL*, ::KGDADKNPPOL*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_MPIEOBCBOBA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void POIIGNHOFMP(::RPG::GameCore::GameEntity* a1)
@@ -294,24 +297,24 @@ inline static constexpr unsigned int PKKNEBGOION_TypeDefinitionIndex = 62175;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + PKKNEBGOION_POIIGNHOFMP_OFFSET))(this, a1);
 		}
 
-		::System::Void GOLOOJGHEJH(::System::Action* a1)
+		::System::Void GOLOOJGHEJH(::System::Action_1<::KGDADKNPPOL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_GOLOOJGHEJH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KGDADKNPPOL*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_GOLOOJGHEJH_OFFSET))(this, a1);
 		}
 
-		::System::Void DJNJNLBNNHB(::System::Action* a1)
+		::System::Void DJNJNLBNNHB(::System::Action_1<::KGDADKNPPOL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_DJNJNLBNNHB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KGDADKNPPOL*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_DJNJNLBNNHB_OFFSET))(this, a1);
 		}
 
-		::System::Void MCAGMKCHILP(::System::Action* a1)
+		::System::Void MCAGMKCHILP(::System::Action_1<::KGDADKNPPOL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_MCAGMKCHILP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KGDADKNPPOL*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_MCAGMKCHILP_OFFSET))(this, a1);
 		}
 
-		::System::Void IDEIKKFHEHI(::System::Action* a1)
+		::System::Void IDEIKKFHEHI(::System::Action_1<::KGDADKNPPOL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_IDEIKKFHEHI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::KGDADKNPPOL*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_IDEIKKFHEHI_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::KGDADKNPPOL*>* GBKEDOFMLJO()
@@ -324,44 +327,44 @@ inline static constexpr unsigned int PKKNEBGOION_TypeDefinitionIndex = 62175;
 			return ((::System::Collections::Generic::IReadOnlyList_1<::KGDADKNPPOL*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PKKNEBGOION_MAHMAJIIJNJ_OFFSET))(this);
 		}
 
-		::System::Void PDLGLLKPHGD(::System::Action* a1)
+		::System::Void PDLGLLKPHGD(::System::Action_3<::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_PDLGLLKPHGD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_PDLGLLKPHGD_OFFSET))(this, a1);
 		}
 
-		::System::Void JNBMCPANPPD(::System::Action* a1)
+		::System::Void JNBMCPANPPD(::System::Action_3<::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_JNBMCPANPPD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*, ::System::Collections::Generic::HashSet_1<::KGDADKNPPOL*>*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_JNBMCPANPPD_OFFSET))(this, a1);
 		}
 
-		::System::Void FKDKFFLFAFC(::System::Action* a1)
+		::System::Void FKDKFFLFAFC(::System::Action_1<::System::Collections::Generic::IReadOnlyCollection_1<::KGDADKNPPOL*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_FKDKFFLFAFC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyCollection_1<::KGDADKNPPOL*>*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_FKDKFFLFAFC_OFFSET))(this, a1);
 		}
 
-		::System::Void DJFHAIAAFMI(::System::Action* a1)
+		::System::Void DJFHAIAAFMI(::System::Action_1<::System::Collections::Generic::IReadOnlyCollection_1<::KGDADKNPPOL*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_DJFHAIAAFMI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IReadOnlyCollection_1<::KGDADKNPPOL*>*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_DJFHAIAAFMI_OFFSET))(this, a1);
 		}
 
-		::System::Void EAKFBMFJGJP(::System::Action* a1)
+		::System::Void EAKFBMFJGJP(::System::Action_2<::KGDADKNPPOL*, ::KGDADKNPPOL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_EAKFBMFJGJP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::KGDADKNPPOL*, ::KGDADKNPPOL*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_EAKFBMFJGJP_OFFSET))(this, a1);
 		}
 
-		::System::Void JPADDNHGOPN(::System::Action* a1)
+		::System::Void JPADDNHGOPN(::System::Action_2<::KGDADKNPPOL*, ::KGDADKNPPOL*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PKKNEBGOION_JPADDNHGOPN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::KGDADKNPPOL*, ::KGDADKNPPOL*>*))((::PBYTE)hIl2Cpp + PKKNEBGOION_JPADDNHGOPN_OFFSET))(this, a1);
 		}
 
-		::System::Void IDPPJALHPEE(::System::Action* a1, ::System::Int32 a2, ::System::Boolean a3)
+		::System::Void IDPPJALHPEE(::System::Action_3<::KGDADKNPPOL*, ::RPG::GameCore::StageRegionActiveState, ::RPG::GameCore::StageRegionActiveState>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + PKKNEBGOION_IDPPJALHPEE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::KGDADKNPPOL*, ::RPG::GameCore::StageRegionActiveState, ::RPG::GameCore::StageRegionActiveState>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + PKKNEBGOION_IDPPJALHPEE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void GDDHJLDDJJM(::System::Action* a1, ::System::Int32 a2)
+		::System::Void GDDHJLDDJJM(::System::Action_3<::KGDADKNPPOL*, ::RPG::GameCore::StageRegionActiveState, ::RPG::GameCore::StageRegionActiveState>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + PKKNEBGOION_GDDHJLDDJJM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::KGDADKNPPOL*, ::RPG::GameCore::StageRegionActiveState, ::RPG::GameCore::StageRegionActiveState>*, ::System::Int32))((::PBYTE)hIl2Cpp + PKKNEBGOION_GDDHJLDDJJM_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ABFGJMONOLI(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Action* a4, ::System::Single a5, ::System::Single a6)

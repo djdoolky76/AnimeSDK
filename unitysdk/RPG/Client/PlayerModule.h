@@ -7,6 +7,7 @@
 #include "unitysdk/RPG/Client/LogicStateType.h"
 #include "unitysdk/RPG/Client/PlayerLevelUpgradeData.h"
 #include "unitysdk/RPG/GameCore/GenderType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/TimeSpan.h"
 class ADODOFNNPEO;
 class BHLJGGCMJAB;
@@ -18,7 +19,6 @@ class PJBAPLNPJCE;
 namespace RPG::Client { class PlayerBoardInfo; }
 namespace RPG::Client { class PlayerData; }
 namespace RPG::Client { class PlayerSettingData; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -267,9 +267,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMODULE_GET_ALLOWMODIFYSIGNATURE_OFFSET))(this);
 		}
 
-		::System::Nullable* get_RenameCD()
+		::System::Nullable_1<::System::TimeSpan> get_RenameCD()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMODULE_GET_RENAMECD_OFFSET))(this);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMODULE_GET_RENAMECD_OFFSET))(this);
 		}
 
 		::System::Void Init()

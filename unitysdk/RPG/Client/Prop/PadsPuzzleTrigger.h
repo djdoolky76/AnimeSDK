@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
@@ -17,8 +17,8 @@ namespace RPG::Client::Prop
 	class PadsPuzzleTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* onEnter; // 0x18
-		::System::Action* onLeave; // 0x20
+		::System::Action_1<::UnityEngine::GameObject*>* onEnter; // 0x18
+		::System::Action_1<::UnityEngine::GameObject*>* onLeave; // 0x20
 		::UnityEngine::Collider* PCBNMJBCPJP; // 0x28
 		::System::Void _ctor()
 		{

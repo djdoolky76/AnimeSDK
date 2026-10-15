@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GDMONJOAKHD.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class APLEMBNFLAA;
 class HPKACEPPPCA;
@@ -10,7 +11,6 @@ class NEEJNCHJFKL_KIKCNLDNLCF;
 class OIDDJJLHGKO;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class StreamingLayerDetail; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace UnityEngine { class GameObject; }
 
 #define NEEJNCHJFKL_BCKOGNJHGNO_OFFSET UNITYSDK_OFFSET(0xBB5BB20)
@@ -60,9 +60,9 @@ inline static constexpr unsigned int NEEJNCHJFKL_TypeDefinitionIndex = 73792;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + NEEJNCHJFKL_KMDFOAPFHCD_OFFSET))(this, a1);
 		}
 
-		::System::Void FONPNGPBJON(::OIDDJJLHGKO* a1, ::APLEMBNFLAA* a2, ::System::Boolean a3, ::HPKACEPPPCA* a4, ::RPG::Client::OpenWorld::StreamingItemData* a5, ::System::Collections::Generic::KeyValuePair* a6)
+		::System::Void FONPNGPBJON(::OIDDJJLHGKO* a1, ::APLEMBNFLAA* a2, ::System::Boolean a3, ::HPKACEPPPCA* a4, ::RPG::Client::OpenWorld::StreamingItemData* a5, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::OIDDJJLHGKO*, ::APLEMBNFLAA*, ::System::Boolean, ::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + NEEJNCHJFKL_FONPNGPBJON_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::OIDDJJLHGKO*, ::APLEMBNFLAA*, ::System::Boolean, ::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>))((::PBYTE)hIl2Cpp + NEEJNCHJFKL_FONPNGPBJON_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Single BCKOGNJHGNO()

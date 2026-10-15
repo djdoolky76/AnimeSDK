@@ -3,8 +3,10 @@
 #include "unitysdk/BPFKOIIMKBG.h"
 #include "unitysdk/LKLOMEEPIEM.h"
 #include "unitysdk/RPG/GameCore/AnimZoneTransition.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/IMOHEHDKGPK.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 class CBMGBGGBNCF;
 class EFPPMIHCBAA;
@@ -25,9 +27,9 @@ namespace RPG::GameCore { class FreeStyleState; }
 namespace RPG::GameCore { class FreeStyleTriggerGraphInfo; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -133,16 +135,16 @@ inline static constexpr unsigned int PAADPKGPFMJ_TypeDefinitionIndex = 57285;
 		::PAADPKGPFMJ_LIJIFNDLBDF* NABFFOFNLCE; // 0x10
 		::RPG::Client::MockAnimator* APPGGMLEPLN; // 0x18
 		::RPG::GameCore::FreeStyleMotionConfigRow* PJIDMPKKFKA; // 0x20
-		::System::Action* NJKGFILIKCP; // 0x28
+		::System::Action_1<::System::UInt32>* NJKGFILIKCP; // 0x28
 		::ODLKDMDPHAI* JPADGLBMNBH; // 0x30
 		::ELIICJFAPLL* KLEJBOIODLI; // 0x38
 		::UnityEngine::AnimatorOverrideController* KENAPFGJKOM; // 0x40
 		::RPG::GameCore::FreeStyleComponent* JHFKOHNKLMH; // 0x48
 		::RPG::Client::IAssetOperation* JHDCADNDAFO; // 0x50
-		::System::Action* AEIHAGMJBPA; // 0x58
+		::System::Action_2<::System::UInt32, ::BPFKOIIMKBG>* AEIHAGMJBPA; // 0x58
 		::System::Collections::Generic::List_1<::CBMGBGGBNCF*>* GANMGOCFDIA; // 0x60
 		::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimClipGroupZoneInfo*>* BDKEJANNLCD; // 0x68
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* LFFHHHKPLIP; // 0x70
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* LFFHHHKPLIP; // 0x70
 		::Il2CppArray<::IKKAFGPNEGO*>* FDHOAEDHKCH; // 0x78
 		::ODLKDMDPHAI* EIJLFMCEAEK; // 0x80
 		::System::String* _FreeStyleCharacterConfigPath_k__BackingField; // 0x88
@@ -159,7 +161,7 @@ inline static constexpr unsigned int PAADPKGPFMJ_TypeDefinitionIndex = 57285;
 		::RPG::Client::IAssetOperation* FLPMBHPIAIH; // 0xE0
 		::FJDDMMEHBLE* IGHAHBNLIJA; // 0xE8
 		::System::String* EOBACEDNGHH; // 0xF0
-		::System::Action* ILAHFOIJAPF; // 0xF8
+		::System::Action_2<::System::Int32, ::BPFKOIIMKBG>* ILAHFOIJAPF; // 0xF8
 		::RPG::Client::IAssetOperation* BLKPFJLGBKL; // 0x100
 		::ODLKDMDPHAI* LLBADFLDEIA; // 0x108
 		::System::UInt32 MDICCICAPKK; // 0x110
@@ -303,9 +305,9 @@ inline static constexpr unsigned int PAADPKGPFMJ_TypeDefinitionIndex = 57285;
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + PAADPKGPFMJ_NHJEMDBODLO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3, ::System::Boolean a4)
+		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + PAADPKGPFMJ_AGPHBLGBODG_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + PAADPKGPFMJ_AGPHBLGBODG_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void CFNIBAOJGEL(::UnityEngine::AnimationClip* a1)
@@ -348,9 +350,9 @@ inline static constexpr unsigned int PAADPKGPFMJ_TypeDefinitionIndex = 57285;
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + PAADPKGPFMJ_ECLODICLCKJ_OFFSET))(this);
 		}
 
-		::System::Boolean NOBHPALJPAG(::System::Nullable* a1)
+		::System::Boolean NOBHPALJPAG(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + PAADPKGPFMJ_NOBHPALJPAG_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + PAADPKGPFMJ_NOBHPALJPAG_OFFSET))(this, a1);
 		}
 
 		::System::Boolean ALAKHAGJDLD()

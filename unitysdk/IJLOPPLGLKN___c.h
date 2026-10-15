@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class BFHPBLANIKG;
 class IOAFKPDEIEA;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define IJLOPPLGLKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1646EDE0)
 #define IJLOPPLGLKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1646EE20)
@@ -16,9 +16,9 @@ inline static constexpr unsigned int IJLOPPLGLKN___c_TypeDefinitionIndex = 79223
 	class IJLOPPLGLKN___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_1<::BFHPBLANIKG*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610C0);
+			return (::System::Action_1<::BFHPBLANIKG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610C0);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -26,9 +26,9 @@ inline static constexpr unsigned int IJLOPPLGLKN___c_TypeDefinitionIndex = 79223
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610C8);
 		}
 
-		static ::System::Action** StaticGet___9__5_0()
+		static ::System::Action_1<::IOAFKPDEIEA*>** StaticGet___9__5_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610D0);
+			return (::System::Action_1<::IOAFKPDEIEA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610D0);
 		}
 
 		static ::System::Void _cctor()

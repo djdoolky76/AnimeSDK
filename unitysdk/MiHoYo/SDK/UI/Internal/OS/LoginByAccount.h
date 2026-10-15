@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::UI::Internal::OS { class LoginByAccount; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
@@ -69,7 +70,7 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::UnityEngine::UI::Text* forgetPwdText; // 0x100
 		::UnityEngine::UI::Text* loginText; // 0x108
 		::System::Action* OnClose; // 0x110
-		::System::Action* OnLogin; // 0x118
+		::System::Action_2<::System::String*, ::System::String*>* OnLogin; // 0x118
 		::System::Action* OnRegister; // 0x120
 		::System::Action* OnForgetPwd; // 0x128
 		::System::Action* OnGuest; // 0x130

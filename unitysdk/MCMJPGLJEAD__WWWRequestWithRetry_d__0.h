@@ -4,6 +4,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class WWWForm; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
@@ -20,7 +21,7 @@ inline static constexpr unsigned int MCMJPGLJEAD__WWWRequestWithRetry_d__0_TypeD
 	class MCMJPGLJEAD__WWWRequestWithRetry_d__0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::UnityEngine::Networking::UnityWebRequest* _localWWW_5__3; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* formDict; // 0x20
 		::System::Action* timeOutCallback; // 0x28

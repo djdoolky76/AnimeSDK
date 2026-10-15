@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/GameCore/MonsterWeaknessSpecialType.h"
 #include "unitysdk/RPG/GameCore/WeaknessStackOperationType.h"
 #include "unitysdk/RPG/GameCore/WeaknessState.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/DFHMKNLKLKB.h"
 class BOFJDFJMKGA;
 namespace RPG::GameCore { class CharacterWeakness; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -65,7 +65,7 @@ namespace RPG::GameCore
 	class CharacterWeakness : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _AllWeaknessListWithState; // 0x10
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AttackDamageType, ::RPG::GameCore::WeaknessState>>* _AllWeaknessListWithState; // 0x10
 		::RPG::GameCore::GameEntity* _Owner; // 0x18
 		::Il2CppArray<::System::Boolean>* _ProtectOccupy; // 0x20
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* _OverrideStack; // 0x28
@@ -136,9 +136,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERWEAKNESS_GETACTIVEWEAKNESS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* GetAllWeakness()
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AttackDamageType, ::RPG::GameCore::WeaknessState>>* GetAllWeakness()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERWEAKNESS_GETALLWEAKNESS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AttackDamageType, ::RPG::GameCore::WeaknessState>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERWEAKNESS_GETALLWEAKNESS_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AttackDamageType GetAllWeaknessInEnum()

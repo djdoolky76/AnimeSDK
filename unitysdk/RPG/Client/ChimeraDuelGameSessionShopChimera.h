@@ -5,7 +5,7 @@ class KGHDDIBDABP;
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace RPG::Client { class ChimeraDuelGameSessionShopChimera; }
 namespace RPG::Client { class ChimeraDuelGameSessionTeam; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CHECKCANUPGRADEANDLEVELUPANY_OFFSET UNITYSDK_OFFSET(0xCB2D3E0)
 #define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CREATE_OFFSET UNITYSDK_OFFSET(0xCB2D2D0)
@@ -23,7 +23,7 @@ namespace RPG::Client
 	class ChimeraDuelGameSessionShopChimera : public ::System::Object
 	{
 	public:
-		::System::Action* OnIsLockedChanged; // 0x10
+		::System::Action_1<::System::Boolean>* OnIsLockedChanged; // 0x10
 		::RPG::Client::ChimeraDuelGameSessionChimera* _Chimera_k__BackingField; // 0x18
 		::System::Boolean _IsLocked_k__BackingField; // 0x20
 		::System::Void _ctor(::RPG::Client::ChimeraDuelGameSessionChimera* a1, ::System::Boolean a2)

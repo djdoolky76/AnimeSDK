@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
 #define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_CLEARCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1BFFDDF0)
@@ -43,9 +44,9 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::System::Action* _OnShowPrivacyProtocolClicked_k__BackingField; // 0x10
 		::System::Action* _OnBackBtnClicked_k__BackingField; // 0x18
 		::System::Action* _OnCloseBtnClicked_k__BackingField; // 0x20
-		::System::Action* _OnBindBtnClicked_k__BackingField; // 0x28
+		::System::Action_1<::System::String*>* _OnBindBtnClicked_k__BackingField; // 0x28
 		::System::Action* _OnQRRefreshBtnClicked_k__BackingField; // 0x30
-		::System::Action* _OnGetCaptchaBtnClicked_k__BackingField; // 0x38
+		::System::Action_1<::System::String*>* _OnGetCaptchaBtnClicked_k__BackingField; // 0x38
 		::System::Action* _OnShowUserAgreementClicked_k__BackingField; // 0x40
 		::System::Void _ctor()
 		{
@@ -72,14 +73,14 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_SET_ONCLOSEBTNCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnGetCaptchaBtnClicked()
+		::System::Action_1<::System::String*>* get_OnGetCaptchaBtnClicked()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_GET_ONGETCAPTCHABTNCLICKED_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_GET_ONGETCAPTCHABTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnGetCaptchaBtnClicked(::System::Action* a1)
+		::System::Void set_OnGetCaptchaBtnClicked(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_SET_ONGETCAPTCHABTNCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_SET_ONGETCAPTCHABTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnShowUserAgreementClicked()
@@ -102,14 +103,14 @@ namespace MiHoYo::SDK::UI::Internal::OS
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_SET_ONSHOWPRIVACYPROTOCOLCLICKED_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnBindBtnClicked()
+		::System::Action_1<::System::String*>* get_OnBindBtnClicked()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_GET_ONBINDBTNCLICKED_OFFSET))(this);
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_GET_ONBINDBTNCLICKED_OFFSET))(this);
 		}
 
-		::System::Void set_OnBindBtnClicked(::System::Action* a1)
+		::System::Void set_OnBindBtnClicked(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_SET_ONBINDBTNCLICKED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTBINDINGDIALOG_SET_ONBINDBTNCLICKED_OFFSET))(this, a1);
 		}
 
 		::System::Action* get_OnQRRefreshBtnClicked()

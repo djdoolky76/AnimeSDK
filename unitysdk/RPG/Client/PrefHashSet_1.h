@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client { template <typename T> class PrefHashSet_1; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
@@ -11,6 +11,6 @@ namespace RPG::Client
 	class PrefHashSet_1
 	{
 	public:
-		::System::Action* onChanged; // 0x0
+		::System::Action_1<::RPG::Client::PrefHashSet_1<T>*>* onChanged; // 0x0
 	};
 }

@@ -12,9 +12,9 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class ChenLingBattleAbility_CreateLaser; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 namespace RPG::GameCore { class ChenLingBattleEffectTier; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BANMMCONAFC_BPMLAGNCEHH_OFFSET UNITYSDK_OFFSET(0x15E7B1B0)
@@ -86,9 +86,9 @@ inline static constexpr unsigned int BANMMCONAFC_TypeDefinitionIndex = 77897;
 			return ((::RPG::GameCore::ChenLingBattleEffectConfig*(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ChenLingBattleEffectTier*>*, ::System::String*, ::RPG::MVector3, ::System::String*, ::System::Boolean, ::RPG::GameCore::ChenLingBattleEffectLifeTimeType, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + BANMMCONAFC_GGMAJGMFCCB_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void OIEKONJEHMJ(::ALMFLCJCHKP* a1, ::UnityEngine::Vector3 a2, ::RPG::GameCore::ChenLingBattleEffectConfig* a3, ::ALMFLCJCHKP* a4, ::System::Action* a5)
+		::System::Void OIEKONJEHMJ(::ALMFLCJCHKP* a1, ::UnityEngine::Vector3 a2, ::RPG::GameCore::ChenLingBattleEffectConfig* a3, ::ALMFLCJCHKP* a4, ::System::Action_1<::UnityEngine::Vector3>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*, ::UnityEngine::Vector3, ::RPG::GameCore::ChenLingBattleEffectConfig*, ::ALMFLCJCHKP*, ::System::Action*))((::PBYTE)hIl2Cpp + BANMMCONAFC_OIEKONJEHMJ_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*, ::UnityEngine::Vector3, ::RPG::GameCore::ChenLingBattleEffectConfig*, ::ALMFLCJCHKP*, ::System::Action_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + BANMMCONAFC_OIEKONJEHMJ_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::UnityEngine::Vector2Int PFLPCNPMKBD(::UnityEngine::Vector3 a1)

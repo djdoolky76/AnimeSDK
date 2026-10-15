@@ -6,7 +6,7 @@ class FLNGKAJHEEE;
 class IAJGGEMFOMB;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftChipPieceCollectionControlBinder; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftPlacedChipPieceControl; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROL_ADD_ONPIECECREATED_OFFSET UNITYSDK_OFFSET(0xD60B270)
@@ -34,7 +34,7 @@ namespace RPG::Client::MechCraft::View
 	public:
 		::FLNGKAJHEEE* LFGMLJCCPCH; // 0x18
 		::AKPHPMPKCHB* _Grid_k__BackingField; // 0x20
-		::System::Action* OnPieceCreated; // 0x28
+		::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* OnPieceCreated; // 0x28
 		::RPG::Client::MechCraft::View::MechCraftCraftChipPieceCollectionControlBinder* _Binder; // 0x30
 		::System::Collections::Generic::Dictionary_2<::IAJGGEMFOMB*, ::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* HHJBIJGAOPM; // 0x38
 		::System::Void _ctor()
@@ -62,14 +62,14 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::AKPHPMPKCHB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROL_SET_GRID_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnPieceCreated(::System::Action* a1)
+		::System::Void add_OnPieceCreated(::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROL_ADD_ONPIECECREATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROL_ADD_ONPIECECREATED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnPieceCreated(::System::Action* a1)
+		::System::Void remove_OnPieceCreated(::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROL_REMOVE_ONPIECECREATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftPlacedChipPieceControl*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROL_REMOVE_ONPIECECREATED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDestroy()

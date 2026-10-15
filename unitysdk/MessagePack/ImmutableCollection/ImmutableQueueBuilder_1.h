@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System::Collections::Immutable { class ImmutableQueue; }
+namespace System::Collections::Immutable { template <typename T> class ImmutableQueue_1; }
 
 namespace MessagePack::ImmutableCollection
 {
@@ -11,6 +11,6 @@ namespace MessagePack::ImmutableCollection
 	class ImmutableQueueBuilder_1 : public ::System::Object
 	{
 	public:
-		::System::Collections::Immutable::ImmutableQueue* _Q_k__BackingField; // 0x0
+		::System::Collections::Immutable::ImmutableQueue_1<T>* _Q_k__BackingField; // 0x0
 	};
 }

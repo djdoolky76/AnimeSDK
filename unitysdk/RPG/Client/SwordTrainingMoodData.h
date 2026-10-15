@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class SwordTrainingMoodRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -28,7 +28,7 @@ namespace RPG::Client
 	class SwordTrainingMoodData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _Moodintervals; // 0x10
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* _Moodintervals; // 0x10
 		::System::UInt32 _MoodValue_k__BackingField; // 0x18
 		::System::UInt32 _MoodMaxValue_k__BackingField; // 0x1C
 		::System::Void _ctor()

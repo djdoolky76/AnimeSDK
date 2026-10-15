@@ -6,13 +6,13 @@
 #include "unitysdk/BPFKOIIMKBG.h"
 #include "unitysdk/LKLOMEEPIEM.h"
 #include "unitysdk/NECBOLFGIMA.h"
+#include "unitysdk/System/Nullable_1.h"
 class PAADPKGPFMJ;
 namespace RPG::Client { class MockAnimator; }
 namespace RPG::GameCore { class FreeStyleController; }
 namespace RPG::GameCore { class FreeStyleMotionInfoConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationClip; }
@@ -100,9 +100,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_SETEXTENDLAYERWEIGHT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void PlayFreeStyleOnExtendLayer(::System::String* a1, ::System::UInt32 a2, ::RPG::GameCore::FreeStyleMotionInfoConfig* a3, ::System::Nullable* a4, ::System::Boolean a5)
+		::System::Void PlayFreeStyleOnExtendLayer(::System::String* a1, ::System::UInt32 a2, ::RPG::GameCore::FreeStyleMotionInfoConfig* a3, ::System::Nullable_1<::LKLOMEEPIEM> a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEONEXTENDLAYER_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEONEXTENDLAYER_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void StopFreeStyleOnExtendLayer(::System::Boolean a1)
@@ -175,19 +175,19 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::NECBOLFGIMA))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_RECOVERRUNTIMEINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void PlayFreeStyle(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3, ::System::Boolean a4)
+		::System::Void PlayFreeStyle(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PlayFreeStyleForAvatar(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::FreeStyleMotionInfoConfig* a3, ::System::Nullable* a4, ::System::Boolean a5)
+		::System::Void PlayFreeStyleForAvatar(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::FreeStyleMotionInfoConfig* a3, ::System::Nullable_1<::LKLOMEEPIEM> a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEFORAVATAR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEFORAVATAR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PlayFreeStyleInteraction(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3, ::System::Boolean a4, ::System::Nullable* a5, ::System::Boolean a6)
+		::System::Void PlayFreeStyleInteraction(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3, ::System::Boolean a4, ::System::Nullable_1<::System::Single> a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*, ::System::Boolean, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTION_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECOMPONENT_PLAYFREESTYLEINTERACTION_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void PlayAnimState(::System::Int32 a1, ::System::Single a2, ::System::Single a3)

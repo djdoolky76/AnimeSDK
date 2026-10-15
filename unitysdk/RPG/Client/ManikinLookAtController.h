@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class PNMFPMHFFPM;
@@ -8,7 +9,6 @@ namespace RPG::Client { class EmoEyeCtrl; }
 namespace RPG::Client { class LookAtIK; }
 namespace RPG::Client { class LookAtTargetConstraint; }
 namespace RPG::Client { class StateIdleTimer; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityChan { class SpringManager; }
 namespace UnityEngine { class AnimationCurve; }
@@ -70,9 +70,9 @@ namespace RPG::Client
 		::System::Byte _padding6[0x4];
 		::Il2CppArray<::System::Int32>* HILDHBAKDFJ; // 0xC8
 		::System::Single CBLICFGIKAC; // 0xD0
-		::System::Nullable* IPEKFACFJGG; // 0xD4
+		::System::Nullable_1<::UnityEngine::Vector3> IPEKFACFJGG; // 0xD4
 		::System::Byte _padding7[0x8];
-		::System::Nullable* IIBBCLPNNDE; // 0xE4
+		::System::Nullable_1<::UnityEngine::Vector3> IIBBCLPNNDE; // 0xE4
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MANIKINLOOKATCONTROLLER_CTOR_OFFSET))(this);

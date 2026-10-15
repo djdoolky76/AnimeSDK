@@ -6,9 +6,9 @@ class APAMFCKFHLL;
 class JLCNOGIJGMH;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class ItemList; }
@@ -60,24 +60,24 @@ inline static constexpr unsigned int JLCNOGIJGMH_TypeDefinitionIndex = 29976;
 		::System::UInt64 EMHFNBFCFLP; // 0x48
 		::JDGNMIDMACL MHLHFDNCHJE; // 0x50
 		::System::UInt32 NAEACGPKNNH; // 0x54
-		static ::Google::Protobuf::FieldCodec** StaticGet_AAKLOCDPEHC()
+		static ::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>** StaticGet_AAKLOCDPEHC()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "JLCNOGIJGMH")->GetStaticField(0x665C0);
+			return (::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>**)UnitySDK::FromName("", "JLCNOGIJGMH")->GetStaticField(0x665C0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_GNJBMGEBJEN()
+		static ::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>** StaticGet_GNJBMGEBJEN()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "JLCNOGIJGMH")->GetStaticField(0x665C8);
+			return (::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>**)UnitySDK::FromName("", "JLCNOGIJGMH")->GetStaticField(0x665C8);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::JLCNOGIJGMH*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "JLCNOGIJGMH")->GetStaticField(0x665D0);
+			return (::Google::Protobuf::MessageParser_1<::JLCNOGIJGMH*>**)UnitySDK::FromName("", "JLCNOGIJGMH")->GetStaticField(0x665D0);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_JCMEBOGHNOP()
+		static ::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>** StaticGet_JCMEBOGHNOP()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "JLCNOGIJGMH")->GetStaticField(0x665D8);
+			return (::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>**)UnitySDK::FromName("", "JLCNOGIJGMH")->GetStaticField(0x665D8);
 		}
 
 		// static const ::System::Object OAPHHDDCCAD; // 0x0
@@ -104,9 +104,9 @@ inline static constexpr unsigned int JLCNOGIJGMH_TypeDefinitionIndex = 29976;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + JLCNOGIJGMH_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::JLCNOGIJGMH*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + JLCNOGIJGMH_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::JLCNOGIJGMH*>*(*)())((::PBYTE)hIl2Cpp + JLCNOGIJGMH_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

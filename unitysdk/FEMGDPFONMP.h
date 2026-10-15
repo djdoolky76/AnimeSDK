@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class DLCPHCINDJF;
 class FEMGDPFONMP;
 class GEDMHFPPBHN;
 class PHKFMKDHNBO;
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define FEMGDPFONMP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x157258A0)
@@ -25,7 +25,7 @@ inline static constexpr unsigned int FEMGDPFONMP_TypeDefinitionIndex = 72163;
 	public:
 		::DLCPHCINDJF* EEHODNKAAMH; // 0x10
 		::System::UInt32 _NodeID_k__BackingField; // 0x18
-		::System::Nullable* _DummyInversedIndex_k__BackingField; // 0x1C
+		::System::Nullable_1<::System::Int32> _DummyInversedIndex_k__BackingField; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FEMGDPFONMP_CTOR_OFFSET))(this);
@@ -61,14 +61,14 @@ inline static constexpr unsigned int FEMGDPFONMP_TypeDefinitionIndex = 72163;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FEMGDPFONMP_JMCDPBLNMLO_OFFSET))(this);
 		}
 
-		::System::Nullable* get_DummyInversedIndex()
+		::System::Nullable_1<::System::Int32> get_DummyInversedIndex()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + FEMGDPFONMP_GET_DUMMYINVERSEDINDEX_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + FEMGDPFONMP_GET_DUMMYINVERSEDINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_DummyInversedIndex(::System::Nullable* a1)
+		::System::Void set_DummyInversedIndex(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + FEMGDPFONMP_SET_DUMMYINVERSEDINDEX_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + FEMGDPFONMP_SET_DUMMYINVERSEDINDEX_OFFSET))(this, a1);
 		}
 
 	};

@@ -7,7 +7,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/BAMLBDMAJJC.h"
 #include "unitysdk/JAEIIPPDMMC.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AIFHJBBDKDC;
 class AJEAHAODOHJ;
 class BIDDFDEAEGB;
@@ -29,6 +29,7 @@ namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -451,14 +452,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_VALIDATEGROUPSTATETRANSITION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RegisterGroupStateChange(::System::UInt32 a1, ::System::Action* a2)
+		::System::Void RegisterGroupStateChange(::System::UInt32 a1, ::System::Action_2<::System::UInt32, ::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_REGISTERGROUPSTATECHANGE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_REGISTERGROUPSTATECHANGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnregisterGroupStateChange(::System::UInt32 a1, ::System::Action* a2)
+		::System::Void UnregisterGroupStateChange(::System::UInt32 a1, ::System::Action_2<::System::UInt32, ::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_UNREGISTERGROUPSTATECHANGE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_UNREGISTERGROUPSTATECHANGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RefreshHoyoGroupEntitiesByCustom(::System::Boolean a1, ::System::Action* a2)
@@ -771,14 +772,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER__REMOVELOCALLEGACYDISTRICT_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple CreateLocalEntity(::System::UInt32 a1, ::System::UInt32 a2)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::Client::MapEntityDef*> CreateLocalEntity(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_CREATELOCALENTITY_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::Client::MapEntityDef*>(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_CREATELOCALENTITY_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple CreateLocalEntity_1(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::GroupEntityCreateConfig* a3)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::Client::MapEntityDef*> CreateLocalEntity_1(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::GroupEntityCreateConfig* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::GroupEntityCreateConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_CREATELOCALENTITY_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::Client::MapEntityDef*>(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::GroupEntityCreateConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_CREATELOCALENTITY_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean DestroyLocalEntity(::System::UInt32 a1, ::System::UInt32 a2)

@@ -4,6 +4,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__DOWNLOADWATERMARKIMAGE_D__2_CTOR_OFFSET UNITYSDK_OFFSET(0x1C017640)
 #define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__DOWNLOADWATERMARKIMAGE_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C017670)
@@ -22,7 +23,7 @@ namespace MiHoYo::SDK::Watermark
 	public:
 		::System::Object* __2__current; // 0x10
 		::System::String* url; // 0x18
-		::System::Action* completeCallback; // 0x20
+		::System::Action_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*>* completeCallback; // 0x20
 		::System::Action* timeoutCallback; // 0x28
 		::System::Single timeoutSecond; // 0x30
 		::System::Int32 __1__state; // 0x34

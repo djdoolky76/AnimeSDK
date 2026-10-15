@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MiniMapIconType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class MapAnchorDef; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define NABNKDDBMFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA548E0)
@@ -74,7 +74,7 @@ inline static constexpr unsigned int NABNKDDBMFP_TypeDefinitionIndex = 60648;
 		::System::UInt32 _IconID_k__BackingField; // 0x44
 		::System::Int32 DEJLEBHFJGB; // 0x48
 		::System::Boolean _IsTrackingMappingInfo_k__BackingField; // 0x4C
-		::System::Nullable* IECPJFBLBLB; // 0x4D
+		::System::Nullable_1<::System::Boolean> IECPJFBLBLB; // 0x4D
 		::System::Boolean _IsStatic_k__BackingField; // 0x4F
 		::System::Boolean _IsTrackingMission_k__BackingField; // 0x50
 		::System::Void _ctor()

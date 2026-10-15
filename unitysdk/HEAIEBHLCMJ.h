@@ -4,6 +4,7 @@
 namespace RPG::Client { class IAssetOperation; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -29,7 +30,7 @@ inline static constexpr unsigned int HEAIEBHLCMJ_TypeDefinitionIndex = 59916;
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* KCNBNINEEMN; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Object*>* ADECGGPGPBB; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* JIOHAOCKFMD; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::UnityEngine::Object*>*>* JIOHAOCKFMD; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* NFOIPOJFLCP; // 0x28
 		::System::Collections::Generic::HashSet_1<::System::Int32>* GMJLGNEKMBP; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::IAssetOperation*>* JPJADJCHEMO; // 0x38

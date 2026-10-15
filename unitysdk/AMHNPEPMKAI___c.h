@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DFJBJEENEBN;
 namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 namespace System { class Object; }
@@ -25,9 +25,9 @@ inline static constexpr unsigned int AMHNPEPMKAI___c_TypeDefinitionIndex = 74935
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F000);
 		}
 
-		static ::System::Func_2<::DFJBJEENEBN*, ::System::ValueTuple>** StaticGet___9__1_1()
+		static ::System::Func_2<::DFJBJEENEBN*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::DFJBJEENEBN*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F008);
+			return (::System::Func_2<::DFJBJEENEBN*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F008);
 		}
 
 		static ::System::Func_2<::DFJBJEENEBN*, ::System::UInt32>** StaticGet___9__1_0()
@@ -35,9 +35,9 @@ inline static constexpr unsigned int AMHNPEPMKAI___c_TypeDefinitionIndex = 74935
 			return (::System::Func_2<::DFJBJEENEBN*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F010);
 		}
 
-		static ::System::Func_2<::System::ValueTuple, ::System::ValueTuple>** StaticGet___9__1_2()
+		static ::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::System::ValueTuple, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F018);
+			return (::System::Func_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F018);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::Pet::BlindBox::IBlindBoxPet*>** StaticGet___9__4_0()
@@ -60,14 +60,14 @@ inline static constexpr unsigned int AMHNPEPMKAI___c_TypeDefinitionIndex = 74935
 			return ((::System::UInt32(*)(::PVOID, ::DFJBJEENEBN*))((::PBYTE)hIl2Cpp + AMHNPEPMKAI___C__CREATE_B__1_0_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _Create_b__1_1(::DFJBJEENEBN* a1)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _Create_b__1_1(::DFJBJEENEBN* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::DFJBJEENEBN*))((::PBYTE)hIl2Cpp + AMHNPEPMKAI___C__CREATE_B__1_1_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::DFJBJEENEBN*))((::PBYTE)hIl2Cpp + AMHNPEPMKAI___C__CREATE_B__1_1_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _Create_b__1_2(::System::ValueTuple a1)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> _Create_b__1_2(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + AMHNPEPMKAI___C__CREATE_B__1_2_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + AMHNPEPMKAI___C__CREATE_B__1_2_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __SelectCarouselPets_b__4_0(::RPG::Client::Pet::BlindBox::IBlindBoxPet* a1, ::RPG::Client::Pet::BlindBox::IBlindBoxPet* a2)

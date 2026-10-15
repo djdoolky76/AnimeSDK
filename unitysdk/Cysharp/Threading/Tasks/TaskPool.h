@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -39,9 +39,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL_SETMAXPOOLSIZE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* GetCacheSizeInfo()
+		static ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::Type*, ::System::Int32>>* GetCacheSizeInfo()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL_GETCACHESIZEINFO_OFFSET))();
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::Type*, ::System::Int32>>*(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL_GETCACHESIZEINFO_OFFSET))();
 		}
 
 		static ::System::Void RegisterSizeGetter(::System::Type* a1, ::System::Func_1<::System::Int32>* a2)

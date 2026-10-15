@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class ResourceRequest; }
@@ -18,7 +19,7 @@ namespace Cysharp::Threading::Tasks
 	struct alignas(8) UnityAsyncExtensions_ResourceRequestAwaiter
 	{
 		::UnityEngine::ResourceRequest* asyncOperation; // 0x10
-		::System::Action* continuationAction; // 0x18
+		::System::Action_1<::UnityEngine::AsyncOperation*>* continuationAction; // 0x18
 		::System::Void _ctor(::UnityEngine::ResourceRequest* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ResourceRequest*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_RESOURCEREQUESTAWAITER_CTOR_OFFSET))(this, a1);

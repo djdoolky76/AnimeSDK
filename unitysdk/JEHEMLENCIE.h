@@ -21,6 +21,7 @@ namespace RPG::Client::TeamTowers { class TeamTowersGameViewModel; }
 namespace RPG::Client::TeamTowers { class TeamTowersPVPService; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -108,7 +109,7 @@ inline static constexpr unsigned int JEHEMLENCIE_TypeDefinitionIndex = 79042;
 		::UnityEngine::Transform* _LeftEdgeRoot_k__BackingField; // 0x68
 		::HCOGFOGPKHI* IHPMLDMEHFO; // 0x70
 		::UnityEngine::Transform* _LeftTowerRoot_k__BackingField; // 0x78
-		::System::Action* FAHHLODKNBI; // 0x80
+		::System::Action_1<::System::Single>* FAHHLODKNBI; // 0x80
 		::RPG::Client::UIPrefabLoader* NJGOCLCBJKI; // 0x88
 		::RPG::Client::TeamTowers::TeamTowersGameViewModel* KCIPJKFLGDG; // 0x90
 		::UnityEngine::Transform* _RightEdgeRoot_k__BackingField; // 0x98
@@ -144,9 +145,9 @@ inline static constexpr unsigned int JEHEMLENCIE_TypeDefinitionIndex = 79042;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + JEHEMLENCIE_JMKCGPFFDPN_OFFSET))(this, a1);
 		}
 
-		::System::Void PBOCGGJEILK(::System::Action* a1)
+		::System::Void PBOCGGJEILK(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JEHEMLENCIE_PBOCGGJEILK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + JEHEMLENCIE_PBOCGGJEILK_OFFSET))(this, a1);
 		}
 
 		::EPBKPIMAANC* BOOKFLGPBLH(::System::UInt32 a1)

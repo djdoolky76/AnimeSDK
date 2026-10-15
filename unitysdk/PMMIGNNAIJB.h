@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/DiceCombatAdditivePropertyType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BPHJOOGJPKD;
 class CJCHKDLALDN;
 class IJFIHJJPHNA;
@@ -43,9 +43,9 @@ inline static constexpr unsigned int PMMIGNNAIJB_TypeDefinitionIndex = 36425;
 			return ((::System::Void(*)(::PVOID, ::IJFIHJJPHNA*, ::System::String*))((::PBYTE)hIl2Cpp + PMMIGNNAIJB_LIGNKPIBMOB_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple KJMPJOEEGEC(::IJFIHJJPHNA* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::GameCore::FixPoint> KJMPJOEEGEC(::IJFIHJJPHNA* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::IJFIHJJPHNA*, ::System::Int32))((::PBYTE)hIl2Cpp + PMMIGNNAIJB_KJMPJOEEGEC_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::IJFIHJJPHNA*, ::System::Int32))((::PBYTE)hIl2Cpp + PMMIGNNAIJB_KJMPJOEEGEC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PCOMAHEECDF(::IJFIHJJPHNA* a1, ::CJCHKDLALDN* a2)

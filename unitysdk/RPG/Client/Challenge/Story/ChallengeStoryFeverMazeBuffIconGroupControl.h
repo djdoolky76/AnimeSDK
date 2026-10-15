@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class MonoClickOutsideDetect; }
 namespace RPG::UINavigation { class UINavigationArea; }
 namespace RPG::UINavigation { class UINavigationZone; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -80,9 +80,9 @@ namespace RPG::Client::Challenge::Story
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL__HIDEPOPUP_OFFSET))(this);
 		}
 
-		::System::Void _RefreshCheckState(::System::Nullable* a1)
+		::System::Void _RefreshCheckState(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL__REFRESHCHECKSTATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_STORY_CHALLENGESTORYFEVERMAZEBUFFICONGROUPCONTROL__REFRESHCHECKSTATE_OFFSET))(this, a1);
 		}
 
 		::System::Void __EnsureInitializeInteraction_b__15_0(::System::Object* a1)

@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/AbilityProperty.h"
 #include "unitysdk/CHMCAGBDPJH.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class AJOGKBGIPGN;
 class ANJIIFAPKCD;
 class EKDCBAAGNJH;
@@ -13,7 +14,6 @@ class IDNCOAGMGGG;
 namespace RPG::GameCore { class BattleGridFightAvatarData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelBattleEventCreate; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class CanvasGroup; }
@@ -254,9 +254,9 @@ inline static constexpr unsigned int KFLMHOMOIGO_TypeDefinitionIndex = 72258;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KFLMHOMOIGO_KBDJNCNCFBE_OFFSET))(this);
 		}
 
-		::System::Void BDECCJONFCF(::RPG::GameCore::AbilityProperty a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::CHMCAGBDPJH a5)
+		::System::Void BDECCJONFCF(::RPG::GameCore::AbilityProperty a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::CHMCAGBDPJH a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + KFLMHOMOIGO_BDECCJONFCF_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + KFLMHOMOIGO_BDECCJONFCF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void KNAGFOEMOAL(::System::Object* a1)

@@ -5,8 +5,8 @@
 class GGJFAFONDHN;
 class ODGPPIHLOFF;
 class OFLBAIOGIMO;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DKOAMFCJHNH_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xF88C100)
@@ -43,7 +43,7 @@ inline static constexpr unsigned int DKOAMFCJHNH_TypeDefinitionIndex = 49196;
 	{
 	public:
 		::System::Collections::Generic::List_1<::GGJFAFONDHN*>* MAJKOAGAIHF; // 0x10
-		::System::Action* NMGJBNOAPDI; // 0x18
+		::System::Action_1<::System::Boolean>* NMGJBNOAPDI; // 0x18
 		::System::String* DLDDHIGMOOE; // 0x20
 		::System::Collections::Generic::List_1<::OFLBAIOGIMO*>* CBAEFICDEMB; // 0x28
 		::System::Int64 JMIIDOPDOMO; // 0x30
@@ -189,9 +189,9 @@ inline static constexpr unsigned int DKOAMFCJHNH_TypeDefinitionIndex = 49196;
 			return ((::System::Void(*)(::PVOID, ::OFLBAIOGIMO*))((::PBYTE)hIl2Cpp + DKOAMFCJHNH_HEDHBNLIOAK_OFFSET))(this, a1);
 		}
 
-		::System::Void HEDHBNLIOAK_1(::System::Action* a1)
+		::System::Void HEDHBNLIOAK_1(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + DKOAMFCJHNH_HEDHBNLIOAK_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + DKOAMFCJHNH_HEDHBNLIOAK_1_OFFSET))(this, a1);
 		}
 
 	};

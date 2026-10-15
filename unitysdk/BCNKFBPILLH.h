@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/IGKFNIEJGLM.h"
 class BCNKFBPILLH_CFOGOGNKFCK;
-namespace System { class Nullable; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
@@ -26,7 +26,7 @@ inline static constexpr unsigned int BCNKFBPILLH_TypeDefinitionIndex = 71623;
 		::System::Single PGFKAOFFKHD; // 0x88
 		::System::Single JJOACHEJAAE; // 0x8C
 		::System::Single JBDOICCALDN; // 0x90
-		::System::Nullable* JKJAIJONJNN; // 0x94
+		::System::Nullable_1<::System::Boolean> JKJAIJONJNN; // 0x94
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		// static const ::System::String* FOJHBNDBANG; // 0x0
 		// static const ::System::String* KGNMFJAMICO; // 0x0

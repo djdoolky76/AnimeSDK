@@ -4,7 +4,7 @@
 class BOGCBDLBHFK;
 class EMJIDLCDFMI;
 class FDPALAEIHPB;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define KNICEONOCBK_COCCHMHOFIE_OFFSET UNITYSDK_OFFSET(0xB585D40)
@@ -31,14 +31,14 @@ inline static constexpr unsigned int KNICEONOCBK_TypeDefinitionIndex = 76619;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNICEONOCBK_HADOHLNHHGB_OFFSET))(this);
 		}
 
-		::System::Void DJPEJOPFANL(::BOGCBDLBHFK* a1, ::System::Action* a2)
+		::System::Void DJPEJOPFANL(::BOGCBDLBHFK* a1, ::System::Action_1<::BOGCBDLBHFK*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BOGCBDLBHFK*, ::System::Action*))((::PBYTE)hIl2Cpp + KNICEONOCBK_DJPEJOPFANL_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BOGCBDLBHFK*, ::System::Action_1<::BOGCBDLBHFK*>*))((::PBYTE)hIl2Cpp + KNICEONOCBK_DJPEJOPFANL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void COCCHMHOFIE(::BOGCBDLBHFK* a1, ::System::Action* a2)
+		::System::Void COCCHMHOFIE(::BOGCBDLBHFK* a1, ::System::Action_1<::BOGCBDLBHFK*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BOGCBDLBHFK*, ::System::Action*))((::PBYTE)hIl2Cpp + KNICEONOCBK_COCCHMHOFIE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BOGCBDLBHFK*, ::System::Action_1<::BOGCBDLBHFK*>*))((::PBYTE)hIl2Cpp + KNICEONOCBK_COCCHMHOFIE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void KJMDJMBNCPE(::BOGCBDLBHFK* a1)

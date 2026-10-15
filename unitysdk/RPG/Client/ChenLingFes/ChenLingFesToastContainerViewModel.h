@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/ChenLingFesDialogStyleType.h"
 #include "unitysdk/RPG/GameCore/ChenLingFesToastStyleType.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
+#include "unitysdk/System/Nullable_1.h"
 class BMJNELLLAAE;
 class CAPMMOEDEKG;
 class EJFHFNFBHII;
@@ -16,9 +17,9 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayFeverViewModel; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesToastContainerViewModel; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesToastRequestViewModel; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_ADD_ONCLEARPENDINGTOASTQUEUE_OFFSET UNITYSDK_OFFSET(0xCAC37F0)
@@ -66,10 +67,10 @@ namespace RPG::Client::ChenLingFes
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* _LastFlyToastTriggerTimeByEntity; // 0x38
 		::HJPJAKIIOCN* _GameplayBridge; // 0x40
 		::RPG::Client::ChenLingFes::ChenLingFesGamePhaseToastViewModel* _OpenDayStartToastViewModel_k__BackingField; // 0x48
-		::System::Action* OnToastRequest; // 0x50
+		::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>* OnToastRequest; // 0x50
 		::RPG::Client::ChenLingFes::ChenLingFesGameplayFeverViewModel* _FeverToastViewModel_k__BackingField; // 0x58
-		::System::Nullable* _SpecialShowCoinNum; // 0x60
-		::System::Nullable* _FlyToastMinInterval; // 0x68
+		::System::Nullable_1<::System::UInt32> _SpecialShowCoinNum; // 0x60
+		::System::Nullable_1<::System::Single> _FlyToastMinInterval; // 0x68
 		::System::Boolean _HasRegisteredNotifyHandlers; // 0x70
 		::System::Void _ctor()
 		{
@@ -176,14 +177,14 @@ namespace RPG::Client::ChenLingFes
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChenLingFesToastStyleType, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL__TRYGETTOASTPREFABPATH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void add_OnToastRequest(::System::Action* a1)
+		::System::Void add_OnToastRequest(::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_ADD_ONTOASTREQUEST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_ADD_ONTOASTREQUEST_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnToastRequest(::System::Action* a1)
+		::System::Void remove_OnToastRequest(::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_REMOVE_ONTOASTREQUEST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ChenLingFes::ChenLingFesToastRequestViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTCONTAINERVIEWMODEL_REMOVE_ONTOASTREQUEST_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnClearPendingToastQueue(::System::Action* a1)

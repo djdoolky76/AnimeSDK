@@ -47,6 +47,8 @@
 #include "unitysdk/RPG/GameCore/TurnState.h"
 #include "unitysdk/RPG/GameCore/TurnbasedModifierDelayType.h"
 #include "unitysdk/RPG/GameCore/UseAbilityOption.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/IAJCLFIGEAP.h"
 #include "unitysdk/RPG/GameCore/AbilityDynamicFloatInjection.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
@@ -101,13 +103,12 @@ namespace RPG::GameCore { class TurnBasedAbilityConfig; }
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace RPG::GameCore { class VCameraConfig; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections { class BitArray; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -509,7 +510,7 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _AbilityToSkillMapping; // 0x18
 		::AALKJGAHAHC* _CharacterChangeParam; // 0x20
 		::RPG::GameCore::CharacterConfig* _JsonConfigRef; // 0x28
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _DotModifierEventProcessors; // 0x30
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::TurnBasedModifierEvent, ::LNKELDMEAAJ*>>* _DotModifierEventProcessors; // 0x30
 		::System::Collections::Generic::List_1<::EHBDCHCIMPG>* _EnergyPointEntries; // 0x38
 		::RPG::GameCore::TransformComponent* _TransformRef; // 0x40
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackType, ::System::Collections::Generic::List_1<::JPPCMFAEKBN*>*>* RegardAsAttackTypeMap; // 0x48
@@ -535,7 +536,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::SkillConfig* _KillerSkill_k__BackingField; // 0xE8
 		::System::Collections::Generic::IList_1<::RPG::GameCore::StageParamEntry*>* AdditionalAbilityParamList; // 0xF0
 		::Il2CppArray<::GKMKOMHLGDC*>* _AbilityProperties; // 0xF8
-		::System::Collections::Generic::List_1<::System::Action*>* OnAbilityPropertyChanged; // 0x100
+		::System::Collections::Generic::List_1<::System::Action_5<::RPG::GameCore::AbilityProperty, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH>*>* OnAbilityPropertyChanged; // 0x100
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::OKOCPOFNODF*>* ModifierOverrideMapping; // 0x108
 		::DJEDIOOMGCE* CharmDamageAttackProperty; // 0x110
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::GKMKOMHLGDC*>* _StatusChanceResistanceDict; // 0x118
@@ -560,7 +561,7 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FixPoint>* _AbilityPropertiesInitSnapshot; // 0x1B0
 		::RPG::GameCore::GameEntity* CharmDamageTarget; // 0x1B8
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _DamagedAllEntityIDListInAttack; // 0x1C0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillType, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*>* RegardAsSkillTypeMap; // 0x1C8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillType, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::SkillType, ::HIOAMIPNLIN*>>*>* RegardAsSkillTypeMap; // 0x1C8
 		::RPG::GameCore::GameEntity* DamageDefender; // 0x1D0
 		::System::String* ProjectileTargetAttachPoint; // 0x1D8
 		::RPG::GameCore::GameEntity* _CharacterChangeSource; // 0x1E0
@@ -613,7 +614,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::DeathSource _DeathSource_k__BackingField; // 0x288
 		::RPG::GameCore::AttackDamageType StanceType; // 0x28C
 		::System::Boolean LockSelfActionDelay; // 0x290
-		::System::Nullable* _ActionDelayChanged_k__BackingField; // 0x291
+		::System::Nullable_1<::System::Boolean> _ActionDelayChanged_k__BackingField; // 0x291
 		::System::Boolean _BlockModifySp_k__BackingField; // 0x293
 		::System::UInt32 _OverrideOnHitEffectOperationVersion; // 0x294
 		::System::Int32 _ModifierUIOperationIncr; // 0x298
@@ -1003,9 +1004,9 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_GETMODIFIERMAXUIINDEX_OFFSET))(this);
 		}
 
-		::System::Void ForeachModifiers(::System::Action* a1, ::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* a2)
+		::System::Void ForeachModifiers(::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>* a1, ::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_FOREACHMODIFIERS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>*, ::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_FOREACHMODIFIERS_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::TurnBasedModifierInstance* GetModifierByIndex(::System::Int32 a1)
@@ -1133,9 +1134,9 @@ namespace RPG::GameCore
 			return ((::GKMKOMHLGDC*(*)(::PVOID, ::RPG::GameCore::AbilityProperty))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_GETPROPERTYSTACK_OFFSET))(this, a1);
 		}
 
-		::System::Void DirectDamageHP(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::AntiLockHPStrength a2, ::CHMCAGBDPJH a3, ::RPG::GameCore::FixPoint a4, ::System::Nullable* a5, ::RPG::GameCore::DamageIntegerizeCategory a6)
+		::System::Void DirectDamageHP(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::AntiLockHPStrength a2, ::CHMCAGBDPJH a3, ::RPG::GameCore::FixPoint a4, ::System::Nullable_1<::RPG::GameCore::FixPoint> a5, ::RPG::GameCore::DamageIntegerizeCategory a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::AntiLockHPStrength, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable*, ::RPG::GameCore::DamageIntegerizeCategory))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_DIRECTDAMAGEHP_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::AntiLockHPStrength, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::DamageIntegerizeCategory))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_DIRECTDAMAGEHP_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void DirectChangeHP(::RPG::GameCore::PropertyModifyFunction a1, ::RPG::GameCore::FixPoint a2, ::CHMCAGBDPJH a3)
@@ -1383,9 +1384,9 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT__INDEXOFENERGYPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnSelfCustomDynamicValueChanged(::RPG::GameCore::StringHash a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void _OnSelfCustomDynamicValueChanged(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT__ONSELFCUSTOMDYNAMICVALUECHANGED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT__ONSELFCUSTOMDYNAMICVALUECHANGED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MarkBehaviorFlagVisualDirty()
@@ -2008,9 +2009,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT__POSTPROCESSAFTERMODIFIERADD_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnSyncPropertySoucrcePropertyChange(::RPG::GameCore::AbilityProperty a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::CHMCAGBDPJH a5)
+		::System::Void _OnSyncPropertySoucrcePropertyChange(::RPG::GameCore::AbilityProperty a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::CHMCAGBDPJH a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT__ONSYNCPROPERTYSOUCRCEPROPERTYCHANGE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT__ONSYNCPROPERTYSOUCRCEPROPERTYCHANGE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void PostProcessAfterModifierRemove(::RPG::GameCore::TurnBasedModifierInstance* a1)
@@ -2488,14 +2489,14 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_GET_TOTALHITNUM_OFFSET))(this);
 		}
 
-		::System::Nullable* get_ActionDelayChanged()
+		::System::Nullable_1<::System::Boolean> get_ActionDelayChanged()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_GET_ACTIONDELAYCHANGED_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_GET_ACTIONDELAYCHANGED_OFFSET))(this);
 		}
 
-		::System::Void set_ActionDelayChanged(::System::Nullable* a1)
+		::System::Void set_ActionDelayChanged(::System::Nullable_1<::System::Boolean> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_SET_ACTIONDELAYCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT_SET_ACTIONDELAYCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_PropertyChangeFlag()

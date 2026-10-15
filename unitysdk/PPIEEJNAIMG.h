@@ -6,8 +6,8 @@ class HIOEAKHGILF;
 class LIBDFHNOMPJ;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace UnityEngine { class Collider; }
 
@@ -31,9 +31,9 @@ inline static constexpr unsigned int PPIEEJNAIMG_TypeDefinitionIndex = 77151;
 	class PPIEEJNAIMG : public ::System::Object
 	{
 	public:
-		::Entitas::ICollector* MMIBEFDMPCC; // 0x10
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* MMIBEFDMPCC; // 0x10
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x18
-		::Entitas::IGroup* ICFGGKMIHDG; // 0x20
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* ICFGGKMIHDG; // 0x20
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x28
 		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_MCNHCAPBMDG()
 		{

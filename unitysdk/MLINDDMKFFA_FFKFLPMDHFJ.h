@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/System/Nullable_1.h"
 class AMFNPJFKAOH;
 class CELAKJDDDOH;
 class DBHGOLFACFL;
@@ -15,8 +17,6 @@ class NDFBOPJIKAG;
 class OJCGAGMLEGN;
 class PJPPGJEDCOG;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentTreeEntranceViewModel_Factory; }
-namespace System { class Nullable; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MLINDDMKFFA_FFKFLPMDHFJ_BLAFOEHBHFI_OFFSET UNITYSDK_OFFSET(0xB9AFFD0)
@@ -59,14 +59,14 @@ inline static constexpr unsigned int MLINDDMKFFA_FFKFLPMDHFJ_TypeDefinitionIndex
 			return ((::System::Collections::Generic::List_1<::CELAKJDDDOH*>*(*)(::PVOID, ::PJPPGJEDCOG*))((::PBYTE)hIl2Cpp + MLINDDMKFFA_FFKFLPMDHFJ_EBPJNFPNBMJ_OFFSET))(this, a1);
 		}
 
-		::DBHGOLFACFL* MPDJHBPCMDM(::System::Nullable* a1)
+		::DBHGOLFACFL* MPDJHBPCMDM(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::DBHGOLFACFL*(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + MLINDDMKFFA_FFKFLPMDHFJ_MPDJHBPCMDM_OFFSET))(this, a1);
+			return ((::DBHGOLFACFL*(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + MLINDDMKFFA_FFKFLPMDHFJ_MPDJHBPCMDM_OFFSET))(this, a1);
 		}
 
-		::NDFBOPJIKAG* __CreateRequirementInfos_b__11_0(::System::Collections::Generic::KeyValuePair* a1)
+		::NDFBOPJIKAG* __CreateRequirementInfos_b__11_0(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::NDFBOPJIKAG*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + MLINDDMKFFA_FFKFLPMDHFJ___CREATEREQUIREMENTINFOS_B__11_0_OFFSET))(this, a1);
+			return ((::NDFBOPJIKAG*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + MLINDDMKFFA_FFKFLPMDHFJ___CREATEREQUIREMENTINFOS_B__11_0_OFFSET))(this, a1);
 		}
 
 	};

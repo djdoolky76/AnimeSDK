@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class AJOECLJGDKO;
 class BOHBPAKJGCK;
 class DCPJBCMKMIK;
@@ -52,14 +53,14 @@ inline static constexpr unsigned int DPKDJGMPHMM_TypeDefinitionIndex = 79396;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::PixAir::PixAirEquipBar*))((::PBYTE)hIl2Cpp + DPKDJGMPHMM_GAEEMEGIFGO_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple DMGNCLKJLPA(::RPG::Client::PixAir::PixAirEquipBar* a1)
+		::System::ValueTuple_2<::BOHBPAKJGCK*, ::System::Collections::Generic::List_1<::EPFHDFJPECH*>*> DMGNCLKJLPA(::RPG::Client::PixAir::PixAirEquipBar* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::PixAir::PixAirEquipBar*))((::PBYTE)hIl2Cpp + DPKDJGMPHMM_DMGNCLKJLPA_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::BOHBPAKJGCK*, ::System::Collections::Generic::List_1<::EPFHDFJPECH*>*>(*)(::PVOID, ::RPG::Client::PixAir::PixAirEquipBar*))((::PBYTE)hIl2Cpp + DPKDJGMPHMM_DMGNCLKJLPA_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple NADHFDDFIID(::RPG::Client::PixAir::PixAirEquipBar* a1, ::RPG::Client::PixAir::PixAirEquipInstance* a2)
+		::System::ValueTuple_3<::BOHBPAKJGCK*, ::System::Collections::Generic::List_1<::EPFHDFJPECH*>*, ::System::Boolean> NADHFDDFIID(::RPG::Client::PixAir::PixAirEquipBar* a1, ::RPG::Client::PixAir::PixAirEquipInstance* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::PixAir::PixAirEquipBar*, ::RPG::Client::PixAir::PixAirEquipInstance*))((::PBYTE)hIl2Cpp + DPKDJGMPHMM_NADHFDDFIID_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_3<::BOHBPAKJGCK*, ::System::Collections::Generic::List_1<::EPFHDFJPECH*>*, ::System::Boolean>(*)(::PVOID, ::RPG::Client::PixAir::PixAirEquipBar*, ::RPG::Client::PixAir::PixAirEquipInstance*))((::PBYTE)hIl2Cpp + DPKDJGMPHMM_NADHFDDFIID_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DHMMKBFEMFJ(::System::Collections::Generic::List_1<::EPFHDFJPECH*>* a1)

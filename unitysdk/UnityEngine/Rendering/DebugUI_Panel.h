@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Flags.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class DebugUI_Panel; }
 namespace UnityEngine::Rendering { template <typename T> class ListChangedEventArgs_1; }
 namespace UnityEngine::Rendering { template <typename T> class ObservableList_1; }
@@ -38,7 +38,7 @@ namespace UnityEngine::Rendering
 	class DebugUI_Panel : public ::System::Object
 	{
 	public:
-		::System::Action* onSetDirty; // 0x10
+		::System::Action_1<::System::Object*>* onSetDirty; // 0x10
 		::System::String* _displayName_k__BackingField; // 0x18
 		::UnityEngine::Rendering::ObservableList_1<::System::Object*>* _children_k__BackingField; // 0x20
 		::System::Int32 _groupIndex_k__BackingField; // 0x28
@@ -113,14 +113,14 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ObservableList_1<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_PANEL_SET_CHILDREN_OFFSET))(this, a1);
 		}
 
-		::System::Void add_onSetDirty(::System::Action* a1)
+		::System::Void add_onSetDirty(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_PANEL_ADD_ONSETDIRTY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_PANEL_ADD_ONSETDIRTY_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_onSetDirty(::System::Action* a1)
+		::System::Void remove_onSetDirty(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_PANEL_REMOVE_ONSETDIRTY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_PANEL_REMOVE_ONSETDIRTY_OFFSET))(this, a1);
 		}
 
 		::System::Void OnItemAdded(::UnityEngine::Rendering::ObservableList_1<::System::Object*>* a1, ::UnityEngine::Rendering::ListChangedEventArgs_1<::System::Object*>* a2)

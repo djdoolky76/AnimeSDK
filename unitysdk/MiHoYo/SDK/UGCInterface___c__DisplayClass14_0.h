@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class UGCInterface; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB05CD80)
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS14_0__HTTPPOSTCARRYTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0xB061600)
@@ -18,9 +18,9 @@ namespace MiHoYo::SDK
 	class UGCInterface___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::Object*>* callback; // 0x10
 		::MiHoYo::SDK::UGCInterface* __4__this; // 0x18
-		::System::Action* tokenFailedCallback; // 0x20
+		::System::Action_1<::System::Object*>* tokenFailedCallback; // 0x20
 		::System::String* strTaskId; // 0x28
 		::System::Void _ctor()
 		{

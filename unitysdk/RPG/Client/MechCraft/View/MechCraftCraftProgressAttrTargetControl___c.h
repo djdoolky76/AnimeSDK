@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BHHPHPGCODJ;
 namespace RPG::Client::MechCraft::View { class MechCraftNodeListControl_CBPOMADILDL; }
 namespace System { class Action; }
@@ -31,9 +31,9 @@ namespace RPG::Client::MechCraft::View
 			return (::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x593C8);
 		}
 
-		static ::System::Func_3<::BHHPHPGCODJ*, ::System::Int32, ::System::ValueTuple>** StaticGet___9__5_0()
+		static ::System::Func_3<::BHHPHPGCODJ*, ::System::Int32, ::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32>>** StaticGet___9__5_0()
 		{
-			return (::System::Func_3<::BHHPHPGCODJ*, ::System::Int32, ::System::ValueTuple>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x593D0);
+			return (::System::Func_3<::BHHPHPGCODJ*, ::System::Int32, ::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32>>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x593D0);
 		}
 
 		static ::System::Void _cctor()
@@ -46,9 +46,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple _GetTargetAnchorPos_b__5_0(::BHHPHPGCODJ* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32> _GetTargetAnchorPos_b__5_0(::BHHPHPGCODJ* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::BHHPHPGCODJ*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__GETTARGETANCHORPOS_B__5_0_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32>(*)(::PVOID, ::BHHPHPGCODJ*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__GETTARGETANCHORPOS_B__5_0_OFFSET))(this, a1, a2);
 		}
 
 		::System::Action* __Refresh_b__6_1(::UnityEngine::GameObject* a1, ::System::Object* a2)

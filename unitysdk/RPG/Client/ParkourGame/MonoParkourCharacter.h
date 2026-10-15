@@ -5,8 +5,8 @@
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 namespace RPG::Client::ParkourGame { class MonoParkourItem; }
 namespace RPG::Client::ParkourGame { class ParkourSkillConfig; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
@@ -53,8 +53,8 @@ namespace RPG::Client::ParkourGame
 		::System::String* LevelGraphConfigPath; // 0xB0
 		::System::String* AIGraphConfigPath; // 0xB8
 		::RPG::Client::ParkourGame::ParkourSkillConfig* SkillConfig; // 0xC0
-		::System::Action* OnTriggerItem; // 0xC8
-		::System::Action* OnTriggerOtherCharacter; // 0xD0
+		::System::Action_1<::RPG::Client::ParkourGame::MonoParkourItem*>* OnTriggerItem; // 0xC8
+		::System::Action_1<::RPG::Client::ParkourGame::MonoParkourCharacter*>* OnTriggerOtherCharacter; // 0xD0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURCHARACTER_CTOR_OFFSET))(this);

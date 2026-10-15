@@ -4,7 +4,7 @@
 class AFEPOFEOCDI;
 class OCPOIDCNJDA;
 class OMPCEECHGJK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define PCGHKFAFCOL_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0xBFFF630)
 #define PCGHKFAFCOL_CTOR_OFFSET UNITYSDK_OFFSET(0xBFFF620)
@@ -16,7 +16,7 @@ inline static constexpr unsigned int PCGHKFAFCOL_TypeDefinitionIndex = 76670;
 	class PCGHKFAFCOL : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* CIIFMONKDJK; // 0x10
+		::Entitas::IGroup_1<::OCPOIDCNJDA*>* CIIFMONKDJK; // 0x10
 		::OMPCEECHGJK* PDENFEFCAGN; // 0x18
 		::AFEPOFEOCDI* FKINCGODJEP; // 0x20
 		::System::Void _ctor(::AFEPOFEOCDI* a1, ::OMPCEECHGJK* a2)

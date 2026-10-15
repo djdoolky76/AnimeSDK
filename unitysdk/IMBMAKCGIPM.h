@@ -5,13 +5,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 class OGODLCGIBNC;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define IMBMAKCGIPM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CF21900)
 #define IMBMAKCGIPM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF21E80)
@@ -42,9 +42,9 @@ inline static constexpr unsigned int IMBMAKCGIPM_TypeDefinitionIndex = 14398;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IMBMAKCGIPM")->GetStaticField(0x24488);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "IMBMAKCGIPM")->GetStaticField(0x24490);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IMBMAKCGIPM")->GetStaticField(0x24490);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
@@ -77,9 +77,9 @@ inline static constexpr unsigned int IMBMAKCGIPM_TypeDefinitionIndex = 14398;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::OGODLCGIBNC*>(*)())((::PBYTE)hIl2Cpp + IMBMAKCGIPM_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::OGODLCGIBNC*>, ::OGODLCGIBNC*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + IMBMAKCGIPM_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::OGODLCGIBNC*>, ::OGODLCGIBNC*>(*)())((::PBYTE)hIl2Cpp + IMBMAKCGIPM_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::OGODLCGIBNC* LMBKNCAIDLC(::EOCNNALBNJD a1)

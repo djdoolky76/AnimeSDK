@@ -12,9 +12,9 @@ namespace RPG::Client { class PlanetFesPileToast; }
 namespace RPG::Client { class PlanetFesToastItem; }
 namespace RPG::Client { class SPProgress; }
 namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -62,7 +62,7 @@ inline static constexpr unsigned int OCNFFGBIMPD_TypeDefinitionIndex = 72293;
 		::UnityEngine::Transform* IPBNIJLCAHL; // 0xC0
 		::UnityEngine::Transform* AMAEADENAGL; // 0xC8
 		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0xD0
-		::System::Action* AMIEOPJOEIJ; // 0xD8
+		::System::Action_1<::System::Object*>* AMIEOPJOEIJ; // 0xD8
 		::UnityEngine::Transform* GBGMCPAPOOH; // 0xE0
 		::UnityEngine::UI::Text* HHCKFCILELK; // 0xE8
 		::UnityEngine::UI::Text* BMNOOHFKLDB; // 0xF0
@@ -129,9 +129,9 @@ inline static constexpr unsigned int OCNFFGBIMPD_TypeDefinitionIndex = 72293;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OCNFFGBIMPD_DEHKCAINBEN_OFFSET))(this, a1);
 		}
 
-		::System::Void OHOONKCGEMM(::System::Action* a1)
+		::System::Void OHOONKCGEMM(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + OCNFFGBIMPD_OHOONKCGEMM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + OCNFFGBIMPD_OHOONKCGEMM_OFFSET))(this, a1);
 		}
 
 		::System::Void GCPDHJNNOPJ(::RPG::Client::TextID a1, ::System::String* a2)

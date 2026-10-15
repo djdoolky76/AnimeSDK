@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MiniMapIconType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define AAEEKNDIIGI_ACKHLAOGCON_OFFSET UNITYSDK_OFFSET(0xB0C4CB0)
@@ -55,7 +55,7 @@ inline static constexpr unsigned int AAEEKNDIIGI_TypeDefinitionIndex = 60647;
 		::RPG::GameCore::PropComponent* MCLLALGABAB; // 0x10
 		::System::Int32 _Hash_k__BackingField; // 0x18
 		::System::Int32 DEJLEBHFJGB; // 0x1C
-		::System::Nullable* IECPJFBLBLB; // 0x20
+		::System::Nullable_1<::System::Boolean> IECPJFBLBLB; // 0x20
 		::System::Boolean _IsStatic_k__BackingField; // 0x22
 		::System::Boolean _CanTint_k__BackingField; // 0x23
 		::System::Int32 _Identifier_k__BackingField; // 0x24

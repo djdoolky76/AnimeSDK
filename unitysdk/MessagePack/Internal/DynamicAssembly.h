@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Collections::Immutable { class ImmutableHashSet; }
+namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 namespace System::Reflection { class AssemblyName; }
 namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
@@ -28,9 +28,9 @@ namespace MessagePack::Internal
 			return (::System::Boolean*)UnitySDK::FromName("MessagePack.Internal", "DynamicAssembly")->GetStaticField(0x82D0);
 		}
 
-		::System::Void _ctor(::System::String* a1, ::System::Collections::Immutable::ImmutableHashSet* a2)
+		::System::Void _ctor(::System::String* a1, ::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Immutable::ImmutableHashSet*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()

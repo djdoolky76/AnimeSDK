@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Rendering/CullingResults.h"
 #include "unitysdk/UnityEngine/Rendering/DrawingSettings.h"
 #include "unitysdk/UnityEngine/Rendering/FilteringSettings.h"
 #include "unitysdk/UnityEngine/Rendering/RenderStateBlock.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/RendererListDesc.h"
-namespace System { class Nullable; }
 
 #define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2A5CB0)
 #define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1F2A4500)
@@ -24,7 +24,7 @@ namespace UnityEngine::Experimental::Rendering
 		::UnityEngine::Rendering::CullingResults cullingResult; // 0x18
 		::UnityEngine::Rendering::DrawingSettings drawSettings; // 0x28
 		::UnityEngine::Rendering::FilteringSettings filteringSettings; // 0x1A4
-		::System::Nullable* stateBlock; // 0x1CC
+		::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock> stateBlock; // 0x1CC
 		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
 		{
 			return (::UnityEngine::Rendering::ShaderTagId*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x107F0);

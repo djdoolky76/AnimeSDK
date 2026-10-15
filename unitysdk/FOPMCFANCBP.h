@@ -6,7 +6,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class DNFFEFPKDPC;
 class INMMPMDELKE;
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Tuple_4; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -22,8 +23,8 @@ inline static constexpr unsigned int FOPMCFANCBP_TypeDefinitionIndex = 43184;
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::INMMPMDELKE*, ::System::Collections::Generic::HashSet_1<::DNFFEFPKDPC*>*>* MABIPJBKNMA; // 0x10
-		::System::Collections::Generic::Dictionary_2<::INMMPMDELKE*, ::System::Tuple*>* HAJCDLBPHNG; // 0x18
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Tuple*>* DPDBKFOMMNK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::INMMPMDELKE*, ::System::Tuple_2<::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::DNFFEFPKDPC*>*>*>* HAJCDLBPHNG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Tuple_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion>*>* DPDBKFOMMNK; // 0x20
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::DNFFEFPKDPC*>* BPHFHKHKIBN; // 0x28
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* MKBGMKJPLIM; // 0x30
 		::System::Collections::Generic::List_1<::DNFFEFPKDPC*>* FGOAELOIAPF; // 0x38

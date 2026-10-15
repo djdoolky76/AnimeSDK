@@ -7,8 +7,8 @@ namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::Base::ABTestPlatform::Const { class ABTestRequestParam; }
 namespace MiHoYo::SDK::Win { class UserCenterManager; }
 namespace MiHoYo::SDK::Win { class UserCenterManager_UserCenterABTest; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_WIN_USERCENTERMANAGER_CANOPENUSERCENTER_OFFSET UNITYSDK_OFFSET(0x1BDFEAD0)
@@ -42,7 +42,7 @@ namespace MiHoYo::SDK::Win
 	class UserCenterManager : public ::System::Object
 	{
 	public:
-		::System::Action* m_callbackOpenUserCenter; // 0x10
+		::System::Action_1<::System::String*>* m_callbackOpenUserCenter; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* m_dicUserCenterEvent2Msg; // 0x18
 		::MiHoYo::SDK::Web* webView; // 0x20
 		::MiHoYo::SDK::Win::UserCenterManager_UserCenterABTest* m_ucABtest; // 0x28
@@ -68,9 +68,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_USERCENTERMANAGER_CANOPENUSERCENTER_OFFSET))(this);
 		}
 
-		::System::Void Open(::System::Action* a1)
+		::System::Void Open(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_USERCENTERMANAGER_OPEN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_USERCENTERMANAGER_OPEN_OFFSET))(this, a1);
 		}
 
 		::System::Void Close()

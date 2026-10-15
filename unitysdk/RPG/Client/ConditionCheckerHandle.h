@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class MAOBMOAAFGK;
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CONDITIONCHECKERHANDLE_CHECK_OFFSET UNITYSDK_OFFSET(0xCBBB2E0)
 #define RPG_CLIENT_CONDITIONCHECKERHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBBAB40)
@@ -39,10 +39,10 @@ namespace RPG::Client
 	class ConditionCheckerHandle : public ::System::Object
 	{
 	public:
-		::System::Action* _OnUpdate_k__BackingField; // 0x10
+		::System::Action_1<::System::Boolean>* _OnUpdate_k__BackingField; // 0x10
 		::MAOBMOAAFGK* _Checker; // 0x18
 		::System::Single _TickIntervalSeconds_k__BackingField; // 0x20
-		::System::Nullable* _TimerID; // 0x24
+		::System::Nullable_1<::System::Int32> _TimerID; // 0x24
 		::System::Boolean _IsMute_k__BackingField; // 0x2C
 		::System::Boolean _IsDisposed; // 0x2D
 		::System::Boolean _IsReady; // 0x2E
@@ -61,14 +61,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONDITIONCHECKERHANDLE_SET_TICKINTERVALSECONDS_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnUpdate()
+		::System::Action_1<::System::Boolean>* get_OnUpdate()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONDITIONCHECKERHANDLE_GET_ONUPDATE_OFFSET))(this);
+			return ((::System::Action_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONDITIONCHECKERHANDLE_GET_ONUPDATE_OFFSET))(this);
 		}
 
-		::System::Void set_OnUpdate(::System::Action* a1)
+		::System::Void set_OnUpdate(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONDITIONCHECKERHANDLE_SET_ONUPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CONDITIONCHECKERHANDLE_SET_ONUPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsMute()

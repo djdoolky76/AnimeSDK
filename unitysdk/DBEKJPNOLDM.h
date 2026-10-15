@@ -9,7 +9,7 @@ class CIIKBJFOKHL;
 namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class ChenLingBattleAbility_FireProjectile; }
 namespace RPG::GameCore { class ChenLingBattleBulletMagicMissileExtraConfig; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DBEKJPNOLDM_BHOPJFHAEIP_OFFSET UNITYSDK_OFFSET(0xDFDFAB0)
@@ -47,9 +47,9 @@ inline static constexpr unsigned int DBEKJPNOLDM_TypeDefinitionIndex = 77919;
 			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_ELDOPDLOIAE_OFFSET))(this, a1);
 		}
 
-		::System::Void CGOBFNDMHPL(::ALMFLCJCHKP* a1, ::ALMFLCJCHKP* a2, ::System::Action* a3)
+		::System::Void CGOBFNDMHPL(::ALMFLCJCHKP* a1, ::ALMFLCJCHKP* a2, ::System::Action_1<::ALMFLCJCHKP*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*, ::ALMFLCJCHKP*, ::System::Action*))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_CGOBFNDMHPL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*, ::ALMFLCJCHKP*, ::System::Action_1<::ALMFLCJCHKP*>*))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_CGOBFNDMHPL_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MGGGFCLPIOD(::ALMFLCJCHKP* a1)
@@ -57,9 +57,9 @@ inline static constexpr unsigned int DBEKJPNOLDM_TypeDefinitionIndex = 77919;
 			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_MGGGFCLPIOD_OFFSET))(this, a1);
 		}
 
-		::System::Void OBJJPNFDLNM(::ALMFLCJCHKP* a1, ::ALMFLCJCHKP* a2, ::System::Action* a3)
+		::System::Void OBJJPNFDLNM(::ALMFLCJCHKP* a1, ::ALMFLCJCHKP* a2, ::System::Action_1<::ALMFLCJCHKP*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*, ::ALMFLCJCHKP*, ::System::Action*))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_OBJJPNFDLNM_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*, ::ALMFLCJCHKP*, ::System::Action_1<::ALMFLCJCHKP*>*))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_OBJJPNFDLNM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::System::Single>* LJAPBNFHDAG(::System::UInt32 a1, ::System::Single a2)
@@ -67,9 +67,9 @@ inline static constexpr unsigned int DBEKJPNOLDM_TypeDefinitionIndex = 77919;
 			return ((::System::Collections::Generic::List_1<::System::Single>*(*)(::PVOID, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_LJAPBNFHDAG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BHOPJFHAEIP(::ALMFLCJCHKP* a1, ::ALMFLCJCHKP* a2, ::System::Single a3, ::System::Action* a4)
+		::System::Void BHOPJFHAEIP(::ALMFLCJCHKP* a1, ::ALMFLCJCHKP* a2, ::System::Single a3, ::System::Action_1<::ALMFLCJCHKP*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*, ::ALMFLCJCHKP*, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_BHOPJFHAEIP_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*, ::ALMFLCJCHKP*, ::System::Single, ::System::Action_1<::ALMFLCJCHKP*>*))((::PBYTE)hIl2Cpp + DBEKJPNOLDM_BHOPJFHAEIP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* LCIEJKIIGMC(::RPG::GameCore::ChenLingBattleBulletMagicMissileExtraConfig* a1, ::ALMFLCJCHKP* a2, ::System::Single a3)

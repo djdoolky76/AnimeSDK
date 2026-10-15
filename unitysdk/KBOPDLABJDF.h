@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MiniMapIconType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client { class MapAnchorDef; }
 namespace RPG::Client { class MapEntityDef; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define KBOPDLABJDF_CEELKMGHHLJ_OFFSET UNITYSDK_OFFSET(0xB324620)
@@ -82,7 +82,7 @@ inline static constexpr unsigned int KBOPDLABJDF_TypeDefinitionIndex = 60641;
 		::UnityEngine::Color _Color_k__BackingField; // 0x28
 		::UnityEngine::Vector3 _Position_k__BackingField; // 0x38
 		::System::Int32 _Hash_k__BackingField; // 0x44
-		::System::Nullable* IECPJFBLBLB; // 0x48
+		::System::Nullable_1<::System::Boolean> IECPJFBLBLB; // 0x48
 		::System::Boolean _IsTrackingMappingInfo_k__BackingField; // 0x4A
 		::System::Boolean _CanTint_k__BackingField; // 0x4B
 		::System::Boolean _IsTrackingMission_k__BackingField; // 0x4C

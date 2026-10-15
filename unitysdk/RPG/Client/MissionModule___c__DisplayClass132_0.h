@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class MissionCondition; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -15,7 +15,7 @@ namespace RPG::Client
 	class MissionModule___c__DisplayClass132_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* resultPromise; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>*>* resultPromise; // 0x10
 		::System::Collections::Generic::List_1<::RPG::GameCore::MissionCondition*>* param; // 0x18
 		::System::Void _ctor()
 		{

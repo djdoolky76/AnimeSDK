@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class CEEGMMCFCBG;
 class MEAFKINAELF;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -30,44 +30,44 @@ namespace RPG::Client::ResBar
 	class ResBarItemControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_9()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__10_9()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCA0);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCA0);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_1()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__10_1()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCA8);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCA8);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_3()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__10_3()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCB0);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCB0);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_8()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__10_8()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCB8);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCB8);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_4()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__10_4()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCC0);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCC0);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_5()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__10_5()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCC8);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCC8);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_0()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCD0);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCD0);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_6()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__10_6()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCD8);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCD8);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -80,14 +80,14 @@ namespace RPG::Client::ResBar
 			return (::System::Func_2<::MEAFKINAELF*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCE8);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_7()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__10_7()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCF0);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCF0);
 		}
 
-		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>** StaticGet___9__10_10()
+		static ::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__10_10()
 		{
-			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCF8);
+			return (::System::Func_2<::MEAFKINAELF*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.ResBar", "<>c")->GetStaticField(0x5BCF8);
 		}
 
 		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__10_11()
@@ -105,14 +105,14 @@ namespace RPG::Client::ResBar
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable* __Binding_b__10_0(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__10_0(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_1(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__10_1(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_1_OFFSET))(this, a1);
 		}
 
 		::CEEGMMCFCBG* __Binding_b__10_2(::MEAFKINAELF* a1)
@@ -120,44 +120,44 @@ namespace RPG::Client::ResBar
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_3(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__10_3(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_4(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__10_4(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_5(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::String*>* __Binding_b__10_5(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_5_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_6(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__10_6(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_6_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_6_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_7(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__10_7(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_7_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_7_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_8(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__10_8(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_8_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_8_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_9(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__10_9(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_9_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_9_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Binding_b__10_10(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::Boolean>* __Binding_b__10_10(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_10_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RESBAR_RESBARITEMCONTROL___C___BINDING_B__10_10_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Binding_b__10_11(::System::Boolean a1)

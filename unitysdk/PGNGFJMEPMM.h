@@ -8,8 +8,8 @@ class KANKEPCJION;
 class KANKEPCJION_JNLBIIDFHMK;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
@@ -44,7 +44,7 @@ inline static constexpr unsigned int PGNGFJMEPMM_TypeDefinitionIndex = 71980;
 		::UnityEngine::Transform* OMOFMPJILOC; // 0x68
 		::HDPEJIGDNJB* PNPNGCLCCNP; // 0x70
 		::UnityEngine::UI::Image* AJKPFICIIIP; // 0x78
-		::System::Action* KJPAPFJKEFK; // 0x80
+		::System::Action_1<::System::Boolean>* KJPAPFJKEFK; // 0x80
 		::KANKEPCJION_JNLBIIDFHMK* PMECLILMEDH; // 0x88
 		::KANKEPCJION* HPADAGJIHAO; // 0x90
 		::UnityEngine::Transform* AIOHOMBNLLE; // 0x98
@@ -131,9 +131,9 @@ inline static constexpr unsigned int PGNGFJMEPMM_TypeDefinitionIndex = 71980;
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGNGFJMEPMM_GNHIMAJIIPK_OFFSET))(this);
 		}
 
-		::System::Void GCNPCJDEPLM(::System::Action* a1)
+		::System::Void GCNPCJDEPLM(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + PGNGFJMEPMM_GCNPCJDEPLM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + PGNGFJMEPMM_GCNPCJDEPLM_OFFSET))(this, a1);
 		}
 
 		::System::Void FJECPPOEOKN()

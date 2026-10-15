@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftRotationType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/PLHLAIJKMOD.h"
@@ -9,7 +10,6 @@ class DIGCDGKOBMK;
 class PIIOAKOEACN;
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -43,12 +43,12 @@ inline static constexpr unsigned int CHGHIALKMFM_TypeDefinitionIndex = 41803;
 		::PIIOAKOEACN* _Config_k__BackingField; // 0x10
 		::R3::ReactiveProperty_1<::System::Boolean>* _MutableIsUsable_k__BackingField; // 0x18
 		::System::Collections::Generic::IReadOnlyList_1<::DIGCDGKOBMK*>* _Buffs_k__BackingField; // 0x20
-		::System::Nullable* HAOAFOMBMAO; // 0x28
+		::System::Nullable_1<::UnityEngine::Vector2Int> HAOAFOMBMAO; // 0x28
 		::System::Byte _padding0[0x4];
 		::System::Boolean _IsRecommended_k__BackingField; // 0x34
 		::System::Boolean _IsDiscouraged_k__BackingField; // 0x35
 		::System::Byte _padding1[0x2];
-		::System::Nullable* _PrimaryAttributeType_k__BackingField; // 0x38
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> _PrimaryAttributeType_k__BackingField; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CHGHIALKMFM_CTOR_OFFSET))(this);
@@ -69,14 +69,14 @@ inline static constexpr unsigned int CHGHIALKMFM_TypeDefinitionIndex = 41803;
 			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + CHGHIALKMFM_OCIIJJOADAL_OFFSET))(this);
 		}
 
-		::System::Nullable* get_PrimaryAttributeType()
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> get_PrimaryAttributeType()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHGHIALKMFM_GET_PRIMARYATTRIBUTETYPE_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>(*)(::PVOID))((::PBYTE)hIl2Cpp + CHGHIALKMFM_GET_PRIMARYATTRIBUTETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_PrimaryAttributeType(::System::Nullable* a1)
+		::System::Void set_PrimaryAttributeType(::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + CHGHIALKMFM_SET_PRIMARYATTRIBUTETYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + CHGHIALKMFM_SET_PRIMARYATTRIBUTETYPE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsRecommended()

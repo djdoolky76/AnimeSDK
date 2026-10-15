@@ -5,9 +5,9 @@ class CMIKEILGNGK;
 class DFDPLINPMJF;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -42,14 +42,14 @@ inline static constexpr unsigned int DFDPLINPMJF_TypeDefinitionIndex = 25572;
 		::Google::Protobuf::Collections::RepeatedField_1<::CMIKEILGNGK*>* MHDOFJEEDAJ; // 0x18
 		::System::UInt32 KPJHLPFOOOD; // 0x20
 		::System::UInt32 NBJMCGAGAJF; // 0x24
-		static ::Google::Protobuf::FieldCodec** StaticGet_EFCIBPBFFDN()
+		static ::Google::Protobuf::FieldCodec_1<::CMIKEILGNGK*>** StaticGet_EFCIBPBFFDN()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "DFDPLINPMJF")->GetStaticField(0x32280);
+			return (::Google::Protobuf::FieldCodec_1<::CMIKEILGNGK*>**)UnitySDK::FromName("", "DFDPLINPMJF")->GetStaticField(0x32280);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::DFDPLINPMJF*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "DFDPLINPMJF")->GetStaticField(0x32288);
+			return (::Google::Protobuf::MessageParser_1<::DFDPLINPMJF*>**)UnitySDK::FromName("", "DFDPLINPMJF")->GetStaticField(0x32288);
 		}
 
 		// static const ::System::Object GFJHJBHJOLG; // 0x0
@@ -70,9 +70,9 @@ inline static constexpr unsigned int DFDPLINPMJF_TypeDefinitionIndex = 25572;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DFDPLINPMJF_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::DFDPLINPMJF*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + DFDPLINPMJF_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::DFDPLINPMJF*>*(*)())((::PBYTE)hIl2Cpp + DFDPLINPMJF_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

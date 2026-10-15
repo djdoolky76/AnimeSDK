@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Action; }
 namespace System { class Object; }
 
@@ -14,6 +14,6 @@ namespace RPG::Client::Promises
 	{
 	public:
 		::System::Action* onComplete; // 0x0
-		::RPG::Client::Promises::Promise* promise; // 0x0
+		::RPG::Client::Promises::Promise_1<::System::Object*>* promise; // 0x0
 	};
 }

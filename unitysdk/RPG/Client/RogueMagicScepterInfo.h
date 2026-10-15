@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/RogueMagicScepterFuncType.h"
 #include "unitysdk/RPG/GameCore/RogueMagicStyleType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DNLKMHLAPHC;
 class GIHIEMMKHIP;
 class MMBBHFNJILI;
@@ -83,7 +83,7 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* _ComposeConsumeUnits; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _ShowNewMarkUnitUIDSet; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* _MagicUnitBuckets; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* _MagicUnitBuckets; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicScepterDataItem*>* _ScepterItems; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* _UnitItems; // 0x30
 		::System::Boolean _IsAutoDressInMagicUnit_k__BackingField; // 0x38

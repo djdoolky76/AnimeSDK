@@ -5,8 +5,8 @@
 #include "unitysdk/RPG/Client/TextID.h"
 class DFGLKHAAGJB;
 namespace RPG::Client::TeamTowers { class TeamTowersPlayerSkillViewModel; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE1FB060)
 #define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xE1FDA70)
@@ -28,7 +28,7 @@ namespace RPG::Client::TeamTowers
 	class TeamTowersPlayerSkillViewModel : public ::System::Object
 	{
 	public:
-		::System::Action* _OnClick; // 0x10
+		::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>* _OnClick; // 0x10
 		::DFGLKHAAGJB* _SkillInfo; // 0x18
 		::System::Boolean _IsSelected_k__BackingField; // 0x20
 		::System::Void _ctor(::DFGLKHAAGJB* a1)
@@ -36,9 +36,9 @@ namespace RPG::Client::TeamTowers
 			return ((::System::Void(*)(::PVOID, ::DFGLKHAAGJB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterOnClickCallBack(::System::Action* a1)
+		::System::Void RegisterOnClickCallBack(::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_REGISTERONCLICKCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_REGISTERONCLICKCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void Select()

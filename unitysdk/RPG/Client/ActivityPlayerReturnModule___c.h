@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class GHHJNCOAIJF;
 class HKNBPHAJEJF;
@@ -8,12 +9,11 @@ class JNHLMGOBJLH;
 class KILNFPKCBCP;
 namespace RPG::Client { class ItemData; }
 namespace RPG::Client { template <typename T> class RPGHttpPlatformActResponse_1; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class PlayerReturnInviteRow; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC59A860)
 #define RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC59A890)
@@ -36,9 +36,9 @@ namespace RPG::Client
 	class ActivityPlayerReturnModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::RPG::Client::ItemData*>** StaticGet___9__57_1()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::ItemData*>** StaticGet___9__57_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair*, ::RPG::Client::ItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38910);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::ItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38910);
 		}
 
 		static ::System::Func_2<::IHGIENOHBMJ*, ::HKNBPHAJEJF*>** StaticGet___9__94_1()
@@ -56,9 +56,9 @@ namespace RPG::Client
 			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38928);
 		}
 
-		static ::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__93_0()
+		static ::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*>** StaticGet___9__93_0()
 		{
-			return (::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38930);
+			return (::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38930);
 		}
 
 		static ::System::Func_2<::IHGIENOHBMJ*, ::RPG::Client::RPGHttpPlatformActResponse_1<::KILNFPKCBCP*>*>** StaticGet___9__93_1()
@@ -71,14 +71,14 @@ namespace RPG::Client
 			return (::System::Func_2<::IHGIENOHBMJ*, ::RPG::Client::RPGHttpPlatformActResponse_1<::JNHLMGOBJLH*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38940);
 		}
 
-		static ::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__94_0()
+		static ::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*>** StaticGet___9__94_0()
 		{
-			return (::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38948);
+			return (::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38948);
 		}
 
-		static ::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__92_0()
+		static ::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*>** StaticGet___9__92_0()
 		{
-			return (::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38950);
+			return (::System::Func_2<::GHHJNCOAIJF*, ::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x38950);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::PlayerReturnInviteRow*, ::System::UInt32>** StaticGet___9__57_0()
@@ -116,14 +116,14 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::PlayerReturnInviteRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___REFRESHCURINVITECONFIG_B__57_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ItemData* __RefreshCurInviteConfig_b__57_1(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::ItemData* __RefreshCurInviteConfig_b__57_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___REFRESHCURINVITECONFIG_B__57_1_OFFSET))(this, a1);
+			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C___REFRESHCURINVITECONFIG_B__57_1_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendGetInviterInfoWWWReq_b__92_0(::GHHJNCOAIJF* a1)
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* _SendGetInviterInfoWWWReq_b__92_0(::GHHJNCOAIJF* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITERINFOWWWREQ_B__92_0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITERINFOWWWREQ_B__92_0_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RPGHttpPlatformActResponse_1<::JNHLMGOBJLH*>* _SendGetInviterInfoWWWReq_b__92_1(::IHGIENOHBMJ* a1)
@@ -131,9 +131,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RPGHttpPlatformActResponse_1<::JNHLMGOBJLH*>*(*)(::PVOID, ::IHGIENOHBMJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITERINFOWWWREQ_B__92_1_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendGetInviteeInfoWWWReq_b__93_0(::GHHJNCOAIJF* a1)
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* _SendGetInviteeInfoWWWReq_b__93_0(::GHHJNCOAIJF* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITEEINFOWWWREQ_B__93_0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITEEINFOWWWREQ_B__93_0_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RPGHttpPlatformActResponse_1<::KILNFPKCBCP*>* _SendGetInviteeInfoWWWReq_b__93_1(::IHGIENOHBMJ* a1)
@@ -141,9 +141,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RPGHttpPlatformActResponse_1<::KILNFPKCBCP*>*(*)(::PVOID, ::IHGIENOHBMJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDGETINVITEEINFOWWWREQ_B__93_1_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* _SendBindInvitationCodeWWWReq_b__94_0(::GHHJNCOAIJF* a1)
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* _SendBindInvitationCodeWWWReq_b__94_0(::GHHJNCOAIJF* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDBINDINVITATIONCODEWWWREQ_B__94_0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPLAYERRETURNMODULE___C__SENDBINDINVITATIONCODEWWWREQ_B__94_0_OFFSET))(this, a1);
 		}
 
 		::HKNBPHAJEJF* _SendBindInvitationCodeWWWReq_b__94_1(::IHGIENOHBMJ* a1)

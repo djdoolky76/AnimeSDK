@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/Client/Prop/BoxmanItemType.h"
 #include "unitysdk/RPG/Client/Prop/ScenePuzzleBoardBase.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class ENLNFBCDEIO;
 namespace RPG::Client::Prop { class BoxmanPuzzleItem; }
 namespace RPG::GameCore { class GameEntity; }
@@ -12,7 +13,6 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class PropOptionTrigger_ButtonParam; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -143,9 +143,9 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::BoxmanCoord))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEBOARD_OCJOBCPOFJM_OFFSET))(this, a1);
 		}
 
-		::System::Boolean NMAJLKNBOGO(::System::Nullable* a1)
+		::System::Boolean NMAJLKNBOGO(::System::Nullable_1<::RPG::Client::Prop::BoxmanItemType> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEBOARD_NMAJLKNBOGO_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::Client::Prop::BoxmanItemType>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEBOARD_NMAJLKNBOGO_OFFSET))(this, a1);
 		}
 
 		::System::Void InitOptions()

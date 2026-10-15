@@ -4,7 +4,7 @@
 class BABNOKHOBCF;
 class INMMPMDELKE;
 class MNCOPNHONHO;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
@@ -21,9 +21,9 @@ inline static constexpr unsigned int FJIKIFFMPDA_TypeDefinitionIndex = 76827;
 	{
 	public:
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* KFBHHFIFHCJ; // 0x18
+		::Entitas::IGroup_1<::INMMPMDELKE*>* KFBHHFIFHCJ; // 0x18
 		::BABNOKHOBCF* FKINCGODJEP; // 0x20
-		::Entitas::IGroup* HKJNGDKDMNN; // 0x28
+		::Entitas::IGroup_1<::INMMPMDELKE*>* HKJNGDKDMNN; // 0x28
 		::System::Collections::Generic::HashSet_1<::System::String*>* AHIFNJJGHOJ; // 0x30
 		::System::Collections::Generic::HashSet_1<::System::String*>* GPAGLKMGBCK; // 0x38
 		::System::Void _ctor(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2)

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_REQUESTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFCDF40)
 #define MIHOYO_SDK_REQUESTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFCDF80)
@@ -20,9 +20,9 @@ namespace MiHoYo::SDK
 	class RequestManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__27_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__27_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1E200);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1E200);
 		}
 
 		static ::System::Object** StaticGet___9()

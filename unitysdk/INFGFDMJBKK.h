@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BCGKEELAOEA;
 class KHDJLEELKHD;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -29,9 +29,9 @@ inline static constexpr unsigned int INFGFDMJBKK_TypeDefinitionIndex = 62789;
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + INFGFDMJBKK_KILEPBKMIHE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>* ANAHFGMKJMB()
+		::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* ANAHFGMKJMB()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INFGFDMJBKK_ANAHFGMKJMB_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INFGFDMJBKK_ANAHFGMKJMB_OFFSET))(this);
 		}
 
 	};

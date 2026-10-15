@@ -8,8 +8,8 @@ class LEGAPPMEBBL;
 class MEPHKJFAJPP;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -120,9 +120,9 @@ inline static constexpr unsigned int LEGAPPMEBBL_TypeDefinitionIndex = 32010;
 		::System::Boolean CPDPKMHHCGA; // 0xC9
 		::System::Byte _padding0[0x2];
 		::System::UInt32 IFOCLPDBKPP; // 0xCC
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::LEGAPPMEBBL*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "LEGAPPMEBBL")->GetStaticField(0x37940);
+			return (::Google::Protobuf::MessageParser_1<::LEGAPPMEBBL*>**)UnitySDK::FromName("", "LEGAPPMEBBL")->GetStaticField(0x37940);
 		}
 
 		// static const ::System::Object MGOCKFDEEMF; // 0x0
@@ -168,9 +168,9 @@ inline static constexpr unsigned int LEGAPPMEBBL_TypeDefinitionIndex = 32010;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LEGAPPMEBBL_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::LEGAPPMEBBL*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + LEGAPPMEBBL_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::LEGAPPMEBBL*>*(*)())((::PBYTE)hIl2Cpp + LEGAPPMEBBL_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

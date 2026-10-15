@@ -5,6 +5,7 @@ class MLLBMBEIAAB_CNLBPFJAGJO;
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -24,7 +25,7 @@ inline static constexpr unsigned int MLLBMBEIAAB_CNLBPFJAGJO_TypeDefinitionIndex
 	class MLLBMBEIAAB_CNLBPFJAGJO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action*>*>* HGAGNGJCHOP; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>*>* HGAGNGJCHOP; // 0x10
 		::System::Int32 FHKMIHHOIHI; // 0x18
 		static ::System::Collections::Generic::Queue_1<::System::Object*>** StaticGet_MFPNICMCKJG()
 		{
@@ -61,9 +62,9 @@ inline static constexpr unsigned int MLLBMBEIAAB_CNLBPFJAGJO_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLLBMBEIAAB_CNLBPFJAGJO_ABKBOGIGAEH_OFFSET))(this);
 		}
 
-		::System::Void CKFIABGGFBB(::System::String* a1, ::System::Action* a2)
+		::System::Void CKFIABGGFBB(::System::String* a1, ::System::Action_1<::UnityEngine::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MLLBMBEIAAB_CNLBPFJAGJO_CKFIABGGFBB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + MLLBMBEIAAB_CNLBPFJAGJO_CKFIABGGFBB_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void JPPMONIIGOF(::System::Action* a1)

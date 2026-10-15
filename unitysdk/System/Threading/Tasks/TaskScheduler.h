@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class EventHandler; }
 namespace System { class Object; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
@@ -32,9 +32,9 @@ namespace System::Threading::Tasks
 	{
 	public:
 		::System::Int32 m_taskSchedulerId; // 0x10
-		static ::System::EventHandler** StaticGet__unobservedTaskException()
+		static ::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>** StaticGet__unobservedTaskException()
 		{
-			return (::System::EventHandler**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x16D30);
+			return (::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>**)UnitySDK::FromName("System.Threading.Tasks", "TaskScheduler")->GetStaticField(0x16D30);
 		}
 
 		static ::System::Threading::Tasks::TaskScheduler** StaticGet_s_defaultTaskScheduler()

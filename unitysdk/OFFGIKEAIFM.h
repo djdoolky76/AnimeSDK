@@ -10,7 +10,8 @@ class OGODLCGIBNC;
 namespace RPG::Client::Pet::BlindBox { class BlindBoxPetAppearance; }
 namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 namespace RPG::GameCore { class ItemRow; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define OFFGIKEAIFM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBE3FD60)
 #define OFFGIKEAIFM_EHAHLJAIPNN_OFFSET UNITYSDK_OFFSET(0xBE3FD10)
@@ -46,14 +47,14 @@ inline static constexpr unsigned int OFFGIKEAIFM_TypeDefinitionIndex = 75725;
 			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::Client::Pet::BlindBox::IBlindBoxPet*))((::PBYTE)hIl2Cpp + OFFGIKEAIFM_LHLALAKKKKJ_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void NLPBKFAGFGA(::System::Action* a1)
+		static ::System::Void NLPBKFAGFGA(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + OFFGIKEAIFM_NLPBKFAGFGA_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + OFFGIKEAIFM_NLPBKFAGFGA_OFFSET))(a1);
 		}
 
-		static ::System::Void MCMHMFOIJAB(::System::Action* a1)
+		static ::System::Void MCMHMFOIJAB(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + OFFGIKEAIFM_MCMHMFOIJAB_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + OFFGIKEAIFM_MCMHMFOIJAB_OFFSET))(a1);
 		}
 
 		static ::System::Void MCMHMFOIJAB_1(::ODGFPKFBGOJ* a1)
@@ -61,9 +62,9 @@ inline static constexpr unsigned int OFFGIKEAIFM_TypeDefinitionIndex = 75725;
 			return ((::System::Void(*)(::ODGFPKFBGOJ*))((::PBYTE)hIl2Cpp + OFFGIKEAIFM_MCMHMFOIJAB_1_OFFSET))(a1);
 		}
 
-		static ::System::Void MPNPBHFCIEE(::System::Action* a1)
+		static ::System::Void MPNPBHFCIEE(::System::Action_2<::System::UInt32, ::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + OFFGIKEAIFM_MPNPBHFCIEE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + OFFGIKEAIFM_MPNPBHFCIEE_OFFSET))(a1);
 		}
 
 		static ::System::Void MPNPBHFCIEE_1(::LGJMFGGOEHD* a1)

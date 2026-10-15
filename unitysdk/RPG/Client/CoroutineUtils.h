@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class CoroutineBehaviour; }
 namespace RPG::Client { class ICoroutineGroupController; }
@@ -7,9 +8,9 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
@@ -53,9 +54,9 @@ namespace RPG::Client
 	class CoroutineUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>** StaticGet__PendingCoroutines()
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>** StaticGet__PendingCoroutines()
 		{
-			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("RPG.Client", "CoroutineUtils")->GetStaticField(0x453D0);
+			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>**)UnitySDK::FromName("RPG.Client", "CoroutineUtils")->GetStaticField(0x453D0);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__InCtrlCoroutineGroups()
@@ -63,9 +64,9 @@ namespace RPG::Client
 			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "CoroutineUtils")->GetStaticField(0x453D8);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>** StaticGet__PendingCoroutines2()
+		static ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>** StaticGet__PendingCoroutines2()
 		{
-			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("RPG.Client", "CoroutineUtils")->GetStaticField(0x453E0);
+			return (::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Collections::IEnumerator*, ::RPG::Client::ICoroutineGroupController*>>**)UnitySDK::FromName("RPG.Client", "CoroutineUtils")->GetStaticField(0x453E0);
 		}
 
 		static ::RPG::Client::CoroutineBehaviour** StaticGet__Behaviour()
@@ -218,14 +219,14 @@ namespace RPG::Client
 			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSCOROUTINE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeAfterFramesPromise_1(::System::Int32 a1, ::System::Action* a2, ::System::Action* a3)
+		static ::System::Collections::IEnumerator* _InvokeAfterFramesPromise_1(::System::Int32 a1, ::System::Action* a2, ::System::Action_1<::System::Exception*>* a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Int32, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESPROMISE_1_OFFSET))(a1, a2, a3);
+			return ((::System::Collections::IEnumerator*(*)(::System::Int32, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERFRAMESPROMISE_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Collections::IEnumerator* _InvokeAfterSecondsPromise(::System::Single a1, ::System::Action* a2, ::System::Action* a3)
+		static ::System::Collections::IEnumerator* _InvokeAfterSecondsPromise(::System::Single a1, ::System::Action* a2, ::System::Action_1<::System::Exception*>* a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSPROMISE_OFFSET))(a1, a2, a3);
+			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COROUTINEUTILS__INVOKEAFTERSECONDSPROMISE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void _AddInCtrlCoroutine(::RPG::Client::ICoroutineGroupController* a1, ::UnityEngine::Coroutine* a2)

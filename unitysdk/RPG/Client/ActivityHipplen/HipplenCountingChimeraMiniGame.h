@@ -13,6 +13,7 @@ namespace RPG::GameCore { class HipplenCountingChimeraMiniGameConfig; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Transform; }
@@ -79,8 +80,8 @@ namespace RPG::Client::ActivityHipplen
 		::RPG::GameCore::HipplenCountingChimeraMiniGameConfig* _ConfigRef; // 0x90
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _CharacterList; // 0x98
 		::System::Collections::Generic::List_1<::System::Object*>* _PlayingTrackAssets; // 0xA0
-		::System::Action* _OnPerformanceTimeChanged; // 0xA8
-		::System::Action* _OnFinish; // 0xB0
+		::System::Action_1<::System::Single>* _OnPerformanceTimeChanged; // 0xA8
+		::System::Action_1<::System::Int32>* _OnFinish; // 0xB0
 		::RPG::GameCore::GameEntity* _QuizChimera; // 0xB8
 		::RPG::GameCore::GameEntity* _LookAtChimera; // 0xC0
 		::System::Action* _OnShowOptions; // 0xC8
@@ -116,14 +117,14 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERSHOWOPTIONSCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterPerformanceTimeChangedCallback(::System::Action* a1)
+		::System::Void RegisterPerformanceTimeChangedCallback(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERPERFORMANCETIMECHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERPERFORMANCETIMECHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterFinishCallback(::System::Action* a1)
+		::System::Void RegisterFinishCallback(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERFINISHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void RegisterChimeraGotoWorkCallback(::System::Action* a1)

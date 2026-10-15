@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/ELookAtTargetSource.h"
 #include "unitysdk/RPG/GameCore/ENpcLookAtMode.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class EKFMIDBJDIA;
@@ -17,7 +18,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelLookAtPositionInfo; }
 namespace RPG::GameCore { class LevelNpcLookAtTargetInfo; }
 namespace RPG::GameCore { class OnEventCallBack; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -73,7 +73,7 @@ inline static constexpr unsigned int PKBOEALAKCM_TypeDefinitionIndex = 57306;
 		::System::Collections::Generic::List_1<::System::Func_2<::System::Collections::Generic::List_1<::LODKHMFCLOG>*, ::System::Boolean>*>* HDIIBMCLGDM; // 0x28
 		::RPG::GameCore::LevelLookAtPositionInfo* EPKNPKAIEEO; // 0x30
 		::RPG::GameCore::OnEventCallBack* MBNLHKCJKNH; // 0x38
-		::System::Nullable* FBHOPNEDDCO; // 0x40
+		::System::Nullable_1<::LODKHMFCLOG> FBHOPNEDDCO; // 0x40
 		::System::Byte _padding0[0x20];
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::LODKHMFCLOG>*>* GCBPOBJHKOL; // 0x68
 		::RPG::GameCore::CharacterAnimZone* LAMJAHOLOMC; // 0x70
@@ -169,9 +169,9 @@ inline static constexpr unsigned int PKBOEALAKCM_TypeDefinitionIndex = 57306;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PKBOEALAKCM_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void DICCJIEAJHP(::System::Nullable* a1)
+		::System::Void DICCJIEAJHP(::System::Nullable_1<::LODKHMFCLOG> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + PKBOEALAKCM_DICCJIEAJHP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::LODKHMFCLOG>))((::PBYTE)hIl2Cpp + PKBOEALAKCM_DICCJIEAJHP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean HJNLHANNOGK(::System::Collections::Generic::List_1<::LODKHMFCLOG>* a1)
@@ -204,9 +204,9 @@ inline static constexpr unsigned int PKBOEALAKCM_TypeDefinitionIndex = 57306;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + PKBOEALAKCM_NEJCFPPFAGK_OFFSET))(this, a1);
 		}
 
-		::System::Void KGLBJOCJHAG(::System::Nullable* a1, ::System::Boolean a2, ::System::Boolean a3)
+		::System::Void KGLBJOCJHAG(::System::Nullable_1<::LODKHMFCLOG> a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + PKBOEALAKCM_KGLBJOCJHAG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::LODKHMFCLOG>, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + PKBOEALAKCM_KGLBJOCJHAG_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void KPKFCHHIGFD(::RPG::GameCore::GameEntity* a1)
@@ -259,9 +259,9 @@ inline static constexpr unsigned int PKBOEALAKCM_TypeDefinitionIndex = 57306;
 			return ((::RPG::Client::LookAtIK*(*)(::PVOID))((::PBYTE)hIl2Cpp + PKBOEALAKCM_OMBNDGOINPP_OFFSET))(this);
 		}
 
-		::System::Nullable* GHGEALGDJED()
+		::System::Nullable_1<::LODKHMFCLOG> GHGEALGDJED()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + PKBOEALAKCM_GHGEALGDJED_OFFSET))(this);
+			return ((::System::Nullable_1<::LODKHMFCLOG>(*)(::PVOID))((::PBYTE)hIl2Cpp + PKBOEALAKCM_GHGEALGDJED_OFFSET))(this);
 		}
 
 		::RPG::GameCore::GameEntity* LILHOGOFAAF()

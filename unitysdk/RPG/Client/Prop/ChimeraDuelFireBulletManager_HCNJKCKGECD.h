@@ -6,7 +6,7 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelAnimatorView; 
 namespace RPG::Client::LittleGame::ChimeraDuel { class DuelChimeraBattleView; }
 namespace RPG::Client::Prop { class ChimeraDuelModelVfxPlayer; }
 namespace RPG::GameCore { class ChimeraDuelFireBulletNode; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
@@ -25,7 +25,7 @@ namespace RPG::Client::Prop
 	public:
 		::UnityEngine::Transform* ONLEMJPMBDH; // 0x10
 		::UnityEngine::Transform* GLDEBFOKEMJ; // 0x18
-		::System::Action* EGMGFMKIOHL; // 0x20
+		::System::Action_1<::System::Int32>* EGMGFMKIOHL; // 0x20
 		::RPG::GameCore::ChimeraDuelFireBulletNode* JKLBAAHFJDJ; // 0x28
 		::UnityEngine::AnimationCurve* NPFCIFDPHPP; // 0x30
 		::UnityEngine::Transform* DEIMGIGLHLK; // 0x38
@@ -41,9 +41,9 @@ namespace RPG::Client::Prop
 		::System::Single KKPEIMJKION; // 0x68
 		::UnityEngine::Quaternion PACGNNNBPEI; // 0x6C
 		::System::Int32 CGDICMBIBPP; // 0x7C
-		::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView* a3, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAnimatorView* a4, ::RPG::Client::Prop::ChimeraDuelModelVfxPlayer* a5, ::RPG::GameCore::ChimeraDuelFireBulletNode* a6, ::UnityEngine::AnimationCurve* a7, ::UnityEngine::AnimationCurve* a8, ::System::Boolean a9, ::System::Int32 a10, ::System::Action* a11)
+		::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView* a3, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAnimatorView* a4, ::RPG::Client::Prop::ChimeraDuelModelVfxPlayer* a5, ::RPG::GameCore::ChimeraDuelFireBulletNode* a6, ::UnityEngine::AnimationCurve* a7, ::UnityEngine::AnimationCurve* a8, ::System::Boolean a9, ::System::Int32 a10, ::System::Action_1<::System::Int32>* a11)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView*, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAnimatorView*, ::RPG::Client::Prop::ChimeraDuelModelVfxPlayer*, ::RPG::GameCore::ChimeraDuelFireBulletNode*, ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*, ::System::Boolean, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_HCNJKCKGECD_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView*, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAnimatorView*, ::RPG::Client::Prop::ChimeraDuelModelVfxPlayer*, ::RPG::GameCore::ChimeraDuelFireBulletNode*, ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*, ::System::Boolean, ::System::Int32, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_HCNJKCKGECD_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::System::Void EPHFABNKFGJ()

@@ -4,6 +4,8 @@
 namespace MiHoYo::SDK::Win { class BindMiHoYo; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
@@ -41,8 +43,8 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Button* bindButton; // 0x88
 		::UnityEngine::UI::Text* bindButtonText; // 0x90
 		::System::Action* OnBack; // 0x98
-		::System::Action* OnGetCode; // 0xA0
-		::System::Action* OnBind; // 0xA8
+		::System::Action_1<::System::String*>* OnGetCode; // 0xA0
+		::System::Action_2<::System::String*, ::System::String*>* OnBind; // 0xA8
 		::System::Boolean isRequestVerifyCode; // 0xB0
 		::System::Byte _padding0[0x3];
 		::System::Single countDownTime; // 0xB4

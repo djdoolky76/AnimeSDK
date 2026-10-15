@@ -3,10 +3,10 @@
 #include "unitysdk/System/MulticastDelegate.h"
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class WeGameSessionTicketModel; }
-namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C01DAD0)
 #define MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01DA50)
@@ -25,14 +25,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::System::Action* a1)
+		::System::Void Invoke(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_INVOKE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Action* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		::System::IAsyncResult* BeginInvoke(::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::Win::WeGameSessionTicketModel*>*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_ASYNCACQUIRESESSIONTICKETDELEGATE_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* a1)

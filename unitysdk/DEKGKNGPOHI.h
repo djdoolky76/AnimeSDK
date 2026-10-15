@@ -10,9 +10,9 @@ class KBGKAMMKDCE;
 namespace RPG::Client { class MapDef; }
 namespace RPG::Client { class RPGProfilerMarker; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -204,9 +204,9 @@ inline static constexpr unsigned int DEKGKNGPOHI_TypeDefinitionIndex = 69222;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DEKGKNGPOHI_OODNNFMLDCH_OFFSET))(this);
 		}
 
-		::IMHNJGALBDG* ECDDKACHMPF(::KBGKAMMKDCE* a1, ::System::String* a2, ::System::String* a3, ::FHOLDPBFDLO* a4, ::System::Action* a5)
+		::IMHNJGALBDG* ECDDKACHMPF(::KBGKAMMKDCE* a1, ::System::String* a2, ::System::String* a3, ::FHOLDPBFDLO* a4, ::System::Action_1<::IMHNJGALBDG*>* a5)
 		{
-			return ((::IMHNJGALBDG*(*)(::PVOID, ::KBGKAMMKDCE*, ::System::String*, ::System::String*, ::FHOLDPBFDLO*, ::System::Action*))((::PBYTE)hIl2Cpp + DEKGKNGPOHI_ECDDKACHMPF_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::IMHNJGALBDG*(*)(::PVOID, ::KBGKAMMKDCE*, ::System::String*, ::System::String*, ::FHOLDPBFDLO*, ::System::Action_1<::IMHNJGALBDG*>*))((::PBYTE)hIl2Cpp + DEKGKNGPOHI_ECDDKACHMPF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void ONIJAOKLMNC(::System::UInt32 a1)

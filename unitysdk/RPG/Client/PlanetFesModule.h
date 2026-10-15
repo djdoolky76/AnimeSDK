@@ -14,8 +14,9 @@
 #include "unitysdk/RPG/GameCore/PlanetFesLandType.h"
 #include "unitysdk/RPG/GameCore/PlanetFesSourceSystemType.h"
 #include "unitysdk/System/Numerics/BigInteger.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class AAIMICLLCKE;
 class AJNGOHLNFKK;
 class APAMFCKFHLL;
@@ -95,8 +96,7 @@ namespace RPG::Client { class PlanetFesUnlockData; }
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
-namespace System { class Nullable; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Predicate_1; }
@@ -473,7 +473,7 @@ namespace RPG::Client
 		::RPG::Client::PlanetFesAvatarLinkData* LinkData; // 0x68
 		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarStatsData*>* _CurBusinessDayAvatarStats_k__BackingField; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::IPlanetFesBuff*>* _AllBuffs; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* _QuestAchievementRelations_k__BackingField; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>>* _QuestAchievementRelations_k__BackingField; // 0x80
 		::RPG::Client::ScheduleTask* _WaitOpenScheduleTask; // 0x88
 		::RPG::Client::PlanetFesBusinessDayData* _CurBusinessDayData_k__BackingField; // 0x90
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _UseItemIDs; // 0x98
@@ -494,7 +494,7 @@ namespace RPG::Client
 		::RPG::Client::CommonActivityLightConeRewardData* _LightConeReward_k__BackingField; // 0x120
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* ItemIDToAvatarIDMap; // 0x128
 		::System::Collections::Generic::List_1<::System::UInt32>* _NewAvatarIDs; // 0x130
-		::RPG::Client::Promises::Promise* _FetchCurDayAvatarStatsPromise; // 0x138
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarStatsData*>*>* _FetchCurDayAvatarStatsPromise; // 0x138
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarData*>* AllAvatarDataDict; // 0x140
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _CardItemIDs; // 0x148
 		::RPG::Client::PlanetFesSummaryData* _SummaryData_k__BackingField; // 0x150
@@ -978,9 +978,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::PlanetFesCardData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_GETALLCARD_OFFSET))(this);
 		}
 
-		::System::Nullable* GetCustomData(::FEGJOAPIMCK a1)
+		::System::Nullable_1<::System::UInt32> GetCustomData(::FEGJOAPIMCK a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::FEGJOAPIMCK))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_GETCUSTOMDATA_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::FEGJOAPIMCK))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_GETCUSTOMDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void SetCustomData(::FEGJOAPIMCK a1, ::System::UInt32 a2)
@@ -1753,14 +1753,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesQuestData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_SET_QUESTDATADICT_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* get_QuestAchievementRelations()
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>>* get_QuestAchievementRelations()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_GET_QUESTACHIEVEMENTRELATIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_GET_QUESTACHIEVEMENTRELATIONS_OFFSET))(this);
 		}
 
-		::System::Void set_QuestAchievementRelations(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* a1)
+		::System::Void set_QuestAchievementRelations(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_SET_QUESTACHIEVEMENTRELATIONS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_SET_QUESTACHIEVEMENTRELATIONS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_RewardID()
@@ -1868,9 +1868,9 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_GET_SKILLITEMNUM_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* GetCurBusinessDayAvatarStats()
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarStatsData*>*>* GetCurBusinessDayAvatarStats()
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_GETCURBUSINESSDAYAVATARSTATS_OFFSET))(this);
+			return ((::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarStatsData*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESMODULE_GETCURBUSINESSDAYAVATARSTATS_OFFSET))(this);
 		}
 
 		::System::Void _OnCmdPlanetFesGetAvatarStatScRsp(::System::UInt16 a1, ::System::Object* a2)

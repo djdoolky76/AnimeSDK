@@ -5,9 +5,9 @@ namespace MiHoYo::SDK { class AccountPlatformPlugin_MessageHandler; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK { class Web_OnWebViewPageClose; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD251C0)
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD25200)
@@ -31,14 +31,14 @@ namespace MiHoYo::SDK::Win
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEE0);
 		}
 
-		static ::System::Action** StaticGet___9__27_3()
+		static ::System::Action_1<::System::String*>** StaticGet___9__27_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEE8);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEE8);
 		}
 
-		static ::System::Action** StaticGet___9__46_0()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__46_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEF0);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEF0);
 		}
 
 		static ::MiHoYo::SDK::Web_OnWebViewPageClose** StaticGet___9__32_1()
@@ -51,14 +51,14 @@ namespace MiHoYo::SDK::Win
 			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF00);
 		}
 
-		static ::System::Action** StaticGet___9__19_2()
+		static ::System::Action_1<::System::String*>** StaticGet___9__19_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF08);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF08);
 		}
 
-		static ::System::Action** StaticGet___9__18_6()
+		static ::System::Action_1<::System::String*>** StaticGet___9__18_6()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF10);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF10);
 		}
 
 		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__22_1()

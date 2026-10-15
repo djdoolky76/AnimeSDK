@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class HEKHCLACHJE;
 class LKDLCJELFCM;
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -120,9 +120,9 @@ inline static constexpr unsigned int BOIIFECIHAK_TypeDefinitionIndex = 80089;
 			return ((::HEKHCLACHJE*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOIIFECIHAK_MCOKHKCDGPO_OFFSET))(this);
 		}
 
-		::System::Nullable* FEEBBPMKAHF()
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType> FEEBBPMKAHF()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + BOIIFECIHAK_FEEBBPMKAHF_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>(*)(::PVOID))((::PBYTE)hIl2Cpp + BOIIFECIHAK_FEEBBPMKAHF_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* DPPEELJFNJN()

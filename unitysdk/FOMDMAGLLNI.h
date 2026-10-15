@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class CMOPLAHDEPN;
 class FOMDMAGLLNI;
 class KHPENGJFKBB;
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -65,9 +65,9 @@ inline static constexpr unsigned int FOMDMAGLLNI_TypeDefinitionIndex = 81459;
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::KHPENGJFKBB*>*))((::PBYTE)hIl2Cpp + FOMDMAGLLNI_SET_STAGES_OFFSET))(this, a1);
 		}
 
-		::FOMDMAGLLNI* EDHLEDPGLHC(::System::Int32 a1, ::System::Nullable* a2)
+		::FOMDMAGLLNI* EDHLEDPGLHC(::System::Int32 a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::FOMDMAGLLNI*(*)(::PVOID, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + FOMDMAGLLNI_EDHLEDPGLHC_OFFSET))(this, a1, a2);
+			return ((::FOMDMAGLLNI*(*)(::PVOID, ::System::Int32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + FOMDMAGLLNI_EDHLEDPGLHC_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* ToString()

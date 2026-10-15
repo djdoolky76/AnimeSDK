@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OEODAOIOGLO.h"
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define CCKEHNGDJJF_CTOR_OFFSET UNITYSDK_OFFSET(0xC74B3E0)
@@ -30,9 +30,9 @@ inline static constexpr unsigned int CCKEHNGDJJF_TypeDefinitionIndex = 59487;
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CCKEHNGDJJF_IKDDBODBGGN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* FLHAEFKDIHO(::System::Boolean a1)
+		::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* FLHAEFKDIHO(::System::Boolean a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CCKEHNGDJJF_FLHAEFKDIHO_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CCKEHNGDJJF_FLHAEFKDIHO_OFFSET))(this, a1);
 		}
 
 	};

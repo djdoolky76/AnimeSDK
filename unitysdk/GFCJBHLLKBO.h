@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class GFCJBHLLKBO_GAPLDKGHPPP;
 namespace RPG::Client { class TarotBookInteraction; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define GFCJBHLLKBO_CLLANDGCOPJ_OFFSET UNITYSDK_OFFSET(0x159E9BA0)
 #define GFCJBHLLKBO_CTOR_OFFSET UNITYSDK_OFFSET(0x159EA310)
@@ -46,9 +46,9 @@ inline static constexpr unsigned int GFCJBHLLKBO_TypeDefinitionIndex = 68064;
 			return ((::RPG::Client::TarotBookInteraction*(*)(::PVOID))((::PBYTE)hIl2Cpp + GFCJBHLLKBO_MMDCJOAPDCD_OFFSET))(this);
 		}
 
-		::System::Boolean CLLANDGCOPJ(::RPG::Client::TarotBookInteraction* a1, ::System::Action* a2)
+		::System::Boolean CLLANDGCOPJ(::RPG::Client::TarotBookInteraction* a1, ::System::Action_1<::RPG::Client::TarotBookInteraction*>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TarotBookInteraction*, ::System::Action*))((::PBYTE)hIl2Cpp + GFCJBHLLKBO_CLLANDGCOPJ_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::TarotBookInteraction*, ::System::Action_1<::RPG::Client::TarotBookInteraction*>*))((::PBYTE)hIl2Cpp + GFCJBHLLKBO_CLLANDGCOPJ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void HFKFNFKIEON()

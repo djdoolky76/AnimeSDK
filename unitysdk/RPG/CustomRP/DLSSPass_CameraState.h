@@ -7,7 +7,7 @@
 #include "unitysdk/UnityEngine/Rendering/DLSSData.h"
 namespace RPG::CustomRP { class DLSSPass_ViewState; }
 namespace System { class Object; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::NVIDIA { class GraphicsDevice; }
@@ -36,7 +36,7 @@ namespace RPG::CustomRP
 	class DLSSPass_CameraState : public ::System::Object
 	{
 	public:
-		::System::WeakReference* m_CamReference; // 0x10
+		::System::WeakReference_1<::UnityEngine::Camera*>* m_CamReference; // 0x10
 		::UnityEngine::Rendering::PerformDynamicRes* m_ScaleDelegate; // 0x18
 		::UnityEngine::NVIDIA::GraphicsDevice* m_Device; // 0x20
 		::System::Collections::Generic::List_1<::System::Object*>* m_Views; // 0x28

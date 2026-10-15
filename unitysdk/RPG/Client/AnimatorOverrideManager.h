@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GCICEGFOCOF.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -40,7 +40,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationClip*>* DEFLKIEBJKI; // 0x40
 		::System::Collections::Generic::HashSet_1<::System::String*>* NHJJIPHIPAM; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationClip*>* NIEFCGPJMOJ; // 0x50
-		::RPG::PoolList_1<::System::Collections::Generic::KeyValuePair*>* FMBGCOOGGIK; // 0x58
+		::RPG::PoolList_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* FMBGCOOGGIK; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOROVERRIDEMANAGER_CTOR_OFFSET))(this);

@@ -4,7 +4,7 @@
 class BNLHGENFEHG;
 class FDPALAEIHPB;
 class PGBLBOJBDGG;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
 #define FBCJBKACCCK_CTOR_OFFSET UNITYSDK_OFFSET(0x156966B0)
@@ -15,7 +15,7 @@ inline static constexpr unsigned int FBCJBKACCCK_TypeDefinitionIndex = 77275;
 	class FBCJBKACCCK : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* KIAIODODLEJ; // 0x10
+		::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* KIAIODODLEJ; // 0x10
 		::PGBLBOJBDGG* EEFMDEHLLFI; // 0x18
 		::BNLHGENFEHG* PDENFEFCAGN; // 0x20
 		::System::Single PJMDHCDIPPK; // 0x28

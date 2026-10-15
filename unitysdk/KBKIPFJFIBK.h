@@ -4,7 +4,7 @@
 class HDIAALCMDNG;
 class NGFHCJIAOLH;
 class OAIPJANPCEK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FloatCurve; }
 
 #define KBKIPFJFIBK_AGNCOPGOBKK_OFFSET UNITYSDK_OFFSET(0xB30B760)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int KBKIPFJFIBK_TypeDefinitionIndex = 77783;
 	class KBKIPFJFIBK : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* MBBMBOMFIGF; // 0x10
+		::Entitas::IGroup_1<::NGFHCJIAOLH*>* MBBMBOMFIGF; // 0x10
 		::HDIAALCMDNG* EEFMDEHLLFI; // 0x18
 		::RPG::GameCore::FloatCurve* PNIAOBBEAKG; // 0x20
 		::OAIPJANPCEK* PDENFEFCAGN; // 0x28

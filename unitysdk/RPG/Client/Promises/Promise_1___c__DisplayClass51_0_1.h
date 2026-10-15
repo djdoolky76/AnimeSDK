@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 namespace RPG::Client::Promises
 {
@@ -12,6 +12,6 @@ namespace RPG::Client::Promises
 	{
 	public:
 		::System::Int32 count; // 0x0
-		::RPG::Client::Promises::Promise* promise; // 0x0
+		::RPG::Client::Promises::Promise_1<T>* promise; // 0x0
 	};
 }

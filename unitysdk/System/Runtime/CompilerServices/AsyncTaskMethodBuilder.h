@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 #include "unitysdk/System/Threading/Tasks/VoidTaskResult.h"
 namespace System { class Exception; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2C7010)
 #define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKMETHODBUILDER_CREATE_OFFSET UNITYSDK_OFFSET(0x1C2C6EF0)
@@ -18,10 +20,10 @@ namespace System::Runtime::CompilerServices
 
 	struct alignas(8) AsyncTaskMethodBuilder
 	{
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder m_builder; // 0x10
-		static ::System::Threading::Tasks::Task** StaticGet_s_cachedCompleted()
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Threading::Tasks::VoidTaskResult> m_builder; // 0x10
+		static ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>** StaticGet_s_cachedCompleted()
 		{
-			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskMethodBuilder")->GetStaticField(0x15980);
+			return (::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskMethodBuilder")->GetStaticField(0x15980);
 		}
 
 		static ::System::Void _cctor()

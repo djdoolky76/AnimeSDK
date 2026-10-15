@@ -5,7 +5,7 @@ class DJJLNLJPGMJ;
 class HNNHKPKCMJD;
 class LAAOKALNHIO;
 class PCOMPBCHHKC;
-namespace Entitas { class IContext; }
+namespace Entitas { template <typename T> class IContext_1; }
 
 namespace RPG::Client::LittleGameShare
 {
@@ -15,7 +15,7 @@ namespace RPG::Client::LittleGameShare
 	class ClientAutonomousSnapShotSendProcessor_1 : public ::System::Object
 	{
 	public:
-		::Entitas::IContext* _Context; // 0x0
+		::Entitas::IContext_1<T>* _Context; // 0x0
 		::HNNHKPKCMJD* _ClientInstance; // 0x0
 		::System::Int32 _ReplicatedComponentIndex; // 0x0
 		::PCOMPBCHHKC* _CachedFrameSnapShotData; // 0x0

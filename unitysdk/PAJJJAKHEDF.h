@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OCNFFGBIMPD.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 class KPEBKEODGAO;
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define PAJJJAKHEDF_AFPFPECLGPG_OFFSET UNITYSDK_OFFSET(0xBFCBC00)
@@ -19,9 +19,9 @@ inline static constexpr unsigned int PAJJJAKHEDF_TypeDefinitionIndex = 72298;
 	class PAJJJAKHEDF : public ::OCNFFGBIMPD
 	{
 	public:
-		::System::Nullable* HPKHOOCAJGE; // 0x128
+		::System::Nullable_1<::RPG::GameCore::FixPoint> HPKHOOCAJGE; // 0x128
 		::System::Byte _padding0[0x8];
-		::System::Nullable* JALNOJCMIAH; // 0x138
+		::System::Nullable_1<::RPG::GameCore::FixPoint> JALNOJCMIAH; // 0x138
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PAJJJAKHEDF_CTOR_OFFSET))(this);

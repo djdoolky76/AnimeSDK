@@ -4,6 +4,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
@@ -26,7 +27,7 @@ namespace MiHoYo::SDK
 		::System::Action* timeoutCallback; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* reportDict; // 0x20
-		::System::Action* completeCallback; // 0x28
+		::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* completeCallback; // 0x28
 		::UnityEngine::Networking::UnityWebRequest* _request_5__4; // 0x30
 		::System::Func_1<::UnityEngine::Networking::UnityWebRequest*>* buildRequestFun; // 0x38
 		::System::Object* __2__current; // 0x40

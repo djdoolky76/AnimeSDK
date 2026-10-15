@@ -36,7 +36,8 @@
 #include "unitysdk/RPG/GameCore/TurnBasedModifierInstance_AdvancedDestroyParams.h"
 #include "unitysdk/RPG/GameCore/WeaknessStackOperationType.h"
 #include "unitysdk/RPG/MVector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/AJDILIJMINH.h"
 #include "unitysdk/CHMCAGBDPJH.h"
 #include "unitysdk/FNALLJBLNEI.h"
@@ -85,10 +86,9 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace RPG::GameCore { class TurnBasedModifierCallbackConfig; }
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -366,7 +366,7 @@ namespace RPG::GameCore
 		::AALKJGAHAHC* _CharacterChangeParam; // 0xE8
 		::LJGNANFNLDF* _UnselectableParams; // 0xF0
 		::RPG::PoolablePooledList_1<::ENGPHAKDGCI*>* _SkillTypeDisableList; // 0xF8
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::CLMEOCEIFBI*>*>* _DynamicRangeListenDict; // 0x100
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope>, ::System::Collections::Generic::List_1<::CLMEOCEIFBI*>*>* _DynamicRangeListenDict; // 0x100
 		::RPG::GameCore::GameEntity* _CreatePreshowEntity_k__BackingField; // 0x108
 		::RPG::PoolablePooledList_1<::DGOAGABJAPC>* _StackAdditionalTeamBpList; // 0x110
 		::Il2CppArray<::RPG::GameCore::StringHash>* _BindModifierValueArr; // 0x118
@@ -405,13 +405,13 @@ namespace RPG::GameCore
 		::System::String* _CustomUIModelAttachPointName_k__BackingField; // 0x238
 		::OGMEKHGDGJF* _ExtraStanceInfo; // 0x240
 		::System::Collections::Generic::List_1<::CLMEOCEIFBI*>* _ElationPointListen; // 0x248
-		::System::Nullable* _LayerForceSetWhenStack; // 0x250
+		::System::Nullable_1<::System::Int32> _LayerForceSetWhenStack; // 0x250
 		::System::Int32 _LayerAddWhenStack; // 0x258
 		::System::Single _ShowUIMessageDelayTime_k__BackingField; // 0x25C
 		::System::Int32 BaseMaxLayer; // 0x260
 		::System::Int32 _ShelvedUnstackAdditionalTeamBp; // 0x264
 		::System::Single _ShowUIMessageInternalTime_k__BackingField; // 0x268
-		::System::Nullable* OverrideUIIndex; // 0x26C
+		::System::Nullable_1<::System::Int32> OverrideUIIndex; // 0x26C
 		::RPG::GameCore::EnumStatusType _LockStepStatusType; // 0x274
 		::System::Int32 _HitEffectOverride; // 0x278
 		::System::Int32 _CurReOnstackVersion; // 0x27C
@@ -942,9 +942,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_ADDGLOBALSHIELD_OFFSET))(this, a1);
 		}
 
-		::System::Void StackSkillTargetRedirect(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::RedirectSkillTargetAffectTeam a2, ::RPG::GameCore::GameEntity* a3, ::System::Int32 a4, ::System::Action* a5)
+		::System::Void StackSkillTargetRedirect(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::RedirectSkillTargetAffectTeam a2, ::RPG::GameCore::GameEntity* a3, ::System::Int32 a4, ::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::RedirectSkillTargetAffectTeam, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_STACKSKILLTARGETREDIRECT_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::RedirectSkillTargetAffectTeam, ::RPG::GameCore::GameEntity*, ::System::Int32, ::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_STACKSKILLTARGETREDIRECT_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void UnstackSkillTargetRedirect()
@@ -1047,24 +1047,24 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::TurnBasedModifierConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETMODIFIERCONFIG_OFFSET))(this);
 		}
 
-		::System::Nullable* GetPerformTimeConfig()
+		::System::Nullable_1<::System::Single> GetPerformTimeConfig()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETPERFORMTIMECONFIG_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETPERFORMTIMECONFIG_OFFSET))(this);
 		}
 
-		::System::Nullable* GetForceKillRatio()
+		::System::Nullable_1<::System::Single> GetForceKillRatio()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETFORCEKILLRATIO_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETFORCEKILLRATIO_OFFSET))(this);
 		}
 
-		::System::Nullable* GetForceKillValue()
+		::System::Nullable_1<::System::Single> GetForceKillValue()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETFORCEKILLVALUE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETFORCEKILLVALUE_OFFSET))(this);
 		}
 
-		::System::Nullable* GetMechanicThresholdHPMarkRatio()
+		::System::Nullable_1<::System::Single> GetMechanicThresholdHPMarkRatio()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETMECHANICTHRESHOLDHPMARKRATIO_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_GETMECHANICTHRESHOLDHPMARKRATIO_OFFSET))(this);
 		}
 
 		::System::Boolean IsPhase1Finish()
@@ -1132,9 +1132,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_SETUPPRESHOWCONFIG_OFFSET))(this);
 		}
 
-		::System::Void SolvePreshowAffectedTargets(::RPG::GameCore::GameEntity* a1, ::System::Action* a2)
+		::System::Void SolvePreshowAffectedTargets(::RPG::GameCore::GameEntity* a1, ::System::Action_2<::RPG::GameCore::GameEntity*, ::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_SOLVEPRESHOWAFFECTEDTARGETS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Action_2<::RPG::GameCore::GameEntity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_SOLVEPRESHOWAFFECTEDTARGETS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean SolveCreateEntityPreshowConfig()
@@ -1302,39 +1302,39 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__MODIFIERLIFESTEP_OFFSET))(this);
 		}
 
-		::System::Void _OnDynamicValueChange(::System::ValueTuple a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void _OnDynamicValueChange(::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope> a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONDYNAMICVALUECHANGE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope>, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONDYNAMICVALUECHANGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnDynamicValueChange_Mdf(::RPG::GameCore::StringHash a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void _OnDynamicValueChange_Mdf(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONDYNAMICVALUECHANGE_MDF_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONDYNAMICVALUECHANGE_MDF_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnDynamicValueChange_Owner(::RPG::GameCore::StringHash a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void _OnDynamicValueChange_Owner(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONDYNAMICVALUECHANGE_OWNER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONDYNAMICVALUECHANGE_OWNER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnDynamicValueChange_Caster(::RPG::GameCore::StringHash a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void _OnDynamicValueChange_Caster(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONDYNAMICVALUECHANGE_CASTER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONDYNAMICVALUECHANGE_CASTER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnAbilityPropertyChange(::RPG::GameCore::AbilityProperty a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::CHMCAGBDPJH a5)
+		::System::Void _OnAbilityPropertyChange(::RPG::GameCore::AbilityProperty a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::CHMCAGBDPJH a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONABILITYPROPERTYCHANGE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONABILITYPROPERTYCHANGE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void _OnElationPointChange(::System::Nullable* a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::GameEntity* a3)
+		::System::Void _OnElationPointChange(::System::Nullable_1<::RPG::GameCore::FixPoint> a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::GameEntity* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONELATIONPOINTCHANGE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONELATIONPOINTCHANGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _OnRangeGroupChange(::System::Collections::Generic::List_1<::CLMEOCEIFBI*>* a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::CHMCAGBDPJH a5, ::RPG::GameCore::GameEntity* a6)
+		::System::Void _OnRangeGroupChange(::System::Collections::Generic::List_1<::CLMEOCEIFBI*>* a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::CHMCAGBDPJH a5, ::RPG::GameCore::GameEntity* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::CLMEOCEIFBI*>*, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONRANGEGROUPCHANGE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::CLMEOCEIFBI*>*, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE__ONRANGEGROUPCHANGE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void _SetupModifierBindValue()

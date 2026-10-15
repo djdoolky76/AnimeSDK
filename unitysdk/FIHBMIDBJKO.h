@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class ACBFNEKJDNP;
 namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCommonConfig; }
-namespace System { class Nullable; }
 
 #define FIHBMIDBJKO_CTOR_OFFSET UNITYSDK_OFFSET(0x157A7990)
 #define FIHBMIDBJKO_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x157A7700)
@@ -28,14 +28,14 @@ inline static constexpr unsigned int FIHBMIDBJKO_TypeDefinitionIndex = 69598;
 		::RPG::Client::CameraFightStateCommonConfig* _StateConfigWhenRangeAtk_k__BackingField; // 0x18
 		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x20
 		::ACBFNEKJDNP* LEOGIKABIGF; // 0x28
-		::System::Nullable* OCBKABJKEHG; // 0x30
+		::System::Nullable_1<::UnityEngine::Vector3> OCBKABJKEHG; // 0x30
 		::System::Byte _padding0[0x8];
 		::System::Boolean CDNFOAPHINA; // 0x40
 		::System::Byte _padding1[0x3];
 		::System::Single DMIGAHHPFMB; // 0x44
-		::System::Nullable* HAKKPBCKEOM; // 0x48
+		::System::Nullable_1<::UnityEngine::Vector3> HAKKPBCKEOM; // 0x48
 		::System::Byte _padding2[0x8];
-		::System::Nullable* CDPFEPMNABI; // 0x58
+		::System::Nullable_1<::UnityEngine::Vector3> CDPFEPMNABI; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIHBMIDBJKO_CTOR_OFFSET))(this);

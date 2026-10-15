@@ -14,7 +14,7 @@ class MNGELOJBJGC;
 class NLBAOLFBEGB;
 class OAOONIMHKLA;
 class PHIMNIFMBMI;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define IIDENDIJHHJ_AKFNOMNKGOL_OFFSET UNITYSDK_OFFSET(0x164387B0)
 #define IIDENDIJHHJ_BDGBLBNBELJ_OFFSET UNITYSDK_OFFSET(0x16438520)
@@ -41,69 +41,69 @@ inline static constexpr unsigned int IIDENDIJHHJ_TypeDefinitionIndex = 74901;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* GLGGODFGCCN(::System::UInt64 a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		::RPG::Client::Promises::IPromise_1<::OAOONIMHKLA*>* GLGGODFGCCN(::System::UInt64 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_GLGGODFGCCN_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::OAOONIMHKLA*>*(*)(::PVOID, ::System::UInt64, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_GLGGODFGCCN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* IPIPLFACGAO(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::CHNMJPLALEC*>* IPIPLFACGAO(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_IPIPLFACGAO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::CHNMJPLALEC*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_IPIPLFACGAO_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* KPPPCODAEAJ(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::IAKKHBENIOL*>* KPPPCODAEAJ(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_KPPPCODAEAJ_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IAKKHBENIOL*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_KPPPCODAEAJ_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* BDGBLBNBELJ(::System::UInt64 a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		::RPG::Client::Promises::IPromise_1<::FNKHNOMEMFD*>* BDGBLBNBELJ(::System::UInt64 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_BDGBLBNBELJ_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::FNKHNOMEMFD*>*(*)(::PVOID, ::System::UInt64, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_BDGBLBNBELJ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* LGKHKEBKACG(::System::UInt64 a1, ::System::UInt64 a2)
+		::RPG::Client::Promises::IPromise_1<::HAHEOGIBNHL*>* LGKHKEBKACG(::System::UInt64 a1, ::System::UInt64 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_LGKHKEBKACG_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::HAHEOGIBNHL*>*(*)(::PVOID, ::System::UInt64, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_LGKHKEBKACG_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* AKFNOMNKGOL(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::PHIMNIFMBMI*>* AKFNOMNKGOL(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_AKFNOMNKGOL_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::PHIMNIFMBMI*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_AKFNOMNKGOL_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* NOONNHNJJPP(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::BACPIBIJPPH*>* NOONNHNJJPP(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_NOONNHNJJPP_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::BACPIBIJPPH*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_NOONNHNJJPP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* FGFEKMFGENL()
+		::RPG::Client::Promises::IPromise_1<::DPOGMNFCMNN*>* FGFEKMFGENL()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_FGFEKMFGENL_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::DPOGMNFCMNN*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_FGFEKMFGENL_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* FKEMOEOFEOJ()
+		::RPG::Client::Promises::IPromise_1<::MIECIEKKIMJ*>* FKEMOEOFEOJ()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_FKEMOEOFEOJ_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::MIECIEKKIMJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_FKEMOEOFEOJ_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* KMFFHAFGPCF()
+		::RPG::Client::Promises::IPromise_1<::DCNIDBKPPCK*>* KMFFHAFGPCF()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_KMFFHAFGPCF_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::DCNIDBKPPCK*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_KMFFHAFGPCF_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* IFFCNMIFPBF(::System::UInt32 a1, ::System::UInt32 a2)
+		::RPG::Client::Promises::IPromise_1<::MNGELOJBJGC*>* IFFCNMIFPBF(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_IFFCNMIFPBF_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::MNGELOJBJGC*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_IFFCNMIFPBF_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* PJHPBHFMKLO()
+		::RPG::Client::Promises::IPromise_1<::NLBAOLFBEGB*>* PJHPBHFMKLO()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_PJHPBHFMKLO_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::NLBAOLFBEGB*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_PJHPBHFMKLO_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* GCPJAHDLNFK(::System::UInt64 a1)
+		::RPG::Client::Promises::IPromise_1<::IMDEBPDKCAJ*>* GCPJAHDLNFK(::System::UInt64 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_GCPJAHDLNFK_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IMDEBPDKCAJ*>*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IIDENDIJHHJ_GCPJAHDLNFK_OFFSET))(this, a1);
 		}
 
 	};

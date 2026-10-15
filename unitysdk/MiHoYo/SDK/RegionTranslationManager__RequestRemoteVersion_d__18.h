@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class RegionTranslationManager; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC2760)
 #define MIHOYO_SDK_REGIONTRANSLATIONMANAGER__REQUESTREMOTEVERSION_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BFC2BC0)
@@ -25,7 +26,7 @@ namespace MiHoYo::SDK
 		::System::Action* timeoutCallback; // 0x18
 		::MiHoYo::SDK::RegionTranslationManager* __4__this; // 0x20
 		::System::Object* __2__current; // 0x28
-		::System::Action* callback; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x30
 		::System::Int32 __1__state; // 0x38
 		::System::Void _ctor(::System::Int32 a1)
 		{

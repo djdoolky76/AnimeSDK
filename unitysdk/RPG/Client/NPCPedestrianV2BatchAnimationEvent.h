@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/BatchAnimationEvent.h"
 #include "unitysdk/UnityEngine/Rendering/BatchAnimEventObjCB.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Rendering { class BatchAnimEventObjCB_ExecuteEventFun; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
@@ -25,7 +25,7 @@ namespace RPG::Client
 		::Il2CppArray<::System::String*>* SignEvents; // 0x30
 		::Il2CppArray<::System::String*>* AudioEvents; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* EventMap; // 0x40
-		::System::Action* OnAnimationEventFire; // 0x48
+		::System::Action_2<::System::Int32, ::System::String*>* OnAnimationEventFire; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT_CTOR_OFFSET))(this);

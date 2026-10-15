@@ -12,8 +12,8 @@ namespace HoudiniEngineUnity { class HEU_SessionBase; }
 namespace HoudiniEngineUnity { class HEU_SyncedEventData; }
 namespace HoudiniEngineUnity { class HEU_ThreadedTaskLoadGeo; }
 namespace HoudiniEngineUnity { class HEU_ThreadedTaskLoadGeo_HEU_LoadData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
@@ -84,7 +84,7 @@ namespace HoudiniEngineUnity
 		::System::Text::StringBuilder* _error; // 0x60
 		::System::Boolean _sessionSyncAutoCook; // 0x68
 		::System::Byte _padding3[0x7];
-		::System::Action* _onSynced; // 0x70
+		::System::Action_1<::HoudiniEngineUnity::HEU_SyncedEventData*>* _onSynced; // 0x70
 		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* _loadTask; // 0x78
 		::System::Int32 _totalCookCount; // 0x80
 		::System::Boolean _firstSyncComplete; // 0x84
@@ -273,14 +273,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_BASESYNC_SYNCUPDATE_OFFSET))(this);
 		}
 
-		::System::Action* get_OnSynced()
+		::System::Action_1<::HoudiniEngineUnity::HEU_SyncedEventData*>* get_OnSynced()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_BASESYNC_GET_ONSYNCED_OFFSET))(this);
+			return ((::System::Action_1<::HoudiniEngineUnity::HEU_SyncedEventData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_BASESYNC_GET_ONSYNCED_OFFSET))(this);
 		}
 
-		::System::Void set_OnSynced(::System::Action* a1)
+		::System::Void set_OnSynced(::System::Action_1<::HoudiniEngineUnity::HEU_SyncedEventData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_BASESYNC_SET_ONSYNCED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::HoudiniEngineUnity::HEU_SyncedEventData*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_BASESYNC_SET_ONSYNCED_OFFSET))(this, a1);
 		}
 
 	};

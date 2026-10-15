@@ -5,8 +5,9 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/ACCGBEKMHNF.h"
+#include "unitysdk/System/Nullable_1.h"
 class BOMFGKDLHIB;
 class CAKNHIMMBOM;
 class DJDFAOHODOI;
@@ -16,7 +17,6 @@ class JODOCGMOPJJ;
 class KPCPIMINKPL;
 class LMNNKEACHLL;
 class OOLCJNAFGCE;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -57,7 +57,7 @@ inline static constexpr unsigned int MGBHKCAGFKO_TypeDefinitionIndex = 42299;
 	class MGBHKCAGFKO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::CAKNHIMMBOM*>* HIJPJBGAADF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::CAKNHIMMBOM*>* HIJPJBGAADF; // 0x10
 		::BOMFGKDLHIB* PDENFEFCAGN; // 0x18
 		::FDPALAEIHPB* FKINCGODJEP; // 0x20
 		::System::Collections::Generic::List_1<::KPCPIMINKPL*>* MENOBJEFELB; // 0x28
@@ -82,39 +82,39 @@ inline static constexpr unsigned int MGBHKCAGFKO_TypeDefinitionIndex = 42299;
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_MNLCEMNEIOE_OFFSET))(this);
 		}
 
-		::System::Void OEKDKMAKONP(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::LittleGame::Match3::ViewMomentType a4, ::System::ValueTuple a5, ::System::Nullable* a6, ::System::UInt32 a7, ::RPG::GameCore::Match3::BombType a8, ::RPG::GameCore::Match3::PieceTag a9, ::System::Boolean a10)
+		::System::Void OEKDKMAKONP(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::LittleGame::Match3::ViewMomentType a4, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a5, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a6, ::System::UInt32 a7, ::RPG::GameCore::Match3::BombType a8, ::RPG::GameCore::Match3::PieceTag a9, ::System::Boolean a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::ViewMomentType, ::System::ValueTuple, ::System::Nullable*, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::Boolean))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_OEKDKMAKONP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::LittleGame::Match3::ViewMomentType, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::Boolean))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_OEKDKMAKONP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::UInt32 KEJFGJACPJP(::System::UInt32 a1, ::System::UInt32 a2, ::System::ValueTuple a3, ::RPG::Client::LittleGame::Match3::GridLocalPoint a4, ::System::UInt32 a5)
+		::System::UInt32 KEJFGJACPJP(::System::UInt32 a1, ::System::UInt32 a2, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a3, ::RPG::Client::LittleGame::Match3::GridLocalPoint a4, ::System::UInt32 a5)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::ValueTuple, ::RPG::Client::LittleGame::Match3::GridLocalPoint, ::System::UInt32))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_KEJFGJACPJP_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::Client::LittleGame::Match3::GridLocalPoint, ::System::UInt32))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_KEJFGJACPJP_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::UInt32 ENDANOPPLNC(::System::UInt32 a1, ::System::ValueTuple a2, ::System::UInt32 a3, ::RPG::GameCore::Match3::BombType a4, ::RPG::GameCore::Match3::PieceTag a5, ::System::Single a6)
+		::System::UInt32 ENDANOPPLNC(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::UInt32 a3, ::RPG::GameCore::Match3::BombType a4, ::RPG::GameCore::Match3::PieceTag a5, ::System::Single a6)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::Single))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_ENDANOPPLNC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::System::Single))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_ENDANOPPLNC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::UInt32 GIIFGOMKFIC(::System::UInt32 a1, ::System::ValueTuple a2, ::System::UInt32 a3, ::RPG::GameCore::Match3::BombType a4, ::System::UInt32 a5, ::System::Nullable* a6, ::System::Boolean a7)
+		::System::UInt32 GIIFGOMKFIC(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::UInt32 a3, ::RPG::GameCore::Match3::BombType a4, ::System::UInt32 a5, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> a6, ::System::Boolean a7)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::System::UInt32, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_GIIFGOMKFIC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::System::UInt32, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>, ::System::Boolean))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_GIIFGOMKFIC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::UInt32 BJMMLHKPILL(::System::UInt32 a1, ::System::ValueTuple a2, ::RPG::GameCore::Match3::BombType a3)
+		::System::UInt32 BJMMLHKPILL(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::RPG::GameCore::Match3::BombType a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_BJMMLHKPILL_OFFSET))(this, a1, a2, a3);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_BJMMLHKPILL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::UInt32 GHGFFNOHGKN(::ACCGBEKMHNF a1, ::System::Collections::Generic::List_1<::System::ValueTuple>* a2)
+		::System::UInt32 GHGFFNOHGKN(::ACCGBEKMHNF a1, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::ACCGBEKMHNF, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_GHGFFNOHGKN_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::ACCGBEKMHNF, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_GHGFFNOHGKN_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 DOPADIDGJCC(::System::UInt32 a1, ::System::ValueTuple a2, ::System::ValueTuple a3)
+		::System::UInt32 DOPADIDGJCC(::System::UInt32 a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_DOPADIDGJCC_OFFSET))(this, a1, a2, a3);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_DOPADIDGJCC_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void NPOIJHNEGEO(::JODOCGMOPJJ* a1)
@@ -132,14 +132,14 @@ inline static constexpr unsigned int MGBHKCAGFKO_TypeDefinitionIndex = 42299;
 			return ((::System::Void(*)(::PVOID, ::JODOCGMOPJJ*))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_AAJCEHAIGEH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean PJOJKEDHGHC(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Boolean PJOJKEDHGHC(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_PJOJKEDHGHC_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_PJOJKEDHGHC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean LHKFNPOIPDO(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Boolean LHKFNPOIPDO(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_LHKFNPOIPDO_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_LHKFNPOIPDO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean OJLBAPJLIHJ(::LMNNKEACHLL* a1)
@@ -172,9 +172,9 @@ inline static constexpr unsigned int MGBHKCAGFKO_TypeDefinitionIndex = 42299;
 			return ((::System::Void(*)(::PVOID, ::CAKNHIMMBOM*, ::RPG::GameCore::Match3::PieceTag))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_GCHOJBNMCDL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CEFFBENPJDE(::System::ValueTuple a1)
+		::System::Void CEFFBENPJDE(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_CEFFBENPJDE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_CEFFBENPJDE_OFFSET))(this, a1);
 		}
 
 		::System::Void HCIHEAHDFOE(::CAKNHIMMBOM* a1, ::RPG::GameCore::Match3::PieceTag a2)
@@ -187,14 +187,14 @@ inline static constexpr unsigned int MGBHKCAGFKO_TypeDefinitionIndex = 42299;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_JPJJIADOPAB_OFFSET))(this);
 		}
 
-		::CAKNHIMMBOM* DLKMFBLBILA(::System::ValueTuple a1)
+		::CAKNHIMMBOM* DLKMFBLBILA(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::CAKNHIMMBOM*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_DLKMFBLBILA_OFFSET))(this, a1);
+			return ((::CAKNHIMMBOM*(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_DLKMFBLBILA_OFFSET))(this, a1);
 		}
 
-		::OOLCJNAFGCE* DFAJAFNEBDD(::JODOCGMOPJJ* a1, ::System::ValueTuple a2)
+		::OOLCJNAFGCE* DFAJAFNEBDD(::JODOCGMOPJJ* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::OOLCJNAFGCE*(*)(::PVOID, ::JODOCGMOPJJ*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_DFAJAFNEBDD_OFFSET))(this, a1, a2);
+			return ((::OOLCJNAFGCE*(*)(::PVOID, ::JODOCGMOPJJ*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + MGBHKCAGFKO_DFAJAFNEBDD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void HFFBLMDBONE()

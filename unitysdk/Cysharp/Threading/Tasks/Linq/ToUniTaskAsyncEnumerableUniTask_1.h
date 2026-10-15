@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace Cysharp::Threading::Tasks::Linq
@@ -11,6 +11,6 @@ namespace Cysharp::Threading::Tasks::Linq
 	class ToUniTaskAsyncEnumerableUniTask_1 : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::UniTask source; // 0x0
+		::Cysharp::Threading::Tasks::UniTask_1<T> source; // 0x0
 	};
 }

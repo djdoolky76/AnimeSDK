@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BMIKHDAIIMO.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KLEFGGIHGMI;
 class LJFHKAJPFNE;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class StreamingLayerDetail; }
-namespace System { class Nullable; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -24,13 +24,13 @@ inline static constexpr unsigned int HANCMHGEOJM_TypeDefinitionIndex = 73884;
 	class HANCMHGEOJM : public ::BMIKHDAIIMO
 	{
 	public:
-		::System::Nullable* ONAFKLJMHIH; // 0x288
+		::System::Nullable_1<::UnityEngine::Vector3> ONAFKLJMHIH; // 0x288
 		::System::Byte _padding0[0x8];
 		::System::Int32 ENNBKAEMKHD; // 0x298
 		::System::Int32 KHBFNMDLILM; // 0x29C
-		::System::Void _ctor(::RPG::Client::OpenWorld::StreamingLayerDetail* a1, ::LJFHKAJPFNE* a2, ::KLEFGGIHGMI* a3, ::UnityEngine::GameObject* a4, ::UnityEngine::GameObject* a5, ::System::Nullable* a6)
+		::System::Void _ctor(::RPG::Client::OpenWorld::StreamingLayerDetail* a1, ::LJFHKAJPFNE* a2, ::KLEFGGIHGMI* a3, ::UnityEngine::GameObject* a4, ::UnityEngine::GameObject* a5, ::System::Nullable_1<::UnityEngine::Vector3> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingLayerDetail*, ::LJFHKAJPFNE*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Nullable*))((::PBYTE)hIl2Cpp + HANCMHGEOJM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingLayerDetail*, ::LJFHKAJPFNE*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + HANCMHGEOJM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void LBHFAIAKKBO()

@@ -5,9 +5,9 @@ class OGGELMMFPKP;
 class ONGCOFFLIAE;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -49,14 +49,14 @@ inline static constexpr unsigned int ONGCOFFLIAE_TypeDefinitionIndex = 27114;
 		::System::Byte _padding0[0x3];
 		::System::UInt32 CJDCPGBIKLD; // 0x28
 		::System::UInt32 EMKEKCNFOKB; // 0x2C
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::ONGCOFFLIAE*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "ONGCOFFLIAE")->GetStaticField(0x2C390);
+			return (::Google::Protobuf::MessageParser_1<::ONGCOFFLIAE*>**)UnitySDK::FromName("", "ONGCOFFLIAE")->GetStaticField(0x2C390);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet_JOBPFBDCJKI()
+		static ::Google::Protobuf::FieldCodec_1<::OGGELMMFPKP*>** StaticGet_JOBPFBDCJKI()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "ONGCOFFLIAE")->GetStaticField(0x2C398);
+			return (::Google::Protobuf::FieldCodec_1<::OGGELMMFPKP*>**)UnitySDK::FromName("", "ONGCOFFLIAE")->GetStaticField(0x2C398);
 		}
 
 		// static const ::System::Object NMOKPCBINBM; // 0x0
@@ -79,9 +79,9 @@ inline static constexpr unsigned int ONGCOFFLIAE_TypeDefinitionIndex = 27114;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ONGCOFFLIAE_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::ONGCOFFLIAE*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + ONGCOFFLIAE_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::ONGCOFFLIAE*>*(*)())((::PBYTE)hIl2Cpp + ONGCOFFLIAE_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

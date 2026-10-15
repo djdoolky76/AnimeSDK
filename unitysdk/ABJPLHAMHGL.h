@@ -10,7 +10,7 @@ class IKIGGAKDIGO;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class String; }
 
 #define ABJPLHAMHGL_CBBCHEJOHCM_OFFSET UNITYSDK_OFFSET(0xB0FD1F0)
@@ -49,7 +49,7 @@ inline static constexpr unsigned int ABJPLHAMHGL_TypeDefinitionIndex = 76917;
 	class ABJPLHAMHGL : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* PNMFKECKGAM; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* PNMFKECKGAM; // 0x10
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x18
 		::Il2CppArray<::UnityEngine::Vector3>* MANEFIHDGNN; // 0x20
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x28
@@ -199,9 +199,9 @@ inline static constexpr unsigned int ABJPLHAMHGL_TypeDefinitionIndex = 76917;
 			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::HIOEAKHGILF*, ::UnityEngine::Bounds, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ABJPLHAMHGL_JLNBEBDLKAN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		::System::Void NJEDAGBOEND(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void NJEDAGBOEND(::Entitas::IGroup_1<::HIOEAKHGILF*>* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + ABJPLHAMHGL_NJEDAGBOEND_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::HIOEAKHGILF*>*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + ABJPLHAMHGL_NJEDAGBOEND_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 	};

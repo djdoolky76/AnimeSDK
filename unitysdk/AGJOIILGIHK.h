@@ -5,6 +5,7 @@
 #include "unitysdk/RPG/GameCore/EmojiGenderEnum.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class HHJLCGGEHPB;
 class JBJNJPAOCDA;
 class JOLAHHGIFHA;
@@ -18,7 +19,6 @@ namespace RPG::Client { class ChatMessageData; }
 namespace RPG::Client { class PlayerBriefDisplayData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -194,9 +194,9 @@ inline static constexpr unsigned int AGJOIILGIHK_TypeDefinitionIndex = 66409;
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + AGJOIILGIHK_CKGNJOLAJGP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>* IJGCHPKNHHD()
+		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*>>* IJGCHPKNHHD()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOIILGIHK_IJGCHPKNHHD_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::GameEntity*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOIILGIHK_IJGCHPKNHHD_OFFSET))(this);
 		}
 
 		::System::UInt32 APMFFKHBAGG(::System::UInt32 a1)

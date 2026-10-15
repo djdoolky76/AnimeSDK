@@ -8,12 +8,14 @@
 #include "unitysdk/RPG/GameCore/FieldHideMode.h"
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 #include "unitysdk/RPG/GameCore/MonoEffectFlag.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/Client/MonoEffectManager_FieldEffectBudgetInfo.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/RPG/Client/TriggerEffectParamsRef.h"
+#include "unitysdk/System/Nullable_1.h"
 class CELDMKCEPAO;
 class JIODDGGGIDI;
 class JNAAKDCEPNP;
@@ -32,10 +34,10 @@ namespace RPG::GameCore { class ModifierBindEffectConfig; }
 namespace RPG::GameCore { class MonoEffectLodConfig; }
 namespace RPG::GameCore { class MonoEffectLodDetail; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -243,7 +245,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffect*>* _EffectList; // 0x40
 		::Il2CppArray<::System::String*>* _HideEffectPaths; // 0x48
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginBase*>* _EndOfLateTickPlugins; // 0x50
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _WaitEntityModelLoadedEffect; // 0x58
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::GameEntity*, ::System::Action*>>* _WaitEntityModelLoadedEffect; // 0x58
 		::Il2CppArray<::RPG::GameCore::FieldHideMode>* _HideFieldEffectModeGroupSet; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::CELDMKCEPAO*>* _EffectLODComponentMapping; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::MonoEffect*>* _ParticleSystemInsIdToMonoEffectMap; // 0x70
@@ -252,12 +254,12 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* _ToRemoveUniqueIdList; // 0x88
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffect*>* _hideEffectList; // 0x90
 		::UnityEngine::GameObject* _SEManagerGO; // 0x98
-		::System::Action* OnRemoveEffectInstance; // 0xA0
-		::System::Action* OnWillFireEffectInstance; // 0xA8
+		::System::Action_1<::RPG::Client::MonoEffect*>* OnRemoveEffectInstance; // 0xA0
+		::System::Action_1<::RPG::Client::TriggerEffectParams*>* OnWillFireEffectInstance; // 0xA8
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3>* _EntityEffectScaleMapping; // 0xB0
-		::System::Action* OnFireEffectSuccess; // 0xB8
+		::System::Action_2<::RPG::Client::TriggerEffectParams*, ::System::Boolean>* OnFireEffectSuccess; // 0xB8
 		::System::Collections::Generic::List_1<::System::Object*>* _ToRemoveAsyncSpawnEffectList; // 0xC0
-		::System::Action* OnFireEffectInstance; // 0xC8
+		::System::Action_1<::RPG::Client::MonoEffect*>* OnFireEffectInstance; // 0xC8
 		::UnityEngine::Playables::PlayableDirector* _AttachedTimeline; // 0xD0
 		::UnityEngine::Pooled::PooledList_1<::UnityEngine::ParticleSystem*>* _TempPsList; // 0xD8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* EffectNameVertexCountMap; // 0xE0
@@ -1046,9 +1048,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER_ENABLEEFFECTBYCHARACTERMASK_OFFSET))(this, a1);
 		}
 
-		::System::Void HideTargetModifierAttachedEffect(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::System::Nullable* a2)
+		::System::Void HideTargetModifierAttachedEffect(::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a1, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER_HIDETARGETMODIFIERATTACHEDEFFECT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER_HIDETARGETMODIFIERATTACHEDEFFECT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ClearHideTarget()
@@ -1056,14 +1058,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER_CLEARHIDETARGET_OFFSET))(this);
 		}
 
-		::System::Void HideAvatarModifierAttachedEffect(::System::Boolean a1, ::System::Nullable* a2)
+		::System::Void HideAvatarModifierAttachedEffect(::System::Boolean a1, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER_HIDEAVATARMODIFIERATTACHEDEFFECT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER_HIDEAVATARMODIFIERATTACHEDEFFECT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void HideMonsterModifierAttachedEffect(::System::Boolean a1, ::System::Nullable* a2)
+		::System::Void HideMonsterModifierAttachedEffect(::System::Boolean a1, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER_HIDEMONSTERMODIFIERATTACHEDEFFECT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER_HIDEMONSTERMODIFIERATTACHEDEFFECT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsNeedRecoverDarkTimelineSkillEffect()
@@ -1146,9 +1148,9 @@ namespace RPG::Client
 			return ((::JIODDGGGIDI*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER__GETMODELCOMPONENT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 _GetInitPositionByEntity(::RPG::GameCore::GameEntity* a1, ::System::Nullable* a2)
+		::UnityEngine::Vector3 _GetInitPositionByEntity(::RPG::GameCore::GameEntity* a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER__GETINITPOSITIONBYENTITY_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTMANAGER__GETINITPOSITIONBYENTITY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _AddToEffectList(::RPG::Client::MonoEffect* a1)

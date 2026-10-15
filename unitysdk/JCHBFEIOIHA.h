@@ -7,6 +7,7 @@ class OEECGAHNFDI;
 class PKBOFOOJCGL;
 namespace System { class Action; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define JCHBFEIOIHA_AKPIEMKIKEP_OFFSET UNITYSDK_OFFSET(0x1658B300)
@@ -27,7 +28,7 @@ inline static constexpr unsigned int JCHBFEIOIHA_TypeDefinitionIndex = 75553;
 	public:
 		::PKBOFOOJCGL* _Controller_k__BackingField; // 0x10
 		::System::Action* BBAONIHHGGL; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action*>* EFBHGNCEAEE; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_1<::OEECGAHNFDI*>*>* EFBHGNCEAEE; // 0x20
 		::RPG::Client::ActivityHipplen::ActivityHipplenIncidentStepState DLNIGFGLPLJ; // 0x28
 		::System::Void _ctor(::PKBOFOOJCGL* a1)
 		{

@@ -4,9 +4,9 @@
 class DOLCPKAMCEM;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
@@ -35,14 +35,14 @@ inline static constexpr unsigned int DOLCPKAMCEM_TypeDefinitionIndex = 29853;
 	public:
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* GKEOPFNABME; // 0x18
-		static ::Google::Protobuf::FieldCodec** StaticGet_FNHJCKOIEON()
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FNHJCKOIEON()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("", "DOLCPKAMCEM")->GetStaticField(0x42200);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "DOLCPKAMCEM")->GetStaticField(0x42200);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		static ::Google::Protobuf::MessageParser_1<::DOLCPKAMCEM*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "DOLCPKAMCEM")->GetStaticField(0x42208);
+			return (::Google::Protobuf::MessageParser_1<::DOLCPKAMCEM*>**)UnitySDK::FromName("", "DOLCPKAMCEM")->GetStaticField(0x42208);
 		}
 
 		// static const ::System::Object NIEBGNHGDIH; // 0x0
@@ -61,9 +61,9 @@ inline static constexpr unsigned int DOLCPKAMCEM_TypeDefinitionIndex = 29853;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + DOLCPKAMCEM_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		static ::Google::Protobuf::MessageParser_1<::DOLCPKAMCEM*>* JJGHOBBFNJD()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + DOLCPKAMCEM_JJGHOBBFNJD_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::DOLCPKAMCEM*>*(*)())((::PBYTE)hIl2Cpp + DOLCPKAMCEM_JJGHOBBFNJD_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

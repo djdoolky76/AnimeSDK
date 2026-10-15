@@ -27,9 +27,9 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelProductsParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelProductsResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelQueryParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelQueryResult; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Threading { class ManualResetEvent; }
 
@@ -83,9 +83,9 @@ namespace MiHoYo::SDK
 			return (::MiHoYo::SDK::HoYoChannelSocialServices**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20B78);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet_s_authTokenCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*>** StaticGet_s_authTokenCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20B80);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20B80);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_entitlementsTimeouts()
@@ -98,9 +98,9 @@ namespace MiHoYo::SDK
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20B90);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet_s_productsCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*>*>** StaticGet_s_productsCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20B98);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20B98);
 		}
 
 		static ::System::Object** StaticGet_s_entitlementsLock()
@@ -118,9 +118,9 @@ namespace MiHoYo::SDK
 			return (::System::Threading::ManualResetEvent**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BB0);
 		}
 
-		static ::System::Action** StaticGet_s_gameOverlayCallback()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelGameOverlayResult*>** StaticGet_s_gameOverlayCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BB8);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelGameOverlayResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BB8);
 		}
 
 		static ::MiHoYo::SDK::HoYoChannelGameplayServices** StaticGet_s_gameplayServices()
@@ -138,9 +138,9 @@ namespace MiHoYo::SDK
 			return (::MiHoYo::SDK::PC::OS::HoYoChannelQueryResult**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BD0);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet_s_entitlementsCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*>*>** StaticGet_s_entitlementsCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BD8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BD8);
 		}
 
 		static ::System::Object** StaticGet_s_loginLock()
@@ -153,9 +153,9 @@ namespace MiHoYo::SDK
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BE8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet_s_loginCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLoginResult*>*>** StaticGet_s_loginCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BF0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLoginResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20BF0);
 		}
 
 		static ::MiHoYo::SDK::HoYoChannelSystemFunctions** StaticGet_s_systemInterface()
@@ -178,14 +178,14 @@ namespace MiHoYo::SDK
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C10);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet_s_checkoutCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*>*>** StaticGet_s_checkoutCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C18);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C18);
 		}
 
-		static ::System::Action** StaticGet_s_microTxnCallback()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*>** StaticGet_s_microTxnCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C20);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C20);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_loginTimeouts()
@@ -193,14 +193,14 @@ namespace MiHoYo::SDK
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C28);
 		}
 
-		static ::System::Action** StaticGet_s_authStatusCallback()
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*>** StaticGet_s_authStatusCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C30);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C30);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>** StaticGet_s_consumeCallbacks()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>*>** StaticGet_s_consumeCallbacks()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C38);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>*>**)UnitySDK::FromName("MiHoYo.SDK", "HoYoChannelInterface")->GetStaticField(0x20C38);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::DateTime>** StaticGet_s_consumeTimeouts()
@@ -310,9 +310,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_ONINITCALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Login(::MiHoYo::SDK::PC::OS::HoYoChannelLoginParams* a1, ::System::Action* a2)
+		static ::System::Void Login(::MiHoYo::SDK::PC::OS::HoYoChannelLoginParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLoginResult*>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelLoginParams*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_LOGIN_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelLoginParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelLoginResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_LOGIN_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void OnLoginCallback(::System::Int32 a1, ::System::String* a2)
@@ -320,9 +320,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_ONLOGINCALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AuthToken(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams* a1, ::System::Action* a2)
+		static ::System::Void AuthToken(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_AUTHTOKEN_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_AUTHTOKEN_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void OnAuthTokenCallback(::System::Int32 a1, ::System::String* a2)
@@ -330,9 +330,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_ONAUTHTOKENCALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Products(::MiHoYo::SDK::PC::OS::HoYoChannelProductsParams* a1, ::System::Action* a2)
+		static ::System::Void Products(::MiHoYo::SDK::PC::OS::HoYoChannelProductsParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelProductsParams*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_PRODUCTS_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelProductsParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelProductsResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_PRODUCTS_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void OnProductsCallback(::System::Int32 a1, ::System::String* a2)
@@ -340,9 +340,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_ONPRODUCTSCALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Checkout(::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutParams* a1, ::System::Action* a2)
+		static ::System::Void Checkout(::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutParams*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_CHECKOUT_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelCheckoutResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_CHECKOUT_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void OnCheckoutCallback(::System::Int32 a1, ::System::String* a2)
@@ -350,9 +350,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_ONCHECKOUTCALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CheckEntitlements(::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsParams* a1, ::System::Action* a2)
+		static ::System::Void CheckEntitlements(::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsParams*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_CHECKENTITLEMENTS_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelEntitlementsResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_CHECKENTITLEMENTS_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void OnEntitlementsCallback(::System::Int32 a1, ::System::String* a2)
@@ -360,9 +360,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_ONENTITLEMENTSCALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Consume(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeParams* a1, ::System::Action* a2)
+		static ::System::Void Consume(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeParams* a1, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>* a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeParams*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_CONSUME_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::PC::OS::HoYoChannelConsumeParams*, ::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelConsumeResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_CONSUME_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void OnConsumeCallback(::System::Int32 a1, ::System::String* a2)
@@ -370,19 +370,19 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_ONCONSUMECALLBACK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void RegisterMicroTxnCallback(::System::Action* a1)
+		static ::System::Void RegisterMicroTxnCallback(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERMICROTXNCALLBACK_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERMICROTXNCALLBACK_OFFSET))(a1);
 		}
 
-		static ::System::Void RegisterGameOverlayCallback(::System::Action* a1)
+		static ::System::Void RegisterGameOverlayCallback(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelGameOverlayResult*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERGAMEOVERLAYCALLBACK_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelGameOverlayResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERGAMEOVERLAYCALLBACK_OFFSET))(a1);
 		}
 
-		static ::System::Void RegisterAuthStatusChangedCallback(::System::Action* a1)
+		static ::System::Void RegisterAuthStatusChangedCallback(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERAUTHSTATUSCHANGEDCALLBACK_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOCHANNELINTERFACE_REGISTERAUTHSTATUSCHANGEDCALLBACK_OFFSET))(a1);
 		}
 
 		static ::System::Void UnregisterCallback(::MiHoYo::SDK::HoYoChannelSDK_CallbackType a1)

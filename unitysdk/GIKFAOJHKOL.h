@@ -4,7 +4,7 @@
 class MGODMMLBALG;
 namespace RPG::Client { class TeamBuildCalculator; }
 namespace RPG::Client { class TeamBuildSynopsis; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define GIKFAOJHKOL_BJAMFLGEBMI_OFFSET UNITYSDK_OFFSET(0x15A40D30)
@@ -25,9 +25,9 @@ inline static constexpr unsigned int GIKFAOJHKOL_TypeDefinitionIndex = 61893;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* LBKCMJJFKOG()
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*>* LBKCMJJFKOG()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_LBKCMJJFKOG_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_LBKCMJJFKOG_OFFSET))(this);
 		}
 
 		::System::Void BJAMFLGEBMI()

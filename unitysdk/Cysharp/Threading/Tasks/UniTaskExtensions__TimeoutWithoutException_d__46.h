@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/DelayType.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
@@ -21,7 +21,7 @@ namespace Cysharp::Threading::Tasks
 	{
 		::System::Threading::CancellationTokenSource* taskCancellationTokenSource; // 0x10
 		::System::Threading::CancellationTokenSource* _delayCancellationTokenSource_5__2; // 0x18
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x20
 		::System::Byte _padding0[0x10];
 		::System::Object* __u__1; // 0x38
 		::System::Byte _padding1[0x10];

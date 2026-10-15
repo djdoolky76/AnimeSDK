@@ -7,6 +7,7 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::Win { class RealPersonManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_REALPERSONMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDE86D0)
 #define MIHOYO_SDK_WIN_REALPERSONMANAGER_CHECKREALPERSON_OFFSET UNITYSDK_OFFSET(0x1BDE7930)
@@ -94,24 +95,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOW_B__4_1_OFFSET))(this);
 		}
 
-		::System::Void _ShowRealPersonPluginUI_b__5_0(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowRealPersonPluginUI_b__5_0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOWREALPERSONPLUGINUI_B__5_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOWREALPERSONPLUGINUI_B__5_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowRealPersonPluginUI_b__5_1(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowRealPersonPluginUI_b__5_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOWREALPERSONPLUGINUI_B__5_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOWREALPERSONPLUGINUI_B__5_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowRealPersonPluginUI_b__5_2(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowRealPersonPluginUI_b__5_2(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOWREALPERSONPLUGINUI_B__5_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOWREALPERSONPLUGINUI_B__5_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowRealPersonPluginUI_b__5_3(::System::String* a1, ::System::Action* a2)
+		::System::Void _ShowRealPersonPluginUI_b__5_3(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOWREALPERSONPLUGINUI_B__5_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALPERSONMANAGER__SHOWREALPERSONPLUGINUI_B__5_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _NotVerify_b__9_0(::MiHoYo::SDK::Confirm_ConfirmResult a1)

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::MechCraft::View { class MechCraftIntegrationBarControl; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTINTEGRATIONBARCONTROL___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD646970)
@@ -17,7 +17,7 @@ namespace RPG::Client::MechCraft::View
 	{
 	public:
 		::RPG::Client::MechCraft::View::MechCraftIntegrationBarControl* __4__this; // 0x10
-		::System::Nullable* previousPercent; // 0x18
+		::System::Nullable_1<::System::Int32> previousPercent; // 0x18
 		::System::Int32 currentPercent; // 0x20
 		::System::Void _ctor()
 		{

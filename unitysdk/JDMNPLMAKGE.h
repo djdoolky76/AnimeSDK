@@ -7,11 +7,11 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class AHPGNJNPGPA;
 namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define JDMNPLMAKGE_BFKDBGMADKP_OFFSET UNITYSDK_OFFSET(0x2E850F0)
@@ -46,13 +46,13 @@ inline static constexpr unsigned int JDMNPLMAKGE_TypeDefinitionIndex = 54425;
 		::System::String* HFLDHJHJNCF; // 0x70
 		::RPG::MVector3 MCKNKIMMPCC; // 0x78
 		::System::Byte _padding3[0x4];
-		::System::Nullable* PGANAAKKMOA; // 0x88
+		::System::Nullable_1<::RPG::GameCore::FixPoint> PGANAAKKMOA; // 0x88
 		::System::Byte _padding4[0x8];
-		::System::Nullable* LIHDDCJDALN; // 0x98
+		::System::Nullable_1<::System::UInt32> LIHDDCJDALN; // 0x98
 		::System::Single HFBFNLKGIDN; // 0xA0
 		::System::Byte _padding5[0x4];
 		::System::String* MAOMFGBJACJ; // 0xA8
-		::System::Nullable* DOGLPHFNGPK; // 0xB0
+		::System::Nullable_1<::RPG::GameCore::ElementDamageType> DOGLPHFNGPK; // 0xB0
 		::System::String* OCMJCIFFBHF; // 0xB8
 		::System::Boolean PBOJPLGNLKD; // 0xC0
 		::System::Boolean JAHAMKOPFHG; // 0xC1

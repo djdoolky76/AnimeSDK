@@ -7,8 +7,8 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightPlayer; }
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightTeam; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventHandler; }
@@ -36,7 +36,7 @@ inline static constexpr unsigned int GCMCEDELOJL_TypeDefinitionIndex = 65319;
 		::RPG::Client::GridFightPlayer* CMNJDMKPPIA; // 0x18
 		::RPG::Client::GridFightEquipInfo* NCHCLADAFBP; // 0x20
 		::RPG::Client::GridFightTeam* GJHCMKBNING; // 0x28
-		::System::Action* EMLDHINHNHP; // 0x30
+		::System::Action_2<::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>* EMLDHINHNHP; // 0x30
 		::System::Void _ctor(::RPG::Client::GridFightTeam* a1, ::RPG::Client::GridFightPlayer* a2, ::RPG::Client::GridFightEquipInfo* a3, ::RPG::Client::GridFightConsumableInfo* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTeam*, ::RPG::Client::GridFightPlayer*, ::RPG::Client::GridFightEquipInfo*, ::RPG::Client::GridFightConsumableInfo*))((::PBYTE)hIl2Cpp + GCMCEDELOJL_CTOR_OFFSET))(this, a1, a2, a3, a4);

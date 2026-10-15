@@ -3,9 +3,9 @@
 class FDPALAEIHPB;
 class KHPOKIKCOFO;
 class PDADGGHNJKF;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IContext; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IContext_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define NDCLMFLGOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C943A20)
@@ -18,7 +18,7 @@ inline static constexpr unsigned int NDCLMFLGOKP_TypeDefinitionIndex = 42866;
 	class NDCLMFLGOKP
 	{
 	public:
-		::Entitas::IGroup* PMBNNOOFAOM; // 0x28
+		::Entitas::IGroup_1<::KHPOKIKCOFO*>* PMBNNOOFAOM; // 0x28
 		::System::Collections::Generic::List_1<::PDADGGHNJKF*>* BGKHCJPFFLN; // 0x30
 		::System::Collections::Generic::List_1<::KHPOKIKCOFO*>* DBNOOEHAEAC; // 0x38
 		::System::Void _ctor(::FDPALAEIHPB* a1)
@@ -26,9 +26,9 @@ inline static constexpr unsigned int NDCLMFLGOKP_TypeDefinitionIndex = 42866;
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*))((::PBYTE)hIl2Cpp + NDCLMFLGOKP_CTOR_OFFSET))(this, a1);
 		}
 
-		::Entitas::ICollector* GetTrigger(::Entitas::IContext* a1)
+		::Entitas::ICollector_1<::KHPOKIKCOFO*>* GetTrigger(::Entitas::IContext_1<::KHPOKIKCOFO*>* a1)
 		{
-			return ((::Entitas::ICollector*(*)(::PVOID, ::Entitas::IContext*))((::PBYTE)hIl2Cpp + NDCLMFLGOKP_GETTRIGGER_OFFSET))(this, a1);
+			return ((::Entitas::ICollector_1<::KHPOKIKCOFO*>*(*)(::PVOID, ::Entitas::IContext_1<::KHPOKIKCOFO*>*))((::PBYTE)hIl2Cpp + NDCLMFLGOKP_GETTRIGGER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Filter(::KHPOKIKCOFO* a1)

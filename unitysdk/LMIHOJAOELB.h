@@ -2,7 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/UnitStatus.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define LMIHOJAOELB_AMAHNKJPOBM_OFFSET UNITYSDK_OFFSET(0xB7C92C0)
 #define LMIHOJAOELB_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C95D0)
@@ -17,8 +18,8 @@ inline static constexpr unsigned int LMIHOJAOELB_TypeDefinitionIndex = 57556;
 	class LMIHOJAOELB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::System::Action* HDMPDMAPKJP; // 0x18
-		::System::Action* JIJMALNHDOG; // 0x20
+		::System::Action_1<::System::Boolean>* HDMPDMAPKJP; // 0x18
+		::System::Action_2<::RPG::GameCore::UnitStatus, ::RPG::GameCore::UnitStatus>* JIJMALNHDOG; // 0x20
 		::System::Boolean COFDOHGGLCG; // 0x28
 		::System::Boolean KIBOPOOCEPL; // 0x29
 		::System::Byte _padding0[0x2];

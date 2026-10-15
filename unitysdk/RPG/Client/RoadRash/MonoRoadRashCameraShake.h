@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace Cinemachine { class CinemachineBasicMultiChannelPerlin; }
 namespace Cinemachine { class CinemachineFreeLook; }
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -33,7 +33,7 @@ namespace RPG::Client::RoadRash
 		::System::Int32 JFELLAPNGGJ; // 0x40
 		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::System::Int32>* KOAIOCGABOF; // 0x48
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* NMFFDDKMFAO; // 0x50
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single>>* NMFFDDKMFAO; // 0x50
 		::System::Int32 CIHPIBADLCD; // 0x58
 		::System::Void _ctor()
 		{

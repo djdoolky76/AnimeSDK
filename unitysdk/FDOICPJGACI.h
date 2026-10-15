@@ -9,8 +9,8 @@ class FDOICPJGACI;
 class GBJHJNNIFMB;
 class IOIIFAENPNH;
 namespace RPG::GameCore { class UIImageNode; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Animator; }
@@ -58,7 +58,7 @@ inline static constexpr unsigned int FDOICPJGACI_TypeDefinitionIndex = 72018;
 		::UnityEngine::Animation* PMOJILOJEPE; // 0x70
 		::UnityEngine::UI::Text* GEPFFDDHPAI; // 0x78
 		::IOIIFAENPNH* IIJGMKEKLIN; // 0x80
-		::System::Action* JINBDOJBKKO; // 0x88
+		::System::Action_1<::FDOICPJGACI*>* JINBDOJBKKO; // 0x88
 		::System::Single LCKKNPIILDM; // 0x90
 		::System::Int32 _ShowCount_k__BackingField; // 0x94
 		::System::Boolean GFAMGLFOMGI; // 0x98
@@ -118,9 +118,9 @@ inline static constexpr unsigned int FDOICPJGACI_TypeDefinitionIndex = 72018;
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::UITopEffectType))((::PBYTE)hIl2Cpp + FDOICPJGACI_IOMAGEGAMPH_OFFSET))(this, a1);
 		}
 
-		::System::Void HCKJDLAGMFA(::System::Action* a1)
+		::System::Void HCKJDLAGMFA(::System::Action_1<::FDOICPJGACI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FDOICPJGACI_HCKJDLAGMFA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::FDOICPJGACI*>*))((::PBYTE)hIl2Cpp + FDOICPJGACI_HCKJDLAGMFA_OFFSET))(this, a1);
 		}
 
 		::System::Void DPLBOIIMAEM()

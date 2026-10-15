@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine { class Sprite; }
 
@@ -17,9 +17,9 @@ namespace RPG::Client
 	class TextmapStatic___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Tuple*>** StaticGet___9__38_0()
+		static ::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>** StaticGet___9__38_0()
 		{
-			return (::System::Comparison_1<::System::Tuple*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15E10);
+			return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15E10);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -37,9 +37,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __CompileTextIconsPattern_b__38_0(::System::Tuple* a1, ::System::Tuple* a2)
+		::System::Int32 __CompileTextIconsPattern_b__38_0(::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>* a1, ::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Tuple*, ::System::Tuple*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC___C___COMPILETEXTICONSPATTERN_B__38_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*, ::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC___C___COMPILETEXTICONSPATTERN_B__38_0_OFFSET))(this, a1, a2);
 		}
 
 	};

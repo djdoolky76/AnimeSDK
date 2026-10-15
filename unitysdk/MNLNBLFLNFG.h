@@ -4,7 +4,7 @@
 class HDIAALCMDNG;
 class NGFHCJIAOLH;
 class OAIPJANPCEK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define MNLNBLFLNFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA15CC0)
 #define MNLNBLFLNFG_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBA15E40)
@@ -15,7 +15,7 @@ inline static constexpr unsigned int MNLNBLFLNFG_TypeDefinitionIndex = 77784;
 	class MNLNBLFLNFG : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* JPKEBGGDFPL; // 0x10
+		::Entitas::IGroup_1<::NGFHCJIAOLH*>* JPKEBGGDFPL; // 0x10
 		::HDIAALCMDNG* EEFMDEHLLFI; // 0x18
 		::OAIPJANPCEK* PDENFEFCAGN; // 0x20
 		::System::Void _ctor(::OAIPJANPCEK* a1)

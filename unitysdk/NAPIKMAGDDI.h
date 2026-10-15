@@ -5,7 +5,7 @@ namespace RPG::GameCore { class CreateBattleEvent; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StageRow; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define NAPIKMAGDDI_BEHAHFONDGP_OFFSET UNITYSDK_OFFSET(0xBAB8230)
 #define NAPIKMAGDDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB7D60)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int NAPIKMAGDDI_TypeDefinitionIndex = 58043;
 	{
 	public:
 		::KFELGAIGHAP* PPCPGFGKEHN; // 0x28
-		::System::Action* PBIFNCNBJAG; // 0x30
+		::System::Action_1<::RPG::GameCore::GameEntity*>* PBIFNCNBJAG; // 0x30
 		::KFELGAIGHAP* ELCJBKPAMMH; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateBattleEvent* a2)
 		{

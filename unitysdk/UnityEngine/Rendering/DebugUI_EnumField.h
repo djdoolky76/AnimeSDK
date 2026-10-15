@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-namespace System { class Action; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class GUIContent; }
 
@@ -27,7 +27,7 @@ namespace UnityEngine::Rendering
 		::Il2CppArray<::System::Int32>* indexes; // 0x58
 		::Il2CppArray<::System::Int32>* enumValues; // 0x60
 		::System::Func_1<::System::Int32>* _getIndex_k__BackingField; // 0x68
-		::System::Action* _setIndex_k__BackingField; // 0x70
+		::System::Action_1<::System::Int32>* _setIndex_k__BackingField; // 0x70
 		::Il2CppArray<::System::Int32>* quickSeparators; // 0x78
 		::System::Void _ctor()
 		{
@@ -44,14 +44,14 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::System::Func_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD_SET_GETINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_setIndex()
+		::System::Action_1<::System::Int32>* get_setIndex()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD_GET_SETINDEX_OFFSET))(this);
+			return ((::System::Action_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD_GET_SETINDEX_OFFSET))(this);
 		}
 
-		::System::Void set_setIndex(::System::Action* a1)
+		::System::Void set_setIndex(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD_SET_SETINDEX_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD_SET_SETINDEX_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_currentIndex()

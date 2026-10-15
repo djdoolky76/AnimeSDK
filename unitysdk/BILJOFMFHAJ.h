@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class ALDMDBEKHPL;
 class CCEIJBFAOAI;
@@ -20,7 +21,6 @@ class OFIILELJGIE;
 class OHPJBMJAJML;
 class PAHNGJAHJKI;
 class PLHOHFBLKJO;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
@@ -56,14 +56,14 @@ inline static constexpr unsigned int BILJOFMFHAJ_TypeDefinitionIndex = 41815;
 			return ((::System::Void(*)(::PVOID, ::KCHLIIEPMJG*, ::OHPJBMJAJML*, ::MHDJJBODFIO*, ::CGEAHGGAADH*, ::CHGHIALKMFM_JFIAPINOHOC*, ::JBGMFIFOMMG*, ::NDJHNDLKOLN*, ::IPKBMMPHPGL*))((::PBYTE)hIl2Cpp + BILJOFMFHAJ_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::CCEIJBFAOAI* BPLPBPMEODA(::System::UInt32 a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Collections::Generic::IReadOnlyList_1<::JEPGAKKOHLE*>* a6)
+		::CCEIJBFAOAI* BPLPBPMEODA(::System::UInt32 a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2, ::System::Nullable_1<::System::Int32> a3, ::System::Nullable_1<::UnityEngine::Vector2Int> a4, ::System::Nullable_1<::System::Int32> a5, ::System::Collections::Generic::IReadOnlyList_1<::JEPGAKKOHLE*>* a6)
 		{
-			return ((::CCEIJBFAOAI*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Collections::Generic::IReadOnlyList_1<::JEPGAKKOHLE*>*))((::PBYTE)hIl2Cpp + BILJOFMFHAJ_BPLPBPMEODA_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::CCEIJBFAOAI*(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*, ::System::Nullable_1<::System::Int32>, ::System::Nullable_1<::UnityEngine::Vector2Int>, ::System::Nullable_1<::System::Int32>, ::System::Collections::Generic::IReadOnlyList_1<::JEPGAKKOHLE*>*))((::PBYTE)hIl2Cpp + BILJOFMFHAJ_BPLPBPMEODA_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::OECNOHOLGPP* GJANCDODAND(::System::UInt32 a1, ::System::Nullable* a2, ::System::Nullable* a3)
+		::OECNOHOLGPP* GJANCDODAND(::System::UInt32 a1, ::System::Nullable_1<::UnityEngine::Vector2Int> a2, ::System::Nullable_1<::System::Int32> a3)
 		{
-			return ((::OECNOHOLGPP*(*)(::PVOID, ::System::UInt32, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + BILJOFMFHAJ_GJANCDODAND_OFFSET))(this, a1, a2, a3);
+			return ((::OECNOHOLGPP*(*)(::PVOID, ::System::UInt32, ::System::Nullable_1<::UnityEngine::Vector2Int>, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + BILJOFMFHAJ_GJANCDODAND_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector2Int OCMGKALCKHC()
@@ -101,9 +101,9 @@ inline static constexpr unsigned int BILJOFMFHAJ_TypeDefinitionIndex = 41815;
 			return ((::ALDMDBEKHPL*(*)(::PVOID))((::PBYTE)hIl2Cpp + BILJOFMFHAJ_NGNJDIJDEMM_OFFSET))(this);
 		}
 
-		::PAHNGJAHJKI* PHFLHOICJJA(::CCEIJBFAOAI* a1, ::System::Nullable* a2)
+		::PAHNGJAHJKI* PHFLHOICJJA(::CCEIJBFAOAI* a1, ::System::Nullable_1<::System::Int32> a2)
 		{
-			return ((::PAHNGJAHJKI*(*)(::PVOID, ::CCEIJBFAOAI*, ::System::Nullable*))((::PBYTE)hIl2Cpp + BILJOFMFHAJ_PHFLHOICJJA_OFFSET))(this, a1, a2);
+			return ((::PAHNGJAHJKI*(*)(::PVOID, ::CCEIJBFAOAI*, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + BILJOFMFHAJ_PHFLHOICJJA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void NHFEEHKLJPK(::CCEIJBFAOAI* a1, ::System::Collections::Generic::IEnumerable_1<::JEPGAKKOHLE*>* a2)

@@ -5,7 +5,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define JMBIAHMDHLL_CLEAR_OFFSET UNITYSDK_OFFSET(0xB25E480)
 #define JMBIAHMDHLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB25E4E0)
@@ -15,7 +15,7 @@ inline static constexpr unsigned int JMBIAHMDHLL_TypeDefinitionIndex = 57693;
 	class JMBIAHMDHLL : public ::System::Object
 	{
 	public:
-		::System::Action* JPHPCHAHHOF; // 0x10
+		::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* JPHPCHAHHOF; // 0x10
 		::RPG::GameCore::GameEntity* BPLHBABBLIO; // 0x18
 		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x20
 		::RPG::GameCore::RedirectSkillTargetAffectTeam JKNCJPCLCCP; // 0x28

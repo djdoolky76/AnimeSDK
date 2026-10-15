@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AbilityProperty.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class DynamicValue; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OLDDHFANEDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D298E20)
@@ -19,11 +19,11 @@ inline static constexpr unsigned int OLDDHFANEDA_TypeDefinitionIndex = 15469;
 	class OLDDHFANEDA : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*>* BGJLMINEPBC; // 0x10
+		::Il2CppArray<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>*>* BGJLMINEPBC; // 0x10
 		::Il2CppArray<::RPG::GameCore::DynamicValue*>* LIMCNDFPKNK; // 0x18
 		::Il2CppArray<::RPG::GameCore::DynamicValue*>* NCHNOKEBGLP; // 0x20
 		::Il2CppArray<::System::UInt32>* IIGJBFLIBJP; // 0x28
-		::Il2CppArray<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*>* FLJFLIKCJIG; // 0x30
+		::Il2CppArray<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>*>* FLJFLIKCJIG; // 0x30
 		::Il2CppArray<::System::UInt32>* BBHOAALCBDG; // 0x38
 		::Il2CppArray<::RPG::GameCore::DynamicValue*>* OPPIOEIGDKA; // 0x40
 		::Il2CppArray<::RPG::GameCore::DynamicValue*>* DMNCPNLEBAG; // 0x48
@@ -31,7 +31,7 @@ inline static constexpr unsigned int OLDDHFANEDA_TypeDefinitionIndex = 15469;
 		::Il2CppArray<::RPG::GameCore::DynamicValue*>* IFCDECDJIHC; // 0x58
 		::Il2CppArray<::RPG::GameCore::DynamicValue*>* OMFIKAAAKAK; // 0x60
 		::Il2CppArray<::RPG::GameCore::DynamicValue*>* ADEIIKLFECP; // 0x68
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* PONOIIEFMBP; // 0x70
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>* PONOIIEFMBP; // 0x70
 		::Il2CppArray<::RPG::GameCore::DynamicValue*>* EICPGFFNFAD; // 0x78
 		::System::Int32 JMMCMDCHOJF; // 0x80
 		::System::UInt32 NEDPIEDCHGI; // 0x84

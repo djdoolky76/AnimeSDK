@@ -14,7 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -97,8 +98,8 @@ inline static constexpr unsigned int EDLDHDMLJDH_TypeDefinitionIndex = 57499;
 		::RPG::GameCore::PredicateConfig* NJGDADPNBAA; // 0x38
 		::RPG::GameCore::PredicateConfig* FCEDCJIGLBB; // 0x40
 		::RPG::GameCore::ColliderTriggerComponent* ODBBIEJFGAO; // 0x48
-		::System::Action* ANIBJDMJNGK; // 0x50
-		::System::Action* DPOLBPPPNGO; // 0x58
+		::System::Action_2<::GFDKGLOANOH*, ::System::Boolean>* ANIBJDMJNGK; // 0x50
+		::System::Action_3<::EDLDHDMLJDH*, ::RPG::GameCore::GameEntity*, ::System::Boolean>* DPOLBPPPNGO; // 0x58
 		::Il2CppArray<::System::UInt32>* AEDAOGFLEDF; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DNKEOHEHEAK*>* LLCFBCFLKGO; // 0x68
 		::RPG::GameCore::TriggerValidGuestConfig* KDHGNHDCCCL; // 0x70

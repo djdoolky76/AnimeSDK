@@ -4,8 +4,8 @@
 namespace RPG::Client::OpenWorld { class PVSRuntimeReplayCaseData; }
 namespace RPG::Client::OpenWorld { class PVSRuntimeReplayRawExportCheck; }
 namespace RPG::Client::OpenWorld { class PVSRuntimeReplayResultData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define FCCHGILFKPE_EDLFNIBCCAI_OFFSET UNITYSDK_OFFSET(0x156B10B0)
 #define FCCHGILFKPE_FHLALJENMHB_OFFSET UNITYSDK_OFFSET(0x156B09F0)
@@ -78,9 +78,9 @@ inline static constexpr unsigned int FCCHGILFKPE_TypeDefinitionIndex = 73770;
 			return ((::System::Void(*)(::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + FCCHGILFKPE_PEKHJMGAMKM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void EDLFNIBCCAI(::System::Action* a1)
+		static ::System::Void EDLFNIBCCAI(::System::Action_1<::RPG::Client::OpenWorld::PVSRuntimeReplayRawExportCheck*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + FCCHGILFKPE_EDLFNIBCCAI_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::RPG::Client::OpenWorld::PVSRuntimeReplayRawExportCheck*>*))((::PBYTE)hIl2Cpp + FCCHGILFKPE_EDLFNIBCCAI_OFFSET))(a1);
 		}
 
 	};

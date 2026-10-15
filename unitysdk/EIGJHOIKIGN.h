@@ -3,11 +3,11 @@
 #include "unitysdk/GPGDJDKKHNE.h"
 #include "unitysdk/RPG/Client/ETravelShipState.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class MGJOAOHPFBO;
 namespace RPG::Client { class MonoTravelShipChannel; }
 namespace RPG::GameCore { class CharacterInputData; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 
 #define EIGJHOIKIGN_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0x154C6270)
 #define EIGJHOIKIGN_BINNHFKCJHN_OFFSET UNITYSDK_OFFSET(0x154C6280)
@@ -34,14 +34,14 @@ inline static constexpr unsigned int EIGJHOIKIGN_TypeDefinitionIndex = 68797;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::MGJOAOHPFBO*))((::PBYTE)hIl2Cpp + EIGJHOIKIGN_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void KIGBILLGNOH(::System::Nullable* a1)
+		::System::Void KIGBILLGNOH(::System::Nullable_1<::RPG::Client::ETravelShipState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + EIGJHOIKIGN_KIGBILLGNOH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + EIGJHOIKIGN_KIGBILLGNOH_OFFSET))(this, a1);
 		}
 
-		::System::Void CHAHBFGGIDL(::System::Nullable* a1)
+		::System::Void CHAHBFGGIDL(::System::Nullable_1<::RPG::Client::ETravelShipState> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + EIGJHOIKIGN_CHAHBFGGIDL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + EIGJHOIKIGN_CHAHBFGGIDL_OFFSET))(this, a1);
 		}
 
 		::System::Void JLANKNHFKCN(::System::Single a1)

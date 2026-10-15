@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BGGDOPNKDLK_MMDPKKPOHOG;
 class IFBFJDCECML;
 class PBGNKMMDBGD;
@@ -36,9 +36,9 @@ inline static constexpr unsigned int OMNEDLJOPNM_TypeDefinitionIndex = 37237;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMNEDLJOPNM_CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* INDNACOGMGN()
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* INDNACOGMGN()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMNEDLJOPNM_INDNACOGMGN_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMNEDLJOPNM_INDNACOGMGN_OFFSET))(this);
 		}
 
 		::System::Boolean GDPJDHAGKBI(::IFBFJDCECML* a1, ::PBGNKMMDBGD* a2)

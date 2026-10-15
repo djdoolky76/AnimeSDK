@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
@@ -20,7 +20,7 @@ inline static constexpr unsigned int LBGDOLIKLJH_TypeDefinitionIndex = 72340;
 		::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
 		::UnityEngine::Transform* GHGAKNDLKGM; // 0x68
 		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x70
-		::System::Nullable* IAPJFCPEOBL; // 0x78
+		::System::Nullable_1<::System::Boolean> IAPJFCPEOBL; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBGDOLIKLJH_CTOR_OFFSET))(this);

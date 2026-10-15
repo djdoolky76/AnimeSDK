@@ -9,6 +9,7 @@ class ODGPPIHLOFF;
 class OFLBAIOGIMO;
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BIGECLNFJPJ_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xB4A5700)
@@ -90,9 +91,9 @@ inline static constexpr unsigned int BIGECLNFJPJ_TypeDefinitionIndex = 49200;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BIGECLNFJPJ_OIBKPJEGPOK_OFFSET))(this, a1);
 		}
 
-		::System::Void HEDHBNLIOAK(::System::Action* a1)
+		::System::Void HEDHBNLIOAK(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + BIGECLNFJPJ_HEDHBNLIOAK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + BIGECLNFJPJ_HEDHBNLIOAK_OFFSET))(this, a1);
 		}
 
 		::System::Void LADMGDAOLOD(::System::Action* a1)

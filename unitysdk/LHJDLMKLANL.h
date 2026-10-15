@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LodTemplate; }
 namespace RPG::GameCore { class NormDistanceLodTemplate; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LHJDLMKLANL_AFJNGIIJPPM_OFFSET UNITYSDK_OFFSET(0xB6B5060)
@@ -21,7 +21,7 @@ inline static constexpr unsigned int LHJDLMKLANL_TypeDefinitionIndex = 73931;
 	class LHJDLMKLANL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Tuple*>* LILKOCJPAIM; // 0x10
+		::System::Collections::Generic::List_1<::System::Tuple_2<::System::Single, ::System::Int32>*>* LILKOCJPAIM; // 0x10
 		::System::Single PMIHDMBGDMH; // 0x18
 		::System::Void _ctor(::RPG::GameCore::LodTemplate* a1, ::System::Int32 a2)
 		{

@@ -19,7 +19,7 @@ namespace RPG::Client::NavMap { class ICartography; }
 namespace RPG::Client::NavMap { class IMainTab; }
 namespace RPG::Client::NavMap { class IMapDataSource; }
 namespace RPG::Client::NavMap { class ITab; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::GameCore { class LevelMinimapSection; }
 namespace RPG::GameCore { class LevelNavmapArea; }
 namespace RPG::GameCore { class LevelNavmapConfig; }
@@ -177,9 +177,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Boolean(*)(::RPG::GameCore::MappingInfoRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPUTILS_ISTELEPORTMAPPINGINFO_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::Promises::IPromise* GetResolvedPromise(::RPG::Client::NavMap::ICartographer* a1)
+		static ::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* GetResolvedPromise(::RPG::Client::NavMap::ICartographer* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::RPG::Client::NavMap::ICartographer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPUTILS_GETRESOLVEDPROMISE_OFFSET))(a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::RPG::Client::NavMap::ICartographer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_NAVMAPUTILS_GETRESOLVEDPROMISE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean IsRaidMap(::System::UInt32 a1)

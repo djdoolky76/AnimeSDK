@@ -4,8 +4,8 @@
 class GFNICBDGGFI;
 namespace RPG::Client { class Booklet; }
 namespace RPG::Client { class IBookletView; }
-namespace System { class Action; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define BLOFHFCGJHA_BELOKNHKPFD_OFFSET UNITYSDK_OFFSET(0xBA7FE40)
@@ -22,7 +22,7 @@ inline static constexpr unsigned int BLOFHFCGJHA_TypeDefinitionIndex = 72415;
 	{
 	public:
 		::RPG::Client::IBookletView* CFKHNPGEAJA; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action*>* EPKIGJMDIED; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_1<::GFNICBDGGFI*>*>* EPKIGJMDIED; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOFHFCGJHA_CTOR_OFFSET))(this);

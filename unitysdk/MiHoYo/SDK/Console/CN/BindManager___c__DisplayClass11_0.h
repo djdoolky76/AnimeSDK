@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::CN { class BindManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC63B10)
 #define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1BC663A0)
@@ -18,7 +18,7 @@ namespace MiHoYo::SDK::Console::CN
 	{
 	public:
 		::System::String* input; // 0x10
-		::System::Action* OnCaptchaResponse; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnCaptchaResponse; // 0x18
 		::MiHoYo::SDK::Console::CN::BindManager* __4__this; // 0x20
 		::System::Void _ctor()
 		{

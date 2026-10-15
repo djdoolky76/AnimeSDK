@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class TABehaviorBase; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
 #define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE189D90)
@@ -15,7 +16,7 @@ namespace RPG::Client
 	class TABehaviorBase___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__0; // 0x10
+		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x10
 		::System::Action* completeCallback; // 0x18
 		::RPG::Client::TABehaviorBase* __4__this; // 0x20
 		::System::Int32 taskCount; // 0x28

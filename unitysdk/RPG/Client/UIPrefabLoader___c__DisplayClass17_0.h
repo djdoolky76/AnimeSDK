@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class BinaryPrefabAsset; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -20,7 +20,7 @@ namespace RPG::Client
 	public:
 		::UnityEngine::GameObject* gameObject; // 0x10
 		::UnityEngine::Transform* parent; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action_1<::System::Object*>* callback; // 0x20
 		::System::Boolean active; // 0x28
 		::System::Void _ctor()
 		{

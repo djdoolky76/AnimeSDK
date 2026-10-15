@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
 namespace RPG::Client { class MessageContentBlock; }
 namespace RPG::Client { class RelicGrowthGuide; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD6A1FF0)
 #define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD6A2150)
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentBlock_BlockType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void RequestRelicRankData(::System::Action* a1)
+		::System::Void RequestRelicRankData(::System::Action_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_REQUESTRELICRANKDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK_REQUESTRELICRANKDATA_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::RPG::Client::MessageContentBlock* a1)

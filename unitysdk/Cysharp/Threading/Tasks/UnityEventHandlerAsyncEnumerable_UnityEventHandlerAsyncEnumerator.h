@@ -5,8 +5,9 @@
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-namespace System { class Action; }
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { class UnityEvent; }
 
@@ -33,14 +34,14 @@ namespace Cysharp::Threading::Tasks
 		::UnityEngine::Events::UnityAction* unityAction; // 0x70
 		::System::Threading::CancellationToken cancellationToken2; // 0x78
 		::System::Boolean isDisposed; // 0x80
-		static ::System::Action** StaticGet_cancel1()
+		static ::System::Action_1<::System::Object*>** StaticGet_cancel1()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UnityEventHandlerAsyncEnumerator")->GetStaticField(0x49730);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UnityEventHandlerAsyncEnumerator")->GetStaticField(0x49730);
 		}
 
-		static ::System::Action** StaticGet_cancel2()
+		static ::System::Action_1<::System::Object*>** StaticGet_cancel2()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UnityEventHandlerAsyncEnumerator")->GetStaticField(0x49738);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UnityEventHandlerAsyncEnumerator")->GetStaticField(0x49738);
 		}
 
 		::System::Void _ctor(::UnityEngine::Events::UnityEvent* a1, ::System::Threading::CancellationToken a2, ::System::Threading::CancellationToken a3)
@@ -58,9 +59,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::AsyncUnit(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask MoveNextAsync()
+		::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean> MoveNextAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_MOVENEXTASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYEVENTHANDLERASYNCENUMERABLE_UNITYEVENTHANDLERASYNCENUMERATOR_MOVENEXTASYNC_OFFSET))(this);
 		}
 
 		::System::Void Invoke()

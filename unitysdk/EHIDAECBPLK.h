@@ -4,7 +4,7 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define EHIDAECBPLK_BAAPGAPKBCP_OFFSET UNITYSDK_OFFSET(0x154ABD00)
 #define EHIDAECBPLK_CTOR_OFFSET UNITYSDK_OFFSET(0x154AA460)
@@ -26,9 +26,9 @@ inline static constexpr unsigned int EHIDAECBPLK_TypeDefinitionIndex = 76946;
 	{
 	public:
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x10
-		::Entitas::IGroup* BNBKEJONPIJ; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* BNBKEJONPIJ; // 0x18
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x20
-		::Entitas::IGroup* HPEEINBAPAF; // 0x28
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* HPEEINBAPAF; // 0x28
 		::System::Boolean OJOEHBECBHI; // 0x30
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

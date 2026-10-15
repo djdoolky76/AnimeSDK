@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/PLHLAIJKMOD.h"
+#include "unitysdk/System/Nullable_1.h"
 class CEEGMMCFCBG;
 class CHGHIALKMFM;
 class FKLECLLJCEH;
 class KFGGDNIGKGG;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define ILOOAAOHIIG_ADD_ONCLICKED_OFFSET UNITYSDK_OFFSET(0x164CA130)
@@ -53,7 +53,7 @@ inline static constexpr unsigned int ILOOAAOHIIG_TypeDefinitionIndex = 79473;
 		::KFGGDNIGKGG* _Attribute_k__BackingField; // 0x20
 		::R3::ReactiveProperty_1<::System::Boolean>* _RPG_Client_MechCraft_ViewModel_IMechCraftCraftEditSourceViewModel_IsDragged_k__BackingField; // 0x28
 		::CHGHIALKMFM* _Model_k__BackingField; // 0x30
-		::R3::Observable* BAGDGKPJABJ; // 0x38
+		::R3::Observable_1<::System::Boolean>* BAGDGKPJABJ; // 0x38
 		::R3::ReactiveProperty_1<::System::Boolean>* _ReactiveIsTraitRecommended_k__BackingField; // 0x40
 		::R3::ReactiveProperty_1<::System::Boolean>* _MutableIsConstraintRecommending_k__BackingField; // 0x48
 		::CEEGMMCFCBG* EAGJDPFNCPF; // 0x50
@@ -91,9 +91,9 @@ inline static constexpr unsigned int ILOOAAOHIIG_TypeDefinitionIndex = 79473;
 			return ((::R3::ReactiveProperty_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_GET_MUTABLEISCONSTRAINTRECOMMENDING_OFFSET))(this);
 		}
 
-		::R3::Observable* HDOGDLNCHFD()
+		::R3::Observable_1<::System::Boolean>* HDOGDLNCHFD()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_HDOGDLNCHFD_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_HDOGDLNCHFD_OFFSET))(this);
 		}
 
 		::R3::ReactiveProperty_1<::System::Boolean>* get_MutableIsAssistantRecommending()
@@ -101,9 +101,9 @@ inline static constexpr unsigned int ILOOAAOHIIG_TypeDefinitionIndex = 79473;
 			return ((::R3::ReactiveProperty_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_GET_MUTABLEISASSISTANTRECOMMENDING_OFFSET))(this);
 		}
 
-		::R3::Observable* AIMDINMHBKG()
+		::R3::Observable_1<::System::Boolean>* AIMDINMHBKG()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_AIMDINMHBKG_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_AIMDINMHBKG_OFFSET))(this);
 		}
 
 		::KFGGDNIGKGG* get_Attribute()
@@ -141,9 +141,9 @@ inline static constexpr unsigned int ILOOAAOHIIG_TypeDefinitionIndex = 79473;
 			return ((::R3::ReactiveProperty_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_GET_REACTIVEISTRAITRECOMMENDED_OFFSET))(this);
 		}
 
-		::R3::Observable* DICKMKFHNEF()
+		::R3::Observable_1<::System::Boolean>* DICKMKFHNEF()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_DICKMKFHNEF_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_DICKMKFHNEF_OFFSET))(this);
 		}
 
 		::System::Boolean OOFGGNACNHI()
@@ -181,14 +181,14 @@ inline static constexpr unsigned int ILOOAAOHIIG_TypeDefinitionIndex = 79473;
 			return ((::CHGHIALKMFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_KPGFBIIMIHM_OFFSET))(this);
 		}
 
-		::System::Nullable* PJGDBDMELDO()
+		::System::Nullable_1<::PLHLAIJKMOD> PJGDBDMELDO()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_PJGDBDMELDO_OFFSET))(this);
+			return ((::System::Nullable_1<::PLHLAIJKMOD>(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_PJGDBDMELDO_OFFSET))(this);
 		}
 
-		::R3::Observable* HGNBFGOFKAC()
+		::R3::Observable_1<::System::Boolean>* HGNBFGOFKAC()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_HGNBFGOFKAC_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILOOAAOHIIG_HGNBFGOFKAC_OFFSET))(this);
 		}
 
 		::CEEGMMCFCBG* LCJNBFLNDOI()

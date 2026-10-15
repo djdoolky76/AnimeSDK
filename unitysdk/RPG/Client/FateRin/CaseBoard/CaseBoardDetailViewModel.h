@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
 class HIOFEGAHCKE;
-namespace RPG::Client::FateRin { class ViewModelEventHandler; }
+namespace RPG::Client::FateRin { template <typename T> class ViewModelEventHandler_1; }
 namespace RPG::Client::FateRin::CaseBoard { class CaseBoardDetailItemBaseViewModel; }
 namespace RPG::Client::FateRin::CaseBoard { class TeamViewModel; }
 namespace RPG::Client::Promises { class IPromise; }
@@ -29,7 +29,7 @@ namespace RPG::Client::FateRin::CaseBoard
 	{
 	public:
 		::RPG::Client::FateRin::CaseBoard::TeamViewModel* _TeamViewModel; // 0x20
-		::RPG::Client::FateRin::ViewModelEventHandler* OnSelectTab; // 0x28
+		::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Int32>* OnSelectTab; // 0x28
 		::HIOFEGAHCKE* _DetailItemFactory; // 0x30
 		::System::Collections::Generic::List_1<::RPG::Client::FateRin::CaseBoard::CaseBoardDetailItemBaseViewModel*>* _DetailItems; // 0x38
 		::System::Int32 _SelectedTabIndex_k__BackingField; // 0x40
@@ -38,14 +38,14 @@ namespace RPG::Client::FateRin::CaseBoard
 			return ((::System::Void(*)(::PVOID, ::HIOFEGAHCKE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDDETAILVIEWMODEL_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnSelectTab(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void add_OnSelectTab(::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDDETAILVIEWMODEL_ADD_ONSELECTTAB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDDETAILVIEWMODEL_ADD_ONSELECTTAB_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnSelectTab(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		::System::Void remove_OnSelectTab(::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDDETAILVIEWMODEL_REMOVE_ONSELECTTAB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDDETAILVIEWMODEL_REMOVE_ONSELECTTAB_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_SelectedTabIndex()

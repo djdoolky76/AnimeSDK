@@ -6,7 +6,7 @@ class CEEGMMCFCBG;
 class CNIPJLLHIJA;
 class MGFNPLKAALN;
 class OBJANKHLNGO;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -76,9 +76,9 @@ inline static constexpr unsigned int KCIDOKIGACH_TypeDefinitionIndex = 79685;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + KCIDOKIGACH_GET_CMTCOUNT_OFFSET))(this);
 		}
 
-		::R3::Observable* FICJINGODOM()
+		::R3::Observable_1<::System::Boolean>* FICJINGODOM()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KCIDOKIGACH_FICJINGODOM_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KCIDOKIGACH_FICJINGODOM_OFFSET))(this);
 		}
 
 		::CEEGMMCFCBG* OGNJAICKAOB()

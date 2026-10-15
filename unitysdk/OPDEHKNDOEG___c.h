@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class HIOEAKHGILF;
 class OPDEHKNDOEG;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
 #define OPDEHKNDOEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFA7C20)
@@ -17,14 +17,14 @@ inline static constexpr unsigned int OPDEHKNDOEG___c_TypeDefinitionIndex = 77066
 	class OPDEHKNDOEG___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__5_1()
+		static ::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__5_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FA60);
+			return (::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FA60);
 		}
 
-		static ::System::Action** StaticGet___9__5_0()
+		static ::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__5_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FA68);
+			return (::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FA68);
 		}
 
 		static ::System::Object** StaticGet___9()

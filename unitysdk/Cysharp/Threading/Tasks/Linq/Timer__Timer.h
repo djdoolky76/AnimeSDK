@@ -4,10 +4,11 @@
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/TimeSpan.h"
-namespace System { class Nullable; }
 
 #define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F10FB30)
 #define CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x1F10FF40)
@@ -32,10 +33,10 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Boolean completed; // 0x5B
 		::Cysharp::Threading::Tasks::PlayerLoopTiming updateTiming; // 0x5C
 		::System::Single dueTime; // 0x60
-		::System::Nullable* period; // 0x64
-		::System::Void _ctor(::System::TimeSpan a1, ::System::Nullable* a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Boolean a4, ::System::Threading::CancellationToken a5, ::System::Boolean a6)
+		::System::Nullable_1<::System::Single> period; // 0x64
+		::System::Void _ctor(::System::TimeSpan a1, ::System::Nullable_1<::System::TimeSpan> a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Boolean a4, ::System::Threading::CancellationToken a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::System::Nullable*, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean, ::System::Threading::CancellationToken, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::TimeSpan, ::System::Nullable_1<::System::TimeSpan>, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Boolean, ::System::Threading::CancellationToken, ::System::Boolean))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::Cysharp::Threading::Tasks::AsyncUnit get_Current()
@@ -43,9 +44,9 @@ namespace Cysharp::Threading::Tasks::Linq
 			return ((::Cysharp::Threading::Tasks::AsyncUnit(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_GET_CURRENT_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask MoveNextAsync()
+		::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean> MoveNextAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_MOVENEXTASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_TIMER__TIMER_MOVENEXTASYNC_OFFSET))(this);
 		}
 
 		::Cysharp::Threading::Tasks::UniTask DisposeAsync()

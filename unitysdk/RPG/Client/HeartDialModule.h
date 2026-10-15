@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/HeartDialEmoType.h"
 #include "unitysdk/RPG/GameCore/HeartDialStepType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class LOBFFHLFKOL;
 class OMMEIHJOHGJ;
@@ -84,7 +84,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::LOBFFHLFKOL*>* _heartDialDialogueDict; // 0x10
 		::System::String* _floorConfigPath; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OMMEIHJOHGJ*>* _npcRuntimeIDDict; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* _traceInfoDict; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* _traceInfoDict; // 0x28
 		::RPG::GameCore::GameLevelHeartDialConfigCollection* _floorConfig; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::HeartDialScriptInfo*>* _heartDialScriptDict; // 0x38
 		::System::Collections::Generic::Dictionary_2<::CAOOFGCHFDI, ::OMMEIHJOHGJ*>* _npcInfoDict; // 0x40
@@ -276,14 +276,14 @@ namespace RPG::Client
 			return ((::LOBFFHLFKOL*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEARTDIALMODULE_GETDIALOGUEINFO_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple GetTraceInfoByFloorID(::System::UInt32 a1)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> GetTraceInfoByFloorID(::System::UInt32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEARTDIALMODULE_GETTRACEINFOBYFLOORID_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEARTDIALMODULE_GETTRACEINFOBYFLOORID_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple GetCurrentTraceInfo()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> GetCurrentTraceInfo()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEARTDIALMODULE_GETCURRENTTRACEINFO_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEARTDIALMODULE_GETCURRENTTRACEINFO_OFFSET))(this);
 		}
 
 		::System::Void ShowCurrentStartPerformance()

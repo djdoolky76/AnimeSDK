@@ -6,8 +6,8 @@
 namespace RPG::Client { class ChessRogueBoardCellDataItem; }
 namespace RPG::Client { class ChessRogueBoardDataItem; }
 namespace RPG::Client { class MonoRogueHexChessBoardItem; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
@@ -89,9 +89,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD__TICKFADEIN_OFFSET))(this);
 		}
 
-		::System::Void InitChestBoardItem(::RPG::Client::ChessRogueBoardDataItem* a1, ::System::Action* a2, ::XLua::LuaTable* a3)
+		::System::Void InitChestBoardItem(::RPG::Client::ChessRogueBoardDataItem* a1, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::ChessRogueBoardCellDataItem*, ::RPG::Client::MonoRogueHexChessBoardItem*>* a2, ::XLua::LuaTable* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChessRogueBoardDataItem*, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_INITCHESTBOARDITEM_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChessRogueBoardDataItem*, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::ChessRogueBoardCellDataItem*, ::RPG::Client::MonoRogueHexChessBoardItem*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOROGUEHEXCHESSBOARD_INITCHESTBOARDITEM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MonoRogueHexChessBoardItem*>* GetMonoItemList()

@@ -15,7 +15,7 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStatisticsLineup
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStatisticsLineupRecommendationViewModel_Factory; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditTeamViewModel; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditTeamViewModel_Factory; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -104,14 +104,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::FOMDMAGLLNI*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL__EXPORTPLAN_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* TryStartChallenge()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* TryStartChallenge()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_TRYSTARTCHALLENGE_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_TRYSTARTCHALLENGE_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* SubmitChange()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* SubmitChange()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_SUBMITCHANGE_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL_SUBMITCHANGE_OFFSET))(this);
 		}
 
 	};

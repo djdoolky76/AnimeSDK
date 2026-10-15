@@ -5,6 +5,7 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 #define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE2080)
@@ -23,10 +24,10 @@ namespace RPG::Client::Promises
 	public:
 		::System::Action* __9__3; // 0x10
 		::System::Func_1<::RPG::Client::Promises::IPromise*>* onResolved; // 0x18
-		::System::Action* __9__4; // 0x20
+		::System::Action_1<::System::Exception*>* __9__4; // 0x20
 		::RPG::Client::Promises::Promise* resultPromise; // 0x28
-		::System::Action* onRejected; // 0x30
-		::System::Action* __9__2; // 0x38
+		::System::Action_1<::System::Exception*>* onRejected; // 0x30
+		::System::Action_1<::System::Single>* __9__2; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0_CTOR_OFFSET))(this);

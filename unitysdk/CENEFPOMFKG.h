@@ -27,8 +27,8 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class RtSkillConfig; }
 namespace RPG::GameCore { class RtSkillTargetInfo; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CENEFPOMFKG_ALHHOJIAEKK_OFFSET UNITYSDK_OFFSET(0xC9EAD40)
@@ -81,7 +81,7 @@ inline static constexpr unsigned int CENEFPOMFKG_TypeDefinitionIndex = 54057;
 		::BAJEFKOPOPL* HKAGAPCAJDE; // 0x20
 		::Il2CppArray<::ODHMHHGKCJP*>* KGLOIHNOFCM; // 0x28
 		::GELIALJDFBL* CJEBNGMMHII; // 0x30
-		::System::Action* EDCMBLLIICC; // 0x38
+		::System::Action_1<::FGMHNMKDFMA*>* EDCMBLLIICC; // 0x38
 		::CJJMHCJPHLN* PHEKPAADNKB; // 0x40
 		::FGMHNMKDFMA* CIFJFKPIJMN; // 0x48
 		::System::String* OENAMINOLLF; // 0x50

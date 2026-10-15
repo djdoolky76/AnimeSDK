@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class UIPrefabLoader; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
@@ -15,6 +15,6 @@ namespace RPG::Client
 	public:
 		::RPG::Client::UIPrefabLoader* __4__this; // 0x0
 		::System::String* path; // 0x0
-		::System::Action* callback; // 0x0
+		::System::Action_1<T>* callback; // 0x0
 	};
 }

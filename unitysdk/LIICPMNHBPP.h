@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GOMOGGFKHFL.h"
 #include "unitysdk/RPG/GameCore/RelicType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class FHPMJLMOMFL;
 class GEMBPMMMGBP;
 class PPANCJJBAGL;
@@ -28,7 +28,7 @@ inline static constexpr unsigned int LIICPMNHBPP_TypeDefinitionIndex = 66898;
 	class LIICPMNHBPP : public ::GOMOGGFKHFL
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RelicType, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple>*>* LMPNNEPFHIO; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RelicType, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>*>* LMPNNEPFHIO; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::PPANCJJBAGL*>* IKGMBOFODPD; // 0x20
 		::System::UInt32 JHJMCFNGMEH; // 0x28
 		::System::UInt32 KMFBBJGBPFA; // 0x2C
@@ -60,19 +60,19 @@ inline static constexpr unsigned int LIICPMNHBPP_TypeDefinitionIndex = 66898;
 			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*))((::PBYTE)hIl2Cpp + LIICPMNHBPP_NCGCEKIGKBD_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::SortedSet_1<::System::ValueTuple>* GDGIDJNGDKP(::RPG::GameCore::RelicType a1)
+		::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>* GDGIDJNGDKP(::RPG::GameCore::RelicType a1)
 		{
-			return ((::System::Collections::Generic::SortedSet_1<::System::ValueTuple>*(*)(::PVOID, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + LIICPMNHBPP_GDGIDJNGDKP_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>*(*)(::PVOID, ::RPG::GameCore::RelicType))((::PBYTE)hIl2Cpp + LIICPMNHBPP_GDGIDJNGDKP_OFFSET))(this, a1);
 		}
 
-		::System::Void JBCDKPCFGPP(::System::Collections::Generic::SortedSet_1<::System::ValueTuple>* a1, ::RPG::Client::RelicItemData* a2)
+		::System::Void JBCDKPCFGPP(::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>* a1, ::RPG::Client::RelicItemData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple>*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + LIICPMNHBPP_JBCDKPCFGPP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>*, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + LIICPMNHBPP_JBCDKPCFGPP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AJMGMCPCGFF(::System::Collections::Generic::SortedSet_1<::System::ValueTuple>* a1)
+		::System::Void AJMGMCPCGFF(::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + LIICPMNHBPP_AJMGMCPCGFF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedSet_1<::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>>*))((::PBYTE)hIl2Cpp + LIICPMNHBPP_AJMGMCPCGFF_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* JOKOJFMPCJI()

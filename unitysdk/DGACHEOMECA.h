@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/ByteHash16.h"
 class CDKEBLNOEPH;
@@ -8,9 +9,8 @@ class HJEIEIFLDGN;
 class HPPGIADOJBF;
 class LFCKLPMBGGI;
 namespace RPG::Client { template <typename T> class DelayList_1; }
-namespace System { class Nullable; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define DGACHEOMECA_ACJFCNFOAOJ_OFFSET UNITYSDK_OFFSET(0xE83D280)
@@ -51,7 +51,7 @@ inline static constexpr unsigned int DGACHEOMECA_TypeDefinitionIndex = 59449;
 		::RPG::Client::DelayList_1<::LFCKLPMBGGI*>* AKPCCNGJLMN; // 0x38
 		::HJEIEIFLDGN* GJAKPOFLMPD; // 0x40
 		::CDKEBLNOEPH* IAJHKEAAIAH; // 0x48
-		::System::Nullable* JOIMCLCAGHP; // 0x50
+		::System::Nullable_1<::System::Boolean> JOIMCLCAGHP; // 0x50
 		::System::Boolean BDINGIJDIIK; // 0x52
 		::System::Void _ctor()
 		{
@@ -158,14 +158,14 @@ inline static constexpr unsigned int DGACHEOMECA_TypeDefinitionIndex = 59449;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGACHEOMECA_LADICPOACOE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* LHIBMOJONAE()
+		::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* LHIBMOJONAE()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DGACHEOMECA_LHIBMOJONAE_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DGACHEOMECA_LHIBMOJONAE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* FLHAEFKDIHO()
+		::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>* FLHAEFKDIHO()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DGACHEOMECA_FLHAEFKDIHO_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::String*, ::System::Boolean>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DGACHEOMECA_FLHAEFKDIHO_OFFSET))(this);
 		}
 
 		::System::String* ToString()

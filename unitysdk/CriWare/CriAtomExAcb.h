@@ -5,9 +5,9 @@
 #include "unitysdk/CriWare/CriAtomEx_AisacControlInfo.h"
 #include "unitysdk/CriWare/CriAtomEx_CueInfo.h"
 #include "unitysdk/CriWare/CriAtomEx_WaveformInfo.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace CriWare { class CriAtomExAcb; }
 namespace CriWare { class CriFsBinder; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 
@@ -82,9 +82,9 @@ namespace CriWare
 		::System::Runtime::InteropServices::GCHandle dataHandle; // 0x20
 		::System::Byte _padding0[0x4];
 		::System::IntPtr handle; // 0x28
-		::System::Void _ctor(::System::IntPtr a1, ::System::Nullable* a2)
+		::System::Void _ctor(::System::IntPtr a1, ::System::Nullable_1<::System::Runtime::InteropServices::GCHandle> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Nullable*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACB_CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Nullable_1<::System::Runtime::InteropServices::GCHandle>))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACB_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr get_nativeHandle()

@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class LocalizedText; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 inline static constexpr unsigned int NEFGMEOHGLN___c__3_1_TypeDefinitionIndex = 49948;
 
@@ -17,9 +17,9 @@ inline static constexpr unsigned int NEFGMEOHGLN___c__3_1_TypeDefinitionIndex = 
 			return (::System::Object**)UnitySDK::FromName("", "<>c__3`1")->GetStaticField(0x0);
 		}
 
-		static ::System::Action** StaticGet___9__3_0()
+		static ::System::Action_2<::RPG::Client::LocalizedText*, ::RPG::Client::TextID>** StaticGet___9__3_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c__3`1")->GetStaticField(0x0);
+			return (::System::Action_2<::RPG::Client::LocalizedText*, ::RPG::Client::TextID>**)UnitySDK::FromName("", "<>c__3`1")->GetStaticField(0x0);
 		}
 
 	};

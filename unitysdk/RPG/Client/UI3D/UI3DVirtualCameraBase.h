@@ -3,8 +3,8 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class UI3DCameraStateBase; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_UI3D_UI3DVIRTUALCAMERABASE_ADDTRACKEDOFFSET_OFFSET UNITYSDK_OFFSET(0xE351DF0)
@@ -32,7 +32,7 @@ namespace RPG::Client::UI3D
 	class UI3DVirtualCameraBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action* ActiveChanged; // 0x18
+		::System::Action_1<::System::Boolean>* ActiveChanged; // 0x18
 		::System::String* _Key; // 0x20
 		::RPG::GameCore::UI3DCameraStateBase* IECNGOFLCFM; // 0x28
 		::System::Boolean FMNEEONAMNO; // 0x30
@@ -61,14 +61,14 @@ namespace RPG::Client::UI3D
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3D_UI3DVIRTUALCAMERABASE_GET_ISACTIVE_OFFSET))(this);
 		}
 
-		::System::Void add_ActiveChanged(::System::Action* a1)
+		::System::Void add_ActiveChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3D_UI3DVIRTUALCAMERABASE_ADD_ACTIVECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3D_UI3DVIRTUALCAMERABASE_ADD_ACTIVECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ActiveChanged(::System::Action* a1)
+		::System::Void remove_ActiveChanged(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3D_UI3DVIRTUALCAMERABASE_REMOVE_ACTIVECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3D_UI3DVIRTUALCAMERABASE_REMOVE_ACTIVECHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void SetLookAt(::UnityEngine::Transform* a1)

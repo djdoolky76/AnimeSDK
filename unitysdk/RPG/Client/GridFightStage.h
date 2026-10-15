@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/Client/GridFightStageMonsterSelectType.h"
 #include "unitysdk/RPG/GameCore/GridFightFunctionNodeType.h"
 #include "unitysdk/Sofa/Core/ObservableObject.h"
+#include "unitysdk/System/Nullable_1.h"
 class AINFNFIDGFF;
 class BEEFLEJAOCN;
 class FBFODNFGMKG;
@@ -25,7 +26,6 @@ namespace RPG::Client { class GridFightStageNode; }
 namespace RPG::Client { class GridFightStageRoute; }
 namespace RPG::Client { class IGridFightStageNode; }
 namespace RPG::GameCore { class GridFightStageRouteConfigRow; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_GRIDFIGHTSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD2821E0)
@@ -371,9 +371,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::NCKOKDHNJDC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE_SET_CURNODEINFO_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_CurCampID()
+		::System::Nullable_1<::System::UInt32> get_CurCampID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE_GET_CURCAMPID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE_GET_CURCAMPID_OFFSET))(this);
 		}
 
 		::RPG::Client::GridFightStageNode* get_CurNode()

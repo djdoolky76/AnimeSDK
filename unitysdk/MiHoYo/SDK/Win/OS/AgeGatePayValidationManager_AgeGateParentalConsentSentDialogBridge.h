@@ -3,8 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
 namespace MiHoYo::SDK::UI::OS { class IWinAgeGateParentalConsentSentDialog; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA57B0)
 #define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_GET_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1BDA6250)
@@ -25,32 +26,32 @@ namespace MiHoYo::SDK::Win::OS
 	class AgeGatePayValidationManager_AgeGateParentalConsentSentDialogBridge : public ::System::Object
 	{
 	public:
-		::System::Action* _OnClose_k__BackingField; // 0x10
-		::System::Action* _OnResendEmail_k__BackingField; // 0x18
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>* _OnClose_k__BackingField; // 0x10
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>* _OnResendEmail_k__BackingField; // 0x18
 		::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentSentDialog* bridge; // 0x20
 		::System::Void _ctor(::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentSentDialog* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::OS::IWinAgeGateParentalConsentSentDialog*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action* get_OnResendEmail()
+		::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>* get_OnResendEmail()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_GET_ONRESENDEMAIL_OFFSET))(this);
+			return ((::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_GET_ONRESENDEMAIL_OFFSET))(this);
 		}
 
-		::System::Void set_OnResendEmail(::System::Action* a1)
+		::System::Void set_OnResendEmail(::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_SET_ONRESENDEMAIL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_SET_ONRESENDEMAIL_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_OnClose()
+		::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>* get_OnClose()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_GET_ONCLOSE_OFFSET))(this);
+			return ((::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_GET_ONCLOSE_OFFSET))(this);
 		}
 
-		::System::Void set_OnClose(::System::Action* a1)
+		::System::Void set_OnClose(::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_SET_ONCLOSE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER_AGEGATEPARENTALCONSENTSENTDIALOGBRIDGE_SET_ONCLOSE_OFFSET))(this, a1);
 		}
 
 		::System::Void HideDialog()

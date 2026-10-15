@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemGiftPackDataRow; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace ZLinq { class ValueEnumerable; }
 
 #define CAFLCJEMBAE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D9FE850)
 #define CAFLCJEMBAE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9FEE50)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int CAFLCJEMBAE_TypeDefinitionIndex = 13874;
 	class CAFLCJEMBAE : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "CAFLCJEMBAE")->GetStaticField(0x3A670);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CAFLCJEMBAE")->GetStaticField(0x3A670);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemGiftPackDataRow*>** StaticGet_EHNHPCGDOIO()
@@ -76,9 +76,9 @@ inline static constexpr unsigned int CAFLCJEMBAE_TypeDefinitionIndex = 13874;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemGiftPackDataRow*>(*)())((::PBYTE)hIl2Cpp + CAFLCJEMBAE_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::ZLinq::ValueEnumerable* EHAFELPCLKB()
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemGiftPackDataRow*>, ::RPG::GameCore::ItemGiftPackDataRow*> EHAFELPCLKB()
 		{
-			return ((::ZLinq::ValueEnumerable*(*)())((::PBYTE)hIl2Cpp + CAFLCJEMBAE_EHAFELPCLKB_OFFSET))();
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ItemGiftPackDataRow*>, ::RPG::GameCore::ItemGiftPackDataRow*>(*)())((::PBYTE)hIl2Cpp + CAFLCJEMBAE_EHAFELPCLKB_OFFSET))();
 		}
 
 		static ::RPG::GameCore::ItemGiftPackDataRow* LMBKNCAIDLC(::System::UInt32 a1, ::System::UInt32 a2)

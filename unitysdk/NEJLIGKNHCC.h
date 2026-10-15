@@ -15,9 +15,9 @@ namespace Collections::Pooled { template <typename T> class PooledList_1; }
 namespace RPG::GameCore { class LevelPedestrianV2EmitInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2MemberInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -180,9 +180,9 @@ inline static constexpr unsigned int NEJLIGKNHCC_TypeDefinitionIndex = 69286;
 			return ((::System::Int32(*)(::PVOID, ::NEJLIGKNHCC_EAPBDMFEBHD*, ::System::Int32))((::PBYTE)hIl2Cpp + NEJLIGKNHCC_BGMMIICDEBI_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GOFOCENFPEA(::NEJLIGKNHCC_EAPBDMFEBHD* a1, ::NEJLIGKNHCC_BELACLLOLOJ* a2, ::NEJLIGKNHCC_BAIGKBAJFJE* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Action* a7)
+		::System::Void GOFOCENFPEA(::NEJLIGKNHCC_EAPBDMFEBHD* a1, ::NEJLIGKNHCC_BELACLLOLOJ* a2, ::NEJLIGKNHCC_BAIGKBAJFJE* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Action_3<::JOGBIBJLPJB, ::System::Int32, ::UnityEngine::Vector3>* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::NEJLIGKNHCC_EAPBDMFEBHD*, ::NEJLIGKNHCC_BELACLLOLOJ*, ::NEJLIGKNHCC_BAIGKBAJFJE*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + NEJLIGKNHCC_GOFOCENFPEA_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::NEJLIGKNHCC_EAPBDMFEBHD*, ::NEJLIGKNHCC_BELACLLOLOJ*, ::NEJLIGKNHCC_BAIGKBAJFJE*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Action_3<::JOGBIBJLPJB, ::System::Int32, ::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + NEJLIGKNHCC_GOFOCENFPEA_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Boolean KBPJEGKOACB(::NEJLIGKNHCC_BELACLLOLOJ* a1)

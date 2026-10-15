@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Windows::OS::Channel { class BindManager; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0E1F0)
 #define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1BE12880)
@@ -16,9 +16,9 @@ namespace MiHoYo::SDK::Windows::OS::Channel
 	class BindManager___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onCreateActionTicket; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x10
 		::MiHoYo::SDK::Windows::OS::Channel::BindManager* __4__this; // 0x18
-		::System::Action* onBindThirdparty; // 0x20
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onBindThirdparty; // 0x20
 		::System::Boolean forceTokenRefresh; // 0x28
 		::System::Void _ctor()
 		{

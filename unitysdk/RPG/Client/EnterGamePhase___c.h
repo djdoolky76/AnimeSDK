@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_ENTERGAMEPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCDF0610)
 #define RPG_CLIENT_ENTERGAMEPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF0640)
@@ -21,9 +22,9 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4B540);
 		}
 
-		static ::System::Action** StaticGet___9__15_1()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4B548);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4B548);
 		}
 
 		static ::System::Action** StaticGet___9__27_0()

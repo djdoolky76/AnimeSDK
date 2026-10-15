@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GrowthTargetNeedMaterialData; }
 namespace RPG::GameCore { class ItemConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -35,7 +35,7 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* _ComposeMaterialMap; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _NeedMaterialWithComposeSet; // 0x18
 		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* _NeedMaterialList; // 0x20
-		::System::Nullable* _LastIncludeLowPrioritySkillTree; // 0x28
+		::System::Nullable_1<::System::Boolean> _LastIncludeLowPrioritySkillTree; // 0x28
 		::System::Boolean _IgnoreExistingItem; // 0x2A
 		::System::Byte _padding0[0x1];
 		::System::UInt32 _LastAvatarID; // 0x2C

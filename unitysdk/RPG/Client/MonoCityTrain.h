@@ -8,8 +8,8 @@ class KLKMCNOECAL;
 class KNKPLOGICFO;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class EntityLodDetail; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Collider; }
@@ -117,7 +117,7 @@ namespace RPG::Client
 		::System::Int32 LKECAKOHCKP; // 0x148
 		::System::Byte _padding6[0x4];
 		::System::String* CEOKAGCAFHK; // 0x150
-		::System::Action* IPCAFEGMEGK; // 0x158
+		::System::Action_1<::UnityEngine::GameObject*>* IPCAFEGMEGK; // 0x158
 		::System::Boolean PCHELMOJKOO; // 0x160
 		::System::Byte _padding7[0x7];
 		::DEBEAKKOHLN* OIDAGBPPNBJ; // 0x168

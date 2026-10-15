@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class UIManager; }
 namespace MiHoYo::SDK::Win { class DatePicker; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Dropdown; }
@@ -46,7 +47,7 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Button* backBtn; // 0xB0
 		::UnityEngine::UI::Button* confirmBtn; // 0xB8
 		::UnityEngine::UI::Text* confirmBtnText; // 0xC0
-		::System::Action* OnConfirm; // 0xC8
+		::System::Action_3<::System::Int32, ::System::Int32, ::System::Int64>* OnConfirm; // 0xC8
 		::System::Action* OnBack; // 0xD0
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{

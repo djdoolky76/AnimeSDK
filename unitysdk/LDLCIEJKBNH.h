@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/Client/TriggerEffectParamsRef.h"
 #include "unitysdk/RPG/GameCore/ChenLingBattleEffectLifeTimeType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class ALMFLCJCHKP;
 class FLDCOAJPMEP;
@@ -57,15 +57,15 @@ inline static constexpr unsigned int LDLCIEJKBNH_TypeDefinitionIndex = 77810;
 		::System::Collections::Generic::List_1<::System::UInt32>* GGLCDLGHDLL; // 0x10
 		::KHNIAFDBHCD* HMKJADKFFEF; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::LinkedListNode_1<::RPG::Client::MonoEffect*>*>* CGHPJDOGGAG; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::LinkedList_1<::RPG::Client::MonoEffect*>*>* NKDNNHIPHFF; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::LinkedList_1<::RPG::Client::MonoEffect*>*>* NKDNNHIPHFF; // 0x28
 		::OMNJCDDMLHI* FKINCGODJEP; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* AJKKAKMLHND; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* AJKKAKMLHND; // 0x38
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::MonoEffect*, ::System::UInt32>* IJEJEGFJACH; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* AHDCNHCPKAP; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::RPG::GameCore::ChenLingBattleEffectConfig*, ::System::Int32>>* AHDCNHCPKAP; // 0x48
 		::System::Collections::Generic::List_1<::System::UInt32>* GIFBCMHFGFM; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::HashSet_1<::RPG::Client::MonoEffect*>*>* DJKCDMJGLIP; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::HashSet_1<::RPG::Client::MonoEffect*>*>* DJKCDMJGLIP; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::LittleGame::ChenLing::ChenLingEffectRemoveReason>* MOPAAKDPILE; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* JFMJKAGKGPC; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::Int32, ::System::String*>>* JFMJKAGKGPC; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TriggerEffectParamsRef>* NEBGLFDCODO; // 0x70
 		::System::Boolean PPIGLCIEIIM; // 0x78
 		::System::Void _ctor(::OMNJCDDMLHI* a1)
@@ -158,14 +158,14 @@ inline static constexpr unsigned int LDLCIEJKBNH_TypeDefinitionIndex = 77810;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_BEIPHHKFHCK_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple KBMDPKFIHIH(::ALMFLCJCHKP* a1, ::RPG::GameCore::ChenLingBattleEffectConfig* a2)
+		::System::ValueTuple_2<::System::Int32, ::System::String*> KBMDPKFIHIH(::ALMFLCJCHKP* a1, ::RPG::GameCore::ChenLingBattleEffectConfig* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::ALMFLCJCHKP*, ::RPG::GameCore::ChenLingBattleEffectConfig*))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_KBMDPKFIHIH_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::String*>(*)(::PVOID, ::ALMFLCJCHKP*, ::RPG::GameCore::ChenLingBattleEffectConfig*))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_KBMDPKFIHIH_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple KBMDPKFIHIH_1(::System::Int32 a1, ::System::String* a2)
+		::System::ValueTuple_2<::System::Int32, ::System::String*> KBMDPKFIHIH_1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_KBMDPKFIHIH_1_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::String*>(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_KBMDPKFIHIH_1_OFFSET))(this, a1, a2);
 		}
 
 		::LDLCIEJKBNH_ReplayOldestResult APBDACELPEF(::ALMFLCJCHKP* a1, ::RPG::GameCore::ChenLingBattleEffectConfig* a2, ::RPG::Client::TriggerEffectParams* a3, ::RPG::Client::MonoEffect* a4)
@@ -188,9 +188,9 @@ inline static constexpr unsigned int LDLCIEJKBNH_TypeDefinitionIndex = 77810;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_DPKGMOFJDPG_OFFSET))(this, a1);
 		}
 
-		::System::Void LMDNLMIAEAP(::System::ValueTuple a1, ::System::Collections::Generic::LinkedList_1<::RPG::Client::MonoEffect*>* a2)
+		::System::Void LMDNLMIAEAP(::System::ValueTuple_2<::System::Int32, ::System::String*> a1, ::System::Collections::Generic::LinkedList_1<::RPG::Client::MonoEffect*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple, ::System::Collections::Generic::LinkedList_1<::RPG::Client::MonoEffect*>*))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_LMDNLMIAEAP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::LinkedList_1<::RPG::Client::MonoEffect*>*))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_LMDNLMIAEAP_OFFSET))(this, a1, a2);
 		}
 
 	};

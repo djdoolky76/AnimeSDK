@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 class KCKCFKKKHED;
 namespace RPG::Client { class IMapIcon; }
 namespace RPG::Client { class IMapIconTrackSnapshot; }
@@ -8,7 +9,6 @@ namespace RPG::Client { class MapDataKey; }
 namespace RPG::Client { class MapTrackMonsterData; }
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class TwoKeyDictionary_3; }
 namespace RPG::Client::NavMap { class IMapDataSource; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -213,9 +213,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__UPDATEMONSTERTRACK_OFFSET))(this);
 		}
 
-		::RPG::Client::MapTrackMonsterData* _GetFirstValidMonster(::System::Nullable* a1)
+		::RPG::Client::MapTrackMonsterData* _GetFirstValidMonster(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::RPG::Client::MapTrackMonsterData*(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__GETFIRSTVALIDMONSTER_OFFSET))(this, a1);
+			return ((::RPG::Client::MapTrackMonsterData*(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_BIGMAPMODULE__GETFIRSTVALIDMONSTER_OFFSET))(this, a1);
 		}
 
 		::System::Void _ClearTrackingMapMonsterData()

@@ -4,7 +4,7 @@
 namespace SRDebugger::Services { class ConsoleEntry; }
 namespace SRDebugger::Services { class IAssetLoaderService; }
 namespace SRDebugger::Services { class IDebugService; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityEvent; }
 
 #define SRDEBUG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED363C0)
@@ -18,9 +18,9 @@ inline static constexpr unsigned int SRDebug_TypeDefinitionIndex = 37946;
 	class SRDebug : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_CopyConsoleItemCallback()
+		static ::System::Action_1<::SRDebugger::Services::ConsoleEntry*>** StaticGet_CopyConsoleItemCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "SRDebug")->GetStaticField(0x38DA0);
+			return (::System::Action_1<::SRDebugger::Services::ConsoleEntry*>**)UnitySDK::FromName("", "SRDebug")->GetStaticField(0x38DA0);
 		}
 
 		static ::UnityEngine::Events::UnityEvent** StaticGet_OnRPGAppRestart()
@@ -49,9 +49,9 @@ inline static constexpr unsigned int SRDebug_TypeDefinitionIndex = 37946;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRDEBUG_INIT_OFFSET))();
 		}
 
-		static ::System::Action* GetDefaultCopyConsoleItemCallback()
+		static ::System::Action_1<::SRDebugger::Services::ConsoleEntry*>* GetDefaultCopyConsoleItemCallback()
 		{
-			return ((::System::Action*(*)())((::PBYTE)hIl2Cpp + SRDEBUG_GETDEFAULTCOPYCONSOLEITEMCALLBACK_OFFSET))();
+			return ((::System::Action_1<::SRDebugger::Services::ConsoleEntry*>*(*)())((::PBYTE)hIl2Cpp + SRDEBUG_GETDEFAULTCOPYCONSOLEITEMCALLBACK_OFFSET))();
 		}
 
 	};

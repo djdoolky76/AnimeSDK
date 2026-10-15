@@ -5,14 +5,14 @@
 #include "unitysdk/AEDHLLMGANN_GFALKPIEIKO.h"
 #include "unitysdk/BFOGLEGJOLK.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator_2.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class FCOEMCEDLNL;
 class OFLIAAOJPJC;
 namespace RPG::GameCore { class PerformanceBackupLockRow; }
 namespace RPG::GameCore { template <typename T1, typename T2> class TableLRUCache_2; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -53,9 +53,9 @@ inline static constexpr unsigned int AEDHLLMGANN_TypeDefinitionIndex = 14356;
 			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F20);
 		}
 
-		static ::System::Action** StaticGet_MPCODIGIBGL()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F28);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F28);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>** StaticGet_EHNHPCGDOIO()
@@ -133,9 +133,9 @@ inline static constexpr unsigned int AEDHLLMGANN_TypeDefinitionIndex = 14356;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AEDHLLMGANN_KACCGMCPAFN_OFFSET))();
 		}
 
-		static ::System::Void MDDEBCEINEJ(::System::ValueTuple a1, ::RPG::GameCore::PerformanceBackupLockRow* a2)
+		static ::System::Void MDDEBCEINEJ(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1, ::RPG::GameCore::PerformanceBackupLockRow* a2)
 		{
-			return ((::System::Void(*)(::System::ValueTuple, ::RPG::GameCore::PerformanceBackupLockRow*))((::PBYTE)hIl2Cpp + AEDHLLMGANN_MDDEBCEINEJ_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>, ::RPG::GameCore::PerformanceBackupLockRow*))((::PBYTE)hIl2Cpp + AEDHLLMGANN_MDDEBCEINEJ_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean OKONOOJEJMJ(::AEDHLLMGANN_GFALKPIEIKO a1, ::RPG::GameCore::PerformanceBackupLockRow* a2)

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class JANIKHDFJLA;
 class KDOJKNPADNC;
 namespace RPG::GameCore { class GameEntity; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -32,7 +32,7 @@ inline static constexpr unsigned int MACJPMIDFNL_TypeDefinitionIndex = 64240;
 	class MACJPMIDFNL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* GANCEIODDPB; // 0x10
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single>>* GANCEIODDPB; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* GFGBFKPKDDL; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* HPGMBOKOGAA; // 0x20
 		::System::Collections::Generic::List_1<::System::UInt32>* FDHOAEDHKCH; // 0x28

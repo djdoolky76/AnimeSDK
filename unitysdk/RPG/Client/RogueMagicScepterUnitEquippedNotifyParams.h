@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueMagicMountType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class RogueMagicScepterUnitEquippedNotifyParams; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
@@ -17,7 +17,7 @@ namespace RPG::Client
 	class RogueMagicScepterUnitEquippedNotifyParams : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* UnitEquippedSlots; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>>* UnitEquippedSlots; // 0x10
 		::System::UInt32 Level; // 0x18
 		::System::UInt32 ScepterID; // 0x1C
 		::System::Void _ctor()

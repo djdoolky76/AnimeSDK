@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftRotationType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class EJHONGHJCNB;
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define JJPNMFDELJH_CECMCADBMDE_OFFSET UNITYSDK_OFFSET(0xB20C520)
@@ -19,7 +19,7 @@ inline static constexpr unsigned int JJPNMFDELJH_TypeDefinitionIndex = 80140;
 	{
 	public:
 		::EJHONGHJCNB* IBPBJBOKKMF; // 0x10
-		::System::Nullable* MIFKHBDOGLN; // 0x18
+		::System::Nullable_1<::UnityEngine::Vector2Int> MIFKHBDOGLN; // 0x18
 		::System::Void _ctor(::EJHONGHJCNB* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::EJHONGHJCNB*))((::PBYTE)hIl2Cpp + JJPNMFDELJH_CTOR_OFFSET))(this, a1);

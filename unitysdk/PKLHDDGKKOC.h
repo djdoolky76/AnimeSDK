@@ -3,6 +3,7 @@
 #include "unitysdk/KJAKHIPNPGM.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/IMOHEHDKGPK.h"
 class FEMCFBBGBDM;
@@ -18,7 +19,6 @@ namespace RPG::GameCore { class PropRow; }
 namespace RPG::GameCore { class SingleAnimBehaviourEvent; }
 namespace RPG::GameCore { class SingleAnimEventConfig; }
 namespace RPG::GameCore { class TaskConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -102,9 +102,9 @@ inline static constexpr unsigned int PKLHDDGKKOC_TypeDefinitionIndex = 57367;
 		::UnityEngine::RuntimeAnimatorController* NBECDBIDDOP; // 0x78
 		::IDCOKMGFCGJ* BLCANICCCLP; // 0x80
 		::FEMCFBBGBDM* KLHIJKCIBAC; // 0x88
-		::System::Nullable* EBONANJKPME; // 0x90
+		::System::Nullable_1<::UnityEngine::AnimatorStateInfo> EBONANJKPME; // 0x90
 		::System::Byte _padding0[0x20];
-		::System::Nullable* EMMBDEMJDJA; // 0xB8
+		::System::Nullable_1<::UnityEngine::AnimatorStateInfo> EMMBDEMJDJA; // 0xB8
 		::System::Byte _padding1[0x20];
 		::System::Boolean OBIBGNCDJDL; // 0xE0
 		::System::Boolean FBPPBMOAHFN; // 0xE1

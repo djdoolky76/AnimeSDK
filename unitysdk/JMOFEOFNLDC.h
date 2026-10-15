@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class APANODGHDHP;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -32,9 +32,9 @@ inline static constexpr unsigned int JMOFEOFNLDC_TypeDefinitionIndex = 69546;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMOFEOFNLDC_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void JKHOBGMGIHJ(::APANODGHDHP* a1, ::System::UInt32 a2, ::RPG::MVector3 a3, ::System::Nullable* a4)
+		::System::Void JKHOBGMGIHJ(::APANODGHDHP* a1, ::System::UInt32 a2, ::RPG::MVector3 a3, ::System::Nullable_1<::RPG::MVector3> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::APANODGHDHP*, ::System::UInt32, ::RPG::MVector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + JMOFEOFNLDC_JKHOBGMGIHJ_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::APANODGHDHP*, ::System::UInt32, ::RPG::MVector3, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + JMOFEOFNLDC_JKHOBGMGIHJ_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::MVector3 KFGJEKJHIMB(::System::Single a1)

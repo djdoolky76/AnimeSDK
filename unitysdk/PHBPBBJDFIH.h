@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class KEGNPEGPLPM;
@@ -7,7 +8,6 @@ class KJCHLFOFENJ;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace RPGTools::Timeline { class VirtualCameraNoiseConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -42,9 +42,9 @@ inline static constexpr unsigned int PHBPBBJDFIH_TypeDefinitionIndex = 60703;
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::KJCHLFOFENJ*>* MAIFJIALPLJ; // 0x30
 		::KEGNPEGPLPM* DIOOIEHBNHJ; // 0x38
 		::UnityEngine::Vector3 LOMMNBIANJO; // 0x40
-		::System::Nullable* DLFPFLOAGGG; // 0x4C
+		::System::Nullable_1<::System::Single> DLFPFLOAGGG; // 0x4C
 		::UnityEngine::Vector3 JHLJODHMEMP; // 0x54
-		::System::Nullable* OFABLKBBNHC; // 0x60
+		::System::Nullable_1<::System::Single> OFABLKBBNHC; // 0x60
 		static ::System::Int32* StaticGet_OELILMHMLIG()
 		{
 			return (::System::Int32*)UnitySDK::FromName("", "PHBPBBJDFIH")->GetStaticField(0x158E0);

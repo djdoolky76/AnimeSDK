@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HLFHMKMJNPK.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class DFGDEHAHLHC;
 class FDPALAEIHPB;
 class GFHCKBHCNDF;
@@ -10,7 +11,6 @@ class LIJFHHMGBFE;
 class LKOGAEABGPB;
 class MBDOBECHOJA;
 namespace RPG::GameCore { class LittleGameEntityConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -114,14 +114,14 @@ inline static constexpr unsigned int DDKIPKAGIEJ_TypeDefinitionIndex = 42191;
 			return ((::System::Void(*)(::PVOID, ::GFHCKBHCNDF*, ::MBDOBECHOJA*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DFGDEHAHLHC*>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + DDKIPKAGIEJ_DKLHIKNMLDJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::DFGDEHAHLHC* AHKDALFEKDM(::GFHCKBHCNDF* a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::LIJFHHMGBFE* a6, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>* a7, ::System::Int32 a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Boolean a11, ::System::UInt32 a12, ::System::Nullable* a13)
+		::DFGDEHAHLHC* AHKDALFEKDM(::GFHCKBHCNDF* a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::LIJFHHMGBFE* a6, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>* a7, ::System::Int32 a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Boolean a11, ::System::UInt32 a12, ::System::Nullable_1<::UnityEngine::Vector3> a13)
 		{
-			return ((::DFGDEHAHLHC*(*)(::PVOID, ::GFHCKBHCNDF*, ::System::Int32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::LIJFHHMGBFE*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::Nullable*))((::PBYTE)hIl2Cpp + DDKIPKAGIEJ_AHKDALFEKDM_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
+			return ((::DFGDEHAHLHC*(*)(::PVOID, ::GFHCKBHCNDF*, ::System::Int32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::LIJFHHMGBFE*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + DDKIPKAGIEJ_AHKDALFEKDM_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		::DFGDEHAHLHC* PHIDANPEMKM(::GFHCKBHCNDF* a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::LIJFHHMGBFE* a6, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>* a7, ::System::Int32 a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Nullable* a11)
+		::DFGDEHAHLHC* PHIDANPEMKM(::GFHCKBHCNDF* a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::UInt32 a5, ::LIJFHHMGBFE* a6, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>* a7, ::System::Int32 a8, ::System::Boolean a9, ::System::Boolean a10, ::System::Nullable_1<::UnityEngine::Vector3> a11)
 		{
-			return ((::DFGDEHAHLHC*(*)(::PVOID, ::GFHCKBHCNDF*, ::System::Int32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::LIJFHHMGBFE*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + DDKIPKAGIEJ_PHIDANPEMKM_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::DFGDEHAHLHC*(*)(::PVOID, ::GFHCKBHCNDF*, ::System::Int32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::LIJFHHMGBFE*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + DDKIPKAGIEJ_PHIDANPEMKM_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::System::Void CAMEOIBPPLO(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DFGDEHAHLHC*>* a2, ::System::Collections::Generic::List_1<::System::UInt32>* a3, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::Vector3>* a4)

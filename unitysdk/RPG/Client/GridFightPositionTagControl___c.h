@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/GridFightPreset.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class AGKODPKMDMA;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace RPG::Client { class MonoUIColorSwitcher; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 #define RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1E0E20)
@@ -33,44 +33,44 @@ namespace RPG::Client
 	class GridFightPositionTagControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Nullable*, ::System::Boolean>** StaticGet___9__7_5()
+		static ::System::Func_2<::System::Nullable_1<::RPG::GameCore::GridFightPreset>, ::System::Boolean>** StaticGet___9__7_5()
 		{
-			return (::System::Func_2<::System::Nullable*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E040);
+			return (::System::Func_2<::System::Nullable_1<::RPG::GameCore::GridFightPreset>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E040);
 		}
 
-		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>** StaticGet___9__7_4()
+		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__7_4()
 		{
-			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E048);
+			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E048);
 		}
 
-		static ::System::Func_2<::System::Nullable*, ::System::Boolean>** StaticGet___9__7_8()
+		static ::System::Func_2<::System::Nullable_1<::RPG::GameCore::GridFightPreset>, ::System::Boolean>** StaticGet___9__7_8()
 		{
-			return (::System::Func_2<::System::Nullable*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E050);
+			return (::System::Func_2<::System::Nullable_1<::RPG::GameCore::GridFightPreset>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E050);
 		}
 
-		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>** StaticGet___9__7_2()
+		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__7_2()
 		{
-			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E058);
+			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E058);
 		}
 
-		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>** StaticGet___9__7_1()
+		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__7_1()
 		{
-			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E060);
+			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E060);
 		}
 
-		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>** StaticGet___9__8_0()
+		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E068);
+			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E068);
 		}
 
-		static ::System::Action** StaticGet___9__8_1()
+		static ::System::Action_2<::RPG::Client::MonoUIColorSwitcher*, ::System::String*>** StaticGet___9__8_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E070);
+			return (::System::Action_2<::RPG::Client::MonoUIColorSwitcher*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E070);
 		}
 
-		static ::System::Func_2<::System::Nullable*, ::System::Boolean>** StaticGet___9__7_7()
+		static ::System::Func_2<::System::Nullable_1<::RPG::GameCore::GridFightPreset>, ::System::Boolean>** StaticGet___9__7_7()
 		{
-			return (::System::Func_2<::System::Nullable*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E078);
+			return (::System::Func_2<::System::Nullable_1<::RPG::GameCore::GridFightPreset>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E078);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -78,19 +78,19 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E080);
 		}
 
-		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>** StaticGet___9__7_0()
+		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E088);
+			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E088);
 		}
 
-		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>** StaticGet___9__7_3()
+		static ::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__7_3()
 		{
-			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E090);
+			return (::System::Func_2<::AGKODPKMDMA*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E090);
 		}
 
-		static ::System::Func_2<::System::Nullable*, ::System::Boolean>** StaticGet___9__7_6()
+		static ::System::Func_2<::System::Nullable_1<::RPG::GameCore::GridFightPreset>, ::System::Boolean>** StaticGet___9__7_6()
 		{
-			return (::System::Func_2<::System::Nullable*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E098);
+			return (::System::Func_2<::System::Nullable_1<::RPG::GameCore::GridFightPreset>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E098);
 		}
 
 		static ::System::Void _cctor()
@@ -103,54 +103,54 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C_CTOR_OFFSET))(this);
 		}
 
-		::R3::Observable* __BindDisplayType_b__7_0(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::System::Boolean>* __BindDisplayType_b__7_0(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __BindDisplayType_b__7_5(::System::Nullable* a1)
+		::System::Boolean __BindDisplayType_b__7_5(::System::Nullable_1<::RPG::GameCore::GridFightPreset> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_5_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::GridFightPreset>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindDisplayType_b__7_1(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::System::Boolean>* __BindDisplayType_b__7_1(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __BindDisplayType_b__7_6(::System::Nullable* a1)
+		::System::Boolean __BindDisplayType_b__7_6(::System::Nullable_1<::RPG::GameCore::GridFightPreset> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::GridFightPreset>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_6_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindDisplayType_b__7_2(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::System::Boolean>* __BindDisplayType_b__7_2(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_2_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __BindDisplayType_b__7_7(::System::Nullable* a1)
+		::System::Boolean __BindDisplayType_b__7_7(::System::Nullable_1<::RPG::GameCore::GridFightPreset> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_7_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::GridFightPreset>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_7_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindDisplayType_b__7_3(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::System::Boolean>* __BindDisplayType_b__7_3(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_3_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __BindDisplayType_b__7_8(::System::Nullable* a1)
+		::System::Boolean __BindDisplayType_b__7_8(::System::Nullable_1<::RPG::GameCore::GridFightPreset> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_8_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::GridFightPreset>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_8_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindDisplayType_b__7_4(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __BindDisplayType_b__7_4(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDDISPLAYTYPE_B__7_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindColorState_b__8_0(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::System::String*>* __BindColorState_b__8_0(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDCOLORSTATE_B__8_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPOSITIONTAGCONTROL___C___BINDCOLORSTATE_B__8_0_OFFSET))(this, a1);
 		}
 
 		::System::Void __BindColorState_b__8_1(::RPG::Client::MonoUIColorSwitcher* a1, ::System::String* a2)

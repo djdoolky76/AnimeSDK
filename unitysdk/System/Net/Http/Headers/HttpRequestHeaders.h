@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Http/Headers/HttpHeaders.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 namespace System::Net::Http::Headers { class HttpRequestHeaders; }
 namespace System::Net::Http::Headers { class TransferCodingHeaderValue; }
@@ -24,7 +24,7 @@ namespace System::Net::Http::Headers
 	class HttpRequestHeaders : public ::System::Net::Http::Headers::HttpHeaders
 	{
 	public:
-		::System::Nullable* expectContinue; // 0x20
+		::System::Nullable_1<::System::Boolean> expectContinue; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_CTOR_OFFSET))(this);
@@ -35,9 +35,9 @@ namespace System::Net::Http::Headers
 			return ((::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_CONNECTION_OFFSET))(this);
 		}
 
-		::System::Nullable* get_ConnectionClose()
+		::System::Nullable_1<::System::Boolean> get_ConnectionClose()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_CONNECTIONCLOSE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_CONNECTIONCLOSE_OFFSET))(this);
 		}
 
 		::System::Boolean get_ConnectionKeepAlive()
@@ -45,9 +45,9 @@ namespace System::Net::Http::Headers
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_CONNECTIONKEEPALIVE_OFFSET))(this);
 		}
 
-		::System::Nullable* get_ExpectContinue()
+		::System::Nullable_1<::System::Boolean> get_ExpectContinue()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_EXPECTCONTINUE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_EXPECTCONTINUE_OFFSET))(this);
 		}
 
 		::System::String* get_Host()
@@ -60,9 +60,9 @@ namespace System::Net::Http::Headers
 			return ((::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_TRANSFERENCODING_OFFSET))(this);
 		}
 
-		::System::Nullable* get_TransferEncodingChunked()
+		::System::Nullable_1<::System::Boolean> get_TransferEncodingChunked()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_TRANSFERENCODINGCHUNKED_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS_GET_TRANSFERENCODINGCHUNKED_OFFSET))(this);
 		}
 
 		::System::Void AddHeaders(::System::Net::Http::Headers::HttpRequestHeaders* a1)

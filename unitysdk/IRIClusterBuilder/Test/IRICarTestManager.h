@@ -4,7 +4,7 @@
 #include "unitysdk/IRIClusterBuilder/Test/IRICarTestManager_EPositionMode.h"
 #include "unitysdk/IRIClusterBuilder/Test/IRICarTestManager_HotReloadCommand.h"
 #include "unitysdk/IRIClusterBuilder/Test/IRICarTestManager_LightType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/ClusterIRIType.h"
 #include "unitysdk/UnityEngine/ClusterMeshLodInfo.h"
@@ -91,7 +91,7 @@ namespace IRIClusterBuilder::Test
 		::IRIClusterBuilder::IRIClusterBuildConfig* IRIClusterBuildConfig; // 0x90
 		::UnityEngine::Material* IRI2CarClusterMaterial; // 0x98
 		::System::Collections::Generic::List_1<::IRIClusterBuilder::IRI2VolumeTemplate*>* IRI2VolumeTemplate; // 0xA0
-		::System::Collections::Generic::List_1<::System::ValueTuple>* FHNECFDCBEF; // 0xA8
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::UnityEngine::IRIClusterVolumeInfo>>* FHNECFDCBEF; // 0xA8
 		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::Unity::Collections::NativeArray_1<::UnityEngine::ClusterIRIType>>* EDAMOPOBBGJ; // 0xB0
 		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* KKHONILOFEL; // 0xB8
 		::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::ClusterMeshLodInfo>>*>* MLAGMEBJKGJ; // 0xC0

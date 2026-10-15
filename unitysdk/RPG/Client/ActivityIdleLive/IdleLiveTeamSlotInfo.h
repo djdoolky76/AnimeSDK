@@ -6,9 +6,9 @@ class CGBPOHBACGE;
 class EPOFJMLCFPI;
 class GDLPHFCCCFL;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotLevelUpReward; }
-namespace System { class EventHandler; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -37,7 +37,7 @@ namespace RPG::Client::ActivityIdleLive
 	class IdleLiveTeamSlotInfo : public ::System::Object
 	{
 	public:
-		::System::EventHandler* ProtocolReceived; // 0x10
+		::System::EventHandler_1<::EPOFJMLCFPI*>* ProtocolReceived; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _SlotUpgradeCostDic; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* _SlotExtraPowerByLevelDic; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotLevelUpReward*>* _SlotLevelUpRewardList; // 0x28
@@ -47,14 +47,14 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO_CTOR_OFFSET))(this);
 		}
 
-		::System::Void add_ProtocolReceived(::System::EventHandler* a1)
+		::System::Void add_ProtocolReceived(::System::EventHandler_1<::EPOFJMLCFPI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO_ADD_PROTOCOLRECEIVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::EPOFJMLCFPI*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO_ADD_PROTOCOLRECEIVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_ProtocolReceived(::System::EventHandler* a1)
+		::System::Void remove_ProtocolReceived(::System::EventHandler_1<::EPOFJMLCFPI*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO_REMOVE_PROTOCOLRECEIVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::EPOFJMLCFPI*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTINFO_REMOVE_PROTOCOLRECEIVED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnProtocolReceived(::System::String* a1, ::System::Object* a2)

@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_XML_ASYNCHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE91E50)
 
@@ -17,19 +18,19 @@ namespace System::Xml
 			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F950);
 		}
 
-		static ::System::Threading::Tasks::Task** StaticGet_DoneTaskFalse()
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskFalse()
 		{
-			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F958);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F958);
 		}
 
-		static ::System::Threading::Tasks::Task** StaticGet_DoneTaskTrue()
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskTrue()
 		{
-			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F960);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F960);
 		}
 
-		static ::System::Threading::Tasks::Task** StaticGet_DoneTaskZero()
+		static ::System::Threading::Tasks::Task_1<::System::Int32>** StaticGet_DoneTaskZero()
 		{
-			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F968);
+			return (::System::Threading::Tasks::Task_1<::System::Int32>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F968);
 		}
 
 		static ::System::Void _cctor()

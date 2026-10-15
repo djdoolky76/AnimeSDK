@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/FrameCaptureManager_CaptureUsage.h"
 #include "unitysdk/RPG/CustomRP/FrameCapture_CaptureFeature.h"
 #include "unitysdk/RPG/CustomRP/FrameCapture_CaptureType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class UIFrameCaptureParam; }
-namespace System { class Nullable; }
 
 #define RPG_CLIENT_UIFRAMECAPTUREPARAM_CLONE_OFFSET UNITYSDK_OFFSET(0xE3A2FB0)
 #define RPG_CLIENT_UIFRAMECAPTUREPARAM_CREATEDEFAULTCAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xE3A33F0)
@@ -21,7 +21,7 @@ namespace RPG::Client
 		::RPG::Client::FrameCaptureManager_CaptureUsage CaptureUsage; // 0x10
 		::RPG::CustomRP::FrameCapture_CaptureType CaptureType; // 0x14
 		::RPG::CustomRP::FrameCapture_CaptureFeature CaptureFeature; // 0x18
-		::System::Nullable* RenderScale; // 0x1C
+		::System::Nullable_1<::System::Single> RenderScale; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTUREPARAM_CTOR_OFFSET))(this);

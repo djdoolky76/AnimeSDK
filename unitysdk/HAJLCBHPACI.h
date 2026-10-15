@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BehaviorBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client { class CRPVCBackground; }
 namespace RPG::Client { class SplitScreenVCControl; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
@@ -43,26 +43,26 @@ inline static constexpr unsigned int HAJLCBHPACI_TypeDefinitionIndex = 69715;
 		::UnityEngine::Texture2D* IPFHEKOCABD; // 0x28
 		::System::String* AGJDKFLBNLA; // 0x30
 		::UnityEngine::Vector2 DEAGFGEGGDJ; // 0x38
-		::System::Nullable* JFKBDNMFOFL; // 0x40
-		::System::Nullable* JBHNCHNFGKO; // 0x48
-		::System::Nullable* IHINAPMNICE; // 0x50
-		::System::Nullable* HBIPIGHGPFH; // 0x58
-		::System::Nullable* BGJBONAALME; // 0x60
+		::System::Nullable_1<::System::Single> JFKBDNMFOFL; // 0x40
+		::System::Nullable_1<::System::Single> JBHNCHNFGKO; // 0x48
+		::System::Nullable_1<::System::Single> IHINAPMNICE; // 0x50
+		::System::Nullable_1<::System::Single> HBIPIGHGPFH; // 0x58
+		::System::Nullable_1<::UnityEngine::Vector2> BGJBONAALME; // 0x60
 		::System::Byte _padding0[0x4];
-		::System::Nullable* DIACFBPMAJM; // 0x6C
+		::System::Nullable_1<::UnityEngine::Vector2> DIACFBPMAJM; // 0x6C
 		::System::Byte _padding1[0x4];
-		::System::Nullable* KNDJODMHDIA; // 0x78
+		::System::Nullable_1<::UnityEngine::Vector2> KNDJODMHDIA; // 0x78
 		::System::Byte _padding2[0x4];
-		::System::Nullable* HOEFNNIJLLB; // 0x84
+		::System::Nullable_1<::UnityEngine::Color> HOEFNNIJLLB; // 0x84
 		::System::Byte _padding3[0xC];
-		::System::Nullable* HDNMPNPBOAA; // 0x98
+		::System::Nullable_1<::UnityEngine::Vector2> HDNMPNPBOAA; // 0x98
 		::System::Byte _padding4[0x4];
-		::System::Nullable* JGFEBMPNHGE; // 0xA4
+		::System::Nullable_1<::System::Single> JGFEBMPNHGE; // 0xA4
 		::UnityEngine::Vector2 ANAFLKMMEFJ; // 0xAC
-		::System::Nullable* PNEBIBKJMCM; // 0xB4
+		::System::Nullable_1<::System::Boolean> PNEBIBKJMCM; // 0xB4
 		::System::Boolean DDFBKOHOIOI; // 0xB6
-		::System::Nullable* ADINFEHCJCE; // 0xB7
-		::System::Nullable* CDGOEKBKLAD; // 0xBC
+		::System::Nullable_1<::System::Boolean> ADINFEHCJCE; // 0xB7
+		::System::Nullable_1<::UnityEngine::Color> CDGOEKBKLAD; // 0xBC
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HAJLCBHPACI_CTOR_OFFSET))(this);

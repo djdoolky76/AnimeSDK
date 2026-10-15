@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftChipTraitType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class CHGHIALKMFM;
 class FCNLPLHOACB;
 class IFOEBJMEFKG;
 class OFIILELJGIE;
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
@@ -35,9 +35,9 @@ inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass54_0_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C__DISPLAYCLASS54_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __TryRecommendMoldForAttrTraitNeitherMet_b__0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __TryRecommendMoldForAttrTraitNeitherMet_b__0(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C__DISPLAYCLASS54_0___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C__DISPLAYCLASS54_0___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_B__0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __TryRecommendMoldForAttrTraitNeitherMet_b__5(::RPG::Client::MechCraft::MechCraftChipTraitType a1)

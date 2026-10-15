@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define NNMPPHHHEIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCD5310)
 #define NNMPPHHHEIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD5340)
@@ -27,9 +27,9 @@ inline static constexpr unsigned int NNMPPHHHEIK___c_TypeDefinitionIndex = 59038
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x567E8);
 		}
 
-		static ::System::Action** StaticGet___9__64_2()
+		static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet___9__64_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x567F0);
+			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x567F0);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet___9__64_1()

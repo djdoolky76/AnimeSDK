@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 class JBHJMGCPBNN;
 class OGFNMNGJPIC;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
@@ -22,7 +22,7 @@ inline static constexpr unsigned int JBHJMGCPBNN_TypeDefinitionIndex = 72278;
 	class JBHJMGCPBNN : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Action* CIFOILLJFNF; // 0x60
+		::System::Action_1<::JBHJMGCPBNN*>* CIFOILLJFNF; // 0x60
 		::UnityEngine::UI::Text* GOHFAIIDICB; // 0x68
 		::UnityEngine::Animation* KCOAILOHDND; // 0x70
 		::UnityEngine::UI::Text* PDKECBBIBBP; // 0x78
@@ -55,9 +55,9 @@ inline static constexpr unsigned int JBHJMGCPBNN_TypeDefinitionIndex = 72278;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + JBHJMGCPBNN_OHNODFLDOGI_OFFSET))(this, a1);
 		}
 
-		::System::Void KPAFBJFNFJA(::System::Action* a1)
+		::System::Void KPAFBJFNFJA(::System::Action_1<::JBHJMGCPBNN*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JBHJMGCPBNN_KPAFBJFNFJA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::JBHJMGCPBNN*>*))((::PBYTE)hIl2Cpp + JBHJMGCPBNN_KPAFBJFNFJA_OFFSET))(this, a1);
 		}
 
 		::System::Void __OnBind_b__1_0()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/MechCraftRotationType.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 
 #define PLHLAIJKMOD_BDLMPEDPDCH_OFFSET UNITYSDK_OFFSET(0x3C28FB0)
@@ -56,9 +56,9 @@ inline static constexpr unsigned int PLHLAIJKMOD_TypeDefinitionIndex = 41831;
 		*/
 
 		/*
-		::PLHLAIJKMOD OBAFLPMJEBE(::System::Nullable* a1, ::System::Nullable* a2)
+		::PLHLAIJKMOD OBAFLPMJEBE(::System::Nullable_1<::UnityEngine::Vector2Int> a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType> a2)
 		{
-			return ((::PLHLAIJKMOD(*)(::PVOID, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + PLHLAIJKMOD_OBAFLPMJEBE_OFFSET))(this, a1, a2);
+			return ((::PLHLAIJKMOD(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector2Int>, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftRotationType>))((::PBYTE)hIl2Cpp + PLHLAIJKMOD_OBAFLPMJEBE_OFFSET))(this, a1, a2);
 		}
 		*/
 

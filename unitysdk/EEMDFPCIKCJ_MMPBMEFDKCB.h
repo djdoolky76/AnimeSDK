@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class EntityLodDetail; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
@@ -20,17 +21,17 @@ inline static constexpr unsigned int EEMDFPCIKCJ_MMPBMEFDKCB_TypeDefinitionIndex
 	class EEMDFPCIKCJ_MMPBMEFDKCB : public ::System::Object
 	{
 	public:
-		::System::Action* NJMPKLNGNFI; // 0x10
-		::System::Action* BHHKENOIOKK; // 0x18
+		::System::Action_1<::UnityEngine::Mesh*>* NJMPKLNGNFI; // 0x10
+		::System::Action_2<::UnityEngine::SkinnedMeshRenderer*, ::UnityEngine::Mesh*>* BHHKENOIOKK; // 0x18
 		::Il2CppArray<::System::String*>* BNBDDBKHNLB; // 0x20
 		::UnityEngine::SkinnedMeshRenderer* FENKPBGBHGK; // 0x28
 		::System::Int32 NLFEIPEIAPK; // 0x30
 		::System::Boolean EDJNGIIMHIB; // 0x34
 		::System::Byte _padding0[0x3];
 		::System::Int32 DHMOIAAGCFK; // 0x38
-		::System::Void _ctor(::UnityEngine::SkinnedMeshRenderer* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void _ctor(::UnityEngine::SkinnedMeshRenderer* a1, ::System::String* a2, ::System::Action_2<::UnityEngine::SkinnedMeshRenderer*, ::UnityEngine::Mesh*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + EEMDFPCIKCJ_MMPBMEFDKCB_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*, ::System::String*, ::System::Action_2<::UnityEngine::SkinnedMeshRenderer*, ::UnityEngine::Mesh*>*))((::PBYTE)hIl2Cpp + EEMDFPCIKCJ_MMPBMEFDKCB_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void BJMNKLGEMPM()

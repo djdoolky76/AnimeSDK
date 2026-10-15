@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/IKKAFGPNEGO_AJAGEDENGHL.h"
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Animator; }
@@ -56,7 +56,7 @@ inline static constexpr unsigned int HECPPNNADJE_TypeDefinitionIndex = 57292;
 		::System::String* _Clip0Name_k__BackingField; // 0x28
 		::System::String* _Clip1Name_k__BackingField; // 0x30
 		::UnityEngine::AnimationClip* CALPEKNOOID; // 0x38
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* BADIPHHBBJC; // 0x40
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* BADIPHHBBJC; // 0x40
 		::System::String* MMMJBLGMDHG; // 0x48
 		::UnityEngine::AnimationClip* CMOOEJBJILE; // 0x50
 		::System::Int32 AAPBDMEIPEI; // 0x58
@@ -179,9 +179,9 @@ inline static constexpr unsigned int HECPPNNADJE_TypeDefinitionIndex = 57292;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HECPPNNADJE_SET_CLIP1NAMEHASH_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* ALLAHFLPHOJ()
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* ALLAHFLPHOJ()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HECPPNNADJE_ALLAHFLPHOJ_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HECPPNNADJE_ALLAHFLPHOJ_OFFSET))(this);
 		}
 
 		::System::Boolean ALFLCCLBKGJ(::System::Int32 a1)

@@ -13,6 +13,7 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MethodBase; }
@@ -79,14 +80,14 @@ namespace IFix::Core
 		::Il2CppArray<::System::Type*>* staticFieldTypes; // 0x88
 		::PVOID unmanagedCodes; // 0x90
 		::System::Int32 PatchedArrayLength; // 0x98
-		static ::System::Action** StaticGet___f__mg_cache0()
+		static ::System::Action_1<::System::String*>** StaticGet___f__mg_cache0()
 		{
-			return (::System::Action**)UnitySDK::FromName("IFix.Core", "VirtualMachine")->GetStaticField(0x550);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("IFix.Core", "VirtualMachine")->GetStaticField(0x550);
 		}
 
-		static ::System::Action** StaticGet_Info()
+		static ::System::Action_1<::System::String*>** StaticGet_Info()
 		{
-			return (::System::Action**)UnitySDK::FromName("IFix.Core", "VirtualMachine")->GetStaticField(0x558);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("IFix.Core", "VirtualMachine")->GetStaticField(0x558);
 		}
 
 		::System::Void _ctor(::PVOID a1, ::System::Action* a2)

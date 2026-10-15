@@ -24,6 +24,7 @@ namespace RPG::GameCore { class TrainPartyBuildStaticItem; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -109,7 +110,7 @@ inline static constexpr unsigned int APCCFELCPKH_TypeDefinitionIndex = 60234;
 		::System::Collections::Generic::List_1<::System::UInt32>* AMKECEFGLLP; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TrainPartyBuildItemConfig*>* DNJLAHPLLFB; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* MKEEEANELCE; // 0x38
-		::System::Action* JGKMLBGAJNE; // 0x40
+		::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* JGKMLBGAJNE; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>* FBIACKAEMAH; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* MFGEADHPLHO; // 0x50
 		::RPG::Client::Stage* PDAIGLPEMEE; // 0x58

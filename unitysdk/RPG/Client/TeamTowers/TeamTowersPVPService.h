@@ -16,6 +16,8 @@ namespace RPG::Client::TeamTowers { class TeamTowersWindowService; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CHECKANDSHOWRECONNECTCONFIRM_OFFSET UNITYSDK_OFFSET(0xE1FA9D0)
 #define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CHECKCANENTERMPGAME_OFFSET UNITYSDK_OFFSET(0xE1FBEA0)
@@ -58,11 +60,11 @@ namespace RPG::Client::TeamTowers
 	{
 	public:
 		::System::Action* _OnServerConnected; // 0x28
-		::System::Action* _OnOnGeneralRsp; // 0x30
+		::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* _OnOnGeneralRsp; // 0x30
 		::LGGELBFHJIM* _Repository; // 0x38
 		::ENENKPBKLDF* _GameflowService; // 0x40
 		::RPG::Client::TeamTowers::TeamTowersWindowService* _WindowService; // 0x48
-		::System::Action* _OnGeneralNotify; // 0x50
+		::System::Action_1<::COMJKPOMILA*>* _OnGeneralNotify; // 0x50
 		::System::Boolean _IsCheckingReconnectToFight; // 0x58
 		::System::Boolean _IsServerConnected_k__BackingField; // 0x59
 		::System::Byte _padding0[0x2];
@@ -117,14 +119,14 @@ namespace RPG::Client::TeamTowers
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_STOP_OFFSET))(this);
 		}
 
-		::System::Void RegisterGuest(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void RegisterGuest(::System::Action* a1, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a2, ::System::Action_1<::COMJKPOMILA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_REGISTERGUEST_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*, ::System::Action_1<::COMJKPOMILA*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_REGISTERGUEST_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void UnregisterGuest(::System::Action* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Void UnregisterGuest(::System::Action* a1, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a2, ::System::Action_1<::COMJKPOMILA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_UNREGISTERGUEST_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*, ::System::Action_1<::COMJKPOMILA*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_UNREGISTERGUEST_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnCreateGame()

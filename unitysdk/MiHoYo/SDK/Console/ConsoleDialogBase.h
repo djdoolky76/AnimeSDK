@@ -5,6 +5,7 @@ namespace MiHoYo::SDK::Console { class SDKUIController; }
 namespace MiHoYo::SDK::Console { class SDKUIDialog; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
 #define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_ADJUSTBUTTONSIZEONXCLOUD_OFFSET UNITYSDK_OFFSET(0x1BC8DDE0)
@@ -32,7 +33,7 @@ namespace MiHoYo::SDK::Console
 	public:
 		::System::Action* OnDialogConfirmed; // 0x58
 		::System::Action* OnDialogCanceled; // 0x60
-		::System::Action* OnDialogHighlightedChanged; // 0x68
+		::System::Action_1<::UnityEngine::GameObject*>* OnDialogHighlightedChanged; // 0x68
 		::UnityEngine::GameObject* ConfirmButtonObject; // 0x70
 		::UnityEngine::GameObject* CancelButtonObject; // 0x78
 		::MiHoYo::SDK::Console::SDKUIController* controller; // 0x80

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define DPAAAFINPEB_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FF8670)
 #define DPAAAFINPEB_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF8660)
@@ -13,9 +13,9 @@ inline static constexpr unsigned int DPAAAFINPEB_TypeDefinitionIndex = 49772;
 	class DPAAAFINPEB : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_BEJJCPGEMIG()
+		static ::System::Action_1<::LBJLBMOOJGM*>** StaticGet_BEJJCPGEMIG()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "DPAAAFINPEB")->GetStaticField(0x6FA20);
+			return (::System::Action_1<::LBJLBMOOJGM*>**)UnitySDK::FromName("", "DPAAAFINPEB")->GetStaticField(0x6FA20);
 		}
 
 		::System::Void _ctor()

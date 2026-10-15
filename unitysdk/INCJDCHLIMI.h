@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DAOENPMCFON.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::ParkourGame { class ParkourSkillConfig_Fire; }
-namespace System { class Nullable; }
 
 #define INCJDCHLIMI_CTOR_OFFSET UNITYSDK_OFFSET(0x164E7FC0)
 #define INCJDCHLIMI_FMHKLHAKMKO_OFFSET UNITYSDK_OFFSET(0x164E7900)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int INCJDCHLIMI_TypeDefinitionIndex = 74181;
 			return ((::RPG::Client::ParkourGame::ParkourSkillConfig_Fire*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCJDCHLIMI_FMHKLHAKMKO_OFFSET))(this);
 		}
 
-		::System::Nullable* IPAMHBBNLAF()
+		::System::Nullable_1<::UnityEngine::Vector3> IPAMHBBNLAF()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCJDCHLIMI_IPAMHBBNLAF_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + INCJDCHLIMI_IPAMHBBNLAF_OFFSET))(this);
 		}
 
 		::System::Boolean KAJBAPMLIGF()

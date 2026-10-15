@@ -4,8 +4,8 @@
 class JLOIJNFDOID;
 namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE646640)
 #define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0__CLIENTCREATESTORYSTILLNPCENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xE663A40)
@@ -19,7 +19,7 @@ namespace RPG::GameCore
 	{
 	public:
 		::RPG::GameCore::GameEntity* pEntity; // 0x10
-		::System::Action* onLoadFinish; // 0x18
+		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x18
 		::JLOIJNFDOID* stillModelCmpt; // 0x20
 		::RPG::GameCore::EntityManager* pManager; // 0x28
 		::System::String* strCharacterName; // 0x30

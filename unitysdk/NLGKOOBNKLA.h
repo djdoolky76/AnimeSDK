@@ -4,7 +4,7 @@
 class GMIFBFGDGJK;
 class IFBFJDCECML;
 class PBGNKMMDBGD;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define NLGKOOBNKLA_BCLMKJKEPCE_OFFSET UNITYSDK_OFFSET(0x1C79C9C0)
 #define NLGKOOBNKLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79C510)
@@ -16,8 +16,8 @@ inline static constexpr unsigned int NLGKOOBNKLA_TypeDefinitionIndex = 37443;
 	class NLGKOOBNKLA : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* NCGEECDENGP; // 0x10
-		::Entitas::IGroup* KGPHOAEPHHP; // 0x18
+		::Entitas::IGroup_1<::IFBFJDCECML*>* NCGEECDENGP; // 0x10
+		::Entitas::IGroup_1<::IFBFJDCECML*>* KGPHOAEPHHP; // 0x18
 		::GMIFBFGDGJK* EEFMDEHLLFI; // 0x20
 		::PBGNKMMDBGD* PDENFEFCAGN; // 0x28
 		::System::Int32 DNOAKANJKHB; // 0x30

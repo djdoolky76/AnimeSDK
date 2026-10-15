@@ -8,7 +8,7 @@ namespace System { class Uri; }
 namespace System::Net { class ICredentials; }
 namespace System::Net { class IWebProxy; }
 namespace System::Net::Cache { class RequestCachePolicy; }
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 namespace System::Xml { class XmlDownloadManager; }
 
 #define SYSTEM_XML_XMLURLRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA8200)
@@ -52,9 +52,9 @@ namespace System::Xml
 			return ((::System::Uri*(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::Tasks::Task* GetEntityAsync(::System::Uri* a1, ::System::String* a2, ::System::Type* a3)
+		::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* a1, ::System::String* a2, ::System::Type* a3)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task_1<::System::Object*>*(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

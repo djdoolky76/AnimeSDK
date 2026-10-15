@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class MiHoYoSDKUploader; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_CTOR_OFFSET UNITYSDK_OFFSET(0xAFE41F0)
 #define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAFE5290)
@@ -22,7 +23,7 @@ namespace MiHoYo::SDK
 	{
 	public:
 		::System::Object* __2__current; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x18
 		::MiHoYo::SDK::MiHoYoSDKUploader* __4__this; // 0x20
 		::System::String* requestUrl; // 0x28
 		::System::Action* timeoutCallback; // 0x30

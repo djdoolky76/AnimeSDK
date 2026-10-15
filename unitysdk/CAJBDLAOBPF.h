@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class NMNIJNNFPGP;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
@@ -32,10 +32,10 @@ inline static constexpr unsigned int CAJBDLAOBPF_TypeDefinitionIndex = 71957;
 		::RPG::GameCore::SkillData* OCOIDGHBAEH; // 0x18
 		::RPG::GameCore::GameEntity* FMEOBOJJHMH; // 0x20
 		::RPG::GameCore::GameEntity* JDIDAGMBKEL; // 0x28
-		::System::Nullable* ACAPCHBDIBF; // 0x30
-		::System::Nullable* HAECKDHIFMM; // 0x32
-		::System::Nullable* FHBNNGCEPFD; // 0x34
-		::System::Nullable* PCLAGGCBHBO; // 0x36
+		::System::Nullable_1<::System::Boolean> ACAPCHBDIBF; // 0x30
+		::System::Nullable_1<::System::Boolean> HAECKDHIFMM; // 0x32
+		::System::Nullable_1<::System::Boolean> FHBNNGCEPFD; // 0x34
+		::System::Nullable_1<::System::Boolean> PCLAGGCBHBO; // 0x36
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAJBDLAOBPF_CTOR_OFFSET))(this);

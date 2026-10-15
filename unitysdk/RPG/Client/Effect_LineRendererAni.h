@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/Client/Effect_LineRendererAni_DynamicCenterUpdateMode.h"
 #include "unitysdk/RPG/Client/Effect_LineRendererAni_NoiseQualityMode.h"
 #include "unitysdk/RPG/Client/Effect_LineRendererAni_Vector3Curve.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
@@ -11,7 +12,6 @@
 #include "unitysdk/UnityEngine/Plane.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Nullable; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
@@ -153,9 +153,9 @@ namespace RPG::Client
 		::UnityEngine::LineRenderer* MFAHAGLIOMK; // 0x150
 		::Il2CppArray<::UnityEngine::Vector3>* NDLHIIGJMEL; // 0x158
 		::Il2CppArray<::UnityEngine::Vector3>* PCFDMAPICLM; // 0x160
-		::System::Nullable* LNHFKPFGJFG; // 0x168
+		::System::Nullable_1<::UnityEngine::Matrix4x4> LNHFKPFGJFG; // 0x168
 		::System::Byte _padding18[0x3C];
-		::System::Nullable* GKGPNHIDBMB; // 0x1AC
+		::System::Nullable_1<::UnityEngine::Matrix4x4> GKGPNHIDBMB; // 0x1AC
 		::System::Byte _padding19[0x3C];
 		::System::Boolean GGMBMBPBIPG; // 0x1F0
 		::System::Boolean DODGGBONNPK; // 0x1F1

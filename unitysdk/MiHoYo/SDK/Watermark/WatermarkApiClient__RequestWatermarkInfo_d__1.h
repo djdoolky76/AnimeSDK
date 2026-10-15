@@ -5,6 +5,7 @@ namespace MiHoYo::SDK::Watermark { class WatermarkRequest; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0175C0)
@@ -27,7 +28,7 @@ namespace MiHoYo::SDK::Watermark
 		::MiHoYo::SDK::Watermark::WatermarkRequest* body; // 0x20
 		::System::Action* timeoutCallback; // 0x28
 		::System::Object* __2__current; // 0x30
-		::System::Action* responseCallback; // 0x38
+		::System::Action_1<::System::String*>* responseCallback; // 0x38
 		::System::Single timeoutSecond; // 0x40
 		::System::Int32 __1__state; // 0x44
 		::System::Void _ctor(::System::Int32 a1)

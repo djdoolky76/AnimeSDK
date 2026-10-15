@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -10,8 +11,7 @@ namespace RPG::Client { class GridFightDivisionListViewExtra; }
 namespace RPG::Common { template <typename T> class StateMachine_1; }
 namespace SuperScrollView { class LoopListView2; }
 namespace SuperScrollView { class LoopListViewItem2; }
-namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
@@ -54,16 +54,16 @@ namespace RPG::Client
 		::System::Single _AnchorPosRatio; // 0x28
 		::System::Single _ListMoveVelocityDeadZone; // 0x2C
 		::System::Single _StopMoveProtectTime; // 0x30
-		::System::Nullable* _CurMoveToItemIndex; // 0x34
+		::System::Nullable_1<::System::Int32> _CurMoveToItemIndex; // 0x34
 		::System::Byte _padding0[0x4];
 		::RPG::Common::StateMachine_1<::RPG::Client::GridFightDivisionListViewExtra*>* _StateMachine_k__BackingField; // 0x40
 		::NOMGIFNFIJD* _IdleState_k__BackingField; // 0x48
 		::FMIFLKGJJBI* _MoveState_k__BackingField; // 0x50
 		::HPIDNHKGMKH* _SnapState_k__BackingField; // 0x58
 		::UnityEngine::Vector2 _CachedScrollRectVelocity; // 0x60
-		::System::Action* OnStartMove; // 0x68
-		::System::Action* OnEndMove; // 0x70
-		::System::Action* OnCurItemChanged; // 0x78
+		::System::Action_1<::XLua::LuaTable*>* OnStartMove; // 0x68
+		::System::Action_1<::XLua::LuaTable*>* OnEndMove; // 0x70
+		::System::Action_1<::XLua::LuaTable*>* OnCurItemChanged; // 0x78
 		::System::Int32 ItemIndexRangeL; // 0x80
 		::System::Int32 ItemIndexRangeR; // 0x84
 		::XLua::LuaTable* _LuaTable; // 0x88
@@ -134,9 +134,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDIVISIONLISTVIEWEXTRA_GET_ISMOVETOWARDSOUTOFBORDER_OFFSET))(this);
 		}
 
-		::System::Void Dispatch(::System::Action* a1)
+		::System::Void Dispatch(::System::Action_1<::XLua::LuaTable*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDIVISIONLISTVIEWEXTRA_DISPATCH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTDIVISIONLISTVIEWEXTRA_DISPATCH_OFFSET))(this, a1);
 		}
 
 		::System::Void LateUpdate()

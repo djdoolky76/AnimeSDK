@@ -6,8 +6,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 namespace Cysharp::Threading::Tasks { class PlayerLoopTimer; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CREATE_OFFSET UNITYSDK_OFFSET(0x1F123400)
 #define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F117180)
@@ -25,7 +25,7 @@ namespace Cysharp::Threading::Tasks
 	class PlayerLoopTimer : public ::System::Object
 	{
 	public:
-		::System::Action* timerCallback; // 0x10
+		::System::Action_1<::System::Object*>* timerCallback; // 0x10
 		::System::Object* state; // 0x18
 		::System::Threading::CancellationToken cancellationToken; // 0x20
 		::System::Boolean isRunning; // 0x28
@@ -33,19 +33,19 @@ namespace Cysharp::Threading::Tasks
 		::System::Boolean tryStop; // 0x2A
 		::System::Boolean isDisposed; // 0x2B
 		::Cysharp::Threading::Tasks::PlayerLoopTiming playerLoopTiming; // 0x2C
-		::System::Void _ctor(::System::Boolean a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2, ::System::Threading::CancellationToken a3, ::System::Action* a4, ::System::Object* a5)
+		::System::Void _ctor(::System::Boolean a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2, ::System::Threading::CancellationToken a3, ::System::Action_1<::System::Object*>* a4, ::System::Object* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::Cysharp::Threading::Tasks::PlayerLoopTimer* Create(::System::TimeSpan a1, ::System::Boolean a2, ::Cysharp::Threading::Tasks::DelayType a3, ::Cysharp::Threading::Tasks::PlayerLoopTiming a4, ::System::Threading::CancellationToken a5, ::System::Action* a6, ::System::Object* a7)
+		static ::Cysharp::Threading::Tasks::PlayerLoopTimer* Create(::System::TimeSpan a1, ::System::Boolean a2, ::Cysharp::Threading::Tasks::DelayType a3, ::Cysharp::Threading::Tasks::PlayerLoopTiming a4, ::System::Threading::CancellationToken a5, ::System::Action_1<::System::Object*>* a6, ::System::Object* a7)
 		{
-			return ((::Cysharp::Threading::Tasks::PlayerLoopTimer*(*)(::System::TimeSpan, ::System::Boolean, ::Cysharp::Threading::Tasks::DelayType, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::Cysharp::Threading::Tasks::PlayerLoopTimer*(*)(::System::TimeSpan, ::System::Boolean, ::Cysharp::Threading::Tasks::DelayType, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CREATE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::Cysharp::Threading::Tasks::PlayerLoopTimer* StartNew(::System::TimeSpan a1, ::System::Boolean a2, ::Cysharp::Threading::Tasks::DelayType a3, ::Cysharp::Threading::Tasks::PlayerLoopTiming a4, ::System::Threading::CancellationToken a5, ::System::Action* a6, ::System::Object* a7)
+		static ::Cysharp::Threading::Tasks::PlayerLoopTimer* StartNew(::System::TimeSpan a1, ::System::Boolean a2, ::Cysharp::Threading::Tasks::DelayType a3, ::Cysharp::Threading::Tasks::PlayerLoopTiming a4, ::System::Threading::CancellationToken a5, ::System::Action_1<::System::Object*>* a6, ::System::Object* a7)
 		{
-			return ((::Cysharp::Threading::Tasks::PlayerLoopTimer*(*)(::System::TimeSpan, ::System::Boolean, ::Cysharp::Threading::Tasks::DelayType, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_STARTNEW_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::Cysharp::Threading::Tasks::PlayerLoopTimer*(*)(::System::TimeSpan, ::System::Boolean, ::Cysharp::Threading::Tasks::DelayType, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_STARTNEW_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void Restart()

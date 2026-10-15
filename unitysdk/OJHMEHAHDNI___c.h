@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define OJHMEHAHDNI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBEB9E00)
 #define OJHMEHAHDNI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB9E30)
@@ -16,19 +16,19 @@ inline static constexpr unsigned int OJHMEHAHDNI___c_TypeDefinitionIndex = 81731
 	class OJHMEHAHDNI___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__30_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__30_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54780);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54780);
 		}
 
-		static ::System::Action** StaticGet___9__16_3()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__16_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54788);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54788);
 		}
 
-		static ::System::Action** StaticGet___9__16_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__16_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54790);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54790);
 		}
 
 		static ::System::Object** StaticGet___9()

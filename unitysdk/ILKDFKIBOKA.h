@@ -3,8 +3,8 @@
 #include "unitysdk/AkCallbackType.h"
 #include "unitysdk/System/Object.h"
 class AkCallbackInfo;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -21,7 +21,7 @@ inline static constexpr unsigned int ILKDFKIBOKA_TypeDefinitionIndex = 59747;
 		::UnityEngine::GameObject* MEDICEEIEOE; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* CFCEACHEPAB; // 0x18
 		::System::String* DHMDAEKJENF; // 0x20
-		::System::Action* PHNEEILABKK; // 0x28
+		::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* PHNEEILABKK; // 0x28
 		::System::UInt32 COMOBEBHBDK; // 0x30
 		::System::UInt32 NMBKAIEIAPE; // 0x34
 		::System::Void _ctor()

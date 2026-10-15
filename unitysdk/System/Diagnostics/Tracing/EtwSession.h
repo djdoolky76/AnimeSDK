@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class ActivityFilter; }
 namespace System::Diagnostics::Tracing { class EtwSession; }
@@ -21,9 +21,9 @@ namespace System::Diagnostics::Tracing
 	public:
 		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x10
 		::System::Int32 m_etwSessionId; // 0x18
-		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_s_etwSessions()
+		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet_s_etwSessions()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "EtwSession")->GetStaticField(0x12150);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "EtwSession")->GetStaticField(0x12150);
 		}
 
 		::System::Void _ctor(::System::Int32 a1)

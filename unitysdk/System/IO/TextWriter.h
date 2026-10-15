@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MarshalByRefObject.h"
-namespace System { class Action; }
 namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::IO { class TextWriter; }
 
 #define SYSTEM_IO_TEXTWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C271E10)
@@ -42,34 +42,34 @@ namespace System::IO
 	public:
 		::Il2CppArray<::System::Char>* CoreNewLine; // 0x18
 		::System::IFormatProvider* InternalFormatProvider; // 0x20
-		static ::System::Action** StaticGet__FlushDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet__FlushDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x160F0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x160F0);
 		}
 
-		static ::System::Action** StaticGet__WriteCharArrayRangeDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet__WriteCharArrayRangeDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x160F8);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x160F8);
 		}
 
-		static ::System::Action** StaticGet__WriteCharDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet__WriteCharDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16100);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16100);
 		}
 
-		static ::System::Action** StaticGet__WriteLineStringDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet__WriteLineStringDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16108);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16108);
 		}
 
-		static ::System::Action** StaticGet__WriteLineCharDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet__WriteLineCharDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16110);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16110);
 		}
 
-		static ::System::Action** StaticGet__WriteStringDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet__WriteStringDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16118);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16118);
 		}
 
 		static ::System::IO::TextWriter** StaticGet_Null()
@@ -77,9 +77,9 @@ namespace System::IO
 			return (::System::IO::TextWriter**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16120);
 		}
 
-		static ::System::Action** StaticGet__WriteLineCharArrayRangeDelegate()
+		static ::System::Action_1<::System::Object*>** StaticGet__WriteLineCharArrayRangeDelegate()
 		{
-			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16128);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16128);
 		}
 
 		::System::Void _ctor()

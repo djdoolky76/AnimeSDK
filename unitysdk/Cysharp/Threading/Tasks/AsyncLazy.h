@@ -4,8 +4,8 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { class UniTaskCompletionSource; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 #define CYSHARP_THREADING_TASKS_ASYNCLAZY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F113B70)
@@ -30,9 +30,9 @@ namespace Cysharp::Threading::Tasks
 		::Cysharp::Threading::Tasks::UniTask_Awaiter awaiter; // 0x20
 		::System::Object* syncLock; // 0x30
 		::System::Boolean initialized; // 0x38
-		static ::System::Action** StaticGet_continuation()
+		static ::System::Action_1<::System::Object*>** StaticGet_continuation()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncLazy")->GetStaticField(0x3E9C0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "AsyncLazy")->GetStaticField(0x3E9C0);
 		}
 
 		::System::Void _ctor(::System::Func_1<::Cysharp::Threading::Tasks::UniTask>* a1)

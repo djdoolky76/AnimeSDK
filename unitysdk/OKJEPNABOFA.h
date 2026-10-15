@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Pet { class IPetInstance; }
 namespace RPG::Client::Pet { class IPetLineup; }
-namespace System { class WeakReference; }
+namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 #define OKJEPNABOFA_AGHCACKCDAM_OFFSET UNITYSDK_OFFSET(0xBEDBC80)
@@ -17,7 +17,7 @@ inline static constexpr unsigned int OKJEPNABOFA_TypeDefinitionIndex = 75712;
 	class OKJEPNABOFA : public ::System::Object
 	{
 	public:
-		::System::WeakReference* AEGNGAOGDIN; // 0x10
+		::System::WeakReference_1<::RPG::Client::Pet::IPetLineup*>* AEGNGAOGDIN; // 0x10
 		::System::Void _ctor(::RPG::Client::Pet::IPetLineup* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Pet::IPetLineup*))((::PBYTE)hIl2Cpp + OKJEPNABOFA_CTOR_OFFSET))(this, a1);

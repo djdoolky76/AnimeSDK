@@ -9,6 +9,7 @@
 #include "unitysdk/RPG/GameCore/FiveDimAvatarMoveAbility.h"
 #include "unitysdk/RPG/GameCore/FiveDimCustomScreenTransferStyle.h"
 #include "unitysdk/RPG/GameCore/FiveDimGameplayMode.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/IJHOJHBEJGL.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Rect.h"
@@ -36,15 +37,15 @@ namespace RPG::Client::ChenLingGameBoy { class ChenLingGameBoyPuzzleData; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimFluteDataManager; }
 namespace RPG::Client::LittleGame::FiveDim { class SidePuzzleTargetData; }
 namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::GameCore { class FiveDimGameConfig; }
 namespace RPG::GameCore { class FiveDimLevelSettings; }
 namespace RPG::GameCore { class FiveDimMoveConfig; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -224,7 +225,7 @@ namespace RPG::Client
 	public:
 		::RPG::Client::LittleGame::FiveDim::SidePuzzleTargetData* _SidePuzzleTargetData_k__BackingField; // 0x10
 		::KFELGAIGHAP* _ExitChenLingGameSequence; // 0x18
-		::System::Action* OnEnterFiveDimGameScRsp; // 0x20
+		::System::Action_1<::IBAAHKDOHDB*>* OnEnterFiveDimGameScRsp; // 0x20
 		::RPG::GameCore::FiveDimGameConfig* _GameConfig; // 0x28
 		::EJKAHJBMLAE* _PuzzleData_k__BackingField; // 0x30
 		::RPG::Client::UIFrameCapture* _FrameCapture; // 0x38
@@ -232,17 +233,17 @@ namespace RPG::Client
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _ValidTeleportFluteIDs; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPuzzleData*>* _ChenLingGameBoyPuzzleDataDir; // 0x50
 		::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataManager* FluteDataManager; // 0x58
-		::RPG::Client::Promises::Promise* _FetchFriendRankingInfoPromise; // 0x60
+		::RPG::Client::Promises::Promise_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*>* _FetchFriendRankingInfoPromise; // 0x60
 		::System::String* GameSerialNumber; // 0x68
 		::KFELGAIGHAP* _ReachMaxTimeLimitSequence; // 0x70
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _FinishedFluteIDs; // 0x78
 		::KFELGAIGHAP* _ExitSequence; // 0x80
 		::RPG::Client::FiveDimGameInstance* _CurrentGameInstance_k__BackingField; // 0x88
-		::System::Action* OnLeaveFiveDimGameScRsp; // 0x90
-		::System::Action* OnFiveDimGameTransferScRsp; // 0x98
+		::System::Action_1<::OMFLOBEGHNM*>* OnLeaveFiveDimGameScRsp; // 0x90
+		::System::Action_1<::AGBDHJMJFHD*>* OnFiveDimGameTransferScRsp; // 0x98
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _MiniGameHighScores; // 0xA0
 		::KFELGAIGHAP* _EnterChenLingGameSequence; // 0xA8
-		::System::Action* OnMoneyWeeklyLimitReached; // 0xB0
+		::System::Action_1<::System::Boolean>* OnMoneyWeeklyLimitReached; // 0xB0
 		::System::Object* _MoveAbility; // 0xB8
 		::System::Byte _padding0[0x4];
 		::System::Single _CaptureFrameRadio; // 0xC4
@@ -256,7 +257,7 @@ namespace RPG::Client
 		::System::Boolean _IsMoneyWeeklyLimitReached_k__BackingField; // 0xE1
 		::System::Byte _padding1[0x2];
 		::System::UInt32 _MoneyWeeklyNum_k__BackingField; // 0xE4
-		::System::Nullable* _PendingServerPlayer2DInfo_k__BackingField; // 0xE8
+		::System::Nullable_1<::ANMMOFEEPEP> _PendingServerPlayer2DInfo_k__BackingField; // 0xE8
 		::System::Byte _padding2[0x28];
 		::System::Boolean _DebugDashLongPressRadius; // 0x118
 		::System::Boolean IncontrolUseDeadZoneValue; // 0x119
@@ -266,7 +267,7 @@ namespace RPG::Client
 		::System::UInt32 _FiveDimInputID; // 0x120
 		::System::UInt32 _InputJoyStickType; // 0x124
 		::ANMMOFEEPEP _PendingPlayer2DInfo_k__BackingField; // 0x128
-		::System::Nullable* _PendingPlayer3DInfo_k__BackingField; // 0x154
+		::System::Nullable_1<::BINEKJFCLMP> _PendingPlayer3DInfo_k__BackingField; // 0x154
 		::System::Byte _padding4[0x18];
 		::ANMMOFEEPEP _CurrentPlayer2DInfo_k__BackingField; // 0x174
 		// static const ::System::Object INVALID_FLUTE_ID; // 0x0
@@ -293,9 +294,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_REQUESTNETWORKFINISHCHENLINGGAMEBOY_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* FetchPlayersRankingInfo(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*>* FetchPlayersRankingInfo(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_FETCHPLAYERSRANKINGINFO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_FETCHPLAYERSRANKINGINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void EnterChenLingGameBoyInstance(::System::Boolean a1)
@@ -528,14 +529,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_RECOVERMINIGAMEFCV_OFFSET))(this);
 		}
 
-		::System::Void add_OnMoneyWeeklyLimitReached(::System::Action* a1)
+		::System::Void add_OnMoneyWeeklyLimitReached(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_ADD_ONMONEYWEEKLYLIMITREACHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_ADD_ONMONEYWEEKLYLIMITREACHED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnMoneyWeeklyLimitReached(::System::Action* a1)
+		::System::Void remove_OnMoneyWeeklyLimitReached(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_REMOVE_ONMONEYWEEKLYLIMITREACHED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_REMOVE_ONMONEYWEEKLYLIMITREACHED_OFFSET))(this, a1);
 		}
 
 		::System::Void RequestAddMoney(::System::UInt32 a1)
@@ -793,24 +794,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::ANMMOFEEPEP))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_SET_PENDINGPLAYER2DINFO_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_PendingServerPlayer2DInfo()
+		::System::Nullable_1<::ANMMOFEEPEP> get_PendingServerPlayer2DInfo()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_GET_PENDINGSERVERPLAYER2DINFO_OFFSET))(this);
+			return ((::System::Nullable_1<::ANMMOFEEPEP>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_GET_PENDINGSERVERPLAYER2DINFO_OFFSET))(this);
 		}
 
-		::System::Void set_PendingServerPlayer2DInfo(::System::Nullable* a1)
+		::System::Void set_PendingServerPlayer2DInfo(::System::Nullable_1<::ANMMOFEEPEP> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_SET_PENDINGSERVERPLAYER2DINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::ANMMOFEEPEP>))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_SET_PENDINGSERVERPLAYER2DINFO_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_PendingPlayer3DInfo()
+		::System::Nullable_1<::BINEKJFCLMP> get_PendingPlayer3DInfo()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_GET_PENDINGPLAYER3DINFO_OFFSET))(this);
+			return ((::System::Nullable_1<::BINEKJFCLMP>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_GET_PENDINGPLAYER3DINFO_OFFSET))(this);
 		}
 
-		::System::Void set_PendingPlayer3DInfo(::System::Nullable* a1)
+		::System::Void set_PendingPlayer3DInfo(::System::Nullable_1<::BINEKJFCLMP> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_SET_PENDINGPLAYER3DINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::BINEKJFCLMP>))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMMODULE_SET_PENDINGPLAYER3DINFO_OFFSET))(this, a1);
 		}
 
 		::EJKAHJBMLAE* get_PuzzleData()

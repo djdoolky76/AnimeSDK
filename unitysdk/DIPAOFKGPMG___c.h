@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RelicType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class KGHMBCLFFLG;
 namespace RPG::Client { class RelicItemData; }
 namespace System { class Object; }
@@ -22,9 +22,9 @@ inline static constexpr unsigned int DIPAOFKGPMG___c_TypeDefinitionIndex = 62699
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56DA0);
 		}
 
-		static ::System::Func_2<::RPG::Client::RelicItemData*, ::System::ValueTuple>** StaticGet___9__19_0()
+		static ::System::Func_2<::RPG::Client::RelicItemData*, ::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::RPG::Client::RelicItemData*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56DA8);
+			return (::System::Func_2<::RPG::Client::RelicItemData*, ::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56DA8);
 		}
 
 		static ::System::Void _cctor()
@@ -37,9 +37,9 @@ inline static constexpr unsigned int DIPAOFKGPMG___c_TypeDefinitionIndex = 62699
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIPAOFKGPMG___C_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple _GetPreviewAvatarWithVirtualRelics_b__19_0(::RPG::Client::RelicItemData* a1)
+		::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*> _GetPreviewAvatarWithVirtualRelics_b__19_0(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + DIPAOFKGPMG___C__GETPREVIEWAVATARWITHVIRTUALRELICS_B__19_0_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + DIPAOFKGPMG___C__GETPREVIEWAVATARWITHVIRTUALRELICS_B__19_0_OFFSET))(this, a1);
 		}
 
 	};

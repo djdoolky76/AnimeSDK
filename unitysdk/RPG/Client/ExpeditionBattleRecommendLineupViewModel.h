@@ -12,6 +12,7 @@ namespace RPG::Client { class ExpeditionBattleMap; }
 namespace RPG::Client { class ExpeditionBattleRecommendLineupViewModel; }
 namespace RPG::Client { class PlayerBriefDisplayData; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -102,9 +103,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ExpeditionBattleLineupRouteInfo*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERECOMMENDLINEUPVIEWMODEL_GETLINEUPROUTEINFO_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* GetLineupDetailInfo(::System::UInt32 a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>* GetLineupDetailInfo(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERECOMMENDLINEUPVIEWMODEL_GETLINEUPDETAILINFO_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONBATTLERECOMMENDLINEUPVIEWMODEL_GETLINEUPDETAILINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void ReportAction(::RPG::Client::LineupRecommendationReportActionType a1, ::System::Boolean a2)

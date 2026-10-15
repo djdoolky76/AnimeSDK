@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Codable/JSONNode_Enumerator_Type.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 namespace Codable { class JSONNode; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define CODABLE_JSONNODE_ENUMERATOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1120)
 #define CODABLE_JSONNODE_ENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x10D0)
@@ -38,9 +38,9 @@ namespace Codable
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ENUMERATOR_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::KeyValuePair* get_Current()
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*> get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::Codable::JSONNode*>(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Boolean MoveNext()

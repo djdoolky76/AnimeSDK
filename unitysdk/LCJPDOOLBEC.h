@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CMABCOBMACM.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class PCPJIEBCNBI;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
-namespace System { class Action; }
-namespace System { class Nullable; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
 #define LCJPDOOLBEC_CCTOR_OFFSET UNITYSDK_OFFSET(0xB617EF0)
 #define LCJPDOOLBEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB616D60)
@@ -34,7 +34,7 @@ inline static constexpr unsigned int LCJPDOOLBEC_TypeDefinitionIndex = 56055;
 	class LCJPDOOLBEC : public ::System::Object
 	{
 	public:
-		::System::Action* _OnElationPointChanged_k__BackingField; // 0x10
+		::System::Action_3<::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*>* _OnElationPointChanged_k__BackingField; // 0x10
 		::RPG::GameCore::TurnBasedGameMode* JADHLODNADK; // 0x18
 		::RPG::GameCore::FixPoint PEBAJGKDIMJ; // 0x20
 		::RPG::GameCore::FixPoint ELABCBPAHPC; // 0x28
@@ -124,14 +124,14 @@ inline static constexpr unsigned int LCJPDOOLBEC_TypeDefinitionIndex = 56055;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LCJPDOOLBEC_LNIKONEIGDO_OFFSET))(this);
 		}
 
-		::System::Action* get_OnElationPointChanged()
+		::System::Action_3<::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*>* get_OnElationPointChanged()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + LCJPDOOLBEC_GET_ONELATIONPOINTCHANGED_OFFSET))(this);
+			return ((::System::Action_3<::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LCJPDOOLBEC_GET_ONELATIONPOINTCHANGED_OFFSET))(this);
 		}
 
-		::System::Void set_OnElationPointChanged(::System::Action* a1)
+		::System::Void set_OnElationPointChanged(::System::Action_3<::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + LCJPDOOLBEC_SET_ONELATIONPOINTCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_3<::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + LCJPDOOLBEC_SET_ONELATIONPOINTCHANGED_OFFSET))(this, a1);
 		}
 
 	};

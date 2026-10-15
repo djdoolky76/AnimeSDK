@@ -8,6 +8,7 @@
 #include "unitysdk/RPG/GameCore/LevelDifficulty.h"
 #include "unitysdk/RPG/GameCore/RogueMode.h"
 #include "unitysdk/RPG/GameCore/StarFightDifficulty.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class ACIHMMBKMIM;
 class CBIKIIMGKHH;
@@ -44,7 +45,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class LineUpCharacter; }
 namespace RPG::GameCore { class MazeBuffData; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -212,7 +212,7 @@ namespace RPG::Client
 		::System::Boolean _Waiting_FullScreenShowDoneWaitServerPacket; // 0x13D
 		::System::Boolean _IsTransitionShowDone; // 0x13E
 		::System::Boolean _IsAlreadyTriggerBattleByNpcMonster; // 0x13F
-		::System::Nullable* _OverrideActionEventId; // 0x140
+		::System::Nullable_1<::System::UInt32> _OverrideActionEventId; // 0x140
 		::System::Single TriggerBattlePerformDelay; // 0x148
 		::System::UInt32 _PendingBattleStageID; // 0x14C
 		::RPG::Client::AdventureEnterBattleType _CurrentEnterBattleType; // 0x150

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class FKLECLLJCEH;
 namespace System { class Action; }
-namespace System { class Nullable; }
 
 #define KGBHKDBKNLG_ADD_ONCURRENTCOUNTCHANGED_OFFSET UNITYSDK_OFFSET(0xB3CDF20)
 #define KGBHKDBKNLG_ADD_ONISCHECKEDCHANGED_OFFSET UNITYSDK_OFFSET(0xB3CDD70)
@@ -30,7 +30,7 @@ inline static constexpr unsigned int KGBHKDBKNLG_TypeDefinitionIndex = 79429;
 		::System::Action* OnCurrentCountChanged; // 0x18
 		::System::Action* OnIsCheckedChanged; // 0x20
 		::System::Int32 _TargetCount_k__BackingField; // 0x28
-		::System::Nullable* ADGBLJLHPPJ; // 0x2C
+		::System::Nullable_1<::System::Int32> ADGBLJLHPPJ; // 0x2C
 		::System::Boolean _IsLast_k__BackingField; // 0x34
 		::System::Boolean PGNIIDNPONO; // 0x35
 		::System::Void _ctor()
@@ -78,14 +78,14 @@ inline static constexpr unsigned int KGBHKDBKNLG_TypeDefinitionIndex = 79429;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + KGBHKDBKNLG_SET_TARGETCOUNT_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* EMLGPKHMCAA()
+		::System::Nullable_1<::System::Int32> EMLGPKHMCAA()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KGBHKDBKNLG_EMLGPKHMCAA_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + KGBHKDBKNLG_EMLGPKHMCAA_OFFSET))(this);
 		}
 
-		::System::Void IEEAMJKIHMF(::System::Nullable* a1)
+		::System::Void IEEAMJKIHMF(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + KGBHKDBKNLG_IEEAMJKIHMF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + KGBHKDBKNLG_IEEAMJKIHMF_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnCurrentCountChanged(::System::Action* a1)

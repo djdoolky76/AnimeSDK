@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class ILDNJGBJGPF;
 class OBJANKHLNGO;
 namespace RPG::Client { class ChallengeData; }
@@ -12,9 +13,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceMazeViewModel_En
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceMazeViewModel_ProgressHintMessage; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordBase; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTargetsViewModel; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_ADD_ONHINTENVIRONMENT_OFFSET UNITYSDK_OFFSET(0xC949930)
@@ -43,8 +43,8 @@ namespace RPG::Client::Challenge::Tierce
 	class ChallengeTierceMazeViewModel : public ::System::Object
 	{
 	public:
-		::System::Action* OnHintProgress; // 0x10
-		::System::Action* OnHintEnvironment; // 0x18
+		::System::Action_1<::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel*>* OnHintProgress; // 0x10
+		::System::Action_1<::RPG::Client::Challenge::IChallengeEnvironmentHintViewModel*>* OnHintEnvironment; // 0x18
 		::OBJANKHLNGO* _Messenger; // 0x20
 		::ILDNJGBJGPF* _Engagement; // 0x28
 		::RPG::Client::Challenge::Tierce::ChallengeTierceTargetsViewModel* _Targets_k__BackingField; // 0x30
@@ -69,24 +69,24 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceRecordBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_GET_RECORD_OFFSET))(this);
 		}
 
-		::System::Void add_OnHintProgress(::System::Action* a1)
+		::System::Void add_OnHintProgress(::System::Action_1<::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_ADD_ONHINTPROGRESS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_ADD_ONHINTPROGRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnHintProgress(::System::Action* a1)
+		::System::Void remove_OnHintProgress(::System::Action_1<::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_REMOVE_ONHINTPROGRESS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Challenge::Tierce::ChallengeTierceMazeProgressHintViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_REMOVE_ONHINTPROGRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnHintEnvironment(::System::Action* a1)
+		::System::Void add_OnHintEnvironment(::System::Action_1<::RPG::Client::Challenge::IChallengeEnvironmentHintViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_ADD_ONHINTENVIRONMENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Challenge::IChallengeEnvironmentHintViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_ADD_ONHINTENVIRONMENT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnHintEnvironment(::System::Action* a1)
+		::System::Void remove_OnHintEnvironment(::System::Action_1<::RPG::Client::Challenge::IChallengeEnvironmentHintViewModel*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_REMOVE_ONHINTENVIRONMENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Challenge::IChallengeEnvironmentHintViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_REMOVE_ONHINTENVIRONMENT_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Name()
@@ -114,9 +114,9 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_GETLEAVECONFIRMTITLE_OFFSET))(this);
 		}
 
-		::System::Nullable* TryGetStoryConfigClearScore()
+		::System::Nullable_1<::System::Int32> TryGetStoryConfigClearScore()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_TRYGETSTORYCONFIGCLEARSCORE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_TRYGETSTORYCONFIGCLEARSCORE_OFFSET))(this);
 		}
 
 		::System::Void Leave()

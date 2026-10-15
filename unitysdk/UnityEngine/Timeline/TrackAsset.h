@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Timeline/DiscreteTime.h"
@@ -7,10 +8,9 @@
 #include "unitysdk/UnityEngine/Timeline/TrackAsset_TransientBuildData.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -187,14 +187,14 @@ namespace UnityEngine::Timeline
 		::UnityEngine::Timeline::DiscreteTime m_Start; // 0x80
 		::UnityEngine::Timeline::DiscreteTime m_End; // 0x88
 		::System::Boolean m_CacheSorted; // 0x90
-		::System::Nullable* m_SupportsNotifications; // 0x91
+		::System::Nullable_1<::System::Boolean> m_SupportsNotifications; // 0x91
 		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* m_ChildTrackCache; // 0x98
 		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* m_Clips; // 0xA0
 		::UnityEngine::Timeline::MarkerList m_Markers; // 0xA8
 		::System::Boolean m_isTrackNameGUIReadOnly; // 0xC0
-		static ::System::Action** StaticGet_OnTrackAnimationPlayableCreate()
+		static ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>** StaticGet_OnTrackAnimationPlayableCreate()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Timeline", "TrackAsset")->GetStaticField(0x4D290);
+			return (::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>**)UnitySDK::FromName("UnityEngine.Timeline", "TrackAsset")->GetStaticField(0x4D290);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::Timeline::TrackBindingTypeAttribute*>** StaticGet_s_TrackBindingTypeAttributeCache()
@@ -202,9 +202,9 @@ namespace UnityEngine::Timeline
 			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::Timeline::TrackBindingTypeAttribute*>**)UnitySDK::FromName("UnityEngine.Timeline", "TrackAsset")->GetStaticField(0x4D298);
 		}
 
-		static ::System::Action** StaticGet_OnClipPlayableCreate()
+		static ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>** StaticGet_OnClipPlayableCreate()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Timeline", "TrackAsset")->GetStaticField(0x4D2A0);
+			return (::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>**)UnitySDK::FromName("UnityEngine.Timeline", "TrackAsset")->GetStaticField(0x4D2A0);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Timeline::TrackAsset*>** StaticGet_s_EmptyCache()
@@ -264,24 +264,24 @@ namespace UnityEngine::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ONINSPECTOR_OFFSET))(this);
 		}
 
-		static ::System::Void add_OnClipPlayableCreate(::System::Action* a1)
+		static ::System::Void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADD_ONCLIPPLAYABLECREATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADD_ONCLIPPLAYABLECREATE_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnClipPlayableCreate(::System::Action* a1)
+		static ::System::Void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_REMOVE_ONCLIPPLAYABLECREATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_REMOVE_ONCLIPPLAYABLECREATE_OFFSET))(a1);
 		}
 
-		static ::System::Void add_OnTrackAnimationPlayableCreate(::System::Action* a1)
+		static ::System::Void add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADD_ONTRACKANIMATIONPLAYABLECREATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADD_ONTRACKANIMATIONPLAYABLECREATE_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnTrackAnimationPlayableCreate(::System::Action* a1)
+		static ::System::Void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_REMOVE_ONTRACKANIMATIONPLAYABLECREATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_REMOVE_ONTRACKANIMATIONPLAYABLECREATE_OFFSET))(a1);
 		}
 
 		::System::Boolean get_UseUniqueCharacterName()

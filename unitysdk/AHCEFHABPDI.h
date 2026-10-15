@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ItemData; }
 namespace RPG::Client { class ItemDisplayData; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 
 #define AHCEFHABPDI_ALKAFBCALDK_OFFSET UNITYSDK_OFFSET(0xEB7A4C0)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int AHCEFHABPDI_TypeDefinitionIndex = 81426;
 	public:
 		::RPG::Client::ItemData* KPFKDKLCFKG; // 0x10
 		::RPG::Client::ItemDisplayData* CMOLEAFKDGH; // 0x18
-		::System::Nullable* _ItemCount_k__BackingField; // 0x20
+		::System::Nullable_1<::System::Int32> _ItemCount_k__BackingField; // 0x20
 		::System::Void _ctor(::RPG::Client::ItemDisplayData* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemDisplayData*))((::PBYTE)hIl2Cpp + AHCEFHABPDI_CTOR_OFFSET))(this, a1);
@@ -31,14 +31,14 @@ inline static constexpr unsigned int AHCEFHABPDI_TypeDefinitionIndex = 81426;
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + AHCEFHABPDI_JJKIIDALBBJ_OFFSET))(this);
 		}
 
-		::System::Nullable* get_ItemCount()
+		::System::Nullable_1<::System::Int32> get_ItemCount()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + AHCEFHABPDI_GET_ITEMCOUNT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + AHCEFHABPDI_GET_ITEMCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_ItemCount(::System::Nullable* a1)
+		::System::Void set_ItemCount(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + AHCEFHABPDI_SET_ITEMCOUNT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + AHCEFHABPDI_SET_ITEMCOUNT_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ItemData* ALKAFBCALDK()

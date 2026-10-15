@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Threading::Tasks { class Task; }
 
 #define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F152180)
@@ -18,14 +19,14 @@ namespace Cysharp::Threading::Tasks
 	class UniTaskExtensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__33_0()
+		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__33_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48460);
+			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48460);
 		}
 
-		static ::System::Action** StaticGet___9__48_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__48_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48468);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48468);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -33,9 +34,9 @@ namespace Cysharp::Threading::Tasks
 			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48470);
 		}
 
-		static ::System::Action** StaticGet___9__35_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__35_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48478);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48478);
 		}
 
 		static ::System::Void _cctor()

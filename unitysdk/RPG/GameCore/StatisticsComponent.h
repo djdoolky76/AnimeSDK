@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/GameCore/EntityType.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class ABIEGBANPEE;
 class AFGMNFFBBIG;
@@ -124,7 +124,7 @@ namespace RPG::GameCore
 		::System::Collections::Generic::List_1<::AFGMNFFBBIG*>* _monsterPhaseChangeInfos; // 0x50
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::FIDLDJOOPMO*>* _AvatarInitialProperty; // 0x58
 		::DIKAEHJFGEE* _FeverTime_k__BackingField; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple>* _LastTurnAvatarPropertySnapshot; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_3<::FIDLDJOOPMO*, ::System::UInt32, ::System::UInt32>>* _LastTurnAvatarPropertySnapshot; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::GGDFGFCEOGA*>* _BattleEventStt; // 0x70
 		::System::Collections::Generic::List_1<::ABIEGBANPEE*>* _StatisticEvents; // 0x78
 		::System::Collections::Generic::List_1<::IDEHJPPOIFL*>* _CharacterDeathStt; // 0x80

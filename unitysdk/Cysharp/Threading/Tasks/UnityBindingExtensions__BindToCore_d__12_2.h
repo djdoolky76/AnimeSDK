@@ -5,8 +5,8 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace Cysharp::Threading::Tasks
 {
@@ -20,7 +20,7 @@ namespace Cysharp::Threading::Tasks
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<T1>* source; // 0x0
 		::System::Threading::CancellationToken cancellationToken; // 0x0
 		::System::Boolean rebindOnError; // 0x0
-		::System::Action* bindAction; // 0x0
+		::System::Action_2<T2, T1>* bindAction; // 0x0
 		T2 bindTarget; // 0x0
 		::System::Boolean _repeat_5__2; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<T1>* _e_5__3; // 0x0

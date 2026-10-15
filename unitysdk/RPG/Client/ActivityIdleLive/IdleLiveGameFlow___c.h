@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGAMEFLOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4DEC30)
 #define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGAMEFLOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC4DEC70)
@@ -16,9 +16,9 @@ namespace RPG::Client::ActivityIdleLive
 	class IdleLiveGameFlow___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__123_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__123_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x25C40);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x25C40);
 		}
 
 		static ::System::Object** StaticGet___9()

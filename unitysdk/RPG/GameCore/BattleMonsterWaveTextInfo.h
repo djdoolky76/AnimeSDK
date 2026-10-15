@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class TurnBasedGameMode; }
-namespace System { class Nullable; }
 
 #define RPG_GAMECORE_BATTLEMONSTERWAVETEXTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE5CABE0)
 #define RPG_GAMECORE_BATTLEMONSTERWAVETEXTINFO_GET_CURRENTWAVECOUNT_OFFSET UNITYSDK_OFFSET(0xE5CABF0)
@@ -19,8 +19,8 @@ namespace RPG::GameCore
 	{
 	public:
 		::RPG::GameCore::TurnBasedGameMode* _Mode; // 0x10
-		::System::Nullable* OverrideCurrentWave; // 0x18
-		::System::Nullable* OverrideMaxWave; // 0x20
+		::System::Nullable_1<::System::Int32> OverrideCurrentWave; // 0x18
+		::System::Nullable_1<::System::Int32> OverrideMaxWave; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TurnBasedGameMode* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedGameMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEMONSTERWAVETEXTINFO_CTOR_OFFSET))(this, a1);

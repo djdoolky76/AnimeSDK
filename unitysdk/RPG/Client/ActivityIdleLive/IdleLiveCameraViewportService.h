@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
@@ -83,9 +83,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__ONUISCREENSIZECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple _SampleRatiosAtAnimEnd(::UnityEngine::RectTransform* a1, ::UnityEngine::Animation* a2, ::System::String* a3)
+		::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single> _SampleRatiosAtAnimEnd(::UnityEngine::RectTransform* a1, ::UnityEngine::Animation* a2, ::System::String* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Animation*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__SAMPLERATIOSATANIMEND_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single>(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::Animation*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECAMERAVIEWPORTSERVICE__SAMPLERATIOSATANIMEND_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ApplyViewport()

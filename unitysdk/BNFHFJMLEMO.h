@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class BNFHFJMLEMO_BAFPLLAFFGH;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
@@ -30,9 +30,9 @@ inline static constexpr unsigned int BNFHFJMLEMO_TypeDefinitionIndex = 49265;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_CTOR_OFFSET))(this);
 		}
 
-		::BNFHFJMLEMO_BAFPLLAFFGH* CCLOABELDPG(::System::String* a1, ::System::Action* a2)
+		::BNFHFJMLEMO_BAFPLLAFFGH* CCLOABELDPG(::System::String* a1, ::System::Action_1<::UnityEngine::Object*>* a2)
 		{
-			return ((::BNFHFJMLEMO_BAFPLLAFFGH*(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_CCLOABELDPG_OFFSET))(this, a1, a2);
+			return ((::BNFHFJMLEMO_BAFPLLAFFGH*(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_CCLOABELDPG_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FINOLDPFEOO(::System::String* a1, ::UnityEngine::Object* a2)
@@ -40,9 +40,9 @@ inline static constexpr unsigned int BNFHFJMLEMO_TypeDefinitionIndex = 49265;
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_FINOLDPFEOO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ABKBOGIGAEH(::System::String* a1, ::System::Action* a2)
+		::System::Void ABKBOGIGAEH(::System::String* a1, ::System::Action_1<::UnityEngine::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_ABKBOGIGAEH_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_ABKBOGIGAEH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PJPFIHFAHGO()

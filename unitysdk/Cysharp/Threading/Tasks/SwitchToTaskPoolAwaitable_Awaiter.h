@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_SWITCHTOTASKPOOLAWAITABLE_AWAITER_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1F1249E0)
 #define CYSHARP_THREADING_TASKS_SWITCHTOTASKPOOLAWAITABLE_AWAITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F124A20)
@@ -16,9 +17,9 @@ namespace Cysharp::Threading::Tasks
 
 	struct alignas(4) SwitchToTaskPoolAwaitable_Awaiter
 	{
-		static ::System::Action** StaticGet_switchToCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_switchToCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "Awaiter")->GetStaticField(0x404B0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "Awaiter")->GetStaticField(0x404B0);
 		}
 
 		static ::System::Void _cctor()

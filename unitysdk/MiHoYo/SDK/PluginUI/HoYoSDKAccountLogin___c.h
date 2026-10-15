@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLOGIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB018590)
 #define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLOGIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB0185D0)
@@ -19,9 +19,9 @@ namespace MiHoYo::SDK::PluginUI
 	class HoYoSDKAccountLogin___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__4_1()
+		static ::System::Action_1<::System::String*>** StaticGet___9__4_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30500);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30500);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -29,19 +29,19 @@ namespace MiHoYo::SDK::PluginUI
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30508);
 		}
 
-		static ::System::Action** StaticGet___9__4_0()
+		static ::System::Action_1<::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30510);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30510);
 		}
 
-		static ::System::Action** StaticGet___9__4_3()
+		static ::System::Action_1<::System::String*>** StaticGet___9__4_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30518);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30518);
 		}
 
-		static ::System::Action** StaticGet___9__4_2()
+		static ::System::Action_1<::System::String*>** StaticGet___9__4_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30520);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30520);
 		}
 
 		static ::System::Void _cctor()

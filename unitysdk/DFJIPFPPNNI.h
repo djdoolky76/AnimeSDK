@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 class FDPALAEIHPB;
 class KHPOKIKCOFO;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IContext; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DFJIPFPPNNI_CTOR_OFFSET UNITYSDK_OFFSET(0xE82FB40)
@@ -21,9 +21,9 @@ inline static constexpr unsigned int DFJIPFPPNNI_TypeDefinitionIndex = 75778;
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*))((::PBYTE)hIl2Cpp + DFJIPFPPNNI_CTOR_OFFSET))(this, a1);
 		}
 
-		::Entitas::ICollector* GetTrigger(::Entitas::IContext* a1)
+		::Entitas::ICollector_1<::KHPOKIKCOFO*>* GetTrigger(::Entitas::IContext_1<::KHPOKIKCOFO*>* a1)
 		{
-			return ((::Entitas::ICollector*(*)(::PVOID, ::Entitas::IContext*))((::PBYTE)hIl2Cpp + DFJIPFPPNNI_GETTRIGGER_OFFSET))(this, a1);
+			return ((::Entitas::ICollector_1<::KHPOKIKCOFO*>*(*)(::PVOID, ::Entitas::IContext_1<::KHPOKIKCOFO*>*))((::PBYTE)hIl2Cpp + DFJIPFPPNNI_GETTRIGGER_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Filter(::KHPOKIKCOFO* a1)

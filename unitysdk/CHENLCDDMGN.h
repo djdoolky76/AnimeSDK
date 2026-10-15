@@ -6,7 +6,7 @@ class FILCLOOIFKF;
 class INMMPMDELKE;
 class KGIBAGMFENA;
 class MNCOPNHONHO;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class PropButtonConfig; }
 namespace System { class String; }
 
@@ -31,7 +31,7 @@ inline static constexpr unsigned int CHENLCDDMGN_TypeDefinitionIndex = 76815;
 	{
 	public:
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* MIGADKPEGEF; // 0x18
+		::Entitas::IGroup_1<::INMMPMDELKE*>* MIGADKPEGEF; // 0x18
 		::BABNOKHOBCF* FKINCGODJEP; // 0x20
 		::RPG::GameCore::PropButtonConfig* KNBCOOOOOKP; // 0x28
 		// static const ::System::String* GNJIEPNGAKK; // 0x0

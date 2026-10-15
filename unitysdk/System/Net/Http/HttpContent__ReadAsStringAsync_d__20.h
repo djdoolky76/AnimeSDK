@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder.h"
+#include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 #include "unitysdk/System/Runtime/CompilerServices/ConfiguredTaskAwaitable_ConfiguredTaskAwaiter.h"
 namespace System { class String; }
 namespace System::Net::Http { class HttpContent; }
@@ -18,7 +18,7 @@ namespace System::Net::Http
 	{
 		::System::Net::Http::HttpContent* __4__this; // 0x10
 		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x18
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x28
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x28
 		::System::Byte _padding0[0x10];
 		::System::Int32 __1__state; // 0x40
 		::System::Void MoveNext()

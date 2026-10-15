@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Timeline/ManaVideoMixerBehaviour_MovieMixerState.h"
 #include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace CriWare { class CriManaMovieMaterial; }
 namespace CriWare::CriMana { class Player; }
 namespace RPG::Client::Timeline { class ManaVideoClip; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -52,7 +52,7 @@ namespace RPG::Client::Timeline
 		::CriWare::CriManaMovieMaterial* m_boundMovieMaterial; // 0x20
 		::System::Boolean m_frameSync; // 0x28
 		::System::Byte _padding0[0x3];
-		::System::Nullable* m_lastClipId; // 0x2C
+		::System::Nullable_1<::System::Guid> m_lastClipId; // 0x2C
 		::System::Byte _padding1[0xC];
 		::System::Double startTime; // 0x40
 		::System::Double m_currentSeekingFrameTime; // 0x48

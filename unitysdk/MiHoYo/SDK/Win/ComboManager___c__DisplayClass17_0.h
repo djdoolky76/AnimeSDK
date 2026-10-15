@@ -5,8 +5,8 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class ComboManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD169B0)
 #define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS17_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1BD27100)
@@ -24,10 +24,10 @@ namespace MiHoYo::SDK::Win
 	{
 	public:
 		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x10
-		::System::Action* __9__8; // 0x18
-		::System::Action* __9__2; // 0x20
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* __9__8; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__2; // 0x20
 		::System::String* authTicket; // 0x28
-		::System::Action* callback; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x30
 		::System::String* thirdpartyType; // 0x38
 		::System::String* traceId; // 0x40
 		::System::Void _ctor()

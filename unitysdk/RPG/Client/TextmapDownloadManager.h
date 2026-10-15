@@ -10,6 +10,7 @@ namespace RPG::Client { class TextmapLanguageItem; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -68,8 +69,8 @@ namespace RPG::Client
 	{
 	public:
 		::OFKAKOLDDIC* _langSizeLoader; // 0x10
-		::System::Action* _applyCallback; // 0x18
-		::System::Action* _sizeCb; // 0x20
+		::System::Action_1<::System::Object*>* _applyCallback; // 0x18
+		::System::Action_1<::System::Object*>* _sizeCb; // 0x20
 		::System::String* _activeDownloadLangKey; // 0x28
 		::System::Collections::Generic::HashSet_1<::System::String*>* _downloadedLanguage; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* _textmapDict; // 0x38
@@ -152,9 +153,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER_ASYNCUPDATELANGSIZE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean AsyncUpdateLangSize_1(::System::Action* a1)
+		::System::Boolean AsyncUpdateLangSize_1(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER_ASYNCUPDATELANGSIZE_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER_ASYNCUPDATELANGSIZE_1_OFFSET))(this, a1);
 		}
 
 		::System::String* GetTextmapSize(::System::String* a1)
@@ -192,9 +193,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER_APPLYTEXTLANGUAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void AsyncApplyTextLanguage(::System::String* a1, ::System::Action* a2)
+		::System::Void AsyncApplyTextLanguage(::System::String* a1, ::System::Action_1<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER_ASYNCAPPLYTEXTLANGUAGE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPDOWNLOADMANAGER_ASYNCAPPLYTEXTLANGUAGE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CancelAsyncApplyTextLanguage()

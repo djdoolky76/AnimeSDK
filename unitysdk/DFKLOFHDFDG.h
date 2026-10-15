@@ -6,8 +6,8 @@ class FIJJHJADLLM;
 class FLHCGOFNPLA;
 class MGFJDLIBABO;
 class OBJANKHLNGO;
-namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Tuple; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define DFKLOFHDFDG_CTOR_OFFSET UNITYSDK_OFFSET(0xE831CE0)
@@ -38,14 +38,14 @@ inline static constexpr unsigned int DFKLOFHDFDG_TypeDefinitionIndex = 82072;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DFKLOFHDFDG_STOP_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* NKMGJGKOIID()
+		::RPG::Client::Promises::IPromise_1<::FIJJHJADLLM*>* NKMGJGKOIID()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + DFKLOFHDFDG_NKMGJGKOIID_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::FIJJHJADLLM*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DFKLOFHDFDG_NKMGJGKOIID_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* GBLKOMIHGGJ(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple*>* a3)
+		::RPG::Client::Promises::IPromise_1<::FLHCGOFNPLA*>* GBLKOMIHGGJ(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::System::UInt32, ::ACINIALAFDE>*>* a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple*>*))((::PBYTE)hIl2Cpp + DFKLOFHDFDG_GBLKOMIHGGJ_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::FLHCGOFNPLA*>*(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::System::UInt32, ::ACINIALAFDE>*>*))((::PBYTE)hIl2Cpp + DFKLOFHDFDG_GBLKOMIHGGJ_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MALNAKLAPEI(::System::UInt16 a1, ::MGFJDLIBABO* a2)

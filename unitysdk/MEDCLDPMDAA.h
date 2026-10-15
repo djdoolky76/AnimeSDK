@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class CEEGMMCFCBG;
 namespace ObservableCollections { template <typename T> class ObservableList_1; }
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client::Ui::Samples { class GridFightSettleTabViewModel; }
 namespace Sofa::Core { class SimpleCommand; }
@@ -34,7 +34,7 @@ inline static constexpr unsigned int MEDCLDPMDAA_TypeDefinitionIndex = 73459;
 		::R3::ReactiveProperty_1<::System::Int32>* _SelectedTabIndex_k__BackingField; // 0x18
 		::System::String* _VersionText_k__BackingField; // 0x20
 		::Sofa::Core::SimpleCommand* GFFLPAOPOHA; // 0x28
-		::R3::Observable* _FavourText_k__BackingField; // 0x30
+		::R3::Observable_1<::System::String*>* _FavourText_k__BackingField; // 0x30
 		::Sofa::Core::SimpleCommand* FKPDLPNELCO; // 0x38
 		::R3::ReactiveProperty_1<::System::Boolean>* _IsFavour_k__BackingField; // 0x40
 		::System::String* _ArchiveTimeText_k__BackingField; // 0x48
@@ -75,9 +75,9 @@ inline static constexpr unsigned int MEDCLDPMDAA_TypeDefinitionIndex = 73459;
 			return ((::R3::ReactiveProperty_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MEDCLDPMDAA_GET_ISFAVOUR_OFFSET))(this);
 		}
 
-		::R3::Observable* get_FavourText()
+		::R3::Observable_1<::System::String*>* get_FavourText()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MEDCLDPMDAA_GET_FAVOURTEXT_OFFSET))(this);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MEDCLDPMDAA_GET_FAVOURTEXT_OFFSET))(this);
 		}
 
 		::CEEGMMCFCBG* MAFKACBNNIJ()

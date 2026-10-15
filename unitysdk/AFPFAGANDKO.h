@@ -15,6 +15,7 @@ class KMPPPEBNIBC;
 class LJFHKAJPFNE;
 namespace RPG::Client::OpenWorld { template <typename T1, typename T2> class TriggerShapeController_2; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -72,9 +73,9 @@ inline static constexpr unsigned int AFPFAGANDKO_TypeDefinitionIndex = 73958;
 			return ((::FCLMONFLHFP*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Action*, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + AFPFAGANDKO_EPAJBPKGFFC_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::FCLMONFLHFP* OLMHPNPIJCP(::UnityEngine::Vector3 a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2, ::System::Single a3, ::System::Action* a4, ::System::Action* a5, ::System::Int32 a6)
+		::FCLMONFLHFP* OLMHPNPIJCP(::UnityEngine::Vector3 a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2, ::System::Single a3, ::System::Action_1<::System::Int32>* a4, ::System::Action* a5, ::System::Int32 a6)
 		{
-			return ((::FCLMONFLHFP*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Action*, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + AFPFAGANDKO_OLMHPNPIJCP_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::FCLMONFLHFP*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Action_1<::System::Int32>*, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + AFPFAGANDKO_OLMHPNPIJCP_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::FCLMONFLHFP* EPAJBPKGFFC_1(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a3, ::System::Single a4, ::System::Action* a5, ::System::Action* a6, ::System::Int32 a7)
@@ -87,9 +88,9 @@ inline static constexpr unsigned int AFPFAGANDKO_TypeDefinitionIndex = 73958;
 			return ((::FCLMONFLHFP*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Action*, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + AFPFAGANDKO_CFDHLHLHMAP_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::FCLMONFLHFP* GKGJMBPOICJ(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Action* a3, ::System::Action* a4, ::System::Int32 a5)
+		::FCLMONFLHFP* GKGJMBPOICJ(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Action_1<::System::Int32>* a3, ::System::Action* a4, ::System::Int32 a5)
 		{
-			return ((::FCLMONFLHFP*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Action*, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + AFPFAGANDKO_GKGJMBPOICJ_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::FCLMONFLHFP*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Action_1<::System::Int32>*, ::System::Action*, ::System::Int32))((::PBYTE)hIl2Cpp + AFPFAGANDKO_GKGJMBPOICJ_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void MAKJJCDMONP()

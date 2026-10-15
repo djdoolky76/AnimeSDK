@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class ODCELNBAEIB;
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define FGPBFMIECPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1576E860)
 #define FGPBFMIECPL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1576E980)
@@ -15,10 +15,10 @@ inline static constexpr unsigned int FGPBFMIECPL_TypeDefinitionIndex = 79094;
 	class FGPBFMIECPL : public ::System::Object
 	{
 	public:
-		::System::Action* PEIHJAEIGHK; // 0x10
-		::System::Void _ctor(::System::Action* a1)
+		::System::Action_1<::ODCELNBAEIB*>* PEIHJAEIGHK; // 0x10
+		::System::Void _ctor(::System::Action_1<::ODCELNBAEIB*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FGPBFMIECPL_CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::ODCELNBAEIB*>*))((::PBYTE)hIl2Cpp + FGPBFMIECPL_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void NPAFMEBNFOB(::ODCELNBAEIB* a1)

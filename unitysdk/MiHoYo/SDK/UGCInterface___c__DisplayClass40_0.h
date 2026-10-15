@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class UGCInterface; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB060600)
@@ -18,7 +19,7 @@ namespace MiHoYo::SDK
 	class UGCInterface___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
 		::System::String* strUrl; // 0x18
 		::System::Action* timeoutCallback; // 0x20
 		::System::String* strAuthKey; // 0x28

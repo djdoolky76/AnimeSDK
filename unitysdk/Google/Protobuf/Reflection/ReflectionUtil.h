@@ -6,10 +6,11 @@ namespace Google::Protobuf { class Extension; }
 namespace Google::Protobuf { class IMessage; }
 namespace Google::Protobuf::Reflection { class ReflectionUtil_IExtensionReflectionHelper; }
 namespace Google::Protobuf::Reflection { class ReflectionUtil_IReflectionHelper; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class MethodInfo; }
 
 #define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8979C0)
@@ -56,14 +57,14 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Func_2<::Google::Protobuf::IMessage*, ::System::Int32>*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEINT32_OFFSET))(a1);
 		}
 
-		static ::System::Action* CreateActionIMessageObject(::System::Reflection::MethodInfo* a1)
+		static ::System::Action_2<::Google::Protobuf::IMessage*, ::System::Object*>* CreateActionIMessageObject(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Action*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGEOBJECT_OFFSET))(a1);
+			return ((::System::Action_2<::Google::Protobuf::IMessage*, ::System::Object*>*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGEOBJECT_OFFSET))(a1);
 		}
 
-		static ::System::Action* CreateActionIMessage(::System::Reflection::MethodInfo* a1)
+		static ::System::Action_1<::Google::Protobuf::IMessage*>* CreateActionIMessage(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Action*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGE_OFFSET))(a1);
+			return ((::System::Action_1<::Google::Protobuf::IMessage*>*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGE_OFFSET))(a1);
 		}
 
 		static ::System::Func_2<::Google::Protobuf::IMessage*, ::System::Boolean>* CreateFuncIMessageBool(::System::Reflection::MethodInfo* a1)

@@ -3,10 +3,11 @@
 #include "unitysdk/System/Object.h"
 class HIOEAKHGILF;
 class PEEDLCHFAFL;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 
 #define PEEDLCHFAFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9E70F0)
@@ -32,9 +33,9 @@ inline static constexpr unsigned int PEEDLCHFAFL___c_TypeDefinitionIndex = 43594
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C190);
 		}
 
-		static ::System::Action** StaticGet___9__114_0()
+		static ::System::Action_1<::PEEDLCHFAFL*>** StaticGet___9__114_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C198);
+			return (::System::Action_1<::PEEDLCHFAFL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C198);
 		}
 
 		static ::System::Func_3<::PEEDLCHFAFL*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__331_0()
@@ -42,9 +43,9 @@ inline static constexpr unsigned int PEEDLCHFAFL___c_TypeDefinitionIndex = 43594
 			return (::System::Func_3<::PEEDLCHFAFL*, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1A0);
 		}
 
-		static ::System::Action** StaticGet___9__116_0()
+		static ::System::Action_1<::PEEDLCHFAFL*>** StaticGet___9__116_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1A8);
+			return (::System::Action_1<::PEEDLCHFAFL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1A8);
 		}
 
 		static ::System::Func_2<::PEEDLCHFAFL*, ::System::Boolean>** StaticGet___9__333_0()
@@ -67,9 +68,9 @@ inline static constexpr unsigned int PEEDLCHFAFL___c_TypeDefinitionIndex = 43594
 			return (::System::Func_3<::PEEDLCHFAFL*, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1C8);
 		}
 
-		static ::System::Action** StaticGet___9__380_0()
+		static ::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>** StaticGet___9__380_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1D0);
+			return (::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1D0);
 		}
 
 		static ::System::Func_3<::PEEDLCHFAFL*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__335_0()
@@ -77,9 +78,9 @@ inline static constexpr unsigned int PEEDLCHFAFL___c_TypeDefinitionIndex = 43594
 			return (::System::Func_3<::PEEDLCHFAFL*, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1D8);
 		}
 
-		static ::System::Action** StaticGet___9__382_0()
+		static ::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>** StaticGet___9__382_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1E0);
+			return (::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1E0);
 		}
 
 		static ::System::Void _cctor()

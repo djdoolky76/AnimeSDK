@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Decimal.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerable_1; }
 namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncEnumerator_1; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
@@ -21,16 +21,16 @@ namespace Cysharp::Threading::Tasks::Linq
 	struct alignas(8) Average__AverageAsync_d__36
 	{
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Nullable_1<::System::Decimal>> __t__builder; // 0x20
 		::System::Byte _padding0[0x20];
 		::System::Object* __u__1; // 0x48
 		::System::Byte _padding1[0x8];
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Nullable*>* source; // 0x58
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Nullable_1<::System::Decimal>>* source; // 0x58
 		::System::Threading::CancellationToken cancellationToken; // 0x60
 		::System::Object* __7__wrap4; // 0x68
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Nullable*>* _e_5__4; // 0x70
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Nullable_1<::System::Decimal>>* _e_5__4; // 0x70
 		::System::Int32 __1__state; // 0x78
-		::System::Nullable* _sum_5__3; // 0x7C
+		::System::Nullable_1<::System::Decimal> _sum_5__3; // 0x7C
 		::System::Byte _padding2[0xC];
 		::System::Int32 __7__wrap5; // 0x90
 		::System::Byte _padding3[0x4];

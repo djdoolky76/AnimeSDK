@@ -3,8 +3,8 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::Prop { class ChimeraBillboardController; }
-namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class GameObject; }
@@ -40,7 +40,7 @@ namespace RPG::Client::Prop
 		::System::Byte _padding1[0x7];
 		::UnityEngine::Camera* _WorldCamera; // 0x40
 		::UnityEngine::Transform* _Wrapper_k__BackingField; // 0x48
-		::System::Action* _TargetPositionSetter; // 0x50
+		::System::Action_1<::UnityEngine::Transform*>* _TargetPositionSetter; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_CTOR_OFFSET))(this);
@@ -91,9 +91,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Void SetTargetPosition(::System::Action* a1)
+		::System::Void SetTargetPosition(::System::Action_1<::UnityEngine::Transform*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER_SETTARGETPOSITION_OFFSET))(this, a1);
 		}
 
 		::System::Void SetTargetPosition_1(::UnityEngine::Vector3 a1)

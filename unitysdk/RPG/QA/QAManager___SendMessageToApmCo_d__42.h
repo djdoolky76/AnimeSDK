@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/QA/QAManager_Message.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_QA_QAMANAGER___SENDMESSAGETOAPMCO_D__42_CTOR_OFFSET UNITYSDK_OFFSET(0xE87F630)
 #define RPG_QA_QAMANAGER___SENDMESSAGETOAPMCO_D__42_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE87F7A0)
@@ -21,7 +21,7 @@ namespace RPG::QA
 	{
 	public:
 		::RPG::QA::QAManager_Message message; // 0x10
-		::System::Action* callback; // 0x30
+		::System::Action_1<::System::Boolean>* callback; // 0x30
 		::System::Object* __2__current; // 0x38
 		::System::Int32 __1__state; // 0x40
 		::System::Void _ctor(::System::Int32 a1)

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/FateRinDeckRecommendTiming.h"
 #include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -16,8 +16,8 @@ inline static constexpr unsigned int MCONDNIAFFN_TypeDefinitionIndex = 81111;
 	class MCONDNIAFFN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*>* DDFFNPHOJNM; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*>* HBKGGMEEPDC; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::FateRinHouguOwnerType, ::RPG::GameCore::FateRinDeckRecommendTiming>, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*>* DDFFNPHOJNM; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::FateRinHouguOwnerType, ::RPG::GameCore::FateRinDeckRecommendTiming>, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*>* HBKGGMEEPDC; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MCONDNIAFFN_CTOR_OFFSET))(this);

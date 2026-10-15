@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class APMFKFNCCHH;
 class PLEDOEKMLCN;
@@ -9,7 +9,7 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class JsonOfflineCullingCellData; }
 namespace RPG::GameCore { class JsonOfflineCullingCellSerializeData; }
 namespace RPG::GameCore { class OfflineCullingIndex; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2, typename T3> class Tuple_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -49,7 +49,7 @@ inline static constexpr unsigned int NCNPCENKKGN_TypeDefinitionIndex = 73775;
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>*>* JJMPNCMEPKL; // 0x18
 		::System::Collections::Generic::List_1<::System::Single>* PAKDMMJLJFI; // 0x20
 		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::Int64, ::RPG::GameCore::OfflineCullingIndex*>*>* DOJCPBPOLBM; // 0x28
-		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::System::Tuple*>*>*>* JBCLODOPAME; // 0x30
+		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::System::Tuple_3<::System::Single, ::System::Single, ::System::Collections::Generic::List_1<::System::Int64>*>*>*>*>* JBCLODOPAME; // 0x30
 		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::Int64, ::PLEDOEKMLCN*>*>* JKKKFLHHGDO; // 0x38
 		::System::Int32 BIHLOFHBONK; // 0x40
 		::System::Boolean GHKMCDNAHCL; // 0x44
@@ -101,9 +101,9 @@ inline static constexpr unsigned int NCNPCENKKGN_TypeDefinitionIndex = 73775;
 			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::GameCore::OfflineCullingIndex*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32))((::PBYTE)hIl2Cpp + NCNPCENKKGN_EMBGGDFDBML_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 CGEBMHLMJGO(::UnityEngine::Vector3 a1, ::RPG::GameCore::OfflineCullingIndex* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3, ::System::Int32 a4, ::System::Collections::Generic::List_1<::System::ValueTuple>* a5)
+		::System::Int32 CGEBMHLMJGO(::UnityEngine::Vector3 a1, ::RPG::GameCore::OfflineCullingIndex* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3, ::System::Int32 a4, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::GameCore::OfflineCullingIndex*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + NCNPCENKKGN_CGEBMHLMJGO_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3, ::RPG::GameCore::OfflineCullingIndex*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*))((::PBYTE)hIl2Cpp + NCNPCENKKGN_CGEBMHLMJGO_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Int32 PCJPLIOJFJE(::RPG::Client::OpenWorld::StreamingItemData* a1, ::PLEDOEKMLCN* a2, ::System::Int64 a3, ::System::Int64 a4)

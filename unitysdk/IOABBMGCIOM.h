@@ -4,8 +4,8 @@
 #include "unitysdk/NJIJCDNNBNI.h"
 class IOABBMGCIOM;
 class NNCKBIHOFIP;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IOABBMGCIOM_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x164FB2F0)
@@ -27,7 +27,7 @@ inline static constexpr unsigned int IOABBMGCIOM_TypeDefinitionIndex = 72287;
 	class IOABBMGCIOM : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Action* HJLKNPIFNGI; // 0x60
+		::System::Action_1<::IOABBMGCIOM*>* HJLKNPIFNGI; // 0x60
 		::NNCKBIHOFIP* PFKCKIOAOFO; // 0x68
 		::System::UInt32 ELBDMPNBEEH; // 0x70
 		::System::UInt32 MEJAMMHEMEE; // 0x74
@@ -51,9 +51,9 @@ inline static constexpr unsigned int IOABBMGCIOM_TypeDefinitionIndex = 72287;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IOABBMGCIOM_EKGCGIDIFJJ_OFFSET))(this);
 		}
 
-		::System::Void HPKAAIMCAPC(::System::Action* a1)
+		::System::Void HPKAAIMCAPC(::System::Action_1<::IOABBMGCIOM*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IOABBMGCIOM_HPKAAIMCAPC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::IOABBMGCIOM*>*))((::PBYTE)hIl2Cpp + IOABBMGCIOM_HPKAAIMCAPC_OFFSET))(this, a1);
 		}
 
 		::System::Void EGLHCCFNAGK()

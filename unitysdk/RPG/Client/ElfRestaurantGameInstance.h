@@ -13,7 +13,7 @@ class EKFMIDBJDIA;
 class FDPALAEIHPB;
 class FOLHKNBFONK;
 class IAJLHKIHBFB;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client { class ElfRestaurantModule; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::Client::LittleGame::ElfRestaurant { class ElfRestaurantView; }
@@ -179,19 +179,19 @@ namespace RPG::Client
 			return ((::RPG::Client::LittleGame::ElfRestaurantGameEntity*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE_GETENTITYWITHRUNTIMEID_OFFSET))(this, a1);
 		}
 
-		::Entitas::IGroup* GetEmployeeEntityGroup()
+		::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* GetEmployeeEntityGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE_GETEMPLOYEEENTITYGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE_GETEMPLOYEEENTITYGROUP_OFFSET))(this);
 		}
 
-		::Entitas::IGroup* GetChefEntityGroup()
+		::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* GetChefEntityGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE_GETCHEFENTITYGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE_GETCHEFENTITYGROUP_OFFSET))(this);
 		}
 
-		::Entitas::IGroup* GetCustomerEntityGroup()
+		::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* GetCustomerEntityGroup()
 		{
-			return ((::Entitas::IGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE_GETCUSTOMERENTITYGROUP_OFFSET))(this);
+			return ((::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEINSTANCE_GETCUSTOMERENTITYGROUP_OFFSET))(this);
 		}
 
 		::RPG::Client::LittleGame::ElfRestaurantGameEntity* GetHeadWaiterEntity()

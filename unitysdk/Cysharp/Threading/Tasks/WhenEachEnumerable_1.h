@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
@@ -12,6 +12,6 @@ namespace Cysharp::Threading::Tasks
 	class WhenEachEnumerable_1 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>* source; // 0x0
+		::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask_1<T>>* source; // 0x0
 	};
 }

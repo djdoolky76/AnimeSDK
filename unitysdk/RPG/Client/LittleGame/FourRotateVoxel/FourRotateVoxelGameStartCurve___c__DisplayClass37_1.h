@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameStartCurve_NMKFGFCKBBP; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD465890)
 #define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1___SPRAYLIQUIDTOBRICK2D_B__0_OFFSET UNITYSDK_OFFSET(0xD466C30)
@@ -21,7 +21,7 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 	public:
 		::System::Object* CS___8__locals1; // 0x10
 		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve_NMKFGFCKBBP* colorLiquidEffectData; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* __9__1; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_1_CTOR_OFFSET))(this);

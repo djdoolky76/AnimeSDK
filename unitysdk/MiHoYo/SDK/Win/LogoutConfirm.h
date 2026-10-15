@@ -3,6 +3,7 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 namespace MiHoYo::SDK::Win { class LogoutConfirm; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Toggle; }
 namespace UnityEngine::UI { class ToggleGroup; }
@@ -29,7 +30,7 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Toggle* saveToggle; // 0x70
 		::UnityEngine::UI::ToggleGroup* toggleGroup; // 0x78
 		::System::Action* OnCancelButtonClicked; // 0x80
-		::System::Action* OnLogoutButtonClicked; // 0x88
+		::System::Action_1<::System::Boolean>* OnLogoutButtonClicked; // 0x88
 		::System::Boolean isSaved; // 0x90
 		static ::MiHoYo::SDK::Win::LogoutConfirm** StaticGet_Instance()
 		{

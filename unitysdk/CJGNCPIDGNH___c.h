@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
 #define CJGNCPIDGNH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD20FF20)
@@ -27,9 +27,9 @@ inline static constexpr unsigned int CJGNCPIDGNH___c_TypeDefinitionIndex = 80266
 	class CJGNCPIDGNH___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__11_2()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__11_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D10);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D10);
 		}
 
 		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__6_4()
@@ -37,9 +37,9 @@ inline static constexpr unsigned int CJGNCPIDGNH___c_TypeDefinitionIndex = 80266
 			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D18);
 		}
 
-		static ::System::Action** StaticGet___9__6_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__6_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D20);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D20);
 		}
 
 		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__11_4()
@@ -47,14 +47,14 @@ inline static constexpr unsigned int CJGNCPIDGNH___c_TypeDefinitionIndex = 80266
 			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D28);
 		}
 
-		static ::System::Action** StaticGet___9__11_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__11_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D30);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D30);
 		}
 
-		static ::System::Action** StaticGet___9__6_3()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__6_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D38);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D38);
 		}
 
 		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__13_6()
@@ -82,9 +82,9 @@ inline static constexpr unsigned int CJGNCPIDGNH___c_TypeDefinitionIndex = 80266
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D60);
 		}
 
-		static ::System::Action** StaticGet___9__6_6()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__6_6()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D68);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34D68);
 		}
 
 		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__11_1()

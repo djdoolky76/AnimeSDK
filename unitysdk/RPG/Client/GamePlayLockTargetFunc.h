@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class DLNGPHPNPAN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_GAMEPLAYLOCKTARGETFUNC_ACQUIREFLAG_OFFSET UNITYSDK_OFFSET(0xD0ABB70)
@@ -32,7 +32,7 @@ namespace RPG::Client
 	{
 	public:
 		::System::Collections::Generic::List_1<::DLNGPHPNPAN*>* _LockFlags; // 0x10
-		::System::Action* _onLockChangeCallback; // 0x18
+		::System::Action_1<::System::Boolean>* _onLockChangeCallback; // 0x18
 		::System::UInt32 _CurrentFlagId; // 0x20
 		::System::Boolean _IsLock; // 0x24
 		::System::Void _ctor(::System::Collections::Generic::List_1<::DLNGPHPNPAN*>* a1)
@@ -85,14 +85,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKTARGETFUNC_CLEARLOCKFLAGS_OFFSET))(this);
 		}
 
-		::System::Void AddChangeCallBack(::System::Action* a1)
+		::System::Void AddChangeCallBack(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKTARGETFUNC_ADDCHANGECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKTARGETFUNC_ADDCHANGECALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RemoveChangeCallBack(::System::Action* a1)
+		::System::Void RemoveChangeCallBack(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKTARGETFUNC_REMOVECHANGECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEPLAYLOCKTARGETFUNC_REMOVECHANGECALLBACK_OFFSET))(this, a1);
 		}
 
 		::DLNGPHPNPAN* _GetFlag(::System::UInt32 a1)

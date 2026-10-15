@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/FreeStyleController.h"
 #include "unitysdk/BPFKOIIMKBG.h"
 #include "unitysdk/LKLOMEEPIEM.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class FreeStyleComponent; }
 namespace RPG::GameCore { class FreeStyleMotionInfoConfig; }
-namespace System { class Nullable; }
 namespace UnityEngine { class AnimationClip; }
 
 #define EBDHCEKPKMN_AGPHBLGBODG_OFFSET UNITYSDK_OFFSET(0x12CED0A0)
@@ -61,9 +61,9 @@ inline static constexpr unsigned int EBDHCEKPKMN_TypeDefinitionIndex = 57284;
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EBDHCEKPKMN_INHHIGAOCNE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable* a3)
+		::System::Void AGPHBLGBODG(::System::UInt32 a1, ::RPG::GameCore::FreeStyleMotionInfoConfig* a2, ::System::Nullable_1<::LKLOMEEPIEM> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable*))((::PBYTE)hIl2Cpp + EBDHCEKPKMN_AGPHBLGBODG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FreeStyleMotionInfoConfig*, ::System::Nullable_1<::LKLOMEEPIEM>))((::PBYTE)hIl2Cpp + EBDHCEKPKMN_AGPHBLGBODG_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void MAHCHECNLEP(::System::Boolean a1, ::BPFKOIIMKBG a2)

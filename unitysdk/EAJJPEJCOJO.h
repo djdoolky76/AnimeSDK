@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/LevelNavNodeInfo.h"
 #include "unitysdk/RPG/GameCore/LevelNavNodeTransitInfo.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class EAJJPEJCOJO;
 class ECPFBGMALIP;
 class FFCGHKGDAJF;
@@ -47,7 +47,7 @@ inline static constexpr unsigned int EAJJPEJCOJO_TypeDefinitionIndex = 74562;
 	class EAJJPEJCOJO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* KADGKBFMELL; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* KADGKBFMELL; // 0x10
 		::System::Collections::Generic::List_1<::MJOBGAACNDC*>* PFEMNCLFFDI; // 0x18
 		::ECPFBGMALIP* DADODJLAHKN; // 0x20
 		::FFCGHKGDAJF* DCOPELFHOLO; // 0x28

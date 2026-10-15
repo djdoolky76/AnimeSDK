@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NativeCookie; }
@@ -31,7 +31,7 @@ namespace ZenFulcrum::EmbeddedBrowser
 		::System::String* name; // 0x28
 		::System::String* value; // 0x30
 		::ZenFulcrum::EmbeddedBrowser::BrowserNative_NativeCookie* original; // 0x38
-		::System::Nullable* expires; // 0x40
+		::System::Nullable_1<::System::DateTime> expires; // 0x40
 		::System::Byte _padding0[0x8];
 		::System::DateTime creation; // 0x50
 		::System::DateTime lastAccess; // 0x58

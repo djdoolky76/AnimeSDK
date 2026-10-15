@@ -6,8 +6,8 @@
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPolyMesh.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSubD.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiXform.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIOBJECT_ASCAMERA_OFFSET UNITYSDK_OFFSET(0x3C61B60)
 #define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIOBJECT_ASCURVES_OFFSET UNITYSDK_OFFSET(0x3C61C60)
@@ -111,9 +111,9 @@ namespace UnityEngine::Formats::Alembic::Sdk
 		}
 
 		/*
-		::System::Void EachChild(::System::Action* a1)
+		::System::Void EachChild(::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::aiObject>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIOBJECT_EACHCHILD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::Formats::Alembic::Sdk::aiObject>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AIOBJECT_EACHCHILD_OFFSET))(this, a1);
 		}
 		*/
 

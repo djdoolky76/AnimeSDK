@@ -3,9 +3,10 @@
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
 #include "unitysdk/RPG/Client/Prop/WolfBroPuzzleBoard_CustomGameData.h"
 #include "unitysdk/RPG/Client/Prop/WolfBroPuzzleBoard_EPuzzlePhase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/IMJAFIDKDKK.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
@@ -20,10 +21,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -142,9 +142,9 @@ namespace RPG::Client::Prop
 		::System::Boolean OEJKNLKJCHP; // 0xA0
 		::System::Byte _padding2[0x7];
 		::RPG::Client::Prop::WolfBroPuzzleBoard_CustomGameData HKGHAFLDHBL; // 0xA8
-		::System::Nullable* FKOFABHIJKJ; // 0xC0
+		::System::Nullable_1<::System::Object*> FKOFABHIJKJ; // 0xC0
 		::System::Byte _padding3[0x10];
-		::System::Nullable* BCIAFBDEBCC; // 0xD8
+		::System::Nullable_1<::System::Object*> BCIAFBDEBCC; // 0xD8
 		::System::Byte _padding4[0x10];
 		::System::Boolean EFOPAHGMFOG; // 0xF0
 		::System::Byte _padding5[0x7];
@@ -289,9 +289,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::EKFMIDBJDIA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_INNPAGLCDMK_OFFSET))(this, a1);
 		}
 
-		::System::Void WaitStartup(::System::Single a1, ::System::Action* a2)
+		::System::Void WaitStartup(::System::Single a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_WAITSTARTUP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_WAITSTARTUP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void UnWaitStartup()
@@ -299,9 +299,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_UNWAITSTARTUP_OFFSET))(this);
 		}
 
-		::System::Void WaitRestoreArchive(::System::Single a1, ::System::Action* a2)
+		::System::Void WaitRestoreArchive(::System::Single a1, ::System::Action_1<::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_WAITRESTOREARCHIVE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_WAITRESTOREARCHIVE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void UnWaitRestoreArchive()
@@ -519,9 +519,9 @@ namespace RPG::Client::Prop
 			return ((::KDMEFGANLKI*(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_DEOJAHAFAFO_OFFSET))(a1);
 		}
 
-		static ::System::ValueTuple HLLHPBPFHLF(::NPEHFAHLDNM* a1)
+		static ::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> HLLHPBPFHLF(::NPEHFAHLDNM* a1)
 		{
-			return ((::System::ValueTuple(*)(::NPEHFAHLDNM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_HLLHPBPFHLF_OFFSET))(a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::NPEHFAHLDNM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_WOLFBROPUZZLEBOARD_HLLHPBPFHLF_OFFSET))(a1);
 		}
 
 		static ::UnityEngine::Vector3 OJFHNICJIKJ(::UnityEngine::Vector3Int a1)

@@ -4,9 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace InControl { class BindingSource; }
 namespace InControl { class PlayerAction; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define AJHBPFJAJAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CBCF40)
 #define AJHBPFJAJAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBCF70)
@@ -19,14 +20,14 @@ inline static constexpr unsigned int AJHBPFJAJAC___c_TypeDefinitionIndex = 61335
 	class AJHBPFJAJAC___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__1_2()
+		static ::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>** StaticGet___9__1_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AF50);
+			return (::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AF50);
 		}
 
-		static ::System::Action** StaticGet___9__1_1()
+		static ::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>** StaticGet___9__1_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AF58);
+			return (::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AF58);
 		}
 
 		static ::System::Object** StaticGet___9()

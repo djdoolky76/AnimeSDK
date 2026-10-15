@@ -8,8 +8,8 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelAuthStatusResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelEntitlementsResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelProductsResult; }
 namespace MiHoYo::SDK::PC::OS { class ProductData; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -48,7 +48,7 @@ namespace MiHoYo::SDK::PC::OS
 	{
 	public:
 		::System::String* _accountId; // 0x10
-		::System::Action* _actionPayCallback; // 0x18
+		::System::Action_1<::System::String*>* _actionPayCallback; // 0x18
 		::System::Boolean _isChannelDllAvailable; // 0x20
 		::System::Boolean hasInit; // 0x21
 		::System::Boolean _isPaying; // 0x22
@@ -102,9 +102,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::HoYoChannelAuthStatusResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_ONAUTHSTATUSCHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void GetProductList(::System::String* a1, ::System::Action* a2)
+		::System::Void GetProductList(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_GETPRODUCTLIST_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_GETPRODUCTLIST_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CacheProducts(::Il2CppArray<::MiHoYo::SDK::PC::OS::ProductData*>* a1)
@@ -112,9 +112,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::MiHoYo::SDK::PC::OS::ProductData*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_CACHEPRODUCTS_OFFSET))(this, a1);
 		}
 
-		::System::Void OnGetProductListSuccess(::System::Action* a1, ::MiHoYo::SDK::JSONArray* a2)
+		::System::Void OnGetProductListSuccess(::System::Action_1<::System::String*>* a1, ::MiHoYo::SDK::JSONArray* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::MiHoYo::SDK::JSONArray*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_ONGETPRODUCTLISTSUCCESS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::MiHoYo::SDK::JSONArray*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_ONGETPRODUCTLISTSUCCESS_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::PC::OS::ProductData* FindCachedProduct(::System::String* a1)
@@ -122,14 +122,14 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::MiHoYo::SDK::PC::OS::ProductData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_FINDCACHEDPRODUCT_OFFSET))(this, a1);
 		}
 
-		::System::Void OnGetProductListError(::System::Action* a1, ::System::String* a2)
+		::System::Void OnGetProductListError(::System::Action_1<::System::String*>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_ONGETPRODUCTLISTERROR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_ONGETPRODUCTLISTERROR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Pay(::System::String* a1, ::System::Action* a2)
+		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_PAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_PAY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ExecuteCheckout(::MiHoYo::SDK::PC::OS::EpicPayInfo* a1)
@@ -162,9 +162,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_GETUSERID_OFFSET))(this);
 		}
 
-		::System::Void Login(::System::Action* a1)
+		::System::Void Login(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_LOGIN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC_LOGIN_OFFSET))(this, a1);
 		}
 
 		::System::Void OnApplicationQuit()

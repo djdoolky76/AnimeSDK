@@ -4,7 +4,7 @@
 class BABNOKHOBCF;
 class INMMPMDELKE;
 class MNCOPNHONHO;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelAnimalAttachBillboardData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -25,7 +25,7 @@ inline static constexpr unsigned int KNDMEPGNPFO_TypeDefinitionIndex = 76748;
 	public:
 		::System::Collections::Generic::Dictionary_2<::INMMPMDELKE*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelAnimalAttachBillboardData*>* INHFIMENLND; // 0x40
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x48
-		::Entitas::IGroup* MGGKABMNGMN; // 0x50
+		::Entitas::IGroup_1<::INMMPMDELKE*>* MGGKABMNGMN; // 0x50
 		::BABNOKHOBCF* FKINCGODJEP; // 0x58
 		::System::Int32 NHADOMDPGAL; // 0x60
 		::System::Void _ctor(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2)

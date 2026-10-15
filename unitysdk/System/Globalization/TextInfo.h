@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class CultureData; }
@@ -60,7 +60,7 @@ namespace System::Globalization
 		::System::Int32 m_win32LangID; // 0x38
 		::System::Boolean m_useUserOverride; // 0x3C
 		::System::Boolean m_isReadOnly; // 0x3D
-		::System::Nullable* m_IsAsciiCasingSameAsInvariant; // 0x3E
+		::System::Nullable_1<::System::Boolean> m_IsAsciiCasingSameAsInvariant; // 0x3E
 		::System::Int32 m_nDataItem; // 0x40
 		static ::System::Globalization::TextInfo** StaticGet_s_Invariant()
 		{

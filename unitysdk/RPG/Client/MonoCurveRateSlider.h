@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace SuperScrollView { class LoopListView2; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class HorizontalLayoutGroup; }
@@ -34,7 +34,7 @@ namespace RPG::Client
 		::UnityEngine::Vector2 _StartPosition; // 0x2C
 		::System::Boolean _StartPlay; // 0x34
 		::System::Byte _padding1[0x3];
-		::System::Action* _OnPerformFinished; // 0x38
+		::System::Action_1<::XLua::LuaTable*>* _OnPerformFinished; // 0x38
 		::XLua::LuaTable* _Table; // 0x40
 		::UnityEngine::UI::ScrollRect* _ScrollRect; // 0x48
 		::System::Single _TotalTime; // 0x50
@@ -68,9 +68,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER_PLAYSIMPLIFIED_OFFSET))(this);
 		}
 
-		::System::Void RegisterFinishCallback(::System::Action* a1, ::XLua::LuaTable* a2)
+		::System::Void RegisterFinishCallback(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER_REGISTERFINISHCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVERATESLIDER_REGISTERFINISHCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Update()

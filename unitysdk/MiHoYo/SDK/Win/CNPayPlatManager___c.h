@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::Win { class PayPlatInfoModel; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD10C20)
 #define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD10C60)
@@ -29,9 +29,9 @@ namespace MiHoYo::SDK::Win
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1B928);
 		}
 
-		static ::System::Action** StaticGet___9__54_2()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__54_2()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1B930);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1B930);
 		}
 
 		static ::System::Void _cctor()

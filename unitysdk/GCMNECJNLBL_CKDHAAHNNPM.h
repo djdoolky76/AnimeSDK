@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define GCMNECJNLBL_CKDHAAHNNPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15985300)
 #define GCMNECJNLBL_CKDHAAHNNPM_DDDMAIBBMAH_OFFSET UNITYSDK_OFFSET(0x15985410)
@@ -14,13 +14,13 @@ inline static constexpr unsigned int GCMNECJNLBL_CKDHAAHNNPM_TypeDefinitionIndex
 	class GCMNECJNLBL_CKDHAAHNNPM : public ::System::Object
 	{
 	public:
-		::System::Action* BPGKFFHGDLD; // 0x10
+		::System::Action_1<::System::Object*>* BPGKFFHGDLD; // 0x10
 		::System::Int32 JAIBONACADL; // 0x18
 		::System::Single LIGCMPFHGJJ; // 0x1C
 		::System::Single JDLOGDBCNMI; // 0x20
-		::System::Void _ctor(::System::Action* a1)
+		::System::Void _ctor(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GCMNECJNLBL_CKDHAAHNNPM_CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + GCMNECJNLBL_CKDHAAHNNPM_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean PAGKOAEOLKA()

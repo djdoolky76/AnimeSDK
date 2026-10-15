@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MFPCEFGHPIN.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
 #define JCLBPHELEOC_APHNNGCLBDP_OFFSET UNITYSDK_OFFSET(0x1CB8F1D0)
 #define JCLBPHELEOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8F210)
@@ -18,9 +18,9 @@ inline static constexpr unsigned int JCLBPHELEOC_TypeDefinitionIndex = 42226;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBPHELEOC_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple APHNNGCLBDP()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> APHNNGCLBDP()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBPHELEOC_APHNNGCLBDP_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBPHELEOC_APHNNGCLBDP_OFFSET))(this);
 		}
 
 	};

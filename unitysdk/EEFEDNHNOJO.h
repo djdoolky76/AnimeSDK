@@ -8,6 +8,7 @@
 class EEFEDNHNOJO;
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define EEFEDNHNOJO_ADD_ONCLICKREQUESTED_OFFSET UNITYSDK_OFFSET(0x13A2B580)
 #define EEFEDNHNOJO_ADD_ONISSELECTEDCHANGED_OFFSET UNITYSDK_OFFSET(0x13A2B680)
@@ -38,7 +39,7 @@ inline static constexpr unsigned int EEFEDNHNOJO_TypeDefinitionIndex = 79521;
 	{
 	public:
 		::System::Action* OnIsSelectedChanged; // 0x10
-		::System::Action* OnClickRequested; // 0x18
+		::System::Action_1<::EEFEDNHNOJO*>* OnClickRequested; // 0x18
 		::System::String* _IconPath_k__BackingField; // 0x20
 		::RPG::Client::MechCraft::ViewModel::MechCraftChipMoldFilterItemType _Type_k__BackingField; // 0x28
 		::RPG::Client::MechCraft::MechCraftChipTraitType _TraitType_k__BackingField; // 0x2C
@@ -133,14 +134,14 @@ inline static constexpr unsigned int EEFEDNHNOJO_TypeDefinitionIndex = 79521;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EEFEDNHNOJO_SET_ISAVAILABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnClickRequested(::System::Action* a1)
+		::System::Void add_OnClickRequested(::System::Action_1<::EEFEDNHNOJO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + EEFEDNHNOJO_ADD_ONCLICKREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EEFEDNHNOJO*>*))((::PBYTE)hIl2Cpp + EEFEDNHNOJO_ADD_ONCLICKREQUESTED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnClickRequested(::System::Action* a1)
+		::System::Void remove_OnClickRequested(::System::Action_1<::EEFEDNHNOJO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + EEFEDNHNOJO_REMOVE_ONCLICKREQUESTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EEFEDNHNOJO*>*))((::PBYTE)hIl2Cpp + EEFEDNHNOJO_REMOVE_ONCLICKREQUESTED_OFFSET))(this, a1);
 		}
 
 		::System::Void add_OnIsSelectedChanged(::System::Action* a1)

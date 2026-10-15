@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class HOBCIDMKOFM;
 class KNHCNPDALBB;
 class LBMCGPOLJHO;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define CHDPAOEGGEI_CTOR_OFFSET UNITYSDK_OFFSET(0xCC92FD0)
@@ -31,9 +31,9 @@ inline static constexpr unsigned int CHDPAOEGGEI_TypeDefinitionIndex = 79545;
 		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _AvailableChipIDs_k__BackingField; // 0x18
 		::LBMCGPOLJHO* _Mode_k__BackingField; // 0x20
 		::HOBCIDMKOFM* _BaseAttributeValue_k__BackingField; // 0x28
-		::System::Nullable* _ExpandedBoardSize_k__BackingField; // 0x30
+		::System::Nullable_1<::UnityEngine::Vector2Int> _ExpandedBoardSize_k__BackingField; // 0x30
 		::System::Byte _padding0[0x4];
-		::System::Nullable* _IncreasedOverlapMaxCount_k__BackingField; // 0x3C
+		::System::Nullable_1<::System::Int32> _IncreasedOverlapMaxCount_k__BackingField; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_CTOR_OFFSET))(this);
@@ -79,24 +79,24 @@ inline static constexpr unsigned int CHDPAOEGGEI_TypeDefinitionIndex = 79545;
 			return ((::System::Void(*)(::PVOID, ::HOBCIDMKOFM*))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_SET_BASEATTRIBUTEVALUE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_ExpandedBoardSize()
+		::System::Nullable_1<::UnityEngine::Vector2Int> get_ExpandedBoardSize()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_GET_EXPANDEDBOARDSIZE_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector2Int>(*)(::PVOID))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_GET_EXPANDEDBOARDSIZE_OFFSET))(this);
 		}
 
-		::System::Void set_ExpandedBoardSize(::System::Nullable* a1)
+		::System::Void set_ExpandedBoardSize(::System::Nullable_1<::UnityEngine::Vector2Int> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_SET_EXPANDEDBOARDSIZE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector2Int>))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_SET_EXPANDEDBOARDSIZE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_IncreasedOverlapMaxCount()
+		::System::Nullable_1<::System::Int32> get_IncreasedOverlapMaxCount()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_GET_INCREASEDOVERLAPMAXCOUNT_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_GET_INCREASEDOVERLAPMAXCOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_IncreasedOverlapMaxCount(::System::Nullable* a1)
+		::System::Void set_IncreasedOverlapMaxCount(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_SET_INCREASEDOVERLAPMAXCOUNT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + CHDPAOEGGEI_SET_INCREASEDOVERLAPMAXCOUNT_OFFSET))(this, a1);
 		}
 
 	};

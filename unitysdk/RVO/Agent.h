@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RVO/Line.h"
 #include "unitysdk/RVO/Vector2.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace RVO { class Agent; }
 namespace RVO { class Obstacle; }
 namespace RVO { class Simulator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 #define RVO_AGENT_COMPUTENEIGHBORS_OFFSET UNITYSDK_OFFSET(0xB086C70)
@@ -27,9 +27,9 @@ namespace RVO
 	{
 	public:
 		::System::Collections::Generic::IList_1<::RVO::Line>* orcaLines_; // 0x10
-		::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair*>* agentNeighbors_; // 0x18
+		::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::RVO::Agent*>>* agentNeighbors_; // 0x18
 		::RVO::Simulator* _simulator; // 0x20
-		::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair*>* obstacleNeighbors_; // 0x28
+		::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::System::Single, ::RVO::Obstacle*>>* obstacleNeighbors_; // 0x28
 		::System::Int32 maxNeighbors_; // 0x30
 		::System::Single height_; // 0x34
 		::RVO::Vector2 velocity_; // 0x38

@@ -11,8 +11,8 @@ namespace RPG::Client { class StaticListView; }
 namespace RPG::Client { class StaticListViewItem; }
 namespace RPG::Client { class UIStateCtrl; }
 namespace RPG::UINavigation { class UINavigationZoneManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
@@ -46,7 +46,7 @@ namespace RPG::Client::B51Racing
 		::RPG::Client::StaticListView* _AccessoriesListView; // 0x48
 		::RPG::Client::LocalizedText* _DecoTitle; // 0x50
 		::RPG::Client::UIStateCtrl* _UIStateCtrl; // 0x58
-		::System::Action* OnDecoSelected; // 0x60
+		::System::Action_1<::System::UInt32>* OnDecoSelected; // 0x60
 		::System::Boolean _PaintListInitialized; // 0x68
 		::System::Boolean _AccessoriesListInitialized; // 0x69
 		::System::Byte _padding0[0x6];

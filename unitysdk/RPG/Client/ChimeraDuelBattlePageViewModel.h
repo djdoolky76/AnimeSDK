@@ -9,8 +9,8 @@ namespace RPG::Client { class ChimeraDuelGameSession; }
 namespace RPG::Client { class ChimeraDuelPvpTeamSnapshot; }
 namespace RPG::Client { class ChimeraDuelTools_ShowcaseBattleSetup; }
 namespace RPG::Client { class IChimeraDuelChallengeTeam; }
-namespace System { class Action; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCB18100)
 #define RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB180F0)
@@ -38,7 +38,7 @@ namespace RPG::Client
 		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* _AllyTeam_k__BackingField; // 0x10
 		::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel* _EnemyTeam_k__BackingField; // 0x18
 		::RPG::Client::ChimeraDuelBattlePageViewModel_GameViewModel* _Game_k__BackingField; // 0x20
-		::System::Action* _SettleHandler_k__BackingField; // 0x28
+		::System::Action_1<::DODPFANHNDG*>* _SettleHandler_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_CTOR_OFFSET))(this);
@@ -74,14 +74,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelBattlePageViewModel_TeamViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_SET_ENEMYTEAM_OFFSET))(this, a1);
 		}
 
-		::System::Action* get_SettleHandler()
+		::System::Action_1<::DODPFANHNDG*>* get_SettleHandler()
 		{
-			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_GET_SETTLEHANDLER_OFFSET))(this);
+			return ((::System::Action_1<::DODPFANHNDG*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_GET_SETTLEHANDLER_OFFSET))(this);
 		}
 
-		::System::Void set_SettleHandler(::System::Action* a1)
+		::System::Void set_SettleHandler(::System::Action_1<::DODPFANHNDG*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_SET_SETTLEHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::DODPFANHNDG*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL_SET_SETTLEHANDLER_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::ChimeraDuelBattlePageViewModel* Create()
@@ -94,19 +94,19 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelBattlePageViewModel*(*)(::RPG::Client::ChimeraDuelGameSession*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL__CREATEFORSESSIONBATTLE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ChimeraDuelBattlePageViewModel* _CreateForChallengeBattle(::System::Tuple* a1)
+		static ::RPG::Client::ChimeraDuelBattlePageViewModel* _CreateForChallengeBattle(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* a1)
 		{
-			return ((::RPG::Client::ChimeraDuelBattlePageViewModel*(*)(::System::Tuple*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL__CREATEFORCHALLENGEBATTLE_OFFSET))(a1);
+			return ((::RPG::Client::ChimeraDuelBattlePageViewModel*(*)(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL__CREATEFORCHALLENGEBATTLE_OFFSET))(a1);
 		}
 
-		static ::System::Void _ReportChimeraDuelChallengeBattleStart(::System::Tuple* a1)
+		static ::System::Void _ReportChimeraDuelChallengeBattleStart(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* a1)
 		{
-			return ((::System::Void(*)(::System::Tuple*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL__REPORTCHIMERADUELCHALLENGEBATTLESTART_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL__REPORTCHIMERADUELCHALLENGEBATTLESTART_OFFSET))(a1);
 		}
 
-		static ::System::Void _ReportChimeraDuelChallengeBattleSettle(::System::Tuple* a1, ::DODPFANHNDG* a2)
+		static ::System::Void _ReportChimeraDuelChallengeBattleSettle(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>* a1, ::DODPFANHNDG* a2)
 		{
-			return ((::System::Void(*)(::System::Tuple*, ::DODPFANHNDG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL__REPORTCHIMERADUELCHALLENGEBATTLESETTLE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Tuple_2<::RPG::Client::IChimeraDuelChallengeTeam*, ::RPG::Client::ChimeraDuelPvpTeamSnapshot*>*, ::DODPFANHNDG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELBATTLEPAGEVIEWMODEL__REPORTCHIMERADUELCHALLENGEBATTLESETTLE_OFFSET))(a1, a2);
 		}
 
 		static ::RPG::Client::ChimeraDuelBattlePageViewModel* _CreateForShowcaseBattle(::RPG::Client::ChimeraDuelTools_ShowcaseBattleSetup* a1)

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/RPG/GameCore/IronTombProgressMode.h"
+#include "unitysdk/System/Nullable_1.h"
 class DEJNIIFFIHG;
 class EIDIGCLKLOA;
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Animator; }
@@ -48,7 +48,7 @@ inline static constexpr unsigned int LFLLOBENAFB_TypeDefinitionIndex = 71701;
 		::System::Int32 FDEKLKKJJIC; // 0xA0
 		::System::Int32 BEIKFKHMGHM; // 0xA4
 		::System::Int32 LELHMHFLNBI; // 0xA8
-		::System::Nullable* LKBKDNAMNEG; // 0xAC
+		::System::Nullable_1<::System::Int32> LKBKDNAMNEG; // 0xAC
 		::System::Int32 BPKOFLCLLCP; // 0xB4
 		::System::Int32 DHMALCNBAKD; // 0xB8
 		::System::Int32 GFLKGOACMEP; // 0xBC
@@ -128,9 +128,9 @@ inline static constexpr unsigned int LFLLOBENAFB_TypeDefinitionIndex = 71701;
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LFLLOBENAFB_OPKADIJMCAC_OFFSET))(this, a1);
 		}
 
-		::System::Void ABFCFHOLOFL(::System::Nullable* a1)
+		::System::Void ABFCFHOLOFL(::System::Nullable_1<::System::Int32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + LFLLOBENAFB_ABFCFHOLOFL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + LFLLOBENAFB_ABFCFHOLOFL_OFFSET))(this, a1);
 		}
 
 		::DEJNIIFFIHG* NHMDDKBDFPC()

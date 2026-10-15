@@ -2,8 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class BabelfishConfig; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF5BED0)
 #define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xAF5C420)
@@ -16,8 +17,8 @@ namespace MiHoYo::SDK
 	class BabelfishClient___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onError; // 0x10
-		::System::Action* onSuccess; // 0x18
+		::System::Action_2<::System::Int32, ::System::String*>* onError; // 0x10
+		::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>* onSuccess; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);

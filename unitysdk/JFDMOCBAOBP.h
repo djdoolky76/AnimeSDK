@@ -5,8 +5,8 @@ class EFODGECFLLC;
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define JFDMOCBAOBP_CTOR_OFFSET UNITYSDK_OFFSET(0x16646EA0)
 #define JFDMOCBAOBP_EAAECDLGOPH_OFFSET UNITYSDK_OFFSET(0x166476F0)
@@ -20,10 +20,10 @@ inline static constexpr unsigned int JFDMOCBAOBP_TypeDefinitionIndex = 77160;
 	class JFDMOCBAOBP : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* MCIKCILKNON; // 0x10
-		::Entitas::IGroup* LKCDPPOENAH; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* MCIKCILKNON; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* LKCDPPOENAH; // 0x18
 		::EFODGECFLLC* EEFMDEHLLFI; // 0x20
-		::Entitas::ICollector* MFFBACCILJA; // 0x28
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* MFFBACCILJA; // 0x28
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x30
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

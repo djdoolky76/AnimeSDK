@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class BPIEHCCAMIA;
 class EOABGMGNKGA;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define BPIEHCCAMIA___LOGIC_D__4_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A66A0)
 #define BPIEHCCAMIA___LOGIC_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xC1A66C0)
@@ -20,7 +20,7 @@ inline static constexpr unsigned int BPIEHCCAMIA___Logic_d__4_TypeDefinitionInde
 	{
 	public:
 		::BPIEHCCAMIA* __4__this; // 0x10
-		::System::Action* onBeforeDispose; // 0x18
+		::System::Action_1<::EOABGMGNKGA*>* onBeforeDispose; // 0x18
 		::System::Object* __2__current; // 0x20
 		::System::Single delaySeconds; // 0x28
 		::System::Int32 __1__state; // 0x2C

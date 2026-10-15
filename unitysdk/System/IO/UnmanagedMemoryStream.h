@@ -6,6 +6,7 @@
 #include "unitysdk/System/Threading/CancellationToken.h"
 namespace System::Runtime::InteropServices { class SafeBuffer; }
 namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C275670)
 #define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C2756C0)
@@ -39,7 +40,7 @@ namespace System::IO
 	class UnmanagedMemoryStream : public ::System::IO::Stream
 	{
 	public:
-		::System::Threading::Tasks::Task* _lastReadTask; // 0x28
+		::System::Threading::Tasks::Task_1<::System::Int32>* _lastReadTask; // 0x28
 		::System::Runtime::InteropServices::SafeBuffer* _buffer; // 0x30
 		::System::Int64 _position; // 0x38
 		::System::Int64 _capacity; // 0x40
@@ -134,9 +135,9 @@ namespace System::IO
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
+		::System::Threading::Tasks::Task_1<::System::Int32>* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 ReadByte()

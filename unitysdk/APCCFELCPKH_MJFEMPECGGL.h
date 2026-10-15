@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class APCCFELCPKH;
 class GJCFMFEAEBG;
@@ -71,14 +71,14 @@ inline static constexpr unsigned int APCCFELCPKH_MJFEMPECGGL_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + APCCFELCPKH_MJFEMPECGGL_HLINCKBPLLB_OFFSET))(this);
 		}
 
-		::System::ValueTuple LPFPLLLFMHP()
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> LPFPLLLFMHP()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + APCCFELCPKH_MJFEMPECGGL_LPFPLLLFMHP_OFFSET))(this);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + APCCFELCPKH_MJFEMPECGGL_LPFPLLLFMHP_OFFSET))(this);
 		}
 
-		::System::ValueTuple LPFPLLLFMHP_1(::System::UInt32 a1)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> LPFPLLLFMHP_1(::System::UInt32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + APCCFELCPKH_MJFEMPECGGL_LPFPLLLFMHP_1_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + APCCFELCPKH_MJFEMPECGGL_LPFPLLLFMHP_1_OFFSET))(this, a1);
 		}
 
 	};

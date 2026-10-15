@@ -3,13 +3,13 @@
 #include "unitysdk/MNHBKGOGEIA.h"
 #include "unitysdk/RPG/Client/UIController_TransitionStyle.h"
 #include "unitysdk/RPG/Client/UITransitionAnimType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 class AKBKPOFPBAL;
 class BEMBBOJGAON;
 class GGNFPIKDCOD;
 class OOJKAGHIAOC;
 namespace RPG::Client { class UIController; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -56,7 +56,7 @@ namespace RPG::Client
 		::OOJKAGHIAOC* _PageFactory; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MNHBKGOGEIA>*>* _TransitionMap; // 0x38
 		::AKBKPOFPBAL* _CurrSwitchTransition; // 0x40
-		::System::Nullable* _NextTransitionOption; // 0x48
+		::System::Nullable_1<::MNHBKGOGEIA> _NextTransitionOption; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UITRANSITIONMANAGER_CTOR_OFFSET))(this);

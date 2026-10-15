@@ -10,8 +10,8 @@ class JKHIJPDPODG;
 class PKMJADCNABI;
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define LGKOMCAIEGJ_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB69C0F0)
@@ -44,7 +44,7 @@ inline static constexpr unsigned int LGKOMCAIEGJ_TypeDefinitionIndex = 71772;
 		::PKMJADCNABI* DCMIEFDOKFN; // 0x70
 		::HNLOPNDDJNA* HNOHDMKFCNK; // 0x78
 		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x80
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleAlertType, ::System::Action*>* DBFBJNLGNML; // 0x88
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleAlertType, ::System::Action_1<::EIIJNHOOCOM*>*>* DBFBJNLGNML; // 0x88
 		::JKHIJPDPODG* KBGINGJOMKP; // 0x90
 		::System::Boolean HAKHCANCCKK; // 0x98
 		::System::Void _ctor()

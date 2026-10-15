@@ -6,8 +6,8 @@
 #include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { template <typename T> class ITriggerHandler_1; }
 namespace Cysharp::Threading::Tasks::Triggers { template <typename T> class AsyncTriggerBase_1; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
@@ -25,9 +25,9 @@ namespace Cysharp::Threading::Tasks::Triggers
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<T> core; // 0x0
 		::Cysharp::Threading::Tasks::ITriggerHandler_1<T>* _Cysharp_Threading_Tasks_ITriggerHandler_T__Prev_k__BackingField; // 0x0
 		::Cysharp::Threading::Tasks::ITriggerHandler_1<T>* _Cysharp_Threading_Tasks_ITriggerHandler_T__Next_k__BackingField; // 0x0
-		static ::System::Action** StaticGet_cancellationCallback()
+		static ::System::Action_1<::System::Object*>** StaticGet_cancellationCallback()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Triggers", "AsyncTriggerHandler`1")->GetStaticField(0x0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Triggers", "AsyncTriggerHandler`1")->GetStaticField(0x0);
 		}
 
 	};

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Text.h"
 #include "unitysdk/UnityEngine/Color.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
@@ -36,7 +36,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_ImagesPool; // 0x198
 		::System::Collections::Generic::List_1<::System::Int32>* m_ImagesVertexIndex; // 0x1A0
 		::System::Collections::Generic::List_1<::System::Object*>* m_HrefInfos; // 0x1A8
-		::System::Action* onClick; // 0x1B0
+		::System::Action_2<::System::String*, ::System::String*>* onClick; // 0x1B0
 		::UnityEngine::Color linkColor; // 0x1B8
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
 		{

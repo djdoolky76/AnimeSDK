@@ -3,7 +3,7 @@
 #include "unitysdk/HCLPKMIIANI.h"
 #include "unitysdk/RPG/Client/LittleGame/ChenLingFes/ChenLingFesGameState.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AJOPMLKHAGC;
 class BBOFEHOPCEC;
 class EKFMIDBJDIA;
@@ -89,7 +89,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* _FeverAddValue_k__BackingField; // 0x90
 		::RPG::GameCore::GameEntity* _OwnerGroupEntity; // 0x98
 		::NNEIOFDLLMI* _GameLoopInstance_k__BackingField; // 0xA0
-		::System::Collections::Generic::List_1<::System::ValueTuple>* _CachedUIEntityNotifyList; // 0xA8
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::NotifyType, ::System::Object*>>* _CachedUIEntityNotifyList; // 0xA8
 		::System::String* _GameDailyTransNo; // 0xB0
 		::OAIPJANPCEK* _Services; // 0xB8
 		::FMGAMFHAELP* _UpdateSystems; // 0xC0

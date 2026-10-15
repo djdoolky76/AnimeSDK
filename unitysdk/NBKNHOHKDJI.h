@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/R3/Unit.h"
 class NBKNHOHKDJI;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class Observer_1; }
 namespace R3 { template <typename T> class Subject_1; }
-namespace System { class Action; }
 namespace System { class IDisposable; }
+namespace System { template <typename T> class Action_1; }
 
 #define NBKNHOHKDJI_AIPHJEHDPCB_OFFSET UNITYSDK_OFFSET(0x1EC87C10)
 #define NBKNHOHKDJI_BJNMMBJDMOG_OFFSET UNITYSDK_OFFSET(0x1EC88080)
@@ -22,14 +22,14 @@ inline static constexpr unsigned int NBKNHOHKDJI_TypeDefinitionIndex = 44241;
 	{
 	public:
 		::System::IDisposable* JLPMGIHHHBG; // 0x10
-		::System::Action* IOAEBFCPHCK; // 0x18
+		::System::Action_1<::NBKNHOHKDJI*>* IOAEBFCPHCK; // 0x18
 		::R3::Subject_1<::R3::Unit>* AAEDJDAIACP; // 0x20
 		::System::Boolean KAIJFBNPEAE; // 0x28
 		::System::Boolean AFGOLMJALGN; // 0x29
 		::System::Boolean GFAMGLFOMGI; // 0x2A
-		::System::Void _ctor(::R3::Observable* a1, ::System::Boolean a2, ::System::Action* a3)
+		::System::Void _ctor(::R3::Observable_1<::System::Boolean>* a1, ::System::Boolean a2, ::System::Action_1<::NBKNHOHKDJI*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::R3::Observable*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + NBKNHOHKDJI_CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::R3::Observable_1<::System::Boolean>*, ::System::Boolean, ::System::Action_1<::NBKNHOHKDJI*>*))((::PBYTE)hIl2Cpp + NBKNHOHKDJI_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean EMGHGCGDEOL()

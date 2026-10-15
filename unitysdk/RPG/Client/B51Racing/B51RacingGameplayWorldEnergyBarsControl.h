@@ -10,8 +10,8 @@ class HIJPIJFOOCN;
 class MMOFAGFCLOF;
 namespace RPG::Client { class UIStateCtrl; }
 namespace RPG::Client::B51Racing { class B51RacingHUDProgressBarView; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
@@ -287,9 +287,9 @@ namespace RPG::Client::B51Racing
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYWORLDENERGYBARSCONTROL__TRYREGISTERUISHOWADAPTERS_OFFSET))(this);
 		}
 
-		::System::Void _RegisterAdapter(::HFGEKEIELBI* a1, ::RPG::Client::B51Racing::B51RacingMatchUIShowType a2, ::System::Action* a3)
+		::System::Void _RegisterAdapter(::HFGEKEIELBI* a1, ::RPG::Client::B51Racing::B51RacingMatchUIShowType a2, ::System::Action_1<::System::Boolean>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HFGEKEIELBI*, ::RPG::Client::B51Racing::B51RacingMatchUIShowType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYWORLDENERGYBARSCONTROL__REGISTERADAPTER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::HFGEKEIELBI*, ::RPG::Client::B51Racing::B51RacingMatchUIShowType, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYWORLDENERGYBARSCONTROL__REGISTERADAPTER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _SetDriftWorldEnergyBarVisible(::System::Boolean a1)

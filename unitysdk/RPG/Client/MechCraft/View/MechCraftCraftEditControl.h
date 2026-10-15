@@ -10,7 +10,7 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftChipMoldControl; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftEditControlBinder; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftPlacedChipPieceControl; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class IDisposable; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -240,9 +240,9 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITCONTROL_BJNAIHNEPNF_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* MDOJIPHHDNI()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* MDOJIPHHDNI()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITCONTROL_MDOJIPHHDNI_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTEDITCONTROL_MDOJIPHHDNI_OFFSET))(this);
 		}
 
 	};

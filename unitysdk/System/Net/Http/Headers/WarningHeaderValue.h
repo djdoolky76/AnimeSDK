@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTimeOffset.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Net/Http/Headers/Token.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net::Http::Headers { class Lexer; }
@@ -37,7 +37,7 @@ namespace System::Net::Http::Headers
 		::System::String* _Text_k__BackingField; // 0x18
 		::System::Int32 _Code_k__BackingField; // 0x20
 		::System::Byte _padding0[0x4];
-		::System::Nullable* _Date_k__BackingField; // 0x28
+		::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_CTOR_OFFSET))(this);
@@ -63,14 +63,14 @@ namespace System::Net::Http::Headers
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_CODE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_Date()
+		::System::Nullable_1<::System::DateTimeOffset> get_Date()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_DATE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_GET_DATE_OFFSET))(this);
 		}
 
-		::System::Void set_Date(::System::Nullable* a1)
+		::System::Void set_Date(::System::Nullable_1<::System::DateTimeOffset> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_DATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_WARNINGHEADERVALUE_SET_DATE_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Text()

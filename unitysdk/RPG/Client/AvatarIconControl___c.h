@@ -5,19 +5,19 @@
 #include "unitysdk/RPG/Client/AvatarSpecialMarkType.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class AGKODPKMDMA;
 class CBJILMHOMGP;
 class CEEGMMCFCBG;
 class GOKNJPBGBLE;
 class JGBNDFAOIFC;
 class PPHMLMHGOIJ;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace RPG::Client { class MonoMaterialSwitch; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
@@ -93,24 +93,24 @@ namespace RPG::Client
 	class AvatarIconControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__45_3()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_3()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B790);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B790);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__49_6()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_6()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B798);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B798);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__42_3()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__42_3()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7A0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7A0);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__50_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__50_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7A8);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7A8);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -123,34 +123,34 @@ namespace RPG::Client
 			return (::System::Func_2<::JGBNDFAOIFC*, ::CEEGMMCFCBG*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7B8);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__42_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__42_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7C0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7C0);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__43_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__43_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7C8);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7C8);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__44_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__44_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7D0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7D0);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__41_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__41_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7D8);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7D8);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__43_3()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__43_3()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7E0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7E0);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__49_7()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_7()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7E8);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B7E8);
 		}
 
 		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_12()
@@ -168,19 +168,19 @@ namespace RPG::Client
 			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B800);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__49_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B808);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B808);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__43_2()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__43_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B810);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B810);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__49_3()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__49_3()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B818);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B818);
 		}
 
 		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>** StaticGet___9__45_9()
@@ -188,9 +188,9 @@ namespace RPG::Client
 			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B820);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__48_2()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__48_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B828);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B828);
 		}
 
 		static ::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>** StaticGet___9__48_4()
@@ -198,29 +198,29 @@ namespace RPG::Client
 			return (::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B830);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__45_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B838);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B838);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__42_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__42_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B840);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B840);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__45_6()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_6()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B848);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B848);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__42_4()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__42_4()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B850);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B850);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__43_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__43_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B858);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B858);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::GOKNJPBGBLE*>** StaticGet___9__53_1()
@@ -228,44 +228,44 @@ namespace RPG::Client
 			return (::System::Func_2<::JGBNDFAOIFC*, ::GOKNJPBGBLE*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B860);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__45_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B868);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B868);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__45_5()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_5()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B870);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B870);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__46_2()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__46_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B878);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B878);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__50_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__50_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B880);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B880);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__49_4()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_4()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B888);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B888);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__54_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::UInt32>*>** StaticGet___9__54_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B890);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::UInt32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B890);
 		}
 
-		static ::System::Action** StaticGet___9__52_1()
+		static ::System::Action_2<::RPG::Client::MonoMaterialSwitch*, ::RPG::Client::AvatarMaterialIndex>** StaticGet___9__52_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B898);
+			return (::System::Action_2<::RPG::Client::MonoMaterialSwitch*, ::RPG::Client::AvatarMaterialIndex>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B898);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__49_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__49_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8A0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8A0);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::AGKODPKMDMA*>** StaticGet___9__53_3()
@@ -288,19 +288,19 @@ namespace RPG::Client
 			return (::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8C0);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__44_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__44_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8C8);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8C8);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__48_3()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_3()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8D0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8D0);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__53_2()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__53_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8D8);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8D8);
 		}
 
 		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>** StaticGet___9__43_5()
@@ -313,29 +313,29 @@ namespace RPG::Client
 			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8E8);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__52_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>*>** StaticGet___9__52_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8F0);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8F0);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__46_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__46_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8F8);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B8F8);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__48_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B900);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B900);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__46_1()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__46_1()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B908);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B908);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__49_2()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B910);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B910);
 		}
 
 		static ::System::Func_2<::RPG::Client::AvatarSpecialMarkType, ::System::Boolean>** StaticGet___9__46_3()
@@ -348,9 +348,9 @@ namespace RPG::Client
 			return (::System::Func_4<::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B920);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__53_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__53_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B928);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B928);
 		}
 
 		static ::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>** StaticGet___9__43_6()
@@ -358,9 +358,9 @@ namespace RPG::Client
 			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B930);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__41_2()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__41_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B938);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B938);
 		}
 
 		static ::System::Func_2<::JGBNDFAOIFC*, ::CBJILMHOMGP*>** StaticGet___9__41_3()
@@ -368,24 +368,24 @@ namespace RPG::Client
 			return (::System::Func_2<::JGBNDFAOIFC*, ::CBJILMHOMGP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B940);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__51_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>*>** StaticGet___9__51_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B948);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B948);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__42_2()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__42_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B950);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B950);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__45_4()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_4()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B958);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B958);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__48_0()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__48_0()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B960);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B960);
 		}
 
 		static ::System::Func_2<::PPHMLMHGOIJ*, ::System::Boolean>** StaticGet___9__43_4()
@@ -398,14 +398,14 @@ namespace RPG::Client
 			return (::System::Func_2<::RPG::Client::AvatarMarkFlags, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B970);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__45_2()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__45_2()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B978);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B978);
 		}
 
-		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>** StaticGet___9__49_5()
+		static ::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__49_5()
 		{
-			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B980);
+			return (::System::Func_2<::JGBNDFAOIFC*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B980);
 		}
 
 		static ::System::Void _cctor()
@@ -423,14 +423,14 @@ namespace RPG::Client
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindButton_b__41_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindButton_b__41_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindButton_b__41_2(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindButton_b__41_2(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_2_OFFSET))(this, a1);
 		}
 
 		::CBJILMHOMGP* __BindButton_b__41_3(::JGBNDFAOIFC* a1)
@@ -438,19 +438,19 @@ namespace RPG::Client
 			return ((::CBJILMHOMGP*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDBUTTON_B__41_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindImages_b__42_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::String*>* __BindImages_b__42_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindImages_b__42_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::String*>* __BindImages_b__42_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindImages_b__42_2(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindImages_b__42_2(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindImages_b__42_5(::PPHMLMHGOIJ* a1)
@@ -458,19 +458,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::PPHMLMHGOIJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindImages_b__42_3(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::String*>* __BindImages_b__42_3(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindImages_b__42_4(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindImages_b__42_4(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDIMAGES_B__42_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindLevelPanel_b__43_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindLevelPanel_b__43_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindLevelPanel_b__43_4(::PPHMLMHGOIJ* a1)
@@ -478,14 +478,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::PPHMLMHGOIJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindLevelPanel_b__43_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Int32>* __BindLevelPanel_b__43_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindLevelPanel_b__43_2(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::String*>* __BindLevelPanel_b__43_2(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_2_OFFSET))(this, a1);
 		}
 
 		::System::String* __BindLevelPanel_b__43_5(::RPG::Client::AvatarMarkFlags a1)
@@ -493,9 +493,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindLevelPanel_b__43_3(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::String*>* __BindLevelPanel_b__43_3(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_3_OFFSET))(this, a1);
 		}
 
 		::System::String* __BindLevelPanel_b__43_6(::RPG::Client::AvatarMarkFlags a1)
@@ -503,9 +503,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDLEVELPANEL_B__43_6_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindNamePanel_b__44_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindNamePanel_b__44_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindNamePanel_b__44_2(::PPHMLMHGOIJ* a1)
@@ -513,14 +513,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::PPHMLMHGOIJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindNamePanel_b__44_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __BindNamePanel_b__44_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDNAMEPANEL_B__44_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindMarks_b__45_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindMarks_b__45_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindMarks_b__45_7(::RPG::Client::AvatarMarkFlags a1)
@@ -528,9 +528,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_7_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindMarks_b__45_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindMarks_b__45_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindMarks_b__45_8(::RPG::Client::AvatarMarkFlags a1)
@@ -538,9 +538,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_8_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindMarks_b__45_2(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindMarks_b__45_2(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindMarks_b__45_9(::RPG::Client::AvatarMarkFlags a1)
@@ -548,9 +548,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_9_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindMarks_b__45_3(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindMarks_b__45_3(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_3_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindMarks_b__45_10(::RPG::Client::AvatarMarkFlags a1)
@@ -558,9 +558,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_10_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindMarks_b__45_4(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindMarks_b__45_4(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_4_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindMarks_b__45_11(::RPG::Client::AvatarMarkFlags a1)
@@ -568,9 +568,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_11_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindMarks_b__45_5(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindMarks_b__45_5(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_5_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_5_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindMarks_b__45_12(::RPG::Client::AvatarMarkFlags a1)
@@ -578,9 +578,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_12_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindMarks_b__45_6(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindMarks_b__45_6(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_6_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_6_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindMarks_b__45_13(::RPG::Client::AvatarMarkFlags a1)
@@ -588,9 +588,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarMarkFlags))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMARKS_B__45_13_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindSpecialMark_b__46_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindSpecialMark_b__46_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindSpecialMark_b__46_3(::RPG::Client::AvatarSpecialMarkType a1)
@@ -598,19 +598,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarSpecialMarkType))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindSpecialMark_b__46_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::String*>* __BindSpecialMark_b__46_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindSpecialMark_b__46_2(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __BindSpecialMark_b__46_2(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDSPECIALMARK_B__46_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindOrderAndCheckMark_b__48_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindOrderAndCheckMark_b__48_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_0_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindOrderAndCheckMark_b__48_4(::PPHMLMHGOIJ* a1, ::System::Boolean a2, ::System::Int32 a3)
@@ -618,19 +618,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_4_OFFSET))(this, a1, a2, a3);
 		}
 
-		::R3::Observable* __BindOrderAndCheckMark_b__48_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindOrderAndCheckMark_b__48_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindOrderAndCheckMark_b__48_2(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Int32>* __BindOrderAndCheckMark_b__48_2(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindOrderAndCheckMark_b__48_3(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindOrderAndCheckMark_b__48_3(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_3_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __BindOrderAndCheckMark_b__48_5(::PPHMLMHGOIJ* a1, ::System::Boolean a2, ::System::Int32 a3)
@@ -638,64 +638,64 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::PPHMLMHGOIJ*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDORDERANDCHECKMARK_B__48_5_OFFSET))(this, a1, a2, a3);
 		}
 
-		::R3::Observable* __BindHintAreas_b__49_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindHintAreas_b__49_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHintAreas_b__49_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindHintAreas_b__49_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHintAreas_b__49_2(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __BindHintAreas_b__49_2(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_2_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHintAreas_b__49_3(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::String*>* __BindHintAreas_b__49_3(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_3_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHintAreas_b__49_4(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindHintAreas_b__49_4(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_4_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_4_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHintAreas_b__49_5(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __BindHintAreas_b__49_5(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_5_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_5_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHintAreas_b__49_6(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindHintAreas_b__49_6(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_6_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_6_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindHintAreas_b__49_7(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __BindHintAreas_b__49_7(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_7_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDHINTAREAS_B__49_7_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRogueHex_b__50_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindRogueHex_b__50_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDROGUEHEX_B__50_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDROGUEHEX_B__50_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRogueHex_b__50_1(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Int32>* __BindRogueHex_b__50_1(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDROGUEHEX_B__50_1_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDROGUEHEX_B__50_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindRedDot_b__51_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>* __BindRedDot_b__51_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDREDDOT_B__51_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDREDDOT_B__51_0_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindMaterial_b__52_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>* __BindMaterial_b__52_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMATERIAL_B__52_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMATERIAL_B__52_0_OFFSET))(this, a1);
 		}
 
 		::System::Void __BindMaterial_b__52_1(::RPG::Client::MonoMaterialSwitch* a1, ::RPG::Client::AvatarMaterialIndex a2)
@@ -703,9 +703,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoMaterialSwitch*, ::RPG::Client::AvatarMaterialIndex))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDMATERIAL_B__52_1_OFFSET))(this, a1, a2);
 		}
 
-		::R3::Observable* __BindChildControls_b__53_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindChildControls_b__53_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_0_OFFSET))(this, a1);
 		}
 
 		::GOKNJPBGBLE* __BindChildControls_b__53_1(::JGBNDFAOIFC* a1)
@@ -713,9 +713,9 @@ namespace RPG::Client
 			return ((::GOKNJPBGBLE*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_1_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindChildControls_b__53_2(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __BindChildControls_b__53_2(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_2_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_2_OFFSET))(this, a1);
 		}
 
 		::AGKODPKMDMA* __BindChildControls_b__53_3(::JGBNDFAOIFC* a1)
@@ -723,9 +723,9 @@ namespace RPG::Client
 			return ((::AGKODPKMDMA*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDCHILDCONTROLS_B__53_3_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __BindTutorial_b__54_0(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::UInt32>* __BindTutorial_b__54_0(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDTUTORIAL_B__54_0_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::UInt32>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARICONCONTROL___C___BINDTUTORIAL_B__54_0_OFFSET))(this, a1);
 		}
 
 	};

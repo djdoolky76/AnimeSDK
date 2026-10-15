@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Serialization/ObjectMap.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
@@ -57,7 +57,7 @@ namespace System::Xml::Serialization
 		::System::Xml::Serialization::XmlTypeMapMember* _xmlTextCollector; // 0x60
 		::System::Collections::Hashtable* _attributeMembers; // 0x68
 		::System::Xml::Serialization::XmlTypeMapMemberNamespaces* _namespaceDeclarations; // 0x70
-		::System::Nullable* _isOrderDependentMap; // 0x78
+		::System::Nullable_1<::System::Boolean> _isOrderDependentMap; // 0x78
 		::System::Boolean _canBeSimpleType; // 0x7A
 		::System::Boolean _ignoreMemberNamespace; // 0x7B
 		::System::Void _ctor()

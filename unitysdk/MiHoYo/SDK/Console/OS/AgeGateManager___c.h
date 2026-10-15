@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCB2BB0)
 #define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCB2BF0)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::Console::OS
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "<>c")->GetStaticField(0x378C0);
 		}
 
-		static ::System::Action** StaticGet___9__8_0()
+		static ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>** StaticGet___9__8_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "<>c")->GetStaticField(0x378C8);
+			return (::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "<>c")->GetStaticField(0x378C8);
 		}
 
 		static ::System::Void _cctor()

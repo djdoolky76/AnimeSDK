@@ -4,8 +4,8 @@
 class HIOEAKHGILF;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
-namespace Entitas { class ICollector; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class ICollector_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::GameCore { class FiveDimDashOrbConfig; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace UnityEngine { class Collider; }
@@ -30,8 +30,8 @@ inline static constexpr unsigned int NDHHBHFFIIK_TypeDefinitionIndex = 77079;
 	class NDHHBHFFIIK : public ::System::Object
 	{
 	public:
-		::Entitas::ICollector* EMGHEKNAOAG; // 0x10
-		::Entitas::IGroup* GCIGELLJPPB; // 0x18
+		::Entitas::ICollector_1<::HIOEAKHGILF*>* EMGHEKNAOAG; // 0x10
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* GCIGELLJPPB; // 0x18
 		::PEEDLCHFAFL* PDENFEFCAGN; // 0x20
 		::NDDFLGNNMDK* FKINCGODJEP; // 0x28
 		// static const ::System::String* MNNENDHDHLL; // 0x0

@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 #include "unitysdk/RPG/GameCore/MonoEffectLodTemplateName.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 namespace RPG::Client { class MonoEffect; }
@@ -10,7 +11,6 @@ namespace RPG::Client { class MonoEffectManager; }
 namespace RPG::Client { class TriggerEffectParams; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class MonoEffectLodDetail; }
-namespace System { class Nullable; }
 namespace System { class String; }
 
 #define CELDMKCEPAO_ADEONNLEGNE_OFFSET UNITYSDK_OFFSET(0xC9E4210)
@@ -49,7 +49,7 @@ inline static constexpr unsigned int CELDMKCEPAO_TypeDefinitionIndex = 57331;
 		::RPG::Client::MonoEffectManager* OGGCEHFOMMI; // 0x38
 		::RPG::GameCore::MonoEffectLodDetail* KAOABIDMBDB; // 0x40
 		::RPG::GameCore::MonoEffectLodTemplateName ILIHGKMNBMH; // 0x48
-		::System::Nullable* LLKOGDPHHEA; // 0x4C
+		::System::Nullable_1<::UnityEngine::Vector3> LLKOGDPHHEA; // 0x4C
 		::System::Byte _padding0[0x8];
 		::System::Int32 _LodLevel_k__BackingField; // 0x5C
 		::System::Boolean NONKJJHAMPP; // 0x60

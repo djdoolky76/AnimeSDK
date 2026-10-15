@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/PauseTimelineReason.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Playables/DirectorWrapMode.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
@@ -11,11 +12,11 @@ class EBMMGODFEEO;
 class EKAFJOGBCFA;
 class NNDAJDLAHNC;
 namespace RPG::Client { class IAssetOperation; }
-namespace System { class Action; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -72,7 +73,7 @@ inline static constexpr unsigned int HPPNAAGGAMP_TypeDefinitionIndex = 48479;
 	public:
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Playables::PlayableDirector*, ::EBMMGODFEEO*>* PIJENJPJFLL; // 0x10
 		::UnityEngine::Transform* GHHHJHPDPCE; // 0x18
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* DFNAOFNEBHC; // 0x20
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int32>>* DFNAOFNEBHC; // 0x20
 		::System::Collections::Generic::List_1<::EBMMGODFEEO*>* MKDJOLKJJON; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::DLOBFPLDEBC*>* HLOBPOBKMPP; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>* PGKAIGKOGEI; // 0x38
@@ -126,9 +127,9 @@ inline static constexpr unsigned int HPPNAAGGAMP_TypeDefinitionIndex = 48479;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Events::UnityAction*, ::System::Double))((::PBYTE)hIl2Cpp + HPPNAAGGAMP_OJPIAJEGGHN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 NOLKCBFDAOJ(::System::UInt32 a1, ::System::String* a2, ::System::String* a3, ::UnityEngine::Playables::PlayableAsset* a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Action* a7, ::UnityEngine::Events::UnityAction* a8, ::System::Double a9, ::UnityEngine::Playables::DirectorWrapMode a10)
+		::System::Int32 NOLKCBFDAOJ(::System::UInt32 a1, ::System::String* a2, ::System::String* a3, ::UnityEngine::Playables::PlayableAsset* a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Action_2<::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Playables::PlayableAsset*>* a7, ::UnityEngine::Events::UnityAction* a8, ::System::Double a9, ::UnityEngine::Playables::DirectorWrapMode a10)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::String*, ::UnityEngine::Playables::PlayableAsset*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action*, ::UnityEngine::Events::UnityAction*, ::System::Double, ::UnityEngine::Playables::DirectorWrapMode))((::PBYTE)hIl2Cpp + HPPNAAGGAMP_NOLKCBFDAOJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::String*, ::UnityEngine::Playables::PlayableAsset*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action_2<::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Playables::PlayableAsset*>*, ::UnityEngine::Events::UnityAction*, ::System::Double, ::UnityEngine::Playables::DirectorWrapMode))((::PBYTE)hIl2Cpp + HPPNAAGGAMP_NOLKCBFDAOJ_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
 		::System::Int32 FPFNKHHMJLF(::System::UInt32 a1, ::System::String* a2, ::System::String* a3, ::System::Collections::Generic::List_1<::EKAFJOGBCFA*>* a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::UnityEngine::GameObject* a7, ::UnityEngine::Events::UnityAction* a8, ::System::Single a9, ::System::Single a10)
@@ -226,9 +227,9 @@ inline static constexpr unsigned int HPPNAAGGAMP_TypeDefinitionIndex = 48479;
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + HPPNAAGGAMP_EKDLILNHAAN_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CHHLMJIBHMJ(::System::String* a1, ::System::Action* a2)
+		::System::Void CHHLMJIBHMJ(::System::String* a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + HPPNAAGGAMP_CHHLMJIBHMJ_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + HPPNAAGGAMP_CHHLMJIBHMJ_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IEnumerator_1<::NNDAJDLAHNC*>* IKHDPOAEBBG()

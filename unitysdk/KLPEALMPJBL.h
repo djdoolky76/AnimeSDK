@@ -4,7 +4,7 @@
 class HDIAALCMDNG;
 class NGFHCJIAOLH;
 class OAIPJANPCEK;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace System { class String; }
 
 #define KLPEALMPJBL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5366C0)
@@ -16,7 +16,7 @@ inline static constexpr unsigned int KLPEALMPJBL_TypeDefinitionIndex = 77776;
 	class KLPEALMPJBL : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup* MBBMBOMFIGF; // 0x10
+		::Entitas::IGroup_1<::NGFHCJIAOLH*>* MBBMBOMFIGF; // 0x10
 		::HDIAALCMDNG* EEFMDEHLLFI; // 0x18
 		static ::System::String** StaticGet_NHPMFOEICCO()
 		{

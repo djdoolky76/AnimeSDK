@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/BaseInvokableCall.h"
-namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { template <typename T1, typename T2, typename T3> class UnityAction_3; }
 
 namespace UnityEngine::Events
 {
@@ -11,6 +11,6 @@ namespace UnityEngine::Events
 	class InvokableCall_3 : public ::UnityEngine::Events::BaseInvokableCall
 	{
 	public:
-		::UnityEngine::Events::UnityAction* Delegate; // 0x0
+		::UnityEngine::Events::UnityAction_3<T1, T2, T3>* Delegate; // 0x0
 	};
 }

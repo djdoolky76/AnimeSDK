@@ -10,10 +10,11 @@ class OFFMCODMKDL;
 class PLJNHHAFBMB;
 namespace Google::Protobuf { class ByteString; }
 namespace RPG::Client { class MultiplayerGameModule; }
-namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
-namespace System { class Action; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
@@ -63,9 +64,9 @@ namespace RPG::Client
 	public:
 		::RPG::Client::Promises::Promise* _GiveUpPromise; // 0x10
 		::PLJNHHAFBMB* _FightRoom; // 0x18
-		::System::Action* _ContinueGameCallback; // 0x20
+		::System::Action_1<::System::Boolean>* _ContinueGameCallback; // 0x20
 		::System::Collections::Generic::Dictionary_2<::FJPMJPEKLJL, ::JAHHFPMJDAB*>* _HandlerByModes; // 0x28
-		::RPG::Client::Promises::Promise* _ContinuePromise; // 0x30
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* _ContinuePromise; // 0x30
 		::System::Single _RTT; // 0x38
 		::System::Byte _padding0[0x4];
 		::System::UInt64 _FightServerTimeStampMs; // 0x40
@@ -99,14 +100,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERGAMEMODULE_CONNECTFIGHTSERVER_OFFSET))(this);
 		}
 
-		::System::Void TryContinueGame(::System::Action* a1)
+		::System::Void TryContinueGame(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERGAMEMODULE_TRYCONTINUEGAME_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERGAMEMODULE_TRYCONTINUEGAME_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* ContinueGamePromise()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* ContinueGamePromise()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERGAMEMODULE_CONTINUEGAMEPROMISE_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERGAMEMODULE_CONTINUEGAMEPROMISE_OFFSET))(this);
 		}
 
 		::RPG::Client::Promises::Promise* GiveUpGamePromise()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HBCMHADMLOP.h"
 #include "unitysdk/LOADPICBEPE_EPhase.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CFALFIPEHJH;
 class DMHFEDAIKME;
 class DMPMGGKKIBH;
@@ -284,9 +284,9 @@ inline static constexpr unsigned int LOADPICBEPE_TypeDefinitionIndex = 74206;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOADPICBEPE_CPMKKHIHOBH_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple>* IELIEDFEDOE(::RPG::Client::ParkourGame::ParkourGameLevelConfigAsset* a1)
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>* IELIEDFEDOE(::RPG::Client::ParkourGame::ParkourGameLevelConfigAsset* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID, ::RPG::Client::ParkourGame::ParkourGameLevelConfigAsset*))((::PBYTE)hIl2Cpp + LOADPICBEPE_IELIEDFEDOE_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>*(*)(::PVOID, ::RPG::Client::ParkourGame::ParkourGameLevelConfigAsset*))((::PBYTE)hIl2Cpp + LOADPICBEPE_IELIEDFEDOE_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 DJGPAAGFOBO()

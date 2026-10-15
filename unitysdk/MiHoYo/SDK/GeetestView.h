@@ -7,6 +7,7 @@ namespace MiHoYo::SDK { class MmtManager_GeetestModel; }
 namespace MiHoYo::SDK { class UIManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 
 #define MIHOYO_SDK_GEETESTVIEW_ADD_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1BE44300)
@@ -34,8 +35,8 @@ namespace MiHoYo::SDK
 	public:
 		::UnityEngine::UI::Button* closeButton; // 0x58
 		::System::Action* OnClose; // 0x60
-		::System::Action* OnError; // 0x68
-		::System::Action* OnGetUniWebMessage; // 0x70
+		::System::Action_1<::System::String*>* OnError; // 0x68
+		::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>* OnGetUniWebMessage; // 0x70
 		static ::MiHoYo::SDK::GeetestView** StaticGet_Instance()
 		{
 			return (::MiHoYo::SDK::GeetestView**)UnitySDK::FromName("MiHoYo.SDK", "GeetestView")->GetStaticField(0xD2C0);
@@ -62,24 +63,24 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONCLOSE_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnError(::System::Action* a1)
+		::System::Void add_OnError(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONERROR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONERROR_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnError(::System::Action* a1)
+		::System::Void remove_OnError(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONERROR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONERROR_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnGetUniWebMessage(::System::Action* a1)
+		::System::Void add_OnGetUniWebMessage(::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONGETUNIWEBMESSAGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_ADD_ONGETUNIWEBMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnGetUniWebMessage(::System::Action* a1)
+		::System::Void remove_OnGetUniWebMessage(::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONGETUNIWEBMESSAGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UniWebViewMessage>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GEETESTVIEW_REMOVE_ONGETUNIWEBMESSAGE_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()

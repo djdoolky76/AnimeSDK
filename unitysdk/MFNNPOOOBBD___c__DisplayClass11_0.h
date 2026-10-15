@@ -5,7 +5,7 @@ class AKMFECNJFBG;
 class AOBDHCFGGBH;
 class MEGIEBCBOCI;
 class MFNNPOOOBBD;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 #define MFNNPOOOBBD___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB90DE20)
 #define MFNNPOOOBBD___C__DISPLAYCLASS11_0__SUBMITORDER_B__0_OFFSET UNITYSDK_OFFSET(0xB90F790)
@@ -23,9 +23,9 @@ inline static constexpr unsigned int MFNNPOOOBBD___c__DisplayClass11_0_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MFNNPOOOBBD___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* _SubmitOrder_b__0(::AOBDHCFGGBH* a1)
+		::RPG::Client::Promises::IPromise_1<::MEGIEBCBOCI*>* _SubmitOrder_b__0(::AOBDHCFGGBH* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::AOBDHCFGGBH*))((::PBYTE)hIl2Cpp + MFNNPOOOBBD___C__DISPLAYCLASS11_0__SUBMITORDER_B__0_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::MEGIEBCBOCI*>*(*)(::PVOID, ::AOBDHCFGGBH*))((::PBYTE)hIl2Cpp + MFNNPOOOBBD___C__DISPLAYCLASS11_0__SUBMITORDER_B__0_OFFSET))(this, a1);
 		}
 
 	};

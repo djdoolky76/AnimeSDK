@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CPFNEECKCMK;
 class LDCHLAKNODJ;
 class MGEAPNBMJKJ;
@@ -90,9 +90,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA_ISASSISTDATAINFRIENDSOLT_OFFSET))(this, a1);
 		}
 
-		::System::Void Update(::System::Collections::Generic::List_1<::System::ValueTuple>* a1)
+		::System::Void Update(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA_UPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA_UPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void Update_1(::MGEAPNBMJKJ* a1)

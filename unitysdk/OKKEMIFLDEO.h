@@ -5,12 +5,12 @@
 #include "unitysdk/IFBPIIECCAH.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/SkillCharacterComponent_UseSkillErrorInfo.h"
+#include "unitysdk/System/Nullable_1.h"
 class DEKDEPEBHNC;
 class OKKEMIFLDEO_HANPIBHCKNL;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -93,9 +93,9 @@ inline static constexpr unsigned int OKKEMIFLDEO_TypeDefinitionIndex = 56029;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Int32))((::PBYTE)hIl2Cpp + OKKEMIFLDEO_JLAFIBALKFM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EMFNGIMCHAF(::RPG::GameCore::GameEntity* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::System::Nullable* a4)
+		::System::Void EMFNGIMCHAF(::RPG::GameCore::GameEntity* a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3, ::System::Nullable_1<::RPG::GameCore::FixPoint> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + OKKEMIFLDEO_EMFNGIMCHAF_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + OKKEMIFLDEO_EMFNGIMCHAF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void GHKHAMOLHMC(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::PropertyModifyFunction a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::PropertyModifyFunction a4, ::RPG::GameCore::FixPoint a5, ::RPG::GameCore::FixPoint a6)

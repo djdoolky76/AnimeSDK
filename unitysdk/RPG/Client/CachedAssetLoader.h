@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/CachedAssetLogicType.h"
 #include "unitysdk/RPG/Client/CachedType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 namespace RPG::Client { class CachedAssetLoader_CachedAssetData; }
 namespace RPG::Client { class CachedAssetLoader_CachedAssetGroup; }
 namespace RPG::Client { class IAssetOperation; }
@@ -80,9 +80,9 @@ namespace RPG::Client
 			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x16050);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::ValueTuple>** StaticGet__CachedTempAssetDependencies()
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt64, ::System::UInt32, ::RPG::Client::CachedAssetLogicType>>** StaticGet__CachedTempAssetDependencies()
 		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x16058);
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt64, ::System::UInt32, ::RPG::Client::CachedAssetLogicType>>**)UnitySDK::FromName("RPG.Client", "CachedAssetLoader")->GetStaticField(0x16058);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet__InferLogicTypeMarker()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class ProtocolManager; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_PROTOCOLMANAGER__ONSHOWPROTOCOLTIMEOUT_D__64_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB9CE0)
 #define MIHOYO_SDK_PROTOCOLMANAGER__ONSHOWPROTOCOLTIMEOUT_D__64_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BFBBFE0)
@@ -22,7 +22,7 @@ namespace MiHoYo::SDK
 	class ProtocolManager__OnShowProtocolTimeout_d__64 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::MiHoYo::SDK::JSONNode* _protocolShowFlag_5__1; // 0x18
 		::System::Object* __2__current; // 0x20
 		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x28

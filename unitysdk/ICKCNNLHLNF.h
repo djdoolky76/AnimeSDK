@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TutorialNodeCheckType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
@@ -29,7 +29,7 @@ inline static constexpr unsigned int ICKCNNLHLNF_TypeDefinitionIndex = 68219;
 	public:
 		::UnityEngine::Transform* OPBCKGLLCBO; // 0x10
 		::System::String* FFLJLFEFICB; // 0x18
-		::System::Nullable* MLHMMDJIAOL; // 0x20
+		::System::Nullable_1<::UnityEngine::Vector3> MLHMMDJIAOL; // 0x20
 		::System::Byte _padding0[0x8];
 		::System::Single GCCJKFJCHCH; // 0x30
 		::System::Single MABCHDOEMGM; // 0x34

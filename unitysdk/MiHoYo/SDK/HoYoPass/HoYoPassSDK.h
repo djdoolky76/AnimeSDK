@@ -15,9 +15,10 @@ namespace MiHoYo::SDK::HoYoPass { class HoYoPassSDK_GetRegionSwitchStatusHandler
 namespace MiHoYo::SDK::HoYoPass { class HoYoPassSDK_GetTokenResultHandlerDelegate; }
 namespace MiHoYo::SDK::HoYoPass { class HoYoPassSDK_KibanaReportHandlerDelegate; }
 namespace MiHoYo::SDK::HoYoPass { class HoYoPassSDK_RefreshAccountInfoResultHandlerDelegate; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Text { class StringBuilder; }
 
@@ -143,14 +144,14 @@ namespace MiHoYo::SDK::HoYoPass
 			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD7E0);
 		}
 
-		static ::System::Action** StaticGet_KibanaReportHandler()
+		static ::System::Action_1<::System::String*>** StaticGet_KibanaReportHandler()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD7E8);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD7E8);
 		}
 
-		static ::System::Action** StaticGet_EventHandler()
+		static ::System::Action_2<::System::Object*, ::System::String*>** StaticGet_EventHandler()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD7F0);
+			return (::System::Action_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD7F0);
 		}
 
 		static ::System::String** StaticGet_MODULE_NAME()
@@ -158,24 +159,24 @@ namespace MiHoYo::SDK::HoYoPass
 			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD7F8);
 		}
 
-		static ::System::Action** StaticGet_ThirdpartyOAuthResultHandler()
+		static ::System::Action_2<::System::Object*, ::System::String*>** StaticGet_ThirdpartyOAuthResultHandler()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD800);
+			return (::System::Action_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD800);
 		}
 
-		static ::System::Action** StaticGet_ExchangeTokenResultHandler()
+		static ::System::Action_2<::System::Object*, ::System::String*>** StaticGet_ExchangeTokenResultHandler()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD808);
+			return (::System::Action_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD808);
 		}
 
-		static ::System::Action** StaticGet_GetCrossTokenUrlBySTokenResultHandler()
+		static ::System::Action_2<::System::Object*, ::System::String*>** StaticGet_GetCrossTokenUrlBySTokenResultHandler()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD810);
+			return (::System::Action_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD810);
 		}
 
-		static ::System::Action** StaticGet_RefreshAccountInfoResultHandler()
+		static ::System::Action_2<::System::Object*, ::System::String*>** StaticGet_RefreshAccountInfoResultHandler()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD818);
+			return (::System::Action_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "HoYoPassSDK")->GetStaticField(0xD818);
 		}
 
 		// static const ::System::String* dllName; // 0x0
@@ -481,14 +482,14 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_HOYOPASS_UPDATECURRENTACCOUNTREGION_OFFSET))(a1);
 		}
 
-		static ::System::Void SetEventHandler(::System::Action* a1)
+		static ::System::Void SetEventHandler(::System::Action_2<::System::Object*, ::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_SETEVENTHANDLER_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::Object*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_SETEVENTHANDLER_OFFSET))(a1);
 		}
 
-		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode SetH5logReportHandler(::System::Action* a1)
+		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode SetH5logReportHandler(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_SETH5LOGREPORTHANDLER_OFFSET))(a1);
+			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_SETH5LOGREPORTHANDLER_OFFSET))(a1);
 		}
 
 		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode SetGetRegionSwitchStatusHandler(::System::Func_1<::System::Boolean>* a1)
@@ -531,9 +532,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_LoginType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_LOGINBYGAMETOKEN_OFFSET))(a1, a2, a3);
 		}
 
-		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode StartThirdpartyOAuth(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ThirdpartyLoginMethod a1, ::System::Action* a2)
+		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode StartThirdpartyOAuth(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ThirdpartyLoginMethod a1, ::System::Action_2<::System::Object*, ::System::String*>* a2)
 		{
-			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ThirdpartyLoginMethod, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_STARTTHIRDPARTYOAUTH_OFFSET))(a1, a2);
+			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ThirdpartyLoginMethod, ::System::Action_2<::System::Object*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_STARTTHIRDPARTYOAUTH_OFFSET))(a1, a2);
 		}
 
 		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode AbortThirdpartyOAuth(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ThirdpartyLoginMethod a1)
@@ -711,19 +712,19 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::String*(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETUSERCENTERURL_OFFSET))(a1, a2);
 		}
 
-		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ExchangeToken(::System::String* a1, ::System::String* a2, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_TokenType a3, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_TokenType a4, ::System::Action* a5)
+		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ExchangeToken(::System::String* a1, ::System::String* a2, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_TokenType a3, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_TokenType a4, ::System::Action_2<::System::Object*, ::System::String*>* a5)
 		{
-			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_TokenType, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_TokenType, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EXCHANGETOKEN_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::String*, ::System::String*, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_TokenType, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_TokenType, ::System::Action_2<::System::Object*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_EXCHANGETOKEN_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode RefreshCurrentAccountInfo(::System::Action* a1)
+		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode RefreshCurrentAccountInfo(::System::Action_2<::System::Object*, ::System::String*>* a1)
 		{
-			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_REFRESHCURRENTACCOUNTINFO_OFFSET))(a1);
+			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::Action_2<::System::Object*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_REFRESHCURRENTACCOUNTINFO_OFFSET))(a1);
 		}
 
-		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode GetCrossTokenUrlBySToken(::System::String* a1, ::System::Action* a2)
+		static ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode GetCrossTokenUrlBySToken(::System::String* a1, ::System::Action_2<::System::Object*, ::System::String*>* a2)
 		{
-			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETCROSSTOKENURLBYSTOKEN_OFFSET))(a1, a2);
+			return ((::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode(*)(::System::String*, ::System::Action_2<::System::Object*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_HOYOPASSSDK_GETCROSSTOKENURLBYSTOKEN_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean NativeEventHandler(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_EventId a1, ::Il2CppArray<::System::Byte>* a2, ::System::UInt64 a3, ::System::IntPtr a4)

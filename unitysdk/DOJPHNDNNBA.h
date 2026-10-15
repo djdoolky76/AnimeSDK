@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class BattleInstance; }
-namespace System { class Nullable; }
 
 #define DOJPHNDNNBA_CTOR_OFFSET UNITYSDK_OFFSET(0x11FED2E0)
 #define DOJPHNDNNBA_EIKLCEBCECK_OFFSET UNITYSDK_OFFSET(0x11FED210)
@@ -24,14 +24,14 @@ inline static constexpr unsigned int DOJPHNDNNBA_TypeDefinitionIndex = 81640;
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::BattleInstance*))((::PBYTE)hIl2Cpp + DOJPHNDNNBA_HFKHAGNJGEA_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* JLJDNFAAGFP()
+		::System::Nullable_1<::System::Int32> JLJDNFAAGFP()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + DOJPHNDNNBA_JLJDNFAAGFP_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + DOJPHNDNNBA_JLJDNFAAGFP_OFFSET))(this);
 		}
 
-		::System::Nullable* EIKLCEBCECK()
+		::System::Nullable_1<::System::Int32> EIKLCEBCECK()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + DOJPHNDNNBA_EIKLCEBCECK_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + DOJPHNDNNBA_EIKLCEBCECK_OFFSET))(this);
 		}
 
 	};

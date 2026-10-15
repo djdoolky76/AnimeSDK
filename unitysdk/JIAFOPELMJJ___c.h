@@ -6,8 +6,8 @@ class DHAFGMHPMHG_NNIFNAGDEHL;
 class HGCEOEHGPPE;
 class HGDELEAHIJO;
 class KGPCBBIOGLB;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
 #define JIAFOPELMJJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB1E4360)
@@ -29,9 +29,9 @@ inline static constexpr unsigned int JIAFOPELMJJ___c_TypeDefinitionIndex = 59498
 	class JIAFOPELMJJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__70_1()
+		static ::System::Action_4<::HGCEOEHGPPE*, ::KGPCBBIOGLB*, ::System::Object*, ::RPG::Client::ExeCode>** StaticGet___9__70_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11CD0);
+			return (::System::Action_4<::HGCEOEHGPPE*, ::KGPCBBIOGLB*, ::System::Object*, ::RPG::Client::ExeCode>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11CD0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__75_1()

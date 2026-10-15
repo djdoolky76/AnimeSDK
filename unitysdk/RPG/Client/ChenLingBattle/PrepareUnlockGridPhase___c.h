@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA5A6A0)
 #define RPG_CLIENT_CHENLINGBATTLE_PREPAREUNLOCKGRIDPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA5A6E0)
@@ -16,9 +16,9 @@ namespace RPG::Client::ChenLingBattle
 	class PrepareUnlockGridPhase___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__3_0()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__3_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E5F0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E5F0);
 		}
 
 		static ::System::Object** StaticGet___9()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class NCBOENDMDIC;
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
 #define JGDCIMPJDNN___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1986E0)
 #define JGDCIMPJDNN___C__DISPLAYCLASS3_0___WAITMISSIONDATAREADY_B__0_OFFSET UNITYSDK_OFFSET(0xB198770)
@@ -12,7 +12,7 @@ inline static constexpr unsigned int JGDCIMPJDNN___c__DisplayClass3_0_TypeDefini
 	class JGDCIMPJDNN___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise_1<::NCBOENDMDIC*>* promise; // 0x10
 		::NCBOENDMDIC* rsp; // 0x18
 		::System::Void _ctor()
 		{

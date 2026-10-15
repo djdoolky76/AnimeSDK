@@ -5,8 +5,8 @@ namespace MiHoYo::SDK { class GooglePlayAbTestConfig; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PC::OS { class ABTestGooglePlay; }
 namespace MiHoYo::SDK::PC::OS { class GooglePlayABTestRequestParam; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEBEA30)
@@ -59,9 +59,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY_ONGOOGLEABTESTRESPONSE_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestABTestConfig(::MiHoYo::SDK::PC::OS::GooglePlayABTestRequestParam* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a2, ::System::Action* a3)
+		::System::Void RequestABTestConfig(::MiHoYo::SDK::PC::OS::GooglePlayABTestRequestParam* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::GooglePlayABTestRequestParam*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY_REQUESTABTESTCONFIG_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PC::OS::GooglePlayABTestRequestParam*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY_REQUESTABTESTCONFIG_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

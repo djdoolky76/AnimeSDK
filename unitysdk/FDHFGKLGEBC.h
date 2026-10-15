@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceMoveState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class KAJJEJMHCGD;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -16,7 +16,7 @@ inline static constexpr unsigned int FDHFGKLGEBC_TypeDefinitionIndex = 37243;
 	class FDHFGKLGEBC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* DOAHCFCFKDD; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* DOAHCFCFKDD; // 0x10
 		::KAJJEJMHCGD* FGBOCEOCCJN; // 0x18
 		::System::Boolean MLLBLJEALGA; // 0x20
 		::System::Boolean HGMGLFNFGGN; // 0x21

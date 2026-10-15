@@ -5,7 +5,7 @@
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace RPG::Client::Prop { class ChimeraArrangementSceneOperator; }
 namespace RPG::Client::Prop { class ChimeraArrangementSlot; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_PROP_CHIMERAARRANGEMENTTOUCHINPUTLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC4B7D0)
 #define RPG_CLIENT_PROP_CHIMERAARRANGEMENTTOUCHINPUTLISTENER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC4BCA0)
@@ -29,11 +29,11 @@ namespace RPG::Client::Prop
 	class ChimeraArrangementTouchInputListener : public ::System::Object
 	{
 	public:
-		::System::Action* OnDrop; // 0x10
+		::System::Action_1<::UnityEngine::Vector2>* OnDrop; // 0x10
 		::RPG::Client::Prop::ChimeraArrangementSlot* _LastPointedSlot; // 0x18
-		::System::Action* OnTouchStart; // 0x20
-		::System::Action* OnDragMove; // 0x28
-		::System::Action* OnDragStart; // 0x30
+		::System::Action_1<::UnityEngine::Vector2>* OnTouchStart; // 0x20
+		::System::Action_1<::UnityEngine::Vector2>* OnDragMove; // 0x28
+		::System::Action_1<::UnityEngine::Vector2>* OnDragStart; // 0x30
 		::RPG::Client::Prop::ChimeraArrangementSceneOperator* _SceneOperator; // 0x38
 		::UnityEngine::Vector2 _LastPointedScreenPoint; // 0x40
 		::System::Void _ctor()

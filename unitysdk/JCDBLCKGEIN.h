@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class HNLKNLJBHDD;
 class PLMODIOCPAF;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define JCDBLCKGEIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F32D0)
 #define JCDBLCKGEIN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6F3390)
@@ -15,7 +15,7 @@ inline static constexpr unsigned int JCDBLCKGEIN_TypeDefinitionIndex = 37144;
 	{
 	public:
 		::PLMODIOCPAF* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup* DAAALPNCMNO; // 0x18
+		::Entitas::IGroup_1<::HNLKNLJBHDD*>* DAAALPNCMNO; // 0x18
 		::System::Void _ctor(::PLMODIOCPAF* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::PLMODIOCPAF*))((::PBYTE)hIl2Cpp + JCDBLCKGEIN_CTOR_OFFSET))(this, a1);

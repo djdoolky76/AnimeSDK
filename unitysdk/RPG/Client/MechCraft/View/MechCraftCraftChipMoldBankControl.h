@@ -6,8 +6,8 @@ class ILOOAAOHIIG;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftChipMoldBankControlBinder; }
 namespace RPG::Client::MechCraft::View { class MechCraftCraftChipMoldControl; }
 namespace SuperScrollView { class LoopGridViewItem; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL_ADD_ONMOLDCREATED_OFFSET UNITYSDK_OFFSET(0xD602B50)
@@ -35,7 +35,7 @@ namespace RPG::Client::MechCraft::View
 	{
 	public:
 		::FCLEMGPEMJJ* LFGMLJCCPCH; // 0x18
-		::System::Action* OnMoldCreated; // 0x20
+		::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftChipMoldControl*>* OnMoldCreated; // 0x20
 		::RPG::Client::MechCraft::View::MechCraftCraftChipMoldBankControlBinder* _Binder; // 0x28
 		::System::String* _ActionHintDrag; // 0x30
 		::System::String* _ActionHintCursor; // 0x38
@@ -54,14 +54,14 @@ namespace RPG::Client::MechCraft::View
 			return ((::System::Void(*)(::PVOID, ::FCLEMGPEMJJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL_SET_CONTENT_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnMoldCreated(::System::Action* a1)
+		::System::Void add_OnMoldCreated(::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftChipMoldControl*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL_ADD_ONMOLDCREATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftChipMoldControl*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL_ADD_ONMOLDCREATED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnMoldCreated(::System::Action* a1)
+		::System::Void remove_OnMoldCreated(::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftChipMoldControl*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL_REMOVE_ONMOLDCREATED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::MechCraft::View::MechCraftCraftChipMoldControl*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL_REMOVE_ONMOLDCREATED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnDestroy()

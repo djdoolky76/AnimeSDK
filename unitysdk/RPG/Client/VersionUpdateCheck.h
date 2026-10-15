@@ -5,7 +5,9 @@ class NMGLDNNFHFB;
 class OHBNCJLLEPK;
 class OHENNKMBFND;
 namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_VERSIONUPDATECHECK_CLEARPERSISTENTDATAPATHASSET_OFFSET UNITYSDK_OFFSET(0xE440740)
 #define RPG_CLIENT_VERSIONUPDATECHECK_CLEARREGISTRY_OFFSET UNITYSDK_OFFSET(0xE4410F0)
@@ -90,9 +92,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK_ISIOSSUBPACK_OFFSET))();
 		}
 
-		static ::RPG::Client::Promises::IPromise* IsPSSubpackPromised()
+		static ::RPG::Client::Promises::IPromise_1<::System::Boolean>* IsPSSubpackPromised()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK_ISPSSUBPACKPROMISED_OFFSET))();
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK_ISPSSUBPACKPROMISED_OFFSET))();
 		}
 
 		static ::System::Boolean IsOnlyDesignDataNeedUpdate()
@@ -170,9 +172,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK_STARTLOCALPAKUPDATE_OFFSET))(a1);
 		}
 
-		static ::System::Void StartLocalAssetVerify(::System::Boolean a1, ::System::Action* a2)
+		static ::System::Void StartLocalAssetVerify(::System::Boolean a1, ::System::Action_1<::NMGLDNNFHFB*>* a2)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK_STARTLOCALASSETVERIFY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Boolean, ::System::Action_1<::NMGLDNNFHFB*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATECHECK_STARTLOCALASSETVERIFY_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean IsIncludeRuntimeBaseAsset()

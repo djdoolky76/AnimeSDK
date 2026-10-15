@@ -10,7 +10,7 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/GFFNGOOMMKL_EKEDOPAHIOE.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BOMFGKDLHIB;
 class FAFGLEHONAL;
 class FDPALAEIHPB;
@@ -364,9 +364,9 @@ inline static constexpr unsigned int GFFNGOOMMKL_TypeDefinitionIndex = 76588;
 			return ((::System::Void(*)(::PVOID, ::HEOAAAKKHLC*, ::GFFNGOOMMKL_DJEMNMFOEII))((::PBYTE)hIl2Cpp + GFFNGOOMMKL_EEKBKHECPKD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean AKONDIMDIFB(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Boolean AKONDIMDIFB(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GFFNGOOMMKL_AKONDIMDIFB_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + GFFNGOOMMKL_AKONDIMDIFB_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LPCDKIGNMEN()

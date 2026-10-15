@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LaneSpecialType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class CarFlowIntersectionRule;
@@ -40,9 +40,9 @@ inline static constexpr unsigned int Lane_TypeDefinitionIndex = 47080;
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_FDFLDCEFDOE_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple CBHCBKNDPAM(::System::Single a1)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> CBHCBKNDPAM(::System::Single a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_CBHCBKNDPAM_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_CBHCBKNDPAM_OFFSET))(this, a1);
 		}
 
 		::System::Int32 DCCOFIEJIAA()

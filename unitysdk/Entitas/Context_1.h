@@ -12,8 +12,8 @@ namespace Entitas { class IAERC; }
 namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
 namespace Entitas { class IEntityIndex; }
-namespace Entitas { class IGroup; }
 namespace Entitas { template <typename T> class GroupChanged_1; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace Entitas { template <typename T> class IMatcher_1; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -43,8 +43,8 @@ namespace Entitas
 		::System::Collections::Generic::HashSet_1<T>* _entities; // 0x0
 		::System::Collections::Generic::Stack_1<T>* _reusableEntities; // 0x0
 		::System::Collections::Generic::HashSet_1<T>* _retainedEntities; // 0x0
-		::System::Collections::Generic::Dictionary_2<::Entitas::IMatcher_1<T>*, ::Entitas::IGroup*>* _groups; // 0x0
-		::Il2CppArray<::System::Collections::Generic::List_1<::Entitas::IGroup*>*>* _groupsForIndex; // 0x0
+		::System::Collections::Generic::Dictionary_2<::Entitas::IMatcher_1<T>*, ::Entitas::IGroup_1<T>*>* _groups; // 0x0
+		::Il2CppArray<::System::Collections::Generic::List_1<::Entitas::IGroup_1<T>*>*>* _groupsForIndex; // 0x0
 		::DesperateDevs::Utils::ObjectPool_1<::System::Collections::Generic::List_1<::Entitas::GroupChanged_1<T>*>*>* _groupChangedListPool; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::Entitas::IEntityIndex*>* _entityIndices; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, T>* _entitiesByCreationIndex; // 0x0

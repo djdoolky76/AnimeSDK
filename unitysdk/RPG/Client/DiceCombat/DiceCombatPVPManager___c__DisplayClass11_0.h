@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client::DiceCombat { class DiceCombatPVPManager; }
 namespace System { class Action; }
 
@@ -31,9 +31,9 @@ namespace RPG::Client::DiceCombat
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS11_0__JOININVITATIONLOBBY_B__0_OFFSET))(this, a1);
 		}
 
-		::System::Void _JoinInvitationLobby_b__1(::System::ValueTuple a1)
+		::System::Void _JoinInvitationLobby_b__1(::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS11_0__JOININVITATIONLOBBY_B__1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__DISPLAYCLASS11_0__JOININVITATIONLOBBY_B__1_OFFSET))(this, a1);
 		}
 
 		::System::Void _JoinInvitationLobby_b__2()

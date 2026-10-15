@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/RestaurantFacilityType.h"
 #include "unitysdk/RPG/GameCore/RestaurantSuperEventType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/System/Nullable_1.h"
 class BNLHGENFEHG;
 class IMEFEGGEMIJ;
 class PGBLBOJBDGG;
@@ -15,9 +16,8 @@ namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace RPG::GameCore { class RestaurantCustomerRow; }
 namespace RPG::GameCore { class RestaurantEmployeeRow; }
 namespace RPG::GameCore { class RestaurantSpecialCustomerRow; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
@@ -94,9 +94,9 @@ inline static constexpr unsigned int NAOPMDAAGHL_TypeDefinitionIndex = 77261;
 			return ((::RPG::Client::LittleGame::ElfRestaurantGameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAOPMDAAGHL_GIDHHFJNPIK_OFFSET))(this);
 		}
 
-		::System::Void HHEHKOFNGLK(::System::String* a1, ::System::Single a2, ::UnityEngine::Transform* a3, ::System::Nullable* a4, ::System::Int32 a5)
+		::System::Void HHEHKOFNGLK(::System::String* a1, ::System::Single a2, ::UnityEngine::Transform* a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::UnityEngine::Transform*, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + NAOPMDAAGHL_HHEHKOFNGLK_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::UnityEngine::Transform*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32))((::PBYTE)hIl2Cpp + NAOPMDAAGHL_HHEHKOFNGLK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void AEAHKCBEEGG(::RPG::Client::LittleGame::ElfRestaurantGameEntity* a1, ::UnityEngine::Transform* a2)
@@ -204,14 +204,14 @@ inline static constexpr unsigned int NAOPMDAAGHL_TypeDefinitionIndex = 77261;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RestaurantSuperEventType))((::PBYTE)hIl2Cpp + NAOPMDAAGHL_BDOCDEAECDN_OFFSET))(this, a1);
 		}
 
-		::System::Void AFHIFIGIKAE(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LittleGameEntityConfig* a3, ::System::Boolean a4, ::System::Action* a5)
+		::System::Void AFHIFIGIKAE(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LittleGameEntityConfig* a3, ::System::Boolean a4, ::System::Action_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + NAOPMDAAGHL_AFHIFIGIKAE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*, ::System::Boolean, ::System::Action_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>*))((::PBYTE)hIl2Cpp + NAOPMDAAGHL_AFHIFIGIKAE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void JJEKMGKACOK(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LittleGameEntityConfig* a3, ::System::Boolean a4, ::System::Action* a5)
+		::System::Void JJEKMGKACOK(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LittleGameEntityConfig* a3, ::System::Boolean a4, ::System::Action_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + NAOPMDAAGHL_JJEKMGKACOK_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::LittleGameEntityConfig*, ::System::Boolean, ::System::Action_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>*))((::PBYTE)hIl2Cpp + NAOPMDAAGHL_JJEKMGKACOK_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void DJDIJFGGHNO(::RPG::Client::LittleGame::ElfRestaurantGameEntity* a1, ::UnityEngine::Transform* a2)

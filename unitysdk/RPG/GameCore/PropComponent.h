@@ -19,6 +19,7 @@
 #include "unitysdk/RPG/GameCore/PuzzleUnloadTag.h"
 #include "unitysdk/RPG/GameCore/RollShopGroupType.h"
 #include "unitysdk/RPG/GameCore/SDFTextAlignType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/UnityEngine/Color.h"
@@ -73,9 +74,9 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransformComponent; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -421,13 +422,13 @@ namespace RPG::GameCore
 		::System::Single _DelayPlayGachaAnimTime; // 0x238
 		::RPG::GameCore::RollShopGroupType _RollShopRewardResult_k__BackingField; // 0x23C
 		::System::Single _LifeTime_k__BackingField; // 0x240
-		::System::Nullable* _InteractMode_k__BackingField; // 0x244
+		::System::Nullable_1<::RPG::GameCore::PropInteractMode> _InteractMode_k__BackingField; // 0x244
 		::System::Byte _padding1[0x4];
 		::RPG::Client::ReasonBool_1<::RPG::GameCore::DisableBillboardReason> _EnableBillboardReasonBool; // 0x250
 		::System::Single _AngleAbs; // 0x258
-		::System::Nullable* OriginalYawAngle; // 0x25C
-		::System::Nullable* _PropSwitchMatID; // 0x264
-		::System::Nullable* OverrideLockRaycastOffset; // 0x26C
+		::System::Nullable_1<::System::Single> OriginalYawAngle; // 0x25C
+		::System::Nullable_1<::System::Int32> _PropSwitchMatID; // 0x264
+		::System::Nullable_1<::System::Single> OverrideLockRaycastOffset; // 0x26C
 		::System::UInt32 _DestroyAfterEventMask; // 0x274
 		::System::Boolean _IsAdvanceState; // 0x278
 		::System::Boolean _TriggerEnabled; // 0x279
@@ -667,9 +668,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_SETORIGINALORIENTATION_OFFSET))(this);
 		}
 
-		::System::Nullable* GetOriginalYawAngle()
+		::System::Nullable_1<::System::Single> GetOriginalYawAngle()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_GETORIGINALYAWANGLE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_GETORIGINALYAWANGLE_OFFSET))(this);
 		}
 
 		::System::Boolean AddSteerRequest(::CDCALCEFINB* a1)
@@ -757,14 +758,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_SETSDFTEXTSCALE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void PostSoundEvent(::System::String* a1, ::AkCallbackType a2, ::System::Boolean a3, ::System::Action* a4)
+		::System::Void PostSoundEvent(::System::String* a1, ::AkCallbackType a2, ::System::Boolean a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::AkCallbackType, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_POSTSOUNDEVENT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::AkCallbackType, ::System::Boolean, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_POSTSOUNDEVENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _PostSoundEvent(::System::String* a1, ::AkCallbackType a2, ::System::Boolean a3, ::System::Action* a4)
+		::System::Void _PostSoundEvent(::System::String* a1, ::AkCallbackType a2, ::System::Boolean a3, ::System::Action_1<::System::UInt32>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::AkCallbackType, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT__POSTSOUNDEVENT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::AkCallbackType, ::System::Boolean, ::System::Action_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT__POSTSOUNDEVENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void RemoveSoundEvent(::System::String* a1, ::System::Boolean a2)
@@ -1632,14 +1633,14 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_RPG_GAMECORE_IPROPINTERACTIONINFO_GET_ICONPATH_OFFSET))(this);
 		}
 
-		::System::Nullable* get_InteractMode()
+		::System::Nullable_1<::RPG::GameCore::PropInteractMode> get_InteractMode()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_GET_INTERACTMODE_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::PropInteractMode>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_GET_INTERACTMODE_OFFSET))(this);
 		}
 
-		::System::Void set_InteractMode(::System::Nullable* a1)
+		::System::Void set_InteractMode(::System::Nullable_1<::RPG::GameCore::PropInteractMode> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_SET_INTERACTMODE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::PropInteractMode>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCOMPONENT_SET_INTERACTMODE_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::TaskConfig* get_InteractiveOverrideData()

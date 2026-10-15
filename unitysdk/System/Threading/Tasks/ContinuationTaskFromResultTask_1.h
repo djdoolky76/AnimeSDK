@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/Tasks/Task.h"
-namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Threading::Tasks
 {
@@ -11,6 +11,6 @@ namespace System::Threading::Tasks
 	class ContinuationTaskFromResultTask_1 : public ::System::Threading::Tasks::Task
 	{
 	public:
-		::System::Threading::Tasks::Task* m_antecedent; // 0x0
+		::System::Threading::Tasks::Task_1<T>* m_antecedent; // 0x0
 	};
 }

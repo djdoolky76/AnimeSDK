@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class OIKDEOMMOAM;
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONHPCHANGEMONITOR_CTOR_OFFSET UNITYSDK_OFFSET(0xC4C1E40)
@@ -23,7 +23,7 @@ namespace RPG::Client::ActivityIdleLive
 	class IdleLiveDungeonHpChangeMonitor : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Action*>* _BossHpChangeListeners; // 0x18
+		::System::Collections::Generic::List_1<::System::Action_1<::System::Int32>*>* _BossHpChangeListeners; // 0x18
 		::System::Int32 _TotalProgress; // 0x20
 		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint _InitialBossHp; // 0x28
@@ -52,9 +52,9 @@ namespace RPG::Client::ActivityIdleLive
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONHPCHANGEMONITOR_SETTOTALPROGRESS_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterBossHpChangeListener(::System::Action* a1)
+		::System::Void RegisterBossHpChangeListener(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONHPCHANGEMONITOR_REGISTERBOSSHPCHANGELISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONHPCHANGEMONITOR_REGISTERBOSSHPCHANGELISTENER_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::GameEntity* _GetBossEntity()

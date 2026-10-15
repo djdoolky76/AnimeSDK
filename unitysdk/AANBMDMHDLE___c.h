@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class GGJFAFONDHN;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define AANBMDMHDLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0D3650)
 #define AANBMDMHDLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB0D3680)
@@ -15,14 +15,14 @@ inline static constexpr unsigned int AANBMDMHDLE___c_TypeDefinitionIndex = 49363
 	class AANBMDMHDLE___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__6_1()
+		static ::System::Action_1<::GGJFAFONDHN*>** StaticGet___9__6_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41990);
+			return (::System::Action_1<::GGJFAFONDHN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41990);
 		}
 
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_1<::GGJFAFONDHN*>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41998);
+			return (::System::Action_1<::GGJFAFONDHN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41998);
 		}
 
 		static ::System::Object** StaticGet___9()

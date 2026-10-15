@@ -11,6 +11,7 @@ namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::HoYoPass { class AgeGateManager; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER_ABORTAGEGATE_OFFSET UNITYSDK_OFFSET(0x1BE4B3A0)
 #define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE4B620)
@@ -56,7 +57,7 @@ namespace MiHoYo::SDK::HoYoPass
 		::System::String* _TicketId_k__BackingField; // 0x10
 		::System::String* _AgeGateRegion_k__BackingField; // 0x18
 		::System::String* _Payload_k__BackingField; // 0x20
-		::System::Action* ageGateCallback; // 0x28
+		::System::Action_1<::System::Int32>* ageGateCallback; // 0x28
 		::MiHoYo::SDK::HoYoPass::HoYoPassSDK_AgeGateTicketType _AgeGateTicketType_k__BackingField; // 0x30
 		static ::MiHoYo::SDK::HoYoPass::AgeGateManager** StaticGet_Instance()
 		{
@@ -121,9 +122,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER_CHECKREGIONCANAUTOREGISTER_OFFSET))(a1);
 		}
 
-		::System::Void StartAgeGateProcess(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_AgeGateStage a1, ::MiHoYo::SDK::JSONNode* a2, ::System::Action* a3)
+		::System::Void StartAgeGateProcess(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_AgeGateStage a1, ::MiHoYo::SDK::JSONNode* a2, ::System::Action_1<::System::Int32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_AgeGateStage, ::MiHoYo::SDK::JSONNode*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER_STARTAGEGATEPROCESS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::HoYoPass::HoYoPassSDK_AgeGateStage, ::MiHoYo::SDK::JSONNode*, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER_STARTAGEGATEPROCESS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CloseAgeGateDialog()

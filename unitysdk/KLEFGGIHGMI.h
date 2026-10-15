@@ -18,8 +18,9 @@
 #include "unitysdk/RPG/GameCore/BlockNodeRegionType.h"
 #include "unitysdk/RPG/GameCore/RegionBlockVisibilityStatus.h"
 #include "unitysdk/RPG/GameCore/StreamingLayerType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -75,10 +76,12 @@ namespace RPG::GameCore { class StageBaseConfig; }
 namespace RPG::GameCore { class StageCaptureAliasData; }
 namespace RPG::GameCore { class StageCaptureAliasLookup; }
 namespace RPG::GameCore { class StageLodMapConfig; }
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -420,31 +423,31 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 	class KLEFGGIHGMI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action*>*>* OMLLHCJNDPL; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::Action*>* DOJJCKFKEHE; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*>*>* OMLLHCJNDPL; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::Action_4<::HPKACEPPPCA*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType>*>* DOJJCKFKEHE; // 0x18
 		::System::Collections::Generic::List_1<::System::Collections::IEnumerator*>* HBNPDCOAELB; // 0x20
 		::System::Collections::Concurrent::ConcurrentQueue_1<::GDMONJOAKHD*>* CIADFIEAKLI; // 0x28
 		::System::Collections::Concurrent::ConcurrentQueue_1<::GDMONJOAKHD*>* OLELKJBKGPH; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* ANKOEBGONJB; // 0x38
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action*>*>* GJCHMCLJJIC; // 0x40
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>*>*>* GJCHMCLJJIC; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::OpenWorld::StreamingItemData*>* INHDOCJPGHF; // 0x48
 		::System::Collections::Concurrent::ConcurrentQueue_1<::GDMONJOAKHD*>* AJFBEGPINDO; // 0x50
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::OpenWorld::StreamingItemData*>* GNOKNCEBNHM; // 0x58
 		::RPG::Client::OpenWorld::SceneItemHLODStreamingLayer_1<::RPG::Client::OpenWorld::StreamingItemData*>* OMMKGHILNHC; // 0x60
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* CBBGNHMCGBH; // 0x68
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::KGDADKNPPOL*, ::RPG::GameCore::RegionBlockVisibilityStatus>>* CBBGNHMCGBH; // 0x68
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* AGFPOEHLDBC; // 0x70
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::DBMBGHNGDCG*>*>* DHGMPCECJOC; // 0x78
 		::LJFHKAJPFNE* IMNPNIIDKMF; // 0x80
 		::System::Collections::Generic::List_1<::GDMONJOAKHD*>* CCFAOMJBMEL; // 0x88
 		::UnityEngine::GameObject* KHAGFEDMAJL; // 0x90
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::OpenWorld::StreamingItemData*>*>* NDKJNIGCMHJ; // 0x98
-		::System::Action* EIGCLBOEDIA; // 0xA0
+		::System::Action_4<::UnityEngine::RPGDensityMapGrassBlockData*, ::RPG::IReference*, ::LPBNBKGHOGA*, ::UnityEngine::GameObject*>* EIGCLBOEDIA; // 0xA0
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::RPGInstancedItemBlock*>* KLCMBFKHCPN; // 0xA8
 		::RPG::Client::OpenWorld::StreamingLayerSetting* MPFELNFKPOK; // 0xB0
 		::UnityEngine::GameObject* NNMFBJCIKGJ; // 0xB8
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::CFNALNFLBIN*>* HPFPOMCMEEK; // 0xC0
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>* ENJLNEADHIE; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action*>*>* DEIPKDCEMPF; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>*>*>* DEIPKDCEMPF; // 0xD0
 		::UnityEngine::GameObject* _GrassDebugRoot_k__BackingField; // 0xD8
 		::System::Collections::Generic::List_1<::GDMONJOAKHD*>* JNAEMKAJDOG; // 0xE0
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>*>* PONGCJLLEOI; // 0xE8
@@ -454,7 +457,7 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 		::RPG::GameCore::StageLodMapConfig* AHPDFDBDKHH; // 0x108
 		::RPG::GameCore::StageLodMapConfig* DOEFBHPBMJA; // 0x110
 		::RPG::GameCore::HoyoTagContainer* _HoyoTags_k__BackingField; // 0x118
-		::System::Action* PCFGGDGGAKC; // 0x120
+		::System::Action_4<::UnityEngine::RPGPointCloudGrassBlockData*, ::RPG::IReference*, ::LPBNBKGHOGA*, ::UnityEngine::GameObject*>* PCFGGDGGAKC; // 0x120
 		::RPG::GameCore::LodConfig* KAOCENDFFGI; // 0x128
 		::BMIKHDAIIMO* MBMOOMNODJG; // 0x130
 		::IAFKDONMBFH* IDPOLEBLHFK; // 0x138
@@ -471,7 +474,7 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 		::PLaneTSCControl* KAHKDONFAFC; // 0x190
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::GDMONJOAKHD*>* OEMOACIPDDO; // 0x198
 		::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>* DHEFLJBLLCE; // 0x1A0
-		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action*>*>*>* LODDDBOLMEB; // 0x1A8
+		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action_1<::HPKACEPPPCA*>*>*>*>* LODDDBOLMEB; // 0x1A8
 		::UnityEngine::GameObject* PLLIDIPDCFH; // 0x1B0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::OLMJHHNPJJH*>*>* GNIECLJEIMN; // 0x1B8
 		::UnityEngine::GameObject* NIPCOBCFJHJ; // 0x1C0
@@ -487,10 +490,10 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 		::UnityEngine::GameObject* HGNFIHNBMHA; // 0x210
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::CFNALNFLBIN*>* PEMEMOPCKHD; // 0x218
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::IAJPMNLEFLJ>* AANFBGLPJDL; // 0x220
-		::System::Action* MMGLGDLKFFG; // 0x228
+		::System::Action_2<::IAJPMNLEFLJ, ::System::Object*>* MMGLGDLKFFG; // 0x228
 		::UnityEngine::RPGInstancedItemBlock* KJEGMPNCGEH; // 0x230
 		::System::Collections::Concurrent::ConcurrentQueue_1<::GDMONJOAKHD*>* IBJJHINDOLA; // 0x238
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*>* JBFCACALCJB; // 0x240
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_1<::System::Boolean>*>* JBFCACALCJB; // 0x240
 		::System::Collections::Generic::HashSet_1<::KLEFGGIHGMI*>* HNMFLAFABFN; // 0x248
 		::System::Collections::Generic::List_1<::DBMBGHNGDCG*>* PEGFPNLDBHA; // 0x250
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* EDNPCHOIKMI; // 0x258
@@ -499,14 +502,14 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 		::INCHEAIJPMD* NPAPLMBKBCN; // 0x270
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::KGDADKNPPOL*>*>*>* HDGNPKDJBJD; // 0x278
 		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* HPMNCGKHLFF; // 0x280
-		::System::Action* BBNNDBPEBBL; // 0x288
+		::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* BBNNDBPEBBL; // 0x288
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* EBCPJNHABAB; // 0x290
 		::RPG::Client::OpenWorld::StreamingItemData* JIECOCAJOOE; // 0x298
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action*>*>* BDAEJAKPEDG; // 0x2A0
-		::System::Action* IIENBFMFLEI; // 0x2A8
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*>*>* BDAEJAKPEDG; // 0x2A0
+		::System::Action_2<::IRI_BuildingRendererList*, ::System::Object*>* IIENBFMFLEI; // 0x2A8
 		::System::Collections::Generic::Dictionary_2<::KLEFGGIHGMI*, ::UnityEngine::GameObject*>* JIAEOGBBGBC; // 0x2B0
 		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* HJCEPPKGHPO; // 0x2B8
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action*>*>* LPCACOOOFBA; // 0x2C0
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*>*>* LPCACOOOFBA; // 0x2C0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::GDMONJOAKHD*>* KFDJOGMMDEN; // 0x2C8
 		::System::Int32 BCBKJOIHLKP; // 0x2D0
 		::System::Boolean BEOMPIKPPEK; // 0x2D4
@@ -541,12 +544,12 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 		::RPG::Client::ReasonBool_1<::System::Object*> CAGBODEBAPF; // 0x330
 		::System::Int32 BCGKEEGOMMO; // 0x338
 		::UnityEngine::Rect BFCCIHMIPDC; // 0x33C
-		::System::Nullable* CPAKFKGNMKL; // 0x34C
+		::System::Nullable_1<::RPG::GameCore::RegionBlockVisibilityStatus> CPAKFKGNMKL; // 0x34C
 		::System::Int32 BFLEPAGEMMF; // 0x354
 		::RPG::Client::OpenWorld::BlockVisionState JAPKPCBMDED; // 0x358
 		::System::Single NKOABBCIAFO; // 0x35C
 		::System::Boolean AIJCHLKAJOP; // 0x360
-		::System::Nullable* NPOKNMPOLGC; // 0x361
+		::System::Nullable_1<::System::Boolean> NPOKNMPOLGC; // 0x361
 		::System::Boolean MMFFNJNAOID; // 0x363
 		::System::Boolean EDOKEFKGOAP; // 0x364
 		::System::Boolean _IsDynamicLoad_k__BackingField; // 0x365
@@ -564,7 +567,7 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 		::System::Int32 ODMMNGAKMAE; // 0x374
 		::RPG::Client::ReasonBool_1<::System::Object*> DOJFKNOFJHE; // 0x378
 		::System::Single JEDKCLEOHGH; // 0x380
-		::System::Nullable* LMHNHGOBMIG; // 0x384
+		::System::Nullable_1<::UnityEngine::Vector3> LMHNHGOBMIG; // 0x384
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_DFFMBBCEDAL()
 		{
 			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "KLEFGGIHGMI")->GetStaticField(0x5C4A0);
@@ -723,9 +726,9 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_AKNHCFBAAIB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LDFNKJKIECD(::RPG::Client::OpenWorld::StreamingItemData* a1, ::IRI_BaseBuildingCustomData* a2, ::System::Boolean a3, ::System::Action* a4)
+		::System::Void LDFNKJKIECD(::RPG::Client::OpenWorld::StreamingItemData* a1, ::IRI_BaseBuildingCustomData* a2, ::System::Boolean a3, ::System::Action_1<::System::Boolean>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::IRI_BaseBuildingCustomData*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_LDFNKJKIECD_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::IRI_BaseBuildingCustomData*, ::System::Boolean, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_LDFNKJKIECD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean OBEDNNJMFIB()
@@ -743,9 +746,9 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_CFBKCNMECAH_OFFSET))(this, a1);
 		}
 
-		::System::Void DDMLNMIFGNM(::RPG::Client::OpenWorld::StreamingItemData* a1, ::IRI_BaseBuildingCustomData* a2, ::System::Boolean a3, ::System::Action* a4)
+		::System::Void DDMLNMIFGNM(::RPG::Client::OpenWorld::StreamingItemData* a1, ::IRI_BaseBuildingCustomData* a2, ::System::Boolean a3, ::System::Action_1<::System::Boolean>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::IRI_BaseBuildingCustomData*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_DDMLNMIFGNM_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::IRI_BaseBuildingCustomData*, ::System::Boolean, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_DDMLNMIFGNM_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void CCEJBGMJLIA(::RPG::Client::OpenWorld::StreamingItemData* a1, ::CFNALNFLBIN* a2)
@@ -958,14 +961,14 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_DGGCAKFOBEK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void MFNMDGAOHDO(::RPG::Client::OpenWorld::StreamingInstanceNotifyType a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::System::Action* a3)
+		::System::Void MFNMDGAOHDO(::RPG::Client::OpenWorld::StreamingInstanceNotifyType a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::System::Action_1<::HPKACEPPPCA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_MFNMDGAOHDO_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_1<::HPKACEPPPCA*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_MFNMDGAOHDO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void AABGLENHGLJ(::RPG::Client::OpenWorld::StreamingInstanceNotifyType a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::System::Action* a3)
+		::System::Void AABGLENHGLJ(::RPG::Client::OpenWorld::StreamingInstanceNotifyType a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::System::Action_1<::HPKACEPPPCA*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_AABGLENHGLJ_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_1<::HPKACEPPPCA*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_AABGLENHGLJ_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void HDFCMIEPLKG(::RPG::Client::OpenWorld::StreamingInstanceNotifyType a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::HPKACEPPPCA* a3)
@@ -973,24 +976,24 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType, ::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_HDFCMIEPLKG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void NOHCJJFJHAD(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void NOHCJJFJHAD(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_NOHCJJFJHAD_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_NOHCJJFJHAD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BHAKMADEDLB(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void BHAKMADEDLB(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_BHAKMADEDLB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_BHAKMADEDLB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DDHDGOHAOGO(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void DDHDGOHAOGO(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_DDHDGOHAOGO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_DDHDGOHAOGO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GOICNLLKLNL(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void GOICNLLKLNL(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_GOICNLLKLNL_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_GOICNLLKLNL_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FNKMIDCMPKI(::HPKACEPPPCA* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
@@ -998,44 +1001,44 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID, ::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_FNKMIDCMPKI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NCKOBJHMKKC(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void NCKOBJHMKKC(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_NCKOBJHMKKC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_NCKOBJHMKKC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OHMDGCCHBKB(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void OHMDGCCHBKB(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_OHMDGCCHBKB_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_OHMDGCCHBKB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void MBBEMMCBDOH(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void MBBEMMCBDOH(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_MBBEMMCBDOH_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_MBBEMMCBDOH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LHOCHFDFAJC(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void LHOCHFDFAJC(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_LHOCHFDFAJC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_LHOCHFDFAJC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void NKGHPEKIOMC(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2)
+		::System::Void NKGHPEKIOMC(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_NKGHPEKIOMC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_NKGHPEKIOMC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void KHELPNJABGN(::System::Action* a1)
+		::System::Void KHELPNJABGN(::System::Action_4<::HPKACEPPPCA*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_KHELPNJABGN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_4<::HPKACEPPPCA*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_KHELPNJABGN_OFFSET))(this, a1);
 		}
 
-		::System::Void EMBFKFANKDB(::System::Action* a1)
+		::System::Void EMBFKFANKDB(::System::Action_4<::HPKACEPPPCA*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_EMBFKFANKDB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_4<::HPKACEPPPCA*, ::KLEFGGIHGMI*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingInstanceNotifyType>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_EMBFKFANKDB_OFFSET))(this, a1);
 		}
 
-		::System::Void BENMJGHMHDF(::System::Action* a1, ::System::Object* a2)
+		::System::Void BENMJGHMHDF(::System::Action_2<::HPKACEPPPCA*, ::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_BENMJGHMHDF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::HPKACEPPPCA*, ::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_BENMJGHMHDF_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void FHJLKIBONPH(::HPKACEPPPCA* a1)
@@ -1398,9 +1401,9 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_JGNDEDILKKP_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::OpenWorld::StreamingItemData* FDANEHCFDFP(::GEEOPFIMJEM a1, ::UnityEngine::GameObject* a2, ::System::Action* a3, ::System::Action* a4, ::System::Action* a5, ::System::Action* a6, ::System::Boolean a7, ::RPG::Client::OpenWorld::StreamingItemVisibleReason a8, ::System::Boolean a9)
+		::RPG::Client::OpenWorld::StreamingItemData* FDANEHCFDFP(::GEEOPFIMJEM a1, ::UnityEngine::GameObject* a2, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a3, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a4, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a5, ::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>* a6, ::System::Boolean a7, ::RPG::Client::OpenWorld::StreamingItemVisibleReason a8, ::System::Boolean a9)
 		{
-			return ((::RPG::Client::OpenWorld::StreamingItemData*(*)(::PVOID, ::GEEOPFIMJEM, ::UnityEngine::GameObject*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Boolean, ::RPG::Client::OpenWorld::StreamingItemVisibleReason, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_FDANEHCFDFP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::RPG::Client::OpenWorld::StreamingItemData*(*)(::PVOID, ::GEEOPFIMJEM, ::UnityEngine::GameObject*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Action_3<::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean, ::RPG::Client::OpenWorld::StreamingItemVisibleReason, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_FDANEHCFDFP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void IAFGKECIBHP(::RPG::Client::OpenWorld::StreamingItemData* a1)
@@ -1558,14 +1561,14 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::GameCore::BlockNodeConfig*, ::BJBDLDCDDJH*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_IKCKOOLOKMO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::GameObject* FHKKKJCOIMF(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action* a4, ::System::Boolean a5)
+		::UnityEngine::GameObject* FHKKKJCOIMF(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a4, ::System::Boolean a5)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_FHKKKJCOIMF_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_FHKKKJCOIMF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::UnityEngine::GameObject* NLHBHEJPHLE(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Boolean a2, ::System::Action* a3, ::System::Boolean a4)
+		::UnityEngine::GameObject* NLHBHEJPHLE(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Boolean a2, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Boolean, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_NLHBHEJPHLE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Boolean, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_NLHBHEJPHLE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ACOFLHCLIHA(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
@@ -1573,19 +1576,19 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_ACOFLHCLIHA_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::GameObject* GIGDJAMEEFE(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Boolean a2, ::System::Action* a3, ::System::Boolean a4)
+		::UnityEngine::GameObject* GIGDJAMEEFE(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Boolean a2, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a3, ::System::Boolean a4)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Boolean, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_GIGDJAMEEFE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Boolean, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_GIGDJAMEEFE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::HPKACEPPPCA* MOOIBKEMEPE(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action* a4, ::System::Boolean a5)
+		::HPKACEPPPCA* MOOIBKEMEPE(::System::String* a1, ::System::String* a2, ::System::Boolean a3, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>* a4, ::System::Boolean a5)
 		{
-			return ((::HPKACEPPPCA*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_MOOIBKEMEPE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::HPKACEPPPCA*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_MOOIBKEMEPE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void PMALINAFGJC(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void PMALINAFGJC(::System::String* a1, ::System::String* a2, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_PMALINAFGJC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_2<::HPKACEPPPCA*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_PMALINAFGJC_OFFSET))(this, a1, a2, a3);
 		}
 
 		::HPKACEPPPCA* GNLFKIMFACE(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Boolean a2, ::System::Boolean a3)
@@ -1628,9 +1631,9 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_CFICBMINNPG_OFFSET))(this);
 		}
 
-		::System::Void GGCMDOKNNKK(::System::String* a1, ::System::String* a2, ::System::Action* a3)
+		::System::Void GGCMDOKNNKK(::System::String* a1, ::System::String* a2, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_GGCMDOKNNKK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_GGCMDOKNNKK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean KDBCKDEOCGB(::System::String* a1)
@@ -1653,9 +1656,9 @@ inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_JHLEGDIMNJG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean DEFPLILGPEP(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action* a2, ::System::Boolean a3)
+		::System::Boolean DEFPLILGPEP(::RPG::Client::OpenWorld::StreamingItemData* a1, ::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_DEFPLILGPEP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Action_1<::RPG::Client::OpenWorld::StreamingItemData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + KLEFGGIHGMI_DEFPLILGPEP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CLDCHJOICFE(::GDMONJOAKHD* a1)

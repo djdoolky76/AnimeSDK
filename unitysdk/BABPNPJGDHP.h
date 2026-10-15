@@ -4,7 +4,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/MHIDMJPLGCK.h"
 #include "unitysdk/RPG/MVector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class BattleInstance; }
@@ -45,14 +46,14 @@ inline static constexpr unsigned int BABPNPJGDHP_TypeDefinitionIndex = 59050;
 			return ((::System::Void(*)(::RPG::GameCore::SetSkillTargetFormationByPos*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + BABPNPJGDHP_DHONNHOODAM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::ValueTuple KBOJFONKFKN(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetSkillTargetFormationByPos* a2)
+		static ::System::ValueTuple_3<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*> KBOJFONKFKN(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetSkillTargetFormationByPos* a2)
 		{
-			return ((::System::ValueTuple(*)(::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetSkillTargetFormationByPos*))((::PBYTE)hIl2Cpp + BABPNPJGDHP_KBOJFONKFKN_OFFSET))(a1, a2);
+			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*>(*)(::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetSkillTargetFormationByPos*))((::PBYTE)hIl2Cpp + BABPNPJGDHP_KBOJFONKFKN_OFFSET))(a1, a2);
 		}
 
-		static ::System::ValueTuple GAHADFLFOPF(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
+		static ::System::ValueTuple_2<::UnityEngine::Vector3, ::System::Single> GAHADFLFOPF(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
 		{
-			return ((::System::ValueTuple(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + BABPNPJGDHP_GAHADFLFOPF_OFFSET))(a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::System::Single>(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + BABPNPJGDHP_GAHADFLFOPF_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void HKCMAOOBLLO(::System::Collections::Generic::LinkedList_1<::RPG::GameCore::TargetFormationPosConfig*>* a1, ::System::Collections::Generic::LinkedListNode_1<::RPG::GameCore::TargetFormationPosConfig*>* a2, ::System::Collections::Generic::LinkedList_1<::System::Object*>* a3, ::System::Collections::Generic::LinkedListNode_1<::System::Object*>* a4, ::System::String* a5)

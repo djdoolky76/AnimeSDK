@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -329,9 +329,9 @@ inline static constexpr unsigned int GNDDDDKENPN_TypeDefinitionIndex = 35306;
 			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + GNDDDDKENPN_GJPOPKDOGCG_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void BELLDPFNFFE(::System::String* a1, ::System::String* a2, ::System::Action* a3, ::System::Action* a4, ::System::Boolean a5, ::System::Boolean a6)
+		static ::System::Void BELLDPFNFFE(::System::String* a1, ::System::String* a2, ::System::Action_3<::System::String*, ::System::String*, ::System::String*>* a3, ::System::Action_3<::System::String*, ::System::String*, ::System::String*>* a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Action*, ::System::Action*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + GNDDDDKENPN_BELLDPFNFFE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::Action_3<::System::String*, ::System::String*, ::System::String*>*, ::System::Action_3<::System::String*, ::System::String*, ::System::String*>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + GNDDDDKENPN_BELLDPFNFFE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Void EAANCKCFANB(::System::String* a1, ::System::String* a2, ::System::String* a3)

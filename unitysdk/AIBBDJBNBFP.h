@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BehaviorBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client { class MonoEffectPluginFollow; }
 namespace RPG::Client { class MonoEffectPluginMiniEmotion; }
 namespace RPG::Client { class MonoEffectPluginSpeed; }
 namespace RPG::GameCore { class MiniEmoEffectNodeVisible; }
-namespace System { class Nullable; }
 namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class Transform; }
 
@@ -43,7 +43,7 @@ inline static constexpr unsigned int AIBBDJBNBFP_TypeDefinitionIndex = 69884;
 		::Il2CppArray<::RPG::GameCore::MiniEmoEffectNodeVisible*>* GMIPMLJCGDL; // 0x20
 		::RPG::Client::MonoEffectPluginSpeed* PPNEIMDNODI; // 0x28
 		::UnityEngine::Transform* DEFLGFOEDKH; // 0x30
-		::System::Nullable* PEHHBBNAMEH; // 0x38
+		::System::Nullable_1<::UnityEngine::Vector3> PEHHBBNAMEH; // 0x38
 		::System::Byte _padding0[0x8];
 		::UnityEngine::Vector3 PLFKKPELEOE; // 0x48
 		::System::Single GDDJJEPKLEF; // 0x54
@@ -109,9 +109,9 @@ inline static constexpr unsigned int AIBBDJBNBFP_TypeDefinitionIndex = 69884;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AIBBDJBNBFP_FBAKJMJKONO_OFFSET))(this, a1);
 		}
 
-		::System::Void PKPLHGDGOEI(::System::Nullable* a1)
+		::System::Void PKPLHGDGOEI(::System::Nullable_1<::UnityEngine::Vector3> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + AIBBDJBNBFP_PKPLHGDGOEI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + AIBBDJBNBFP_PKPLHGDGOEI_OFFSET))(this, a1);
 		}
 
 		::System::Void DLAILGNMFGI()

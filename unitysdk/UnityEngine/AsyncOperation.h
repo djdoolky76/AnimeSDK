@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/GCFreeClosure/ClosureEvent_1.h"
 #include "unitysdk/UnityEngine/YieldInstruction.h"
 #include "unitysdk/UnityEngine/GCFreeClosure/ActionClosure_1.h"
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AsyncOperation; }
 
 #define UNITYENGINE_ASYNCOPERATION_ADDCOMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F3D2E90)
@@ -91,14 +91,14 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GCFreeClosure::ActionClosure_1<::UnityEngine::AsyncOperation*>))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_REMOVECOMPLETIONCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void add_completed(::System::Action* a1)
+		::System::Void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_ADD_COMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::AsyncOperation*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_ADD_COMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_completed(::System::Action* a1)
+		::System::Void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_REMOVE_COMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::AsyncOperation*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASYNCOPERATION_REMOVE_COMPLETED_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetCompletionCallback()

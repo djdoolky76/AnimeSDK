@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::GameCore { class BaseChimeraDuelNode; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
@@ -19,9 +19,9 @@ inline static constexpr unsigned int GMOJFIOPIAD___c__DisplayClass2_0_TypeDefini
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GMOJFIOPIAD___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __EvaluateParallel_b__0(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __EvaluateParallel_b__0(::System::ValueTuple_2<::System::Single, ::RPG::GameCore::BaseChimeraDuelNode*> a1, ::System::ValueTuple_2<::System::Single, ::RPG::GameCore::BaseChimeraDuelNode*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + GMOJFIOPIAD___C__DISPLAYCLASS2_0___EVALUATEPARALLEL_B__0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Single, ::RPG::GameCore::BaseChimeraDuelNode*>, ::System::ValueTuple_2<::System::Single, ::RPG::GameCore::BaseChimeraDuelNode*>))((::PBYTE)hIl2Cpp + GMOJFIOPIAD___C__DISPLAYCLASS2_0___EVALUATEPARALLEL_B__0_OFFSET))(this, a1, a2);
 		}
 
 	};

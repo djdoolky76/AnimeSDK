@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/IGKFNIEJGLM.h"
 class DJMGAAHIMOJ;
 class HDPEJIGDNJB;
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Text; }
 
@@ -32,7 +32,7 @@ inline static constexpr unsigned int NBHMOHHHPNL_TypeDefinitionIndex = 71982;
 		::System::Action* JCBDGHIAAOM; // 0x80
 		::System::Boolean EINNACFPAEN; // 0x88
 		::System::Byte _padding0[0x3];
-		::System::Nullable* DIABMCKDNEM; // 0x8C
+		::System::Nullable_1<::System::UInt32> DIABMCKDNEM; // 0x8C
 		// static const ::System::String* IFFHPIAGJMC; // 0x0
 		::System::Void _ctor()
 		{

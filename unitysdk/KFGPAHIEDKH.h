@@ -3,14 +3,14 @@
 #include "unitysdk/FJPMJPEKLJL.h"
 #include "unitysdk/RPG/Client/Multiplayer/MPInviteType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/Nullable_1.h"
 class JFEFMEHKHOO;
 class KFGPAHIEDKH_KNNNDNBDCCN;
 class KPILKHOIGKH;
 namespace RPG::Client { class ChatMessageData; }
 namespace RPG::Client { class ChatMessageInviteData; }
 namespace RPG::Client { class UIController; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -58,7 +58,7 @@ inline static constexpr unsigned int KFGPAHIEDKH_TypeDefinitionIndex = 80259;
 		::KPILKHOIGKH* OKLFDLDKNHA; // 0x10
 		::System::Collections::Generic::Dictionary_2<::FJPMJPEKLJL, ::KPILKHOIGKH*>* BHPIMJDCLGB; // 0x18
 		::System::Collections::Generic::List_1<::System::Object*>* FPKDFKFDHPG; // 0x20
-		::System::Collections::Generic::Queue_1<::System::ValueTuple>* CMJGPOILMHG; // 0x28
+		::System::Collections::Generic::Queue_1<::System::ValueTuple_2<::RPG::Client::ChatMessageData*, ::KPILKHOIGKH*>>* CMJGPOILMHG; // 0x28
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::Multiplayer::MPInviteType, ::JFEFMEHKHOO*>* OJKMPJLPDEB; // 0x30
 		::RPG::Client::UIController* KBDCAPGKEME; // 0x38
 		::System::Int32 JCCDLLNLEEN; // 0x40
@@ -119,9 +119,9 @@ inline static constexpr unsigned int KFGPAHIEDKH_TypeDefinitionIndex = 80259;
 			return ((::JFEFMEHKHOO*(*)(::PVOID, ::RPG::Client::ChatMessageData*))((::PBYTE)hIl2Cpp + KFGPAHIEDKH_CNDJJBCPJLK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* MCKFJOKPECF(::RPG::Client::ChatMessageData* a1)
+		::System::Nullable_1<::RPG::Client::Multiplayer::MPInviteType> MCKFJOKPECF(::RPG::Client::ChatMessageData* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::Client::ChatMessageData*))((::PBYTE)hIl2Cpp + KFGPAHIEDKH_MCKFJOKPECF_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::Multiplayer::MPInviteType>(*)(::PVOID, ::RPG::Client::ChatMessageData*))((::PBYTE)hIl2Cpp + KFGPAHIEDKH_MCKFJOKPECF_OFFSET))(this, a1);
 		}
 
 		::System::Boolean HLPCOGPMNEM(::RPG::Client::ChatMessageData* a1)

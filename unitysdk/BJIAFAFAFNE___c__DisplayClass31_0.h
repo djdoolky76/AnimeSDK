@@ -7,6 +7,7 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define BJIAFAFAFNE___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A06C0)
 #define BJIAFAFAFNE___C__DISPLAYCLASS31_0___ASYNCSWITCHSECTIONUI_B__0_OFFSET UNITYSDK_OFFSET(0xB7A08E0)
@@ -24,7 +25,7 @@ inline static constexpr unsigned int BJIAFAFAFNE___c__DisplayClass31_0_TypeDefin
 		::Il2CppArray<::System::Object*>* args; // 0x10
 		::System::Action* __9__4; // 0x18
 		::RPG::Client::LuaUIGameFlowContext* nextUIContext; // 0x20
-		::System::Action* __9__5; // 0x28
+		::System::Action_1<::System::Exception*>* __9__5; // 0x28
 		::RPG::Client::LuaUIGameFlowContext* lastUIContext; // 0x30
 		::System::String* uiName; // 0x38
 		::RPG::Client::Promises::Promise* result; // 0x40

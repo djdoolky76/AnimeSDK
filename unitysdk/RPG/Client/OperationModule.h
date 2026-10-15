@@ -8,8 +8,8 @@ class HKNBPHAJEJF;
 namespace RPG::Client { class AnnounceData; }
 namespace RPG::Client { class AuthKeyData; }
 namespace RPG::Client { class MessageSectionData; }
-namespace RPG::Client::Promises { class IPromise; }
-namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -64,7 +64,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* _ActivityServerRedDotContentIDs; // 0x10
 		::RPG::Client::AuthKeyData* _AuthKeyData_k__BackingField; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* _ActivityPlayerRedDotContentIDs; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Promises::Promise*>* _AuthKeyPromises; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Promises::Promise_1<::System::String*>*>* _AuthKeyPromises; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::AnnounceData*>* AnnounceDataList; // 0x30
 		::System::Int32 _IMRedDotType; // 0x38
 		::System::Boolean _WebToolHasRedDot_k__BackingField; // 0x3C
@@ -197,14 +197,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE_ONRECONNECT_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::Promise* GetAuthKeyPromise(::System::String* a1, ::System::String* a2, ::System::String* a3)
+		::RPG::Client::Promises::Promise_1<::System::String*>* GetAuthKeyPromise(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE_GETAUTHKEYPROMISE_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::Promise_1<::System::String*>*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE_GETAUTHKEYPROMISE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* SetupHttpAuthKeyPromised(::GHHJNCOAIJF* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
+		::RPG::Client::Promises::IPromise_1<::GHHJNCOAIJF*>* SetupHttpAuthKeyPromised(::GHHJNCOAIJF* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GHHJNCOAIJF*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE_SETUPHTTPAUTHKEYPROMISED_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::Promises::IPromise_1<::GHHJNCOAIJF*>*(*)(::PVOID, ::GHHJNCOAIJF*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE_SETUPHTTPAUTHKEYPROMISED_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ReportMessageSent(::RPG::Client::MessageSectionData* a1, ::System::UInt32 a2)
@@ -262,9 +262,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::AuthKeyData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE_SET_AUTHKEYDATA_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::Promises::IPromise* _PrepareHttpRequest(::GHHJNCOAIJF* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
+		static ::RPG::Client::Promises::IPromise_1<::GHHJNCOAIJF*>* _PrepareHttpRequest(::GHHJNCOAIJF* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::GHHJNCOAIJF*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE__PREPAREHTTPREQUEST_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::Client::Promises::IPromise_1<::GHHJNCOAIJF*>*(*)(::GHHJNCOAIJF*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE__PREPAREHTTPREQUEST_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void SendUseCDKeyHttpReq(::System::String* a1)

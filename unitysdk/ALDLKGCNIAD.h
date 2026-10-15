@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class ALDLKGCNIAD;
 class JBOLKLEHLME;
 class JNJPJOPEDHP;
 namespace RPG::GameCore { class FiveDimMapFaceConfig; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -59,9 +59,9 @@ inline static constexpr unsigned int ALDLKGCNIAD_TypeDefinitionIndex = 74664;
 			return ((::ALDLKGCNIAD*(*)(::RPG::GameCore::FiveDimMapFaceConfig*))((::PBYTE)hIl2Cpp + ALDLKGCNIAD_BPLPBPMEODA_OFFSET))(a1);
 		}
 
-		::System::Nullable* IHMEEFIMGJE(::UnityEngine::Vector3 a1)
+		::System::Nullable_1<::System::UInt32> IHMEEFIMGJE(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ALDLKGCNIAD_IHMEEFIMGJE_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ALDLKGCNIAD_IHMEEFIMGJE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean PILHDOLMJLN(::RPG::MVector2 a1, ::Il2CppArray<::RPG::MVector2>* a2, ::Il2CppArray<::System::UInt32>* a3)

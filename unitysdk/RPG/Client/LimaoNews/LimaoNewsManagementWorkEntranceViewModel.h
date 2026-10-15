@@ -14,9 +14,9 @@ namespace RPG::Client::LimaoNews { class LimaoNewsPlanService; }
 namespace RPG::Client::LimaoNews { class LimaoNewsPlanStateRefreshMessage; }
 namespace RPG::Client::LimaoNews { class LimaoNewsWindowService; }
 namespace Sofa::Core { class SimpleCommand; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xD3C1940)
@@ -60,7 +60,7 @@ namespace RPG::Client::LimaoNews
 	public:
 		::RPG::Client::LimaoNews::LimaoNewsOfferingService* _OfferingService; // 0x20
 		::KFBPMGMFPLG* _EmployeeCheckService; // 0x28
-		::System::Action* _OnPlanStateRefreshCallback; // 0x30
+		::System::Action_1<::RPG::Client::LimaoNews::LimaoNewsPlanStateRefreshMessage*>* _OnPlanStateRefreshCallback; // 0x30
 		::Sofa::Core::SimpleCommand* _OnRecruitCommand; // 0x38
 		::RPG::Client::LimaoNews::LimaoNewsWindowService* _WindowService; // 0x40
 		::Sofa::Core::SimpleCommand* _OnClickCommand; // 0x48
@@ -139,9 +139,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL__REFRESHCURRENTPLANSTATE_OFFSET))(this);
 		}
 
-		::System::Void RegisterPlanStateRefreshCallback(::System::Action* a1)
+		::System::Void RegisterPlanStateRefreshCallback(::System::Action_1<::RPG::Client::LimaoNews::LimaoNewsPlanStateRefreshMessage*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL_REGISTERPLANSTATEREFRESHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::LimaoNews::LimaoNewsPlanStateRefreshMessage*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL_REGISTERPLANSTATEREFRESHCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void UnregisterPlanStateRefreshCallback()
@@ -149,9 +149,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL_UNREGISTERPLANSTATEREFRESHCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void RegisterPlanPhaseTypeChangeCallback(::System::Action* a1)
+		::System::Void RegisterPlanPhaseTypeChangeCallback(::System::Action_1<::RPG::Client::LimaoNews::LimaoNewsPlanStateRefreshMessage*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL_REGISTERPLANPHASETYPECHANGECALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::LimaoNews::LimaoNewsPlanStateRefreshMessage*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSMANAGEMENTWORKENTRANCEVIEWMODEL_REGISTERPLANPHASETYPECHANGECALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void UnregisterPlanPhaseTypeChangeCallback()

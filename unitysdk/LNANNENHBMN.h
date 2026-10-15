@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/MechCraft/MechCraftBanCellAxesDirectionType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
+#include "unitysdk/System/Nullable_1.h"
 class EJKOGGEFCIF;
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define LNANNENHBMN_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D5A90)
@@ -37,14 +37,14 @@ inline static constexpr unsigned int LNANNENHBMN_TypeDefinitionIndex = 80087;
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + LNANNENHBMN_MJGKNFEILLI_OFFSET))(this);
 		}
 
-		::System::Nullable* KNKFEACDEAP()
+		::System::Nullable_1<::System::Int32> KNKFEACDEAP()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LNANNENHBMN_KNKFEACDEAP_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + LNANNENHBMN_KNKFEACDEAP_OFFSET))(this);
 		}
 
-		::System::Nullable* FKICOOCBGEF()
+		::System::Nullable_1<::System::Int32> FKICOOCBGEF()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + LNANNENHBMN_FKICOOCBGEF_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + LNANNENHBMN_FKICOOCBGEF_OFFSET))(this);
 		}
 
 		::RPG::Client::MechCraft::MechCraftBanCellAxesDirectionType NFEPDDEKGLN()

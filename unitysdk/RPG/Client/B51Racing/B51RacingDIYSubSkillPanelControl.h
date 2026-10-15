@@ -13,8 +13,8 @@ namespace RPG::Client { class StaticListViewItem; }
 namespace RPG::Client::B51Racing { class B51RacingCarTargetPartIconLiteControl; }
 namespace RPG::Client::B51Racing { class LuaControllerHandle; }
 namespace RPG::UINavigation { class UINavigationZoneManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
@@ -64,8 +64,8 @@ namespace RPG::Client::B51Racing
 		::UnityEngine::Transform* _CurrentSelectSlotTypeIconNode; // 0x78
 		::RPG::Client::B51Racing::B51RacingCarTargetPartIconLiteControl* _CurrentSelectSlotTypeIcon; // 0x80
 		::RPG::Client::LocalizedText* _TitleText; // 0x88
-		::System::Action* OnPartSelected; // 0x90
-		::System::Action* OnSlotSelected; // 0x98
+		::System::Action_1<::System::UInt32>* OnPartSelected; // 0x90
+		::System::Action_1<::RPG::GameCore::B51RacingPartType>* OnSlotSelected; // 0x98
 		::System::Boolean _TrailListInitialized; // 0xA0
 		::System::Boolean _SlotListInitialized; // 0xA1
 		::System::Byte _padding0[0x6];

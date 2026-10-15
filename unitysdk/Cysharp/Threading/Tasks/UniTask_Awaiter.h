@@ -3,6 +3,7 @@
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_CTOR_OFFSET UNITYSDK_OFFSET(0x2EDDF70)
 #define CYSHARP_THREADING_TASKS_UNITASK_AWAITER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x3C5EF30)
@@ -45,9 +46,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_AWAITER_UNSAFEONCOMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void SourceOnCompleted(::System::Action* a1, ::System::Object* a2)
+		::System::Void SourceOnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_AWAITER_SOURCEONCOMPLETED_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_AWAITER_SOURCEONCOMPLETED_OFFSET))(this, a1, a2);
 		}
 
 	};

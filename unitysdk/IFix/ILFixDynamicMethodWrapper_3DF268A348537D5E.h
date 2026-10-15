@@ -256,6 +256,7 @@
 #include "unitysdk/CriWare/CriMana/EventPoint.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/DACDFPKGELK.h"
 #include "unitysdk/DAFINEMBGOK.h"
 #include "unitysdk/DBENHLHHAJK.h"
@@ -1008,17 +1009,22 @@
 #include "unitysdk/StageHarmonyLightModLinkSlot_DJLPONHKPCL.h"
 #include "unitysdk/SuperScrollView/LoopListView2_PredictSnapValue.h"
 #include "unitysdk/SuperScrollView/RowColumnPair.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Numerics/BigInteger.h"
 #include "unitysdk/System/Reflection/Emit/OpCode.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
 #include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
 #include "unitysdk/System/TimeSpan.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
+#include "unitysdk/System/ValueTuple_4.h"
+#include "unitysdk/System/ValueTuple_5.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/AI/NavMeshHit.h"
 #include "unitysdk/UnityEngine/AI/NavMeshLinkData.h"
@@ -1857,7 +1863,7 @@ namespace ParticleRecorder { class BackwardParticlesInfoSO; }
 namespace Proto { class BuyGoodsScRsp; }
 namespace Proto { class ItemCost; }
 namespace Proto { class ItemList; }
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::AvatarSystem { class Avatar; }
@@ -2521,6 +2527,7 @@ namespace RPG::Client::PixAir { class PixAirStageData; }
 namespace RPG::Client::PixAir { class PixAirTalentData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::Client::Prop { class ChimeraDuelBattlePrefabConfig_Master; }
 namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace RPG::Client::Prop { class ChimeraDuelChimeraModelView; }
@@ -2716,12 +2723,11 @@ namespace SuperScrollView { class LoopStaggeredGridView; }
 namespace SuperScrollView { class LoopStaggeredGridViewItem; }
 namespace System { class Action; }
 namespace System { class Exception; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Tuple; }
 namespace System { class Type; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
@@ -2731,8 +2737,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
-namespace System::Collections::Immutable { class ImmutableHashSet; }
 namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
+namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace System::Diagnostics { class StackFrame; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
@@ -12659,14 +12665,14 @@ namespace IFix
 			return ((::System::Single(*)(::PVOID, ::System::Object*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_34_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_35(::System::Object* a1, ::System::Single a2)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> __Gen_Wrap_35(::System::Object* a1, ::System::Single a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_35_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_35_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_36(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::System::Boolean, ::System::Single> __Gen_Wrap_36(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_36_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Single>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_36_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single __Gen_Wrap_37(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Single a4)
@@ -12984,14 +12990,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_99_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_100(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Single a4, ::System::Nullable* a5)
+		::System::Void __Gen_Wrap_100(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Single a4, ::System::Nullable_1<::UnityEngine::Vector3> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_100_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_100_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_101(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Single a4, ::System::Nullable* a5, ::System::Int32 a6)
+		::System::Void __Gen_Wrap_101(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Single a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Single, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_101_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_101_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_102(::System::Int32 a1, ::System::Boolean a2)
@@ -13259,9 +13265,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_154_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_155(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::AMNPGECIPHB> __Gen_Wrap_155(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_155_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::AMNPGECIPHB>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_155_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_156(::System::Object* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Object* a4)
@@ -13469,9 +13475,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_196_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_197(::System::Object* a1)
+		::System::ValueTuple_2<::System::Object*, ::System::String*> __Gen_Wrap_197(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_197_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Object*, ::System::String*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_197_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_198(::System::Object* a1, ::RPG::GameCore::StringHash a2, ::System::Object* a3)
@@ -14154,9 +14160,9 @@ namespace IFix
 			return ((::RPG::MVector3(*)(::PVOID, ::System::Object*, ::RPG::MVector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_333_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 __Gen_Wrap_334(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::UnityEngine::Vector3 __Gen_Wrap_334(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_334_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_334_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* __Gen_Wrap_335(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::String* a6)
@@ -14249,9 +14255,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_352_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_353(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8)
+		::System::Void __Gen_Wrap_353(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Nullable_1<::UnityEngine::Quaternion> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_353_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_353_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void __Gen_Wrap_354(::System::Object* a1, ::AACNFLDFDOH a2, ::System::Object* a3, ::System::Single a4)
@@ -14339,9 +14345,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_370_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_371(::System::Object* a1)
+		::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>*> __Gen_Wrap_371(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_371_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_371_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 __Gen_Wrap_372(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
@@ -14514,9 +14520,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::OEPIJBDIDIC, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_405_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_406(::System::Object* a1)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __Gen_Wrap_406(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_406_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_406_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_407(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5)
@@ -14534,9 +14540,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_409_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_410(::System::Object* a1)
+		::System::ValueTuple_2<::System::String*, ::System::String*> __Gen_Wrap_410(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_410_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_410_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_411(::DNFDBKCPBNM a1)
@@ -14549,9 +14555,9 @@ namespace IFix
 			return ((::DNFDBKCPBNM(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_412_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_413(::System::Object* a1)
+		::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType> __Gen_Wrap_413(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_413_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_413_OFFSET))(this, a1);
 		}
 
 		::APCGKBOPGJL __Gen_Wrap_414(::OIPMNNAHIFP a1)
@@ -14594,14 +14600,14 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::APCGKBOPGJL))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_421_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_422(::System::Object* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType> __Gen_Wrap_422(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_422_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_422_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_423(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType> __Gen_Wrap_423(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_423_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GenderType, ::RPG::GameCore::AvatarBaseType>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_423_OFFSET))(this, a1, a2);
 		}
 
 		::AHHNGJGLOKA __Gen_Wrap_424(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
@@ -15014,9 +15020,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::GEEOPFIMJEM))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_505_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_506(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::UnityEngine::Vector3> __Gen_Wrap_506(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_506_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_506_OFFSET))(this, a1, a2);
 		}
 
 		::OEEAAJCBNIJ __Gen_Wrap_507(::GEEOPFIMJEM a1)
@@ -15319,9 +15325,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_566_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Boolean __Gen_Wrap_567(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Boolean __Gen_Wrap_567(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_567_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_567_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_568(::UnityEngine::RPGPointCloudGrassBlockData* a1)
@@ -15424,9 +15430,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::LKLOMEEPIEM))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_587_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_588(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable* a4, ::System::Boolean a5)
+		::System::Void __Gen_Wrap_588(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable_1<::LKLOMEEPIEM> a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_588_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_588_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void __Gen_Wrap_589(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5)
@@ -15434,9 +15440,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_589_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_590(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Object* a4, ::System::Nullable* a5, ::System::Boolean a6)
+		::System::Void __Gen_Wrap_590(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Object* a4, ::System::Nullable_1<::LKLOMEEPIEM> a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_590_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_590_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::BPFKOIIMKBG __Gen_Wrap_591(::System::Single a1)
@@ -15449,9 +15455,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_592_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_593(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_593(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable_1<::LKLOMEEPIEM> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_593_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable_1<::LKLOMEEPIEM>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_593_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_594(::System::Object* a1, ::System::Object* a2, ::BPFKOIIMKBG a3)
@@ -15564,9 +15570,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector2, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_615_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void __Gen_Wrap_616(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Boolean a4, ::System::Object* a5, ::System::Object* a6, ::System::Collections::Generic::KeyValuePair* a7)
+		::System::Void __Gen_Wrap_616(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Boolean a4, ::System::Object* a5, ::System::Object* a6, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*> a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Object*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_616_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Object*, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_616_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void __Gen_Wrap_617(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Boolean a4, ::System::Single a5, ::System::Boolean a6)
@@ -15804,9 +15810,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_663_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_664(::System::Int32 a1, ::System::Object* a2)
+		::System::ValueTuple_2<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*>*> __Gen_Wrap_664(::System::Int32 a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_664_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*>*>(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_664_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_665(::System::Object* a1, ::System::Object* a2, ::System::UInt32 a3)
@@ -16564,9 +16570,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Int32, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_815_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Single __Gen_Wrap_816(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Single __Gen_Wrap_816(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3> a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_816_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_816_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector4 __Gen_Wrap_817(::System::Object* a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion a3)
@@ -17224,9 +17230,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::KJCHLFOFENJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_947_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_948(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_948(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable_1<::System::Single> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_948_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_948_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean __Gen_Wrap_949(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
@@ -17239,9 +17245,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_950_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_951(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::Boolean a6, ::System::Nullable* a7, ::System::Boolean a8, ::System::Object* a9)
+		::System::Void __Gen_Wrap_951(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::Boolean a6, ::System::Nullable_1<::UnityEngine::Vector2> a7, ::System::Boolean a8, ::System::Object* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Nullable*, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_951_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector2>, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_951_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Boolean __Gen_Wrap_952(::System::Object* a1, ::System::Object* a2, ::System::Double a3)
@@ -17289,9 +17295,9 @@ namespace IFix
 			return ((::IMOHEHDKGPK(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_960_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_961(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable* a4, ::System::Boolean a5, ::System::Nullable* a6, ::System::Boolean a7)
+		::System::Void __Gen_Wrap_961(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable_1<::LKLOMEEPIEM> a4, ::System::Boolean a5, ::System::Nullable_1<::System::Single> a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable*, ::System::Boolean, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_961_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_961_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::String* __Gen_Wrap_962(::RPGTools::Timeline::AniamtorControlConfig* a1)
@@ -17309,9 +17315,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_964_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_965(::System::Object* a1, ::System::Nullable* a2, ::System::Object* a3)
+		::System::Void __Gen_Wrap_965(::System::Object* a1, ::System::Nullable_1<::UnityEngine::Vector3> a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_965_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_965_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPGTools::Timeline::CRPCameraBackgroundData __Gen_Wrap_966()
@@ -17404,9 +17410,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::GEEOPFIMJEM, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_983_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_984(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> __Gen_Wrap_984(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_984_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_984_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_985(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Collider* a4, ::RPG::Client::MonoTriggerRegion* a5)
@@ -17604,9 +17610,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::EBNGNFMMPLJ, ::System::Single, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1023_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_1024(::System::Object* a1, ::System::Nullable* a2, ::System::Boolean a3, ::System::Boolean a4)
+		::System::Void __Gen_Wrap_1024(::System::Object* a1, ::System::Nullable_1<::LODKHMFCLOG> a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1024_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::LODKHMFCLOG>, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1024_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_1025(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4)
@@ -17689,9 +17695,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1040_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_1041(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_1041(::System::Object* a1, ::System::Nullable_1<::RPG::GameCore::TimeRewindState> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1041_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::TimeRewindState>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1041_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_1042(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Object* a4, ::System::Object* a5)
@@ -17969,9 +17975,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::RPG::GameCore::AdvEffectConfig*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1096_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_1097(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_1097(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::System::Boolean> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1097_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1097_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_1098(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Object* a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Object* a7, ::System::Object* a8, ::System::Object* a9)
@@ -18079,9 +18085,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::LookAtTiltData, ::System::Single, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1118_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_1119(::System::Object* a1, ::System::Int32 a2, ::System::Double a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		::System::Void __Gen_Wrap_1119(::System::Object* a1, ::System::Int32 a2, ::System::Double a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::UnityEngine::Quaternion> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Double, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1119_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Double, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1119_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void __Gen_Wrap_1120(::System::Object* a1, ::UnityEngine::Playables::Playable a2, ::System::Double a3, ::System::Int32 a4)
@@ -18104,9 +18110,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1123_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple __Gen_Wrap_1124(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Int32 a6, ::System::Int32 a7)
+		::System::ValueTuple_3<::UnityEngine::Vector3, ::System::Single, ::System::Single> __Gen_Wrap_1124(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Int32 a6, ::System::Int32 a7)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1124_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::System::Single, ::System::Single>(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1124_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Single __Gen_Wrap_1125(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Int32 a7)
@@ -18369,9 +18375,9 @@ namespace IFix
 			return ((::ADHEOIELCKB_NIEDLNHBNAM(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1176_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_1177(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_1177(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1177_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1177_OFFSET))(this, a1, a2, a3);
 		}
 
 		::EAPGFKLGCDH __Gen_Wrap_1178(::System::Object* a1)
@@ -18384,9 +18390,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1179_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Nullable* __Gen_Wrap_1180(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::System::Boolean> __Gen_Wrap_1180(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1180_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1180_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_1181(::System::Object* a1, ::RPGTools::Timeline::StoryLightCharacterGroup a2)
@@ -18504,9 +18510,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::Discussion::RelativeTransform))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1203_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_1204(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*> __Gen_Wrap_1204(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1204_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1204_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_1205(::FNALLJBLNEI a1, ::System::Object* a2)
@@ -18629,9 +18635,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::RPG::Client::TextID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1228_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple __Gen_Wrap_1229(::System::Object* a1)
+		::System::ValueTuple_2<::RPG::GameCore::UseSkillErrorCode, ::System::String*> __Gen_Wrap_1229(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1229_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::UseSkillErrorCode, ::System::String*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1229_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::SkillCharacterComponent_UseSkillErrorInfo __Gen_Wrap_1230(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Boolean a4, ::System::Boolean a5)
@@ -19064,9 +19070,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1315_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_1316(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_1316(::System::Object* a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1316_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1316_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_1317(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Renderer* a3, ::UnityEngine::Material* a4)
@@ -19699,9 +19705,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1442_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::NJOOOHDMEJC __Gen_Wrap_1443(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		::NJOOOHDMEJC __Gen_Wrap_1443(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5)
 		{
-			return ((::NJOOOHDMEJC(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1443_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::NJOOOHDMEJC(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1443_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean __Gen_Wrap_1444(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4)
@@ -20329,9 +20335,9 @@ namespace IFix
 			return ((::GGJFAFONDHN*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1568_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_1569(::System::Tuple* a1)
+		::System::Void __Gen_Wrap_1569(::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Tuple*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1569_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1569_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_1570(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Object* a5, ::System::Boolean a6)
@@ -20394,9 +20400,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1581_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple __Gen_Wrap_1582(::System::Object* a1)
+		::System::ValueTuple_2<::System::Single, ::System::Single> __Gen_Wrap_1582(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1582_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1582_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_1583(::System::Int32 a1, ::System::Int32 a2, ::System::Object* a3, ::System::Int32 a4)
@@ -20649,9 +20655,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1632_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_1633(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_1633(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::UnityEngine::Vector2> a3, ::System::Nullable_1<::UnityEngine::Vector2> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1633_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector2>, ::System::Nullable_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1633_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_1634(::System::Boolean a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Boolean a4, ::RPG::Client::OpenWorld::StreamingLightEnum a5)
@@ -20824,9 +20830,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1667_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 __Gen_Wrap_1668(::System::Tuple* a1, ::System::Tuple* a2)
+		::System::Int32 __Gen_Wrap_1668(::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>* a1, ::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Tuple*, ::System::Tuple*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1668_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*, ::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1668_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* __Gen_Wrap_1669(::System::Text::RegularExpressions::Match* a1)
@@ -20869,9 +20875,9 @@ namespace IFix
 			return ((::FOMFNEIKBAO(*)(::PVOID, ::FOMFNEIKBAO, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1676_OFFSET))(this, a1, a2);
 		}
 
-		::R3::Observable* __Gen_Wrap_1677(::PPAGOKHODLP* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_1677(::PPAGOKHODLP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::PPAGOKHODLP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1677_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::PPAGOKHODLP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1677_OFFSET))(this, a1);
 		}
 
 		::ALAHCOICOLM* __Gen_Wrap_1678(::PPAGOKHODLP* a1)
@@ -20899,9 +20905,9 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::ALAHCOICOLM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1682_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1683(::ALAHCOICOLM* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_1683(::ALAHCOICOLM* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::ALAHCOICOLM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1683_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::ALAHCOICOLM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1683_OFFSET))(this, a1);
 		}
 
 		::ADHNHMOBGPI* __Gen_Wrap_1684(::ALAHCOICOLM* a1)
@@ -20949,14 +20955,14 @@ namespace IFix
 			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1692_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1693(::ADHNHMOBGPI* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_1693(::ADHNHMOBGPI* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::ADHNHMOBGPI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1693_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::ADHNHMOBGPI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1693_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1694(::ADHNHMOBGPI* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_1694(::ADHNHMOBGPI* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::ADHNHMOBGPI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1694_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::ADHNHMOBGPI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1694_OFFSET))(this, a1);
 		}
 
 		::CEEGMMCFCBG* __Gen_Wrap_1695(::ADHNHMOBGPI* a1)
@@ -20964,9 +20970,9 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::ADHNHMOBGPI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1695_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1696(::EMHMHPFOBKI* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_1696(::EMHMHPFOBKI* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EMHMHPFOBKI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1696_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::EMHMHPFOBKI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1696_OFFSET))(this, a1);
 		}
 
 		::ObservableCollections::ObservableList_1<::EHBJBLKFBEA*>* __Gen_Wrap_1697(::EMHMHPFOBKI* a1)
@@ -20984,19 +20990,19 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::LFKBKMDMAEM))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1699_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1700(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_1700(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1700_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1700_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1701(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_1701(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1701_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1701_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1702(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __Gen_Wrap_1702(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1702_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1702_OFFSET))(this, a1);
 		}
 
 		::CEEGMMCFCBG* __Gen_Wrap_1703(::EHBJBLKFBEA* a1)
@@ -21004,9 +21010,9 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1703_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1704(::EHBJBLKFBEA* a1)
+		::R3::Observable_1<::GPKMKOEJPNE*>* __Gen_Wrap_1704(::EHBJBLKFBEA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1704_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::GPKMKOEJPNE*>*(*)(::PVOID, ::EHBJBLKFBEA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1704_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_1705(::EHBJBLKFBEA* a1)
@@ -21054,59 +21060,59 @@ namespace IFix
 			return ((::RPG::Client::Pet::PetIdentifier(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1713_OFFSET))(this, a1, a2);
 		}
 
-		::R3::Observable* __Gen_Wrap_1714(::FDFGOEGFHMC* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_1714(::FDFGOEGFHMC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::FDFGOEGFHMC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1714_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::FDFGOEGFHMC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1714_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1715(::PDBILPPIHIG* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_1715(::PDBILPPIHIG* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::PDBILPPIHIG*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1715_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::PDBILPPIHIG*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1715_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1716(::PDBILPPIHIG* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __Gen_Wrap_1716(::PDBILPPIHIG* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::PDBILPPIHIG*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1716_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::PDBILPPIHIG*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1716_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1717(::PDBILPPIHIG* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_1717(::PDBILPPIHIG* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::PDBILPPIHIG*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1717_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::PDBILPPIHIG*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1717_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1718(::JCCLCIJBBJD* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_1718(::JCCLCIJBBJD* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JCCLCIJBBJD*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1718_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JCCLCIJBBJD*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1718_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1719(::JCCLCIJBBJD* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_1719(::JCCLCIJBBJD* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JCCLCIJBBJD*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1719_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JCCLCIJBBJD*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1719_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1720(::IIFJAHONOGC* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __Gen_Wrap_1720(::IIFJAHONOGC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::IIFJAHONOGC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1720_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::IIFJAHONOGC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1720_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1721(::IIFJAHONOGC* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_1721(::IIFJAHONOGC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::IIFJAHONOGC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1721_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::IIFJAHONOGC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1721_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1722(::HAEELHPFFGH* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __Gen_Wrap_1722(::HAEELHPFFGH* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::HAEELHPFFGH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1722_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::HAEELHPFFGH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1722_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1723(::HAEELHPFFGH* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_1723(::HAEELHPFFGH* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::HAEELHPFFGH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1723_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::HAEELHPFFGH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1723_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_1724(::HAEELHPFFGH* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_1724(::HAEELHPFFGH* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::HAEELHPFFGH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1724_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::HAEELHPFFGH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1724_OFFSET))(this, a1);
 		}
 
 		::Cysharp::Threading::Tasks::UniTask __Gen_Wrap_1725(::System::Object* a1)
@@ -21124,19 +21130,19 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::R3::Result))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1727_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action* __Gen_Wrap_1728(::System::Action* a1)
+		::System::Action_1<::System::Boolean>* __Gen_Wrap_1728(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Action*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1728_OFFSET))(this, a1);
+			return ((::System::Action_1<::System::Boolean>*(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1728_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_1729(::System::Action* a1)
+		::System::Void __Gen_Wrap_1729(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1729_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1729_OFFSET))(this, a1);
 		}
 
-		::System::Object* __Gen_Wrap_1730(::System::Object* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::System::Nullable* a4)
+		::System::Object* __Gen_Wrap_1730(::System::Object* a1, ::System::Nullable_1<::System::Single> a2, ::System::Nullable_1<::System::Single> a3, ::System::Nullable_1<::System::Single> a4)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1730_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1730_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean __Gen_Wrap_1731(::RPG::Client::TextID a1)
@@ -21239,9 +21245,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1750_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple __Gen_Wrap_1751(::Newtonsoft::Json::Linq::JToken* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::Newtonsoft::Json::Linq::JToken*, ::System::Int32> __Gen_Wrap_1751(::Newtonsoft::Json::Linq::JToken* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::Newtonsoft::Json::Linq::JToken*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1751_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::Newtonsoft::Json::Linq::JToken*, ::System::Int32>(*)(::PVOID, ::Newtonsoft::Json::Linq::JToken*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1751_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_1752(::Code::MonoBehavior::Level::MonoTrainPartyBuildEffectSetting_ShaderFloat a1, ::System::Object* a2)
@@ -21449,19 +21455,19 @@ namespace IFix
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Matrix4x4, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1792_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_1793(::System::Object* a1, ::UnityEngine::Matrix4x4 a2, ::System::Nullable* a3, ::System::Object* a4, ::System::Int32 a5)
+		::System::Void __Gen_Wrap_1793(::System::Object* a1, ::UnityEngine::Matrix4x4 a2, ::System::Nullable_1<::UnityEngine::Matrix4x4> a3, ::System::Object* a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Matrix4x4, ::System::Nullable*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1793_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Matrix4x4, ::System::Nullable_1<::UnityEngine::Matrix4x4>, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1793_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_1794(::System::Object* a1, ::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::CNHKFCHOEHK> a2, ::System::Nullable* a3, ::System::Object* a4)
+		::System::Void __Gen_Wrap_1794(::System::Object* a1, ::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::CNHKFCHOEHK> a2, ::System::Nullable_1<::UnityEngine::Matrix4x4> a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::CNHKFCHOEHK>, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1794_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::CNHKFCHOEHK>, ::System::Nullable_1<::UnityEngine::Matrix4x4>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1794_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_1795(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::System::Object* a4)
+		::System::Void __Gen_Wrap_1795(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::UnityEngine::Matrix4x4> a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1795_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Matrix4x4>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1795_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::Matrix4x4 __Gen_Wrap_1796(::System::Object* a1, ::GEEOPFIMJEM a2)
@@ -21844,9 +21850,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1871_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean __Gen_Wrap_1872(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_1872(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1872_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1872_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::NativeString __Gen_Wrap_1873(::System::Object* a1, ::UnityEngine::ThreadLocalStringBuilder a2, ::System::Object* a3)
@@ -21944,9 +21950,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1891_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_1892(::System::Object* a1)
+		::System::ValueTuple_2<::RPG::GameCore::TurnState, ::RPG::GameCore::InsertActionType> __Gen_Wrap_1892(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1892_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::TurnState, ::RPG::GameCore::InsertActionType>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1892_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::FateRin::Card::FateRinBattleCardIdentifier __Gen_Wrap_1893(::System::Int32 a1)
@@ -22359,9 +22365,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::MCLHMGFGEFK, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1974_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* __Gen_Wrap_1975(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Boolean a5, ::System::Nullable* a6)
+		::System::Object* __Gen_Wrap_1975(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Boolean a5, ::System::Nullable_1<::MCLHMGFGEFK> a6)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1975_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Nullable_1<::MCLHMGFGEFK>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_1975_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_1976(::System::Object* a1, ::MCLHMGFGEFK a2)
@@ -22544,14 +22550,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::MCLHMGFGEFK, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2011_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_2012(::System::Object* a1, ::MCLHMGFGEFK a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Object* a5, ::System::Nullable* a6, ::System::Nullable* a7)
+		::System::Void __Gen_Wrap_2012(::System::Object* a1, ::MCLHMGFGEFK a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Object* a5, ::System::Nullable_1<::UnityEngine::Vector3> a6, ::System::Nullable_1<::UnityEngine::Vector3> a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::MCLHMGFGEFK, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2012_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::MCLHMGFGEFK, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2012_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void __Gen_Wrap_2013(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Nullable* a7, ::System::Nullable* a8)
+		::System::Void __Gen_Wrap_2013(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Nullable_1<::UnityEngine::Vector3> a7, ::System::Nullable_1<::UnityEngine::Vector3> a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2013_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2013_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void __Gen_Wrap_2014(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)
@@ -22609,9 +22615,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::UInt64, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2024_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_2025()
+		::System::Nullable_1<::UnityEngine::Vector3> __Gen_Wrap_2025()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2025_OFFSET))(this);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2025_OFFSET))(this);
 		}
 
 		::System::Int32 __Gen_Wrap_2026(::RPG::GameCore::LevelNavmapArea* a1, ::RPG::GameCore::LevelNavmapArea* a2)
@@ -22739,14 +22745,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TalkTrigger_DialogueGroupInfo))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2050_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2051(::System::Object* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Boolean, ::System::UInt32> __Gen_Wrap_2051(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2051_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2051_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 __Gen_Wrap_2052(::System::Object* a1, ::System::ValueTuple a2, ::System::ValueTuple a3)
+		::System::Int32 __Gen_Wrap_2052(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::Object*> a2, ::System::ValueTuple_2<::System::UInt32, ::System::Object*> a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2052_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::Object*>, ::System::ValueTuple_2<::System::UInt32, ::System::Object*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2052_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_2053(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3)
@@ -22789,9 +22795,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2060_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::UInt32 __Gen_Wrap_2061(::System::Int32 a1, ::System::Nullable* a2)
+		::System::UInt32 __Gen_Wrap_2061(::System::Int32 a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2061_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::System::Int32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2061_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_2062(::JLEFPBCCAGJ a1)
@@ -22949,9 +22955,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::HIAMBDKHMIJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2092_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_2093(::KGPCBBIOGLB* a1, ::System::Tuple* a2)
+		::System::Void __Gen_Wrap_2093(::KGPCBBIOGLB* a1, ::System::Tuple_2<::System::String*, ::System::Boolean>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::KGPCBBIOGLB*, ::System::Tuple*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2093_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::KGPCBBIOGLB*, ::System::Tuple_2<::System::String*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2093_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_2094(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Boolean a5, ::System::Boolean a6)
@@ -23064,9 +23070,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2115_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::APAMFCKFHLL* __Gen_Wrap_2116(::System::Collections::Generic::KeyValuePair* a1)
+		::APAMFCKFHLL* __Gen_Wrap_2116(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::APAMFCKFHLL*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2116_OFFSET))(this, a1);
+			return ((::APAMFCKFHLL*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2116_OFFSET))(this, a1);
 		}
 
 		::APAMFCKFHLL* __Gen_Wrap_2117(::RPG::Client::ActivityIdleLive::SpEquipSlotData* a1)
@@ -23454,9 +23460,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IFateGameMasterInfoRealItem*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2193_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_2194(::System::ValueTuple a1)
+		::System::Boolean __Gen_Wrap_2194(::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2194_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2194_OFFSET))(this, a1);
 		}
 
 		::System::Int64 __Gen_Wrap_2195(::System::Decimal a1)
@@ -23479,14 +23485,14 @@ namespace IFix
 			return ((::RPG::Client::GachaItemData*(*)(::PVOID, ::RPG::Client::GachaItemData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2198_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_2199(::System::Object* a1)
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_2199(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2199_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2199_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_2200(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_2200(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2200_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2200_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_2201(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
@@ -23504,9 +23510,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2203_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_2204(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_2204(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2204_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2204_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_2205(::RPG::Client::IGridFightTraitEffect* a1)
@@ -23619,9 +23625,9 @@ namespace IFix
 			return ((::System::Single(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2226_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2227(::RPG::Client::RelicItemData* a1)
+		::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*> __Gen_Wrap_2227(::RPG::Client::RelicItemData* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2227_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::RelicType, ::KGHMBCLFFLG*>(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2227_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::FixPoint __Gen_Wrap_2228(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3)
@@ -23884,9 +23890,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::APAHPCEMFND*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2279_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_2280(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Nullable* a7, ::System::Nullable* a8, ::System::Nullable* a9)
+		::System::Void __Gen_Wrap_2280(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Nullable_1<::System::UInt32> a7, ::System::Nullable_1<::System::UInt32> a8, ::System::Nullable_1<::System::UInt32> a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2280_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable_1<::System::UInt32>, ::System::Nullable_1<::System::UInt32>, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2280_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Boolean __Gen_Wrap_2281(::BCMOLHGOPEK* a1)
@@ -24009,9 +24015,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::RPG::MVector2, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2304_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* __Gen_Wrap_2305(::System::Object* a1, ::UnityEngine::Vector3 a2)
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_2305(::System::Object* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2305_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2305_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_2306(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::RPG::Client::MapPropDef* a4)
@@ -24319,14 +24325,14 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2366_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_2367(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::System::Int32 a3, ::CHMCAGBDPJH a4, ::RPG::GameCore::FixPoint a5, ::System::Nullable* a6, ::System::Int32 a7)
+		::System::Void __Gen_Wrap_2367(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::System::Int32 a3, ::CHMCAGBDPJH a4, ::RPG::GameCore::FixPoint a5, ::System::Nullable_1<::RPG::GameCore::FixPoint> a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixPoint, ::System::Int32, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2367_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixPoint, ::System::Int32, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2367_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void __Gen_Wrap_2368(::System::Object* a1, ::CHMCAGBDPJH a2, ::System::Object* a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_2368(::System::Object* a1, ::CHMCAGBDPJH a2, ::System::Object* a3, ::System::Nullable_1<::RPG::GameCore::FixPoint> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::CHMCAGBDPJH, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2368_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::CHMCAGBDPJH, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2368_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_2369(::System::Object* a1, ::CHMCAGBDPJH a2)
@@ -24849,9 +24855,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::KFBOFAILIBG))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2472_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2473(::System::Object* a1, ::System::Int32 a2)
+		::System::ValueTuple_4<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> __Gen_Wrap_2473(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2473_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_4<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2473_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_2474(::IJIMDIILCBF a1)
@@ -24864,9 +24870,9 @@ namespace IFix
 			return ((::KFBOFAILIBG(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2475_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2476(::System::Object* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::CDNAABEAPDI*, ::System::Collections::Generic::List_1<::CDNAABEAPDI*>*> __Gen_Wrap_2476(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2476_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::CDNAABEAPDI*, ::System::Collections::Generic::List_1<::CDNAABEAPDI*>*>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2476_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_2477(::RPG::Client::LinearModuleRendererBehavior_ItemData a1)
@@ -24994,9 +25000,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2501_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_2502(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Object* a6, ::System::Single a7)
+		::System::Void __Gen_Wrap_2502(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::System::UInt32> a4, ::System::Nullable_1<::System::UInt32> a5, ::System::Object* a6, ::System::Single a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Nullable*, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2502_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable_1<::System::UInt32>, ::System::Nullable_1<::System::UInt32>, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2502_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void __Gen_Wrap_2503(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::UInt32 a4)
@@ -25089,14 +25095,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::AI::NavMeshLinkData))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2520_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_2521(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single a4, ::System::Nullable* a5, ::System::Nullable* a6)
+		::System::Void __Gen_Wrap_2521(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::Nullable_1<::UnityEngine::Quaternion> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2521_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2521_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Object* __Gen_Wrap_2522(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single a4, ::System::Nullable* a5, ::System::Nullable* a6)
+		::System::Object* __Gen_Wrap_2522(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Single a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::Nullable_1<::UnityEngine::Quaternion> a6)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2522_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2522_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_2523(::System::Object* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
@@ -25169,9 +25175,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::NAOPMDAAGHL*, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2536_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_2537(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Object* a4, ::System::Nullable* a5, ::System::Int32 a6)
+		::System::Void __Gen_Wrap_2537(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Object* a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Object*, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2537_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2537_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_2538(::System::Object* a1, ::System::Object* a2, ::RPG::Client::TextID a3, ::System::Object* a4, ::System::Int32 a5, ::System::Single a6, ::System::Boolean a7)
@@ -25194,14 +25200,14 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2541_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_2542(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::System::Single> __Gen_Wrap_2542(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2542_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2542_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_2543(::System::Object* a1)
+		::System::Nullable_1<::RPG::GameCore::GroupStateType> __Gen_Wrap_2543(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2543_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::GameCore::GroupStateType>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2543_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::AbilityCursorInfo __Gen_Wrap_2544(::System::Object* a1, ::System::Int32 a2)
@@ -25254,9 +25260,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::RPG::GameCore::AbilityCursorInfo))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2553_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_2554(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::System::Single> __Gen_Wrap_2554(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2554_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2554_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 __Gen_Wrap_2555(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Boolean a3, ::System::Single a4, ::System::Single a5)
@@ -25279,9 +25285,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2558_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 __Gen_Wrap_2559(::System::Collections::Generic::KeyValuePair* a1, ::System::Collections::Generic::KeyValuePair* a2)
+		::System::Int32 __Gen_Wrap_2559(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single> a1, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2559_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single>, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2559_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_2560(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Int32 a4)
@@ -25319,9 +25325,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Boolean, ::System::Single, ::System::Single, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2566_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Nullable* __Gen_Wrap_2567(::System::Object* a1)
+		::System::Nullable_1<::RPG::GameCore::ECharacterNavSteerMode> __Gen_Wrap_2567(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2567_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::GameCore::ECharacterNavSteerMode>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2567_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_2568(::System::Object* a1, ::LLFLBBCHACG a2, ::CCBBMJPLKME a3)
@@ -25499,9 +25505,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Rect, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2602_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_2603(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_2603(::System::Object* a1, ::System::Nullable_1<::RPG::GameCore::CharacterAlertLevel> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2603_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::CharacterAlertLevel>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2603_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_2604(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
@@ -25574,9 +25580,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::RPG::MVector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2617_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2618(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::Cinemachine::CinemachineVirtualCameraBase*, ::System::Single> __Gen_Wrap_2618(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2618_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::Cinemachine::CinemachineVirtualCameraBase*, ::System::Single>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2618_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_2619(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Boolean a5, ::System::Single a6)
@@ -25589,14 +25595,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2620_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_2621(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::System::Object* a4, ::System::Object* a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Single a8, ::System::Boolean a9)
+		::System::Void __Gen_Wrap_2621(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Quaternion> a3, ::System::Object* a4, ::System::Object* a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Single a8, ::System::Boolean a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2621_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2621_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2622(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::Client::MapEntityDef*> __Gen_Wrap_2622(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2622_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::Client::MapEntityDef*>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2622_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* __Gen_Wrap_2623(::NLCFCMDGOFF a1)
@@ -25639,9 +25645,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2630_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_2631(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_2631(::System::Object* a1, ::System::Nullable_1<::RPG::GameCore::HipplenInteractLikeType> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2631_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::HipplenInteractLikeType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2631_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::Promises::IPromise* __Gen_Wrap_2632(::RPG::Client::BaseLobby* a1)
@@ -25729,9 +25735,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::LevelMonsterInfo*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2648_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2649(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::Client::MapEntityDef*> __Gen_Wrap_2649(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2649_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::Client::MapEntityDef*>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2649_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 __Gen_Wrap_2650(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Object* a4, ::System::Boolean a5)
@@ -25814,14 +25820,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Object*, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2665_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2666(::System::Object* a1)
+		::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single> __Gen_Wrap_2666(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2666_OFFSET))(this, a1);
+			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2666_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2667()
+		::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single> __Gen_Wrap_2667()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2667_OFFSET))(this);
+			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2667_OFFSET))(this);
 		}
 
 		::System::Boolean __Gen_Wrap_2668(::UnityEngine::Transform* a1)
@@ -25864,9 +25870,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Single, ::RPG::MVector3, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2675_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2676(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::System::Boolean, ::EFKJNDCNILF*> __Gen_Wrap_2676(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2676_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::EFKJNDCNILF*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2676_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_2677(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Object* a4)
@@ -25894,9 +25900,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::PFIGIPFMDHO))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2681_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_2682(::System::Object* a1)
+		::System::Nullable_1<::System::Single> __Gen_Wrap_2682(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2682_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2682_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_2683(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Object* a7, ::System::Single a8, ::System::Object* a9, ::System::Object* a10)
@@ -26089,9 +26095,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2720_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Object* __Gen_Wrap_2721(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Nullable* a7, ::System::Nullable* a8, ::System::Object* a9, ::System::Nullable* a10, ::System::Nullable* a11)
+		::System::Object* __Gen_Wrap_2721(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Nullable_1<::UnityEngine::Vector3> a7, ::System::Nullable_1<::UnityEngine::Quaternion> a8, ::System::Object* a9, ::System::Nullable_1<::UnityEngine::Vector3> a10, ::System::Nullable_1<::UnityEngine::Quaternion> a11)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Boolean, ::System::Nullable*, ::System::Nullable*, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2721_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2721_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::UnityEngine::Vector3 __Gen_Wrap_2722(::System::Int32 a1, ::System::Object* a2)
@@ -26159,9 +26165,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2734_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2735(::System::Object* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __Gen_Wrap_2735(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2735_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2735_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 __Gen_Wrap_2736(::RPG::GameCore::FixPoint a1)
@@ -26199,24 +26205,24 @@ namespace IFix
 			return ((::RPG::Client::CakeBubbleOffset(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2742_OFFSET))(this);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2743(::System::Object* a1)
+		::System::ValueTuple_2<::RPG::Client::CakeBubbleOffset, ::RPG::Client::CakeCatchBubbleType> __Gen_Wrap_2743(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2743_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::Client::CakeBubbleOffset, ::RPG::Client::CakeCatchBubbleType>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2743_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2744(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::RPG::Client::CakeBubbleOffset, ::RPG::Client::CakeCatchBubbleType> __Gen_Wrap_2744(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2744_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::RPG::Client::CakeBubbleOffset, ::RPG::Client::CakeCatchBubbleType>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2744_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 __Gen_Wrap_2745(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __Gen_Wrap_2745(::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3> a1, ::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2745_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>, ::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2745_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2746(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> __Gen_Wrap_2746(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2746_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2746_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3Int __Gen_Wrap_2747(::System::Object* a1, ::UnityEngine::Vector3Int a2)
@@ -26394,14 +26400,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2781_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_2782(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::ValueTuple a4)
+		::System::Void __Gen_Wrap_2782(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::ValueTuple_2<::System::UInt32, ::System::String*> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2782_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::String*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2782_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_2783(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Object* a4, ::System::Nullable* a5, ::System::Nullable* a6)
+		::System::Void __Gen_Wrap_2783(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Object* a4, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> a5, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2783_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>, ::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2783_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::BCENMJEPKMP __Gen_Wrap_2784(::System::Object* a1)
@@ -26444,9 +26450,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EraRegion*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2791_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2792(::System::ValueTuple a1)
+		::System::ValueTuple_2<::System::String*, ::System::String*> __Gen_Wrap_2792(::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType> a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2792_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2792_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_2793(::RPG::Client::FlipDevicePoint* a1)
@@ -26779,14 +26785,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2858_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_2859(::System::Object* a1, ::System::Int32 a2, ::System::ValueTuple a3, ::System::Object* a4)
+		::System::Void __Gen_Wrap_2859(::System::Object* a1, ::System::Int32 a2, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::ValueTuple, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2859_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2859_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_2860(::System::Object* a1, ::System::ValueTuple a2, ::System::Boolean a3)
+		::System::Void __Gen_Wrap_2860(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2860_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2860_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_2861(::RPG::Client::Mono::FiveDimTriggerRegionPlugin* a1)
@@ -26824,9 +26830,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::PALBAPMODCK))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2867_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_2868(::System::Object* a1, ::RPG::GameCore::StringHash a2, ::System::Nullable* a3, ::RPG::GameCore::FixPoint a4)
+		::System::Void __Gen_Wrap_2868(::System::Object* a1, ::RPG::GameCore::StringHash a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3, ::RPG::GameCore::FixPoint a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::StringHash, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2868_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2868_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_2869(::System::Object* a1, ::RPG::GameCore::StringHash a2, ::RPG::GameCore::FixPoint a3)
@@ -27119,9 +27125,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2926_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_2927(::System::Object* a1)
+		::System::ValueTuple_2<::System::Boolean, ::System::UInt32> __Gen_Wrap_2927(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2927_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::UInt32>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2927_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_2928(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Object* a6)
@@ -27129,9 +27135,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2928_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Int32 __Gen_Wrap_2929(::System::Tuple* a1, ::System::Tuple* a2)
+		::System::Int32 __Gen_Wrap_2929(::System::Tuple_2<::System::UInt32, ::System::Single>* a1, ::System::Tuple_2<::System::UInt32, ::System::Single>* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Tuple*, ::System::Tuple*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2929_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Tuple_2<::System::UInt32, ::System::Single>*, ::System::Tuple_2<::System::UInt32, ::System::Single>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2929_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single __Gen_Wrap_2930(::System::Object* a1, ::System::Boolean a2, ::System::Boolean a3)
@@ -27239,9 +27245,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2950_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_2951(::System::Object* a1, ::System::Int32 a2, ::System::Nullable* a3, ::System::Boolean a4)
+		::System::Void __Gen_Wrap_2951(::System::Object* a1, ::System::Int32 a2, ::System::Nullable_1<::System::Single> a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2951_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2951_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_2952(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Object* a4, ::System::Single a5)
@@ -27249,9 +27255,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2952_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_2953(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::Nullable* a5, ::System::Object* a6, ::System::Object* a7)
+		::System::Void __Gen_Wrap_2953(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::Object* a6, ::System::Object* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2953_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2953_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void __Gen_Wrap_2954(::System::Object* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
@@ -27364,9 +27370,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2975_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean __Gen_Wrap_2976(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4)
+		::System::Boolean __Gen_Wrap_2976(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::System::Single> a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2976_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_2976_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_2977(::System::Object* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4)
@@ -27564,9 +27570,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3015_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Void __Gen_Wrap_3016(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_3016(::System::Object* a1, ::System::Nullable_1<::RPG::Client::ETravelShipState> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3016_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::ETravelShipState>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3016_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_3017(::CHFAIKPJMGE a1, ::System::Boolean a2, ::System::Int32 a3)
@@ -27584,9 +27590,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Object*, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3019_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void __Gen_Wrap_3020(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_3020(::System::Object* a1, ::System::Nullable_1<::LODKHMFCLOG> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3020_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::LODKHMFCLOG>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3020_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_3021(::System::Object* a1, ::System::Int32 a2, ::System::Guid a3, ::System::Object* a4, ::System::Single a5, ::System::Boolean a6, ::System::Single a7, ::System::Boolean a8, ::System::Int32 a9)
@@ -27669,9 +27675,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3036_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_3037(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char> a1)
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> __Gen_Wrap_3037(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char> a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3037_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3037_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_3038(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Object* a5, ::System::Single a6)
@@ -28009,14 +28015,14 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::NNKDKMBKFHC_ALMGLLHJOBD, ::NNKDKMBKFHC_ALMGLLHJOBD))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3104_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Quaternion __Gen_Wrap_3105(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Nullable* a3)
+		::UnityEngine::Quaternion __Gen_Wrap_3105(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3105_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3105_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_3106(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Nullable* a5)
+		::System::Boolean __Gen_Wrap_3106(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Nullable_1<::UnityEngine::Vector3> a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3106_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3106_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void __Gen_Wrap_3107(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Single a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7)
@@ -28084,9 +28090,9 @@ namespace IFix
 			return ((::GJMPEIGLHJK(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3119_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_3120(::System::Int32 a1)
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_3120(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3120_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3120_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_3121(::System::Int32 a1, ::RPG::GameCore::ActivityEvolveGearForgeMaterialRow* a2)
@@ -28289,9 +28295,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3160_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean __Gen_Wrap_3161(::System::Object* a1, ::System::Nullable* a2)
+		::System::Boolean __Gen_Wrap_3161(::System::Object* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3161_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3161_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_3162(::DEKDEPEBHNC* a1)
@@ -28314,9 +28320,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3165_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_3166(::System::Object* a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3, ::System::Object* a4)
+		::System::Void __Gen_Wrap_3166(::System::Object* a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3166_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3166_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_3167(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Object* a4, ::System::UInt16 a5, ::System::Boolean a6)
@@ -28384,9 +28390,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3179_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_3180(::System::Object* a1, ::System::Boolean a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_3180(::System::Object* a1, ::System::Boolean a2, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3180_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3180_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 __Gen_Wrap_3181(::System::Object* a1, ::RPG::Client::MonoEffectManager_FieldEffectBudgetInfo a2, ::RPG::Client::MonoEffectManager_FieldEffectBudgetInfo a3)
@@ -28594,9 +28600,9 @@ namespace IFix
 			return ((::System::String*(*)(::PVOID, ::MLCLJKDKCDG*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3221_OFFSET))(this, a1);
 		}
 
-		::System::String* __Gen_Wrap_3222(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* __Gen_Wrap_3222(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3222_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3222_OFFSET))(this, a1);
 		}
 
 		::System::String* __Gen_Wrap_3223(::PKDNDNABKII* a1)
@@ -28739,14 +28745,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::VCameraConfig*, ::RPG::GameCore::VCameraConfig*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3250_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_3251(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Boolean a4)
+		::System::Nullable_1<::RPG::MVector3> __Gen_Wrap_3251(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3251_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Nullable_1<::RPG::MVector3>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3251_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* __Gen_Wrap_3252(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::RPG::MVector3> __Gen_Wrap_3252(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3252_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::RPG::MVector3>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3252_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_3253(::System::Object* a1, ::System::Object* a2, ::System::UInt64 a3, ::System::UInt16 a4)
@@ -28754,14 +28760,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::UInt64, ::System::UInt16))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3253_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_3254(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Nullable* a6, ::System::Int32 a7, ::System::Object* a8, ::System::Object* a9, ::System::Object* a10, ::System::Object* a11, ::System::Object* a12, ::System::Object* a13, ::System::Object* a14, ::System::Boolean a15, ::System::Object* a16, ::System::Object* a17, ::System::Single a18, ::System::Single a19, ::System::Boolean a20, ::System::Boolean a21, ::System::Object* a22)
+		::System::Void __Gen_Wrap_3254(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable_1<::RPG::MVector3> a4, ::System::Nullable_1<::RPG::MVector3> a5, ::System::Nullable_1<::RPG::MQuaternion> a6, ::System::Int32 a7, ::System::Object* a8, ::System::Object* a9, ::System::Object* a10, ::System::Object* a11, ::System::Object* a12, ::System::Object* a13, ::System::Object* a14, ::System::Boolean a15, ::System::Object* a16, ::System::Object* a17, ::System::Single a18, ::System::Single a19, ::System::Boolean a20, ::System::Boolean a21, ::System::Object* a22)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Object*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3254_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::MVector3>, ::System::Nullable_1<::RPG::MVector3>, ::System::Nullable_1<::RPG::MQuaternion>, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Object*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3254_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22);
 		}
 
-		::System::Void __Gen_Wrap_3255(::System::Object* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Nullable* a6, ::System::Object* a7)
+		::System::Void __Gen_Wrap_3255(::System::Object* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Nullable_1<::RPG::MVector3> a6, ::System::Object* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3255_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Nullable_1<::RPG::MVector3>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3255_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void __Gen_Wrap_3256(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Boolean a9)
@@ -28824,14 +28830,14 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::LineUpCharacter*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3267_OFFSET))(this, a1);
 		}
 
-		::COMGNGLLCFN* __Gen_Wrap_3268(::System::Collections::Generic::KeyValuePair* a1)
+		::COMGNGLLCFN* __Gen_Wrap_3268(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*> a1)
 		{
-			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3268_OFFSET))(this, a1);
+			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Object*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3268_OFFSET))(this, a1);
 		}
 
-		::COMGNGLLCFN* __Gen_Wrap_3269(::System::Collections::Generic::KeyValuePair* a1)
+		::COMGNGLLCFN* __Gen_Wrap_3269(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint> a1)
 		{
-			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3269_OFFSET))(this, a1);
+			return ((::COMGNGLLCFN*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3269_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_3270(::PBNONKAIAMK* a1)
@@ -29034,9 +29040,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::RPG::GameCore::FixPoint, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3309_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Collections::Generic::KeyValuePair* __Gen_Wrap_3310(::System::Int32 a1)
+		::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> __Gen_Wrap_3310(::System::Int32 a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3310_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3310_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_3311(::RPG::GameCore::EntityManagerExtension_AbilityPropertyInitInfo a1, ::System::Object* a2)
@@ -29054,14 +29060,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3313_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_3314(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
+		::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> __Gen_Wrap_3314(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3314_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3314_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_3315(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Object* a4)
+		::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> __Gen_Wrap_3315(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Object* a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3315_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3315_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::RPG::GameCore::FixPoint __Gen_Wrap_3316(::RPG::GameCore::AbilityExtraProperty a1)
@@ -29069,9 +29075,9 @@ namespace IFix
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::AbilityExtraProperty))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3316_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_3317(::System::Object* a1, ::System::Int32 a2, ::System::Nullable* a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5, ::CHMCAGBDPJH a6)
+		::System::Void __Gen_Wrap_3317(::System::Object* a1, ::System::Int32 a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5, ::CHMCAGBDPJH a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3317_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3317_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_3318(::RPG::GameCore::EntityManagerExtension_AbilityPropertyInitInfo a1)
@@ -29384,9 +29390,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::JMLPEFKGCAH))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3379_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_3380(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::System::Int32 a3, ::HJIOMFDJLLA a4, ::RPG::GameCore::FixPoint a5, ::System::Nullable* a6)
+		::System::Void __Gen_Wrap_3380(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::System::Int32 a3, ::HJIOMFDJLLA a4, ::RPG::GameCore::FixPoint a5, ::System::Nullable_1<::RPG::GameCore::FixPoint> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixPoint, ::System::Int32, ::HJIOMFDJLLA, ::RPG::GameCore::FixPoint, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3380_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixPoint, ::System::Int32, ::HJIOMFDJLLA, ::RPG::GameCore::FixPoint, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3380_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::RPG::GameCore::IVec2 __Gen_Wrap_3381(::System::Object* a1)
@@ -29509,14 +29515,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixVec3, ::RPG::GameCore::FixVec3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3404_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_3405(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5, ::System::Object* a6)
+		::System::Void __Gen_Wrap_3405(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5, ::System::Object* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3405_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3405_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_3406(::System::Object* a1, ::System::ValueTuple a2, ::System::Nullable* a3, ::RPG::GameCore::FixPoint a4)
+		::System::Void __Gen_Wrap_3406(::System::Object* a1, ::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope> a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3, ::RPG::GameCore::FixPoint a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3406_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope>, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3406_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_3407(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::System::Int32 a3, ::System::Object* a4)
@@ -30229,24 +30235,24 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3548_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_3549(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4)
+		::System::ValueTuple_2<::System::Boolean, ::System::Boolean> __Gen_Wrap_3549(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3549_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3549_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* __Gen_Wrap_3550(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::RPG::GameCore::FixPoint> __Gen_Wrap_3550(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3550_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::RPG::GameCore::FixPoint>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3550_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_3551(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::System::Boolean> __Gen_Wrap_3551(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3551_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3551_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_3552(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_3552(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3552_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3552_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_3553(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Object* a5, ::System::Object* a6, ::System::Object* a7)
@@ -30534,9 +30540,9 @@ namespace IFix
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::EKOODKKPECI, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3609_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_3610(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Int32 a5)
+		::System::ValueTuple_3<::RPG::GameCore::FixPoint, ::RPG::GameCore::AttackDamageType, ::System::Boolean> __Gen_Wrap_3610(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Int32 a5)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3610_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::ValueTuple_3<::RPG::GameCore::FixPoint, ::RPG::GameCore::AttackDamageType, ::System::Boolean>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3610_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean __Gen_Wrap_3611(::RPG::GameCore::FixPoint a1, ::System::Object* a2, ::System::Boolean a3, ::System::Boolean a4)
@@ -30719,9 +30725,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3646_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_3647(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::GameCore::FixPoint> __Gen_Wrap_3647(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3647_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3647_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_3648(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4)
@@ -30929,9 +30935,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3688_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17);
 		}
 
-		::System::Void __Gen_Wrap_3689(::System::Object* a1, ::System::Nullable* a2, ::System::Object* a3)
+		::System::Void __Gen_Wrap_3689(::System::Object* a1, ::System::Nullable_1<::RPG::GameCore::AvatarBaseType> a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3689_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::AvatarBaseType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3689_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_3690(::IDMGKNGKLDH a1, ::IDMGKNGKLDH a2)
@@ -31009,9 +31015,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::System::Object*, ::System::Object*, ::System::UInt16, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3704_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_3705(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::System::Int32 a3, ::CHMCAGBDPJH a4, ::RPG::GameCore::FixPoint a5, ::System::Nullable* a6)
+		::System::Void __Gen_Wrap_3705(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::System::Int32 a3, ::CHMCAGBDPJH a4, ::RPG::GameCore::FixPoint a5, ::System::Nullable_1<::RPG::GameCore::FixPoint> a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixPoint, ::System::Int32, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3705_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixPoint, ::System::Int32, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3705_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_3706(::System::Object* a1, ::CHMCAGBDPJH a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::System::Object* a5)
@@ -31034,9 +31040,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::RPG::MVector3, ::RPG::MVector3, ::System::Object*, ::System::Int32, ::System::Single, ::System::Int32, ::System::Single, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3709_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
-		::System::Void __Gen_Wrap_3710(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_3710(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable_1<::RPG::MVector3> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3710_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3710_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean __Gen_Wrap_3711(::RPG::GameCore::AbilityLinearPropertyWithOverride a1)
@@ -31074,14 +31080,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3717_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Nullable* __Gen_Wrap_3718(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_3718(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3718_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3718_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 __Gen_Wrap_3719(::System::Object* a1, ::System::Nullable* a2)
+		::System::UInt32 __Gen_Wrap_3719(::System::Object* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3719_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3719_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_3720(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3)
@@ -31114,9 +31120,9 @@ namespace IFix
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::UInt16))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3725_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* __Gen_Wrap_3726(::System::Object* a1)
+		::System::Nullable_1<::INKMMBKPNMJ> __Gen_Wrap_3726(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3726_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::INKMMBKPNMJ>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3726_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_3727(::System::Object* a1, ::System::Int32 a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4)
@@ -31309,9 +31315,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::AHHNGJGLOKA, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3764_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_3765(::System::Collections::Generic::KeyValuePair* a1, ::System::Object* a2, ::System::Boolean a3)
+		::System::Void __Gen_Wrap_3765(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint> a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3765_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3765_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_3766(::System::Object* a1, ::System::Object* a2, ::RPG::GameCore::FixPoint a3, ::System::Int32 a4)
@@ -31329,9 +31335,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::NJIJCDNNBNI))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3768_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_3769(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::ADBMFDNMBIJ a4)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_3769(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::ADBMFDNMBIJ a4)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::ADBMFDNMBIJ))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3769_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::ADBMFDNMBIJ))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3769_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_3770(::System::Object* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::System::Object* a3)
@@ -31404,9 +31410,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance_AdvancedDestroyParams))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3783_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_3784(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5, ::CHMCAGBDPJH a6, ::System::Object* a7)
+		::System::Void __Gen_Wrap_3784(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5, ::CHMCAGBDPJH a6, ::System::Object* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3784_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3784_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void __Gen_Wrap_3785(::System::Object* a1, ::HPHEBLCCOOK a2)
@@ -31739,9 +31745,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3850_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_3851(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3)
+		::System::Nullable_1<::System::Char> __Gen_Wrap_3851(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3851_OFFSET))(this, a1, a2, a3);
+			return ((::System::Nullable_1<::System::Char>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3851_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_3852(::System::Object* a1, ::System::Object* a2, ::OBGAECGPEFF_EJADJCCBOAB a3)
@@ -32004,9 +32010,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FeverTimeInfoChangeParam*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3903_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_3904(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_3904(::System::Object* a1, ::System::Nullable_1<::RPG::GameCore::SkillSPProgressType> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3904_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::SkillSPProgressType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3904_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_3905(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Boolean a11)
@@ -32109,9 +32115,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Single, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3924_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_3925(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_3925(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3925_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::MonoEffectFlag>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3925_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_3926(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::RPG::GameCore::FixPoint a4, ::System::Object* a5, ::System::Int32 a6, ::System::Boolean a7)
@@ -32119,9 +32125,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::RPG::GameCore::FixPoint, ::System::Object*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3926_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Nullable* __Gen_Wrap_3927(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::RPG::GameCore::SummonerEnergyBarType> __Gen_Wrap_3927(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3927_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::RPG::GameCore::SummonerEnergyBarType>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3927_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_3928(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5)
@@ -32454,9 +32460,9 @@ namespace IFix
 			return ((::UnityEngine::NativeString(*)(::PVOID, ::ELFJOFJPMJO*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3993_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_3994(::System::Collections::Generic::KeyValuePair* a1, ::System::Collections::Generic::KeyValuePair* a2)
+		::System::Int32 __Gen_Wrap_3994(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::GameEntity*, ::System::Single> a1, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::GameEntity*, ::System::Single> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3994_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::GameEntity*, ::System::Single>, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::GameEntity*, ::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_3994_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_3995(::System::Object* a1, ::System::UInt16 a2, ::System::Boolean a3)
@@ -32494,14 +32500,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4001_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_4002(::System::Object* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_4002(::System::Object* a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3, ::System::Nullable_1<::RPG::GameCore::FixPoint> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4002_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4002_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_4003(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		::System::Void __Gen_Wrap_4003(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3, ::System::Nullable_1<::RPG::GameCore::FixPoint> a4, ::System::Nullable_1<::RPG::GameCore::FixPoint> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4003_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4003_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void __Gen_Wrap_4004(::System::Object* a1, ::System::Int32 a2, ::RPG::GameCore::FixPoint a3, ::System::Int32 a4, ::RPG::GameCore::FixPoint a5, ::RPG::GameCore::FixPoint a6)
@@ -32584,9 +32590,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4019_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_4020(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_4020(::System::Object* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4020_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4020_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_4021(::System::Object* a1, ::System::Int32 a2)
@@ -32609,9 +32615,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4024_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_4025(::RPG::GameCore::StringHash a1, ::System::Nullable* a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void __Gen_Wrap_4025(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4025_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4025_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_4026(::System::Object* a1, ::System::String* a2)
@@ -32754,14 +32760,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean, ::ANACIPLIMDE))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4053_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_4054(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_3<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*> __Gen_Wrap_4054(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4054_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::GameEntity*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4054_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_4055(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::System::Single> __Gen_Wrap_4055(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4055_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::System::Single>(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4055_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_4056(::System::Object* a1, ::RPG::GameCore::GameEntityList* a2)
@@ -33254,9 +33260,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Byte))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4153_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_4154(::System::Object* a1, ::System::Int32 a2, ::UnityEngine::Vector2 a3, ::RPG::GameCore::SurfaceType a4)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_4154(::System::Object* a1, ::System::Int32 a2, ::UnityEngine::Vector2 a3, ::RPG::GameCore::SurfaceType a4)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32, ::UnityEngine::Vector2, ::RPG::GameCore::SurfaceType))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4154_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Object*, ::System::Int32, ::UnityEngine::Vector2, ::RPG::GameCore::SurfaceType))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4154_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 __Gen_Wrap_4155(::System::Object* a1, ::RPG::GameCore::SurfaceType a2)
@@ -33614,14 +33620,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::UnityEngine::AnimatorStateInfo))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4225_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_4226(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4, ::System::Nullable* a5, ::System::Boolean a6)
+		::System::Void __Gen_Wrap_4226(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4, ::System::Nullable_1<::LKLOMEEPIEM> a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4226_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Nullable_1<::LKLOMEEPIEM>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4226_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean __Gen_Wrap_4227(::System::Object* a1, ::System::Nullable* a2)
+		::System::Boolean __Gen_Wrap_4227(::System::Object* a1, ::System::Nullable_1<::System::Single> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4227_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4227_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 __Gen_Wrap_4228(::AINLAHLFEII_BNIGCHBEAEI a1, ::AINLAHLFEII_BNIGCHBEAEI a2)
@@ -33644,9 +33650,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::APKDMEEAPKJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4231_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_4232(::System::Object* a1)
+		::System::Nullable_1<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Single>> __Gen_Wrap_4232(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4232_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Single>>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4232_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_4233(::System::Object* a1, ::System::Single a2, ::System::Boolean a3, ::System::Single a4)
@@ -33739,9 +33745,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4250_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::JKLPFLJEPCH __Gen_Wrap_4251(::System::ValueTuple a1)
+		::JKLPFLJEPCH __Gen_Wrap_4251(::System::ValueTuple_2<::UnityEngine::Vector3, ::RPG::GameCore::GameEntityPosAdaptionResultFlag> a1)
 		{
-			return ((::JKLPFLJEPCH(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4251_OFFSET))(this, a1);
+			return ((::JKLPFLJEPCH(*)(::PVOID, ::System::ValueTuple_2<::UnityEngine::Vector3, ::RPG::GameCore::GameEntityPosAdaptionResultFlag>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4251_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_4252(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::Int32 a4, ::System::Single a5, ::System::Int32 a6, ::System::Boolean a7)
@@ -33784,9 +33790,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4259_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_4260(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Boolean a8, ::System::Single a9, ::System::Object* a10, ::System::Int32 a11)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::System::Int32> __Gen_Wrap_4260(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Boolean a8, ::System::Single a9, ::System::Object* a10, ::System::Int32 a11)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4260_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::System::Int32>(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4260_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::System::Int32 __Gen_Wrap_4261(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Boolean a8, ::System::Single a9, ::System::Object* a10, ::System::Int32 a11)
@@ -33929,9 +33935,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4288_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_4289(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::UnityEngine::Quaternion> __Gen_Wrap_4289(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4289_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::UnityEngine::Quaternion>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4289_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single __Gen_Wrap_4290(::RPG::Client::EmoEyeCtrl_EyeLookAtCurveBlend a1)
@@ -34109,14 +34115,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlayerLockTargetComponent_EntityLockInfo, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4324_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_4325(::System::Boolean a1, ::System::Nullable* a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_4325(::System::Boolean a1, ::System::Nullable_1<::UnityEngine::Vector3> a2, ::System::Nullable_1<::UnityEngine::Quaternion> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4325_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4325_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_4326(::System::Object* a1, ::System::Int32 a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_4326(::System::Object* a1, ::System::Int32 a2, ::System::Nullable_1<::RPG::GameCore::FixPoint> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4326_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4326_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_4327(::FBMOKODEPHA a1)
@@ -34244,9 +34250,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::JKLPFLJEPCH))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4351_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_4352(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
+		::System::ValueTuple_2<::RPG::GameCore::GameEntityPosAdaptionResultFlag, ::UnityEngine::Vector3> __Gen_Wrap_4352(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4352_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::RPG::GameCore::GameEntityPosAdaptionResultFlag, ::UnityEngine::Vector3>(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4352_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 __Gen_Wrap_4353(::System::RuntimeTypeHandle a1)
@@ -34344,9 +34350,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::GEEOPFIMJEM, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4371_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
-		::System::Object* __Gen_Wrap_4372(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4, ::System::Object* a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8, ::System::Object* a9, ::System::Object* a10, ::System::Boolean a11)
+		::System::Object* __Gen_Wrap_4372(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Object* a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8, ::System::Object* a9, ::System::Object* a10, ::System::Boolean a11)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4372_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4372_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::System::Int32 __Gen_Wrap_4373(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Single a4)
@@ -34449,9 +34455,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::IMJAFIDKDKK))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4392_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_4393(::System::Int32 a1)
+		::System::Nullable_1<::RPG::Client::B51Racing::CarSlotType> __Gen_Wrap_4393(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4393_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::B51Racing::CarSlotType>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4393_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_4394(::System::Int32 a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Int32 a4)
@@ -34479,9 +34485,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Single, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4398_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Int64 __Gen_Wrap_4399(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int64 __Gen_Wrap_4399(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::PlanetFesEventType, ::RPG::Client::PlanetFesEventDataBase*> a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4399_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::PlanetFesEventType, ::RPG::Client::PlanetFesEventDataBase*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4399_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_4400(::System::Object* a1, ::System::Object* a2, ::RPG::Client::RogueTournCollectionData* a3)
@@ -34609,9 +34615,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4424_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_4425(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::System::Object* a4)
+		::System::Void __Gen_Wrap_4425(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::RPG::GameCore::PropInteractMode> a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4425_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::PropInteractMode>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4425_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_4426(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Single a4, ::System::Int32 a5)
@@ -34774,14 +34780,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4457_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Object* __Gen_Wrap_4458(::System::Object* a1, ::System::Nullable* a2, ::System::Nullable* a3)
+		::System::Object* __Gen_Wrap_4458(::System::Object* a1, ::System::Nullable_1<::UnityEngine::Vector3> a2, ::System::Nullable_1<::UnityEngine::Quaternion> a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4458_OFFSET))(this, a1, a2, a3);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4458_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_4459(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Nullable* a6, ::System::Nullable* a7, ::System::Object* a8, ::System::Nullable* a9, ::System::Nullable* a10, ::System::Boolean a11)
+		::System::Void __Gen_Wrap_4459(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Nullable_1<::UnityEngine::Vector3> a6, ::System::Nullable_1<::UnityEngine::Quaternion> a7, ::System::Object* a8, ::System::Nullable_1<::UnityEngine::Vector3> a9, ::System::Nullable_1<::UnityEngine::Quaternion> a10, ::System::Boolean a11)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Boolean, ::System::Boolean, ::System::Nullable*, ::System::Nullable*, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4459_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Boolean, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4459_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::System::Single __Gen_Wrap_4460(::System::Object* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
@@ -34814,9 +34820,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Single, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4465_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void __Gen_Wrap_4466(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Nullable* a4, ::System::Nullable* a5)
+		::System::Void __Gen_Wrap_4466(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::System::Single> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4466_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4466_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Object* __Gen_Wrap_4467(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
@@ -34879,9 +34885,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::RPG::Client::RoadRash::MonoRoadRashGameProjectile*, ::RPG::Client::LittleGame::RoadRash::ProjectileParams))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4478_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::ValueTuple __Gen_Wrap_4479(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Single a4)
+		::System::ValueTuple_2<::BJIACBNKCCJ*, ::System::Single> __Gen_Wrap_4479(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4479_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::BJIACBNKCCJ*, ::System::Single>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4479_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_4480(::System::Object* a1, ::System::Single a2, ::System::Single a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Quaternion a5)
@@ -35129,9 +35135,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueAreaData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4528_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_4529()
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>* __Gen_Wrap_4529()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4529_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::LuaUIController*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4529_OFFSET))(this);
 		}
 
 		::System::Void __Gen_Wrap_4530(::RPG::Client::LuaUIController* a1)
@@ -35299,9 +35305,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4562_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* __Gen_Wrap_4563(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Nullable* a5)
+		::System::Object* __Gen_Wrap_4563(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Nullable_1<::System::Single> a5)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4563_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4563_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void __Gen_Wrap_4564(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4, ::System::Single a5, ::UnityEngine::Vector3 a6, ::System::Boolean a7)
@@ -35344,9 +35350,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::HEIGOBOHIMI))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4571_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* __Gen_Wrap_4572(::System::Int32 a1, ::System::Nullable* a2)
+		::System::Object* __Gen_Wrap_4572(::System::Int32 a1, ::System::Nullable_1<::RPG::Client::TextID> a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4572_OFFSET))(this, a1, a2);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Nullable_1<::RPG::Client::TextID>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4572_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_4573(::System::Boolean a1, ::System::Object* a2)
@@ -35479,9 +35485,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4598_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::ValueTuple __Gen_Wrap_4599(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::UnityEngine::Transform*, ::System::String*> __Gen_Wrap_4599(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4599_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::UnityEngine::Transform*, ::System::String*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4599_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_4600(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::Boolean a5)
@@ -35684,9 +35690,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single, ::RPG::MVector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4639_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_4640(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> __Gen_Wrap_4640(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4640_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4640_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_4641(::KBAALMJFHGC a1, ::CFLDNBDNJFP a2, ::System::Object* a3)
@@ -35789,9 +35795,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4660_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_4661(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Object* a4, ::System::Object* a5, ::RPG::MVector3 a6, ::RPG::MVector3 a7, ::System::Nullable* a8)
+		::System::Void __Gen_Wrap_4661(::System::Object* a1, ::System::Object* a2, ::System::Single a3, ::System::Object* a4, ::System::Object* a5, ::RPG::MVector3 a6, ::RPG::MVector3 a7, ::System::Nullable_1<::RPG::MQuaternion> a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Object*, ::System::Object*, ::RPG::MVector3, ::RPG::MVector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4661_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Object*, ::System::Object*, ::RPG::MVector3, ::RPG::MVector3, ::System::Nullable_1<::RPG::MQuaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4661_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void __Gen_Wrap_4662(::System::Object* a1, ::System::Object* a2)
@@ -35929,9 +35935,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Boolean, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4688_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 __Gen_Wrap_4689(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 __Gen_Wrap_4689(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4689_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4689_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_4690(::DHAFGMHPMHG_NNIFNAGDEHL* a1)
@@ -35979,9 +35985,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4698_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_4699(::KGPCBBIOGLB* a1, ::System::Tuple* a2)
+		::System::Void __Gen_Wrap_4699(::KGPCBBIOGLB* a1, ::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::KGPCBBIOGLB*, ::System::Tuple*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4699_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::KGPCBBIOGLB*, ::System::Tuple_2<::HGDELEAHIJO*, ::System::Object*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4699_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_4700(::HGDELEAHIJO* a1)
@@ -36129,9 +36135,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Int64, ::System::String*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4728_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void __Gen_Wrap_4729(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Nullable* a4, ::System::Int64 a5, ::System::Int64 a6, ::System::Int32 a7)
+		::System::Void __Gen_Wrap_4729(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Nullable_1<::System::Boolean> a4, ::System::Int64 a5, ::System::Int64 a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Nullable*, ::System::Int64, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4729_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Nullable_1<::System::Boolean>, ::System::Int64, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4729_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void __Gen_Wrap_4730(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::PFACHJFCILN_PreloadType a4)
@@ -36409,9 +36415,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4784_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_4785(::System::Object* a1, ::System::Nullable* a2, ::System::Int32 a3, ::System::Boolean a4)
+		::System::Boolean __Gen_Wrap_4785(::System::Object* a1, ::System::Nullable_1<::System::Object*> a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4785_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Object*>, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4785_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_4786(::System::Object* a1, ::JJBAAGFMEKM a2, ::System::Int32 a3, ::System::Single a4)
@@ -36419,9 +36425,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::JJBAAGFMEKM, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4786_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_4787(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_4787(::System::Object* a1, ::System::Nullable_1<::System::Object*> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4787_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4787_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single __Gen_Wrap_4788(::System::Object* a1, ::System::Single a2, ::System::Int32 a3)
@@ -36454,9 +36460,9 @@ namespace IFix
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4793_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_4794(::System::Object* a1)
+		::System::Nullable_1<::UnityEngine::Vector2> __Gen_Wrap_4794(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4794_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::UnityEngine::Vector2>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4794_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_4795(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Int32 a5)
@@ -36969,24 +36975,24 @@ namespace IFix
 			return ((::UnityEngine::Ray(*)(::PVOID, ::UnityEngine::Vector3, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4896_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single __Gen_Wrap_4897(::System::Nullable* a1)
+		::System::Single __Gen_Wrap_4897(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4897_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4897_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_4898(::System::Nullable* a1)
+		::System::Boolean __Gen_Wrap_4898(::System::Nullable_1<::System::Single> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4898_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4898_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4899(::GOKNJPBGBLE* a1)
+		::R3::Observable_1<::System::Single>* __Gen_Wrap_4899(::GOKNJPBGBLE* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4899_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Single>*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4899_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4900(::GOKNJPBGBLE* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_4900(::GOKNJPBGBLE* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4900_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::GOKNJPBGBLE*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4900_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_4901(::PPHMLMHGOIJ* a1)
@@ -37019,9 +37025,9 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4906_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4907(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_4907(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4907_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4907_OFFSET))(this, a1);
 		}
 
 		::CBJILMHOMGP* __Gen_Wrap_4908(::JGBNDFAOIFC* a1)
@@ -37029,29 +37035,29 @@ namespace IFix
 			return ((::CBJILMHOMGP*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4908_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4909(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_4909(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4909_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4909_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4910(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::Int32>* __Gen_Wrap_4910(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4910_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4910_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4911(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __Gen_Wrap_4911(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4911_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4911_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4912(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>* __Gen_Wrap_4912(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4912_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::ValueTuple_2<::System::String*, ::System::UInt32>>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4912_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4913(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>* __Gen_Wrap_4913(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4913_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::AvatarMaterialIndex>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4913_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_4914(::RPG::Client::MonoMaterialSwitch* a1, ::RPG::Client::AvatarMaterialIndex a2)
@@ -37069,34 +37075,34 @@ namespace IFix
 			return ((::AGKODPKMDMA*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4916_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4917(::JGBNDFAOIFC* a1)
+		::R3::Observable_1<::System::UInt32>* __Gen_Wrap_4917(::JGBNDFAOIFC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4917_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::UInt32>*(*)(::PVOID, ::JGBNDFAOIFC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4917_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_4918(::System::Nullable* a1)
+		::System::Boolean __Gen_Wrap_4918(::System::Nullable_1<::RPG::GameCore::GridFightPreset> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4918_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::GridFightPreset>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4918_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::TextID __Gen_Wrap_4919(::System::Nullable* a1)
+		::RPG::Client::TextID __Gen_Wrap_4919(::System::Nullable_1<::RPG::GameCore::GridFightPreset> a1)
 		{
-			return ((::RPG::Client::TextID(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4919_OFFSET))(this, a1);
+			return ((::RPG::Client::TextID(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::GridFightPreset>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4919_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4920(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_4920(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4920_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4920_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4921(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::RPG::Client::TextID>* __Gen_Wrap_4921(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4921_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::RPG::Client::TextID>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4921_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_4922(::AGKODPKMDMA* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_4922(::AGKODPKMDMA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4922_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::AGKODPKMDMA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4922_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_4923(::RPG::Client::MonoUIColorSwitcher* a1, ::System::String* a2)
@@ -37104,9 +37110,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoUIColorSwitcher*, ::System::String*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4923_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_4924(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::RPG::Client::Multiplayer::MPInviteType> __Gen_Wrap_4924(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4924_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::RPG::Client::Multiplayer::MPInviteType>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4924_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 __Gen_Wrap_4925(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5)
@@ -37114,9 +37120,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4925_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Object* __Gen_Wrap_4926(::System::Object* a1, ::System::Nullable* a2)
+		::System::Object* __Gen_Wrap_4926(::System::Object* a1, ::System::Nullable_1<::System::UInt32> a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4926_OFFSET))(this, a1, a2);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4926_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 __Gen_Wrap_4927(::KCKCFKKKHED* a1, ::KCKCFKKKHED* a2)
@@ -37129,9 +37135,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4928_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_4929(::System::ValueTuple a1)
+		::System::Boolean __Gen_Wrap_4929(::System::ValueTuple_2<::System::String*, ::System::String*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4929_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::String*, ::System::String*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4929_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_4930(::RPG::Client::RuntimeGroupManager_HoYoGroupUnit* a1)
@@ -37259,9 +37265,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::BINEKJFCLMP, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4954_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 __Gen_Wrap_4955(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __Gen_Wrap_4955(::System::ValueTuple_2<::System::UInt32, ::System::String*> a1, ::System::ValueTuple_2<::System::UInt32, ::System::String*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4955_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::String*>, ::System::ValueTuple_2<::System::UInt32, ::System::String*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4955_OFFSET))(this, a1, a2);
 		}
 
 		::GEDKNEFIADK __Gen_Wrap_4956(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -37284,9 +37290,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4959_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_4960(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Boolean __Gen_Wrap_4960(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::UnityEngine::Vector2> a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4960_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4960_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_4961(::System::Object* a1, ::System::Object* a2)
@@ -37344,9 +37350,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Single, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4971_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::RPG::Client::TriggerEffectParamsRef __Gen_Wrap_4972(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::Object* a5, ::System::Nullable* a6)
+		::RPG::Client::TriggerEffectParamsRef __Gen_Wrap_4972(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::Object* a5, ::System::Nullable_1<::UnityEngine::Vector3> a6)
 		{
-			return ((::RPG::Client::TriggerEffectParamsRef(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4972_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::RPG::Client::TriggerEffectParamsRef(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4972_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_4973(::System::Object* a1, ::System::Boolean a2, ::System::Object* a3, ::System::Single a4)
@@ -37369,9 +37375,9 @@ namespace IFix
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4976_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_4977(::System::Object* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_4977(::System::Object* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::UnityEngine::Quaternion> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4977_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4977_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Single __Gen_Wrap_4978(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3)
@@ -37419,9 +37425,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::NEJLIGKNHCC_KKGCNNMCFAP, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4986_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_4987(::System::Object* a1)
+		::System::Nullable_1<::UnityEngine::Vector3> __Gen_Wrap_4987(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4987_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4987_OFFSET))(this, a1);
 		}
 
 		::MAIGDLAGBLF __Gen_Wrap_4988(::System::Object* a1, ::System::Int32 a2)
@@ -37449,9 +37455,9 @@ namespace IFix
 			return ((::UnityEngine::Jobs::TransformAccessArray(*)(::PVOID, ::UnityEngine::Jobs::TransformAccessArray, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4992_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_4993(::System::Object* a1, ::System::Nullable* a2, ::System::Nullable* a3)
+		::System::Nullable_1<::System::Single> __Gen_Wrap_4993(::System::Object* a1, ::System::Nullable_1<::System::Single> a2, ::System::Nullable_1<::System::Single> a3)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4993_OFFSET))(this, a1, a2, a3);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4993_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Single __Gen_Wrap_4994(::System::Object* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Boolean a5)
@@ -37469,9 +37475,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4996_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_4997(::System::Object* a1, ::System::Nullable* a2, ::System::Nullable* a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_4997(::System::Object* a1, ::System::Nullable_1<::System::Object*> a2, ::System::Nullable_1<::System::Object*> a3, ::System::Nullable_1<::System::Object*> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4997_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Object*>, ::System::Nullable_1<::System::Object*>, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_4997_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean __Gen_Wrap_4998(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Bounds a3)
@@ -37584,9 +37590,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::FJIEGMAKIMA_KALJNIHFLGK, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5019_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5020(::System::Object* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> __Gen_Wrap_5020(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5020_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5020_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_5021(::System::Object* a1, ::GEEOPFIMJEM a2, ::System::Object* a3, ::System::Object* a4, ::FBHGKIBBCEI a5)
@@ -37614,9 +37620,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::Client::TrainPartyCameraSettings_SettingData))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5025_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5026(::System::Object* a1)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> __Gen_Wrap_5026(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5026_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5026_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5027(::System::Object* a1, ::UnityEngine::Vector2 a2, ::System::Object* a3)
@@ -37659,9 +37665,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::AJNIEDDIKOI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5034_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5035(::System::Int32 a1)
+		::System::ValueTuple_2<::System::String*, ::Entitas::IMatcher_1<::AGCPAMNLCGN*>*> __Gen_Wrap_5035(::System::Int32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5035_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::String*, ::Entitas::IMatcher_1<::AGCPAMNLCGN*>*>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5035_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_5036(::RPG::Client::CakeRaceGameFightResultParticipantData* a1, ::RPG::Client::CakeRaceGameFightResultParticipantData* a2)
@@ -37669,9 +37675,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::CakeRaceGameFightResultParticipantData*, ::RPG::Client::CakeRaceGameFightResultParticipantData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5036_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::CakeRaceGameFightResultParticipantData* __Gen_Wrap_5037(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::CakeRaceGameFightResultParticipantData* __Gen_Wrap_5037(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::CakeRaceGameFightResultParticipantData*> a1)
 		{
-			return ((::RPG::Client::CakeRaceGameFightResultParticipantData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5037_OFFSET))(this, a1);
+			return ((::RPG::Client::CakeRaceGameFightResultParticipantData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::CakeRaceGameFightResultParticipantData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5037_OFFSET))(this, a1);
 		}
 
 		::System::Int64 __Gen_Wrap_5038(::RPG::Client::CakeRaceGameFightResultParticipantData* a1)
@@ -37789,24 +37795,24 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5060_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Int32 __Gen_Wrap_5061(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __Gen_Wrap_5061(::System::ValueTuple_2<::System::UInt32, ::System::Int32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::Int32> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5061_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::Int32>, ::System::ValueTuple_2<::System::UInt32, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5061_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_5062(::System::Object* a1, ::System::ValueTuple a2, ::System::Int32 a3)
+		::System::Void __Gen_Wrap_5062(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::Int32> a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5062_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5062_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* __Gen_Wrap_5063(::System::ValueTuple a1, ::System::Int32 a2)
+		::System::Object* __Gen_Wrap_5063(::System::ValueTuple_2<::System::UInt32, ::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::ValueTuple, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5063_OFFSET))(this, a1, a2);
+			return ((::System::Object*(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5063_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5064(::System::Object* a1)
+		::System::ValueTuple_3<::System::Int32, ::FDPCDGOJKNK*, ::System::UInt32> __Gen_Wrap_5064(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5064_OFFSET))(this, a1);
+			return ((::System::ValueTuple_3<::System::Int32, ::FDPCDGOJKNK*, ::System::UInt32>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5064_OFFSET))(this, a1);
 		}
 
 		::System::Single __Gen_Wrap_5065(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Boolean a4)
@@ -38059,14 +38065,14 @@ namespace IFix
 			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5114_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 __Gen_Wrap_5115(::System::Object* a1, ::System::Nullable* a2)
+		::UnityEngine::Vector3 __Gen_Wrap_5115(::System::Object* a1, ::System::Nullable_1<::UnityEngine::Vector3> a2)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5115_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5115_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 __Gen_Wrap_5116(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3)
+		::UnityEngine::Vector3 __Gen_Wrap_5116(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5116_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5116_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord __Gen_Wrap_5117(::System::Object* a1, ::UnityEngine::Vector3 a2)
@@ -38099,9 +38105,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5122_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_5123(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Nullable* a5)
+		::System::Void __Gen_Wrap_5123(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Nullable_1<::System::Single> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5123_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5123_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void __Gen_Wrap_5124(::System::Object* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Boolean a8, ::System::Boolean a9)
@@ -38194,9 +38200,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5141_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_5142(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Single a6, ::System::Boolean a7)
+		::System::Void __Gen_Wrap_5142(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::UnityEngine::Quaternion> a5, ::System::Single a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Nullable*, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5142_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5142_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Object* __Gen_Wrap_5143(::System::Object* a1, ::System::Int32 a2, ::RPG::MVector2 a3)
@@ -38204,9 +38210,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::RPG::MVector2))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5143_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_5144(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable* a4)
+		::System::Void __Gen_Wrap_5144(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable_1<::UnityEngine::Vector3> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5144_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5144_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_5145(::System::Object* a1, ::System::Int32 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
@@ -38229,14 +38235,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5148_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_5149(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::ValueTuple a4)
+		::System::Void __Gen_Wrap_5149(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5149_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5149_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_5150(::OODMOIBKGCP* a1, ::OCPOIDCNJDA* a2, ::UnityEngine::Transform* a3, ::System::ValueTuple a4)
+		::System::Void __Gen_Wrap_5150(::OODMOIBKGCP* a1, ::OCPOIDCNJDA* a2, ::UnityEngine::Transform* a3, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5150_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5150_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_5151(::OODMOIBKGCP* a1, ::OCPOIDCNJDA* a2, ::UnityEngine::Transform* a3)
@@ -38259,9 +38265,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5154_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5155(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> __Gen_Wrap_5155(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5155_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5155_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean __Gen_Wrap_5156(::OCMFIOAJPLA* a1)
@@ -38284,9 +38290,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5159_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_5160(::System::Object* a1, ::System::ValueTuple a2)
+		::System::Void __Gen_Wrap_5160(::System::Object* a1, ::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Int32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5160_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5160_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_5161(::System::Object* a1, ::UnityEngine::Vector3 a2)
@@ -38549,19 +38555,19 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5212_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean __Gen_Wrap_5213(::System::Object* a1, ::System::Nullable* a2)
+		::System::Boolean __Gen_Wrap_5213(::System::Object* a1, ::System::Nullable_1<::System::Boolean> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5213_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5213_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_5214(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_5214(::System::Object* a1, ::System::Nullable_1<::System::Boolean> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5214_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5214_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_5215(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Object* a7, ::System::Nullable* a8, ::System::Int32 a9)
+		::System::Void __Gen_Wrap_5215(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Object* a7, ::System::Nullable_1<::System::Int32> a8, ::System::Int32 a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5215_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5215_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void __Gen_Wrap_5216(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Object* a7, ::System::Int32 a8)
@@ -38569,9 +38575,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5216_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Nullable* __Gen_Wrap_5217()
+		::System::Nullable_1<::RPG::GameCore::ChallengeGroupType> __Gen_Wrap_5217()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5217_OFFSET))(this);
+			return ((::System::Nullable_1<::RPG::GameCore::ChallengeGroupType>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5217_OFFSET))(this);
 		}
 
 		::System::Boolean __Gen_Wrap_5218(::LIOALDPOLJE* a1)
@@ -38634,9 +38640,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5229_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_5230(::System::Action* a1, ::System::Action* a2)
+		::System::Void __Gen_Wrap_5230(::System::Action_1<::System::Boolean>* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5230_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5230_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_5231(::RPG::Client::TextID a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -38649,9 +38655,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5232_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_5233(::System::Action* a1, ::System::Action* a2)
+		::System::Void __Gen_Wrap_5233(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5233_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5233_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_5234(::System::Object* a1, ::AHHNGJGLOKA a2, ::System::Int32 a3)
@@ -38834,14 +38840,14 @@ namespace IFix
 			return ((::System::TimeSpan(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5269_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5270(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5270(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5270_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5270_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ActivityBenefitDailyInfo* __Gen_Wrap_5271(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::ActivityBenefitDailyInfo* __Gen_Wrap_5271(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*> a1)
 		{
-			return ((::RPG::Client::ActivityBenefitDailyInfo*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5271_OFFSET))(this, a1);
+			return ((::RPG::Client::ActivityBenefitDailyInfo*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityBenefitDailyInfo*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5271_OFFSET))(this, a1);
 		}
 
 		::System::TimeSpan __Gen_Wrap_5272(::System::Object* a1, ::System::Int32 a2)
@@ -38889,9 +38895,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityBenefitV2Round*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5280_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_5281(::System::Object* a1)
+		::System::Nullable_1<::System::TimeSpan> __Gen_Wrap_5281(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5281_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5281_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5282(::RPG::Client::ChenLingBattle::CardConfig* a1)
@@ -38899,14 +38905,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::CardConfig*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5282_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_5283(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_5283(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::ChenLingBattle::CardConfig*, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5283_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::ChenLingBattle::CardConfig*, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5283_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_5284(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 __Gen_Wrap_5284(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::ChenLingBattle::CardConfig*, ::System::Int32> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5284_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::ChenLingBattle::CardConfig*, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5284_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5285(::RPG::Client::ChenLingBattleDeckData* a1)
@@ -38929,9 +38935,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChenLingPrivilegeTreeNode*, ::RPG::Client::ChenLingPrivilegeTreeNode*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5288_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_5289(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_5289(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingPrivilege*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5289_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingPrivilege*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5289_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5290(::RPG::Client::ChenLingPrivilegeTreeNode* a1)
@@ -38959,9 +38965,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChenLingFes::ChenLingFesGameSettleRecordItemViewModel*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5294_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_5295(::System::Object* a1)
+		::System::Nullable_1<::RPG::GameCore::LevelType> __Gen_Wrap_5295(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5295_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::GameCore::LevelType>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5295_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_5296(::System::Object* a1, ::RPG::Client::ClockParkEffectResult* a2)
@@ -39004,9 +39010,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::RPG::Client::ClockParkEffectResult*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5303_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5304(::System::Object* a1)
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> __Gen_Wrap_5304(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5304_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5304_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5305(::RPG::Client::ActivityElationStage* a1)
@@ -39094,14 +39100,14 @@ namespace IFix
 			return ((::BPGECKIMDKM(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5321_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_5322(::System::Object* a1)
+		::System::Nullable_1<::BPGECKIMDKM> __Gen_Wrap_5322(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5322_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::BPGECKIMDKM>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5322_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_5323(::NDKGIMLKJHA* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*>* __Gen_Wrap_5323(::NDKGIMLKJHA* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::NDKGIMLKJHA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5323_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::ActivityHotData*>*>*(*)(::PVOID, ::NDKGIMLKJHA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5323_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_5324(::CDHOODLNMAK* a1, ::CDHOODLNMAK* a2)
@@ -39139,9 +39145,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5330_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_5331(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __Gen_Wrap_5331(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5331_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5331_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_5332(::RPG::Client::ActivityIdleLive::IdleLiveDungeonData* a1)
@@ -39444,14 +39450,14 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::RPG::Client::TextID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5391_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::GameCore::ActivityLocalLegendRewardType __Gen_Wrap_5392(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::GameCore::ActivityLocalLegendRewardType __Gen_Wrap_5392(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::FHDJBLEGAHH*>*> a1)
 		{
-			return ((::RPG::GameCore::ActivityLocalLegendRewardType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5392_OFFSET))(this, a1);
+			return ((::RPG::GameCore::ActivityLocalLegendRewardType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::FHDJBLEGAHH*>*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5392_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ActivityLocalLegendRewardGroup* __Gen_Wrap_5393(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::ActivityLocalLegendRewardGroup* __Gen_Wrap_5393(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::FHDJBLEGAHH*>*> a1)
 		{
-			return ((::RPG::Client::ActivityLocalLegendRewardGroup*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5393_OFFSET))(this, a1);
+			return ((::RPG::Client::ActivityLocalLegendRewardGroup*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::FHDJBLEGAHH*>*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5393_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5394(::RPG::Client::QuestData* a1)
@@ -39469,9 +39475,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::MonsterData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5396_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_5397(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_5397(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5397_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5397_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5398(::RPG::GameCore::ItemConfig* a1)
@@ -39524,9 +39530,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ConditionParam*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5407_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_5408()
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_5408()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5408_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5408_OFFSET))(this);
 		}
 
 		::System::Int32 __Gen_Wrap_5409(::RPG::Client::FightActivityGroupInfo a1, ::RPG::Client::FightActivityGroupInfo a2)
@@ -39564,9 +39570,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::CycleScoreRewardRow*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5415_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_5416(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_5416(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityPhaseData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5416_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityPhaseData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5416_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5417(::RPG::Client::GridFightResidentActivityPanelData* a1)
@@ -39614,9 +39620,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityTagData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5425_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_5426(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_5426(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityPhotoExhibitionDetailData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5426_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityPhotoExhibitionDetailData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5426_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5427(::RPG::Client::ActivityPhotoExhibitionGroupData* a1)
@@ -39844,9 +39850,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::PlayerReturnInviteRow*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5471_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::ItemData* __Gen_Wrap_5472(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::ItemData* __Gen_Wrap_5472(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5472_OFFSET))(this, a1);
+			return ((::RPG::Client::ItemData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5472_OFFSET))(this, a1);
 		}
 
 		::GHHJNCOAIJF* __Gen_Wrap_5473(::System::String* a1)
@@ -39854,9 +39860,9 @@ namespace IFix
 			return ((::GHHJNCOAIJF*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5473_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_5474(::GHHJNCOAIJF* a1)
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* __Gen_Wrap_5474(::GHHJNCOAIJF* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5474_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID, ::GHHJNCOAIJF*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5474_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RPGHttpPlatformActResponse_1<::JNHLMGOBJLH*>* __Gen_Wrap_5475(::IHGIENOHBMJ* a1)
@@ -39919,9 +39925,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::MCOFKOEJGGL*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5486_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_5487()
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*>* __Gen_Wrap_5487()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5487_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5487_OFFSET))(this);
 		}
 
 		::System::Void __Gen_Wrap_5488(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* a1)
@@ -40149,14 +40155,14 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::UInt64, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5532_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::UInt32 __Gen_Wrap_5533(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5533(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5533_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5533_OFFSET))(this, a1);
 		}
 
-		::BIDDFDEAEGB* __Gen_Wrap_5534(::System::Collections::Generic::KeyValuePair* a1)
+		::BIDDFDEAEGB* __Gen_Wrap_5534(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*> a1)
 		{
-			return ((::BIDDFDEAEGB*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5534_OFFSET))(this, a1);
+			return ((::BIDDFDEAEGB*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5534_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_5535(::KDEKNFKEEMB a1, ::System::UInt32 a2, ::System::UInt32 a3)
@@ -40264,9 +40270,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::Ray, ::MFGGGCLCOLD_HEECDJDMACG*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5555_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 __Gen_Wrap_5556(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __Gen_Wrap_5556(::System::ValueTuple_2<::System::Double, ::System::Int32> a1, ::System::ValueTuple_2<::System::Double, ::System::Int32> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5556_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Double, ::System::Int32>, ::System::ValueTuple_2<::System::Double, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5556_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 __Gen_Wrap_5557(::System::Object* a1, ::UnityEngine::Ray a2, ::UnityEngine::Vector3 a3)
@@ -40564,9 +40570,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5615_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5616(::System::Object* a1, ::System::Object* a2, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState a3, ::System::Int32 a4, ::System::Int32 a5)
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> __Gen_Wrap_5616(::System::Object* a1, ::System::Object* a2, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5616_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Object*, ::RPG::Client::AvatarQuickGrowCalculator_GrowSimState, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5616_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean __Gen_Wrap_5617(::Proto::ItemCost* a1)
@@ -40779,9 +40785,9 @@ namespace IFix
 			return ((::GCIJNNOFDHM(*)(::PVOID, ::System::Object*, ::GCIJNNOFDHM))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5658_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 __Gen_Wrap_5659(::System::ValueTuple a1)
+		::System::UInt32 __Gen_Wrap_5659(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5659_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5659_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_5660(::System::Object* a1, ::DCMKIHKMBCF a2)
@@ -40974,9 +40980,9 @@ namespace IFix
 			return ((::HNOHHOEPFHC(*)(::PVOID, ::PEDNMPONAAO*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5697_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5698(::System::Object* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::APCGKBOPGJL, ::RPG::GameCore::AvatarSkillTreeAnchorType> __Gen_Wrap_5698(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5698_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::APCGKBOPGJL, ::RPG::GameCore::AvatarSkillTreeAnchorType>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5698_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 __Gen_Wrap_5699(::System::Object* a1, ::APCGKBOPGJL a2, ::System::Int32 a3)
@@ -41149,9 +41155,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::ABMNAENMFJL))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5732_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5733(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::AvatarSystem::Avatar*> __Gen_Wrap_5733(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5733_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::AvatarSystem::Avatar*>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5733_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_5734(::System::Object* a1, ::PBHPDJNGECA a2)
@@ -41379,14 +41385,14 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::CakeRaceParticipantData*, ::RPG::Client::CakeRaceParticipantData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5778_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5779(::System::Int32 a1)
+		::System::ValueTuple_2<::FMHEHLIFNGJ*, ::PJMGBLIFDFP*> __Gen_Wrap_5779(::System::Int32 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5779_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::FMHEHLIFNGJ*, ::PJMGBLIFDFP*>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5779_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_5780(::System::ValueTuple a1)
+		::System::Void __Gen_Wrap_5780(::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5780_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5780_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_5781(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Int32 a4, ::System::Object* a5)
@@ -41394,14 +41400,14 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5781_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_5782()
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* __Gen_Wrap_5782()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5782_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5782_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_5783(::System::ValueTuple a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* __Gen_Wrap_5783(::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL> a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5783_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5783_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_5784(::System::Object* a1, ::System::UInt64 a2, ::System::Object* a3)
@@ -41444,9 +41450,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5791_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Nullable* __Gen_Wrap_5792(::System::Object* a1)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_5792(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5792_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5792_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5793(::PANJDAEJKMG a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -41469,9 +41475,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::BaseChallengeTargetData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5796_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_5797(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_5797(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5797_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseChallengeTargetData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5797_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ChallengeData_ChallengeOpenResult __Gen_Wrap_5798(::System::Object* a1)
@@ -41579,14 +41585,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::DKPCNANHIKG))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5818_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_5819()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __Gen_Wrap_5819()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5819_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5819_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_5820(::System::Boolean a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __Gen_Wrap_5820(::System::Boolean a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5820_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5820_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Promises::IPromise* __Gen_Wrap_5821(::System::Boolean a1)
@@ -41604,9 +41610,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::KLJKOBOHPAB*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5823_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_5824(::System::Object* a1)
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32> __Gen_Wrap_5824(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5824_OFFSET))(this, a1);
+			return ((::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5824_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5825(::RPG::Client::ChallengePeak* a1)
@@ -41794,9 +41800,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::RPG::Client::IChimeraDuelSkillData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5861_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_5862(::System::Int32 a1)
+		::System::Nullable_1<::System::Int32> __Gen_Wrap_5862(::System::Int32 a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5862_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5862_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::Prop::ChimeraDuelShopViewEffectBase* __Gen_Wrap_5863(::System::UInt32 a1)
@@ -41839,9 +41845,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraDuelChimeraData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5870_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_5871(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 __Gen_Wrap_5871(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5871_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5871_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_5872(::RPG::Client::ChimeraDuelMasterData* a1, ::RPG::Client::ChimeraDuelMasterData* a2)
@@ -41894,9 +41900,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5881_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::ChimeraGalleryGroupedTalkData* __Gen_Wrap_5882(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::ChimeraGalleryGroupedTalkData* __Gen_Wrap_5882(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ChimeraTalkConditionType, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*> a1)
 		{
-			return ((::RPG::Client::ChimeraGalleryGroupedTalkData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5882_OFFSET))(this, a1);
+			return ((::RPG::Client::ChimeraGalleryGroupedTalkData*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::ChimeraTalkConditionType, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5882_OFFSET))(this, a1);
 		}
 
 		::System::Single __Gen_Wrap_5883(::RPG::Client::ChimeraGalleryGroupedTalkData* a1)
@@ -42064,9 +42070,9 @@ namespace IFix
 			return ((::UnityEngine::Ray(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5915_OFFSET))(this);
 		}
 
-		::System::Object* __Gen_Wrap_5916(::System::Single a1, ::System::Nullable* a2)
+		::System::Object* __Gen_Wrap_5916(::System::Single a1, ::System::Nullable_1<::UnityEngine::Vector2> a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5916_OFFSET))(this, a1, a2);
+			return ((::System::Object*(*)(::PVOID, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5916_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_5917(::RPG::Client::ElfProfileQuestGroupData* a1)
@@ -42099,19 +42105,19 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::ElfRestaurantProgressData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5922_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_5923(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 __Gen_Wrap_5923(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5923_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5923_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5924(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5924(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5924_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5924_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_5925(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_5925(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ElfRestaurantRecipeData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5925_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ElfRestaurantRecipeData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5925_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5926(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Boolean a4)
@@ -42124,9 +42130,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::RPG::GameCore::ElfFeverSkillLevelConfig*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5927_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_5928(::System::Object* a1)
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> __Gen_Wrap_5928(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5928_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5928_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_5929(::RPG::Client::EvolveBuildScMixData* a1, ::RPG::Client::EvolveBuildScMixData* a2)
@@ -42204,9 +42210,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::EvolveBuildTutorialUnlockScConfig))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5943_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5944(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5944(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5944_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5944_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_5945(::ICCEHNCMJAN a1)
@@ -42329,9 +42335,9 @@ namespace IFix
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::ExpeditionHarvestData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5968_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5969(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5969(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ExpeditionGroupData*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5969_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ExpeditionGroupData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5969_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_5970(::RPG::Client::ExpeditionHarvestData* a1)
@@ -42344,24 +42350,24 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ExpeditionGroupData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5971_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5972(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5972(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryParagraphData*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5972_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryParagraphData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5972_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5973(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5973(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryChapterData*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5973_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryChapterData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5973_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5974(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5974(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffData*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5974_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5974_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5975(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5975(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffSlotData*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5975_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffSlotData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5975_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_5976(::RPG::Client::FantasticStoryBuffData* a1, ::RPG::Client::FantasticStoryBuffData* a2)
@@ -42369,9 +42375,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FantasticStoryBuffData*, ::RPG::Client::FantasticStoryBuffData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5976_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_5977(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_5977(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5977_OFFSET))(this, a1, a2, a3);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5977_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* __Gen_Wrap_5978(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Boolean a6)
@@ -42404,9 +42410,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FatePhaseInfoItem*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5983_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_5984(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_5984(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5984_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5984_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_5985(::RPG::Client::FateBuffSlotData* a1, ::RPG::Client::FateBuffSlotData* a2)
@@ -42454,9 +42460,9 @@ namespace IFix
 			return ((::KIMFJHFAEJE(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5993_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_5994(::System::Collections::Generic::KeyValuePair* a1, ::System::Collections::Generic::KeyValuePair* a2)
+		::System::Int32 __Gen_Wrap_5994(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::HJHMNDBJPND*> a1, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::HJHMNDBJPND*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5994_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::HJHMNDBJPND*>, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::HJHMNDBJPND*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_5994_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_5995(::RPG::Client::FateHouguDataItem* a1)
@@ -42579,9 +42585,9 @@ namespace IFix
 			return ((::RPG::Client::FightFestChallengeResultInfo(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6018_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::ValueTuple __Gen_Wrap_6019(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::ValueTuple_2<::System::Boolean, ::System::UInt32> __Gen_Wrap_6019(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6019_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6019_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 __Gen_Wrap_6020(::RPG::Client::FightFestPaperInterview* a1, ::RPG::Client::FightFestPaperInterview* a2)
@@ -42689,9 +42695,9 @@ namespace IFix
 			return ((::RPG::Client::GridFightRole*(*)(::PVOID, ::RPG::Client::GridFightSeasonRole*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6040_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_6041(::System::Int32 a1, ::System::Int32 a2, ::System::Nullable* a3)
+		::System::UInt32 __Gen_Wrap_6041(::System::Int32 a1, ::System::Int32 a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6041_OFFSET))(this, a1, a2, a3);
+			return ((::System::UInt32(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6041_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Double __Gen_Wrap_6042(::PLFKMENCDMM* a1)
@@ -42769,14 +42775,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitBonusConfig*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6056_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_6057(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_6057(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightOrbEntityData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6057_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightOrbEntityData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6057_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_6058(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 __Gen_Wrap_6058(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightOrbEntityData*> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6058_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightOrbEntityData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6058_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_6059(::System::Object* a1, ::System::Double a2, ::System::Int32 a3)
@@ -42969,9 +42975,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightFormationRole*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6096_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_6097(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_6097(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightFormationRole*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6097_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightFormationRole*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6097_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_6098(::RPG::Client::GridFightEquipTrack* a1)
@@ -43024,9 +43030,9 @@ namespace IFix
 			return ((::RPG::Client::GridFightTraitConfig*(*)(::PVOID, ::RPG::GameCore::GridFightTraitBaseConfigRow*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6107_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_6108()
+		::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>* __Gen_Wrap_6108()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6108_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::IHGIENOHBMJ*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6108_OFFSET))(this);
 		}
 
 		::RPG::Client::GridFightGameRefHttpRspBody_1<::ADHIHGCOHME*>* __Gen_Wrap_6109(::IHGIENOHBMJ* a1)
@@ -43114,9 +43120,9 @@ namespace IFix
 			return ((::System::String*(*)(::PVOID, ::RPG::Client::MongoObjectId))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6125_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_6126(::System::Object* a1, ::System::Collections::Generic::KeyValuePair* a2)
+		::System::Void __Gen_Wrap_6126(::System::Object* a1, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::CCGFCHPPIDH*> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6126_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::CCGFCHPPIDH*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6126_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_6127(::System::Collections::Generic::Dictionary_2<::System::String*, ::CCGFCHPPIDH*>* a1)
@@ -43694,9 +43700,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixPoint, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6241_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 __Gen_Wrap_6242(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __Gen_Wrap_6242(::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32> a1, ::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6242_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>, ::System::ValueTuple_5<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::IHMJHLGKLHP, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6242_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 __Gen_Wrap_6243(::RPG::Client::GridFightEquipTrack* a1)
@@ -43704,14 +43710,14 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::GridFightEquipTrack*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6243_OFFSET))(this, a1);
 		}
 
-		::System::Object* __Gen_Wrap_6244(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Int32 a4, ::System::Nullable* a5)
+		::System::Object* __Gen_Wrap_6244(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Int32 a4, ::System::Nullable_1<::System::UInt32> a5)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6244_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Int32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6244_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Object* __Gen_Wrap_6245(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Int32 a4, ::System::Nullable* a5)
+		::System::Object* __Gen_Wrap_6245(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Int32 a4, ::System::Nullable_1<::System::UInt32> a5)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6245_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6245_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void __Gen_Wrap_6246(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3)
@@ -43989,9 +43995,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::CAOOFGCHFDI))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6300_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_6301(::System::Object* a1, ::System::ValueTuple a2)
+		::System::Void __Gen_Wrap_6301(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6301_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6301_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_6302(::System::Object* a1, ::CAOOFGCHFDI a2, ::System::Object* a3)
@@ -44104,9 +44110,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::LightConeQuickGrowCalculator_ExpSourceRow*, ::RPG::Client::LightConeQuickGrowCalculator_ExpSourceRow*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6323_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_6324(::System::Object* a1, ::System::Object* a2, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState a3, ::System::Int32 a4, ::System::Int32 a5)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __Gen_Wrap_6324(::System::Object* a1, ::System::Object* a2, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6324_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Object*, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6324_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean __Gen_Wrap_6325(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::RPG::Client::LightConeQuickGrowCalculator_GrowSimState a4)
@@ -44229,9 +44235,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6348_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_6349(::System::ValueTuple a1)
+		::RPG::Client::Promises::IPromise* __Gen_Wrap_6349(::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL> a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6349_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::FJPMJPEKLJL>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6349_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::System::Int32>* __Gen_Wrap_6350(::Il2CppArray<::System::Int32>* a1)
@@ -44474,9 +44480,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6397_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* __Gen_Wrap_6398(::System::Object* a1, ::System::Nullable* a2)
+		::System::Object* __Gen_Wrap_6398(::System::Object* a1, ::System::Nullable_1<::GIDAHJNMBKE> a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6398_OFFSET))(this, a1, a2);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::GIDAHJNMBKE>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6398_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_6399(::RPG::Client::MatchThreeV2RankData* a1)
@@ -44524,9 +44530,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6407_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_6408(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_6408(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6408_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6408_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 __Gen_Wrap_6409(::RPG::Client::MatchThreeV2LevelData* a1)
@@ -44604,9 +44610,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MissionChronicleSubPathData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6423_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_6424(::System::Object* a1)
+		::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*> __Gen_Wrap_6424(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6424_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6424_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_6425(::EOPEINOKFCI* a1)
@@ -44614,9 +44620,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::EOPEINOKFCI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6425_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_6426()
+		::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::IMissionChroniclePathUnlockConditionData*>*>* __Gen_Wrap_6426()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6426_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::IMissionChroniclePathUnlockConditionData*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6426_OFFSET))(this);
 		}
 
 		::System::Boolean __Gen_Wrap_6427(::System::Object* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Int32 a4)
@@ -44654,9 +44660,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6433_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_6434(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_6434(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6434_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6434_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_6435(::RPG::Client::IMissionIcon* a1)
@@ -44669,9 +44675,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6436_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_6437(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable* a4)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __Gen_Wrap_6437(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Nullable_1<::System::Single> a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6437_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6437_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Object* __Gen_Wrap_6438(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Object* a5)
@@ -44694,9 +44700,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6441_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_6442(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
+		::System::ValueTuple_2<::GIJPBMMNJKO*, ::IOEPMPAKMOK*> __Gen_Wrap_6442(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6442_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::GIJPBMMNJKO*, ::IOEPMPAKMOK*>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6442_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* __Gen_Wrap_6443(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Vector3 a4)
@@ -44844,14 +44850,14 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6471_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_6472(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_6472(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MuseumAvatarItemData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6472_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MuseumAvatarItemData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6472_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_6473(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_6473(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MuseumExhibitItemData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6473_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MuseumExhibitItemData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6473_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_6474(::RPG::Client::MusicAlbumGroupData* a1, ::RPG::Client::MusicAlbumGroupData* a2)
@@ -44874,9 +44880,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Book*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6477_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_6478(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_6478(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6478_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6478_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_6479(::JOLAHHGIFHA* a1)
@@ -44899,9 +44905,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::JBJNJPAOCDA*, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6482_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 __Gen_Wrap_6483(::System::Collections::Generic::KeyValuePair* a1, ::System::Collections::Generic::KeyValuePair* a2)
+		::System::Int32 __Gen_Wrap_6483(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64> a1, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6483_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6483_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 __Gen_Wrap_6484(::RPG::Client::PlayerBriefDisplayData* a1)
@@ -44984,9 +44990,9 @@ namespace IFix
 			return ((::System::Numerics::BigInteger(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6499_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_6500(::System::Numerics::BigInteger a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32> __Gen_Wrap_6500(::System::Numerics::BigInteger a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Numerics::BigInteger, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6500_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Int32>(*)(::PVOID, ::System::Numerics::BigInteger, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6500_OFFSET))(this, a1, a2);
 		}
 
 		::System::Numerics::BigInteger __Gen_Wrap_6501(::System::Object* a1)
@@ -45084,9 +45090,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::PlanetFesBuffSource*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6519_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_6520(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_6520(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarEventOptionResultData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6520_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarEventOptionResultData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6520_OFFSET))(this, a1);
 		}
 
 		::System::Numerics::BigInteger __Gen_Wrap_6521(::System::Object* a1, ::System::Object* a2)
@@ -45204,9 +45210,9 @@ namespace IFix
 			return ((::RPG::Client::IPlanetFesBuff*(*)(::PVOID, ::RPG::Client::IPlanetFesBuff*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6543_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_6544(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_6544(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6544_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6544_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_6545(::RPG::Client::IPlanetFesBuff* a1)
@@ -45239,9 +45245,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6550_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_6551(::RPG::Client::BaseLobby* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>* __Gen_Wrap_6551(::RPG::Client::BaseLobby* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::BaseLobby*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6551_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*(*)(::PVOID, ::RPG::Client::BaseLobby*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6551_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_6552(::System::Object* a1, ::System::Int32 a2, ::System::UInt64 a3, ::System::Object* a4)
@@ -45329,14 +45335,14 @@ namespace IFix
 			return ((::RPG::GameCore::ItemRarity(*)(::PVOID, ::RPG::Client::ItemDisplayData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6568_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_6569(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_6569(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6569_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6569_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::TreasureChallengeTargetStatus __Gen_Wrap_6570(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::TreasureChallengeTargetStatus __Gen_Wrap_6570(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus> a1)
 		{
-			return ((::RPG::Client::TreasureChallengeTargetStatus(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6570_OFFSET))(this, a1);
+			return ((::RPG::Client::TreasureChallengeTargetStatus(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6570_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_6571(::RPG::Client::TreasureChallengeTargetStatus a1)
@@ -45364,19 +45370,19 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6575_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_6576(::System::ValueTuple a1)
+		::System::UInt32 __Gen_Wrap_6576(::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6576_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6576_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::RechargeGiftData* __Gen_Wrap_6577(::System::ValueTuple a1)
+		::RPG::Client::RechargeGiftData* __Gen_Wrap_6577(::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*> a1)
 		{
-			return ((::RPG::Client::RechargeGiftData*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6577_OFFSET))(this, a1);
+			return ((::RPG::Client::RechargeGiftData*(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::RPG::Client::RechargeGiftData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6577_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::ItemConfig* __Gen_Wrap_6578(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::GameCore::ItemConfig* __Gen_Wrap_6578(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::RPG::GameCore::ItemConfig*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6578_OFFSET))(this, a1);
+			return ((::RPG::GameCore::ItemConfig*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6578_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_6579(::RPG::GameCore::ItemConfig* a1, ::RPG::GameCore::ItemConfig* a2)
@@ -45494,9 +45500,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::AJLNGGEEFKD*, ::AJLNGGEEFKD*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6601_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 __Gen_Wrap_6602(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __Gen_Wrap_6602(::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*> a1, ::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6602_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>, ::System::ValueTuple_2<::System::Single, ::RPG::Client::RelicItemData*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6602_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_6603(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* a4)
@@ -45684,9 +45690,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IRogueTournPersonaRoomCardInGame*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6639_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_6640(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*, ::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*> __Gen_Wrap_6640(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6640_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*, ::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6640_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_6641(::RPG::Client::RogueFormulaData* a1)
@@ -46189,9 +46195,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::RogueScoreRewardRow*, ::RPG::GameCore::RogueScoreRewardRow*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6740_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_6741()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __Gen_Wrap_6741()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6741_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6741_OFFSET))(this);
 		}
 
 		::System::Boolean __Gen_Wrap_6742(::RPG::Client::RogueNousMainMissionDataItem* a1)
@@ -46279,14 +46285,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Guid, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6758_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* __Gen_Wrap_6759(::RPG::Client::RogueFormulaData* a1)
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_6759(::RPG::Client::RogueFormulaData* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6759_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6759_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_6760(::RPG::Client::RogueTournHexData* a1)
+		::System::Nullable_1<::System::UInt32> __Gen_Wrap_6760(::RPG::Client::RogueTournHexData* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::Client::RogueTournHexData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6760_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::RPG::Client::RogueTournHexData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6760_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_6761(::System::Object* a1, ::System::Object* a2, ::System::Exception* a3)
@@ -46474,9 +46480,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournPersonaTalentGroupData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6797_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* __Gen_Wrap_6798(::System::Object* a1)
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*> __Gen_Wrap_6798(::System::Object* a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6798_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6798_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RPGHttpPlatformActResponse_1<::CENKIMNOOFH*>* __Gen_Wrap_6799(::IHGIENOHBMJ* a1)
@@ -46674,9 +46680,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::UnityEngine::Resolution))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6837_OFFSET))(this, a1, a2);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask __Gen_Wrap_6838(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Int32 a7)
+		::Cysharp::Threading::Tasks::UniTask_1<::RPG::Client::PacketSendResult_1<::Proto::BuyGoodsScRsp*>> __Gen_Wrap_6838(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Int32 a7)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6838_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::RPG::Client::PacketSendResult_1<::Proto::BuyGoodsScRsp*>>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6838_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::Cysharp::Threading::Tasks::UniTaskVoid __Gen_Wrap_6839(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6, ::System::Int32 a7)
@@ -46729,9 +46735,9 @@ namespace IFix
 			return ((::AOBIKHHFNEA(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6848_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_6849(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_6849(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6849_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6849_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_6850(::RPG::Client::TarotBookCharacter* a1)
@@ -46984,14 +46990,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6899_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_6900(::System::Object* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Quaternion a6, ::System::Single a7, ::System::Nullable* a8, ::System::Nullable* a9)
+		::System::Void __Gen_Wrap_6900(::System::Object* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Quaternion a6, ::System::Single a7, ::System::Nullable_1<::UnityEngine::Quaternion> a8, ::System::Nullable_1<::RPG::MVector3> a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6900_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6900_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Nullable* __Gen_Wrap_6901(::System::Object* a1)
+		::System::Nullable_1<::System::Double> __Gen_Wrap_6901(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6901_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Double>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_6901_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_6902(::System::Object* a1, ::System::UInt64 a2, ::System::UInt64 a3)
@@ -47594,9 +47600,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7021_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_7022(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_7022(::System::Object* a1, ::System::Nullable_1<::System::Int32> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7022_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7022_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 __Gen_Wrap_7023(::System::Object* a1, ::UnityEngine::Vector2 a2, ::System::Boolean a3, ::System::Boolean a4)
@@ -47609,9 +47615,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Single, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7024_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean __Gen_Wrap_7025(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3)
+		::System::Boolean __Gen_Wrap_7025(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7025_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7025_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_7026(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3)
@@ -47664,9 +47670,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7035_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple __Gen_Wrap_7036(::System::Object* a1, ::UnityEngine::Vector3 a2)
+		::System::ValueTuple_2<::System::String*, ::System::String*> __Gen_Wrap_7036(::System::Object* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7036_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7036_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_7037(::System::Object* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
@@ -47774,9 +47780,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelNPCInfo*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7057_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_7058(::System::Object* a1)
+		::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*> __Gen_Wrap_7058(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7058_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7058_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_7059(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Single a4)
@@ -47864,14 +47870,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7075_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_7076(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Boolean a5, ::System::Nullable* a6, ::System::Boolean a7)
+		::System::Void __Gen_Wrap_7076(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Boolean a5, ::System::Nullable_1<::UnityEngine::Vector2> a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7076_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector2>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7076_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::ValueTuple __Gen_Wrap_7077(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
+		::System::ValueTuple_2<::Il2CppArray<::System::String*>*, ::RPG::GameCore::CharacterAtlasFaceSet*> __Gen_Wrap_7077(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7077_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::Il2CppArray<::System::String*>*, ::RPG::GameCore::CharacterAtlasFaceSet*>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7077_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_7078(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Quaternion a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Object* a8, ::System::Object* a9)
@@ -48059,9 +48065,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Single, ::System::Boolean, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7114_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void __Gen_Wrap_7115(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::Object* a6, ::System::Nullable* a7)
+		::System::Void __Gen_Wrap_7115(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::Object* a6, ::System::Nullable_1<::UnityEngine::Pose> a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7115_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Pose>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7115_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void __Gen_Wrap_7116(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Quaternion a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8)
@@ -48209,9 +48215,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::ICOHAPENNHF_CKPLOEHPLNF))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7144_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_7145(::JOGBIBJLPJB a1, ::JOGBIBJLPJB a2)
+		::System::ValueTuple_2<::HNGIHOODNMB*, ::HNGIHOODNMB*> __Gen_Wrap_7145(::JOGBIBJLPJB a1, ::JOGBIBJLPJB a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::JOGBIBJLPJB, ::JOGBIBJLPJB))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7145_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::HNGIHOODNMB*, ::HNGIHOODNMB*>(*)(::PVOID, ::JOGBIBJLPJB, ::JOGBIBJLPJB))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7145_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_7146(::System::Object* a1, ::JOGBIBJLPJB a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
@@ -48229,9 +48235,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt64>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7148_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_7149(::System::Object* a1, ::System::Boolean a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_7149(::System::Object* a1, ::System::Boolean a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7149_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7149_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_7150(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::UnityEngine::Vector3 a4, ::System::Boolean a5)
@@ -48304,9 +48310,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::MJMCCBBANDN, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7163_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_7164(::System::Object* a1, ::LHNMIKHFKAG a2, ::System::Nullable* a3, ::System::Boolean a4)
+		::System::Void __Gen_Wrap_7164(::System::Object* a1, ::LHNMIKHFKAG a2, ::System::Nullable_1<::LHNMIKHFKAG> a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::LHNMIKHFKAG, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7164_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::LHNMIKHFKAG, ::System::Nullable_1<::LHNMIKHFKAG>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7164_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::LHNMIKHFKAG __Gen_Wrap_7165(::System::Object* a1, ::System::Single a2)
@@ -48314,9 +48320,9 @@ namespace IFix
 			return ((::LHNMIKHFKAG(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7165_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_7166(::System::Object* a1, ::System::Single a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_7166(::System::Object* a1, ::System::Single a2, ::System::Nullable_1<::System::Single> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7166_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7166_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_7167(::System::Object* a1, ::UnityEngine::Matrix4x4 a2, ::UnityEngine::Matrix4x4 a3)
@@ -48334,9 +48340,9 @@ namespace IFix
 			return ((::UnityEngine::Matrix4x4(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7169_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_7170(::System::Object* a1, ::RPG::MVector3 a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_7170(::System::Object* a1, ::RPG::MVector3 a2, ::System::Nullable_1<::RPG::MVector3> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::MVector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7170_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::MVector3, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7170_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::MVector3 __Gen_Wrap_7171(::System::Object* a1, ::System::Single a2)
@@ -48344,9 +48350,9 @@ namespace IFix
 			return ((::RPG::MVector3(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7171_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_7172(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::RPG::MVector3 a4, ::System::Nullable* a5)
+		::System::Void __Gen_Wrap_7172(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::RPG::MVector3 a4, ::System::Nullable_1<::RPG::MVector3> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::RPG::MVector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7172_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::RPG::MVector3, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7172_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::UnityEngine::Vector3 __Gen_Wrap_7173(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Vector3 a4)
@@ -48439,9 +48445,9 @@ namespace IFix
 			return ((::UnityEngine::Ray(*)(::PVOID, ::System::Object*, ::UnityEngine::Ray, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7190_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_7191(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::UnityEngine::LayerMask a6)
+		::System::Nullable_1<::System::Single> __Gen_Wrap_7191(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::UnityEngine::LayerMask a6)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7191_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7191_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_7192(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
@@ -48779,9 +48785,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TAUtils::OverrideLightModule, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7258_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_7259(::System::Object* a1)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> __Gen_Wrap_7259(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7259_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7259_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_7260(::System::Object* a1, ::System::Object* a2)
@@ -49869,9 +49875,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::HJLFGJNMPPC, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7476_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_7477(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Int32 a5, ::UnityEngine::LayerMask a6)
+		::System::Nullable_1<::PDHLJJCMEDJ> __Gen_Wrap_7477(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Int32 a5, ::UnityEngine::LayerMask a6)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::System::Int32, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7477_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Nullable_1<::PDHLJJCMEDJ>(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::System::Int32, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7477_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Object* __Gen_Wrap_7478(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::UnityEngine::LayerMask a6)
@@ -49899,14 +49905,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7482_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Nullable* __Gen_Wrap_7483(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::LayerMask a3)
+		::System::Nullable_1<::PDHLJJCMEDJ> __Gen_Wrap_7483(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::LayerMask a3)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7483_OFFSET))(this, a1, a2, a3);
+			return ((::System::Nullable_1<::PDHLJJCMEDJ>(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7483_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_7484(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::UnityEngine::LayerMask a4, ::System::Boolean a5)
+		::System::Nullable_1<::PDHLJJCMEDJ> __Gen_Wrap_7484(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::UnityEngine::LayerMask a4, ::System::Boolean a5)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7484_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Nullable_1<::PDHLJJCMEDJ>(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::LayerMask, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7484_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::UnityEngine::Vector3 __Gen_Wrap_7485(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::LayerMask a5)
@@ -50214,9 +50220,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::Client::TextID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7545_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_7546(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable* a4, ::System::Single a5, ::System::Int32 a6)
+		::System::Void __Gen_Wrap_7546(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Nullable_1<::RPG::GameCore::ElementDamageType> a4, ::System::Single a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7546_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Nullable_1<::RPG::GameCore::ElementDamageType>, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7546_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Object* __Gen_Wrap_7547(::System::Object* a1, ::JDMNPLMAKGE a2)
@@ -50229,9 +50235,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Int32, ::JDMNPLMAKGE, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7548_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean __Gen_Wrap_7549(::System::Tuple* a1)
+		::System::Boolean __Gen_Wrap_7549(::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::RPG::Client::TextID>* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Tuple*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7549_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Tuple_2<::RPG::Client::UIFloatingTextType, ::RPG::Client::TextID>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7549_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_7550(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::RPG::GameCore::FixPoint a4, ::System::Int32 a5, ::System::Int32 a6, ::CHMCAGBDPJH a7)
@@ -50349,9 +50355,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::NINPCAHNCBJ_FAJDGCLBLDM))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7572_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_7573(::System::Object* a1)
+		::System::Nullable_1<::IDKNGJGGMOI> __Gen_Wrap_7573(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7573_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::IDKNGJGGMOI>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7573_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_7574(::System::Object* a1, ::IDKNGJGGMOI a2, ::IDKNGJGGMOI a3)
@@ -50524,9 +50530,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::RPG::Client::TextID, ::System::Object*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7607_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple __Gen_Wrap_7608(::System::Object* a1)
+		::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> __Gen_Wrap_7608(::System::Object* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7608_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7608_OFFSET))(this, a1);
 		}
 
 		::System::Decimal __Gen_Wrap_7609(::System::Object* a1, ::System::Decimal a2)
@@ -50619,14 +50625,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::EGGHMNCEMMM*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7626_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_7627(::System::Object* a1, ::System::ValueTuple a2)
+		::System::Void __Gen_Wrap_7627(::System::Object* a1, ::System::ValueTuple_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7627_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7627_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_7628(::System::Object* a1, ::System::ValueTuple a2)
+		::System::Void __Gen_Wrap_7628(::System::Object* a1, ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7628_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7628_OFFSET))(this, a1, a2);
 		}
 
 		::BABICHJDNNH_DODNLPDHOKN __Gen_Wrap_7629(::System::Object* a1)
@@ -51449,9 +51455,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7792_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Nullable* __Gen_Wrap_7793(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::System::Object*> __Gen_Wrap_7793(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7793_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7793_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 __Gen_Wrap_7794(::System::Object* a1, ::System::Double a2, ::System::Boolean a3)
@@ -51569,24 +51575,24 @@ namespace IFix
 			return ((::IELMGLNMLFN(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7816_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_7817(::CKKGECOHPMO* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_7817(::CKKGECOHPMO* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::CKKGECOHPMO*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7817_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::CKKGECOHPMO*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7817_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_7818(::CKKGECOHPMO* a1)
+		::R3::Observable_1<::System::Int32>* __Gen_Wrap_7818(::CKKGECOHPMO* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::CKKGECOHPMO*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7818_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::CKKGECOHPMO*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7818_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_7819(::GNAHJKHFMCA* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_7819(::GNAHJKHFMCA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GNAHJKHFMCA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7819_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::GNAHJKHFMCA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7819_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_7820(::GNAHJKHFMCA* a1)
+		::R3::Observable_1<::System::Int32>* __Gen_Wrap_7820(::GNAHJKHFMCA* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::GNAHJKHFMCA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7820_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::GNAHJKHFMCA*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7820_OFFSET))(this, a1);
 		}
 
 		::ObservableCollections::IObservableCollection_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>* __Gen_Wrap_7821(::LNGKFJLKJAJ* a1)
@@ -51609,9 +51615,9 @@ namespace IFix
 			return ((::CBJILMHOMGP*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7824_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_7825(::LNGKFJLKJAJ* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_7825(::LNGKFJLKJAJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7825_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7825_OFFSET))(this, a1);
 		}
 
 		::ObservableCollections::ObservableList_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>* __Gen_Wrap_7826(::LNGKFJLKJAJ* a1)
@@ -51619,9 +51625,9 @@ namespace IFix
 			return ((::ObservableCollections::ObservableList_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7826_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_7827(::LNGKFJLKJAJ* a1)
+		::R3::Observable_1<::System::Int32>* __Gen_Wrap_7827(::LNGKFJLKJAJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7827_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Int32>*(*)(::PVOID, ::LNGKFJLKJAJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7827_OFFSET))(this, a1);
 		}
 
 		::R3::ReactiveProperty_1<::RPG::Client::Ui::Samples::FriendChatContactVM*>* __Gen_Wrap_7828(::LNGKFJLKJAJ* a1)
@@ -51664,9 +51670,9 @@ namespace IFix
 			return ((::R3::ReactiveProperty_1<::System::Boolean>*(*)(::PVOID, ::CAALFIDBNMJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7835_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_7836(::CAALFIDBNMJ* a1)
+		::R3::Observable_1<::System::Single>* __Gen_Wrap_7836(::CAALFIDBNMJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::CAALFIDBNMJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7836_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Single>*(*)(::PVOID, ::CAALFIDBNMJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7836_OFFSET))(this, a1);
 		}
 
 		::System::String* __Gen_Wrap_7837(::System::Boolean a1)
@@ -52104,9 +52110,9 @@ namespace IFix
 			return ((::System::Single(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7923_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean __Gen_Wrap_7924(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Nullable* a4)
+		::System::Boolean __Gen_Wrap_7924(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Nullable_1<::UnityEngine::Rect> a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7924_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Nullable_1<::UnityEngine::Rect>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7924_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 __Gen_Wrap_7925(::DIFMKJMFKOK* a1, ::DIFMKJMFKOK* a2)
@@ -52464,9 +52470,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Single, ::UnityEngine::RaycastHit))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7995_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_7996(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::ValueTuple_2<::System::Boolean, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>> __Gen_Wrap_7996(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7996_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7996_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::Vector3 __Gen_Wrap_7997(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Bounds a3, ::System::Single a4, ::System::Single a5)
@@ -52479,9 +52485,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Ray))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7998_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 __Gen_Wrap_7999(::System::Object* a1, ::System::ValueTuple a2, ::System::ValueTuple a3)
+		::System::Int32 __Gen_Wrap_7999(::System::Object* a1, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> a2, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7999_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_7999_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_8000(::System::Object* a1, ::RPG::Client::ParkourGame::EffectConfig a2, ::System::Object* a3)
@@ -52539,9 +52545,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8010_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::BDEOLCNPBPP* __Gen_Wrap_8011(::System::Collections::Generic::KeyValuePair* a1)
+		::BDEOLCNPBPP* __Gen_Wrap_8011(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::BDEOLCNPBPP*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8011_OFFSET))(this, a1);
+			return ((::BDEOLCNPBPP*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8011_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2 __Gen_Wrap_8012(::System::Object* a1, ::System::Int32 a2, ::System::Single a3)
@@ -52914,9 +52920,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::RPG::GameCore::LevelNavNodeTransitInfo))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8085_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_8086(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* a1)
+		::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>* __Gen_Wrap_8086(::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8086_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::RPG::Client::NavMap::ICartographer*>*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::IMapDataSource*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8086_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_8087(::RPG::GameCore::NavMapSubTabRow* a1, ::RPG::GameCore::NavMapSubTabRow* a2)
@@ -53044,9 +53050,9 @@ namespace IFix
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8111_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8112(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::ValueTuple_2<::RPG::Client::SequentialPanelContainer::EdgeDirection, ::RPG::Client::SequentialPanelContainer::EdgeDirection> __Gen_Wrap_8112(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8112_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::RPG::Client::SequentialPanelContainer::EdgeDirection, ::RPG::Client::SequentialPanelContainer::EdgeDirection>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8112_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_8113(::System::Int32 a1, ::System::UInt32 a2)
@@ -53284,19 +53290,19 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::DFJBJEENEBN*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8159_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8160(::DFJBJEENEBN* a1)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __Gen_Wrap_8160(::DFJBJEENEBN* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::DFJBJEENEBN*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8160_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::DFJBJEENEBN*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8160_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8161(::System::ValueTuple a1)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __Gen_Wrap_8161(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8161_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8161_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Pet::BlindBox::IBlindBoxPet* __Gen_Wrap_8162(::System::ValueTuple a1)
+		::RPG::Client::Pet::BlindBox::IBlindBoxPet* __Gen_Wrap_8162(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1)
 		{
-			return ((::RPG::Client::Pet::BlindBox::IBlindBoxPet*(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8162_OFFSET))(this, a1);
+			return ((::RPG::Client::Pet::BlindBox::IBlindBoxPet*(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8162_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_8163(::System::Int32 a1, ::System::Int32 a2, ::System::Object* a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6)
@@ -53334,9 +53340,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::FLDFHOHLCFB))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8169_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* __Gen_Wrap_8170(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* a1)
+		::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32> __Gen_Wrap_8170(::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8170_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8170_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_8171(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1)
@@ -53429,9 +53435,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8188_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8189(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1, ::System::Int32 a2, ::System::Nullable* a3)
+		::System::ValueTuple_3<::System::String*, ::System::String*, ::System::String*> __Gen_Wrap_8189(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1, ::System::Int32 a2, ::System::Nullable_1<::System::Numerics::BigInteger> a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8189_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_3<::System::String*, ::System::String*, ::System::String*>(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal, ::System::Int32, ::System::Nullable_1<::System::Numerics::BigInteger>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8189_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* __Gen_Wrap_8190(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1, ::System::Object* a2, ::System::Object* a3)
@@ -53449,9 +53455,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8192_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8193(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1)
+		::System::ValueTuple_2<::System::String*, ::System::String*> __Gen_Wrap_8193(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8193_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8193_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_8194(::RPG::GameCore::IdleLiveAvatarPropertyConfigRow* a1)
@@ -53629,9 +53635,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::NIMHLHECACH_KDKOEDNMPAB, ::NIMHLHECACH_KDKOEDNMPAB))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8228_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8229(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4)
+		::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single> __Gen_Wrap_8229(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8229_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_3<::System::Single, ::System::Single, ::System::Single>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8229_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_8230(::RPG::Client::ActivityIdleLive::PendingEquipData* a1)
@@ -53689,9 +53695,9 @@ namespace IFix
 			return ((::RPG::Client::ActivityIdleLive::PowerChangeUiData(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8240_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_8241(::System::ValueTuple a1)
+		::System::Void __Gen_Wrap_8241(::System::ValueTuple_2<::Proto::ItemList*, ::LPPKGHJGOCC> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8241_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::Proto::ItemList*, ::LPPKGHJGOCC>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8241_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_8242(::RPG::Client::ActivityIdleLive::LiveRoomIconUiData* a1)
@@ -53954,9 +53960,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_ImpactEffectConfig))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8293_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8294(::System::Int32 a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Boolean, ::System::Boolean> __Gen_Wrap_8294(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8294_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8294_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::RoadRash::RoadRashGameSettingsConfigure_ImpactEffectConfig __Gen_Wrap_8295(::System::Object* a1, ::System::Object* a2)
@@ -54634,9 +54640,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Int32, ::IDKGOGKFDOB*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8429_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Object* __Gen_Wrap_8430(::System::Object* a1, ::System::Nullable* a2)
+		::System::Object* __Gen_Wrap_8430(::System::Object* a1, ::System::Nullable_1<::System::Int32> a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8430_OFFSET))(this, a1, a2);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8430_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_8431(::RPG::Client::ChenLingBattle::SoldierPromotion* a1)
@@ -54644,14 +54650,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChenLingBattle::SoldierPromotion*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8431_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_8432(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable* a4)
+		::System::Int32 __Gen_Wrap_8432(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable_1<::System::UInt32> a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8432_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8432_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 __Gen_Wrap_8433(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Int32 __Gen_Wrap_8433(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8433_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8433_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_8434(::RPG::Client::ChenLingBattle::StageWave* a1)
@@ -54704,9 +54710,9 @@ namespace IFix
 			return ((::RPG::Client::CakeRace::CakeRaceGameFlow_InitParameters(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8443_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_8444()
+		::RPG::Client::Promises::IPromise_1<::EEFNMFGDGMA*>* __Gen_Wrap_8444()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8444_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::EEFNMFGDGMA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8444_OFFSET))(this);
 		}
 
 		::System::Void __Gen_Wrap_8445(::EEFNMFGDGMA* a1)
@@ -54774,9 +54780,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::DLBGONGJBNC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8457_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __Gen_Wrap_8458(::System::Object* a1, ::System::ValueTuple a2)
+		::System::UInt32 __Gen_Wrap_8458(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Object*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8458_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8458_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_8459(::System::Object* a1, ::MHCOBFJNNJB a2)
@@ -54789,14 +54795,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag, ::RPG::GameCore::Match3::GridTag, ::RPG::GameCore::Match3::BombType))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8460_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Boolean __Gen_Wrap_8461(::System::Object* a1, ::System::ValueTuple a2, ::System::Int32 a3)
+		::System::Boolean __Gen_Wrap_8461(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8461_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8461_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_8462(::System::Object* a1, ::System::ValueTuple a2, ::System::Int32 a3)
+		::System::Void __Gen_Wrap_8462(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8462_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8462_OFFSET))(this, a1, a2, a3);
 		}
 
 		::MHCOBFJNNJB __Gen_Wrap_8463(::System::Object* a1, ::System::Object* a2)
@@ -54829,24 +54835,24 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::Google::Protobuf::IMessage*, ::System::UInt64))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8468_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* __Gen_Wrap_8469(::System::Object* a1, ::System::ValueTuple a2)
+		::System::Object* __Gen_Wrap_8469(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8469_OFFSET))(this, a1, a2);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8469_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_8470(::System::Object* a1, ::System::ValueTuple a2, ::System::ValueTuple a3)
+		::System::Void __Gen_Wrap_8470(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8470_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8470_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8471(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::JBILGCPCJOD*, ::JBILGCPCJOD*> __Gen_Wrap_8471(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8471_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::JBILGCPCJOD*, ::JBILGCPCJOD*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8471_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8472(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::KLGJDILNNDH*, ::KLGJDILNNDH*> __Gen_Wrap_8472(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8472_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::KLGJDILNNDH*, ::KLGJDILNNDH*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8472_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_8473(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4)
@@ -54914,9 +54920,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::GFFNGOOMMKL_DJEMNMFOEII))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8485_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_8486(::System::Object* a1, ::System::ValueTuple a2, ::System::ValueTuple a3)
+		::System::Boolean __Gen_Wrap_8486(::System::Object* a1, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a2, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8486_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8486_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_8487(::BEGMOOECOJP_HIEABJPILLF a1)
@@ -54929,9 +54935,9 @@ namespace IFix
 			return ((::BEGMOOECOJP_HIEABJPILLF(*)(::PVOID, ::System::Object*, ::System::UInt64))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8488_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8489(::BEGMOOECOJP_HIEABJPILLF a1)
+		::System::ValueTuple_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>> __Gen_Wrap_8489(::BEGMOOECOJP_HIEABJPILLF a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::BEGMOOECOJP_HIEABJPILLF))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8489_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>(*)(::PVOID, ::BEGMOOECOJP_HIEABJPILLF))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8489_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_8490(::BEGMOOECOJP_HIEABJPILLF a1)
@@ -54939,9 +54945,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::BEGMOOECOJP_HIEABJPILLF))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8490_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8491(::BEGMOOECOJP_HIEABJPILLF a1)
+		::System::ValueTuple_2<::System::UInt32, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*> __Gen_Wrap_8491(::BEGMOOECOJP_HIEABJPILLF a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::BEGMOOECOJP_HIEABJPILLF))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8491_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::RPG::PoolList_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*>(*)(::PVOID, ::BEGMOOECOJP_HIEABJPILLF))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8491_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_8492(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
@@ -55074,9 +55080,9 @@ namespace IFix
 			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8517_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord __Gen_Wrap_8518(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::System::Int32 a4)
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord __Gen_Wrap_8518(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Int32 a4)
 		{
-			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8518_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8518_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::Vector3 __Gen_Wrap_8519(::System::Object* a1, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a2, ::System::Int32 a3)
@@ -55084,9 +55090,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8519_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord __Gen_Wrap_8520(::System::Object* a1, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a2, ::System::Nullable* a3)
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord __Gen_Wrap_8520(::System::Object* a1, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a2, ::System::Nullable_1<::UnityEngine::Vector3> a3)
 		{
-			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::System::Object*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8520_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord(*)(::PVOID, ::System::Object*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Nullable_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8520_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_8521(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Object* a5)
@@ -55209,9 +55215,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8544_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Nullable* __Gen_Wrap_8545(::System::Object* a1, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Object* a6)
+		::System::Nullable_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord> __Gen_Wrap_8545(::System::Object* a1, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Object* a6)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8545_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Nullable_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>(*)(::PVOID, ::System::Object*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8545_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_8546(::System::Object* a1, ::UnityEngine::Vector3 a2, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord a3, ::UnityEngine::Vector3 a4)
@@ -55459,9 +55465,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::RaycastHit))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8594_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::UnityEngine::Vector3 __Gen_Wrap_8595(::System::Object* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Nullable* a9)
+		::UnityEngine::Vector3 __Gen_Wrap_8595(::System::Object* a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Nullable_1<::System::Single> a9)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8595_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8595_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::UnityEngine::Vector3 __Gen_Wrap_8596(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
@@ -56144,9 +56150,9 @@ namespace IFix
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Object*, ::HGBCMFANCOE, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8731_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::UnityEngine::Vector3 __Gen_Wrap_8732(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Nullable* a9)
+		::UnityEngine::Vector3 __Gen_Wrap_8732(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Nullable_1<::System::Single> a9)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8732_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8732_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Boolean __Gen_Wrap_8733(::System::Object* a1, ::System::Boolean a2, ::HGBCMFANCOE a3, ::UnityEngine::Vector3 a4)
@@ -56404,9 +56410,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::UInt32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8783_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_8784(::AJJCKLMCOMM* a1, ::System::ValueTuple a2, ::UnityEngine::Collider* a3)
+		::System::Void __Gen_Wrap_8784(::AJJCKLMCOMM* a1, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerEventEmitterConfig*> a2, ::UnityEngine::Collider* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::AJJCKLMCOMM*, ::System::ValueTuple, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8784_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerEventEmitterConfig*>, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8784_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::GCFreeClosure::ActionClosure_1<::UnityEngine::Collider*> __Gen_Wrap_8785(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
@@ -56414,9 +56420,9 @@ namespace IFix
 			return ((::RPG::GCFreeClosure::ActionClosure_1<::UnityEngine::Collider*>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8785_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean __Gen_Wrap_8786(::AJJCKLMCOMM* a1, ::System::ValueTuple a2, ::UnityEngine::Collider* a3)
+		::System::Boolean __Gen_Wrap_8786(::AJJCKLMCOMM* a1, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType> a2, ::UnityEngine::Collider* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::AJJCKLMCOMM*, ::System::ValueTuple, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8786_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8786_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::GCFreeClosure::FuncClosureR_2<::UnityEngine::Collider*, ::System::Boolean> __Gen_Wrap_8787(::System::Object* a1, ::System::Object* a2, ::System::UInt32 a3)
@@ -56589,14 +56595,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::GACEPNEKIAI))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8820_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8821(::System::Object* a1, ::System::Single a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5)
+		::System::ValueTuple_2<::System::Single, ::RPG::Client::LittleGame::FiveDim::SpikeTrapState> __Gen_Wrap_8821(::System::Object* a1, ::System::Single a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Single, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8821_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::ValueTuple_2<::System::Single, ::RPG::Client::LittleGame::FiveDim::SpikeTrapState>(*)(::PVOID, ::System::Object*, ::System::Single, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8821_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8822(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> __Gen_Wrap_8822(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8822_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8822_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_8823(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::GACEPNEKIAI a4, ::System::Boolean a5)
@@ -56884,9 +56890,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8879_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_8880(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::RPG::GameCore::FixPoint a4, ::System::Object* a5, ::System::Object* a6, ::System::Nullable* a7)
+		::System::Void __Gen_Wrap_8880(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::RPG::GameCore::FixPoint a4, ::System::Object* a5, ::System::Object* a6, ::System::Nullable_1<::RPG::Client::LittleGame::PixAir::PixAirEquipInteractionType> a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::RPG::GameCore::FixPoint, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8880_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::RPG::GameCore::FixPoint, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::Client::LittleGame::PixAir::PixAirEquipInteractionType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8880_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void __Gen_Wrap_8881(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Int32 a5, ::RPG::GameCore::FixPoint a6, ::System::Object* a7)
@@ -56994,9 +57000,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::RPG::Client::AttachPoint*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8901_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* __Gen_Wrap_8902(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Boolean a4, ::System::Nullable* a5, ::System::Nullable* a6, ::System::Object* a7, ::System::Nullable* a8)
+		::System::Object* __Gen_Wrap_8902(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Boolean a4, ::System::Nullable_1<::System::Single> a5, ::System::Nullable_1<::UnityEngine::Vector3> a6, ::System::Object* a7, ::System::Nullable_1<::System::Single> a8)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Nullable*, ::System::Nullable*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8902_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Object*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8902_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::UInt32 __Gen_Wrap_8903(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Vector3 a4)
@@ -57109,9 +57115,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8924_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Int32 __Gen_Wrap_8925(::System::ValueTuple a1, ::System::ValueTuple a2)
+		::System::Int32 __Gen_Wrap_8925(::System::ValueTuple_2<::System::Single, ::RPG::GameCore::BaseChimeraDuelNode*> a1, ::System::ValueTuple_2<::System::Single, ::RPG::GameCore::BaseChimeraDuelNode*> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8925_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Single, ::RPG::GameCore::BaseChimeraDuelNode*>, ::System::ValueTuple_2<::System::Single, ::RPG::GameCore::BaseChimeraDuelNode*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8925_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_8926(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Double a4)
@@ -57194,9 +57200,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::BKGNKFKLIJK))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8941_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_8942(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3)
+		::System::Nullable_1<::UnityEngine::AnimatorStateInfo> __Gen_Wrap_8942(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8942_OFFSET))(this, a1, a2, a3);
+			return ((::System::Nullable_1<::UnityEngine::AnimatorStateInfo>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8942_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_8943(::LKFPICOFNDF* a1)
@@ -57219,14 +57225,14 @@ namespace IFix
 			return ((::RPG::Client::TriggerEffectParamsRef(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8946_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8947(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3)
+		::System::ValueTuple_2<::System::Int32, ::System::String*> __Gen_Wrap_8947(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8947_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::String*>(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8947_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_8948(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
+		::System::ValueTuple_2<::System::Int32, ::System::String*> __Gen_Wrap_8948(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8948_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::String*>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8948_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean __Gen_Wrap_8949(::RPG::Client::MonoEffect* a1)
@@ -57234,9 +57240,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MonoEffect*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8949_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_8950(::System::Object* a1, ::System::ValueTuple a2, ::System::Object* a3)
+		::System::Void __Gen_Wrap_8950(::System::Object* a1, ::System::ValueTuple_2<::System::Int32, ::System::String*> a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8950_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8950_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void __Gen_Wrap_8951(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4, ::System::Boolean a5, ::System::Single a6)
@@ -57369,19 +57375,19 @@ namespace IFix
 			return ((::CBEMBJPNIJJ*(*)(::PVOID, ::KHNIAFDBHCD_PDACENHFJCM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8976_OFFSET))(this, a1);
 		}
 
-		::System::Int64 __Gen_Wrap_8977(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int64 __Gen_Wrap_8977(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8977_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8977_OFFSET))(this, a1);
 		}
 
-		::System::String* __Gen_Wrap_8978(::System::Collections::Generic::KeyValuePair* a1)
+		::System::String* __Gen_Wrap_8978(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8978_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8978_OFFSET))(this, a1);
 		}
 
-		::OGLGJAFCELK* __Gen_Wrap_8979(::System::Collections::Generic::KeyValuePair* a1)
+		::OGLGJAFCELK* __Gen_Wrap_8979(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64> a1)
 		{
-			return ((::OGLGJAFCELK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8979_OFFSET))(this, a1);
+			return ((::OGLGJAFCELK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Int64>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_8979_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_8980(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Object* a4, ::System::Single a5, ::System::Single a6, ::System::Single a7)
@@ -57539,9 +57545,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9010_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9011(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> __Gen_Wrap_9011(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9011_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9011_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_9012(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
@@ -57599,9 +57605,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9022_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9023(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
+		::System::ValueTuple_2<::System::Int32, ::UnityEngine::GameObject*> __Gen_Wrap_9023(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9023_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::ValueTuple_2<::System::Int32, ::UnityEngine::GameObject*>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9023_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::UnityEngine::Ray __Gen_Wrap_9024(::System::Object* a1, ::UnityEngine::Ray a2)
@@ -58054,9 +58060,9 @@ namespace IFix
 			return ((::System::UInt32(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9113_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_9114(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::Nullable* a5, ::System::Object* a6, ::System::Object* a7, ::System::Boolean a8, ::System::Object* a9)
+		::System::Void __Gen_Wrap_9114(::System::Object* a1, ::System::Object* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::Object* a6, ::System::Object* a7, ::System::Boolean a8, ::System::Object* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9114_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9114_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Object* __Gen_Wrap_9115(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Single a4, ::System::Single a5)
@@ -58094,14 +58100,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9121_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 __Gen_Wrap_9122(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 __Gen_Wrap_9122(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9122_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9122_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* __Gen_Wrap_9123(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* __Gen_Wrap_9123(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*> a1)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9123_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9123_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2Int __Gen_Wrap_9124(::UnityEngine::Vector2 a1)
@@ -58134,9 +58140,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Boolean, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9129_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Object* __Gen_Wrap_9130(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Nullable* a5, ::System::Boolean a6)
+		::System::Object* __Gen_Wrap_9130(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Nullable_1<::System::Single> a5, ::System::Boolean a6)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9130_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Nullable_1<::System::Single>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9130_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void __Gen_Wrap_9131(::System::Object* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Object* a4, ::System::Int32 a5)
@@ -58174,9 +58180,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::RPG::Client::Prop::BoxmanCoord))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9137_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_9138(::System::Object* a1, ::System::Nullable* a2)
+		::System::Boolean __Gen_Wrap_9138(::System::Object* a1, ::System::Nullable_1<::RPG::Client::Prop::BoxmanItemType> a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9138_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::Prop::BoxmanItemType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9138_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* __Gen_Wrap_9139(::JOHKNMBNPOD a1)
@@ -58259,9 +58265,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9154_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Object* __Gen_Wrap_9155(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::System::Nullable* a4, ::System::Object* a5, ::System::Object* a6)
+		::System::Object* __Gen_Wrap_9155(::System::Object* a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Object* a5, ::System::Object* a6)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Nullable*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9155_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9155_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Boolean __Gen_Wrap_9156(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
@@ -58339,9 +58345,9 @@ namespace IFix
 			return ((::HDLCAPDIKJI*(*)(::PVOID, ::System::Linq::IGrouping_2<::System::UInt32, ::ACNNPBJEOFJ*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9170_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_9171(::CLCOAJDPMJN* a1)
+		::RPG::Client::Promises::IPromise_1<::HMFFHLKHOMJ*>* __Gen_Wrap_9171(::CLCOAJDPMJN* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::CLCOAJDPMJN*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9171_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::HMFFHLKHOMJ*>*(*)(::PVOID, ::CLCOAJDPMJN*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9171_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_9172(::HMFFHLKHOMJ* a1)
@@ -58449,19 +58455,19 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9192_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9193(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_9193(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9193_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9193_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9194(::LABEGKEFBPJ* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_9194(::LABEGKEFBPJ* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9194_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::LABEGKEFBPJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9194_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9195(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_9195(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9195_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9195_OFFSET))(this, a1);
 		}
 
 		::CEEGMMCFCBG* __Gen_Wrap_9196(::MEAFKINAELF* a1)
@@ -58469,9 +58475,9 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9196_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9197(::MEAFKINAELF* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_9197(::MEAFKINAELF* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9197_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::MEAFKINAELF*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9197_OFFSET))(this, a1);
 		}
 
 		::ObservableCollections::ObservableList_1<::MEAFKINAELF*>* __Gen_Wrap_9198(::OBOLGLHJLBP* a1)
@@ -58484,9 +58490,9 @@ namespace IFix
 			return ((::ObservableCollections::ObservableList_1<::KCFGMKGNMNP*>*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9199_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9200(::OBOLGLHJLBP* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_9200(::OBOLGLHJLBP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9200_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::OBOLGLHJLBP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9200_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9201(::System::Object* a1, ::System::Object* a2, ::LCDEEKNHPBG* a3)
@@ -58499,9 +58505,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::RedDotType))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9202_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9203(::CHLKFLECHIP* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_9203(::CHLKFLECHIP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::CHLKFLECHIP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9203_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::CHLKFLECHIP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9203_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9204(::FFPFEGNEJDA* a1)
@@ -58544,9 +58550,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9211_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9212(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
+		::System::ValueTuple_3<::BOHBPAKJGCK*, ::System::Collections::Generic::List_1<::EPFHDFJPECH*>*, ::System::Boolean> __Gen_Wrap_9212(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9212_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_3<::BOHBPAKJGCK*, ::System::Collections::Generic::List_1<::EPFHDFJPECH*>*, ::System::Boolean>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9212_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* __Gen_Wrap_9213(::System::Object* a1, ::RPG::GameCore::FixPoint a2, ::System::Object* a3, ::System::Int32 a4, ::System::Boolean a5)
@@ -58599,9 +58605,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::EPADPABCFGH*, ::EPADPABCFGH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9222_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9223(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::BOHBPAKJGCK*, ::System::Collections::Generic::List_1<::EPFHDFJPECH*>*> __Gen_Wrap_9223(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9223_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::BOHBPAKJGCK*, ::System::Collections::Generic::List_1<::EPFHDFJPECH*>*>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9223_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_9224(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5)
@@ -58659,14 +58665,14 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector2, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9234_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 __Gen_Wrap_9235(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Int32 __Gen_Wrap_9235(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9235_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9235_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_9236(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_9236(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9236_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9236_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_9237(::System::Object* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4)
@@ -58674,9 +58680,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9237_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Collections::Generic::KeyValuePair* __Gen_Wrap_9238(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> __Gen_Wrap_9238(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9238_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9238_OFFSET))(this, a1);
 		}
 
 		::FKKIAHNJCBC* __Gen_Wrap_9239(::KNHCNPDALBB* a1)
@@ -58709,24 +58715,24 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::OFIILELJGIE*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9244_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_9245(::System::Object* a1, ::System::Nullable* a2, ::System::Object* a3)
+		::System::Boolean __Gen_Wrap_9245(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9245_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9245_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9246(::System::Collections::Generic::KeyValuePair* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> __Gen_Wrap_9246(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9246_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9246_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::MechCraft::MechCraftAttributeType __Gen_Wrap_9247(::System::ValueTuple a1)
+		::RPG::Client::MechCraft::MechCraftAttributeType __Gen_Wrap_9247(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9247_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9247_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_9248(::System::ValueTuple a1)
+		::System::Int32 __Gen_Wrap_9248(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9248_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9248_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9249(::CHGHIALKMFM* a1)
@@ -58739,14 +58745,14 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::CHGHIALKMFM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9250_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_9251(::System::Object* a1, ::System::Nullable* a2, ::System::Object* a3)
+		::System::Boolean __Gen_Wrap_9251(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType> a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9251_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9251_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::MechCraft::MechCraftAttributeType __Gen_Wrap_9252(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::MechCraft::MechCraftAttributeType __Gen_Wrap_9252(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9252_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftAttributeType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9252_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9253(::RPG::Client::MechCraft::MechCraftChipTraitType a1)
@@ -58759,19 +58765,19 @@ namespace IFix
 			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9254_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9255(::RPG::Client::MechCraft::MechCraftChipTraitType a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> __Gen_Wrap_9255(::RPG::Client::MechCraft::MechCraftChipTraitType a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9255_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9255_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::MechCraft::MechCraftChipTraitType __Gen_Wrap_9256(::System::ValueTuple a1)
+		::RPG::Client::MechCraft::MechCraftChipTraitType __Gen_Wrap_9256(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9256_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9256_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_9257(::System::ValueTuple a1)
+		::System::Int32 __Gen_Wrap_9257(::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9257_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::System::Int32, ::RPG::Client::MechCraft::MechCraftChipTraitType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9257_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>* __Gen_Wrap_9258(::IAJGGEMFOMB* a1)
@@ -58809,9 +58815,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::ILOOAAOHIIG*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9264_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9265(::System::Object* a1)
+		::System::Nullable_1<::PLHLAIJKMOD> __Gen_Wrap_9265(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9265_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::PLHLAIJKMOD>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9265_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9266(::Il2CppArray<::System::Boolean>* a1)
@@ -58869,9 +58875,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9276_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_9277(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_9277(::System::Object* a1, ::System::Nullable_1<::PLHLAIJKMOD> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9277_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::PLHLAIJKMOD>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9277_OFFSET))(this, a1, a2);
 		}
 
 		::DGHDHELLBBC* __Gen_Wrap_9278(::FPIKMMDHEDE* a1)
@@ -58899,19 +58905,19 @@ namespace IFix
 			return ((::CKKMKFFFCAA*(*)(::PVOID, ::JEOCDNBFEBF*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9282_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9283(::System::Object* a1, ::UnityEngine::Vector2Int a2, ::System::Int32 a3)
+		::System::Nullable_1<::UnityEngine::Vector2Int> __Gen_Wrap_9283(::System::Object* a1, ::UnityEngine::Vector2Int a2, ::System::Int32 a3)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector2Int, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9283_OFFSET))(this, a1, a2, a3);
+			return ((::System::Nullable_1<::UnityEngine::Vector2Int>(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector2Int, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9283_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_9284(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_9284(::System::Object* a1, ::System::Nullable_1<::UnityEngine::Vector2Int> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9284_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector2Int>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9284_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_9285(::System::Nullable* a1)
+		::System::Void __Gen_Wrap_9285(::System::Nullable_1<::UnityEngine::Vector2Int> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9285_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::UnityEngine::Vector2Int>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9285_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_9286(::System::Action* a1)
@@ -58929,9 +58935,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::NKIJFPHFJCO*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9288_OFFSET))(this, a1);
 		}
 
-		::System::Object* __Gen_Wrap_9289(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Object* __Gen_Wrap_9289(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::UnityEngine::Vector2Int> a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9289_OFFSET))(this, a1, a2, a3);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector2Int>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9289_OFFSET))(this, a1, a2, a3);
 		}
 
 		::EEFEDNHNOJO* __Gen_Wrap_9290(::RPG::Client::MechCraft::MechCraftAttributeType a1)
@@ -58974,14 +58980,14 @@ namespace IFix
 			return ((::NKIJFPHFJCO*(*)(::PVOID, ::IALBJEGDCFI_HCBKBKPNDKB*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9297_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Immutable::ImmutableHashSet* __Gen_Wrap_9298(::DGHDHELLBBC* a1)
+		::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>* __Gen_Wrap_9298(::DGHDHELLBBC* a1)
 		{
-			return ((::System::Collections::Immutable::ImmutableHashSet*(*)(::PVOID, ::DGHDHELLBBC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9298_OFFSET))(this, a1);
+			return ((::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>*(*)(::PVOID, ::DGHDHELLBBC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9298_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_9299(::System::Collections::Immutable::ImmutableHashSet* a1)
+		::System::Void __Gen_Wrap_9299(::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Immutable::ImmutableHashSet*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9299_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Immutable::ImmutableHashSet_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9299_OFFSET))(this, a1);
 		}
 
 		::IALBJEGDCFI* __Gen_Wrap_9300(::R3::Unit a1)
@@ -58989,9 +58995,9 @@ namespace IFix
 			return ((::IALBJEGDCFI*(*)(::PVOID, ::R3::Unit))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9300_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9301(::IALBJEGDCFI* a1)
+		::R3::Observable_1<::NKIJFPHFJCO*>* __Gen_Wrap_9301(::IALBJEGDCFI* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::IALBJEGDCFI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9301_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::NKIJFPHFJCO*>*(*)(::PVOID, ::IALBJEGDCFI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9301_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9302(::JEBPFBNCALB* a1)
@@ -59029,14 +59035,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::BHHPHPGCODJ*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9308_OFFSET))(this, a1);
 		}
 
-		::OJOHBFMIDJD_GFLKBJPGIKK* __Gen_Wrap_9309(::System::Collections::Generic::KeyValuePair* a1)
+		::OJOHBFMIDJD_GFLKBJPGIKK* __Gen_Wrap_9309(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::OJOHBFMIDJD_GFLKBJPGIKK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9309_OFFSET))(this, a1);
+			return ((::OJOHBFMIDJD_GFLKBJPGIKK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9309_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MechCraft::MechCraftChipTraitType __Gen_Wrap_9310(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::Client::MechCraft::MechCraftChipTraitType __Gen_Wrap_9310(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32> a1)
 		{
-			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9310_OFFSET))(this, a1);
+			return ((::RPG::Client::MechCraft::MechCraftChipTraitType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9310_OFFSET))(this, a1);
 		}
 
 		::OJOHBFMIDJD_EALPCBCHOMD* __Gen_Wrap_9311(::RPG::Client::MechCraft::MechCraftChipTraitType a1)
@@ -59044,14 +59050,14 @@ namespace IFix
 			return ((::OJOHBFMIDJD_EALPCBCHOMD*(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftChipTraitType))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9311_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_9312(::CGEOCOPMJGI* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __Gen_Wrap_9312(::CGEOCOPMJGI* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::CGEOCOPMJGI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9312_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::CGEOCOPMJGI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9312_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_9313(::MEGIEBCBOCI* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __Gen_Wrap_9313(::MEGIEBCBOCI* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::MEGIEBCBOCI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9313_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::MEGIEBCBOCI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9313_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_9314(::FKLECLLJCEH* a1, ::FKLECLLJCEH* a2)
@@ -59079,9 +59085,9 @@ namespace IFix
 			return ((::PMBMFHMKBNC*(*)(::PVOID, ::PMBMFHMKBNC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9318_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_9319(::PMBMFHMKBNC* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* __Gen_Wrap_9319(::PMBMFHMKBNC* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::PMBMFHMKBNC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9319_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::PMBMFHMKBNC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9319_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9320(::RPG::Client::MechCraft::ViewModel::IMechCraftDiyMechatronItemViewModel* a1)
@@ -59094,9 +59100,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::TextID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9321_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::NDFBOPJIKAG* __Gen_Wrap_9322(::System::Collections::Generic::KeyValuePair* a1)
+		::NDFBOPJIKAG* __Gen_Wrap_9322(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::NDFBOPJIKAG*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9322_OFFSET))(this, a1);
+			return ((::NDFBOPJIKAG*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9322_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9323(::FKLECLLJCEH* a1)
@@ -59134,9 +59140,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::IGIEOGBNLAC*, ::IGIEOGBNLAC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9329_OFFSET))(this, a1, a2);
 		}
 
-		::CELAKJDDDOH* __Gen_Wrap_9330(::System::Collections::Generic::KeyValuePair* a1)
+		::CELAKJDDDOH* __Gen_Wrap_9330(::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> a1)
 		{
-			return ((::CELAKJDDDOH*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9330_OFFSET))(this, a1);
+			return ((::CELAKJDDDOH*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9330_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::MechCraft::ViewModel::MechCraftOrderItemViewModel* __Gen_Wrap_9331(::IGIEOGBNLAC* a1)
@@ -59239,29 +59245,29 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::RPG::Client::TextID, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9350_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void __Gen_Wrap_9351(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_9351(::System::Object* a1, ::System::Nullable_1<::System::Object*> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9351_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9351_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_9352(::System::Object* a1)
+		::System::Nullable_1<::System::Object*> __Gen_Wrap_9352(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9352_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9352_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9353(::System::Object* a1)
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> __Gen_Wrap_9353(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9353_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9353_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_9354(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_9354(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9354_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9354_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_9355(::System::Object* a1, ::System::Nullable* a2, ::System::Int32 a3)
+		::System::Void __Gen_Wrap_9355(::System::Object* a1, ::System::Nullable_1<::System::Int32> a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9355_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Int32>, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9355_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Action* __Gen_Wrap_9356(::UnityEngine::GameObject* a1, ::System::Int32 a2)
@@ -59289,9 +59295,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::ONPKMMDCDAN))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9360_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_9361(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::System::Void __Gen_Wrap_9361(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9361_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9361_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::GameObject* __Gen_Wrap_9362()
@@ -59304,14 +59310,14 @@ namespace IFix
 			return ((::System::Action*(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9363_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_9364(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Vector2 a5)
+		::System::Nullable_1<::UnityEngine::Vector2Int> __Gen_Wrap_9364(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Vector2 a5)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9364_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Nullable_1<::UnityEngine::Vector2Int>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9364_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void __Gen_Wrap_9365(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_9365(::System::Object* a1, ::System::Nullable_1<::RPG::Client::TextID> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9365_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::TextID>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9365_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_9366(::System::Object* a1, ::PLHLAIJKMOD a2)
@@ -59324,14 +59330,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::IALBJEGDCFI_HCBKBKPNDKB*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9367_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9368(::IALBJEGDCFI_HCBKBKPNDKB* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_9368(::IALBJEGDCFI_HCBKBKPNDKB* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::IALBJEGDCFI_HCBKBKPNDKB*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9368_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::IALBJEGDCFI_HCBKBKPNDKB*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9368_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9369(::System::Object* a1, ::System::Object* a2)
+		::System::Nullable_1<::RPG::Client::TextID> __Gen_Wrap_9369(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9369_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::RPG::Client::TextID>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9369_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_9370(::RPG::Client::MechCraft::View::MechCraftCraftEditingChipDetailControl_AttrTypeDesc* a1)
@@ -59339,24 +59345,24 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MechCraft::View::MechCraftCraftEditingChipDetailControl_AttrTypeDesc*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9370_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9371(::System::Object* a1, ::System::Nullable* a2)
+		::System::Nullable_1<::RPG::Client::TextID> __Gen_Wrap_9371(::System::Object* a1, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType> a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9371_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::RPG::Client::TextID>(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::RPG::Client::MechCraft::MechCraftAttributeType>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9371_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void __Gen_Wrap_9372(::System::Object* a1, ::System::Nullable* a2)
+		::System::Void __Gen_Wrap_9372(::System::Object* a1, ::System::Nullable_1<::System::Object*> a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9372_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9372_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable* __Gen_Wrap_9373(::System::Object* a1)
+		::System::Nullable_1<::System::Object*> __Gen_Wrap_9373(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9373_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9373_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9374(::System::Object* a1)
+		::System::Nullable_1<::UnityEngine::Vector2Int> __Gen_Wrap_9374(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9374_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::UnityEngine::Vector2Int>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9374_OFFSET))(this, a1);
 		}
 
 		::System::Void __Gen_Wrap_9375(::DGHDHELLBBC* a1)
@@ -59364,19 +59370,19 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::DGHDHELLBBC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9375_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9376(::BHHPHPGCODJ* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32> __Gen_Wrap_9376(::BHHPHPGCODJ* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::BHHPHPGCODJ*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9376_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32>(*)(::PVOID, ::BHHPHPGCODJ*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9376_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_9377(::System::ValueTuple a1)
+		::System::Boolean __Gen_Wrap_9377(::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9377_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::BHHPHPGCODJ*, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9377_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9378(::ACHNEAMCCEC* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_9378(::ACHNEAMCCEC* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::ACHNEAMCCEC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9378_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::ACHNEAMCCEC*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9378_OFFSET))(this, a1);
 		}
 
 		::CEEGMMCFCBG* __Gen_Wrap_9379(::BJDBKICFGAM* a1)
@@ -59384,9 +59390,9 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9379_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9380(::BJDBKICFGAM* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_9380(::BJDBKICFGAM* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9380_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9380_OFFSET))(this, a1);
 		}
 
 		::ACHNEAMCCEC* __Gen_Wrap_9381(::BJDBKICFGAM* a1)
@@ -59394,9 +59400,9 @@ namespace IFix
 			return ((::ACHNEAMCCEC*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9381_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9382(::BJDBKICFGAM* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_9382(::BJDBKICFGAM* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9382_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::BJDBKICFGAM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9382_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9383(::RPG::Client::ArtPrefabPreview_MeshPartLodInfo a1)
@@ -59434,14 +59440,14 @@ namespace IFix
 			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::FHJKNCMMMON*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9389_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair* __Gen_Wrap_9390(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32> __Gen_Wrap_9390(::System::Collections::Generic::KeyValuePair_2<::NEBMBGBIHHH, ::System::UInt32> a1)
 		{
-			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9390_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::NEBMBGBIHHH, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9390_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9391(::System::Object* a1)
+		::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType> __Gen_Wrap_9391(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9391_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9391_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9392(::OPPEGLOCAGH_CCMBOGFDEII a1)
@@ -59474,9 +59480,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::RPG::Client::TextID, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9397_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_9398(::AFKFJCPELEM* a1)
+		::RPG::Client::Promises::IPromise_1<::CGEOCOPMJGI*>* __Gen_Wrap_9398(::AFKFJCPELEM* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::AFKFJCPELEM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9398_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::CGEOCOPMJGI*>*(*)(::PVOID, ::AFKFJCPELEM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9398_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_9399(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Object* a7, ::System::Int32 a8, ::System::Int32 a9)
@@ -59484,9 +59490,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9399_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::RPG::Client::Promises::IPromise* __Gen_Wrap_9400(::AOBDHCFGGBH* a1)
+		::RPG::Client::Promises::IPromise_1<::MEGIEBCBOCI*>* __Gen_Wrap_9400(::AOBDHCFGGBH* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::AOBDHCFGGBH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9400_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::MEGIEBCBOCI*>*(*)(::PVOID, ::AOBDHCFGGBH*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9400_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9401(::RPG::Client::LimaoNews::LimaoNewsWorkRecordData* a1)
@@ -59544,9 +59550,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9411_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9412(::System::Object* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::System::Int32, ::System::Object*> __Gen_Wrap_9412(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9412_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Object*>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9412_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_9413(::RPG::Client::LimaoNews::LimaoNewsPostViewModel* a1)
@@ -59634,14 +59640,14 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9429_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Object* __Gen_Wrap_9430(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Object* a4, ::System::Object* a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8, ::System::Nullable* a9, ::System::Nullable* a10)
+		::System::Object* __Gen_Wrap_9430(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Object* a4, ::System::Object* a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8, ::System::Nullable_1<::UnityEngine::Vector3> a9, ::System::Nullable_1<::UnityEngine::Quaternion> a10)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9430_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9430_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Object* __Gen_Wrap_9431(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::Object* a6, ::System::Nullable* a7, ::System::Nullable* a8, ::System::Object* a9)
+		::System::Object* __Gen_Wrap_9431(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::Object* a6, ::System::Nullable_1<::UnityEngine::Vector3> a7, ::System::Nullable_1<::UnityEngine::Quaternion> a8, ::System::Object* a9)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9431_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9431_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Object* __Gen_Wrap_9432(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::Object* a6, ::UnityEngine::Vector3 a7, ::UnityEngine::Quaternion a8, ::System::Object* a9)
@@ -59654,9 +59660,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9433_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Object* __Gen_Wrap_9434(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable* a4, ::System::Nullable* a5, ::System::Object* a6)
+		::System::Object* __Gen_Wrap_9434(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Nullable_1<::UnityEngine::Quaternion> a5, ::System::Object* a6)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Nullable*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9434_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9434_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Object* __Gen_Wrap_9435(::System::Object* a1, ::System::Object* a2, ::System::Object* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Quaternion a5, ::System::Object* a6)
@@ -59939,14 +59945,14 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::FateRin::Card::FateRinBattleCardIdentifier, ::RPG::Client::FateRin::Card::FateRinBattleCardIdentifier))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9490_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 __Gen_Wrap_9491(::System::Collections::Generic::KeyValuePair* a1)
+		::System::UInt32 __Gen_Wrap_9491(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*> a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9491_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9491_OFFSET))(this, a1);
 		}
 
-		::BNNGDLLACML* __Gen_Wrap_9492(::System::Collections::Generic::KeyValuePair* a1)
+		::BNNGDLLACML* __Gen_Wrap_9492(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*> a1)
 		{
-			return ((::BNNGDLLACML*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9492_OFFSET))(this, a1);
+			return ((::BNNGDLLACML*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9492_OFFSET))(this, a1);
 		}
 
 		::System::Int32 __Gen_Wrap_9493(::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeBuffViewModel* a1, ::RPG::Client::FateRin::Challenge::FateRinBattlePauseChallengeBuffViewModel* a2)
@@ -60059,14 +60065,14 @@ namespace IFix
 			return ((::CEEGMMCFCBG*(*)(::PVOID, ::KCFGMKGNMNP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9514_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9515(::KCFGMKGNMNP* a1)
+		::R3::Observable_1<::System::Boolean>* __Gen_Wrap_9515(::KCFGMKGNMNP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::KCFGMKGNMNP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9515_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID, ::KCFGMKGNMNP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9515_OFFSET))(this, a1);
 		}
 
-		::R3::Observable* __Gen_Wrap_9516(::KCFGMKGNMNP* a1)
+		::R3::Observable_1<::System::String*>* __Gen_Wrap_9516(::KCFGMKGNMNP* a1)
 		{
-			return ((::R3::Observable*(*)(::PVOID, ::KCFGMKGNMNP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9516_OFFSET))(this, a1);
+			return ((::R3::Observable_1<::System::String*>*(*)(::PVOID, ::KCFGMKGNMNP*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9516_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9517(::System::Int32 a1, ::System::String* a2)
@@ -60074,9 +60080,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9517_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9518(::System::Object* a1, ::System::Object* a2)
+		::System::ValueTuple_2<::System::Int32, ::RPG::GameCore::ChenLingFesDialogStyleType> __Gen_Wrap_9518(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9518_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Int32, ::RPG::GameCore::ChenLingFesDialogStyleType>(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9518_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_9519(::System::Object* a1, ::System::Type* a2)
@@ -60099,9 +60105,9 @@ namespace IFix
 			return ((::System::Void(*)(::PVOID, ::JMPJCAPKNGI*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9522_OFFSET))(this, a1);
 		}
 
-		::System::Object* __Gen_Wrap_9523(::System::Object* a1, ::System::Int32 a2, ::System::Nullable* a3)
+		::System::Object* __Gen_Wrap_9523(::System::Object* a1, ::System::Int32 a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9523_OFFSET))(this, a1, a2, a3);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9523_OFFSET))(this, a1, a2, a3);
 		}
 
 		::LHAKNKHBLBI* __Gen_Wrap_9524(::LHAKNKHBLBI* a1)
@@ -60184,9 +60190,9 @@ namespace IFix
 			return ((::JLCJBFLKOJD*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9539_OFFSET))(this, a1);
 		}
 
-		::System::Void __Gen_Wrap_9540(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3, ::System::Boolean a4)
+		::System::Void __Gen_Wrap_9540(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::System::Int32> a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9540_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::Int32>, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9540_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void __Gen_Wrap_9541(::System::Object* a1, ::System::Int32 a2, ::System::UInt32 a3)
@@ -60224,24 +60230,24 @@ namespace IFix
 			return ((::RPG::Client::Challenge::ChallengeTargetViewModel*(*)(::PVOID, ::RPG::Client::BaseChallengeTargetData*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9547_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9548(::RPG::Client::Challenge::ChallengeTargetViewModel* a1, ::System::Int32 a2)
+		::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32> __Gen_Wrap_9548(::RPG::Client::Challenge::ChallengeTargetViewModel* a1, ::System::Int32 a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9548_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>(*)(::PVOID, ::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9548_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_9549(::System::ValueTuple a1)
+		::System::Boolean __Gen_Wrap_9549(::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9549_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9549_OFFSET))(this, a1);
 		}
 
-		::System::Int32 __Gen_Wrap_9550(::System::ValueTuple a1)
+		::System::Int32 __Gen_Wrap_9550(::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32> a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9550_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::ValueTuple_2<::RPG::Client::Challenge::ChallengeTargetViewModel*, ::System::Int32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9550_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9551(::System::Object* a1)
+		::System::Nullable_1<::System::Boolean> __Gen_Wrap_9551(::System::Object* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9551_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9551_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9552(::RPG::Client::B51Racing::B51RacingFireProjectileTargetSnapshot a1)
@@ -60249,14 +60255,14 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingFireProjectileTargetSnapshot))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9552_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::B51RacingPartType __Gen_Wrap_9553(::System::Collections::Generic::KeyValuePair* a1)
+		::RPG::GameCore::B51RacingPartType __Gen_Wrap_9553(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*> a1)
 		{
-			return ((::RPG::GameCore::B51RacingPartType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9553_OFFSET))(this, a1);
+			return ((::RPG::GameCore::B51RacingPartType(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9553_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::KIIGKJKMCHP*>* __Gen_Wrap_9554(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Collections::Generic::List_1<::KIIGKJKMCHP*>* __Gen_Wrap_9554(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*> a1)
 		{
-			return ((::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9554_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9554_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9555(::System::Object* a1, ::System::Object* a2, ::MONJFDPKFBA* a3, ::System::String* a4)
@@ -60324,9 +60330,9 @@ namespace IFix
 			return ((::System::Int32(*)(::PVOID, ::HKHEDJKACGK*, ::HKHEDJKACGK*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9567_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __Gen_Wrap_9568(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_9568(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9568_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9568_OFFSET))(this, a1);
 		}
 
 		::JNNPOLGAAHB* __Gen_Wrap_9569(::MHFNMBHNPHA* a1)
@@ -60429,9 +60435,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::DACEDJLJOGK*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9588_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* __Gen_Wrap_9589(::System::Object* a1, ::System::Int32 a2)
+		::System::Nullable_1<::RPG::Client::B51Racing::CarSlotType> __Gen_Wrap_9589(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9589_OFFSET))(this, a1, a2);
+			return ((::System::Nullable_1<::RPG::Client::B51Racing::CarSlotType>(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9589_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean __Gen_Wrap_9590(::PJELEGLGHCN* a1)
@@ -60464,9 +60470,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::APLNKIAIFEA_MOODJBCCCPC))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9595_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::APLNKIAIFEA_MOODJBCCCPC __Gen_Wrap_9596(::System::Object* a1, ::System::Object* a2, ::System::Nullable* a3)
+		::APLNKIAIFEA_MOODJBCCCPC __Gen_Wrap_9596(::System::Object* a1, ::System::Object* a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::APLNKIAIFEA_MOODJBCCCPC(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9596_OFFSET))(this, a1, a2, a3);
+			return ((::APLNKIAIFEA_MOODJBCCCPC(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9596_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::Promises::IPromise* __Gen_Wrap_9597(::LHHHDBGHDCF* a1)
@@ -60569,9 +60575,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9616_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9617(::System::Object* a1, ::System::Boolean a2)
+		::System::ValueTuple_2<::System::Boolean, ::System::Boolean> __Gen_Wrap_9617(::System::Object* a1, ::System::Boolean a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9617_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::System::Boolean>(*)(::PVOID, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9617_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_9618(::System::Object* a1, ::RPG::GameCore::RoadRashGameModifier_PlayerUltimateQTEWindow a2)
@@ -60719,9 +60725,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::B51Racing::B51RacingDevelopValueIconItemViewModel*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9646_OFFSET))(this, a1);
 		}
 
-		::DNBDHGNLIPK* __Gen_Wrap_9647(::System::Collections::Generic::KeyValuePair* a1)
+		::DNBDHGNLIPK* __Gen_Wrap_9647(::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32> a1)
 		{
-			return ((::DNBDHGNLIPK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9647_OFFSET))(this, a1);
+			return ((::DNBDHGNLIPK*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9647_OFFSET))(this, a1);
 		}
 
 		::System::Object* __Gen_Wrap_9648(::System::Object* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Single a6, ::System::Int32 a7)
@@ -60729,19 +60735,19 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9648_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9649(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
+		::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Single> __Gen_Wrap_9649(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9649_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::Single>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9649_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9650(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
+		::System::ValueTuple_2<::System::String*, ::RPG::Client::TextID> __Gen_Wrap_9650(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9650_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::System::String*, ::RPG::Client::TextID>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9650_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::ValueTuple __Gen_Wrap_9651(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Object* a4)
+		::System::ValueTuple_3<::System::String*, ::RPG::Client::TextID, ::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel*> __Gen_Wrap_9651(::System::Object* a1, ::System::Object* a2, ::System::Int32 a3, ::System::Object* a4)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9651_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::ValueTuple_3<::System::String*, ::RPG::Client::TextID, ::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel*>(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9651_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Object* __Gen_Wrap_9652(::System::Object* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Int32 a4, ::System::Int32 a5)
@@ -60824,9 +60830,9 @@ namespace IFix
 			return ((::System::Boolean(*)(::PVOID, ::EDEPICFGMDM*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9667_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __Gen_Wrap_9668(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Boolean __Gen_Wrap_9668(::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::HFCOGLIEHFB*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9668_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::HFCOGLIEHFB*>))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER_3DF268A348537D5E___GEN_WRAP_9668_OFFSET))(this, a1);
 		}
 
 		::System::Boolean __Gen_Wrap_9669(::IDHNPGBOIKD* a1)

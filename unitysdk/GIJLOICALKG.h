@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class IAJGGEMFOMB;
-namespace System { class Action; }
 namespace System { class IDisposable; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -43,14 +43,14 @@ inline static constexpr unsigned int GIJLOICALKG_TypeDefinitionIndex = 79452;
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::IAJGGEMFOMB*>* APMOGNLKICD; // 0x10
-		::System::Action* HandleForceHintBuffAffected; // 0x18
+		::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* HandleForceHintBuffAffected; // 0x18
 		::System::Collections::Generic::Dictionary_2<::IAJGGEMFOMB*, ::System::IDisposable*>* AIGAKKDNIBD; // 0x20
 		::System::Collections::Generic::Dictionary_2<::IAJGGEMFOMB*, ::System::IDisposable*>* DPLONCBOBBI; // 0x28
 		::System::Collections::Generic::HashSet_1<::IAJGGEMFOMB*>* BCPHCKGKDEB; // 0x30
-		::System::Action* OnBuffAffectedCellsMaybeChanged; // 0x38
-		::System::Action* OnBuffedLinesMaybeChanged; // 0x40
+		::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>* OnBuffAffectedCellsMaybeChanged; // 0x38
+		::System::Action_1<::System::Collections::Immutable::IImmutableSet_1<::ONPKMMDCDAN>*>* OnBuffedLinesMaybeChanged; // 0x40
 		::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>* MKHKBFHPEOO; // 0x48
-		::System::Action* OnBuffAffectingCellsMaybeChanged; // 0x50
+		::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>* OnBuffAffectingCellsMaybeChanged; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIJLOICALKG_CTOR_OFFSET))(this);
@@ -76,24 +76,24 @@ inline static constexpr unsigned int GIJLOICALKG_TypeDefinitionIndex = 79452;
 			return ((::System::Void(*)(::PVOID, ::IAJGGEMFOMB*))((::PBYTE)hIl2Cpp + GIJLOICALKG_OFLIBLPPIEH_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnBuffAffectingCellsMaybeChanged(::System::Action* a1)
+		::System::Void add_OnBuffAffectingCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GIJLOICALKG_ADD_ONBUFFAFFECTINGCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + GIJLOICALKG_ADD_ONBUFFAFFECTINGCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBuffAffectingCellsMaybeChanged(::System::Action* a1)
+		::System::Void remove_OnBuffAffectingCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GIJLOICALKG_REMOVE_ONBUFFAFFECTINGCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + GIJLOICALKG_REMOVE_ONBUFFAFFECTINGCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OnBuffedLinesMaybeChanged(::System::Action* a1)
+		::System::Void add_OnBuffedLinesMaybeChanged(::System::Action_1<::System::Collections::Immutable::IImmutableSet_1<::ONPKMMDCDAN>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GIJLOICALKG_ADD_ONBUFFEDLINESMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Immutable::IImmutableSet_1<::ONPKMMDCDAN>*>*))((::PBYTE)hIl2Cpp + GIJLOICALKG_ADD_ONBUFFEDLINESMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBuffedLinesMaybeChanged(::System::Action* a1)
+		::System::Void remove_OnBuffedLinesMaybeChanged(::System::Action_1<::System::Collections::Immutable::IImmutableSet_1<::ONPKMMDCDAN>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GIJLOICALKG_REMOVE_ONBUFFEDLINESMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Immutable::IImmutableSet_1<::ONPKMMDCDAN>*>*))((::PBYTE)hIl2Cpp + GIJLOICALKG_REMOVE_ONBUFFEDLINESMAYBECHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void AFLEEBFEPEF(::IAJGGEMFOMB* a1)
@@ -116,24 +116,24 @@ inline static constexpr unsigned int GIJLOICALKG_TypeDefinitionIndex = 79452;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIJLOICALKG_PODKIPNNFHD_OFFSET))(this);
 		}
 
-		::System::Void add_OnBuffAffectedCellsMaybeChanged(::System::Action* a1)
+		::System::Void add_OnBuffAffectedCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GIJLOICALKG_ADD_ONBUFFAFFECTEDCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + GIJLOICALKG_ADD_ONBUFFAFFECTEDCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OnBuffAffectedCellsMaybeChanged(::System::Action* a1)
+		::System::Void remove_OnBuffAffectedCellsMaybeChanged(::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GIJLOICALKG_REMOVE_ONBUFFAFFECTEDCELLSMAYBECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::HashSet_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + GIJLOICALKG_REMOVE_ONBUFFAFFECTEDCELLSMAYBECHANGED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_HandleForceHintBuffAffected(::System::Action* a1)
+		::System::Void add_HandleForceHintBuffAffected(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GIJLOICALKG_ADD_HANDLEFORCEHINTBUFFAFFECTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + GIJLOICALKG_ADD_HANDLEFORCEHINTBUFFAFFECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_HandleForceHintBuffAffected(::System::Action* a1)
+		::System::Void remove_HandleForceHintBuffAffected(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GIJLOICALKG_REMOVE_HANDLEFORCEHINTBUFFAFFECTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>*))((::PBYTE)hIl2Cpp + GIJLOICALKG_REMOVE_HANDLEFORCEHINTBUFFAFFECTED_OFFSET))(this, a1);
 		}
 
 		::System::Void NPHNOLKLBCN(::IAJGGEMFOMB* a1)

@@ -5,9 +5,9 @@ namespace RPG::Client { class ConditionChecker; }
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
 namespace RPG::GameCore { class ActivityMultiplayerConfigRow; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_MULTIPLAYERACTIVITYINFO_COLLECTREQUIREDMISSIONDATA_OFFSET UNITYSDK_OFFSET(0xD8DD440)
 #define RPG_CLIENT_MULTIPLAYERACTIVITYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD8DD410)
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERACTIVITYINFO_COLLECTREQUIREDMISSIONDATA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterWaitForOpenSchedule(::System::Action* a1)
+		::System::Void RegisterWaitForOpenSchedule(::System::Action_1<::RPG::Client::ScheduleData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERACTIVITYINFO_REGISTERWAITFOROPENSCHEDULE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::ScheduleData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPLAYERACTIVITYINFO_REGISTERWAITFOROPENSCHEDULE_OFFSET))(this, a1);
 		}
 
 		::System::Void UnregisterWaitForOpenSchedule()

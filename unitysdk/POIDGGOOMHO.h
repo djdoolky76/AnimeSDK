@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/POIDGGOOMHO_DisplayIntent.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -17,7 +18,6 @@ class POIDGGOOMHO_HJKDEOBFGCG;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class IDisposable; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -73,7 +73,7 @@ inline static constexpr unsigned int POIDGGOOMHO_TypeDefinitionIndex = 80234;
 		::UnityEngine::Quaternion HGPMIJPMICN; // 0x70
 		::System::Int32 GBHEJDBNHNN; // 0x80
 		::System::Int32 BMHEHMEDPAE; // 0x84
-		::System::Nullable* FGNOONHAKPJ; // 0x88
+		::System::Nullable_1<::UnityEngine::Vector3> FGNOONHAKPJ; // 0x88
 		::System::Void _ctor(::IFGALMBDIAA* a1, ::HOFCHLEPJNI* a2, ::FNHHCDAKILF* a3, ::GHGAFIIFPEC* a4, ::HPNACKEGJIF* a5, ::OIEMBOLFCBK* a6)
 		{
 			return ((::System::Void(*)(::PVOID, ::IFGALMBDIAA*, ::HOFCHLEPJNI*, ::FNHHCDAKILF*, ::GHGAFIIFPEC*, ::HPNACKEGJIF*, ::OIEMBOLFCBK*))((::PBYTE)hIl2Cpp + POIDGGOOMHO_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);

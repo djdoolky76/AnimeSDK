@@ -5,8 +5,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/CHMCAGBDPJH.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 
 #define FJNAOAEPNJF_JCKKNDFIFLM_APBGOKEOHNF_OFFSET UNITYSDK_OFFSET(0x157DC760)
 #define FJNAOAEPNJF_JCKKNDFIFLM_CTOR_OFFSET UNITYSDK_OFFSET(0x157DAB00)
@@ -60,9 +60,9 @@ inline static constexpr unsigned int FJNAOAEPNJF_JCKKNDFIFLM_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_LDBHMDLCCLA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void EFOKNMPOIPE(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::AntiLockHPStrength a2, ::CHMCAGBDPJH a3, ::RPG::GameCore::FixPoint a4, ::System::Nullable* a5)
+		::System::Void EFOKNMPOIPE(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::AntiLockHPStrength a2, ::CHMCAGBDPJH a3, ::RPG::GameCore::FixPoint a4, ::System::Nullable_1<::RPG::GameCore::FixPoint> a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::AntiLockHPStrength, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable*))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_EFOKNMPOIPE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::AntiLockHPStrength, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_EFOKNMPOIPE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void DGIBJJFBMMK(::RPG::GameCore::FixPoint a1, ::CHMCAGBDPJH a2)

@@ -16,6 +16,7 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateVerificationDialog; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER_BUILDAGEAPPEALURL_OFFSET UNITYSDK_OFFSET(0x1BEC9F20)
@@ -70,7 +71,7 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 	public:
 		::System::String* Payload; // 0x10
 		::MiHoYo::SDK::AgeGateTicketModel* AgeGateTicket; // 0x18
-		::System::Action* ResultCallback; // 0x20
+		::System::Action_1<::System::String*>* ResultCallback; // 0x20
 		static ::System::String** StaticGet_extractedAgeGateType()
 		{
 			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "AgeGateManager")->GetStaticField(0x11E30);
@@ -113,9 +114,9 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER_EXTRACTAGEGATEPAYLOADFROMHEADERS_OFFSET))(a1);
 		}
 
-		static ::System::Boolean HandleAgeGateFromErrorCode(::System::Int32 a1, ::System::Action* a2)
+		static ::System::Boolean HandleAgeGateFromErrorCode(::System::Int32 a1, ::System::Action_1<::System::String*>* a2)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER_HANDLEAGEGATEFROMERRORCODE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER_HANDLEAGEGATEFROMERRORCODE_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* get_RSAKey()
@@ -168,9 +169,9 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER_OPENAGEAPPEALWEB_OFFSET))(this, a1);
 		}
 
-		::System::Boolean StartAgeGate(::System::String* a1, ::MiHoYo::SDK::AgeGateFlowType a2, ::System::Action* a3)
+		::System::Boolean StartAgeGate(::System::String* a1, ::MiHoYo::SDK::AgeGateFlowType a2, ::System::Action_1<::System::String*>* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::AgeGateFlowType, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER_STARTAGEGATE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::AgeGateFlowType, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER_STARTAGEGATE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ContinueAgeGate(::System::String* a1)

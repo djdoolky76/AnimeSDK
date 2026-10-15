@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/CNHKFCHOEHK.h"
 #include "unitysdk/IAJPMNLEFLJ.h"
 #include "unitysdk/RPG/GameCore/ConfigDataPoolListUnmanaged_1.h"
+#include "unitysdk/System/Nullable_1.h"
 class IRI_BaseBuildingCustomData;
 class IRI_BuildingRendererList;
 class KLEFGGIHGMI;
@@ -20,7 +21,6 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class LodDetail; }
 namespace RPG::GameCore { template <typename T> class NativeContainer_1; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -65,7 +65,7 @@ inline static constexpr unsigned int CFNALNFLBIN_TypeDefinitionIndex = 73747;
 		::System::Collections::Generic::HashSet_1<::System::Object*>* AGCJFLAOLFN; // 0x68
 		::NFJIADFIJKO* PFOBDINCJDI; // 0x70
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* IKFOOBKMDHI; // 0x78
-		::System::Collections::Generic::List_1<::System::ValueTuple>* EGJHCKFCCLE; // 0x80
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::String*>>* EGJHCKFCCLE; // 0x80
 		::LJFHKAJPFNE* BJPKBELGNCM; // 0x88
 		::RPG::Client::ChunkedStructList_1<::UnityEngine::Matrix4x4>* AKMMPPFIMOO; // 0x90
 		::System::Collections::Generic::List_1<::System::Int64>* MLIGICGFBGK; // 0x98
@@ -146,24 +146,24 @@ inline static constexpr unsigned int CFNALNFLBIN_TypeDefinitionIndex = 73747;
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::RPG::GameCore::LodDetail*>*, ::System::Single, ::System::String*, ::System::String*, ::System::String*, ::System::UInt32, ::System::String*, ::KLEFGGIHGMI*, ::System::Action*))((::PBYTE)hIl2Cpp + CFNALNFLBIN_NNGJOACGKLC_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Void JKHBCAMJMNL(::System::Collections::Generic::IList_1<::UnityEngine::Matrix4x4>* a1, ::System::Nullable* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
+		::System::Void JKHBCAMJMNL(::System::Collections::Generic::IList_1<::UnityEngine::Matrix4x4>* a1, ::System::Nullable_1<::UnityEngine::Matrix4x4> a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Matrix4x4>*, ::System::Nullable*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + CFNALNFLBIN_JKHBCAMJMNL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Matrix4x4>*, ::System::Nullable_1<::UnityEngine::Matrix4x4>, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + CFNALNFLBIN_JKHBCAMJMNL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void JKHBCAMJMNL_1(::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::CNHKFCHOEHK> a1, ::System::Nullable* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
+		::System::Void JKHBCAMJMNL_1(::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::CNHKFCHOEHK> a1, ::System::Nullable_1<::UnityEngine::Matrix4x4> a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::CNHKFCHOEHK>, ::System::Nullable*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + CFNALNFLBIN_JKHBCAMJMNL_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::CNHKFCHOEHK>, ::System::Nullable_1<::UnityEngine::Matrix4x4>, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + CFNALNFLBIN_JKHBCAMJMNL_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void JKHBCAMJMNL_2(::RPG::GameCore::NativeContainer_1<::CNHKFCHOEHK>* a1, ::System::Nullable* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
+		::System::Void JKHBCAMJMNL_2(::RPG::GameCore::NativeContainer_1<::CNHKFCHOEHK>* a1, ::System::Nullable_1<::UnityEngine::Matrix4x4> a2, ::RPG::Client::OpenWorld::StreamingItemData* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::NativeContainer_1<::CNHKFCHOEHK>*, ::System::Nullable*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + CFNALNFLBIN_JKHBCAMJMNL_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::NativeContainer_1<::CNHKFCHOEHK>*, ::System::Nullable_1<::UnityEngine::Matrix4x4>, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + CFNALNFLBIN_JKHBCAMJMNL_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void MLDBCKDDOMI(::UnityEngine::Matrix4x4 a1, ::System::Nullable* a2, ::RPG::Client::OpenWorld::StreamingItemData* a3, ::System::Int32 a4)
+		::System::Void MLDBCKDDOMI(::UnityEngine::Matrix4x4 a1, ::System::Nullable_1<::UnityEngine::Matrix4x4> a2, ::RPG::Client::OpenWorld::StreamingItemData* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4, ::System::Nullable*, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32))((::PBYTE)hIl2Cpp + CFNALNFLBIN_MLDBCKDDOMI_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4, ::System::Nullable_1<::UnityEngine::Matrix4x4>, ::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32))((::PBYTE)hIl2Cpp + CFNALNFLBIN_MLDBCKDDOMI_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 	};

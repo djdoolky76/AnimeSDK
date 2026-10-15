@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 class CPGHDGPPBJH;
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleEnemySingleSpecialMarkViewModel; }
 namespace System { class String; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYSPECIALMARKVIEWMODEL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEB6220)
 #define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYSPECIALMARKVIEWMODEL___C__DISPLAYCLASS2_0___ONBATTLEENEMYSPECIALMARKSTATEMODELCHANGEMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0xCEB6550)
@@ -16,7 +16,7 @@ namespace RPG::Client::FateRin::Battle
 	class FateRinBattleEnemySpecialMarkViewModel___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::KeyValuePair* spMarkModel; // 0x10
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::CPGHDGPPBJH*> spMarkModel; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYSPECIALMARKVIEWMODEL___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
 #include "unitysdk/RPG/GameCore/SubmissionLogicType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class MissionUtils_SubMissionSortItem; }
 namespace RPG::GameCore { class MainMissionInfoConfig; }
 namespace RPG::GameCore { class MainMissionPerformanceConfig; }
@@ -100,9 +100,9 @@ namespace RPG::Client
 			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "MissionUtils")->GetStaticField(0x591F0);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>** StaticGet__performanceInfoMap()
+		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>, ::System::Object*>** StaticGet__performanceInfoMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "MissionUtils")->GetStaticField(0x591F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "MissionUtils")->GetStaticField(0x591F8);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet__mainMissionVisited()

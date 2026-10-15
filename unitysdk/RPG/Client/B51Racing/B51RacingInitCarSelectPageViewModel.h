@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/B51Racing/B51RacingInitCarSelectOpenMode.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::B51Racing { class B51RacingCarActiveSkillItemViewModel; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_B51RACING_B51RACINGINITCARSELECTPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7AF500)
 
@@ -16,7 +16,7 @@ namespace RPG::Client::B51Racing
 	public:
 		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* CarActiveSkillViewModel1; // 0x10
 		::RPG::Client::B51Racing::B51RacingCarActiveSkillItemViewModel* CarActiveSkillViewModel2; // 0x18
-		::System::Action* OnCarReselected; // 0x20
+		::System::Action_1<::System::UInt32>* OnCarReselected; // 0x20
 		::System::UInt32 CurrentSelectedCarID; // 0x28
 		::System::UInt32 CarID2; // 0x2C
 		::System::UInt32 CarID1; // 0x30

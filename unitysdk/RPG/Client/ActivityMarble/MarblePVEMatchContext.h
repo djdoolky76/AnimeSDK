@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/ActivityMarble/MarblePVEMatchContext_MarblePVEMatchType.h"
 namespace RPG::Client::ActivityMarble { class MarbleSealTeamLimitation; }
 namespace RPG::GameCore { class MarbleMatchInfoConfigRow; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT_CTOR_1_OFFSET UNITYSDK_OFFSET(0xC53FB70)
 #define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xC543F90)
@@ -28,7 +28,7 @@ namespace RPG::Client::ActivityMarble
 	{
 	public:
 		::RPG::Client::ActivityMarble::MarbleSealTeamLimitation* _TeamLimitation; // 0x70
-		::System::Action* _OnFinish; // 0x78
+		::System::Action_1<::System::Boolean>* _OnFinish; // 0x78
 		::RPG::GameCore::MarbleMatchInfoConfigRow* _PVEMatchInfo_k__BackingField; // 0x80
 		::RPG::Client::ActivityMarble::MarblePVEMatchContext_MarblePVEMatchType Type; // 0x88
 		::System::Boolean _EnableTeamEdit_k__BackingField; // 0x8C
@@ -42,9 +42,9 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT_CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Void SetFinishCallback(::System::Action* a1)
+		::System::Void SetFinishCallback(::System::Action_1<::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT_SETFINISHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT_SETFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void OnFinish(::System::Boolean a1)

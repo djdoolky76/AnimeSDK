@@ -6,8 +6,8 @@
 namespace RPG::Client { class MonoMapRotationVolumeV2; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class MapRotationVolumeConfig; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define GIPELBHHIHI_AEHOOFFKNCB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4DC60)
@@ -45,9 +45,9 @@ inline static constexpr unsigned int GIPELBHHIHI_AEHOOFFKNCB_TypeDefinitionIndex
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + GIPELBHHIHI_AEHOOFFKNCB_OJJBEOHNFCP_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::GameEntity* DOGMBDKLKPP(::System::Single a1, ::System::Action* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4)
+		::RPG::GameCore::GameEntity* DOGMBDKLKPP(::System::Single a1, ::System::Action_1<::RPG::GameCore::GameEntity*>* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Quaternion a4)
 		{
-			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Single, ::System::Action*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + GIPELBHHIHI_AEHOOFFKNCB_DOGMBDKLKPP_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Single, ::System::Action_1<::RPG::GameCore::GameEntity*>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + GIPELBHHIHI_AEHOOFFKNCB_DOGMBDKLKPP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void NHPDCPKMNAM(::System::Boolean a1)

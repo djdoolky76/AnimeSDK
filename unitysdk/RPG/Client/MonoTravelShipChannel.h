@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class EntityGameObjectConnection; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
@@ -96,9 +96,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_ONTRIGGEREXIT_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple PCDDCAGMMDK(::UnityEngine::Vector3 a1)
+		::System::ValueTuple_2<::System::String*, ::System::String*> PCDDCAGMMDK(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_PCDDCAGMMDK_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAVELSHIPCHANNEL_PCDDCAGMMDK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean LCBAGPNONDB(::UnityEngine::Vector3 a1)

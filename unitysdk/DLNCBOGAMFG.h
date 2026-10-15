@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/BaseModule.h"
 #include "unitysdk/RPG/GameCore/MapRotationEnergyState.h"
 #include "unitysdk/RPG/GameCore/MonsterRank.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class BKCJLICDPMD;
@@ -111,10 +111,10 @@ inline static constexpr unsigned int DLNCBOGAMFG_TypeDefinitionIndex = 65790;
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::MapRotationEntityEffectConfig*>* _SpecialNpcEffectConfigs_k__BackingField; // 0x30
 		::DLNCBOGAMFG_COMOEOCJNML* NFPGKGHMFGF; // 0x38
 		::RPG::GameCore::MapRotationEntityEffectConfig* _NpcEffectConfig_k__BackingField; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* NFDFFHELMDH; // 0x48
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* _EmptyChargerSet_k__BackingField; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Single>* _UsedVolumeInfo_k__BackingField; // 0x58
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* NLOOAKCDFMI; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* NFDFFHELMDH; // 0x48
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* _EmptyChargerSet_k__BackingField; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Single>* _UsedVolumeInfo_k__BackingField; // 0x58
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* NLOOAKCDFMI; // 0x60
 		::RPG::Client::MapDef* DJKBENNBHNG; // 0x68
 		::RPG::Client::AchievementData* LKNFGJELIPI; // 0x70
 		::DLNCBOGAMFG_GJNPOMCKPNJ* PFFOHHPEJAJ; // 0x78
@@ -403,24 +403,24 @@ inline static constexpr unsigned int DLNCBOGAMFG_TypeDefinitionIndex = 65790;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MapRotationEnergyState))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_DDLNNHPPANK_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* get_EmptyChargerSet()
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* get_EmptyChargerSet()
 		{
-			return ((::System::Collections::Generic::HashSet_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_GET_EMPTYCHARGERSET_OFFSET))(this);
+			return ((::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_GET_EMPTYCHARGERSET_OFFSET))(this);
 		}
 
-		::System::Void set_EmptyChargerSet(::System::Collections::Generic::HashSet_1<::System::ValueTuple>* a1)
+		::System::Void set_EmptyChargerSet(::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::ValueTuple>*))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_SET_EMPTYCHARGERSET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_SET_EMPTYCHARGERSET_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Single>* get_UsedVolumeInfo()
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Single>* get_UsedVolumeInfo()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_GET_USEDVOLUMEINFO_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_GET_USEDVOLUMEINFO_OFFSET))(this);
 		}
 
-		::System::Void set_UsedVolumeInfo(::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Single>* a1)
+		::System::Void set_UsedVolumeInfo(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::Single>*))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_SET_USEDVOLUMEINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Single>*))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_SET_USEDVOLUMEINFO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean GHEIGCGGOKJ()

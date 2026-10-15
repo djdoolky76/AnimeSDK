@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define KODHAHDHIKJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB592BD0)
 #define KODHAHDHIKJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB592C10)
@@ -14,9 +14,9 @@ inline static constexpr unsigned int KODHAHDHIKJ___c_TypeDefinitionIndex = 74397
 	class KODHAHDHIKJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__15_1()
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__15_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x643C0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x643C0);
 		}
 
 		static ::System::Object** StaticGet___9()

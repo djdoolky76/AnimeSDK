@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTimeOffset.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net::Http::Headers { class EntityTagHeaderValue; }
@@ -28,7 +28,7 @@ namespace System::Net::Http::Headers
 	{
 	public:
 		::System::Net::Http::Headers::EntityTagHeaderValue* _EntityTag_k__BackingField; // 0x10
-		::System::Nullable* _Date_k__BackingField; // 0x18
+		::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField; // 0x18
 		::System::Void _ctor(::System::DateTimeOffset a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::DateTimeOffset))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_CTOR_OFFSET))(this, a1);
@@ -39,14 +39,14 @@ namespace System::Net::Http::Headers
 			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::EntityTagHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_Date()
+		::System::Nullable_1<::System::DateTimeOffset> get_Date()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GET_DATE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GET_DATE_OFFSET))(this);
 		}
 
-		::System::Void set_Date(::System::Nullable* a1)
+		::System::Void set_Date(::System::Nullable_1<::System::DateTimeOffset> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SET_DATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SET_DATE_OFFSET))(this, a1);
 		}
 
 		::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag()

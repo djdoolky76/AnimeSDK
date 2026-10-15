@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/CN/BindManager.h"
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_CN_BINDMANAGERPS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC61410)
 #define MIHOYO_SDK_CONSOLE_CN_BINDMANAGERPS_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1BC64420)
@@ -20,9 +20,9 @@ namespace MiHoYo::SDK::Console::CN
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMANAGERPS_CTOR_OFFSET))(this);
 		}
 
-		::System::Void GenerateAccessToken(::System::Action* a1)
+		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMANAGERPS_GENERATEACCESSTOKEN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CN_BINDMANAGERPS_GENERATEACCESSTOKEN_OFFSET))(this, a1);
 		}
 
 		::System::String* GetBindingWebURL()

@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class OHEIMIKGNPA;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define OHEIMIKGNPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE635A0)
 #define OHEIMIKGNPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBE635D0)
@@ -14,9 +14,9 @@ inline static constexpr unsigned int OHEIMIKGNPA___c_TypeDefinitionIndex = 52832
 	class OHEIMIKGNPA___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__0_0()
+		static ::System::Action_1<::OHEIMIKGNPA*>** StaticGet___9__0_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x658B0);
+			return (::System::Action_1<::OHEIMIKGNPA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x658B0);
 		}
 
 		static ::System::Object** StaticGet___9()

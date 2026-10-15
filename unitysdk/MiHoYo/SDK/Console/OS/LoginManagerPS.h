@@ -5,6 +5,7 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS_CHECKANDSHOWPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1BCC5930)
 #define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC99A00)
@@ -29,9 +30,9 @@ namespace MiHoYo::SDK::Console::OS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS_CTOR_OFFSET))(this);
 		}
 
-		::System::Void GenerateAccessToken(::System::Action* a1, ::System::Boolean a2)
+		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERPS_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetProtocolChannel()

@@ -12,6 +12,7 @@ namespace RPG::GameCore { class HipplenMiniGameLoadCharacter; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
 #define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ADD__ONEVENT_OFFSET UNITYSDK_OFFSET(0xC421FB0)
@@ -52,13 +53,13 @@ namespace RPG::Client::ActivityHipplen
 	class ActivityHipplenMiniGameManager : public ::System::Object
 	{
 	public:
-		::System::Action* _OnGameGradeChanged; // 0x10
+		::System::Action_1<::RPG::GameCore::HipplenGameGradeType>* _OnGameGradeChanged; // 0x10
 		::RPG::Client::ActivityHipplen::ActivityHipplenMainController* _MainCtrl_k__BackingField; // 0x18
 		::UnityEngine::Transform* _Root; // 0x20
 		::ELMBLCNMADI* _GameReporter; // 0x28
 		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameBase* _CurrentGame; // 0x30
-		::System::Action* _OnEvent; // 0x38
-		::System::Action* _OnGameFinished; // 0x40
+		::System::Action_1<::System::Object*>* _OnEvent; // 0x38
+		::System::Action_1<::RPG::GameCore::HipplenGameGradeType>* _OnGameFinished; // 0x40
 		::System::Boolean _IsInTrial_k__BackingField; // 0x48
 		::System::Byte _padding0[0x3];
 		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager_InnerState _State; // 0x4C
@@ -102,14 +103,14 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_STARTGAME_OFFSET))(this);
 		}
 
-		::System::Void RegisterGameFinishedCallback(::System::Action* a1)
+		::System::Void RegisterGameFinishedCallback(::System::Action_1<::RPG::GameCore::HipplenGameGradeType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTERGAMEFINISHEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::HipplenGameGradeType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTERGAMEFINISHEDCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void RegisterGameGradeChangedCallback(::System::Action* a1)
+		::System::Void RegisterGameGradeChangedCallback(::System::Action_1<::RPG::GameCore::HipplenGameGradeType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTERGAMEGRADECHANGEDCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::HipplenGameGradeType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTERGAMEGRADECHANGEDCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void OnGameFinished(::RPG::GameCore::HipplenGameGradeType a1)
@@ -122,14 +123,14 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_FIREEVENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterEventListener(::System::Action* a1)
+		::System::Void RegisterEventListener(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTEREVENTLISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTEREVENTLISTENER_OFFSET))(this, a1);
 		}
 
-		::System::Void UnregisterEventListener(::System::Action* a1)
+		::System::Void UnregisterEventListener(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_UNREGISTEREVENTLISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_UNREGISTEREVENTLISTENER_OFFSET))(this, a1);
 		}
 
 		::System::Void NotifyGameGradeChanged(::RPG::GameCore::HipplenGameGradeType a1)
@@ -202,14 +203,14 @@ namespace RPG::Client::ActivityHipplen
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_SET_ISINTRIAL_OFFSET))(this, a1);
 		}
 
-		::System::Void add__OnEvent(::System::Action* a1)
+		::System::Void add__OnEvent(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ADD__ONEVENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ADD__ONEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void remove__OnEvent(::System::Action* a1)
+		::System::Void remove__OnEvent(::System::Action_1<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REMOVE__ONEVENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REMOVE__ONEVENT_OFFSET))(this, a1);
 		}
 
 	};

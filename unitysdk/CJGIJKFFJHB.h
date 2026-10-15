@@ -9,9 +9,9 @@ class CJGIJKFFJHB_IPDOAMDPPCN;
 class CLNHPKNONLM;
 class FFHBEGEGBJM;
 class OBOJAKCHDBN;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
@@ -61,7 +61,7 @@ inline static constexpr unsigned int CJGIJKFFJHB_TypeDefinitionIndex = 62362;
 	public:
 		::OBOJAKCHDBN* JAKHKJOFBHO; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PNHFIJMPEKH; // 0x18
-		::System::Action* BCNPBEMHDPP; // 0x20
+		::System::Action_2<::OBOJAKCHDBN*, ::System::Object*>* BCNPBEMHDPP; // 0x20
 		::CJGIJKFFJHB_IPDOAMDPPCN* HCDLNNJHHGA; // 0x28
 		::CJGIJKFFJHB_IPDOAMDPPCN* CKKMEPFDMAA; // 0x30
 		::System::Collections::Generic::List_1<::OBOJAKCHDBN*>* CCACBGIOJJO; // 0x38
@@ -70,7 +70,7 @@ inline static constexpr unsigned int CJGIJKFFJHB_TypeDefinitionIndex = 62362;
 		::CJGIJKFFJHB_IPDOAMDPPCN* JJBOPOPCOCH; // 0x50
 		::BNLKJLFCLOI* PLBDJHIFGOI; // 0x58
 		::System::Collections::Generic::List_1<::OBOJAKCHDBN*>* IABFGDEPMBM; // 0x60
-		::System::Action* HFKFJMJIGEA; // 0x68
+		::System::Action_2<::OBOJAKCHDBN*, ::System::Object*>* HFKFJMJIGEA; // 0x68
 		::System::String* FKOGGHONENH; // 0x70
 		::FFHBEGEGBJM* OOOLIIKDANG; // 0x78
 		::System::Int32 FFNBLDFFMCN; // 0x80

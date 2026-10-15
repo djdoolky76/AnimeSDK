@@ -4,8 +4,8 @@
 namespace Google::Protobuf { class IMessage; }
 namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace Google::Protobuf::Reflection { class OneofDescriptor; }
-namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
@@ -19,7 +19,7 @@ namespace Google::Protobuf::Reflection
 	class OneofAccessor : public ::System::Object
 	{
 	public:
-		::System::Action* clearDelegate; // 0x10
+		::System::Action_1<::Google::Protobuf::IMessage*>* clearDelegate; // 0x10
 		::Google::Protobuf::Reflection::OneofDescriptor* descriptor; // 0x18
 		::System::Func_2<::Google::Protobuf::IMessage*, ::System::Int32>* caseDelegate; // 0x20
 		::System::Void _ctor(::System::Reflection::PropertyInfo* a1, ::System::Reflection::MethodInfo* a2, ::Google::Protobuf::Reflection::OneofDescriptor* a3)

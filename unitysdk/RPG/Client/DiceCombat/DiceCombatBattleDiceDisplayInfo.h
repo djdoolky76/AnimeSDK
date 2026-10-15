@@ -8,7 +8,7 @@
 class FDPCDGOJKNK;
 class IFLICGOLBIG;
 namespace RPG::Client::DiceCombat { class DiceCombatDiceContentData; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
@@ -59,7 +59,7 @@ namespace RPG::Client::DiceCombat
 	class DiceCombatBattleDiceDisplayInfo : public ::System::Object
 	{
 	public:
-		::System::Action* _OnClick; // 0x10
+		::System::Action_1<::IFLICGOLBIG*>* _OnClick; // 0x10
 		::IFLICGOLBIG* _OwnerDice; // 0x18
 		::System::Int32 _RemainUseCount_k__BackingField; // 0x20
 		::System::Single _YOffset; // 0x24
@@ -124,9 +124,9 @@ namespace RPG::Client::DiceCombat
 			return ((::RPG::Client::DiceCombat::DiceCombatDiceContentData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEDICEDISPLAYINFO_GETDICEUPFACECONTENTDATA_OFFSET))(this);
 		}
 
-		::System::Void SetOnClick(::System::Action* a1)
+		::System::Void SetOnClick(::System::Action_1<::IFLICGOLBIG*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEDICEDISPLAYINFO_SETONCLICK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::IFLICGOLBIG*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEDICEDISPLAYINFO_SETONCLICK_OFFSET))(this, a1);
 		}
 
 		::System::Void TriggerClick()

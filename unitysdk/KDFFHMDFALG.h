@@ -6,8 +6,9 @@
 #include "unitysdk/RPG/Client/DisableMapRotationVolumeInteractReason.h"
 #include "unitysdk/RPG/Client/ReasonBool_1.h"
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
@@ -31,7 +32,6 @@ namespace RPG::Client { class MapDef; }
 namespace RPG::Client { class MapRotationInfo; }
 namespace RPG::GameCore { class AnchorInfo; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -194,7 +194,7 @@ inline static constexpr unsigned int KDFFHMDFALG_TypeDefinitionIndex = 60581;
 		::System::Collections::Generic::List_1<::System::UInt32>* _DelayUnloadGroups_k__BackingField; // 0x60
 		::FBLPLPCCCNN* _AnchorPlugin_k__BackingField; // 0x68
 		::DEKJNPKKLDA* _PoseSwitcherPlugin_k__BackingField; // 0x70
-		::System::Collections::Generic::HashSet_1<::System::ValueTuple>* PMJJJIMJOGF; // 0x78
+		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::RPG::GameCore::ELevelPerformanceType, ::System::UInt32>>* PMJJJIMJOGF; // 0x78
 		::NMBOAAMFBCN* _LittleGamePlugin_k__BackingField; // 0x80
 		::UnityEngine::GameObject* LMLAJIIPKNF; // 0x88
 		::FNFAEAEOFAN* _PlayerPlugin_k__BackingField; // 0x90
@@ -204,18 +204,18 @@ inline static constexpr unsigned int KDFFHMDFALG_TypeDefinitionIndex = 60581;
 		::RPG::Client::MapRotationInfo* OCDIENNPEDA; // 0xB0
 		::KDFFHMDFALG_HBHDEEAKFAI PJBGJLFGBHN; // 0xB8
 		::System::Collections::Generic::List_1<::NPEBLEKDAGI*>* LBOBLINPCFP; // 0x108
-		::System::Nullable* _AreaIDAirlock_k__BackingField; // 0x110
+		::System::Nullable_1<::System::UInt32> _AreaIDAirlock_k__BackingField; // 0x110
 		::UnityEngine::Bounds PJLCFCDFKOO; // 0x118
 		::KDFFHMDFALG_RegionLoadStep PLCJBBFEFDL; // 0x130
 		::UnityEngine::Vector3 JOJCNCAFKLD; // 0x134
 		::RPG::Client::ReasonBool_1<::RPG::Client::DisableMapRotationVolumeInteractReason> OMCOFNDOKIM; // 0x140
-		::System::Nullable* _CurrentAirlock_k__BackingField; // 0x148
+		::System::Nullable_1<::System::UInt32> _CurrentAirlock_k__BackingField; // 0x148
 		::System::Int32 _CurrentPreparingRotatableRegion_k__BackingField; // 0x150
 		::System::Boolean _EnterOncePrepareReady_k__BackingField; // 0x154
 		::System::Boolean GLBLGALGEDJ; // 0x155
 		::System::Boolean IHHEEHEGNHJ; // 0x156
 		::System::Boolean MIHPCPLPCIC; // 0x157
-		::System::Nullable* FHNDMPFDHBJ; // 0x158
+		::System::Nullable_1<::GBKENJDEFLF> FHNDMPFDHBJ; // 0x158
 		::System::Byte _padding0[0x44];
 		::System::UInt32 _PoseToLoad_k__BackingField; // 0x1A4
 		::System::Int32 DHNLJDCCBGA; // 0x1A8
@@ -420,9 +420,9 @@ inline static constexpr unsigned int KDFFHMDFALG_TypeDefinitionIndex = 60581;
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + KDFFHMDFALG_NKGCICPPKIC_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void JIGKEMLLIMP(::System::UInt32 a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3)
+		::System::Void JIGKEMLLIMP(::System::UInt32 a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Quaternion> a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector3, ::System::Nullable*))((::PBYTE)hIl2Cpp + KDFFHMDFALG_JIGKEMLLIMP_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + KDFFHMDFALG_JIGKEMLLIMP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OOFGAPAMMJJ()
@@ -860,24 +860,24 @@ inline static constexpr unsigned int KDFFHMDFALG_TypeDefinitionIndex = 60581;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + KDFFHMDFALG_ODOCAAIBOHP_OFFSET))(this);
 		}
 
-		::System::Nullable* get_AreaIDAirlock()
+		::System::Nullable_1<::System::UInt32> get_AreaIDAirlock()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KDFFHMDFALG_GET_AREAIDAIRLOCK_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + KDFFHMDFALG_GET_AREAIDAIRLOCK_OFFSET))(this);
 		}
 
-		::System::Void set_AreaIDAirlock(::System::Nullable* a1)
+		::System::Void set_AreaIDAirlock(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + KDFFHMDFALG_SET_AREAIDAIRLOCK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + KDFFHMDFALG_SET_AREAIDAIRLOCK_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_CurrentAirlock()
+		::System::Nullable_1<::System::UInt32> get_CurrentAirlock()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + KDFFHMDFALG_GET_CURRENTAIRLOCK_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + KDFFHMDFALG_GET_CURRENTAIRLOCK_OFFSET))(this);
 		}
 
-		::System::Void set_CurrentAirlock(::System::Nullable* a1)
+		::System::Void set_CurrentAirlock(::System::Nullable_1<::System::UInt32> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + KDFFHMDFALG_SET_CURRENTAIRLOCK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + KDFFHMDFALG_SET_CURRENTAIRLOCK_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_WillBeDispose()

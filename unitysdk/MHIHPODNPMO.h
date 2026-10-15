@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class BABNOKHOBCF;
 class HIECHPAKPFL;
 class INMMPMDELKE;
 class MNCOPNHONHO;
 class OEOAMBFMNIB;
 namespace Entitas { class IComponent; }
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client { class QuestData; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelAnimalAttachBillboardData; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGlobalData; }
@@ -80,12 +80,12 @@ inline static constexpr unsigned int MHIHPODNPMO_TypeDefinitionIndex = 76776;
 		::BABNOKHOBCF* FKINCGODJEP; // 0x28
 		::System::Collections::Generic::Dictionary_2<::INMMPMDELKE*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelAnimalAttachBillboardData*>* MOFKEHBPAEF; // 0x30
 		::System::Collections::Generic::Dictionary_2<::INMMPMDELKE*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelProgressTipsData*>* OGDNCPGCFEP; // 0x38
-		::Entitas::IGroup* HNGMCHOLELK; // 0x40
-		::Entitas::IGroup* BJLLMDGBGKL; // 0x48
+		::Entitas::IGroup_1<::INMMPMDELKE*>* HNGMCHOLELK; // 0x40
+		::Entitas::IGroup_1<::INMMPMDELKE*>* BJLLMDGBGKL; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x50
 		::RPG::GameCore::FourRotateVoxelPortalConfig* BGAOAGMGJKI; // 0x58
-		::Entitas::IGroup* NJJIHFCPPBF; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::ValueTuple>*>* IKBEHONCHMM; // 0x68
+		::Entitas::IGroup_1<::INMMPMDELKE*>* NJJIHFCPPBF; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Object*>>*>* IKBEHONCHMM; // 0x68
 		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGlobalData* FDFBDBKGIHH; // 0x70
 		::System::Collections::Generic::List_1<::INMMPMDELKE*>* MBCFFPGIIME; // 0x78
 		::System::Single ANFKIKEFGAN; // 0x80
@@ -273,9 +273,9 @@ inline static constexpr unsigned int MHIHPODNPMO_TypeDefinitionIndex = 76776;
 			return ((::System::Boolean(*)(::PVOID, ::INMMPMDELKE*))((::PBYTE)hIl2Cpp + MHIHPODNPMO_GOLIDAKNPIJ_OFFSET))(this, a1);
 		}
 
-		::System::Void IHOLFJEIEDJ(::Entitas::IGroup* a1, ::INMMPMDELKE* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void IHOLFJEIEDJ(::Entitas::IGroup_1<::INMMPMDELKE*>* a1, ::INMMPMDELKE* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::INMMPMDELKE*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + MHIHPODNPMO_IHOLFJEIEDJ_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::INMMPMDELKE*>*, ::INMMPMDELKE*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + MHIHPODNPMO_IHOLFJEIEDJ_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean LAGAFLIFFMN(::INMMPMDELKE* a1, ::System::String* a2)
@@ -308,9 +308,9 @@ inline static constexpr unsigned int MHIHPODNPMO_TypeDefinitionIndex = 76776;
 			return ((::System::Boolean(*)(::PVOID, ::INMMPMDELKE*, ::System::String*))((::PBYTE)hIl2Cpp + MHIHPODNPMO_MDEKKFEOKDH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void HFIAIGEFBFM(::Entitas::IGroup* a1, ::INMMPMDELKE* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		::System::Void HFIAIGEFBFM(::Entitas::IGroup_1<::INMMPMDELKE*>* a1, ::INMMPMDELKE* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::INMMPMDELKE*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + MHIHPODNPMO_HFIAIGEFBFM_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::INMMPMDELKE*>*, ::INMMPMDELKE*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + MHIHPODNPMO_HFIAIGEFBFM_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean IABPLAKDNNJ(::RPG::GameCore::FourRotateVoxelGuideHintBillboardConfig* a1)

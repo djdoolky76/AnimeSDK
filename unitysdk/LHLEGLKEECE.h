@@ -5,8 +5,8 @@
 namespace RPG::GameCore { class EntityLodLoadingData; }
 namespace RPG::GameCore { class EntityLodModelConfig; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
 #define LHLEGLKEECE_ALLOGPJGCMO_OFFSET UNITYSDK_OFFSET(0xB6BA5A0)
@@ -40,11 +40,11 @@ inline static constexpr unsigned int LHLEGLKEECE_TypeDefinitionIndex = 57332;
 		::System::String* IMANEBGEPIO; // 0x10
 		::RPG::GameCore::EntityLodLoadingData* CMCKMDEBKHE; // 0x18
 		::RPG::GameCore::EntityLodModelConfig* MGHKBEOHKDN; // 0x20
-		::System::Action* NNNGFJMFLON; // 0x28
+		::System::Action_1<::UnityEngine::GameObject*>* NNNGFJMFLON; // 0x28
 		::UnityEngine::GameObject* CGGBLDIBMEH; // 0x30
 		::RPG::GameCore::EntityLodModelConfig* OPIIGLAJPDH; // 0x38
-		::System::Action* EFLFOHKHIIH; // 0x40
-		::System::Action* KOFPPNFGKPO; // 0x48
+		::System::Action_1<::UnityEngine::GameObject*>* EFLFOHKHIIH; // 0x40
+		::System::Action_1<::UnityEngine::GameObject*>* KOFPPNFGKPO; // 0x48
 		::System::String* GFAGJIHDOII; // 0x50
 		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x58
 		::System::String* BODICBBGAJA; // 0x60

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class KKFMLPEPGKM;
 class KLFHMLJJKLF;
 namespace System { class Object; }
@@ -29,9 +29,9 @@ inline static constexpr unsigned int MBNLPMIFHDA___c_TypeDefinitionIndex = 80745
 			return (::System::Func_2<::KKFMLPEPGKM*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E678);
 		}
 
-		static ::System::Func_2<::KLFHMLJJKLF*, ::System::ValueTuple>** StaticGet___9__0_1()
+		static ::System::Func_2<::KLFHMLJJKLF*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::KLFHMLJJKLF*, ::System::ValueTuple>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E680);
+			return (::System::Func_2<::KLFHMLJJKLF*, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E680);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -59,9 +59,9 @@ inline static constexpr unsigned int MBNLPMIFHDA___c_TypeDefinitionIndex = 80745
 			return ((::System::UInt32(*)(::PVOID, ::KLFHMLJJKLF*))((::PBYTE)hIl2Cpp + MBNLPMIFHDA___C___CTOR_B__0_0_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple __ctor_b__0_1(::KLFHMLJJKLF* a1)
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> __ctor_b__0_1(::KLFHMLJJKLF* a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::KLFHMLJJKLF*))((::PBYTE)hIl2Cpp + MBNLPMIFHDA___C___CTOR_B__0_1_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::KLFHMLJJKLF*))((::PBYTE)hIl2Cpp + MBNLPMIFHDA___C___CTOR_B__0_1_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 __ctor_b__0_2(::KKFMLPEPGKM* a1)

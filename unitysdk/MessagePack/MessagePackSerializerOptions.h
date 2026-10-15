@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/MessagePackCompression.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack { class MessagePackSecurity; }
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack { class SequencePool; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Text::RegularExpressions { class Regex; }
@@ -50,7 +50,7 @@ namespace MessagePack
 		::System::Int32 _SuggestedContiguousMemorySize_k__BackingField; // 0x2C
 		::MessagePack::MessagePackCompression _Compression_k__BackingField; // 0x30
 		::System::Boolean _OmitAssemblyVersion_k__BackingField; // 0x34
-		::System::Nullable* _OldSpec_k__BackingField; // 0x35
+		::System::Nullable_1<::System::Boolean> _OldSpec_k__BackingField; // 0x35
 		::System::Boolean _AllowAssemblyVersionMismatch_k__BackingField; // 0x37
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_DisallowedTypes()
 		{
@@ -122,14 +122,14 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZEROPTIONS_SET_SUGGESTEDCONTIGUOUSMEMORYSIZE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* get_OldSpec()
+		::System::Nullable_1<::System::Boolean> get_OldSpec()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZEROPTIONS_GET_OLDSPEC_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZEROPTIONS_GET_OLDSPEC_OFFSET))(this);
 		}
 
-		::System::Void set_OldSpec(::System::Nullable* a1)
+		::System::Void set_OldSpec(::System::Nullable_1<::System::Boolean> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZEROPTIONS_SET_OLDSPEC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZEROPTIONS_SET_OLDSPEC_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_OmitAssemblyVersion()

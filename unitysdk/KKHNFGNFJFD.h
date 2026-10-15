@@ -8,7 +8,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/TurnState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class DEKDEPEBHNC;
 class DFFPKLFKGAO;
 class EBBJGCKIBAA;
@@ -663,9 +663,9 @@ inline static constexpr unsigned int KKHNFGNFJFD_TypeDefinitionIndex = 71305;
 			return ((::System::Boolean(*)(::PVOID, ::GEDMHFPPBHN*, ::RPG::GameCore::GameEntity*, ::RPG::Client::ActionItemType))((::PBYTE)hIl2Cpp + KKHNFGNFJFD_PIGIHFCLJBC_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::ValueTuple _SkillPreViewSortByActionDelayCmp_g___GetOverrideValue_22_0(::GEDMHFPPBHN* a1)
+		static ::System::ValueTuple_3<::RPG::GameCore::FixPoint, ::System::Int32, ::System::Boolean> _SkillPreViewSortByActionDelayCmp_g___GetOverrideValue_22_0(::GEDMHFPPBHN* a1)
 		{
-			return ((::System::ValueTuple(*)(::GEDMHFPPBHN*))((::PBYTE)hIl2Cpp + KKHNFGNFJFD__SKILLPREVIEWSORTBYACTIONDELAYCMP_G___GETOVERRIDEVALUE_22_0_OFFSET))(a1);
+			return ((::System::ValueTuple_3<::RPG::GameCore::FixPoint, ::System::Int32, ::System::Boolean>(*)(::GEDMHFPPBHN*))((::PBYTE)hIl2Cpp + KKHNFGNFJFD__SKILLPREVIEWSORTBYACTIONDELAYCMP_G___GETOVERRIDEVALUE_22_0_OFFSET))(a1);
 		}
 
 	};

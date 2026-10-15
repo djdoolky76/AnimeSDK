@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CKEIGJNHMDN;
 class OIKDLNCBPFM;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -15,7 +15,7 @@ inline static constexpr unsigned int BGGDOPNKDLK___c__DisplayClass14_0_TypeDefin
 	class BGGDOPNKDLK___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::System::UInt32>* preferPos; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* preferPos; // 0x10
 		::System::Int32 xDiff; // 0x18
 		::System::Int32 yDiff; // 0x1C
 		::System::Int32 targetX; // 0x20

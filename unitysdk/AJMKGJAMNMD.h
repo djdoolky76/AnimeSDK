@@ -5,7 +5,7 @@
 class BABNOKHOBCF;
 class INMMPMDELKE;
 class MNCOPNHONHO;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client { class RPGProfilerMarkerWithIntData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -32,7 +32,7 @@ inline static constexpr unsigned int AJMKGJAMNMD_TypeDefinitionIndex = 76814;
 	{
 	public:
 		::System::Collections::Generic::List_1<::INMMPMDELKE*>* CFNLBDCGGOC; // 0x10
-		::Entitas::IGroup* CJKEOKDMINK; // 0x18
+		::Entitas::IGroup_1<::INMMPMDELKE*>* CJKEOKDMINK; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Boolean>* AOOEKNAAKBH; // 0x20
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x28
 		::BABNOKHOBCF* FKINCGODJEP; // 0x30

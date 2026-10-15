@@ -10,7 +10,7 @@ class JCLDKJDFGEI;
 class KADPPOJNAOI;
 class MPHJECLHDKJ;
 class POIDGGOOMHO;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 #define IHCBCCNGOBL_BLPMILFCFBG_OFFSET UNITYSDK_OFFSET(0x16419550)
@@ -75,9 +75,9 @@ inline static constexpr unsigned int IHCBCCNGOBL_TypeDefinitionIndex = 80219;
 			return ((::GPLMLPKBGGE*(*)(::PVOID))((::PBYTE)hIl2Cpp + IHCBCCNGOBL_BLPMILFCFBG_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* OHCJOIANPFG(::FHOHODHOAIA* a1)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* OHCJOIANPFG(::FHOHODHOAIA* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::FHOHODHOAIA*))((::PBYTE)hIl2Cpp + IHCBCCNGOBL_OHCJOIANPFG_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::FHOHODHOAIA*))((::PBYTE)hIl2Cpp + IHCBCCNGOBL_OHCJOIANPFG_OFFSET))(this, a1);
 		}
 
 		::GPLMLPKBGGE* FCMJKECKCEA(::APJDGABPDGH* a1, ::GPLMLPKBGGE* a2)

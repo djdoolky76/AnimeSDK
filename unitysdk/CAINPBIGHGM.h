@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_4.h"
 namespace RPG::GameCore { class ItemConfig; }
 
 #define CAINPBIGHGM_COBAIMEGJFB_OFFSET UNITYSDK_OFFSET(0xC481B20)
@@ -93,9 +93,9 @@ inline static constexpr unsigned int CAINPBIGHGM_TypeDefinitionIndex = 51965;
 			return ((::System::Void(*)(::PVOID, ::DPKDLCLMJDI))((::PBYTE)hIl2Cpp + CAINPBIGHGM_SET_PROPERTYVALUES_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple COBAIMEGJFB(::RPG::GameCore::AvatarPropertyType a1)
+		::System::ValueTuple_4<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> COBAIMEGJFB(::RPG::GameCore::AvatarPropertyType a1)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + CAINPBIGHGM_COBAIMEGJFB_OFFSET))(this, a1);
+			return ((::System::ValueTuple_4<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + CAINPBIGHGM_COBAIMEGJFB_OFFSET))(this, a1);
 		}
 
 	};

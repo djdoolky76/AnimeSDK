@@ -30,9 +30,10 @@ namespace RPG::GameCore { class GameEntity_GameComponentList; }
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class TimeScaleStack; }
-namespace System { class Action; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 namespace UnityEngine { class GameObject; }
 
@@ -151,16 +152,16 @@ namespace RPG::GameCore
 		::System::String* _Name_k__BackingField; // 0x48
 		::System::String* _NameForGameCore_k__BackingField; // 0x50
 		::RPG::GameCore::GameEntity_GameComponentArray* _ComponentArrayRef; // 0x58
-		::System::Action* OnStageStateChange; // 0x60
+		::System::Action_3<::RPG::GameCore::GameEntity*, ::System::Boolean, ::System::String*>* OnStageStateChange; // 0x60
 		::OPAEFGOHJEB* _TickLodProxy; // 0x68
 		::RPG::GameCore::GameEntity_GameComponentList* _LateUpdateComponentList; // 0x70
 		::RPG::GameCore::TimeScaleStack* TimeScaleStack; // 0x78
 		::RPG::PoolList_1<::HMCHEOBPCBH>* _DestroyWaitList; // 0x80
 		::RPG::GameCore::HoyoTagContainer* HoyoTagContainer; // 0x88
-		::System::Action* DisposeCallback; // 0x90
+		::System::Action_1<::RPG::GameCore::GameEntity*>* DisposeCallback; // 0x90
 		::System::String* TickLodTemplate; // 0x98
 		::RPG::GameCore::GameWorld* _OwnerWorldRef; // 0xA0
-		::System::Action* OnTeamChange; // 0xA8
+		::System::Action_3<::RPG::GameCore::GameEntity*, ::RPG::GameCore::TeamType, ::RPG::GameCore::TeamType>* OnTeamChange; // 0xA8
 		::RPG::GameCore::GameEntity_GameComponentList* _TickComponentList; // 0xB0
 		::UnityEngine::GameObject* _UnityGO; // 0xB8
 		::System::Single _LastTickTime_k__BackingField; // 0xC0

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AvatarUpgradePart.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class DMFNPHABMEE;
 class KCLIKAPODAD;
 class MGLBNNIPDMC;
@@ -38,9 +38,9 @@ inline static constexpr unsigned int AEKFOPGBFKL_TypeDefinitionIndex = 62840;
 			return ((::NNOALJAEMCG*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::KCLIKAPODAD*))((::PBYTE)hIl2Cpp + AEKFOPGBFKL_IFDDMGPJGNF_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple BDMNGLCFLFJ(::RPG::AvatarSystem::IAvatar* a1, ::KCLIKAPODAD* a2)
+		::System::ValueTuple_2<::System::Boolean, ::RPG::AvatarSystem::Avatar*> BDMNGLCFLFJ(::RPG::AvatarSystem::IAvatar* a1, ::KCLIKAPODAD* a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::KCLIKAPODAD*))((::PBYTE)hIl2Cpp + AEKFOPGBFKL_BDMNGLCFLFJ_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_2<::System::Boolean, ::RPG::AvatarSystem::Avatar*>(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::KCLIKAPODAD*))((::PBYTE)hIl2Cpp + AEKFOPGBFKL_BDMNGLCFLFJ_OFFSET))(this, a1, a2);
 		}
 
 	};

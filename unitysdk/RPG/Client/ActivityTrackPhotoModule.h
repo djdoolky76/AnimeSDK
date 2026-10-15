@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
+#include "unitysdk/System/Nullable_1.h"
 class IFBJJJOBGHB;
 class PNICDFFMDDB;
 namespace RPG::Client { class ActivityTrackPhotoStageData; }
 namespace RPG::Client { class ActivityTrackPhotoStageInstance; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -53,7 +53,7 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* _DependantSubMissionIDs; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityTrackPhotoStageData*>* _StageDataDict_k__BackingField; // 0x18
-		::System::Nullable* _AutoShowStageID; // 0x20
+		::System::Nullable_1<::System::UInt32> _AutoShowStageID; // 0x20
 		::System::UInt32 _CurStageTransNo_k__BackingField; // 0x28
 		::System::UInt32 _RewardID_k__BackingField; // 0x2C
 		::System::Void _ctor()

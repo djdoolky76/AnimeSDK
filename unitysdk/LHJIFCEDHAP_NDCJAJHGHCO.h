@@ -5,8 +5,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class EBLHIMCKJIJ;
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define LHJIFCEDHAP_NDCJAJHGHCO_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xB6B51C0)
 #define LHJIFCEDHAP_NDCJAJHGHCO_AGPNFLLLDIN_OFFSET UNITYSDK_OFFSET(0xB6B60F0)
@@ -29,7 +29,7 @@ inline static constexpr unsigned int LHJIFCEDHAP_NDCJAJHGHCO_TypeDefinitionIndex
 	class LHJIFCEDHAP_NDCJAJHGHCO : public ::System::Object
 	{
 	public:
-		::System::Action* MPKAFEJFNKN; // 0x10
+		::System::Action_1<::System::Boolean>* MPKAFEJFNKN; // 0x10
 		::EBLHIMCKJIJ* FLMODBLFAGD; // 0x18
 		::RPG::GameCore::TransformComponent* NIDHDAOGNKO; // 0x20
 		::UnityEngine::Vector3 BEDPGAOCOHG; // 0x28
@@ -71,19 +71,19 @@ inline static constexpr unsigned int LHJIFCEDHAP_NDCJAJHGHCO_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LHJIFCEDHAP_NDCJAJHGHCO_LJOLGCNKIEH_OFFSET))(this, a1);
 		}
 
-		::System::Void DLAILGNMFGI(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Single a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Action* a9)
+		::System::Void DLAILGNMFGI(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Single a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Action_1<::System::Boolean>* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + LHJIFCEDHAP_NDCJAJHGHCO_DLAILGNMFGI_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + LHJIFCEDHAP_NDCJAJHGHCO_DLAILGNMFGI_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void DLAILGNMFGI_1(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Single a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Action* a9)
+		::System::Void DLAILGNMFGI_1(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Single a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Action_1<::System::Boolean>* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + LHJIFCEDHAP_NDCJAJHGHCO_DLAILGNMFGI_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + LHJIFCEDHAP_NDCJAJHGHCO_DLAILGNMFGI_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void AGPNFLLLDIN(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Single a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Action* a9)
+		::System::Void AGPNFLLLDIN(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Single a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Action_1<::System::Boolean>* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + LHJIFCEDHAP_NDCJAJHGHCO_AGPNFLLLDIN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + LHJIFCEDHAP_NDCJAJHGHCO_AGPNFLLLDIN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void ABKBOGIGAEH()

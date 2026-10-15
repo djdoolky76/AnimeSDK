@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class FieldCodec; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class DescriptorProto; }
 namespace Google::Protobuf::Reflection { class EnumDescriptorProto; }
@@ -75,9 +75,9 @@ namespace Google::Protobuf::Reflection
 		::System::String* name_; // 0x60
 		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::DescriptorProto*>* messageType_; // 0x68
 		::System::String* package_; // 0x70
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_service_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::ServiceDescriptorProto*>** StaticGet__repeated_service_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D420);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::ServiceDescriptorProto*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D420);
 		}
 
 		static ::System::String** StaticGet_PackageDefaultValue()
@@ -85,34 +85,34 @@ namespace Google::Protobuf::Reflection
 			return (::System::String**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D428);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_dependency_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet__repeated_dependency_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D430);
+			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D430);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_weakDependency_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::Int32>** StaticGet__repeated_weakDependency_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D438);
+			return (::Google::Protobuf::FieldCodec_1<::System::Int32>**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D438);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_messageType_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto*>** StaticGet__repeated_messageType_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D440);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::DescriptorProto*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D440);
 		}
 
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::FileDescriptorProto*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D448);
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::FileDescriptorProto*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D448);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_publicDependency_codec()
+		static ::Google::Protobuf::FieldCodec_1<::System::Int32>** StaticGet__repeated_publicDependency_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D450);
+			return (::Google::Protobuf::FieldCodec_1<::System::Int32>**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D450);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_extension_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>** StaticGet__repeated_extension_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D458);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::FieldDescriptorProto*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D458);
 		}
 
 		static ::System::String** StaticGet_NameDefaultValue()
@@ -125,9 +125,9 @@ namespace Google::Protobuf::Reflection
 			return (::System::String**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D468);
 		}
 
-		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_enumType_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>** StaticGet__repeated_enumType_codec()
 		{
-			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D470);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "FileDescriptorProto")->GetStaticField(0x1D470);
 		}
 
 		::System::Void _ctor()
@@ -145,9 +145,9 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::FileDescriptorProto*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::FileDescriptorProto*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTORPROTO_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()

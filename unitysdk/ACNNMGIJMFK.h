@@ -10,7 +10,7 @@ class KHPENGJFKBB;
 class KNOOGHJPPBL;
 class MDLGCDHGLDA;
 namespace RPG::AvatarSystem { class IAvatar; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
@@ -44,19 +44,19 @@ inline static constexpr unsigned int ACNNMGIJMFK_TypeDefinitionIndex = 81509;
 			return ((::System::Void(*)(::PVOID, ::KNOOGHJPPBL*))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_CTOR_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* FOPAFGLEJED(::AODLAALCCNF* a1, ::System::Int32 a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* FOPAFGLEJED(::AODLAALCCNF* a1, ::System::Int32 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::AODLAALCCNF*, ::System::Int32))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_FOPAFGLEJED_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::AODLAALCCNF*, ::System::Int32))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_FOPAFGLEJED_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* FOPAFGLEJED_1(::AODLAALCCNF* a1, ::FOMDMAGLLNI* a2, ::System::Int32 a3)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* FOPAFGLEJED_1(::AODLAALCCNF* a1, ::FOMDMAGLLNI* a2, ::System::Int32 a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::AODLAALCCNF*, ::FOMDMAGLLNI*, ::System::Int32))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_FOPAFGLEJED_1_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::AODLAALCCNF*, ::FOMDMAGLLNI*, ::System::Int32))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_FOPAFGLEJED_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* JCACLIGOMCF(::AODLAALCCNF* a1, ::FOMDMAGLLNI* a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* JCACLIGOMCF(::AODLAALCCNF* a1, ::FOMDMAGLLNI* a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::AODLAALCCNF*, ::FOMDMAGLLNI*))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_JCACLIGOMCF_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::AODLAALCCNF*, ::FOMDMAGLLNI*))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_JCACLIGOMCF_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean DACKKBHBLNA(::KHPENGJFKBB* a1, ::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>* a2)
@@ -64,19 +64,19 @@ inline static constexpr unsigned int ACNNMGIJMFK_TypeDefinitionIndex = 81509;
 			return ((::System::Boolean(*)(::PVOID, ::KHPENGJFKBB*, ::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_DACKKBHBLNA_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Promises::IPromise* KDLCAAFJMKH(::System::Collections::Generic::IEnumerable_1<::System::Int32>* a1, ::System::Boolean a2, ::System::Boolean a3)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* KDLCAAFJMKH(::System::Collections::Generic::IEnumerable_1<::System::Int32>* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_KDLCAAFJMKH_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_KDLCAAFJMKH_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::Promises::IPromise* GCGOJAHONLI()
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* GCGOJAHONLI()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_GCGOJAHONLI_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_GCGOJAHONLI_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* CJGPHLAMEOD(::System::Collections::Generic::IEnumerable_1<::System::Int32>* a1, ::System::Boolean a2)
+		::RPG::Client::Promises::IPromise_1<::System::Boolean>* CJGPHLAMEOD(::System::Collections::Generic::IEnumerable_1<::System::Int32>* a1, ::System::Boolean a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_CJGPHLAMEOD_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + ACNNMGIJMFK_CJGPHLAMEOD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean NMCALNCLILN(::System::Collections::Generic::IReadOnlyList_1<::JLCJBFLKOJD*>* a1, ::System::Collections::Generic::IReadOnlyList_1<::JLCJBFLKOJD*>* a2)

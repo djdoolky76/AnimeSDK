@@ -5,7 +5,7 @@ class BJDOCGAJBOK;
 class GNNAEMBFINJ;
 class HCOGFOGPKHI;
 class HMFFHLKHOMJ;
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Object; }
 
 #define OPPNAOHPNGO_AKNBPNDKNDB_OFFSET UNITYSDK_OFFSET(0xBFB68C0)
@@ -47,9 +47,9 @@ inline static constexpr unsigned int OPPNAOHPNGO_TypeDefinitionIndex = 79047;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OPPNAOHPNGO_APFIJHBLLBD_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* MHDDKHBMIPC(::HMFFHLKHOMJ* a1, ::System::UInt64 a2)
+		::RPG::Client::Promises::IPromise_1<::HMFFHLKHOMJ*>* MHDDKHBMIPC(::HMFFHLKHOMJ* a1, ::System::UInt64 a2)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::HMFFHLKHOMJ*, ::System::UInt64))((::PBYTE)hIl2Cpp + OPPNAOHPNGO_MHDDKHBMIPC_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::IPromise_1<::HMFFHLKHOMJ*>*(*)(::PVOID, ::HMFFHLKHOMJ*, ::System::UInt64))((::PBYTE)hIl2Cpp + OPPNAOHPNGO_MHDDKHBMIPC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void IKJHJCPCJAO()

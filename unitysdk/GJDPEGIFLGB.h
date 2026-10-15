@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 class GCLLMHLFLFI;
@@ -16,8 +17,8 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ModifyAdventureCharacterRunSpeedRatio; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
@@ -291,9 +292,9 @@ inline static constexpr unsigned int GJDPEGIFLGB_TypeDefinitionIndex = 75539;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GJDPEGIFLGB_OHMHJFANEIF_OFFSET))(this, a1);
 		}
 
-		::System::Void GJNHPKJELFN(::UnityEngine::Vector3 a1, ::System::Nullable* a2, ::PCFGFOGMLNN* a3, ::NFGIHNCHEDO* a4, ::RPG::GameCore::CharacterMotionFlag a5, ::System::Boolean a6, ::System::Single a7, ::System::Boolean a8)
+		::System::Void GJNHPKJELFN(::UnityEngine::Vector3 a1, ::System::Nullable_1<::UnityEngine::Quaternion> a2, ::PCFGFOGMLNN* a3, ::NFGIHNCHEDO* a4, ::RPG::GameCore::CharacterMotionFlag a5, ::System::Boolean a6, ::System::Single a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable*, ::PCFGFOGMLNN*, ::NFGIHNCHEDO*, ::RPG::GameCore::CharacterMotionFlag, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + GJDPEGIFLGB_GJNHPKJELFN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Quaternion>, ::PCFGFOGMLNN*, ::NFGIHNCHEDO*, ::RPG::GameCore::CharacterMotionFlag, ::System::Boolean, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + GJDPEGIFLGB_GJNHPKJELFN_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void EBLMEKGAKAD()
@@ -321,9 +322,9 @@ inline static constexpr unsigned int GJDPEGIFLGB_TypeDefinitionIndex = 75539;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJDPEGIFLGB_KKALPPEBJGI_OFFSET))(this);
 		}
 
-		::System::Void DAFLJFOMEGK(::System::Int32 a1, ::System::Action* a2)
+		::System::Void DAFLJFOMEGK(::System::Int32 a1, ::System::Action_2<::RPG::GameCore::CharacterInputData*, ::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + GJDPEGIFLGB_DAFLJFOMEGK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_2<::RPG::GameCore::CharacterInputData*, ::System::Single>*))((::PBYTE)hIl2Cpp + GJDPEGIFLGB_DAFLJFOMEGK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void JKGMEFMCLMC(::System::Int32 a1)

@@ -28,6 +28,7 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::IO { class FileInfo; }
 
 #define IFIX_ILFIXDYNAMICMETHODWRAPPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC2E300)
@@ -761,9 +762,9 @@ namespace IFix
 			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER___GEN_WRAP_89_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void __Gen_Wrap_90(::System::Action* a1, ::System::Action* a2)
+		::System::Void __Gen_Wrap_90(::System::Action* a1, ::System::Action_1<::System::Exception*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER___GEN_WRAP_90_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::Exception*>*))((::PBYTE)hIl2Cpp + IFIX_ILFIXDYNAMICMETHODWRAPPER___GEN_WRAP_90_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __Gen_Wrap_91(::System::Object* a1, ::System::Int32 a2)

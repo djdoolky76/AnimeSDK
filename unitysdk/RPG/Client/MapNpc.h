@@ -11,8 +11,8 @@ class NNDAJDLAHNC;
 namespace RPG::Client { class MapEntityDef; }
 namespace RPG::Client { class MapNpcDef; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 #define RPG_CLIENT_MAPNPC_ASYNCLOAD_OFFSET UNITYSDK_OFFSET(0xD555690)
@@ -101,9 +101,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPNPC_BEGINFADEIN_OFFSET))(this);
 		}
 
-		::System::Void BeginFadeOut(::System::Action* a1)
+		::System::Void BeginFadeOut(::System::Action_1<::EOABGMGNKGA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPNPC_BEGINFADEOUT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::EOABGMGNKGA*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPNPC_BEGINFADEOUT_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()

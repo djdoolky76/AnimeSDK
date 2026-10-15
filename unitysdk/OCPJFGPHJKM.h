@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/FiveDimJumpType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/BJDFAOEFGFE.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class FloatCurve; }
-namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
 #define OCPJFGPHJKM_AAMEKFHFEFI_OFFSET UNITYSDK_OFFSET(0x1C97BC60)
@@ -115,9 +115,9 @@ inline static constexpr unsigned int OCPJFGPHJKM_TypeDefinitionIndex = 43622;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OCPJFGPHJKM_CCTOR_OFFSET))();
 		}
 
-		static ::UnityEngine::Vector3 KOLMHLNHNJC(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Nullable* a9)
+		static ::UnityEngine::Vector3 KOLMHLNHNJC(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Nullable_1<::System::Single> a9)
 		{
-			return ((::UnityEngine::Vector3(*)(::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable*))((::PBYTE)hIl2Cpp + OCPJFGPHJKM_KOLMHLNHNJC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::UnityEngine::Vector3(*)(::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + OCPJFGPHJKM_KOLMHLNHNJC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		static ::System::Void ODOOMDGHPIE(::System::Single a1, ::System::Single a2, ::RPG::GameCore::FloatCurve* a3, ::UnityEngine::Quaternion a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Single a7, ::UnityEngine::Vector3 a8, ::System::Single a9)

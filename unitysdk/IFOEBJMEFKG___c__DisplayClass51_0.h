@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 class CHGHIALKMFM;
 class IFOEBJMEFKG;
 namespace System { class Object; }
-namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
 #define IFOEBJMEFKG___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15F2EB80)
@@ -25,9 +25,9 @@ inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass51_0_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C__DISPLAYCLASS51_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Object* __TryRecommendMoldForExam_b__0(::System::Collections::Generic::KeyValuePair* a1)
+		::System::Object* __TryRecommendMoldForExam_b__0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32> a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C__DISPLAYCLASS51_0___TRYRECOMMENDMOLDFOREXAM_B__0_OFFSET))(this, a1);
+			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C__DISPLAYCLASS51_0___TRYRECOMMENDMOLDFOREXAM_B__0_OFFSET))(this, a1);
 		}
 
 		::CHGHIALKMFM* __TryRecommendMoldForExam_b__2(::System::Object* a1)

@@ -7,6 +7,7 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::Win { class OverseaPayDialog; }
 namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
@@ -46,7 +47,7 @@ namespace MiHoYo::SDK::Win
 	public:
 		::System::Action* OnBack; // 0x58
 		::System::Action* OnRefresh; // 0x60
-		::System::Action* OnPay; // 0x68
+		::System::Action_1<::MiHoYo::SDK::PayVendor>* OnPay; // 0x68
 		::System::Action* OnPaySuccess; // 0x70
 		::UnityEngine::UI::Button* backButton; // 0x78
 		::UnityEngine::UI::Text* dialogTitleText; // 0x80

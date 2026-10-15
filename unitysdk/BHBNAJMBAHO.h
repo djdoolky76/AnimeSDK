@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 class ECBFFNKFPDA;
 class PMGOFCCJEDE;
 class POCFKFBIABM;
-namespace System { class Nullable; }
 
 #define BHBNAJMBAHO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB472A80)
 #define BHBNAJMBAHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB472A70)
@@ -44,9 +44,9 @@ inline static constexpr unsigned int BHBNAJMBAHO_TypeDefinitionIndex = 71511;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHBNAJMBAHO_KHGIKBFDLFB_OFFSET))(this);
 		}
 
-		::System::Nullable* JAKBJKLLKKC()
+		::System::Nullable_1<::System::Single> JAKBJKLLKKC()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + BHBNAJMBAHO_JAKBJKLLKKC_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + BHBNAJMBAHO_JAKBJKLLKKC_OFFSET))(this);
 		}
 
 		::System::Boolean OGDMBIDELJI()

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F110C00)
 #define CYSHARP_THREADING_TASKS_LINQ_TIMERFRAME__TIMERFRAME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F110C40)
@@ -20,9 +20,9 @@ namespace Cysharp::Threading::Tasks::Linq
 			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "<>c")->GetStaticField(0x11C0);
 		}
 
-		static ::System::Action** StaticGet___9__9_0()
+		static ::System::Action_1<::System::Object*>** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "<>c")->GetStaticField(0x11C8);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Linq", "<>c")->GetStaticField(0x11C8);
 		}
 
 		static ::System::Void _cctor()

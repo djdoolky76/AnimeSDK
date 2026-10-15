@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChatMessageData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
-namespace System::Collections::Generic { class KeyValuePair; }
 
 #define AGJOIILGIHK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF3C2B0)
 #define AGJOIILGIHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3C2F0)
@@ -28,9 +28,9 @@ inline static constexpr unsigned int AGJOIILGIHK___c_TypeDefinitionIndex = 66410
 			return (::System::Predicate_1<::RPG::Client::ChatMessageData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53D48);
 		}
 
-		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair*>** StaticGet___9__21_0()
+		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>>** StaticGet___9__21_0()
 		{
-			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53D50);
+			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53D50);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ChatMessageData*>** StaticGet___9__1_0()
@@ -58,9 +58,9 @@ inline static constexpr unsigned int AGJOIILGIHK___c_TypeDefinitionIndex = 66410
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChatMessageData*))((::PBYTE)hIl2Cpp + AGJOIILGIHK___C___REFRESHCHATMESSAGEDATALIST_B__1_1_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _GetPlayerIndex_b__21_0(::System::Collections::Generic::KeyValuePair* a1, ::System::Collections::Generic::KeyValuePair* a2)
+		::System::Int32 _GetPlayerIndex_b__21_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64> a1, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64> a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + AGJOIILGIHK___C__GETPLAYERINDEX_B__21_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>))((::PBYTE)hIl2Cpp + AGJOIILGIHK___C__GETPLAYERINDEX_B__21_0_OFFSET))(this, a1, a2);
 		}
 
 	};

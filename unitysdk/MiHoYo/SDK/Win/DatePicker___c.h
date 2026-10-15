@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class DatePicker; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_DATEPICKER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD34210)
 #define MIHOYO_SDK_WIN_DATEPICKER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD34250)
@@ -21,9 +21,9 @@ namespace MiHoYo::SDK::Win
 			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E7C0);
 		}
 
-		static ::System::Action** StaticGet___9__39_0()
+		static ::System::Action_1<::MiHoYo::SDK::Win::DatePicker*>** StaticGet___9__39_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E7C8);
+			return (::System::Action_1<::MiHoYo::SDK::Win::DatePicker*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E7C8);
 		}
 
 		static ::System::Void _cctor()

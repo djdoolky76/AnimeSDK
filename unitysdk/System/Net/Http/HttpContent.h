@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
+#include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 namespace System::IO { class Stream; }
 namespace System::Net { class TransportContext; }
@@ -9,6 +9,7 @@ namespace System::Net::Http { class HttpContent_FixedMemoryStream; }
 namespace System::Net::Http::Headers { class HttpContentHeaders; }
 namespace System::Text { class Encoding; }
 namespace System::Threading::Tasks { class Task; }
+namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 #define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EE62BB0)
 #define SYSTEM_NET_HTTP_HTTPCONTENT_COPYTOASYNC_OFFSET UNITYSDK_OFFSET(0x1EE62AF0)
@@ -45,9 +46,9 @@ namespace System::Net::Http
 			return ((::System::Net::Http::Headers::HttpContentHeaders*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_GET_HEADERS_OFFSET))(this);
 		}
 
-		::System::Nullable* get_LoadedBufferLength()
+		::System::Nullable_1<::System::Int64> get_LoadedBufferLength()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_GET_LOADEDBUFFERLENGTH_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_GET_LOADEDBUFFERLENGTH_OFFSET))(this);
 		}
 
 		::System::Void CopyTo(::System::IO::Stream* a1)
@@ -90,9 +91,9 @@ namespace System::Net::Http
 			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_LOADINTOBUFFERASYNC_1_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task* ReadAsStringAsync()
+		::System::Threading::Tasks::Task_1<::System::String*>* ReadAsStringAsync()
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_READASSTRINGASYNC_OFFSET))(this);
+			return ((::System::Threading::Tasks::Task_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPCONTENT_READASSTRINGASYNC_OFFSET))(this);
 		}
 
 		static ::System::Text::Encoding* GetEncodingFromBuffer(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)

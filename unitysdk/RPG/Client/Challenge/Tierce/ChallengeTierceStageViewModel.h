@@ -4,6 +4,7 @@
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class AODLAALCCNF;
 class CKCJOCJGHKC;
 class DCKGNOHECDC;
@@ -17,7 +18,6 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResu
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterDataProvider; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterDataProvider_Factory; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -181,9 +181,9 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETTEAMLINEUP_OFFSET))(this);
 		}
 
-		::System::Nullable* GetBuffID()
+		::System::Nullable_1<::System::UInt32> GetBuffID()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETBUFFID_OFFSET))(this);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_GETBUFFID_OFFSET))(this);
 		}
 
 		::System::Void _OnCurrentSessionChanged()

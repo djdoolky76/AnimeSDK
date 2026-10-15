@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/FiveDimCardinalDirection.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_4.h"
 namespace RPG { template <typename T> class PoolList_1; }
 
 #define PDPIHJEBAEC_CEOECDIAGEC_OFFSET UNITYSDK_OFFSET(0x1C9A6090)
@@ -57,14 +57,14 @@ inline static constexpr unsigned int PDPIHJEBAEC_TypeDefinitionIndex = 43369;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PDPIHJEBAEC_CLEAR_OFFSET))(this);
 		}
 
-		::System::ValueTuple LBDJFNDMMOA(::UnityEngine::Vector3 a1, ::System::Boolean a2)
+		::System::ValueTuple_4<::KLNKLOMDIIC, ::System::Int32, ::System::Int32, ::System::Single> LBDJFNDMMOA(::UnityEngine::Vector3 a1, ::System::Boolean a2)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + PDPIHJEBAEC_LBDJFNDMMOA_OFFSET))(this, a1, a2);
+			return ((::System::ValueTuple_4<::KLNKLOMDIIC, ::System::Int32, ::System::Int32, ::System::Single>(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + PDPIHJEBAEC_LBDJFNDMMOA_OFFSET))(this, a1, a2);
 		}
 
-		::System::ValueTuple LBDJFNDMMOA_1(::UnityEngine::Vector3 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Boolean a5)
+		::System::ValueTuple_4<::KLNKLOMDIIC, ::System::Int32, ::System::Int32, ::System::Single> LBDJFNDMMOA_1(::UnityEngine::Vector3 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::ValueTuple(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32, ::System::Int32, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + PDPIHJEBAEC_LBDJFNDMMOA_1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::ValueTuple_4<::KLNKLOMDIIC, ::System::Int32, ::System::Int32, ::System::Single>(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32, ::System::Int32, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + PDPIHJEBAEC_LBDJFNDMMOA_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::KLNKLOMDIIC GGJJGAMDNED(::KLNKLOMDIIC a1, ::KLNKLOMDIIC a2, ::UnityEngine::Vector3 a3, ::System::Boolean a4, ::System::Single a5)

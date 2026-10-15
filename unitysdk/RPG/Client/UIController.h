@@ -11,6 +11,7 @@
 #include "unitysdk/RPG/Client/UIPriority.h"
 #include "unitysdk/RPG/Client/UITransitionAnimType.h"
 #include "unitysdk/RPG/Client/ViewCacheType.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -42,7 +43,7 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Collections::Generic { class KeyValuePair; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -322,11 +323,11 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* _InControlClickEvents; // 0x10
 		::System::Action* _ExitCallback; // 0x18
 		::RPG::Client::MonoInControlEvent* _InControlEvent; // 0x20
-		::System::Collections::Generic::List_1<::System::Action*>* _MouseWheelRollEvents; // 0x28
+		::System::Collections::Generic::List_1<::System::Action_1<::System::Single>*>* _MouseWheelRollEvents; // 0x28
 		::RPG::Client::UIMeta* _UIMeta; // 0x30
 		::EKOGCACGADH* _AssetLoader; // 0x38
 		::System::Collections::Generic::List_1<::FMPCODLIOLG*>* _ChildPanels; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* _InControlPressEvents; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::System::Single>*>* _InControlPressEvents; // 0x48
 		::DADCLCMLNNF* _AnimationState; // 0x50
 		::LBAMBIMMJKB* _View2D; // 0x58
 		::UnityEngine::CanvasGroup* _RootCanvasGroup_k__BackingField; // 0x60
@@ -339,11 +340,11 @@ namespace RPG::Client
 		::RPG::Client::Promises::Promise* _ExitAnimPromise; // 0x98
 		::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* _ButtonEvents; // 0xA0
 		::RPG::Client::Promises::Promise* _ViewLoadPromise; // 0xA8
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* _manuallyAddNotifyHandlers; // 0xB0
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::NotifyType, ::RPG::Client::NotifyHandler*>>* _manuallyAddNotifyHandlers; // 0xB0
 		::RPG::Client::Promises::Promise* _JoinedExitPromise; // 0xB8
 		::System::Collections::Generic::List_1<::CANFMMJEBJG*>* _BindNotifyHandlers; // 0xC0
 		::RPG::Client::RPGAnimationEvent* _AnimationEvent; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* _InControlReleaseEvents; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action_1<::System::Single>*>* _InControlReleaseEvents; // 0xD0
 		::System::Collections::Generic::List_1<::CJPDCBEEOKA*>* _BindEventHandlers; // 0xD8
 		::IKHKAONICLI* _UIShareCmpt; // 0xE0
 		::RPG::Client::Promises::Promise* _ViewSetPromise; // 0xE8
@@ -535,9 +536,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_ADDCHILDDIALOG_OFFSET))(this, a1);
 		}
 
-		::System::Void Bind(::UnityEngine::UI::Button* a1, ::System::Action* a2, ::System::Object* a3)
+		::System::Void Bind(::UnityEngine::UI::Button* a1, ::System::Action_1<::System::Object*>* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Button*, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BIND_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Button*, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BIND_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void AddOnBackPressedCallback(::RPG::Client::OnBackPressedCallback* a1)
@@ -560,14 +561,14 @@ namespace RPG::Client
 			return ((::RPG::Client::OnBackPressedDispatcher*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_GETONBACKPRESSEDDISPATCHER_OFFSET))(this);
 		}
 
-		::System::Void BindMouseWheelRollEvent(::System::Action* a1)
+		::System::Void BindMouseWheelRollEvent(::System::Action_1<::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BINDMOUSEWHEELROLLEVENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BINDMOUSEWHEELROLLEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void BindInControlPressEvent(::InControl::InputControlType a1, ::System::Action* a2)
+		::System::Void BindInControlPressEvent(::InControl::InputControlType a1, ::System::Action_1<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BINDINCONTROLPRESSEVENT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BINDINCONTROLPRESSEVENT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void BindInControlClickEvent(::InControl::InputControlType a1, ::System::Action* a2)
@@ -575,9 +576,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BINDINCONTROLCLICKEVENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BindInControlReleaseEvent(::InControl::InputControlType a1, ::System::Action* a2)
+		::System::Void BindInControlReleaseEvent(::InControl::InputControlType a1, ::System::Action_1<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BINDINCONTROLRELEASEEVENT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_BINDINCONTROLRELEASEEVENT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void MuteHandlersRecursive(::System::Boolean a1)
@@ -1170,9 +1171,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_SYNCLOADPREFAB_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::UIAsyncPrefabLoaderProxy* AsyncLoadPrefab(::System::String* a1, ::System::Action* a2, ::UnityEngine::Transform* a3)
+		::RPG::Client::UIAsyncPrefabLoaderProxy* AsyncLoadPrefab(::System::String* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2, ::UnityEngine::Transform* a3)
 		{
-			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::System::Action*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_ASYNCLOADPREFAB_OFFSET))(this, a1, a2, a3);
+			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::GameObject*>*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UICONTROLLER_ASYNCLOADPREFAB_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void DestroyGameObject(::UnityEngine::GameObject* a1, ::System::Boolean a2)

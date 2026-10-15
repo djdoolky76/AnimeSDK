@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class PMIAJMPNJOO;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 
 #define RPG_CLIENT_GRIDFIGHTASSISTANT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0CCC50)
 #define RPG_CLIENT_GRIDFIGHTASSISTANT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0CCC90)
@@ -21,9 +21,9 @@ namespace RPG::Client
 	class GridFightAssistant___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__3_0()
+		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__3_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F70);
+			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F70);
 		}
 
 		static ::System::Func_2<::PMIAJMPNJOO*, ::System::Int32>** StaticGet___9__7_0()
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return (::System::Func_2<::PMIAJMPNJOO*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F78);
 		}
 
-		static ::System::Action** StaticGet___9__4_0()
+		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__4_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F80);
+			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F80);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -41,14 +41,14 @@ namespace RPG::Client
 			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F88);
 		}
 
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F90);
+			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F90);
 		}
 
-		static ::System::Action** StaticGet___9__2_0()
+		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F98);
+			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F98);
 		}
 
 		static ::System::Void _cctor()

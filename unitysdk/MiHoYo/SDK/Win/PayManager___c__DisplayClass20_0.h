@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class PayManager; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
 #define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCE2E0)
 #define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS20_0__REQUESTPRICETIERV2_B__0_OFFSET UNITYSDK_OFFSET(0x1BDD5CE0)
@@ -17,8 +17,8 @@ namespace MiHoYo::SDK::Win
 	class PayManager___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__1; // 0x18
 		::MiHoYo::SDK::Win::PayManager* __4__this; // 0x20
 		::System::String* currency; // 0x28
 		::System::Void _ctor()

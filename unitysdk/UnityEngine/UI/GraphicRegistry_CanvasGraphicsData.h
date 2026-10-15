@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_1; }
 
@@ -15,7 +15,7 @@ namespace UnityEngine::UI
 	{
 	public:
 		::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>* Graphics; // 0x10
-		::System::Action* ChangeCallback; // 0x18
+		::System::Action_2<::UnityEngine::UI::Graphic*, ::System::Boolean>* ChangeCallback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_GRAPHICREGISTRY_CANVASGRAPHICSDATA_CTOR_OFFSET))(this);

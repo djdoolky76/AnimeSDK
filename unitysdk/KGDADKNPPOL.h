@@ -26,9 +26,9 @@ namespace RPG::GameCore { class LevelRegionStateConditionSet; }
 namespace RPG::GameCore { class LevelRegionStateConfig; }
 namespace RPG::GameCore { class StageRegionAffect; }
 namespace RPG::GameCore { class StageRegionConfig; }
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -151,7 +151,7 @@ inline static constexpr unsigned int KGDADKNPPOL_TypeDefinitionIndex = 62148;
 		::RPG::GameCore::HoyoTagContainer* FLLGAPPECIO; // 0x38
 		::PKKNEBGOION* CJGHIABBLHI; // 0x40
 		::System::Collections::Generic::List_1<::KLEFGGIHGMI*>* FONDGECHGHA; // 0x48
-		::System::Action* JHFLOAFAFBA; // 0x50
+		::System::Action_3<::KGDADKNPPOL*, ::RPG::GameCore::StageRegionActiveState, ::RPG::GameCore::StageRegionActiveState>* JHFLOAFAFBA; // 0x50
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* MJKLPKMNMFF; // 0x58
 		::System::Collections::Generic::HashSet_1<::KLEFGGIHGMI*>* HGLLDKBNOEJ; // 0x60
 		::System::Collections::Generic::HashSet_1<::KLEFGGIHGMI*>* DFLKEEOEBIA; // 0x68

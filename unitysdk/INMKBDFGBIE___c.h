@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 class HIOEAKHGILF;
 class INMKBDFGBIE;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
 #define INMKBDFGBIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x164F7BE0)
 #define INMKBDFGBIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x164F7C10)
@@ -20,9 +20,9 @@ inline static constexpr unsigned int INMKBDFGBIE___c_TypeDefinitionIndex = 77070
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C970);
 		}
 
-		static ::System::Action** StaticGet___9__2_0()
+		static ::System::Action_2<::INMKBDFGBIE*, ::HIOEAKHGILF*>** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C978);
+			return (::System::Action_2<::INMKBDFGBIE*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C978);
 		}
 
 		static ::System::Void _cctor()

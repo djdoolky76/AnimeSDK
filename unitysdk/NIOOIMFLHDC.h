@@ -6,7 +6,7 @@
 class ALMFLCJCHKP;
 class LMFOOOLDECA;
 class OMNJCDDMLHI;
-namespace Entitas { class IGroup; }
+namespace Entitas { template <typename T> class IGroup_1; }
 
 #define NIOOIMFLHDC_CNAPIGDLAAN_OFFSET UNITYSDK_OFFSET(0xBC06960)
 #define NIOOIMFLHDC_CNKCIHBHJGI_OFFSET UNITYSDK_OFFSET(0xBC062D0)
@@ -43,9 +43,9 @@ inline static constexpr unsigned int NIOOIMFLHDC_TypeDefinitionIndex = 77969;
 			return ((::System::Void(*)(::PVOID, ::ALMFLCJCHKP*))((::PBYTE)hIl2Cpp + NIOOIMFLHDC_FKJAIHCPMAM_OFFSET))(this, a1);
 		}
 
-		::System::Void DOFPLLNLBIJ(::Entitas::IGroup* a1)
+		::System::Void DOFPLLNLBIJ(::Entitas::IGroup_1<::ALMFLCJCHKP*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*))((::PBYTE)hIl2Cpp + NIOOIMFLHDC_DOFPLLNLBIJ_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup_1<::ALMFLCJCHKP*>*))((::PBYTE)hIl2Cpp + NIOOIMFLHDC_DOFPLLNLBIJ_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2Int PFLPCNPMKBD(::UnityEngine::Vector3 a1)

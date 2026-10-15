@@ -13,8 +13,8 @@ namespace RPG::Client { class RootMotionHandler; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NpcWalkStyleWeightInfo; }
 namespace RPG::GameCore { class TransformComponent; }
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
@@ -68,11 +68,11 @@ inline static constexpr unsigned int IMHNJGALBDG_TypeDefinitionIndex = 69215;
 		::RPG::GameCore::NpcWalkStyleWeightInfo* EMACJMPOIIA; // 0x28
 		::RPG::Client::RootMotionHandler* ALKMPEBIMHH; // 0x30
 		::UnityEngine::Transform* BFPEBHOHFGK; // 0x38
-		::System::Action* KJFJCIFMACB; // 0x40
+		::System::Action_1<::System::UInt32>* KJFJCIFMACB; // 0x40
 		::System::String* LGPJHEABONH; // 0x48
 		::Il2CppArray<::UnityEngine::Vector3>* INMIMFKNKJF; // 0x50
 		::FHOLDPBFDLO* AJIHEFMLGJM; // 0x58
-		::System::Action* LEEEFJLOCBA; // 0x60
+		::System::Action_1<::IMHNJGALBDG*>* LEEEFJLOCBA; // 0x60
 		::RPG::GameCore::GameEntity* CKPJNDKOHBE; // 0x68
 		::RPG::GameCore::TransformComponent* PPLDOKDKOOE; // 0x70
 		::RPG::Client::NpcBodySizeInfo* FLPEFKEJNJH; // 0x78
@@ -108,9 +108,9 @@ inline static constexpr unsigned int IMHNJGALBDG_TypeDefinitionIndex = 69215;
 		// static const ::System::Object KMNAKCDIJHB; // 0x0
 		// static const ::System::Object JIJIPAADPCD; // 0x0
 		// static const ::System::Object DOFJBDFCIIB; // 0x0
-		::System::Void _ctor(::KBGKAMMKDCE* a1, ::System::String* a2, ::System::String* a3, ::FHOLDPBFDLO* a4, ::System::Action* a5)
+		::System::Void _ctor(::KBGKAMMKDCE* a1, ::System::String* a2, ::System::String* a3, ::FHOLDPBFDLO* a4, ::System::Action_1<::IMHNJGALBDG*>* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::KBGKAMMKDCE*, ::System::String*, ::System::String*, ::FHOLDPBFDLO*, ::System::Action*))((::PBYTE)hIl2Cpp + IMHNJGALBDG_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::KBGKAMMKDCE*, ::System::String*, ::System::String*, ::FHOLDPBFDLO*, ::System::Action_1<::IMHNJGALBDG*>*))((::PBYTE)hIl2Cpp + IMHNJGALBDG_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::UInt32 DPICFBFDGNB()

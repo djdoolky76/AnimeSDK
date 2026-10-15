@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/VersionInfo.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace InControl { class IKeyboardProvider; }
 namespace InControl { class IMouseProvider; }
@@ -8,9 +9,10 @@ namespace InControl { class InputDevice; }
 namespace InControl { class InputDeviceManager; }
 namespace InControl { class PlayerActionSet; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System { class Type; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
@@ -124,9 +126,9 @@ namespace InControl
 			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB770);
 		}
 
-		static ::System::Action** StaticGet_OnDeviceDetached()
+		static ::System::Action_1<::InControl::InputDevice*>** StaticGet_OnDeviceDetached()
 		{
-			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB778);
+			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB778);
 		}
 
 		static ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>** StaticGet_Devices()
@@ -134,9 +136,9 @@ namespace InControl
 			return (::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB780);
 		}
 
-		static ::System::Action** StaticGet_OnActiveDeviceChanged()
+		static ::System::Action_1<::InControl::InputDevice*>** StaticGet_OnActiveDeviceChanged()
 		{
-			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB788);
+			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB788);
 		}
 
 		static ::System::Collections::Generic::List_1<::InControl::InputDevice*>** StaticGet_activeDevices()
@@ -149,9 +151,9 @@ namespace InControl
 			return (::InControl::InputDevice**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB798);
 		}
 
-		static ::System::Action** StaticGet_OnUpdateDevices()
+		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnUpdateDevices()
 		{
-			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7A0);
+			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7A0);
 		}
 
 		static ::System::Action** StaticGet_OnSetup()
@@ -179,9 +181,9 @@ namespace InControl
 			return (::System::Collections::Generic::List_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7C8);
 		}
 
-		static ::System::Action** StaticGet_OnCommitDevices()
+		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnCommitDevices()
 		{
-			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7D0);
+			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7D0);
 		}
 
 		static ::System::String** StaticGet__Platform_k__BackingField()
@@ -189,14 +191,14 @@ namespace InControl
 			return (::System::String**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7D8);
 		}
 
-		static ::System::Action** StaticGet_OnUpdate()
+		static ::System::Action_2<::System::UInt64, ::System::Single>** StaticGet_OnUpdate()
 		{
-			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7E0);
+			return (::System::Action_2<::System::UInt64, ::System::Single>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7E0);
 		}
 
-		static ::System::Action** StaticGet_OnDeviceAttached()
+		static ::System::Action_1<::InControl::InputDevice*>** StaticGet_OnDeviceAttached()
 		{
-			return (::System::Action**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7E8);
+			return (::System::Action_1<::InControl::InputDevice*>**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0xB7E8);
 		}
 
 		static ::System::Action** StaticGet_OnReset()
@@ -274,9 +276,9 @@ namespace InControl
 			return (::System::UInt32*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2800);
 		}
 
-		static ::System::Nullable** StaticGet_unityVersion()
+		static ::System::Nullable_1<::InControl::VersionInfo>* StaticGet_unityVersion()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2804);
+			return (::System::Nullable_1<::InControl::VersionInfo>*)UnitySDK::FromName("InControl", "InputManager")->GetStaticField(0x2804);
 		}
 
 		static ::System::Boolean* StaticGet__ApplicationisForegroundWindow_k__BackingField()
@@ -329,14 +331,14 @@ namespace InControl
 			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONSETUP_OFFSET))(a1);
 		}
 
-		static ::System::Void add_OnUpdate(::System::Action* a1)
+		static ::System::Void add_OnUpdate(::System::Action_2<::System::UInt64, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONUPDATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::UInt64, ::System::Single>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONUPDATE_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnUpdate(::System::Action* a1)
+		static ::System::Void remove_OnUpdate(::System::Action_2<::System::UInt64, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONUPDATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::UInt64, ::System::Single>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONUPDATE_OFFSET))(a1);
 		}
 
 		static ::System::Void add_OnReset(::System::Action* a1)
@@ -349,54 +351,54 @@ namespace InControl
 			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONRESET_OFFSET))(a1);
 		}
 
-		static ::System::Void add_OnDeviceAttached(::System::Action* a1)
+		static ::System::Void add_OnDeviceAttached(::System::Action_1<::InControl::InputDevice*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONDEVICEATTACHED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::InControl::InputDevice*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONDEVICEATTACHED_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnDeviceAttached(::System::Action* a1)
+		static ::System::Void remove_OnDeviceAttached(::System::Action_1<::InControl::InputDevice*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONDEVICEATTACHED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::InControl::InputDevice*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONDEVICEATTACHED_OFFSET))(a1);
 		}
 
-		static ::System::Void add_OnDeviceDetached(::System::Action* a1)
+		static ::System::Void add_OnDeviceDetached(::System::Action_1<::InControl::InputDevice*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONDEVICEDETACHED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::InControl::InputDevice*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONDEVICEDETACHED_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnDeviceDetached(::System::Action* a1)
+		static ::System::Void remove_OnDeviceDetached(::System::Action_1<::InControl::InputDevice*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONDEVICEDETACHED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::InControl::InputDevice*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONDEVICEDETACHED_OFFSET))(a1);
 		}
 
-		static ::System::Void add_OnActiveDeviceChanged(::System::Action* a1)
+		static ::System::Void add_OnActiveDeviceChanged(::System::Action_1<::InControl::InputDevice*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONACTIVEDEVICECHANGED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::InControl::InputDevice*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONACTIVEDEVICECHANGED_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnActiveDeviceChanged(::System::Action* a1)
+		static ::System::Void remove_OnActiveDeviceChanged(::System::Action_1<::InControl::InputDevice*>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONACTIVEDEVICECHANGED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::InControl::InputDevice*>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONACTIVEDEVICECHANGED_OFFSET))(a1);
 		}
 
-		static ::System::Void add_OnUpdateDevices(::System::Action* a1)
+		static ::System::Void add_OnUpdateDevices(::System::Action_2<::System::UInt64, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONUPDATEDEVICES_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::UInt64, ::System::Single>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONUPDATEDEVICES_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnUpdateDevices(::System::Action* a1)
+		static ::System::Void remove_OnUpdateDevices(::System::Action_2<::System::UInt64, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONUPDATEDEVICES_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::UInt64, ::System::Single>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONUPDATEDEVICES_OFFSET))(a1);
 		}
 
-		static ::System::Void add_OnCommitDevices(::System::Action* a1)
+		static ::System::Void add_OnCommitDevices(::System::Action_2<::System::UInt64, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONCOMMITDEVICES_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::UInt64, ::System::Single>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_ADD_ONCOMMITDEVICES_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_OnCommitDevices(::System::Action* a1)
+		static ::System::Void remove_OnCommitDevices(::System::Action_2<::System::UInt64, ::System::Single>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONCOMMITDEVICES_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_2<::System::UInt64, ::System::Single>*))((::PBYTE)hIl2Cpp + INCONTROL_INPUTMANAGER_REMOVE_ONCOMMITDEVICES_OFFSET))(a1);
 		}
 
 		static ::System::Boolean get_CommandWasPressed()

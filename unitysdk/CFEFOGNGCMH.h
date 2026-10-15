@@ -21,7 +21,7 @@ class KBKFLNHFHPF;
 class KPDKCEAFBHI;
 class PJFJMEEIOCO;
 namespace RPG::Client::B51Racing { class B51RacingGamePlayFinishPageViewModel; }
-namespace RPG::Client::Promises { class IPromise; }
+namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class IDisposable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -117,7 +117,7 @@ inline static constexpr unsigned int CFEFOGNGCMH_TypeDefinitionIndex = 81865;
 		::AAKEKBEKPJA* DDGECBHMPJI; // 0x10
 		::DCNNAGMLENM* _CurrentMatchParams_k__BackingField; // 0x18
 		::System::Collections::Generic::List_1<::ENHPOOFIMBB*>* MNDEAGBNFAJ; // 0x20
-		::RPG::Client::Promises::IPromise* KGJLJHCIMMJ; // 0x28
+		::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>* KGJLJHCIMMJ; // 0x28
 		::DCPFKELPBKE* IBBCJPGLBJK; // 0x30
 		::COMLBAOIJEA* DJFELOPFGIP; // 0x38
 		::HJPABINGLBK* CBIGPGKJAEI; // 0x40
@@ -242,14 +242,14 @@ inline static constexpr unsigned int CFEFOGNGCMH_TypeDefinitionIndex = 81865;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CFEFOGNGCMH_MCACDCOJGJN_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* ENELLPEBGBH(::HPICFNLLMCO a1)
+		::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>* ENELLPEBGBH(::HPICFNLLMCO a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::HPICFNLLMCO))((::PBYTE)hIl2Cpp + CFEFOGNGCMH_ENELLPEBGBH_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>*(*)(::PVOID, ::HPICFNLLMCO))((::PBYTE)hIl2Cpp + CFEFOGNGCMH_ENELLPEBGBH_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::IPromise* NBDEIKBNBLB()
+		::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>* NBDEIKBNBLB()
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CFEFOGNGCMH_NBDEIKBNBLB_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CFEFOGNGCMH_NBDEIKBNBLB_OFFSET))(this);
 		}
 
 		::System::Boolean NOPFBGBHEFM()
@@ -452,9 +452,9 @@ inline static constexpr unsigned int CFEFOGNGCMH_TypeDefinitionIndex = 81865;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CFEFOGNGCMH_CJNMPGDHCDJ_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise* HHLFBGDPKBG(::System::String* a1)
+		::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>* HHLFBGDPKBG(::System::String* a1)
 		{
-			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CFEFOGNGCMH_HHLFBGDPKBG_OFFSET))(this, a1);
+			return ((::RPG::Client::Promises::IPromise_1<::HBFPEEPJOPK*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CFEFOGNGCMH_HHLFBGDPKBG_OFFSET))(this, a1);
 		}
 
 		::System::Void OBPCJGHFBEP()

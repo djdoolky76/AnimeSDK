@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 class CAIMPDABHBE;
 class IFEABBJBIGK;
-namespace System { class Action; }
 namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
@@ -34,7 +34,7 @@ inline static constexpr unsigned int CAIMPDABHBE_TypeDefinitionIndex = 71118;
 	{
 	public:
 		::System::Collections::Generic::Queue_1<::IFEABBJBIGK*>* GDMJOMLMFGM; // 0x10
-		::System::Action* LGAOOKPFIMF; // 0x18
+		::System::Action_2<::CAIMPDABHBE*, ::System::Boolean>* LGAOOKPFIMF; // 0x18
 		::IFEABBJBIGK* NDKHHBEGDJA; // 0x20
 		::System::String* _SequenceName_k__BackingField; // 0x28
 		::System::Collections::Generic::Queue_1<::IFEABBJBIGK*>* FDMJKDCBIGK; // 0x30
@@ -90,9 +90,9 @@ inline static constexpr unsigned int CAIMPDABHBE_TypeDefinitionIndex = 71118;
 			return ((::System::Void(*)(::PVOID, ::IFEABBJBIGK*))((::PBYTE)hIl2Cpp + CAIMPDABHBE_FGLGLHDAEDE_OFFSET))(this, a1);
 		}
 
-		::System::Void HKKFFCBJOKM(::System::Action* a1)
+		::System::Void HKKFFCBJOKM(::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CAIMPDABHBE_HKKFFCBJOKM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::IFEABBJBIGK*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + CAIMPDABHBE_HKKFFCBJOKM_OFFSET))(this, a1);
 		}
 
 		::System::Void KAOLPGACCID()

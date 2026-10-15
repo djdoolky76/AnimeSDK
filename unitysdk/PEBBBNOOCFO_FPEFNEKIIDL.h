@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MapRotation/EffectType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class MapNpcDef; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -26,9 +26,9 @@ inline static constexpr unsigned int PEBBBNOOCFO_FPEFNEKIIDL_TypeDefinitionIndex
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEBBBNOOCFO_FPEFNEKIIDL_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple CPLJLJPLLNC()
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> CPLJLJPLLNC()
 		{
-			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + PEBBBNOOCFO_FPEFNEKIIDL_CPLJLJPLLNC_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + PEBBBNOOCFO_FPEFNEKIIDL_CPLJLJPLLNC_OFFSET))(this);
 		}
 
 		::System::Void Clear()

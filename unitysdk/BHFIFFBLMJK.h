@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class CABPFNJNACD;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class AnimatorButton; }
@@ -118,14 +118,14 @@ inline static constexpr unsigned int BHFIFFBLMJK_TypeDefinitionIndex = 72322;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BHFIFFBLMJK_NHPDCPKMNAM_OFFSET))(this, a1);
 		}
 
-		::System::Void ENKNPKCEAKD(::System::ValueTuple a1)
+		::System::Void ENKNPKCEAKD(::System::ValueTuple_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + BHFIFFBLMJK_ENKNPKCEAKD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>))((::PBYTE)hIl2Cpp + BHFIFFBLMJK_ENKNPKCEAKD_OFFSET))(this, a1);
 		}
 
-		::System::Void IJGBEDJMOAM(::System::ValueTuple a1)
+		::System::Void IJGBEDJMOAM(::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + BHFIFFBLMJK_IJGBEDJMOAM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + BHFIFFBLMJK_IJGBEDJMOAM_OFFSET))(this, a1);
 		}
 
 		::System::Void BLBNMMMDEGO(::System::Int32 a1)

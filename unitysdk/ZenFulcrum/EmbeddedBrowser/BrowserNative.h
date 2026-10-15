@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_Calltype_zfb_addCLISwitch; }
@@ -249,9 +249,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_Calltype_zfb_sendCommandToFocusedFrame**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserNative")->GetStaticField(0x1E4C0);
 		}
 
-		static ::System::Action** StaticGet_onSyncInitRecovered()
+		static ::System::Action_1<::System::Int32>** StaticGet_onSyncInitRecovered()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserNative")->GetStaticField(0x1E4C8);
+			return (::System::Action_1<::System::Int32>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserNative")->GetStaticField(0x1E4C8);
 		}
 
 		static ::System::String** StaticGet__profilePath()
@@ -514,9 +514,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return (::System::Boolean*)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserNative")->GetStaticField(0x6DF5);
 		}
 
-		static ::System::Nullable** StaticGet__hostProcessId()
+		static ::System::Nullable_1<::System::Int32>* StaticGet__hostProcessId()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserNative")->GetStaticField(0x6DF8);
+			return (::System::Nullable_1<::System::Int32>*)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserNative")->GetStaticField(0x6DF8);
 		}
 
 		static ::System::Int32* StaticGet_asyncInitMiliseconds()
@@ -567,14 +567,14 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_SET_ASYNCINITED_OFFSET))(a1);
 		}
 
-		static ::System::Void add_onSyncInitRecovered(::System::Action* a1)
+		static ::System::Void add_onSyncInitRecovered(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_ADD_ONSYNCINITRECOVERED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_ADD_ONSYNCINITRECOVERED_OFFSET))(a1);
 		}
 
-		static ::System::Void remove_onSyncInitRecovered(::System::Action* a1)
+		static ::System::Void remove_onSyncInitRecovered(::System::Action_1<::System::Int32>* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_REMOVE_ONSYNCINITRECOVERED_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_REMOVE_ONSYNCINITRECOVERED_OFFSET))(a1);
 		}
 
 		static ::System::Void NotifySyncInitRecoveredIfNeeded()

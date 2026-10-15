@@ -10,6 +10,7 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
@@ -24,7 +25,7 @@ namespace Cysharp::Threading::Tasks::Linq
 		::System::Threading::CancellationToken cancellationToken; // 0x0
 		::System::Func_3<T, ::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>* onNext; // 0x0
 		::System::Action* onCompleted; // 0x0
-		::System::Action* onError; // 0x0
+		::System::Action_1<::System::Exception*>* onError; // 0x0
 		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<T>* _e_5__2; // 0x0
 		::System::Object* __7__wrap2; // 0x0
 		::System::Int32 __7__wrap3; // 0x0

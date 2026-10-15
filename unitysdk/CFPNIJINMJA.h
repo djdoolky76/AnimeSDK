@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Nullable_1.h"
 class CFPNIJINMJA_PEFBMMJJAMI;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
-namespace System { class Nullable; }
 
 #define CFPNIJINMJA_CTOR_OFFSET UNITYSDK_OFFSET(0xCC60560)
 #define CFPNIJINMJA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC60570)
@@ -39,14 +39,14 @@ inline static constexpr unsigned int CFPNIJINMJA_TypeDefinitionIndex = 81607;
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CFPNIJINMJA_FDICOGMAKED_OFFSET))(this);
 		}
 
-		::System::Nullable* HOGBNAHHPHL()
+		::System::Nullable_1<::System::Int32> HOGBNAHHPHL()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CFPNIJINMJA_HOGBNAHHPHL_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CFPNIJINMJA_HOGBNAHHPHL_OFFSET))(this);
 		}
 
-		::System::Nullable* NANJEPLECBE()
+		::System::Nullable_1<::System::Int32> NANJEPLECBE()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CFPNIJINMJA_NANJEPLECBE_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CFPNIJINMJA_NANJEPLECBE_OFFSET))(this);
 		}
 
 		::CFPNIJINMJA_PEFBMMJJAMI* get_ObtainedScoreDetail()

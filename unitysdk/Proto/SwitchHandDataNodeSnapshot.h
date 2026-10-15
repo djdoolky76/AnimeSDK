@@ -4,8 +4,8 @@
 namespace Google::Protobuf { class ByteString; }
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
-namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class MotionInfoSnapshot; }
 namespace Proto { class SwitchHandDataNodeSnapshot; }
@@ -50,9 +50,9 @@ namespace Proto
 		::System::UInt32 getCoinCount_; // 0x28
 		::System::UInt32 configId_; // 0x2C
 		::System::UInt32 handState_; // 0x30
-		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::SwitchHandDataNodeSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "SwitchHandDataNodeSnapshot")->GetStaticField(0x46530);
+			return (::Google::Protobuf::MessageParser_1<::Proto::SwitchHandDataNodeSnapshot*>**)UnitySDK::FromName("Proto", "SwitchHandDataNodeSnapshot")->GetStaticField(0x46530);
 		}
 
 		// static const ::System::Object ConfigIdFieldNumber; // 0x0
@@ -75,9 +75,9 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_SWITCHHANDDATANODESNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser* get_Parser()
+		static ::Google::Protobuf::MessageParser_1<::Proto::SwitchHandDataNodeSnapshot*>* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_SWITCHHANDDATANODESNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser_1<::Proto::SwitchHandDataNodeSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_SWITCHHANDDATANODESNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Net/Http/Headers/Token.h"
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net::Http::Headers { class Lexer; }
@@ -28,20 +28,20 @@ namespace System::Net::Http::Headers
 	{
 	public:
 		::System::String* _Value_k__BackingField; // 0x10
-		::System::Nullable* _Quality_k__BackingField; // 0x18
+		::System::Nullable_1<::System::Double> _Quality_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_CTOR_OFFSET))(this);
 		}
 
-		::System::Nullable* get_Quality()
+		::System::Nullable_1<::System::Double> get_Quality()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_QUALITY_OFFSET))(this);
+			return ((::System::Nullable_1<::System::Double>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_QUALITY_OFFSET))(this);
 		}
 
-		::System::Void set_Quality(::System::Nullable* a1)
+		::System::Void set_Quality(::System::Nullable_1<::System::Double> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_QUALITY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Double>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_QUALITY_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Value()

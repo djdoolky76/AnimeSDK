@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceClass.h"
 #include "unitysdk/RPG/Client/FateRin/Battle/FateRinBattleHudInputMode.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Nullable; }
 
 #define PKBMFGOFMIA_IDOGNCKEJOK_OFFSET UNITYSDK_OFFSET(0xC2AC1C0)
 #define PKBMFGOFMIA_JPKNMGAMPDI_OFFSET UNITYSDK_OFFSET(0xC2AC370)
@@ -16,9 +16,9 @@ inline static constexpr unsigned int PKBMFGOFMIA_TypeDefinitionIndex = 80931;
 	class PKBMFGOFMIA : public ::System::Object
 	{
 	public:
-		static ::System::Nullable** StaticGet_LIFJGCHKADB()
+		static ::System::Nullable_1<::RPG::Client::FateRin::Battle::FateRinBattleHudInputMode>* StaticGet_LIFJGCHKADB()
 		{
-			return (::System::Nullable**)UnitySDK::FromName("", "PKBMFGOFMIA")->GetStaticField(0x15AB0);
+			return (::System::Nullable_1<::RPG::Client::FateRin::Battle::FateRinBattleHudInputMode>*)UnitySDK::FromName("", "PKBMFGOFMIA")->GetStaticField(0x15AB0);
 		}
 
 		static ::RPG::Client::FateRin::Battle::FateRinBattleHudInputMode OHNHFLKMONK()

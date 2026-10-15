@@ -3,9 +3,9 @@
 #include "unitysdk/System/Diagnostics/Tracing/EventKeywords.h"
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
-namespace System { class Action; }
 namespace System { class String; }
-namespace System { class Tuple; }
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Diagnostics::Tracing { class ActivityFilter; }
@@ -32,8 +32,8 @@ namespace System::Diagnostics::Tracing
 	class ActivityFilter : public ::System::Object
 	{
 	public:
-		::System::Action* m_myActivityDelegate; // 0x10
-		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Guid, ::System::Tuple*>* m_rootActiveActivities; // 0x18
+		::System::Action_1<::System::Guid>* m_myActivityDelegate; // 0x10
+		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Guid, ::System::Tuple_2<::System::Guid, ::System::Int32>*>* m_rootActiveActivities; // 0x18
 		::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Guid, ::System::Int32>* m_activeActivities; // 0x20
 		::System::Diagnostics::Tracing::ActivityFilter* m_next; // 0x28
 		::System::Int32 m_perEventSourceSessionId; // 0x30
@@ -71,9 +71,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::System::Diagnostics::Tracing::ActivityFilter*, ::System::Guid, ::System::Diagnostics::Tracing::EventSource*, ::System::Diagnostics::Tracing::EventKeywords))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_UPDATEKWDTRIGGERS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Tuple*>* GetFilterAsTuple(::System::Guid a1)
+		::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::Int32, ::System::Int32>*>* GetFilterAsTuple(::System::Guid a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple*>*(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETFILTERASTUPLE_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Tuple_2<::System::Int32, ::System::Int32>*>*(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETFILTERASTUPLE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -86,9 +86,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::System::Diagnostics::Tracing::ActivityFilter*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_ENSUREACTIVITYCLEANUPDELEGATE_OFFSET))(a1);
 		}
 
-		static ::System::Action* GetActivityDyingDelegate(::System::Diagnostics::Tracing::ActivityFilter* a1)
+		static ::System::Action_1<::System::Guid>* GetActivityDyingDelegate(::System::Diagnostics::Tracing::ActivityFilter* a1)
 		{
-			return ((::System::Action*(*)(::System::Diagnostics::Tracing::ActivityFilter*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETACTIVITYDYINGDELEGATE_OFFSET))(a1);
+			return ((::System::Action_1<::System::Guid>*(*)(::System::Diagnostics::Tracing::ActivityFilter*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER_GETACTIVITYDYINGDELEGATE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean EnableFilter(::System::Diagnostics::Tracing::ActivityFilter* a1, ::System::Diagnostics::Tracing::EventSource* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)

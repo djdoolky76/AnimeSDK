@@ -6,10 +6,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class GridFightConsumableItemConfig; }
 namespace RPG::Client { class GridFightEquipItemConfig; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
@@ -253,9 +253,9 @@ namespace RPG::Client
 			return ((::RPG::Client::GridFightPlacementType(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUTILS_GETPLACEMENTTYPE_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetRoleBuyPrice(::System::UInt32 a1, ::System::UInt32 a2, ::System::Nullable* a3)
+		static ::System::UInt32 GetRoleBuyPrice(::System::UInt32 a1, ::System::UInt32 a2, ::System::Nullable_1<::System::UInt32> a3)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUTILS_GETROLEBUYPRICE_OFFSET))(a1, a2, a3);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUTILS_GETROLEBUYPRICE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::UInt32 GetRoleSellPrice(::System::UInt32 a1, ::System::UInt32 a2)

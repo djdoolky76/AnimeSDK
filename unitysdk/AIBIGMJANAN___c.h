@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class HCBJDLLMJLC;
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define AIBIGMJANAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEB94040)
 #define AIBIGMJANAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEB94080)
@@ -14,9 +14,9 @@ inline static constexpr unsigned int AIBIGMJANAN___c_TypeDefinitionIndex = 62784
 	class AIBIGMJANAN___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__0_0()
+		static ::System::Action_1<::HCBJDLLMJLC*>** StaticGet___9__0_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57810);
+			return (::System::Action_1<::HCBJDLLMJLC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57810);
 		}
 
 		static ::System::Object** StaticGet___9()

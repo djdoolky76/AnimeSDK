@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/DefaultTabs.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace SRDebugger { class ActionCompleteCallback; }
 namespace SRDebugger { class DynamicOptionContainer; }
@@ -16,7 +17,6 @@ namespace SRDebugger::Services { class IOptionsService; }
 namespace SRDebugger::Services { class IPinnedUIService; }
 namespace SRDebugger::Services { class ISystemInformationService; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
@@ -72,7 +72,7 @@ namespace SRDebugger::Services::Implementation
 		::SRDebugger::PinnedUiCanvasCreated* PinnedUiCanvasCreated; // 0x48
 		::SRDebugger::Services::IDebugPanelService* _debugPanelService; // 0x50
 		::System::Action* _OnClose; // 0x58
-		::System::Nullable* _queuedTab; // 0x60
+		::System::Nullable_1<::SRDebugger::DefaultTabs> _queuedTab; // 0x60
 		::System::Boolean _entryCodeEnabled; // 0x68
 		::System::Boolean _hasAuthorised; // 0x69
 		::System::Void _ctor()

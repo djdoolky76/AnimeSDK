@@ -5,16 +5,17 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/PLHLAIJKMOD.h"
 #include "unitysdk/R3/Unit.h"
-#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 class CEEGMMCFCBG;
 class CHGHIALKMFM;
 class FBKKFMONGAA;
 class NKIJFPHFJCO;
-namespace R3 { class Observable; }
+namespace R3 { template <typename T> class Observable_1; }
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
@@ -161,9 +162,9 @@ inline static constexpr unsigned int IAJGGEMFOMB_TypeDefinitionIndex = 79480;
 			return ((::R3::ReactiveProperty_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGGEMFOMB_RPG_CLIENT_MECHCRAFT_VIEWMODEL_IMECHCRAFTCRAFTEDITSOURCEVIEWMODEL_GET_ISDRAGGED_OFFSET))(this);
 		}
 
-		::System::Nullable* PJGDBDMELDO()
+		::System::Nullable_1<::PLHLAIJKMOD> PJGDBDMELDO()
 		{
-			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGGEMFOMB_PJGDBDMELDO_OFFSET))(this);
+			return ((::System::Nullable_1<::PLHLAIJKMOD>(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGGEMFOMB_PJGDBDMELDO_OFFSET))(this);
 		}
 
 		::CHGHIALKMFM* KPGFBIIMIHM()
@@ -171,9 +172,9 @@ inline static constexpr unsigned int IAJGGEMFOMB_TypeDefinitionIndex = 79480;
 			return ((::CHGHIALKMFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGGEMFOMB_KPGFBIIMIHM_OFFSET))(this);
 		}
 
-		::R3::Observable* CMCNEMKBBMJ()
+		::R3::Observable_1<::System::Boolean>* CMCNEMKBBMJ()
 		{
-			return ((::R3::Observable*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGGEMFOMB_CMCNEMKBBMJ_OFFSET))(this);
+			return ((::R3::Observable_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGGEMFOMB_CMCNEMKBBMJ_OFFSET))(this);
 		}
 
 		::System::Boolean CIONLNIEJND()
@@ -291,9 +292,9 @@ inline static constexpr unsigned int IAJGGEMFOMB_TypeDefinitionIndex = 79480;
 			return ((::PLHLAIJKMOD(*)(::PVOID, ::R3::Unit))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___CTOR_B__57_2_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* __ctor_b__57_4(::System::ValueTuple a1, ::System::Int32 a2)
+		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* __ctor_b__57_4(::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean> a1, ::System::Int32 a2)
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*(*)(::PVOID, ::System::ValueTuple, ::System::Int32))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___CTOR_B__57_4_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*(*)(::PVOID, ::System::ValueTuple_2<::PLHLAIJKMOD, ::System::Boolean>, ::System::Int32))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___CTOR_B__57_4_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __ctor_b__57_5(::System::Action* a1)
@@ -326,9 +327,9 @@ inline static constexpr unsigned int IAJGGEMFOMB_TypeDefinitionIndex = 79480;
 			return ((::System::Boolean(*)(::PVOID, ::R3::Unit))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___CTOR_B__57_10_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* __ctor_b__57_12(::System::ValueTuple a1, ::System::Int32 a2)
+		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* __ctor_b__57_12(::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean> a1, ::System::Int32 a2)
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*(*)(::PVOID, ::System::ValueTuple, ::System::Int32))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___CTOR_B__57_12_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*(*)(::PVOID, ::System::ValueTuple_3<::PLHLAIJKMOD, ::System::Boolean, ::System::Boolean>, ::System::Int32))((::PBYTE)hIl2Cpp + IAJGGEMFOMB___CTOR_B__57_12_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void __ctor_b__57_13(::System::Action* a1)

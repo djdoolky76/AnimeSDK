@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueFormulaData; }
 namespace RPG::Client { class RogueTournHexData; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
@@ -19,14 +19,14 @@ inline static constexpr unsigned int PHODDAGHLFG___c_TypeDefinitionIndex = 67520
 	class PHODDAGHLFG___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable*>** StaticGet___9__1_0()
+		static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6A0);
+			return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6A0);
 		}
 
-		static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable*>** StaticGet___9__1_1()
+		static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6A8);
+			return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6A8);
 		}
 
 		static ::System::Object** StaticGet___9()
@@ -34,14 +34,14 @@ inline static constexpr unsigned int PHODDAGHLFG___c_TypeDefinitionIndex = 67520
 			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6B0);
 		}
 
-		static ::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable*>** StaticGet___9__1_2()
+		static ::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6B8);
+			return (::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6B8);
 		}
 
-		static ::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable*>** StaticGet___9__1_3()
+		static ::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_3()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6C0);
+			return (::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F6C0);
 		}
 
 		static ::System::Void _cctor()
@@ -54,24 +54,24 @@ inline static constexpr unsigned int PHODDAGHLFG___c_TypeDefinitionIndex = 67520
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Nullable* _ToString_b__1_0(::RPG::Client::RogueFormulaData* a1)
+		::System::Nullable_1<::System::UInt32> _ToString_b__1_0(::RPG::Client::RogueFormulaData* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C__TOSTRING_B__1_0_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C__TOSTRING_B__1_0_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* _ToString_b__1_1(::RPG::Client::RogueFormulaData* a1)
+		::System::Nullable_1<::System::UInt32> _ToString_b__1_1(::RPG::Client::RogueFormulaData* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C__TOSTRING_B__1_1_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::RPG::Client::RogueFormulaData*))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C__TOSTRING_B__1_1_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* _ToString_b__1_2(::RPG::Client::RogueTournHexData* a1)
+		::System::Nullable_1<::System::UInt32> _ToString_b__1_2(::RPG::Client::RogueTournHexData* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::Client::RogueTournHexData*))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C__TOSTRING_B__1_2_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::RPG::Client::RogueTournHexData*))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C__TOSTRING_B__1_2_OFFSET))(this, a1);
 		}
 
-		::System::Nullable* _ToString_b__1_3(::RPG::Client::RogueTournHexData* a1)
+		::System::Nullable_1<::System::UInt32> _ToString_b__1_3(::RPG::Client::RogueTournHexData* a1)
 		{
-			return ((::System::Nullable*(*)(::PVOID, ::RPG::Client::RogueTournHexData*))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C__TOSTRING_B__1_3_OFFSET))(this, a1);
+			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID, ::RPG::Client::RogueTournHexData*))((::PBYTE)hIl2Cpp + PHODDAGHLFG___C__TOSTRING_B__1_3_OFFSET))(this, a1);
 		}
 
 	};

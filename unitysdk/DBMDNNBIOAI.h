@@ -7,7 +7,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client { class TriggerEffectParams; }
-namespace System { class Action; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
@@ -30,7 +30,7 @@ inline static constexpr unsigned int DBMDNNBIOAI_TypeDefinitionIndex = 68770;
 	{
 	public:
 		::EAPGFKLGCDH OFPEBOOCBCA; // 0x10
-		::System::Action* PNELGAPKCLO; // 0x20
+		::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>* PNELGAPKCLO; // 0x20
 		::System::Collections::Generic::List_1<::HPPNJDAKAKO>* FCJMMJPPFGN; // 0x28
 		::RPG::Client::TriggerEffectParamsRef JMLEIELGEJH; // 0x30
 		::UnityEngine::Animator* BNGAPGKMAEG; // 0x40

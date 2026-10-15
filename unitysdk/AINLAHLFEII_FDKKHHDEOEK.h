@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IMPNPPMLNPH.h"
 #include "unitysdk/LKLOMEEPIEM.h"
+#include "unitysdk/System/Nullable_1.h"
 class AINLAHLFEII;
 namespace RPG::GameCore { class FreeStyleController; }
 namespace RPG::GameCore { class FreeStyleMotionInfoConfig; }
-namespace System { class Nullable; }
 
 #define AINLAHLFEII_FDKKHHDEOEK_CTOR_OFFSET UNITYSDK_OFFSET(0x12CA9060)
 #define AINLAHLFEII_FDKKHHDEOEK_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x12CACE50)
@@ -16,7 +16,7 @@ inline static constexpr unsigned int AINLAHLFEII_FDKKHHDEOEK_TypeDefinitionIndex
 	{
 	public:
 		::RPG::GameCore::FreeStyleMotionInfoConfig* CIKPBGDIABO; // 0x10
-		::System::Nullable* JBMDOCDAKMH; // 0x18
+		::System::Nullable_1<::LKLOMEEPIEM> JBMDOCDAKMH; // 0x18
 		::System::Byte _padding0[0x1C];
 		::System::UInt32 BBBOEBDNOHD; // 0x3C
 		::System::Int32 PLMMBJPPJKL; // 0x40

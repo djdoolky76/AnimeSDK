@@ -9,8 +9,8 @@ class HBFPEEPJOPK;
 class IDCOJJANCCK;
 class OJHMEHAHDNI;
 namespace RPG::Client::Promises { class IPromise; }
-namespace System { class Action; }
 namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
 
 #define EJOKHBOJHNA_ADD_AGENDACOMPLETED_OFFSET UNITYSDK_OFFSET(0x154F4340)
 #define EJOKHBOJHNA_ANELIPPLCFA_OFFSET UNITYSDK_OFFSET(0x154F4550)
@@ -39,7 +39,7 @@ inline static constexpr unsigned int EJOKHBOJHNA_TypeDefinitionIndex = 81847;
 		::BFGMJKEJPNA* LKLLCAPNOIA; // 0x10
 		::EOIDGOCDJIH* KIHHIOMBIMJ; // 0x18
 		::OJHMEHAHDNI* JDGBDKHIEGG; // 0x20
-		::System::Action* AgendaCompleted; // 0x28
+		::System::Action_1<::BFGMJKEJPNA*>* AgendaCompleted; // 0x28
 		::System::UInt32 HBFKNAKIJCF; // 0x30
 		::System::Void _ctor()
 		{
@@ -56,14 +56,14 @@ inline static constexpr unsigned int EJOKHBOJHNA_TypeDefinitionIndex = 81847;
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EJOKHBOJHNA_APNHKKNJCPA_OFFSET))(this);
 		}
 
-		::System::Void add_AgendaCompleted(::System::Action* a1)
+		::System::Void add_AgendaCompleted(::System::Action_1<::BFGMJKEJPNA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + EJOKHBOJHNA_ADD_AGENDACOMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::BFGMJKEJPNA*>*))((::PBYTE)hIl2Cpp + EJOKHBOJHNA_ADD_AGENDACOMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_AgendaCompleted(::System::Action* a1)
+		::System::Void remove_AgendaCompleted(::System::Action_1<::BFGMJKEJPNA*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + EJOKHBOJHNA_REMOVE_AGENDACOMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::BFGMJKEJPNA*>*))((::PBYTE)hIl2Cpp + EJOKHBOJHNA_REMOVE_AGENDACOMPLETED_OFFSET))(this, a1);
 		}
 
 		static ::OJHMEHAHDNI* LEGODONNFCD()

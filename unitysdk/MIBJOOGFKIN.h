@@ -4,7 +4,7 @@
 class PMOMDOHCCOO;
 namespace InControl { class PlayerAction; }
 namespace RPG::Client::ActivityHipplen { class HipplenPickingGoodsMiniGame; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MIBJOOGFKIN_COPGACEDIEI_OFFSET UNITYSDK_OFFSET(0xB94F310)
@@ -32,7 +32,7 @@ inline static constexpr unsigned int MIBJOOGFKIN_TypeDefinitionIndex = 75594;
 		::InControl::PlayerAction* MEDILGIIOLJ; // 0x10
 		::RPG::Client::ActivityHipplen::HipplenPickingGoodsMiniGame* CFKHNPGEAJA; // 0x18
 		::InControl::PlayerAction* BALLPEHFNDO; // 0x20
-		::System::Action* GEAGJFCMECN; // 0x28
+		::System::Action_1<::PMOMDOHCCOO*>* GEAGJFCMECN; // 0x28
 		::InControl::PlayerAction* HGJBOEJPOJE; // 0x30
 		::System::Collections::Generic::List_1<::PMOMDOHCCOO*>* NIDNFEHJJLJ; // 0x38
 		::PMOMDOHCCOO* HGENBAEMGJO; // 0x40
@@ -69,9 +69,9 @@ inline static constexpr unsigned int MIBJOOGFKIN_TypeDefinitionIndex = 75594;
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MIBJOOGFKIN_JLANKNHFKCN_OFFSET))(this, a1);
 		}
 
-		::System::Void OLLLFEAKKNO(::System::Action* a1)
+		::System::Void OLLLFEAKKNO(::System::Action_1<::PMOMDOHCCOO*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIBJOOGFKIN_OLLLFEAKKNO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::PMOMDOHCCOO*>*))((::PBYTE)hIl2Cpp + MIBJOOGFKIN_OLLLFEAKKNO_OFFSET))(this, a1);
 		}
 
 		::System::Void DOELKGDFBKA(::System::Single a1)

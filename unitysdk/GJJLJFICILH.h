@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 class AJJOBOBLIEF;
 namespace RPG::Client::PetMarble::Level { class PetMarbleLevelMode; }
-namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
 
 #define GJJLJFICILH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15A6A110)
 #define GJJLJFICILH_CTOR_OFFSET UNITYSDK_OFFSET(0x15A6A0C0)
@@ -30,9 +30,9 @@ inline static constexpr unsigned int GJJLJFICILH_TypeDefinitionIndex = 74743;
 			return ((::RPG::Client::PetMarble::Level::PetMarbleLevelMode*(*)(::PVOID, ::RPG::Client::PetMarble::Level::PetMarbleLevelModeType))((::PBYTE)hIl2Cpp + GJJLJFICILH_BPLPBPMEODA_OFFSET))(this, a1);
 		}
 
-		::System::Void FLNFFKJGDCK(::System::Action* a1)
+		::System::Void FLNFFKJGDCK(::System::Action_1<::RPG::Client::PetMarble::Level::PetMarbleLevelModeType>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + GJJLJFICILH_FLNFFKJGDCK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::PetMarble::Level::PetMarbleLevelModeType>*))((::PBYTE)hIl2Cpp + GJJLJFICILH_FLNFFKJGDCK_OFFSET))(this, a1);
 		}
 
 		::System::Void EAADDDAKLBC()

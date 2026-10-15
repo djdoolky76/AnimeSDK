@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/FastDeliverPuzzleStep.h"
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -12,7 +13,6 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Action; }
-namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -174,7 +174,7 @@ namespace RPG::Client::Prop
 		::System::Boolean HasPuzzleAimFinish; // 0x1DE
 		::System::Boolean KJKGBBIELNH; // 0x1DF
 		::RPG::GameCore::PropInitPuzzle* BGLJBLDOEPD; // 0x1E0
-		::System::Nullable* HLKJEGFDLJL; // 0x1E8
+		::System::Nullable_1<::UnityEngine::Vector3> HLKJEGFDLJL; // 0x1E8
 		::System::Byte _padding8[0x8];
 		::System::Boolean KBEBIAHLICN; // 0x1F8
 		::System::Boolean EDEAJIKHHOE; // 0x1F9
@@ -269,9 +269,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD_NOPABKJMHEF_OFFSET))(this, a1);
 		}
 
-		::System::Void InitData(::RPG::GameCore::GameEntity* a1, ::System::Single a2, ::System::Nullable* a3, ::System::Nullable* a4)
+		::System::Void InitData(::RPG::GameCore::GameEntity* a1, ::System::Single a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Nullable_1<::System::Single> a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD_INITDATA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD_INITDATA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ODEKGGJJDKO(::System::Object* a1)

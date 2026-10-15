@@ -5,9 +5,9 @@ class ACNNPBJEOFJ;
 class FKIAHEEJGKH;
 class HDLCAPDIKJI;
 class HMFFHLKHOMJ;
-namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
 #define JEHEMLENCIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x166275F0)
@@ -28,9 +28,9 @@ inline static constexpr unsigned int JEHEMLENCIE___c_TypeDefinitionIndex = 79043
 			return (::System::Func_2<::FKIAHEEJGKH*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27B0);
 		}
 
-		static ::System::Action** StaticGet___9__14_3()
+		static ::System::Action_1<::HMFFHLKHOMJ*>** StaticGet___9__14_3()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27B8);
+			return (::System::Action_1<::HMFFHLKHOMJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27B8);
 		}
 
 		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::ACNNPBJEOFJ*>*, ::HDLCAPDIKJI*>** StaticGet___9__14_2()
