@@ -6,7 +6,7 @@ Each game lives in its own dedicated branch with its complete SDK files.
 ## Available Branches
 
 - `honkai-star-rail` — Honkai: Star Rail
-- `zenless-zone-zero` — Zenless Zone Zero
+- ~~`zenless-zone-zero` — Zenless Zone Zero~~
 
 To get the SDK for a specific game, just switch to the corresponding branch:
 
